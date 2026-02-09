@@ -1,0 +1,103 @@
+{
+  "id": "88d99381-0ddc-4e74-9f1f-62150fc7cac7",
+  "sourceQuestion": "彼は直ぐに<b>謝りました</b>。",
+  "userQuestion": "",
+  "activeQuestion": "彼は直ぐに謝りました。",
+  "sourceAnswer": "He apologized at once.",
+  "userAnswer": "",
+  "activeAnswer": "He apologized at once.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "かれ は すぐ に <b>あやまりました</b>",
+  "externalId": "sentence:249819",
+  "audio": "[sound:b1f91574edbf390ae8763198396baa70.mp3]",
+  "screenshot": "<img src=\"28acf13a5d6550c10fa225d66ceec6f2.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "謝る"
+    ],
+    "incorrectMatches": [
+      {
+        "word": "に謝る",
+        "index": -1
+      }
+    ],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "彼は直ぐに謝りました。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "彼",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 1,
+        "isDisplayed": true,
+        "parsedForm": "は",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "直ぐに",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "直ぐ",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": false,
+        "parsedForm": "に",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 5,
+        "isDisplayed": true,
+        "parsedForm": "謝る",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 7,
+        "isDisplayed": true,
+        "parsedForm": "ました",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 7,
+        "isDisplayed": false,
+        "parsedForm": "ます",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 9,
+        "isDisplayed": false,
+        "parsedForm": "た",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::3",
+    "-::sentence::uses::incorrect-matches",
+    "source::core2000::step08"
+  ]
+}

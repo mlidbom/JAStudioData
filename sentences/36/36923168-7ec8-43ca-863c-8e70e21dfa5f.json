@@ -1,0 +1,77 @@
+{
+  "id": "36923168-7ec8-43ca-863c-8e70e21dfa5f",
+  "sourceQuestion": "ここは<b>一方</b>通行です。",
+  "userQuestion": "",
+  "activeQuestion": "ここは一方通行です。",
+  "sourceAnswer": "This is a one-way street.",
+  "userAnswer": "",
+  "activeAnswer": "This is a one-way street.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "ここ は <b>いっぽう</b> つうこう です",
+  "externalId": "sentence:247803",
+  "audio": "[sound:d1bc2ca796857bbce4b7fd1e0559c6c1.mp3]",
+  "screenshot": "<img src=\"088c6d6048c06eb0c25424898ffc4abb.jpg\" />",
+  "configuration": {
+    "highlightedWords": [
+      "一方"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "ここは一方通行です。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "ここ",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "は",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "一方通行",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": false,
+        "parsedForm": "一方",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": false,
+        "parsedForm": "通行",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 7,
+        "isDisplayed": true,
+        "parsedForm": "です",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::3",
+    "legacy_scheduling",
+    "source::core2000::step03"
+  ]
+}

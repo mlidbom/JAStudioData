@@ -1,0 +1,90 @@
+{
+  "id": "df2b91d8-c8e9-46a8-b9e9-966ab90dba54",
+  "sourceQuestion": "昨日<b>床屋</b>で髪を切った。",
+  "userQuestion": "",
+  "activeQuestion": "昨日床屋で髪を切った。",
+  "sourceAnswer": "Yesterday I had my hair cut at the barber's.",
+  "userAnswer": "",
+  "activeAnswer": "Yesterday I had my hair cut at the barber's.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "きのう <b>とこや</b> で かみ を きった",
+  "externalId": "sentence:250267",
+  "audio": "[sound:cb76813c0e9d2a6f411afdd07bf81234.mp3]",
+  "screenshot": "<img src=\"28ca685f09c20321ce2ac59ea8c754f5.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "床屋"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "昨日床屋で髪を切った。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "昨日",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "床屋",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "で",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 5,
+        "isDisplayed": true,
+        "parsedForm": "髪を切る",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": false,
+        "parsedForm": "髪",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "を",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 7,
+        "isDisplayed": false,
+        "parsedForm": "切る",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 9,
+        "isDisplayed": true,
+        "parsedForm": "た",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::4",
+    "source::core2000::step09"
+  ]
+}

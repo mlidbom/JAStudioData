@@ -1,0 +1,104 @@
+{
+  "id": "d7f15f26-8a25-4d7c-96fc-199aa9a67f67",
+  "sourceQuestion": "<b>レストラン</b>でインド料理を食べました。",
+  "userQuestion": "",
+  "activeQuestion": "レストランでインド料理を食べました。",
+  "sourceAnswer": "I ate Indian food at the restaurant.",
+  "userAnswer": "",
+  "activeAnswer": "I ate Indian food at the restaurant.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "<b>れすとらん</b> で いんど りょうり を たべました",
+  "externalId": "sentence:248963",
+  "audio": "[sound:41826ef7102d4a2551418b13835977e9.mp3]",
+  "screenshot": "<img src=\"c6eaffcba764ed6627760067a570d82b.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "レストラン"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "レストランでインド料理を食べました。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "レストラン",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": true,
+        "parsedForm": "で",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": true,
+        "parsedForm": "インド料理",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "インド",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 9,
+        "isDisplayed": false,
+        "parsedForm": "料理",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 11,
+        "isDisplayed": true,
+        "parsedForm": "を",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 12,
+        "isDisplayed": true,
+        "parsedForm": "食べる",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 14,
+        "isDisplayed": true,
+        "parsedForm": "ました",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 14,
+        "isDisplayed": false,
+        "parsedForm": "ます",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 16,
+        "isDisplayed": false,
+        "parsedForm": "た",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::4",
+    "source::core2000::step06"
+  ]
+}

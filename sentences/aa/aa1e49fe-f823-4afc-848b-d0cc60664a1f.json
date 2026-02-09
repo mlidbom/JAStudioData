@@ -1,0 +1,83 @@
+{
+  "id": "aa1e49fe-f823-4afc-848b-d0cc60664a1f",
+  "sourceQuestion": "靴を<b>脱いで</b>ください。",
+  "userQuestion": "",
+  "activeQuestion": "靴を脱いでください。",
+  "sourceAnswer": "Please take off your shoes.",
+  "userAnswer": "",
+  "activeAnswer": "Please take off your shoes.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "くつ を <b>ぬいで</b> ください",
+  "externalId": "sentence:249857",
+  "audio": "[sound:7a6184a4075a7e2560a09457a044ae49.mp3]",
+  "screenshot": "<img src=\"fa0419efcceed42cbaaad6e468f136cf.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "脱ぐ"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "靴を脱いでください。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "靴",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 1,
+        "isDisplayed": true,
+        "parsedForm": "を",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "脱ぐ",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "いで",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": true,
+        "parsedForm": "ください",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 5,
+        "isDisplayed": false,
+        "parsedForm": "くださる",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 8,
+        "isDisplayed": false,
+        "parsedForm": "い",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::3",
+    "source::core2000::step08"
+  ]
+}

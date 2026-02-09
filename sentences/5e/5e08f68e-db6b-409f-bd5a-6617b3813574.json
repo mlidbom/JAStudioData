@@ -1,0 +1,112 @@
+{
+  "id": "5e08f68e-db6b-409f-bd5a-6617b3813574",
+  "sourceQuestion": "朝ごはん食べてこなかったの",
+  "userQuestion": "",
+  "activeQuestion": "朝ごはん食べてこなかったの",
+  "sourceAnswer": "[You] ate breakfast and did not come?",
+  "userAnswer": "You didn't eat breakfast before coming?",
+  "activeAnswer": "You didn't eat breakfast before coming?",
+  "sourceComments": "",
+  "userComments": "While, allegedly, normally only the last part of a て chain is affected by a negation, for some reason that is not the case here. The AI's spout various explations for this that I don't trust. at 4:35 <a href=\"https://www.hidive.com/video/553377?seasonId=19500\">here</a>",
+  "reading": "あさごはん たべて こなかった の",
+  "externalId": "1600428420000",
+  "audio": "[sound:1600428420000.mp3]",
+  "screenshot": "<img src=\"1600428420000.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "朝ごはん"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "朝ごはん食べてこなかったの",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "朝ごはん",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": false,
+        "parsedForm": "朝",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 1,
+        "isDisplayed": false,
+        "parsedForm": "ごはん",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "食べる",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 6,
+        "isDisplayed": true,
+        "parsedForm": "てくる",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "て",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 7,
+        "isDisplayed": false,
+        "parsedForm": "くる",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 8,
+        "isDisplayed": true,
+        "parsedForm": "なかった",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 8,
+        "isDisplayed": false,
+        "parsedForm": "ない",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 11,
+        "isDisplayed": false,
+        "parsedForm": "た",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 12,
+        "isDisplayed": true,
+        "parsedForm": "の",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::medium::15-jlab-beginner",
+    "-::sentence::difficulty::3",
+    "legacy_scheduling",
+    "source::jlab::beginner"
+  ]
+}

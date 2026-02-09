@@ -1,0 +1,90 @@
+{
+  "id": "7aae0a23-e3b0-41b9-a0c0-e07b8e45148d",
+  "sourceQuestion": "あとで<b>電話</b>します。",
+  "userQuestion": "",
+  "activeQuestion": "あとで電話します。",
+  "sourceAnswer": "I will call you later.",
+  "userAnswer": "",
+  "activeAnswer": "I will call you later.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "あとで <b>でんわ</b> します",
+  "externalId": "sentence:248049",
+  "audio": "[sound:7463b5409793edbb884113008a6acd52.mp3]",
+  "screenshot": "<img src=\"d2eddcdbff4e37c49b04fdf39998c395.jpg\" />",
+  "configuration": {
+    "highlightedWords": [
+      "電話"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "あとで電話します。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "あとで",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": false,
+        "parsedForm": "あと",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "で",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "電話する",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": false,
+        "parsedForm": "電話",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": false,
+        "parsedForm": "します",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 5,
+        "isDisplayed": false,
+        "parsedForm": "する",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": true,
+        "parsedForm": "ます",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::2",
+    "source::core2000::step03"
+  ]
+}

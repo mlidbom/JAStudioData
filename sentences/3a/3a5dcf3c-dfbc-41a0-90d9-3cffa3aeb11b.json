@@ -1,0 +1,91 @@
+{
+  "id": "3a5dcf3c-dfbc-41a0-90d9-3cffa3aeb11b",
+  "sourceQuestion": "<b>八百屋</b>でみかんを買いました。",
+  "userQuestion": "",
+  "activeQuestion": "八百屋でみかんを買いました。",
+  "sourceAnswer": "I bought a tangerine at the grocery store.",
+  "userAnswer": "",
+  "activeAnswer": "I bought a tangerine at the grocery store.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "<b>やおや</b> で みかん を かいました",
+  "externalId": "sentence:250037",
+  "audio": "[sound:68b5f32d87f1dee612ac295209b7b20f.mp3]",
+  "screenshot": "<img src=\"7b6f58490ca712331a7fa1be53602dee.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "八百屋",
+      "みかん"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "八百屋でみかんを買いました。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "八百屋",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "で",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "みかん",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 7,
+        "isDisplayed": true,
+        "parsedForm": "を",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 8,
+        "isDisplayed": true,
+        "parsedForm": "買う",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 10,
+        "isDisplayed": true,
+        "parsedForm": "ました",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 10,
+        "isDisplayed": false,
+        "parsedForm": "ます",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 12,
+        "isDisplayed": false,
+        "parsedForm": "た",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::4",
+    "source::core2000::step08"
+  ]
+}

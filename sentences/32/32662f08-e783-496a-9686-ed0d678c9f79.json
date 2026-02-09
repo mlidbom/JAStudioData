@@ -1,0 +1,83 @@
+{
+  "id": "32662f08-e783-496a-9686-ed0d678c9f79",
+  "sourceQuestion": "昨日、<b>孫</b>が生まれました。",
+  "userQuestion": "",
+  "activeQuestion": "昨日、孫が生まれました。",
+  "sourceAnswer": "My grandchild was born yesterday.",
+  "userAnswer": "",
+  "activeAnswer": "My grandchild was born yesterday.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "きのう <b>まご</b> が うまれました",
+  "externalId": "sentence:250875",
+  "audio": "[sound:9ea3a3fb5f2323e2808319a8014479af.mp3]",
+  "screenshot": "<img src=\"6d3dabddca65f10de486cc50c0b9d602.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "孫"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "昨日、孫が生まれました。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "昨日",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "孫",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "が",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 5,
+        "isDisplayed": true,
+        "parsedForm": "生まれる",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 8,
+        "isDisplayed": true,
+        "parsedForm": "ました",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 8,
+        "isDisplayed": false,
+        "parsedForm": "ます",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 10,
+        "isDisplayed": false,
+        "parsedForm": "た",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::4",
+    "source::core2000::step10"
+  ]
+}

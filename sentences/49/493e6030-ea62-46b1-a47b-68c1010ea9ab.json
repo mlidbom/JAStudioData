@@ -1,0 +1,76 @@
+{
+  "id": "493e6030-ea62-46b1-a47b-68c1010ea9ab",
+  "sourceQuestion": "車を<b>止めて</b>。",
+  "userQuestion": "",
+  "activeQuestion": "車を止めて。",
+  "sourceAnswer": "Stop the car.",
+  "userAnswer": "",
+  "activeAnswer": "Stop the car.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "くるま を <b>とめて</b>",
+  "externalId": "sentence:250111",
+  "audio": "[sound:0191d113f33e7a3a41d5a362b4592a3e.mp3]",
+  "screenshot": "<img src=\"94790f4d7a0b9b41a44382c102a0d787.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "止める"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "車を止めて。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "車",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 1,
+        "isDisplayed": true,
+        "parsedForm": "を",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "止める",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "止む",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 3,
+        "isDisplayed": false,
+        "parsedForm": "える",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "て",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::2",
+    "source::core2000::step08"
+  ]
+}

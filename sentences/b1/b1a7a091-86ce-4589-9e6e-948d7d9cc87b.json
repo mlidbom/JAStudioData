@@ -1,0 +1,90 @@
+{
+  "id": "b1a7a091-86ce-4589-9e6e-948d7d9cc87b",
+  "sourceQuestion": "布団を<b>畳んで</b>ください。",
+  "userQuestion": "",
+  "activeQuestion": "布団を畳んでください。",
+  "sourceAnswer": "Please fold up the futon.",
+  "userAnswer": "",
+  "activeAnswer": "Please fold up the futon.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "ふとん を <b>たたんで</b> ください",
+  "externalId": "sentence:250313",
+  "audio": "[sound:c9162f1b555837c5ff722819de1b3c4b.mp3]",
+  "screenshot": "<img src=\"b46d809fea25a21ce6841b1554e225b5.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "畳む"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "布団を畳んでください。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "布団",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "を",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "畳む",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "んでください",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": false,
+        "parsedForm": "んで",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "ください",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "くださる",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 9,
+        "isDisplayed": false,
+        "parsedForm": "い",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::3",
+    "source::core2000::step09"
+  ]
+}

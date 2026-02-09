@@ -1,0 +1,90 @@
+{
+  "id": "d6d1c1ca-33de-4727-927f-d0aa70583ddd",
+  "sourceQuestion": "駅前に<b>本屋</b>があります。",
+  "userQuestion": "",
+  "activeQuestion": "駅前に本屋があります。",
+  "sourceAnswer": "There's a bookstore in front of the station.",
+  "userAnswer": "",
+  "activeAnswer": "There's a bookstore in front of the station.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "えきまえ に <b>ほんや</b> が あります",
+  "externalId": "sentence:249815",
+  "audio": "[sound:e258621807defc7237795d0c17bd7777.mp3]",
+  "screenshot": "<img src=\"a320388a500793c0e9121a62df85f648.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "本屋"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "駅前に本屋があります。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "駅前",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "に",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "本屋",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 5,
+        "isDisplayed": false,
+        "parsedForm": "がある",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": true,
+        "parsedForm": "が",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": true,
+        "parsedForm": "あります",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "ある",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 8,
+        "isDisplayed": false,
+        "parsedForm": "ます",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::4",
+    "source::core2000::step08"
+  ]
+}

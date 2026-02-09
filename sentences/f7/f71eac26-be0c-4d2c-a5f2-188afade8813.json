@@ -1,0 +1,91 @@
+{
+  "id": "f71eac26-be0c-4d2c-a5f2-188afade8813",
+  "sourceQuestion": "ご注文何にしますか",
+  "userQuestion": "<div><div>ご注文何しますか</div></div>",
+  "activeQuestion": "ご注文何しますか",
+  "sourceAnswer": "What [do you want to] order?",
+  "userAnswer": "",
+  "activeAnswer": "What [do you want to] order?",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "ごちゅうもん なに に します か",
+  "externalId": "1600424820000",
+  "audio": "[sound:1600424820000.mp3]",
+  "screenshot": "<img src=\"1600424820000.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "ご注文"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "ご注文何しますか",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "ご注文",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": false,
+        "parsedForm": "ご",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 1,
+        "isDisplayed": false,
+        "parsedForm": "注文",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "何",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "します",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 4,
+        "isDisplayed": false,
+        "parsedForm": "する",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": false,
+        "parsedForm": "ます",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 7,
+        "isDisplayed": true,
+        "parsedForm": "か",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::medium::15-jlab-beginner",
+    "-::sentence::difficulty::3",
+    "legacy_scheduling",
+    "source::jlab::beginner"
+  ]
+}

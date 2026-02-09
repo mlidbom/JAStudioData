@@ -1,0 +1,90 @@
+{
+  "id": "985d2859-96fa-40d0-a910-f3b63b6e5578",
+  "sourceQuestion": "<b>警察</b>を呼んでください。",
+  "userQuestion": "",
+  "activeQuestion": "警察を呼んでください。",
+  "sourceAnswer": "Call the police.",
+  "userAnswer": "",
+  "activeAnswer": "Call the police.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "<b>けいさつ</b> を よんで ください",
+  "externalId": "sentence:248221",
+  "audio": "[sound:64a8c19fd001c17e1493057b9e008818.mp3]",
+  "screenshot": "<img src=\"3e9d96c2d26a914aeb864e0e56ad3c3f.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "警察"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "警察を呼んでください。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "警察",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "を",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "呼ぶ",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "んでください",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": false,
+        "parsedForm": "んで",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "ください",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "くださる",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 9,
+        "isDisplayed": false,
+        "parsedForm": "い",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::3",
+    "source::core2000::step04"
+  ]
+}

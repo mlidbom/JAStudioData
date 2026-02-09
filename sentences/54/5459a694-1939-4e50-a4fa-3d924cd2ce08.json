@@ -1,0 +1,104 @@
+{
+  "id": "5459a694-1939-4e50-a4fa-3d924cd2ce08",
+  "sourceQuestion": "彼は会社を<b>辞めます</b>。",
+  "userQuestion": "",
+  "activeQuestion": "彼は会社を辞めます。",
+  "sourceAnswer": "He's leaving the company.",
+  "userAnswer": "He is going to quit the company",
+  "activeAnswer": "He is going to quit the company",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "かれ は かいしゃ を <b>やめます</b>",
+  "externalId": "sentence:249071",
+  "audio": "[sound:d7cac9209edaf52638a0ee5be569c0bf.mp3]",
+  "screenshot": "<img src=\"9cf6bfdf865bcd62f76076acb4d4c43e.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "辞める"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "彼は会社を辞めます。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "彼",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 1,
+        "isDisplayed": true,
+        "parsedForm": "は",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "会社を辞める",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "会社",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": false,
+        "parsedForm": "を",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 5,
+        "isDisplayed": false,
+        "parsedForm": "辞める",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 5,
+        "isDisplayed": false,
+        "parsedForm": "辞む",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "えます",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "える",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 7,
+        "isDisplayed": true,
+        "parsedForm": "ます",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::3",
+    "source::core2000::step06"
+  ]
+}

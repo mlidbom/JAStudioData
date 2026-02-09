@@ -1,0 +1,83 @@
+{
+  "id": "91e08525-3a37-45ee-927f-dd09ce982d3f",
+  "sourceQuestion": "新しい<b>文房具</b>を買いました。",
+  "userQuestion": "",
+  "activeQuestion": "新しい文房具を買いました。",
+  "sourceAnswer": "I bought some new stationery.",
+  "userAnswer": "",
+  "activeAnswer": "I bought some new stationery.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "あたらしい <b>ぶんぼうぐ</b> を かいました",
+  "externalId": "sentence:250325",
+  "audio": "[sound:a8be5be28dc1119e047750eb7705bdb5.mp3]",
+  "screenshot": "<img src=\"285b8b29fa09077cfcb67231e5353139.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "文房具"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "新しい文房具を買いました。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "新しい",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "文房具",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": true,
+        "parsedForm": "を",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 7,
+        "isDisplayed": true,
+        "parsedForm": "買う",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 9,
+        "isDisplayed": true,
+        "parsedForm": "ました",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 9,
+        "isDisplayed": false,
+        "parsedForm": "ます",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 11,
+        "isDisplayed": false,
+        "parsedForm": "た",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::4",
+    "source::core2000::step09"
+  ]
+}

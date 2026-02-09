@@ -1,0 +1,92 @@
+{
+  "id": "02b47592-696d-4752-901a-fe7f56539a38",
+  "sourceQuestion": "明日の<b>天気予報</b>は雨です。",
+  "userQuestion": "",
+  "activeQuestion": "明日の天気予報は雨です。",
+  "sourceAnswer": "Rain is forecast for tomorrow.",
+  "userAnswer": "",
+  "activeAnswer": "Rain is forecast for tomorrow.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "あした の <b>てんきよほう</b> は あめ です",
+  "externalId": "sentence:249829",
+  "audio": "[sound:6496cd13d7021d95db1669afe1762ac4.mp3]",
+  "screenshot": "<img src=\"8c3b282d7afda05a3b1647f56a48d889.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "天気",
+      "予報",
+      "天気予報"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "明日の天気予報は雨です。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "明日",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "の",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "天気予報",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": false,
+        "parsedForm": "天気",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": false,
+        "parsedForm": "予報",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 7,
+        "isDisplayed": true,
+        "parsedForm": "は",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 8,
+        "isDisplayed": true,
+        "parsedForm": "雨",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 9,
+        "isDisplayed": true,
+        "parsedForm": "です",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::4",
+    "source::core2000::step08"
+  ]
+}

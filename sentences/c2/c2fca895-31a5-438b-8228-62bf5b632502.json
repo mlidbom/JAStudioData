@@ -1,0 +1,97 @@
+{
+  "id": "c2fca895-31a5-438b-8228-62bf5b632502",
+  "sourceQuestion": "昨日大きな魚を<b>釣りました</b>。",
+  "userQuestion": "",
+  "activeQuestion": "昨日大きな魚を釣りました。",
+  "sourceAnswer": "I caught a big fish yesterday.",
+  "userAnswer": "",
+  "activeAnswer": "I caught a big fish yesterday.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "きのう おおき な さかな を <b>つりました</b>",
+  "externalId": "sentence:250075",
+  "audio": "[sound:89354f549c149907d11ce06c57885796.mp3]",
+  "screenshot": "<img src=\"2bbacd9bd42aa7d12cb1fef8265de2d1.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "釣る"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "昨日大きな魚を釣りました。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "昨日",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "大きな",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 5,
+        "isDisplayed": true,
+        "parsedForm": "魚を釣る",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": false,
+        "parsedForm": "魚",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "を",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 7,
+        "isDisplayed": false,
+        "parsedForm": "釣る",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 9,
+        "isDisplayed": true,
+        "parsedForm": "ました",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 9,
+        "isDisplayed": false,
+        "parsedForm": "ます",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 11,
+        "isDisplayed": false,
+        "parsedForm": "た",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::4",
+    "source::core2000::step08"
+  ]
+}

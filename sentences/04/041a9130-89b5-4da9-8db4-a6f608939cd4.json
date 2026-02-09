@@ -1,0 +1,90 @@
+{
+  "id": "041a9130-89b5-4da9-8db4-a6f608939cd4",
+  "sourceQuestion": "<b>タクシー</b>を呼んでください。",
+  "userQuestion": "",
+  "activeQuestion": "タクシーを呼んでください。",
+  "sourceAnswer": "Please call a taxi.",
+  "userAnswer": "",
+  "activeAnswer": "Please call a taxi.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "<b>たくしー</b> を よんで ください",
+  "externalId": "sentence:248923",
+  "audio": "[sound:660f1d187a5172d10110197eef175927.mp3]",
+  "screenshot": "<img src=\"e2d8a60b59f2be8ebcbffafa165c7a0d.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "タクシー"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "タクシーを呼んでください。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "タクシー",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "を",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 5,
+        "isDisplayed": true,
+        "parsedForm": "呼ぶ",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": true,
+        "parsedForm": "んでください",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "んで",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 8,
+        "isDisplayed": false,
+        "parsedForm": "ください",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 8,
+        "isDisplayed": false,
+        "parsedForm": "くださる",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 11,
+        "isDisplayed": false,
+        "parsedForm": "い",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::3",
+    "source::core2000::step05"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "537dc53d-4f6c-4c77-97b6-04167f6aa2a3",
+  "sourceQuestion": "<b>テキスト</b>を読んでください。",
+  "userQuestion": "",
+  "activeQuestion": "テキストを読んでください。",
+  "sourceAnswer": "Please read the textbook.",
+  "userAnswer": "",
+  "activeAnswer": "Please read the textbook.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "<b>てきすと</b> を よんで ください",
+  "externalId": "sentence:249627",
+  "audio": "[sound:657fb88ecf94f50723fdf674709fe6f9.mp3]",
+  "screenshot": "<img src=\"3df52ac6ca7a608954b7d3e518976d8f.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "テキスト"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "テキストを読んでください。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "テキスト",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "を",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 5,
+        "isDisplayed": true,
+        "parsedForm": "読む",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": true,
+        "parsedForm": "んでください",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "んで",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 8,
+        "isDisplayed": false,
+        "parsedForm": "ください",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 8,
+        "isDisplayed": false,
+        "parsedForm": "くださる",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 11,
+        "isDisplayed": false,
+        "parsedForm": "い",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::3",
+    "source::core2000::step07"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "a1f19ed6-7951-43d2-ae77-e490ea09d3d5",
+  "sourceQuestion": "<b>ナイフ</b>で手を切った。",
+  "userQuestion": "",
+  "activeQuestion": "ナイフで手を切った。",
+  "sourceAnswer": "I cut my hand with a knife.",
+  "userAnswer": "",
+  "activeAnswer": "I cut my hand with a knife.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "<b>ないふ</b> で て を きった",
+  "externalId": "sentence:249585",
+  "audio": "[sound:02f46c266e683943e988e4edbedb77ff.mp3]",
+  "screenshot": "<img src=\"397fa42d47085901bdfc129cd63513e1.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "ナイフ"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "ナイフで手を切った。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "ナイフ",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "で",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "手を切る",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": false,
+        "parsedForm": "手",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": false,
+        "parsedForm": "を",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "切る",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 8,
+        "isDisplayed": true,
+        "parsedForm": "た",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::3",
+    "source::core2000::step07"
+  ]
+}

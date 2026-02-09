@@ -1,0 +1,90 @@
+{
+  "id": "25d4535e-4042-4281-8bfb-47aec2bd7989",
+  "sourceQuestion": "その問題に<b>関する</b>記事を読みました。",
+  "userQuestion": "",
+  "activeQuestion": "その問題に関する記事を読みました。",
+  "sourceAnswer": "I read an article about the problem.",
+  "userAnswer": "",
+  "activeAnswer": "I read an article about the problem.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "その もんだい に <b>かんする</b> きじ を よみました",
+  "externalId": "sentence:247863",
+  "audio": "[sound:66201bbf19c9eef3e1d26ac5fa2712dc.mp3]",
+  "screenshot": "<img src=\"f89e8ca89b5c4dbb2eedf2f57d2613d4.jpg\" />",
+  "configuration": {
+    "highlightedWords": [
+      "関する"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "その問題に関する記事を読みました。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "その",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "問題",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 8,
+        "isDisplayed": true,
+        "parsedForm": "記事",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 10,
+        "isDisplayed": true,
+        "parsedForm": "を",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 11,
+        "isDisplayed": true,
+        "parsedForm": "読む",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 13,
+        "isDisplayed": true,
+        "parsedForm": "ました",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 13,
+        "isDisplayed": false,
+        "parsedForm": "ます",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 15,
+        "isDisplayed": false,
+        "parsedForm": "た",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::5",
+    "source::core2000::step03"
+  ]
+}

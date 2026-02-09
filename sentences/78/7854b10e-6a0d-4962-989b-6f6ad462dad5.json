@@ -1,0 +1,112 @@
+{
+  "id": "7854b10e-6a0d-4962-989b-6f6ad462dad5",
+  "sourceQuestion": "彼は足の<b>骨</b>を折りました。",
+  "userQuestion": "",
+  "activeQuestion": "彼は足の骨を折りました。",
+  "sourceAnswer": "He broke a bone in his foot.",
+  "userAnswer": "",
+  "activeAnswer": "He broke a bone in his foot.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "かれ は あし の <b>ほね</b> を おりました",
+  "externalId": "sentence:250569",
+  "audio": "[sound:1a503986e19e540d3f179fe654f39a6f.mp3]",
+  "screenshot": "<img src=\"82df51cacdbe0bb642e9cc00349f402a.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "骨",
+      "骨を折る"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "彼は足の骨を折りました。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "彼",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 1,
+        "isDisplayed": true,
+        "parsedForm": "は",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "足",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "の",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "骨を折る",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": false,
+        "parsedForm": "骨",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": false,
+        "parsedForm": "を",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "折る",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 8,
+        "isDisplayed": true,
+        "parsedForm": "ました",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 8,
+        "isDisplayed": false,
+        "parsedForm": "ます",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 10,
+        "isDisplayed": false,
+        "parsedForm": "た",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::4",
+    "source::core2000::step10"
+  ]
+}

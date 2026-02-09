@@ -1,0 +1,83 @@
+{
+  "id": "0e5d7a4e-4ab6-4caa-9faf-e1e77f06295e",
+  "sourceQuestion": "<b>キャッシュカード</b>でお金を下ろした。",
+  "userQuestion": "",
+  "activeQuestion": "キャッシュカードでお金を下ろした。",
+  "sourceAnswer": "I took out some money with my cash card.",
+  "userAnswer": "",
+  "activeAnswer": "I took out some money with my cash card.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "<b>きゃっしゅかーど</b> で おかね を おろした",
+  "externalId": "sentence:250257",
+  "audio": "[sound:250cce18d5225b4bd45d05482789b633.mp3]",
+  "screenshot": "<img src=\"7dc42c0af6c657ab6101c640a9cb20bc.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "キャッシュカード"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "キャッシュカードでお金を下ろした。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "キャッシュカード",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 8,
+        "isDisplayed": true,
+        "parsedForm": "で",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 9,
+        "isDisplayed": true,
+        "parsedForm": "お金を下ろす",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 9,
+        "isDisplayed": false,
+        "parsedForm": "お金",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 11,
+        "isDisplayed": false,
+        "parsedForm": "を",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 12,
+        "isDisplayed": false,
+        "parsedForm": "下ろす",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 15,
+        "isDisplayed": true,
+        "parsedForm": "た",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::4",
+    "source::core2000::step09"
+  ]
+}

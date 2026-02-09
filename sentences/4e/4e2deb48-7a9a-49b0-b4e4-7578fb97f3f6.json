@@ -1,0 +1,83 @@
+{
+  "id": "4e2deb48-7a9a-49b0-b4e4-7578fb97f3f6",
+  "sourceQuestion": "ここが私の<b>家</b>です。",
+  "userQuestion": "",
+  "activeQuestion": "ここが私の家です。",
+  "sourceAnswer": "This is my house.",
+  "userAnswer": "",
+  "activeAnswer": "This is my house.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "ここ が わたし の <b>いえ</b> です",
+  "externalId": "sentence:247875",
+  "audio": "[sound:8bd6893d014f5e6ea0ac82bd43e89bf8.mp3]",
+  "screenshot": "<img src=\"2efef350b6fdcd909daa33c936b2712d.jpg\" />",
+  "configuration": {
+    "highlightedWords": [
+      "家"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "ここが私の家です。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "ここ",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "が",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "私の",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": false,
+        "parsedForm": "私",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": false,
+        "parsedForm": "の",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": true,
+        "parsedForm": "家",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": true,
+        "parsedForm": "です",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::2",
+    "source::core2000::step03"
+  ]
+}

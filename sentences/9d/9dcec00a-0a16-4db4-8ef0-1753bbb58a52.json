@@ -1,0 +1,77 @@
+{
+  "id": "9dcec00a-0a16-4db4-8ef0-1753bbb58a52",
+  "sourceQuestion": "<b>冷たい</b>飲み物をください。",
+  "userQuestion": "",
+  "activeQuestion": "冷たい飲み物をください。",
+  "sourceAnswer": "Please give me a cold drink.",
+  "userAnswer": "",
+  "activeAnswer": "Please give me a cold drink.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "<b>つめたい</b> のみもの を ください",
+  "externalId": "sentence:247679",
+  "audio": "[sound:f74ec2083cd95977d91c47bbf77577bc-084ecb483df6a6e081760d1e721a4e186d8d6151.mp3]",
+  "screenshot": "<img src=\"36ef11e8a90a1ccb1a213f98b5e145ff.jpg\" />",
+  "configuration": {
+    "highlightedWords": [
+      "飲み物",
+      "冷たい"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "冷たい飲み物をください。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "冷たい",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "飲み物",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": true,
+        "parsedForm": "を",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 7,
+        "isDisplayed": true,
+        "parsedForm": "ください",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 7,
+        "isDisplayed": false,
+        "parsedForm": "くださる",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 10,
+        "isDisplayed": false,
+        "parsedForm": "い",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::3",
+    "source::core2000::step02"
+  ]
+}

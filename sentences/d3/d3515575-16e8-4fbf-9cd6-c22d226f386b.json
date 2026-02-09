@@ -1,0 +1,83 @@
+{
+  "id": "d3515575-16e8-4fbf-9cd6-c22d226f386b",
+  "sourceQuestion": "赤ちゃんが<b>ぐっすり</b>寝ている。",
+  "userQuestion": "",
+  "activeQuestion": "赤ちゃんがぐっすり寝ている。",
+  "sourceAnswer": "The baby's sleeping soundly.",
+  "userAnswer": "",
+  "activeAnswer": "The baby's sleeping soundly.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "あかちゃん が <b>ぐっすり</b> ねて いる",
+  "externalId": "sentence:249961",
+  "audio": "[sound:c431ed87bf58bba9af5eb809db007d48.mp3]",
+  "screenshot": "<img src=\"39bf8104e2aea58dd7f3b4acfff67b42.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "ぐっすり"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "赤ちゃんがぐっすり寝ている。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "赤ちゃん",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "が",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": true,
+        "parsedForm": "ぐっすり",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 9,
+        "isDisplayed": true,
+        "parsedForm": "寝る",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 10,
+        "isDisplayed": true,
+        "parsedForm": "ている",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 10,
+        "isDisplayed": false,
+        "parsedForm": "て",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 11,
+        "isDisplayed": false,
+        "parsedForm": "いる",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::3",
+    "source::core2000::step08"
+  ]
+}

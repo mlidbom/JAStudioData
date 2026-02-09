@@ -1,0 +1,116 @@
+{
+  "id": "98b381c2-4153-4ed3-929c-aea0a6c9cbfa",
+  "sourceQuestion": "塩、コショウを<b>加えて</b>ください。",
+  "userQuestion": "",
+  "activeQuestion": "塩、コショウを加えてください。",
+  "sourceAnswer": "Please add the salt and pepper.",
+  "userAnswer": "",
+  "activeAnswer": "Please add the salt and pepper.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "しお こしょう を <b>くわえて</b> ください",
+  "externalId": "sentence:248111",
+  "audio": "[sound:2c5dae4a662a9f46ad305fdfda8a8ea8.mp3]",
+  "screenshot": "<img src=\"0599d1f379f41fe6a02604a1c172ab6a.jpg\" />",
+  "configuration": {
+    "highlightedWords": [
+      "加える"
+    ],
+    "incorrectMatches": [
+      {
+        "word": "加えて",
+        "index": 7
+      }
+    ],
+    "hiddenMatches": [
+      {
+        "word": "加えて",
+        "index": 7
+      }
+    ]
+  },
+  "parsingResult": {
+    "sentence": "塩、コショウを加えてください。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "塩",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "コショウ",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": true,
+        "parsedForm": "を",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 7,
+        "isDisplayed": true,
+        "parsedForm": "加える",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 9,
+        "isDisplayed": true,
+        "parsedForm": "てください",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 9,
+        "isDisplayed": false,
+        "parsedForm": "てくださる",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 9,
+        "isDisplayed": false,
+        "parsedForm": "て",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 10,
+        "isDisplayed": false,
+        "parsedForm": "ください",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 10,
+        "isDisplayed": false,
+        "parsedForm": "くださる",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 13,
+        "isDisplayed": false,
+        "parsedForm": "い",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::3",
+    "-::sentence::uses::hidden-matches",
+    "-::sentence::uses::incorrect-matches",
+    "source::core2000::step03"
+  ]
+}

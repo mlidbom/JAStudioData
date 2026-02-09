@@ -1,0 +1,97 @@
+{
+  "id": "4f3a22a9-8947-4604-8370-97fd6fa8d7c7",
+  "sourceQuestion": "彼は<b>たばこ</b>を吸いません。",
+  "userQuestion": "",
+  "activeQuestion": "彼はたばこを吸いません。",
+  "sourceAnswer": "He doesn't smoke.",
+  "userAnswer": "",
+  "activeAnswer": "He doesn't smoke.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "かれ は <b>たばこ</b> を すいません",
+  "externalId": "sentence:250733",
+  "audio": "[sound:e3e0e1751afadd5e11fa5d7438be2442.mp3]",
+  "screenshot": "<img src=\"9cfea07c01d7d84b9f4ca36ba6cc2050.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "たばこ"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "彼はたばこを吸いません。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "彼",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 1,
+        "isDisplayed": true,
+        "parsedForm": "は",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "たばこを吸う",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "たばこ",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": false,
+        "parsedForm": "を",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "吸う",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 8,
+        "isDisplayed": true,
+        "parsedForm": "ません",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 8,
+        "isDisplayed": false,
+        "parsedForm": "ます",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 10,
+        "isDisplayed": false,
+        "parsedForm": "ん",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::3",
+    "source::core2000::step10"
+  ]
+}

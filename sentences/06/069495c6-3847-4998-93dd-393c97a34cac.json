@@ -1,0 +1,120 @@
+{
+  "id": "069495c6-3847-4998-93dd-393c97a34cac",
+  "sourceQuestion": "この写真に間違いがいつつあります",
+  "userQuestion": "",
+  "activeQuestion": "この写真に間違いがいつつあります",
+  "sourceAnswer": "As for in this picture, there are five errors.",
+  "userAnswer": "In this picture, five errors exist",
+  "activeAnswer": "In this picture, five errors exist",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "この しゃしん に まちがい が いつつ あります",
+  "externalId": "1646163230000",
+  "audio": "[sound:1646163230000.mp3]",
+  "screenshot": "<img src=\"1646163230000.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "ます",
+      "写真"
+    ],
+    "incorrectMatches": [
+      {
+        "word": "つつある",
+        "index": -1
+      }
+    ],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "この写真に間違いがいつつあります",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "この",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "写真",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "に",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": true,
+        "parsedForm": "間違い",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 8,
+        "isDisplayed": true,
+        "parsedForm": "がいる",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 8,
+        "isDisplayed": false,
+        "parsedForm": "が",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 9,
+        "isDisplayed": false,
+        "parsedForm": "いる",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 10,
+        "isDisplayed": true,
+        "parsedForm": "つつ",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 12,
+        "isDisplayed": true,
+        "parsedForm": "あります",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 12,
+        "isDisplayed": false,
+        "parsedForm": "ある",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 14,
+        "isDisplayed": false,
+        "parsedForm": "ます",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::counting",
+    "-::priority::medium::17-jlab-numbers",
+    "-::sentence::difficulty::4",
+    "-::sentence::uses::incorrect-matches",
+    "legacy_scheduling",
+    "source::jlab::num"
+  ]
+}

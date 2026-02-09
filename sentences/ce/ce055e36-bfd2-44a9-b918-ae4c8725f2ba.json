@@ -1,0 +1,125 @@
+{
+  "id": "ce055e36-bfd2-44a9-b918-ae4c8725f2ba",
+  "sourceQuestion": "駅からはタクシーに<b>乗って</b>ください。",
+  "userQuestion": "",
+  "activeQuestion": "駅からはタクシーに乗ってください。",
+  "sourceAnswer": "Please take a taxi from the station.",
+  "userAnswer": "",
+  "activeAnswer": "Please take a taxi from the station.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "えき からは たくしー に <b>のって</b> ください",
+  "externalId": "sentence:247153",
+  "audio": "[sound:e3c984736d8b1c2bdc467f2a1c98659a-8c5fb7faa0fca7c3041c8428bfa5d69f57d71a73.mp3]",
+  "screenshot": "<img src=\"e2d8a60b59f2be8ebcbffafa165c7a0d.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "乗る"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "駅からはタクシーに乗ってください。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "駅",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 1,
+        "isDisplayed": true,
+        "parsedForm": "から",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "は",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "タクシーに乗る",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": false,
+        "parsedForm": "タクシー",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 8,
+        "isDisplayed": false,
+        "parsedForm": "に",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 9,
+        "isDisplayed": false,
+        "parsedForm": "乗る",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 11,
+        "isDisplayed": true,
+        "parsedForm": "てください",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 11,
+        "isDisplayed": false,
+        "parsedForm": "てくださる",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 11,
+        "isDisplayed": false,
+        "parsedForm": "て",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 12,
+        "isDisplayed": false,
+        "parsedForm": "ください",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 12,
+        "isDisplayed": false,
+        "parsedForm": "くださる",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 15,
+        "isDisplayed": false,
+        "parsedForm": "い",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::4",
+    "source::core2000::step01"
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "66e2dc9c-655f-4678-b06d-d25d59557aed",
+  "sourceQuestion": "良い友達がいて私は<b>幸せ</b>だ。",
+  "userQuestion": "",
+  "activeQuestion": "良い友達がいて私は幸せだ。",
+  "sourceAnswer": "I'm happy to have good friends.",
+  "userAnswer": "",
+  "activeAnswer": "I'm happy to have good friends.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "いい ともだち が いて わたし は <b>しあわせ</b> だ",
+  "externalId": "sentence:249237",
+  "audio": "[sound:99608aee386d3510247d44514434d41f.mp3]",
+  "screenshot": "<img src=\"5b2e4f28825abfd8e0c5ff5c2cf9f1e1_1342695981850.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "幸せ"
+    ],
+    "incorrectMatches": [
+      {
+        "word": "友達がい",
+        "index": 2
+      }
+    ],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "良い友達がいて私は幸せだ。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "良い",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "友達",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "がいる",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": false,
+        "parsedForm": "が",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 5,
+        "isDisplayed": false,
+        "parsedForm": "いる",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": true,
+        "parsedForm": "て",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 7,
+        "isDisplayed": true,
+        "parsedForm": "私は",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 7,
+        "isDisplayed": false,
+        "parsedForm": "私",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 8,
+        "isDisplayed": false,
+        "parsedForm": "は",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 9,
+        "isDisplayed": true,
+        "parsedForm": "幸せ",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 11,
+        "isDisplayed": true,
+        "parsedForm": "だ",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::4",
+    "-::sentence::uses::incorrect-matches",
+    "source::core2000::step06"
+  ]
+}

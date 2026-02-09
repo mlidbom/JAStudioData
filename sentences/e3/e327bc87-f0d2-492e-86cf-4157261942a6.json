@@ -1,0 +1,83 @@
+{
+  "id": "e327bc87-f0d2-492e-86cf-4157261942a6",
+  "sourceQuestion": "上司が意見を<b>述べた</b>。",
+  "userQuestion": "",
+  "activeQuestion": "上司が意見を述べた。",
+  "sourceAnswer": "Our boss gave us his opinion.",
+  "userAnswer": "",
+  "activeAnswer": "Our boss gave us his opinion.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "じょうし が いけん を <b>のべた</b>",
+  "externalId": "sentence:248337",
+  "audio": "[sound:29f5bdadcbd38020f2333a8324ef0445.mp3]",
+  "screenshot": "<img src=\"8f386125e7b7477fb1f7d4bf074f928e.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "述べる"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "上司が意見を述べた。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "上司",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "が",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "意見を述べる",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": false,
+        "parsedForm": "意見",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": false,
+        "parsedForm": "を",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "述べる",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 8,
+        "isDisplayed": true,
+        "parsedForm": "た",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::4",
+    "source::core2000::step04"
+  ]
+}

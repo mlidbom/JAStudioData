@@ -1,0 +1,97 @@
+{
+  "id": "e825da17-4b67-4c68-b8b8-f5b9d614644f",
+  "sourceQuestion": "あの<b>お巡りさん</b>に道を聞きましょう。",
+  "userQuestion": "",
+  "activeQuestion": "あのお巡りさんに道を聞きましょう。",
+  "sourceAnswer": "Let's ask that policeman how to get there.",
+  "userAnswer": "",
+  "activeAnswer": "Let's ask that policeman how to get there.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "あの <b>おまわりさん</b> に みち を ききましょう",
+  "externalId": "sentence:250411",
+  "audio": "[sound:1bbcb0e5b909355cd9ce3f1fb8328670.mp3]",
+  "screenshot": "<img src=\"ee9263d4a10a4d4993e6ad8b8ca826ce.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "お巡りさん"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "あのお巡りさんに道を聞きましょう。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "あの",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "お巡りさん",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 7,
+        "isDisplayed": true,
+        "parsedForm": "に",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 8,
+        "isDisplayed": true,
+        "parsedForm": "道を聞く",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 8,
+        "isDisplayed": false,
+        "parsedForm": "道",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 9,
+        "isDisplayed": false,
+        "parsedForm": "を",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 10,
+        "isDisplayed": false,
+        "parsedForm": "聞く",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 12,
+        "isDisplayed": true,
+        "parsedForm": "ましょう",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 12,
+        "isDisplayed": false,
+        "parsedForm": "ます",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::4",
+    "source::core2000::step09"
+  ]
+}

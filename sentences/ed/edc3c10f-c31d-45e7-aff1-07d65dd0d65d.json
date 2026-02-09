@@ -1,0 +1,90 @@
+{
+  "id": "edc3c10f-c31d-45e7-aff1-07d65dd0d65d",
+  "sourceQuestion": "昨日<b>おじさん</b>に会いました。",
+  "userQuestion": "",
+  "activeQuestion": "昨日おじさんに会いました。",
+  "sourceAnswer": "I met my uncle yesterday.",
+  "userAnswer": "",
+  "activeAnswer": "I met my uncle yesterday.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "きのう <b>おじさん</b> に あいました",
+  "externalId": "sentence:250039",
+  "audio": "[sound:dd9cd89afd2a8d76d2c8e1113f89d560.mp3]",
+  "screenshot": "<img src=\"9d41b96e49acf164a19d36a1ea0826c4.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "おじさん"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "昨日おじさんに会いました。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "昨日",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "おじさん",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 6,
+        "isDisplayed": true,
+        "parsedForm": "に会う",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "に",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 7,
+        "isDisplayed": false,
+        "parsedForm": "会う",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 9,
+        "isDisplayed": true,
+        "parsedForm": "ました",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 9,
+        "isDisplayed": false,
+        "parsedForm": "ます",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 11,
+        "isDisplayed": false,
+        "parsedForm": "た",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::3",
+    "source::core2000::step08"
+  ]
+}

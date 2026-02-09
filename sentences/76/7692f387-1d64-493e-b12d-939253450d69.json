@@ -1,0 +1,98 @@
+{
+  "id": "7692f387-1d64-493e-b12d-939253450d69",
+  "sourceQuestion": "レストランを<b>予約</b>しました。",
+  "userQuestion": "",
+  "activeQuestion": "レストランを予約しました。",
+  "sourceAnswer": "I made a reservation at the restaurant.",
+  "userAnswer": "",
+  "activeAnswer": "I made a reservation at the restaurant.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "れすとらん を <b>よやく</b> しました",
+  "externalId": "sentence:249055",
+  "audio": "[sound:66f3725830a8e5d25c570cc74b937c8b.mp3]",
+  "screenshot": "<img src=\"fdaf9b327ceaabb50f13bdbc05750940.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "予約",
+      "レストラン"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "レストランを予約しました。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "レストラン",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": true,
+        "parsedForm": "を",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": true,
+        "parsedForm": "予約",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 8,
+        "isDisplayed": true,
+        "parsedForm": "しました",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 8,
+        "isDisplayed": false,
+        "parsedForm": "します",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 8,
+        "isDisplayed": false,
+        "parsedForm": "する",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 9,
+        "isDisplayed": false,
+        "parsedForm": "ました",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 9,
+        "isDisplayed": false,
+        "parsedForm": "ます",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 11,
+        "isDisplayed": false,
+        "parsedForm": "た",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::3",
+    "source::core2000::step06"
+  ]
+}

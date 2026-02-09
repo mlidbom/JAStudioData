@@ -1,0 +1,76 @@
+{
+  "id": "0a02f277-0270-47c2-bb86-d3401dbb7f35",
+  "sourceQuestion": "リンゴが<b>腐っている</b>。",
+  "userQuestion": "",
+  "activeQuestion": "リンゴが腐っている。",
+  "sourceAnswer": "This apple's rotten.",
+  "userAnswer": "",
+  "activeAnswer": "This apple's rotten.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "りんご が <b>くさって いる</b>",
+  "externalId": "sentence:249701",
+  "audio": "[sound:729ef438f6a7d6311db8b8db9ec83a5f.mp3]",
+  "screenshot": "<img src=\"8d68f5e7c8526261dc73f4814b727b92.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "腐る"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "リンゴが腐っている。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "リンゴ",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "が",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "腐る",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": true,
+        "parsedForm": "ている",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "て",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 7,
+        "isDisplayed": false,
+        "parsedForm": "いる",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::2",
+    "source::core2000::step07"
+  ]
+}

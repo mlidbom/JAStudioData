@@ -1,0 +1,97 @@
+{
+  "id": "d6d61eef-cbe1-4e7a-9c7f-34c632e9045f",
+  "sourceQuestion": "桜の花が<b>咲きました</b>。",
+  "userQuestion": "",
+  "activeQuestion": "桜の花が咲きました。",
+  "sourceAnswer": "The cherry blossoms have bloomed.",
+  "userAnswer": "",
+  "activeAnswer": "The cherry blossoms have bloomed.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "さくら の はな が <b>さきました</b>",
+  "externalId": "sentence:249131",
+  "audio": "[sound:a3bbf2789ac41c21efca95ec00a3014c.mp3]",
+  "screenshot": "<img src=\"a011f2d725b037aae54935b9eeeae52f.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "咲く"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "桜の花が咲きました。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "桜",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 1,
+        "isDisplayed": true,
+        "parsedForm": "の",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "花が咲く",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "花",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": false,
+        "parsedForm": "が",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 4,
+        "isDisplayed": false,
+        "parsedForm": "咲く",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": true,
+        "parsedForm": "ました",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "ます",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 8,
+        "isDisplayed": false,
+        "parsedForm": "た",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::3",
+    "source::core2000::step06"
+  ]
+}

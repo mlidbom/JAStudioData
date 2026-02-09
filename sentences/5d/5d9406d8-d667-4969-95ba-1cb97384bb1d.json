@@ -1,0 +1,104 @@
+{
+  "id": "5d9406d8-d667-4969-95ba-1cb97384bb1d",
+  "sourceQuestion": "今朝は<b>寝坊</b>しました。",
+  "userQuestion": "",
+  "activeQuestion": "今朝は寝坊しました。",
+  "sourceAnswer": "I slept in this morning.",
+  "userAnswer": "",
+  "activeAnswer": "I slept in this morning.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "けさ は <b>ねぼう</b> しました",
+  "externalId": "sentence:250361",
+  "audio": "[sound:ba1f639ecae79b3d518caec4c89d65f4.mp3]",
+  "screenshot": "<img src=\"6d3206e03d1681a4d2bcfa17563a208a.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "寝坊"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "今朝は寝坊しました。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "今朝",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "は",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "寝坊する",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": false,
+        "parsedForm": "寝坊",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": false,
+        "parsedForm": "しました",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 5,
+        "isDisplayed": false,
+        "parsedForm": "します",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 5,
+        "isDisplayed": false,
+        "parsedForm": "する",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": true,
+        "parsedForm": "ました",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "ます",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 8,
+        "isDisplayed": false,
+        "parsedForm": "た",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::3",
+    "source::core2000::step09"
+  ]
+}

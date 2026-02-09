@@ -1,0 +1,83 @@
+{
+  "id": "09dfad6b-d447-4b8f-a157-ce4001a98d3f",
+  "sourceQuestion": "子供が目を<b>覚ました</b>。",
+  "userQuestion": "",
+  "activeQuestion": "子供が目を覚ました。",
+  "sourceAnswer": "The child woke up.",
+  "userAnswer": "",
+  "activeAnswer": "The child woke up.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "こども が め を <b>さました</b>",
+  "externalId": "sentence:250171",
+  "audio": "[sound:476ce8f70f13079f11d415dc23729d7f.mp3]",
+  "screenshot": "<img src=\"70e2bd41106bc3cf14d337906125d41d.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "覚ます"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "子供が目を覚ました。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "子供",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "が",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "目を覚ます",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": false,
+        "parsedForm": "目",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": false,
+        "parsedForm": "を",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 5,
+        "isDisplayed": false,
+        "parsedForm": "覚ます",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 8,
+        "isDisplayed": true,
+        "parsedForm": "た",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::3",
+    "source::core2000::step09"
+  ]
+}

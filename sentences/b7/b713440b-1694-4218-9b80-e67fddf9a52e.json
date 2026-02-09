@@ -1,0 +1,83 @@
+{
+  "id": "b713440b-1694-4218-9b80-e67fddf9a52e",
+  "sourceQuestion": "新しい<b>テーブル</b>を買いました。",
+  "userQuestion": "",
+  "activeQuestion": "新しいテーブルを買いました。",
+  "sourceAnswer": "I bought a new table.",
+  "userAnswer": "",
+  "activeAnswer": "I bought a new table.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "あたらしい <b>てーぶる</b> を かいました",
+  "externalId": "sentence:247415",
+  "audio": "[sound:7cb73a84b2976e9af73503e903c63884-a3c2353c40c97f9410e262eca8b2617460803e72.mp3]",
+  "screenshot": "<img src=\"fc229e6683f1b45b20a2ce02f74745c5.jpg\" />",
+  "configuration": {
+    "highlightedWords": [
+      "テーブル"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "新しいテーブルを買いました。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "新しい",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "テーブル",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 7,
+        "isDisplayed": true,
+        "parsedForm": "を",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 8,
+        "isDisplayed": true,
+        "parsedForm": "買う",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 10,
+        "isDisplayed": true,
+        "parsedForm": "ました",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 10,
+        "isDisplayed": false,
+        "parsedForm": "ます",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 12,
+        "isDisplayed": false,
+        "parsedForm": "た",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::3",
+    "source::core2000::step02"
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "418c1aa7-6d5c-4cb4-95af-d4c895f2821e",
+  "sourceQuestion": "一つ<b>例</b>をあげてください。",
+  "userQuestion": "",
+  "activeQuestion": "一つ例をあげてください。",
+  "sourceAnswer": "Please give an example.",
+  "userAnswer": "",
+  "activeAnswer": "Please give an example.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "ひとつ <b>れい</b> を あげて ください",
+  "externalId": "sentence:250283",
+  "audio": "[sound:093d47f3a77d074121b82fcedf29a207.mp3]",
+  "screenshot": "<img src=\"1aca58ceb6d00d27c3859ab04a35762e.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "例"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "一つ例をあげてください。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "一つ",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "例をあげる",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "例",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": false,
+        "parsedForm": "を",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 4,
+        "isDisplayed": false,
+        "parsedForm": "あげる",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": true,
+        "parsedForm": "てください",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "てくださる",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "て",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 7,
+        "isDisplayed": false,
+        "parsedForm": "ください",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 7,
+        "isDisplayed": false,
+        "parsedForm": "くださる",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 10,
+        "isDisplayed": false,
+        "parsedForm": "い",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::3",
+    "source::core2000::step09"
+  ]
+}

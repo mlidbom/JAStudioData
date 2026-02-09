@@ -1,0 +1,118 @@
+{
+  "id": "beeaa2cd-edfa-4154-b284-22a173ce704a",
+  "sourceQuestion": "レストランでピザを<b>注文</b>しました。",
+  "userQuestion": "",
+  "activeQuestion": "レストランでピザを注文しました。",
+  "sourceAnswer": "I ordered pizza at the restaurant.",
+  "userAnswer": "",
+  "activeAnswer": "I ordered pizza at the restaurant.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "れすとらん で ぴざ を <b>ちゅうもん</b> しました",
+  "externalId": "sentence:249061",
+  "audio": "[sound:2316fe3d9840652f25ad8e9fa9e1e562.mp3]",
+  "screenshot": "<img src=\"d8679f5d502292d83f387be7c77ba241.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "注文"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "レストランでピザを注文しました。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "レストラン",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": true,
+        "parsedForm": "で",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": true,
+        "parsedForm": "ピザ",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 8,
+        "isDisplayed": true,
+        "parsedForm": "を",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 9,
+        "isDisplayed": true,
+        "parsedForm": "注文する",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 9,
+        "isDisplayed": false,
+        "parsedForm": "注文",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 11,
+        "isDisplayed": false,
+        "parsedForm": "しました",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 11,
+        "isDisplayed": false,
+        "parsedForm": "します",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 11,
+        "isDisplayed": false,
+        "parsedForm": "する",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 12,
+        "isDisplayed": true,
+        "parsedForm": "ました",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 12,
+        "isDisplayed": false,
+        "parsedForm": "ます",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 14,
+        "isDisplayed": false,
+        "parsedForm": "た",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::3",
+    "source::core2000::step06"
+  ]
+}

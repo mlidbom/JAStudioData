@@ -1,0 +1,69 @@
+{
+  "id": "8689c9f0-dacd-483d-ab33-3e470cc21995",
+  "sourceQuestion": "駅まで<b>歩きましょう</b>。",
+  "userQuestion": "",
+  "activeQuestion": "駅まで歩きましょう。",
+  "sourceAnswer": "Let's walk to the station.",
+  "userAnswer": "",
+  "activeAnswer": "Let's walk to the station.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "えき まで <b>あるきましょう</b>",
+  "externalId": "sentence:247135",
+  "audio": "[sound:6f079046ae798766dd13e99e852ef0bb-c9aebd05c48930d216740726d214ce915f9a76d0.mp3]",
+  "screenshot": "<img src=\"3dae0e858291f0ec64766527c01d06e4.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "歩く"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "駅まで歩きましょう。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "駅",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 1,
+        "isDisplayed": true,
+        "parsedForm": "まで",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "歩く",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": true,
+        "parsedForm": "ましょう",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 5,
+        "isDisplayed": false,
+        "parsedForm": "ます",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::3",
+    "source::core2000::step01"
+  ]
+}

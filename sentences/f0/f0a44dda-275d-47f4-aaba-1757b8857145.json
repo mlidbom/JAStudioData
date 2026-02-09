@@ -1,0 +1,115 @@
+{
+  "id": "f0a44dda-275d-47f4-aaba-1757b8857145",
+  "sourceQuestion": "これを着て 行っておいて",
+  "userQuestion": "これを着て 行っておいで",
+  "activeQuestion": "これを着て 行っておいで",
+  "sourceAnswer": "Wear this and go.",
+  "userAnswer": "",
+  "activeAnswer": "Wear this and go.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "これを 着[き]て 行[い]っておいて",
+  "externalId": "ny1-nodup_06_0.19.01.280-0.19.03.040",
+  "audio": "[sound:ny1-nodup_06_0.19.01.280-0.19.03.040.mp3]",
+  "screenshot": "<img src=\"ny1-nodup_06_0.19.02.160.jpg\">",
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [
+      {
+        "word": "ておく",
+        "index": 8
+      }
+    ],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "これを着て 行っておいで",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "これ",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "を",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "着る",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "て",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 6,
+        "isDisplayed": true,
+        "parsedForm": "行う",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 8,
+        "isDisplayed": true,
+        "parsedForm": "ておいで",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 8,
+        "isDisplayed": false,
+        "parsedForm": "ておく",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 8,
+        "isDisplayed": false,
+        "parsedForm": "て",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 9,
+        "isDisplayed": false,
+        "parsedForm": "おいで",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 9,
+        "isDisplayed": false,
+        "parsedForm": "おく",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 10,
+        "isDisplayed": false,
+        "parsedForm": "いで",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::high::011_Natsume_01",
+    "-::sentence::difficulty::3",
+    "-::sentence::uses::incorrect-matches",
+    "source::anime::natsume::s1::06"
+  ]
+}

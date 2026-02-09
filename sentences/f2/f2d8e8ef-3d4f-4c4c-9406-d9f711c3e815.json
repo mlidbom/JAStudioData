@@ -1,0 +1,97 @@
+{
+  "id": "f2d8e8ef-3d4f-4c4c-9406-d9f711c3e815",
+  "sourceQuestion": "ドアを<b>押さえて</b>ください。",
+  "userQuestion": "",
+  "activeQuestion": "ドアを押さえてください。",
+  "sourceAnswer": "Please hold the door.",
+  "userAnswer": "",
+  "activeAnswer": "Please hold the door.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "どあ を <b>おさえて</b> ください",
+  "externalId": "sentence:249469",
+  "audio": "[sound:22693b3bb8f87226839e67eb757e9b37.mp3]",
+  "screenshot": "<img src=\"3a42269f924c9e3d40e7b60392321c7a.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "押さえる"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "ドアを押さえてください。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "ドア",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "を",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "押さえる",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": true,
+        "parsedForm": "てください",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "てくださる",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "て",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 7,
+        "isDisplayed": false,
+        "parsedForm": "ください",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 7,
+        "isDisplayed": false,
+        "parsedForm": "くださる",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 10,
+        "isDisplayed": false,
+        "parsedForm": "い",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::2",
+    "source::core2000::step07"
+  ]
+}

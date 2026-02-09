@@ -1,0 +1,84 @@
+{
+  "id": "df6bb2b9-bdf7-4591-9878-3b13c8151702",
+  "sourceQuestion": "駅はここから<b>近い</b>です。",
+  "userQuestion": "",
+  "activeQuestion": "駅はここから近いです。",
+  "sourceAnswer": "The station is near here.",
+  "userAnswer": "",
+  "activeAnswer": "The station is near here.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "えき は ここ から <b>ちかい</b> です",
+  "externalId": "sentence:247123",
+  "audio": "[sound:1e9d0b8bde8fafbc5fd02d6bc0933a89-93df01491dcbc3373aa5ebe4660c870666ad0228.mp3]",
+  "screenshot": "<img src=\"8cf94e0f8767319d9ffb28e2cf1cfe23.jpg\" />",
+  "configuration": {
+    "highlightedWords": [
+      "ここ",
+      "近い"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "駅はここから近いです。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "駅",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 1,
+        "isDisplayed": true,
+        "parsedForm": "は",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "ここから",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "ここ",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": false,
+        "parsedForm": "から",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": true,
+        "parsedForm": "近い",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 8,
+        "isDisplayed": true,
+        "parsedForm": "です",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::3",
+    "source::core2000::step01"
+  ]
+}

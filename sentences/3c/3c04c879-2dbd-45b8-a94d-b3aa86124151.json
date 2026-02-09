@@ -1,0 +1,104 @@
+{
+  "id": "3c04c879-2dbd-45b8-a94d-b3aa86124151",
+  "sourceQuestion": "昨日、母が<b>入院</b>しました。",
+  "userQuestion": "",
+  "activeQuestion": "昨日、母が入院しました。",
+  "sourceAnswer": "My mother was hospitalized yesterday.",
+  "userAnswer": "",
+  "activeAnswer": "My mother was hospitalized yesterday.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "きのう はは が <b>にゅういん</b> しました",
+  "externalId": "sentence:248629",
+  "audio": "[sound:5affacac0c53ca975d9b1163110813ee.mp3]",
+  "screenshot": "<img src=\"30a31bcd205a91faaebb813814bc12f7.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "入院"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "昨日、母が入院しました。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "昨日",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "母",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "が",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": true,
+        "parsedForm": "入院",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 7,
+        "isDisplayed": true,
+        "parsedForm": "しました",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 7,
+        "isDisplayed": false,
+        "parsedForm": "します",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 7,
+        "isDisplayed": false,
+        "parsedForm": "する",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 8,
+        "isDisplayed": false,
+        "parsedForm": "ました",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 8,
+        "isDisplayed": false,
+        "parsedForm": "ます",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 10,
+        "isDisplayed": false,
+        "parsedForm": "た",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::4",
+    "source::core2000::step05"
+  ]
+}

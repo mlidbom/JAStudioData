@@ -1,0 +1,97 @@
+{
+  "id": "1a1dadf8-6aed-405a-942a-0329a52af5c3",
+  "sourceQuestion": "犬がしっぽを<b>振っている</b>。",
+  "userQuestion": "",
+  "activeQuestion": "犬がしっぽを振っている。",
+  "sourceAnswer": "The dog is wagging its tail.",
+  "userAnswer": "",
+  "activeAnswer": "The dog is wagging its tail.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "いぬ が しっぽ を <b>ふって いる</b>",
+  "externalId": "sentence:248763",
+  "audio": "[sound:c0c8a9eb64358ec6bbe6542b40ac508e.mp3]",
+  "screenshot": "<img src=\"e6920d288ae25300203fce2acd19f3ec.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "振る"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "犬がしっぽを振っている。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "犬",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 1,
+        "isDisplayed": true,
+        "parsedForm": "が",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "しっぽを振る",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "しっぽ",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": false,
+        "parsedForm": "を",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "振る",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 8,
+        "isDisplayed": true,
+        "parsedForm": "ている",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 8,
+        "isDisplayed": false,
+        "parsedForm": "て",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 9,
+        "isDisplayed": false,
+        "parsedForm": "いる",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::3",
+    "source::core2000::step05"
+  ]
+}

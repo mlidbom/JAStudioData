@@ -1,0 +1,91 @@
+{
+  "id": "34bbb32f-0f11-43ab-927d-0e6127d7bb0f",
+  "sourceQuestion": "彼はただの<b>酔っ払い</b>です。",
+  "userQuestion": "",
+  "activeQuestion": "彼はただの酔っ払いです。",
+  "sourceAnswer": "He's nothing but a drunk.",
+  "userAnswer": "",
+  "activeAnswer": "He's nothing but a drunk.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "かれ は ただ の <b>よっぱらい</b> です",
+  "externalId": "sentence:250281",
+  "audio": "[sound:98841f46d5938431702008154253bae0.mp3]",
+  "screenshot": "<img src=\"1c97ae9343002d98a21058e6f018a3c1.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "酔っ払い",
+      "酔っ払う"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "彼はただの酔っ払いです。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "彼",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 1,
+        "isDisplayed": true,
+        "parsedForm": "は",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "ただの",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "ただ",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": false,
+        "parsedForm": "の",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": true,
+        "parsedForm": "酔っ払い",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 5,
+        "isDisplayed": true,
+        "parsedForm": "酔っ払う",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 9,
+        "isDisplayed": true,
+        "parsedForm": "です",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::3",
+    "source::core2000::step09"
+  ]
+}

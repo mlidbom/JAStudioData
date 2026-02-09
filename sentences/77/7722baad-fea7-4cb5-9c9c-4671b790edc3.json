@@ -1,0 +1,83 @@
+{
+  "id": "7722baad-fea7-4cb5-9c9c-4671b790edc3",
+  "sourceQuestion": "この<b>席</b>、空いてますか。",
+  "userQuestion": "",
+  "activeQuestion": "この席、空いてますか。",
+  "sourceAnswer": "Is this seat free?",
+  "userAnswer": "",
+  "activeAnswer": "Is this seat free?",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "この <b>せき</b> あいてます か",
+  "externalId": "sentence:248733",
+  "audio": "[sound:7f01e806efbb03fe6c1f91d87c2f765b.mp3]",
+  "screenshot": "<img src=\"dbfcde720c4fca5d33aa8f1461d43366.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "席"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "この席、空いてますか。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "この",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "席",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "空く",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": true,
+        "parsedForm": "てます",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "て",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 7,
+        "isDisplayed": false,
+        "parsedForm": "ます",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 9,
+        "isDisplayed": true,
+        "parsedForm": "か",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::3",
+    "source::core2000::step05"
+  ]
+}

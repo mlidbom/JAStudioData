@@ -1,0 +1,90 @@
+{
+  "id": "9c97a92d-66b6-4752-a426-9c16024ce6f9",
+  "sourceQuestion": "昨日、<b>美術館</b>に行きました。",
+  "userQuestion": "",
+  "activeQuestion": "昨日、美術館に行きました。",
+  "sourceAnswer": "I went to the museum yesterday.",
+  "userAnswer": "",
+  "activeAnswer": "I went to the museum yesterday.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "きのう <b>びじゅつかん</b> に いきました",
+  "externalId": "sentence:249149",
+  "audio": "[sound:26001bba6b84346bda1e72b3ce7c4dfb.mp3]",
+  "screenshot": "<img src=\"2ceeaa462d47a7b25729129281ae1c12.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "美術館"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "昨日、美術館に行きました。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "昨日",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "美術館",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 6,
+        "isDisplayed": true,
+        "parsedForm": "に行く",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "に",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 7,
+        "isDisplayed": false,
+        "parsedForm": "行く",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 9,
+        "isDisplayed": true,
+        "parsedForm": "ました",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 9,
+        "isDisplayed": false,
+        "parsedForm": "ます",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 11,
+        "isDisplayed": false,
+        "parsedForm": "た",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::4",
+    "source::core2000::step06"
+  ]
+}

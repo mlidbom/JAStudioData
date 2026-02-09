@@ -1,0 +1,90 @@
+{
+  "id": "fc599e00-b413-4910-bf7a-3dff4058287e",
+  "sourceQuestion": "雨が<b>ざあざあ</b>降っている。",
+  "userQuestion": "",
+  "activeQuestion": "雨がざあざあ降っている。",
+  "sourceAnswer": "It's pouring.",
+  "userAnswer": "",
+  "activeAnswer": "It's pouring.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "あめ が <b>ざあざあ</b> ふって いる",
+  "externalId": "sentence:250675",
+  "audio": "[sound:ed2bbc09ff7e6722684060940cf20bff.mp3]",
+  "screenshot": "<img src=\"19f7eac4fba4fd711e2fac72b8c68085.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "ざあざあ"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "雨がざあざあ降っている。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "雨",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 1,
+        "isDisplayed": true,
+        "parsedForm": "が",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "ざあざあ",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": true,
+        "parsedForm": "降って",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "降る",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 8,
+        "isDisplayed": false,
+        "parsedForm": "ている",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 8,
+        "isDisplayed": false,
+        "parsedForm": "て",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 9,
+        "isDisplayed": true,
+        "parsedForm": "いる",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::3",
+    "source::core2000::step10"
+  ]
+}

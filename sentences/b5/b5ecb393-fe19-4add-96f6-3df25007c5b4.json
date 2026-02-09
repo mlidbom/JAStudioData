@@ -1,0 +1,84 @@
+{
+  "id": "b5ecb393-fe19-4add-96f6-3df25007c5b4",
+  "sourceQuestion": "医者医者に行きましょう",
+  "userQuestion": "",
+  "activeQuestion": "医者医者に行きましょう",
+  "sourceAnswer": "Doctor! Let's go to the doctor!",
+  "userAnswer": "",
+  "activeAnswer": "Doctor! Let's go to the doctor!",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "いしゃ いしゃ に いきましょう",
+  "externalId": "1600434420000",
+  "audio": "[sound:1600434420000.mp3]",
+  "screenshot": "<img src=\"1600434420000.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "医者"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "医者医者に行きましょう",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "医者",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "医者",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "に行く",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": false,
+        "parsedForm": "に",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 5,
+        "isDisplayed": false,
+        "parsedForm": "行く",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 7,
+        "isDisplayed": true,
+        "parsedForm": "ましょう",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 7,
+        "isDisplayed": false,
+        "parsedForm": "ます",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::medium::15-jlab-beginner",
+    "-::sentence::difficulty::4",
+    "legacy_scheduling",
+    "source::jlab::beginner"
+  ]
+}

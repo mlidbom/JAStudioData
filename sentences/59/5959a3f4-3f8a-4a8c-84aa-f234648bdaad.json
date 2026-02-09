@@ -1,0 +1,90 @@
+{
+  "id": "5959a3f4-3f8a-4a8c-84aa-f234648bdaad",
+  "sourceQuestion": "そこに大きな<b>円</b>を描いて。",
+  "userQuestion": "",
+  "activeQuestion": "そこに大きな円を描いて。",
+  "sourceAnswer": "Draw a big circle there.",
+  "userAnswer": "",
+  "activeAnswer": "Draw a big circle there.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "そこ に おおき な <b>えん</b> を かいて",
+  "externalId": "sentence:246961",
+  "audio": "[sound:543550fc1ecec9abb0e212babfa3b31f-45cb48122b7197d70f2bc0afc22931d43d0269f7.mp3]",
+  "screenshot": "<img src=\"0fc976e7ac437c764ae72e171c7b42c3.jpg\" />",
+  "configuration": {
+    "highlightedWords": [
+      "円"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "そこに大きな円を描いて。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "そこ",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "に",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "大きな",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 6,
+        "isDisplayed": true,
+        "parsedForm": "円を描く",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "円",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 7,
+        "isDisplayed": false,
+        "parsedForm": "を",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 8,
+        "isDisplayed": false,
+        "parsedForm": "描く",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 10,
+        "isDisplayed": true,
+        "parsedForm": "て",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::3",
+    "source::core2000::step01"
+  ]
+}

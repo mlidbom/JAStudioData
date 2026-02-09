@@ -1,0 +1,104 @@
+{
+  "id": "f31fdd08-c003-4bb0-8fc1-56af4828fa24",
+  "sourceQuestion": "この<b>薬</b>を必ず飲んでください。",
+  "userQuestion": "",
+  "activeQuestion": "この薬を必ず飲んでください。",
+  "sourceAnswer": "Please be sure to take this medicine.",
+  "userAnswer": "",
+  "activeAnswer": "Please be sure to take this medicine.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "この <b>くすり</b> を かならず のんで ください",
+  "externalId": "sentence:248997",
+  "audio": "[sound:4d54ba8a1fd4aba63321a1c0d19e10a5.mp3]",
+  "screenshot": "<img src=\"730d16fd2f721f5f354fdca91a91929c.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "薬"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "この薬を必ず飲んでください。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "この",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "薬",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "を",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "必ず",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 6,
+        "isDisplayed": true,
+        "parsedForm": "飲む",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 7,
+        "isDisplayed": true,
+        "parsedForm": "んでください",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 7,
+        "isDisplayed": false,
+        "parsedForm": "んで",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 9,
+        "isDisplayed": false,
+        "parsedForm": "ください",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 9,
+        "isDisplayed": false,
+        "parsedForm": "くださる",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 12,
+        "isDisplayed": false,
+        "parsedForm": "い",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::4",
+    "source::core2000::step06"
+  ]
+}

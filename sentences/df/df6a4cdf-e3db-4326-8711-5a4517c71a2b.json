@@ -1,0 +1,117 @@
+{
+  "id": "df6a4cdf-e3db-4326-8711-5a4517c71a2b",
+  "sourceQuestion": "壁に<b>文字</b>が書いてあった。",
+  "userQuestion": "",
+  "activeQuestion": "壁に文字が書いてあった。",
+  "sourceAnswer": "There was some writing on the wall.",
+  "userAnswer": "",
+  "activeAnswer": "There was some writing on the wall.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "かべ に <b>もじ</b> が かいて あった",
+  "externalId": "sentence:248333",
+  "audio": "[sound:e6240e1ab44d44cc788f2a42e8fc1c1b.mp3]",
+  "screenshot": "<img src=\"76691ddfb64826b68594b57529e5e1ea.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "文字"
+    ],
+    "incorrectMatches": [
+      {
+        "word": "に文字",
+        "index": -1
+      }
+    ],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "壁に文字が書いてあった。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "壁",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 1,
+        "isDisplayed": true,
+        "parsedForm": "に",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "文字",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "が",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 5,
+        "isDisplayed": true,
+        "parsedForm": "書く",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 7,
+        "isDisplayed": true,
+        "parsedForm": "てあった",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 7,
+        "isDisplayed": false,
+        "parsedForm": "てある",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 7,
+        "isDisplayed": false,
+        "parsedForm": "て",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 8,
+        "isDisplayed": false,
+        "parsedForm": "あった",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 8,
+        "isDisplayed": false,
+        "parsedForm": "ある",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 10,
+        "isDisplayed": false,
+        "parsedForm": "た",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::4",
+    "-::sentence::uses::incorrect-matches",
+    "source::core2000::step04"
+  ]
+}

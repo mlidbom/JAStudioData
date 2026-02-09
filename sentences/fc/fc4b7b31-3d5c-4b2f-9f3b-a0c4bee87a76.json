@@ -1,0 +1,81 @@
+{
+  "id": "fc4b7b31-3d5c-4b2f-9f3b-a0c4bee87a76",
+  "sourceQuestion": "おはよう\nおはようございますお父さん",
+  "userQuestion": "",
+  "activeQuestion": "おはよう\nおはようございますお父さん",
+  "sourceAnswer": "",
+  "userAnswer": "Good morning<br>Good morning father",
+  "activeAnswer": "Good morningGood morning father",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "おはよう ございます おとうさん",
+  "externalId": "1600424720000",
+  "audio": "[sound:1600424720000.mp3]",
+  "screenshot": "<img src=\"1600424720000.jpg\">",
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "おはよう\nおはようございますお父さん",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "おはよう",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": true,
+        "parsedForm": "おはようございます",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": false,
+        "parsedForm": "おはよう",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 9,
+        "isDisplayed": false,
+        "parsedForm": "ございます",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 9,
+        "isDisplayed": false,
+        "parsedForm": "ござる",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 12,
+        "isDisplayed": false,
+        "parsedForm": "ます",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 14,
+        "isDisplayed": true,
+        "parsedForm": "お父さん",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::medium::15-jlab-beginner",
+    "-::sentence::difficulty::3",
+    "source::jlab::beginner"
+  ]
+}

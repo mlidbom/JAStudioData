@@ -1,0 +1,97 @@
+{
+  "id": "77324ded-4e40-42c4-ade0-a76b05e367fa",
+  "sourceQuestion": "<b>患者</b>は眠っています。",
+  "userQuestion": "",
+  "activeQuestion": "患者は眠っています。",
+  "sourceAnswer": "The patient is sleeping.",
+  "userAnswer": "",
+  "activeAnswer": "The patient is sleeping.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "<b>かんじゃ</b> は ねむって います",
+  "externalId": "sentence:248461",
+  "audio": "[sound:49e39268b4e77346ca75fafb2e93ee0d.mp3]",
+  "screenshot": "<img src=\"da497e054dad92c482903c95790eb60b.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "患者"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "患者は眠っています。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "患者",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "は",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "眠る",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": true,
+        "parsedForm": "ています",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 5,
+        "isDisplayed": false,
+        "parsedForm": "ている",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": false,
+        "parsedForm": "て",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "います",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "いる",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 7,
+        "isDisplayed": false,
+        "parsedForm": "ます",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::3",
+    "source::core2000::step04"
+  ]
+}

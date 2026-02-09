@@ -1,0 +1,91 @@
+{
+  "id": "e9e1a2e6-164f-462f-a2e1-111ebb71c232",
+  "sourceQuestion": "犬が病気で<b>死にました</b>。",
+  "userQuestion": "",
+  "activeQuestion": "犬が病気で死にました。",
+  "sourceAnswer": "Our dog got sick and died.",
+  "userAnswer": "",
+  "activeAnswer": "Our dog got sick and died.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "いぬ が びょうき で <b> しにました</b>。",
+  "externalId": "sentence:247151",
+  "audio": "[sound:48411da40f825d93c5f76c38e49478e0-7cc18e71e540ec66181afbd9bfdf171f133050e4.mp3]",
+  "screenshot": "<img src=\"02b2b2d7d15f087c36c152deb5156a01.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "死ぬ",
+      "病気"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "犬が病気で死にました。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "犬",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 1,
+        "isDisplayed": true,
+        "parsedForm": "が",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "病気",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "で",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 5,
+        "isDisplayed": true,
+        "parsedForm": "死ぬ",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 7,
+        "isDisplayed": true,
+        "parsedForm": "ました",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 7,
+        "isDisplayed": false,
+        "parsedForm": "ます",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 9,
+        "isDisplayed": false,
+        "parsedForm": "た",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::4",
+    "source::core2000::step01"
+  ]
+}

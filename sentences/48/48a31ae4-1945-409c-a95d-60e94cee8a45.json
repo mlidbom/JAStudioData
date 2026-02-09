@@ -1,0 +1,90 @@
+{
+  "id": "48a31ae4-1945-409c-a95d-60e94cee8a45",
+  "sourceQuestion": "母が今日<b>退院</b>します。",
+  "userQuestion": "",
+  "activeQuestion": "母が今日退院します。",
+  "sourceAnswer": "My mother is being discharged from the hospital today.",
+  "userAnswer": "",
+  "activeAnswer": "My mother is being discharged from the hospital today.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "はは が きょう <b>たいいん</b> します",
+  "externalId": "sentence:249207",
+  "audio": "[sound:a60babb66002ccbca00723e7d292b8ce.mp3]",
+  "screenshot": "<img src=\"7aa45a463683fd156f73294412d3c656.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "退院"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "母が今日退院します。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "母",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 1,
+        "isDisplayed": true,
+        "parsedForm": "が",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "今日",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "退院する",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": false,
+        "parsedForm": "退院",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "します",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "する",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 7,
+        "isDisplayed": true,
+        "parsedForm": "ます",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::4",
+    "source::core2000::step06"
+  ]
+}

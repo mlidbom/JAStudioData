@@ -1,0 +1,97 @@
+{
+  "id": "81c6d009-f74d-4f7c-97fb-f5b2bb23d0f8",
+  "sourceQuestion": "この<b>風邪薬</b>を飲みなさい。",
+  "userQuestion": "",
+  "activeQuestion": "この風邪薬を飲みなさい。",
+  "sourceAnswer": "Take this cold medicine.",
+  "userAnswer": "",
+  "activeAnswer": "Take this cold medicine.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "この <b>かぜぐすり</b> を のみなさい",
+  "externalId": "sentence:250623",
+  "audio": "[sound:063b1951da3806f4b58b9e213add4e4e.mp3]",
+  "screenshot": "<img src=\"d4135d2efe4432dfff9065d2c65e77dc.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "風邪薬"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "この風邪薬を飲みなさい。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "この",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "風邪薬",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "風邪",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": false,
+        "parsedForm": "薬",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": true,
+        "parsedForm": "を",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 6,
+        "isDisplayed": true,
+        "parsedForm": "飲む",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 8,
+        "isDisplayed": true,
+        "parsedForm": "なさい",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 8,
+        "isDisplayed": false,
+        "parsedForm": "なさる",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 10,
+        "isDisplayed": false,
+        "parsedForm": "い",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::4",
+    "source::core2000::step10"
+  ]
+}

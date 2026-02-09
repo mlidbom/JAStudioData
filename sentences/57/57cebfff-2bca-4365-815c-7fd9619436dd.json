@@ -1,0 +1,111 @@
+{
+  "id": "57cebfff-2bca-4365-815c-7fd9619436dd",
+  "sourceQuestion": "<b>石鹸</b>で手を洗ってください。",
+  "userQuestion": "",
+  "activeQuestion": "石鹸で手を洗ってください。",
+  "sourceAnswer": "Please wash your hands with soap.",
+  "userAnswer": "",
+  "activeAnswer": "Please wash your hands with soap.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "<b>せっけん</b> で て を あらって ください",
+  "externalId": "sentence:250703",
+  "audio": "[sound:2ea970ecad19e92ddb038f5b9d76adff.mp3]",
+  "screenshot": "<img src=\"a6040ac52ca8fc7a5392823bb2892ac6.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "石鹸"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "石鹸で手を洗ってください。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "石鹸",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "で",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "手",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "を",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 5,
+        "isDisplayed": true,
+        "parsedForm": "洗う",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 7,
+        "isDisplayed": true,
+        "parsedForm": "てください",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 7,
+        "isDisplayed": false,
+        "parsedForm": "てくださる",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 7,
+        "isDisplayed": false,
+        "parsedForm": "て",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 8,
+        "isDisplayed": false,
+        "parsedForm": "ください",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 8,
+        "isDisplayed": false,
+        "parsedForm": "くださる",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 11,
+        "isDisplayed": false,
+        "parsedForm": "い",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::4",
+    "source::core2000::step10"
+  ]
+}

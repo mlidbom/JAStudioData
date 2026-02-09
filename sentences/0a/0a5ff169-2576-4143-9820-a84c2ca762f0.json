@@ -1,0 +1,76 @@
+{
+  "id": "0a5ff169-2576-4143-9820-a84c2ca762f0",
+  "sourceQuestion": "ひき肉を200<b>グラム</b>ください。",
+  "userQuestion": "",
+  "activeQuestion": "ひき肉を200グラムください。",
+  "sourceAnswer": "Please give me 200 grams of ground (beef, chicken, etc.)",
+  "userAnswer": "",
+  "activeAnswer": "Please give me 200 grams of ground (beef, chicken, etc.)",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "ひきにく を にひゃく<b>ぐらむ</b> ください",
+  "externalId": "sentence:249303",
+  "audio": "[sound:f8b3a5cbc1ed64e6d317835def42ce19.mp3]",
+  "screenshot": "<img src=\"116fc2ad9faf7928b73c1e865295db58.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "グラム"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "ひき肉を200グラムください。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "ひき肉",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "を",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 7,
+        "isDisplayed": true,
+        "parsedForm": "グラム",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 10,
+        "isDisplayed": true,
+        "parsedForm": "ください",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 10,
+        "isDisplayed": false,
+        "parsedForm": "くださる",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 13,
+        "isDisplayed": false,
+        "parsedForm": "い",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::3",
+    "source::core2000::step06"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "e3582889-65d3-4a28-9101-de1920247968",
+  "sourceQuestion": "彼は<b>くし</b>で髪をとかした。",
+  "userQuestion": "",
+  "activeQuestion": "彼はくしで髪をとかした。",
+  "sourceAnswer": "He combed his hair.",
+  "userAnswer": "",
+  "activeAnswer": "He combed his hair.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "かれ は <b>くし</b> で かみ を とかした",
+  "externalId": "sentence:250651",
+  "audio": "[sound:10a4dbfd6d6911d103a31ffa49324bea.mp3]",
+  "screenshot": "<img src=\"ceb49dce2128037a220dae4febc35b38.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "くし"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "彼はくしで髪をとかした。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "彼",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 1,
+        "isDisplayed": true,
+        "parsedForm": "は",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "で",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 5,
+        "isDisplayed": true,
+        "parsedForm": "髪をとかす",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": false,
+        "parsedForm": "髪",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "を",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 7,
+        "isDisplayed": false,
+        "parsedForm": "とかす",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 10,
+        "isDisplayed": true,
+        "parsedForm": "た",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::3",
+    "source::core2000::step10"
+  ]
+}

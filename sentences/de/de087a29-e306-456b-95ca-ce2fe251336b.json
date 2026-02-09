@@ -1,0 +1,69 @@
+{
+  "id": "de087a29-e306-456b-95ca-ce2fe251336b",
+  "sourceQuestion": "これは<b>秘密</b>です。",
+  "userQuestion": "",
+  "activeQuestion": "これは秘密です。",
+  "sourceAnswer": "This is a secret.",
+  "userAnswer": "",
+  "activeAnswer": "This is a secret.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "これ は <b>ひみつ</b> です",
+  "externalId": "sentence:248781",
+  "audio": "[sound:b5246cc5163f86666afadcc3fdae12ed.mp3]",
+  "screenshot": "<img src=\"fcb8036720972651bfb4640c12737aec.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "秘密"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "これは秘密です。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "これは",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": false,
+        "parsedForm": "これ",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "は",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "秘密",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": true,
+        "parsedForm": "です",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::2",
+    "source::core2000::step05"
+  ]
+}

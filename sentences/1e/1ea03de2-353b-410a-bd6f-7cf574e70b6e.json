@@ -1,0 +1,104 @@
+{
+  "id": "1ea03de2-353b-410a-bd6f-7cf574e70b6e",
+  "sourceQuestion": "肉が<b>焼けました</b>。",
+  "userQuestion": "",
+  "activeQuestion": "肉が焼けました。",
+  "sourceAnswer": "The meat is cooked.",
+  "userAnswer": "",
+  "activeAnswer": "The meat is cooked.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "にく が <b>やけました</b>",
+  "externalId": "sentence:249533",
+  "audio": "[sound:db46e9e51c21e8954123f0423c935cd1.mp3]",
+  "screenshot": "<img src=\"f65052f4e0504a93e2652992aec9343f.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "焼ける"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "肉が焼けました。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "肉",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 1,
+        "isDisplayed": true,
+        "parsedForm": "が",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "焼ける",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "焼く",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": false,
+        "parsedForm": "えました",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 3,
+        "isDisplayed": false,
+        "parsedForm": "えます",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 3,
+        "isDisplayed": false,
+        "parsedForm": "える",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "ました",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 4,
+        "isDisplayed": false,
+        "parsedForm": "ます",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "た",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::2",
+    "source::core2000::step07"
+  ]
+}

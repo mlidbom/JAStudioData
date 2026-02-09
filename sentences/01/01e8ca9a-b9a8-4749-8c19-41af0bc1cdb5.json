@@ -1,0 +1,104 @@
+{
+  "id": "01e8ca9a-b9a8-4749-8c19-41af0bc1cdb5",
+  "sourceQuestion": "コーヒーに<b>砂糖</b>は入れますか。",
+  "userQuestion": "",
+  "activeQuestion": "コーヒーに砂糖は入れますか。",
+  "sourceAnswer": "Do you take sugar in your coffee?",
+  "userAnswer": "",
+  "activeAnswer": "Do you take sugar in your coffee?",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "こーひー に <b>さとう</b> は いれます か",
+  "externalId": "sentence:249271",
+  "audio": "[sound:80ef178f0e71294523a3110b0729679c.mp3]",
+  "screenshot": "<img src=\"203eb2f39b3cc6940871cad9fdbdf336.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "砂糖"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "コーヒーに砂糖は入れますか。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "コーヒー",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "に",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": true,
+        "parsedForm": "砂糖",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 7,
+        "isDisplayed": true,
+        "parsedForm": "は",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 8,
+        "isDisplayed": true,
+        "parsedForm": "入れる",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 8,
+        "isDisplayed": false,
+        "parsedForm": "入る",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 9,
+        "isDisplayed": false,
+        "parsedForm": "えます",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 9,
+        "isDisplayed": false,
+        "parsedForm": "える",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 10,
+        "isDisplayed": true,
+        "parsedForm": "ます",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 12,
+        "isDisplayed": true,
+        "parsedForm": "か",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::4",
+    "source::core2000::step06"
+  ]
+}

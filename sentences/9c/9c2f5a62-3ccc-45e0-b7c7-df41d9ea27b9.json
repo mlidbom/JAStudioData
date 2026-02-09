@@ -1,0 +1,76 @@
+{
+  "id": "9c2f5a62-3ccc-45e0-b7c7-df41d9ea27b9",
+  "sourceQuestion": "バスが<b>発車</b>します。",
+  "userQuestion": "",
+  "activeQuestion": "バスが発車します。",
+  "sourceAnswer": "The bus is leaving.",
+  "userAnswer": "",
+  "activeAnswer": "The bus is leaving.",
+  "sourceComments": "",
+  "userComments": "",
+  "reading": "ばす が <b>はっしゃ</b> します",
+  "externalId": "sentence:249979",
+  "audio": "[sound:ef0903fd93653beb117abbf309c7f7db.mp3]",
+  "screenshot": "<img src=\"e247afdf682765dad2e68b9f57b25637.jpg\">",
+  "configuration": {
+    "highlightedWords": [
+      "発車"
+    ],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "バスが発車します。",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "バス",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "が",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "発車",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": true,
+        "parsedForm": "します",
+        "vocabId": null
+      },
+      {
+        "variant": "B",
+        "startIndex": 5,
+        "isDisplayed": false,
+        "parsedForm": "する",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "ます",
+        "vocabId": null
+      }
+    ]
+  },
+  "janomeTokens": "",
+  "tags": [
+    "-::priority::low::110_core_2000",
+    "-::sentence::difficulty::2",
+    "source::core2000::step08"
+  ]
+}
