@@ -21,6 +21,7 @@
   "parsingResult": {
     "sentence": "ふ～ん 共感ってやつ～？",
     "parserVersion": "text_analysis_0.1",
+    "tokenizerVersion": "mecab_1",
     "parsedWords": [
       {
         "variant": "S",
@@ -70,10 +71,17 @@
         "isDisplayed": false,
         "parsedForm": "やつ",
         "vocabId": "a8b18f02-be28-430a-bc7c-5d0bb59afc00"
+      },
+      {
+        "variant": "S",
+        "startIndex": 10,
+        "isDisplayed": true,
+        "parsedForm": "～",
+        "vocabId": "67087f64-b677-467f-a421-65d5db7e944e"
       }
     ]
   },
-  "janomeTokens": "動詞,自立,*,*​ふる​ふ​五段・ラ行​体言接続特殊２​フ​フ​SYS_DICT\n名詞,サ変接続,*,*​～​～​*​*​*​*​UNKNOWN\n助詞,格助詞,一般,*​ん​ん​*​*​ン​ン​SYS_DICT\n記号,空白,*,*​ ​ ​*​*​*​*​UNKNOWN\n名詞,サ変接続,*,*​共感​共感​*​*​キョウカン​キョーカン​SYS_DICT\n助詞,格助詞,連語,*​って​って​*​*​ッテ​ッテ​SYS_DICT\n名詞,代名詞,一般,*​やつ​やつ​*​*​ヤツ​ヤツ​SYS_DICT\n名詞,サ変接続,*,*​～？​～？​*​*​*​*​UNKNOWN",
+  "janomeTokens": "動詞,自立,*,*​ふる​ふ​五段・ラ行​体言接続特殊２​フ​フ​\n記号,一般,*,*​～​～​*​*​～​～​\n名詞,非自立,一般,*​ん​ん​*​*​ン​ン​\n記号,空白,*,*​\u3000​\u3000​*​*​\u3000​\u3000​\n名詞,サ変接続,*,*​共感​共感​*​*​キョウカン​キョーカン​\n助詞,格助詞,連語,*​って​って​*​*​ッテ​ッテ​\n名詞,代名詞,一般,*​やつ​やつ​*​*​ヤツ​ヤツ​\n記号,一般,*,*​～​～​*​*​～​～​\n記号,一般,*,*​？​？​*​*​？​？​",
   "id": "ed784df0-8c78-4d91-b416-133bc5671cf0",
   "tags": [
     "-::priority::high::011_Natsume_01",

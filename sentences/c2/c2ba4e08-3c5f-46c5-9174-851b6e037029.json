@@ -19,38 +19,39 @@
   "parsingResult": {
     "sentence": "（注：焼きもろこし即烧玉米棒）",
     "parserVersion": "text_analysis_0.1",
+    "tokenizerVersion": "mecab_1",
     "parsedWords": [
       {
         "variant": "S",
-        "startIndex": 0,
+        "startIndex": 1,
         "isDisplayed": true,
         "parsedForm": "注",
         "vocabId": "e395f38f-0d50-4c37-9b02-a3aaf0d55fe0"
       },
       {
         "variant": "S",
-        "startIndex": 2,
+        "startIndex": 3,
         "isDisplayed": true,
         "parsedForm": "焼き",
         "vocabId": "6c22252e-f377-40ce-9e8c-cb5f8443a4ec"
       },
       {
         "variant": "B",
-        "startIndex": 2,
+        "startIndex": 3,
         "isDisplayed": true,
         "parsedForm": "焼く",
         "vocabId": "bad70ca7-3c3f-459a-91d8-e25635c8a008"
       },
       {
         "variant": "S",
-        "startIndex": 4,
+        "startIndex": 5,
         "isDisplayed": true,
         "parsedForm": "もろこし",
         "vocabId": "f384e586-90a9-461f-a6d2-4dd4732a0f02"
       },
       {
         "variant": "S",
-        "startIndex": 8,
+        "startIndex": 9,
         "isDisplayed": true,
         "parsedForm": "即",
         "vocabId": "829a6643-5e0f-490a-97da-493503dbb88e"
@@ -59,12 +60,19 @@
         "variant": "S",
         "startIndex": 12,
         "isDisplayed": true,
+        "parsedForm": "米",
+        "vocabId": "e6234455-99bd-4088-8cec-d54c034e57f5"
+      },
+      {
+        "variant": "S",
+        "startIndex": 13,
+        "isDisplayed": true,
         "parsedForm": "棒",
         "vocabId": "0f97efcd-16db-4459-b4d3-9ee1175f2fbc"
       }
     ]
   },
-  "janomeTokens": "名詞,一般,*,*​注​注​*​*​チュウ​チュー​SYS_DICT\n記号,一般,*,*​：​：​*​*​：​：​SYS_DICT\n動詞,自立,*,*​焼く​焼き​五段・カ行イ音便​連用形​ヤキ​ヤキ​SYS_DICT\n名詞,一般,*,*​もろこし​もろこし​*​*​モロコシ​モロコシ​SYS_DICT\n接頭詞,名詞接続,*,*​即​即​*​*​ソク​ソク​SYS_DICT\n名詞,一般,*,*​烧玉米​烧玉米​*​*​*​*​UNKNOWN\n名詞,一般,*,*​棒​棒​*​*​ボウ​ボー​SYS_DICT",
+  "janomeTokens": "記号,空白,*,*​\u3000​\u3000​*​*​\u3000​\u3000​\n名詞,一般,*,*​注​注​*​*​チュウ​チュー​\n記号,一般,*,*​：​：​*​*​：​：​\n動詞,自立,*,*​焼く​焼き​五段・カ行イ音便​連用形​ヤキ​ヤキ​\n名詞,一般,*,*​もろこし​もろこし​*​*​モロコシ​モロコシ​\n接頭詞,名詞接続,*,*​即​即​*​*​ソク​ソク​\n名詞,一般,*,*​*​烧玉​*​*​​​\n名詞,接尾,一般,*​米​米​*​*​マイ​マイ​\n名詞,一般,*,*​棒​棒​*​*​ボウ​ボー​\n記号,空白,*,*​\u3000​\u3000​*​*​\u3000​\u3000​",
   "id": "c2ba4e08-3c5f-46c5-9174-851b6e037029",
   "tags": [
     "-::priority::high::011_Natsume_04",

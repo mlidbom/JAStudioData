@@ -26,94 +26,95 @@
   "parsingResult": {
     "sentence": "（ユーリ･チト）あっ！ （イシイ）うっ！ （ユーリ）こけた",
     "parserVersion": "text_analysis_0.1",
+    "tokenizerVersion": "mecab_1",
     "parsedWords": [
       {
         "variant": "S",
-        "startIndex": 0,
+        "startIndex": 1,
         "isDisplayed": true,
         "parsedForm": "ユーリ",
         "vocabId": "5b9f5808-3ca6-4726-a854-d7cff269072c"
       },
       {
         "variant": "S",
-        "startIndex": 4,
+        "startIndex": 5,
         "isDisplayed": true,
         "parsedForm": "チト",
         "vocabId": "3cecee53-c9f7-4abf-bf28-c869affb5f0e"
       },
       {
         "variant": "S",
-        "startIndex": 7,
+        "startIndex": 8,
         "isDisplayed": true,
         "parsedForm": "あっ",
         "vocabId": "63171e6f-01fd-4676-b79b-0d6559859857"
       },
       {
         "variant": "S",
-        "startIndex": 12,
+        "startIndex": 13,
         "isDisplayed": true,
         "parsedForm": "イシイ",
         "vocabId": "6ded50de-f0ae-47ab-9d90-68421e8c1502"
       },
       {
         "variant": "S",
-        "startIndex": 16,
+        "startIndex": 17,
         "isDisplayed": true,
         "parsedForm": "うっ",
         "vocabId": "fa1b9d79-013e-4f43-be0f-460297f497a9"
       },
       {
         "variant": "B",
-        "startIndex": 16,
+        "startIndex": 17,
         "isDisplayed": true,
         "parsedForm": "うつ",
         "vocabId": null
       },
       {
         "variant": "S",
-        "startIndex": 21,
+        "startIndex": 22,
         "isDisplayed": true,
         "parsedForm": "ユーリ",
         "vocabId": "5b9f5808-3ca6-4726-a854-d7cff269072c"
       },
       {
         "variant": "B",
-        "startIndex": 25,
+        "startIndex": 26,
         "isDisplayed": true,
         "parsedForm": "こける",
         "vocabId": "963b87e3-1b04-4020-a92f-ea83ad16fe55"
       },
       {
         "variant": "B",
-        "startIndex": 25,
+        "startIndex": 26,
         "isDisplayed": false,
         "parsedForm": "こく",
         "vocabId": "b2540c44-19f1-4587-87af-c1131a7fea54"
       },
       {
         "variant": "S",
-        "startIndex": 26,
+        "startIndex": 27,
         "isDisplayed": false,
         "parsedForm": "えた",
         "vocabId": "c9623937-08d2-4d66-ac36-75c158d83958"
       },
       {
         "variant": "B",
-        "startIndex": 26,
+        "startIndex": 27,
         "isDisplayed": false,
         "parsedForm": "える",
         "vocabId": "915ce682-39f5-4e53-92fe-c786863a0e86"
       },
       {
         "variant": "S",
-        "startIndex": 27,
+        "startIndex": 28,
         "isDisplayed": true,
         "parsedForm": "た",
         "vocabId": "8ee8e382-e65c-4af4-81b6-ccd55babc91f"
       }
     ]
   },
-  "janomeTokens": "名詞,固有名詞,人名,名​ユーリ​ユーリ​*​*​ユーリ​ユーリ​SYS_DICT\n名詞,サ変接続,*,*​･​･​*​*​*​*​UNKNOWN\n名詞,一般,*,*​チト​チト​*​*​*​*​UNKNOWN\n記号,空白,*,*​ ​ ​*​*​*​*​UNKNOWN\n感動詞,*,*,*​あっ​あっ​*​*​アッ​アッ​SYS_DICT\n記号,空白,*,*​   ​   ​*​*​*​*​UNKNOWN\n名詞,固有名詞,人名,一般​イシイ​イシイ​*​*​イシイ​イシイ​SYS_DICT\n記号,空白,*,*​ ​ ​*​*​*​*​UNKNOWN\n動詞,自立,*,*​うつ​うっ​五段・タ行​連用タ接続​ウッ​ウッ​SYS_DICT\n記号,空白,*,*​   ​   ​*​*​*​*​UNKNOWN\n名詞,固有名詞,人名,名​ユーリ​ユーリ​*​*​ユーリ​ユーリ​SYS_DICT\n記号,空白,*,*​ ​ ​*​*​*​*​UNKNOWN\n動詞,自立,*,*​こける​こけ​一段​連用形​コケ​コケ​SYS_DICT\n助動詞,*,*,*​た​た​特殊・タ​基本形​タ​タ​SYS_DICT",
+  "janomeTokens": "記号,空白,*,*​\u3000​\u3000​*​*​\u3000​\u3000​\n名詞,固有名詞,人名,名​ユーリ​ユーリ​*​*​ユーリ​ユーリ​\n名詞,サ変接続,*,*​*​･​*​*​​​\n名詞,一般,*,*​*​チト​*​*​​​\n記号,空白,*,*​\u3000​\u3000​*​*​\u3000​\u3000​\n感動詞,*,*,*​あっ​あっ​*​*​アッ​アッ​\n記号,空白,*,*​\u3000​\u3000​*​*​\u3000​\u3000​\n記号,空白,*,*​\u3000​\u3000​*​*​\u3000​\u3000​\n記号,空白,*,*​\u3000​\u3000​*​*​\u3000​\u3000​\n名詞,固有名詞,人名,一般​イシイ​イシイ​*​*​イシイ​イシイ​\n記号,空白,*,*​\u3000​\u3000​*​*​\u3000​\u3000​\n動詞,自立,*,*​うつ​うっ​五段・タ行​連用タ接続​ウッ​ウッ​\n記号,空白,*,*​\u3000​\u3000​*​*​\u3000​\u3000​\n記号,空白,*,*​\u3000​\u3000​*​*​\u3000​\u3000​\n記号,空白,*,*​\u3000​\u3000​*​*​\u3000​\u3000​\n名詞,固有名詞,人名,名​ユーリ​ユーリ​*​*​ユーリ​ユーリ​\n記号,空白,*,*​\u3000​\u3000​*​*​\u3000​\u3000​\n動詞,自立,*,*​こける​こけ​一段​連用形​コケ​コケ​\n助動詞,*,*,*​た​た​特殊・タ​基本形​タ​タ​",
   "id": "0662cde5-e172-40ef-93ec-7196837327fa",
   "tags": [
     "-::priority::high::011_Natsume_01",

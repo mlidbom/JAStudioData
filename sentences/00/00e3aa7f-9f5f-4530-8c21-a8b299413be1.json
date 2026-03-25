@@ -19,6 +19,7 @@
   "parsingResult": {
     "sentence": "チ～ズ！",
     "parserVersion": "text_analysis_0.1",
+    "tokenizerVersion": "mecab_1",
     "parsedWords": [
       {
         "variant": "S",
@@ -36,7 +37,7 @@
       }
     ]
   },
-  "janomeTokens": "名詞,一般,*,*​チ​チ​*​*​*​*​UNKNOWN\n名詞,サ変接続,*,*​～​～​*​*​*​*​UNKNOWN\n名詞,一般,*,*​ズ​ズ​*​*​*​*​UNKNOWN",
+  "janomeTokens": "名詞,一般,*,*​*​チ​*​*​​​\n記号,一般,*,*​～​～​*​*​～​～​\n名詞,固有名詞,組織,*​*​ズ​*​*​​​\n記号,空白,*,*​\u3000​\u3000​*​*​\u3000​\u3000​",
   "id": "00e3aa7f-9f5f-4530-8c21-a8b299413be1",
   "tags": [
     "-::priority::high::011_Natsume_01",

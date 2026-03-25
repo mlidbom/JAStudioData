@@ -19,6 +19,7 @@
   "parsingResult": {
     "sentence": "え？ そんなことできるの～？",
     "parserVersion": "text_analysis_0.1",
+    "tokenizerVersion": "mecab_1",
     "parsedWords": [
       {
         "variant": "S",
@@ -75,10 +76,17 @@
         "isDisplayed": true,
         "parsedForm": "の",
         "vocabId": "33bf9bc1-0744-4973-8d45-5776bc54eac1"
+      },
+      {
+        "variant": "S",
+        "startIndex": 12,
+        "isDisplayed": true,
+        "parsedForm": "～",
+        "vocabId": "67087f64-b677-467f-a421-65d5db7e944e"
       }
     ]
   },
-  "janomeTokens": "フィラー,*,*,*​え​え​*​*​エ​エ​SYS_DICT\n記号,一般,*,*​？​？​*​*​？​？​SYS_DICT\n記号,空白,*,*​ ​ ​*​*​*​*​UNKNOWN\n連体詞,*,*,*​そんな​そんな​*​*​ソンナ​ソンナ​SYS_DICT\n名詞,非自立,一般,*​こと​こと​*​*​コト​コト​SYS_DICT\n動詞,自立,*,*​できる​できる​一段​基本形​デキル​デキル​SYS_DICT\n名詞,非自立,一般,*​の​の​*​*​ノ​ノ​SYS_DICT\n名詞,サ変接続,*,*​～？​～？​*​*​*​*​UNKNOWN",
+  "janomeTokens": "フィラー,*,*,*​え​え​*​*​エ​エ​\n記号,一般,*,*​？​？​*​*​？​？​\n記号,空白,*,*​\u3000​\u3000​*​*​\u3000​\u3000​\n連体詞,*,*,*​そんな​そんな​*​*​ソンナ​ソンナ​\n名詞,非自立,一般,*​こと​こと​*​*​コト​コト​\n動詞,自立,*,*​できる​できる​一段​基本形​デキル​デキル​\n助詞,終助詞,*,*​の​の​*​*​ノ​ノ​\n記号,一般,*,*​～​～​*​*​～​～​\n記号,一般,*,*​？​？​*​*​？​？​",
   "id": "50f65091-105c-4037-8d52-350c27e18995",
   "tags": [
     "-::priority::high::011_Natsume_01",

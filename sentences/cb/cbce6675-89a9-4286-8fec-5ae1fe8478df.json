@@ -19,6 +19,7 @@
   "parsingResult": {
     "sentence": "え～ カワイイのに～",
     "parserVersion": "text_analysis_0.1",
+    "tokenizerVersion": "mecab_1",
     "parsedWords": [
       {
         "variant": "S",
@@ -43,24 +44,17 @@
       },
       {
         "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": false,
+        "parsedForm": "イイ",
+        "vocabId": "5a53715b-896e-40a4-80c6-1ae071a0ddb5"
+      },
+      {
+        "variant": "S",
         "startIndex": 7,
         "isDisplayed": true,
         "parsedForm": "のに",
         "vocabId": "6e603b14-fa17-4d0a-8ddb-ed04644d57a3"
-      },
-      {
-        "variant": "S",
-        "startIndex": 7,
-        "isDisplayed": false,
-        "parsedForm": "の",
-        "vocabId": "33bf9bc1-0744-4973-8d45-5776bc54eac1"
-      },
-      {
-        "variant": "S",
-        "startIndex": 8,
-        "isDisplayed": false,
-        "parsedForm": "に",
-        "vocabId": "7391aab7-d24e-4260-8395-e7b757406ef6"
       },
       {
         "variant": "S",
@@ -71,7 +65,7 @@
       }
     ]
   },
-  "janomeTokens": "フィラー,*,*,*​え​え​*​*​エ​エ​SYS_DICT\n名詞,サ変接続,*,*​～​～​*​*​*​*​UNKNOWN\n記号,空白,*,*​ ​ ​*​*​*​*​UNKNOWN\n名詞,一般,*,*​カワイイ​カワイイ​*​*​*​*​UNKNOWN\n名詞,非自立,一般,*​の​の​*​*​ノ​ノ​SYS_DICT\n助詞,格助詞,一般,*​に​に​*​*​ニ​ニ​SYS_DICT\n名詞,サ変接続,*,*​～​～​*​*​*​*​UNKNOWN",
+  "janomeTokens": "フィラー,*,*,*​え​え​*​*​エ​エ​\n記号,一般,*,*​～​～​*​*​～​～​\n記号,空白,*,*​\u3000​\u3000​*​*​\u3000​\u3000​\n名詞,一般,*,*​*​カワ​*​*​​​\n形容詞,自立,*,*​イイ​イイ​不変化型​基本形​イイ​イイ​\n助詞,接続助詞,*,*​のに​のに​*​*​ノニ​ノニ​\n記号,一般,*,*​～​～​*​*​～​～​",
   "id": "cbce6675-89a9-4286-8fec-5ae1fe8478df",
   "tags": [
     "-::priority::high::011_Natsume_01",

@@ -26,6 +26,7 @@
   "parsingResult": {
     "sentence": "ん～ うっ！",
     "parserVersion": "text_analysis_0.1",
+    "tokenizerVersion": "mecab_1",
     "parsedWords": [
       {
         "variant": "S",
@@ -57,7 +58,7 @@
       }
     ]
   },
-  "janomeTokens": "助詞,格助詞,一般,*​ん​ん​*​*​ン​ン​SYS_DICT\n名詞,サ変接続,*,*​～​～​*​*​*​*​UNKNOWN\n記号,空白,*,*​ ​ ​*​*​*​*​UNKNOWN\n動詞,自立,*,*​うつ​うっ​五段・タ行​連用タ接続​ウッ​ウッ​SYS_DICT",
+  "janomeTokens": "助詞,終助詞,*,*​ん​ん​*​*​ン​ン​\n記号,一般,*,*​～​～​*​*​～​～​\n記号,空白,*,*​\u3000​\u3000​*​*​\u3000​\u3000​\n動詞,自立,*,*​うつ​うっ​五段・タ行​連用タ接続​ウッ​ウッ​\n記号,空白,*,*​\u3000​\u3000​*​*​\u3000​\u3000​",
   "id": "a29e9fe4-5287-41b2-ac5f-1d6cf212557f",
   "tags": [
     "-::priority::high::011_Natsume_01",

@@ -19,6 +19,7 @@
   "parsingResult": {
     "sentence": "午前? 午後?",
     "parserVersion": "text_analysis_0.1",
+    "tokenizerVersion": "mecab_1",
     "parsedWords": [
       {
         "variant": "S",
@@ -36,7 +37,7 @@
       }
     ]
   },
-  "janomeTokens": "名詞,副詞可能,*,*​午前​午前​*​*​ゴゼン​ゴゼン​SYS_DICT\n名詞,サ変接続,*,*​?​?​*​*​*​*​UNKNOWN\n記号,空白,*,*​ ​ ​*​*​*​*​UNKNOWN\n名詞,副詞可能,*,*​午後​午後​*​*​ゴゴ​ゴゴ​SYS_DICT\n名詞,サ変接続,*,*​?​?​*​*​*​*​UNKNOWN",
+  "janomeTokens": "名詞,副詞可能,*,*​午前​午前​*​*​ゴゼン​ゴゼン​\n名詞,サ変接続,*,*​*​?\u3000​*​*​​​\n名詞,副詞可能,*,*​午後​午後​*​*​ゴゴ​ゴゴ​\n名詞,サ変接続,*,*​*​?​*​*​​​",
   "id": "d649ee61-ed63-425f-bb64-cc93aeb84587",
   "tags": [
     "-::priority::medium::16-jlab-inter",

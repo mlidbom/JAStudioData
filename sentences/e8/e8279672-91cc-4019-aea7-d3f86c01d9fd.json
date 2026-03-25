@@ -19,45 +19,46 @@
   "parsingResult": {
     "sentence": "（ユーリ･チト）かんぱ～い",
     "parserVersion": "text_analysis_0.1",
+    "tokenizerVersion": "mecab_1",
     "parsedWords": [
       {
         "variant": "S",
-        "startIndex": 0,
+        "startIndex": 1,
         "isDisplayed": true,
         "parsedForm": "ユーリ",
         "vocabId": "5b9f5808-3ca6-4726-a854-d7cff269072c"
       },
       {
         "variant": "S",
-        "startIndex": 4,
+        "startIndex": 5,
         "isDisplayed": true,
         "parsedForm": "チト",
         "vocabId": "3cecee53-c9f7-4abf-bf28-c869affb5f0e"
       },
       {
         "variant": "S",
-        "startIndex": 10,
+        "startIndex": 11,
         "isDisplayed": true,
         "parsedForm": "～",
         "vocabId": "67087f64-b677-467f-a421-65d5db7e944e"
       },
       {
         "variant": "S",
-        "startIndex": 11,
+        "startIndex": 12,
         "isDisplayed": true,
         "parsedForm": "い",
         "vocabId": "8fb0eb25-120b-4d7e-b7dc-5793fb1a8152"
       },
       {
         "variant": "B",
-        "startIndex": 11,
+        "startIndex": 12,
         "isDisplayed": true,
         "parsedForm": "いる",
         "vocabId": "8211800d-5642-41a5-b7e6-184e6d052d66"
       }
     ]
   },
-  "janomeTokens": "名詞,固有名詞,人名,名​ユーリ​ユーリ​*​*​ユーリ​ユーリ​SYS_DICT\n名詞,サ変接続,*,*​･​･​*​*​*​*​UNKNOWN\n名詞,一般,*,*​チト​チト​*​*​*​*​UNKNOWN\n記号,空白,*,*​ ​ ​*​*​*​*​UNKNOWN\n名詞,サ変接続,*,*​かんぱ​かんぱ​*​*​カンパ​カンパ​SYS_DICT\n名詞,サ変接続,*,*​～​～​*​*​*​*​UNKNOWN\n動詞,非自立,*,*​いる​い​一段​連用形​イ​イ​SYS_DICT",
+  "janomeTokens": "記号,空白,*,*​\u3000​\u3000​*​*​\u3000​\u3000​\n名詞,固有名詞,人名,名​ユーリ​ユーリ​*​*​ユーリ​ユーリ​\n名詞,サ変接続,*,*​*​･​*​*​​​\n名詞,一般,*,*​*​チト​*​*​​​\n記号,空白,*,*​\u3000​\u3000​*​*​\u3000​\u3000​\n名詞,サ変接続,*,*​かんぱ​かんぱ​*​*​カンパ​カンパ​\n記号,一般,*,*​～​～​*​*​～​～​\n動詞,自立,*,*​いる​い​一段​連用形​イ​イ​",
   "id": "e8279672-91cc-4019-aea7-d3f86c01d9fd",
   "tags": [
     "-::priority::high::011_Natsume_01",

@@ -19,6 +19,7 @@
   "parsingResult": {
     "sentence": "いいの～？",
     "parserVersion": "text_analysis_0.1",
+    "tokenizerVersion": "mecab_1",
     "parsedWords": [
       {
         "variant": "S",
@@ -40,10 +41,17 @@
         "isDisplayed": false,
         "parsedForm": "の",
         "vocabId": "33bf9bc1-0744-4973-8d45-5776bc54eac1"
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "～",
+        "vocabId": "67087f64-b677-467f-a421-65d5db7e944e"
       }
     ]
   },
-  "janomeTokens": "形容詞,自立,*,*​いい​いい​形容詞・イイ​基本形​イイ​イイ​SYS_DICT\n助詞,連体化,*,*​の​の​*​*​ノ​ノ​SYS_DICT\n名詞,サ変接続,*,*​～？​～？​*​*​*​*​UNKNOWN",
+  "janomeTokens": "形容詞,自立,*,*​いい​いい​形容詞・イイ​基本形​イイ​イイ​\n助詞,終助詞,*,*​の​の​*​*​ノ​ノ​\n記号,一般,*,*​～​～​*​*​～​～​\n記号,一般,*,*​？​？​*​*​？​？​",
   "id": "33e30bcf-e7d6-4233-b2bb-948f003af6a2",
   "tags": [
     "-::priority::high::011_Natsume_01",

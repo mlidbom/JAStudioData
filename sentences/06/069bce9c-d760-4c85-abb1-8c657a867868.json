@@ -19,6 +19,7 @@
   "parsingResult": {
     "sentence": "何だ案外簡単なものだな\u3000妖祓いなんて",
     "parserVersion": "text_analysis_0.1",
+    "tokenizerVersion": "mecab_1",
     "parsedWords": [
       {
         "variant": "S",
@@ -85,14 +86,28 @@
       },
       {
         "variant": "S",
-        "startIndex": 17,
+        "startIndex": 12,
         "isDisplayed": true,
-        "parsedForm": "て",
-        "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+        "parsedForm": "妖",
+        "vocabId": "437813c6-b956-4784-ae4b-efbfaaf75924"
+      },
+      {
+        "variant": "S",
+        "startIndex": 13,
+        "isDisplayed": true,
+        "parsedForm": "祓い",
+        "vocabId": "6819a25e-c730-4200-8400-0d10a286afa5"
+      },
+      {
+        "variant": "S",
+        "startIndex": 15,
+        "isDisplayed": true,
+        "parsedForm": "なんて",
+        "vocabId": "c3cfee1f-9ead-42f1-8532-a8740261f008"
       }
     ]
   },
-  "janomeTokens": "感動詞,*,*,*​何だ​何だ​*​*​ナンダ​ナンダ​SYS_DICT\n副詞,助詞類接続,*,*​案外​案外​*​*​アンガイ​アンガイ​SYS_DICT\n名詞,形容動詞語幹,*,*​簡単​簡単​*​*​カンタン​カンタン​SYS_DICT\n助動詞,*,*,*​だ​な​特殊・ダ​体言接続​ナ​ナ​SYS_DICT\n名詞,非自立,一般,*​もの​もの​*​*​モノ​モノ​SYS_DICT\n助動詞,*,*,*​だ​だ​特殊・ダ​基本形​ダ​ダ​SYS_DICT\n助詞,終助詞,*,*​な​な​*​*​ナ​ナ​SYS_DICT\n記号,空白,*,*​\u3000​\u3000​*​*​\u3000​​SYS_DICT\n名詞,一般,*,*​妖祓​妖祓​*​*​*​*​UNKNOWN\n動詞,自立,*,*​いなむ​いなん​五段・マ行​連用タ接続​イナン​イナン​SYS_DICT\n助詞,接続助詞,*,*​て​て​*​*​テ​テ​SYS_DICT",
+  "janomeTokens": "感動詞,*,*,*​何だ​何だ​*​*​ナンダ​ナンダ​\n副詞,助詞類接続,*,*​案外​案外​*​*​アンガイ​アンガイ​\n名詞,形容動詞語幹,*,*​簡単​簡単​*​*​カンタン​カンタン​\n助動詞,*,*,*​だ​な​特殊・ダ​体言接続​ナ​ナ​\n名詞,非自立,一般,*​もの​もの​*​*​モノ​モノ​\n助動詞,*,*,*​だ​だ​特殊・ダ​基本形​ダ​ダ​\n助詞,終助詞,*,*​な​な​*​*​ナ​ナ​\n記号,空白,*,*​\u3000​\u3000​*​*​\u3000​\u3000​\n名詞,一般,*,*​*​妖​*​*​​​\n名詞,接尾,一般,*​祓い​祓い​*​*​バライ​バライ​\n助詞,副助詞,*,*​なんて​なんて​*​*​ナンテ​ナンテ​",
   "id": "069bce9c-d760-4c85-abb1-8c657a867868",
   "tags": [
     "-::priority::high::011_Natsume_05",

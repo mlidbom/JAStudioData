@@ -21,6 +21,7 @@
   "parsingResult": {
     "sentence": "ハムサンドをください。",
     "parserVersion": "text_analysis_0.1",
+    "tokenizerVersion": "mecab_1",
     "parsedWords": [
       {
         "variant": "S",
@@ -59,7 +60,7 @@
       }
     ]
   },
-  "janomeTokens": "名詞,一般,*,*​ハムサンド​ハムサンド​*​*​*​*​UNKNOWN\n助詞,格助詞,一般,*​を​を​*​*​ヲ​ヲ​SYS_DICT\n動詞,自立,*,*​くださる​ください​五段・ラ行特殊​命令ｉ​クダサイ​クダサイ​SYS_DICT\n記号,句点,*,*​。​。​*​*​。​。​SYS_DICT",
+  "janomeTokens": "名詞,一般,*,*​*​ハムサンド​*​*​​​\n助詞,格助詞,一般,*​を​を​*​*​ヲ​ヲ​\n動詞,自立,*,*​くださる​ください​五段・ラ行特殊​命令ｉ​クダサイ​クダサイ​\n記号,句点,*,*​。​。​*​*​。​。​",
   "id": "234b0e4c-19ff-4c48-b92e-2ac14c99e623",
   "tags": [
     "-::priority::low::110_core_2000",

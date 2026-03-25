@@ -19,38 +19,39 @@
   "parsingResult": {
     "sentence": "（２人）チーズ！",
     "parserVersion": "text_analysis_0.1",
+    "tokenizerVersion": "mecab_1",
     "parsedWords": [
       {
         "variant": "S",
-        "startIndex": 0,
+        "startIndex": 1,
         "isDisplayed": true,
         "parsedForm": "２人",
         "vocabId": "588f140f-6e18-4ce5-a1f0-9ce33a2bd812"
       },
       {
         "variant": "S",
-        "startIndex": 0,
+        "startIndex": 1,
         "isDisplayed": false,
         "parsedForm": "２",
         "vocabId": "2c5c58f8-82b0-44d4-bcd4-7a65d79ba986"
       },
       {
         "variant": "S",
-        "startIndex": 1,
+        "startIndex": 2,
         "isDisplayed": false,
         "parsedForm": "人",
         "vocabId": "7489fcaf-31a9-4fba-adf2-a9e76e46d803"
       },
       {
         "variant": "S",
-        "startIndex": 3,
+        "startIndex": 4,
         "isDisplayed": true,
         "parsedForm": "チーズ",
         "vocabId": "eb70cebc-8802-4738-88dd-1c1187dbbe83"
       }
     ]
   },
-  "janomeTokens": "名詞,数,*,*​２​２​*​*​ニ​ニ​SYS_DICT\n名詞,接尾,助数詞,*​人​人​*​*​ニン​ニン​SYS_DICT\n記号,空白,*,*​ ​ ​*​*​*​*​UNKNOWN\n名詞,一般,*,*​チーズ​チーズ​*​*​チーズ​チーズ​SYS_DICT",
+  "janomeTokens": "記号,空白,*,*​\u3000​\u3000​*​*​\u3000​\u3000​\n名詞,数,*,*​２​２​*​*​ニ​ニ​\n名詞,接尾,助数詞,*​人​人​*​*​ニン​ニン​\n記号,空白,*,*​\u3000​\u3000​*​*​\u3000​\u3000​\n名詞,一般,*,*​チーズ​チーズ​*​*​チーズ​チーズ​\n記号,空白,*,*​\u3000​\u3000​*​*​\u3000​\u3000​",
   "id": "9af288d5-ed3a-4be5-9043-705d18d70cd1",
   "tags": [
     "-::priority::high::011_Natsume_01",

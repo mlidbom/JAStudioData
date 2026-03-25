@@ -19,6 +19,7 @@
   "parsingResult": {
     "sentence": "つぼ? 押入れの中にか",
     "parserVersion": "text_analysis_0.1",
+    "tokenizerVersion": "mecab_1",
     "parsedWords": [
       {
         "variant": "S",
@@ -51,16 +52,9 @@
       {
         "variant": "B",
         "startIndex": 4,
-        "isDisplayed": false,
+        "isDisplayed": true,
         "parsedForm": "押入る",
         "vocabId": "8d011dc8-b2f0-4ec0-8cf5-94383f5eb98f"
-      },
-      {
-        "variant": "B",
-        "startIndex": 6,
-        "isDisplayed": false,
-        "parsedForm": "え",
-        "vocabId": "602a5d49-874c-4f77-a5de-9ddbd99ee156"
       },
       {
         "variant": "S",
@@ -113,7 +107,7 @@
       }
     ]
   },
-  "janomeTokens": "助動詞,*,*,*​つ​つ​下二・タ行​基本形​ツ​ツ​SYS_DICT\n動詞,自立,*,*​ぼる​ぼ​五段・ラ行​体言接続特殊２​ボ​ボ​SYS_DICT\n名詞,サ変接続,*,*​?​?​*​*​*​*​UNKNOWN\n記号,空白,*,*​ ​ ​*​*​*​*​UNKNOWN\n動詞,自立,*,*​押入る​押入れ​五段・ラ行​命令ｅ​オシイレ​オシイレ​SYS_DICT\n助詞,連体化,*,*​の​の​*​*​ノ​ノ​SYS_DICT\n名詞,非自立,副詞可能,*​中​中​*​*​ナカ​ナカ​SYS_DICT\n助詞,格助詞,一般,*​に​に​*​*​ニ​ニ​SYS_DICT\n助詞,副助詞／並立助詞／終助詞,*,*​か​か​*​*​カ​カ​SYS_DICT",
+  "janomeTokens": "助動詞,*,*,*​つ​つ​下二・タ行​基本形​ツ​ツ​\n動詞,自立,*,*​ぼる​ぼ​五段・ラ行​体言接続特殊２​ボ​ボ​\n名詞,サ変接続,*,*​*​?\u3000​*​*​​​\n動詞,自立,*,*​押入る​押入れ​五段・ラ行​仮定形​オシイレ​オシイレ​\n助詞,連体化,*,*​の​の​*​*​ノ​ノ​\n名詞,非自立,副詞可能,*​中​中​*​*​ナカ​ナカ​\n助詞,格助詞,一般,*​に​に​*​*​ニ​ニ​\n助詞,副助詞／並立助詞／終助詞,*,*​か​か​*​*​カ​カ​",
   "id": "96d139ca-57c6-43b0-bd28-a209e43acee4",
   "tags": [
     "-::priority::high::011_Natsume_02",

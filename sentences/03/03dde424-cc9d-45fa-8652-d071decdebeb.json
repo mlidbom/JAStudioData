@@ -19,6 +19,7 @@
   "parsingResult": {
     "sentence": "誰が不細工な巨顔猫だ",
     "parserVersion": "text_analysis_0.1",
+    "tokenizerVersion": "mecab_1",
     "parsedWords": [
       {
         "variant": "S",
@@ -64,6 +65,20 @@
       },
       {
         "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "巨顔",
+        "vocabId": "87c2c92f-64d8-4b7a-88dc-dc781baf64c3"
+      },
+      {
+        "variant": "S",
+        "startIndex": 8,
+        "isDisplayed": false,
+        "parsedForm": "猫",
+        "vocabId": "65468158-54b1-4c11-b9e7-bf221f335cc5"
+      },
+      {
+        "variant": "S",
         "startIndex": 9,
         "isDisplayed": true,
         "parsedForm": "だ",
@@ -71,7 +86,7 @@
       }
     ]
   },
-  "janomeTokens": "名詞,代名詞,一般,*​誰​誰​*​*​ダレ​ダレ​SYS_DICT\n助詞,格助詞,一般,*​が​が​*​*​ガ​ガ​SYS_DICT\n名詞,形容動詞語幹,*,*​不細工​不細工​*​*​ブサイク​ブサイク​SYS_DICT\n助動詞,*,*,*​だ​な​特殊・ダ​体言接続​ナ​ナ​SYS_DICT\n名詞,一般,*,*​巨顔猫​巨顔猫​*​*​*​*​UNKNOWN\n助動詞,*,*,*​だ​だ​特殊・ダ​基本形​ダ​ダ​SYS_DICT",
+  "janomeTokens": "名詞,代名詞,一般,*​誰​誰​*​*​ダレ​ダレ​\n助詞,格助詞,一般,*​が​が​*​*​ガ​ガ​\n名詞,形容動詞語幹,*,*​不細工​不細工​*​*​ブサイク​ブサイク​\n助動詞,*,*,*​だ​な​特殊・ダ​体言接続​ナ​ナ​\n名詞,一般,*,*​*​巨顔​*​*​​​\n名詞,一般,*,*​猫​猫​*​*​ネコ​ネコ​\n助動詞,*,*,*​だ​だ​特殊・ダ​基本形​ダ​ダ​",
   "id": "03dde424-cc9d-45fa-8652-d071decdebeb",
   "tags": [
     "-::priority::high::011_Natsume_02",

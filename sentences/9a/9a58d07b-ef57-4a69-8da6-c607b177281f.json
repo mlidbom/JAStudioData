@@ -19,6 +19,7 @@
   "parsingResult": {
     "sentence": "私は偶々通りかかっただけ",
     "parserVersion": "text_analysis_0.1",
+    "tokenizerVersion": "mecab_1",
     "parsedWords": [
       {
         "variant": "S",
@@ -43,15 +44,43 @@
       },
       {
         "variant": "S",
-        "startIndex": 5,
+        "startIndex": 2,
         "isDisplayed": true,
-        "parsedForm": "り",
-        "vocabId": "7a91dd3e-1df6-41e9-9456-67b057f92184"
+        "parsedForm": "偶々",
+        "vocabId": "628bdfde-bf9e-4987-8ff4-8c68d87f33ed"
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "偶",
+        "vocabId": "53ced2de-c932-47ed-8540-f0e5ebe34bf7"
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": false,
+        "parsedForm": "々",
+        "vocabId": "2087458c-acec-4f6b-b3a1-64c65807266c"
+      },
+      {
+        "variant": "B",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "通りかかる",
+        "vocabId": "3ab74228-415f-4d10-8526-00495377d8a4"
+      },
+      {
+        "variant": "B",
+        "startIndex": 4,
+        "isDisplayed": false,
+        "parsedForm": "通る",
+        "vocabId": "4881c9d0-5c2f-43c7-aeff-a162100df10c"
       },
       {
         "variant": "B",
         "startIndex": 6,
-        "isDisplayed": true,
+        "isDisplayed": false,
         "parsedForm": "かかる",
         "vocabId": "d5b76370-9f79-44cf-9a93-9d1278a065c8"
       },
@@ -71,7 +100,7 @@
       }
     ]
   },
-  "janomeTokens": "名詞,代名詞,一般,*​私​私​*​*​ワタシ​ワタシ​SYS_DICT\n助詞,係助詞,*,*​は​は​*​*​ハ​ワ​SYS_DICT\n名詞,一般,*,*​偶々通​偶々通​*​*​*​*​UNKNOWN\n助動詞,*,*,*​り​り​文語・リ​基本形​リ​リ​SYS_DICT\n動詞,自立,*,*​かかる​かかっ​五段・ラ行​連用タ接続​カカッ​カカッ​SYS_DICT\n助動詞,*,*,*​た​た​特殊・タ​基本形​タ​タ​SYS_DICT\n助詞,副助詞,*,*​だけ​だけ​*​*​ダケ​ダケ​SYS_DICT",
+  "janomeTokens": "名詞,代名詞,一般,*​私​私​*​*​ワタシ​ワタシ​\n助詞,係助詞,*,*​は​は​*​*​ハ​ワ​\n名詞,一般,*,*​*​偶​*​*​​​\n記号,一般,*,*​々​々​*​*​々​々​\n動詞,自立,*,*​通る​通り​五段・ラ行​連用形​トオリ​トーリ​\n動詞,非自立,*,*​かかる​かかっ​五段・ラ行​連用タ接続​カカッ​カカッ​\n助動詞,*,*,*​た​た​特殊・タ​基本形​タ​タ​\n助詞,副助詞,*,*​だけ​だけ​*​*​ダケ​ダケ​",
   "id": "9a58d07b-ef57-4a69-8da6-c607b177281f",
   "tags": [
     "-::priority::high::011_Natsume_03",

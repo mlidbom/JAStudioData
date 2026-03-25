@@ -19,6 +19,7 @@
   "parsingResult": {
     "sentence": "焼けたかな～？",
     "parserVersion": "text_analysis_0.1",
+    "tokenizerVersion": "mecab_1",
     "parsedWords": [
       {
         "variant": "B",
@@ -75,10 +76,17 @@
         "isDisplayed": false,
         "parsedForm": "な",
         "vocabId": "89b0d902-b2dd-4f1f-a0dc-4f6565616c64"
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": true,
+        "parsedForm": "～",
+        "vocabId": "67087f64-b677-467f-a421-65d5db7e944e"
       }
     ]
   },
-  "janomeTokens": "動詞,自立,*,*​焼ける​焼け​一段​連用形​ヤケ​ヤケ​SYS_DICT\n助動詞,*,*,*​た​た​特殊・タ​基本形​タ​タ​SYS_DICT\n助詞,副助詞／並立助詞／終助詞,*,*​か​か​*​*​カ​カ​SYS_DICT\n助詞,終助詞,*,*​な​な​*​*​ナ​ナ​SYS_DICT\n名詞,サ変接続,*,*​～？​～？​*​*​*​*​UNKNOWN",
+  "janomeTokens": "動詞,自立,*,*​焼ける​焼け​一段​連用形​ヤケ​ヤケ​\n助動詞,*,*,*​た​た​特殊・タ​基本形​タ​タ​\n助詞,副助詞／並立助詞／終助詞,*,*​か​か​*​*​カ​カ​\n助詞,終助詞,*,*​な​な​*​*​ナ​ナ​\n記号,一般,*,*​～​～​*​*​～​～​\n記号,一般,*,*​？​？​*​*​？​？​",
   "id": "a780fef1-e4a7-4370-9273-6c4e35628dbe",
   "tags": [
     "-::priority::high::011_Natsume_01",

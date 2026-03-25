@@ -19,6 +19,7 @@
   "parsingResult": {
     "sentence": "え～ なんで～？",
     "parserVersion": "text_analysis_0.1",
+    "tokenizerVersion": "mecab_1",
     "parsedWords": [
       {
         "variant": "S",
@@ -40,10 +41,17 @@
         "isDisplayed": true,
         "parsedForm": "なんで",
         "vocabId": "95734e5d-3875-4589-a11a-1d1a9e45ae89"
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": true,
+        "parsedForm": "～",
+        "vocabId": "67087f64-b677-467f-a421-65d5db7e944e"
       }
     ]
   },
-  "janomeTokens": "フィラー,*,*,*​え​え​*​*​エ​エ​SYS_DICT\n名詞,サ変接続,*,*​～​～​*​*​*​*​UNKNOWN\n記号,空白,*,*​ ​ ​*​*​*​*​UNKNOWN\n副詞,一般,*,*​なんで​なんで​*​*​ナンデ​ナンデ​SYS_DICT\n名詞,サ変接続,*,*​～？​～？​*​*​*​*​UNKNOWN",
+  "janomeTokens": "フィラー,*,*,*​え​え​*​*​エ​エ​\n記号,一般,*,*​～​～​*​*​～​～​\n記号,空白,*,*​\u3000​\u3000​*​*​\u3000​\u3000​\n副詞,一般,*,*​なんで​なんで​*​*​ナンデ​ナンデ​\n記号,一般,*,*​～​～​*​*​～​～​\n記号,一般,*,*​？​？​*​*​？​？​",
   "id": "84b277e7-d648-4648-88c5-1bc6b3cb115d",
   "tags": [
     "-::priority::high::011_Natsume_01",

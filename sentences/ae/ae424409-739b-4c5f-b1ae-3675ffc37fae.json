@@ -19,6 +19,7 @@
   "parsingResult": {
     "sentence": "はぁ～\u3000やっとお昼",
     "parserVersion": "text_analysis_0.1",
+    "tokenizerVersion": "mecab_1",
     "parsedWords": [
       {
         "variant": "S",
@@ -26,6 +27,13 @@
         "isDisplayed": true,
         "parsedForm": "はぁ",
         "vocabId": "ecff1be0-68b7-479f-afb0-23e48e2d802a"
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "～",
+        "vocabId": "67087f64-b677-467f-a421-65d5db7e944e"
       },
       {
         "variant": "S",
@@ -43,7 +51,7 @@
       }
     ]
   },
-  "janomeTokens": "感動詞,*,*,*​はぁ​はぁ​*​*​ハァ​ハー​SYS_DICT\n名詞,サ変接続,*,*​～\u3000​～\u3000​*​*​*​*​UNKNOWN\n副詞,一般,*,*​やっと​やっと​*​*​ヤット​ヤット​SYS_DICT\n名詞,副詞可能,*,*​お昼​お昼​*​*​オヒル​オヒル​SYS_DICT",
+  "janomeTokens": "感動詞,*,*,*​はぁ​はぁ​*​*​ハァ​ハー​\n記号,一般,*,*​～​～​*​*​～​～​\n記号,空白,*,*​\u3000​\u3000​*​*​\u3000​\u3000​\n副詞,一般,*,*​やっと​やっと​*​*​ヤット​ヤット​\n名詞,副詞可能,*,*​お昼​お昼​*​*​オヒル​オヒル​",
   "id": "ae424409-739b-4c5f-b1ae-3675ffc37fae",
   "tags": [
     "-::priority::high::011_Violet_Evergarden",

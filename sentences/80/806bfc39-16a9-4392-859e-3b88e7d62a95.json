@@ -24,6 +24,7 @@
   "parsingResult": {
     "sentence": "そしたらあくる日偶々雨が降った",
     "parserVersion": "text_analysis_0.1",
+    "tokenizerVersion": "mecab_1",
     "parsedWords": [
       {
         "variant": "S",
@@ -41,15 +42,50 @@
       },
       {
         "variant": "S",
-        "startIndex": 11,
+        "startIndex": 8,
         "isDisplayed": true,
+        "parsedForm": "偶々",
+        "vocabId": "628bdfde-bf9e-4987-8ff4-8c68d87f33ed"
+      },
+      {
+        "variant": "S",
+        "startIndex": 8,
+        "isDisplayed": false,
+        "parsedForm": "偶",
+        "vocabId": "53ced2de-c932-47ed-8540-f0e5ebe34bf7"
+      },
+      {
+        "variant": "S",
+        "startIndex": 9,
+        "isDisplayed": false,
+        "parsedForm": "々",
+        "vocabId": "2087458c-acec-4f6b-b3a1-64c65807266c"
+      },
+      {
+        "variant": "B",
+        "startIndex": 10,
+        "isDisplayed": true,
+        "parsedForm": "雨が降る",
+        "vocabId": null
+      },
+      {
+        "variant": "S",
+        "startIndex": 10,
+        "isDisplayed": false,
+        "parsedForm": "雨",
+        "vocabId": "f0f697b4-51cf-467a-855b-dfcba0730fe2"
+      },
+      {
+        "variant": "S",
+        "startIndex": 11,
+        "isDisplayed": false,
         "parsedForm": "が",
         "vocabId": "2abe98f2-ebd9-4aae-9562-451647960317"
       },
       {
         "variant": "B",
         "startIndex": 12,
-        "isDisplayed": true,
+        "isDisplayed": false,
         "parsedForm": "降る",
         "vocabId": "c868316a-16c1-4ad1-b72f-c92389a5bab2"
       },
@@ -62,7 +98,7 @@
       }
     ]
   },
-  "janomeTokens": "接続詞,*,*,*​そしたら​そしたら​*​*​ソシタラ​ソシタラ​SYS_DICT\n名詞,副詞可能,*,*​あくる日​あくる日​*​*​アクルヒ​アクルヒ​SYS_DICT\n名詞,一般,*,*​偶々雨​偶々雨​*​*​*​*​UNKNOWN\n助詞,格助詞,一般,*​が​が​*​*​ガ​ガ​SYS_DICT\n動詞,自立,*,*​降る​降っ​五段・ラ行​連用タ接続​フッ​フッ​SYS_DICT\n助動詞,*,*,*​た​た​特殊・タ​基本形​タ​タ​SYS_DICT",
+  "janomeTokens": "接続詞,*,*,*​そしたら​そしたら​*​*​ソシタラ​ソシタラ​\n名詞,副詞可能,*,*​あくる日​あくる日​*​*​アクルヒ​アクルヒ​\n名詞,一般,*,*​*​偶​*​*​​​\n記号,一般,*,*​々​々​*​*​々​々​\n名詞,一般,*,*​雨​雨​*​*​アメ​アメ​\n助詞,格助詞,一般,*​が​が​*​*​ガ​ガ​\n動詞,自立,*,*​降る​降っ​五段・ラ行​連用タ接続​フッ​フッ​\n助動詞,*,*,*​た​た​特殊・タ​基本形​タ​タ​",
   "id": "806bfc39-16a9-4392-859e-3b88e7d62a95",
   "tags": [
     "-::priority::high::011_Natsume_01",
