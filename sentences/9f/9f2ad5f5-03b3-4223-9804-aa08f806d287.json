@@ -1,7 +1,7 @@
 {
   "sourceQuestion": "ぎりぎりだけどね",
-  "userQuestion": "",
-  "activeQuestion": "ぎりぎりだけどね",
+  "userQuestion": "うん\u3000ぎりぎりだけどね",
+  "activeQuestion": "うん\u3000ぎりぎりだけどね",
   "sourceAnswer": "Yeah, but just barely.",
   "userAnswer": "",
   "activeAnswer": "Yeah, but just barely.",
@@ -17,40 +17,47 @@
     "hiddenMatches": []
   },
   "parsingResult": {
-    "sentence": "ぎりぎりだけどね",
+    "sentence": "うん\u3000ぎりぎりだけどね",
     "parserVersion": "text_analysis_0.1",
     "parsedWords": [
       {
         "variant": "S",
         "startIndex": 0,
         "isDisplayed": true,
+        "parsedForm": "うん",
+        "vocabId": "20cf1957-facf-4b70-8b6f-3f68dbc090c9"
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": true,
         "parsedForm": "ぎりぎり",
         "vocabId": "f9d51a1e-bc34-4f77-b3e7-9b9225844c99"
       },
       {
         "variant": "S",
-        "startIndex": 4,
+        "startIndex": 7,
         "isDisplayed": true,
         "parsedForm": "だけど",
         "vocabId": "efb594c0-b6dd-46a0-9a3b-265e53b1cfdc"
       },
       {
         "variant": "S",
-        "startIndex": 4,
+        "startIndex": 7,
         "isDisplayed": false,
         "parsedForm": "だ",
         "vocabId": "32d275aa-5811-482d-b2f3-7e6d2080ac53"
       },
       {
         "variant": "S",
-        "startIndex": 5,
+        "startIndex": 8,
         "isDisplayed": false,
         "parsedForm": "けど",
         "vocabId": "fd306f09-1bc3-4f74-ab92-95e10af2db51"
       },
       {
         "variant": "S",
-        "startIndex": 7,
+        "startIndex": 10,
         "isDisplayed": true,
         "parsedForm": "ね",
         "vocabId": "b85b71b0-b473-4af5-bfa2-f0d824577845"
