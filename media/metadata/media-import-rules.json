@@ -157,9 +157,10 @@
   ],
   "sentenceRules": [
     {
-      "prefix": "source::lyrics",
-      "targetDirectory": "commercial-02/unknown",
-      "copyright": "Commercial"
+      "prefix": "source::free::misc",
+      "field": "Screenshot",
+      "targetDirectory": "free/misc",
+      "copyright": "Free"
     },
     {
       "prefix": "anki::unknown",
@@ -221,6 +222,11 @@
       "copyright": "Commercial"
     },
     {
+      "prefix": "source::free::misc",
+      "targetDirectory": "free/misc",
+      "copyright": "Free"
+    },
+    {
       "prefix": "source::immersion_kit",
       "targetDirectory": "commercial-02/anime/immersion-kit/audio",
       "copyright": "Commercial"
@@ -240,6 +246,11 @@
       "prefix": "source::jlab",
       "field": "Screenshot",
       "targetDirectory": "commercial-02/anime/jlab/audio",
+      "copyright": "Commercial"
+    },
+    {
+      "prefix": "source::lyrics",
+      "targetDirectory": "commercial-02/unknown",
       "copyright": "Commercial"
     },
     {
