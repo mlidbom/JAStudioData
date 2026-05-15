@@ -2,6 +2,7 @@
   "vocabRules": [
     {
       "prefix": "anki::unknown",
+      "field": "AudioFirst",
       "targetDirectory": "commercial-01/vocab/unknown/audio"
     },
     {
@@ -29,6 +30,7 @@
     },
     {
       "prefix": "source::core2000",
+      "field": "AudioFirst",
       "targetDirectory": "commercial-01/vocab/core2000/audio",
       "copyright": "Commercial"
     },
@@ -51,6 +53,7 @@
     },
     {
       "prefix": "source::grammar",
+      "field": "AudioFirst",
       "targetDirectory": "commercial-01/vocab/unknown/audio"
     },
     {
@@ -61,6 +64,7 @@
     },
     {
       "prefix": "source::jamdict",
+      "field": "AudioFirst",
       "targetDirectory": "free/TTS/vocab",
       "copyright": "Free"
     },
@@ -95,11 +99,13 @@
     },
     {
       "prefix": "source::lyrics",
+      "field": "AudioFirst",
       "targetDirectory": "vocab/TTS",
       "copyright": "Free"
     },
     {
       "prefix": "source::wani",
+      "field": "AudioFirst",
       "targetDirectory": "commercial-01/vocab/wani/audio/first",
       "copyright": "Commercial"
     },
@@ -129,6 +135,7 @@
     },
     {
       "prefix": "source::yomitan",
+      "field": "AudioFirst",
       "targetDirectory": "free/yomitan/vocab/audio",
       "copyright": "Free"
     },
@@ -157,17 +164,13 @@
   ],
   "sentenceRules": [
     {
-      "prefix": "source::free::misc",
-      "field": "Screenshot",
-      "targetDirectory": "free/misc",
-      "copyright": "Free"
-    },
-    {
       "prefix": "anki::unknown",
+      "field": "Audio",
       "targetDirectory": "commercial-02/unknown"
     },
     {
       "prefix": "source::anime::girls-last-tour",
+      "field": "Audio",
       "targetDirectory": "commercial-02/anime/girls-last-tour/audio",
       "copyright": "Commercial"
     },
@@ -179,6 +182,7 @@
     },
     {
       "prefix": "source::anime::natsume",
+      "field": "Audio",
       "targetDirectory": "commercial-02/anime/natsume-yuujinchou/audio",
       "copyright": "Commercial"
     },
@@ -190,6 +194,7 @@
     },
     {
       "prefix": "source::anime::one-week",
+      "field": "Audio",
       "targetDirectory": "commercial-02/anime/one-week-friends/audio",
       "copyright": "Commercial"
     },
@@ -201,6 +206,7 @@
     },
     {
       "prefix": "source::anime::violet",
+      "field": "Audio",
       "targetDirectory": "commercial-02/anime/violet-evergarden/audio",
       "copyright": "Commercial"
     },
@@ -212,6 +218,7 @@
     },
     {
       "prefix": "source::core2000",
+      "field": "Audio",
       "targetDirectory": "commercial-02/studying/core2000/audio",
       "copyright": "Commercial"
     },
@@ -223,11 +230,19 @@
     },
     {
       "prefix": "source::free::misc",
+      "field": "Screenshot",
+      "targetDirectory": "free/misc",
+      "copyright": "Free"
+    },
+    {
+      "prefix": "source::free::misc",
+      "field": "Audio",
       "targetDirectory": "free/misc",
       "copyright": "Free"
     },
     {
       "prefix": "source::immersion_kit",
+      "field": "Audio",
       "targetDirectory": "commercial-02/anime/immersion-kit/audio",
       "copyright": "Commercial"
     },
@@ -239,6 +254,7 @@
     },
     {
       "prefix": "source::jlab",
+      "field": "Audio",
       "targetDirectory": "commercial-02/anime/jlab/audio",
       "copyright": "Commercial"
     },
@@ -250,15 +266,18 @@
     },
     {
       "prefix": "source::lyrics",
+      "field": "Audio",
       "targetDirectory": "commercial-02/unknown",
       "copyright": "Commercial"
     },
     {
       "prefix": "source::misc",
+      "field": "Audio",
       "targetDirectory": "commercial-02/unknown"
     },
     {
       "prefix": "source::wani",
+      "field": "Audio",
       "targetDirectory": "free/TTS/sentences/wanikani",
       "copyright": "Free"
     }
