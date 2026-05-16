@@ -15,7 +15,16 @@
     "highlightedWords": [
       "でない"
     ],
-    "incorrectMatches": [],
+    "incorrectMatches": [
+      {
+        "word": "もんで",
+        "index": 10
+      },
+      {
+        "word": "もんで",
+        "index": -1
+      }
+    ],
     "hiddenMatches": []
   },
   "parsingResult": {
@@ -75,20 +84,13 @@
         "variant": "S",
         "startIndex": 10,
         "isDisplayed": true,
-        "parsedForm": "もので",
-        "vocabId": "cf6ed2af-4fb9-4c3c-b75e-c99bd26b4879"
-      },
-      {
-        "variant": "S",
-        "startIndex": 10,
-        "isDisplayed": false,
         "parsedForm": "もの",
         "vocabId": "9b13f5d7-5d34-4c43-985a-7b64b48c767b"
       },
       {
         "variant": "S",
         "startIndex": 12,
-        "isDisplayed": false,
+        "isDisplayed": true,
         "parsedForm": "でない",
         "vocabId": "b642ce5d-2123-46bf-8275-68a457375156"
       },
@@ -102,7 +104,7 @@
       {
         "variant": "S",
         "startIndex": 13,
-        "isDisplayed": true,
+        "isDisplayed": false,
         "parsedForm": "ない",
         "vocabId": "5d1d65aa-6ed8-4bf4-893f-d9eb6b2321d3"
       },
