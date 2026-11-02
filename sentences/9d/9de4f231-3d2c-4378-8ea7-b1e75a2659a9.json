@@ -13,7 +13,24 @@
   "screenshot": "<img src=\"A_Girls'_Last_Tour_S01_04_0.07.52.889.jpg\">",
   "configuration": {
     "highlightedWords": [],
-    "incorrectMatches": [],
+    "incorrectMatches": [
+      {
+        "word": "着ける",
+        "index": 21
+      },
+      {
+        "word": "点ける",
+        "index": 21
+      },
+      {
+        "word": "付ける",
+        "index": 21
+      },
+      {
+        "word": "つける",
+        "index": 21
+      }
+    ],
     "hiddenMatches": []
   },
   "parsingResult": {
@@ -108,20 +125,13 @@
         "variant": "B",
         "startIndex": 21,
         "isDisplayed": true,
-        "parsedForm": "着ける",
-        "vocabId": "7d151bc0-37c2-4e4c-bbc0-b8cd65126c32"
-      },
-      {
-        "variant": "B",
-        "startIndex": 21,
-        "isDisplayed": false,
         "parsedForm": "着く",
         "vocabId": "f142ece3-584d-4c08-a871-3fe3e66cde41"
       },
       {
         "variant": "S",
         "startIndex": 22,
-        "isDisplayed": false,
+        "isDisplayed": true,
         "parsedForm": "えそう",
         "vocabId": "3a0a7c64-cf41-44d2-a17e-2f1b5abf3ba9"
       },
@@ -135,7 +145,7 @@
       {
         "variant": "S",
         "startIndex": 23,
-        "isDisplayed": true,
+        "isDisplayed": false,
         "parsedForm": "そうだ",
         "vocabId": "fe4dd6a4-d47d-466a-98c6-a996ac0d58d7"
       },
@@ -149,7 +159,7 @@
       {
         "variant": "S",
         "startIndex": 25,
-        "isDisplayed": false,
+        "isDisplayed": true,
         "parsedForm": "だ",
         "vocabId": "32d275aa-5811-482d-b2f3-7e6d2080ac53"
       }
