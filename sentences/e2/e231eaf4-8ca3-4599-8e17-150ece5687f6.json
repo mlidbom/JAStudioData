@@ -13,7 +13,12 @@
   "screenshot": "<img src=\"ny4-nodup_05_0.08.41.905.jpg\">",
   "configuration": {
     "highlightedWords": [],
-    "incorrectMatches": [],
+    "incorrectMatches": [
+      {
+        "word": "降って",
+        "index": -1
+      }
+    ],
     "hiddenMatches": []
   },
   "parsingResult": {
@@ -49,23 +54,16 @@
         "vocabId": "f0f697b4-51cf-467a-855b-dfcba0730fe2"
       },
       {
-        "variant": "S",
-        "startIndex": 11,
-        "isDisplayed": true,
-        "parsedForm": "降って",
-        "vocabId": "753a8267-21d6-415e-9391-35eb2440f9c0"
-      },
-      {
         "variant": "B",
         "startIndex": 11,
-        "isDisplayed": false,
+        "isDisplayed": true,
         "parsedForm": "降る",
         "vocabId": "c868316a-16c1-4ad1-b72f-c92389a5bab2"
       },
       {
         "variant": "B",
         "startIndex": 13,
-        "isDisplayed": false,
+        "isDisplayed": true,
         "parsedForm": "てくる",
         "vocabId": "5b3c1912-cb85-4252-b3bb-062b0be745bc"
       },
@@ -79,7 +77,7 @@
       {
         "variant": "B",
         "startIndex": 14,
-        "isDisplayed": true,
+        "isDisplayed": false,
         "parsedForm": "くる",
         "vocabId": "d4e15e58-9e91-4b57-8b27-36a2254af928"
       },
@@ -117,6 +115,7 @@
   "tags": [
     "-::priority::high::011_Natsume_04",
     "-::sentence::difficulty::4",
+    "-::sentence::uses::incorrect-matches",
     "source::anime::natsume::s4::05"
   ]
 }

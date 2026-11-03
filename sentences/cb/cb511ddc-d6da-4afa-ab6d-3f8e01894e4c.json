@@ -13,7 +13,12 @@
   "screenshot": "<img src=\"A_Girls'_Last_Tour_S01_05_0.16.22.877.jpg\">",
   "configuration": {
     "highlightedWords": [],
-    "incorrectMatches": [],
+    "incorrectMatches": [
+      {
+        "word": "降って",
+        "index": -1
+      }
+    ],
     "hiddenMatches": []
   },
   "parsingResult": {
@@ -77,16 +82,9 @@
         "vocabId": "67a62904-bc8a-4b97-8ea5-69364da19acd"
       },
       {
-        "variant": "S",
-        "startIndex": 9,
-        "isDisplayed": true,
-        "parsedForm": "降って",
-        "vocabId": "753a8267-21d6-415e-9391-35eb2440f9c0"
-      },
-      {
         "variant": "B",
         "startIndex": 9,
-        "isDisplayed": false,
+        "isDisplayed": true,
         "parsedForm": "降る",
         "vocabId": "c868316a-16c1-4ad1-b72f-c92389a5bab2"
       },
@@ -100,7 +98,7 @@
       {
         "variant": "B",
         "startIndex": 11,
-        "isDisplayed": false,
+        "isDisplayed": true,
         "parsedForm": "てくれる",
         "vocabId": "7747b3cc-f8db-468a-ac56-abbd08f93aee"
       },
@@ -114,7 +112,7 @@
       {
         "variant": "B",
         "startIndex": 12,
-        "isDisplayed": true,
+        "isDisplayed": false,
         "parsedForm": "くれる",
         "vocabId": "10773e41-fea7-4ac4-a318-d72b6f3043f7"
       },
@@ -159,6 +157,7 @@
   "tags": [
     "-::priority::high::011_Natsume_01",
     "-::sentence::difficulty::5",
+    "-::sentence::uses::incorrect-matches",
     "legacy_scheduling",
     "source::anime::girls-last-tour",
     "source::anime::girls-last-tour::05"

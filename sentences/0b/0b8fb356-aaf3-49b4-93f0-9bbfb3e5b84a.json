@@ -13,7 +13,12 @@
   "screenshot": "<img src=\"Isshuukan_Friends_(Test)_04_0.12.02.355.jpg\">",
   "configuration": {
     "highlightedWords": [],
-    "incorrectMatches": [],
+    "incorrectMatches": [
+      {
+        "word": "降って",
+        "index": -1
+      }
+    ],
     "hiddenMatches": []
   },
   "parsingResult": {
@@ -84,23 +89,16 @@
         "vocabId": "f0f697b4-51cf-467a-855b-dfcba0730fe2"
       },
       {
-        "variant": "S",
-        "startIndex": 11,
-        "isDisplayed": true,
-        "parsedForm": "降って",
-        "vocabId": "753a8267-21d6-415e-9391-35eb2440f9c0"
-      },
-      {
         "variant": "B",
         "startIndex": 11,
-        "isDisplayed": false,
+        "isDisplayed": true,
         "parsedForm": "降る",
         "vocabId": "c868316a-16c1-4ad1-b72f-c92389a5bab2"
       },
       {
         "variant": "S",
         "startIndex": 13,
-        "isDisplayed": false,
+        "isDisplayed": true,
         "parsedForm": "てた",
         "vocabId": "4a72e0c9-ff33-4ec6-931f-980fdc414788"
       },
@@ -114,7 +112,7 @@
       {
         "variant": "S",
         "startIndex": 14,
-        "isDisplayed": true,
+        "isDisplayed": false,
         "parsedForm": "た",
         "vocabId": "8ee8e382-e65c-4af4-81b6-ccd55babc91f"
       },
@@ -132,6 +130,7 @@
     "_only_studying_listening",
     "-::priority::high::011_isshuukan",
     "-::sentence::difficulty::5",
+    "-::sentence::uses::incorrect-matches",
     "source::anime::one-week::04"
   ]
 }

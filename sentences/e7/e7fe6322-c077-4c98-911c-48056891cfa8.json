@@ -13,7 +13,12 @@
   "screenshot": "<img src=\"nyova-nodup_1_0.02.14.095.jpg\">",
   "configuration": {
     "highlightedWords": [],
-    "incorrectMatches": [],
+    "incorrectMatches": [
+      {
+        "word": "降って",
+        "index": -1
+      }
+    ],
     "hiddenMatches": []
   },
   "parsingResult": {
@@ -49,23 +54,16 @@
         "vocabId": "6c07a0f4-7f32-4936-b5d2-9663c002cb3c"
       },
       {
-        "variant": "S",
-        "startIndex": 6,
-        "isDisplayed": true,
-        "parsedForm": "降って",
-        "vocabId": "753a8267-21d6-415e-9391-35eb2440f9c0"
-      },
-      {
         "variant": "B",
         "startIndex": 6,
-        "isDisplayed": false,
+        "isDisplayed": true,
         "parsedForm": "降る",
         "vocabId": "c868316a-16c1-4ad1-b72f-c92389a5bab2"
       },
       {
         "variant": "S",
         "startIndex": 8,
-        "isDisplayed": false,
+        "isDisplayed": true,
         "parsedForm": "てきました",
         "vocabId": "eec8e2c4-8e59-4bd5-a416-b328e392974b"
       },
@@ -93,14 +91,14 @@
       {
         "variant": "B",
         "startIndex": 9,
-        "isDisplayed": true,
+        "isDisplayed": false,
         "parsedForm": "くる",
         "vocabId": "d4e15e58-9e91-4b57-8b27-36a2254af928"
       },
       {
         "variant": "S",
         "startIndex": 10,
-        "isDisplayed": true,
+        "isDisplayed": false,
         "parsedForm": "ました",
         "vocabId": "2fc554c4-3ab8-4755-91a9-5ec2a38a5dde"
       },
@@ -131,6 +129,7 @@
   "tags": [
     "-::priority::high::011_Natsume_ovas_and_specials",
     "-::sentence::difficulty::3",
+    "-::sentence::uses::incorrect-matches",
     "source::anime::natsume::ova1"
   ]
 }
