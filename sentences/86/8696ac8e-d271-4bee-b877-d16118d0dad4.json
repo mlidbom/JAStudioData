@@ -1,7 +1,7 @@
 {
-  "sourceQuestion": "水なら くんだが",
+  "sourceQuestion": "水なら 汲んだが",
   "userQuestion": "",
-  "activeQuestion": "水なら くんだが",
+  "activeQuestion": "水なら 汲んだが",
   "sourceAnswer": "I got the water.",
   "userAnswer": "",
   "activeAnswer": "I got the water.",
@@ -12,14 +12,21 @@
   "audio": "[sound:A_Girls'_Last_Tour_S01_02_0.18.03.165-0.18.04.917.mp3]",
   "screenshot": "<img src=\"A_Girls'_Last_Tour_S01_02_0.18.04.041.jpg\">",
   "configuration": {
-    "highlightedWords": [
-      "くむ"
+    "highlightedWords": [],
+    "incorrectMatches": [
+      {
+        "word": "だが",
+        "index": 6
+      },
+      {
+        "word": "ですが",
+        "index": 6
+      }
     ],
-    "incorrectMatches": [],
     "hiddenMatches": []
   },
   "parsingResult": {
-    "sentence": "水なら くんだが",
+    "sentence": "水なら 汲んだが",
     "parserVersion": "text_analysis_0.1",
     "parsedWords": [
       {
@@ -37,30 +44,23 @@
         "vocabId": "4d337ff1-89c9-464c-8826-a1729078f401"
       },
       {
-        "variant": "S",
+        "variant": "B",
         "startIndex": 4,
         "isDisplayed": true,
-        "parsedForm": "くん",
-        "vocabId": "4bc621d5-c44a-40ea-8f92-a095a77a2cd1"
+        "parsedForm": "汲む",
+        "vocabId": "a2870752-293f-481f-bd8b-9b8b1489dd73"
       },
       {
         "variant": "S",
-        "startIndex": 6,
+        "startIndex": 5,
         "isDisplayed": true,
-        "parsedForm": "だが",
-        "vocabId": "bb408822-07c1-4d03-9816-1b4b3277324c"
-      },
-      {
-        "variant": "S",
-        "startIndex": 6,
-        "isDisplayed": false,
-        "parsedForm": "だ",
-        "vocabId": "32d275aa-5811-482d-b2f3-7e6d2080ac53"
+        "parsedForm": "んだ",
+        "vocabId": "b4ea9553-0c0b-491e-ae0b-95c025484070"
       },
       {
         "variant": "S",
         "startIndex": 7,
-        "isDisplayed": false,
+        "isDisplayed": true,
         "parsedForm": "が",
         "vocabId": "2abe98f2-ebd9-4aae-9562-451647960317"
       }
@@ -70,6 +70,7 @@
   "tags": [
     "-::priority::high::011_Natsume_01",
     "-::sentence::difficulty::2",
+    "-::sentence::uses::incorrect-matches",
     "legacy_scheduling",
     "source::anime::girls-last-tour",
     "source::anime::girls-last-tour::02"

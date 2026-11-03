@@ -13,7 +13,16 @@
   "screenshot": "<img src=\"Isshuukan_Friends_(Test)_10_0.18.07.365.jpg\">",
   "configuration": {
     "highlightedWords": [],
-    "incorrectMatches": [],
+    "incorrectMatches": [
+      {
+        "word": "くむ",
+        "index": -1
+      },
+      {
+        "word": "汲む",
+        "index": -1
+      }
+    ],
     "hiddenMatches": []
   },
   "parsingResult": {
@@ -119,13 +128,6 @@
         "vocabId": "4bc621d5-c44a-40ea-8f92-a095a77a2cd1"
       },
       {
-        "variant": "B",
-        "startIndex": 18,
-        "isDisplayed": false,
-        "parsedForm": "くむ",
-        "vocabId": "3bd4bbf3-3177-47c6-8f75-0c94738ea86a"
-      },
-      {
         "variant": "S",
         "startIndex": 20,
         "isDisplayed": true,
@@ -152,6 +154,7 @@
   "tags": [
     "-::priority::high::011_isshuukan",
     "-::sentence::difficulty::4",
+    "-::sentence::uses::incorrect-matches",
     "source::anime::one-week::10"
   ]
 }
