@@ -15,7 +15,12 @@
     "highlightedWords": [
       "〜様"
     ],
-    "incorrectMatches": [],
+    "incorrectMatches": [
+      {
+        "word": "様です",
+        "index": -1
+      }
+    ],
     "hiddenMatches": []
   },
   "parsingResult": {
@@ -105,13 +110,6 @@
         "isDisplayed": false,
         "parsedForm": "名",
         "vocabId": "74e1a9a8-9c09-4269-9829-02d5bd1e77be"
-      },
-      {
-        "variant": "S",
-        "startIndex": 15,
-        "isDisplayed": false,
-        "parsedForm": "様です",
-        "vocabId": "08e10c88-e3f6-4d6d-aab5-8ec5c7c461f0"
       },
       {
         "variant": "S",
@@ -239,6 +237,7 @@
     "_tts_audio",
     "-::priority::low::120_tts",
     "-::sentence::difficulty::6",
+    "-::sentence::uses::incorrect-matches",
     "source::wani",
     "source::wani::current"
   ]

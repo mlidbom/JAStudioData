@@ -13,7 +13,12 @@
   "screenshot": "<img src=\"ny1-nodup_02_0.03.06.815.jpg\">",
   "configuration": {
     "highlightedWords": [],
-    "incorrectMatches": [],
+    "incorrectMatches": [
+      {
+        "word": "様です",
+        "index": -1
+      }
+    ],
     "hiddenMatches": []
   },
   "parsingResult": {
@@ -38,20 +43,13 @@
         "variant": "S",
         "startIndex": 5,
         "isDisplayed": true,
-        "parsedForm": "様です",
-        "vocabId": "08e10c88-e3f6-4d6d-aab5-8ec5c7c461f0"
-      },
-      {
-        "variant": "S",
-        "startIndex": 5,
-        "isDisplayed": false,
         "parsedForm": "様",
         "vocabId": "0adae2c5-6cd4-4587-ac7b-517b864b5ce5"
       },
       {
         "variant": "S",
         "startIndex": 6,
-        "isDisplayed": false,
+        "isDisplayed": true,
         "parsedForm": "ですね",
         "vocabId": "a0ddaabc-e6b0-46f2-9a0c-ee8bdd6926dc"
       },
@@ -65,7 +63,7 @@
       {
         "variant": "S",
         "startIndex": 8,
-        "isDisplayed": true,
+        "isDisplayed": false,
         "parsedForm": "ね",
         "vocabId": "b85b71b0-b473-4af5-bfa2-f0d824577845"
       }
@@ -75,6 +73,7 @@
   "tags": [
     "-::priority::high::011_Natsume_01",
     "-::sentence::difficulty::3",
+    "-::sentence::uses::incorrect-matches",
     "legacy_scheduling",
     "source::anime::natsume::s1::02"
   ]

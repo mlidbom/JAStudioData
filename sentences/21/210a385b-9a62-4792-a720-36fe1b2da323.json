@@ -13,7 +13,16 @@
   "screenshot": "<img src=\"A_Girls'_Last_Tour_S01_10_0.06.35.562.jpg\">",
   "configuration": {
     "highlightedWords": [],
-    "incorrectMatches": [],
+    "incorrectMatches": [
+      {
+        "word": "に付け",
+        "index": -1
+      },
+      {
+        "word": "に付けて",
+        "index": -1
+      }
+    ],
     "hiddenMatches": []
   },
   "parsingResult": {
@@ -89,20 +98,6 @@
         "isDisplayed": false,
         "parsedForm": "身",
         "vocabId": "7fb019a3-d5ea-4936-a01e-7b8e9fd4f32c"
-      },
-      {
-        "variant": "S",
-        "startIndex": 13,
-        "isDisplayed": false,
-        "parsedForm": "に付けて",
-        "vocabId": "7f320f04-b099-4e56-b0c8-e0057112a671"
-      },
-      {
-        "variant": "S",
-        "startIndex": 13,
-        "isDisplayed": false,
-        "parsedForm": "に付け",
-        "vocabId": "b3488824-983e-4655-b574-e259310d583f"
       },
       {
         "variant": "S",
@@ -201,6 +196,7 @@
   "tags": [
     "-::priority::high::011_Natsume_01",
     "-::sentence::difficulty::5",
+    "-::sentence::uses::incorrect-matches",
     "legacy_scheduling",
     "source::anime::girls-last-tour",
     "source::anime::girls-last-tour::10"

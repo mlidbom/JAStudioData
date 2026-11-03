@@ -13,7 +13,12 @@
   "screenshot": "<img src=\"1600450120000.jpg\">",
   "configuration": {
     "highlightedWords": [],
-    "incorrectMatches": [],
+    "incorrectMatches": [
+      {
+        "word": "はいたい",
+        "index": 19
+      }
+    ],
     "hiddenMatches": []
   },
   "parsingResult": {
@@ -147,23 +152,16 @@
         "vocabId": "67a62904-bc8a-4b97-8ea5-69364da19acd"
       },
       {
-        "variant": "B",
-        "startIndex": 19,
-        "isDisplayed": true,
-        "parsedForm": "はいたい",
-        "vocabId": "508c99d5-6aad-4928-af19-6dac9b4c72b2"
-      },
-      {
         "variant": "S",
         "startIndex": 19,
-        "isDisplayed": false,
+        "isDisplayed": true,
         "parsedForm": "は",
         "vocabId": "825f4f56-9e9b-4eb9-92e2-099dc6d0c677"
       },
       {
         "variant": "B",
         "startIndex": 20,
-        "isDisplayed": false,
+        "isDisplayed": true,
         "parsedForm": "いたい",
         "vocabId": "ba38a03f-4e28-4c88-94bf-24f84fcc6113"
       },
@@ -188,6 +186,7 @@
     "-::priority::medium::16-jlab-inter",
     "-::priority::medium::17-jlab-booster",
     "-::sentence::difficulty::5",
+    "-::sentence::uses::incorrect-matches",
     "source::jlab::booster::2",
     "source::jlab::inter"
   ]

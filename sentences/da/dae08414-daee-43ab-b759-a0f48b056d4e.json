@@ -13,7 +13,12 @@
   "screenshot": "<img src=\"ny5-nodup_01_0.01.45.060.jpg\">",
   "configuration": {
     "highlightedWords": [],
-    "incorrectMatches": [],
+    "incorrectMatches": [
+      {
+        "word": "様です",
+        "index": -1
+      }
+    ],
     "hiddenMatches": []
   },
   "parsingResult": {
@@ -52,20 +57,13 @@
         "variant": "S",
         "startIndex": 11,
         "isDisplayed": true,
-        "parsedForm": "様です",
-        "vocabId": "08e10c88-e3f6-4d6d-aab5-8ec5c7c461f0"
-      },
-      {
-        "variant": "S",
-        "startIndex": 11,
-        "isDisplayed": false,
         "parsedForm": "様",
         "vocabId": "0adae2c5-6cd4-4587-ac7b-517b864b5ce5"
       },
       {
         "variant": "S",
         "startIndex": 12,
-        "isDisplayed": false,
+        "isDisplayed": true,
         "parsedForm": "です",
         "vocabId": "01fd4128-aa4d-4a4d-a529-1e7a3b5d4a0a"
       }
@@ -75,6 +73,7 @@
   "tags": [
     "-::priority::high::011_Natsume_05",
     "-::sentence::difficulty::5",
+    "-::sentence::uses::incorrect-matches",
     "source::anime::natsume::s5::01"
   ]
 }

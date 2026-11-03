@@ -13,7 +13,12 @@
   "screenshot": "<img src=\"A_VioletEvergarden_11_0.11.13.085.jpg\">",
   "configuration": {
     "highlightedWords": [],
-    "incorrectMatches": [],
+    "incorrectMatches": [
+      {
+        "word": "様です",
+        "index": -1
+      }
+    ],
     "hiddenMatches": []
   },
   "parsingResult": {
@@ -42,23 +47,16 @@
         "vocabId": "7e5dfa43-2d77-4d45-b7d4-bebe6080c6f4"
       },
       {
-        "variant": "B",
-        "startIndex": 10,
-        "isDisplayed": true,
-        "parsedForm": "様です",
-        "vocabId": "08e10c88-e3f6-4d6d-aab5-8ec5c7c461f0"
-      },
-      {
         "variant": "S",
         "startIndex": 10,
-        "isDisplayed": false,
+        "isDisplayed": true,
         "parsedForm": "様",
         "vocabId": "0adae2c5-6cd4-4587-ac7b-517b864b5ce5"
       },
       {
         "variant": "S",
         "startIndex": 11,
-        "isDisplayed": false,
+        "isDisplayed": true,
         "parsedForm": "でしょうか",
         "vocabId": "3595fdff-1ada-49fa-9105-6af8fbab5b3a"
       },
@@ -86,7 +84,7 @@
       {
         "variant": "S",
         "startIndex": 13,
-        "isDisplayed": true,
+        "isDisplayed": false,
         "parsedForm": "おうか",
         "vocabId": "af050277-4314-45a7-b355-81c03f1fbf5c"
       },
@@ -103,6 +101,7 @@
   "tags": [
     "-::priority::high::011_Violet_Evergarden",
     "-::sentence::difficulty::3",
+    "-::sentence::uses::incorrect-matches",
     "source::anime::violet::11"
   ]
 }

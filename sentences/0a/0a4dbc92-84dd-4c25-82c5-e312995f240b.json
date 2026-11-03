@@ -16,7 +16,12 @@
       "さえ",
       "主"
     ],
-    "incorrectMatches": [],
+    "incorrectMatches": [
+      {
+        "word": "主になる",
+        "index": -1
+      }
+    ],
     "hiddenMatches": []
   },
   "parsingResult": {
@@ -108,16 +113,9 @@
         "vocabId": "33bf9bc1-0744-4973-8d45-5776bc54eac1"
       },
       {
-        "variant": "B",
-        "startIndex": 17,
-        "isDisplayed": true,
-        "parsedForm": "主になる",
-        "vocabId": "1313ff21-4adc-461a-b034-3b28b47fa279"
-      },
-      {
         "variant": "S",
         "startIndex": 17,
-        "isDisplayed": false,
+        "isDisplayed": true,
         "parsedForm": "主に",
         "vocabId": "7b5b83c7-de2a-4175-a9a0-7b6e78fece1c"
       },
@@ -145,7 +143,7 @@
       {
         "variant": "B",
         "startIndex": 19,
-        "isDisplayed": false,
+        "isDisplayed": true,
         "parsedForm": "なる",
         "vocabId": "9b45c525-8634-48f9-9a05-7b7c37a828c4"
       },
@@ -176,6 +174,7 @@
   "tags": [
     "-::priority::high::011_Natsume_01",
     "-::sentence::difficulty::5",
+    "-::sentence::uses::incorrect-matches",
     "legacy_scheduling",
     "source::anime::natsume::s1::01"
   ]

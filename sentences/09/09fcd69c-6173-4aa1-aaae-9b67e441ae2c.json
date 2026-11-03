@@ -13,7 +13,12 @@
   "screenshot": "<img src=\"HUNTER×HUNTER_83_0.10.38.073.jpg\">",
   "configuration": {
     "highlightedWords": [],
-    "incorrectMatches": [],
+    "incorrectMatches": [
+      {
+        "word": "タイ",
+        "index": -1
+      }
+    ],
     "hiddenMatches": []
   },
   "parsingResult": {
@@ -64,13 +69,6 @@
       },
       {
         "variant": "S",
-        "startIndex": 5,
-        "isDisplayed": false,
-        "parsedForm": "タイ",
-        "vocabId": "9f638be6-0a1e-4c87-aad9-e7e4264f4cb6"
-      },
-      {
-        "variant": "S",
         "startIndex": 7,
         "isDisplayed": false,
         "parsedForm": "マン",
@@ -87,6 +85,7 @@
   },
   "id": "09fcd69c-6173-4aa1-aaae-9b67e441ae2c",
   "tags": [
+    "-::sentence::uses::incorrect-matches",
     "source::immersion_kit"
   ]
 }

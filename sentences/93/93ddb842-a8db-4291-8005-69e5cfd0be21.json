@@ -13,7 +13,16 @@
   "screenshot": "<img src=\"ny1-nodup_12_0.16.32.390.jpg\">",
   "configuration": {
     "highlightedWords": [],
-    "incorrectMatches": [],
+    "incorrectMatches": [
+      {
+        "word": "に付け",
+        "index": -1
+      },
+      {
+        "word": "に付けて",
+        "index": -1
+      }
+    ],
     "hiddenMatches": []
   },
   "parsingResult": {
@@ -80,27 +89,13 @@
         "variant": "S",
         "startIndex": 17,
         "isDisplayed": true,
-        "parsedForm": "に付けて",
-        "vocabId": "7f320f04-b099-4e56-b0c8-e0057112a671"
-      },
-      {
-        "variant": "S",
-        "startIndex": 17,
-        "isDisplayed": false,
-        "parsedForm": "に付け",
-        "vocabId": "b3488824-983e-4655-b574-e259310d583f"
-      },
-      {
-        "variant": "S",
-        "startIndex": 17,
-        "isDisplayed": false,
         "parsedForm": "に",
         "vocabId": "7391aab7-d24e-4260-8395-e7b757406ef6"
       },
       {
         "variant": "B",
         "startIndex": 18,
-        "isDisplayed": false,
+        "isDisplayed": true,
         "parsedForm": "付ける",
         "vocabId": "bf229a84-7bfe-4eeb-83da-bc40910dae2b"
       },
@@ -121,7 +116,7 @@
       {
         "variant": "S",
         "startIndex": 20,
-        "isDisplayed": false,
+        "isDisplayed": true,
         "parsedForm": "て",
         "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
       },
@@ -208,6 +203,7 @@
   "tags": [
     "-::priority::high::011_Natsume_01",
     "-::sentence::difficulty::6",
+    "-::sentence::uses::incorrect-matches",
     "source::anime::natsume::s1::12"
   ]
 }

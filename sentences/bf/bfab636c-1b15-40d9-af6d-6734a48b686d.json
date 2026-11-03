@@ -13,7 +13,12 @@
   "screenshot": "<img src=\"A_VioletEvergarden_07_0.13.37.725.jpg\">",
   "configuration": {
     "highlightedWords": [],
-    "incorrectMatches": [],
+    "incorrectMatches": [
+      {
+        "word": "様です",
+        "index": -1
+      }
+    ],
     "hiddenMatches": []
   },
   "parsingResult": {
@@ -82,13 +87,6 @@
         "isDisplayed": false,
         "parsedForm": "旦那",
         "vocabId": "a9d8e533-3156-46cc-95e9-3a2109b9c675"
-      },
-      {
-        "variant": "S",
-        "startIndex": 11,
-        "isDisplayed": false,
-        "parsedForm": "様です",
-        "vocabId": "08e10c88-e3f6-4d6d-aab5-8ec5c7c461f0"
       },
       {
         "variant": "S",
@@ -250,6 +248,7 @@
   "tags": [
     "-::priority::high::011_Violet_Evergarden",
     "-::sentence::difficulty::6",
+    "-::sentence::uses::incorrect-matches",
     "source::anime::violet::07",
     "source::anime::violet::08"
   ]

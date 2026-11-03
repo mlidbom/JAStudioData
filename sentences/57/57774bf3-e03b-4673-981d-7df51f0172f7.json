@@ -13,7 +13,12 @@
   "screenshot": "<img src=\"Fairy_Tail_159_0.02.18.273.jpg\">",
   "configuration": {
     "highlightedWords": [],
-    "incorrectMatches": [],
+    "incorrectMatches": [
+      {
+        "word": "タイ",
+        "index": -1
+      }
+    ],
     "hiddenMatches": []
   },
   "parsingResult": {
@@ -99,13 +104,6 @@
       },
       {
         "variant": "S",
-        "startIndex": 12,
-        "isDisplayed": false,
-        "parsedForm": "タイ",
-        "vocabId": "9f638be6-0a1e-4c87-aad9-e7e4264f4cb6"
-      },
-      {
-        "variant": "S",
         "startIndex": 14,
         "isDisplayed": false,
         "parsedForm": "マン",
@@ -122,6 +120,7 @@
   },
   "id": "57774bf3-e03b-4673-981d-7df51f0172f7",
   "tags": [
+    "-::sentence::uses::incorrect-matches",
     "source::immersion_kit"
   ]
 }

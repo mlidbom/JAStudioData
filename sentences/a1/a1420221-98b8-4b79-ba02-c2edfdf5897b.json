@@ -15,7 +15,12 @@
     "highlightedWords": [
       "捜索"
     ],
-    "incorrectMatches": [],
+    "incorrectMatches": [
+      {
+        "word": "眠そう",
+        "index": 3
+      }
+    ],
     "hiddenMatches": []
   },
   "parsingResult": {
@@ -30,16 +35,9 @@
         "vocabId": "7e519b5b-dd71-4d58-9c03-5d070a98ef9e"
       },
       {
-        "variant": "S",
-        "startIndex": 3,
-        "isDisplayed": true,
-        "parsedForm": "眠そう",
-        "vocabId": "7df1dace-fe8a-42e8-b453-37b881c9d9e2"
-      },
-      {
         "variant": "B",
         "startIndex": 3,
-        "isDisplayed": false,
+        "isDisplayed": true,
         "parsedForm": "眠い",
         "vocabId": "a451f17a-3fbb-4988-bd1f-b2fe8360fefe"
       },
@@ -53,7 +51,7 @@
       {
         "variant": "S",
         "startIndex": 4,
-        "isDisplayed": false,
+        "isDisplayed": true,
         "parsedForm": "そう",
         "vocabId": "44716e6f-ab3a-4065-bb8f-0ef3ca5b05a3"
       },
@@ -105,6 +103,7 @@
   "tags": [
     "-::priority::high::011_Natsume_01",
     "-::sentence::difficulty::4",
+    "-::sentence::uses::incorrect-matches",
     "legacy_scheduling",
     "source::anime::natsume::s1::02"
   ]
