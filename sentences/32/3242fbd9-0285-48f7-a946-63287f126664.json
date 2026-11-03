@@ -13,7 +13,12 @@
   "screenshot": "<img src=\"ny3-nodup_01_0.20.54.235.jpg\">",
   "configuration": {
     "highlightedWords": [],
-    "incorrectMatches": [],
+    "incorrectMatches": [
+      {
+        "word": "下って",
+        "index": -1
+      }
+    ],
     "hiddenMatches": []
   },
   "parsingResult": {
@@ -49,23 +54,16 @@
         "vocabId": "0b5bd909-4c0e-4f1c-bde3-c91719eb579a"
       },
       {
-        "variant": "S",
-        "startIndex": 4,
-        "isDisplayed": true,
-        "parsedForm": "下って",
-        "vocabId": "42c6fe8c-f542-49df-be10-319247f7de90"
-      },
-      {
         "variant": "B",
         "startIndex": 4,
-        "isDisplayed": false,
+        "isDisplayed": true,
         "parsedForm": "下る",
         "vocabId": "5ede6c73-4250-4a33-9b85-9a1b65562d6a"
       },
       {
         "variant": "S",
         "startIndex": 6,
-        "isDisplayed": false,
+        "isDisplayed": true,
         "parsedForm": "ていく",
         "vocabId": "c623432f-ed9c-4274-a91a-7fd1e299bcbf"
       },
@@ -86,7 +84,7 @@
       {
         "variant": "S",
         "startIndex": 7,
-        "isDisplayed": true,
+        "isDisplayed": false,
         "parsedForm": "いく",
         "vocabId": "f074ddfd-e9a5-4913-8b15-a93d8e19cdcd"
       },
