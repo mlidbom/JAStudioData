@@ -1,8 +1,8 @@
 {
-  "question": "んじゃ",
+  "question": "んじゃ:s.end",
   "sourceAnswer": "",
-  "userAnswer": "<tag>s.start:</tag>well/okay/well-then <tag>s.end:</tag>isn't-it-the-case-that/don't-you-think",
-  "activeAnswer": "<tag>s.start:</tag>well/okay/well-then <tag>s.end:</tag>isn't-it-the-case-that/don't-you-think",
+  "userAnswer": "<tag>s.end:</tag>isn't-it-the-case-that/don't-you-think",
+  "activeAnswer": "<tag>s.end:</tag>isn't-it-the-case-that/don't-you-think",
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
@@ -19,7 +19,7 @@
   "forms": [
     "んじゃ"
   ],
-  "sentenceCount": 245,
+  "sentenceCount": 22,
   "technicalNotes": "",
   "references": "",
   "image": "",
@@ -48,6 +48,8 @@
   "id": "7dfc1ecb-1e3c-4ee1-a8df-6b3baaf8662e",
   "tags": [
     "_tts_audio",
+    "-::vocab::matching::forbids::sentence-start",
+    "-::vocab::matching::requires::sentence-end",
     "-::vocab::matching::yield-last-token-to-upcoming-compound",
     "source::yomitan"
   ]
