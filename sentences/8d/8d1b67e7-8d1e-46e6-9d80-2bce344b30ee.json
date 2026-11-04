@@ -15,7 +15,12 @@
     "highlightedWords": [
       "くださる"
     ],
-    "incorrectMatches": [],
+    "incorrectMatches": [
+      {
+        "word": "めくる",
+        "index": -1
+      }
+    ],
     "hiddenMatches": []
   },
   "parsingResult": {
@@ -205,13 +210,6 @@
         "vocabId": "3c636502-ec57-41a8-8c9a-ed938427e6cb"
       },
       {
-        "variant": "B",
-        "startIndex": 27,
-        "isDisplayed": true,
-        "parsedForm": "捲る",
-        "vocabId": "69432186-e3cf-4e5b-9050-f4209c123e3d"
-      },
-      {
         "variant": "S",
         "startIndex": 29,
         "isDisplayed": true,
@@ -259,6 +257,7 @@
   "tags": [
     "-::priority::high::011_Natsume_06",
     "-::sentence::difficulty::6",
+    "-::sentence::uses::incorrect-matches",
     "source::anime::natsume::s6::02"
   ]
 }
