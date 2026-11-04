@@ -1,25 +1,26 @@
 {
   "sourceQuestion": "ええ　我ながらよく画けておる",
-  "userQuestion": "",
-  "activeQuestion": "ええ　我ながらよく画けておる",
+  "userQuestion": "ええ　我ながらよく描けておる",
+  "activeQuestion": "ええ　我ながらよく描けておる",
   "sourceAnswer": "Yes, it's drawn quite well if I say so myself.",
   "userAnswer": "",
   "activeAnswer": "Yes, it's drawn quite well if I say so myself.",
   "sourceComments": "",
-  "userComments": "It seems that 画く and 書く might be some sort of exceptions where 画けて is considered some odd version of a て form. At last that's what AIs claim and seems to match the translations on <a href=\"https://www.immersionkit.com/dictionary?keyword=%E6%9B%B8%E3%81%91%E3%81%A6&amp;exact=true&amp;sort=shortness\">immersion kit</a>",
+  "userComments": "",
   "reading": "ええ　 我[わが]ながらよく 画[えが]けておる",
   "externalId": "ny1-nodup_02_0.11.35.700-0.11.38.050",
   "audio": "[sound:ny1-nodup_02_0.11.35.700-0.11.38.050.mp3]",
   "screenshot": "<img src=\"ny1-nodup_02_0.11.36.875.jpg\">",
   "configuration": {
     "highlightedWords": [
-      "我ながら"
+      "我ながら",
+      "えておる"
     ],
     "incorrectMatches": [],
     "hiddenMatches": []
   },
   "parsingResult": {
-    "sentence": "ええ　我ながらよく画けておる",
+    "sentence": "ええ　我ながらよく描けておる",
     "parserVersion": "text_analysis_0.1",
     "parsedWords": [
       {
@@ -61,20 +62,34 @@
         "variant": "B",
         "startIndex": 9,
         "isDisplayed": true,
-        "parsedForm": "画く",
+        "parsedForm": "描く",
         "vocabId": "a7cd788c-a174-426d-987f-7d9e7dacb3e8"
+      },
+      {
+        "variant": "S",
+        "startIndex": 10,
+        "isDisplayed": true,
+        "parsedForm": "えておる",
+        "vocabId": "cd605f1c-0363-4083-8a16-8297fffb81be"
       },
       {
         "variant": "B",
         "startIndex": 10,
-        "isDisplayed": true,
-        "parsedForm": "え",
-        "vocabId": "602a5d49-874c-4f77-a5de-9ddbd99ee156"
+        "isDisplayed": false,
+        "parsedForm": "えておる",
+        "vocabId": "cd605f1c-0363-4083-8a16-8297fffb81be"
+      },
+      {
+        "variant": "B",
+        "startIndex": 10,
+        "isDisplayed": false,
+        "parsedForm": "える",
+        "vocabId": "915ce682-39f5-4e53-92fe-c786863a0e86"
       },
       {
         "variant": "S",
         "startIndex": 11,
-        "isDisplayed": true,
+        "isDisplayed": false,
         "parsedForm": "ておる",
         "vocabId": "9606eedf-9298-426a-8312-5bcf8601b6de"
       },
