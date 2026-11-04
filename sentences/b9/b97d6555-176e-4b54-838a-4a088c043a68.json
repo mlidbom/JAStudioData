@@ -19,7 +19,16 @@
       "何故なら",
       "秘奥"
     ],
-    "incorrectMatches": [],
+    "incorrectMatches": [
+      {
+        "word": "でない",
+        "index": 13
+      },
+      {
+        "word": "で無い",
+        "index": 13
+      }
+    ],
     "hiddenMatches": []
   },
   "parsingResult": {
@@ -97,18 +106,25 @@
         "vocabId": "f0ea34a6-aaea-49b4-95e4-cc70671e720b"
       },
       {
-        "variant": "B",
+        "variant": "S",
         "startIndex": 13,
         "isDisplayed": true,
-        "parsedForm": "でない",
-        "vocabId": "b642ce5d-2123-46bf-8275-68a457375156"
+        "parsedForm": "で",
+        "vocabId": "67a62904-bc8a-4b97-8ea5-69364da19acd"
       },
       {
         "variant": "S",
-        "startIndex": 13,
+        "startIndex": 14,
+        "isDisplayed": true,
+        "parsedForm": "なせる",
+        "vocabId": "0ea16bf5-abb8-418b-8bcf-a409d2880de9"
+      },
+      {
+        "variant": "B",
+        "startIndex": 14,
         "isDisplayed": false,
-        "parsedForm": "で",
-        "vocabId": "67a62904-bc8a-4b97-8ea5-69364da19acd"
+        "parsedForm": "なせる",
+        "vocabId": "0ea16bf5-abb8-418b-8bcf-a409d2880de9"
       },
       {
         "variant": "S",
@@ -193,6 +209,7 @@
   "tags": [
     "-::priority::medium::025_immersion_kit",
     "-::sentence::difficulty::5",
+    "-::sentence::uses::incorrect-matches",
     "legacy_scheduling",
     "source::immersion_kit"
   ]
