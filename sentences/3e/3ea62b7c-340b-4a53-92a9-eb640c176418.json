@@ -15,7 +15,12 @@
     "highlightedWords": [
       "案外"
     ],
-    "incorrectMatches": [],
+    "incorrectMatches": [
+      {
+        "word": "なの",
+        "index": 11
+      }
+    ],
     "hiddenMatches": []
   },
   "parsingResult": {
@@ -46,23 +51,16 @@
       {
         "variant": "S",
         "startIndex": 8,
-        "isDisplayed": false,
+        "isDisplayed": true,
         "parsedForm": "みたいな",
         "vocabId": "39624e3c-5366-4d08-ab69-e04b64b0f19b"
       },
       {
         "variant": "S",
         "startIndex": 8,
-        "isDisplayed": true,
+        "isDisplayed": false,
         "parsedForm": "みたい",
         "vocabId": "aa7f72fc-70af-4a3e-8750-93d236517081"
-      },
-      {
-        "variant": "S",
-        "startIndex": 11,
-        "isDisplayed": true,
-        "parsedForm": "なの",
-        "vocabId": "32ba637c-7d49-41bf-b978-54532d4d4299"
       },
       {
         "variant": "S",
@@ -74,7 +72,7 @@
       {
         "variant": "S",
         "startIndex": 12,
-        "isDisplayed": false,
+        "isDisplayed": true,
         "parsedForm": "の",
         "vocabId": "33bf9bc1-0744-4973-8d45-5776bc54eac1"
       },
@@ -182,6 +180,7 @@
   "tags": [
     "-::priority::high::011_Natsume_01",
     "-::sentence::difficulty::5",
+    "-::sentence::uses::incorrect-matches",
     "legacy_scheduling",
     "source::anime::girls-last-tour",
     "source::anime::girls-last-tour::11"
