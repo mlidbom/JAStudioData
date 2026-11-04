@@ -1,7 +1,7 @@
 {
-  "sourceQuestion": "イモはレーションの材料だって 言ってたよね？",
+  "sourceQuestion": "イモはレーションの材料だ<wbr>って言ってたよね？",
   "userQuestion": "",
-  "activeQuestion": "イモはレーションの材料だって 言ってたよね？",
+  "activeQuestion": "イモはレーションの材料だって言ってたよね？",
   "sourceAnswer": "She said the potatoes were used to make rations, right?",
   "userAnswer": "",
   "activeAnswer": "She said the potatoes were used to make rations, right?",
@@ -19,7 +19,7 @@
     "hiddenMatches": []
   },
   "parsingResult": {
-    "sentence": "イモはレーションの材料だって 言ってたよね？",
+    "sentence": "イモはレーションの材料だって言ってたよね？",
     "parserVersion": "text_analysis_0.1",
     "parsedWords": [
       {
@@ -61,61 +61,89 @@
         "variant": "S",
         "startIndex": 11,
         "isDisplayed": true,
-        "parsedForm": "だって",
-        "vocabId": "5cc160fc-9a00-42d0-9931-786832956d0e"
+        "parsedForm": "だ",
+        "vocabId": "32d275aa-5811-482d-b2f3-7e6d2080ac53"
       },
       {
         "variant": "S",
-        "startIndex": 15,
+        "startIndex": 12,
         "isDisplayed": true,
+        "parsedForm": "って言ってた",
+        "vocabId": "ccd669f7-7426-4091-8f64-ea3da794f65a"
+      },
+      {
+        "variant": "S",
+        "startIndex": 12,
+        "isDisplayed": false,
+        "parsedForm": "って言って",
+        "vocabId": "5d4b6fce-239c-4273-93c0-2057d7020f0a"
+      },
+      {
+        "variant": "B",
+        "startIndex": 12,
+        "isDisplayed": false,
+        "parsedForm": "って言う",
+        "vocabId": "8ae95bee-41e9-43a0-9679-9937ba399e15"
+      },
+      {
+        "variant": "S",
+        "startIndex": 12,
+        "isDisplayed": false,
+        "parsedForm": "って",
+        "vocabId": "e7744e50-5174-4bca-afc7-6ad527634ad9"
+      },
+      {
+        "variant": "S",
+        "startIndex": 14,
+        "isDisplayed": false,
         "parsedForm": "言ってた",
         "vocabId": "b07bd674-9cac-46b7-be6f-2bc7f6f8d361"
       },
       {
         "variant": "B",
-        "startIndex": 15,
+        "startIndex": 14,
         "isDisplayed": false,
         "parsedForm": "言う",
         "vocabId": "b7cefd46-499a-4c9c-9f06-3eed04e1d410"
       },
       {
         "variant": "S",
-        "startIndex": 17,
+        "startIndex": 16,
         "isDisplayed": false,
         "parsedForm": "てた",
         "vocabId": "4a72e0c9-ff33-4ec6-931f-980fdc414788"
       },
       {
         "variant": "B",
-        "startIndex": 17,
+        "startIndex": 16,
         "isDisplayed": false,
         "parsedForm": "てる",
         "vocabId": "4c8d7119-0464-426c-88b7-ee97c1554eb5"
       },
       {
         "variant": "S",
-        "startIndex": 18,
+        "startIndex": 17,
         "isDisplayed": false,
         "parsedForm": "た",
         "vocabId": "8ee8e382-e65c-4af4-81b6-ccd55babc91f"
       },
       {
         "variant": "S",
-        "startIndex": 19,
+        "startIndex": 18,
         "isDisplayed": true,
         "parsedForm": "よね",
         "vocabId": "2034deaa-5489-4c9e-9689-1a9c3c5e6dc6"
       },
       {
         "variant": "S",
-        "startIndex": 19,
+        "startIndex": 18,
         "isDisplayed": false,
         "parsedForm": "よ",
         "vocabId": "8d071a9e-11b0-4f59-82d7-c95c096b924b"
       },
       {
         "variant": "S",
-        "startIndex": 20,
+        "startIndex": 19,
         "isDisplayed": false,
         "parsedForm": "ね",
         "vocabId": "b85b71b0-b473-4af5-bfa2-f0d824577845"
