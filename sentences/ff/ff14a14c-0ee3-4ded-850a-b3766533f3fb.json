@@ -15,7 +15,12 @@
     "highlightedWords": [
       "やばい"
     ],
-    "incorrectMatches": [],
+    "incorrectMatches": [
+      {
+        "word": "うな",
+        "index": 6
+      }
+    ],
     "hiddenMatches": []
   },
   "parsingResult": {
@@ -26,13 +31,34 @@
         "variant": "S",
         "startIndex": 0,
         "isDisplayed": true,
+        "parsedForm": "そうとも言える",
+        "vocabId": "66b1e70f-d563-45ae-9eec-5fa410da719a"
+      },
+      {
+        "variant": "B",
+        "startIndex": 0,
+        "isDisplayed": false,
+        "parsedForm": "そうとも言える",
+        "vocabId": "66b1e70f-d563-45ae-9eec-5fa410da719a"
+      },
+      {
+        "variant": "B",
+        "startIndex": 0,
+        "isDisplayed": false,
+        "parsedForm": "そうとも言う",
+        "vocabId": "026ba299-698e-4c41-b094-67ee8fa4ef63"
+      },
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": false,
         "parsedForm": "そう",
         "vocabId": "44716e6f-ab3a-4065-bb8f-0ef3ca5b05a3"
       },
       {
         "variant": "B",
         "startIndex": 2,
-        "isDisplayed": true,
+        "isDisplayed": false,
         "parsedForm": "とも言う",
         "vocabId": "d4e31d9a-313d-4cea-b2c4-85dc1c96af67"
       },
@@ -74,7 +100,7 @@
       {
         "variant": "S",
         "startIndex": 5,
-        "isDisplayed": true,
+        "isDisplayed": false,
         "parsedForm": "える",
         "vocabId": "915ce682-39f5-4e53-92fe-c786863a0e86"
       },
@@ -89,20 +115,13 @@
         "variant": "S",
         "startIndex": 6,
         "isDisplayed": true,
-        "parsedForm": "うな",
-        "vocabId": "8b1cf138-5f36-43f1-9404-2e5a358f7bd8"
-      },
-      {
-        "variant": "S",
-        "startIndex": 6,
-        "isDisplayed": false,
         "parsedForm": "う",
         "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
       },
       {
         "variant": "S",
         "startIndex": 7,
-        "isDisplayed": false,
+        "isDisplayed": true,
         "parsedForm": "な",
         "vocabId": "a47ececb-300f-4763-a687-6a99463a8d8d"
       },
@@ -140,6 +159,7 @@
   "tags": [
     "-::priority::high::011_Natsume_01",
     "-::sentence::difficulty::3",
+    "-::sentence::uses::incorrect-matches",
     "legacy_scheduling",
     "source::anime::girls-last-tour",
     "source::anime::girls-last-tour::10"
