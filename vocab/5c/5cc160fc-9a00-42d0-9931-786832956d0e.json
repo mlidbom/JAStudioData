@@ -1,9 +1,9 @@
 {
   "question": "だって",
   "sourceAnswer": "after-all/because | but | even | too/as-well/also | they-say/I-hear/you-mean",
-  "userAnswer": "\"is/are\" | I-hear/they-say | {you}-{say/mean} | <tag>s.end:</tag>_-said\nbecause/after-all | but | even/too/as-well/also",
-  "activeAnswer": "\"is/are\" | I-hear/they-say | {you}-{say/mean} | <tag>s.end:</tag>_-said\nbecause/after-all | but | even/too/as-well/also",
-  "userExplanation": "<b>This word is often an incorrect match and should be <ja>だ</ja> + <tag>って</tag> for the breakdown to read well. \nIf that is the case, just but a <ja>&lt;wbr&gt;</ja> tag after <ja>だ</ja> in the question</b>",
+  "userAnswer": "because/after-all | but | even/too/as-well/also\r\n\"is/are\" | I-hear/they-say | {you}-{say/mean} | <tag>s.end:</tag>_-said",
+  "activeAnswer": "because/after-all | but | even/too/as-well/also\r\n\"is/are\" | I-hear/they-say | {you}-{say/mean} | <tag>s.end:</tag>_-said",
+  "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
   "userCompounds": [
@@ -22,16 +22,14 @@
   "forms": [
     "だって"
   ],
-  "sentenceCount": 358,
-  "technicalNotes": "JS:TODO: だって should not need manual splitting all over the place",
+  "sentenceCount": 346,
+  "technicalNotes": "",
   "references": "<a href=\"https://www.youtube.com/watch?v=kO89HzRQygQ&amp;list=PLg9uYxuZf8x_A-vcqqyOFZu06WlhnypWj&amp;index=26\">Cure Dolly: Lesson 23: だって、から、それから</a>",
   "image": "",
   "userImage": "",
   "matchingRules": {
     "prefixIsNot": [],
-    "suffixIsNot": [
-      "言"
-    ],
+    "suffixIsNot": [],
     "surfaceIsNot": [],
     "yieldToSurface": [],
     "requiredPrefix": []
