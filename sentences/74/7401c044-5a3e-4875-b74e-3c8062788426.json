@@ -13,7 +13,12 @@
   "screenshot": "<img src=\"girls-last-tour-extra-song_12_0.22.38.125.jpg\">",
   "configuration": {
     "highlightedWords": [],
-    "incorrectMatches": [],
+    "incorrectMatches": [
+      {
+        "word": "今世界",
+        "index": 0
+      }
+    ],
     "hiddenMatches": []
   },
   "parsingResult": {
@@ -24,20 +29,13 @@
         "variant": "S",
         "startIndex": 0,
         "isDisplayed": true,
-        "parsedForm": "今世界",
-        "vocabId": "d033e36d-fc16-40a3-89aa-fd1d9f447549"
-      },
-      {
-        "variant": "S",
-        "startIndex": 0,
-        "isDisplayed": false,
         "parsedForm": "今",
         "vocabId": "f41ddbeb-67a3-4644-a57a-bf3327a266db"
       },
       {
         "variant": "S",
         "startIndex": 1,
-        "isDisplayed": false,
+        "isDisplayed": true,
         "parsedForm": "世界",
         "vocabId": "7acd314e-30dd-4dc9-851e-3350b90faab7"
       },
@@ -68,6 +66,7 @@
   "tags": [
     "-::priority::high::011_Natsume_01",
     "-::sentence::difficulty::4",
+    "-::sentence::uses::incorrect-matches",
     "legacy_scheduling",
     "source::anime::girls-last-tour::songs::final-ending"
   ]

@@ -3,8 +3,8 @@
   "userQuestion": "",
   "activeQuestion": "時間がたてば",
   "sourceAnswer": "With enough time.",
-  "userAnswer": "As time goes by",
-  "activeAnswer": "As time goes by",
+  "userAnswer": "",
+  "activeAnswer": "With enough time.",
   "sourceComments": "",
   "userComments": "",
   "reading": "時間[じかん]がたてば…",
@@ -21,23 +21,30 @@
     "parserVersion": "text_analysis_0.1",
     "parsedWords": [
       {
-        "variant": "S",
+        "variant": "B",
         "startIndex": 0,
         "isDisplayed": true,
+        "parsedForm": "時間がたつ",
+        "vocabId": "0808e203-8140-45f1-8f00-65ed4f22f804"
+      },
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": false,
         "parsedForm": "時間",
         "vocabId": "bbe361b5-9c6a-4fa7-bc49-82927fc5e0d3"
       },
       {
         "variant": "S",
         "startIndex": 2,
-        "isDisplayed": true,
+        "isDisplayed": false,
         "parsedForm": "が",
         "vocabId": "2abe98f2-ebd9-4aae-9562-451647960317"
       },
       {
         "variant": "B",
         "startIndex": 3,
-        "isDisplayed": true,
+        "isDisplayed": false,
         "parsedForm": "たつ",
         "vocabId": "f589fdeb-e774-43c3-ab77-a685598eb760"
       },
