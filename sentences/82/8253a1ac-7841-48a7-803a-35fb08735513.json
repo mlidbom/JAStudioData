@@ -1,7 +1,7 @@
 {
-  "sourceQuestion": "お誕生日 おめでとう",
+  "sourceQuestion": "お誕生日おめでとう",
   "userQuestion": "",
-  "activeQuestion": "お誕生日 おめでとう",
+  "activeQuestion": "お誕生日おめでとう",
   "sourceAnswer": "",
   "userAnswer": "Congratulations on your birthday",
   "activeAnswer": "Congratulations on your birthday",
@@ -17,20 +17,27 @@
     "hiddenMatches": []
   },
   "parsingResult": {
-    "sentence": "お誕生日 おめでとう",
+    "sentence": "お誕生日おめでとう",
     "parserVersion": "text_analysis_0.1",
     "parsedWords": [
       {
         "variant": "S",
         "startIndex": 0,
         "isDisplayed": true,
+        "parsedForm": "お誕生日おめでとう",
+        "vocabId": "6c606c97-fe49-4a9c-b94a-a96ff832bbc4"
+      },
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": false,
         "parsedForm": "お",
         "vocabId": "25afbecf-5751-4f2b-a02a-ab0a5bf739d8"
       },
       {
         "variant": "S",
         "startIndex": 1,
-        "isDisplayed": true,
+        "isDisplayed": false,
         "parsedForm": "誕生日",
         "vocabId": "8df50283-d556-42e8-a25a-f6a06f35b116"
       },
@@ -50,8 +57,8 @@
       },
       {
         "variant": "S",
-        "startIndex": 5,
-        "isDisplayed": true,
+        "startIndex": 4,
+        "isDisplayed": false,
         "parsedForm": "おめでとう",
         "vocabId": "35e50d30-b64b-4a51-8a15-0ed3e0b5bd1a"
       }
