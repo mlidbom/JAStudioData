@@ -20,9 +20,7 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-1e1ff45e70de45c520f0cedd3972450d4406c751f8d6ac5f0510b12b.mp3]",
   "forms": [
-    "たろ",
-    "たろう",
-    "たろう"
+    "たろ"
   ],
   "sentenceCount": 17,
   "technicalNotes": "TODO: たろ is parsed as a single token with た as the base. Without a vocabulary word it will never even be displayed.\nWhen we encounter this combination of base and surface, perhaps we should automatically split the token into た and ろ",
