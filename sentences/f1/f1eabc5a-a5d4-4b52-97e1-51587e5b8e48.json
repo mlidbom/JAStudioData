@@ -13,7 +13,12 @@
   "screenshot": "<img src=\"ny1-nodup_06_0.15.03.705.jpg\">",
   "configuration": {
     "highlightedWords": [],
-    "incorrectMatches": [],
+    "incorrectMatches": [
+      {
+        "word": "うぞ",
+        "index": 20
+      }
+    ],
     "hiddenMatches": []
   },
   "parsingResult": {
@@ -164,20 +169,13 @@
         "variant": "S",
         "startIndex": 20,
         "isDisplayed": true,
-        "parsedForm": "うぞ",
-        "vocabId": "b2310da3-ac81-46ad-8aec-bf85de3a721e"
-      },
-      {
-        "variant": "S",
-        "startIndex": 20,
-        "isDisplayed": false,
         "parsedForm": "う",
         "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
       },
       {
         "variant": "S",
         "startIndex": 21,
-        "isDisplayed": false,
+        "isDisplayed": true,
         "parsedForm": "ぞ",
         "vocabId": "9d5f55c2-44a8-48f4-b781-2e59bd6a6881"
       },
@@ -194,6 +192,7 @@
   "tags": [
     "-::priority::high::011_Natsume_01",
     "-::sentence::difficulty::5",
+    "-::sentence::uses::incorrect-matches",
     "source::anime::natsume::s1::06"
   ]
 }
