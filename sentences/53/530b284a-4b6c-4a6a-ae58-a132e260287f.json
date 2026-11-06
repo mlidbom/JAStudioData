@@ -13,7 +13,12 @@
   "screenshot": "<img src=\"ny1-nodup_08_0.09.03.645.jpg\">",
   "configuration": {
     "highlightedWords": [],
-    "incorrectMatches": [],
+    "incorrectMatches": [
+      {
+        "word": "でもある",
+        "index": 0
+      }
+    ],
     "hiddenMatches": []
   },
   "parsingResult": {
@@ -24,20 +29,13 @@
         "variant": "S",
         "startIndex": 0,
         "isDisplayed": true,
-        "parsedForm": "でもある",
-        "vocabId": "70c41d95-0a7f-4210-bce9-b612b6596d9f"
-      },
-      {
-        "variant": "S",
-        "startIndex": 0,
-        "isDisplayed": false,
         "parsedForm": "でも",
         "vocabId": "b50890b4-0c2b-4968-b5df-91b56ca6a4bc"
       },
       {
         "variant": "S",
         "startIndex": 2,
-        "isDisplayed": false,
+        "isDisplayed": true,
         "parsedForm": "ある日",
         "vocabId": "db4e4f05-15aa-4932-be8e-1a5716d3d8f9"
       },
@@ -51,7 +49,7 @@
       {
         "variant": "S",
         "startIndex": 4,
-        "isDisplayed": true,
+        "isDisplayed": false,
         "parsedForm": "日",
         "vocabId": "33f10003-e27e-4fb7-841d-88e0980316ec"
       },
