@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "御免",
-    "下さい"
-  ],
+  "compoundParts": {
+    "primary": [
+      "御免",
+      "下さい"
+    ],
+    "alternative": []
+  },
   "readings": [
     "ごめんください"
   ],
@@ -20,12 +23,26 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "ご免ください",
-    "ごめんください",
-    "御免ください",
-    "ご免下さい",
-    "ごめんください",
-    "ごめん下さい"
+    {
+      "text": "ご免ください",
+      "isOwned": false
+    },
+    {
+      "text": "ごめんください",
+      "isOwned": false
+    },
+    {
+      "text": "御免ください",
+      "isOwned": false
+    },
+    {
+      "text": "ご免下さい",
+      "isOwned": false
+    },
+    {
+      "text": "ごめん下さい",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 6,
   "technicalNotes": "",

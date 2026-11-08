@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "動く",
-    "出す:masu"
-  ],
+  "compoundParts": {
+    "primary": [
+      "動く",
+      "出す:masu"
+    ],
+    "alternative": []
+  },
   "readings": [
     "うごきだす"
   ],
@@ -20,7 +23,10 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "動きだす"
+    {
+      "text": "動きだす",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 5,
   "technicalNotes": "the individual parts are not parsed so it needs to stay.",

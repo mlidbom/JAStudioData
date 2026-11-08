@@ -6,11 +6,14 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "お腹",
-    "が",
-    "空く"
-  ],
+  "compoundParts": {
+    "primary": [
+      "お腹",
+      "が",
+      "空く"
+    ],
+    "alternative": []
+  },
   "readings": [
     "おなかがすく"
   ],
@@ -21,10 +24,22 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "おなかが空く",
-    "お腹がすく",
-    "お腹空く",
-    "おなかがすく"
+    {
+      "text": "おなかが空く",
+      "isOwned": false
+    },
+    {
+      "text": "お腹がすく",
+      "isOwned": false
+    },
+    {
+      "text": "お腹空く",
+      "isOwned": false
+    },
+    {
+      "text": "おなかがすく",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 6,
   "technicalNotes": "",

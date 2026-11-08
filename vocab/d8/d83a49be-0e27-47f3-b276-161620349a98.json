@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "生む",
-    "あれる"
-  ],
+  "compoundParts": {
+    "primary": [
+      "生む",
+      "あれる"
+    ],
+    "alternative": []
+  },
   "readings": [
     "うまれる"
   ],
@@ -20,9 +23,18 @@
   "audioG": "[sound:生まれる_g.mp3]",
   "audioTTS": "",
   "forms": [
-    "生れる",
-    "産れる",
-    "産まれる"
+    {
+      "text": "生れる",
+      "isOwned": false
+    },
+    {
+      "text": "産れる",
+      "isOwned": false
+    },
+    {
+      "text": "産まれる",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 85,
   "technicalNotes": "",

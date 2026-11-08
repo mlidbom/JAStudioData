@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "どう",
-    "いう"
-  ],
+  "compoundParts": {
+    "primary": [
+      "どう",
+      "いう"
+    ],
+    "alternative": []
+  },
   "readings": [
     "どういう"
   ],
@@ -20,9 +23,18 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "如何言う",
-    "如何いう",
-    "どう言う"
+    {
+      "text": "如何言う",
+      "isOwned": false
+    },
+    {
+      "text": "如何いう",
+      "isOwned": false
+    },
+    {
+      "text": "どう言う",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 70,
   "technicalNotes": "",

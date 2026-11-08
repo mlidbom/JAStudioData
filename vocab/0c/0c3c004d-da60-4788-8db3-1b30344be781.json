@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "迷惑",
-    "かける"
-  ],
+  "compoundParts": {
+    "primary": [
+      "迷惑",
+      "かける"
+    ],
+    "alternative": []
+  },
   "readings": [
     "めいわくかける"
   ],
@@ -20,9 +23,18 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "迷惑をかける",
-    "迷惑を掛ける",
-    "[迷惑掛ける]"
+    {
+      "text": "迷惑をかける",
+      "isOwned": false
+    },
+    {
+      "text": "迷惑を掛ける",
+      "isOwned": false
+    },
+    {
+      "text": "迷惑掛ける",
+      "isOwned": true
+    }
   ],
   "sentenceCount": 10,
   "technicalNotes": "",

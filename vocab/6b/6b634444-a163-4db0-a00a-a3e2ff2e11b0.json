@@ -6,11 +6,14 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "男",
-    "の",
-    "子"
-  ],
+  "compoundParts": {
+    "primary": [
+      "男",
+      "の",
+      "子"
+    ],
+    "alternative": []
+  },
   "readings": [
     "おとこのこ"
   ],
@@ -21,8 +24,14 @@
   "audioG": "[sound:男の子_g.mp3]",
   "audioTTS": "",
   "forms": [
-    "男の児",
-    "男のコ"
+    {
+      "text": "男の児",
+      "isOwned": false
+    },
+    {
+      "text": "男のコ",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 34,
   "technicalNotes": "",

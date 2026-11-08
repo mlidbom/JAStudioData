@@ -6,13 +6,16 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "が",
-    "居る",
-    "おうが",
-    "居る",
-    "まいが"
-  ],
+  "compoundParts": {
+    "primary": [
+      "が",
+      "居る",
+      "おうが",
+      "居る",
+      "まいが"
+    ],
+    "alternative": []
+  },
   "readings": [
     "がいようがいまいが"
   ],
@@ -23,8 +26,14 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-bc211a3a0d05b2b04aea945d7e6f44e0418461feaa869f6798c03973.mp3]",
   "forms": [
-    "が居ようが居まいが",
-    "いようがいまいが"
+    {
+      "text": "が居ようが居まいが",
+      "isOwned": false
+    },
+    {
+      "text": "いようがいまいが",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 4,
   "technicalNotes": "",

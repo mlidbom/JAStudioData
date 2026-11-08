@@ -6,11 +6,14 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "調子",
-    "に",
-    "乗る"
-  ],
+  "compoundParts": {
+    "primary": [
+      "調子",
+      "に",
+      "乗る"
+    ],
+    "alternative": []
+  },
   "readings": [
     "ちょうしにのる"
   ],
@@ -21,9 +24,18 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "[調子にのる]",
-    "調子乗る",
-    "調子のる"
+    {
+      "text": "調子にのる",
+      "isOwned": true
+    },
+    {
+      "text": "調子乗る",
+      "isOwned": false
+    },
+    {
+      "text": "調子のる",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 9,
   "technicalNotes": "",

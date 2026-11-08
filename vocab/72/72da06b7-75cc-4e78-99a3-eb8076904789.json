@@ -6,7 +6,10 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [],
+  "compoundParts": {
+    "primary": [],
+    "alternative": []
+  },
   "readings": [
     "やめる"
   ],
@@ -17,8 +20,14 @@
   "audioG": "[sound:辞める_g.mp3]",
   "audioTTS": "",
   "forms": [
-    "退める",
-    "罷める"
+    {
+      "text": "退める",
+      "isOwned": false
+    },
+    {
+      "text": "罷める",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 25,
   "technicalNotes": "",

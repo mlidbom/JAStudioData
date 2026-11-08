@@ -6,7 +6,10 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [],
+  "compoundParts": {
+    "primary": [],
+    "alternative": []
+  },
   "readings": [
     "おしいれ"
   ],
@@ -17,8 +20,14 @@
   "audioG": "[sound:押入れ_g.mp3]",
   "audioTTS": "",
   "forms": [
-    "押し入れ",
-    "押入"
+    {
+      "text": "押し入れ",
+      "isOwned": false
+    },
+    {
+      "text": "押入",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 6,
   "technicalNotes": "",

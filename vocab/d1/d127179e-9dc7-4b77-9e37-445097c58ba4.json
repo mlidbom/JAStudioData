@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "よる",
-    "て"
-  ],
+  "compoundParts": {
+    "primary": [
+      "よる",
+      "て"
+    ],
+    "alternative": []
+  },
   "readings": [
     "よって"
   ],
@@ -20,11 +23,26 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "因って",
-    "仍って",
-    "依って",
-    "仍て",
-    "依て"
+    {
+      "text": "因って",
+      "isOwned": false
+    },
+    {
+      "text": "仍って",
+      "isOwned": false
+    },
+    {
+      "text": "依って",
+      "isOwned": false
+    },
+    {
+      "text": "仍て",
+      "isOwned": false
+    },
+    {
+      "text": "依て",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 3,
   "technicalNotes": "Not all masu stem cases are correctly identified by the parser, so keep that meaning around in this definition.",

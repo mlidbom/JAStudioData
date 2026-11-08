@@ -6,11 +6,15 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "何",
-    "なんです",
-    "[何なん]"
-  ],
+  "compoundParts": {
+    "primary": [
+      "何",
+      "なんです"
+    ],
+    "alternative": [
+      "何なん"
+    ]
+  },
   "readings": [
     "なんなんです"
   ],
@@ -21,7 +25,10 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-1d597755f2178846e75f40a75a5752545d13f51d623596e422482ebb.mp3]",
   "forms": [
-    "[なんなんです]"
+    {
+      "text": "なんなんです",
+      "isOwned": true
+    }
   ],
   "sentenceCount": 6,
   "technicalNotes": "",

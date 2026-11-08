@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "剥がす",
-    "える"
-  ],
+  "compoundParts": {
+    "primary": [
+      "剥がす",
+      "える"
+    ],
+    "alternative": []
+  },
   "readings": [
     "はがせる"
   ],
@@ -20,10 +23,22 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-083bc538267bca451885a07cd6196d740dc0fb96a1eb28bdc0e71cfb.mp3]",
   "forms": [
-    "はがせる",
-    "へがせる",
-    "剝がせる",
-    "剥せる"
+    {
+      "text": "はがせる",
+      "isOwned": false
+    },
+    {
+      "text": "へがせる",
+      "isOwned": false
+    },
+    {
+      "text": "剝がせる",
+      "isOwned": false
+    },
+    {
+      "text": "剥せる",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 1,
   "technicalNotes": "Needed because this will otherwise match as 剥ぐ、あせる",

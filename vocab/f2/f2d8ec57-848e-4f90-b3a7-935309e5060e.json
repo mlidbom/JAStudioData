@@ -6,7 +6,10 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [],
+  "compoundParts": {
+    "primary": [],
+    "alternative": []
+  },
   "readings": [
     "はじめに"
   ],
@@ -17,8 +20,14 @@
   "audioG": "[sound:始めに_g.mp3]",
   "audioTTS": "",
   "forms": [
-    "はじめに",
-    "初めに"
+    {
+      "text": "はじめに",
+      "isOwned": false
+    },
+    {
+      "text": "初めに",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 6,
   "technicalNotes": "",

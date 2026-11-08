@@ -6,10 +6,13 @@
   "userExplanation": "TODO: setting さ as prefix-is-not does not seem to do anything",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "あせる",
-    "てもらう"
-  ],
+  "compoundParts": {
+    "primary": [
+      "あせる",
+      "てもらう"
+    ],
+    "alternative": []
+  },
   "readings": [
     "せてもらう"
   ],
@@ -20,7 +23,10 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-316145f80e3e4e3513f316365236de4911c0161d9641c3f05d854280.mp3]",
   "forms": [
-    "[せてもらう]"
+    {
+      "text": "せてもらう",
+      "isOwned": true
+    }
   ],
   "sentenceCount": 35,
   "technicalNotes": "",

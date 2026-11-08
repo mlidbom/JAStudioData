@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "あります",
-    "ん"
-  ],
+  "compoundParts": {
+    "primary": [
+      "あります",
+      "ん"
+    ],
+    "alternative": []
+  },
   "readings": [
     "ありません"
   ],
@@ -20,8 +23,14 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "在りません",
-    "有りません"
+    {
+      "text": "在りません",
+      "isOwned": false
+    },
+    {
+      "text": "有りません",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 272,
   "technicalNotes": "",

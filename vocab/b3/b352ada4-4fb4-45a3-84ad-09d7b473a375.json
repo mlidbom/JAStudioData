@@ -6,11 +6,14 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "ここ",
-    "の",
-    "ところ"
-  ],
+  "compoundParts": {
+    "primary": [
+      "ここ",
+      "の",
+      "ところ"
+    ],
+    "alternative": []
+  },
   "readings": [
     "ここのところ"
   ],
@@ -21,8 +24,14 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "ここの所",
-    "此処の所"
+    {
+      "text": "ここの所",
+      "isOwned": false
+    },
+    {
+      "text": "此処の所",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 1,
   "technicalNotes": "",

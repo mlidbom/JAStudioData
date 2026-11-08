@@ -6,7 +6,10 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [],
+  "compoundParts": {
+    "primary": [],
+    "alternative": []
+  },
   "readings": [
     "ねぇ"
   ],
@@ -17,9 +20,18 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "[ねー]",
-    "ね",
-    "ねぇ"
+    {
+      "text": "ねー",
+      "isOwned": true
+    },
+    {
+      "text": "ね",
+      "isOwned": false
+    },
+    {
+      "text": "ねぇ",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 236,
   "technicalNotes": "",

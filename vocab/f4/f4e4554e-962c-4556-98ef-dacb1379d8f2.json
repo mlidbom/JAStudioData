@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "生まれ",
-    "つき"
-  ],
+  "compoundParts": {
+    "primary": [
+      "生まれ",
+      "つき"
+    ],
+    "alternative": []
+  },
   "readings": [
     "うまれつき"
   ],
@@ -20,9 +23,18 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "生れ付き",
-    "生れつき",
-    "生まれ付き"
+    {
+      "text": "生れ付き",
+      "isOwned": false
+    },
+    {
+      "text": "生れつき",
+      "isOwned": false
+    },
+    {
+      "text": "生まれ付き",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 5,
   "technicalNotes": "",

@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "てます",
-    "た"
-  ],
+  "compoundParts": {
+    "primary": [
+      "てます",
+      "た"
+    ],
+    "alternative": []
+  },
   "readings": [
     "てました",
     "でました"
@@ -21,9 +24,18 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "ていました",
-    "でいました",
-    "でました"
+    {
+      "text": "ていました",
+      "isOwned": false
+    },
+    {
+      "text": "でいました",
+      "isOwned": false
+    },
+    {
+      "text": "でました",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 29,
   "technicalNotes": "",

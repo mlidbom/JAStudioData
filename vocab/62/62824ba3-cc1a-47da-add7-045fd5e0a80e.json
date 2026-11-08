@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "噛む",
-    "締める"
-  ],
+  "compoundParts": {
+    "primary": [
+      "噛む",
+      "締める"
+    ],
+    "alternative": []
+  },
   "readings": [
     "かみしめる"
   ],
@@ -20,9 +23,18 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "かみ締める",
-    "噛みしめる",
-    "噛締める"
+    {
+      "text": "かみ締める",
+      "isOwned": false
+    },
+    {
+      "text": "噛みしめる",
+      "isOwned": false
+    },
+    {
+      "text": "噛締める",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 3,
   "technicalNotes": "",

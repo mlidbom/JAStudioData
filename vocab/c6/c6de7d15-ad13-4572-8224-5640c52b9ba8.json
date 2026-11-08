@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "鈍",
-    "くさい"
-  ],
+  "compoundParts": {
+    "primary": [
+      "鈍",
+      "くさい"
+    ],
+    "alternative": []
+  },
   "readings": [
     "どんくさい"
   ],
@@ -20,11 +23,26 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "どんくさい",
-    "のろくさい",
-    "ドン臭い",
-    "[鈍くさい]",
-    "ドンくさい"
+    {
+      "text": "どんくさい",
+      "isOwned": false
+    },
+    {
+      "text": "のろくさい",
+      "isOwned": false
+    },
+    {
+      "text": "ドン臭い",
+      "isOwned": false
+    },
+    {
+      "text": "鈍くさい",
+      "isOwned": true
+    },
+    {
+      "text": "ドンくさい",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 3,
   "technicalNotes": "",

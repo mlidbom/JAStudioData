@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "お",
-    "婆さん"
-  ],
+  "compoundParts": {
+    "primary": [
+      "お",
+      "婆さん"
+    ],
+    "alternative": []
+  },
   "readings": [
     "おばあさん"
   ],
@@ -20,11 +23,26 @@
   "audioG": "[sound:お婆さん_g.mp3]",
   "audioTTS": "",
   "forms": [
-    "お祖母さん",
-    "おばーさん",
-    "おばあさん",
-    "御婆さん",
-    "御祖母さん"
+    {
+      "text": "お祖母さん",
+      "isOwned": false
+    },
+    {
+      "text": "おばーさん",
+      "isOwned": false
+    },
+    {
+      "text": "おばあさん",
+      "isOwned": false
+    },
+    {
+      "text": "御婆さん",
+      "isOwned": false
+    },
+    {
+      "text": "御祖母さん",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 12,
   "technicalNotes": "",

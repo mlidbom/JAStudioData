@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "声",
-    "をかける"
-  ],
+  "compoundParts": {
+    "primary": [
+      "声",
+      "をかける"
+    ],
+    "alternative": []
+  },
   "readings": [
     "こえをかける"
   ],
@@ -20,9 +23,18 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "[声を掛ける]",
-    "声掛ける",
-    "声かける"
+    {
+      "text": "声を掛ける",
+      "isOwned": true
+    },
+    {
+      "text": "声掛ける",
+      "isOwned": false
+    },
+    {
+      "text": "声かける",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 23,
   "technicalNotes": "",

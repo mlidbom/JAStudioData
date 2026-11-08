@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "ご苦労",
-    "様"
-  ],
+  "compoundParts": {
+    "primary": [
+      "ご苦労",
+      "様"
+    ],
+    "alternative": []
+  },
   "readings": [
     "ごくろうさま"
   ],
@@ -20,9 +23,18 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "御苦労さま",
-    "御苦労様",
-    "ご苦労さま"
+    {
+      "text": "御苦労さま",
+      "isOwned": false
+    },
+    {
+      "text": "御苦労様",
+      "isOwned": false
+    },
+    {
+      "text": "ご苦労さま",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 2,
   "technicalNotes": "",

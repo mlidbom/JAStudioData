@@ -6,11 +6,14 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "タバコ",
-    "を",
-    "止める"
-  ],
+  "compoundParts": {
+    "primary": [
+      "タバコ",
+      "を",
+      "止める"
+    ],
+    "alternative": []
+  },
   "readings": [
     "タバコをやめる"
   ],
@@ -21,11 +24,26 @@
   "audioG": "[sound:hypertts-b2377fc2911c9d1c4bf83ef39f30ebf4be85ba09e6afe976440ae6d6.mp3]",
   "audioTTS": "",
   "forms": [
-    "煙草をやめる",
-    "煙草を止める",
-    "タバコをやめる",
-    "たばこをやめる",
-    "たばこを止める"
+    {
+      "text": "煙草をやめる",
+      "isOwned": false
+    },
+    {
+      "text": "煙草を止める",
+      "isOwned": false
+    },
+    {
+      "text": "タバコをやめる",
+      "isOwned": false
+    },
+    {
+      "text": "たばこをやめる",
+      "isOwned": false
+    },
+    {
+      "text": "たばこを止める",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 3,
   "technicalNotes": "",

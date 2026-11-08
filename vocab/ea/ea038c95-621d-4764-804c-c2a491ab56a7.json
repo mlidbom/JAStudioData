@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "お",
-    "腹"
-  ],
+  "compoundParts": {
+    "primary": [
+      "お",
+      "腹"
+    ],
+    "alternative": []
+  },
   "readings": [
     "おなか"
   ],
@@ -20,10 +23,22 @@
   "audioG": "[sound:お腹_g.mp3]",
   "audioTTS": "",
   "forms": [
-    "お中",
-    "御腹",
-    "御中",
-    "おなか"
+    {
+      "text": "お中",
+      "isOwned": false
+    },
+    {
+      "text": "御腹",
+      "isOwned": false
+    },
+    {
+      "text": "御中",
+      "isOwned": false
+    },
+    {
+      "text": "おなか",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 42,
   "technicalNotes": "",

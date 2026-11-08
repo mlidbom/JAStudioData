@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "お",
-    "見舞い"
-  ],
+  "compoundParts": {
+    "primary": [
+      "お",
+      "見舞い"
+    ],
+    "alternative": []
+  },
   "readings": [
     "おみまい"
   ],
@@ -20,9 +23,18 @@
   "audioG": "[sound:お見舞い_g.mp3]",
   "audioTTS": "",
   "forms": [
-    "お見舞",
-    "御見舞い",
-    "御見舞"
+    {
+      "text": "お見舞",
+      "isOwned": false
+    },
+    {
+      "text": "御見舞い",
+      "isOwned": false
+    },
+    {
+      "text": "御見舞",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 9,
   "technicalNotes": "",

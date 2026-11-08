@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "お参り",
-    "する"
-  ],
+  "compoundParts": {
+    "primary": [
+      "お参り",
+      "する"
+    ],
+    "alternative": []
+  },
   "readings": [
     "おまいりする"
   ],
@@ -20,9 +23,18 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-f38bb00c469ef7ffa31417036b3458c42717d25338d9766189b1cd8c.mp3]",
   "forms": [
-    "御参りする",
-    "お参りをする",
-    "御参りをする"
+    {
+      "text": "御参りする",
+      "isOwned": false
+    },
+    {
+      "text": "お参りをする",
+      "isOwned": false
+    },
+    {
+      "text": "御参りをする",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 2,
   "technicalNotes": "",

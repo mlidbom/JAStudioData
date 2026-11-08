@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "思い",
-    "出す:masu"
-  ],
+  "compoundParts": {
+    "primary": [
+      "思い",
+      "出す:masu"
+    ],
+    "alternative": []
+  },
   "readings": [
     "おもいだす"
   ],
@@ -20,9 +23,18 @@
   "audioG": "[sound:思い出す_g.mp3]",
   "audioTTS": "",
   "forms": [
-    "おもい出す",
-    "思いだす",
-    "思出す"
+    {
+      "text": "おもい出す",
+      "isOwned": false
+    },
+    {
+      "text": "思いだす",
+      "isOwned": false
+    },
+    {
+      "text": "思出す",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 96,
   "technicalNotes": "",

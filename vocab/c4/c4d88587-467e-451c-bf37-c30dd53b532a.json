@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "乗る",
-    "取る"
-  ],
+  "compoundParts": {
+    "primary": [
+      "乗る",
+      "取る"
+    ],
+    "alternative": []
+  },
   "readings": [
     "のっとる"
   ],
@@ -20,9 +23,18 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "法る",
-    "乗っとる",
-    "則る"
+    {
+      "text": "法る",
+      "isOwned": false
+    },
+    {
+      "text": "乗っとる",
+      "isOwned": false
+    },
+    {
+      "text": "則る",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 3,
   "technicalNotes": "",

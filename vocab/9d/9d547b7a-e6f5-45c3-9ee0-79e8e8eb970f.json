@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "これ",
-    "から"
-  ],
+  "compoundParts": {
+    "primary": [
+      "これ",
+      "から"
+    ],
+    "alternative": []
+  },
   "readings": [
     "これから"
   ],
@@ -20,8 +23,14 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "此れから",
-    "此から"
+    {
+      "text": "此れから",
+      "isOwned": false
+    },
+    {
+      "text": "此から",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 72,
   "technicalNotes": "",

@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "た",
-    "ほうがいい"
-  ],
+  "compoundParts": {
+    "primary": [
+      "た",
+      "ほうがいい"
+    ],
+    "alternative": []
+  },
   "readings": [
     "んだほうがいい"
   ],
@@ -20,14 +23,38 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-85aca21ab0fd71fb9a81de7f0b7fa8877d76346cd0a87cbe4379e788.mp3]",
   "forms": [
-    "んだ方がい",
-    "たほうがいい",
-    "た方が良い",
-    "[だ方がいい]",
-    "た方がいい",
-    "[だ方が良い]",
-    "[んだ方が良い]",
-    "[だほうがいい]"
+    {
+      "text": "んだ方がい",
+      "isOwned": false
+    },
+    {
+      "text": "たほうがいい",
+      "isOwned": false
+    },
+    {
+      "text": "た方が良い",
+      "isOwned": false
+    },
+    {
+      "text": "だ方がいい",
+      "isOwned": true
+    },
+    {
+      "text": "た方がいい",
+      "isOwned": false
+    },
+    {
+      "text": "だ方が良い",
+      "isOwned": true
+    },
+    {
+      "text": "んだ方が良い",
+      "isOwned": true
+    },
+    {
+      "text": "だほうがいい",
+      "isOwned": true
+    }
   ],
   "sentenceCount": 7,
   "technicalNotes": "",

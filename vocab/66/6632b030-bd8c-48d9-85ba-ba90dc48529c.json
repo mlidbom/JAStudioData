@@ -6,11 +6,14 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "こと",
-    "は",
-    "できる"
-  ],
+  "compoundParts": {
+    "primary": [
+      "こと",
+      "は",
+      "できる"
+    ],
+    "alternative": []
+  },
   "readings": [
     "ことはできる"
   ],
@@ -21,9 +24,18 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "事は出来る",
-    "事はできる",
-    "ことは出来る"
+    {
+      "text": "事は出来る",
+      "isOwned": false
+    },
+    {
+      "text": "事はできる",
+      "isOwned": false
+    },
+    {
+      "text": "ことは出来る",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 49,
   "technicalNotes": "",

@@ -6,11 +6,15 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "どうすれば",
-    "いい",
-    "[えばいい]"
-  ],
+  "compoundParts": {
+    "primary": [
+      "どうすれば",
+      "いい"
+    ],
+    "alternative": [
+      "えばいい"
+    ]
+  },
   "readings": [
     "どうすればいい"
   ],
@@ -21,7 +25,10 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "どうすりゃいい"
+    {
+      "text": "どうすりゃいい",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 32,
   "technicalNotes": "",

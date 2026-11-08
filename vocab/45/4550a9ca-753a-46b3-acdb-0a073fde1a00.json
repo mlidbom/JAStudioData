@@ -6,11 +6,15 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "それ",
-    "までだ",
-    "[それまで]"
-  ],
+  "compoundParts": {
+    "primary": [
+      "それ",
+      "までだ"
+    ],
+    "alternative": [
+      "それまで"
+    ]
+  },
   "readings": [
     "それまでだ"
   ],
@@ -21,10 +25,22 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-9bd758d7d9f14b1018e1c4ae41fca1c32ad6262c2726942379d3d1c2.mp3]",
   "forms": [
-    "其迄だ",
-    "其れまでだ",
-    "其れ迄だ",
-    "それ迄だ"
+    {
+      "text": "其迄だ",
+      "isOwned": false
+    },
+    {
+      "text": "其れまでだ",
+      "isOwned": false
+    },
+    {
+      "text": "其れ迄だ",
+      "isOwned": false
+    },
+    {
+      "text": "それ迄だ",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 3,
   "technicalNotes": "",

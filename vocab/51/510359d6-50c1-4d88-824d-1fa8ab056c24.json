@@ -6,12 +6,16 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "お",
-    "許す",
-    "[お許し]",
-    "ください"
-  ],
+  "compoundParts": {
+    "primary": [
+      "お",
+      "許す",
+      "ください"
+    ],
+    "alternative": [
+      "お許し"
+    ]
+  },
   "readings": [
     "おゆるしください"
   ],
@@ -22,7 +26,10 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-379e50655f3b23f1dc494a748a554bd3892efb0e1d812f27d6edfe15.mp3]",
   "forms": [
-    "お赦しください"
+    {
+      "text": "お赦しください",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 3,
   "technicalNotes": "",

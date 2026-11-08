@@ -6,7 +6,10 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [],
+  "compoundParts": {
+    "primary": [],
+    "alternative": []
+  },
   "readings": [
     "がんばれ"
   ],
@@ -17,8 +20,14 @@
   "audioG": "[sound:頑張れ_g.mp3]",
   "audioTTS": "",
   "forms": [
-    "がんばれ",
-    "ガンバレ"
+    {
+      "text": "がんばれ",
+      "isOwned": false
+    },
+    {
+      "text": "ガンバレ",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 15,
   "technicalNotes": "",

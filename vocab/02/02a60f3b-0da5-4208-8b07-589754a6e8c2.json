@@ -6,7 +6,10 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [],
+  "compoundParts": {
+    "primary": [],
+    "alternative": []
+  },
   "readings": [
     "でよ"
   ],
@@ -17,8 +20,14 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-ccb875308d93e3294ed7cda47b71134edcfcc22e3ec7e5aa9b85bb9e.mp3]",
   "forms": [
-    "てよ",
-    "[ってよ]"
+    {
+      "text": "てよ",
+      "isOwned": false
+    },
+    {
+      "text": "ってよ",
+      "isOwned": true
+    }
   ],
   "sentenceCount": 3,
   "technicalNotes": "",

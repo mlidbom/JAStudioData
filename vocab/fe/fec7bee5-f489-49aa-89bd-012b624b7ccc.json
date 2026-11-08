@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "おせち",
-    "料理"
-  ],
+  "compoundParts": {
+    "primary": [
+      "おせち",
+      "料理"
+    ],
+    "alternative": []
+  },
   "readings": [
     "おせちりょうり"
   ],
@@ -20,8 +23,14 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "お節料理",
-    "御節料理"
+    {
+      "text": "お節料理",
+      "isOwned": false
+    },
+    {
+      "text": "御節料理",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 1,
   "technicalNotes": "",

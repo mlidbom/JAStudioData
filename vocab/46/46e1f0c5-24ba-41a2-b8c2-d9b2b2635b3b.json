@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "晩",
-    "ご飯"
-  ],
+  "compoundParts": {
+    "primary": [
+      "晩",
+      "ご飯"
+    ],
+    "alternative": []
+  },
   "readings": [
     "ばんごはん"
   ],
@@ -20,8 +23,14 @@
   "audioG": "[sound:晩ご飯_g.mp3]",
   "audioTTS": "",
   "forms": [
-    "晩御飯",
-    "晩ごはん"
+    {
+      "text": "晩御飯",
+      "isOwned": false
+    },
+    {
+      "text": "晩ごはん",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 19,
   "technicalNotes": "",

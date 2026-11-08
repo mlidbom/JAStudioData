@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "える",
-    "そう"
-  ],
+  "compoundParts": {
+    "primary": [
+      "える",
+      "そう"
+    ],
+    "alternative": []
+  },
   "readings": [
     "えそう"
   ],
@@ -20,17 +23,50 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-c5c9686daf0285348021bb560eee03834fa67508c433855e0b07eb3c.mp3]",
   "forms": [
-    "せそう",
-    "けそう",
-    "べそう",
-    "ぜそう",
-    "れそう",
-    "めそう",
-    "ぺそう",
-    "へそう",
-    "ねそう",
-    "げそう",
-    "でそう"
+    {
+      "text": "せそう",
+      "isOwned": false
+    },
+    {
+      "text": "けそう",
+      "isOwned": false
+    },
+    {
+      "text": "べそう",
+      "isOwned": false
+    },
+    {
+      "text": "ぜそう",
+      "isOwned": false
+    },
+    {
+      "text": "れそう",
+      "isOwned": false
+    },
+    {
+      "text": "めそう",
+      "isOwned": false
+    },
+    {
+      "text": "ぺそう",
+      "isOwned": false
+    },
+    {
+      "text": "へそう",
+      "isOwned": false
+    },
+    {
+      "text": "ねそう",
+      "isOwned": false
+    },
+    {
+      "text": "げそう",
+      "isOwned": false
+    },
+    {
+      "text": "でそう",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 1,
   "technicalNotes": "This works around a glitch in janome where it detects けそう etc as an imperative form when it is actually a potential",

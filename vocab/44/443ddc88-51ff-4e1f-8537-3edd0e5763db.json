@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "何だ",
-    "これは"
-  ],
+  "compoundParts": {
+    "primary": [
+      "何だ",
+      "これは"
+    ],
+    "alternative": []
+  },
   "readings": [
     "なんだこれは"
   ],
@@ -20,8 +23,14 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-2503d627b0bdbfb2c49d8bfb347845a3889d8dc7bc5c9f8a4fda5a5c.mp3]",
   "forms": [
-    "何だこれは",
-    "なんだこれはなんだこれは"
+    {
+      "text": "何だこれは",
+      "isOwned": false
+    },
+    {
+      "text": "なんだこれはなんだこれは",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 6,
   "technicalNotes": "",

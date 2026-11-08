@@ -6,11 +6,14 @@
   "userExplanation": "の endings make for a more feminine/soft feel, ですか for a more polite/formal feel.",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "何",
-    "すん",
-    "だ"
-  ],
+  "compoundParts": {
+    "primary": [
+      "何",
+      "すん",
+      "だ"
+    ],
+    "alternative": []
+  },
   "readings": [
     "なにすんだ"
   ],
@@ -21,14 +24,26 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-b5672691fbd2c808a698f798c0dc634c17bcf34dcd5b7fff4cd56ef2.mp3]",
   "forms": [
-    "なにすんの",
-    "なにすんの",
-    "何すんの",
-    "[なにすんだ]",
-    "[なにすんだ]",
-    "なにすんですか",
-    "なにすんですか",
-    "何すんですか"
+    {
+      "text": "なにすんの",
+      "isOwned": false
+    },
+    {
+      "text": "何すんの",
+      "isOwned": false
+    },
+    {
+      "text": "なにすんだ",
+      "isOwned": true
+    },
+    {
+      "text": "なにすんですか",
+      "isOwned": false
+    },
+    {
+      "text": "何すんですか",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 2,
   "technicalNotes": "",

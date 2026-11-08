@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "振り",
-    "出し:masu"
-  ],
+  "compoundParts": {
+    "primary": [
+      "振り",
+      "出し:masu"
+    ],
+    "alternative": []
+  },
   "readings": [
     "ふりだし"
   ],
@@ -20,9 +23,18 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "振り出",
-    "振出",
-    "振出し"
+    {
+      "text": "振り出",
+      "isOwned": false
+    },
+    {
+      "text": "振出",
+      "isOwned": false
+    },
+    {
+      "text": "振出し",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 2,
   "technicalNotes": "",

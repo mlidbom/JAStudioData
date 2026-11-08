@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "お帰り",
-    "なさい"
-  ],
+  "compoundParts": {
+    "primary": [
+      "お帰り",
+      "なさい"
+    ],
+    "alternative": []
+  },
   "readings": [
     "おかえりなさい"
   ],
@@ -20,8 +23,14 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "御帰りなさい",
-    "おかえりなさい"
+    {
+      "text": "御帰りなさい",
+      "isOwned": false
+    },
+    {
+      "text": "おかえりなさい",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 28,
   "technicalNotes": "",

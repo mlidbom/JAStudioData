@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "ある",
-    "わけない"
-  ],
+  "compoundParts": {
+    "primary": [
+      "ある",
+      "わけない"
+    ],
+    "alternative": []
+  },
   "readings": [
     "あるわけない"
   ],
@@ -20,9 +23,18 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-7ab9ea4f2f3567d59c64632f3adb08784dab0d0d1b42c83a51ed5e6e.mp3]",
   "forms": [
-    "あるわけがない",
-    "あるわけねえ",
-    "あるわけがねえ"
+    {
+      "text": "あるわけがない",
+      "isOwned": false
+    },
+    {
+      "text": "あるわけねえ",
+      "isOwned": false
+    },
+    {
+      "text": "あるわけがねえ",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 2,
   "technicalNotes": "",

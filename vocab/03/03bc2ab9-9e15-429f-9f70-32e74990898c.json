@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "面倒",
-    "臭い"
-  ],
+  "compoundParts": {
+    "primary": [
+      "面倒",
+      "臭い"
+    ],
+    "alternative": []
+  },
   "readings": [
     "めんどうくさい",
     "めんどくさい"
@@ -21,9 +24,18 @@
   "audioG": "[sound:Wani_4846_めんどうくさい_female.mp3]",
   "audioTTS": "",
   "forms": [
-    "めんどうくさい",
-    "[面倒くさい]",
-    "めんどくさい"
+    {
+      "text": "めんどうくさい",
+      "isOwned": false
+    },
+    {
+      "text": "面倒くさい",
+      "isOwned": true
+    },
+    {
+      "text": "めんどくさい",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 16,
   "technicalNotes": "",

@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "偽",
-    "物"
-  ],
+  "compoundParts": {
+    "primary": [
+      "偽",
+      "物"
+    ],
+    "alternative": []
+  },
   "readings": [
     "にせもの"
   ],
@@ -20,9 +23,18 @@
   "audioG": "[sound:偽物_g.mp3]",
   "audioTTS": "",
   "forms": [
-    "ニセ物",
-    "贋物",
-    "にせ物"
+    {
+      "text": "ニセ物",
+      "isOwned": false
+    },
+    {
+      "text": "贋物",
+      "isOwned": false
+    },
+    {
+      "text": "にせ物",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 10,
   "technicalNotes": "",

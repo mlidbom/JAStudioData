@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "嫌",
-    "だ"
-  ],
+  "compoundParts": {
+    "primary": [
+      "嫌",
+      "だ"
+    ],
+    "alternative": []
+  },
   "readings": [],
   "partsOfSpeech": "",
   "sourceMnemonic": "",
@@ -18,7 +21,10 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-26cf831aa163720718828e75cc4ae7aa1a892f7b827d7e2696114ad7.mp3]",
   "forms": [
-    "いやだ"
+    {
+      "text": "いやだ",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 18,
   "technicalNotes": "TODO: the exact match requirement does not seem to be working unless both forms have it set",

@@ -6,12 +6,16 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "何",
-    "という",
-    "[なんと]",
-    "[言う]"
-  ],
+  "compoundParts": {
+    "primary": [
+      "何",
+      "という"
+    ],
+    "alternative": [
+      "なんと",
+      "言う"
+    ]
+  },
   "readings": [
     "なんという",
     "なんとゆう"
@@ -23,9 +27,18 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-0fdbdb771ea9e981f19c935c9a9b3a53feb96c64e86248d76ca01c84.mp3]",
   "forms": [
-    "何という",
-    "なんとゆう",
-    "何と言う"
+    {
+      "text": "何という",
+      "isOwned": false
+    },
+    {
+      "text": "なんとゆう",
+      "isOwned": false
+    },
+    {
+      "text": "何と言う",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 21,
   "technicalNotes": "",

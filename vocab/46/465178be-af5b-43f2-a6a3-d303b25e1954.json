@@ -6,11 +6,15 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "てくる",
-    "た",
-    "[きた]"
-  ],
+  "compoundParts": {
+    "primary": [
+      "てくる",
+      "た"
+    ],
+    "alternative": [
+      "きた"
+    ]
+  },
   "readings": [
     "てきた"
   ],
@@ -21,8 +25,14 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "てきました",
-    "て来た"
+    {
+      "text": "てきました",
+      "isOwned": false
+    },
+    {
+      "text": "て来た",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 304,
   "technicalNotes": "",

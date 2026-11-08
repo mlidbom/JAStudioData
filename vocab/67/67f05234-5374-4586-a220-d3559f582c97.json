@@ -6,12 +6,15 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "月",
-    "が",
-    "綺麗",
-    "ですね"
-  ],
+  "compoundParts": {
+    "primary": [
+      "月",
+      "が",
+      "綺麗",
+      "ですね"
+    ],
+    "alternative": []
+  },
   "readings": [
     "つきがきれいですね"
   ],
@@ -22,9 +25,18 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-b0ec707448b2e1c7cc7e2b15be5a3ed047dbce524c27a85d43db4997.mp3]",
   "forms": [
-    "月がきれいですね",
-    "月がキレイですね",
-    "月が奇麗ですね"
+    {
+      "text": "月がきれいですね",
+      "isOwned": false
+    },
+    {
+      "text": "月がキレイですね",
+      "isOwned": false
+    },
+    {
+      "text": "月が奇麗ですね",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 3,
   "technicalNotes": "",

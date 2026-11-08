@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "楽",
-    "書き"
-  ],
+  "compoundParts": {
+    "primary": [
+      "楽",
+      "書き"
+    ],
+    "alternative": []
+  },
   "readings": [
     "らくがき"
   ],
@@ -20,9 +23,18 @@
   "audioG": "[sound:落書き_g.mp3]",
   "audioTTS": "",
   "forms": [
-    "楽書",
-    "落書",
-    "楽書き"
+    {
+      "text": "楽書",
+      "isOwned": false
+    },
+    {
+      "text": "落書",
+      "isOwned": false
+    },
+    {
+      "text": "楽書き",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 22,
   "technicalNotes": "",

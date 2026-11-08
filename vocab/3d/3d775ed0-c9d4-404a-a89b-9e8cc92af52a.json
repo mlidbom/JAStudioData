@@ -6,11 +6,15 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "のおかげ",
-    "で",
-    "[おかげで]"
-  ],
+  "compoundParts": {
+    "primary": [
+      "のおかげ",
+      "で"
+    ],
+    "alternative": [
+      "おかげで"
+    ]
+  },
   "readings": [
     "のおかげで"
   ],
@@ -21,15 +25,42 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-8f3d93ccc81119f8eb22a4b9751d34bacb7d2eaa2fa0394ef4f532fe.mp3]",
   "forms": [
-    "のお陰です",
-    "のお蔭です",
-    "のお陰で",
-    "の御蔭です",
-    "のお蔭で",
-    "のおかげです",
-    "の御陰です",
-    "の御蔭で",
-    "の御陰で"
+    {
+      "text": "のお陰です",
+      "isOwned": false
+    },
+    {
+      "text": "のお蔭です",
+      "isOwned": false
+    },
+    {
+      "text": "のお陰で",
+      "isOwned": false
+    },
+    {
+      "text": "の御蔭です",
+      "isOwned": false
+    },
+    {
+      "text": "のお蔭で",
+      "isOwned": false
+    },
+    {
+      "text": "のおかげです",
+      "isOwned": false
+    },
+    {
+      "text": "の御陰です",
+      "isOwned": false
+    },
+    {
+      "text": "の御蔭で",
+      "isOwned": false
+    },
+    {
+      "text": "の御陰で",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 30,
   "technicalNotes": "",

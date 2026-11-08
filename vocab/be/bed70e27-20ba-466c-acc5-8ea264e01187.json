@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "飲み",
-    "物"
-  ],
+  "compoundParts": {
+    "primary": [
+      "飲み",
+      "物"
+    ],
+    "alternative": []
+  },
   "readings": [
     "のみもの"
   ],
@@ -20,8 +23,14 @@
   "audioG": "[sound:飲み物_g.mp3]",
   "audioTTS": "",
   "forms": [
-    "飲みもの",
-    "飲物"
+    {
+      "text": "飲みもの",
+      "isOwned": false
+    },
+    {
+      "text": "飲物",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 19,
   "technicalNotes": "",

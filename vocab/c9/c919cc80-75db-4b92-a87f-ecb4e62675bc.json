@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "と言う",
-    "のに"
-  ],
+  "compoundParts": {
+    "primary": [
+      "と言う",
+      "のに"
+    ],
+    "alternative": []
+  },
   "readings": [
     "というのに"
   ],
@@ -20,9 +23,18 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "っていうのに",
-    "って言うのに",
-    "と言うのに"
+    {
+      "text": "っていうのに",
+      "isOwned": false
+    },
+    {
+      "text": "って言うのに",
+      "isOwned": false
+    },
+    {
+      "text": "と言うのに",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 8,
   "technicalNotes": "",

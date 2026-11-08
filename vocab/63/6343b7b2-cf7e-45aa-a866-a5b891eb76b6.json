@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "お",
-    "母様"
-  ],
+  "compoundParts": {
+    "primary": [
+      "お",
+      "母様"
+    ],
+    "alternative": []
+  },
   "readings": [
     "おかあさま"
   ],
@@ -20,8 +23,14 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "お母さま",
-    "御母様"
+    {
+      "text": "お母さま",
+      "isOwned": false
+    },
+    {
+      "text": "御母様",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 14,
   "technicalNotes": "",

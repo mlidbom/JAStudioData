@@ -6,12 +6,16 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "忘れる",
-    "られない",
-    "[忘れられる]",
-    "[ない]"
-  ],
+  "compoundParts": {
+    "primary": [
+      "忘れる",
+      "られない"
+    ],
+    "alternative": [
+      "ない",
+      "忘れられる"
+    ]
+  },
   "readings": [
     "わすれられない"
   ],
@@ -22,7 +26,10 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "忘れられません"
+    {
+      "text": "忘れられません",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 7,
   "technicalNotes": "",

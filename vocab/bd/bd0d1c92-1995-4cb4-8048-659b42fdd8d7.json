@@ -6,12 +6,16 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "どうにも",
-    "ならない",
-    "[どう]",
-    "[にもならない]"
-  ],
+  "compoundParts": {
+    "primary": [
+      "どうにも",
+      "ならない"
+    ],
+    "alternative": [
+      "どう",
+      "にもならない"
+    ]
+  },
   "readings": [
     "どうにもならない"
   ],
@@ -22,8 +26,14 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "どうにもならん",
-    "どうにもならず"
+    {
+      "text": "どうにもならん",
+      "isOwned": false
+    },
+    {
+      "text": "どうにもならず",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 8,
   "technicalNotes": "",

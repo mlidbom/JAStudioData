@@ -6,7 +6,10 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [],
+  "compoundParts": {
+    "primary": [],
+    "alternative": []
+  },
   "readings": [
     "ひるごはん"
   ],
@@ -17,8 +20,14 @@
   "audioG": "[sound:昼ご飯_g.mp3]",
   "audioTTS": "",
   "forms": [
-    "昼ごはん",
-    "昼御飯"
+    {
+      "text": "昼ごはん",
+      "isOwned": false
+    },
+    {
+      "text": "昼御飯",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 6,
   "technicalNotes": "",

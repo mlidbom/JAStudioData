@@ -6,11 +6,15 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "おうとする",
-    "てくれる",
-    "[おうとして]"
-  ],
+  "compoundParts": {
+    "primary": [
+      "おうとする",
+      "てくれる"
+    ],
+    "alternative": [
+      "おうとして"
+    ]
+  },
   "readings": [
     "おうとしてくれる"
   ],
@@ -21,8 +25,14 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-186e5a115f95410387aefd5efbe3f7c8ad846d287269fcada8e7d2fd.mp3]",
   "forms": [
-    "うとしてくれる",
-    "ようとしてくれる"
+    {
+      "text": "うとしてくれる",
+      "isOwned": false
+    },
+    {
+      "text": "ようとしてくれる",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 4,
   "technicalNotes": "",

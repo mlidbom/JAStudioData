@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "電話",
-    "する"
-  ],
+  "compoundParts": {
+    "primary": [
+      "電話",
+      "する"
+    ],
+    "alternative": []
+  },
   "readings": [
     "でんわする"
   ],
@@ -20,7 +23,10 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-2f41cf2f9f9fe3a6ea38ac3296620c9bfe4e77a523b9c7cd893c35ac.mp3]",
   "forms": [
-    "電話をする"
+    {
+      "text": "電話をする",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 33,
   "technicalNotes": "",

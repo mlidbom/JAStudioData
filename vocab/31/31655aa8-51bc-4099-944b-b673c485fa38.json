@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "繰り",
-    "返す"
-  ],
+  "compoundParts": {
+    "primary": [
+      "繰り",
+      "返す"
+    ],
+    "alternative": []
+  },
   "readings": [
     "くりかえす"
   ],
@@ -20,9 +23,18 @@
   "audioG": "[sound:繰り返す_g.mp3]",
   "audioTTS": "",
   "forms": [
-    "くり返す",
-    "繰返す",
-    "繰りかえす"
+    {
+      "text": "くり返す",
+      "isOwned": false
+    },
+    {
+      "text": "繰返す",
+      "isOwned": false
+    },
+    {
+      "text": "繰りかえす",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 20,
   "technicalNotes": "",

@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "どこ",
-    "か"
-  ],
+  "compoundParts": {
+    "primary": [
+      "どこ",
+      "か"
+    ],
+    "alternative": []
+  },
   "readings": [
     "どっか"
   ],
@@ -20,8 +23,14 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "何処か",
-    "どこか"
+    {
+      "text": "何処か",
+      "isOwned": false
+    },
+    {
+      "text": "どこか",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 11,
   "technicalNotes": "",

@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "あの",
-    "子"
-  ],
+  "compoundParts": {
+    "primary": [
+      "あの",
+      "子"
+    ],
+    "alternative": []
+  },
   "readings": [
     "あのこ"
   ],
@@ -20,8 +23,14 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "彼の娘",
-    "彼の子"
+    {
+      "text": "彼の娘",
+      "isOwned": false
+    },
+    {
+      "text": "彼の子",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 107,
   "technicalNotes": "",

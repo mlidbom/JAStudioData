@@ -6,11 +6,15 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "[いつまで]",
-    "いつ",
-    "までも"
-  ],
+  "compoundParts": {
+    "primary": [
+      "いつ",
+      "までも"
+    ],
+    "alternative": [
+      "いつまで"
+    ]
+  },
   "readings": [
     "いつまでも"
   ],
@@ -21,8 +25,14 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "何時迄も",
-    "何時までも"
+    {
+      "text": "何時迄も",
+      "isOwned": false
+    },
+    {
+      "text": "何時までも",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 27,
   "technicalNotes": "",

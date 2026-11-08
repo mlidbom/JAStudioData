@@ -6,7 +6,10 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [],
+  "compoundParts": {
+    "primary": [],
+    "alternative": []
+  },
   "readings": [
     "ごはん"
   ],
@@ -17,8 +20,14 @@
   "audioG": "[sound:御飯_g.mp3]",
   "audioTTS": "",
   "forms": [
-    "ご飯",
-    "ごはん"
+    {
+      "text": "ご飯",
+      "isOwned": false
+    },
+    {
+      "text": "ごはん",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 9,
   "technicalNotes": "",

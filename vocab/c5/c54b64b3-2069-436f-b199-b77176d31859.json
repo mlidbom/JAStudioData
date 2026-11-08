@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "酒",
-    "飲み"
-  ],
+  "compoundParts": {
+    "primary": [
+      "酒",
+      "飲み"
+    ],
+    "alternative": []
+  },
   "readings": [
     "さけのみ"
   ],
@@ -20,8 +23,14 @@
   "audioG": "[sound:酒飲み_g.mp3]",
   "audioTTS": "",
   "forms": [
-    "酒呑",
-    "酒呑み"
+    {
+      "text": "酒呑",
+      "isOwned": false
+    },
+    {
+      "text": "酒呑み",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 3,
   "technicalNotes": "",

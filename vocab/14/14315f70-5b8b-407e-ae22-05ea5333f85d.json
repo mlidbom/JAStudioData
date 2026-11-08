@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "子",
-    "牛"
-  ],
+  "compoundParts": {
+    "primary": [
+      "子",
+      "牛"
+    ],
+    "alternative": []
+  },
   "readings": [
     "こうし"
   ],
@@ -20,9 +23,18 @@
   "audioG": "[sound:子牛_g.mp3]",
   "audioTTS": "",
   "forms": [
-    "小牛",
-    "仔牛",
-    "犢"
+    {
+      "text": "小牛",
+      "isOwned": false
+    },
+    {
+      "text": "仔牛",
+      "isOwned": false
+    },
+    {
+      "text": "犢",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 4,
   "technicalNotes": "",

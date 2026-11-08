@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "と思われる",
-    "ます"
-  ],
+  "compoundParts": {
+    "primary": [
+      "と思われる",
+      "ます"
+    ],
+    "alternative": []
+  },
   "readings": [],
   "partsOfSpeech": "expression",
   "sourceMnemonic": "",
@@ -18,7 +21,10 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-5a284e3020533430719d6174eb3564529682657209219447cdddaf47.mp3]",
   "forms": [
-    "とおもわれます"
+    {
+      "text": "とおもわれます",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 8,
   "technicalNotes": "Needed because the ます form actually has a different meaning than the plain form",

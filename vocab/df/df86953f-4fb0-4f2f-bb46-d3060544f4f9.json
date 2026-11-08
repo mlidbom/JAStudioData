@@ -6,11 +6,15 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "交通事故",
-    "に遭う",
-    "[事故に遭う]"
-  ],
+  "compoundParts": {
+    "primary": [
+      "交通事故",
+      "に遭う"
+    ],
+    "alternative": [
+      "事故に遭う"
+    ]
+  },
   "readings": [
     "こうつうじこにあう"
   ],
@@ -21,7 +25,10 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "交通事故にあう"
+    {
+      "text": "交通事故にあう",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 2,
   "technicalNotes": "",

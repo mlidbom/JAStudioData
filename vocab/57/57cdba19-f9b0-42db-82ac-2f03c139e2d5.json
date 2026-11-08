@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "連れる",
-    "ていく"
-  ],
+  "compoundParts": {
+    "primary": [
+      "連れる",
+      "ていく"
+    ],
+    "alternative": []
+  },
   "readings": [
     "つれていく"
   ],
@@ -20,9 +23,18 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "連れてゆく",
-    "つれて行く",
-    "連れていく"
+    {
+      "text": "連れてゆく",
+      "isOwned": false
+    },
+    {
+      "text": "つれて行く",
+      "isOwned": false
+    },
+    {
+      "text": "連れていく",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 26,
   "technicalNotes": "",

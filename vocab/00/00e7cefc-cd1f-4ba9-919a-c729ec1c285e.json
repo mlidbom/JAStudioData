@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "メール",
-    "する"
-  ],
+  "compoundParts": {
+    "primary": [
+      "メール",
+      "する"
+    ],
+    "alternative": []
+  },
   "readings": [
     "メールする"
   ],
@@ -20,11 +23,26 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "メェルする",
-    "メイルをする",
-    "メイルする",
-    "メェルをする",
-    "メールをする"
+    {
+      "text": "メェルする",
+      "isOwned": false
+    },
+    {
+      "text": "メイルをする",
+      "isOwned": false
+    },
+    {
+      "text": "メイルする",
+      "isOwned": false
+    },
+    {
+      "text": "メェルをする",
+      "isOwned": false
+    },
+    {
+      "text": "メールをする",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 9,
   "technicalNotes": "",

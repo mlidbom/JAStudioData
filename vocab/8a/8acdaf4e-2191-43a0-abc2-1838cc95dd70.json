@@ -6,11 +6,15 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "[してやる]",
-    "する",
-    "てやろう"
-  ],
+  "compoundParts": {
+    "primary": [
+      "する",
+      "てやろう"
+    ],
+    "alternative": [
+      "してやる"
+    ]
+  },
   "readings": [
     "してやろうう"
   ],
@@ -21,9 +25,18 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-1da48c7f434348619c1be97c6dd84201d08b9287399c712986c5cb9e.mp3]",
   "forms": [
-    "為て遣ろう",
-    "して遣ろう",
-    "為てやろう"
+    {
+      "text": "為て遣ろう",
+      "isOwned": false
+    },
+    {
+      "text": "して遣ろう",
+      "isOwned": false
+    },
+    {
+      "text": "為てやろう",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 4,
   "technicalNotes": "",

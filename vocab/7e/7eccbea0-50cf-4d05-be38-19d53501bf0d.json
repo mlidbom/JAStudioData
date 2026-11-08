@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "ある",
-    "ます"
-  ],
+  "compoundParts": {
+    "primary": [
+      "ある",
+      "ます"
+    ],
+    "alternative": []
+  },
   "readings": [
     "あります"
   ],
@@ -20,8 +23,14 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "在ります",
-    "有ります"
+    {
+      "text": "在ります",
+      "isOwned": false
+    },
+    {
+      "text": "有ります",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 881,
   "technicalNotes": "",

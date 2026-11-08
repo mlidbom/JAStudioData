@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "お",
-    "守り"
-  ],
+  "compoundParts": {
+    "primary": [
+      "お",
+      "守り"
+    ],
+    "alternative": []
+  },
   "readings": [
     "おまもり"
   ],
@@ -20,9 +23,18 @@
   "audioG": "[sound:お守り_g.mp3]",
   "audioTTS": "",
   "forms": [
-    "御守",
-    "お守",
-    "御守り"
+    {
+      "text": "御守",
+      "isOwned": false
+    },
+    {
+      "text": "お守",
+      "isOwned": false
+    },
+    {
+      "text": "御守り",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 24,
   "technicalNotes": "",

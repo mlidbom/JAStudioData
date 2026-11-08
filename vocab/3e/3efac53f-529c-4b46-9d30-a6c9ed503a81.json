@@ -6,12 +6,16 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "そんなこと",
-    "ない",
-    "[そんな]",
-    "[ことない]"
-  ],
+  "compoundParts": {
+    "primary": [
+      "そんなこと",
+      "ない"
+    ],
+    "alternative": [
+      "ことない",
+      "そんな"
+    ]
+  },
   "readings": [
     "そんなことない"
   ],
@@ -22,7 +26,10 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "そんなことねー"
+    {
+      "text": "そんなことねー",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 11,
   "technicalNotes": "",

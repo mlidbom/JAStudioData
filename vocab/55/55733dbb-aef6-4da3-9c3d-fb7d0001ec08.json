@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "お前",
-    "達"
-  ],
+  "compoundParts": {
+    "primary": [
+      "お前",
+      "達"
+    ],
+    "alternative": []
+  },
   "readings": [
     "おまえたち"
   ],
@@ -20,10 +23,22 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "御前たち",
-    "お前たち",
-    "おまえ達",
-    "御前達"
+    {
+      "text": "御前たち",
+      "isOwned": false
+    },
+    {
+      "text": "お前たち",
+      "isOwned": false
+    },
+    {
+      "text": "おまえ達",
+      "isOwned": false
+    },
+    {
+      "text": "御前達",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 60,
   "technicalNotes": "",

@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "買い",
-    "被る"
-  ],
+  "compoundParts": {
+    "primary": [
+      "買い",
+      "被る"
+    ],
+    "alternative": []
+  },
   "readings": [
     "かいかぶる"
   ],
@@ -20,9 +23,18 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "かいかぶるかいかぶる",
-    "買い被る",
-    "買いかぶる"
+    {
+      "text": "かいかぶるかいかぶる",
+      "isOwned": false
+    },
+    {
+      "text": "買い被る",
+      "isOwned": false
+    },
+    {
+      "text": "買いかぶる",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 1,
   "technicalNotes": "",

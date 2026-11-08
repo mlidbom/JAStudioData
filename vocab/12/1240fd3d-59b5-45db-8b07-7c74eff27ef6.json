@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "お",
-    "姫様"
-  ],
+  "compoundParts": {
+    "primary": [
+      "お",
+      "姫様"
+    ],
+    "alternative": []
+  },
   "readings": [
     "おひめさま"
   ],
@@ -20,9 +23,18 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "お姫さま",
-    "御姫様",
-    "御姫さま"
+    {
+      "text": "お姫さま",
+      "isOwned": false
+    },
+    {
+      "text": "御姫様",
+      "isOwned": false
+    },
+    {
+      "text": "御姫さま",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 5,
   "technicalNotes": "",

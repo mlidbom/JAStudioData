@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "くらい",
-    "なら"
-  ],
+  "compoundParts": {
+    "primary": [
+      "くらい",
+      "なら"
+    ],
+    "alternative": []
+  },
   "readings": [
     "くらいなら"
   ],
@@ -20,7 +23,10 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-b732c2782a5956246906df9d094a289c86c76e956d9703548a838b5e.mp3]",
   "forms": [
-    "ぐらいなら"
+    {
+      "text": "ぐらいなら",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 5,
   "technicalNotes": "This is in the dictionary, but we will always be showing the one prefixed with う due to the matching rule",

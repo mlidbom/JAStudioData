@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "あれる",
-    "てしまう"
-  ],
+  "compoundParts": {
+    "primary": [
+      "あれる",
+      "てしまう"
+    ],
+    "alternative": []
+  },
   "readings": [
     "あれてしまう"
   ],
@@ -20,7 +23,10 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-87657d8f71f4e4b172f6ac50e3c617739cf791f7878278aa2f5f1cac.mp3]",
   "forms": [
-    "れてしまう"
+    {
+      "text": "れてしまう",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 56,
   "technicalNotes": "We forbid ichidan rather than require godan since this works with suru etc as well as godan",

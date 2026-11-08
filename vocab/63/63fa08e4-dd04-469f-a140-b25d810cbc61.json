@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "ごめん",
-    "だ"
-  ],
+  "compoundParts": {
+    "primary": [
+      "ごめん",
+      "だ"
+    ],
+    "alternative": []
+  },
   "readings": [
     "ごめんだ"
   ],
@@ -20,9 +23,18 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-87eb298031256fc080752b58b342da9edec244d056b12b7a7f03e78f.mp3]",
   "forms": [
-    "ゴメンだ",
-    "御免だ",
-    "ご免だ"
+    {
+      "text": "ゴメンだ",
+      "isOwned": false
+    },
+    {
+      "text": "御免だ",
+      "isOwned": false
+    },
+    {
+      "text": "ご免だ",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 7,
   "technicalNotes": "",

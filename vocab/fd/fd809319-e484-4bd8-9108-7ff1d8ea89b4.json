@@ -6,7 +6,10 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [],
+  "compoundParts": {
+    "primary": [],
+    "alternative": []
+  },
   "readings": [
     "みなさま"
   ],
@@ -17,8 +20,14 @@
   "audioG": "[sound:皆様_g.mp3]",
   "audioTTS": "",
   "forms": [
-    "みな様",
-    "皆さま"
+    {
+      "text": "みな様",
+      "isOwned": false
+    },
+    {
+      "text": "皆さま",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 21,
   "technicalNotes": "",

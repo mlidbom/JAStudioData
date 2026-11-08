@@ -6,11 +6,15 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "時間",
-    "後",
-    "[後に]"
-  ],
+  "compoundParts": {
+    "primary": [
+      "時間",
+      "後"
+    ],
+    "alternative": [
+      "後に"
+    ]
+  },
   "readings": [
     "じかんご"
   ],
@@ -21,7 +25,10 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-7c56126b10f5058b2105584b7ba7b53a48718d734a2214c1abdbf30d.mp3]",
   "forms": [
-    "時間後に"
+    {
+      "text": "時間後に",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 6,
   "technicalNotes": "",

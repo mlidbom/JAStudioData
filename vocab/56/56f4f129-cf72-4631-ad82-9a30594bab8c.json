@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "何か",
-    "あったら"
-  ],
+  "compoundParts": {
+    "primary": [
+      "何か",
+      "あったら"
+    ],
+    "alternative": []
+  },
   "readings": [
     "なにかあたら",
     "なにかあったら"
@@ -21,9 +24,18 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "何か可惜",
-    "何か惜",
-    "何かあたら"
+    {
+      "text": "何か可惜",
+      "isOwned": false
+    },
+    {
+      "text": "何か惜",
+      "isOwned": false
+    },
+    {
+      "text": "何かあたら",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 9,
   "technicalNotes": "",

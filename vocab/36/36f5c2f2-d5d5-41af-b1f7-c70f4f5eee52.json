@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "シャワー",
-    "カーテン"
-  ],
+  "compoundParts": {
+    "primary": [
+      "シャワー",
+      "カーテン"
+    ],
+    "alternative": []
+  },
   "readings": [
     "シャワーカーテン"
   ],
@@ -20,7 +23,10 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "シャワー・カーテン"
+    {
+      "text": "シャワー・カーテン",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 1,
   "technicalNotes": "",

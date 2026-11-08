@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "私",
-    "の"
-  ],
+  "compoundParts": {
+    "primary": [
+      "私",
+      "の"
+    ],
+    "alternative": []
+  },
   "readings": [
     "わたしの",
     "わたくしの"
@@ -21,8 +24,14 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-55add819b4f4a82638217c83c4a6bac1928bc5a768447dce284699a1.mp3]",
   "forms": [
-    "あたしの",
-    "わたしの"
+    {
+      "text": "あたしの",
+      "isOwned": false
+    },
+    {
+      "text": "わたしの",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 713,
   "technicalNotes": "",

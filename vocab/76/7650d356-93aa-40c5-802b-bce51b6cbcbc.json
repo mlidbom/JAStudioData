@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "お",
-    "握り"
-  ],
+  "compoundParts": {
+    "primary": [
+      "お",
+      "握り"
+    ],
+    "alternative": []
+  },
   "readings": [
     "おにぎり"
   ],
@@ -20,8 +23,14 @@
   "audioG": "[sound:お握り_g.mp3]",
   "audioTTS": "",
   "forms": [
-    "御握り",
-    "おにぎり"
+    {
+      "text": "御握り",
+      "isOwned": false
+    },
+    {
+      "text": "おにぎり",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 12,
   "technicalNotes": "",

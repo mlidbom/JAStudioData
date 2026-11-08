@@ -6,11 +6,14 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "誰",
-    "が",
-    "何と言おうと"
-  ],
+  "compoundParts": {
+    "primary": [
+      "誰",
+      "が",
+      "何と言おうと"
+    ],
+    "alternative": []
+  },
   "readings": [
     "だれがなんといおうと"
   ],
@@ -21,8 +24,14 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "誰がなんといおうと",
-    "誰が何といおうと"
+    {
+      "text": "誰がなんといおうと",
+      "isOwned": false
+    },
+    {
+      "text": "誰が何といおうと",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 1,
   "technicalNotes": "",

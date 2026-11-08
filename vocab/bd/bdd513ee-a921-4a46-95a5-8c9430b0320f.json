@@ -6,7 +6,10 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [],
+  "compoundParts": {
+    "primary": [],
+    "alternative": []
+  },
   "readings": [
     "うなぎ"
   ],
@@ -17,9 +20,18 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-a2da3f4fa79c16ebce092342e7ef5854138d10d86814e8651c8326ab.mp3]",
   "forms": [
-    "うなぎ",
-    "[うな]",
-    "鰻"
+    {
+      "text": "うなぎ",
+      "isOwned": false
+    },
+    {
+      "text": "うな",
+      "isOwned": true
+    },
+    {
+      "text": "鰻",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 5,
   "technicalNotes": "",

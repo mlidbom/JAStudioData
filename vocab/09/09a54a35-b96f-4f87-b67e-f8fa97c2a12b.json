@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "あなた",
-    "方"
-  ],
+  "compoundParts": {
+    "primary": [
+      "あなた",
+      "方"
+    ],
+    "alternative": []
+  },
   "readings": [
     "あなたがた"
   ],
@@ -20,9 +23,18 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "貴方々",
-    "貴方がた",
-    "貴方方"
+    {
+      "text": "貴方々",
+      "isOwned": false
+    },
+    {
+      "text": "貴方がた",
+      "isOwned": false
+    },
+    {
+      "text": "貴方方",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 5,
   "technicalNotes": "",

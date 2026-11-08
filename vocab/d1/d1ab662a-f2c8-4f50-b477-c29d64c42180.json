@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "当たり",
-    "前"
-  ],
+  "compoundParts": {
+    "primary": [
+      "当たり",
+      "前"
+    ],
+    "alternative": []
+  },
   "readings": [
     "あたりまえ"
   ],
@@ -20,9 +23,18 @@
   "audioG": "[sound:当たり前_g.mp3]",
   "audioTTS": "",
   "forms": [
-    "当り前",
-    "当りまえ",
-    "あたり前"
+    {
+      "text": "当り前",
+      "isOwned": false
+    },
+    {
+      "text": "当りまえ",
+      "isOwned": false
+    },
+    {
+      "text": "あたり前",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 29,
   "technicalNotes": "",

@@ -6,11 +6,15 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "こともできる",
-    "ない",
-    "[もできない]"
-  ],
+  "compoundParts": {
+    "primary": [
+      "こともできる",
+      "ない"
+    ],
+    "alternative": [
+      "もできない"
+    ]
+  },
   "readings": [
     "こともできない"
   ],
@@ -21,7 +25,10 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-77e8c6f4ca399e4a4ec7fd14bc09c3218099e938c100d835742c0d87.mp3]",
   "forms": [
-    "こともできません"
+    {
+      "text": "こともできません",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 13,
   "technicalNotes": "",

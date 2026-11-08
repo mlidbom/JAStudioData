@@ -6,11 +6,15 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "する",
-    "ちゃダメ",
-    "[しちゃ]"
-  ],
+  "compoundParts": {
+    "primary": [
+      "する",
+      "ちゃダメ"
+    ],
+    "alternative": [
+      "しちゃ"
+    ]
+  },
   "readings": [
     "しちゃだめ"
   ],
@@ -21,8 +25,14 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-b23bf5ec5974fcfec45fab96eb6f25ad9049523f878b7a7988401e6f.mp3]",
   "forms": [
-    "しちゃダメ",
-    "しちゃ駄目"
+    {
+      "text": "しちゃダメ",
+      "isOwned": false
+    },
+    {
+      "text": "しちゃ駄目",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 7,
   "technicalNotes": "",

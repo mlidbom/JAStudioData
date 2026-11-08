@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "という",
-    "もの"
-  ],
+  "compoundParts": {
+    "primary": [
+      "という",
+      "もの"
+    ],
+    "alternative": []
+  },
   "readings": [
     "というもの"
   ],
@@ -20,9 +23,18 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "と言う物",
-    "と言うもの",
-    "という物"
+    {
+      "text": "と言う物",
+      "isOwned": false
+    },
+    {
+      "text": "と言うもの",
+      "isOwned": false
+    },
+    {
+      "text": "という物",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 23,
   "technicalNotes": "",

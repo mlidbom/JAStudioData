@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "の",
-    "です"
-  ],
+  "compoundParts": {
+    "primary": [
+      "の",
+      "です"
+    ],
+    "alternative": []
+  },
   "readings": [
     "んだ"
   ],
@@ -20,9 +23,18 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-bfe6acffd9948e1eb6f531cad6d2f3fe0078648f6662367c57339a37.mp3]",
   "forms": [
-    "んだ",
-    "のだ",
-    "んです"
+    {
+      "text": "んだ",
+      "isOwned": false
+    },
+    {
+      "text": "のだ",
+      "isOwned": false
+    },
+    {
+      "text": "んです",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 277,
   "technicalNotes": "",

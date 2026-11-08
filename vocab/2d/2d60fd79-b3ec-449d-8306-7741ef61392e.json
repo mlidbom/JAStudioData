@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "見る",
-    "てもらう"
-  ],
+  "compoundParts": {
+    "primary": [
+      "見る",
+      "てもらう"
+    ],
+    "alternative": []
+  },
   "readings": [
     "みてもらう"
   ],
@@ -20,9 +23,18 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-935bff5da8781356f544bbed156f2ce25043a6e09509d98adaf066b8.mp3]",
   "forms": [
-    "診て貰う",
-    "見て貰う",
-    "見てもらう"
+    {
+      "text": "診て貰う",
+      "isOwned": false
+    },
+    {
+      "text": "見て貰う",
+      "isOwned": false
+    },
+    {
+      "text": "見てもらう",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 2,
   "technicalNotes": "",

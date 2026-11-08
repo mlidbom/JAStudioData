@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "という",
-    "こと"
-  ],
+  "compoundParts": {
+    "primary": [
+      "という",
+      "こと"
+    ],
+    "alternative": []
+  },
   "readings": [
     "ということ"
   ],
@@ -20,11 +23,26 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "という事",
-    "と言うこと",
-    "っていう事",
-    "って言うこと",
-    "っていうこと"
+    {
+      "text": "という事",
+      "isOwned": false
+    },
+    {
+      "text": "と言うこと",
+      "isOwned": false
+    },
+    {
+      "text": "っていう事",
+      "isOwned": false
+    },
+    {
+      "text": "って言うこと",
+      "isOwned": false
+    },
+    {
+      "text": "っていうこと",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 78,
   "technicalNotes": "",

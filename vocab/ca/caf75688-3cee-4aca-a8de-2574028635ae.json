@@ -6,7 +6,10 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [],
+  "compoundParts": {
+    "primary": [],
+    "alternative": []
+  },
   "readings": [
     "るつぼ"
   ],
@@ -17,8 +20,14 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "かんか",
-    "[るつぼ]"
+    {
+      "text": "かんか",
+      "isOwned": false
+    },
+    {
+      "text": "るつぼ",
+      "isOwned": true
+    }
   ],
   "sentenceCount": 0,
   "technicalNotes": "",

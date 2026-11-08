@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "こちら",
-    "へ"
-  ],
+  "compoundParts": {
+    "primary": [
+      "こちら",
+      "へ"
+    ],
+    "alternative": []
+  },
   "readings": [
     "こちらへ"
   ],
@@ -20,9 +23,18 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-a296eacc17ec816a300a0a900d191cd01a8f5054145868118c3bf3de.mp3]",
   "forms": [
-    "こちへ",
-    "此方へ",
-    "こっちへ"
+    {
+      "text": "こちへ",
+      "isOwned": false
+    },
+    {
+      "text": "此方へ",
+      "isOwned": false
+    },
+    {
+      "text": "こっちへ",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 9,
   "technicalNotes": "",

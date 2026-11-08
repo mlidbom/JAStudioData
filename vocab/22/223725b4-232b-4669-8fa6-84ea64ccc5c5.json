@@ -6,12 +6,16 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "行く",
-    "えません",
-    "[行ける]",
-    "[ません]"
-  ],
+  "compoundParts": {
+    "primary": [
+      "行く",
+      "えません"
+    ],
+    "alternative": [
+      "ません",
+      "行ける"
+    ]
+  },
   "readings": [
     "いけません"
   ],
@@ -22,7 +26,10 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "行けません"
+    {
+      "text": "行けません",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 56,
   "technicalNotes": "",

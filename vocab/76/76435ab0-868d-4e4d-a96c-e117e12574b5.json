@@ -6,12 +6,16 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "なければ",
-    "よかった",
-    "[ない]",
-    "[えばよかった]"
-  ],
+  "compoundParts": {
+    "primary": [
+      "なければ",
+      "よかった"
+    ],
+    "alternative": [
+      "えばよかった",
+      "ない"
+    ]
+  },
   "readings": [
     "なければよかった"
   ],
@@ -22,7 +26,10 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-0980b3e078ab93af8431c9003be4a9a619ee5f0713bd3aefd5bd24d2.mp3]",
   "forms": [
-    "なけれよかった"
+    {
+      "text": "なけれよかった",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 5,
   "technicalNotes": "",

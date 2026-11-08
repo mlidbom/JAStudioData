@@ -6,11 +6,15 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "何でも",
-    "いい",
-    "[でもいい]"
-  ],
+  "compoundParts": {
+    "primary": [
+      "何でも",
+      "いい"
+    ],
+    "alternative": [
+      "でもいい"
+    ]
+  },
   "readings": [
     "なんでもいい"
   ],
@@ -21,7 +25,10 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "なんでもいい"
+    {
+      "text": "なんでもいい",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 4,
   "technicalNotes": "",

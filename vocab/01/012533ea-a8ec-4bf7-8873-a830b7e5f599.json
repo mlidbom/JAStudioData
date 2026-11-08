@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "ごちそうさま",
-    "でした"
-  ],
+  "compoundParts": {
+    "primary": [
+      "ごちそうさま",
+      "でした"
+    ],
+    "alternative": []
+  },
   "readings": [
     "ごちそうさまでした"
   ],
@@ -20,9 +23,18 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "御馳走様でした",
-    "ご馳走様でした",
-    "ご馳走さまでした"
+    {
+      "text": "御馳走様でした",
+      "isOwned": false
+    },
+    {
+      "text": "ご馳走様でした",
+      "isOwned": false
+    },
+    {
+      "text": "ご馳走さまでした",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 3,
   "technicalNotes": "",

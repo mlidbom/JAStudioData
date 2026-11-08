@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "立入",
-    "禁止"
-  ],
+  "compoundParts": {
+    "primary": [
+      "立入",
+      "禁止"
+    ],
+    "alternative": []
+  },
   "readings": [
     "たちいりきんし"
   ],
@@ -20,9 +23,18 @@
   "audioG": "[sound:立入禁止_g.mp3]",
   "audioTTS": "",
   "forms": [
-    "立ち入禁止",
-    "立入り禁止",
-    "立ち入り禁止"
+    {
+      "text": "立ち入禁止",
+      "isOwned": false
+    },
+    {
+      "text": "立入り禁止",
+      "isOwned": false
+    },
+    {
+      "text": "立ち入り禁止",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 3,
   "technicalNotes": "",

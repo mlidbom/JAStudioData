@@ -6,11 +6,14 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "お",
-    "医者",
-    "様"
-  ],
+  "compoundParts": {
+    "primary": [
+      "お",
+      "医者",
+      "様"
+    ],
+    "alternative": []
+  },
   "readings": [
     "おいしゃさま"
   ],
@@ -21,9 +24,18 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-650fde3d0bbc191dcad4c43a8069b26a94bc8b9164cca9c3a8ae4229.mp3]",
   "forms": [
-    "御医者様",
-    "御医者さま",
-    "お医者さま"
+    {
+      "text": "御医者様",
+      "isOwned": false
+    },
+    {
+      "text": "御医者さま",
+      "isOwned": false
+    },
+    {
+      "text": "お医者さま",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 3,
   "technicalNotes": "",

@@ -6,7 +6,10 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [],
+  "compoundParts": {
+    "primary": [],
+    "alternative": []
+  },
   "readings": [
     "ありがとう"
   ],
@@ -17,9 +20,18 @@
   "audioG": "[sound:有り難う_g.mp3]",
   "audioTTS": "",
   "forms": [
-    "有難う",
-    "有り難う",
-    "ありがと"
+    {
+      "text": "有難う",
+      "isOwned": false
+    },
+    {
+      "text": "有り難う",
+      "isOwned": false
+    },
+    {
+      "text": "ありがと",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 307,
   "technicalNotes": "",

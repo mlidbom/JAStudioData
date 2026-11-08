@@ -6,7 +6,10 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [],
+  "compoundParts": {
+    "primary": [],
+    "alternative": []
+  },
   "readings": [
     "すすめる"
   ],
@@ -17,8 +20,14 @@
   "audioG": "[sound:薦める_g.mp3]",
   "audioTTS": "",
   "forms": [
-    "奨める",
-    "勧める"
+    {
+      "text": "奨める",
+      "isOwned": false
+    },
+    {
+      "text": "勧める",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 5,
   "technicalNotes": "",

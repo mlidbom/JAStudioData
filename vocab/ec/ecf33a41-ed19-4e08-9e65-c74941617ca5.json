@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "お",
-    "休み"
-  ],
+  "compoundParts": {
+    "primary": [
+      "お",
+      "休み"
+    ],
+    "alternative": []
+  },
   "readings": [
     "おやすみ"
   ],
@@ -20,8 +23,14 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "おやすみ",
-    "御休み"
+    {
+      "text": "おやすみ",
+      "isOwned": false
+    },
+    {
+      "text": "御休み",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 18,
   "technicalNotes": "",

@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "どうもありがとう",
-    "ございます"
-  ],
+  "compoundParts": {
+    "primary": [
+      "どうもありがとう",
+      "ございます"
+    ],
+    "alternative": []
+  },
   "readings": [
     "どうもありがとうございます"
   ],
@@ -20,10 +23,22 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "どうも有り難うございます",
-    "どうも有り難う御座います",
-    "どうも有難う御座います",
-    "どうも有難うございます"
+    {
+      "text": "どうも有り難うございます",
+      "isOwned": false
+    },
+    {
+      "text": "どうも有り難う御座います",
+      "isOwned": false
+    },
+    {
+      "text": "どうも有難う御座います",
+      "isOwned": false
+    },
+    {
+      "text": "どうも有難うございます",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 4,
   "technicalNotes": "",

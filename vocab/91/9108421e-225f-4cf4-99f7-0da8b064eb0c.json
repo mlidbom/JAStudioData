@@ -6,11 +6,15 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "どうでも",
-    "いい",
-    "[でもいい]"
-  ],
+  "compoundParts": {
+    "primary": [
+      "どうでも",
+      "いい"
+    ],
+    "alternative": [
+      "でもいい"
+    ]
+  },
   "readings": [
     "どうでもいい"
   ],
@@ -21,7 +25,10 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "どうでも良い"
+    {
+      "text": "どうでも良い",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 16,
   "technicalNotes": "",

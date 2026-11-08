@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "頂く",
-    "ます"
-  ],
+  "compoundParts": {
+    "primary": [
+      "頂く",
+      "ます"
+    ],
+    "alternative": []
+  },
   "readings": [
     "いただきます"
   ],
@@ -20,8 +23,14 @@
   "audioG": "[sound:ny3-nodup_08_0.06.15.610-0.06.16.460.mp3]",
   "audioTTS": "",
   "forms": [
-    "戴きます",
-    "いただきます"
+    {
+      "text": "戴きます",
+      "isOwned": false
+    },
+    {
+      "text": "いただきます",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 43,
   "technicalNotes": "",

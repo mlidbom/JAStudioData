@@ -6,7 +6,10 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [],
+  "compoundParts": {
+    "primary": [],
+    "alternative": []
+  },
   "readings": [
     "おしらせ"
   ],
@@ -17,9 +20,18 @@
   "audioG": "[sound:お知らせ_g.mp3]",
   "audioTTS": "",
   "forms": [
-    "御知らせ",
-    "御報せ",
-    "お報せ"
+    {
+      "text": "御知らせ",
+      "isOwned": false
+    },
+    {
+      "text": "御報せ",
+      "isOwned": false
+    },
+    {
+      "text": "お報せ",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 13,
   "technicalNotes": "",

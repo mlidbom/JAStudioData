@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "飲む",
-    "干す"
-  ],
+  "compoundParts": {
+    "primary": [
+      "飲む",
+      "干す"
+    ],
+    "alternative": []
+  },
   "readings": [
     "のみほす"
   ],
@@ -20,10 +23,22 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "飲み乾す",
-    "飲干す",
-    "飲乾す",
-    "飲みほす"
+    {
+      "text": "飲み乾す",
+      "isOwned": false
+    },
+    {
+      "text": "飲干す",
+      "isOwned": false
+    },
+    {
+      "text": "飲乾す",
+      "isOwned": false
+    },
+    {
+      "text": "飲みほす",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 4,
   "technicalNotes": "",

@@ -6,10 +6,13 @@
   "userExplanation": "TODO: adding prefix is not さ seems to have no effect at all",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "あせられる",
-    "ない"
-  ],
+  "compoundParts": {
+    "primary": [
+      "あせられる",
+      "ない"
+    ],
+    "alternative": []
+  },
   "readings": [
     "あせられない"
   ],
@@ -20,8 +23,14 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-8a61f89bb8a8b9ee01358145777e7b69006066227b48bd26308c3853.mp3]",
   "forms": [
-    "[せられない]",
-    "させられない"
+    {
+      "text": "せられない",
+      "isOwned": true
+    },
+    {
+      "text": "させられない",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 6,
   "technicalNotes": "",

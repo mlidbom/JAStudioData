@@ -6,12 +6,16 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "何",
-    "というか",
-    "[何という]",
-    "[何と言う]"
-  ],
+  "compoundParts": {
+    "primary": [
+      "何",
+      "というか"
+    ],
+    "alternative": [
+      "何という",
+      "何と言う"
+    ]
+  },
   "readings": [
     "なんというか"
   ],
@@ -22,10 +26,22 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "何と言うか",
-    "なんと言うか",
-    "何ていうか",
-    "何というか"
+    {
+      "text": "何と言うか",
+      "isOwned": false
+    },
+    {
+      "text": "なんと言うか",
+      "isOwned": false
+    },
+    {
+      "text": "何ていうか",
+      "isOwned": false
+    },
+    {
+      "text": "何というか",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 9,
   "technicalNotes": "",

@@ -6,7 +6,10 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [],
+  "compoundParts": {
+    "primary": [],
+    "alternative": []
+  },
   "readings": [
     "んだところで"
   ],
@@ -17,8 +20,14 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-1e4ce383ccf4897af945ceefaab616b1887ca410228800993179d322.mp3]",
   "forms": [
-    "[だところで]",
-    "たところで"
+    {
+      "text": "だところで",
+      "isOwned": true
+    },
+    {
+      "text": "たところで",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 1,
   "technicalNotes": "",

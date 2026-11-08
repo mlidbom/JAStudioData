@@ -6,7 +6,10 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [],
+  "compoundParts": {
+    "primary": [],
+    "alternative": []
+  },
   "readings": [
     "ひらがな"
   ],
@@ -17,8 +20,14 @@
   "audioG": "[sound:平仮名_g.mp3]",
   "audioTTS": "",
   "forms": [
-    "ひらがな",
-    "ひら仮名"
+    {
+      "text": "ひらがな",
+      "isOwned": false
+    },
+    {
+      "text": "ひら仮名",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 11,
   "technicalNotes": "",

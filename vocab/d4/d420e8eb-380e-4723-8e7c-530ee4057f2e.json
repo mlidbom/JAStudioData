@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "おうとする",
-    "てる"
-  ],
+  "compoundParts": {
+    "primary": [
+      "おうとする",
+      "てる"
+    ],
+    "alternative": []
+  },
   "readings": [
     "おうとしてる"
   ],
@@ -20,11 +23,26 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-6502bd85166e04015d97a610cf6ffa53fdcb780331601d11a097db46.mp3]",
   "forms": [
-    "うとしている",
-    "おうとしている",
-    "ようとしている",
-    "[うとしてる]",
-    "[ようとしてる]"
+    {
+      "text": "うとしている",
+      "isOwned": false
+    },
+    {
+      "text": "おうとしている",
+      "isOwned": false
+    },
+    {
+      "text": "ようとしている",
+      "isOwned": false
+    },
+    {
+      "text": "うとしてる",
+      "isOwned": true
+    },
+    {
+      "text": "ようとしてる",
+      "isOwned": true
+    }
   ],
   "sentenceCount": 7,
   "technicalNotes": "",

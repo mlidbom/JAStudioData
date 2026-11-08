@@ -6,7 +6,10 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [],
+  "compoundParts": {
+    "primary": [],
+    "alternative": []
+  },
   "readings": [
     "もうしこむ"
   ],
@@ -17,8 +20,14 @@
   "audioG": "[sound:申し込む_g.mp3]",
   "audioTTS": "",
   "forms": [
-    "申しこむ",
-    "申込む"
+    {
+      "text": "申しこむ",
+      "isOwned": false
+    },
+    {
+      "text": "申込む",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 4,
   "technicalNotes": "",

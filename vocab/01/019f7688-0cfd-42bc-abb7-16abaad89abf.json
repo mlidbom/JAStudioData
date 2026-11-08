@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "お疲れ",
-    "様"
-  ],
+  "compoundParts": {
+    "primary": [
+      "お疲れ",
+      "様"
+    ],
+    "alternative": []
+  },
   "readings": [
     "おつかれさま"
   ],
@@ -20,8 +23,14 @@
   "audioG": "[sound:お疲れ様_g.mp3]",
   "audioTTS": "",
   "forms": [
-    "御疲れ様",
-    "お疲れさま"
+    {
+      "text": "御疲れ様",
+      "isOwned": false
+    },
+    {
+      "text": "お疲れさま",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 17,
   "technicalNotes": "",

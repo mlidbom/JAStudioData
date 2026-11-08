@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "ござる",
-    "ます"
-  ],
+  "compoundParts": {
+    "primary": [
+      "ござる",
+      "ます"
+    ],
+    "alternative": []
+  },
   "readings": [
     "ございます"
   ],
@@ -20,8 +23,14 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "ご座います",
-    "御座います"
+    {
+      "text": "ご座います",
+      "isOwned": false
+    },
+    {
+      "text": "御座います",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 132,
   "technicalNotes": "",

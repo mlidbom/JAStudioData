@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "一",
-    "千"
-  ],
+  "compoundParts": {
+    "primary": [
+      "一",
+      "千"
+    ],
+    "alternative": []
+  },
   "readings": [
     "いっせん"
   ],
@@ -20,9 +23,18 @@
   "audioG": "[sound:一千_g.mp3]",
   "audioTTS": "",
   "forms": [
-    "１千",
-    "１０００",
-    "一〇〇〇"
+    {
+      "text": "１千",
+      "isOwned": false
+    },
+    {
+      "text": "１０００",
+      "isOwned": false
+    },
+    {
+      "text": "一〇〇〇",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 7,
   "technicalNotes": "",

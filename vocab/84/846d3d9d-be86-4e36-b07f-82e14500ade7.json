@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "クンクン",
-    "する"
-  ],
+  "compoundParts": {
+    "primary": [
+      "クンクン",
+      "する"
+    ],
+    "alternative": []
+  },
   "readings": [
     "クンクンする"
   ],
@@ -20,9 +23,18 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-58f77c9044c8d82dbf584bd1bde127ccff57e3d144bcafc7d29bfd65.mp3]",
   "forms": [
-    "くんくんする",
-    "くんくんをする",
-    "クンクンをする"
+    {
+      "text": "くんくんする",
+      "isOwned": false
+    },
+    {
+      "text": "くんくんをする",
+      "isOwned": false
+    },
+    {
+      "text": "クンクンをする",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 1,
   "technicalNotes": "",

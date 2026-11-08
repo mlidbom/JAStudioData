@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "どの",
-    "くらい"
-  ],
+  "compoundParts": {
+    "primary": [
+      "どの",
+      "くらい"
+    ],
+    "alternative": []
+  },
   "readings": [
     "どのくらい",
     "どのぐらい"
@@ -21,10 +24,22 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "どの位",
-    "どのぐらい",
-    "何の位",
-    "何のくらい"
+    {
+      "text": "どの位",
+      "isOwned": false
+    },
+    {
+      "text": "どのぐらい",
+      "isOwned": false
+    },
+    {
+      "text": "何の位",
+      "isOwned": false
+    },
+    {
+      "text": "何のくらい",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 25,
   "technicalNotes": "",

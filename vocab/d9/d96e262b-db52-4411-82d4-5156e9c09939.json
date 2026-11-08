@@ -6,11 +6,15 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "いい",
-    "[良い]",
-    "ない"
-  ],
+  "compoundParts": {
+    "primary": [
+      "いい",
+      "ない"
+    ],
+    "alternative": [
+      "良い"
+    ]
+  },
   "readings": [
     "よくない"
   ],
@@ -21,10 +25,22 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-2f5dec96c194f34986aee96dc99a4c93009e4b1a6ef0c4bd90400cfc.mp3]",
   "forms": [
-    "良くない",
-    "善くない",
-    "能くない",
-    "克くない"
+    {
+      "text": "良くない",
+      "isOwned": false
+    },
+    {
+      "text": "善くない",
+      "isOwned": false
+    },
+    {
+      "text": "能くない",
+      "isOwned": false
+    },
+    {
+      "text": "克くない",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 44,
   "technicalNotes": "",

@@ -6,11 +6,15 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "同じ",
-    "ような",
-    "[同じよう]"
-  ],
+  "compoundParts": {
+    "primary": [
+      "同じ",
+      "ような"
+    ],
+    "alternative": [
+      "同じよう"
+    ]
+  },
   "readings": [
     "おなじような"
   ],
@@ -21,7 +25,10 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "同じ様な"
+    {
+      "text": "同じ様な",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 10,
   "technicalNotes": "",

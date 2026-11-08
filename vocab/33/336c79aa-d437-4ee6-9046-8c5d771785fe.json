@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "お",
-    "家"
-  ],
+  "compoundParts": {
+    "primary": [
+      "お",
+      "家"
+    ],
+    "alternative": []
+  },
   "readings": [
     "おうち"
   ],
@@ -20,10 +23,22 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "御家",
-    "御内",
-    "お内",
-    "おうち"
+    {
+      "text": "御家",
+      "isOwned": false
+    },
+    {
+      "text": "御内",
+      "isOwned": false
+    },
+    {
+      "text": "お内",
+      "isOwned": false
+    },
+    {
+      "text": "おうち",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 16,
   "technicalNotes": "",

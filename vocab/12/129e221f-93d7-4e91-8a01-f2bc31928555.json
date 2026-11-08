@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "食べる",
-    "物"
-  ],
+  "compoundParts": {
+    "primary": [
+      "食べる",
+      "物"
+    ],
+    "alternative": []
+  },
   "readings": [
     "たべもの"
   ],
@@ -20,7 +23,10 @@
   "audioG": "[sound:食べ物_g.mp3]",
   "audioTTS": "",
   "forms": [
-    "食べもの"
+    {
+      "text": "食べもの",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 40,
   "technicalNotes": "",

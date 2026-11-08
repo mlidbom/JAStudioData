@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "て",
-    "ほしい"
-  ],
+  "compoundParts": {
+    "primary": [
+      "て",
+      "ほしい"
+    ],
+    "alternative": []
+  },
   "readings": [
     "てほしい"
   ],
@@ -20,9 +23,18 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "[て欲しい]",
-    "で欲しい",
-    "でほしい"
+    {
+      "text": "て欲しい",
+      "isOwned": true
+    },
+    {
+      "text": "で欲しい",
+      "isOwned": false
+    },
+    {
+      "text": "でほしい",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 77,
   "technicalNotes": "",

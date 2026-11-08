@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "お",
-    "出かける"
-  ],
+  "compoundParts": {
+    "primary": [
+      "お",
+      "出かける"
+    ],
+    "alternative": []
+  },
   "readings": [
     "おでかけ"
   ],
@@ -20,8 +23,14 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "お出掛け",
-    "御出掛け"
+    {
+      "text": "お出掛け",
+      "isOwned": false
+    },
+    {
+      "text": "御出掛け",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 3,
   "technicalNotes": "",

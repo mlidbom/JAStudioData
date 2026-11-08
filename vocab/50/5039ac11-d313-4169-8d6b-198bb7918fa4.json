@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "何でも",
-    "ない"
-  ],
+  "compoundParts": {
+    "primary": [
+      "何でも",
+      "ない"
+    ],
+    "alternative": []
+  },
   "readings": [
     "なんでもない"
   ],
@@ -20,10 +23,22 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "なんでもない",
-    "何でも無い",
-    "[何でもありません]",
-    "なんでもありません"
+    {
+      "text": "なんでもない",
+      "isOwned": false
+    },
+    {
+      "text": "何でも無い",
+      "isOwned": false
+    },
+    {
+      "text": "何でもありません",
+      "isOwned": true
+    },
+    {
+      "text": "なんでもありません",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 31,
   "technicalNotes": "",

@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "御免",
-    "なさい"
-  ],
+  "compoundParts": {
+    "primary": [
+      "御免",
+      "なさい"
+    ],
+    "alternative": []
+  },
   "readings": [
     "ごめんなさい"
   ],
@@ -20,8 +23,14 @@
   "audioG": "[sound:御免なさい_g.mp3]",
   "audioTTS": "",
   "forms": [
-    "ご免なさい",
-    "ごめんなさい"
+    {
+      "text": "ご免なさい",
+      "isOwned": false
+    },
+    {
+      "text": "ごめんなさい",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 1,
   "technicalNotes": "",

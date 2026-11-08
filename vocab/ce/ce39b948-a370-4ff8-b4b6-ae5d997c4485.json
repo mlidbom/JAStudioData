@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "手",
-    "作り"
-  ],
+  "compoundParts": {
+    "primary": [
+      "手",
+      "作り"
+    ],
+    "alternative": []
+  },
   "readings": [
     "てづくり"
   ],
@@ -20,8 +23,14 @@
   "audioG": "[sound:手作り_g.mp3]",
   "audioTTS": "",
   "forms": [
-    "手造り",
-    "手づくり"
+    {
+      "text": "手造り",
+      "isOwned": false
+    },
+    {
+      "text": "手づくり",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 15,
   "technicalNotes": "",

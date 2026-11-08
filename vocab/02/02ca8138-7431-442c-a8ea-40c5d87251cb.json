@@ -6,11 +6,15 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "左右",
-    "される",
-    "[左右する]"
-  ],
+  "compoundParts": {
+    "primary": [
+      "左右",
+      "される"
+    ],
+    "alternative": [
+      "左右する"
+    ]
+  },
   "readings": [
     "さゆうされる"
   ],
@@ -21,7 +25,10 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "左右をされる"
+    {
+      "text": "左右をされる",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 3,
   "technicalNotes": "",

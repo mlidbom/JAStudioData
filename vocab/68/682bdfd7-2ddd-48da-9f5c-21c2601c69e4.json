@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "支度",
-    "する"
-  ],
+  "compoundParts": {
+    "primary": [
+      "支度",
+      "する"
+    ],
+    "alternative": []
+  },
   "readings": [
     "したくする"
   ],
@@ -20,9 +23,18 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "仕度をする",
-    "仕度する",
-    "支度をする"
+    {
+      "text": "仕度をする",
+      "isOwned": false
+    },
+    {
+      "text": "仕度する",
+      "isOwned": false
+    },
+    {
+      "text": "支度をする",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 5,
   "technicalNotes": "",

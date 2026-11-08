@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "お腹空く",
-    "た"
-  ],
+  "compoundParts": {
+    "primary": [
+      "お腹空く",
+      "た"
+    ],
+    "alternative": []
+  },
   "readings": [
     "おなかすいた"
   ],
@@ -20,8 +23,14 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-a93a98a67478f3a0890fd7026a986dc271036174986cafc97fc8540b.mp3]",
   "forms": [
-    "おなか空いた",
-    "お腹すいた"
+    {
+      "text": "おなか空いた",
+      "isOwned": false
+    },
+    {
+      "text": "お腹すいた",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 3,
   "technicalNotes": "",

@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "よろしい",
-    "ない"
-  ],
+  "compoundParts": {
+    "primary": [
+      "よろしい",
+      "ない"
+    ],
+    "alternative": []
+  },
   "readings": [
     "よろしくない"
   ],
@@ -20,9 +23,18 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-38365af997b52c457c1fe0bfc4afdd116374fc3807ba056bfdca716b.mp3]",
   "forms": [
-    "宜しくない",
-    "よろしくありません",
-    "宜しくありません"
+    {
+      "text": "宜しくない",
+      "isOwned": false
+    },
+    {
+      "text": "よろしくありません",
+      "isOwned": false
+    },
+    {
+      "text": "宜しくありません",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 3,
   "technicalNotes": "Needed because of anything よろしく, getting caught up in the common phrase.",

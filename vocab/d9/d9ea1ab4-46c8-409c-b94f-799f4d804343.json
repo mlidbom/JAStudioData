@@ -6,7 +6,10 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [],
+  "compoundParts": {
+    "primary": [],
+    "alternative": []
+  },
   "readings": [
     "ぼう",
     "なにがし",
@@ -19,10 +22,22 @@
   "audioG": "[sound:某_g.mp3]",
   "audioTTS": "",
   "forms": [
-    "何がし",
-    "なにぼう",
-    "なにがし",
-    "何某"
+    {
+      "text": "何がし",
+      "isOwned": false
+    },
+    {
+      "text": "なにぼう",
+      "isOwned": false
+    },
+    {
+      "text": "なにがし",
+      "isOwned": false
+    },
+    {
+      "text": "何某",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 8,
   "technicalNotes": "",

@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "お",
-    "祝い"
-  ],
+  "compoundParts": {
+    "primary": [
+      "お",
+      "祝い"
+    ],
+    "alternative": []
+  },
   "readings": [
     "おいわい"
   ],
@@ -20,9 +23,18 @@
   "audioG": "[sound:お祝い_g.mp3]",
   "audioTTS": "",
   "forms": [
-    "御祝",
-    "御祝い",
-    "お祝"
+    {
+      "text": "御祝",
+      "isOwned": false
+    },
+    {
+      "text": "御祝い",
+      "isOwned": false
+    },
+    {
+      "text": "お祝",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 11,
   "technicalNotes": "",

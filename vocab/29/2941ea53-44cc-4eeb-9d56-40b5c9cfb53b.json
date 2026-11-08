@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "おやすみ",
-    "なさい"
-  ],
+  "compoundParts": {
+    "primary": [
+      "おやすみ",
+      "なさい"
+    ],
+    "alternative": []
+  },
   "readings": [
     "おやすみなさい"
   ],
@@ -20,8 +23,14 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "御休みなさい",
-    "お休みなさい"
+    {
+      "text": "御休みなさい",
+      "isOwned": false
+    },
+    {
+      "text": "お休みなさい",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 2,
   "technicalNotes": "",

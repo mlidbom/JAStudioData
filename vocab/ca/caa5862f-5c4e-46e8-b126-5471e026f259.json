@@ -6,12 +6,16 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "ことがある",
-    "た",
-    "こと",
-    "[があった]"
-  ],
+  "compoundParts": {
+    "primary": [
+      "ことがある",
+      "た",
+      "こと"
+    ],
+    "alternative": [
+      "があった"
+    ]
+  },
   "readings": [
     "ことがあった"
   ],
@@ -22,7 +26,10 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "事があった"
+    {
+      "text": "事があった",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 27,
   "technicalNotes": "",

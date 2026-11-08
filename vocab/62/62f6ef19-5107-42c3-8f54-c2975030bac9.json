@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "この",
-    "ぐらい"
-  ],
+  "compoundParts": {
+    "primary": [
+      "この",
+      "ぐらい"
+    ],
+    "alternative": []
+  },
   "readings": [
     "このぐらい"
   ],
@@ -20,9 +23,18 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "この位",
-    "此の位",
-    "このくらい"
+    {
+      "text": "この位",
+      "isOwned": false
+    },
+    {
+      "text": "此の位",
+      "isOwned": false
+    },
+    {
+      "text": "このくらい",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 3,
   "technicalNotes": "",

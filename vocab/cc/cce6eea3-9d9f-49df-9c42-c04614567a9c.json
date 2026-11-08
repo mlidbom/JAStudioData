@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "水",
-    "羊羹"
-  ],
+  "compoundParts": {
+    "primary": [
+      "水",
+      "羊羹"
+    ],
+    "alternative": []
+  },
   "readings": [
     "みずようかん"
   ],
@@ -20,9 +23,18 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "水羊かん",
-    "水ようかん",
-    "水羊羮"
+    {
+      "text": "水羊かん",
+      "isOwned": false
+    },
+    {
+      "text": "水ようかん",
+      "isOwned": false
+    },
+    {
+      "text": "水羊羮",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 0,
   "technicalNotes": "",

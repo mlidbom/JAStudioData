@@ -6,12 +6,16 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "[どうだ]",
-    "どう",
-    "だ",
-    "かな"
-  ],
+  "compoundParts": {
+    "primary": [
+      "どう",
+      "だ",
+      "かな"
+    ],
+    "alternative": [
+      "どうだ"
+    ]
+  },
   "readings": [
     "どうだかな"
   ],
@@ -22,7 +26,10 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-593f8e1860eba420b47c59df90b786dff3a52316a7a0d6e91b97e8a9.mp3]",
   "forms": [
-    "どうだかね"
+    {
+      "text": "どうだかね",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 4,
   "technicalNotes": "",

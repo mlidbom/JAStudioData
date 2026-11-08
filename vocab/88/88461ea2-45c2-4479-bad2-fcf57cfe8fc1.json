@@ -6,11 +6,15 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "何",
-    "だと",
-    "[なんです]"
-  ],
+  "compoundParts": {
+    "primary": [
+      "何",
+      "だと"
+    ],
+    "alternative": [
+      "なんです"
+    ]
+  },
   "readings": [
     "なんだと"
   ],
@@ -21,8 +25,14 @@
   "audioG": "[sound:ny3-nodup_10_0.17.14.990-0.17.16.100.mp3]",
   "audioTTS": "",
   "forms": [
-    "何だと",
-    "なんですと"
+    {
+      "text": "何だと",
+      "isOwned": false
+    },
+    {
+      "text": "なんですと",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 19,
   "technicalNotes": "",

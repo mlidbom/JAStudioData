@@ -6,11 +6,14 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "お",
-    "医者",
-    "さん"
-  ],
+  "compoundParts": {
+    "primary": [
+      "お",
+      "医者",
+      "さん"
+    ],
+    "alternative": []
+  },
   "readings": [
     "おいしゃさん"
   ],
@@ -21,7 +24,10 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "御医者さん"
+    {
+      "text": "御医者さん",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 13,
   "technicalNotes": "",

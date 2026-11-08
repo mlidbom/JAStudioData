@@ -6,9 +6,12 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "ご"
-  ],
+  "compoundParts": {
+    "primary": [
+      "ご"
+    ],
+    "alternative": []
+  },
   "readings": [
     "ごはん"
   ],
@@ -19,8 +22,14 @@
   "audioG": "[sound:ご飯_g.mp3]",
   "audioTTS": "",
   "forms": [
-    "御飯",
-    "ごはん"
+    {
+      "text": "御飯",
+      "isOwned": false
+    },
+    {
+      "text": "ごはん",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 86,
   "technicalNotes": "",

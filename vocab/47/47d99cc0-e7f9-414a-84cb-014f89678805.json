@@ -6,12 +6,16 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "だ",
-    "よね",
-    "[だよ]",
-    "[ね]"
-  ],
+  "compoundParts": {
+    "primary": [
+      "だ",
+      "よね"
+    ],
+    "alternative": [
+      "だよ",
+      "ね"
+    ]
+  },
   "readings": [
     "だよね"
   ],
@@ -22,7 +26,10 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "だよねー"
+    {
+      "text": "だよねー",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 233,
   "technicalNotes": "",

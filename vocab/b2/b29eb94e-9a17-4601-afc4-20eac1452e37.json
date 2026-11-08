@@ -6,11 +6,14 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "知った",
-    "こと",
-    "ではない"
-  ],
+  "compoundParts": {
+    "primary": [
+      "知った",
+      "こと",
+      "ではない"
+    ],
+    "alternative": []
+  },
   "readings": [
     "しったことではない"
   ],
@@ -21,8 +24,14 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-57653779c1ce9d8252808fabe7e9d02d9207668d7ee3cd2380b50de6.mp3]",
   "forms": [
-    "知った事ではない",
-    "知ったことじゃない"
+    {
+      "text": "知った事ではない",
+      "isOwned": false
+    },
+    {
+      "text": "知ったことじゃない",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 2,
   "technicalNotes": "",

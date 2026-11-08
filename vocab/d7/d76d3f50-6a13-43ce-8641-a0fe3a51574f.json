@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "んで",
-    "ください"
-  ],
+  "compoundParts": {
+    "primary": [
+      "んで",
+      "ください"
+    ],
+    "alternative": []
+  },
   "readings": [
     "んでください"
   ],
@@ -20,9 +23,18 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-4a3f80204f0eb78c48238f1c1331d7986775865926774f77e34fa137.mp3]",
   "forms": [
-    "んで下さい",
-    "でください",
-    "で下さい"
+    {
+      "text": "んで下さい",
+      "isOwned": false
+    },
+    {
+      "text": "でください",
+      "isOwned": false
+    },
+    {
+      "text": "で下さい",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 30,
   "technicalNotes": "",

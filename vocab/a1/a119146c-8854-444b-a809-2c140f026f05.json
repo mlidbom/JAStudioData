@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "テープ",
-    "レコーダー"
-  ],
+  "compoundParts": {
+    "primary": [
+      "テープ",
+      "レコーダー"
+    ],
+    "alternative": []
+  },
   "readings": [
     "テープレコーダー"
   ],
@@ -20,9 +23,18 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "テープ・レコーダ",
-    "テープ・レコーダー",
-    "テープレコーダ"
+    {
+      "text": "テープ・レコーダ",
+      "isOwned": false
+    },
+    {
+      "text": "テープ・レコーダー",
+      "isOwned": false
+    },
+    {
+      "text": "テープレコーダ",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 1,
   "technicalNotes": "",

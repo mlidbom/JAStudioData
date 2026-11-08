@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "お",
-    "祭り"
-  ],
+  "compoundParts": {
+    "primary": [
+      "お",
+      "祭り"
+    ],
+    "alternative": []
+  },
   "readings": [
     "おまつり"
   ],
@@ -20,9 +23,18 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-6e2ca02570f13114fcaca55fde7e568c4f3b50de36226d5e3d49abc2.mp3]",
   "forms": [
-    "御祭",
-    "お祭",
-    "御祭り"
+    {
+      "text": "御祭",
+      "isOwned": false
+    },
+    {
+      "text": "お祭",
+      "isOwned": false
+    },
+    {
+      "text": "御祭り",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 16,
   "technicalNotes": "",

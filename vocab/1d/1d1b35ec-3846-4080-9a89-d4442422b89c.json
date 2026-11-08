@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "一周",
-    "する"
-  ],
+  "compoundParts": {
+    "primary": [
+      "一周",
+      "する"
+    ],
+    "alternative": []
+  },
   "readings": [
     "いっしゅうする"
   ],
@@ -20,8 +23,14 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-9d43daaecc6ae4fa19ae7911db26f55696819c4ee29ff1b07680cd37.mp3]",
   "forms": [
-    "一周をする",
-    "１周する"
+    {
+      "text": "一周をする",
+      "isOwned": false
+    },
+    {
+      "text": "１周する",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 4,
   "technicalNotes": "",

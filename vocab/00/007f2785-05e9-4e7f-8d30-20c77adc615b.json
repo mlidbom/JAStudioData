@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "頂戴",
-    "します"
-  ],
+  "compoundParts": {
+    "primary": [
+      "頂戴",
+      "します"
+    ],
+    "alternative": []
+  },
   "readings": [
     "ちょうだいします"
   ],
@@ -20,9 +23,18 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "頂載します",
-    "頂だいします",
-    "ちょうだいします"
+    {
+      "text": "頂載します",
+      "isOwned": false
+    },
+    {
+      "text": "頂だいします",
+      "isOwned": false
+    },
+    {
+      "text": "ちょうだいします",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 3,
   "technicalNotes": "",

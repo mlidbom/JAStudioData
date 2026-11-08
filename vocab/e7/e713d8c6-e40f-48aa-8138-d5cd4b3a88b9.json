@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "という",
-    "のは"
-  ],
+  "compoundParts": {
+    "primary": [
+      "という",
+      "のは"
+    ],
+    "alternative": []
+  },
   "readings": [
     "というのは"
   ],
@@ -20,8 +23,14 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "っていうのは",
-    "と言うのは"
+    {
+      "text": "っていうのは",
+      "isOwned": false
+    },
+    {
+      "text": "と言うのは",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 34,
   "technicalNotes": "",

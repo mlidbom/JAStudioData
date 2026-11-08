@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "くらい",
-    "は"
-  ],
+  "compoundParts": {
+    "primary": [
+      "くらい",
+      "は"
+    ],
+    "alternative": []
+  },
   "readings": [
     "くらいは"
   ],
@@ -20,9 +23,18 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-d139f3d2ac57f35ffc227c98b8ab28237b6619cddba105f043a0650f.mp3]",
   "forms": [
-    "ぐらいは",
-    "[くらいじゃ]",
-    "ぐらいじゃ"
+    {
+      "text": "ぐらいは",
+      "isOwned": false
+    },
+    {
+      "text": "くらいじゃ",
+      "isOwned": true
+    },
+    {
+      "text": "ぐらいじゃ",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 9,
   "technicalNotes": "",

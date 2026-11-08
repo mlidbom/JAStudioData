@@ -6,7 +6,10 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [],
+  "compoundParts": {
+    "primary": [],
+    "alternative": []
+  },
   "readings": [
     "んである"
   ],
@@ -17,7 +20,10 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-588f5e4e7151d71eeeccd61707bccb864c3d072c235f5e7cf17fb0df.mp3]",
   "forms": [
-    "である"
+    {
+      "text": "である",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 1,
   "technicalNotes": "implement support for splitting the two meanings.",

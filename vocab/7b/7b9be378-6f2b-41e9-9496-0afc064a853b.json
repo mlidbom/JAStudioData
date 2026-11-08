@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "振り",
-    "仮名"
-  ],
+  "compoundParts": {
+    "primary": [
+      "振り",
+      "仮名"
+    ],
+    "alternative": []
+  },
   "readings": [
     "ふりがな"
   ],
@@ -20,9 +23,18 @@
   "audioG": "[sound:振り仮名_g.mp3]",
   "audioTTS": "",
   "forms": [
-    "ふりがな",
-    "振りがな",
-    "振仮名"
+    {
+      "text": "ふりがな",
+      "isOwned": false
+    },
+    {
+      "text": "振りがな",
+      "isOwned": false
+    },
+    {
+      "text": "振仮名",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 3,
   "technicalNotes": "",

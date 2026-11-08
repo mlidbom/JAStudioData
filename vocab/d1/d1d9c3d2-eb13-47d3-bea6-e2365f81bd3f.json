@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "案内する",
-    "ます"
-  ],
+  "compoundParts": {
+    "primary": [
+      "案内する",
+      "ます"
+    ],
+    "alternative": []
+  },
   "readings": [
     "あんないします"
   ],
@@ -20,9 +23,18 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-0daafa428f429bd406dea02bd76699340f56b62680aab80c9c406e8c.mp3]",
   "forms": [
-    "案内をします",
-    "ご案内します",
-    "ご案内をします"
+    {
+      "text": "案内をします",
+      "isOwned": false
+    },
+    {
+      "text": "ご案内します",
+      "isOwned": false
+    },
+    {
+      "text": "ご案内をします",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 5,
   "technicalNotes": "",

@@ -6,11 +6,14 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "どう",
-    "いたします",
-    "て"
-  ],
+  "compoundParts": {
+    "primary": [
+      "どう",
+      "いたします",
+      "て"
+    ],
+    "alternative": []
+  },
   "readings": [
     "どういたしまして"
   ],
@@ -21,8 +24,14 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "どう致しまして",
-    "如何致しまして"
+    {
+      "text": "どう致しまして",
+      "isOwned": false
+    },
+    {
+      "text": "如何致しまして",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 2,
   "technicalNotes": "",

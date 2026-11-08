@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "受ける",
-    "取る"
-  ],
+  "compoundParts": {
+    "primary": [
+      "受ける",
+      "取る"
+    ],
+    "alternative": []
+  },
   "readings": [
     "うけとる"
   ],
@@ -20,11 +23,26 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "受取る",
-    "うけ取る",
-    "請取る",
-    "請け取る",
-    "受けとる"
+    {
+      "text": "受取る",
+      "isOwned": false
+    },
+    {
+      "text": "うけ取る",
+      "isOwned": false
+    },
+    {
+      "text": "請取る",
+      "isOwned": false
+    },
+    {
+      "text": "請け取る",
+      "isOwned": false
+    },
+    {
+      "text": "受けとる",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 22,
   "technicalNotes": "",

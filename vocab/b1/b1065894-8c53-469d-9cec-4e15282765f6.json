@@ -6,12 +6,16 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "される",
-    "ている",
-    "[する]",
-    "[あれている]"
-  ],
+  "compoundParts": {
+    "primary": [
+      "される",
+      "ている"
+    ],
+    "alternative": [
+      "あれている",
+      "する"
+    ]
+  },
   "readings": [
     "されている"
   ],
@@ -22,10 +26,22 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-a0b33b675eaec770bafc71a81492a47b1278a24fbf17401a574fef85.mp3]",
   "forms": [
-    "為れている",
-    "されてる",
-    "為れてる",
-    "されておる"
+    {
+      "text": "為れている",
+      "isOwned": false
+    },
+    {
+      "text": "されてる",
+      "isOwned": false
+    },
+    {
+      "text": "為れてる",
+      "isOwned": false
+    },
+    {
+      "text": "されておる",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 97,
   "technicalNotes": "",

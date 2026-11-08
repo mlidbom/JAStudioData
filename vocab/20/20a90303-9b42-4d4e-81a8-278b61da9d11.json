@@ -6,11 +6,15 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "くださる",
-    "[下さい]",
-    "い:imperative"
-  ],
+  "compoundParts": {
+    "primary": [
+      "くださる",
+      "い:imperative"
+    ],
+    "alternative": [
+      "下さい"
+    ]
+  },
   "readings": [
     "ください"
   ],
@@ -21,7 +25,10 @@
   "audioG": "[sound:下さい_g.mp3]",
   "audioTTS": "",
   "forms": [
-    "下さい"
+    {
+      "text": "下さい",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 599,
   "technicalNotes": "",

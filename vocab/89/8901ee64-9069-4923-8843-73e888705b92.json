@@ -6,11 +6,15 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "何とか",
-    "する",
-    "[とかする]"
-  ],
+  "compoundParts": {
+    "primary": [
+      "何とか",
+      "する"
+    ],
+    "alternative": [
+      "とかする"
+    ]
+  },
   "readings": [
     "なんとかする"
   ],
@@ -21,9 +25,18 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-18acf6a1d3dc6d4990e6ddbe4e355255757af5134b4f88580087b5b5.mp3]",
   "forms": [
-    "なんとかする",
-    "なんとかをする",
-    "何とかをする"
+    {
+      "text": "なんとかする",
+      "isOwned": false
+    },
+    {
+      "text": "なんとかをする",
+      "isOwned": false
+    },
+    {
+      "text": "何とかをする",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 15,
   "technicalNotes": "",

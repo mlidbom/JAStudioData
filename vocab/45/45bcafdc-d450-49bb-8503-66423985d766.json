@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "お前",
-    "の"
-  ],
+  "compoundParts": {
+    "primary": [
+      "お前",
+      "の"
+    ],
+    "alternative": []
+  },
   "readings": [
     "おまえの"
   ],
@@ -20,8 +23,14 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-8d4611c6e08b809cb5672fa012ed3834e39046a861b48812331c41e1.mp3]",
   "forms": [
-    "おまえの",
-    "御前の"
+    {
+      "text": "おまえの",
+      "isOwned": false
+    },
+    {
+      "text": "御前の",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 163,
   "technicalNotes": "",

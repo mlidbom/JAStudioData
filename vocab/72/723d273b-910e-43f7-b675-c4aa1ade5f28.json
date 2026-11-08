@@ -6,11 +6,15 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "なんだ",
-    "って",
-    "[何だ]"
-  ],
+  "compoundParts": {
+    "primary": [
+      "なんだ",
+      "って"
+    ],
+    "alternative": [
+      "何だ"
+    ]
+  },
   "readings": [
     "なんだって"
   ],
@@ -21,7 +25,10 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "なんだって"
+    {
+      "text": "なんだって",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 8,
   "technicalNotes": "",

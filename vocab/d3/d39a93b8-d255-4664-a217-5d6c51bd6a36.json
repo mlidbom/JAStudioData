@@ -6,7 +6,10 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [],
+  "compoundParts": {
+    "primary": [],
+    "alternative": []
+  },
   "readings": [
     "やばい"
   ],
@@ -17,11 +20,26 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "[ヤバい]",
-    "[ヤバイ]",
-    "やっべぇ",
-    "ヤッベェ",
-    "やば"
+    {
+      "text": "ヤバい",
+      "isOwned": true
+    },
+    {
+      "text": "ヤバイ",
+      "isOwned": true
+    },
+    {
+      "text": "やっべぇ",
+      "isOwned": false
+    },
+    {
+      "text": "ヤッベェ",
+      "isOwned": false
+    },
+    {
+      "text": "やば",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 42,
   "technicalNotes": "",

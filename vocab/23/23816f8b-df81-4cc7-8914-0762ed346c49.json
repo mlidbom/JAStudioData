@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "お腹",
-    "空く"
-  ],
+  "compoundParts": {
+    "primary": [
+      "お腹",
+      "空く"
+    ],
+    "alternative": []
+  },
   "readings": [
     "おなかすく"
   ],
@@ -20,8 +23,14 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "おなか空く",
-    "お腹すく"
+    {
+      "text": "おなか空く",
+      "isOwned": false
+    },
+    {
+      "text": "お腹すく",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 7,
   "technicalNotes": "",

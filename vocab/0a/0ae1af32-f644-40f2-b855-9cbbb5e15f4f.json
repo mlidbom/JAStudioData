@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "分かる",
-    "ない"
-  ],
+  "compoundParts": {
+    "primary": [
+      "分かる",
+      "ない"
+    ],
+    "alternative": []
+  },
   "readings": [
     "わかんない"
   ],
@@ -20,9 +23,18 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "わかんない",
-    "分んない",
-    "わかんねぇ"
+    {
+      "text": "わかんない",
+      "isOwned": false
+    },
+    {
+      "text": "分んない",
+      "isOwned": false
+    },
+    {
+      "text": "わかんねぇ",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 35,
   "technicalNotes": "",

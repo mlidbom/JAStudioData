@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "カレー",
-    "ライス"
-  ],
+  "compoundParts": {
+    "primary": [
+      "カレー",
+      "ライス"
+    ],
+    "alternative": []
+  },
   "readings": [
     "カレーライス"
   ],
@@ -20,7 +23,10 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "カレー・ライス"
+    {
+      "text": "カレー・ライス",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 5,
   "technicalNotes": "",

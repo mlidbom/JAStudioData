@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "お",
-    "八つ"
-  ],
+  "compoundParts": {
+    "primary": [
+      "お",
+      "八つ"
+    ],
+    "alternative": []
+  },
   "readings": [
     "おやつ"
   ],
@@ -20,9 +23,18 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "お八",
-    "お八つ",
-    "御八つ"
+    {
+      "text": "お八",
+      "isOwned": false
+    },
+    {
+      "text": "お八つ",
+      "isOwned": false
+    },
+    {
+      "text": "御八つ",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 9,
   "technicalNotes": "",

@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "タロット",
-    "カード"
-  ],
+  "compoundParts": {
+    "primary": [
+      "タロット",
+      "カード"
+    ],
+    "alternative": []
+  },
   "readings": [
     "タロットカード"
   ],
@@ -20,7 +23,10 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "タロット・カード"
+    {
+      "text": "タロット・カード",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 1,
   "technicalNotes": "",

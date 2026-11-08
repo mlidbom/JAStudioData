@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "付く",
-    "てる"
-  ],
+  "compoundParts": {
+    "primary": [
+      "付く",
+      "てる"
+    ],
+    "alternative": []
+  },
   "readings": [
     "ついてる",
     "ついている",
@@ -22,7 +25,10 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-18b33d4e044c696769a537eb2badcbf3dc89b6db96c31a4f9bb073bb.mp3]",
   "forms": [
-    "[付いている]"
+    {
+      "text": "付いている",
+      "isOwned": true
+    }
   ],
   "sentenceCount": 17,
   "technicalNotes": "Exists in the dict, but essentially never has that meaning written with kanji",

@@ -6,7 +6,10 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [],
+  "compoundParts": {
+    "primary": [],
+    "alternative": []
+  },
   "readings": [
     "いち",
     "ひと"
@@ -18,11 +21,26 @@
   "audioG": "[sound:一_g.mp3]",
   "audioTTS": "",
   "forms": [
-    "[１]",
-    "[1]",
-    "壱",
-    "壹",
-    "弌"
+    {
+      "text": "１",
+      "isOwned": true
+    },
+    {
+      "text": "1",
+      "isOwned": true
+    },
+    {
+      "text": "壱",
+      "isOwned": false
+    },
+    {
+      "text": "壹",
+      "isOwned": false
+    },
+    {
+      "text": "弌",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 1011,
   "technicalNotes": "",

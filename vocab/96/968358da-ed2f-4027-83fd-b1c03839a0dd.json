@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "どういう",
-    "こと"
-  ],
+  "compoundParts": {
+    "primary": [
+      "どういう",
+      "こと"
+    ],
+    "alternative": []
+  },
   "readings": [
     "どういうこと"
   ],
@@ -20,9 +23,18 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "如何言うこと",
-    "どう言うこと",
-    "如何いうこと"
+    {
+      "text": "如何言うこと",
+      "isOwned": false
+    },
+    {
+      "text": "どう言うこと",
+      "isOwned": false
+    },
+    {
+      "text": "如何いうこと",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 29,
   "technicalNotes": "",

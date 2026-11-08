@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "ている",
-    "ます"
-  ],
+  "compoundParts": {
+    "primary": [
+      "ている",
+      "ます"
+    ],
+    "alternative": []
+  },
   "readings": [
     "ています"
   ],
@@ -20,9 +23,18 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "でいます",
-    "てます",
-    "でます"
+    {
+      "text": "でいます",
+      "isOwned": false
+    },
+    {
+      "text": "てます",
+      "isOwned": false
+    },
+    {
+      "text": "でます",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 1181,
   "technicalNotes": "",

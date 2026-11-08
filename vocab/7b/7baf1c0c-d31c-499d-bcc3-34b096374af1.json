@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "回転",
-    "寿司"
-  ],
+  "compoundParts": {
+    "primary": [
+      "回転",
+      "寿司"
+    ],
+    "alternative": []
+  },
   "readings": [
     "かいてんずし"
   ],
@@ -20,10 +23,22 @@
   "audioG": "[sound:回転ずし_g.mp3]",
   "audioTTS": "",
   "forms": [
-    "回転鮨",
-    "回転すし",
-    "回転ずし",
-    "かいてんずし"
+    {
+      "text": "回転鮨",
+      "isOwned": false
+    },
+    {
+      "text": "回転すし",
+      "isOwned": false
+    },
+    {
+      "text": "回転ずし",
+      "isOwned": false
+    },
+    {
+      "text": "かいてんずし",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 5,
   "technicalNotes": "",

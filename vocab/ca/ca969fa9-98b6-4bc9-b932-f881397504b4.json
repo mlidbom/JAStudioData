@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "出る",
-    "ていく"
-  ],
+  "compoundParts": {
+    "primary": [
+      "出る",
+      "ていく"
+    ],
+    "alternative": []
+  },
   "readings": [
     "でていく"
   ],
@@ -20,8 +23,14 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "出て行く",
-    "出てゆく"
+    {
+      "text": "出て行く",
+      "isOwned": false
+    },
+    {
+      "text": "出てゆく",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 40,
   "technicalNotes": "Make detection of godan imperatives work with this word",

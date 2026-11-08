@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "行ってくる",
-    "ます"
-  ],
+  "compoundParts": {
+    "primary": [
+      "行ってくる",
+      "ます"
+    ],
+    "alternative": []
+  },
   "readings": [
     "いってきます"
   ],
@@ -20,9 +23,18 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "いって来ます",
-    "行って来ます",
-    "いってきます"
+    {
+      "text": "いって来ます",
+      "isOwned": false
+    },
+    {
+      "text": "行って来ます",
+      "isOwned": false
+    },
+    {
+      "text": "いってきます",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 17,
   "technicalNotes": "",

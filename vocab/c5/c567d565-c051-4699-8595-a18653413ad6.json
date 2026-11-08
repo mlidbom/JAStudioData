@@ -6,11 +6,14 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "お",
-    "客",
-    "様"
-  ],
+  "compoundParts": {
+    "primary": [
+      "お",
+      "客",
+      "様"
+    ],
+    "alternative": []
+  },
   "readings": [
     "おきゃくさま"
   ],
@@ -21,9 +24,18 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "御客さま",
-    "お客さま",
-    "御客様"
+    {
+      "text": "御客さま",
+      "isOwned": false
+    },
+    {
+      "text": "お客さま",
+      "isOwned": false
+    },
+    {
+      "text": "御客様",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 41,
   "technicalNotes": "",

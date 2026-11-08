@@ -6,11 +6,15 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "ておく",
-    "えばよかった",
-    "[おけばよい]"
-  ],
+  "compoundParts": {
+    "primary": [
+      "ておく",
+      "えばよかった"
+    ],
+    "alternative": [
+      "おけばよい"
+    ]
+  },
   "readings": [
     "ておけばよかった"
   ],
@@ -21,9 +25,18 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-48557a2b2bf2f8c30470d614977dc6b49209a6ec93219bc228fdbfdf.mp3]",
   "forms": [
-    "おけばよかった",
-    "て置けばよかった",
-    "て置けば良かった"
+    {
+      "text": "おけばよかった",
+      "isOwned": false
+    },
+    {
+      "text": "て置けばよかった",
+      "isOwned": false
+    },
+    {
+      "text": "て置けば良かった",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 4,
   "technicalNotes": "jamdict matches several shorter versions of this if this does not take over, so we really need to keep it.",

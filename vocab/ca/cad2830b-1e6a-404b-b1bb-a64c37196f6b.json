@@ -6,7 +6,10 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [],
+  "compoundParts": {
+    "primary": [],
+    "alternative": []
+  },
   "readings": [
     "はないか"
   ],
@@ -17,8 +20,14 @@
   "audioG": "",
   "audioTTS": "[sound:hypertts-9fa37b617d3b68fc27c81a5017cccf9e6b09d6091b6e0e1cee8528d8.mp3]",
   "forms": [
-    "花烏賊",
-    "[はないか]"
+    {
+      "text": "花烏賊",
+      "isOwned": false
+    },
+    {
+      "text": "はないか",
+      "isOwned": true
+    }
   ],
   "sentenceCount": 0,
   "technicalNotes": "",

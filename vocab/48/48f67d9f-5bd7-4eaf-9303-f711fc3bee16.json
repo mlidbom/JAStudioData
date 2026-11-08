@@ -6,11 +6,15 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "どこまで",
-    "も",
-    "[でも]"
-  ],
+  "compoundParts": {
+    "primary": [
+      "どこまで",
+      "も"
+    ],
+    "alternative": [
+      "でも"
+    ]
+  },
   "readings": [
     "どこまでも"
   ],
@@ -21,8 +25,14 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "何処までも",
-    "何処迄も"
+    {
+      "text": "何処までも",
+      "isOwned": false
+    },
+    {
+      "text": "何処迄も",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 5,
   "technicalNotes": "",

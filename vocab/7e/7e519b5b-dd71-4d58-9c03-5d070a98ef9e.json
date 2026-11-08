@@ -6,11 +6,15 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "何",
-    "だ",
-    "[なの]"
-  ],
+  "compoundParts": {
+    "primary": [
+      "何",
+      "だ"
+    ],
+    "alternative": [
+      "なの"
+    ]
+  },
   "readings": [
     "なんだ"
   ],
@@ -21,8 +25,14 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "なんだ",
-    "なあんだ"
+    {
+      "text": "なんだ",
+      "isOwned": false
+    },
+    {
+      "text": "なあんだ",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 272,
   "technicalNotes": "",

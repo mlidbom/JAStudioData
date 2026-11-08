@@ -6,10 +6,13 @@
   "userExplanation": "",
   "userExplanationLong": "",
   "userMnemonic": "",
-  "userCompounds": [
-    "あの",
-    "さ"
-  ],
+  "compoundParts": {
+    "primary": [
+      "あの",
+      "さ"
+    ],
+    "alternative": []
+  },
   "readings": [
     "あのねえ"
   ],
@@ -20,9 +23,18 @@
   "audioG": "",
   "audioTTS": "",
   "forms": [
-    "あんね",
-    "あのね",
-    "あのねえ"
+    {
+      "text": "あんね",
+      "isOwned": false
+    },
+    {
+      "text": "あのね",
+      "isOwned": false
+    },
+    {
+      "text": "あのねえ",
+      "isOwned": false
+    }
   ],
   "sentenceCount": 8,
   "technicalNotes": "",
