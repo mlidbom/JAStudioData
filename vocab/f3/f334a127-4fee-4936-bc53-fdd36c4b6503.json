@@ -1,5 +1,8 @@
 {
-  "question": "つもり",
+  "question": {
+    "text": "つもり",
+    "disambiguation": ""
+  },
   "sourceAnswer": "intention/plan | conviction/belief",
   "userAnswer": "<tag>future:</tag><tag>{intention}</tag>{intend/plan}-{to/on}\n<tag>present:</tag> firmly-belives/is-{sure/convinced} <tag>(but...)</tag>\n<tag>past:</tag> was-{sure/convinced} | {intended/planned}-to  <tag>(but...)</tag>",
   "activeAnswer": "<tag>future:</tag><tag>{intention}</tag>{intend/plan}-{to/on}\n<tag>present:</tag> firmly-belives/is-{sure/convinced} <tag>(but...)</tag>\n<tag>past:</tag> was-{sure/convinced} | {intended/planned}-to  <tag>(but...)</tag>",
