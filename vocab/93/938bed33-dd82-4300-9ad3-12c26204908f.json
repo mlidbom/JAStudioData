@@ -18,6 +18,7 @@
     "につき"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "[sound:yomichan_audio_につき_に付き_2023-08-05-18-32-37.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -36,12 +37,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "yieldLastTokenToOverlappingCompound": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -60,7 +67,6 @@
   "id": "938bed33-dd82-4300-9ad3-12c26204908f",
   "tags": [
     "_uk",
-    "-::vocab::matching::yield-last-token-to-upcoming-compound",
     "legacy_scheduling",
     "source::yomitan"
   ]

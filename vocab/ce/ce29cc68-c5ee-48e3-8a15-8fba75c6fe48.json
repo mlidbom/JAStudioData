@@ -18,6 +18,7 @@
     "ひとりで"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "[sound:ef06f6c5f5a6d947dde0767f4bc8e0fa.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -36,12 +37,18 @@
   "references": "",
   "image": "<img src=\"2b40ae17acbfc70c862c8427cc84aa4c.jpg\">",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "yieldLastTokenToOverlappingCompound": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -59,7 +66,6 @@
   },
   "id": "ce29cc68-c5ee-48e3-8a15-8fba75c6fe48",
   "tags": [
-    "-::vocab::matching::yield-last-token-to-upcoming-compound",
     "legacy_scheduling",
     "source::core2000::step10"
   ]

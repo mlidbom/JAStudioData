@@ -18,6 +18,7 @@
     "にも"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "[sound:yomitan_audio_にも_にも_2024-04-11-18-34-36.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -27,12 +28,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "singleToken": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -51,7 +58,6 @@
   "id": "eef1ffa3-46bc-4380-b417-5a009ea92b8e",
   "tags": [
     "_uk",
-    "-::vocab::matching::requires::single-token",
     "legacy_scheduling",
     "source::yomitan"
   ]

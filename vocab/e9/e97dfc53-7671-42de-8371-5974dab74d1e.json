@@ -15,6 +15,7 @@
     "うどん"
   ],
   "partsOfSpeech": "noun",
+  "register": [],
   "audioB": "[sound:9873e1a6ddc23a9b20a954208ebf6a35.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -37,12 +38,18 @@
   "references": "",
   "image": "<img src=\"741db7627f2f21be53cf2ab69a3afc9a.jpg\">",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "dictionaryFormStart": "forbidden"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -61,7 +68,6 @@
   "id": "e97dfc53-7671-42de-8371-5974dab74d1e",
   "tags": [
     "_uk",
-    "-::vocab::matching::forbids::dictionary_form_stem",
     "source::core2000::step08"
   ]
 }

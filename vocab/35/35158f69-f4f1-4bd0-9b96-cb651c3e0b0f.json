@@ -18,6 +18,7 @@
     "でた"
   ],
   "partsOfSpeech": "",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-e9b842fea35a868e24b2b9765ebae6bc2978ab31ec862db77d172750.mp3]",
@@ -44,16 +45,23 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [
-      "ていたら"
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isInflectingWord",
+      "questionOverridesForm"
     ],
-    "yieldToSurface": [],
-    "requiredPrefix": [
-      "ん"
-    ]
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [
+        "ていたら"
+      ],
+      "yieldToSurface": [],
+      "requiredPrefix": [
+        "ん"
+      ]
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -74,9 +82,7 @@
   },
   "id": "35158f69-f4f1-4bd0-9b96-cb651c3e0b0f",
   "tags": [
-    "-::vocab::matching::is-inflecting-word",
     "-::vocab::matching::uses::required-prefix",
-    "-::vocab::matching::uses::surface-is-not",
-    "-::vocab::question-overrides-form"
+    "-::vocab::matching::uses::surface-is-not"
   ]
 }

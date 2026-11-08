@@ -15,6 +15,7 @@
     "もし"
   ],
   "partsOfSpeech": "adverb, interjection",
+  "register": [],
   "audioB": "[sound:aedcdcc3ff1a578998e1176a0c6d8b35.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -29,12 +30,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "singleToken": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -53,7 +60,6 @@
   "id": "43ddae49-5b02-4af3-9280-f59c739fc021",
   "tags": [
     "_uk",
-    "-::vocab::matching::requires::single-token",
     "legacy_scheduling",
     "source::core2000::step04"
   ]

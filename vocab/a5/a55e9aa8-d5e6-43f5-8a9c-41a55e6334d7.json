@@ -18,6 +18,7 @@
     "はなれがたい"
   ],
   "partsOfSpeech": "i-adjective",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-124b76ace6a2de2abae5ee156398febdc059c9b7c5340e633239f962.mp3]",
@@ -32,12 +33,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isCompositionallyTransparentCompound"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -55,7 +62,6 @@
   },
   "id": "a55e9aa8-d5e6-43f5-8a9c-41a55e6334d7",
   "tags": [
-    "-::vocab::is-compositionally-transparent-compound",
     "source::yomitan"
   ]
 }

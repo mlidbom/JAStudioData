@@ -15,6 +15,7 @@
     "なお"
   ],
   "partsOfSpeech": "adverb, conjunction",
+  "register": [],
   "audioB": "[sound:尚_b.mp3]",
   "audioG": "[sound:尚_g.mp3]",
   "audioTTS": "",
@@ -41,12 +42,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "singleToken": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -66,7 +73,6 @@
   "tags": [
     "_uk",
     "-::vocab::has-no-studying-sentences",
-    "-::vocab::matching::requires::single-token",
     "source::wani::level::54"
   ]
 }

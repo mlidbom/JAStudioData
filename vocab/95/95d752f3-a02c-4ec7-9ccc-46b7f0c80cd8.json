@@ -18,6 +18,7 @@
     "たべられる"
   ],
   "partsOfSpeech": "ichidan verb",
+  "register": [],
   "audioB": "[sound:hypertts-66c25de23ece66cb3069a0c4495a3ae76b40a16ca744b14c637d4f6e.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -27,12 +28,20 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "yieldLastTokenToOverlappingCompound": "required"
+    },
+    "flags": [
+      "isCompositionallyTransparentCompound"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -50,8 +59,6 @@
   },
   "id": "95d752f3-a02c-4ec7-9ccc-46b7f0c80cd8",
   "tags": [
-    "-::vocab::is-compositionally-transparent-compound",
-    "-::vocab::matching::yield-last-token-to-upcoming-compound",
     "source::yomitan"
   ]
 }

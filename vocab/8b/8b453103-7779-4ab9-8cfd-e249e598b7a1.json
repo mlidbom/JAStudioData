@@ -18,6 +18,7 @@
     "もんか"
   ],
   "partsOfSpeech": "particle",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-1be4c3ce4fb6d1a3701792ce167bce0408ae85c463e26968052d7780.mp3]",
@@ -32,14 +33,20 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [
-      "な"
-    ],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "sentenceEnd": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [
+        "な"
+      ],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -62,7 +69,6 @@
   "id": "8b453103-7779-4ab9-8cfd-e249e598b7a1",
   "tags": [
     "_uk",
-    "-::vocab::matching::requires::sentence-end",
     "-::vocab::matching::uses::suffix-is-not"
   ]
 }

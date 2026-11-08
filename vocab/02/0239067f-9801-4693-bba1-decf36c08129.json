@@ -17,6 +17,7 @@
     "じゃえ"
   ],
   "partsOfSpeech": "",
+  "register": [],
   "audioB": "[sound:hypertts-fba0d18eebc98e16dbc8e0c74d339c903bebf281518215a88cb574db.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -31,12 +32,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isInflectingWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -54,7 +61,6 @@
   },
   "id": "0239067f-9801-4693-bba1-decf36c08129",
   "tags": [
-    "_uk",
-    "-::vocab::matching::is-inflecting-word"
+    "_uk"
   ]
 }

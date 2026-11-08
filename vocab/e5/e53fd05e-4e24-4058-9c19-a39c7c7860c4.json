@@ -18,6 +18,7 @@
     "んてみる"
   ],
   "partsOfSpeech": "ichidan verb",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-98049711afab12cbad7116dad4b084c739f6fbc778f4648a915ce0da.mp3]",
@@ -32,14 +33,22 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": [
-      "ん"
-    ]
+  "matching": {
+    "requiredOrForbidden": {
+      "teFormStemStart": "required"
+    },
+    "flags": [
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": [
+        "ん"
+      ]
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -61,8 +70,6 @@
   },
   "id": "e53fd05e-4e24-4058-9c19-a39c7c7860c4",
   "tags": [
-    "-::vocab::matching::requires::te-form-stem",
-    "-::vocab::matching::uses::required-prefix",
-    "-::vocab::question-overrides-form"
+    "-::vocab::matching::uses::required-prefix"
   ]
 }

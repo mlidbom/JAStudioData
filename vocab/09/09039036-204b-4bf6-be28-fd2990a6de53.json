@@ -15,6 +15,7 @@
     "やすい"
   ],
   "partsOfSpeech": "i-adjective, suffix",
+  "register": [],
   "audioB": "[sound:yomichan_audio_やすい_易い_2023-07-16-02-11-12.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -29,12 +30,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isInflectingWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -53,7 +60,6 @@
   "id": "09039036-204b-4bf6-be28-fd2990a6de53",
   "tags": [
     "_uk",
-    "-::vocab::matching::is-inflecting-word",
     "legacy_scheduling",
     "source::yomitan"
   ]

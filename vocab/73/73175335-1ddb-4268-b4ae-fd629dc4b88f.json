@@ -16,6 +16,7 @@
   },
   "readings": [],
   "partsOfSpeech": "adverb",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-54b136955c8d8d5c29308b128c1dad672addf05d553b54500480f20c.mp3]",
@@ -25,12 +26,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "pastTenseStem": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -49,7 +56,5 @@
     "readingMnemonic": ""
   },
   "id": "73175335-1ddb-4268-b4ae-fd629dc4b88f",
-  "tags": [
-    "-::vocab::matching::requires::past-tense-stem"
-  ]
+  "tags": []
 }

@@ -19,6 +19,7 @@
     "ウトっと"
   ],
   "partsOfSpeech": "adverb, suru verb, to-adverb",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-99fe587da4638372c4e1f830f640e8d9bc49312b16aa4c68ca71589b.mp3]",
@@ -28,12 +29,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "dictionaryFormStart": "forbidden"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -53,7 +60,6 @@
   "tags": [
     "_uk",
     "-::vocab::has-no-studying-sentences",
-    "-::vocab::matching::forbids::dictionary_form_stem",
     "source::jamdict"
   ]
 }

@@ -15,6 +15,7 @@
     "ものである"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "[sound:yomitan_audio_2025-07-04-05-40-32-408.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -24,12 +25,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isPoisonWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -49,7 +56,6 @@
   "tags": [
     "_uk",
     "-::vocab::has-no-studying-sentences",
-    "-::vocab::matching::is-poison-word",
     "source::yomitan"
   ]
 }

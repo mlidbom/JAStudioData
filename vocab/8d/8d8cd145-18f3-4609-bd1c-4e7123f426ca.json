@@ -18,6 +18,7 @@
     "きてる"
   ],
   "partsOfSpeech": "ichidan verb",
+  "register": [],
   "audioB": " [sound:ATTS 来てる (azure microsoft server speech text to speech voice (ja-jp daichineural)).mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -44,12 +45,20 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "yieldLastTokenToOverlappingCompound": "required"
+    },
+    "flags": [
+      "isCompositionallyTransparentCompound"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -69,8 +78,6 @@
   "tags": [
     "_tts_audio",
     "_uk",
-    "-::vocab::is-compositionally-transparent-compound",
-    "-::vocab::matching::yield-last-token-to-upcoming-compound",
     "source::yomitan"
   ]
 }

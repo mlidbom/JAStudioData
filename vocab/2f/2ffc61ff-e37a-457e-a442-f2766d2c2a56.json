@@ -18,6 +18,7 @@
     "えばよかった"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-46cd1bbb6be3623003364fca5fc6121ba6f490a97308ba89a85a34d1.mp3]",
@@ -32,12 +33,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -57,7 +64,5 @@
     "readingMnemonic": ""
   },
   "id": "2ffc61ff-e37a-457e-a442-f2766d2c2a56",
-  "tags": [
-    "-::vocab::question-overrides-form"
-  ]
+  "tags": []
 }

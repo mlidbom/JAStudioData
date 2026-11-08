@@ -18,6 +18,7 @@
     "くて"
   ],
   "partsOfSpeech": "",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-1dfb5d7a94d61dd1de31934f7d028369307f53d890b8b49471372801.mp3]",
@@ -32,14 +33,22 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": [
-      "く"
-    ]
+  "matching": {
+    "requiredOrForbidden": {
+      "surface": "required"
+    },
+    "flags": [
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": [
+        "く"
+      ]
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -58,8 +67,6 @@
   "id": "27a385c5-ed87-4a81-baa0-96a23e739951",
   "tags": [
     "_uk",
-    "-::vocab::matching::requires::surface",
-    "-::vocab::matching::uses::required-prefix",
-    "-::vocab::question-overrides-form"
+    "-::vocab::matching::uses::required-prefix"
   ]
 }

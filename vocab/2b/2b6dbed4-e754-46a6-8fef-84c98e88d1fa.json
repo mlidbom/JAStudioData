@@ -15,6 +15,7 @@
     "うわべ"
   ],
   "partsOfSpeech": "noun",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-ebe4d4700959f89c6094efeda5a7d22766e472d87f58c231c571cdd0.mp3]",
@@ -24,12 +25,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "dictionaryFormStart": "forbidden"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -49,7 +56,6 @@
   "tags": [
     "_uk",
     "-::vocab::has-no-studying-sentences",
-    "-::vocab::matching::forbids::dictionary_form_stem",
     "source::jamdict"
   ]
 }

@@ -15,6 +15,7 @@
     "くえ"
   ],
   "partsOfSpeech": "noun",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-a3e72fcdf9cbb8410ad6c75da58631e63e9bce60ecb433ebbd7c86a4.mp3]",
@@ -33,12 +34,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "godanImperative": "forbidden"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -58,7 +65,6 @@
   "tags": [
     "_uk",
     "-::vocab::has-no-studying-sentences",
-    "-::vocab::matching::forbids::godan_imperative",
     "source::yomitan"
   ]
 }

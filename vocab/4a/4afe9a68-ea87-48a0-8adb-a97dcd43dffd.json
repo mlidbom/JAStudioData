@@ -18,6 +18,7 @@
     "ものだ"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-d290ebe9c4d959aca16ecb51751a8c709b44ee068d78b55b8f0e12b2.mp3]",
@@ -32,12 +33,21 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "sentenceEnd": "required",
+      "surface": "required"
+    },
+    "flags": [
+      "isPoisonWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -56,9 +66,6 @@
   "id": "4afe9a68-ea87-48a0-8adb-a97dcd43dffd",
   "tags": [
     "-::TODO",
-    "-::vocab::has-no-studying-sentences",
-    "-::vocab::matching::is-poison-word",
-    "-::vocab::matching::requires::sentence-end",
-    "-::vocab::matching::requires::surface"
+    "-::vocab::has-no-studying-sentences"
   ]
 }

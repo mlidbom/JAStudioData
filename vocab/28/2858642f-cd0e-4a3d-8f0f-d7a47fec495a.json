@@ -18,6 +18,7 @@
     "いただける"
   ],
   "partsOfSpeech": "ichidan verb",
+  "register": [],
   "audioB": "[sound:yomitan_audio_2025-07-27-17-54-04-846.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -36,12 +37,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isCompositionallyTransparentCompound"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -60,7 +67,6 @@
   "id": "2858642f-cd0e-4a3d-8f0f-d7a47fec495a",
   "tags": [
     "_uk",
-    "-::vocab::is-compositionally-transparent-compound",
     "-::vocab::is-ichidan-hiding-godan-potential",
     "source::yomitan",
     "tmp::godan-potential"

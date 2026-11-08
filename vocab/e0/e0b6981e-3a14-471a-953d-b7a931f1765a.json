@@ -15,6 +15,7 @@
     "ほんの"
   ],
   "partsOfSpeech": "ichidan verb",
+  "register": [],
   "audioB": "[sound:yomitan_audio_2025-03-16-18-36-01-490.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -29,12 +30,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "yieldLastTokenToOverlappingCompound": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -55,7 +62,6 @@
   "id": "e0b6981e-3a14-471a-953d-b7a931f1765a",
   "tags": [
     "_uk",
-    "-::vocab::matching::yield-last-token-to-upcoming-compound",
     "source::yomitan"
   ]
 }

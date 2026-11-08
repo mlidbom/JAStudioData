@@ -15,6 +15,9 @@
     "としより"
   ],
   "partsOfSpeech": "no-adjective, noun",
+  "register": [
+    "sensitive"
+  ],
   "audioB": "[sound:842c1376e18c7f8baba67b6e419c2817.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -33,12 +36,16 @@
   "references": "",
   "image": "<img src=\"a7aec53012209884c3215b97d622072d.jpg\">",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -56,7 +63,6 @@
   },
   "id": "b2b71472-35e0-4db1-aed5-9b1efd905bca",
   "tags": [
-    "-::vocab::register::sensitive",
     "source::core2000::step05"
   ]
 }

@@ -18,6 +18,7 @@
     "てる"
   ],
   "partsOfSpeech": "auxiliary, ichidan verb",
+  "register": [],
   "audioB": "[sound:hypertts-620b6505a060080cf817d81588868cb9237c9e8143153e4c1bcf52e9.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -32,12 +33,20 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "teFormStemStart": "required"
+    },
+    "flags": [
+      "isInflectingWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -100,8 +109,6 @@
   },
   "id": "4c8d7119-0464-426c-88b7-ee97c1554eb5",
   "tags": [
-    "_uk",
-    "-::vocab::matching::is-inflecting-word",
-    "-::vocab::matching::requires::te-form-stem"
+    "_uk"
   ]
 }

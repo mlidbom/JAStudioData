@@ -18,6 +18,7 @@
     "なにものだ"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-4915d2765a33fec066f9e4b4334aecc6eb7a63d65083eff8d684119b.mp3]",
@@ -32,12 +33,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "surface": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -54,7 +61,5 @@
     "readingMnemonic": ""
   },
   "id": "81038822-1fee-4432-89cc-3db3b7e15253",
-  "tags": [
-    "-::vocab::matching::requires::surface"
-  ]
+  "tags": []
 }

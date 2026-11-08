@@ -18,6 +18,7 @@
     "しよう"
   ],
   "partsOfSpeech": "",
+  "register": [],
   "audioB": "[sound:hypertts-db68658ef5d9969a005c2e003bbea95291ecc966d60a2aa985e38550.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -27,12 +28,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "yieldLastTokenToOverlappingCompound": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -50,7 +57,6 @@
   },
   "id": "b2230481-11c8-498d-94d2-cb667be87c75",
   "tags": [
-    "_uk",
-    "-::vocab::matching::yield-last-token-to-upcoming-compound"
+    "_uk"
   ]
 }

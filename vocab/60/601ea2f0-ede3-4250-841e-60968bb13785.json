@@ -18,6 +18,7 @@
     "ている"
   ],
   "partsOfSpeech": "auxiliary, ichidan verb",
+  "register": [],
   "audioB": "[sound:hypertts-8cf4ce80b0a034e11f950847a1add917c2b5b5986456a06a9c43f5c9.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -27,12 +28,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isInflectingWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -98,7 +105,6 @@
   "tags": [
     "_tts_audio",
     "_uk",
-    "-::vocab::matching::is-inflecting-word",
     "source::yomitan"
   ]
 }

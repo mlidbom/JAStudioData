@@ -18,6 +18,7 @@
     "おまえの"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-8d4611c6e08b809cb5672fa012ed3834e39046a861b48812331c41e1.mp3]",
@@ -36,12 +37,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "yieldLastTokenToOverlappingCompound": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -58,7 +65,5 @@
     "readingMnemonic": ""
   },
   "id": "45bcafdc-d450-49bb-8503-66423985d766",
-  "tags": [
-    "-::vocab::matching::yield-last-token-to-upcoming-compound"
-  ]
+  "tags": []
 }

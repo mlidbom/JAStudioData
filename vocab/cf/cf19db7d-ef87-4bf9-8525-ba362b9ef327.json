@@ -15,6 +15,7 @@
     "まくる"
   ],
   "partsOfSpeech": "godan verb",
+  "register": [],
   "audioB": "[sound:yomichan_audio_まくる_捲る_2023-10-28-05-33-42.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -29,12 +30,20 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "masuStem": "required"
+    },
+    "flags": [
+      "isInflectingWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -51,8 +60,5 @@
     "readingMnemonic": ""
   },
   "id": "cf19db7d-ef87-4bf9-8525-ba362b9ef327",
-  "tags": [
-    "-::vocab::matching::is-inflecting-word",
-    "-::vocab::matching::requires::masu_stem"
-  ]
+  "tags": []
 }

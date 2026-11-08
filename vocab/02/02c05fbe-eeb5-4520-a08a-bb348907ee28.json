@@ -19,6 +19,7 @@
     "いけんをのべる"
   ],
   "partsOfSpeech": "ichidan verb",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-22b2e7a69591ca12420649f2abe13bfc5671e40bf979b85a27711960.mp3]",
@@ -28,12 +29,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isCompositionallyTransparentCompound"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -51,7 +58,6 @@
   },
   "id": "02c05fbe-eeb5-4520-a08a-bb348907ee28",
   "tags": [
-    "-::vocab::is-compositionally-transparent-compound",
     "source::yomitan"
   ]
 }

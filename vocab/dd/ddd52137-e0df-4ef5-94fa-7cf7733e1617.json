@@ -18,6 +18,7 @@
     "おれの"
   ],
   "partsOfSpeech": "expression, no-adjective",
+  "register": [],
   "audioB": "[sound:hypertts-e8ac59bf9e712eddc6b174dfcab74858904ad18be365ecaf58268a14.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -32,12 +33,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "yieldLastTokenToOverlappingCompound": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -54,7 +61,5 @@
     "readingMnemonic": ""
   },
   "id": "ddd52137-e0df-4ef5-94fa-7cf7733e1617",
-  "tags": [
-    "-::vocab::matching::yield-last-token-to-upcoming-compound"
-  ]
+  "tags": []
 }

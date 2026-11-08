@@ -15,6 +15,7 @@
     "たって"
   ],
   "partsOfSpeech": "adverb, no-adjective, noun, particle",
+  "register": [],
   "audioB": "[sound:hypertts-d66615aea2668743b071bbfed127535e312ca2ea56d3aa853e244d9a.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -33,12 +34,19 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "singleToken": "required",
+      "yieldLastTokenToOverlappingCompound": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -57,8 +65,6 @@
   "id": "8648ac0e-7968-4ef9-9283-9dd15a5b5f98",
   "tags": [
     "_uk",
-    "-::vocab::matching::requires::single-token",
-    "-::vocab::matching::yield-last-token-to-upcoming-compound",
     "legacy_scheduling",
     "source::yomitan"
   ]

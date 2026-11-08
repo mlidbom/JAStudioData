@@ -18,6 +18,7 @@
     "あれれば"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-5b7b777dacbe3de615f890b9ff0767d72bfadee91260a2f087485f08.mp3]",
@@ -32,12 +33,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -57,7 +64,6 @@
   },
   "id": "2a628bb2-99ee-4947-8d26-13e43fc9f5a5",
   "tags": [
-    "_uk",
-    "-::vocab::question-overrides-form"
+    "_uk"
   ]
 }

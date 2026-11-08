@@ -15,6 +15,7 @@
     "つと"
   ],
   "partsOfSpeech": "adverb",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-df62b13e65e7eb9b34a93122eee670684b890dfa0c6ea4beaab0de90.mp3]",
@@ -24,12 +25,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "dictionaryFormStart": "forbidden"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -48,7 +55,6 @@
   "id": "ea1740bb-da96-4305-bf75-e7dec6bffacb",
   "tags": [
     "_uk",
-    "-::vocab::matching::forbids::dictionary_form_stem",
     "source::jamdict"
   ]
 }

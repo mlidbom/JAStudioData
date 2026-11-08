@@ -18,6 +18,7 @@
     "きみの"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-946c03119cc0c4f8f40d853614c6fde22834cd310d07573f5751be31.mp3]",
@@ -40,12 +41,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "yieldLastTokenToOverlappingCompound": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -62,7 +69,5 @@
     "readingMnemonic": ""
   },
   "id": "2cdc59cb-f475-4bcb-8535-1c2ee76568eb",
-  "tags": [
-    "-::vocab::matching::yield-last-token-to-upcoming-compound"
-  ]
+  "tags": []
 }

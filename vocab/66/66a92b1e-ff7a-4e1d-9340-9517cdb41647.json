@@ -18,6 +18,7 @@
     "てちょうだい"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-0aa2e5211a712b46b0a8b6b2020db1692c854b70b219d87ad4445f2c.mp3]",
@@ -40,12 +41,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "teFormStemStart": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -69,7 +76,5 @@
     "readingMnemonic": ""
   },
   "id": "66a92b1e-ff7a-4e1d-9340-9517cdb41647",
-  "tags": [
-    "-::vocab::matching::requires::te-form-stem"
-  ]
+  "tags": []
 }

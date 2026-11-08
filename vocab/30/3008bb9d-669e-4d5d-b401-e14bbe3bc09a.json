@@ -15,6 +15,7 @@
     "していた"
   ],
   "partsOfSpeech": "",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-2e2028a6311e23fd1965b598c1d52108ae33c3e7463dcb2563103d15.mp3]",
@@ -24,12 +25,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "surface": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -47,7 +54,6 @@
   },
   "id": "3008bb9d-669e-4d5d-b401-e14bbe3bc09a",
   "tags": [
-    "_uk",
-    "-::vocab::matching::requires::surface"
+    "_uk"
   ]
 }

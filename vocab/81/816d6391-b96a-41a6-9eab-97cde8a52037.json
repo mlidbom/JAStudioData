@@ -18,6 +18,7 @@
     "あせてくれる"
   ],
   "partsOfSpeech": "",
+  "register": [],
   "audioB": "[sound:hypertts-9dbc37a94e1cab8976342024053220c01da92eb0e81266459b51bd57.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -32,12 +33,20 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "ichidan": "forbidden"
+    },
+    "flags": [
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -57,8 +66,6 @@
   },
   "id": "816d6391-b96a-41a6-9eab-97cde8a52037",
   "tags": [
-    "_uk",
-    "-::vocab::matching::forbids::ichidan",
-    "-::vocab::question-overrides-form"
+    "_uk"
   ]
 }

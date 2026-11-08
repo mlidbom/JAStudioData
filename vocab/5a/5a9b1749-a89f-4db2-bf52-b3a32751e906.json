@@ -18,6 +18,9 @@
     "いえる"
   ],
   "partsOfSpeech": "ichidan verb",
+  "register": [
+    "archaic"
+  ],
   "audioB": "[sound:yomitan_audio_2025-02-28-17-05-31-922.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -32,12 +35,16 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -56,7 +63,6 @@
   "id": "5a9b1749-a89f-4db2-bf52-b3a32751e906",
   "tags": [
     "-::vocab::is-ichidan-hiding-godan-potential",
-    "-::vocab::register::archaic",
     "source::yomitan",
     "tmp::godan-potential"
   ]

@@ -13,6 +13,7 @@
   },
   "readings": [],
   "partsOfSpeech": "",
+  "register": [],
   "audioB": "[sound:hypertts-921cb8c2b7eed45be2d5028f3efaf17a8fe09f6c645a42f20f0ca9a7.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -22,12 +23,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isPoisonWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -46,7 +53,6 @@
   "id": "65c75e2a-66d8-48e5-aa08-075af0e1a563",
   "tags": [
     "-::vocab::has-no-studying-sentences",
-    "-::vocab::matching::is-poison-word",
     "tmp::godan_imperative"
   ]
 }

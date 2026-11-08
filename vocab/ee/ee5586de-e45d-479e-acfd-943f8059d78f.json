@@ -15,6 +15,7 @@
     "ともだちがい"
   ],
   "partsOfSpeech": "noun",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-62fd657f5a49cec2eba7235ce7bc468b09e420226e967de9887b424a.mp3]",
@@ -29,12 +30,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "yieldLastTokenToOverlappingCompound": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -52,7 +59,6 @@
   },
   "id": "ee5586de-e45d-479e-acfd-943f8059d78f",
   "tags": [
-    "-::vocab::has-no-studying-sentences",
-    "-::vocab::matching::yield-last-token-to-upcoming-compound"
+    "-::vocab::has-no-studying-sentences"
   ]
 }

@@ -15,6 +15,7 @@
     "るつぼ"
   ],
   "partsOfSpeech": "unknown",
+  "register": [],
   "audioB": "[sound:yomitan_audio_2026-00-18-04-40-19-323.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -33,12 +34,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "dictionaryFormStart": "forbidden"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -58,7 +65,6 @@
   "tags": [
     "_uk",
     "-::vocab::has-no-studying-sentences",
-    "-::vocab::matching::forbids::dictionary_form_stem",
     "source::yomitan"
   ]
 }

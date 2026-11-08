@@ -18,6 +18,7 @@
     "ていた"
   ],
   "partsOfSpeech": "",
+  "register": [],
   "audioB": "[sound:hypertts-0b84aad8d94761f3136db7eb3b0e84164c111fb367a5878e0af9edfd.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -44,12 +45,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "surface": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -80,7 +87,5 @@
     "readingMnemonic": ""
   },
   "id": "9c76e340-39ca-46fa-80aa-eacb7df6a000",
-  "tags": [
-    "-::vocab::matching::requires::surface"
-  ]
+  "tags": []
 }

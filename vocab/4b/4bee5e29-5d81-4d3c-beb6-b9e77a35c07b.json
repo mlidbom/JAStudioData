@@ -15,6 +15,7 @@
     "よる"
   ],
   "partsOfSpeech": "godan verb, intransitive",
+  "register": [],
   "audioB": "[sound:yomitan_audio_2024-05-22-00-24-24-127.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -41,12 +42,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "masuStem": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -65,7 +72,6 @@
   "id": "4bee5e29-5d81-4d3c-beb6-b9e77a35c07b",
   "tags": [
     "_uk",
-    "-::vocab::matching::requires::masu_stem",
     "legacy_scheduling",
     "source::yomitan"
   ]

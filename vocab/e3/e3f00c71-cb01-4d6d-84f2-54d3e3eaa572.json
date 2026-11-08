@@ -18,6 +18,9 @@
     "よろしい"
   ],
   "partsOfSpeech": "i-adjective",
+  "register": [
+    "honorific"
+  ],
   "audioB": "[sound:5399de4dc3e791b1964b227f88e535e3.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -32,12 +35,16 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -60,7 +67,6 @@
   "id": "e3f00c71-cb01-4d6d-84f2-54d3e3eaa572",
   "tags": [
     "_uk",
-    "-::vocab::register::honorific",
     "legacy_scheduling",
     "source::core2000::step09"
   ]

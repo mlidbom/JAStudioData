@@ -18,6 +18,7 @@
     "いどった"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-47e73cc45a75ffcd3daffc46f8a7a22b60a823bc15b158145ed0ee10.mp3]",
@@ -36,12 +37,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -59,7 +66,6 @@
   },
   "id": "a7bb815b-42a9-4e97-aaa6-c623f64ed5f0",
   "tags": [
-    "_uk",
-    "-::vocab::question-overrides-form"
+    "_uk"
   ]
 }

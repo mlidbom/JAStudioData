@@ -18,6 +18,7 @@
     "という"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "[sound:yomichan_audio_という_と言う_2023-08-28-13-02-35.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -36,12 +37,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "yieldLastTokenToOverlappingCompound": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -62,7 +69,6 @@
   "id": "b7d43154-7f1a-4996-be3d-41a7157a734a",
   "tags": [
     "_uk",
-    "-::vocab::matching::yield-last-token-to-upcoming-compound",
     "legacy_scheduling",
     "source::yomitan"
   ]

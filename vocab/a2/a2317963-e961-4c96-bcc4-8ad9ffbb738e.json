@@ -15,6 +15,7 @@
     "よう"
   ],
   "partsOfSpeech": "noun, suffix",
+  "register": [],
   "audioB": "[sound:c28ab5782d772a77a787d7b6771efaaf-dfc387899599bd070747c1aa98cdcf46493c9163.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -29,12 +30,18 @@
   "references": "<a href=\"https://youtu.be/IE7WgIOOGbM?list=PLg9uYxuZf8x_A-vcqqyOFZu06WlhnypWj&amp;t=129\">Cure dolly</a>",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isInflectingWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -56,7 +63,6 @@
   "id": "a2317963-e961-4c96-bcc4-8ad9ffbb738e",
   "tags": [
     "_uk",
-    "-::vocab::matching::is-inflecting-word",
     "legacy_scheduling",
     "source::core2000::step02"
   ]

@@ -15,6 +15,7 @@
     "きみ"
   ],
   "partsOfSpeech": "pronoun",
+  "register": [],
   "audioB": "[sound:〜君_b.mp3][sound:君_b.mp3]",
   "audioG": "[sound:君_g.mp3]",
   "audioTTS": "",
@@ -37,12 +38,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "dictionaryFormStart": "forbidden"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -60,7 +67,6 @@
   },
   "id": "4832578e-c32e-4967-a11b-71898664de37",
   "tags": [
-    "-::vocab::matching::forbids::dictionary_form_stem",
     "legacy_scheduling",
     "source::wani::level::08"
   ]

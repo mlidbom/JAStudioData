@@ -18,6 +18,7 @@
     "だの"
   ],
   "partsOfSpeech": "particle",
+  "register": [],
   "audioB": "[sound:yomitan_audio_2025-03-13-13-59-11-645.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -27,14 +28,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [
-      "ん"
-    ],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [
+        "ん"
+      ],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",

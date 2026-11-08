@@ -15,6 +15,7 @@
     "な"
   ],
   "partsOfSpeech": "interjection, particle",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-c6490c0698659edf4c0b76a6e527be307310731c1bfa87558380d8c5.mp3]",
@@ -24,12 +25,20 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "masuStem": "required"
+    },
+    "flags": [
+      "isInflectingWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -50,8 +59,6 @@
   "id": "c873703d-9d57-4fe6-a318-86e5338a63db",
   "tags": [
     "_uk",
-    "-::vocab::matching::is-inflecting-word",
-    "-::vocab::matching::requires::masu_stem",
     "source::jamdict"
   ]
 }

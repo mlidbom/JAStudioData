@@ -18,6 +18,7 @@
     "ています"
   ],
   "partsOfSpeech": "",
+  "register": [],
   "audioB": "[sound:hypertts-50249344423efed7f1921e644ed668b2b8994c2d0e0906d3380713c6.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -40,12 +41,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isInflectingWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -110,7 +117,6 @@
   "tags": [
     "_tts_audio",
     "_uk",
-    "-::vocab::matching::is-inflecting-word",
     "source::yomitan"
   ]
 }

@@ -18,6 +18,9 @@
     "てよろしい"
   ],
   "partsOfSpeech": "expression, i-adjective",
+  "register": [
+    "polite"
+  ],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-a426522eeb435927dc5077cb2c1193c940a75c4cee28928f15472f60.mp3]",
@@ -44,14 +47,21 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [
-      "ん"
-    ],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "surface": "required",
+      "teFormStemStart": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [
+        "ん"
+      ],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -76,9 +86,6 @@
   },
   "id": "016df599-150b-4bba-8463-270d4cffe49b",
   "tags": [
-    "-::vocab::matching::requires::surface",
-    "-::vocab::matching::requires::te-form-stem",
-    "-::vocab::matching::uses::prefix-is-not",
-    "-::vocab::register::polite"
+    "-::vocab::matching::uses::prefix-is-not"
   ]
 }

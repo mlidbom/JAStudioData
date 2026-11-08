@@ -16,6 +16,7 @@
     "うま"
   ],
   "partsOfSpeech": "い adjective",
+  "register": [],
   "audioB": "[sound:旨い_b.mp3]",
   "audioG": "[sound:旨い_g.mp3]",
   "audioTTS": "",
@@ -30,14 +31,22 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [
-      "うまく"
-    ],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "dictionaryFormStart": "forbidden",
+      "singleToken": "required",
+      "yieldLastTokenToOverlappingCompound": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [
+        "うまく"
+      ],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -55,9 +64,6 @@
   },
   "id": "569d292f-ec4a-42ea-a697-76ee3b5f1da3",
   "tags": [
-    "_uk",
-    "-::vocab::matching::forbids::dictionary_form_stem",
-    "-::vocab::matching::requires::single-token",
-    "-::vocab::matching::yield-last-token-to-upcoming-compound"
+    "_uk"
   ]
 }

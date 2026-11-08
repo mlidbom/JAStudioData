@@ -18,6 +18,7 @@
     "ていない"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-22105d8d124481a7b59b5fc97f0525d6250c48f2e4a39a1e44dd4805.mp3]",
@@ -32,12 +33,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "teFormStemStart": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -61,7 +68,6 @@
   },
   "id": "e15f35c4-0fb1-40f6-91ec-8bb97fef3f12",
   "tags": [
-    "_uk",
-    "-::vocab::matching::requires::te-form-stem"
+    "_uk"
   ]
 }

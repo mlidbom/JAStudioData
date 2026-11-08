@@ -18,6 +18,7 @@
     "てくる"
   ],
   "partsOfSpeech": "",
+  "register": [],
   "audioB": "[sound:hypertts-bf3f2d02185e4ac005f62f216dce3212e27b828c3534dcf29b2a81a1.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -32,14 +33,22 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [
-      "ん"
+  "matching": {
+    "requiredOrForbidden": {
+      "teFormStemStart": "required"
+    },
+    "flags": [
+      "isInflectingWord"
     ],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+    "rules": {
+      "prefixIsNot": [
+        "ん"
+      ],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -68,8 +77,6 @@
   "id": "5b3c1912-cb85-4252-b3bb-062b0be745bc",
   "tags": [
     "_uk",
-    "-::vocab::matching::is-inflecting-word",
-    "-::vocab::matching::requires::te-form-stem",
     "-::vocab::matching::uses::prefix-is-not"
   ]
 }

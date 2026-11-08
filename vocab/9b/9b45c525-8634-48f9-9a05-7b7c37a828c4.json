@@ -15,6 +15,7 @@
     "なる"
   ],
   "partsOfSpeech": "godan verb, intransitive",
+  "register": [],
   "audioB": "[sound:成る_b.mp3]",
   "audioG": "[sound:成る_g.mp3]",
   "audioTTS": "",
@@ -29,12 +30,18 @@
   "references": "<a href=\"https://www.japanesewithanime.com/2020/09/eventivizers.html?m=1\">Eventivizers | Japanese with Anime</a>",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isInflectingWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "する",
@@ -56,7 +63,6 @@
   "id": "9b45c525-8634-48f9-9a05-7b7c37a828c4",
   "tags": [
     "_uk",
-    "-::TODO::studio::vocab::matching::merge-prefixes-ni-ku-to",
-    "-::vocab::matching::is-inflecting-word"
+    "-::TODO::studio::vocab::matching::merge-prefixes-ni-ku-to"
   ]
 }

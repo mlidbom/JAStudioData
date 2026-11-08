@@ -18,6 +18,7 @@
     "いかんと"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-67a9e7e622cc754719956aa5e9920613634db005abd97b48e0272f76.mp3]",
@@ -36,12 +37,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "yieldLastTokenToOverlappingCompound": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -67,7 +74,5 @@
     "readingMnemonic": ""
   },
   "id": "d787b574-f662-4d00-bc52-6880a5cd3a1d",
-  "tags": [
-    "-::vocab::matching::yield-last-token-to-upcoming-compound"
-  ]
+  "tags": []
 }

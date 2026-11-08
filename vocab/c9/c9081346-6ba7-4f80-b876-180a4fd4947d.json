@@ -18,6 +18,7 @@
     "いっしゅうかん"
   ],
   "partsOfSpeech": "noun",
+  "register": [],
   "audioB": "[sound:yomichan_audio_いっしゅうかん_一週間_2023-09-15-03-37-29.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -32,12 +33,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isCompositionallyTransparentCompound"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -55,7 +62,6 @@
   },
   "id": "c9081346-6ba7-4f80-b876-180a4fd4947d",
   "tags": [
-    "-::vocab::is-compositionally-transparent-compound",
     "legacy_scheduling",
     "source::yomitan"
   ]

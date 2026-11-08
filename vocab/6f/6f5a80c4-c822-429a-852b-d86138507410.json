@@ -18,6 +18,7 @@
     "ねれる"
   ],
   "partsOfSpeech": "ichidan verb, intransitive",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-3c3be3e51a767293b9d754ef39dc1f8f69326b9ddd7df41008dd5133.mp3]",
@@ -27,12 +28,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isCompositionallyTransparentCompound"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -50,7 +57,6 @@
   },
   "id": "6f5a80c4-c822-429a-852b-d86138507410",
   "tags": [
-    "-::vocab::is-compositionally-transparent-compound",
     "source::jamdict"
   ]
 }

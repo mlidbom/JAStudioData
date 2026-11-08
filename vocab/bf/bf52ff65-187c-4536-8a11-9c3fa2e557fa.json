@@ -18,6 +18,7 @@
     "せきにんをもって"
   ],
   "partsOfSpeech": "adverb, expression",
+  "register": [],
   "audioB": "[sound:yomitan_audio_2025-06-17-12-44-18-646.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -27,12 +28,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isPoisonWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -50,7 +57,6 @@
   },
   "id": "bf52ff65-187c-4536-8a11-9c3fa2e557fa",
   "tags": [
-    "-::vocab::matching::is-poison-word",
     "source::yomitan"
   ]
 }

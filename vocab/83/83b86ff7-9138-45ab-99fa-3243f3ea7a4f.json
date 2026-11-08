@@ -18,6 +18,7 @@
     "ごほん"
   ],
   "partsOfSpeech": "noun",
+  "register": [],
   "audioB": "[sound:yomitan_audio_2025-11-17-10-15-00-940.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -27,12 +28,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isPoisonWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -51,7 +58,6 @@
   "id": "83b86ff7-9138-45ab-99fa-3243f3ea7a4f",
   "tags": [
     "-::vocab::has-no-studying-sentences",
-    "-::vocab::matching::is-poison-word",
     "source::yomitan"
   ]
 }

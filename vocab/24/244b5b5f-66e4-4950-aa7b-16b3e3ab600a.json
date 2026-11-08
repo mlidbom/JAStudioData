@@ -18,6 +18,7 @@
     "がなく"
   ],
   "partsOfSpeech": "adverb",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-8e408d0c8771de03843947097166fc9ee5ac596866116d901f8e38c9.mp3]",
@@ -27,12 +28,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "surface": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -51,7 +58,5 @@
     "readingMnemonic": ""
   },
   "id": "244b5b5f-66e4-4950-aa7b-16b3e3ab600a",
-  "tags": [
-    "-::vocab::matching::requires::surface"
-  ]
+  "tags": []
 }

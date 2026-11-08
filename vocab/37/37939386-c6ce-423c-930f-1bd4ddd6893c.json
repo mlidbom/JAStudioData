@@ -18,6 +18,7 @@
     "まちがいない"
   ],
   "partsOfSpeech": "i-adjective",
+  "register": [],
   "audioB": "[sound:yomitan_audio_2025-02-29-21-40-35-345.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -36,12 +37,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "surface": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -59,7 +66,6 @@
   },
   "id": "37939386-c6ce-423c-930f-1bd4ddd6893c",
   "tags": [
-    "-::vocab::matching::requires::surface",
     "source::yomitan"
   ]
 }

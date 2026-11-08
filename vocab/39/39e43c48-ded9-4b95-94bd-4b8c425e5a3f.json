@@ -15,6 +15,7 @@
     "っぱなし"
   ],
   "partsOfSpeech": "suffix",
+  "register": [],
   "audioB": "[sound:rec1717853012.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -33,12 +34,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isInflectingWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -57,7 +64,6 @@
   "id": "39e43c48-ded9-4b95-94bd-4b8c425e5a3f",
   "tags": [
     "_uk",
-    "-::vocab::matching::is-inflecting-word",
     "legacy_scheduling",
     "source::yomitan"
   ]

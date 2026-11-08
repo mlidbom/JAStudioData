@@ -15,6 +15,7 @@
     "でよ"
   ],
   "partsOfSpeech": "expression, particle",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-ccb875308d93e3294ed7cda47b71134edcfcc22e3ec7e5aa9b85bb9e.mp3]",
@@ -33,14 +34,20 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [
-      "ない"
-    ],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "teFormStemStart": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [
+        "ない"
+      ],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -59,7 +66,6 @@
   "id": "02a60f3b-0da5-4208-8b07-589754a6e8c2",
   "tags": [
     "_uk",
-    "-::vocab::matching::requires::te-form-stem",
     "-::vocab::matching::uses::prefix-is-not"
   ]
 }

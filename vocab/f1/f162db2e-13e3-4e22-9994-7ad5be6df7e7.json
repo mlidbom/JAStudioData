@@ -16,6 +16,7 @@
   },
   "readings": [],
   "partsOfSpeech": "",
+  "register": [],
   "audioB": "[sound:A_Girls'_Last_Tour_S01_05_0.03.23.828-0.03.24.662.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -25,12 +26,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "godanImperative": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -48,7 +55,6 @@
   },
   "id": "f162db2e-13e3-4e22-9994-7ad5be6df7e7",
   "tags": [
-    "-::vocab::matching::requires::godan_imperative",
     "tmp::godan_imperative"
   ]
 }

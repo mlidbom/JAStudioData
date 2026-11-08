@@ -16,6 +16,7 @@
     "ウツびょう"
   ],
   "partsOfSpeech": "noun",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-9616ce8bc7620bf756651442a8418b4cbedaa727405e8e0ff21f5543.mp3]",
@@ -25,12 +26,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "dictionaryFormStart": "forbidden"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -49,7 +56,6 @@
   "id": "c42972dd-92af-40b7-8ea2-11707b01c9da",
   "tags": [
     "-::vocab::has-no-studying-sentences",
-    "-::vocab::matching::forbids::dictionary_form_stem",
     "source::jamdict"
   ]
 }

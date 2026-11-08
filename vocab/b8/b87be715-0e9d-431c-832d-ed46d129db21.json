@@ -18,6 +18,7 @@
     "うとする"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-a8665c07a139ee4a5464ce1fe7836fe7f84df755def6a542d76b78ab.mp3]",
@@ -27,12 +28,22 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "dictionaryFormStart": "required",
+      "surface": "required",
+      "yieldLastTokenToOverlappingCompound": "required"
+    },
+    "flags": [
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -53,10 +64,5 @@
     "readingMnemonic": ""
   },
   "id": "b87be715-0e9d-431c-832d-ed46d129db21",
-  "tags": [
-    "-::vocab::matching::requires::dictionary_form_stem",
-    "-::vocab::matching::requires::surface",
-    "-::vocab::matching::yield-last-token-to-upcoming-compound",
-    "-::vocab::question-overrides-form"
-  ]
+  "tags": []
 }

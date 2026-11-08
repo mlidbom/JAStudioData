@@ -19,6 +19,7 @@
     "えばいいものを"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-c17249e61e98a1a55c6f20937dfab16fa7068b408fca115cc6c52661.mp3]",
@@ -49,12 +50,20 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "sentenceEnd": "required"
+    },
+    "flags": [
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -71,8 +80,5 @@
     "readingMnemonic": ""
   },
   "id": "a23e3749-cf5d-41c0-b5cb-d74102b15e5c",
-  "tags": [
-    "-::vocab::matching::requires::sentence-end",
-    "-::vocab::question-overrides-form"
-  ]
+  "tags": []
 }

@@ -17,6 +17,7 @@
     "とまれ"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "[sound:yomitan_audio_2025-11-13-01-51-09-213.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -26,12 +27,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isCompositionallyTransparentCompound"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -49,7 +56,6 @@
   },
   "id": "daed3565-10b1-4dc7-b11d-979105005292",
   "tags": [
-    "-::vocab::is-compositionally-transparent-compound",
     "source::yomitan"
   ]
 }

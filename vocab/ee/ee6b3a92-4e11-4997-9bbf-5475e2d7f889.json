@@ -18,6 +18,7 @@
     "なくなった"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-13673cb5246ee1def0ea23e8700c7cffaef06bc3ca979f91900faa1c.mp3]",
@@ -32,12 +33,21 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "irrealis": "forbidden",
+      "surface": "required"
+    },
+    "flags": [
+      "isInflectingWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -54,9 +64,5 @@
     "readingMnemonic": ""
   },
   "id": "ee6b3a92-4e11-4997-9bbf-5475e2d7f889",
-  "tags": [
-    "-::vocab::matching::forbids::irrealis",
-    "-::vocab::matching::is-inflecting-word",
-    "-::vocab::matching::requires::surface"
-  ]
+  "tags": []
 }

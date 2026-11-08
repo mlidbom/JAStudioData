@@ -15,6 +15,7 @@
     "とも"
   ],
   "partsOfSpeech": "ichidan verb",
+  "register": [],
   "audioB": "[sound:yomitan_audio_2024-08-02-05-17-03-361.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -29,12 +30,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "singleToken": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -53,7 +60,6 @@
   "id": "27123349-c061-488b-bd29-d668f3082ed3",
   "tags": [
     "_uk",
-    "-::vocab::matching::requires::single-token",
     "source::yomitan"
   ]
 }

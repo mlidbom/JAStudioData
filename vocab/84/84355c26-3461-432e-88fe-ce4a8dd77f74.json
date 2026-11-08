@@ -15,6 +15,7 @@
     "たまえ"
   ],
   "partsOfSpeech": "suffix",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-41e57cb37c310ca15820b11c439f81dcde1e3bc416eb160058b50bee.mp3]",
@@ -29,12 +30,20 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "masuStem": "required"
+    },
+    "flags": [
+      "isInflectingWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -53,8 +62,6 @@
   "id": "84355c26-3461-432e-88fe-ce4a8dd77f74",
   "tags": [
     "_uk",
-    "-::vocab::matching::is-inflecting-word",
-    "-::vocab::matching::requires::masu_stem",
     "source::yomitan"
   ]
 }

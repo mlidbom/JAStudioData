@@ -18,6 +18,7 @@
     "きをつけて"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "[sound:気を付けて_b.mp3]",
   "audioG": "[sound:気を付けて_g.mp3]",
   "audioTTS": "",
@@ -32,12 +33,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "yieldLastTokenToOverlappingCompound": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -55,7 +62,6 @@
   },
   "id": "608319b6-eb61-42d2-bd71-c001a7f2a12e",
   "tags": [
-    "-::vocab::matching::yield-last-token-to-upcoming-compound",
     "source::wani::level::09"
   ]
 }

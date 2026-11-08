@@ -18,6 +18,7 @@
     "ちゃってた"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-d68d70ccc106809aee25d3d3b8919c40cdbc8a9055f060ecdab0abf1.mp3]",
@@ -32,12 +33,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isInflectingWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -56,7 +63,5 @@
     "readingMnemonic": ""
   },
   "id": "c9d6e7d9-ec09-448f-a191-900b38cc7782",
-  "tags": [
-    "-::vocab::matching::is-inflecting-word"
-  ]
+  "tags": []
 }

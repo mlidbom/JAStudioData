@@ -19,6 +19,7 @@
     "うまくやっていく"
   ],
   "partsOfSpeech": "godan verb",
+  "register": [],
   "audioB": "[sound:yomitan_audio_2025-03-02-08-44-14-757.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -37,12 +38,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "dictionaryFormStart": "forbidden"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -61,7 +68,6 @@
   "id": "6120b70c-39d2-4895-83b9-3007296b61b4",
   "tags": [
     "_uk",
-    "-::vocab::matching::forbids::dictionary_form_stem",
     "source::yomitan"
   ]
 }

@@ -18,6 +18,7 @@
     "うざがる"
   ],
   "partsOfSpeech": "godan verb",
+  "register": [],
   "audioB": "[sound:yomitan_audio_2024-06-09-17-37-53-867.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -32,12 +33,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "dictionaryFormStart": "forbidden"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -56,7 +63,6 @@
   "id": "32521c3d-2af7-4fd4-a197-041457049390",
   "tags": [
     "_uk",
-    "-::vocab::matching::forbids::dictionary_form_stem",
     "legacy_scheduling",
     "source::yomitan"
   ]

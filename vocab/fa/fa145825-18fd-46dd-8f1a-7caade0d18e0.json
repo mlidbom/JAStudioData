@@ -16,6 +16,7 @@
   },
   "readings": [],
   "partsOfSpeech": "",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-617ceb5b7bd7b44042e2252270830780efff641f266517589f5c2984.mp3]",
@@ -38,12 +39,19 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "masuStem": "forbidden",
+      "surface": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -60,8 +68,5 @@
     "readingMnemonic": ""
   },
   "id": "fa145825-18fd-46dd-8f1a-7caade0d18e0",
-  "tags": [
-    "-::vocab::matching::forbids::masu_stem",
-    "-::vocab::matching::requires::surface"
-  ]
+  "tags": []
 }

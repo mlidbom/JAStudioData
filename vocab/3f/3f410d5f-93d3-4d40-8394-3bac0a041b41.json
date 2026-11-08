@@ -21,6 +21,7 @@
     "のではないか"
   ],
   "partsOfSpeech": "",
+  "register": [],
   "audioB": " [sound:ATTS のではないか (azure microsoft server speech text to speech voice (ja-jp daichineural)).mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -30,12 +31,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "yieldLastTokenToOverlappingCompound": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -58,7 +65,6 @@
   "id": "3f410d5f-93d3-4d40-8394-3bac0a041b41",
   "tags": [
     "_tts_audio",
-    "-::vocab::matching::yield-last-token-to-upcoming-compound",
     "source::yomitan"
   ]
 }

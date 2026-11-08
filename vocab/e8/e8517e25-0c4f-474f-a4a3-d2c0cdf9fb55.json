@@ -16,6 +16,7 @@
     "てよい"
   ],
   "partsOfSpeech": "",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "",
@@ -25,12 +26,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "surface": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -48,7 +55,6 @@
   },
   "id": "e8517e25-0c4f-474f-a4a3-d2c0cdf9fb55",
   "tags": [
-    "-::vocab::matching::requires::surface",
     "source::jamdict"
   ]
 }

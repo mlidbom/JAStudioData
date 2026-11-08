@@ -18,6 +18,7 @@
     "あせれば"
   ],
   "partsOfSpeech": "auxiliary, ichidan verb",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-0934f612c70e392dc6d2804942679588df06395d4a76b3a5cc3e4ffb.mp3]",
@@ -32,12 +33,23 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "ichidan": "forbidden",
+      "irrealis": "required",
+      "yieldLastTokenToOverlappingCompound": "required"
+    },
+    "flags": [
+      "isInflectingWord",
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -61,11 +73,6 @@
   },
   "id": "16e64608-e539-42e2-9646-450d42e1c291",
   "tags": [
-    "_uk",
-    "-::vocab::matching::forbids::ichidan",
-    "-::vocab::matching::is-inflecting-word",
-    "-::vocab::matching::requires::irrealis",
-    "-::vocab::matching::yield-last-token-to-upcoming-compound",
-    "-::vocab::question-overrides-form"
+    "_uk"
   ]
 }

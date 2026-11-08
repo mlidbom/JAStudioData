@@ -18,6 +18,7 @@
     "よいしょする"
   ],
   "partsOfSpeech": "suru verb",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-0daf220d6b3db8484f543c34ba0eeba7289460bfb31cc244a8243220.mp3]",
@@ -36,12 +37,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "yieldLastTokenToOverlappingCompound": "forbidden"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -58,7 +65,5 @@
     "readingMnemonic": ""
   },
   "id": "88a424fb-d1e0-477f-899e-9f1844645bf8",
-  "tags": [
-    "-::vocab::matching::forbids::auto_yielding"
-  ]
+  "tags": []
 }

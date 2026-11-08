@@ -15,6 +15,7 @@
     "いるか"
   ],
   "partsOfSpeech": "noun",
+  "register": [],
   "audioB": "[sound:yomitan_audio_2025-07-03-01-19-50-878.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -33,12 +34,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "singleToken": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -57,7 +64,6 @@
   "id": "48acc32a-3ff8-479b-8594-7bedb3dc63ed",
   "tags": [
     "_uk",
-    "-::vocab::has-no-studying-sentences",
-    "-::vocab::matching::requires::single-token"
+    "-::vocab::has-no-studying-sentences"
   ]
 }

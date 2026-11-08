@@ -15,6 +15,7 @@
     "ったい"
   ],
   "partsOfSpeech": "",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-dd1f854c974d07abf9553748340901a71939c98a8f48aa7a1a1100db.mp3]",
@@ -24,12 +25,20 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "surface": "required"
+    },
+    "flags": [
+      "isPoisonWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -50,8 +59,6 @@
   "id": "a35cbe2a-817f-49da-b066-57ead9a6215e",
   "tags": [
     "_uk",
-    "-::vocab::has-no-studying-sentences",
-    "-::vocab::matching::is-poison-word",
-    "-::vocab::matching::requires::surface"
+    "-::vocab::has-no-studying-sentences"
   ]
 }

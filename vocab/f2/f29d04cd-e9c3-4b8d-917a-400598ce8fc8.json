@@ -18,6 +18,7 @@
     "おうとして"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-e9d977a452bab1ff8f4cedb42992f28ac155389002b050fa23acba26.mp3]",
@@ -36,15 +37,23 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [
-      "い",
-      "る"
+  "matching": {
+    "requiredOrForbidden": {
+      "yieldLastTokenToOverlappingCompound": "required"
+    },
+    "flags": [
+      "questionOverridesForm"
     ],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [
+        "い",
+        "る"
+      ],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -63,8 +72,6 @@
   "id": "f29d04cd-e9c3-4b8d-917a-400598ce8fc8",
   "tags": [
     "-::TODO::studio::vocab::matching::requires-and-includes::preceding-vowel",
-    "-::vocab::matching::uses::suffix-is-not",
-    "-::vocab::matching::yield-last-token-to-upcoming-compound",
-    "-::vocab::question-overrides-form"
+    "-::vocab::matching::uses::suffix-is-not"
   ]
 }

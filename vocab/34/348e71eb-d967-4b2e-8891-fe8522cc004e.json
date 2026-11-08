@@ -18,6 +18,7 @@
     "んでいられる"
   ],
   "partsOfSpeech": "expression, ichidan verb",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-69640ab89275953b713d5a3fa6f1fe1512c4f1f3e39044b79e901c52.mp3]",
@@ -32,14 +33,22 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": [
-      "ん"
-    ]
+  "matching": {
+    "requiredOrForbidden": {
+      "teFormStemStart": "required"
+    },
+    "flags": [
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": [
+        "ん"
+      ]
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -66,8 +75,6 @@
   "id": "348e71eb-d967-4b2e-8891-fe8522cc004e",
   "tags": [
     "_uk",
-    "-::vocab::matching::requires::te-form-stem",
-    "-::vocab::matching::uses::required-prefix",
-    "-::vocab::question-overrides-form"
+    "-::vocab::matching::uses::required-prefix"
   ]
 }

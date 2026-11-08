@@ -18,6 +18,7 @@
     "いでる"
   ],
   "partsOfSpeech": "auxiliary, ichidan verb",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-d37ce912dc7f0c7be0cc2c58e3316b9b868624a99740b0c0be206552.mp3]",
@@ -32,16 +33,23 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [
-      "ない"
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isInflectingWord",
+      "questionOverridesForm"
     ],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": [
-      "い"
-    ]
+    "rules": {
+      "prefixIsNot": [
+        "ない"
+      ],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": [
+        "い"
+      ]
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -103,9 +111,7 @@
   },
   "id": "81fa2832-6803-44e6-aed5-eef013848cf3",
   "tags": [
-    "-::vocab::matching::is-inflecting-word",
     "-::vocab::matching::uses::prefix-is-not",
-    "-::vocab::matching::uses::required-prefix",
-    "-::vocab::question-overrides-form"
+    "-::vocab::matching::uses::required-prefix"
   ]
 }

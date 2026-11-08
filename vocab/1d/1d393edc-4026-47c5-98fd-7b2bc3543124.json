@@ -18,6 +18,7 @@
     "みられる"
   ],
   "partsOfSpeech": "expression, ichidan verb",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-f3a3c14976b7fd48e4322ebea6d71a72616669ff4f0768f41bcd7120.mp3]",
@@ -27,12 +28,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isPoisonWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -51,7 +58,6 @@
   "id": "1d393edc-4026-47c5-98fd-7b2bc3543124",
   "tags": [
     "-::vocab::has-no-studying-sentences",
-    "-::vocab::matching::is-poison-word",
     "source::jamdict"
   ]
 }

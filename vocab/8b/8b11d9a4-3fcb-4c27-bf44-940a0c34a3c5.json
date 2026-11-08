@@ -18,6 +18,7 @@
     "がいしゅつちゅう"
   ],
   "partsOfSpeech": "noun",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-130e9fcafa0b4a4ded600847e03e333fdf153929f6fbe8299b4aef55.mp3]",
@@ -27,12 +28,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isCompositionallyTransparentCompound"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -50,7 +57,6 @@
   },
   "id": "8b11d9a4-3fcb-4c27-bf44-940a0c34a3c5",
   "tags": [
-    "-::vocab::is-compositionally-transparent-compound",
     "source::jamdict"
   ]
 }

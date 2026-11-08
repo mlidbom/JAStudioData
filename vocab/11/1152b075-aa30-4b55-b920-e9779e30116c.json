@@ -18,6 +18,7 @@
     "わけて"
   ],
   "partsOfSpeech": "adverb",
+  "register": [],
   "audioB": "[sound:yomitan_audio_2025-07-31-19-35-38-527.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -36,12 +37,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isPoisonWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -60,7 +67,6 @@
   "id": "1152b075-aa30-4b55-b920-e9779e30116c",
   "tags": [
     "-::vocab::has-no-studying-sentences",
-    "-::vocab::matching::is-poison-word",
     "source::yomitan"
   ]
 }

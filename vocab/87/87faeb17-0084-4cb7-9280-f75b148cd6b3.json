@@ -20,6 +20,7 @@
     "じゃないか"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "[sound:yomitan_audio_2024-08-29-17-20-05-068.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -34,12 +35,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "sentenceEnd": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -60,7 +67,6 @@
   "id": "87faeb17-0084-4cb7-9280-f75b148cd6b3",
   "tags": [
     "_uk",
-    "-::vocab::matching::requires::sentence-end",
     "source::yomitan"
   ]
 }

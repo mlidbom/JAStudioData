@@ -15,6 +15,7 @@
     "うだうだ"
   ],
   "partsOfSpeech": "adverb, suru verb",
+  "register": [],
   "audioB": "[sound:yomitan_audio_2025-05-21-17-28-56-826.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -29,12 +30,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "dictionaryFormStart": "forbidden"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -53,7 +60,6 @@
   "id": "b0d35e7b-5c2c-4a57-8fde-0a2f4f84285b",
   "tags": [
     "_uk",
-    "-::vocab::matching::forbids::dictionary_form_stem",
     "source::yomitan"
   ]
 }

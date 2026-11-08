@@ -19,6 +19,7 @@
     "ようともがく"
   ],
   "partsOfSpeech": "",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-8028d6b8b17a15ef80d5e839c26d285c23c2944bf20faa86a516772d.mp3]",
@@ -37,12 +38,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -59,7 +66,5 @@
     "readingMnemonic": ""
   },
   "id": "6e1d91e5-81ce-4cc7-9dd0-d5863438dbe3",
-  "tags": [
-    "-::vocab::question-overrides-form"
-  ]
+  "tags": []
 }

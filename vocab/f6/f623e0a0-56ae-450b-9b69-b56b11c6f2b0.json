@@ -18,6 +18,7 @@
     "バドミントンぶ"
   ],
   "partsOfSpeech": "noun",
+  "register": [],
   "audioB": "[sound:yomitan_audio_2026-00-11-07-17-52-869.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -27,12 +28,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isCompositionallyTransparentCompound"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -50,7 +57,6 @@
   },
   "id": "f623e0a0-56ae-450b-9b69-b56b11c6f2b0",
   "tags": [
-    "-::vocab::is-compositionally-transparent-compound",
     "source::yomitan"
   ]
 }

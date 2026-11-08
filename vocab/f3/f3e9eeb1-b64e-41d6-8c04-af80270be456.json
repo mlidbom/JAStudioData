@@ -18,6 +18,7 @@
     "おうとする"
   ],
   "partsOfSpeech": "suru verb",
+  "register": [],
   "audioB": "[sound:hypertts-bbe44533abd1b1e49c1c3a2698c5c3ea513ce4fa2df1578b387b0b76.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -36,12 +37,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -58,7 +65,5 @@
     "readingMnemonic": ""
   },
   "id": "f3e9eeb1-b64e-41d6-8c04-af80270be456",
-  "tags": [
-    "-::vocab::question-overrides-form"
-  ]
+  "tags": []
 }

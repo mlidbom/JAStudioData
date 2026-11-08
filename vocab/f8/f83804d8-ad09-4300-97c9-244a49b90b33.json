@@ -18,6 +18,7 @@
     "てたら"
   ],
   "partsOfSpeech": "",
+  "register": [],
   "audioB": "[sound:hypertts-afdd030113b8e788dc6ce75cb0f97716ddeea411d56ffb7338a66316.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -32,12 +33,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "surface": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -55,7 +62,6 @@
   },
   "id": "f83804d8-ad09-4300-97c9-244a49b90b33",
   "tags": [
-    "_uk",
-    "-::vocab::matching::requires::surface"
+    "_uk"
   ]
 }

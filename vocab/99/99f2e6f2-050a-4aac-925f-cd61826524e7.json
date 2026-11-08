@@ -18,6 +18,7 @@
     "こい"
   ],
   "partsOfSpeech": "interjection",
+  "register": [],
   "audioB": "[sound:hypertts-bd6067708e45c193ba7e1fed7277bf050f6f9362401d099811024d97.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -32,12 +33,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "surface": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -55,7 +62,6 @@
   },
   "id": "99f2e6f2-050a-4aac-925f-cd61826524e7",
   "tags": [
-    "-::vocab::matching::requires::surface",
     "source::yomitan"
   ]
 }

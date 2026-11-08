@@ -18,6 +18,7 @@
     "とんで"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "[sound:yomitan_audio_2025-05-06-20-22-39-738.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -27,12 +28,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isPoisonWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -51,7 +58,6 @@
   "id": "ef31a8b2-32ea-4634-9932-63c73f2d3e96",
   "tags": [
     "-::vocab::has-no-studying-sentences",
-    "-::vocab::matching::is-poison-word",
     "source::yomitan"
   ]
 }

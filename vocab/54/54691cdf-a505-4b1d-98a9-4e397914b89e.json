@@ -15,6 +15,10 @@
     "あねじゃ"
   ],
   "partsOfSpeech": "noun",
+  "register": [
+    "archaic",
+    "honorific"
+  ],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-3aa03797d1e68dfd7309827eee418deaa991728b1e57f8466f906e1c.mp3]",
@@ -24,12 +28,16 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -47,8 +55,6 @@
   },
   "id": "54691cdf-a505-4b1d-98a9-4e397914b89e",
   "tags": [
-    "-::vocab::register::archaic",
-    "-::vocab::register::honorific",
     "source::jamdict"
   ]
 }

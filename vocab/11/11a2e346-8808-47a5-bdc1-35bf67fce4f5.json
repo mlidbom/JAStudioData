@@ -18,6 +18,7 @@
     "てしにそう"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-6743d36acd9574e0ea20bb65b84f313486cd61e73a83e30311f99b7d.mp3]",
@@ -32,12 +33,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "teFormStemStart": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -54,7 +61,5 @@
     "readingMnemonic": ""
   },
   "id": "11a2e346-8808-47a5-bdc1-35bf67fce4f5",
-  "tags": [
-    "-::vocab::matching::requires::te-form-stem"
-  ]
+  "tags": []
 }

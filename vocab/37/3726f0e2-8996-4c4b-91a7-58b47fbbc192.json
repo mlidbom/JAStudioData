@@ -18,6 +18,7 @@
     "これる"
   ],
   "partsOfSpeech": "ichidan verb",
+  "register": [],
   "audioB": "[sound:hypertts-cd490d24f9e5cec6e28b520edc7b1471163ad32276d9b04fd5fc1b6d.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -27,12 +28,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isPoisonWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -51,7 +58,6 @@
   "id": "3726f0e2-8996-4c4b-91a7-58b47fbbc192",
   "tags": [
     "-::vocab::has-no-studying-sentences",
-    "-::vocab::matching::is-poison-word",
     "source::yomitan",
     "tmp::godan-potential"
   ]

@@ -15,6 +15,7 @@
     "たし"
   ],
   "partsOfSpeech": "adjective, auxiliary",
+  "register": [],
   "audioB": "[sound:hypertts-be27f2701de7f238ac616df5377b8fbe067f1fcced85be528e074aa4.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -24,12 +25,20 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "singleToken": "required"
+    },
+    "flags": [
+      "isInflectingWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -49,8 +58,6 @@
   "tags": [
     "_uk",
     "-::vocab::has-no-studying-sentences",
-    "-::vocab::matching::is-inflecting-word",
-    "-::vocab::matching::requires::single-token",
     "source::yomitan"
   ]
 }

@@ -18,6 +18,7 @@
     "んでる"
   ],
   "partsOfSpeech": "auxiliary, ichidan verb",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-924d661bf005d64ec5f496a75da7b56150a909ceb36b22e7c405e657.mp3]",
@@ -32,14 +33,21 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": [
-      "ん"
-    ]
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isInflectingWord",
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": [
+        "ん"
+      ]
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -102,8 +110,6 @@
   "id": "122858f3-88c0-4d86-ade6-97d9d00aa230",
   "tags": [
     "_uk",
-    "-::vocab::matching::is-inflecting-word",
-    "-::vocab::matching::uses::required-prefix",
-    "-::vocab::question-overrides-form"
+    "-::vocab::matching::uses::required-prefix"
   ]
 }

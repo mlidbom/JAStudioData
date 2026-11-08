@@ -18,6 +18,7 @@
     "いやなおもいをする"
   ],
   "partsOfSpeech": "suru verb",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-36cab5a0301a1a49b2dc33949438ab2873ca8755063e999cb7be1659.mp3]",
@@ -27,12 +28,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "yieldLastTokenToOverlappingCompound": "forbidden"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -50,7 +57,6 @@
   },
   "id": "6b3db36e-b9e0-4aba-a73f-3b750a0d3f93",
   "tags": [
-    "-::vocab::matching::forbids::auto_yielding",
     "source::yomitan"
   ]
 }

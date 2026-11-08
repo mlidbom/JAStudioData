@@ -18,6 +18,7 @@
     "ていい"
   ],
   "partsOfSpeech": "expression, i-adjective",
+  "register": [],
   "audioB": "[sound:hypertts-b0e77717962e35ad2a1bc50c807862c584faa8ca4115de67def289e9.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -40,14 +41,21 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [
-      "ん"
-    ],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "surface": "required",
+      "teFormStemStart": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [
+        "ん"
+      ],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -73,8 +81,6 @@
   "id": "a22fde3b-6744-434a-ac2e-96754b1ad3aa",
   "tags": [
     "_uk",
-    "-::vocab::matching::requires::surface",
-    "-::vocab::matching::requires::te-form-stem",
     "-::vocab::matching::uses::prefix-is-not",
     "source::yomitan"
   ]

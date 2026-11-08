@@ -18,6 +18,7 @@
     "くらいなら"
   ],
   "partsOfSpeech": "auxiliary, expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-b732c2782a5956246906df9d094a289c86c76e956d9703548a838b5e.mp3]",
@@ -32,12 +33,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "dictionaryFormHead": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -56,7 +63,6 @@
   "id": "e280c963-2204-4cd1-8800-56eb36753a91",
   "tags": [
     "_uk",
-    "-::vocab::matching::requires::dictionary_form_prefix",
     "source::jamdict"
   ]
 }

@@ -15,6 +15,7 @@
     "てよ"
   ],
   "partsOfSpeech": "expression, particle",
+  "register": [],
   "audioB": "[sound:hypertts-fb0f620d57aaf87206ceb198ad83468f5630b2d34dfd7bcf10706acd.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -33,14 +34,20 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [
-      "ない"
-    ],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "teFormStemStart": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [
+        "ない"
+      ],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -59,7 +66,6 @@
   "id": "4104e2c9-122d-46d9-b3a0-7f7e1aa8caa3",
   "tags": [
     "_uk",
-    "-::vocab::matching::requires::te-form-stem",
     "-::vocab::matching::uses::prefix-is-not",
     "source::yomitan"
   ]

@@ -18,6 +18,7 @@
     "うべし"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-3d78b83ac9ea8eb609db714db9595e9e803cfd8c45ae89a136f7dfb0.mp3]",
@@ -27,12 +28,19 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "dictionaryFormStart": "required",
+      "surface": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -55,8 +63,5 @@
     "readingMnemonic": ""
   },
   "id": "828113c9-6c7d-4f18-867c-eff04dd841ec",
-  "tags": [
-    "-::vocab::matching::requires::dictionary_form_stem",
-    "-::vocab::matching::requires::surface"
-  ]
+  "tags": []
 }

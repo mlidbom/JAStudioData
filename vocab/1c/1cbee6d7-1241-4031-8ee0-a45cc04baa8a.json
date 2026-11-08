@@ -18,6 +18,7 @@
     "あせてもらった"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-c9528e620468d1374b67a1fb031e57e89961bfeb931cb78eb678fa27.mp3]",
@@ -32,12 +33,22 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "ichidan": "forbidden",
+      "irrealis": "required",
+      "surface": "required"
+    },
+    "flags": [
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -58,10 +69,5 @@
     "readingMnemonic": ""
   },
   "id": "1cbee6d7-1241-4031-8ee0-a45cc04baa8a",
-  "tags": [
-    "-::vocab::matching::forbids::ichidan",
-    "-::vocab::matching::requires::irrealis",
-    "-::vocab::matching::requires::surface",
-    "-::vocab::question-overrides-form"
-  ]
+  "tags": []
 }

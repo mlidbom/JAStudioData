@@ -18,6 +18,7 @@
     "いちじかん"
   ],
   "partsOfSpeech": "noun",
+  "register": [],
   "audioB": "[sound:yomitan_audio_2024-08-29-20-20-06-513.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -32,12 +33,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "yieldLastTokenToOverlappingCompound": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -55,7 +62,6 @@
   },
   "id": "f2374b8e-2c76-46cd-8f68-167ffd01893b",
   "tags": [
-    "-::vocab::matching::yield-last-token-to-upcoming-compound",
     "source::yomitan"
   ]
 }

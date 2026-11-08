@@ -15,6 +15,7 @@
     "そうとも"
   ],
   "partsOfSpeech": "interjection",
+  "register": [],
   "audioB": "[sound:hypertts-a02d3d2c3142df9fe7f8f3256c4ed289ba3b7af35fc62254160391d9.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -29,12 +30,19 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "sentenceEnd": "required",
+      "sentenceStart": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -53,8 +61,5 @@
     "readingMnemonic": ""
   },
   "id": "a72c9e93-8547-4dba-8aa4-22618e2ea55d",
-  "tags": [
-    "-::vocab::matching::requires::sentence-end",
-    "-::vocab::matching::requires::sentence-start"
-  ]
+  "tags": []
 }

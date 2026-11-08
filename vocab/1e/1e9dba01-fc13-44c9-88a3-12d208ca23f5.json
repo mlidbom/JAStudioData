@@ -18,6 +18,7 @@
     "よって"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-5c2e1e0cda8c6bf43a658577de5ee684fa727dbcd0146875775427d2.mp3]",
@@ -44,12 +45,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "masuStem": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -67,7 +74,6 @@
   },
   "id": "1e9dba01-fc13-44c9-88a3-12d208ca23f5",
   "tags": [
-    "_uk",
-    "-::vocab::matching::requires::masu_stem"
+    "_uk"
   ]
 }

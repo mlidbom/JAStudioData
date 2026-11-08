@@ -15,6 +15,7 @@
     "おお"
   ],
   "partsOfSpeech": "interjection",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-bc4072b0540658b1968cd31088bcf591a2961ad9e6d934e9cad3def7.mp3]",
@@ -37,12 +38,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "sentenceStart": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -63,7 +70,6 @@
   "id": "46d33b41-ac65-4898-9e95-d7265b801491",
   "tags": [
     "_uk",
-    "-::vocab::matching::requires::sentence-start",
     "source::yomitan"
   ]
 }

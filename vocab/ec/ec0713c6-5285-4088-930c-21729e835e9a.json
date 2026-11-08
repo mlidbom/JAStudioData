@@ -18,6 +18,7 @@
     "じゃおう"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-fe0ffae9fd08be5725ec0d42060503162b23ac4cfdc7be8c5867ac87.mp3]",
@@ -27,12 +28,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -52,7 +59,6 @@
   },
   "id": "ec0713c6-5285-4088-930c-21729e835e9a",
   "tags": [
-    "_uk",
-    "-::vocab::question-overrides-form"
+    "_uk"
   ]
 }

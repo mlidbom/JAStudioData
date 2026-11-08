@@ -18,6 +18,7 @@
     "えばいい"
   ],
   "partsOfSpeech": "",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-027ed1cb44fb79f5c2fc48e47a75b4936df2a972553efb3f5c64ab9a.mp3]",
@@ -32,12 +33,20 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "yieldLastTokenToOverlappingCompound": "required"
+    },
+    "flags": [
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -57,8 +66,6 @@
   },
   "id": "9ae62c3e-3e86-40a6-a844-38842f8a83f1",
   "tags": [
-    "_uk",
-    "-::vocab::matching::yield-last-token-to-upcoming-compound",
-    "-::vocab::question-overrides-form"
+    "_uk"
   ]
 }

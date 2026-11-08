@@ -18,6 +18,7 @@
     "かいかえる"
   ],
   "partsOfSpeech": "ichidan verb, transitive",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-928afe61a45b171358067ca756a1545d3f7f5b2ca653c3fe7b509dd7.mp3]",
@@ -36,12 +37,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isCompositionallyTransparentCompound"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -59,7 +66,6 @@
   },
   "id": "9fdb8682-52eb-4bc6-a705-f557dcab16dc",
   "tags": [
-    "-::vocab::is-compositionally-transparent-compound",
     "source::jamdict"
   ]
 }

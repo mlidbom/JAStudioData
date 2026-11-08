@@ -15,6 +15,7 @@
     "くなる"
   ],
   "partsOfSpeech": "",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-e8a13e456f559e48af19c69afed09a198a031830315a8896d5bd64f9.mp3]",
@@ -29,14 +30,21 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": [
-      "く"
-    ]
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isInflectingWord",
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": [
+        "く"
+      ]
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -57,8 +65,6 @@
   "id": "5e454100-4f1d-409b-9179-8389a310630c",
   "tags": [
     "_uk",
-    "-::vocab::matching::is-inflecting-word",
-    "-::vocab::matching::uses::required-prefix",
-    "-::vocab::question-overrides-form"
+    "-::vocab::matching::uses::required-prefix"
   ]
 }

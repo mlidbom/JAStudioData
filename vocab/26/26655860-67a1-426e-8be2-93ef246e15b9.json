@@ -18,6 +18,7 @@
     "てもらえる"
   ],
   "partsOfSpeech": "auxiliary",
+  "register": [],
   "audioB": "[sound:hypertts-b76b8b7784eca3bec3a03fd1fafd0ce936cf7d5c69b03965549482a5.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -32,12 +33,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isInflectingWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -54,7 +61,5 @@
     "readingMnemonic": ""
   },
   "id": "26655860-67a1-426e-8be2-93ef246e15b9",
-  "tags": [
-    "-::vocab::matching::is-inflecting-word"
-  ]
+  "tags": []
 }

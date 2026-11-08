@@ -15,6 +15,7 @@
     "とんだ"
   ],
   "partsOfSpeech": "adverb, pre-noun-adjectival",
+  "register": [],
   "audioB": "[sound:yomitan_audio_2025-05-14-22-07-00-758.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -24,12 +25,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "teFormStemStart": "forbidden"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -48,7 +55,6 @@
   "id": "697a5569-40bf-4dd6-91e3-5b7342e702f2",
   "tags": [
     "_uk",
-    "-::vocab::matching::forbids::te-form-stem",
     "source::yomitan"
   ]
 }

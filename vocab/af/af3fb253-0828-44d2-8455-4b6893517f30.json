@@ -18,6 +18,7 @@
     "になる"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "[sound:hypertts-5f29d73d4c4d916332cd3f78674bc5fa5310315a40a47b8c5bddf4d9.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -27,12 +28,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "yieldLastTokenToOverlappingCompound": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -60,7 +67,6 @@
   "id": "af3fb253-0828-44d2-8455-4b6893517f30",
   "tags": [
     "_uk",
-    "-::TODO::studio::vocab::matching::on-overlap::first-char-steals-focus-from-same-char-in-previous-word",
-    "-::vocab::matching::yield-last-token-to-upcoming-compound"
+    "-::TODO::studio::vocab::matching::on-overlap::first-char-steals-focus-from-same-char-in-previous-word"
   ]
 }

@@ -15,6 +15,7 @@
     "まる"
   ],
   "partsOfSpeech": "godan verb, intransitive, suffix",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-b1e7fd5521938cdb95858765765b85e0580e8ba91077cb91d47b6937.mp3]",
@@ -24,12 +25,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "godanPotential": "forbidden"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "める",
@@ -48,7 +55,6 @@
   "id": "700e38ea-fe33-4c51-bbdf-0f0e893972cd",
   "tags": [
     "_uk",
-    "-::vocab::has-no-studying-sentences",
-    "-::vocab::matching::forbids::godan_potential"
+    "-::vocab::has-no-studying-sentences"
   ]
 }

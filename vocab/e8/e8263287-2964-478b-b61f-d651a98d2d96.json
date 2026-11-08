@@ -19,6 +19,7 @@
     "かぜのつよい"
   ],
   "partsOfSpeech": "i-adjective",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-65ac444eef8d8787d3e23ab8b3bb16f1f865544d7fa30775430236cb.mp3]",
@@ -28,12 +29,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "surface": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -52,7 +59,6 @@
   "id": "e8263287-2964-478b-b61f-d651a98d2d96",
   "tags": [
     "-::vocab::has-no-studying-sentences",
-    "-::vocab::matching::requires::surface",
     "source::yomitan"
   ]
 }

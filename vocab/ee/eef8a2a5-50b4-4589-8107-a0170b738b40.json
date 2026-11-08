@@ -15,6 +15,7 @@
     "きれない"
   ],
   "partsOfSpeech": "i-adjective",
+  "register": [],
   "audioB": "[sound:yomitan_audio_2025-06-23-22-37-05-802.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -33,12 +34,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "masuStem": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -59,7 +66,6 @@
   "id": "eef8a2a5-50b4-4589-8107-a0170b738b40",
   "tags": [
     "_uk",
-    "-::vocab::matching::requires::masu_stem",
     "source::yomitan"
   ]
 }

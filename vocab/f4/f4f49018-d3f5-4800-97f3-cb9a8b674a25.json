@@ -18,6 +18,7 @@
     "えていた"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-ab12ed36b2deb2df58dd5476eecc42905a93c41218b4e880cf8336a9.mp3]",
@@ -128,14 +129,23 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [
-      "\r\n忘"
+  "matching": {
+    "requiredOrForbidden": {
+      "godanPotential": "required"
+    },
+    "flags": [
+      "isInflectingWord",
+      "questionOverridesForm"
     ],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+    "rules": {
+      "prefixIsNot": [
+        "\r\n忘"
+      ],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -153,9 +163,6 @@
   },
   "id": "f4f49018-d3f5-4800-97f3-cb9a8b674a25",
   "tags": [
-    "-::vocab::matching::is-inflecting-word",
-    "-::vocab::matching::requires::godan_potential",
-    "-::vocab::matching::uses::prefix-is-not",
-    "-::vocab::question-overrides-form"
+    "-::vocab::matching::uses::prefix-is-not"
   ]
 }

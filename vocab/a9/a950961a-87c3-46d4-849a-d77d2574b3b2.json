@@ -15,6 +15,7 @@
     "について"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "",
@@ -24,12 +25,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isPoisonWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -48,7 +55,6 @@
   "id": "a950961a-87c3-46d4-849a-d77d2574b3b2",
   "tags": [
     "_uk",
-    "-::vocab::has-no-studying-sentences",
-    "-::vocab::matching::is-poison-word"
+    "-::vocab::has-no-studying-sentences"
   ]
 }

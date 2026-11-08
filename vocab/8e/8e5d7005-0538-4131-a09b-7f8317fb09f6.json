@@ -15,6 +15,7 @@
     "うわ"
   ],
   "partsOfSpeech": "interjection",
+  "register": [],
   "audioB": "[sound:yomichan_audio_うわ_うわ_2023-09-16-02-52-56.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -45,12 +46,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "dictionaryFormStart": "forbidden"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -69,7 +76,6 @@
   "id": "8e5d7005-0538-4131-a09b-7f8317fb09f6",
   "tags": [
     "_uk",
-    "-::vocab::matching::forbids::dictionary_form_stem",
     "legacy_scheduling",
     "source::yomitan"
   ]

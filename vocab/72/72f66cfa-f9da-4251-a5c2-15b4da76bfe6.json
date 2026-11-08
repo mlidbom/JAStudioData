@@ -18,6 +18,7 @@
     "くろうする"
   ],
   "partsOfSpeech": "suru verb",
+  "register": [],
   "audioB": "[sound:hypertts-b30d6e3e76b5e3411fa0bb9e7edc691388d22bee3d41a2c454082154.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -40,12 +41,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "yieldLastTokenToOverlappingCompound": "forbidden"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -62,7 +69,5 @@
     "readingMnemonic": ""
   },
   "id": "72f66cfa-f9da-4251-a5c2-15b4da76bfe6",
-  "tags": [
-    "-::vocab::matching::forbids::auto_yielding"
-  ]
+  "tags": []
 }

@@ -18,6 +18,7 @@
     "えてる"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-2dc803262f865d859225e1a6784c572f197f0017b01e96b0a754a8f6.mp3]",
@@ -128,12 +129,21 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "godanPotential": "required"
+    },
+    "flags": [
+      "isInflectingWord",
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -150,9 +160,5 @@
     "readingMnemonic": ""
   },
   "id": "d0f99b6d-835b-4fa2-b693-6a10ea34c1fb",
-  "tags": [
-    "-::vocab::matching::is-inflecting-word",
-    "-::vocab::matching::requires::godan_potential",
-    "-::vocab::question-overrides-form"
-  ]
+  "tags": []
 }

@@ -15,6 +15,7 @@
     "めくる"
   ],
   "partsOfSpeech": "godan verb, kana, transitive",
+  "register": [],
   "audioB": "[sound:yomitan_audio_めくる_捲る_2024-04-13-05-41-28.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -29,12 +30,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "masuStem": "forbidden"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -55,7 +62,6 @@
   "id": "69432186-e3cf-4e5b-9050-f4209c123e3d",
   "tags": [
     "_uk",
-    "-::vocab::matching::forbids::masu_stem",
     "legacy_scheduling",
     "source::yomitan"
   ]

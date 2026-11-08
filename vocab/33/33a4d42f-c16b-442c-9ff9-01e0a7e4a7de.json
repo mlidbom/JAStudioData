@@ -18,6 +18,7 @@
     "うのが"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-06ce55b507c87142b5cd1609f3c721e6674727b0e66df9b518456e93.mp3]",
@@ -27,12 +28,20 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "dictionaryFormStart": "required"
+    },
+    "flags": [
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -49,8 +58,5 @@
     "readingMnemonic": ""
   },
   "id": "33a4d42f-c16b-442c-9ff9-01e0a7e4a7de",
-  "tags": [
-    "-::vocab::matching::requires::dictionary_form_stem",
-    "-::vocab::question-overrides-form"
-  ]
+  "tags": []
 }

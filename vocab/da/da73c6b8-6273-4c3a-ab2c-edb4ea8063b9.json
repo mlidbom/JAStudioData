@@ -15,6 +15,7 @@
     "たち"
   ],
   "partsOfSpeech": "suffix",
+  "register": [],
   "audioB": "[sound:〜達_b.mp3]",
   "audioG": "[sound:〜達_g.mp3]",
   "audioTTS": "",
@@ -29,12 +30,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "sentenceStart": "forbidden"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -54,7 +61,6 @@
   },
   "id": "da73c6b8-6273-4c3a-ab2c-edb4ea8063b9",
   "tags": [
-    "_uk",
-    "-::vocab::matching::forbids::sentence-start"
+    "_uk"
   ]
 }

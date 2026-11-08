@@ -18,6 +18,7 @@
     "じゃまするな"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "[sound:hypertts-e0d5a4556c41338daa62d4cffd58bbf8f584771128fdc9bc1dfb55f8.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -32,12 +33,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isCompositionallyTransparentCompound"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -54,7 +61,5 @@
     "readingMnemonic": ""
   },
   "id": "d76ec049-8ff1-4471-83ef-10f95da86d17",
-  "tags": [
-    "-::vocab::is-compositionally-transparent-compound"
-  ]
+  "tags": []
 }

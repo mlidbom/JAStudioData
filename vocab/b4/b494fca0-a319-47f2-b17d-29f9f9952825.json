@@ -15,6 +15,7 @@
     "おっか"
   ],
   "partsOfSpeech": "",
+  "register": [],
   "audioB": "[sound:hypertts-9b6d63062946f6a9c4bbcb22862276d6be8cb9124429f69444a20ebf.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -29,12 +30,21 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "sentenceStart": "forbidden"
+    },
+    "flags": [
+      "isInflectingWord",
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -54,9 +64,6 @@
   },
   "id": "b494fca0-a319-47f2-b17d-29f9f9952825",
   "tags": [
-    "_uk",
-    "-::vocab::matching::forbids::sentence-start",
-    "-::vocab::matching::is-inflecting-word",
-    "-::vocab::question-overrides-form"
+    "_uk"
   ]
 }

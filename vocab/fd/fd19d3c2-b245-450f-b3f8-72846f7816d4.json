@@ -15,6 +15,7 @@
     "うまい"
   ],
   "partsOfSpeech": "い adjective",
+  "register": [],
   "audioB": "[sound:Wani_9238_うまい_male.mp3]",
   "audioG": "[sound:Wani_9238_うまい_female.mp3]",
   "audioTTS": "",
@@ -49,15 +50,21 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [
-      "うまく",
-      "上手く"
-    ],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "yieldLastTokenToOverlappingCompound": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [
+        "うまく",
+        "上手く"
+      ],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -76,7 +83,6 @@
   "id": "fd19d3c2-b245-450f-b3f8-72846f7816d4",
   "tags": [
     "_uk",
-    "-::vocab::matching::yield-last-token-to-upcoming-compound",
     "source::wani",
     "source::wani::level::05"
   ]

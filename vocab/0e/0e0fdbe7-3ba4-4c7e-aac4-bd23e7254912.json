@@ -15,6 +15,7 @@
     "はし"
   ],
   "partsOfSpeech": "noun",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "",
@@ -37,12 +38,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "singleToken": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -61,7 +68,6 @@
   "id": "0e0fdbe7-3ba4-4c7e-aac4-bd23e7254912",
   "tags": [
     "_uk",
-    "-::vocab::has-no-studying-sentences",
-    "-::vocab::matching::requires::single-token"
+    "-::vocab::has-no-studying-sentences"
   ]
 }

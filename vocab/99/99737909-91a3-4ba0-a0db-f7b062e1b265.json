@@ -18,6 +18,7 @@
     "くする"
   ],
   "partsOfSpeech": "suru verb",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-35a35e93f525adfaa9f8492e15fa5d001cf26598302db2e32dacabcd.mp3]",
@@ -32,14 +33,23 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": [
-      "く"
-    ]
+  "matching": {
+    "requiredOrForbidden": {
+      "adverbHead": "required"
+    },
+    "flags": [
+      "isInflectingWord",
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": [
+        "く"
+      ]
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -60,9 +70,6 @@
   "id": "99737909-91a3-4ba0-a0db-f7b062e1b265",
   "tags": [
     "_uk",
-    "-::vocab::matching::is-inflecting-word",
-    "-::vocab::matching::requires::preceding_adverb",
-    "-::vocab::matching::uses::required-prefix",
-    "-::vocab::question-overrides-form"
+    "-::vocab::matching::uses::required-prefix"
   ]
 }

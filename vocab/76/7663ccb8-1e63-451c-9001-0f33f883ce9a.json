@@ -19,6 +19,7 @@
     "につれて"
   ],
   "partsOfSpeech": "conjunction, expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-2761391f908d7687ddb60fec736a62d3f2bf51b00e9f57dca35b255b.mp3]",
@@ -28,12 +29,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isPoisonWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -53,7 +60,6 @@
   "tags": [
     "_uk",
     "-::TODO",
-    "-::vocab::has-no-studying-sentences",
-    "-::vocab::matching::is-poison-word"
+    "-::vocab::has-no-studying-sentences"
   ]
 }

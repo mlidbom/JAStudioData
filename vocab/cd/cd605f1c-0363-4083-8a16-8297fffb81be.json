@@ -18,6 +18,7 @@
     "えておる"
   ],
   "partsOfSpeech": "expression, ichidan verb",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-5cfb2e3925870de8f036759704c3ade2d01a27babae881933a0f92c0.mp3]",
@@ -124,12 +125,21 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "godanPotential": "required"
+    },
+    "flags": [
+      "isInflectingWord",
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -150,9 +160,5 @@
     "readingMnemonic": ""
   },
   "id": "cd605f1c-0363-4083-8a16-8297fffb81be",
-  "tags": [
-    "-::vocab::matching::is-inflecting-word",
-    "-::vocab::matching::requires::godan_potential",
-    "-::vocab::question-overrides-form"
-  ]
+  "tags": []
 }

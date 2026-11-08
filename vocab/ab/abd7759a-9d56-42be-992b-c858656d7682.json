@@ -18,6 +18,7 @@
     "ちまう"
   ],
   "partsOfSpeech": "godan verb",
+  "register": [],
   "audioB": "[sound:hypertts-fdf72dfb3faa5fffa95c76410a286bb42b3e37f41349286335014539.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -32,12 +33,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isInflectingWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -58,7 +65,6 @@
   "id": "abd7759a-9d56-42be-992b-c858656d7682",
   "tags": [
     "_uk",
-    "-::vocab::matching::is-inflecting-word",
     "source::yomitan"
   ]
 }

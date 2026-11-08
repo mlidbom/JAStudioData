@@ -20,6 +20,7 @@
     "んなる"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-e481c7eb0e1b45c511ab4d957df21085232b86ac2e4c04f3e0fdd364.mp3]",
@@ -34,12 +35,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isInflectingWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -60,7 +67,5 @@
     "readingMnemonic": ""
   },
   "id": "c3c2df69-19e5-4ad4-8d73-7f0f5b33ce76",
-  "tags": [
-    "-::vocab::matching::is-inflecting-word"
-  ]
+  "tags": []
 }

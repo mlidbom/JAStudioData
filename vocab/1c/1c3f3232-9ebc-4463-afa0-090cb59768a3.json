@@ -18,6 +18,7 @@
     "んでほしい"
   ],
   "partsOfSpeech": "auxiliary",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-d90febc47320c38fc834f8edc8cf226a7beaba7a41c635f791c596fa.mp3]",
@@ -48,14 +49,21 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": [
-      "ん"
-    ]
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isInflectingWord",
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": [
+        "ん"
+      ]
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -79,8 +87,6 @@
   },
   "id": "1c3f3232-9ebc-4463-afa0-090cb59768a3",
   "tags": [
-    "-::vocab::matching::is-inflecting-word",
-    "-::vocab::matching::uses::required-prefix",
-    "-::vocab::question-overrides-form"
+    "-::vocab::matching::uses::required-prefix"
   ]
 }

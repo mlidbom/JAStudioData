@@ -15,6 +15,7 @@
     "れる"
   ],
   "partsOfSpeech": "ichidan verb",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-03592742e9a3435928d003df87eb0d4be893b8a4f1b2af881b54f657.mp3]",
@@ -24,12 +25,21 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "ichidan": "required",
+      "irrealis": "required"
+    },
+    "flags": [
+      "isInflectingWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -60,9 +70,6 @@
     "_tts_audio",
     "_uk",
     "-::TODO::studio::vocab::matching::requires-and-includes::preceding-vowel",
-    "-::vocab::matching::is-inflecting-word",
-    "-::vocab::matching::requires::ichidan",
-    "-::vocab::matching::requires::irrealis",
     "source::yomitan"
   ]
 }

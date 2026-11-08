@@ -18,6 +18,7 @@
     "ていて"
   ],
   "partsOfSpeech": "",
+  "register": [],
   "audioB": "[sound:hypertts-4f61cc0bb5ffc577736f690892781604aa1ef9d3fafb20aaa80f21ad.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -36,12 +37,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "yieldLastTokenToOverlappingCompound": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -64,7 +71,5 @@
     "readingMnemonic": ""
   },
   "id": "8f168dce-b937-471b-bdb5-ebd2a6f27edb",
-  "tags": [
-    "-::vocab::matching::yield-last-token-to-upcoming-compound"
-  ]
+  "tags": []
 }

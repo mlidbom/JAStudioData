@@ -15,6 +15,7 @@
     "かね"
   ],
   "partsOfSpeech": "particle",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-ae12f4296817ec44a9079c84377d5777e3ad3c8f3dbf9f244a84eeb7.mp3]",
@@ -24,12 +25,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "sentenceEnd": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -48,7 +55,6 @@
   "id": "0ae9111e-d4b5-46b0-8110-bca111ffa8a5",
   "tags": [
     "_uk",
-    "-::vocab::matching::requires::sentence-end",
     "legacy_scheduling",
     "source::yomitan"
   ]

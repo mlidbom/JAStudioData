@@ -19,6 +19,7 @@
     "けいかくをじっこうする"
   ],
   "partsOfSpeech": "suru verb",
+  "register": [],
   "audioB": "[sound:yomitan_audio_2025-05-05-14-42-22-767.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -28,12 +29,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "yieldLastTokenToOverlappingCompound": "forbidden"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -51,7 +58,6 @@
   },
   "id": "2d3ac661-de44-4cbf-acd0-0a666fc33d3f",
   "tags": [
-    "-::vocab::matching::forbids::auto_yielding",
     "source::yomitan"
   ]
 }

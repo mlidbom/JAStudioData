@@ -18,6 +18,7 @@
     "だって"
   ],
   "partsOfSpeech": "conjunction, particle",
+  "register": [],
   "audioB": "[sound:yomichan_audio_だって_だって_2023-08-18-11-43-05.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -27,12 +28,19 @@
   "references": "<a href=\"https://www.youtube.com/watch?v=kO89HzRQygQ&amp;list=PLg9uYxuZf8x_A-vcqqyOFZu06WlhnypWj&amp;index=26\">Cure Dolly: Lesson 23: だって、から、それから</a>",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "singleToken": "required",
+      "yieldLastTokenToOverlappingCompound": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -54,8 +62,6 @@
   "tags": [
     "_uk",
     "-::TODO::studio::vocab::matching::auto-split-so-proper-matching-for-compounds-can-work",
-    "-::vocab::matching::requires::single-token",
-    "-::vocab::matching::yield-last-token-to-upcoming-compound",
     "legacy_scheduling",
     "source::yomitan"
   ]

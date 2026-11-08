@@ -18,6 +18,7 @@
     "いいって"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-701ae8dbb23debb3b0a7139fe11bcd7d79cf4fdb7f42e46d4c8ca48f.mp3]",
@@ -32,12 +33,19 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "sentenceEnd": "required",
+      "sentenceStart": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -54,8 +62,5 @@
     "readingMnemonic": ""
   },
   "id": "cff61d6e-df7c-4ac1-b998-e3fad33f8984",
-  "tags": [
-    "-::vocab::matching::requires::sentence-end",
-    "-::vocab::matching::requires::sentence-start"
-  ]
+  "tags": []
 }

@@ -15,6 +15,7 @@
     "ない"
   ],
   "partsOfSpeech": "i-adjective, suffix",
+  "register": [],
   "audioB": "[sound:yomichan_audio_ない_ない_2023-07-20-04-41-08.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -29,12 +30,20 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "irrealis": "forbidden"
+    },
+    "flags": [
+      "isInflectingWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -53,8 +62,6 @@
   "id": "ba2dd925-71e4-4ea5-8171-b59fa72ea268",
   "tags": [
     "_uk",
-    "-::vocab::matching::forbids::irrealis",
-    "-::vocab::matching::is-inflecting-word",
     "legacy_scheduling",
     "source::yomitan"
   ]

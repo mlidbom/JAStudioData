@@ -15,6 +15,7 @@
     "けっ"
   ],
   "partsOfSpeech": "interjection",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-dee13e7af6e289a0f1793166def7b6b6d4d5df003f7eefb71401e0d8.mp3]",
@@ -24,12 +25,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "sentenceEnd": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -47,7 +54,6 @@
   },
   "id": "f2fa8b52-f6be-4cba-9966-9c07c838fddd",
   "tags": [
-    "-::vocab::matching::requires::sentence-end",
     "source::yomitan"
   ]
 }

@@ -16,6 +16,7 @@
     "へ"
   ],
   "partsOfSpeech": "particle",
+  "register": [],
   "audioB": "[sound:yomitan_audio_2024-04-22-12-00-33-915.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -34,12 +35,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "godanImperative": "forbidden"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -59,7 +66,6 @@
   "tags": [
     "_tts_audio",
     "_uk",
-    "-::vocab::matching::forbids::godan_imperative",
     "source::yomitan"
   ]
 }

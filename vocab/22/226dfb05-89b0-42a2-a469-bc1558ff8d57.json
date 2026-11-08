@@ -15,6 +15,7 @@
     "あいで"
   ],
   "partsOfSpeech": "conjunction, particle",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-3a50662256b39c44337a5f0572553a3c51cb9a3f839f76fc6f19c24c.mp3]",
@@ -29,16 +30,24 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [
-      "ない"
+  "matching": {
+    "requiredOrForbidden": {
+      "teFormStemStart": "required"
+    },
+    "flags": [
+      "questionOverridesForm"
     ],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": [
-      "い"
-    ]
+    "rules": {
+      "prefixIsNot": [
+        "ない"
+      ],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": [
+        "い"
+      ]
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -65,9 +74,7 @@
   "id": "226dfb05-89b0-42a2-a469-bc1558ff8d57",
   "tags": [
     "_uk",
-    "-::vocab::matching::requires::te-form-stem",
     "-::vocab::matching::uses::prefix-is-not",
-    "-::vocab::matching::uses::required-prefix",
-    "-::vocab::question-overrides-form"
+    "-::vocab::matching::uses::required-prefix"
   ]
 }

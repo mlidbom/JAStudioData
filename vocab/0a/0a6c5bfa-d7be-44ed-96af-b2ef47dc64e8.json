@@ -15,6 +15,7 @@
     "ざる"
   ],
   "partsOfSpeech": "auxiliary, noun",
+  "register": [],
   "audioB": "[sound:yomitan_audio_2025-07-29-23-58-46-144.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -33,12 +34,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "irrealis": "forbidden"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -61,8 +68,6 @@
   "tags": [
     "_uk",
     "-::vocab::has-no-studying-sentences",
-    "-::vocab::matching::forbids::irrealis",
-    "-::vocab::matching::requires::irrealis",
     "source::yomitan"
   ]
 }

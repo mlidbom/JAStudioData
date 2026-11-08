@@ -16,6 +16,7 @@
     "ほう"
   ],
   "partsOfSpeech": "noun",
+  "register": [],
   "audioB": "[sound:Wani_2612_かた_male.mp3][sound:Wani_2612_ほう_male.mp3]",
   "audioG": "[sound:Wani_2612_かた_female.mp3][sound:Wani_2612_ほう_female.mp3]",
   "audioTTS": "",
@@ -30,12 +31,18 @@
   "references": "<a href=\"https://www.youtube.com/watch?v=ma1yZwt1XAc&amp;list=PLg9uYxuZf8x_A-vcqqyOFZu06WlhnypWj&amp;index=37\">Cure Dolly より、 ほう, いっぽう</a>",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isInflectingWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -53,7 +60,6 @@
   },
   "id": "96eda3ae-bf6e-4ed8-9536-f216b0d28174",
   "tags": [
-    "-::vocab::matching::is-inflecting-word",
     "legacy_scheduling",
     "source::wani::level::03"
   ]

@@ -18,6 +18,9 @@
     "きける"
   ],
   "partsOfSpeech": "ichidan verb, transitive",
+  "register": [
+    "archaic"
+  ],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-b329a8b7bf651ad404b95f49371200390b63a1424491a9dfcec9a929.mp3]",
@@ -27,12 +30,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isCompositionallyTransparentCompound"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -50,8 +59,6 @@
   },
   "id": "11600b55-06bf-4c38-891a-71a1cf79c87e",
   "tags": [
-    "-::vocab::is-compositionally-transparent-compound",
-    "-::vocab::is-ichidan-hiding-godan-potential",
-    "-::vocab::register::archaic"
+    "-::vocab::is-ichidan-hiding-godan-potential"
   ]
 }

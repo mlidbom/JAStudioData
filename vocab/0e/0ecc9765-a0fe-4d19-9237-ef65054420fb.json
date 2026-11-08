@@ -15,6 +15,7 @@
     "て"
   ],
   "partsOfSpeech": "auxiliary, particle",
+  "register": [],
   "audioB": "[sound:yomichan_audio_て_て_2023-07-16-00-53-44.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -24,14 +25,22 @@
   "references": "<a href=\"https://www.youtube.com/watch?v=uoj5l8-Ppws&amp;list=PLg9uYxuZf8x_A-vcqqyOFZu06WlhnypWj&amp;index=83\">Cure Dolly</a>",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [
-      "く"
+  "matching": {
+    "requiredOrForbidden": {
+      "teFormStemStart": "required"
+    },
+    "flags": [
+      "isInflectingWord"
     ],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+    "rules": {
+      "prefixIsNot": [
+        "く"
+      ],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -59,8 +68,6 @@
   "id": "0ecc9765-a0fe-4d19-9237-ef65054420fb",
   "tags": [
     "_uk",
-    "-::vocab::matching::is-inflecting-word",
-    "-::vocab::matching::requires::te-form-stem",
     "-::vocab::matching::uses::prefix-is-not",
     "legacy_scheduling",
     "source::yomitan"

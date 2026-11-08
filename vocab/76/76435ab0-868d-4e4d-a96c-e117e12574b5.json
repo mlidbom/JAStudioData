@@ -21,6 +21,7 @@
     "なければよかった"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-0980b3e078ab93af8431c9003be4a9a619ee5f0713bd3aefd5bd24d2.mp3]",
@@ -35,12 +36,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -57,7 +64,5 @@
     "readingMnemonic": ""
   },
   "id": "76435ab0-868d-4e4d-a96c-e117e12574b5",
-  "tags": [
-    "-::vocab::question-overrides-form"
-  ]
+  "tags": []
 }

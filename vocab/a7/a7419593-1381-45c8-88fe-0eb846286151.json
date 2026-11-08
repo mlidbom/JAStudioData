@@ -15,6 +15,7 @@
     "ある"
   ],
   "partsOfSpeech": "godan verb, intransitive",
+  "register": [],
   "audioB": "[sound:有る_b.mp3]",
   "audioG": "[sound:有る_g.mp3]",
   "audioTTS": "",
@@ -33,12 +34,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isInflectingWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -59,7 +66,6 @@
   "id": "a7419593-1381-45c8-88fe-0eb846286151",
   "tags": [
     "_uk",
-    "-::vocab::matching::is-inflecting-word",
     "legacy_scheduling",
     "source::wani::level::06"
   ]

@@ -15,6 +15,7 @@
     "すぎ"
   ],
   "partsOfSpeech": "noun, suffix",
+  "register": [],
   "audioB": "[sound:過ぎ_b.mp3]",
   "audioG": "[sound:過ぎ_g.mp3]",
   "audioTTS": "",
@@ -33,12 +34,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isInflectingWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -56,7 +63,6 @@
   },
   "id": "64e14f15-60c7-4836-b50c-a5c719348a38",
   "tags": [
-    "_uk",
-    "-::vocab::matching::is-inflecting-word"
+    "_uk"
   ]
 }

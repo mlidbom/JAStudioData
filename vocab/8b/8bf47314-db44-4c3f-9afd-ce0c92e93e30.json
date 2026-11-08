@@ -18,6 +18,7 @@
     "何やってる"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "[sound:hypertts-c7dbb4b583eb008eecba8b5f312c798944ba32eff613b907d7f77207.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -40,12 +41,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "surface": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -62,7 +69,5 @@
     "readingMnemonic": ""
   },
   "id": "8bf47314-db44-4c3f-9afd-ce0c92e93e30",
-  "tags": [
-    "-::vocab::matching::requires::surface"
-  ]
+  "tags": []
 }

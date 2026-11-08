@@ -18,6 +18,7 @@
     "てる以上"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-5420e73d8d80dc2afe0c6669beb3f1f149806a1cf2f773443bb47a21.mp3]",
@@ -40,14 +41,22 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [
-      "に"
+  "matching": {
+    "requiredOrForbidden": {
+      "teFormStemStart": "required"
+    },
+    "flags": [
+      "isInflectingWord"
     ],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [
+        "に"
+      ],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -67,8 +76,6 @@
   },
   "id": "0c84ce0e-728e-4521-8644-ccf71326d477",
   "tags": [
-    "-::vocab::matching::is-inflecting-word",
-    "-::vocab::matching::requires::te-form-stem",
     "-::vocab::matching::uses::suffix-is-not"
   ]
 }

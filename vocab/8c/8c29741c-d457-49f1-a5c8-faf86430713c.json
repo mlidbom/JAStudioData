@@ -18,6 +18,7 @@
     "んでおる"
   ],
   "partsOfSpeech": "auxiliary",
+  "register": [],
   "audioB": "[sound:hypertts-8db082e3db20781f9ae5960db978f8c6da599564b51b660ec69f9b1f.mp3]",
   "audioG": "",
   "audioTTS": "[sound:hypertts-df2f08882d6c225ef6353aa8a0fc3c045c37998b1ccef5376ea8ba61.mp3]",
@@ -36,14 +37,20 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": [
-      "ん"
-    ]
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": [
+        "ん"
+      ]
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -105,7 +112,6 @@
   },
   "id": "8c29741c-d457-49f1-a5c8-faf86430713c",
   "tags": [
-    "-::vocab::matching::uses::required-prefix",
-    "-::vocab::question-overrides-form"
+    "-::vocab::matching::uses::required-prefix"
   ]
 }

@@ -18,6 +18,7 @@
     "そうだ"
   ],
   "partsOfSpeech": "expression, interjection, noun",
+  "register": [],
   "audioB": "[sound:yomitan_audio_2024-06-06-09-05-53-605.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -36,12 +37,19 @@
   "references": "<a href=\"https://www.youtube.com/watch?v=uSJukXcyccw&amp;list=PLg9uYxuZf8x_A-vcqqyOFZu06WlhnypWj&amp;index=26\">Cure Dolly</a>",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "surface": "required",
+      "yieldLastTokenToOverlappingCompound": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -60,8 +68,6 @@
   "id": "fe4dd6a4-d47d-466a-98c6-a996ac0d58d7",
   "tags": [
     "_uk",
-    "-::vocab::matching::requires::surface",
-    "-::vocab::matching::yield-last-token-to-upcoming-compound",
     "legacy_scheduling",
     "source::yomitan"
   ]

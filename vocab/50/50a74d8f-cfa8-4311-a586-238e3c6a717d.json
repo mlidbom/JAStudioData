@@ -18,6 +18,7 @@
     "なくなる"
   ],
   "partsOfSpeech": "auxiliary",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-5ab83ddceb4d87de0711924b766f2591bf53cc0612f7c69efdc43860.mp3]",
@@ -27,12 +28,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "irrealis": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -50,7 +57,6 @@
   },
   "id": "50a74d8f-cfa8-4311-a586-238e3c6a717d",
   "tags": [
-    "_uk",
-    "-::vocab::matching::requires::irrealis"
+    "_uk"
   ]
 }

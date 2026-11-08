@@ -15,6 +15,7 @@
     "もので"
   ],
   "partsOfSpeech": "conjunction, particle",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-3d05e74ba46f2f98dcb9cdeba152b5c1c75798937e0f941f4b9ffbde.mp3]",
@@ -29,14 +30,21 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [
-      "な"
-    ],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "sentenceEnd": "required",
+      "surface": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [
+        "な"
+      ],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -55,8 +63,6 @@
   "id": "187d922e-6961-4d2c-97a1-cfa543e08951",
   "tags": [
     "_uk",
-    "-::vocab::matching::requires::sentence-end",
-    "-::vocab::matching::requires::surface",
     "-::vocab::matching::uses::prefix-is-not"
   ]
 }

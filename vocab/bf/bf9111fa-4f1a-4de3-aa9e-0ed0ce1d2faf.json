@@ -19,6 +19,7 @@
     "てみな"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-10b93cd1beea4a9c2ece04f4b2c5892c20b1d06439b1d1ee70fb5ee4.mp3]",
@@ -28,14 +29,20 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [
-      "く"
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isInflectingWord"
     ],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+    "rules": {
+      "prefixIsNot": [
+        "く"
+      ],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -53,7 +60,6 @@
   },
   "id": "bf9111fa-4f1a-4de3-aa9e-0ed0ce1d2faf",
   "tags": [
-    "-::vocab::matching::is-inflecting-word",
     "-::vocab::matching::uses::prefix-is-not"
   ]
 }

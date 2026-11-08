@@ -15,6 +15,7 @@
     "わい"
   ],
   "partsOfSpeech": "particle",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-b6f54b115d646735e156b1116aa03956c5a6b245f0ad6623dc7aa684.mp3]",
@@ -29,12 +30,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "sentenceEnd": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -53,7 +60,6 @@
   "id": "b99c72b8-4b9d-4e46-a3a0-aa4096233e5f",
   "tags": [
     "_uk",
-    "-::vocab::matching::requires::sentence-end",
     "source::yomitan"
   ]
 }

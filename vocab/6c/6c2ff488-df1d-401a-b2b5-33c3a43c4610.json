@@ -18,6 +18,7 @@
     "ので"
   ],
   "partsOfSpeech": "particle",
+  "register": [],
   "audioB": "[sound:yomichan_audio_ので_ので_2023-07-22-22-19-54.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -32,12 +33,19 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "singleToken": "required",
+      "yieldLastTokenToOverlappingCompound": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -58,8 +66,6 @@
   "id": "6c2ff488-df1d-401a-b2b5-33c3a43c4610",
   "tags": [
     "_uk",
-    "-::vocab::matching::requires::single-token",
-    "-::vocab::matching::yield-last-token-to-upcoming-compound",
     "legacy_scheduling",
     "source::yomitan"
   ]

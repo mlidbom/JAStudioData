@@ -15,6 +15,7 @@
     "ちゃう"
   ],
   "partsOfSpeech": "auxiliary, godan verb",
+  "register": [],
   "audioB": "[sound:yomichan_audio_ちゃう_ちゃう_2023-07-16-18-50-15.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -29,12 +30,18 @@
   "references": "<a href=\"https://www.youtube.com/watch?v=VyZWoJCSQ5Q&amp;list=PLg9uYxuZf8x_A-vcqqyOFZu06WlhnypWj&amp;index=46\">Cure Dolly</a>",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isInflectingWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -59,7 +66,6 @@
   "id": "9992954d-cb2d-4651-a838-a55edf1c0dc7",
   "tags": [
     "_uk",
-    "-::vocab::matching::is-inflecting-word",
     "legacy_scheduling",
     "source::yomitan"
   ]

@@ -15,6 +15,11 @@
     "ご"
   ],
   "partsOfSpeech": "prefix, suffix",
+  "register": [
+    "honorific",
+    "humble",
+    "polite"
+  ],
   "audioB": "[sound:katakana_d5_go.mp3]",
   "audioG": "",
   "audioTTS": "[sound:hypertts-a5adf7e908a6ff86eabe13821b465616349d082680f740d9a173d696.mp3]",
@@ -37,12 +42,16 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -60,9 +69,6 @@
   },
   "id": "1ea14bdd-cc30-44ea-b8da-cdcc3a2e612b",
   "tags": [
-    "_uk",
-    "-::vocab::register::honorific",
-    "-::vocab::register::humble",
-    "-::vocab::register::polite"
+    "_uk"
   ]
 }

@@ -18,6 +18,7 @@
     "あいしょうがいい"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-816ef58bc631e6706106a7ba6be2014c778300d65d8c73abb58a3475.mp3]",
@@ -44,12 +45,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isCompositionallyTransparentCompound"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -66,7 +73,5 @@
     "readingMnemonic": ""
   },
   "id": "66d0f4e3-1032-49de-b3d1-95559e9a474b",
-  "tags": [
-    "-::vocab::is-compositionally-transparent-compound"
-  ]
+  "tags": []
 }

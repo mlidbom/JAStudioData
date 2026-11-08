@@ -18,6 +18,7 @@
     "てん"
   ],
   "partsOfSpeech": "noun",
+  "register": [],
   "audioB": "[sound:hypertts-cd4e0aeb6b3a1c9105f2037816809b4d01d396f7dd88c1b7ba232fa0.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -32,12 +33,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "teFormStemStart": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -81,7 +88,6 @@
   "id": "c062cce3-d0ca-4270-8571-05ae25579060",
   "tags": [
     "_uk",
-    "-::vocab::matching::requires::te-form-stem",
     "source::yomitan"
   ]
 }

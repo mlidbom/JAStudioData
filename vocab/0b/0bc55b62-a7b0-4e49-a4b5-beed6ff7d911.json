@@ -18,6 +18,7 @@
     "させてもらった"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-878265ec7417dc88c0a848a1a0dcc1e1adab82fc762bb9f2854ef2a3.mp3]",
@@ -27,12 +28,20 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "surface": "required"
+    },
+    "flags": [
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -54,8 +63,5 @@
     "readingMnemonic": ""
   },
   "id": "0bc55b62-a7b0-4e49-a4b5-beed6ff7d911",
-  "tags": [
-    "-::vocab::matching::requires::surface",
-    "-::vocab::question-overrides-form"
-  ]
+  "tags": []
 }

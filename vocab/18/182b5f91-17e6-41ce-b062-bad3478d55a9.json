@@ -18,6 +18,7 @@
     "あれて"
   ],
   "partsOfSpeech": "",
+  "register": [],
   "audioB": "[sound:hypertts-ea9aa7f8f514ed8fcec71e15f37cb32bf3ea531a4d7f9ee18a068bbd.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -32,12 +33,22 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "ichidan": "forbidden",
+      "irrealis": "required",
+      "yieldLastTokenToOverlappingCompound": "required"
+    },
+    "flags": [
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -61,10 +72,6 @@
   },
   "id": "182b5f91-17e6-41ce-b062-bad3478d55a9",
   "tags": [
-    "_uk",
-    "-::vocab::matching::forbids::ichidan",
-    "-::vocab::matching::requires::irrealis",
-    "-::vocab::matching::yield-last-token-to-upcoming-compound",
-    "-::vocab::question-overrides-form"
+    "_uk"
   ]
 }

@@ -18,6 +18,7 @@
     "わかった"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "[sound:hypertts-ad6bae0a54249a5d1211711ed844b13f3147241fcabc9e00b1b3e160.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -44,12 +45,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "yieldLastTokenToOverlappingCompound": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -66,7 +73,5 @@
     "readingMnemonic": ""
   },
   "id": "6a9dd5c7-d078-46b5-888e-689132221edf",
-  "tags": [
-    "-::vocab::matching::yield-last-token-to-upcoming-compound"
-  ]
+  "tags": []
 }

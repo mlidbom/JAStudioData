@@ -18,6 +18,7 @@
     "ということだ"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-2466001f88cae30f34a8b613b8c42144aa17328d9cbf1e49bcb5173f.mp3]",
@@ -32,14 +33,22 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [
-      "ということで"
+  "matching": {
+    "requiredOrForbidden": {
+      "surface": "required"
+    },
+    "flags": [
+      "isPoisonWord"
     ],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [
+        "ということで"
+      ],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -59,8 +68,6 @@
   "tags": [
     "_uk",
     "-::vocab::has-no-studying-sentences",
-    "-::vocab::matching::is-poison-word",
-    "-::vocab::matching::requires::surface",
     "-::vocab::matching::uses::surface-is-not",
     "source::yomitan"
   ]

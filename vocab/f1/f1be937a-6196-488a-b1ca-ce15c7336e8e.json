@@ -15,6 +15,7 @@
     "かく"
   ],
   "partsOfSpeech": "godan verb, transitive",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "",
@@ -24,12 +25,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isPoisonWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -48,7 +55,5 @@
     "readingMnemonic": ""
   },
   "id": "f1be937a-6196-488a-b1ca-ce15c7336e8e",
-  "tags": [
-    "-::vocab::matching::is-poison-word"
-  ]
+  "tags": []
 }

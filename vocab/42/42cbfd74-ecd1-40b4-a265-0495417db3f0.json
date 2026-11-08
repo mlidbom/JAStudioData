@@ -15,6 +15,7 @@
     "おう"
   ],
   "partsOfSpeech": "noun, suffix",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-aa1c0e0e2761b388270e07646fb73814ff9e644e35a090ecf6e7afe9.mp3]",
@@ -33,28 +34,38 @@
   "references": "<a href=\"https://youtu.be/IE7WgIOOGbM?list=PLg9uYxuZf8x_A-vcqqyOFZu06WlhnypWj&amp;t=129\">Cure dolly</a>",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": [
-      "お",
-      "こ",
-      "ご",
-      "しよ",
-      "そ",
-      "ぞ",
-      "と",
-      "ど",
-      "の",
-      "ほ",
-      "ぼ",
-      "ぽ",
-      "も",
-      "よ",
-      "ろ"
-    ]
+  "matching": {
+    "requiredOrForbidden": {
+      "dictionaryFormStart": "forbidden",
+      "sentenceStart": "forbidden"
+    },
+    "flags": [
+      "isInflectingWord",
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": [
+        "お",
+        "こ",
+        "ご",
+        "しよ",
+        "そ",
+        "ぞ",
+        "と",
+        "ど",
+        "の",
+        "ほ",
+        "ぼ",
+        "ぽ",
+        "も",
+        "よ",
+        "ろ"
+      ]
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -79,10 +90,6 @@
   "tags": [
     "_uk",
     "-::TODO::studio::vocab::matching::requires-and-includes::preceding-vowel",
-    "-::vocab::matching::forbids::dictionary_form_stem",
-    "-::vocab::matching::forbids::sentence-start",
-    "-::vocab::matching::is-inflecting-word",
-    "-::vocab::matching::uses::required-prefix",
-    "-::vocab::question-overrides-form"
+    "-::vocab::matching::uses::required-prefix"
   ]
 }

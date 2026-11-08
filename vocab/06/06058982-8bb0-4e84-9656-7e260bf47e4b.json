@@ -19,6 +19,7 @@
     "ていました"
   ],
   "partsOfSpeech": "",
+  "register": [],
   "audioB": "[sound:hypertts-dc754a612149acb87d59e9d963dcf6b6269062dfa7733aae4f152d38.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -41,12 +42,21 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "surface": "required",
+      "teFormStemStart": "required"
+    },
+    "flags": [
+      "isInflectingWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -81,9 +91,6 @@
   "tags": [
     "_tts_audio",
     "_uk",
-    "-::vocab::matching::is-inflecting-word",
-    "-::vocab::matching::requires::surface",
-    "-::vocab::matching::requires::te-form-stem",
     "source::yomitan"
   ]
 }

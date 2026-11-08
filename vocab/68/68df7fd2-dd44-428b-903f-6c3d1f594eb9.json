@@ -15,6 +15,7 @@
     "たい"
   ],
   "partsOfSpeech": "auxiliary, i-adjective",
+  "register": [],
   "audioB": "[sound:yomichan_audio_たい_たい_2023-07-16-02-40-45.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -24,12 +25,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isInflectingWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -52,7 +59,6 @@
   "id": "68df7fd2-dd44-428b-903f-6c3d1f594eb9",
   "tags": [
     "_uk",
-    "-::vocab::matching::is-inflecting-word",
     "legacy_scheduling",
     "source::yomitan"
   ]

@@ -18,6 +18,7 @@
     "せんたくひより"
   ],
   "partsOfSpeech": "",
+  "register": [],
   "audioB": "[sound:hypertts-1970b0f9d3f038a3a44cda1c192110b1d89920b23d9462e9b945d132.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -27,12 +28,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isCompositionallyTransparentCompound"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -52,7 +59,6 @@
   "tags": [
     "_tts_audio",
     "_uk",
-    "-::vocab::is-compositionally-transparent-compound",
     "source::yomitan"
   ]
 }

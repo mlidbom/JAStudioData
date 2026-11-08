@@ -18,6 +18,7 @@
     "あります"
   ],
   "partsOfSpeech": "godan verb, intransitive",
+  "register": [],
   "audioB": "[sound:hypertts-1e5e9fe0384e588d882e1c3996a97f85d122c951018f556392cb582a.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -36,12 +37,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isInflectingWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -66,7 +73,6 @@
   "id": "7eccbea0-50cf-4d05-be38-19d53501bf0d",
   "tags": [
     "_uk",
-    "-::vocab::matching::is-inflecting-word",
     "legacy_scheduling",
     "source::wani::level::06"
   ]

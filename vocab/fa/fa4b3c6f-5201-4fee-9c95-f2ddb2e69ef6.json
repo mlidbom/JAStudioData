@@ -15,6 +15,7 @@
     "かつて"
   ],
   "partsOfSpeech": "adverb, no-adjective",
+  "register": [],
   "audioB": "[sound:80f98e5d45ce49337914933666954866.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -41,12 +42,18 @@
   "references": "",
   "image": "<img src=\"3daf149fd3e8016f30ec481be0dc659d.jpg\">",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "singleToken": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -65,7 +72,6 @@
   "id": "fa4b3c6f-5201-4fee-9c95-f2ddb2e69ef6",
   "tags": [
     "_uk",
-    "-::vocab::has-no-studying-sentences",
-    "-::vocab::matching::requires::single-token"
+    "-::vocab::has-no-studying-sentences"
   ]
 }

@@ -18,6 +18,7 @@
     "ならんで"
   ],
   "partsOfSpeech": "adverb",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-10a67d7e5562e148ab71edcf72419eeee4c41e905aa410dabde77c0d.mp3]",
@@ -27,12 +28,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "yieldLastTokenToOverlappingCompound": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -50,7 +57,6 @@
   },
   "id": "b46d06a2-9256-43c9-8712-cb9f33c98bd9",
   "tags": [
-    "-::vocab::matching::yield-last-token-to-upcoming-compound",
     "source::jamdict"
   ]
 }

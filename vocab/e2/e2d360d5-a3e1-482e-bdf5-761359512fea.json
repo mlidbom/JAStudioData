@@ -15,6 +15,7 @@
     "うち"
   ],
   "partsOfSpeech": "noun, の adjective",
+  "register": [],
   "audioB": "[sound:Wani_2954_うち_male.mp3]",
   "audioG": "[sound:Wani_2954_うち_female.mp3]",
   "audioTTS": "",
@@ -29,12 +30,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "dictionaryFormStart": "forbidden"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -55,7 +62,6 @@
   },
   "id": "e2d360d5-a3e1-482e-bdf5-761359512fea",
   "tags": [
-    "_uk",
-    "-::vocab::matching::forbids::dictionary_form_stem"
+    "_uk"
   ]
 }

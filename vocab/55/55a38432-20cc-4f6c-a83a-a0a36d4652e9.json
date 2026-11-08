@@ -18,6 +18,7 @@
     "あれてる"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-b81dbef741099da93696c666ae08296898bb575b4ddef2ea046dac45.mp3]",
@@ -32,12 +33,21 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "ichidan": "forbidden",
+      "irrealis": "required"
+    },
+    "flags": [
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -64,9 +74,6 @@
   "id": "55a38432-20cc-4f6c-a83a-a0a36d4652e9",
   "tags": [
     "_uk",
-    "-::TODO::studio::vocab::matching::requires-and-includes::preceding-vowel",
-    "-::vocab::matching::forbids::ichidan",
-    "-::vocab::matching::requires::irrealis",
-    "-::vocab::question-overrides-form"
+    "-::TODO::studio::vocab::matching::requires-and-includes::preceding-vowel"
   ]
 }

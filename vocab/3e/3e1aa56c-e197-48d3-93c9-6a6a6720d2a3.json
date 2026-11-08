@@ -18,6 +18,9 @@
     "おからだ"
   ],
   "partsOfSpeech": "",
+  "register": [
+    "honorific"
+  ],
   "audioB": "",
   "audioG": "",
   "audioTTS": "",
@@ -27,12 +30,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isPoisonWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -50,8 +59,6 @@
   },
   "id": "3e1aa56c-e197-48d3-93c9-6a6a6720d2a3",
   "tags": [
-    "-::vocab::matching::is-poison-word",
-    "-::vocab::register::honorific",
     "source::jamdict"
   ]
 }

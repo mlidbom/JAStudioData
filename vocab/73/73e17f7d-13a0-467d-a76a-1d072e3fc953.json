@@ -15,6 +15,7 @@
     "める"
   ],
   "partsOfSpeech": "ichidan verb, suffix, transitive",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-6749ed44d20ec25904fc61950521d14a0fecb898929d890da95a64af.mp3]",
@@ -24,12 +25,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "godanPotential": "forbidden"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "まる",
@@ -48,7 +55,6 @@
   "id": "73e17f7d-13a0-467d-a76a-1d072e3fc953",
   "tags": [
     "_uk",
-    "-::vocab::has-no-studying-sentences",
-    "-::vocab::matching::forbids::godan_potential"
+    "-::vocab::has-no-studying-sentences"
   ]
 }

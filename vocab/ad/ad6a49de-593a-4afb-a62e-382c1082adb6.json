@@ -15,6 +15,7 @@
     "つつ"
   ],
   "partsOfSpeech": "noun, particle",
+  "register": [],
   "audioB": "[sound:yomitan_audio_2024-07-08-11-27-38-454.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -49,12 +50,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isInflectingWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -75,7 +82,6 @@
   "id": "ad6a49de-593a-4afb-a62e-382c1082adb6",
   "tags": [
     "_uk",
-    "-::vocab::matching::is-inflecting-word",
     "source::yomitan"
   ]
 }

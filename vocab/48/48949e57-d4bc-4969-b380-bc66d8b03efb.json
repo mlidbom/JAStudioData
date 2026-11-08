@@ -18,6 +18,7 @@
     "どういう"
   ],
   "partsOfSpeech": "adjectival",
+  "register": [],
   "audioB": "[sound:yomitan_audio_2024-05-30-05-54-29-693.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -40,12 +41,18 @@
   "references": "<a href=\"https://www.youtube.com/watch?v=xLkY6whr7T4&amp;list=PLg9uYxuZf8x_A-vcqqyOFZu06WlhnypWj&amp;index=23\">Directional Words: Cure Dolly</a>&nbsp;#&nbsp;<a href=\"https://www.youtube.com/watch?v=uSJukXcyccw&amp;list=PLg9uYxuZf8x_A-vcqqyOFZu06WlhnypWj&amp;index=26\">Like/Hearsay :Cure Dolly</a>",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "surface": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -65,7 +72,6 @@
   "tags": [
     "_uk",
     "-::directional",
-    "-::vocab::matching::requires::surface",
     "legacy_scheduling",
     "source::yomitan"
   ]

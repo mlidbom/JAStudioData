@@ -18,6 +18,7 @@
     "にくる"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-7b2b8d0cdc939c03cb437dd22f563a95633c0e1d0d83d5cb285f6a68.mp3]",
@@ -36,12 +37,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isInflectingWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -58,7 +65,5 @@
     "readingMnemonic": ""
   },
   "id": "2357070c-4f66-4e84-94c4-a344ce0165a8",
-  "tags": [
-    "-::vocab::matching::is-inflecting-word"
-  ]
+  "tags": []
 }

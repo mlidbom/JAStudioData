@@ -18,6 +18,7 @@
     "なくて"
   ],
   "partsOfSpeech": "",
+  "register": [],
   "audioB": "[sound:hypertts-2dbd56a5fcc6f72df22720a488de028134d1831794f4db8ef16dfc37.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -27,12 +28,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isInflectingWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -50,7 +57,6 @@
   },
   "id": "d92847aa-de74-4e33-ad2a-bd16871cbb95",
   "tags": [
-    "_uk",
-    "-::vocab::matching::is-inflecting-word"
+    "_uk"
   ]
 }

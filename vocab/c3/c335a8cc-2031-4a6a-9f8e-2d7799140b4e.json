@@ -18,6 +18,7 @@
     "てまわる"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-cd3754ad508a4b170b9c77d4d5f8ac0790409beb6861a0bfa6088f51.mp3]",
@@ -48,12 +49,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "teFormStemStart": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -70,7 +77,5 @@
     "readingMnemonic": ""
   },
   "id": "c335a8cc-2031-4a6a-9f8e-2d7799140b4e",
-  "tags": [
-    "-::vocab::matching::requires::te-form-stem"
-  ]
+  "tags": []
 }

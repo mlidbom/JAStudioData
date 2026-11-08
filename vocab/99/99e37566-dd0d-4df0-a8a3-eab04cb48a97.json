@@ -18,6 +18,10 @@
     "にあらず"
   ],
   "partsOfSpeech": "expression",
+  "register": [
+    "formal",
+    "literary"
+  ],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-5672a9ed3936bf41a136f3895ac9eb313502393eb0881b025fa7a5a1.mp3]",
@@ -27,12 +31,16 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -54,8 +62,5 @@
     "readingMnemonic": ""
   },
   "id": "99e37566-dd0d-4df0-a8a3-eab04cb48a97",
-  "tags": [
-    "-::vocab::register::formal",
-    "-::vocab::register::literary"
-  ]
+  "tags": []
 }

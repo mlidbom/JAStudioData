@@ -15,6 +15,7 @@
     "おすわり"
   ],
   "partsOfSpeech": "noun, suru verb",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-e58fe328e5b5e92e029f751102fe6cc7f67a0c59a26126be28d613cd.mp3]",
@@ -24,12 +25,19 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "sentenceEnd": "required",
+      "sentenceStart": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -47,8 +55,6 @@
   },
   "id": "0eb894de-d4f9-43f2-8017-90fa78d30f54",
   "tags": [
-    "-::vocab::matching::requires::sentence-end",
-    "-::vocab::matching::requires::sentence-start",
     "source::jamdict"
   ]
 }

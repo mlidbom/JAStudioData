@@ -19,6 +19,7 @@
     "いかなくちゃ"
   ],
   "partsOfSpeech": "",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-1a2fbda5b6f16d302d39ef7a48f31e8bccc3a257dfe6484645529720.mp3]",
@@ -28,12 +29,20 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "sentenceEnd": "required"
+    },
+    "flags": [
+      "isPoisonWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -51,8 +60,6 @@
   },
   "id": "fb65ce21-f69e-4d5f-975e-a4df16e2fa04",
   "tags": [
-    "-::vocab::matching::is-poison-word",
-    "-::vocab::matching::requires::sentence-end",
     "source::jamdict"
   ]
 }

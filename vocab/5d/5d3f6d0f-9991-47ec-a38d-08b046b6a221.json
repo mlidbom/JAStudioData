@@ -15,6 +15,7 @@
     "せ"
   ],
   "partsOfSpeech": "adverb",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-8398d65042d8f51057e89e602f4a75c6839e29cf5adae2cf6340eba3.mp3]",
@@ -24,12 +25,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "godanImperative": "forbidden"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -47,7 +54,6 @@
   },
   "id": "5d3f6d0f-9991-47ec-a38d-08b046b6a221",
   "tags": [
-    "_uk",
-    "-::vocab::matching::forbids::godan_imperative"
+    "_uk"
   ]
 }

@@ -18,6 +18,7 @@
     "ていようとも"
   ],
   "partsOfSpeech": "",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-714152920cd84487f70bd21f7b505b930b46d9e093a158bdef0df220.mp3]",
@@ -36,12 +37,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "teFormStemStart": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -60,7 +67,5 @@
     "readingMnemonic": ""
   },
   "id": "e788ffeb-d177-49b3-b49f-fab95abcaacd",
-  "tags": [
-    "-::vocab::matching::requires::te-form-stem"
-  ]
+  "tags": []
 }

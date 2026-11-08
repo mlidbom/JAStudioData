@@ -18,6 +18,7 @@
     "てきた"
   ],
   "partsOfSpeech": "",
+  "register": [],
   "audioB": "[sound:hypertts-2166bd1e6bdce7cd9a01cfca911f326374b21896191ec90a30c1039e.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -36,12 +37,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isInflectingWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -60,7 +67,5 @@
     "readingMnemonic": ""
   },
   "id": "83ccc952-8f5f-4908-842c-24a0ef8da6bc",
-  "tags": [
-    "-::vocab::matching::is-inflecting-word"
-  ]
+  "tags": []
 }

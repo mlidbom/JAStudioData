@@ -15,6 +15,7 @@
     "んじゃ"
   ],
   "partsOfSpeech": "",
+  "register": [],
   "audioB": "[sound:hypertts-1943be32dbd1f3690d97343b19b2b33730d968722036b7256927c471.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -24,12 +25,20 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "sentenceEnd": "required",
+      "sentenceStart": "forbidden",
+      "yieldLastTokenToOverlappingCompound": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -53,9 +62,6 @@
   "id": "7dfc1ecb-1e3c-4ee1-a8df-6b3baaf8662e",
   "tags": [
     "_tts_audio",
-    "-::vocab::matching::forbids::sentence-start",
-    "-::vocab::matching::requires::sentence-end",
-    "-::vocab::matching::yield-last-token-to-upcoming-compound",
     "source::yomitan"
   ]
 }

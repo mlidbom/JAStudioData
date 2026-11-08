@@ -18,6 +18,7 @@
     "ぶんのいち"
   ],
   "partsOfSpeech": "expression, suffix",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-4408aa5b1c205a8c2e5e09d750b8b449fa260d09e5c9e4c820288d61.mp3]",
@@ -36,12 +37,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isCompositionallyTransparentCompound"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -60,7 +67,6 @@
   "id": "b3595c7e-98a6-453a-96f2-3e18596c9dc8",
   "tags": [
     "-::vocab::has-no-studying-sentences",
-    "-::vocab::is-compositionally-transparent-compound",
     "source::jamdict"
   ]
 }

@@ -18,6 +18,7 @@
     "つかえる"
   ],
   "partsOfSpeech": "ichidan verb",
+  "register": [],
   "audioB": "[sound:yomitan_audio_2024-07-21-20-10-22-403.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -32,12 +33,19 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isCompositionallyTransparentCompound",
+      "isPoisonWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -58,9 +66,7 @@
   "id": "6795224b-13a0-46a2-8f42-8d6c849bb1df",
   "tags": [
     "-::vocab::has-no-studying-sentences",
-    "-::vocab::is-compositionally-transparent-compound",
     "-::vocab::is-ichidan-hiding-godan-potential",
-    "-::vocab::matching::is-poison-word",
     "source::yomitan"
   ]
 }

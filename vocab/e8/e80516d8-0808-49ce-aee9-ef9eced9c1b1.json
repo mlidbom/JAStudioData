@@ -19,6 +19,7 @@
     "ないことには"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "[sound:hypertts-1a7c13ab0b70dca7ff811827defd77bb9d7f610d42de6cbf43fb9331.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -41,12 +42,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "irrealis": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -65,7 +72,6 @@
   "id": "e80516d8-0808-49ce-aee9-ef9eced9c1b1",
   "tags": [
     "_uk",
-    "-::vocab::matching::requires::irrealis",
     "source::yomitan"
   ]
 }

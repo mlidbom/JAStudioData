@@ -21,6 +21,7 @@
     "ように"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-2aa55e2235f8d6147f81cf852588528f0f824332daa85426cf485cc5.mp3][sound:hypertts-4af8bca40fcd47ea64e09549bafa98e255b64f2c52c4330855275607.mp3]",
@@ -35,12 +36,18 @@
   "references": "<a href=\"https://www.youtube.com/watch?v=IE7WgIOOGbM&amp;list=PLg9uYxuZf8x_A-vcqqyOFZu06WlhnypWj&amp;index=31\">Cure Dolly Lesson 28: You ni- one key to all the main uses!</a>",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "yieldLastTokenToOverlappingCompound": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -60,7 +67,6 @@
   },
   "id": "0bbdd2f2-1c97-4138-85ce-80b365582a29",
   "tags": [
-    "_uk",
-    "-::vocab::matching::yield-last-token-to-upcoming-compound"
+    "_uk"
   ]
 }

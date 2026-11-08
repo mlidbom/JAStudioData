@@ -18,6 +18,7 @@
     "あれても"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-ea351d7aec6b861721847062718e463822881c135bbddc010e8611b4.mp3]",
@@ -32,12 +33,23 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "godanPotential": "forbidden",
+      "ichidan": "forbidden",
+      "irrealis": "required",
+      "yieldLastTokenToOverlappingCompound": "required"
+    },
+    "flags": [
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -54,11 +66,5 @@
     "readingMnemonic": ""
   },
   "id": "246ec33e-d622-46fa-8455-5a14bae92b8e",
-  "tags": [
-    "-::vocab::matching::forbids::godan_potential",
-    "-::vocab::matching::forbids::ichidan",
-    "-::vocab::matching::requires::irrealis",
-    "-::vocab::matching::yield-last-token-to-upcoming-compound",
-    "-::vocab::question-overrides-form"
-  ]
+  "tags": []
 }

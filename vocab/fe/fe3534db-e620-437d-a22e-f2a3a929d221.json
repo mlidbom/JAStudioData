@@ -19,6 +19,7 @@
     "よいかんじ"
   ],
   "partsOfSpeech": "expression, noun",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-3c84b36c6d2d19503d3a91674686b91a091f2066f26f4150a898c4e6.mp3]",
@@ -28,12 +29,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isCompositionallyTransparentCompound"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -51,7 +58,6 @@
   },
   "id": "fe3534db-e620-437d-a22e-f2a3a929d221",
   "tags": [
-    "-::vocab::is-compositionally-transparent-compound",
     "source::jamdict"
   ]
 }

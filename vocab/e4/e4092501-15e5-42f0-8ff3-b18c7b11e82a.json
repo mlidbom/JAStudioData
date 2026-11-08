@@ -18,6 +18,7 @@
     "んでいい"
   ],
   "partsOfSpeech": "expression, i-adjective",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-67ac2c718b45bbc396a606d996bc83b814aed53071270ff18af0324b.mp3]",
@@ -48,14 +49,22 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": [
-      "ん"
-    ]
+  "matching": {
+    "requiredOrForbidden": {
+      "teFormStemStart": "required"
+    },
+    "flags": [
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": [
+        "ん"
+      ]
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -81,8 +90,6 @@
   "id": "e4092501-15e5-42f0-8ff3-b18c7b11e82a",
   "tags": [
     "-::vocab::has-no-studying-sentences",
-    "-::vocab::matching::requires::te-form-stem",
-    "-::vocab::matching::uses::required-prefix",
-    "-::vocab::question-overrides-form"
+    "-::vocab::matching::uses::required-prefix"
   ]
 }

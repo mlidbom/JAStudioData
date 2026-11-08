@@ -18,6 +18,7 @@
     "てのける"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-19d3e361c7ffa6ce99bebbdfb7377ad01f8810247216c65a50666a7e.mp3]",
@@ -32,14 +33,20 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [
-      "く"
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isInflectingWord"
     ],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+    "rules": {
+      "prefixIsNot": [
+        "く"
+      ],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -58,7 +65,6 @@
   "id": "d97855ad-6a05-47be-80d9-e23434dc1924",
   "tags": [
     "-::vocab::has-no-studying-sentences",
-    "-::vocab::matching::is-inflecting-word",
     "-::vocab::matching::uses::prefix-is-not"
   ]
 }

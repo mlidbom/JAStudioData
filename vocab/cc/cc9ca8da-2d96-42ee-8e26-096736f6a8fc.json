@@ -17,6 +17,7 @@
     "べえ"
   ],
   "partsOfSpeech": "auxiliary, suffix",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-9089d1cacd205ec152fecaa9518c2f6f654eb70806f4b83f7471c31e.mp3]",
@@ -35,12 +36,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "godanImperative": "forbidden"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -58,7 +65,6 @@
   },
   "id": "cc9ca8da-2d96-42ee-8e26-096736f6a8fc",
   "tags": [
-    "_uk",
-    "-::vocab::matching::forbids::godan_imperative"
+    "_uk"
   ]
 }

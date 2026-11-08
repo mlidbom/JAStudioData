@@ -18,6 +18,9 @@
     "である"
   ],
   "partsOfSpeech": "copula, godan verb",
+  "register": [
+    "formal"
+  ],
   "audioB": "[sound:yomitan_audio_2024-07-04-21-00-10-830.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -27,14 +30,20 @@
   "references": "Cure Dolly: <a href=\"https://www.youtube.com/watch?v=hS02cADsjfI&amp;list=PLg9uYxuZf8x_A-vcqqyOFZu06WlhnypWj&amp;index=86\">Understanding copulas: である, であります、でござる、でございます</a>",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [
-      "ん"
-    ],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "teFormStemStart": "forbidden"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [
+        "ん"
+      ],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -63,9 +72,7 @@
   "id": "5d5a3089-c3ce-46a0-bf35-1afd99b33500",
   "tags": [
     "_uk",
-    "-::vocab::matching::forbids::te-form-stem",
     "-::vocab::matching::uses::prefix-is-not",
-    "-::vocab::register::formal",
     "source::yomitan"
   ]
 }

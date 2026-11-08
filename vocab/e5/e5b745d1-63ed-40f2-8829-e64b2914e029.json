@@ -18,6 +18,7 @@
     "ちゃっおう"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-ea2e7efe54a83e194b6812a51fdf84715001956ba41e2235fb2aed4d.mp3]",
@@ -27,12 +28,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -51,7 +58,5 @@
     "readingMnemonic": ""
   },
   "id": "e5b745d1-63ed-40f2-8829-e64b2914e029",
-  "tags": [
-    "-::vocab::question-overrides-form"
-  ]
+  "tags": []
 }

@@ -15,6 +15,7 @@
     "ながら"
   ],
   "partsOfSpeech": "masu-suffix, particle",
+  "register": [],
   "audioB": "[sound:yomichan_audio_ながら_ながら_2023-09-14-00-23-07.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -29,12 +30,18 @@
   "references": "Cure Dolly:&nbsp;<a href=\"https://www.youtube.com/watch?v=spiQA-GKDuo&amp;list=PLg9uYxuZf8x-W5kcce4zVNwK_JHjxHK5x&amp;index=33\">Resolving Ambiguities: Japanese ため and ながら</a>",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isInflectingWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -57,7 +64,6 @@
   "id": "96bb4da6-fd76-4d64-943e-4e123d3c4da9",
   "tags": [
     "_uk",
-    "-::vocab::matching::is-inflecting-word",
     "legacy_scheduling",
     "source::yomitan"
   ]

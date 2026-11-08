@@ -18,6 +18,7 @@
     "おうとしてる"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-6502bd85166e04015d97a610cf6ffa53fdcb780331601d11a097db46.mp3]",
@@ -48,12 +49,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -74,7 +81,5 @@
     "readingMnemonic": ""
   },
   "id": "d420e8eb-380e-4723-8e7c-530ee4057f2e",
-  "tags": [
-    "-::vocab::question-overrides-form"
-  ]
+  "tags": []
 }

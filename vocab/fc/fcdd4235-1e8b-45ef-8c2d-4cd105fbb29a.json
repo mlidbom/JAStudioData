@@ -16,6 +16,7 @@
     "もやる"
   ],
   "partsOfSpeech": "godan verb, intransitive",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-b2b88c7e357c05f42a04d365ca660d715e1a0cc1403157ea7fdd8911.mp3]",
@@ -25,12 +26,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "singleToken": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -49,7 +56,6 @@
   "id": "fcdd4235-1e8b-45ef-8c2d-4cd105fbb29a",
   "tags": [
     "_uk",
-    "-::vocab::matching::requires::single-token",
     "source::jamdict"
   ]
 }

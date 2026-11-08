@@ -15,6 +15,7 @@
     "ははあ"
   ],
   "partsOfSpeech": "interjection",
+  "register": [],
   "audioB": "[sound:yomitan_audio_2025-05-25-15-43-18-565.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -33,12 +34,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "sentenceStart": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -57,7 +64,6 @@
   "id": "816dc5d8-d55c-4d64-aabe-c5052aee2cb0",
   "tags": [
     "_uk",
-    "-::vocab::matching::requires::sentence-start",
     "source::yomitan"
   ]
 }

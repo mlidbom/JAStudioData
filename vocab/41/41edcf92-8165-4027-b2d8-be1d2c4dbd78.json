@@ -18,6 +18,7 @@
     "てます"
   ],
   "partsOfSpeech": "",
+  "register": [],
   "audioB": "[sound:hypertts-43ee1614f861783e9ea5472d0afff0090348ba9065e2d702739441db.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -27,12 +28,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "teFormStemStart": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -86,7 +93,6 @@
   },
   "id": "41edcf92-8165-4027-b2d8-be1d2c4dbd78",
   "tags": [
-    "_uk",
-    "-::vocab::matching::requires::te-form-stem"
+    "_uk"
   ]
 }

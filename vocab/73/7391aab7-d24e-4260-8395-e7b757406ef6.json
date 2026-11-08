@@ -15,6 +15,7 @@
     "に"
   ],
   "partsOfSpeech": "particle",
+  "register": [],
   "audioB": "[sound:katakana_22_ni.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -24,12 +25,18 @@
   "references": "<a href=\"https://www.japanesewithanime.com/2019/05/ni-particle.html\">に Particle | Japanese with Anime</a>&nbsp;#&nbsp;<a href=\"https://www.japanesewithanime.com/2019/10/ni-copula.html\">に Adverbial Copula | Japanese with Anime</a>",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isInflectingWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -50,7 +57,6 @@
   "id": "7391aab7-d24e-4260-8395-e7b757406ef6",
   "tags": [
     "_uk",
-    "-::vocab::matching::is-inflecting-word",
     "legacy_scheduling",
     "source::yomitan"
   ]

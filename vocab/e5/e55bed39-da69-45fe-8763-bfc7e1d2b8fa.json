@@ -18,6 +18,9 @@
     "えそう"
   ],
   "partsOfSpeech": "expression",
+  "register": [
+    "roughMasculine"
+  ],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-c5c9686daf0285348021bb560eee03834fa67508c433855e0b07eb3c.mp3]",
@@ -72,12 +75,20 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "godanImperative": "required"
+    },
+    "flags": [
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -98,9 +109,5 @@
     "readingMnemonic": ""
   },
   "id": "e55bed39-da69-45fe-8763-bfc7e1d2b8fa",
-  "tags": [
-    "-::vocab::matching::requires::godan_imperative",
-    "-::vocab::question-overrides-form",
-    "-::vocab::register::rough"
-  ]
+  "tags": []
 }

@@ -18,6 +18,9 @@
     "てしまいました"
   ],
   "partsOfSpeech": "expression",
+  "register": [
+    "polite"
+  ],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-56e4ddda818b64a1f4b2d90e589d1cc0cdf5fe6bc6fa5ef8f04adaf4.mp3]",
@@ -27,12 +30,16 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -57,7 +64,5 @@
     "readingMnemonic": ""
   },
   "id": "c1dee860-2595-463d-b59e-0af7bbcd547c",
-  "tags": [
-    "-::vocab::register::polite"
-  ]
+  "tags": []
 }

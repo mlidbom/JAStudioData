@@ -18,6 +18,7 @@
     "なかった"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "[sound:hypertts-8362cd4cc5e05292448166b5dd7c90d704bd802a94341cfe9e6fd909.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -32,12 +33,20 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "irrealis": "forbidden"
+    },
+    "flags": [
+      "isInflectingWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -57,8 +66,6 @@
   },
   "id": "15109b3a-49b9-4aca-b25e-9431ef5ed4e6",
   "tags": [
-    "-::vocab::matching::forbids::irrealis",
-    "-::vocab::matching::is-inflecting-word",
     "source::yomitan"
   ]
 }

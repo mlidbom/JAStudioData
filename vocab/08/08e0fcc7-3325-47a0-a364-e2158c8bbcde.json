@@ -18,6 +18,7 @@
     "あせられない"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-8a61f89bb8a8b9ee01358145777e7b69006066227b48bd26308c3853.mp3]",
@@ -36,12 +37,22 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "ichidan": "forbidden",
+      "irrealis": "required"
+    },
+    "flags": [
+      "isInflectingWord",
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -62,10 +73,6 @@
   "id": "08e0fcc7-3325-47a0-a364-e2158c8bbcde",
   "tags": [
     "_uk",
-    "-::TODO::studio::vocab::matching::requires-and-includes::preceding-vowel",
-    "-::vocab::matching::forbids::ichidan",
-    "-::vocab::matching::is-inflecting-word",
-    "-::vocab::matching::requires::irrealis",
-    "-::vocab::question-overrides-form"
+    "-::TODO::studio::vocab::matching::requires-and-includes::preceding-vowel"
   ]
 }

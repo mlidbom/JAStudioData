@@ -20,6 +20,7 @@
     "えていない"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-b423587a75fa2675d99337626aa969e19ca4cb307cd1cbee05c20ed4.mp3]",
@@ -78,12 +79,21 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "godanPotential": "required"
+    },
+    "flags": [
+      "isInflectingWord",
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -105,9 +115,6 @@
   },
   "id": "82670b84-1859-4fe6-825b-03484181fcdd",
   "tags": [
-    "_uk",
-    "-::vocab::matching::is-inflecting-word",
-    "-::vocab::matching::requires::godan_potential",
-    "-::vocab::question-overrides-form"
+    "_uk"
   ]
 }

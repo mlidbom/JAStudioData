@@ -15,6 +15,7 @@
     "ただ"
   ],
   "partsOfSpeech": "adverb, の adjective",
+  "register": [],
   "audioB": "[sound:唯_b.mp3]",
   "audioG": "[sound:唯_g.mp3]",
   "audioTTS": "",
@@ -49,12 +50,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "singleToken": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -73,7 +80,6 @@
   "id": "0b44cdc7-0c3d-4dfc-9463-4f359d73da3e",
   "tags": [
     "_uk",
-    "-::vocab::matching::requires::single-token",
     "legacy_scheduling",
     "source::wani::level::49"
   ]

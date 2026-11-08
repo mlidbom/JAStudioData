@@ -18,6 +18,7 @@
     "えた"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-3ada626dd68d62f9f150cb362a9eef4b0f815009d62449b1715ac6cf.mp3]",
@@ -76,12 +77,23 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "godanPotential": "required",
+      "sentenceStart": "forbidden",
+      "surface": "required"
+    },
+    "flags": [
+      "isInflectingWord",
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -98,11 +110,5 @@
     "readingMnemonic": ""
   },
   "id": "c9623937-08d2-4d66-ac36-75c158d83958",
-  "tags": [
-    "-::vocab::matching::forbids::sentence-start",
-    "-::vocab::matching::is-inflecting-word",
-    "-::vocab::matching::requires::godan_potential",
-    "-::vocab::matching::requires::surface",
-    "-::vocab::question-overrides-form"
-  ]
+  "tags": []
 }

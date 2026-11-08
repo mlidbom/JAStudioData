@@ -18,6 +18,7 @@
     "つづいて"
   ],
   "partsOfSpeech": "conjunction, expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-14c39bc5746e2f666e5cc7f4ffb42b3e74cd72113c6ef098467d37c3.mp3]",
@@ -27,12 +28,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "sentenceStart": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -50,7 +57,6 @@
   },
   "id": "271f6877-57ee-4384-9062-e6520439efaf",
   "tags": [
-    "-::vocab::matching::requires::sentence-start",
     "source::jamdict"
   ]
 }

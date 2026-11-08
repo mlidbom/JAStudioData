@@ -18,6 +18,7 @@
     "う以上"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-5c1f352be0f69e9deead1f9ae153a14d3280b639d3bb4138c0fc772b.mp3]",
@@ -27,12 +28,20 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "dictionaryFormStart": "required"
+    },
+    "flags": [
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -51,8 +60,5 @@
     "readingMnemonic": ""
   },
   "id": "d1ee9958-29fd-496e-9047-ac60d8396340",
-  "tags": [
-    "-::vocab::matching::requires::dictionary_form_stem",
-    "-::vocab::question-overrides-form"
-  ]
+  "tags": []
 }

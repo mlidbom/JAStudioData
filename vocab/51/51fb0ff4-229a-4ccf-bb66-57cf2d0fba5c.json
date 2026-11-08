@@ -18,6 +18,7 @@
     "はずだ"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": " [sound:ATTS はずだ (azure microsoft server speech text to speech voice (ja-jp daichineural)).mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -32,12 +33,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "surface": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -57,7 +64,6 @@
   "tags": [
     "_tts_audio",
     "_uk",
-    "-::vocab::matching::requires::surface",
     "source::yomitan"
   ]
 }

@@ -18,6 +18,7 @@
     "えている"
   ],
   "partsOfSpeech": "expression, ichidan verb",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-b5559f5eb38c16576cee22b1fa5bd4eb590f3edb242036150705c213.mp3]",
@@ -132,12 +133,21 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "godanPotential": "required"
+    },
+    "flags": [
+      "isInflectingWord",
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -158,9 +168,5 @@
     "readingMnemonic": ""
   },
   "id": "9e28af84-7a68-41ec-9f66-019957d03ab6",
-  "tags": [
-    "-::vocab::matching::is-inflecting-word",
-    "-::vocab::matching::requires::godan_potential",
-    "-::vocab::question-overrides-form"
-  ]
+  "tags": []
 }

@@ -19,6 +19,7 @@
     "いたん"
   ],
   "partsOfSpeech": "",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-32167084c91555b52346c9634da3506a5be197489547a575d8a0b000.mp3]",
@@ -28,12 +29,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "singleToken": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -53,7 +60,6 @@
   "tags": [
     "_uk",
     "-::TODO::studio::vocab::matching::auto-split-so-proper-matching-for-compounds-can-work",
-    "-::vocab::has-no-studying-sentences",
-    "-::vocab::matching::requires::single-token"
+    "-::vocab::has-no-studying-sentences"
   ]
 }

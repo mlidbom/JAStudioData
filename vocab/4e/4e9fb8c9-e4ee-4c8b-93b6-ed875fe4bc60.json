@@ -15,6 +15,7 @@
     "さす"
   ],
   "partsOfSpeech": "auxiliary, transitive",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-6d6cef62011860fb67923a383817ed92e5ae4fe0ba14168afa50742c.mp3]",
@@ -29,12 +30,19 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "ichidan": "forbidden",
+      "irrealis": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -59,8 +67,6 @@
   "id": "4e9fb8c9-e4ee-4c8b-93b6-ed875fe4bc60",
   "tags": [
     "-::TODO::studio::vocab::matching::requires-and-includes::preceding-vowel",
-    "-::vocab::has-no-studying-sentences",
-    "-::vocab::matching::forbids::ichidan",
-    "-::vocab::matching::requires::irrealis"
+    "-::vocab::has-no-studying-sentences"
   ]
 }

@@ -18,6 +18,7 @@
     "いってくる"
   ],
   "partsOfSpeech": "kuru verb",
+  "register": [],
   "audioB": "[sound:hypertts-17c34661b58766d9b128f1cf98b5cbbe26e89cc18aa8b2594c4a11f0.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -36,14 +37,20 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [
-      "に"
-    ],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "surface": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [
+        "に"
+      ],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -63,7 +70,6 @@
   },
   "id": "d6a40566-8e57-49fe-9739-e4ded7f1b877",
   "tags": [
-    "-::vocab::matching::requires::surface",
     "-::vocab::matching::uses::prefix-is-not",
     "source::yomitan"
   ]

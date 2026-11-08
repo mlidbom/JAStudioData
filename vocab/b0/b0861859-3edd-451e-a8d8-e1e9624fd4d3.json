@@ -18,6 +18,7 @@
     "させられる"
   ],
   "partsOfSpeech": "expression, ichidan verb",
+  "register": [],
   "audioB": "[sound:hypertts-35bb66a7cb2f11eb33b7200159777abb2715a5ad0a755843fdb016a9.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -32,12 +33,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "yieldLastTokenToOverlappingCompound": "forbidden"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -57,7 +64,6 @@
   },
   "id": "b0861859-3edd-451e-a8d8-e1e9624fd4d3",
   "tags": [
-    "_uk",
-    "-::vocab::matching::forbids::auto_yielding"
+    "_uk"
   ]
 }

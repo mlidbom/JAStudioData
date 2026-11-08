@@ -18,6 +18,7 @@
     "いただけない"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-003b1539fabd3ff5f37bb54f8268fa1dfbd63c0e2a3d1d711dbcc546.mp3]",
@@ -48,16 +49,22 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [
-      "を"
-    ],
-    "suffixIsNot": [
-      "か"
-    ],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "teFormStemHead": "forbidden"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [
+        "を"
+      ],
+      "suffixIsNot": [
+        "か"
+      ],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -77,7 +84,6 @@
   },
   "id": "460bb083-0019-4dc6-8591-0bdfcaec4ce8",
   "tags": [
-    "-::vocab::matching::forbids::te-form-prefix",
     "-::vocab::matching::uses::prefix-is-not",
     "-::vocab::matching::uses::suffix-is-not"
   ]

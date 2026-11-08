@@ -18,6 +18,7 @@
     "おうとしている"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-6a414f2533599caac57756e4e464c72b1d29202bd0308d1331642928.mp3]",
@@ -48,12 +49,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -74,7 +81,5 @@
     "readingMnemonic": ""
   },
   "id": "2a988b28-d156-401f-a3a3-fad3dee362c2",
-  "tags": [
-    "-::vocab::question-overrides-form"
-  ]
+  "tags": []
 }

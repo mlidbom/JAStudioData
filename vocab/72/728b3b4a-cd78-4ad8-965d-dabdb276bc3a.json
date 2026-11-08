@@ -18,6 +18,7 @@
     "したがわせる"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-b68a8d182f6fbc89932bad445752d7aed8950e7dd68d138297cde1fc.mp3]",
@@ -48,12 +49,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isCompositionallyTransparentCompound"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -70,7 +77,5 @@
     "readingMnemonic": ""
   },
   "id": "728b3b4a-cd78-4ad8-965d-dabdb276bc3a",
-  "tags": [
-    "-::vocab::is-compositionally-transparent-compound"
-  ]
+  "tags": []
 }

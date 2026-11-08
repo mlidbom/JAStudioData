@@ -15,6 +15,7 @@
     "ゲ"
   ],
   "partsOfSpeech": "interjection",
+  "register": [],
   "audioB": "[sound:yomitan_audio_2025-11-02-13-05-37-350.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -37,12 +38,19 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "sentenceStart": "required",
+      "surface": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -62,8 +70,6 @@
   "tags": [
     "_uk",
     "-::vocab::has-no-studying-sentences",
-    "-::vocab::matching::requires::sentence-start",
-    "-::vocab::matching::requires::surface",
     "source::yomitan"
   ]
 }

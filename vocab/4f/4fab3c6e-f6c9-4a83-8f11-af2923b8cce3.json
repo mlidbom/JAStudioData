@@ -19,6 +19,7 @@
     "でました"
   ],
   "partsOfSpeech": "",
+  "register": [],
   "audioB": "[sound:hypertts-b5c3a9b5468450fa450c452fab84f8b11ec44a8783ff6edfc696e96f.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -41,12 +42,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "teFormStemStart": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -78,7 +85,5 @@
     "readingMnemonic": ""
   },
   "id": "4fab3c6e-f6c9-4a83-8f11-af2923b8cce3",
-  "tags": [
-    "-::vocab::matching::requires::te-form-stem"
-  ]
+  "tags": []
 }

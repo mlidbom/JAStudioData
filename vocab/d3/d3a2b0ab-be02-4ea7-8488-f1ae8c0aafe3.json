@@ -18,6 +18,7 @@
     "いってきます"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "[sound:hypertts-b883856ada8dd4fdf257d2213f584b920bf21a206fe0d82bc02bf18b.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -40,14 +41,20 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [
-      "に"
-    ],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "surface": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [
+        "に"
+      ],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -67,7 +74,6 @@
   },
   "id": "d3a2b0ab-be02-4ea7-8488-f1ae8c0aafe3",
   "tags": [
-    "-::vocab::matching::requires::surface",
     "-::vocab::matching::uses::prefix-is-not",
     "source::yomitan"
   ]

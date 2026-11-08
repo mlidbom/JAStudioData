@@ -18,6 +18,7 @@
     "いけ"
   ],
   "partsOfSpeech": "prefix",
+  "register": [],
   "audioB": "[sound:yomitan_audio_2025-03-16-18-19-50-694.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -36,12 +37,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "godanPotential": "forbidden"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -60,7 +67,6 @@
   "id": "b9e4a63b-5c03-44cc-8088-7550869376d1",
   "tags": [
     "_uk",
-    "-::vocab::matching::forbids::godan_potential",
     "source::yomitan"
   ]
 }

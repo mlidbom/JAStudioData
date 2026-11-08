@@ -18,6 +18,7 @@
     "さんぶんのいち"
   ],
   "partsOfSpeech": "expression, noun",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-41968b9443708e10f5c332d7624f1b7d8aaab036928ca77c94a1c04b.mp3]",
@@ -36,12 +37,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isCompositionallyTransparentCompound"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -60,7 +67,6 @@
   "id": "80003c08-7d1b-43c3-9e83-ad8611c5c2cf",
   "tags": [
     "-::vocab::has-no-studying-sentences",
-    "-::vocab::is-compositionally-transparent-compound",
     "source::jamdict"
   ]
 }

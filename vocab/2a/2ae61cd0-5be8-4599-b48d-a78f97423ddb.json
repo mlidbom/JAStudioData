@@ -15,6 +15,7 @@
     "する"
   ],
   "partsOfSpeech": "intransitive, suru verb, transitive",
+  "register": [],
   "audioB": "[sound:f85269d83d8dd53f90bdf9f959e65460-a57db3058906b0f71bfc5998f192c060b72e77da.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -29,14 +30,18 @@
   "references": "<a href=\"https://www.japanesewithanime.com/2020/09/eventivizers.html?m=1\">Eventivizers | Japanese with Anime</a>",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [
-      "く"
-    ],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [
+        "く"
+      ],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "成る",

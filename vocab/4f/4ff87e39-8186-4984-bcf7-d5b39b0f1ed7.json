@@ -18,6 +18,7 @@
     "えれて"
   ],
   "partsOfSpeech": "",
+  "register": [],
   "audioB": "[sound:hypertts-d3112d021350c5dc730a167387df1572910295b143aa63697a79f172.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -32,12 +33,20 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "godanPotential": "required"
+    },
+    "flags": [
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -61,8 +70,6 @@
   "id": "4ff87e39-8186-4984-bcf7-d5b39b0f1ed7",
   "tags": [
     "_uk",
-    "-::TODO::studio::vocab::matching::requires-and-includes::preceding-vowel",
-    "-::vocab::matching::requires::godan_potential",
-    "-::vocab::question-overrides-form"
+    "-::TODO::studio::vocab::matching::requires-and-includes::preceding-vowel"
   ]
 }

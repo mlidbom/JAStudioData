@@ -18,6 +18,7 @@
     "てた"
   ],
   "partsOfSpeech": "",
+  "register": [],
   "audioB": "[sound:hypertts-40d14a06ec4ffcf303cd90af144aa9692d7ec7d9e73830bde3bcf893.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -40,12 +41,21 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "surface": "required",
+      "teFormStemStart": "required"
+    },
+    "flags": [
+      "isInflectingWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -76,9 +86,5 @@
     "readingMnemonic": ""
   },
   "id": "4a72e0c9-ff33-4ec6-931f-980fdc414788",
-  "tags": [
-    "-::vocab::matching::is-inflecting-word",
-    "-::vocab::matching::requires::surface",
-    "-::vocab::matching::requires::te-form-stem"
-  ]
+  "tags": []
 }

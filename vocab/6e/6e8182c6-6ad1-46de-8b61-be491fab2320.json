@@ -19,6 +19,7 @@
     "とはいえ"
   ],
   "partsOfSpeech": "conjunction",
+  "register": [],
   "audioB": "[sound:yomitan_audio_2025-05-25-17-04-55-938.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -33,16 +34,22 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [
-      "そう",
-      "ない",
-      "ま"
-    ],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "yieldLastTokenToOverlappingCompound": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [
+        "そう",
+        "ない",
+        "ま"
+      ],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -62,7 +69,6 @@
   "tags": [
     "_uk",
     "-::vocab::matching::uses::suffix-is-not",
-    "-::vocab::matching::yield-last-token-to-upcoming-compound",
     "source::yomitan"
   ]
 }

@@ -18,6 +18,7 @@
     "うことで"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-7425637b2d04b67a4a47dec6d27e9f5551ce12f58bc2ae1d45bdf185.mp3]",
@@ -27,14 +28,22 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [
-      "は"
+  "matching": {
+    "requiredOrForbidden": {
+      "dictionaryFormStart": "required"
+    },
+    "flags": [
+      "questionOverridesForm"
     ],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [
+        "は"
+      ],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -52,8 +61,6 @@
   },
   "id": "9773d025-cfda-44da-828e-45aa184b801a",
   "tags": [
-    "-::vocab::matching::requires::dictionary_form_stem",
-    "-::vocab::matching::uses::suffix-is-not",
-    "-::vocab::question-overrides-form"
+    "-::vocab::matching::uses::suffix-is-not"
   ]
 }

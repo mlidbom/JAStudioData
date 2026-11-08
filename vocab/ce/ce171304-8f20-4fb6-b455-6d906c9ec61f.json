@@ -18,6 +18,7 @@
     "かえれ"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "[sound:yomitan_audio_2025-03-09-10-20-19-471.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -27,12 +28,20 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "godanPotential": "forbidden"
+    },
+    "flags": [
+      "isCompositionallyTransparentCompound"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -50,8 +59,6 @@
   },
   "id": "ce171304-8f20-4fb6-b455-6d906c9ec61f",
   "tags": [
-    "-::vocab::is-compositionally-transparent-compound",
-    "-::vocab::matching::forbids::godan_potential",
     "source::yomitan",
     "tmp::godan_imperative"
   ]

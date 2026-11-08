@@ -15,6 +15,7 @@
     "られる"
   ],
   "partsOfSpeech": "ichidan verb",
+  "register": [],
   "audioB": " [sound:ATTS られる (azure microsoft server speech text to speech voice (ja-jp daichineural)).mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -29,12 +30,18 @@
   "references": "<a href=\"https://www.youtube.com/watch?v=cvV6d-RETs8&amp;list=PLg9uYxuZf8x_A-vcqqyOFZu06WlhnypWj&amp;index=16\">Receiving, NOT Passive: Cure dolly</a> # <a href=\"https://www.youtube.com/watch?v=LCvGHWbhDKw&amp;list=PLg9uYxuZf8x_A-vcqqyOFZu06WlhnypWj&amp;index=22\">Causative and Receiving(Passive): Cure Dolly</a>",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isInflectingWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -59,7 +66,6 @@
   "tags": [
     "_tts_audio",
     "_uk",
-    "-::vocab::matching::is-inflecting-word",
     "source::yomitan"
   ]
 }

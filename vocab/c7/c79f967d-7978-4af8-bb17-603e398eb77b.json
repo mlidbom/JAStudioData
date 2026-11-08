@@ -18,6 +18,7 @@
     "うぜ"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-77919011ed4db582d85d2df9e61d1726d28c24c19b0ceb590ca82245.mp3]",
@@ -27,12 +28,20 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "dictionaryFormStart": "required"
+    },
+    "flags": [
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -53,8 +62,5 @@
     "readingMnemonic": ""
   },
   "id": "c79f967d-7978-4af8-bb17-603e398eb77b",
-  "tags": [
-    "-::vocab::matching::requires::dictionary_form_stem",
-    "-::vocab::question-overrides-form"
-  ]
+  "tags": []
 }

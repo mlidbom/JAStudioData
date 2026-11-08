@@ -15,6 +15,7 @@
     "いる"
   ],
   "partsOfSpeech": "godan verb, intransitive",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-df6cd45316c37abfd8279473e39c4318bf7bb3a61eaa50b8521504fa.mp3]",
@@ -29,12 +30,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "masuStem": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -53,7 +60,6 @@
   "id": "173919fc-ec92-48dd-b941-35023ce9a9c1",
   "tags": [
     "_uk",
-    "-::vocab::matching::requires::masu_stem",
     "legacy_scheduling",
     "source::wani::level::01"
   ]

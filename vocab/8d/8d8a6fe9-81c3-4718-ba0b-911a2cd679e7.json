@@ -15,6 +15,7 @@
     "やすめ"
   ],
   "partsOfSpeech": "interjection",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-320c52e0952682a1b1503ab37af92e78f236abac9b300c657f8eeb3b.mp3]",
@@ -24,12 +25,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isCompositionallyTransparentCompound"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -46,7 +53,5 @@
     "readingMnemonic": ""
   },
   "id": "8d8a6fe9-81c3-4718-ba0b-911a2cd679e7",
-  "tags": [
-    "-::vocab::is-compositionally-transparent-compound"
-  ]
+  "tags": []
 }

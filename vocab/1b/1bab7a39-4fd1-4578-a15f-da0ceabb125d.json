@@ -15,6 +15,7 @@
     "きこえ"
   ],
   "partsOfSpeech": "noun",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-ac8620aeb23f11177924527c2c044056146a766e3a1ead0ae604de3f.mp3]",
@@ -24,14 +25,20 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [
-      "聞け"
-    ],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "godanPotential": "forbidden"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [
+        "聞け"
+      ],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -50,7 +57,6 @@
   "id": "1bab7a39-4fd1-4578-a15f-da0ceabb125d",
   "tags": [
     "-::vocab::has-no-studying-sentences",
-    "-::vocab::matching::forbids::godan_potential",
     "-::vocab::matching::uses::surface-is-not",
     "source::jamdict"
   ]

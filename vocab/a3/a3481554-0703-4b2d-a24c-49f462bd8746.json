@@ -15,6 +15,7 @@
     "うるせえ"
   ],
   "partsOfSpeech": "interjection",
+  "register": [],
   "audioB": " [sound:ATTS うるせえ (azure microsoft server speech text to speech voice (ja-jp daichineural)).mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -41,12 +42,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "dictionaryFormStart": "forbidden"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -68,7 +75,6 @@
   "tags": [
     "_tts_audio",
     "_uk",
-    "-::vocab::matching::forbids::dictionary_form_stem",
     "source::yomitan"
   ]
 }

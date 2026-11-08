@@ -18,6 +18,7 @@
     "ないし"
   ],
   "partsOfSpeech": "conjunction",
+  "register": [],
   "audioB": "[sound:hypertts-d72588f7df045ea2639d12d23dfa8db2a97928bb21d1cc894d8b6c12.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -32,12 +33,20 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "adverbHead": "forbidden",
+      "irrealis": "forbidden",
+      "sentenceEnd": "forbidden"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -55,9 +64,6 @@
   },
   "id": "2e24bc32-48eb-4d4d-b7f2-7ce2e1679162",
   "tags": [
-    "_uk",
-    "-::vocab::matching::forbids::irrealis",
-    "-::vocab::matching::forbids::preceding_adverb",
-    "-::vocab::matching::forbids::sentence-end"
+    "_uk"
   ]
 }

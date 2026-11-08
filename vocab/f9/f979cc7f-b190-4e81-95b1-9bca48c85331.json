@@ -15,6 +15,7 @@
     "わすれる"
   ],
   "partsOfSpeech": "ichidan verb, transitive",
+  "register": [],
   "audioB": "[sound:忘れる_b.mp3]",
   "audioG": "[sound:忘れる_g.mp3]",
   "audioTTS": "",
@@ -24,12 +25,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isInflectingWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -48,7 +55,6 @@
   "id": "f979cc7f-b190-4e81-95b1-9bca48c85331",
   "tags": [
     "-::vocab::is-ichidan-hiding-godan-potential",
-    "-::vocab::matching::is-inflecting-word",
     "legacy_scheduling",
     "source::lyrics::未来のひとへ",
     "source::wani::level::18"

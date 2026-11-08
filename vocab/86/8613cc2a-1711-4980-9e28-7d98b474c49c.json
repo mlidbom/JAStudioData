@@ -15,6 +15,7 @@
     "ぬ"
   ],
   "partsOfSpeech": "auxiliary, suffix",
+  "register": [],
   "audioB": "[sound:yomichan_audio_ぬ_ぬ_2023-09-21-08-57-34.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -24,12 +25,20 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "surface": "required"
+    },
+    "flags": [
+      "isInflectingWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -54,8 +63,6 @@
   "id": "8613cc2a-1711-4980-9e28-7d98b474c49c",
   "tags": [
     "_uk",
-    "-::vocab::matching::is-inflecting-word",
-    "-::vocab::matching::requires::surface",
     "source::yomitan"
   ]
 }

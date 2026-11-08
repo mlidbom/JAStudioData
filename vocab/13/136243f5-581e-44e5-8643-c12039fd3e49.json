@@ -18,6 +18,7 @@
     "のか"
   ],
   "partsOfSpeech": "particle",
+  "register": [],
   "audioB": "[sound:yomitan_audio_2024-06-02-09-01-18-863.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -27,14 +28,21 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [
-      "な"
-    ],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "sentenceEnd": "required",
+      "yieldLastTokenToOverlappingCompound": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [
+        "な"
+      ],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -55,9 +63,7 @@
   "id": "136243f5-581e-44e5-8643-c12039fd3e49",
   "tags": [
     "_uk",
-    "-::vocab::matching::requires::sentence-end",
     "-::vocab::matching::uses::suffix-is-not",
-    "-::vocab::matching::yield-last-token-to-upcoming-compound",
     "legacy_scheduling",
     "source::yomitan"
   ]

@@ -18,6 +18,7 @@
     "うほど"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-16b4f49c54b1662a2203a053d91f91f5834758bfee18187baeacca9d.mp3]",
@@ -60,12 +61,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "dictionaryFormStart": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -82,7 +89,5 @@
     "readingMnemonic": ""
   },
   "id": "3523247f-ada6-4524-b31e-b955c643d801",
-  "tags": [
-    "-::vocab::matching::requires::dictionary_form_stem"
-  ]
+  "tags": []
 }

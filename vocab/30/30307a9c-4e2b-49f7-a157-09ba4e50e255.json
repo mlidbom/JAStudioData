@@ -15,6 +15,7 @@
     "たて"
   ],
   "partsOfSpeech": "counter, prefix, suffix",
+  "register": [],
   "audioB": "[sound:yomitan_audio_2025-03-20-23-13-05-359.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -29,12 +30,20 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "godanImperative": "forbidden"
+    },
+    "flags": [
+      "isInflectingWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -53,8 +62,6 @@
   "id": "30307a9c-4e2b-49f7-a157-09ba4e50e255",
   "tags": [
     "_uk",
-    "-::vocab::matching::forbids::godan_imperative",
-    "-::vocab::matching::is-inflecting-word",
     "source::yomitan"
   ]
 }

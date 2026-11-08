@@ -15,6 +15,7 @@
     "あれる"
   ],
   "partsOfSpeech": "ichidan verb",
+  "register": [],
   "audioB": "[sound:hypertts-bf819c22d6cc23b1a5127e6b114954327ac5f41c5a407c94da585fa6.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -29,12 +30,22 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "godanPotential": "forbidden",
+      "ichidan": "forbidden",
+      "irrealis": "required"
+    },
+    "flags": [
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -58,10 +69,6 @@
   "tags": [
     "_uk",
     "-::TODO::studio::vocab::matching::requires-and-includes::preceding-vowel",
-    "-::vocab::is-ichidan-hiding-godan-potential",
-    "-::vocab::matching::forbids::godan_potential",
-    "-::vocab::matching::forbids::ichidan",
-    "-::vocab::matching::requires::irrealis",
-    "-::vocab::question-overrides-form"
+    "-::vocab::is-ichidan-hiding-godan-potential"
   ]
 }

@@ -18,6 +18,7 @@
     "ようだ"
   ],
   "partsOfSpeech": "auxiliary",
+  "register": [],
   "audioB": "[sound:yomitan_audio_ようだ_様だ_2024-03-29-07-17-30.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -32,16 +33,22 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [
-      "ような",
-      "様な",
-      "様なら"
-    ],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "surface": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [
+        "ような",
+        "様な",
+        "様なら"
+      ],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -62,7 +69,6 @@
   "id": "a98fe23d-8984-4a9e-9761-a8169cfa6fa3",
   "tags": [
     "_uk",
-    "-::vocab::matching::requires::surface",
     "-::vocab::matching::uses::surface-is-not",
     "source::yomitan"
   ]

@@ -15,6 +15,7 @@
     "えば"
   ],
   "partsOfSpeech": "",
+  "register": [],
   "audioB": "[sound:hypertts-80d3ce3010fd0a86c185c608e360e720f79363eb639a1074abf434a4.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -61,12 +62,19 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isInflectingWord",
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -88,8 +96,6 @@
   "tags": [
     "_uk",
     "-::TODO::studio::vocab::matching::requires-and-includes::preceding-vowel",
-    "-::vocab::matching::is-inflecting-word",
-    "-::vocab::question-overrides-form",
     "legacy_scheduling",
     "source::yomitan"
   ]

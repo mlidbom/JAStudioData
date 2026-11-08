@@ -18,6 +18,7 @@
     "てようと"
   ],
   "partsOfSpeech": "",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-d37d2291235b2a360fcc4b29a81249a47810822eb4a863524adb3e29.mp3]",
@@ -36,12 +37,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "teFormStemStart": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -61,7 +68,6 @@
   },
   "id": "1f202d1f-e22a-4870-8266-c84b01cc656a",
   "tags": [
-    "-::vocab::has-no-studying-sentences",
-    "-::vocab::matching::requires::te-form-stem"
+    "-::vocab::has-no-studying-sentences"
   ]
 }

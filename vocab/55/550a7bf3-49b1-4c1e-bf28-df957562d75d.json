@@ -16,6 +16,7 @@
     "いる"
   ],
   "partsOfSpeech": "godan verb, intransitive",
+  "register": [],
   "audioB": "[sound:入る_b.mp3][sound:居る_b.mp3]",
   "audioG": "[sound:入る_g.mp3][sound:居る_g.mp3]",
   "audioTTS": "",
@@ -30,12 +31,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "masuStem": "forbidden"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -53,7 +60,6 @@
   },
   "id": "550a7bf3-49b1-4c1e-bf28-df957562d75d",
   "tags": [
-    "-::vocab::matching::forbids::masu_stem",
     "legacy_scheduling",
     "source::wani::level::01"
   ]

@@ -15,6 +15,7 @@
     "うる"
   ],
   "partsOfSpeech": "ichidan verb, transitive",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-c5294117858180edcc306e9a1bd7df2fbabcb009ac0ed54b3746dc78.mp3]",
@@ -29,12 +30,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "dictionaryFormStart": "forbidden"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -51,7 +58,5 @@
     "readingMnemonic": "Since this word consists of a kanji with hiragana attached, you can bet that it will use the kun'yomi reading. You didn't learn that reading with this kanji, so here's a mnemonic to help you: You need <vocabulary>to acquire</vocabulary> an <reading>e</reading>lephant (<ja>え</ja>) for your elephant collection. If you don't acquire an elephant, you'll look like an idiot in front of your elephant collecting friends."
   },
   "id": "6b751596-6377-486f-82d5-57e6a984629f",
-  "tags": [
-    "-::vocab::matching::forbids::dictionary_form_stem"
-  ]
+  "tags": []
 }

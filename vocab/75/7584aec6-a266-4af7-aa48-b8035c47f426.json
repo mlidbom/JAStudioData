@@ -18,6 +18,7 @@
     "おうとおもう"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-f636786b312de9fe97648b57fae6a0e30b20461e946483b1eba14282.mp3]",
@@ -36,12 +37,22 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "dictionaryFormStart": "forbidden",
+      "yieldLastTokenToOverlappingCompound": "required"
+    },
+    "flags": [
+      "isInflectingWord",
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -58,10 +69,5 @@
     "readingMnemonic": ""
   },
   "id": "7584aec6-a266-4af7-aa48-b8035c47f426",
-  "tags": [
-    "-::vocab::matching::forbids::dictionary_form_stem",
-    "-::vocab::matching::is-inflecting-word",
-    "-::vocab::matching::yield-last-token-to-upcoming-compound",
-    "-::vocab::question-overrides-form"
-  ]
+  "tags": []
 }

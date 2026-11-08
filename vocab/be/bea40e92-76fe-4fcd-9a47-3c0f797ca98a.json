@@ -18,6 +18,7 @@
     "おちつける"
   ],
   "partsOfSpeech": "ichidan verb, transitive",
+  "register": [],
   "audioB": "[sound:yomitan_audio_2025-03-11-09-13-45-333.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -44,12 +45,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "singleToken": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -69,7 +76,6 @@
   "tags": [
     "-::vocab::has-no-studying-sentences",
     "-::vocab::is-ichidan-hiding-godan-potential",
-    "-::vocab::matching::requires::single-token",
     "-::vocab::parser-metadata-only-vocab-not",
     "source::yomitan"
   ]

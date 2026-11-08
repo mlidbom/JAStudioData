@@ -18,6 +18,7 @@
     "しんじがたい"
   ],
   "partsOfSpeech": "i-adjective",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-c390141e2afbad0405a7539e08e91336bed3ebcb34dd909f4a08ce76.mp3]",
@@ -27,12 +28,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isCompositionallyTransparentCompound"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -51,7 +58,6 @@
   "id": "aa7f3e82-094e-4a1e-bf35-a1c9638af3b5",
   "tags": [
     "-::vocab::has-no-studying-sentences",
-    "-::vocab::is-compositionally-transparent-compound",
     "source::jamdict"
   ]
 }

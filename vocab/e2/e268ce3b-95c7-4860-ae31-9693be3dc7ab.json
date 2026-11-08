@@ -15,6 +15,7 @@
     "よ"
   ],
   "partsOfSpeech": "interjection, particle",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-33baf6acf974ec1abe4cebd6c42e43af5c00a6e4720fc64134ca7900.mp3]",
@@ -24,14 +25,22 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [
-      "くれ"
+  "matching": {
+    "requiredOrForbidden": {
+      "ichidanImperative": "required"
+    },
+    "flags": [
+      "isInflectingWord"
     ],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+    "rules": {
+      "prefixIsNot": [
+        "くれ"
+      ],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -53,8 +62,6 @@
   "id": "e268ce3b-95c7-4860-ae31-9693be3dc7ab",
   "tags": [
     "_uk",
-    "-::vocab::matching::is-inflecting-word",
-    "-::vocab::matching::requires::ichidan_imperative",
     "-::vocab::matching::uses::prefix-is-not"
   ]
 }

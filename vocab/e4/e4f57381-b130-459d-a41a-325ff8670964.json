@@ -18,6 +18,7 @@
     "おうが"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-c8354590c97a3946d1fee6d878f6867d7605f300fb954bb712e1525d.mp3]",
@@ -36,29 +37,39 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [
-      "ろ"
+  "matching": {
+    "requiredOrForbidden": {
+      "dictionaryFormStart": "forbidden",
+      "sentenceStart": "forbidden"
+    },
+    "flags": [
+      "isInflectingWord",
+      "questionOverridesForm"
     ],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": [
-      "お",
-      "こ",
-      "ご",
-      "しよ",
-      "そ",
-      "ぞ",
-      "と",
-      "ど",
-      "の",
-      "ほ",
-      "ぼ",
-      "ぽ",
-      "も",
-      "よ"
-    ]
+    "rules": {
+      "prefixIsNot": [
+        "ろ"
+      ],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": [
+        "お",
+        "こ",
+        "ご",
+        "しよ",
+        "そ",
+        "ぞ",
+        "と",
+        "ど",
+        "の",
+        "ほ",
+        "ぼ",
+        "ぽ",
+        "も",
+        "よ"
+      ]
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -82,11 +93,7 @@
   },
   "id": "e4f57381-b130-459d-a41a-325ff8670964",
   "tags": [
-    "-::vocab::matching::forbids::dictionary_form_stem",
-    "-::vocab::matching::forbids::sentence-start",
-    "-::vocab::matching::is-inflecting-word",
     "-::vocab::matching::uses::prefix-is-not",
-    "-::vocab::matching::uses::required-prefix",
-    "-::vocab::question-overrides-form"
+    "-::vocab::matching::uses::required-prefix"
   ]
 }

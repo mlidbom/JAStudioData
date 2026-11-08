@@ -20,6 +20,7 @@
     "おうとしてくれる"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-186e5a115f95410387aefd5efbe3f7c8ad846d287269fcada8e7d2fd.mp3]",
@@ -38,12 +39,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -60,7 +67,5 @@
     "readingMnemonic": ""
   },
   "id": "658e5645-6336-4dd1-99aa-ea9c4d2d007b",
-  "tags": [
-    "-::vocab::question-overrides-form"
-  ]
+  "tags": []
 }

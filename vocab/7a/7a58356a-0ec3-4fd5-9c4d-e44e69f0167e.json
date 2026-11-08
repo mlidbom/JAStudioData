@@ -15,6 +15,7 @@
     "え"
   ],
   "partsOfSpeech": "interjection, particle",
+  "register": [],
   "audioB": "[sound:yomitan_audio_2024-04-22-12-00-33-915.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -24,12 +25,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "godanImperative": "forbidden"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -51,7 +58,6 @@
   "id": "7a58356a-0ec3-4fd5-9c4d-e44e69f0167e",
   "tags": [
     "_uk",
-    "-::vocab::matching::forbids::godan_imperative",
     "legacy_scheduling",
     "source::yomitan"
   ]

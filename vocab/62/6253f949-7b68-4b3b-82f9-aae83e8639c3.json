@@ -17,6 +17,7 @@
     "んじゃ"
   ],
   "partsOfSpeech": "",
+  "register": [],
   "audioB": "[sound:hypertts-1943be32dbd1f3690d97343b19b2b33730d968722036b7256927c471.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -26,12 +27,19 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "sentenceStart": "required",
+      "yieldLastTokenToOverlappingCompound": "required"
+    },
+    "flags": [],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -48,8 +56,5 @@
     "readingMnemonic": ""
   },
   "id": "6253f949-7b68-4b3b-82f9-aae83e8639c3",
-  "tags": [
-    "-::vocab::matching::requires::sentence-start",
-    "-::vocab::matching::yield-last-token-to-upcoming-compound"
-  ]
+  "tags": []
 }

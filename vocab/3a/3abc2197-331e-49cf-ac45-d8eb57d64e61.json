@@ -18,6 +18,7 @@
     "うんだ"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-f8173f31b2fbe75072cd7edeb20aca077ac1799af2b9afe068a34a0b.mp3]",
@@ -27,12 +28,22 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "dictionaryFormStart": "required",
+      "sentenceEnd": "required"
+    },
+    "flags": [
+      "isPoisonWord",
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -49,10 +60,5 @@
     "readingMnemonic": ""
   },
   "id": "3abc2197-331e-49cf-ac45-d8eb57d64e61",
-  "tags": [
-    "-::vocab::matching::is-poison-word",
-    "-::vocab::matching::requires::dictionary_form_stem",
-    "-::vocab::matching::requires::sentence-end",
-    "-::vocab::question-overrides-form"
-  ]
+  "tags": []
 }

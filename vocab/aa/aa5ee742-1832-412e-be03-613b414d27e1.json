@@ -19,6 +19,7 @@
     "はんおうする"
   ],
   "partsOfSpeech": "suru verb",
+  "register": [],
   "audioB": "[sound:hypertts-803dac3d348843ca3c2b431ddbb270799d56feb98a0cf59e87c4414f.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -33,12 +34,18 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {},
+    "flags": [
+      "isCompositionallyTransparentCompound"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -55,7 +62,5 @@
     "readingMnemonic": ""
   },
   "id": "aa5ee742-1832-412e-be03-613b414d27e1",
-  "tags": [
-    "-::vocab::is-compositionally-transparent-compound"
-  ]
+  "tags": []
 }

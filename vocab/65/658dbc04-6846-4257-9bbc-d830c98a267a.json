@@ -15,6 +15,9 @@
     "ろ"
   ],
   "partsOfSpeech": "auxiliary",
+  "register": [
+    "roughMasculine"
+  ],
   "audioB": "[sound:hypertts-b5ae3cf2d2e6c97c99bc36cca8aaf433d0c8a8be8259ed4b90079d4a.mp3]",
   "audioG": "",
   "audioTTS": "",
@@ -24,12 +27,20 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "ichidanImperative": "required"
+    },
+    "flags": [
+      "isInflectingWord"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -52,9 +63,6 @@
   },
   "id": "658dbc04-6846-4257-9bbc-d830c98a267a",
   "tags": [
-    "_uk",
-    "-::vocab::matching::is-inflecting-word",
-    "-::vocab::matching::requires::ichidan_imperative",
-    "-::vocab::register::rough"
+    "_uk"
   ]
 }

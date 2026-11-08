@@ -18,6 +18,7 @@
     "うところだった"
   ],
   "partsOfSpeech": "expression",
+  "register": [],
   "audioB": "",
   "audioG": "",
   "audioTTS": "[sound:hypertts-9efe6da843ea461b32b9242f80ea46d257193fe8ff2d4760a9672905.mp3]",
@@ -32,12 +33,20 @@
   "references": "",
   "image": "",
   "userImage": "",
-  "matchingRules": {
-    "prefixIsNot": [],
-    "suffixIsNot": [],
-    "surfaceIsNot": [],
-    "yieldToSurface": [],
-    "requiredPrefix": []
+  "matching": {
+    "requiredOrForbidden": {
+      "dictionaryFormStart": "required"
+    },
+    "flags": [
+      "questionOverridesForm"
+    ],
+    "rules": {
+      "prefixIsNot": [],
+      "suffixIsNot": [],
+      "surfaceIsNot": [],
+      "yieldToSurface": [],
+      "requiredPrefix": []
+    }
   },
   "relatedVocab": {
     "ergativeTwin": "",
@@ -55,8 +64,6 @@
   },
   "id": "54b15146-b8ee-4412-a8df-a72c0314859d",
   "tags": [
-    "-::vocab::has-no-studying-sentences",
-    "-::vocab::matching::requires::dictionary_form_stem",
-    "-::vocab::question-overrides-form"
+    "-::vocab::has-no-studying-sentences"
   ]
 }
