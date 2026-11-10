@@ -43,17 +43,20 @@
   "references": "",
   "images": [],
   "matching": {
-    "requiredOrForbidden": {
-      "teFormStemStart": "forbidden"
-    },
+    "requiredOrForbidden": {},
     "flags": [],
-    "rules": {
-      "prefixIsNot": [],
-      "suffixIsNot": [],
-      "surfaceIsNot": [],
-      "yieldToSurface": [],
-      "requiredPrefix": []
-    }
+    "condition": {
+      "allOf": [
+        {
+          "not": {
+            "firstToken": {
+              "fact": "teFormStem"
+            }
+          }
+        }
+      ]
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

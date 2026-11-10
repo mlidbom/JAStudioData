@@ -40,20 +40,32 @@
   "references": "",
   "images": [],
   "matching": {
-    "requiredOrForbidden": {
-      "sentenceEnd": "required",
-      "surface": "required"
-    },
+    "requiredOrForbidden": {},
     "flags": [],
-    "rules": {
-      "prefixIsNot": [
-        "な"
-      ],
-      "suffixIsNot": [],
-      "surfaceIsNot": [],
-      "yieldToSurface": [],
-      "requiredPrefix": []
-    }
+    "condition": {
+      "allOf": [
+        {
+          "not": {
+            "precedingToken": {
+              "surface": {
+                "endsWithOneOf": [
+                  "な"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "lastToken": {
+            "fact": "endOfStatement"
+          }
+        },
+        {
+          "fact": "matchedByItsSurface"
+        }
+      ]
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

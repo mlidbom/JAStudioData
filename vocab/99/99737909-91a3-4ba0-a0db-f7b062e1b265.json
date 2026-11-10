@@ -48,22 +48,30 @@
   "references": "",
   "images": [],
   "matching": {
-    "requiredOrForbidden": {
-      "adverbHead": "required"
-    },
+    "requiredOrForbidden": {},
     "flags": [
       "isInflectingWord",
       "questionOverridesForm"
     ],
-    "rules": {
-      "prefixIsNot": [],
-      "suffixIsNot": [],
-      "surfaceIsNot": [],
-      "yieldToSurface": [],
-      "requiredPrefix": [
-        "く"
+    "condition": {
+      "allOf": [
+        {
+          "precedingToken": {
+            "surface": {
+              "endsWithOneOf": [
+                "く"
+              ]
+            }
+          }
+        },
+        {
+          "precedingToken": {
+            "fact": "adverb"
+          }
+        }
       ]
-    }
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

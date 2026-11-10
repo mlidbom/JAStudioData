@@ -58,15 +58,22 @@
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
-    "rules": {
-      "prefixIsNot": [],
-      "suffixIsNot": [
-        "たら"
-      ],
-      "surfaceIsNot": [],
-      "yieldToSurface": [],
-      "requiredPrefix": []
-    }
+    "condition": {
+      "allOf": [
+        {
+          "not": {
+            "followingToken": {
+              "surface": {
+                "startsWithOneOf": [
+                  "たら"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

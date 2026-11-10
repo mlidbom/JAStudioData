@@ -46,20 +46,25 @@
   "references": "",
   "images": [],
   "matching": {
-    "requiredOrForbidden": {
-      "ichidan": "required",
-      "irrealis": "required"
-    },
+    "requiredOrForbidden": {},
     "flags": [
       "isInflectingWord"
     ],
-    "rules": {
-      "prefixIsNot": [],
-      "suffixIsNot": [],
-      "surfaceIsNot": [],
-      "yieldToSurface": [],
-      "requiredPrefix": []
-    }
+    "condition": {
+      "allOf": [
+        {
+          "precedingToken": {
+            "fact": "irrealis"
+          }
+        },
+        {
+          "precedingToken": {
+            "fact": "ichidanVerb"
+          }
+        }
+      ]
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

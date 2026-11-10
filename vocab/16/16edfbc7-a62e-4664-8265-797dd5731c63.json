@@ -52,21 +52,38 @@
   "references": "",
   "images": [],
   "matching": {
-    "requiredOrForbidden": {
-      "godanPotential": "forbidden"
-    },
+    "requiredOrForbidden": {},
     "flags": [
       "questionOverridesForm"
     ],
-    "rules": {
-      "prefixIsNot": [],
-      "suffixIsNot": [],
-      "surfaceIsNot": [],
-      "yieldToSurface": [],
-      "requiredPrefix": [
-        "ん"
+    "condition": {
+      "allOf": [
+        {
+          "precedingToken": {
+            "surface": {
+              "endsWithOneOf": [
+                "ん"
+              ]
+            }
+          }
+        },
+        {
+          "not": {
+            "firstToken": {
+              "anyOf": [
+                {
+                  "fact": "godanPotentialStem"
+                },
+                {
+                  "fact": "godanPotentialInflection"
+                }
+              ]
+            }
+          }
+        }
       ]
-    }
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

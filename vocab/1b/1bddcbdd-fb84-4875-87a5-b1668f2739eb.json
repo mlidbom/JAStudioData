@@ -51,21 +51,42 @@
   "images": [],
   "matching": {
     "requiredOrForbidden": {
-      "godanPotential": "forbidden",
-      "ichidan": "forbidden",
-      "irrealis": "required",
       "yieldLastTokenToOverlappingCompound": "required"
     },
     "flags": [
       "questionOverridesForm"
     ],
-    "rules": {
-      "prefixIsNot": [],
-      "suffixIsNot": [],
-      "surfaceIsNot": [],
-      "yieldToSurface": [],
-      "requiredPrefix": []
-    }
+    "condition": {
+      "allOf": [
+        {
+          "precedingToken": {
+            "fact": "irrealis"
+          }
+        },
+        {
+          "not": {
+            "precedingToken": {
+              "fact": "ichidanVerb"
+            }
+          }
+        },
+        {
+          "not": {
+            "firstToken": {
+              "anyOf": [
+                {
+                  "fact": "godanPotentialStem"
+                },
+                {
+                  "fact": "godanPotentialInflection"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

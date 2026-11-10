@@ -38,15 +38,22 @@
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
-    "rules": {
-      "prefixIsNot": [],
-      "suffixIsNot": [
-        "ない"
-      ],
-      "surfaceIsNot": [],
-      "yieldToSurface": [],
-      "requiredPrefix": []
-    }
+    "condition": {
+      "allOf": [
+        {
+          "not": {
+            "followingToken": {
+              "surface": {
+                "startsWithOneOf": [
+                  "ない"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

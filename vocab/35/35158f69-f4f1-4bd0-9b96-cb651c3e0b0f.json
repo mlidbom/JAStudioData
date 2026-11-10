@@ -63,17 +63,29 @@
       "isInflectingWord",
       "questionOverridesForm"
     ],
-    "rules": {
-      "prefixIsNot": [],
-      "suffixIsNot": [],
-      "surfaceIsNot": [
-        "ていたら"
-      ],
-      "yieldToSurface": [],
-      "requiredPrefix": [
-        "ん"
+    "condition": {
+      "allOf": [
+        {
+          "precedingToken": {
+            "surface": {
+              "endsWithOneOf": [
+                "ん"
+              ]
+            }
+          }
+        },
+        {
+          "not": {
+            "surface": {
+              "isOneOf": [
+                "ていたら"
+              ]
+            }
+          }
+        }
       ]
-    }
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

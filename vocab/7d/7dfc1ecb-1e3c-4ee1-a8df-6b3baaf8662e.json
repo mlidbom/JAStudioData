@@ -33,18 +33,46 @@
   "images": [],
   "matching": {
     "requiredOrForbidden": {
-      "sentenceEnd": "required",
-      "sentenceStart": "forbidden",
       "yieldLastTokenToOverlappingCompound": "required"
     },
     "flags": [],
-    "rules": {
-      "prefixIsNot": [],
-      "suffixIsNot": [],
-      "surfaceIsNot": [],
-      "yieldToSurface": [],
-      "requiredPrefix": []
-    }
+    "condition": {
+      "allOf": [
+        {
+          "not": {
+            "precedingText": {
+              "anyOf": [
+                {
+                  "fact": "empty"
+                },
+                {
+                  "endsWithOneOf": [
+                    "\t",
+                    " ",
+                    "\"",
+                    ".",
+                    "?",
+                    "​",
+                    "　",
+                    "。",
+                    "「",
+                    "」",
+                    "？",
+                    "｡"
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "lastToken": {
+            "fact": "endOfStatement"
+          }
+        }
+      ]
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

@@ -32,19 +32,27 @@
   "references": "",
   "images": [],
   "matching": {
-    "requiredOrForbidden": {
-      "singleToken": "required"
-    },
+    "requiredOrForbidden": {},
     "flags": [],
-    "rules": {
-      "prefixIsNot": [
-        "て"
-      ],
-      "suffixIsNot": [],
-      "surfaceIsNot": [],
-      "yieldToSurface": [],
-      "requiredPrefix": []
-    }
+    "condition": {
+      "allOf": [
+        {
+          "not": {
+            "precedingToken": {
+              "surface": {
+                "endsWithOneOf": [
+                  "て"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "fact": "singleToken"
+        }
+      ]
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

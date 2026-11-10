@@ -52,18 +52,43 @@
   "references": "",
   "images": [],
   "matching": {
-    "requiredOrForbidden": {
-      "sentenceEnd": "required",
-      "sentenceStart": "required"
-    },
+    "requiredOrForbidden": {},
     "flags": [],
-    "rules": {
-      "prefixIsNot": [],
-      "suffixIsNot": [],
-      "surfaceIsNot": [],
-      "yieldToSurface": [],
-      "requiredPrefix": []
-    }
+    "condition": {
+      "allOf": [
+        {
+          "precedingText": {
+            "anyOf": [
+              {
+                "fact": "empty"
+              },
+              {
+                "endsWithOneOf": [
+                  "\t",
+                  " ",
+                  "\"",
+                  ".",
+                  "?",
+                  "​",
+                  "　",
+                  "。",
+                  "「",
+                  "」",
+                  "？",
+                  "｡"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "lastToken": {
+            "fact": "endOfStatement"
+          }
+        }
+      ]
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

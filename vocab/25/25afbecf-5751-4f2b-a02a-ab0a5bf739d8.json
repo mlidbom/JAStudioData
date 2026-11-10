@@ -39,18 +39,34 @@
   "references": "",
   "images": [],
   "matching": {
-    "requiredOrForbidden": {
-      "ichidanImperative": "forbidden",
-      "sentenceEnd": "forbidden"
-    },
+    "requiredOrForbidden": {},
     "flags": [],
-    "rules": {
-      "prefixIsNot": [],
-      "suffixIsNot": [],
-      "surfaceIsNot": [],
-      "yieldToSurface": [],
-      "requiredPrefix": []
-    }
+    "condition": {
+      "allOf": [
+        {
+          "not": {
+            "firstToken": {
+              "anyOf": [
+                {
+                  "fact": "ichidanImperativeStem"
+                },
+                {
+                  "fact": "ichidanImperativeInflection"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "not": {
+            "lastToken": {
+              "fact": "endOfStatement"
+            }
+          }
+        }
+      ]
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

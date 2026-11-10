@@ -32,19 +32,18 @@
   "references": "",
   "images": [],
   "matching": {
-    "requiredOrForbidden": {
-      "singleToken": "required"
-    },
+    "requiredOrForbidden": {},
     "flags": [],
-    "rules": {
-      "prefixIsNot": [],
-      "suffixIsNot": [],
-      "surfaceIsNot": [],
-      "yieldToSurface": [
-        "うまく"
-      ],
-      "requiredPrefix": []
-    }
+    "condition": {
+      "allOf": [
+        {
+          "fact": "singleToken"
+        }
+      ]
+    },
+    "yieldToSurface": [
+      "うまく"
+    ]
   },
   "relatedVocab": {
     "ergativeTwins": [],

@@ -44,17 +44,21 @@
   "images": [],
   "matching": {
     "requiredOrForbidden": {
-      "teFormStemStart": "forbidden",
       "yieldLastTokenToOverlappingCompound": "required"
     },
     "flags": [],
-    "rules": {
-      "prefixIsNot": [],
-      "suffixIsNot": [],
-      "surfaceIsNot": [],
-      "yieldToSurface": [],
-      "requiredPrefix": []
-    }
+    "condition": {
+      "allOf": [
+        {
+          "not": {
+            "firstToken": {
+              "fact": "teFormStem"
+            }
+          }
+        }
+      ]
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

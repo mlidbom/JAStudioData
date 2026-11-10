@@ -58,17 +58,31 @@
       "isInflectingWord",
       "questionOverridesForm"
     ],
-    "rules": {
-      "prefixIsNot": [
-        "ない"
-      ],
-      "suffixIsNot": [],
-      "surfaceIsNot": [],
-      "yieldToSurface": [],
-      "requiredPrefix": [
-        "い"
+    "condition": {
+      "allOf": [
+        {
+          "not": {
+            "precedingToken": {
+              "surface": {
+                "endsWithOneOf": [
+                  "ない"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "precedingToken": {
+            "surface": {
+              "endsWithOneOf": [
+                "い"
+              ]
+            }
+          }
+        }
       ]
-    }
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

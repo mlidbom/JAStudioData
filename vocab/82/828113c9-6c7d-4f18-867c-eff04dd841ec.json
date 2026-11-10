@@ -44,17 +44,17 @@
   "images": [],
   "matching": {
     "requiredOrForbidden": {
-      "dictionaryFormStart": "required",
-      "surface": "required"
+      "dictionaryFormStart": "required"
     },
     "flags": [],
-    "rules": {
-      "prefixIsNot": [],
-      "suffixIsNot": [],
-      "surfaceIsNot": [],
-      "yieldToSurface": [],
-      "requiredPrefix": []
-    }
+    "condition": {
+      "allOf": [
+        {
+          "fact": "matchedByItsSurface"
+        }
+      ]
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

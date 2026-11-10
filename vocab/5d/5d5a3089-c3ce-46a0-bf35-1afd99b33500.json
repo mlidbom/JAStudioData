@@ -38,19 +38,31 @@
   "references": "Cure Dolly: <a href=\"https://www.youtube.com/watch?v=hS02cADsjfI&amp;list=PLg9uYxuZf8x_A-vcqqyOFZu06WlhnypWj&amp;index=86\">Understanding copulas: である, であります、でござる、でございます</a>",
   "images": [],
   "matching": {
-    "requiredOrForbidden": {
-      "teFormStemStart": "forbidden"
-    },
+    "requiredOrForbidden": {},
     "flags": [],
-    "rules": {
-      "prefixIsNot": [
-        "ん"
-      ],
-      "suffixIsNot": [],
-      "surfaceIsNot": [],
-      "yieldToSurface": [],
-      "requiredPrefix": []
-    }
+    "condition": {
+      "allOf": [
+        {
+          "not": {
+            "precedingToken": {
+              "surface": {
+                "endsWithOneOf": [
+                  "ん"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "not": {
+            "firstToken": {
+              "fact": "teFormStem"
+            }
+          }
+        }
+      ]
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

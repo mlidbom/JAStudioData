@@ -144,22 +144,39 @@
   "references": "",
   "images": [],
   "matching": {
-    "requiredOrForbidden": {
-      "godanPotential": "required"
-    },
+    "requiredOrForbidden": {},
     "flags": [
       "isInflectingWord",
       "questionOverridesForm"
     ],
-    "rules": {
-      "prefixIsNot": [
-        "\r\n忘"
-      ],
-      "suffixIsNot": [],
-      "surfaceIsNot": [],
-      "yieldToSurface": [],
-      "requiredPrefix": []
-    }
+    "condition": {
+      "allOf": [
+        {
+          "not": {
+            "precedingToken": {
+              "surface": {
+                "endsWithOneOf": [
+                  "\r\n忘"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "firstToken": {
+            "anyOf": [
+              {
+                "fact": "godanPotentialStem"
+              },
+              {
+                "fact": "godanPotentialInflection"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

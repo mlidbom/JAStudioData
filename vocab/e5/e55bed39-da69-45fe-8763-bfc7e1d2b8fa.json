@@ -90,19 +90,27 @@
   "references": "",
   "images": [],
   "matching": {
-    "requiredOrForbidden": {
-      "godanImperative": "required"
-    },
+    "requiredOrForbidden": {},
     "flags": [
       "questionOverridesForm"
     ],
-    "rules": {
-      "prefixIsNot": [],
-      "suffixIsNot": [],
-      "surfaceIsNot": [],
-      "yieldToSurface": [],
-      "requiredPrefix": []
-    }
+    "condition": {
+      "allOf": [
+        {
+          "firstToken": {
+            "anyOf": [
+              {
+                "fact": "godanImperativeStem"
+              },
+              {
+                "fact": "godanImperativeInflection"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

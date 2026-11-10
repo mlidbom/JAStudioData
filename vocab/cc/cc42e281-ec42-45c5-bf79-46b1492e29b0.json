@@ -39,19 +39,18 @@
   "references": "",
   "images": [],
   "matching": {
-    "requiredOrForbidden": {
-      "singleToken": "required"
-    },
+    "requiredOrForbidden": {},
     "flags": [
       "isPoisonWord"
     ],
-    "rules": {
-      "prefixIsNot": [],
-      "suffixIsNot": [],
-      "surfaceIsNot": [],
-      "yieldToSurface": [],
-      "requiredPrefix": []
-    }
+    "condition": {
+      "allOf": [
+        {
+          "fact": "singleToken"
+        }
+      ]
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

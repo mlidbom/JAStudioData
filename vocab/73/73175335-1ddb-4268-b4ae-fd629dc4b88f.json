@@ -41,17 +41,38 @@
   "references": "",
   "images": [],
   "matching": {
-    "requiredOrForbidden": {
-      "pastTenseStem": "required"
-    },
+    "requiredOrForbidden": {},
     "flags": [],
-    "rules": {
-      "prefixIsNot": [],
-      "suffixIsNot": [],
-      "surfaceIsNot": [],
-      "yieldToSurface": [],
-      "requiredPrefix": []
-    }
+    "condition": {
+      "allOf": [
+        {
+          "anyOf": [
+            {
+              "precedingToken": {
+                "fact": "pastTenseStem"
+              }
+            },
+            {
+              "allOf": [
+                {
+                  "not": {
+                    "precedingText": {
+                      "fact": "empty"
+                    }
+                  }
+                },
+                {
+                  "firstToken": {
+                    "fact": "pastTenseMarker"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

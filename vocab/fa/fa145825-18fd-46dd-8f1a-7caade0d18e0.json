@@ -52,18 +52,23 @@
   "references": "",
   "images": [],
   "matching": {
-    "requiredOrForbidden": {
-      "masuStem": "forbidden",
-      "surface": "required"
-    },
+    "requiredOrForbidden": {},
     "flags": [],
-    "rules": {
-      "prefixIsNot": [],
-      "suffixIsNot": [],
-      "surfaceIsNot": [],
-      "yieldToSurface": [],
-      "requiredPrefix": []
-    }
+    "condition": {
+      "allOf": [
+        {
+          "not": {
+            "precedingToken": {
+              "fact": "masuStem"
+            }
+          }
+        },
+        {
+          "fact": "matchedByItsSurface"
+        }
+      ]
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

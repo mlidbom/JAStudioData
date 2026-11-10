@@ -63,20 +63,32 @@
   "references": "",
   "images": [],
   "matching": {
-    "requiredOrForbidden": {
-      "surface": "required",
-      "teFormStemStart": "required"
-    },
+    "requiredOrForbidden": {},
     "flags": [],
-    "rules": {
-      "prefixIsNot": [
-        "ん"
-      ],
-      "suffixIsNot": [],
-      "surfaceIsNot": [],
-      "yieldToSurface": [],
-      "requiredPrefix": []
-    }
+    "condition": {
+      "allOf": [
+        {
+          "not": {
+            "precedingToken": {
+              "surface": {
+                "endsWithOneOf": [
+                  "ん"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "firstToken": {
+            "fact": "teFormStem"
+          }
+        },
+        {
+          "fact": "matchedByItsSurface"
+        }
+      ]
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

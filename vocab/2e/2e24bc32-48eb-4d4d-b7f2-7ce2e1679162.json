@@ -48,19 +48,34 @@
   "references": "",
   "images": [],
   "matching": {
-    "requiredOrForbidden": {
-      "adverbHead": "forbidden",
-      "irrealis": "forbidden",
-      "sentenceEnd": "forbidden"
-    },
+    "requiredOrForbidden": {},
     "flags": [],
-    "rules": {
-      "prefixIsNot": [],
-      "suffixIsNot": [],
-      "surfaceIsNot": [],
-      "yieldToSurface": [],
-      "requiredPrefix": []
-    }
+    "condition": {
+      "allOf": [
+        {
+          "not": {
+            "precedingToken": {
+              "fact": "irrealis"
+            }
+          }
+        },
+        {
+          "not": {
+            "lastToken": {
+              "fact": "endOfStatement"
+            }
+          }
+        },
+        {
+          "not": {
+            "precedingToken": {
+              "fact": "adverb"
+            }
+          }
+        }
+      ]
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

@@ -40,23 +40,40 @@
   "references": "",
   "images": [],
   "matching": {
-    "requiredOrForbidden": {
-      "teFormStemStart": "required"
-    },
+    "requiredOrForbidden": {},
     "flags": [
       "questionOverridesForm"
     ],
-    "rules": {
-      "prefixIsNot": [
-        "ない"
-      ],
-      "suffixIsNot": [],
-      "surfaceIsNot": [],
-      "yieldToSurface": [],
-      "requiredPrefix": [
-        "い"
+    "condition": {
+      "allOf": [
+        {
+          "not": {
+            "precedingToken": {
+              "surface": {
+                "endsWithOneOf": [
+                  "ない"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "precedingToken": {
+            "surface": {
+              "endsWithOneOf": [
+                "い"
+              ]
+            }
+          }
+        },
+        {
+          "firstToken": {
+            "fact": "teFormStem"
+          }
+        }
       ]
-    }
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

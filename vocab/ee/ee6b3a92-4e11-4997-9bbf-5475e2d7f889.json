@@ -48,20 +48,25 @@
   "references": "",
   "images": [],
   "matching": {
-    "requiredOrForbidden": {
-      "irrealis": "forbidden",
-      "surface": "required"
-    },
+    "requiredOrForbidden": {},
     "flags": [
       "isInflectingWord"
     ],
-    "rules": {
-      "prefixIsNot": [],
-      "suffixIsNot": [],
-      "surfaceIsNot": [],
-      "yieldToSurface": [],
-      "requiredPrefix": []
-    }
+    "condition": {
+      "allOf": [
+        {
+          "not": {
+            "precedingToken": {
+              "fact": "irrealis"
+            }
+          }
+        },
+        {
+          "fact": "matchedByItsSurface"
+        }
+      ]
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

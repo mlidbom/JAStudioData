@@ -45,19 +45,19 @@
   "matching": {
     "requiredOrForbidden": {
       "dictionaryFormStart": "required",
-      "surface": "required",
       "yieldLastTokenToOverlappingCompound": "required"
     },
     "flags": [
       "questionOverridesForm"
     ],
-    "rules": {
-      "prefixIsNot": [],
-      "suffixIsNot": [],
-      "surfaceIsNot": [],
-      "yieldToSurface": [],
-      "requiredPrefix": []
-    }
+    "condition": {
+      "allOf": [
+        {
+          "fact": "matchedByItsSurface"
+        }
+      ]
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

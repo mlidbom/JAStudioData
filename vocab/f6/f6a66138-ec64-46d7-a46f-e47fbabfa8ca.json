@@ -34,19 +34,29 @@
   "references": "",
   "images": [],
   "matching": {
-    "requiredOrForbidden": {
-      "sentenceEnd": "required"
-    },
+    "requiredOrForbidden": {},
     "flags": [],
-    "rules": {
-      "prefixIsNot": [
-        "に"
-      ],
-      "suffixIsNot": [],
-      "surfaceIsNot": [],
-      "yieldToSurface": [],
-      "requiredPrefix": []
-    }
+    "condition": {
+      "allOf": [
+        {
+          "not": {
+            "precedingToken": {
+              "surface": {
+                "endsWithOneOf": [
+                  "に"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "lastToken": {
+            "fact": "endOfStatement"
+          }
+        }
+      ]
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

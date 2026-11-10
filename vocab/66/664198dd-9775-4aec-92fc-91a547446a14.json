@@ -31,17 +31,40 @@
   "references": "",
   "images": [],
   "matching": {
-    "requiredOrForbidden": {
-      "sentenceStart": "forbidden"
-    },
+    "requiredOrForbidden": {},
     "flags": [],
-    "rules": {
-      "prefixIsNot": [],
-      "suffixIsNot": [],
-      "surfaceIsNot": [],
-      "yieldToSurface": [],
-      "requiredPrefix": []
-    }
+    "condition": {
+      "allOf": [
+        {
+          "not": {
+            "precedingText": {
+              "anyOf": [
+                {
+                  "fact": "empty"
+                },
+                {
+                  "endsWithOneOf": [
+                    "\t",
+                    " ",
+                    "\"",
+                    ".",
+                    "?",
+                    "​",
+                    "　",
+                    "。",
+                    "「",
+                    "」",
+                    "？",
+                    "｡"
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

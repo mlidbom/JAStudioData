@@ -43,19 +43,25 @@
   "references": "",
   "images": [],
   "matching": {
-    "requiredOrForbidden": {
-      "surface": "required"
-    },
+    "requiredOrForbidden": {},
     "flags": [],
-    "rules": {
-      "prefixIsNot": [],
-      "suffixIsNot": [],
-      "surfaceIsNot": [
-        "みたいな"
-      ],
-      "yieldToSurface": [],
-      "requiredPrefix": []
-    }
+    "condition": {
+      "allOf": [
+        {
+          "fact": "matchedByItsSurface"
+        },
+        {
+          "not": {
+            "surface": {
+              "isOneOf": [
+                "みたいな"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

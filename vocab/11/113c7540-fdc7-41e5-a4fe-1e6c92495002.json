@@ -35,17 +35,17 @@
   "images": [],
   "matching": {
     "requiredOrForbidden": {
-      "dictionaryFormStart": "forbidden",
-      "singleToken": "required"
+      "dictionaryFormStart": "forbidden"
     },
     "flags": [],
-    "rules": {
-      "prefixIsNot": [],
-      "suffixIsNot": [],
-      "surfaceIsNot": [],
-      "yieldToSurface": [],
-      "requiredPrefix": []
-    }
+    "condition": {
+      "allOf": [
+        {
+          "fact": "singleToken"
+        }
+      ]
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

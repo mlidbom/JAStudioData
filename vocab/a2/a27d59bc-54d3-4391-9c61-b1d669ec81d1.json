@@ -43,19 +43,31 @@
   "references": "",
   "images": [],
   "matching": {
-    "requiredOrForbidden": {
-      "teFormStemStart": "forbidden"
-    },
+    "requiredOrForbidden": {},
     "flags": [],
-    "rules": {
-      "prefixIsNot": [
-        "一人で"
-      ],
-      "suffixIsNot": [],
-      "surfaceIsNot": [],
-      "yieldToSurface": [],
-      "requiredPrefix": []
-    }
+    "condition": {
+      "allOf": [
+        {
+          "not": {
+            "precedingToken": {
+              "surface": {
+                "endsWithOneOf": [
+                  "一人で"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "not": {
+            "firstToken": {
+              "fact": "teFormStem"
+            }
+          }
+        }
+      ]
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

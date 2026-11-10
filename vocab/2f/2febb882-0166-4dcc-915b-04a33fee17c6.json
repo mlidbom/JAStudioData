@@ -52,15 +52,20 @@
     "flags": [
       "questionOverridesForm"
     ],
-    "rules": {
-      "prefixIsNot": [],
-      "suffixIsNot": [],
-      "surfaceIsNot": [],
-      "yieldToSurface": [],
-      "requiredPrefix": [
-        "い"
+    "condition": {
+      "allOf": [
+        {
+          "precedingToken": {
+            "surface": {
+              "endsWithOneOf": [
+                "い"
+              ]
+            }
+          }
+        }
       ]
-    }
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

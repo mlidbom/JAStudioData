@@ -48,21 +48,27 @@
   "references": "",
   "images": [],
   "matching": {
-    "requiredOrForbidden": {
-      "surface": "required"
-    },
+    "requiredOrForbidden": {},
     "flags": [
       "isPoisonWord"
     ],
-    "rules": {
-      "prefixIsNot": [],
-      "suffixIsNot": [],
-      "surfaceIsNot": [
-        "ということで"
-      ],
-      "yieldToSurface": [],
-      "requiredPrefix": []
-    }
+    "condition": {
+      "allOf": [
+        {
+          "fact": "matchedByItsSurface"
+        },
+        {
+          "not": {
+            "surface": {
+              "isOneOf": [
+                "ということで"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

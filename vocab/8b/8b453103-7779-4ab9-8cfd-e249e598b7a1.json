@@ -48,19 +48,29 @@
   "references": "",
   "images": [],
   "matching": {
-    "requiredOrForbidden": {
-      "sentenceEnd": "required"
-    },
+    "requiredOrForbidden": {},
     "flags": [],
-    "rules": {
-      "prefixIsNot": [],
-      "suffixIsNot": [
-        "な"
-      ],
-      "surfaceIsNot": [],
-      "yieldToSurface": [],
-      "requiredPrefix": []
-    }
+    "condition": {
+      "allOf": [
+        {
+          "lastToken": {
+            "fact": "endOfStatement"
+          }
+        },
+        {
+          "not": {
+            "followingToken": {
+              "surface": {
+                "startsWithOneOf": [
+                  "な"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

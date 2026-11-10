@@ -46,19 +46,22 @@
   "references": "",
   "images": [],
   "matching": {
-    "requiredOrForbidden": {
-      "ichidan": "forbidden"
-    },
+    "requiredOrForbidden": {},
     "flags": [
       "questionOverridesForm"
     ],
-    "rules": {
-      "prefixIsNot": [],
-      "suffixIsNot": [],
-      "surfaceIsNot": [],
-      "yieldToSurface": [],
-      "requiredPrefix": []
-    }
+    "condition": {
+      "allOf": [
+        {
+          "not": {
+            "precedingToken": {
+              "fact": "ichidanVerb"
+            }
+          }
+        }
+      ]
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

@@ -57,19 +57,19 @@
   "images": [],
   "matching": {
     "requiredOrForbidden": {
-      "surface": "required",
       "yieldLastTokenToOverlappingCompound": "required"
     },
     "flags": [
       "isCompositionallyTransparentCompound"
     ],
-    "rules": {
-      "prefixIsNot": [],
-      "suffixIsNot": [],
-      "surfaceIsNot": [],
-      "yieldToSurface": [],
-      "requiredPrefix": []
-    }
+    "condition": {
+      "allOf": [
+        {
+          "fact": "matchedByItsSurface"
+        }
+      ]
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

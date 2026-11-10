@@ -46,21 +46,27 @@
   "references": "",
   "images": [],
   "matching": {
-    "requiredOrForbidden": {
-      "surface": "required"
-    },
+    "requiredOrForbidden": {},
     "flags": [
       "questionOverridesForm"
     ],
-    "rules": {
-      "prefixIsNot": [],
-      "suffixIsNot": [],
-      "surfaceIsNot": [],
-      "yieldToSurface": [],
-      "requiredPrefix": [
-        "く"
+    "condition": {
+      "allOf": [
+        {
+          "precedingToken": {
+            "surface": {
+              "endsWithOneOf": [
+                "く"
+              ]
+            }
+          }
+        },
+        {
+          "fact": "matchedByItsSurface"
+        }
       ]
-    }
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

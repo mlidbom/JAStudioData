@@ -48,20 +48,34 @@
   "references": "",
   "images": [],
   "matching": {
-    "requiredOrForbidden": {
-      "godanPotential": "forbidden",
-      "irrealis": "required"
-    },
+    "requiredOrForbidden": {},
     "flags": [
       "questionOverridesForm"
     ],
-    "rules": {
-      "prefixIsNot": [],
-      "suffixIsNot": [],
-      "surfaceIsNot": [],
-      "yieldToSurface": [],
-      "requiredPrefix": []
-    }
+    "condition": {
+      "allOf": [
+        {
+          "precedingToken": {
+            "fact": "irrealis"
+          }
+        },
+        {
+          "not": {
+            "firstToken": {
+              "anyOf": [
+                {
+                  "fact": "godanPotentialStem"
+                },
+                {
+                  "fact": "godanPotentialInflection"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

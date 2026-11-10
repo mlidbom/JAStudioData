@@ -57,18 +57,22 @@
   "images": [],
   "matching": {
     "requiredOrForbidden": {
-      "surface": "required",
-      "teFormStemStart": "required",
       "yieldLastTokenToOverlappingCompound": "required"
     },
     "flags": [],
-    "rules": {
-      "prefixIsNot": [],
-      "suffixIsNot": [],
-      "surfaceIsNot": [],
-      "yieldToSurface": [],
-      "requiredPrefix": []
-    }
+    "condition": {
+      "allOf": [
+        {
+          "firstToken": {
+            "fact": "teFormStem"
+          }
+        },
+        {
+          "fact": "matchedByItsSurface"
+        }
+      ]
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

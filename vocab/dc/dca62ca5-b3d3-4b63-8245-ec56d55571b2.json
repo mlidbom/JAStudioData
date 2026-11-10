@@ -44,21 +44,32 @@
   "images": [],
   "matching": {
     "requiredOrForbidden": {
-      "dictionaryFormStart": "forbidden",
-      "irrealis": "required"
+      "dictionaryFormStart": "forbidden"
     },
     "flags": [
       "isInflectingWord"
     ],
-    "rules": {
-      "prefixIsNot": [
-        "ませ"
-      ],
-      "suffixIsNot": [],
-      "surfaceIsNot": [],
-      "yieldToSurface": [],
-      "requiredPrefix": []
-    }
+    "condition": {
+      "allOf": [
+        {
+          "precedingToken": {
+            "fact": "irrealis"
+          }
+        },
+        {
+          "not": {
+            "precedingToken": {
+              "surface": {
+                "endsWithOneOf": [
+                  "ませ"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

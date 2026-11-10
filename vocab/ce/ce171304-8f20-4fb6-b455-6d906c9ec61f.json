@@ -35,19 +35,29 @@
   "references": "",
   "images": [],
   "matching": {
-    "requiredOrForbidden": {
-      "godanPotential": "forbidden"
-    },
+    "requiredOrForbidden": {},
     "flags": [
       "isCompositionallyTransparentCompound"
     ],
-    "rules": {
-      "prefixIsNot": [],
-      "suffixIsNot": [],
-      "surfaceIsNot": [],
-      "yieldToSurface": [],
-      "requiredPrefix": []
-    }
+    "condition": {
+      "allOf": [
+        {
+          "not": {
+            "firstToken": {
+              "anyOf": [
+                {
+                  "fact": "godanPotentialStem"
+                },
+                {
+                  "fact": "godanPotentialInflection"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

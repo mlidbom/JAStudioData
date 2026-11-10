@@ -41,17 +41,17 @@
   "images": [],
   "matching": {
     "requiredOrForbidden": {
-      "singleToken": "required",
       "yieldLastTokenToOverlappingCompound": "required"
     },
     "flags": [],
-    "rules": {
-      "prefixIsNot": [],
-      "suffixIsNot": [],
-      "surfaceIsNot": [],
-      "yieldToSurface": [],
-      "requiredPrefix": []
-    }
+    "condition": {
+      "allOf": [
+        {
+          "fact": "singleToken"
+        }
+      ]
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

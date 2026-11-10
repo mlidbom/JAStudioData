@@ -45,36 +45,67 @@
   "images": [],
   "matching": {
     "requiredOrForbidden": {
-      "dictionaryFormStart": "forbidden",
-      "sentenceStart": "forbidden"
+      "dictionaryFormStart": "forbidden"
     },
     "flags": [
       "isInflectingWord",
       "questionOverridesForm"
     ],
-    "rules": {
-      "prefixIsNot": [],
-      "suffixIsNot": [],
-      "surfaceIsNot": [],
-      "yieldToSurface": [],
-      "requiredPrefix": [
-        "お",
-        "こ",
-        "ご",
-        "しよ",
-        "そ",
-        "ぞ",
-        "と",
-        "ど",
-        "の",
-        "ほ",
-        "ぼ",
-        "ぽ",
-        "も",
-        "よ",
-        "ろ"
+    "condition": {
+      "allOf": [
+        {
+          "precedingToken": {
+            "surface": {
+              "endsWithOneOf": [
+                "お",
+                "こ",
+                "ご",
+                "しよ",
+                "そ",
+                "ぞ",
+                "と",
+                "ど",
+                "の",
+                "ほ",
+                "ぼ",
+                "ぽ",
+                "も",
+                "よ",
+                "ろ"
+              ]
+            }
+          }
+        },
+        {
+          "not": {
+            "precedingText": {
+              "anyOf": [
+                {
+                  "fact": "empty"
+                },
+                {
+                  "endsWithOneOf": [
+                    "\t",
+                    " ",
+                    "\"",
+                    ".",
+                    "?",
+                    "​",
+                    "　",
+                    "。",
+                    "「",
+                    "」",
+                    "？",
+                    "｡"
+                  ]
+                }
+              ]
+            }
+          }
+        }
       ]
-    }
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],

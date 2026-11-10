@@ -38,17 +38,39 @@
   "images": [],
   "matching": {
     "requiredOrForbidden": {
-      "sentenceStart": "required",
       "yieldLastTokenToOverlappingCompound": "required"
     },
     "flags": [],
-    "rules": {
-      "prefixIsNot": [],
-      "suffixIsNot": [],
-      "surfaceIsNot": [],
-      "yieldToSurface": [],
-      "requiredPrefix": []
-    }
+    "condition": {
+      "allOf": [
+        {
+          "precedingText": {
+            "anyOf": [
+              {
+                "fact": "empty"
+              },
+              {
+                "endsWithOneOf": [
+                  "\t",
+                  " ",
+                  "\"",
+                  ".",
+                  "?",
+                  "​",
+                  "　",
+                  "。",
+                  "「",
+                  "」",
+                  "？",
+                  "｡"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "yieldToSurface": []
   },
   "relatedVocab": {
     "ergativeTwins": [],
