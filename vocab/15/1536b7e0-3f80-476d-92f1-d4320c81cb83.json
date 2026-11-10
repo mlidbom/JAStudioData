@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-75a9dac5d797dbdfb711f732303c0ba275392178f20b0feb5396707d.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-75a9dac5d797dbdfb711f732303c0ba275392178f20b0feb5396707d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "録音をする",
@@ -40,8 +46,7 @@
   "sentenceCount": 8,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -65,7 +70,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "1536b7e0-3f80-476d-92f1-d4320c81cb83",
   "tags": [

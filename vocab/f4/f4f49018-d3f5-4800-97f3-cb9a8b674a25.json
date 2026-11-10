@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-ab12ed36b2deb2df58dd5476eecc42905a93c41218b4e880cf8336a9.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-ab12ed36b2deb2df58dd5476eecc42905a93c41218b4e880cf8336a9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "べてた",
@@ -136,8 +142,7 @@
   "sentenceCount": 49,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {
       "godanPotential": "required"
@@ -168,7 +173,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "f4f49018-d3f5-4800-97f3-cb9a8b674a25",
   "tags": [

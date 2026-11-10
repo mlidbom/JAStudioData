@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-eaa1b094f8b321576974352c4800c713f4024a86bc710ab0761d11be.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-eaa1b094f8b321576974352c4800c713f4024a86bc710ab0761d11be.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "地"
@@ -121,11 +129,12 @@
     "question": "雨のせいで地に水がたくさん入った。",
     "answer": "A lot of water entered the ground due to the rain.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fb02ed57-a8a5-4586-ba61-9cd353c74158",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

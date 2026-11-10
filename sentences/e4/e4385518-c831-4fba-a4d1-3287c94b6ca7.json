@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d2eb069cb22098abca3f369bc2b21816d44b6a74e726ad8b091c1703.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d2eb069cb22098abca3f369bc2b21816d44b6a74e726ad8b091c1703.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お手洗い"
@@ -177,11 +185,12 @@
     "question": "ジェームスはいつも、お手洗いに行く前にウィスキーを一口飲む。",
     "answer": "James always takes a sip of whiskey before going to the bathroom.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e4385518-c831-4fba-a4d1-3287c94b6ca7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

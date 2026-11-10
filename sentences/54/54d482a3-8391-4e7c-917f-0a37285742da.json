@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ead7f909df4281f5e012a916dbc51bc8c6b756d1ff5f206233857ed7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ead7f909df4281f5e012a916dbc51bc8c6b756d1ff5f206233857ed7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "乾く"
@@ -128,11 +136,12 @@
     "question": "洗濯物はまだ乾いていません。",
     "answer": "Our laundry hasn’t dried yet.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "54d482a3-8391-4e7c-917f-0a37285742da",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

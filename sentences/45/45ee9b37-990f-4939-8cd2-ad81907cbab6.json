@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d52a1c109aba77aea35f4221fed1582863e56ac12a15975b3787161a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d52a1c109aba77aea35f4221fed1582863e56ac12a15975b3787161a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "容疑者"
@@ -170,11 +178,12 @@
     "question": "その容疑者は、十代の若者たちにオプティミズムのメッセージを伝えた。",
     "answer": "The suspect conveyed a message of optimism to the teenagers.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "45ee9b37-990f-4939-8cd2-ad81907cbab6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

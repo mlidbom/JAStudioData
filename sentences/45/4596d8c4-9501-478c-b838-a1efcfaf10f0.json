@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-26b0f1423f05e4d5ae0d846e80a393cbefac14b0e43c06335ea26c54.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-26b0f1423f05e4d5ae0d846e80a393cbefac14b0e43c06335ea26c54.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "効く"
@@ -100,11 +108,12 @@
     "question": "この温泉は肩こりによく効くらしいです。",
     "answer": "I heard that this hot spring is very effective for stiff shoulders.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4596d8c4-9501-478c-b838-a1efcfaf10f0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

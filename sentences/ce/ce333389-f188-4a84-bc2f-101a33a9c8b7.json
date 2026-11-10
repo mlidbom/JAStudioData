@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-54e33cb026b8b354140626931aeb7ef89e1cc80714ec5c4565d2d166.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-54e33cb026b8b354140626931aeb7ef89e1cc80714ec5c4565d2d166.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "懐かしい"
@@ -128,11 +136,12 @@
     "question": "懐かしい曲がスピーカーから鳴り響いていました。",
     "answer": "A nostalgic song was echoing out of the speakers.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ce333389-f188-4a84-bc2f-101a33a9c8b7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

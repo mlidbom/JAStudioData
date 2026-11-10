@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-52f4c3f47582b67f7de9cc73a89e96d7ba0ce497c25261f369db2a35.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-52f4c3f47582b67f7de9cc73a89e96d7ba0ce497c25261f369db2a35.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "師匠"
@@ -156,11 +164,12 @@
     "question": "師匠と呼ばせてもらえませんか。",
     "answer": "May I call you \"master?\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c2da3e1e-8853-472b-9783-ef693f0fed99",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

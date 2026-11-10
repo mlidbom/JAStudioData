@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d02053ad33fbe6d6e52f9e54bcfe45b8df0b5ce9336eef6bfc68ebc9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d02053ad33fbe6d6e52f9e54bcfe45b8df0b5ce9336eef6bfc68ebc9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "勝負"
@@ -65,11 +73,12 @@
     "question": "勝負は引き分けだった。",
     "answer": "The match was a draw.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6f99cd09-7a25-4b56-97e7-eeade82d97c1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

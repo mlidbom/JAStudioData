@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a4e5ff56d2cb568dadec58d6436d1a53e354ab8232a5dd74605a77f2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a4e5ff56d2cb568dadec58d6436d1a53e354ab8232a5dd74605a77f2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "新品"
@@ -142,11 +150,12 @@
     "question": "線路に新品のそろばんを落としてしまいました。",
     "answer": "I dropped my brand new abacus onto the train tracks.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2772dfc4-b907-4977-9f0b-f91974d7ebfa",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

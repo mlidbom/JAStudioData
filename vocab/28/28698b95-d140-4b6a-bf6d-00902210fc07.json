@@ -26,9 +26,15 @@
   "partsOfSpeech": [],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-176d299f1811c281769828575d43128a0777e39632a8108724a8b562.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-176d299f1811c281769828575d43128a0777e39632a8108724a8b562.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "たらなぁ",
@@ -38,8 +44,7 @@
   "sentenceCount": 6,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -63,7 +68,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "28698b95-d140-4b6a-bf6d-00902210fc07",
   "tags": [

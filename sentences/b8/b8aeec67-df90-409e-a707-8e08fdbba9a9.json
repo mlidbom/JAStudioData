@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bde3457dd6d52ad1a2c93dd9e6d41b20fa1ebfd0dfc3171736e2a197.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bde3457dd6d52ad1a2c93dd9e6d41b20fa1ebfd0dfc3171736e2a197.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "日本語"
@@ -149,11 +157,12 @@
     "question": "「GENKI」という本と、「ワニカニ」というアプリで日本語を学んでいます。",
     "answer": "I am studying Japanese with a book called \"GENKI\" and an app called \"WaniKani.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b8aeec67-df90-409e-a707-8e08fdbba9a9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

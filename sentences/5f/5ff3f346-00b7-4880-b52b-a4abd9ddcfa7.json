@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bfbda44ef90cfa11d709196d6c678e928691121552c4eee2a6d9ef6d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bfbda44ef90cfa11d709196d6c678e928691121552c4eee2a6d9ef6d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "苛々する"
@@ -121,11 +129,12 @@
     "question": "あの人、いつも苛々しているね。",
     "answer": "That person is always irritated, huh?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5ff3f346-00b7-4880-b52b-a4abd9ddcfa7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

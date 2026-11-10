@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-da40d7c2743c491ff1c4cde868aa5867dd2f651fc8523156b12726ed.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-da40d7c2743c491ff1c4cde868aa5867dd2f651fc8523156b12726ed.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "流れる"
@@ -184,11 +192,12 @@
     "question": "そこでは、ゆっくりとした時間が流れていました。",
     "answer": "There, time flowed slowly.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "15be8ac1-d026-4985-850a-f416633ae7d3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

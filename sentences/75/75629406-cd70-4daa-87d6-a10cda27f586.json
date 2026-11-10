@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c9abb947dcd5ffffba2da57673c8e9591ec739b0eaccf1497833134d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c9abb947dcd5ffffba2da57673c8e9591ec739b0eaccf1497833134d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "営業中"
@@ -149,11 +157,12 @@
     "question": "今日は日曜日なのに営業中なんですね。",
     "answer": "It's open for business today, isn’t it, even though it's Sunday.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "75629406-cd70-4daa-87d6-a10cda27f586",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-90a62e7da0087617bfc6420190b1cd3589a751f77c8d8f8a22f243db.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-90a62e7da0087617bfc6420190b1cd3589a751f77c8d8f8a22f243db.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "怒る"
@@ -219,11 +227,12 @@
     "question": "おかしいな？別に怒らせるようなこと言ったつもりはないんだけど...。",
     "answer": "It's weird. I don't think I had said anything that would make him mad.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "eca895e0-6c06-467e-b6f4-718bafe2d920",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

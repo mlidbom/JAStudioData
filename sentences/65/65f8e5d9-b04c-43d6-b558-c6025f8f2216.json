@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-458d69c32599d60fa5a053db1632b68aee08a0c669c9eb5f52774991.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-458d69c32599d60fa5a053db1632b68aee08a0c669c9eb5f52774991.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "顔付き"
@@ -170,11 +178,12 @@
     "question": "あなたは、心の広そうな人の顔付きをしてますよ。",
     "answer": "You look like a person with a big heart.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "65f8e5d9-b04c-43d6-b558-c6025f8f2216",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cbc237950e23815f57f75230f4536989d836031777f90600836854f2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cbc237950e23815f57f75230f4536989d836031777f90600836854f2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鎮痛剤"
@@ -128,11 +136,12 @@
     "question": "医者に鎮痛剤を注射してもらいました。",
     "answer": "I received a shot of the painkiller from the doctor.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e6b1dd8b-821d-48c0-997d-26adc9832d75",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

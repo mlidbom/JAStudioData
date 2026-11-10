@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-af2662ab73aa85148e3f7e49e175e04bf020bb4c1990019ef20b250f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-af2662ab73aa85148e3f7e49e175e04bf020bb4c1990019ef20b250f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "不燃ゴミ"
@@ -114,11 +122,12 @@
     "question": "不燃ゴミは火曜日に出してください。",
     "answer": "Please take out the nonburnable garbage on Tuesday.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2f360c35-b134-494f-acce-08c476237e20",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

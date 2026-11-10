@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9f7a42bba31b5a80542b16476357f1f9042f3b787a44ffab1a88a474.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9f7a42bba31b5a80542b16476357f1f9042f3b787a44ffab1a88a474.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "脳"
@@ -184,11 +192,12 @@
     "question": "CTでもMRIでも、脳には問題はありませんでした。",
     "answer": "Neither CT nor MRI showed any brain problems.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "58382bd4-d2dd-43a3-b856-7f0647be3685",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

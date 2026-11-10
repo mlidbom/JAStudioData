@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1f7befee08d5f67346bbb51b3b53a72e7d9e7343102d550de2c85acf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1f7befee08d5f67346bbb51b3b53a72e7d9e7343102d550de2c85acf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "爆発"
@@ -135,11 +143,12 @@
     "question": "彼女の一言が彼の怒りを爆発させました。",
     "answer": "Her words caused him to explode with anger.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6cbd0009-2fef-40c3-aaf2-94059c5ce4ab",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4bf0eb9232ecd3b485e941373a6162b8fdf0d6f809ff6c14c7513204.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4bf0eb9232ecd3b485e941373a6162b8fdf0d6f809ff6c14c7513204.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "渋滞"
@@ -289,11 +297,12 @@
     "question": "もうすぐ日も暮れるぜ。全くこの馬鹿げた渋滞のせいで今日は一日何にもできなかったな。",
     "answer": "The day is almost over. We couldn’t do anything today because of this stupid traffic jam.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "82d0be7d-c8cd-4ce3-a709-b0dcefb45488",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

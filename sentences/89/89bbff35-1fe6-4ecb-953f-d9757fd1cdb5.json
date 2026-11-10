@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6e6777912e511f60865056a9689c09dfb2cfb40b3c9d5ec5c9c53d0e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6e6777912e511f60865056a9689c09dfb2cfb40b3c9d5ec5c9c53d0e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "山道"
@@ -114,11 +122,12 @@
     "question": "山道を歩くのは体力が必要だ。",
     "answer": "Walking on a mountain path requires physical strength.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "89bbff35-1fe6-4ecb-953f-d9757fd1cdb5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9a82087c6209da27f5531c11bd3ba471c558650ef1e6345b344d8d64.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9a82087c6209da27f5531c11bd3ba471c558650ef1e6345b344d8d64.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "熊本県"
@@ -212,11 +220,12 @@
     "question": "夜行バスは、熊本県で発生した事故のため一時不通になった。",
     "answer": "The night bus service was temporarily suspended because of an accident in Kumamoto prefecture.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "47168755-2dfc-488e-90fb-e793c6772189",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

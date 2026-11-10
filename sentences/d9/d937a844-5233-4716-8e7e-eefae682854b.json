@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-aae9ef4ed962633b5328e5e92a349f7487befe82edacd1a8eeccad31.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-aae9ef4ed962633b5328e5e92a349f7487befe82edacd1a8eeccad31.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "烏賊"
@@ -163,11 +171,12 @@
     "question": "今夜は烏賊の煮物を作ろうと思っています。",
     "answer": "I'm thinking about making stewed cuttlefish this evening.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d937a844-5233-4716-8e7e-eefae682854b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

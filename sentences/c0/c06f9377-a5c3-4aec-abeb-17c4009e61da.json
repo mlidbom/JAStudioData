@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b7fde54b521a2bdf36ec4c9de2f98649d28679fe0f6ec201c9681a23.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b7fde54b521a2bdf36ec4c9de2f98649d28679fe0f6ec201c9681a23.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "放れる"
@@ -100,11 +108,12 @@
     "question": "風船が女の子の手から放れた。",
     "answer": "The balloon escaped from the girl's hands.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c06f9377-a5c3-4aec-abeb-17c4009e61da",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

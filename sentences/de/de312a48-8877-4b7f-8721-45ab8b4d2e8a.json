@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-aff26d266724a4f35f385b61ca508807f9c2752dc0247ef81d8a1e82.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-aff26d266724a4f35f385b61ca508807f9c2752dc0247ef81d8a1e82.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "見抜く"
@@ -352,11 +360,12 @@
     "question": "近ごろ石油の供給が少なくなってきているのは知っていましたが、その理由は見抜けませんでした。",
     "answer": "I knew that oil supplies have been dwindling in recent years, but I wasn't able to find out why.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "de312a48-8877-4b7f-8721-45ab8b4d2e8a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-72f36429a6d3014e6ed647ba3e9755684c96c43a22c16968e3abc921.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-72f36429a6d3014e6ed647ba3e9755684c96c43a22c16968e3abc921.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "墳墓"
@@ -128,11 +136,12 @@
     "question": "ツタンカーメンの墳墓は絶対に訪れた方がいいよ。",
     "answer": "You should definitely visit the tomb of Tutankhamen.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a33bdb0c-6575-4dd7-b692-d790c63b781d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

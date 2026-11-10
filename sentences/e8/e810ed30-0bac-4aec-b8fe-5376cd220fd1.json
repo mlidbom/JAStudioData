@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5b6f6275be82dd125f7d26a059ca568e60ae9e5af46e53278372e47e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5b6f6275be82dd125f7d26a059ca568e60ae9e5af46e53278372e47e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "字典"
@@ -114,11 +122,12 @@
     "question": "この国字字典はあそこの古本屋で買ったんです。",
     "answer": "I bought this Japanese-origin kanji dictionary at that secondhand bookstore over there.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e810ed30-0bac-4aec-b8fe-5376cd220fd1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

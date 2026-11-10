@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-be076dab503ab860caeffc68c19ef5c59733cd8026ffb23b2caa2f98.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-be076dab503ab860caeffc68c19ef5c59733cd8026ffb23b2caa2f98.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "深夜"
@@ -135,11 +143,12 @@
     "question": "深夜に電話できる友人は何人くらいいますか？",
     "answer": "How many friends do you have that you can call even at midnight?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4ed10e9c-7eaf-46a1-9814-9e7708050213",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

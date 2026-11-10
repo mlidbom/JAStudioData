@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1e59dfd4c60816671a2558c2ac41cba06598ed9bceaf662dc882ab8d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1e59dfd4c60816671a2558c2ac41cba06598ed9bceaf662dc882ab8d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "高級"
@@ -142,11 +150,12 @@
     "question": "これは中国で有名な高級茶なんですよ。",
     "answer": "This is a famous high-end tea in China.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "76ca5e13-439a-44c2-b2bc-9addf19c91b4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

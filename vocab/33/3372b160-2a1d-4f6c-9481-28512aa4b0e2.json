@@ -31,9 +31,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-18b33d4e044c696769a537eb2badcbf3dc89b6db96c31a4f9bb073bb.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-18b33d4e044c696769a537eb2badcbf3dc89b6db96c31a4f9bb073bb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "付いている",
@@ -43,8 +49,7 @@
   "sentenceCount": 17,
   "technicalNotes": "Exists in the dict, but essentially never has that meaning written with kanji",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -68,7 +73,9 @@
   "sourceData": {
     "answer": "to-be:{lucky/in-luck} | to{?}{be-attached/have/be-included/come-with/contain/be-in-a-state}",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "3372b160-2a1d-4f6c-9481-28512aa4b0e2",
   "tags": [

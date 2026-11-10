@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e6c98e098955ad9537d9766613f4450d0fe8f11c33c38210742100f8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e6c98e098955ad9537d9766613f4450d0fe8f11c33c38210742100f8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "吸血鬼"
@@ -135,11 +143,12 @@
     "question": "吸血鬼は、あわてて寝どこに帰っていった。",
     "answer": "The vampire rushed back to where he sleeps.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "779557bf-adb9-4214-8310-3f5e9141721e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

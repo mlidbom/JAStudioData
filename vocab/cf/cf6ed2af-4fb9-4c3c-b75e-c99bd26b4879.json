@@ -20,9 +20,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-d4f69a30cade6dbc830cabfaf5262e17db9a424e99da377567aa53ed.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-d4f69a30cade6dbc830cabfaf5262e17db9a424e99da377567aa53ed.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "もので",
@@ -32,8 +38,7 @@
   "sentenceCount": 4,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {
       "sentenceEnd": "required",
@@ -60,7 +65,9 @@
   "sourceData": {
     "answer": "conjunctive-particle-indicating-a-cause-or-reason",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "cf6ed2af-4fb9-4c3c-b75e-c99bd26b4879",
   "tags": [

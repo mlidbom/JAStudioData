@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-d2b8ec256880c6304bce0b56b9cda6d41fac0c17f1aa995de3549115.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-d2b8ec256880c6304bce0b56b9cda6d41fac0c17f1aa995de3549115.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "旨そう",
@@ -40,8 +46,7 @@
   "sentenceCount": 10,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {
       "dictionaryFormStart": "forbidden"
@@ -67,7 +72,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "a8651d81-f91a-46bc-887e-a45bd28c3766",
   "tags": [

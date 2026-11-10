@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-919a7b4f2068053e541ed7aefb610279c2b556c085085e54b58a40d9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-919a7b4f2068053e541ed7aefb610279c2b556c085085e54b58a40d9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "静止"
@@ -128,11 +136,12 @@
     "question": "ウチの猫はカメラを向けると静止します。",
     "answer": "My cat stands still when I point the camera at her.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fd8f59c0-8cb2-45ba-96af-f813f69a49fb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

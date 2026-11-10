@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-798a9051d35c0adc066a3b97a7560f6afd883c9fc806df02004aafca.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-798a9051d35c0adc066a3b97a7560f6afd883c9fc806df02004aafca.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "無くてはいけない",
@@ -44,8 +50,7 @@
   "sentenceCount": 10,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -191,7 +196,9 @@
   "sourceData": {
     "answer": "cannot-do-without-something/indispensable/absolutely-necessary | have-to-do",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "7486c262-532a-4ef1-acf2-ab60ffd8bcfc",
   "tags": [

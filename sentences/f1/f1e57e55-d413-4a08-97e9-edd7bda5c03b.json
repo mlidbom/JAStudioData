@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c54c47a40f51e41100a5272544dc3b8202fe154ec10bcfac791b2c6b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c54c47a40f51e41100a5272544dc3b8202fe154ec10bcfac791b2c6b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "進撃"
@@ -114,11 +122,12 @@
     "question": "どうにかして敵の進撃をはばんでくれ！",
     "answer": "Do something to halt the enemy's advance!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f1e57e55-d413-4a08-97e9-edd7bda5c03b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

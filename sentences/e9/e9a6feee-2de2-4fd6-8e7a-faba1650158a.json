@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0ca17a06bda954a4a280a7e45b08c3dd0329edcb1f2d3f993692e890.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0ca17a06bda954a4a280a7e45b08c3dd0329edcb1f2d3f993692e890.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "観る"
@@ -128,11 +136,12 @@
     "question": "どっちの映画を観るか迷っています。",
     "answer": "I can’t decide which movie to watch.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e9a6feee-2de2-4fd6-8e7a-faba1650158a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

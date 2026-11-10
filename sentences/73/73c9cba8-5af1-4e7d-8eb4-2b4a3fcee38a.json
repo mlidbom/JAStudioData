@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5a75ca875e494c777593eb47ea89d2a2c6540e905b1f77ebc9592280.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5a75ca875e494c777593eb47ea89d2a2c6540e905b1f77ebc9592280.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "名刺"
@@ -149,11 +157,12 @@
     "question": "そういえば、新人の名刺を作る必要がありますね。",
     "answer": "Come to think of it, we need to make business cards for the new hires, don't we?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "73c9cba8-5af1-4e7d-8eb4-2b4a3fcee38a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

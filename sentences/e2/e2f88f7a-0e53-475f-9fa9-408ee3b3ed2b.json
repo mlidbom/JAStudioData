@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-58ada9eef97d2caac05d013c8fc958aaa218ea5e4e9546385d4120ff.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-58ada9eef97d2caac05d013c8fc958aaa218ea5e4e9546385d4120ff.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "運転手"
@@ -93,11 +101,12 @@
     "question": "あのタクシーの運転手、イケメンだね。",
     "answer": "That taxi driver is a good-looking guy.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e2f88f7a-0e53-475f-9fa9-408ee3b3ed2b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

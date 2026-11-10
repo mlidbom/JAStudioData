@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-77c919aa1a8c42f4fb668ab86cd5d5300e9e7180523848896183e59f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-77c919aa1a8c42f4fb668ab86cd5d5300e9e7180523848896183e59f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "没"
@@ -205,11 +213,12 @@
     "question": "申し訳ありませんが、この案は一旦没にしてください。",
     "answer": "I'm sorry, but I'm afraid you're going to have to discard this idea for now.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3a99a585-fa0e-4d2f-baa1-6ed305ba1717",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

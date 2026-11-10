@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c1db4295975bdd8462afd847d23a1f66e29db9d59311dcce9bb860aa.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c1db4295975bdd8462afd847d23a1f66e29db9d59311dcce9bb860aa.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "元気"
@@ -72,11 +80,12 @@
     "question": "お父さんは、元気ですか。",
     "answer": "How is your father?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0795c894-70cb-4871-a32d-15c024632e5b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

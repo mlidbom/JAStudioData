@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fda8b972fe8312f729a47a0b0a038c0f7aac9cbfef464a6101c5e195.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fda8b972fe8312f729a47a0b0a038c0f7aac9cbfef464a6101c5e195.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "印鑑"
@@ -135,11 +143,12 @@
     "question": "公的な印鑑が押された書類が必要になります。",
     "answer": "You need an officially sealed document.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f9c683ad-d201-41f8-8228-666e4e62b9fc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

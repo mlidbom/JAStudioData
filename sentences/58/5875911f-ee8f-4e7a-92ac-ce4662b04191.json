@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ba763ce6019f5b6ead5cbb25f2775ed202202a7a455b339d2a079d09.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ba763ce6019f5b6ead5cbb25f2775ed202202a7a455b339d2a079d09.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "作り方"
@@ -100,11 +108,12 @@
     "question": "カレーの作り方を教えて下さい。",
     "answer": "Please teach me how to make curry.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5875911f-ee8f-4e7a-92ac-ce4662b04191",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

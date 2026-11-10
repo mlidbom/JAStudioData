@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b3a2420c2abb5a6fb93a6293eef836e3021a891b2f0211b5dcac9fa5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b3a2420c2abb5a6fb93a6293eef836e3021a891b2f0211b5dcac9fa5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "音楽"
@@ -156,11 +164,12 @@
     "question": "もう少し音楽のボリュームを上げてもらえませんか？",
     "answer": "Could you turn up the music volume a little more?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7d4b1b3a-12cc-4a01-a7fa-d5c074d7c867",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

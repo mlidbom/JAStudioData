@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2c078732d2387e2ae5f4bb4361ef32498a35f4d1aab2811960aaa835.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2c078732d2387e2ae5f4bb4361ef32498a35f4d1aab2811960aaa835.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "三番目"
@@ -149,11 +157,12 @@
     "question": "母と父の間に三番目に生まれたのが弟です。",
     "answer": "The third child my mom and dad had was my baby brother.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "23d1edb3-bd3d-448d-8d7f-cede3f6ac869",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

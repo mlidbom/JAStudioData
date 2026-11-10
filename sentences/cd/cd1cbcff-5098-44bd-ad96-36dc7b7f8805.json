@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-661df896297c690b3ad8651c7cbbd07b03b668840d6e4fc1b4cf495a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-661df896297c690b3ad8651c7cbbd07b03b668840d6e4fc1b4cf495a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "信用"
@@ -177,11 +185,12 @@
     "question": "二回もウソをついたせいで、信用を失ってしまったんです。",
     "answer": "I lost trust because I lied twice.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cd1cbcff-5098-44bd-ad96-36dc7b7f8805",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

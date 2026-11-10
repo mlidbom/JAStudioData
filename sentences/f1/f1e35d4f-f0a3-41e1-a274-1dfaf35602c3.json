@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a23239fe053c3ff3918769b7a22ef0eab6aae5a3e99e52dac48c9c61.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a23239fe053c3ff3918769b7a22ef0eab6aae5a3e99e52dac48c9c61.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "数学"
@@ -135,11 +143,12 @@
     "question": "明日の数学のテスト、すごく不安なんですよ。",
     "answer": "I'm very worried about tomorrow's math test.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f1e35d4f-f0a3-41e1-a274-1dfaf35602c3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

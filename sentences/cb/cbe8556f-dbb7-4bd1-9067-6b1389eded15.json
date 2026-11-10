@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4b126cd6204a8e102fc435fc60b6d0059c6ab689cb21d77df989e274.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4b126cd6204a8e102fc435fc60b6d0059c6ab689cb21d77df989e274.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "抹殺"
@@ -177,11 +185,12 @@
     "question": "あの男は、組織に歯向かったため、社会から抹殺されたんだよ。",
     "answer": "That man rose against the system and was erased from society.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cbe8556f-dbb7-4bd1-9067-6b1389eded15",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

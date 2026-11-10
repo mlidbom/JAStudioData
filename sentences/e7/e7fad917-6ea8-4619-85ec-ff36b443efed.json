@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c8f1ff1017b0858ed15c1f6bf1ba783d98a7cb1324d362696c58854c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c8f1ff1017b0858ed15c1f6bf1ba783d98a7cb1324d362696c58854c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "子供"
@@ -198,11 +206,12 @@
     "question": "この映画は子供向けではなく、大人向けだと思うよ。",
     "answer": "I think this movie is not intended for kids, but for grownups.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e7fad917-6ea8-4619-85ec-ff36b443efed",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6ff2ec603a3931c784298a6e8ca2749491f1bab42188a0b753d5d206.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6ff2ec603a3931c784298a6e8ca2749491f1bab42188a0b753d5d206.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "詩人"
@@ -93,11 +101,12 @@
     "question": "友人に詩人が一人います。",
     "answer": "I have a friend who is a poet.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c2f4c0c1-4705-4d45-858a-c2e23c703d2c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

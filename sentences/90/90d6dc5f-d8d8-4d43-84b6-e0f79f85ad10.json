@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6773c2208dc1114a66936fd55757f4bf7e95e009c3bafb76cc73a8f1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6773c2208dc1114a66936fd55757f4bf7e95e009c3bafb76cc73a8f1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "詳しい"
@@ -93,11 +101,12 @@
     "question": "あの人はコンピューターについて詳しそうだ。",
     "answer": "That person looks like they know a lot about computers.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "90d6dc5f-d8d8-4d43-84b6-e0f79f85ad10",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ab21e19ae86ad502f7e0aac1cd069fe6c9c737e909128dc9b4cc9409.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ab21e19ae86ad502f7e0aac1cd069fe6c9c737e909128dc9b4cc9409.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "思う"
@@ -114,11 +122,12 @@
     "question": "コウイチも来ると思う。",
     "answer": "I think Koichi will also come.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8b6a4ae1-1a7c-4527-956f-a6a61a09b7a4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

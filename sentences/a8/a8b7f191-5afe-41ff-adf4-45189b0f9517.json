@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7f293cfb7c5ec76abfab17cea770e75d0f6e99d5cfb967b5835780d1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7f293cfb7c5ec76abfab17cea770e75d0f6e99d5cfb967b5835780d1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "外面"
@@ -128,11 +136,12 @@
     "question": "彼女の外面にだまされない方がいいですよ。",
     "answer": "You shouldn’t be fooled by her outward appearance.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a8b7f191-5afe-41ff-adf4-45189b0f9517",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

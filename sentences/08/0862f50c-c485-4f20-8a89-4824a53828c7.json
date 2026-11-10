@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ce13b02d46d59dd04910439540be05e8b3091fefa4b8e61b73b467ba.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ce13b02d46d59dd04910439540be05e8b3091fefa4b8e61b73b467ba.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "暴れる"
@@ -233,11 +241,12 @@
     "question": "あそこにナイフを持って暴れる危険人物がいるので、気をつけてください。",
     "answer": "Be careful, there is a dangerous man with a knife rampaging over there.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0862f50c-c485-4f20-8a89-4824a53828c7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

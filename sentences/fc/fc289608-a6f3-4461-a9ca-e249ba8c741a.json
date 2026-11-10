@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4669276ad2e82f2cf81e0deae58cef6a8bb62c4270ac1eed1e779e22.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4669276ad2e82f2cf81e0deae58cef6a8bb62c4270ac1eed1e779e22.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "水滴"
@@ -142,11 +150,12 @@
     "question": "車の窓には水滴がついています。",
     "answer": "Water droplets are beading on the car windows.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fc289608-a6f3-4461-a9ca-e249ba8c741a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

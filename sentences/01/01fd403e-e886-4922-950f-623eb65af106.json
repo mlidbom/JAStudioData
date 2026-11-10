@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e7b4041e424001ce5089d46753c21599c1d519e3fe6c9fca602090e0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e7b4041e424001ce5089d46753c21599c1d519e3fe6c9fca602090e0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "直る"
@@ -128,11 +136,12 @@
     "question": "もうすぐ、インターネットのルーターが直ると思う。",
     "answer": "I think the internet router will be fixed soon.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "01fd403e-e886-4922-950f-623eb65af106",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

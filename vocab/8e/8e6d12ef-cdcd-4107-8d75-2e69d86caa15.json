@@ -20,15 +20,20 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "[sound:飼う_b.mp3]",
-  "audioG": "[sound:飼う_g.mp3]",
-  "audioTTS": "[sound:hypertts-81181a7bc621ebfa27ac64c0e5218515e8a6f60f612b0ff419318366.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-81181a7bc621ebfa27ac64c0e5218515e8a6f60f612b0ff419318366.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
   "forms": [],
   "sentenceCount": 10,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -52,7 +57,18 @@
   "sourceData": {
     "answer": "to{} keep-(a-pet-or-other-animal)/have/own/raise/rear/feed",
     "mnemonic": "The kanji is <kanji>domesticate</kanji>. When you domesticate an animal, you get <vocabulary>to keep a pet</vocabulary> of some kind. You'd use this to describe when you are keeping a dog or cat or something.",
-    "readingMnemonic": "The reading is the one you learned with the kanji. The <ja>か</ja> of <reading>ca</reading>t!"
+    "readingMnemonic": "The reading is the one you learned with the kanji. The <ja>か</ja> of <reading>ca</reading>t!",
+    "audio": [
+      {
+        "fileName": "飼う_b.mp3",
+        "voiceGender": "male"
+      },
+      {
+        "fileName": "飼う_g.mp3",
+        "voiceGender": "female"
+      }
+    ],
+    "images": []
   },
   "id": "8e6d12ef-cdcd-4107-8d75-2e69d86caa15",
   "tags": [

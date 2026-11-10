@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-afc7e7ec051c6db06f467c361761ef8e83ac965af9c4ae6caeca93e1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-afc7e7ec051c6db06f467c361761ef8e83ac965af9c4ae6caeca93e1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "続々"
@@ -135,11 +143,12 @@
     "question": "オフィスの出口から社員が続々と出てきた。",
     "answer": "Employees came out of the office exit, one after another.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "602b0151-388f-4d3b-a1a0-3142a6ebf701",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

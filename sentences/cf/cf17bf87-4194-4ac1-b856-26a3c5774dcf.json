@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fc3bd161689384bc46b43da030b58abd6672fe0b6b8fb82cef9b0590.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fc3bd161689384bc46b43da030b58abd6672fe0b6b8fb82cef9b0590.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お父さん"
@@ -58,11 +66,12 @@
     "question": "お父さんはリンゴがすきです。",
     "answer": "Dad likes apples.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cf17bf87-4194-4ac1-b856-26a3c5774dcf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

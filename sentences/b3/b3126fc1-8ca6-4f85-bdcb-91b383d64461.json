@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8aede7bd972e359bd6cf67c41363a01e36b1f63684f47d3fb716705d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8aede7bd972e359bd6cf67c41363a01e36b1f63684f47d3fb716705d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "品詞"
@@ -177,11 +185,12 @@
     "question": "品詞にはどんなものがあるか教えてください。",
     "answer": "Please tell me what kinds of things we have for parts of speech.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b3126fc1-8ca6-4f85-bdcb-91b383d64461",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-575c1d407c9da9fb594b4d6b19ed1f13f4d124bc5b202839182909a0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-575c1d407c9da9fb594b4d6b19ed1f13f4d124bc5b202839182909a0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "請ける"
@@ -205,11 +213,12 @@
     "question": "お前の顔を立てるためだけにこの仕事を請けたんだからな。",
     "answer": "I only took this job so that you could save face.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "75c3080b-4dc8-4323-a685-6d6b3daeb79f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

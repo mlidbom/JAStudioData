@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8b8c8c2dda10987928c9ba722c8c9fba529505d0b33c58664099ee8d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8b8c8c2dda10987928c9ba722c8c9fba529505d0b33c58664099ee8d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "東北"
@@ -135,11 +143,12 @@
     "question": "私のおばあちゃんは東北生まれなので方言が分かります。",
     "answer": "My grandmother is originally from Tohoku, so she understands the dialect.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "93dad8a6-9f6e-41d0-9f85-e6a58ec700c3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

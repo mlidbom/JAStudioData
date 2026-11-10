@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b060c8e4bd2baf56ac74393d0ca799a37ade059f9977054d1b755f4d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b060c8e4bd2baf56ac74393d0ca799a37ade059f9977054d1b755f4d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "予防"
@@ -149,11 +157,12 @@
     "question": "日焼けを予防するために、日焼け止めは欠かせません。",
     "answer": "To prevent sunburn, sunscreen is essential.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e7e55995-45e3-4b9d-ac3d-b44fcb098ef8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

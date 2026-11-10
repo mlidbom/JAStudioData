@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-93d05c638d23fc1ea369e4269b0df9b530679cea15349a144d3403c3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-93d05c638d23fc1ea369e4269b0df9b530679cea15349a144d3403c3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "立ち去る"
@@ -100,11 +108,12 @@
     "question": "男はその場を足早に立ち去った。",
     "answer": "The man quickly left the spot.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a9f74f4b-83e1-4824-8a05-11fdb6a150aa",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

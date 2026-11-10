@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e3a3a842793e941bd77275f34d21a57f1c32e35cd4c557cd45c4019b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e3a3a842793e941bd77275f34d21a57f1c32e35cd4c557cd45c4019b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "該当"
@@ -107,11 +115,12 @@
     "question": "この商品も、キャンペーンの対象に該当しますか？",
     "answer": "Does this merchandise correspond with the target of the campaign?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "051b4d4c-7a5d-493d-a4b5-eba8f6534c9a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

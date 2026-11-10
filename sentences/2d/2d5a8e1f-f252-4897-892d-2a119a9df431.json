@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7be7d20d347edd368a8de64f70e8268945d52c6f01dfa9bde10e04ba.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7be7d20d347edd368a8de64f70e8268945d52c6f01dfa9bde10e04ba.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "事実"
@@ -142,11 +150,12 @@
     "question": "父は事実、それを知っていました。",
     "answer": "Dad, in fact, knew about that.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2d5a8e1f-f252-4897-892d-2a119a9df431",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

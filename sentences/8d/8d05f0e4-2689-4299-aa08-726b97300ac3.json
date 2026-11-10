@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-de4294c48cec6105f0e7c546d86089bbe8da23042b95e338a100ddd8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-de4294c48cec6105f0e7c546d86089bbe8da23042b95e338a100ddd8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "体内"
@@ -142,11 +150,12 @@
     "question": "体内のアルコール分が不足してる気がします。",
     "answer": "I feel like the alcohol content in the body is lacking.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8d05f0e4-2689-4299-aa08-726b97300ac3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

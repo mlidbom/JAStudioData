@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9b61766306e3006b05d280f0944b49d46e84dca836dcdeb9ef257917.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9b61766306e3006b05d280f0944b49d46e84dca836dcdeb9ef257917.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "疲れ"
@@ -198,11 +206,12 @@
     "question": "うちの子は、疲れ知らずで、一日中ずーっと走り回ってられるんです。",
     "answer": "Our little boy is tireless and can run around all day long.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "65d9a5fb-6317-42cd-9005-45f13dc52419",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

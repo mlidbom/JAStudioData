@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cd3b4b238b280a6026bf226214afdca39c281254de53bbb0e6ff6743.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cd3b4b238b280a6026bf226214afdca39c281254de53bbb0e6ff6743.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "巡査"
@@ -100,11 +108,12 @@
     "question": "その巡査は、スコッチを一気にゴクリと半分飲み干した。",
     "answer": "The policeman drank half the scotch in one gulp.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b4f2089d-19df-4512-a628-1b3c09d7a9c9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

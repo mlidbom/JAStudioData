@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-89b8658094ca301971cde661022786d275042746950b46e2015cd575.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-89b8658094ca301971cde661022786d275042746950b46e2015cd575.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "入社"
@@ -72,11 +80,12 @@
     "question": "入社したばかりです。",
     "answer": "I just joined a company.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1a0ff2a5-3283-4402-828c-24a6a06fa008",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a59466016b31ddbe5682ec7e36b47a82c1072abcb36d34449196ad2b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a59466016b31ddbe5682ec7e36b47a82c1072abcb36d34449196ad2b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "消しゴム"
@@ -51,11 +59,12 @@
     "question": "ねえ、消しゴム持ってる？",
     "answer": "Hey, do you have an eraser?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1ef40f50-7293-4f50-82f3-b9f58bee099d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

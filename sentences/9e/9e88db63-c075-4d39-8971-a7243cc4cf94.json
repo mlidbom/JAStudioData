@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7df278ef7e2442a108361811b3ba80b6da06cf815e6dfd6bcd4f249d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7df278ef7e2442a108361811b3ba80b6da06cf815e6dfd6bcd4f249d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "知り合い"
@@ -114,11 +122,12 @@
     "question": "知り合いだから、ちょっと聞いてみるよ。",
     "answer": "Since I know that person, I'll ask them about it.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9e88db63-c075-4d39-8971-a7243cc4cf94",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

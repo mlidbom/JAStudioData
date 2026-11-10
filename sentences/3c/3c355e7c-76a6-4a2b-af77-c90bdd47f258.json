@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1c3c6b4a2e130671ebcd6b6ff2c73c0ca35d423bd61af2caff204e2e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1c3c6b4a2e130671ebcd6b6ff2c73c0ca35d423bd61af2caff204e2e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "島"
@@ -100,11 +108,12 @@
     "question": "島には美しい青空が広がっている。",
     "answer": "A beautiful blue sky is spreading over the island.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3c355e7c-76a6-4a2b-af77-c90bdd47f258",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

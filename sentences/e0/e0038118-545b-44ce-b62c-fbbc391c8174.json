@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3c717b34c3f21859c187476c205a8249f3cf11258d5b7aa0b1815e1a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3c717b34c3f21859c187476c205a8249f3cf11258d5b7aa0b1815e1a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "巡る"
@@ -100,11 +108,12 @@
     "question": "今日は五つのお寺を巡る予定です。",
     "answer": "We’ve arranged to go around to five temples today.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e0038118-545b-44ce-b62c-fbbc391c8174",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

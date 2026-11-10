@@ -19,15 +19,20 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-90bc5cfc8d470c43b11dcd25c403107d9e08be2003048e0aff99ca6d.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-90bc5cfc8d470c43b11dcd25c403107d9e08be2003048e0aff99ca6d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [],
   "sentenceCount": 1,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -51,7 +56,9 @@
   "sourceData": {
     "answer": "script/libretto/scenario",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "b4b3544d-e1a0-45e7-b04d-35d333e22825",
   "tags": [

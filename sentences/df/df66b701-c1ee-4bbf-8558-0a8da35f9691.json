@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-41ae502e76c3baadedaf0a8d644fdf4cb4c15017748a70fdca530bbf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-41ae502e76c3baadedaf0a8d644fdf4cb4c15017748a70fdca530bbf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大体"
@@ -100,11 +108,12 @@
     "question": "右手と左手の大きさは大体同じです。",
     "answer": "Right and left hands are about the same size.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "df66b701-c1ee-4bbf-8558-0a8da35f9691",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

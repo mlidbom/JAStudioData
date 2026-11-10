@@ -33,9 +33,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "[sound:hypertts-4a03244eff173555e33681ff4762c1dacdabbf8e1bc6d1f20754c0cc.mp3]",
-  "audioG": "",
-  "audioTTS": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4a03244eff173555e33681ff4762c1dacdabbf8e1bc6d1f20754c0cc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "交通事故にあう",
@@ -45,8 +51,7 @@
   "sentenceCount": 2,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -70,7 +75,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "df86953f-4fb0-4f2f-bb46-d3060544f4f9",
   "tags": [

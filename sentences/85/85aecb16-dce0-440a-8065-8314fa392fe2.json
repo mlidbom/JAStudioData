@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a03b25fef2581a3f1aaabfe8dfc43db928bb5ee46e32ce44ea7dea5e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a03b25fef2581a3f1aaabfe8dfc43db928bb5ee46e32ce44ea7dea5e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Google ja-JP-Neural2-D",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "約"
@@ -149,11 +157,12 @@
     "question": "その会社では約三年間働いていました。",
     "answer": "I worked at that company for about three years.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "85aecb16-dce0-440a-8065-8314fa392fe2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5eada6c337836c53c96bf5da0a48b3353c4a09bc72b9715466548e00.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5eada6c337836c53c96bf5da0a48b3353c4a09bc72b9715466548e00.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "二重"
@@ -128,11 +136,12 @@
     "question": "これは、二重アゴをなくすためのエクササイズです。",
     "answer": "This is an exercise to get rid of double chins.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ce8dbefd-9e6a-427b-a6b8-ae3bbc2de29c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

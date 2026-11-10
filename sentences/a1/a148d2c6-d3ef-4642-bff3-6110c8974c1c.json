@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-41177894f5377d2e835200a6c03d8b442713b0b3e7ec776f7f8c079b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-41177894f5377d2e835200a6c03d8b442713b0b3e7ec776f7f8c079b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "禁じる"
@@ -86,11 +94,12 @@
     "question": "この部屋では、私語を禁じます。",
     "answer": "Private conversation is prohibited in this room.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a148d2c6-d3ef-4642-bff3-6110c8974c1c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

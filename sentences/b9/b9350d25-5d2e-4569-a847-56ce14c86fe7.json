@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e9e1f65bfed7cb4a1d97a2785cf153f403f6f09ce55a4112d603ccbc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e9e1f65bfed7cb4a1d97a2785cf153f403f6f09ce55a4112d603ccbc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "反響"
@@ -198,11 +206,12 @@
     "question": "この部屋は反響音が抑えられるように設計してあるんです。",
     "answer": "This room is designed to reduce echoes.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b9350d25-5d2e-4569-a847-56ce14c86fe7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

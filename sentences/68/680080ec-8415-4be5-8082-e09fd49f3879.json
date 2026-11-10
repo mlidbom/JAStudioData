@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f42ae39139cdc7f88a9c820c65f82de686e82b92a5549ddd4bea9fe9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f42ae39139cdc7f88a9c820c65f82de686e82b92a5549ddd4bea9fe9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "烏賊"
@@ -79,11 +87,12 @@
     "question": "烏賊の刺し身が大好物です。",
     "answer": "Squid sashimi is my favorite food.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "680080ec-8415-4be5-8082-e09fd49f3879",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

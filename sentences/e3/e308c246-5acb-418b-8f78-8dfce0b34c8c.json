@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-55aa9e1d1b43101b73ddb12478648fdf7ed2d1594a3de8b49ae0e9de.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-55aa9e1d1b43101b73ddb12478648fdf7ed2d1594a3de8b49ae0e9de.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "〜症"
@@ -247,11 +255,12 @@
     "question": "熱中症になるといけないので、こまめに水分をとってくださいね！",
     "answer": "You must not get heatstroke, so please make sure to frequently stay hydrated!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e308c246-5acb-418b-8f78-8dfce0b34c8c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

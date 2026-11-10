@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1ff63d51f1bbac205638b559574375c73b45e9d567bb5dc5a31fe610.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1ff63d51f1bbac205638b559574375c73b45e9d567bb5dc5a31fe610.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "珍しい"
@@ -219,11 +227,12 @@
     "question": "この辺ではベーコンの乗ったドーナッツはそう珍しいものではありませんよ。",
     "answer": "It’s not rare to see bacon on donuts around here.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5be3680e-7371-4ccb-a4ae-0ab1e2be66bf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

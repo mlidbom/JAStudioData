@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e19010b4bb061f92824930bd7f1c9c6b6755ff67e47b669b28536c9a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e19010b4bb061f92824930bd7f1c9c6b6755ff67e47b669b28536c9a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "法律"
@@ -310,11 +318,12 @@
     "question": "もし一ヶ月の間に全法律用語を覚えることができたら、百万ドルお支払いしてもいいですよ。",
     "answer": "If you can memorize every legal term within one month, I will pay you a million dollars.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "eaa656c3-9d34-4a45-95d1-9331d285f74e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

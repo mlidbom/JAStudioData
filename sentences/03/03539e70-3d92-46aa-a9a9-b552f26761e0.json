@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-694f0d09f2f4a3cd034a217751f59965d8698c41ade7328c23ef870d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-694f0d09f2f4a3cd034a217751f59965d8698c41ade7328c23ef870d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "田代島"
@@ -114,11 +122,12 @@
     "question": "田代島にはガソリンスタンドがありません。",
     "answer": "There are no gas stations on Tashirojima.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "03539e70-3d92-46aa-a9a9-b552f26761e0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

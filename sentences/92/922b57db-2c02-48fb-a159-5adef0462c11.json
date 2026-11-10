@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cc295975fe4e9aa794d71cca3352595f6e65f0a9ce10ba99a18223c2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cc295975fe4e9aa794d71cca3352595f6e65f0a9ce10ba99a18223c2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "別"
@@ -142,11 +150,12 @@
     "question": "コウイチが、別の女と歩いているところを見たの。",
     "answer": "I saw Koichi walking with a different girl.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "922b57db-2c02-48fb-a159-5adef0462c11",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

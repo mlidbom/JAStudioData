@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a4a25a678cb6f335531192e9f6f8426904de815b205b610d8ff984cd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a4a25a678cb6f335531192e9f6f8426904de815b205b610d8ff984cd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "兼用"
@@ -100,11 +108,12 @@
     "question": "この食事は朝昼兼用にします。",
     "answer": "I’d call this meal brunch.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a8400a55-162e-416d-b3d7-30611f46dd7a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

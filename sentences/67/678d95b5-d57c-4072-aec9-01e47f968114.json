@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7ffb1897dc24d2eed1b2a89afce50fc043104b825451b5e2f441a912.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7ffb1897dc24d2eed1b2a89afce50fc043104b825451b5e2f441a912.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "特技"
@@ -79,11 +87,12 @@
     "question": "私の特技セキセイインコの鳴きマネです。",
     "answer": "My special skill is imitating the cries of a budgerigar.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "678d95b5-d57c-4072-aec9-01e47f968114",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dc108b7547aff95916b60e26a28663aa4333af8fb03d36de899980da.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dc108b7547aff95916b60e26a28663aa4333af8fb03d36de899980da.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "葬儀"
@@ -177,11 +185,12 @@
     "question": "中村は、葬儀に一人で行くと言って聞かなかった。",
     "answer": "Nakamura insisted on going to the funeral by himself.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d32b2574-f0d9-4fc6-ba24-0dc2e1da7041",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

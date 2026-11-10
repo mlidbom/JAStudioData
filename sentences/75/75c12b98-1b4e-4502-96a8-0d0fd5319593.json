@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7e569cf2eb3a05ba7bd5bf160b2ec04c6a6010e3dd34e847a73aafba.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7e569cf2eb3a05ba7bd5bf160b2ec04c6a6010e3dd34e847a73aafba.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お手洗い"
@@ -86,11 +94,12 @@
     "question": "お手洗いは、真っすぐ行って左です。",
     "answer": "The restroom is straight and to the left.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "75c12b98-1b4e-4502-96a8-0d0fd5319593",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

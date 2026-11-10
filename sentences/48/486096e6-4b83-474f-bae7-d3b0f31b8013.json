@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-988bae781525114bf0e3f318dd6a1e2b4eb61ed94486c06b02c77f72.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-988bae781525114bf0e3f318dd6a1e2b4eb61ed94486c06b02c77f72.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "請求"
@@ -205,11 +213,12 @@
     "question": "荷物を送った送料は後で請求可能だと言われています。",
     "answer": "I'm told that I can claim a reimbursement later for the parcel shipping cost.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "486096e6-4b83-474f-bae7-d3b0f31b8013",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

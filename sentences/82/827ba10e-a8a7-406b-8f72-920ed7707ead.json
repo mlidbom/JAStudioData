@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3ce244ea9a0e5ca47deea8c7713b86e527ad6698fe71dc0801a9509b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3ce244ea9a0e5ca47deea8c7713b86e527ad6698fe71dc0801a9509b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "勝手"
@@ -205,11 +213,12 @@
     "question": "他人の家で勝手に冷蔵庫を開けたりポテチを食べるの、やめてくれる？。",
     "answer": "Could you stop opening the fridge or eating chips at someone else's house without permission?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "827ba10e-a8a7-406b-8f72-920ed7707ead",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

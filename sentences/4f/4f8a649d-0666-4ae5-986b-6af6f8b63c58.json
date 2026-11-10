@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0d4c5d54078813bc37ca09feb3cafdd05e264a12c55a6cf075572cb9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0d4c5d54078813bc37ca09feb3cafdd05e264a12c55a6cf075572cb9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "訳語"
@@ -191,11 +199,12 @@
     "question": "日本語の中には、良い英語の訳語が無い時がある。",
     "answer": "For some Japanese words, there are no good English equivalents.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4f8a649d-0666-4ae5-986b-6af6f8b63c58",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

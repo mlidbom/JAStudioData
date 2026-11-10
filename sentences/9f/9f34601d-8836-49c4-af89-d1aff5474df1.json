@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e2c2b378eb63ac4e17d5dae28e4935ee683abe45586c7956c2aebf7d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e2c2b378eb63ac4e17d5dae28e4935ee683abe45586c7956c2aebf7d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "万年筆"
@@ -79,11 +87,12 @@
     "question": "万年筆を落とされましたよ。",
     "answer": "You dropped your fountain pen.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9f34601d-8836-49c4-af89-d1aff5474df1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

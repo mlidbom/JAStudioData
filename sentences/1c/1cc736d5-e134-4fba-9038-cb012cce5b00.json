@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f6e457112dd114f1163355a0b07f2bd15303c0b16c5bdb9d05b6a3df.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f6e457112dd114f1163355a0b07f2bd15303c0b16c5bdb9d05b6a3df.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "公開"
@@ -142,11 +150,12 @@
     "question": "この作品が公開してから、間もなく二十年です。",
     "answer": "It's been twenty years since this work was released.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1cc736d5-e134-4fba-9038-cb012cce5b00",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

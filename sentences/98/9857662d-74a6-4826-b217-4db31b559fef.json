@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-150426a9b3b5e6156990c1f4a2d5cff248df111ac210c03bde703a3a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-150426a9b3b5e6156990c1f4a2d5cff248df111ac210c03bde703a3a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "両替"
@@ -163,11 +171,12 @@
     "question": "後で、今日習った日本語での両替の仕方について復習したいと思います。",
     "answer": "I’ll review today’s lesson about how to exchange money in Japanese later.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9857662d-74a6-4826-b217-4db31b559fef",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

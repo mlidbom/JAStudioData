@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fe51da5c4912326cbcb38781de151519bebf403021fd98bd203a21c8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fe51da5c4912326cbcb38781de151519bebf403021fd98bd203a21c8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "反応"
@@ -198,11 +206,12 @@
     "question": "反応しないアプリケーションを強制終了する方法を教えてくれませんか？",
     "answer": "Could you tell me how to force quit an unresponsive application, please?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d39fa5b9-dc29-4eeb-ae3e-1dc129ecd5af",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

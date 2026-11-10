@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-6fc76f9c82d56502acd21896dd6df56b5750ab355073fab182be2af9.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-6fc76f9c82d56502acd21896dd6df56b5750ab355073fab182be2af9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "為て遣る",
@@ -48,8 +54,7 @@
   "sentenceCount": 44,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {
       "yieldLastTokenToOverlappingCompound": "required"
@@ -75,7 +80,9 @@
   "sourceData": {
     "answer": "to{} do-for-(someone) | take-in/deceive/hoodwink",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "666f01cf-868b-4966-808f-5f9b879e1503",
   "tags": [

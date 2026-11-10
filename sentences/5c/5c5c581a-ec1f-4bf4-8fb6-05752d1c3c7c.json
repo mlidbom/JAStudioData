@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-70cd3edefc9001aedbd29ad08938a1636bf9b1003e711c481899e0dd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-70cd3edefc9001aedbd29ad08938a1636bf9b1003e711c481899e0dd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "帆"
@@ -114,11 +122,12 @@
     "question": "そろそろ帆を替えなくちゃいかんなあ。",
     "answer": "Looks like you have to replace the sail soon.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5c5c581a-ec1f-4bf4-8fb6-05752d1c3c7c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

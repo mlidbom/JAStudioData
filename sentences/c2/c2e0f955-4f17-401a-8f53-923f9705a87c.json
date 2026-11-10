@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ed311aba3e0894001adf18ed55e3d68ac405afcaae1cf0e1f4c10282.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ed311aba3e0894001adf18ed55e3d68ac405afcaae1cf0e1f4c10282.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大学"
@@ -163,11 +171,12 @@
     "question": "日本の大学は、二十五才より年が下の学生が多いです。",
     "answer": "Many college students in Japan are younger than twenty five.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c2e0f955-4f17-401a-8f53-923f9705a87c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9aadc44777a717cf7ae1566a981d44ff6116cf53bb3acf96369f6817.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9aadc44777a717cf7ae1566a981d44ff6116cf53bb3acf96369f6817.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "崩れる"
@@ -114,11 +122,12 @@
     "question": "ああっ！またお化粧が崩れてきちゃった。",
     "answer": "Oh no! My make-up is coming off again.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "98d10a0f-8e67-42f5-947d-c1ccf115e810",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

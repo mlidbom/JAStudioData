@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e8e19857a83a696eff0d8afbe5cd70946e787d61969721a37285ec85.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e8e19857a83a696eff0d8afbe5cd70946e787d61969721a37285ec85.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "分"
@@ -142,11 +150,12 @@
     "question": "この市はシアトル市の3分の1の大きさです。",
     "answer": "This city is one-third the size of Seattle.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cd5c289b-a465-4669-bc9c-b45bed251b55",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

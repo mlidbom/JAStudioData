@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-13286c9a89a50073299ccc48a1cc348d0c287f0b7b4a4641a1aecbf5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-13286c9a89a50073299ccc48a1cc348d0c287f0b7b4a4641a1aecbf5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "添付"
@@ -345,11 +353,12 @@
     "question": "人事部長様、 恐れ入りますが、このEメールに添付された履歴書にお目通し頂けますでしょうか。お忙しいとは存じますが、よろしくお願い申し上げます。",
     "answer": "Dear hiring manager, please have a look at the resume attached to this email. Thank you for your time.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "946e9e32-d6bc-4d45-bf40-79a714a7f958",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

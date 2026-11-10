@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-eb56a5dc118987b6ebcedbffaf60f424f35392f85517058ab807c5ae.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-eb56a5dc118987b6ebcedbffaf60f424f35392f85517058ab807c5ae.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "協会"
@@ -191,11 +199,12 @@
     "question": "明日は協会の集まりがあるので、六時に起こしてください。",
     "answer": "I have to attend an organization meeting tomorrow, so please wake me up at six.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "24efb5ed-525f-428c-baee-5dd8a92ef26a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

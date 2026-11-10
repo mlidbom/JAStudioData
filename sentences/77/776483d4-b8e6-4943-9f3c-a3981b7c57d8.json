@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5ecd43bf73b10732942423fd0925273a98c8f431d5c85c918acceaf3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5ecd43bf73b10732942423fd0925273a98c8f431d5c85c918acceaf3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "気象"
@@ -163,11 +171,12 @@
     "question": "気象庁は、大型台風が接近していると発表しました。",
     "answer": "The Japan Meteorological Agency announced that a large typhoon is approaching.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "776483d4-b8e6-4943-9f3c-a3981b7c57d8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

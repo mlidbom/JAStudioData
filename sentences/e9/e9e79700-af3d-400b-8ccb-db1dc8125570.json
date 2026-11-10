@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fb2f6e13faa0677759317247e564d6b3f57ded139d0c7ead2649ca4c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fb2f6e13faa0677759317247e564d6b3f57ded139d0c7ead2649ca4c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "両替"
@@ -254,11 +262,12 @@
     "question": "関西空港で両替しようと思ったんですが、両替所がしまっていました。 ",
     "answer": "I wanted to exchange money at Kansai Airport, but the exchange counter was closed.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e9e79700-af3d-400b-8ccb-db1dc8125570",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

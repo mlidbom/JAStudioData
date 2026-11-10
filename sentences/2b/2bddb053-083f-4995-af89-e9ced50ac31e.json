@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bfc5f212d7ef1d1034c70d038da59c5f01697f7af9b033dc2270a965.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bfc5f212d7ef1d1034c70d038da59c5f01697f7af9b033dc2270a965.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "残品"
@@ -107,11 +115,12 @@
     "question": "残品は半額で処分しました。",
     "answer": "We sold the remaining goods at half price.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2bddb053-083f-4995-af89-e9ced50ac31e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

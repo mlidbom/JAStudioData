@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7d03b33606f09d1ab52b9b0aa5223abd04dfeb623b2d2ad32546ed0b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7d03b33606f09d1ab52b9b0aa5223abd04dfeb623b2d2ad32546ed0b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "削除する"
@@ -345,11 +353,12 @@
     "question": "今お送りしたメッセージを削除して頂いてもよろしいでしょうか。別の方に送信するはずだったものなんです。",
     "answer": "Could you delete the message I just sent you? I meant to send it to someone else.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2dd7aa38-e350-428a-8152-86b2372dd26f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

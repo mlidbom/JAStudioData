@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5f69df318ded15f633de33a949d3d2631bff138bd44be9e9c8b11e68.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5f69df318ded15f633de33a949d3d2631bff138bd44be9e9c8b11e68.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "含む"
@@ -86,11 +94,12 @@
     "question": "この料金は、消費税を含みます。",
     "answer": "This price includes consumption tax.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d9ddba35-1ebf-4d6c-8d4d-ce1d4f4ea728",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

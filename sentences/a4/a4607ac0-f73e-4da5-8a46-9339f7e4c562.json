@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-72a85c28bb3d7a04740dec688178ae4b1cb89d6001bcb398e7e7159a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-72a85c28bb3d7a04740dec688178ae4b1cb89d6001bcb398e7e7159a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "〜貫"
@@ -72,11 +80,12 @@
     "question": "マグロを二貫ください。",
     "answer": "Two pieces of tuna, please.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a4607ac0-f73e-4da5-8a46-9339f7e4c562",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

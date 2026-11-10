@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8d1f0b5ab10aaeca0715528d55dc9e5aff7059b6e50fd32528054be0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8d1f0b5ab10aaeca0715528d55dc9e5aff7059b6e50fd32528054be0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "日欧"
@@ -191,11 +199,12 @@
     "question": "日欧貿易に関する会議は、司会者の不在によって横道に逸れてしまった。",
     "answer": "The meeting concerning trade between Europe and Japan was sidetracked due to the moderator’s absence.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e11d518f-c017-4d42-ba24-f287cef1dd82",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

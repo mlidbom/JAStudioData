@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-15fa98618a44165d6616373256a2e1e28fd6c1134f613ab22a4e0c7b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-15fa98618a44165d6616373256a2e1e28fd6c1134f613ab22a4e0c7b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "名物"
@@ -93,11 +101,12 @@
     "question": "コウイチは、トーフグの名物社長です。",
     "answer": "Koichi is the famous president of Tofugu.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f30f09c2-7369-444a-bdc5-cc704479f4b1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

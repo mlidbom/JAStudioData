@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8d808ff228ede706f7b7a1f0249909002a3f014c223a9e60cf471b0c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8d808ff228ede706f7b7a1f0249909002a3f014c223a9e60cf471b0c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "商人"
@@ -86,11 +94,12 @@
     "question": "ここは昔、商人の家でした。",
     "answer": "This was a merchant's house a long time ago.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "577750de-2ac3-42e7-accb-5d9ab6532bd1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

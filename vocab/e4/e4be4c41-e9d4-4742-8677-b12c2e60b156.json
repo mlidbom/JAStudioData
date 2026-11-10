@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-cf49198db92abe495b92ec8e5d4fce20a4d61c9fafd3ccb52b63cb67.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-cf49198db92abe495b92ec8e5d4fce20a4d61c9fafd3ccb52b63cb67.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "優先をする",
@@ -40,8 +46,7 @@
   "sentenceCount": 4,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -65,7 +70,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "e4be4c41-e9d4-4742-8677-b12c2e60b156",
   "tags": [

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-edc9a229b943d41ef657f42f21cf287a5b44e1d1103b69d77118fe7f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-edc9a229b943d41ef657f42f21cf287a5b44e1d1103b69d77118fe7f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "海軍"
@@ -121,11 +129,12 @@
     "question": "僕のおじいちゃんは、海軍の軍人だったそうです。",
     "answer": "I heard that my grandfather was a sailor in the Navy.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "43e1fd25-518b-4306-8bd8-4a982cec84ba",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-01f627ca772f0be00e1bc0e77309b5ded5462be9cda4ad38143987be.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-01f627ca772f0be00e1bc0e77309b5ded5462be9cda4ad38143987be.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "夕べ"
@@ -58,11 +66,12 @@
     "question": "夕べ、月をみた。",
     "answer": "I saw the moon last night.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a30fcf80-ba86-49af-8e7f-d0a690e5d54d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

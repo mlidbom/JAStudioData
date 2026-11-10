@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ad33ef1f7b07276b3df1c7c8205bd9bd194dda6d38a1ae0872a7ad06.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ad33ef1f7b07276b3df1c7c8205bd9bd194dda6d38a1ae0872a7ad06.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "立入禁止"
@@ -191,11 +199,12 @@
     "question": "立入禁止って聞くと入りたくなっちゃうのが人間でしょ？",
     "answer": "When people hear that something is off-limits, they want to go in, don't they?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e905cdd0-ca8b-4bfa-9f96-a74a7984a087",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

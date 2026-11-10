@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a7734b11fc5a6ba85e8213afb0a9713561659a7a12f6f773f865857d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a7734b11fc5a6ba85e8213afb0a9713561659a7a12f6f773f865857d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "襲撃"
@@ -135,11 +143,12 @@
     "question": "警察の車は、暴走族に襲撃された。",
     "answer": "A police car was attacked by a motorcycle gang. ",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "04205ed1-0106-41e4-84a0-37e9a2b74308",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

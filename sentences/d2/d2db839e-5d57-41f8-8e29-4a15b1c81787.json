@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-62b2e1c2aa1f3b00b060825e6111550553b6b4ff60d7ab83aa45fa46.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-62b2e1c2aa1f3b00b060825e6111550553b6b4ff60d7ab83aa45fa46.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "編集"
@@ -191,11 +199,12 @@
     "question": "どうしてブログ記事を編集するのに一時間もかかったんですか。",
     "answer": "Why did it take you an hour to edit a blog article?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d2db839e-5d57-41f8-8e29-4a15b1c81787",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-258f2b4634ad4ad4bfa1e7f88937ee842491e78b6e957cb0639c59c8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-258f2b4634ad4ad4bfa1e7f88937ee842491e78b6e957cb0639c59c8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "村"
@@ -100,11 +108,12 @@
     "question": "あなたのお母さんはこの村で生まれたのよ。",
     "answer": "Your mother was born in this village.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3651a6c0-909e-4017-bc2d-41862591caba",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

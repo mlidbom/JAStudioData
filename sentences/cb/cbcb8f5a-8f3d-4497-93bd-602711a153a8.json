@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2381026a4e03145caad483745b91df4d7cf544ebf6bbe1c3fe641d1a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2381026a4e03145caad483745b91df4d7cf544ebf6bbe1c3fe641d1a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "出口"
@@ -72,11 +80,12 @@
     "question": "このトイレ、出口がないよ。",
     "answer": "This bathroom doesn't have an exit.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cbcb8f5a-8f3d-4497-93bd-602711a153a8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b3c59c3970881eaa408fbab703ed3d566e92d88f028dbd3e9d09551b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b3c59c3970881eaa408fbab703ed3d566e92d88f028dbd3e9d09551b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "月見"
@@ -79,11 +87,12 @@
     "question": "十月は、月見のシーズンですね。",
     "answer": "October is moon-viewing season.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d11f94da-38d3-4acb-b589-b8b9890c389e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

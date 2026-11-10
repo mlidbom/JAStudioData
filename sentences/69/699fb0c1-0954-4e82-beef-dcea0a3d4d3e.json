@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e84248d8cdd490037399515b51f5cfe533f86a4d2536bba86fa00d60.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e84248d8cdd490037399515b51f5cfe533f86a4d2536bba86fa00d60.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "労働"
@@ -135,11 +143,12 @@
     "question": "クライアントとのゴルフは休日労働じゃないんですか？",
     "answer": "Isn't golfing with clients considered holiday work?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "699fb0c1-0954-4e82-beef-dcea0a3d4d3e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

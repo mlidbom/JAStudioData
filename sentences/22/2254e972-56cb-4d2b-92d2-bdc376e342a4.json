@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3a1e5292986d9dfb5ca56c0701ef1d7ae5db1203add0b4f70a933a2a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3a1e5292986d9dfb5ca56c0701ef1d7ae5db1203add0b4f70a933a2a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "死刑囚"
@@ -170,11 +178,12 @@
     "question": "死刑囚はこの階段を登って死刑台へと向かうんだ。",
     "answer": "Condemned criminals climbed these stairs and faced the gallows.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2254e972-56cb-4d2b-92d2-bdc376e342a4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

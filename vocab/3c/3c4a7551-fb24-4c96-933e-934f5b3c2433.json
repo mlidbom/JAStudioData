@@ -20,15 +20,20 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "[sound:yomitan_audio_2025-05-08-21-31-18-280.mp3]",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-80d32e938bf0ac7cfad4e3a76d74a77c6a1e6fab80bb5ddf76a76cf7.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-80d32e938bf0ac7cfad4e3a76d74a77c6a1e6fab80bb5ddf76a76cf7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [],
   "sentenceCount": 2,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -52,7 +57,13 @@
   "sourceData": {
     "answer": "thought",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [
+      {
+        "fileName": "yomitan_audio_2025-05-08-21-31-18-280.mp3"
+      }
+    ],
+    "images": []
   },
   "id": "3c4a7551-fb24-4c96-933e-934f5b3c2433",
   "tags": [

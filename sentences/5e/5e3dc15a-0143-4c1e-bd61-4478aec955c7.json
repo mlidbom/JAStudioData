@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-15b56bb3db77a143c3604552c76b35e0ebaa7c03c0b8bd66a81e625d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-15b56bb3db77a143c3604552c76b35e0ebaa7c03c0b8bd66a81e625d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "才能"
@@ -142,11 +150,12 @@
     "question": "私には何の才能もありません。",
     "answer": "I don't have any talent at all.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5e3dc15a-0143-4c1e-bd61-4478aec955c7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

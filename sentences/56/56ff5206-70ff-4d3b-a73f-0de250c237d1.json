@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6e4575d4d47cb24a34d357dc25465b1a8f344319b87109f722ed72b7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6e4575d4d47cb24a34d357dc25465b1a8f344319b87109f722ed72b7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "温度"
@@ -100,11 +108,12 @@
     "question": "この水の温度は何度ですか。",
     "answer": "What's the temperature of the water?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "56ff5206-70ff-4d3b-a73f-0de250c237d1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

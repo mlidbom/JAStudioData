@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-46b19ec5f4e992e4662bd46585f3f641803d388a755fb36472d7118f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-46b19ec5f4e992e4662bd46585f3f641803d388a755fb36472d7118f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "仮定"
@@ -135,11 +143,12 @@
     "question": "それは、仮定ではなく、本当のことです。",
     "answer": "It is not a assumption, but the truth.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fe0ae7d1-cd2f-4fca-8e15-02ddf7b587a7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

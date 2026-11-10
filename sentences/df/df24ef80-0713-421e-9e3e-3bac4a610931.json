@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e460a8e4b4b559603d68d439b5a22e5f8a588e7545574ed7df81c027.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e460a8e4b4b559603d68d439b5a22e5f8a588e7545574ed7df81c027.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "名字"
@@ -51,11 +59,12 @@
     "question": "名字は「田中」です。",
     "answer": "My surname is \"Tanaka.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "df24ef80-0713-421e-9e3e-3bac4a610931",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

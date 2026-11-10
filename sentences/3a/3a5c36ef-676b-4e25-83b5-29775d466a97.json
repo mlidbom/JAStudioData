@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f19fb3381c8122e25c0b24cf3a6876caf7cce4448b7282d3762bdf86.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f19fb3381c8122e25c0b24cf3a6876caf7cce4448b7282d3762bdf86.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "この辺"
@@ -79,11 +87,12 @@
     "question": "この辺は、人が少ないです。",
     "answer": "There are not many people in this area.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3a5c36ef-676b-4e25-83b5-29775d466a97",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

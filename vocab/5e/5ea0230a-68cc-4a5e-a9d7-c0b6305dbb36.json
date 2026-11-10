@@ -29,9 +29,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": " [sound:ATTS やった (azure microsoft server speech text to speech voice (ja-jp daichineural)).mp3]",
-  "audioG": "",
-  "audioTTS": "",
+  "audio": [
+    {
+      "fileName": "ATTS やった (azure microsoft server speech text to speech voice (ja-jp daichineural)).mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "ヤッタ",
@@ -53,8 +59,7 @@
   "sentenceCount": 95,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -78,11 +83,12 @@
   "sourceData": {
     "answer": "hooray/yay/whee/yowzer/whoopee/yes\nwas/were",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "5ea0230a-68cc-4a5e-a9d7-c0b6305dbb36",
   "tags": [
-    "_tts_audio",
     "source::yomitan"
   ]
 }

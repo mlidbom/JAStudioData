@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1a4c5500cf7a51ee00630b0b0c8f373d84a9c68d8524834eceab2736.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1a4c5500cf7a51ee00630b0b0c8f373d84a9c68d8524834eceab2736.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "裏切り"
@@ -219,11 +227,12 @@
     "question": "友達と、マラソン大会で一しょにゴールしようねって言ってたのに、裏切られた。",
     "answer": "My friends and I said we would finish the marathon together, but they betrayed me.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0ecb7930-d8f0-4132-af0b-6d53fab1fa90",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

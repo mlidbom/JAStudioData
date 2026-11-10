@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7b55ab134966cdf4fc99f372e8e82e83604c303bdab8d42d9ef6f00a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7b55ab134966cdf4fc99f372e8e82e83604c303bdab8d42d9ef6f00a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "葬る"
@@ -268,11 +276,12 @@
     "question": "その事件の真相が闇に葬られるのではないかと心配しています。",
     "answer": "I’m worried that the truth of the incident might be buried. ",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9720afb8-ee44-437a-8740-f54b1135a241",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

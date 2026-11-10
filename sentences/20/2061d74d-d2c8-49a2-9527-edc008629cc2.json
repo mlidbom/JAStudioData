@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-43c50a215c4d86d8f0d670fe860c3d37a658229dbabf5e31417ecf71.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-43c50a215c4d86d8f0d670fe860c3d37a658229dbabf5e31417ecf71.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "賠償金"
@@ -142,11 +150,12 @@
     "question": "賠償金をお支払い頂く可能性があります。",
     "answer": "You may be expected to pay reparations.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2061d74d-d2c8-49a2-9527-edc008629cc2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

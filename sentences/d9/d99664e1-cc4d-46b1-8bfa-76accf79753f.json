@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-012c946368563c224e4e3afe82d3897bab3f05e1ef805d169df9381f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-012c946368563c224e4e3afe82d3897bab3f05e1ef805d169df9381f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "冷たい"
@@ -128,11 +136,12 @@
     "question": "早く飲まないと、スープが冷たくなっちゃうよ。",
     "answer": "You should eat the soup soon, or it will end up cold.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d99664e1-cc4d-46b1-8bfa-76accf79753f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

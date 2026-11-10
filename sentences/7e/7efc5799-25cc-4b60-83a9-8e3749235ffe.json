@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3c39b3a256d883af0a3c34d8e190ce433f560d412fb001d58a6fea96.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3c39b3a256d883af0a3c34d8e190ce433f560d412fb001d58a6fea96.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "肌触り"
@@ -86,11 +94,12 @@
     "question": "このタオルはとても柔らかくて心地よい肌触りです。",
     "answer": "This towel is very soft and pleasant to the touch.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7efc5799-25cc-4b60-83a9-8e3749235ffe",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

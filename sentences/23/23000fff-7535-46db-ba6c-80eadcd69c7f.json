@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a210fbd7d9c2112e1ead2d6f96fcdf0957a6351d3efdb90a83c869d0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a210fbd7d9c2112e1ead2d6f96fcdf0957a6351d3efdb90a83c869d0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "直接"
@@ -100,11 +108,12 @@
     "question": "直接会って、確かめてみるよ。",
     "answer": "I'll meet the person directly and see for myself.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "23000fff-7535-46db-ba6c-80eadcd69c7f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

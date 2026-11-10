@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-eb7d2cddef231255fe9ef80321d9a00ca191b81e8d52988b8c59bd58.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-eb7d2cddef231255fe9ef80321d9a00ca191b81e8d52988b8c59bd58.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "日の出"
@@ -44,11 +52,12 @@
     "question": "もうすぐ日の出だ！",
     "answer": "It's almost sunrise!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "76de25de-9cbd-4370-8a0b-229b47834acc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

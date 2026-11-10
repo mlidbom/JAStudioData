@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-432ede685a6bacb075e8496a1bc4f743b9c536f8190c2f47ca45ed76.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-432ede685a6bacb075e8496a1bc4f743b9c536f8190c2f47ca45ed76.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "た事が無い",
@@ -52,8 +58,7 @@
   "sentenceCount": 14,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -105,7 +110,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "7c64bd43-a18c-41c5-a4fb-98ee55526df1",
   "tags": [

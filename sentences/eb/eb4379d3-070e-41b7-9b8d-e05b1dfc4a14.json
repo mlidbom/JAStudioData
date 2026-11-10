@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5f598735861d01de8d76adc65c92fc28a85fc38dc8dfbac09e81a656.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5f598735861d01de8d76adc65c92fc28a85fc38dc8dfbac09e81a656.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "中々"
@@ -86,11 +94,12 @@
     "question": "このカレー、中々おいしいですね。",
     "answer": "This curry is delicious.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "eb4379d3-070e-41b7-9b8d-e05b1dfc4a14",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

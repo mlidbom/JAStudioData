@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c656fb0f32cc46e4957099c86cd3460e6cabc2393349aac04b2579e4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c656fb0f32cc46e4957099c86cd3460e6cabc2393349aac04b2579e4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "空"
@@ -142,11 +150,12 @@
     "question": "雨のせいで、空には月が見えません。",
     "answer": "You can't see the moon in the sky because of the rain.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e604b93b-3807-483f-9ebb-c93279cb3332",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

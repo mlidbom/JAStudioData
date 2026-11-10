@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-320a17338186aed4474157c79d9d3b1c1346e29ad08dc01010c6fb69.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-320a17338186aed4474157c79d9d3b1c1346e29ad08dc01010c6fb69.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "楽しむ"
@@ -114,11 +122,12 @@
     "question": "夏はかき氷を食べたり花火を楽しむシーズンです。",
     "answer": "Summer is the season to eat shaved ice and enjoy fireworks.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d770c019-9b33-4f88-a441-fe610006e25a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

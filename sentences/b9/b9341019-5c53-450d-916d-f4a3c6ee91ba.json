@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d658147e0168c4cd4de4d51980a86bad5dbb9a5e8fc92b0257b38c05.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d658147e0168c4cd4de4d51980a86bad5dbb9a5e8fc92b0257b38c05.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "電力"
@@ -121,11 +129,12 @@
     "question": "この辺の電力会社と言えば、東京電力ですよ。",
     "answer": "As for the electricity company around here, it’s the Tokyo Electric Power Company.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b9341019-5c53-450d-916d-f4a3c6ee91ba",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f65e8997ea6e749fab59df36beed65606422620b5786730fe75ec3ad.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f65e8997ea6e749fab59df36beed65606422620b5786730fe75ec3ad.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "写す"
@@ -163,11 +171,12 @@
     "question": "カメラは平気ですが、他の人は写さないで下さいね。",
     "answer": "Cameras are fine, but please do not take photographs of others.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "721e1844-b312-4ad6-a1da-e2dab5549050",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

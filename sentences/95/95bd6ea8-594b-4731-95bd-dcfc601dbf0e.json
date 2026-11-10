@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9e26303a555afd6272bd2b2559108b2f92d3b233a9cf36ea6c6e43c5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9e26303a555afd6272bd2b2559108b2f92d3b233a9cf36ea6c6e43c5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "交代"
@@ -142,11 +150,12 @@
     "question": "そろそろ交代してもらえませんか？",
     "answer": "Could you switch in for me soon?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "95bd6ea8-594b-4731-95bd-dcfc601dbf0e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

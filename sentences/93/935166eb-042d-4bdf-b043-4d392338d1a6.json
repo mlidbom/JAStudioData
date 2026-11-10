@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-354fcd0e33689e4da7d2f6428014f1b1e6e8c5344011fd7f916f0230.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-354fcd0e33689e4da7d2f6428014f1b1e6e8c5344011fd7f916f0230.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "直行"
@@ -86,11 +94,12 @@
     "question": "これは、ニューヨーク直行のフライトですよ。",
     "answer": "This is a direct flight to New York.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "935166eb-042d-4bdf-b043-4d392338d1a6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

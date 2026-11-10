@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-83a4c43b71158f8339f500ee7f62137be428f57165e909fc3887e21c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-83a4c43b71158f8339f500ee7f62137be428f57165e909fc3887e21c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "指示"
@@ -156,11 +164,12 @@
     "question": "お金を使い切るよう、コウイチに指示されたんだ。",
     "answer": "I was directed by Koichi to spend all the money.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4ea9f6c4-e755-43dc-ac23-31e5eb326e48",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

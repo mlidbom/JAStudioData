@@ -26,9 +26,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-5a284e3020533430719d6174eb3564529682657209219447cdddaf47.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-5a284e3020533430719d6174eb3564529682657209219447cdddaf47.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "とおもわれます",
@@ -38,8 +44,7 @@
   "sentenceCount": 8,
   "technicalNotes": "Needed because the ます form actually has a different meaning than the plain form",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -63,7 +68,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "310e5e9d-5753-4136-9b46-85c9ffd1397a",
   "tags": [

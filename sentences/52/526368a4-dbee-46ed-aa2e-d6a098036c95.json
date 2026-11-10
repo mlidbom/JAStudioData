@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-90b74c3a69b2023c08d2b89e4131b60945b7ca03a62b80589ca3b4b6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-90b74c3a69b2023c08d2b89e4131b60945b7ca03a62b80589ca3b4b6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "由来"
@@ -135,11 +143,12 @@
     "question": "この場所の名前の由来を知っていますか？",
     "answer": "Do you know the origin of the name of this place?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "526368a4-dbee-46ed-aa2e-d6a098036c95",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

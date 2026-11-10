@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-18f13a70747a2c89ac1eefdc28f9b19c9ac4abdc028645814b9271a2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-18f13a70747a2c89ac1eefdc28f9b19c9ac4abdc028645814b9271a2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "中学校"
@@ -170,11 +178,12 @@
     "question": "中学校の時の先生のおかげで、空手をはじめたんです。",
     "answer": "Thanks to my junior high school teacher, I started karate.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "056f847b-90cb-4a33-9af2-6b535cc97ca6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

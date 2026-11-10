@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2f1fae8c00d65eb3c628a6c1e0e8e2ec0011eae575ebd1699cb3a273.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2f1fae8c00d65eb3c628a6c1e0e8e2ec0011eae575ebd1699cb3a273.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "内容"
@@ -310,11 +318,12 @@
     "question": "私は人の話を聞きながら内容を頭の中でまとめるのが苦手なので、ミーティングではあまり発言できません。",
     "answer": "Because I'm not good at summarizing information in my head while listening to others, I don't speak up much during meetings.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3a6c8d45-b2dd-4d9d-8456-8d4fb5b8e30c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

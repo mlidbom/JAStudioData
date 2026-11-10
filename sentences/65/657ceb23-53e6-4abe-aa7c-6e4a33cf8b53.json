@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4d89400edeec35328cc147b88468001493be7e428ca91ace5c289a1f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4d89400edeec35328cc147b88468001493be7e428ca91ace5c289a1f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "食料品"
@@ -107,11 +115,12 @@
     "question": "食料品売場はどこにありますか。",
     "answer": "Could you tell me where the grocery section is?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "657ceb23-53e6-4abe-aa7c-6e4a33cf8b53",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-cb43447cdf822f93eee200adc8ce0e2d306ed53b411939a00d7842f3.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-cb43447cdf822f93eee200adc8ce0e2d306ed53b411939a00d7842f3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "保管をする",
@@ -40,8 +46,7 @@
   "sentenceCount": 5,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -65,7 +70,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "aa901817-ebaf-4958-a06b-6dd5be10c68f",
   "tags": [

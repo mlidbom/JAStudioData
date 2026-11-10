@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e146eaf8e028e3b823bd205d615bc0b025a2cf582bd5504f2480063e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e146eaf8e028e3b823bd205d615bc0b025a2cf582bd5504f2480063e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お疲れ様"
@@ -310,11 +318,12 @@
     "question": "私の妻は私の背広をハンガーに掛ける時に、「今日も一日お仕事お疲れ様でした」といつも言ってくれるんです。",
     "answer": "When my wife puts my jacket on the hanger she always says, \"Thank you for working hard again today.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "02c6eded-b3a2-431c-931b-2febfe4fedfa",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

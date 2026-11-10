@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a75cbe205e62419376da65ddfa865f4a9f0230a486fac5d97bafca7e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a75cbe205e62419376da65ddfa865f4a9f0230a486fac5d97bafca7e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "煮物"
@@ -100,11 +108,12 @@
     "question": "彼女は小食ですが、煮物ならモリモリ食べます。",
     "answer": "She is a light eater but when it comes to stewed foods she eats with gusto.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "30fe1771-3107-4cf7-8d22-48eb28144e4b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-148fcedde638aa8a27d1eaa11d10b3dec2c51cc740a9d593e780c29d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-148fcedde638aa8a27d1eaa11d10b3dec2c51cc740a9d593e780c29d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "糸"
@@ -128,11 +136,12 @@
     "question": "この糸を二十センチに切って下さい。",
     "answer": "Please cut this thread to 20 cm.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bd4aded0-bba0-430d-8253-e5e0bc48120a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

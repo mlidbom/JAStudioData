@@ -28,15 +28,20 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": " [sound:ATTS 嫌になる (azure microsoft server speech text to speech voice (ja-jp daichineural)).mp3]",
-  "audioG": "",
-  "audioTTS": "",
+  "audio": [
+    {
+      "fileName": "ATTS 嫌になる (azure microsoft server speech text to speech voice (ja-jp daichineural)).mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [],
   "sentenceCount": 1,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -70,11 +75,12 @@
   "sourceData": {
     "answer": "to{?}{get-fed-up-with/get-sick-of/become-disgusted-with}",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "1b2f5ed1-912b-4496-bb2e-d043424a8700",
   "tags": [
-    "_tts_audio",
     "source::yomitan"
   ]
 }

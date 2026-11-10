@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e561b64140086d8e1831dbf1ffc4ab3d2b0a7b671be631486cf949a8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e561b64140086d8e1831dbf1ffc4ab3d2b0a7b671be631486cf949a8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お客さん"
@@ -191,11 +199,12 @@
     "question": "お客さんが入ってくると、このベルの音がします。",
     "answer": "When a customer comes in, you'll hear the sound of this bell.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3fe48fa4-aa62-4fcc-a25c-e214b6bc1f2c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

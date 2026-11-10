@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c52db172785abf60ad87ad81498c680ef5c3e570f90facfe05d7d18f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c52db172785abf60ad87ad81498c680ef5c3e570f90facfe05d7d18f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "〜円"
@@ -163,11 +171,12 @@
     "question": "このレートだと、五ドルは８００円くらいですね。",
     "answer": "At this rate, five dollars is about 800 yen.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "676e671a-e971-46f2-a7e1-5a511e5950ca",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

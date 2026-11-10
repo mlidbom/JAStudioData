@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6cf756f925bc1d2c5bb661cb599301968a59b1e67c46307299ed2f59.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6cf756f925bc1d2c5bb661cb599301968a59b1e67c46307299ed2f59.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "期限"
@@ -247,11 +255,12 @@
     "question": "期限を設けて仕事をしないと、いつまでたっても終わらないと思うんです。",
     "answer": "If we don't set a deadline for our work, I don't think it will ever get done.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "58445255-c637-43c8-ba6f-d4c5b6e987fa",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

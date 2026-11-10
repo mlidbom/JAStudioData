@@ -19,9 +19,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": " [sound:ATTS 関係ない (azure microsoft server speech text to speech voice (ja-jp daichineural)).mp3]",
-  "audioG": "",
-  "audioTTS": "",
+  "audio": [
+    {
+      "fileName": "ATTS 関係ない (azure microsoft server speech text to speech voice (ja-jp daichineural)).mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "関係無い",
@@ -35,8 +41,7 @@
   "sentenceCount": 20,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -65,11 +70,12 @@
   "sourceData": {
     "answer": "unrelated/irrelevant/unconcerned/unconnected",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "e5936438-230d-4807-befc-39578e944c12",
   "tags": [
-    "_tts_audio",
     "source::yomitan"
   ]
 }

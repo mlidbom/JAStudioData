@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ca6dc34eb6d404b380a1a68de3fa46097ae8d48976f4db1216c8358b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ca6dc34eb6d404b380a1a68de3fa46097ae8d48976f4db1216c8358b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "硬い"
@@ -149,11 +157,12 @@
     "question": "新人モデルは、緊張で表情が少し硬くなっていた。",
     "answer": "The new model's expression was a little stiff with nervousness.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "46e8ee2e-21c3-4976-b47a-2f6984629ad1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

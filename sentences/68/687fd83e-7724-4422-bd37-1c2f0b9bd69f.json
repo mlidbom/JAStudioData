@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0d8f9c0a36eb7b19c7c528b7f7e6a42de68fce4dd33cc38c44211040.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0d8f9c0a36eb7b19c7c528b7f7e6a42de68fce4dd33cc38c44211040.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "州"
@@ -128,11 +136,12 @@
     "question": "カナダにある十の州、全て言えますか？",
     "answer": "Can you name all ten provinces in Canada?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "687fd83e-7724-4422-bd37-1c2f0b9bd69f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

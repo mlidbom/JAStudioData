@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e446eb2fadffb79d68f3a21259bb164fa59c8127d3a9c9e146f1b85d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e446eb2fadffb79d68f3a21259bb164fa59c8127d3a9c9e146f1b85d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "雰囲気"
@@ -93,11 +101,12 @@
     "question": "このカフェ、いい感じの雰囲気だね。",
     "answer": "This café has a nice atmosphere, doesn't it?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e2b57e0f-67fd-47a0-9add-e758948637ce",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

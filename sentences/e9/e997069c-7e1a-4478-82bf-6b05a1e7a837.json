@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-03c2932a352586d140b8d9ab2056a0850e64321a1e00dbc5ab0dfb51.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-03c2932a352586d140b8d9ab2056a0850e64321a1e00dbc5ab0dfb51.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "生物"
@@ -163,11 +171,12 @@
     "question": "前回の生物のクラスのノート、見せてくれないかな。",
     "answer": "I'm wondering if you can show me your notes from the last biology class.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e997069c-7e1a-4478-82bf-6b05a1e7a837",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

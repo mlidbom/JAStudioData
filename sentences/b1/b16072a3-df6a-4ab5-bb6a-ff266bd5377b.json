@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3ec10c7e933ad5ef1cbe72be7ecced140f209b6f665472f9218293dd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3ec10c7e933ad5ef1cbe72be7ecced140f209b6f665472f9218293dd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "中毒"
@@ -149,11 +157,12 @@
     "question": "彼は食物中毒により入院することになりました。",
     "answer": "He ended up hospitalized due to food poisoning.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b16072a3-df6a-4ab5-bb6a-ff266bd5377b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

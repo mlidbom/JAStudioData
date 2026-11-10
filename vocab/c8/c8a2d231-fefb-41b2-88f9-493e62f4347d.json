@@ -20,15 +20,20 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "[sound:〜歳_b.mp3][sound:hypertts-50e90fb83a538ed1f2c65719d7f5639b22baa7c755cfd6f2b0f21285.mp3]",
-  "audioG": "[sound:〜歳_g.mp3][sound:hypertts-50e90fb83a538ed1f2c65719d7f5639b22baa7c755cfd6f2b0f21285.mp3]",
-  "audioTTS": "",
+  "audio": [
+    {
+      "fileName": "hypertts-50e90fb83a538ed1f2c65719d7f5639b22baa7c755cfd6f2b0f21285.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [],
   "sentenceCount": 32,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -52,7 +57,18 @@
   "sourceData": {
     "answer": "<read>さい</read>:: -years-old\n<read>とし</read>:<tag><ja>年</ja></tag>:: year | age/years | past-one's-prime/old-age",
     "mnemonic": "The kanji and the word are exactly the same. That means they share meanings as well. This is put on the end of numbers to show how old someone is.",
-    "readingMnemonic": "The reading is the same as the one you learned with the kanji."
+    "readingMnemonic": "The reading is the same as the one you learned with the kanji.",
+    "audio": [
+      {
+        "fileName": "〜歳_b.mp3",
+        "voiceGender": "male"
+      },
+      {
+        "fileName": "〜歳_g.mp3",
+        "voiceGender": "female"
+      }
+    ],
+    "images": []
   },
   "id": "c8a2d231-fefb-41b2-88f9-493e62f4347d",
   "tags": [

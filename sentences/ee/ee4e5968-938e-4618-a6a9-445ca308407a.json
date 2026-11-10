@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-51e3f37462b0b085dd75b14e709a56f70b22608ee1acf26ce66a6699.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-51e3f37462b0b085dd75b14e709a56f70b22608ee1acf26ce66a6699.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "人格"
@@ -65,11 +73,12 @@
     "question": "ビエトの人格を疑います！",
     "answer": "I question Viet's character!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ee4e5968-938e-4618-a6a9-445ca308407a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

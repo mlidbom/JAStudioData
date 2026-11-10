@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-90d195a7cfcb6de1adca2db753deb554c365bd6959a3f58a129d9a69.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-90d195a7cfcb6de1adca2db753deb554c365bd6959a3f58a129d9a69.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "政党"
@@ -128,11 +136,12 @@
     "question": "日本での政党の成立要件を教えてください。",
     "answer": "Could you tell me what the requirements are for establishing a political party in Japan?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2a361207-6614-4e10-b11d-3c75a1a452d5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

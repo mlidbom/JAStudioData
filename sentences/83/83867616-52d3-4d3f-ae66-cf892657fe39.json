@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-90fde23239be055a6ba540a12e87b659c61c1a10793b0322e18aecc7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-90fde23239be055a6ba540a12e87b659c61c1a10793b0322e18aecc7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -105,11 +113,12 @@
     "question": "十円玉コインの表はどちらですか？",
     "answer": "Which side of a ten yen coin is the front?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "83867616-52d3-4d3f-ae66-cf892657fe39",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

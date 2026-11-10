@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b42e7bc69f3da7ce562e9049b648e40c734e80e9f1d3e7bbc26de93b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b42e7bc69f3da7ce562e9049b648e40c734e80e9f1d3e7bbc26de93b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "咲く"
@@ -233,11 +241,12 @@
     "question": "この桃の木は、今までに一度も花が咲いた事がないんですよ。",
     "answer": "This peach tree has never bloomed before.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "63f7845f-aa64-4ce5-b275-f7df526df0c1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

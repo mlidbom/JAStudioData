@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-65e99fd2701a4a895e607dde4d721e490ff325cb01b8cca3a1d1ac63.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-65e99fd2701a4a895e607dde4d721e490ff325cb01b8cca3a1d1ac63.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "絶望うする",
@@ -48,8 +54,7 @@
   "sentenceCount": 0,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -78,7 +83,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "503d9c32-8229-4482-a803-27cc3f1d6a3e",
   "tags": [

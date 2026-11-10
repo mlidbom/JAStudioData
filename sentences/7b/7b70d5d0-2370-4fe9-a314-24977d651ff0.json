@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4cf3b926d067577f5bec161a98b198b29f7c642c862813ba9c0a56a8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4cf3b926d067577f5bec161a98b198b29f7c642c862813ba9c0a56a8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "苗木"
@@ -114,11 +122,12 @@
     "question": "この盆栽は苗木から育てたんです。",
     "answer": "I raised this bonsai from a seedling.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7b70d5d0-2370-4fe9-a314-24977d651ff0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

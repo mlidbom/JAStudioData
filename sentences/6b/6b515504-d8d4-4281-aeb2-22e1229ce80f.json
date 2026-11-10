@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-08acc3da57eaf1a5d04b78497b923b99362e47a675a50175bd9ad80b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-08acc3da57eaf1a5d04b78497b923b99362e47a675a50175bd9ad80b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "所載"
@@ -79,11 +87,12 @@
     "question": "その記事なら五月号所載ですよ。",
     "answer": "If you are looking for that article, it is printed in the May issue.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6b515504-d8d4-4281-aeb2-22e1229ce80f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

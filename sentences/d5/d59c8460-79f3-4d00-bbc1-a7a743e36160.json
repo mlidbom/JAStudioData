@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b08c3e3c4b641b28135468a8160230f04505db2545e8d03997b10143.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b08c3e3c4b641b28135468a8160230f04505db2545e8d03997b10143.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "迷惑"
@@ -177,11 +185,12 @@
     "question": "最近、迷惑メールがたくさん送られて来るようになった。",
     "answer": "Lately, I have been getting a lot of junk mail.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d59c8460-79f3-4d00-bbc1-a7a743e36160",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

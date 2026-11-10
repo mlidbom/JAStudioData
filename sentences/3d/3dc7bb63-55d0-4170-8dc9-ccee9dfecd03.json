@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-53e005ffabdf7dca89f9dbb4fbbe508fbd1200c5a9621a34161c5f04.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-53e005ffabdf7dca89f9dbb4fbbe508fbd1200c5a9621a34161c5f04.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "注文"
@@ -86,11 +94,12 @@
     "question": "このドレス、ネットで注文できるよ。",
     "answer": "You can order this dress online.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3dc7bb63-55d0-4170-8dc9-ccee9dfecd03",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

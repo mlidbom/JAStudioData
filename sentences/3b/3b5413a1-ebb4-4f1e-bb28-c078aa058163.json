@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-24b4e4602ebca9d932479d0dff2c5e83246214211d2d5a027cc661fc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-24b4e4602ebca9d932479d0dff2c5e83246214211d2d5a027cc661fc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "言い訳"
@@ -205,11 +213,12 @@
     "question": "分かってもらえることを願って、言い訳を書いたEメールを送りました。",
     "answer": "I sent her an explanation email and I hope she can understand.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3b5413a1-ebb4-4f1e-bb28-c078aa058163",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

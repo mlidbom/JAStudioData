@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0bd8fc82b9e8862b7fcb1b3973e05198cf02a45cd91f53186cac24f1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0bd8fc82b9e8862b7fcb1b3973e05198cf02a45cd91f53186cac24f1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "煩雑"
@@ -93,11 +101,12 @@
     "question": "煩雑な手続きに苛々します。",
     "answer": "I’m irritated by complex formalities.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "73a43d9b-3417-43ac-b039-bb973675dad0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

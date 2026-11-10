@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c509d72e65116a3ae291d5e4eac2fcff27ff92b64ec94603fe90b8c5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c509d72e65116a3ae291d5e4eac2fcff27ff92b64ec94603fe90b8c5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "病人"
@@ -93,11 +101,12 @@
     "question": "お母さん、病人にそんな重い物持たさないでよ！",
     "answer": "Mom, don't let a sick person carry such heavy stuff!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "97e0cbdc-efe8-49ce-a8ec-fc776e262312",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

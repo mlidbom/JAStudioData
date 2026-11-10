@@ -30,9 +30,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "[sound:hypertts-37ddaa056e61764af69363178a11a0433a08f420eea1571eeaece24b.mp3]",
-  "audioG": "",
-  "audioTTS": "",
+  "audio": [
+    {
+      "fileName": "hypertts-37ddaa056e61764af69363178a11a0433a08f420eea1571eeaece24b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "この位",
@@ -50,8 +56,7 @@
   "sentenceCount": 3,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -75,7 +80,9 @@
   "sourceData": {
     "answer": "to-this-extent\n<read>このくらい</read>|<read>このぐらい</read>:<tag><ja>この位</ja></tag>:: this-much/this-amount",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "62f6ef19-5107-42c3-8f54-c2975030bac9",
   "tags": [

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1be696631a31d45e1bb3f86b6e1770636f52bf1d76b49289829a2e48.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1be696631a31d45e1bb3f86b6e1770636f52bf1d76b49289829a2e48.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "扶養"
@@ -128,11 +136,12 @@
     "question": "扶養の範囲内で働かせてください。",
     "answer": "Please let me work in support.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6f3d7589-280e-489c-9473-f17be6ac14d2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

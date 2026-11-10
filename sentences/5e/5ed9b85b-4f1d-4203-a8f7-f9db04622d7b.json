@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f8ef627f41bb6ed932023c4877066c23b9c8245826f344ce1b58a066.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f8ef627f41bb6ed932023c4877066c23b9c8245826f344ce1b58a066.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "書き直す"
@@ -149,11 +157,12 @@
     "question": "この部分を少し書き直してもらえませんか？",
     "answer": "Could you rewrite this part a bit?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5ed9b85b-4f1d-4203-a8f7-f9db04622d7b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

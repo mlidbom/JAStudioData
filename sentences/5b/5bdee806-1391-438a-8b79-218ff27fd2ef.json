@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-39f784a30abbddc2e27d5aba23c81d810b9ea45d780068a2bffacd60.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-39f784a30abbddc2e27d5aba23c81d810b9ea45d780068a2bffacd60.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "賞与金"
@@ -219,11 +227,12 @@
     "question": "こんなに賞与金を出してくれるなんて、お前の会社は気前が良いんだなぁ。",
     "answer": "You got this much bonus? Your company is generous, yeah?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5bdee806-1391-438a-8b79-218ff27fd2ef",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-135bfb682b9d4cd5802ffeb6dd09ee769a9184bcbb65659f8ce2ccc6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-135bfb682b9d4cd5802ffeb6dd09ee769a9184bcbb65659f8ce2ccc6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "賞金"
@@ -100,11 +108,12 @@
     "question": "コンテストの賞金は、いつもらえますか？",
     "answer": "When will I receive my prize money from the contest?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0046d9a8-2cfe-4f0b-9a67-e486c250f9b6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

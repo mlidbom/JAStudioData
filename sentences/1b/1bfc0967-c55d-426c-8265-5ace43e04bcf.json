@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2ff68b2f619ed364e1628b1afb7263923418a8a2dddc4c8266f93671.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2ff68b2f619ed364e1628b1afb7263923418a8a2dddc4c8266f93671.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "何度"
@@ -163,11 +171,12 @@
     "question": "同じレストランで同じものをオーダーしたことが何度もあります。",
     "answer": "I have ordered the same thing at the same restaurant many times.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1bfc0967-c55d-426c-8265-5ace43e04bcf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

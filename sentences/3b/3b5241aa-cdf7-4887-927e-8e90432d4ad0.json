@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e6fa9eefe6606eb328da88956ca2f3f3bd44a3d9bba5aed495f21527.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e6fa9eefe6606eb328da88956ca2f3f3bd44a3d9bba5aed495f21527.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "三つ"
@@ -128,11 +136,12 @@
     "question": "チーズバーガーを三つオーダーしたけど、一人で三つたべます。",
     "answer": "I ordered three cheeseburgers, and I will eat all three of them by myself.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3b5241aa-cdf7-4887-927e-8e90432d4ad0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

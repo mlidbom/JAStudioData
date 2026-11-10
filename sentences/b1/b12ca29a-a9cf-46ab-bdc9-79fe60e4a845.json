@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e4ccb3d2d77878baf29cedfe8e9f374d5de952d8098ebddf38cee4cf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e4ccb3d2d77878baf29cedfe8e9f374d5de952d8098ebddf38cee4cf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "食器"
@@ -72,11 +80,12 @@
     "question": "どうして、食器が１セット多いの？",
     "answer": "How come we have an extra set of tableware?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b12ca29a-a9cf-46ab-bdc9-79fe60e4a845",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

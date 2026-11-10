@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2f55a6780bee4e15633d9b4a09e3f84dd774a02d2427018b478b9fed.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2f55a6780bee4e15633d9b4a09e3f84dd774a02d2427018b478b9fed.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "肉屋"
@@ -142,11 +150,12 @@
     "question": "日本の肉屋さんでは、コロッケやカツなどが売ってますよ。",
     "answer": "Japanese butchers sell croquettes and cutlets.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c895cbdb-73a3-4796-ac3f-11c85bfbc3d2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

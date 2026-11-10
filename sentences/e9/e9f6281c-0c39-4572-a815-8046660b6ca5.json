@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-72fe4b4a428727b4082c5196114c3507e7fd4ff37faf25678c7fe328.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-72fe4b4a428727b4082c5196114c3507e7fd4ff37faf25678c7fe328.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "〜度"
@@ -163,11 +171,12 @@
     "question": "東京の夏は、三十度以上になる日が多いです。",
     "answer": "In Tokyo in summer, there are many days where it gets above thirty degrees.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e9f6281c-0c39-4572-a815-8046660b6ca5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

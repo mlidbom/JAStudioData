@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6e88ae4c13994b97f766ae4f551c43a6b0073f18b352252ab2c4ec32.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6e88ae4c13994b97f766ae4f551c43a6b0073f18b352252ab2c4ec32.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "残額"
@@ -72,11 +80,12 @@
     "question": "残額は全て寄付します。",
     "answer": "I will donate all the remaining amount.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a15e3ee6-bc3e-4abd-a15d-5000813ab0c1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

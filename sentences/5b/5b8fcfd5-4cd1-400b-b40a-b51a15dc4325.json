@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-19d54b234446b692307097b994733b5f4fdbcab6d05ff434d704ac6e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-19d54b234446b692307097b994733b5f4fdbcab6d05ff434d704ac6e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "生",
@@ -59,11 +67,12 @@
     "question": "生ビール、一つ下さい。",
     "answer": "One draft beer, please.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5b8fcfd5-4cd1-400b-b40a-b51a15dc4325",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

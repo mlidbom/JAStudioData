@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-57f9d96ba1270ce9305620add3b216115068c0b6f334cab523c49a1b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-57f9d96ba1270ce9305620add3b216115068c0b6f334cab523c49a1b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "領収書"
@@ -170,11 +178,12 @@
     "question": "すいません、これを返品したいんですけど、できますか？これが領収書です。",
     "answer": "I’d like to return this, is that okay? Here’s the receipt.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "90b5d8ea-f721-4542-95b3-f9e9e8fad873",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

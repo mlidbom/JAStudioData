@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-132e68af2fa76095a61dd6950d837ca08f93f4c4ed2f491973fe96b7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-132e68af2fa76095a61dd6950d837ca08f93f4c4ed2f491973fe96b7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "全く"
@@ -121,11 +129,12 @@
     "question": "全力でレバーを引いたが、水は全く出なかった。",
     "answer": "I pulled the lever with all my strength, but there was no water coming out.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b570ce9b-f873-4210-bd08-f1198d081ee9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

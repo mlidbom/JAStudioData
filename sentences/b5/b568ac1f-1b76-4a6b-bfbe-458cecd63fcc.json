@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d9853a06cbd4d5ad6e6d034b05950197cd122ef0b33c5d3fd56360e2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d9853a06cbd4d5ad6e6d034b05950197cd122ef0b33c5d3fd56360e2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "教訓"
@@ -107,11 +115,12 @@
     "question": "この教訓をムダにはしません。",
     "answer": "I will not let this lesson be wasted.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b568ac1f-1b76-4a6b-bfbe-458cecd63fcc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

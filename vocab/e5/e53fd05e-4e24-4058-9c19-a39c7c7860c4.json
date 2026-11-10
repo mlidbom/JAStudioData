@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-98049711afab12cbad7116dad4b084c739f6fbc778f4648a915ce0da.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-98049711afab12cbad7116dad4b084c739f6fbc778f4648a915ce0da.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "でみる",
@@ -40,8 +46,7 @@
   "sentenceCount": 16,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {
       "teFormStemStart": "required"
@@ -81,7 +86,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "e53fd05e-4e24-4058-9c19-a39c7c7860c4",
   "tags": [

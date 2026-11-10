@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5d5360d9adaa7f6fb386d96be25ee3795f22d5d5f7878d32f2371684.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5d5360d9adaa7f6fb386d96be25ee3795f22d5d5f7878d32f2371684.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "脱税"
@@ -121,11 +129,12 @@
     "question": "脱税するつもりはなかったんです。",
     "answer": "I didn't intend to evade taxes.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2cf34533-885d-451d-bf46-074bcbffcabc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

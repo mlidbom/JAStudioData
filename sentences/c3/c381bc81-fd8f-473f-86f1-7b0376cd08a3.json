@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4741cae6407b2287b26703689e578c70f21e453fbdfc2b63eea0adba.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4741cae6407b2287b26703689e578c70f21e453fbdfc2b63eea0adba.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "迷い"
@@ -72,11 +80,12 @@
     "question": "なんとか迷いを断ち切りました。",
     "answer": "I managed to get rid of my hesitation.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c381bc81-fd8f-473f-86f1-7b0376cd08a3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

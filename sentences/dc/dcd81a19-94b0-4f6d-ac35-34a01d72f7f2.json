@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d68034d3f6a9030679553fe6f60be6982226e81784285e6f09e51599.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d68034d3f6a9030679553fe6f60be6982226e81784285e6f09e51599.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "錠"
@@ -135,11 +143,12 @@
     "question": "この薬を必ず一日一錠飲んで下さい。",
     "answer": "Please take one tablet of this medicine once every day.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dcd81a19-94b0-4f6d-ac35-34a01d72f7f2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

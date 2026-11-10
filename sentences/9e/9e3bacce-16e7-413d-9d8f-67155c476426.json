@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ecea13e68736a00434bd947176d27e78e7386b4f1b25a38c05ccf4da.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ecea13e68736a00434bd947176d27e78e7386b4f1b25a38c05ccf4da.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "思い出す"
@@ -135,11 +143,12 @@
     "question": "たまにプロポーズされた日のことを思い出す。",
     "answer": "I sometimes remember the day when I was proposed to.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9e3bacce-16e7-413d-9d8f-67155c476426",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

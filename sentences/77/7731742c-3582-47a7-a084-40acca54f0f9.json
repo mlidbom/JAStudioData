@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9f2aa2c51259471d8426c394ea2f3e641db71634fdf02db7fffdf819.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9f2aa2c51259471d8426c394ea2f3e641db71634fdf02db7fffdf819.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "狙い"
@@ -93,11 +101,12 @@
     "question": "この教科書の狙いは上述の通りです。",
     "answer": "The aim of this textbook is as mentioned above.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7731742c-3582-47a7-a084-40acca54f0f9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

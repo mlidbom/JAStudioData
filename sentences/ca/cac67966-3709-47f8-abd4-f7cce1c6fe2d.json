@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-50efe596f1e42083b002b040dd2842718f861f8aafc4528c3d4c9151.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-50efe596f1e42083b002b040dd2842718f861f8aafc4528c3d4c9151.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "見分ける"
@@ -121,11 +129,12 @@
     "question": "ダイヤモンドと石ころを見分けることは出来ますか？",
     "answer": "Are you able to distinguish between diamonds and stones?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cac67966-3709-47f8-abd4-f7cce1c6fe2d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

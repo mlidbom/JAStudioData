@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-41121c32f11ca948f87eaa8e4dcbc23e14cf117b21ed5af61aec2b51.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-41121c32f11ca948f87eaa8e4dcbc23e14cf117b21ed5af61aec2b51.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "設定する"
@@ -268,11 +276,12 @@
     "question": "今日中に全てのアカウントの二段階認証を設定しないと、会社を首になるんです。",
     "answer": "I have to set up two-factor authentications with all the accounts I have by the end of day or I'll get fired.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "522977bb-f8f9-4c82-b645-9eb6b11e9d3e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

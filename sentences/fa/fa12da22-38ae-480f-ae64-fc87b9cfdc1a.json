@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4340a4d5cc884a1b71a42c3cc10a45dc0dc6231ad305b511dc251290.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4340a4d5cc884a1b71a42c3cc10a45dc0dc6231ad305b511dc251290.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "苦労"
@@ -149,11 +157,12 @@
     "question": "ワニカニに出会うまでは、おれの人生は苦労ばかりだった。",
     "answer": "My life was full of hardships until I came across WaniKani.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fa12da22-38ae-480f-ae64-fc87b9cfdc1a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

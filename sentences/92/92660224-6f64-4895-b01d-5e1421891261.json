@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-108ef13880a09604d48e4e2cf701f043c5a8c92fdd02917f58c2209f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-108ef13880a09604d48e4e2cf701f043c5a8c92fdd02917f58c2209f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "〜ヶ月"
@@ -135,11 +143,12 @@
     "question": "日本の学校の夏休みは一ヶ月しかありません。",
     "answer": "Japanese schools only have one month of summer vacation.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "92660224-6f64-4895-b01d-5e1421891261",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

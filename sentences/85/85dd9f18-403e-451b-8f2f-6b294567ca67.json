@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ef72b9a0b3afbd494eca608a049142f0b133ce2338347b5b236f46fb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ef72b9a0b3afbd494eca608a049142f0b133ce2338347b5b236f46fb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "塁打"
@@ -184,11 +192,12 @@
     "question": "彼が塁打を打つのは久しぶりだね。いつもはホームランだからな。",
     "answer": "It’s been a long time since he made a base hit. He always hits homeruns.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "85dd9f18-403e-451b-8f2f-6b294567ca67",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

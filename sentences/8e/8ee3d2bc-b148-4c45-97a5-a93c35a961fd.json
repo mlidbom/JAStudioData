@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ce1e031961bd5b6734a552d86e196e365ce21a9e9ed3e8049591ce66.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ce1e031961bd5b6734a552d86e196e365ce21a9e9ed3e8049591ce66.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "解凍"
@@ -142,11 +150,12 @@
     "question": "パッケージに解凍方法が書いてあるはずだよ。",
     "answer": "The defrosting method should be written on the packaging.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8ee3d2bc-b148-4c45-97a5-a93c35a961fd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

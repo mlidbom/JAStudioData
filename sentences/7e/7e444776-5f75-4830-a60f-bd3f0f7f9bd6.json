@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-01e4b5e26387c0e9cbf5b730cb2cc5c52af253bee14bf26a1cd346fd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-01e4b5e26387c0e9cbf5b730cb2cc5c52af253bee14bf26a1cd346fd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "状況"
@@ -156,11 +164,12 @@
     "question": "どろぼうを警察に渡した時の状況についてくわしく教えてください。",
     "answer": "Could you tell me the details of the situation after you have turned the thief over to the police?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7e444776-5f75-4830-a60f-bd3f0f7f9bd6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

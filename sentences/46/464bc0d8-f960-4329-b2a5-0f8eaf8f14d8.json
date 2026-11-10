@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2da79bf392e35a7c57b55d0a432177af239f17c50a686629e20fd872.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2da79bf392e35a7c57b55d0a432177af239f17c50a686629e20fd872.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "兵士"
@@ -114,11 +122,12 @@
     "question": "300人のうち、残った兵士はわずか14人です。",
     "answer": "Of the 300, only 14 soldiers remain.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "464bc0d8-f960-4329-b2a5-0f8eaf8f14d8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

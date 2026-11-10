@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3a32bd348174f1d874bd8285fe8a77f86dd116a6a239dd832e103ec5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3a32bd348174f1d874bd8285fe8a77f86dd116a6a239dd832e103ec5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "初耳"
@@ -79,11 +87,12 @@
     "question": "ええっ、それは初耳です。",
     "answer": "Huh, that's the first I've heard of it.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c8536f03-af67-46a7-ad1b-478bf10be643",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

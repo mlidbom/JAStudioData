@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-570be0839ebac61d8dfe77262f141bfe62b5ac74130f27ee808bd4be.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-570be0839ebac61d8dfe77262f141bfe62b5ac74130f27ee808bd4be.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "変"
@@ -247,11 +255,12 @@
     "question": "変だなぁ。僕のメールボックスには、君が送ったと言っているメールがどこにも見当たらないよ。",
     "answer": "That’s strange. I can’t find the email you say you sent me anywhere in my mailbox.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dddabb2f-23c9-4a35-b135-b0a936dc3d0f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

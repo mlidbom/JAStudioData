@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-968508e823071d02e36f4214ee0d53d573e40835b7ae99f7d36eb686.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-968508e823071d02e36f4214ee0d53d573e40835b7ae99f7d36eb686.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "伝わる"
@@ -219,11 +227,12 @@
     "question": "日本語が上手に話せなくても心で話せばきっと相手に伝わりますよ。",
     "answer": "Even though you can't speak Japanese well, if you try to speak with your heart, people will understand.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b8c2b845-02ff-4880-a9af-e18fdee41896",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

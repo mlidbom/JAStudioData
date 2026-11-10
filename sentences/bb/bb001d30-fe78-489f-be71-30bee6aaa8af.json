@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6c073f592609599e68d241bfd7f42941f38d8a3d795b1ae91df1efd6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6c073f592609599e68d241bfd7f42941f38d8a3d795b1ae91df1efd6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "看板"
@@ -72,11 +80,12 @@
     "question": "彼女はこの店の看板です。",
     "answer": "She is the face of this store.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bb001d30-fe78-489f-be71-30bee6aaa8af",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

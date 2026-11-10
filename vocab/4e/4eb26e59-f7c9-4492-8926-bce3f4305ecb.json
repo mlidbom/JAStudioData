@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": " [sound:ATTS 比べもの (azure microsoft server speech text to speech voice (ja-jp daichineural)).mp3]",
-  "audioG": "",
-  "audioTTS": "",
+  "audio": [
+    {
+      "fileName": "ATTS 比べもの (azure microsoft server speech text to speech voice (ja-jp daichineural)).mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "比べ物",
@@ -48,8 +54,7 @@
   "sentenceCount": 1,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -73,11 +78,12 @@
   "sourceData": {
     "answer": "something-worthy-of-comparison/something-being-compared",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "4eb26e59-f7c9-4492-8926-bce3f4305ecb",
   "tags": [
-    "_tts_audio",
     "source::yomitan"
   ]
 }

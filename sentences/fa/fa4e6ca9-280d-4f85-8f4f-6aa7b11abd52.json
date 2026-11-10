@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0b7289dced9405320ec665694bcfbe58ac266e4c65c94480a0cd97ab.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0b7289dced9405320ec665694bcfbe58ac266e4c65c94480a0cd97ab.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "赤い"
@@ -65,11 +73,12 @@
     "question": "赤いネクタイを下さい。",
     "answer": "Please give me a red tie.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fa4e6ca9-280d-4f85-8f4f-6aa7b11abd52",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b3702b870b5f8d432c6ff9cd2c5f5577d1bffefecb563d818eb6cd9f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b3702b870b5f8d432c6ff9cd2c5f5577d1bffefecb563d818eb6cd9f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "予想"
@@ -107,11 +115,12 @@
     "question": "私は未来が予想できるんです。",
     "answer": "I can predict the future.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ba723271-33e2-40ef-8aa1-f5fe88001789",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

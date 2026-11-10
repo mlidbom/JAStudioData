@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7e6453a29910cc6b3c9b82c6096d815f2e71ed1ab101005bea6b899d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7e6453a29910cc6b3c9b82c6096d815f2e71ed1ab101005bea6b899d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "切腹"
@@ -233,11 +241,12 @@
     "question": "どうして日本の武士は切腹をするようになったのでしょうか？",
     "answer": "How did Japanese samurai warriors come to commit seppuku?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c81269fb-410f-49f0-8438-c38f64d6abb8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

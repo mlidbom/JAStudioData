@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-effec593bf3eb3d5c1f6c7ce7446c6d776aa99b32c33d8edd5c8304f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-effec593bf3eb3d5c1f6c7ce7446c6d776aa99b32c33d8edd5c8304f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "残す"
@@ -79,11 +87,12 @@
     "question": "ブログにコメントを残しました。",
     "answer": "I left a comment on your blog.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e8f3a2fc-177b-452d-ab94-a71a461b7809",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

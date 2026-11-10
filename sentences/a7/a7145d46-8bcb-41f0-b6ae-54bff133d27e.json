@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cdf663832c530ecccddf9a988258f4d4112f7043120a16bbd4bea3e4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cdf663832c530ecccddf9a988258f4d4112f7043120a16bbd4bea3e4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "座敷"
@@ -107,11 +115,12 @@
     "question": "お座敷のどこかでコオロギが鳴いている。",
     "answer": "There’s a cricket chirping somewhere in the tatami room.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a7145d46-8bcb-41f0-b6ae-54bff133d27e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

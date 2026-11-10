@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-98dd2725d4d53a60193de86fd3bad81b56a17d82d01314ad0f559712.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-98dd2725d4d53a60193de86fd3bad81b56a17d82d01314ad0f559712.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "に気付ける",
@@ -40,8 +46,7 @@
   "sentenceCount": 1,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -65,7 +70,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "1d597f6f-e274-4a14-9511-e0d946e79702",
   "tags": [

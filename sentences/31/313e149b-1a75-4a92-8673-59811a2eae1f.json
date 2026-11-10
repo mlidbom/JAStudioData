@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cc5a29813a97693da156d0e80704f9e55de416449e716bc6c34983be.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cc5a29813a97693da156d0e80704f9e55de416449e716bc6c34983be.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "山びこ"
@@ -86,11 +94,12 @@
     "question": "それは、「山びこ」というレストランでした。",
     "answer": "It was a restaurant named \"Mountain Echo.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "313e149b-1a75-4a92-8673-59811a2eae1f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1ebd3293611eeb7709d39b89f9b8e35b4ec20954469e2011d6d281ee.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1ebd3293611eeb7709d39b89f9b8e35b4ec20954469e2011d6d281ee.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "休学"
@@ -58,11 +66,12 @@
     "question": "休学したいなぁ。",
     "answer": "I want to take a leave of absence.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c78d0044-ad09-423a-b3dd-3b5ff1e180ce",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

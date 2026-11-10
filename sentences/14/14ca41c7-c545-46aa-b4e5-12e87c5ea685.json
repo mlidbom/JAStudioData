@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b503128e859c00433fa22d5cb9a3e6ddd0b68eda37a8cd38d4822579.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b503128e859c00433fa22d5cb9a3e6ddd0b68eda37a8cd38d4822579.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "牛乳"
@@ -51,11 +59,12 @@
     "question": "おはよう。はい、牛乳よ。",
     "answer": "Good morning. Here’s your milk.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "14ca41c7-c545-46aa-b4e5-12e87c5ea685",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

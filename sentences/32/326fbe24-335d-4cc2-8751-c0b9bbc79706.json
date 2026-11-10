@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f84cab8bfc32962a1f08a70a0f25d11778f5a89e51352c9525857b97.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f84cab8bfc32962a1f08a70a0f25d11778f5a89e51352c9525857b97.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "病人"
@@ -100,11 +108,12 @@
     "question": "病人や、ケガ人はいますか？",
     "answer": "Is anyone sick or injured?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "326fbe24-335d-4cc2-8751-c0b9bbc79706",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

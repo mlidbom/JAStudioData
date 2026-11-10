@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-257bb3ed9376308bef6dbe488918e5cbecac9e74e2dd10b38ee6cb3c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-257bb3ed9376308bef6dbe488918e5cbecac9e74e2dd10b38ee6cb3c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "昔"
@@ -107,11 +115,12 @@
     "question": "ここは昔、山だったんだよ。",
     "answer": "This place used to be a mountain a long time ago.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "661b2da5-80de-4969-9366-f4574927a22f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

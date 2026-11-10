@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0e6b804f3223b32f7d0c20c23d1a0bdf092557bfe7890003ebbb166e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0e6b804f3223b32f7d0c20c23d1a0bdf092557bfe7890003ebbb166e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "要点"
@@ -107,11 +115,12 @@
     "question": "要点だけ先に言ってください。",
     "answer": "Please say the main points first.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "878ef6d7-b82e-41c7-aeda-d7df68e59ab3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

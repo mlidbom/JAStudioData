@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c3f63172367e5787ddbf60ebe3058cb9dc82ced0ae30f1918901c98a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c3f63172367e5787ddbf60ebe3058cb9dc82ced0ae30f1918901c98a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "ゴミ箱"
@@ -86,11 +94,12 @@
     "question": "この部屋にはゴミ箱が必要です。",
     "answer": "We need a trash can in this room.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "99f60641-f176-43e1-bca2-d62c495d11f5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

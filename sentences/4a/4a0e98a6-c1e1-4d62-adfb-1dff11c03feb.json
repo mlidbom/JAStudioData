@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a834d243982a5e02ad130836ae3fd6c6fc79129a4209dbff5bcfcab4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a834d243982a5e02ad130836ae3fd6c6fc79129a4209dbff5bcfcab4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "左"
@@ -65,11 +73,12 @@
     "question": "左目のコンタクトレンズがない。",
     "answer": "The left contact lens is missing.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4a0e98a6-c1e1-4d62-adfb-1dff11c03feb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

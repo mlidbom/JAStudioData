@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-355ece622a5cbae0141ce536052938a322e9157804df0aeaebc75f9f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-355ece622a5cbae0141ce536052938a322e9157804df0aeaebc75f9f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "教育"
@@ -79,11 +87,12 @@
     "question": "今日は教育センターに行きます。",
     "answer": "Today, we are going to the education center.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "476bc210-c2a7-4786-ab7b-f8c8272f50d5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

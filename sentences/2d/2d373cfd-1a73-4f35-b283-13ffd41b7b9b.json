@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-12a5963a40c12dc97d2c52685e279d7ec350fd031c53130aa44b0eb9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-12a5963a40c12dc97d2c52685e279d7ec350fd031c53130aa44b0eb9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "電子"
@@ -121,11 +129,12 @@
     "question": "カレーを電子レンジに入れました。",
     "answer": "I put the curry in the microwave.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2d373cfd-1a73-4f35-b283-13ffd41b7b9b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

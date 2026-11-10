@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1a4db1fd12dc835454c374b55b1a21226765aba75f831e0b1db59a55.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1a4db1fd12dc835454c374b55b1a21226765aba75f831e0b1db59a55.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "土壌"
@@ -86,11 +94,12 @@
     "question": "土壌が悪いので木が育たない。",
     "answer": "The soil is bad, so the trees won't grow.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "42fe3a22-170b-43d8-b24a-b6bfa2a7e045",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

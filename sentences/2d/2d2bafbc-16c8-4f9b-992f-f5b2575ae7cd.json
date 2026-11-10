@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d6c6e4dea97df63a46803fb59d0902b2febe512a39d3bbbd761415b5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d6c6e4dea97df63a46803fb59d0902b2febe512a39d3bbbd761415b5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "三角"
@@ -107,11 +115,12 @@
     "question": "パイナップルは小さく三角に切って下さい。",
     "answer": "Cut the pineapple into small triangles.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2d2bafbc-16c8-4f9b-992f-f5b2575ae7cd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

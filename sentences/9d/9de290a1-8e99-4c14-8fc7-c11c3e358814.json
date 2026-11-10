@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-407d2aa0d740fece465b31f209f28bed00b5d88340c847c02a910025.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-407d2aa0d740fece465b31f209f28bed00b5d88340c847c02a910025.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "天気"
@@ -114,11 +122,12 @@
     "question": "王子の気分は、その日の天気によります。",
     "answer": "The prince's mood depends on the daily weather.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9de290a1-8e99-4c14-8fc7-c11c3e358814",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

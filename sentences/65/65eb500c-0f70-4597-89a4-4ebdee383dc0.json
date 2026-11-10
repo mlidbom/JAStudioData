@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-68b17c67f8ad46f547e70886686eac9e53e530dc243d31e2359de626.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-68b17c67f8ad46f547e70886686eac9e53e530dc243d31e2359de626.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "取り替える"
@@ -233,11 +241,12 @@
     "question": "そろそろ我々のOA機器を最新のものに取り替える方がいいんじゃないでしょうか。",
     "answer": "We should gradually replace all of the office automation equipment for the latest versions.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "65eb500c-0f70-4597-89a4-4ebdee383dc0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

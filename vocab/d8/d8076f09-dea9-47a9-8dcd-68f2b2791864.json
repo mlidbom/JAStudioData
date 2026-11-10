@@ -36,9 +36,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-eae351cdc1cedf9731db0072a8ddcac87714579169677ba39bcb5f98.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-eae351cdc1cedf9731db0072a8ddcac87714579169677ba39bcb5f98.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "思っても見ない",
@@ -48,8 +54,7 @@
   "sentenceCount": 10,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -73,7 +78,9 @@
   "sourceData": {
     "answer": "unexpected/unforeseen/inconceivable",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "d8076f09-dea9-47a9-8dcd-68f2b2791864",
   "tags": [

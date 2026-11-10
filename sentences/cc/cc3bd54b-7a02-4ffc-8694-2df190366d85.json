@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c6bc01b3437cc7bf1aa620bbaa426ed3c16e069c640d7fc5c077db8b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c6bc01b3437cc7bf1aa620bbaa426ed3c16e069c640d7fc5c077db8b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "旧姓"
@@ -121,11 +129,12 @@
     "question": "いつもパスワードに母親の旧姓を使うんですよ。",
     "answer": "I always use my mother’s maiden name as my password.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cc3bd54b-7a02-4ffc-8694-2df190366d85",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-d0bbe12ce70d1735cd52968a9283dab23234caf20e405dc8af9e35c0.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-d0bbe12ce70d1735cd52968a9283dab23234caf20e405dc8af9e35c0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "でくれた",
@@ -40,8 +46,7 @@
   "sentenceCount": 207,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {
       "surface": "required",
@@ -68,7 +73,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "3563f4ff-2e1f-4c60-93c0-32ef68816aee",
   "tags": [

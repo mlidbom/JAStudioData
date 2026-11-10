@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-36d050b8aaa9df2ccacee9d52545de328a9d474080c8e7ab4eaf780c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-36d050b8aaa9df2ccacee9d52545de328a9d474080c8e7ab4eaf780c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "飼う"
@@ -93,11 +101,12 @@
     "question": "何か爬虫類をペットに飼いたいな。",
     "answer": "I want to keep some reptiles as pets.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4e248b47-b9fa-41ff-8448-703460ede0ec",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f64bca51ba7368438d66cd07f6cfc822e14d9675f12dba44e2b22467.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f64bca51ba7368438d66cd07f6cfc822e14d9675f12dba44e2b22467.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -224,11 +232,12 @@
     "question": "あー、感動したい。感動する映画のおすすめがあったら教えてください。",
     "answer": "Oh, I want to be moved. Please let me know if you have any recommendations for movies that will touch me.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c5359a59-fea3-4413-82b2-8d2016b7c15d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

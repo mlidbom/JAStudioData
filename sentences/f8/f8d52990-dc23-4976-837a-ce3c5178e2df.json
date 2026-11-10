@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-69de32b351d191b0628929b28f560b41c2a8837780aaeb6c284f47c7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-69de32b351d191b0628929b28f560b41c2a8837780aaeb6c284f47c7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "重なる"
@@ -170,11 +178,12 @@
     "question": "どうしよう、子どものバースデーパーティーと仕事の日が重なってしまった。",
     "answer": "What should I do? My child's birthday party falls on a work day.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f8d52990-dc23-4976-837a-ce3c5178e2df",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

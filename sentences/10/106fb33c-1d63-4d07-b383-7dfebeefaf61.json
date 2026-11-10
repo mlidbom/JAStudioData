@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b9c3911aab4d7ebcf0f9f9b45e6fcae10ce9b7d3dc4f60ef6616a161.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b9c3911aab4d7ebcf0f9f9b45e6fcae10ce9b7d3dc4f60ef6616a161.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "手紙"
@@ -177,11 +185,12 @@
     "question": "切手が足りなかったのか、学校からの手紙が中々来ません。",
     "answer": "Perhaps, it didn't have enough stamps. A letter from the school still hasn't arrived.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "106fb33c-1d63-4d07-b383-7dfebeefaf61",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

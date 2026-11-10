@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d18956cf7917497ceb60aa2e92a19c513b0ccd558935e01355e2c979.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d18956cf7917497ceb60aa2e92a19c513b0ccd558935e01355e2c979.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "単語"
@@ -93,11 +101,12 @@
     "question": "その単語、初めて聞いたかも。どういう意味？",
     "answer": "Maybe I've heard that word for the first time. What does it mean?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9743150d-dc73-42c0-8f61-7eff4ba74318",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

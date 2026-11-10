@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0ff6d76f59c0356c79faa0d5afb9bcee4ce5f2958ec9a363802f532f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0ff6d76f59c0356c79faa0d5afb9bcee4ce5f2958ec9a363802f532f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "何故なら"
@@ -93,11 +101,12 @@
     "question": "理由はシンプルで、何故なら美味しいからです。",
     "answer": "The reason is simple: it's because it tastes good.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ee495fd9-efb5-4cf7-9d13-4caf4ae39f45",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

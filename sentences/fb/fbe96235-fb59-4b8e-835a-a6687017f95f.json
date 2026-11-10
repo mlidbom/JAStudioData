@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6f29db46e5804e2a13d61dda6e82a4a65cc9cbc1c577b4bf18823c4b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6f29db46e5804e2a13d61dda6e82a4a65cc9cbc1c577b4bf18823c4b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "気"
@@ -135,11 +143,12 @@
     "question": "気がついたら一人で川にいたんです。",
     "answer": "I found myself alone in the river.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fbe96235-fb59-4b8e-835a-a6687017f95f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

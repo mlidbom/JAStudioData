@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-551ca81ef6054f6f82c774d8484de6b4bce443adb5cd8437858e6cf0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-551ca81ef6054f6f82c774d8484de6b4bce443adb5cd8437858e6cf0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "迫る"
@@ -170,11 +178,12 @@
     "question": "彼に金を返すよう迫ったが、逃げられてしまった。",
     "answer": "I pressed him to pay back the money, but he ran away.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "95875600-2650-43cf-884a-9571718b35de",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

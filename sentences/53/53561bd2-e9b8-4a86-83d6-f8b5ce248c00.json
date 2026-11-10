@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d3330c0847e6956cfcf5c44be49ad66ee3767eb7b4a8dffe21693ee8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d3330c0847e6956cfcf5c44be49ad66ee3767eb7b4a8dffe21693ee8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "理解する"
@@ -191,11 +199,12 @@
     "question": "トーフグのアメリカン・ジョークを理解するのに時間がかかりました。",
     "answer": "It took me a while to understand Tofugu's American jokes.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "53561bd2-e9b8-4a86-83d6-f8b5ce248c00",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

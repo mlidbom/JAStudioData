@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b83f876c9c0fee70d4e9134950fa859aaacf6382d52cfbf7c73bd70d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b83f876c9c0fee70d4e9134950fa859aaacf6382d52cfbf7c73bd70d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "王子"
@@ -170,11 +178,12 @@
     "question": "うちの子は王子にハグしてもらいたい、と天にいのってばかりよ。",
     "answer": "My child constantly prays to heaven for a hug from the prince.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "eee34b91-321c-45fd-a3ff-008f271eb42d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

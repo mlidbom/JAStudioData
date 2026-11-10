@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-44f2038cff5f5a5d60527e89aabebe7c4ca4ec2a7735df9039af849e.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-44f2038cff5f5a5d60527e89aabebe7c4ca4ec2a7735df9039af849e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Google ja-JP-Neural2-B",
+      "voiceGender": "female"
+    }
+  ],
   "forms": [
     {
       "text": "何人も",
@@ -44,8 +50,7 @@
   "sentenceCount": 1,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -74,7 +79,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "12ac9151-d050-478d-bb22-638e622cc7e4",
   "tags": [

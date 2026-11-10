@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7d4872c294386f3ddb9d5d05e22f6b780179cad37861a2bed06528b8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7d4872c294386f3ddb9d5d05e22f6b780179cad37861a2bed06528b8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "警官"
@@ -128,11 +136,12 @@
     "question": "その警官の名前は、舌をかみそうな名前だった。",
     "answer": "That police officer's name was like a tongue twister.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "58a004b5-5dc2-4a6a-b98d-aa0d19443c46",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

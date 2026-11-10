@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3a457f9ee6f3860039a195820120ef5d7a8e4669142a945d2e704d86.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3a457f9ee6f3860039a195820120ef5d7a8e4669142a945d2e704d86.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "親分"
@@ -114,11 +122,12 @@
     "question": "トムとジェリーは、どちらが親分でどちらが子分ですか。",
     "answer": "Between Tom and Jerry, which is the boss and which is the henchman?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7721d05c-bbbb-4af4-9582-626be005a696",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-faaf7de12e39941dde894f5e52998b518375c69266d76fa7aa7edee4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-faaf7de12e39941dde894f5e52998b518375c69266d76fa7aa7edee4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "忘れ物"
@@ -380,11 +388,12 @@
     "question": "今日何か忘れ物をしたような気がするんだけど、それが何だったかをどうしても思い出せないんだよな。",
     "answer": "I feel like I forgot something today, but I just can’t remember what it is.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "afb71dd5-c134-4a49-af5a-a9dd50a0dce9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

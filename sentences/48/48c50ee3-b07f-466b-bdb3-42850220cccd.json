@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a37b29d62a246028398565a56955e2b696e8fa9156e37a904fda3ef1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a37b29d62a246028398565a56955e2b696e8fa9156e37a904fda3ef1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "血管"
@@ -247,11 +255,12 @@
     "question": "おじいちゃんは、今日は病院で血管の検査をしてもらうことになっているはずです。",
     "answer": "Grandpa is supposed to have his blood vessels examined at the hospital today.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "48c50ee3-b07f-466b-bdb3-42850220cccd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

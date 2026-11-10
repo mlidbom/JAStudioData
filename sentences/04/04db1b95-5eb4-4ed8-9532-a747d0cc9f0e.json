@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5ac1e670375e98f768050da7aa1b345610e7cddcd0c97ef8dda24661.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5ac1e670375e98f768050da7aa1b345610e7cddcd0c97ef8dda24661.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "憲法"
@@ -86,11 +94,12 @@
     "question": "憲法改正案の見直しで忙しい。",
     "answer": "I'm busy reviewing the constitutional amendment.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "04db1b95-5eb4-4ed8-9532-a747d0cc9f0e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

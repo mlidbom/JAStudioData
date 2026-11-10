@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-00a7cc1456d1f2c9d1762c9d6c03640d6626bc338de5ce69292a7cf7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-00a7cc1456d1f2c9d1762c9d6c03640d6626bc338de5ce69292a7cf7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "信用"
@@ -163,11 +171,12 @@
     "question": "彼女は社内のみんなから信用されています。",
     "answer": "She is trusted by everyone in the company.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "36f09488-89b7-4772-ab07-8bda0de52924",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-91e09ce936d94c2231683e5fe18f19965ca128d930bb7fe2c56e0d91.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-91e09ce936d94c2231683e5fe18f19965ca128d930bb7fe2c56e0d91.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一蹴する"
@@ -142,11 +150,12 @@
     "question": "コウイチに告白したが一蹴された。",
     "answer": "I confessed my love to Koichi, but he totally rejected me.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f8eee17a-6fc3-4206-89f6-564836c5d788",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

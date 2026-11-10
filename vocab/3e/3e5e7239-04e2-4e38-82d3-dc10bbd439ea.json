@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-df32c2c6a3850b3142888ebe35d8389d9c6c303951c81cf47032bed1.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-df32c2c6a3850b3142888ebe35d8389d9c6c303951c81cf47032bed1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "が居る",
@@ -48,8 +54,7 @@
   "sentenceCount": 306,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {
       "yieldLastTokenToOverlappingCompound": "required"
@@ -75,7 +80,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "3e5e7239-04e2-4e38-82d3-dc10bbd439ea",
   "tags": [

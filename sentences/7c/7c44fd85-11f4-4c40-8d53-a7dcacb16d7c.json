@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9f6ab7ad327a30769c1500689bddb8f9eaf8a62ed24de03c13697257.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9f6ab7ad327a30769c1500689bddb8f9eaf8a62ed24de03c13697257.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "荷札"
@@ -149,11 +157,12 @@
     "question": "旅行カバンに付ける荷札をさがしています。",
     "answer": "I'm looking for a tag to put on my suitcase.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7c44fd85-11f4-4c40-8d53-a7dcacb16d7c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a477a4ed947c56a3da5f42476c55f489a9205ea7169c460f91973d95.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a477a4ed947c56a3da5f42476c55f489a9205ea7169c460f91973d95.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "言語"
@@ -142,11 +150,12 @@
     "question": "色々な言語を学ぶために海外へ行きました。",
     "answer": "I went abroad to learn various languages.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e78a9723-da06-4fff-a544-836181609802",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0dc4dd2ad744e9cc9f93a789fbde293db996efa1635f52364e958219.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0dc4dd2ad744e9cc9f93a789fbde293db996efa1635f52364e958219.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "違反"
@@ -65,11 +73,12 @@
     "question": "スピード違反で捕まった。",
     "answer": "I was caught speeding.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a0e9097b-7038-4ea4-a11e-f05728ae42ad",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

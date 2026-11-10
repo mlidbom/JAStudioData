@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-018acdb15ea06bdf07e93f654111d554dd25e96e03d4ccf24bd876d2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-018acdb15ea06bdf07e93f654111d554dd25e96e03d4ccf24bd876d2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "酔う"
@@ -198,11 +206,12 @@
     "question": "酔ってる時に車を運転するのは絶対にダメだよ。",
     "answer": "Never drive when you are drunk.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "228eaae6-2195-4cf3-b2cd-a1717ad74c95",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

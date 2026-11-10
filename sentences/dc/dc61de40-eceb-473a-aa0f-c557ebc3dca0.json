@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-45f9c822cb874fc70a9cc3dcf0feee4b40044c170fe2fa1e013d00f3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-45f9c822cb874fc70a9cc3dcf0feee4b40044c170fe2fa1e013d00f3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大臣"
@@ -331,11 +339,12 @@
     "question": "彼女は大臣たちに会議の前に資料を配るのを忘れてしまったために、首になっちゃったんだよ。",
     "answer": "She was fired because she forgot to hand out the documents to the cabinet members before the meeting.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dc61de40-eceb-473a-aa0f-c557ebc3dca0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

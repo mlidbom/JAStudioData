@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a55e1e7e9a4816b95e7cbb4e85bc93b8d26bf56be40c45af2799a45a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a55e1e7e9a4816b95e7cbb4e85bc93b8d26bf56be40c45af2799a45a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "事務所"
@@ -163,11 +171,12 @@
     "question": "この事務所では、喫煙は認められていません。",
     "answer": "Smoking is not allowed in this office.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "054ae484-0dc2-4d6b-858e-7e1f44e0221a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

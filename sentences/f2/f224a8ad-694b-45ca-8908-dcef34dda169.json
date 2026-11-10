@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4c5c0a717364d9033839e38baba1059bb13336562615696f3eaa55a5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4c5c0a717364d9033839e38baba1059bb13336562615696f3eaa55a5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "助手"
@@ -170,11 +178,12 @@
     "question": "私の助手は三人の子の母でもあります。",
     "answer": "My assistant is also the mother of three children.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f224a8ad-694b-45ca-8908-dcef34dda169",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

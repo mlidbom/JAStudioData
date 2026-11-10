@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1159c754c6e874117eb305e8279e3e207b81a92f4ab9b8fa14f9b1b7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1159c754c6e874117eb305e8279e3e207b81a92f4ab9b8fa14f9b1b7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "維新"
@@ -247,11 +255,12 @@
     "question": "学校で明治維新について勉強はしたんですが、名前以外は何にも覚えていません。",
     "answer": "I studied the Meiji restoration in school, but I can’t remember anything about it other than its name.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "09c996e9-b1a2-4bba-a31c-9c654ae1473b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

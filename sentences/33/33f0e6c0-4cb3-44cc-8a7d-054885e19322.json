@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4fcf8338942803343301616f5e7103480e15d8b88dae9b3f74bf06c8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4fcf8338942803343301616f5e7103480e15d8b88dae9b3f74bf06c8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "焼酎"
@@ -100,11 +108,12 @@
     "question": "この焼酎のもっと大きい瓶ってありますか。",
     "answer": "Do you have a bigger bottle of this shochu? ",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "33f0e6c0-4cb3-44cc-8a7d-054885e19322",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

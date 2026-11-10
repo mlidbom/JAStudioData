@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-11ff9bf1e25bc9e902dec2a9c11f70953ca2a02c136f344dc1dd3a07.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-11ff9bf1e25bc9e902dec2a9c11f70953ca2a02c136f344dc1dd3a07.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "恵む"
@@ -240,11 +248,12 @@
     "question": "三日間何も食べてないんです。何か食べ物を恵んでもらえませんか？",
     "answer": "I haven't eaten anything for three days. Could you please give me some food?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cfff0f02-22fd-4c62-8bda-8794048843f8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

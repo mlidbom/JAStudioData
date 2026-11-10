@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c78eb1fdd603cd62be8d167a0bf1fe4e5c36badb5f8ee44c2c545645.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c78eb1fdd603cd62be8d167a0bf1fe4e5c36badb5f8ee44c2c545645.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "二斤"
@@ -177,11 +185,12 @@
     "question": "一日で二斤は、さすがに食べることが出来ないよ。",
     "answer": "You can't eat two loaves in a day.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7abace96-2cd1-4de6-b335-8e97de70307d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

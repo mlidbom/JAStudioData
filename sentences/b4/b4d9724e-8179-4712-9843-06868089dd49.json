@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e42823e1db98f90d64cb93e919105b616de0c88f567da1a7208f219f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e42823e1db98f90d64cb93e919105b616de0c88f567da1a7208f219f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "還元"
@@ -142,11 +150,12 @@
     "question": "電気分解によって、水は水素と酸素に還元される。",
     "answer": "Through electrolysis, water is reduced to hydrogen and oxygen.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b4d9724e-8179-4712-9843-06868089dd49",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-07793e32995a3585c9e447bc5b36e96609d8ffc95b8aaecb5cb1d653.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-07793e32995a3585c9e447bc5b36e96609d8ffc95b8aaecb5cb1d653.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "罰する"
@@ -240,11 +248,12 @@
     "question": "その選手は明らかにドーピングをしていたのに、罰せられなかったんだ。",
     "answer": "The athlete was clearly doping, yet he wasn't punished.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6a6bd7fd-c85c-47ec-8e47-af75ef396c3f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c45f3d0367f67179150255fb76e2bedd56133b15de2a6701895e2613.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c45f3d0367f67179150255fb76e2bedd56133b15de2a6701895e2613.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "二杯"
@@ -184,11 +192,12 @@
     "question": "電車が運行を見合わせている間に、コーヒーを二杯飲みました。",
     "answer": "I had two cups of coffee while railroad operation was suspended.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a6e8bc67-6f8b-49d7-adfb-cada33b0fb26",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f535c5531a038652fa9055a9184ae0a4d991e6f77740b7cb2f99b709.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f535c5531a038652fa9055a9184ae0a4d991e6f77740b7cb2f99b709.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "硬い"
@@ -149,11 +157,12 @@
     "question": "ダイヤモンドよりも硬い石があることは、ご存知ですか？",
     "answer": "Did you know that there are stones that are harder than diamonds?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0074d9f5-7339-4d69-a24e-f99c166d807b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3c532a815695b4f9d11c1b958106182bea36c528141e9bf7b296d097.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3c532a815695b4f9d11c1b958106182bea36c528141e9bf7b296d097.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "収める"
@@ -177,11 +185,12 @@
     "question": "争いを収めるにはどうすればいいのだろう。",
     "answer": "What should I do to finish the fight?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fe6af043-4691-4c48-b1ef-e23825095cb0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

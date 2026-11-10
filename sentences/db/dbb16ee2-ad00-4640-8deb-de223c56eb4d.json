@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-74130f6c87b6f06de89726ffbf0bcc2495b8e943cf44c465eac8ca84.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-74130f6c87b6f06de89726ffbf0bcc2495b8e943cf44c465eac8ca84.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "帰す"
@@ -149,11 +157,12 @@
     "question": "作業が全部終わらないと帰してもらえないよ。",
     "answer": "They won't send you home unless you finish all the work.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dbb16ee2-ad00-4640-8deb-de223c56eb4d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

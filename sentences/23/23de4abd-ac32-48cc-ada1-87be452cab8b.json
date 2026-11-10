@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-72ae541e3f2aae177a5667174eeaab1e7d3ff638d79a225dfe592f8b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-72ae541e3f2aae177a5667174eeaab1e7d3ff638d79a225dfe592f8b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "多い"
@@ -79,11 +87,12 @@
     "question": "この村は、日本一人口が多い村です。",
     "answer": "This village is the most populated village in Japan.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "23de4abd-ac32-48cc-ada1-87be452cab8b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

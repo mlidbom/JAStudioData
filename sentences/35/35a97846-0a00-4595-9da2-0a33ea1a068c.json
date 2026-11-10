@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ad6d66b2795e4b3e8461aebdab30c0d08478deed57b5053c29fb7b5c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ad6d66b2795e4b3e8461aebdab30c0d08478deed57b5053c29fb7b5c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "失礼"
@@ -79,11 +87,12 @@
     "question": "では、お先に失礼します。",
     "answer": "I'll excuse myself before you then.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "35a97846-0a00-4595-9da2-0a33ea1a068c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

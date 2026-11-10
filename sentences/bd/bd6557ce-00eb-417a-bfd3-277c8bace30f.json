@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5cf97bc15704e980e570eaee171d7065cace7626e98a4b0d34065344.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5cf97bc15704e980e570eaee171d7065cace7626e98a4b0d34065344.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "決"
@@ -93,11 +101,12 @@
     "question": "この後、社長が決を下します。",
     "answer": "After this, the president makes a decision.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bd6557ce-00eb-417a-bfd3-277c8bace30f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

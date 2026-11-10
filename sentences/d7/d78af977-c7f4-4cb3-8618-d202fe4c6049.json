@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c9497f4176da2d25e52f33a88ca38037c024c9c987cbeea774c0a478.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c9497f4176da2d25e52f33a88ca38037c024c9c987cbeea774c0a478.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "辞書"
@@ -240,11 +248,12 @@
     "question": "私は紙の辞書を引くのが好きなので、すぐにボロボロになります。",
     "answer": "Since I like using paper dictionaries, they tend to get worn out quickly.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d78af977-c7f4-4cb3-8618-d202fe4c6049",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

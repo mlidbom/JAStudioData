@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9ed39c42801a4e83acb8259f1ea0c39e7771b563effbc9db37171ffd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9ed39c42801a4e83acb8259f1ea0c39e7771b563effbc9db37171ffd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "診る"
@@ -198,11 +206,12 @@
     "question": "赤ちゃんがちゃんと育っているのか、お医者さんに診てもらいたいんです。",
     "answer": "I want a doctor to examine my baby to see if she’s growing well.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ed6378f8-e6fc-4a0a-9cf3-a237942c6d4d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

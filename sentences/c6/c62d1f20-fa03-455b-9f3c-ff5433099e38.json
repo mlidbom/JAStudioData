@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-90df559cc8444c028d8c6b5069fe10f70a5fa06d531d87a4c14eaa7d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-90df559cc8444c028d8c6b5069fe10f70a5fa06d531d87a4c14eaa7d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -98,11 +106,12 @@
     "question": "四十円の切手を二つ下さい。",
     "answer": "Please give me two 40 yen stamps.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c62d1f20-fa03-455b-9f3c-ff5433099e38",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

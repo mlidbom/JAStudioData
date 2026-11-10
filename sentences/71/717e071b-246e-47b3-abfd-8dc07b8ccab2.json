@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e678945d29745f3b4b7725dff1477eeb3dc3057ad90e29ee367a7fac.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e678945d29745f3b4b7725dff1477eeb3dc3057ad90e29ee367a7fac.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "洋服"
@@ -191,11 +199,12 @@
     "question": "今日のデートは和服にしようかな？洋服にしようかな？",
     "answer": "Should I wear Japanese clothes for today's date? Or should I wear regular clothes?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "717e071b-246e-47b3-abfd-8dc07b8ccab2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

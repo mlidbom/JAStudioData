@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a20c2b532b92869fe9786fceeba5e3218c0241a86a7190f033fd4b44.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a20c2b532b92869fe9786fceeba5e3218c0241a86a7190f033fd4b44.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "奏楽"
@@ -149,11 +157,12 @@
     "question": "千円くらいの、奏楽用のハンドベルはありますか？",
     "answer": "Do you have a musical handbell for around 1000 yen?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6a808a99-3549-4268-b713-cc04ee91db63",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -24,9 +24,15 @@
   "partsOfSpeech": [],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-b63cc17dcdb128ff850aa5860b7e29b5826fc056e4874827f80bc9de.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-b63cc17dcdb128ff850aa5860b7e29b5826fc056e4874827f80bc9de.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "持たない",
@@ -40,8 +46,7 @@
   "sentenceCount": 7,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -65,7 +70,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "5f08dbc2-026b-48e7-b464-9f68833d7ec4",
   "tags": [

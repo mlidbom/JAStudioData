@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8946a47d3b87dc67bb09bf0e11d272900768b176e7e2356b1dea449d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8946a47d3b87dc67bb09bf0e11d272900768b176e7e2356b1dea449d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "漆"
@@ -142,11 +150,12 @@
     "question": "漆の葉を触ると手がかぶれますよ。",
     "answer": "If you touch a lacquer leaf you’ll get a rash on your hand.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d116ec65-287c-41a7-a58b-fe766953144e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-54c704ea30a6ef894dc453c0e98df7b793844319c53c48f907b75d84.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-54c704ea30a6ef894dc453c0e98df7b793844319c53c48f907b75d84.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "気象庁"
@@ -128,11 +136,12 @@
     "question": "気象庁の仕事の面接を受けてきました。",
     "answer": "I went to a job interview for the weather agency.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ae6385c2-d5f4-4dd4-90ed-81cc8bcc9312",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

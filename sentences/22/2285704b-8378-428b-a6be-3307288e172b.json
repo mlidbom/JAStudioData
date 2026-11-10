@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-174db8d17a7ca53607ec09643b7645cfbb9a1637e479220a2ceec30a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-174db8d17a7ca53607ec09643b7645cfbb9a1637e479220a2ceec30a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "吸い殻"
@@ -184,11 +192,12 @@
     "question": "吸い殻が二本たまったら、すぐに灰皿を交換してください。",
     "answer": "If two cigarette butts pile up, please empty the ashtray immediately.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2285704b-8378-428b-a6be-3307288e172b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

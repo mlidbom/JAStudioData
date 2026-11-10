@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0fcd42639a9e8c162f426b6862a8ff272e9ff7328dc30116ba768a3a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0fcd42639a9e8c162f426b6862a8ff272e9ff7328dc30116ba768a3a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "慌てる"
@@ -191,11 +199,12 @@
     "question": "火事だと思い、慌てて水をかけたら、ただのロウソクだった。",
     "answer": "I panicked, thinking there was a fire, and threw some water, but it was just a candle.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "71ed66d3-e2ca-4955-ba36-f16edd2e2d6b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

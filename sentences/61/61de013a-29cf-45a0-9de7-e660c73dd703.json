@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-969ff574e981bd2ee90fc756fe7e3af5d4419c9bccfe25435628e40e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-969ff574e981bd2ee90fc756fe7e3af5d4419c9bccfe25435628e40e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "神奈川県"
@@ -93,11 +101,12 @@
     "question": "神奈川県では漫画がブームです。",
     "answer": "There is a boom in manga in Kanagawa Prefecture.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "61de013a-29cf-45a0-9de7-e660c73dd703",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

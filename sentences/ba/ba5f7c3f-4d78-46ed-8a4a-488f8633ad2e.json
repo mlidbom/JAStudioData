@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-aa7a8e20bd92a6fc536d7a4561e609908526b494143ac6293431cace.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-aa7a8e20bd92a6fc536d7a4561e609908526b494143ac6293431cace.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "直航"
@@ -149,11 +157,12 @@
     "question": "この便はポートランドから東京まで直航せず、途中でアラスカに寄港します。",
     "answer": "This flight doesn't go directly from Portland to Tokyo; it makes a stop in Alaska along the way.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ba5f7c3f-4d78-46ed-8a4a-488f8633ad2e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

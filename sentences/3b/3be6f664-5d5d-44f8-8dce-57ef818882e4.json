@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-56fe4cf894caae7e1178841eafca563c111b4fdd43c4a31e37050b08.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-56fe4cf894caae7e1178841eafca563c111b4fdd43c4a31e37050b08.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鉛筆"
@@ -128,11 +136,12 @@
     "question": "筆箱の中に、鉛筆は何本ありますか？",
     "answer": "How many pencils are in your pen case?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3be6f664-5d5d-44f8-8dce-57ef818882e4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

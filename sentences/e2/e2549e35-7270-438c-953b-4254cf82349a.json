@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-950a42a121ac6dad8c219eaf69f29beb17149d5f0f822c5b791ed1e0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-950a42a121ac6dad8c219eaf69f29beb17149d5f0f822c5b791ed1e0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "核"
@@ -142,11 +150,12 @@
     "question": "核ミサイルの発射が、もう予定より三時間も遅れています。",
     "answer": "The nuclear missile launch is three hours behind schedule now.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e2549e35-7270-438c-953b-4254cf82349a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

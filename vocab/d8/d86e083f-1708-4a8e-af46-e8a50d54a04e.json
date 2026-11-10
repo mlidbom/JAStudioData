@@ -33,9 +33,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": " [sound:ATTS あっという間 (azure microsoft server speech text to speech voice (ja-jp daichineural)).mp3]",
-  "audioG": "",
-  "audioTTS": "",
+  "audio": [
+    {
+      "fileName": "ATTS あっという間 (azure microsoft server speech text to speech voice (ja-jp daichineural)).mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "アッと言う間",
@@ -65,8 +71,7 @@
   "sentenceCount": 8,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -90,11 +95,12 @@
   "sourceData": {
     "answer": "a-blink-of-time/the-time-it-takes-to-say-\"Ah!\"",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "d86e083f-1708-4a8e-af46-e8a50d54a04e",
   "tags": [
-    "_tts_audio",
     "source::yomitan"
   ]
 }

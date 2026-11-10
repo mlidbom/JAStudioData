@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-aa5fdaff138d9397faaf73fd8b97f18cde1050fae95cb4e414b06146.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-aa5fdaff138d9397faaf73fd8b97f18cde1050fae95cb4e414b06146.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "殺人"
@@ -149,11 +157,12 @@
     "question": "この殺人計画じゃうまくいかないと思うよ。",
     "answer": "I don't think this murder plan will go well.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e73580f1-3fc0-4a40-90df-fa0d11a9c124",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

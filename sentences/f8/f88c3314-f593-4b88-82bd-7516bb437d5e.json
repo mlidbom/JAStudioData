@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1ab683c0e1ae9425391339ea781c6d514f473cb90a295baa5f7722ad.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1ab683c0e1ae9425391339ea781c6d514f473cb90a295baa5f7722ad.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "思い遣り"
@@ -184,11 +192,12 @@
     "question": "思い遣りのつもりだったのかもしれないけど、嘘なんてついてほしくなかった。",
     "answer": "Maybe you did it out of consideration, but I didn't want you to lie.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f88c3314-f593-4b88-82bd-7516bb437d5e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

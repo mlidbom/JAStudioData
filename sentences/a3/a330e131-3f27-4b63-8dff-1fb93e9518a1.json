@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6d46f433e10c57ee8c9921ec91ba37b2e96acd35c4e13264295c701d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6d46f433e10c57ee8c9921ec91ba37b2e96acd35c4e13264295c701d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "選択"
@@ -345,11 +353,12 @@
     "question": "私の大学では、第二外国語は自由に選べるんですが、どの言語を選択するか迷いに迷っています。",
     "answer": "In my university, we can freely choose our second language and I’m at a loss as to which language to choose.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a330e131-3f27-4b63-8dff-1fb93e9518a1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

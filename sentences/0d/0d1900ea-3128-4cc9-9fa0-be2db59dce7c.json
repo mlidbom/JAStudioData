@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-777fc1b2ffa11b0fc8b724bfa99fe7dba24d354fd2468fdf95ae6c79.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-777fc1b2ffa11b0fc8b724bfa99fe7dba24d354fd2468fdf95ae6c79.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "軍"
@@ -121,11 +129,12 @@
     "question": "彼は軍に入ることを決心した。",
     "answer": "He decided to join the military.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0d1900ea-3128-4cc9-9fa0-be2db59dce7c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

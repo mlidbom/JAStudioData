@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a370d6bb8c3bbe7a74e1fcc1fa877f34d49868eb8351e274430b838a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a370d6bb8c3bbe7a74e1fcc1fa877f34d49868eb8351e274430b838a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "微生物"
@@ -142,11 +150,12 @@
     "question": "ミソって実は、微生物の働きによって作られているんですよ。",
     "answer": "Miso is actually made through the activity of microorganisms.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a7fe4f9f-451e-47b3-af83-dfa57325b1e2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

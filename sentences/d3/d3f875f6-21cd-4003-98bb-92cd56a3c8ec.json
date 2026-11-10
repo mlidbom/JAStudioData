@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-487fde702864e23c7be1e7e20b9e9a0042e00d480563a42f653adbbf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-487fde702864e23c7be1e7e20b9e9a0042e00d480563a42f653adbbf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "退ける"
@@ -79,11 +87,12 @@
     "question": "議会は全ての議案を退けた。",
     "answer": "The council dismissed all of the proposals. ",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d3f875f6-21cd-4003-98bb-92cd56a3c8ec",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

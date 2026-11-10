@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4e8289e8c1eab15859f7a9b379985311cfa77fa0cae30ef3f4cdde75.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4e8289e8c1eab15859f7a9b379985311cfa77fa0cae30ef3f4cdde75.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "亮平"
@@ -121,11 +129,12 @@
     "question": "この間、日本の有名な俳優の鈴木亮平を間近で見たよ。",
     "answer": "I saw the famous Japanese actor Suzuki Ryohei up close the other day.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "afb5ea2e-2f02-467a-a21d-96679c500e25",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

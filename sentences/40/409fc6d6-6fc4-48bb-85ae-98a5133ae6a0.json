@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5bb5c34537fd7ed8862acecc7c6a07ceb636357e5b69be5ae7e629f9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5bb5c34537fd7ed8862acecc7c6a07ceb636357e5b69be5ae7e629f9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "従う"
@@ -233,11 +241,12 @@
     "question": "教師が宿題を前の人に渡すよう言ったが、生徒達は一人もそれに従わなかった。",
     "answer": "The teacher instructed the students to pass the homework to the person in front, but none of the students followed through.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "409fc6d6-6fc4-48bb-85ae-98a5133ae6a0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

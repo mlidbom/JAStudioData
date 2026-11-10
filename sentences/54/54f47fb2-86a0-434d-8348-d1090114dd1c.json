@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2490c1717c63e71567b24c62e0ad585eaed22b794b09d3158ec635a3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2490c1717c63e71567b24c62e0ad585eaed22b794b09d3158ec635a3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "仏典"
@@ -128,11 +136,12 @@
     "question": "この言葉は、仏典の中に登場します。",
     "answer": "This word appears in Buddhist scriptures.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "54f47fb2-86a0-434d-8348-d1090114dd1c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

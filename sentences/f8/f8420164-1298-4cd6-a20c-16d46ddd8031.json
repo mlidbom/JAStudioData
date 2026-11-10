@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fcafb928761fd30e279354f28657da3bc5b126f4bfde0933698c6ea9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fcafb928761fd30e279354f28657da3bc5b126f4bfde0933698c6ea9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "消える"
@@ -79,11 +87,12 @@
     "question": "やばい、データが全部消えちゃった！",
     "answer": "Oh no, all the data is gone!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f8420164-1298-4cd6-a20c-16d46ddd8031",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

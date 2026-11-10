@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2a1bd4de3024d286643c4ad3c13d5d526b104b9f269bbc36f39e5f64.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2a1bd4de3024d286643c4ad3c13d5d526b104b9f269bbc36f39e5f64.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "怪獣"
@@ -100,11 +108,12 @@
     "question": "スーパーマンは、怪獣に数分遅れて現れた。",
     "answer": "Superman turned up a few minutes later than the giant monster.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "445f2f8f-297c-453f-822e-173fabc289a6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

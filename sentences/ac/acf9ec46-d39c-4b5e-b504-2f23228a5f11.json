@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-87835bcffde4628aa3393c4c0fd11d8fbb5507ce7bfa8abc5c61e84b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-87835bcffde4628aa3393c4c0fd11d8fbb5507ce7bfa8abc5c61e84b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "漏出"
@@ -163,11 +171,12 @@
     "question": "トーフグの機密情報が漏出してしまったようです。",
     "answer": "It appears that confidential information about Tofugu has been leaked.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "acf9ec46-d39c-4b5e-b504-2f23228a5f11",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

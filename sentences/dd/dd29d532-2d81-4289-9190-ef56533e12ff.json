@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-28c49505a163b40a61f1e147b16fca7c5eebe6a9c67c05b280abd8cd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-28c49505a163b40a61f1e147b16fca7c5eebe6a9c67c05b280abd8cd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "頑張る"
@@ -79,11 +87,12 @@
     "question": "「そのまま頑張って。あなたなら大丈夫よ。」",
     "answer": "Hang in there, you can do this.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dd29d532-2d81-4289-9190-ef56533e12ff",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

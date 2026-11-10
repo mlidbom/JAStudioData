@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-43d28394c7fad9640f0d7172fa0424f41cf8facdd96e98589d845c6d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-43d28394c7fad9640f0d7172fa0424f41cf8facdd96e98589d845c6d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "点く"
@@ -170,11 +178,12 @@
     "question": "「アレクサ、電気を点けて」と言うと、家の全ての電気が点きます。",
     "answer": "When I say \"Alexa, turn the lights on,\" all the lights in the house turn on.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c1562a81-5b1f-4c0f-8eaa-69f6e30a0c99",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

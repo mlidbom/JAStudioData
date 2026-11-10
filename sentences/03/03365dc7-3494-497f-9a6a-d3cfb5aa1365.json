@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0cccf1c04a2d86ea01bb75a99e3cc4114d3643a2d982739edafb9b83.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0cccf1c04a2d86ea01bb75a99e3cc4114d3643a2d982739edafb9b83.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "代金"
@@ -121,11 +129,12 @@
     "question": "まだ今日のランチの代金をもらってません。",
     "answer": "We haven't received payment for today's lunch yet.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "03365dc7-3494-497f-9a6a-d3cfb5aa1365",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

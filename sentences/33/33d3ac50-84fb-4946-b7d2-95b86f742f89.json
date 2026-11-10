@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c4bf3a650977925d426b937fac50131e09ff30137291755d50224d6b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c4bf3a650977925d426b937fac50131e09ff30137291755d50224d6b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "答える"
@@ -177,11 +185,12 @@
     "question": "私は電話に出る時、先ず「もしもし」と答えて、自分の名前を言います。",
     "answer": "When I answer the phone, I first answer \"hello\" and say my name.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "33d3ac50-84fb-4946-b7d2-95b86f742f89",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

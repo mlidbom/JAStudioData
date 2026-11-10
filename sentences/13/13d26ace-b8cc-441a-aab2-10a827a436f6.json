@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e3fae6c4e42347d5457b6352367a0d0018980e7cbc2c8a936a686550.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e3fae6c4e42347d5457b6352367a0d0018980e7cbc2c8a936a686550.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "この辺"
@@ -114,11 +122,12 @@
     "question": "この辺に、おすすめのレストランはありますか？",
     "answer": "Is there a restaurant you would recommended in this area?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "13d26ace-b8cc-441a-aab2-10a827a436f6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

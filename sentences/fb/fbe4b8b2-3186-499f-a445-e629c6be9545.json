@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e77a3f78fb4d0c7f327667ecc0d1f9d14f6d3dd69c131bee855ea101.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e77a3f78fb4d0c7f327667ecc0d1f9d14f6d3dd69c131bee855ea101.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "雨"
@@ -177,11 +185,12 @@
     "question": "雨の休日は出かけないでアパートの中にこもることが多いです。",
     "answer": "I often stay in my apartment instead of going out when it rains on my day off.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fbe4b8b2-3186-499f-a445-e629c6be9545",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

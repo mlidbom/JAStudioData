@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-2f41cf2f9f9fe3a6ea38ac3296620c9bfe4e77a523b9c7cd893c35ac.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-2f41cf2f9f9fe3a6ea38ac3296620c9bfe4e77a523b9c7cd893c35ac.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "電話をする",
@@ -40,8 +46,7 @@
   "sentenceCount": 33,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -65,7 +70,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "c2bf9296-2803-439e-ab6f-51fd82bdf13a",
   "tags": [

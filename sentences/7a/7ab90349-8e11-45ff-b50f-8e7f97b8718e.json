@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-150438e06df298e9cd05b1bdf4c9cea18e0dd7e22f014f82bcd9c1fa.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-150438e06df298e9cd05b1bdf4c9cea18e0dd7e22f014f82bcd9c1fa.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "右利き"
@@ -163,11 +171,12 @@
     "question": "私の息子は右利きではありません。",
     "answer": "My son is not right-handed.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7ab90349-8e11-45ff-b50f-8e7f97b8718e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

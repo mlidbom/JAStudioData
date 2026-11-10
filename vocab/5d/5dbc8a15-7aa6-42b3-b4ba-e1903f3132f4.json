@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-1dfe41af3d6539e9034b151207c13553d64b9c95a79c6af81562f6d4.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-1dfe41af3d6539e9034b151207c13553d64b9c95a79c6af81562f6d4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "処分をする",
@@ -40,8 +46,7 @@
   "sentenceCount": 5,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -65,7 +70,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "5dbc8a15-7aa6-42b3-b4ba-e1903f3132f4",
   "tags": [

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3988494dcc9c03f4afec4e4eca51c2c9aa32eaaf163d18c525948d23.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3988494dcc9c03f4afec4e4eca51c2c9aa32eaaf163d18c525948d23.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "点ける"
@@ -128,11 +136,12 @@
     "question": "ニュースをチェックするために、ラジオを点けました。",
     "answer": "I turned on the radio to check the news.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8cb992dc-c9d3-446c-9acc-82266a1dfd05",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a50d991ab510189a2143a3ad4fc52504e6c61a130b2aaa87a03f5426.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a50d991ab510189a2143a3ad4fc52504e6c61a130b2aaa87a03f5426.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "いい加減"
@@ -140,11 +148,12 @@
     "question": "このサービスはいい加減すぎます。いい加減、改善すべきですよ。",
     "answer": "This service is clunky. It's about time for some improvements.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7012f712-6f66-48fa-ade4-b3505dd806ab",
   "tags": [
-    "_tts_audio",
     "-::sentence::uses::incorrect-matches",
     "source::wani::current"
   ]

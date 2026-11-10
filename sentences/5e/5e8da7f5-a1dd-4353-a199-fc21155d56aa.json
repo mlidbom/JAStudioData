@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-64bf46fd5473f9df266aef7743c5d62404721ed25ad3ab2c73f5dc48.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-64bf46fd5473f9df266aef7743c5d62404721ed25ad3ab2c73f5dc48.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "両者"
@@ -79,11 +87,12 @@
     "question": "両者の考えが同じじゃない。",
     "answer": "Both people's thoughts are not the same.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5e8da7f5-a1dd-4353-a199-fc21155d56aa",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

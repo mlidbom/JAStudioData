@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-159d1a35ae3935ecc9bf5bf8cec6eb02e9def2bcf0349969c2f9bdc0.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-159d1a35ae3935ecc9bf5bf8cec6eb02e9def2bcf0349969c2f9bdc0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "湯冷めをする",
@@ -40,8 +46,7 @@
   "sentenceCount": 1,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -65,7 +70,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "5b46d69d-7b24-4a92-bf35-92bb2952bdaf",
   "tags": [

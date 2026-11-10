@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-61fd9ceb324c6c3a094fd61506b66a4e19f6b678c7435673fc1ed527.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-61fd9ceb324c6c3a094fd61506b66a4e19f6b678c7435673fc1ed527.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "起きる"
@@ -79,11 +87,12 @@
     "question": "ミラクルが起きたかもしれない。",
     "answer": "A miracle may have happened.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "328ea85a-628a-41cd-8723-11dcc2db30d5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

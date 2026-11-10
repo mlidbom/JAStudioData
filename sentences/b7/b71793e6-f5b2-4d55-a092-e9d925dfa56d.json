@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0ea6a012f96c7bec02577f11dcfddb2eeffd026d45eca89a0b867e1d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0ea6a012f96c7bec02577f11dcfddb2eeffd026d45eca89a0b867e1d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "分類"
@@ -121,11 +129,12 @@
     "question": "このアプリを使えば、すぐにファイルが分類できます。",
     "answer": "With this application, files can be quickly categorized.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b71793e6-f5b2-4d55-a092-e9d925dfa56d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

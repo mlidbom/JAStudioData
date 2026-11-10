@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2f896125c65cccbb599f5477d57b645b61cba196b5e5946404b6177f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2f896125c65cccbb599f5477d57b645b61cba196b5e5946404b6177f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "苦しい"
@@ -282,11 +290,12 @@
     "question": "村では、冬になると食べ物が不足して、村人はみんな苦しい生活を送っていました。",
     "answer": "In the village, there was not enough food in winter, and all the villagers lived in hardship.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bc59a960-f030-4701-b99a-7f5ab34a4223",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

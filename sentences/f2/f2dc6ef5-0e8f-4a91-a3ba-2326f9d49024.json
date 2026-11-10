@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2530e4b10a5e08f5ffec4f1c83cec9bfb986ace7f4b355ecbc1e7b3b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2530e4b10a5e08f5ffec4f1c83cec9bfb986ace7f4b355ecbc1e7b3b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "研究室"
@@ -135,11 +143,12 @@
     "question": "この研究室には毎回たくさんの学生がいます。",
     "answer": "There are many students in this lab every time.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f2dc6ef5-0e8f-4a91-a3ba-2326f9d49024",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

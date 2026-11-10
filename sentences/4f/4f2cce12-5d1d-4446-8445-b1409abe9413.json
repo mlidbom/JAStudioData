@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-86fccd9b17dab7ba1c6629833de5729b6722966a2c2ec7d75190c3f6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-86fccd9b17dab7ba1c6629833de5729b6722966a2c2ec7d75190c3f6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "出張"
@@ -114,11 +122,12 @@
     "question": "今、出張先のホテルに着いたところだよ。",
     "answer": "I just arrived at the hotel where I will be staying during the business trip.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4f2cce12-5d1d-4446-8445-b1409abe9413",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

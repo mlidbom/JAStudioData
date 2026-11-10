@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e1797434ca18ca3b8666dc46432ea66d64cf4a3cb82ef6ed703d64bc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e1797434ca18ca3b8666dc46432ea66d64cf4a3cb82ef6ed703d64bc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "弁護士"
@@ -107,11 +115,12 @@
     "question": "報酬の金額を聞いて、弁護士は態度を改めた。",
     "answer": "After hearing the amount of the retainer fee, the lawyer changed his attitude.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6a55dbfd-e2cd-43a1-9ccc-cf46ead5704b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7d96b6838edf1f79f022c78564422cc46eee0a6b78759c7b4857f6ef.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7d96b6838edf1f79f022c78564422cc46eee0a6b78759c7b4857f6ef.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "注文"
@@ -121,11 +129,12 @@
     "question": "スタバの注文の仕方がよく分からないんだけど。",
     "answer": "I don't really understand how to order at Starbucks.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2b964d9f-1d2d-42fa-ad47-6dd16b71a428",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

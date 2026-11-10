@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9d4eb68ac0d888f7bc342868867b181707c3c43f351590e0631b85c5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9d4eb68ac0d888f7bc342868867b181707c3c43f351590e0631b85c5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "忘れる"
@@ -170,11 +178,12 @@
     "question": "もう忘れなって。今さらどうにもならないんだから。",
     "answer": "Forget about it. There's nothing you can do about it now.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b482761c-44bb-4777-988f-563550f2090d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

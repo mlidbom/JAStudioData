@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-baff148a3d42b56c274b8537e2aacd2378ef08a6c1a9001caf573baa.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-baff148a3d42b56c274b8537e2aacd2378ef08a6c1a9001caf573baa.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "湖畔"
@@ -170,11 +178,12 @@
     "question": "夏は、静かな湖畔のロッジで読書をしています。",
     "answer": "In summer I read in a quiet lake shore lodge.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f32512b0-5552-4c33-b546-5860e648b15e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

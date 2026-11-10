@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4fce49d960c3618ecce0162599c911bdcc37e4546c11aa8ceca8c9ac.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4fce49d960c3618ecce0162599c911bdcc37e4546c11aa8ceca8c9ac.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大学"
@@ -121,11 +129,12 @@
     "question": "父は、１９９１年に大学に入った。",
     "answer": "My father entered college in 1991.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "368708ed-f481-4c42-8020-b6ab868c96cb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-6c0e9f68f6bd1aafc0928eeee4219340caa55fcec6a98c03f5750493.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-6c0e9f68f6bd1aafc0928eeee4219340caa55fcec6a98c03f5750493.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "謹慎をする",
@@ -40,8 +46,7 @@
   "sentenceCount": 1,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -65,7 +70,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "ed766657-5d11-49fe-85ef-c1cd8f1b98a0",
   "tags": [

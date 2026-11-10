@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-60e58dcaefb063c5c3de538d0081cbb907c413bc7809e961d30dad54.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-60e58dcaefb063c5c3de538d0081cbb907c413bc7809e961d30dad54.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "産まれる"
@@ -79,11 +87,12 @@
     "question": "いつ産まれる予定なの？",
     "answer": "When are you expecting the baby?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dda51232-89f8-416e-a9cc-bf453a268f25",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

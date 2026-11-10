@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d8361b22b9767727a879647b242e0439b010843e1af6f6ff0cba7f90.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d8361b22b9767727a879647b242e0439b010843e1af6f6ff0cba7f90.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "立入禁止",
@@ -164,11 +172,12 @@
     "question": "このドアには、関係者以外立入禁止って書かれているよ。",
     "answer": "This door says Authorized Personnel Only.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2a283fff-fb65-4fb2-83a9-70bf28750095",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

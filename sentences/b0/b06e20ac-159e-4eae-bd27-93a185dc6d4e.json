@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a16c477afd13fa60d45bfcf5f642e24d498d08557f9f9d3d67fbb430.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a16c477afd13fa60d45bfcf5f642e24d498d08557f9f9d3d67fbb430.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "労働者"
@@ -149,11 +157,12 @@
     "question": "社長という立場なら、労働者の権利を守ってくださいよ。",
     "answer": "If you are a president, please try to protect the rights of workers.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b06e20ac-159e-4eae-bd27-93a185dc6d4e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

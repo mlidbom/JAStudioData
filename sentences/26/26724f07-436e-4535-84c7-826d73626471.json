@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-158d1bdeeabd6e06e5b4cf5cf2f7d7f2d87b61898946f405ff390bdc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-158d1bdeeabd6e06e5b4cf5cf2f7d7f2d87b61898946f405ff390bdc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "無視する"
@@ -163,11 +171,12 @@
     "question": "法律を無視するような事はできません。",
     "answer": "We can't do something that defies the law.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "26724f07-436e-4535-84c7-826d73626471",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

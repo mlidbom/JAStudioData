@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ea177c65aa2f76cf659314f3fa84bb5746a6ea6b404ad4babcb9fe22.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ea177c65aa2f76cf659314f3fa84bb5746a6ea6b404ad4babcb9fe22.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "景況"
@@ -170,11 +178,12 @@
     "question": "証券会社で働く友人に電話を掛けて、景況を聞きました。",
     "answer": "I called a friend who works at a securities company and asked about the business climate.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "54710d57-5042-42f4-b35d-b46627922cd9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

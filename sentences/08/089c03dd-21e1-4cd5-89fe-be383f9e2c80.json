@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d348137f03249357a88cefb7278aba540c25b2e19c2160665ccfb3db.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d348137f03249357a88cefb7278aba540c25b2e19c2160665ccfb3db.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "心配する"
@@ -156,11 +164,12 @@
     "question": "父は兄のことをいつも心配しています。",
     "answer": "My father is always worried about his brother.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "089c03dd-21e1-4cd5-89fe-be383f9e2c80",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

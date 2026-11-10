@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-18627a5ef012e643d05861d638e26eaaa4c34749278b139e4a4ed58a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-18627a5ef012e643d05861d638e26eaaa4c34749278b139e4a4ed58a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "諒一郎"
@@ -100,11 +108,12 @@
     "question": "諒一郎は今、外出中です。",
     "answer": "Ryoichiro is out right now.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e1946029-174b-41a5-9a63-6e608aaec733",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

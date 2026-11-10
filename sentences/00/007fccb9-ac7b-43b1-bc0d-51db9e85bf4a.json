@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2db4456f5ded70f2bc1c4d9849d596fcf31534169c40d7f9b378a1c4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2db4456f5ded70f2bc1c4d9849d596fcf31534169c40d7f9b378a1c4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "履く"
@@ -114,11 +122,12 @@
     "question": "まだパンツ履いてないの？早くしなさい！",
     "answer": "You haven't put your underwear on yet? Hurry up!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "007fccb9-ac7b-43b1-bc0d-51db9e85bf4a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

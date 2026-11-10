@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-7c4a9ca15a4ce85651431d9af18a21f945556ae13354ea5475ec4cef.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-7c4a9ca15a4ce85651431d9af18a21f945556ae13354ea5475ec4cef.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "短過ぎる",
@@ -40,8 +46,7 @@
   "sentenceCount": 4,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -65,7 +70,9 @@
   "sourceData": {
     "answer": "to-be: too-short",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "ce95424e-8758-4307-ac1f-257bcecdcbd1",
   "tags": [

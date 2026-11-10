@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-009a834c9d2579ae7894f99f3400909eade28d43085a51039cc7674b.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-009a834c9d2579ae7894f99f3400909eade28d43085a51039cc7674b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "勘づける",
@@ -48,8 +54,7 @@
   "sentenceCount": 1,
   "technicalNotes": "Matching does not work correctly without the word. It's transparent, but necessary.",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [
@@ -75,7 +80,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "f10a1088-b166-4a37-982f-1b47f00e4c53",
   "tags": [

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-55f9719b15472c8011a890f2f6efefe46f5157ce4cd77502de402f0d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-55f9719b15472c8011a890f2f6efefe46f5157ce4cd77502de402f0d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -161,11 +169,12 @@
     "question": "退屈していたのでちょうどよかったです。",
     "answer": "I was bored, so it was good timing.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f9780a9e-f71e-439b-8b61-bceb6e3b5c93",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

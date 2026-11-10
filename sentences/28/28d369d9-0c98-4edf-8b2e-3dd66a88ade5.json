@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-440a59408e1ca1be93be06dac436d1b007c5bb5c771606c953cb6512.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-440a59408e1ca1be93be06dac436d1b007c5bb5c771606c953cb6512.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "和室"
@@ -135,11 +143,12 @@
     "question": "タタミがある部屋のことを和室と言います。",
     "answer": "A room with a tatami floor is called a Japanese-style room.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "28d369d9-0c98-4edf-8b2e-3dd66a88ade5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

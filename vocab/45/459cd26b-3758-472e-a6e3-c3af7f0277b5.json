@@ -29,9 +29,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-fbf2c39049c2f9ba3a5ca887e7daaf0cf6960394902aef53baae6f69.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-fbf2c39049c2f9ba3a5ca887e7daaf0cf6960394902aef53baae6f69.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "くるまれる",
@@ -49,8 +55,7 @@
   "sentenceCount": 3,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -74,7 +79,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "459cd26b-3758-472e-a6e3-c3af7f0277b5",
   "tags": [

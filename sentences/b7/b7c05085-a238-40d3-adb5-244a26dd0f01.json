@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-93c87fa1865ec1dd457815b8311bc7fda8529c3f9c85c132c8167e18.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-93c87fa1865ec1dd457815b8311bc7fda8529c3f9c85c132c8167e18.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "英会話"
@@ -142,11 +150,12 @@
     "question": "私は英会話教室でビジネス英語を教えています。",
     "answer": "I teach business English at an English conversation school.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b7c05085-a238-40d3-adb5-244a26dd0f01",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

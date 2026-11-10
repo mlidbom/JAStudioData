@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1a926dbd2bd980687a112086ff6463eac50104a8ca02deace1fe0322.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1a926dbd2bd980687a112086ff6463eac50104a8ca02deace1fe0322.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "気持ち悪い"
@@ -65,11 +73,12 @@
     "question": "この絵、めっちゃ気持ち悪い。",
     "answer": "This picture is really creepy.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4ef54b0b-1592-489e-a4fc-38000b9a5b6a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

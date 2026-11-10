@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b3322b1abb1088de4caaf81e58d56397a10247f5ace820a8e5722a79.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b3322b1abb1088de4caaf81e58d56397a10247f5ace820a8e5722a79.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "両側"
@@ -93,11 +101,12 @@
     "question": "両側の耳がかゆくてムズムズします。",
     "answer": "Both of my ears itch immensely.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "736228fa-c351-474b-9dac-7cec6ab6b65e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

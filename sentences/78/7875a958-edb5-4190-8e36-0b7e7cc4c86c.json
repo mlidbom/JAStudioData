@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-25dfcaf0f0f2064671463851e3aba488f8d0489d7448b266489aaea1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-25dfcaf0f0f2064671463851e3aba488f8d0489d7448b266489aaea1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "数える"
@@ -170,11 +178,12 @@
     "question": "前回のデートでは、二人で青空に見える風船を数えた。",
     "answer": "On our last date, we counted the balloons we could see in the blue sky together.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7875a958-edb5-4190-8e36-0b7e7cc4c86c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-84c7143112088855aafe98d86701d432c502819899798d9ff5d6445f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-84c7143112088855aafe98d86701d432c502819899798d9ff5d6445f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "輸入"
@@ -156,11 +164,12 @@
     "question": "このスーパーでは輸入食品がたくさん売られています。",
     "answer": "This supermarket sells many imported foods.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "558e6670-2a06-401a-a3d1-247cb824706f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

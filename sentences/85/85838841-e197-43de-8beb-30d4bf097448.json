@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-12b1401dbf078159f22c51261e7c7ac1500f70921060041c06fd6186.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-12b1401dbf078159f22c51261e7c7ac1500f70921060041c06fd6186.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "手伝う"
@@ -79,11 +87,12 @@
     "question": "ごめん、ちょっと手伝ってくれない？",
     "answer": "Sorry, could you help me out a bit?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "85838841-e197-43de-8beb-30d4bf097448",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

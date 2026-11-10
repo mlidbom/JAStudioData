@@ -19,15 +19,20 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": " [sound:ATTS イシイ (azure microsoft server speech text to speech voice (ja-jp daichineural)).mp3]",
-  "audioG": "",
-  "audioTTS": "",
+  "audio": [
+    {
+      "fileName": "ATTS イシイ (azure microsoft server speech text to speech voice (ja-jp daichineural)).mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [],
   "sentenceCount": 21,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -51,11 +56,12 @@
   "sourceData": {
     "answer": "Ishii",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "6ded50de-f0ae-47ab-9d90-68421e8c1502",
   "tags": [
-    "_tts_audio",
     "source::yomitan"
   ]
 }

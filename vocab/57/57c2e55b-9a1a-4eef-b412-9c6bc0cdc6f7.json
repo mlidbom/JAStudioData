@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-c2c2fa3d064208c42a35df06927c8fbab41b2424c395e0e7411583fa.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-c2c2fa3d064208c42a35df06927c8fbab41b2424c395e0e7411583fa.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "実験をする",
@@ -40,8 +46,7 @@
   "sentenceCount": 3,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -65,7 +70,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "57c2e55b-9a1a-4eef-b412-9c6bc0cdc6f7",
   "tags": [

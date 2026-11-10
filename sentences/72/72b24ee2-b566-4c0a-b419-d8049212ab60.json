@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6d23018eb8a4ab68c634c77bf0c7f71163f7de999b3b450b80a03ee2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6d23018eb8a4ab68c634c77bf0c7f71163f7de999b3b450b80a03ee2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "砂利"
@@ -128,11 +136,12 @@
     "question": "ウラン鉱山はこの砂利道の先にあります。",
     "answer": "The uranium mine is at the end of this gravel road.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "72b24ee2-b566-4c0a-b419-d8049212ab60",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

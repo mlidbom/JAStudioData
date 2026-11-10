@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b2ba57cf4968140ebd8a29cd9c7bbd60ef32552e8f84577eeb4ff169.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b2ba57cf4968140ebd8a29cd9c7bbd60ef32552e8f84577eeb4ff169.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "学校"
@@ -79,11 +87,12 @@
     "question": "レイチェルは私の学校の友人です。",
     "answer": "Rachel is a friend from my school.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e6399552-9e8c-4379-a44e-b7534ea384ef",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

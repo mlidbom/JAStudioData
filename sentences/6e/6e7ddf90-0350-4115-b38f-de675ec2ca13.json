@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6b560a5d9d54109c5b3bcdaed1d21ec310b8eb5f6915e0c5ddee110d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6b560a5d9d54109c5b3bcdaed1d21ec310b8eb5f6915e0c5ddee110d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一つ"
@@ -128,11 +136,12 @@
     "question": "一つだけバニラにして下さい。",
     "answer": "Please make one a vanilla.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6e7ddf90-0350-4115-b38f-de675ec2ca13",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

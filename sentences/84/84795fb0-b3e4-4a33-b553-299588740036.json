@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0cc981369d84c48e6c6b9caf65d98081faae36f977c770830a7c1357.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0cc981369d84c48e6c6b9caf65d98081faae36f977c770830a7c1357.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "怪物"
@@ -198,11 +206,12 @@
     "question": "怪物はメガネを掛けたが、似合わないと言われてすぐに外した。",
     "answer": "The monster put on his glasses, but he was told they didn't suit him and took them off soon after that.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "84795fb0-b3e4-4a33-b553-299588740036",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

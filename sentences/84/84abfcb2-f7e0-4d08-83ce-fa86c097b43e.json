@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2afbe8f6bb014891203d7bb0e52e0bc98bf1fe82894670cd84c0d426.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2afbe8f6bb014891203d7bb0e52e0bc98bf1fe82894670cd84c0d426.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "上演"
@@ -107,11 +115,12 @@
     "question": "歌舞伎の上演は何時からですか。",
     "answer": "What time will the kabuki performance start?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "84abfcb2-f7e0-4d08-83ce-fa86c097b43e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

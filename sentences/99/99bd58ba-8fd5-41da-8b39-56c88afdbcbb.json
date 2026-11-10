@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f7f388409a6457fe71076bc6ce7c0c85c3eec87558d38aa852944793.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f7f388409a6457fe71076bc6ce7c0c85c3eec87558d38aa852944793.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "煎る"
@@ -79,11 +87,12 @@
     "question": "フライパンでピーナッツを煎りました。",
     "answer": "I roasted peanuts in a frying pan.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "99bd58ba-8fd5-41da-8b39-56c88afdbcbb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

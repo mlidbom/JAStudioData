@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-72db8b7d265b97f47c181b2b24c21fb2e3da2882a3ea0b69aad5d897.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-72db8b7d265b97f47c181b2b24c21fb2e3da2882a3ea0b69aad5d897.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "保つ"
@@ -240,11 +248,12 @@
     "question": "体力を保つには毎日トレーニングしなくてはいけません。",
     "answer": "To keep your physical strength, you have to train every day.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d75e1a67-8cb4-41b3-8e31-9e65c0a3d401",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

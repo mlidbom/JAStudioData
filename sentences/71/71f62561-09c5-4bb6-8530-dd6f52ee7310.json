@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dda4bd3937f859d46bc609b19be0ce29d0bb58ef96bd26d3313c2d35.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dda4bd3937f859d46bc609b19be0ce29d0bb58ef96bd26d3313c2d35.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "京都"
@@ -163,11 +171,12 @@
     "question": "京都では有名なお寺を見物した後、湯葉を食べる予定です。",
     "answer": "We are planning to eat yuba after seeing some famous temples in Kyoto.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "71f62561-09c5-4bb6-8530-dd6f52ee7310",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

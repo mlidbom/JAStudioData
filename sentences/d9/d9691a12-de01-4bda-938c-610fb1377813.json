@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-070952dc995a333f0147e0d656a6ef2588db147519256984bf537d36.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-070952dc995a333f0147e0d656a6ef2588db147519256984bf537d36.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "触る"
@@ -93,11 +101,12 @@
     "question": "私のパソコンに触るな！",
     "answer": "Hands off my computer!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d9691a12-de01-4bda-938c-610fb1377813",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

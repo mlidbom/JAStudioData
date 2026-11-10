@@ -3,8 +3,16 @@
   "corpusAnswer": "<div><div><div><div><div><div><div><div>Please forward all emails related to this issue to Koichi.</div></div></div></div></div></div></div></div>",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a7bee3357e12a8765603754525a6c5cf0e75189da25196a829fbff5f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a7bee3357e12a8765603754525a6c5cf0e75189da25196a829fbff5f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -168,11 +176,12 @@
     "question": "この問題に関連したメールは、全部コウイチに回してください。",
     "answer": "Please assign all emails related to this matter to Koichi.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7143ac33-164b-4c72-b0b5-badaa7082fc4",
   "tags": [
-    "_tts_audio",
     "source::wani::removed"
   ]
 }

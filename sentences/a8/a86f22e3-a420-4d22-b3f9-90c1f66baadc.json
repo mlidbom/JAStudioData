@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0c93301b33713861b1c35ff840c028fe952313b06eb5cd06cefb2bcf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0c93301b33713861b1c35ff840c028fe952313b06eb5cd06cefb2bcf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "有毒"
@@ -135,11 +143,12 @@
     "question": "どうやら有毒なガスが発生しているようです。",
     "answer": "It seems that toxic gas is being emitted.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a86f22e3-a420-4d22-b3f9-90c1f66baadc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

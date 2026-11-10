@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-99cccafc6a189c2cc1f07ca00fc68e8920e52ff3119a89703cc15778.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-99cccafc6a189c2cc1f07ca00fc68e8920e52ff3119a89703cc15778.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "花見"
@@ -86,11 +94,12 @@
     "question": "四月一日、花見しましょう。",
     "answer": "Let's do cherry blossom viewing on April 1st.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1df2942d-360e-4b95-995c-2ca6653017f3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

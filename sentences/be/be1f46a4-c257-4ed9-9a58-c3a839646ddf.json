@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f0fa7ec52c61b9ff0b0d58e39e59ccf4001fcae1f898bb7cb6d2a772.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f0fa7ec52c61b9ff0b0d58e39e59ccf4001fcae1f898bb7cb6d2a772.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "農場"
@@ -142,11 +150,12 @@
     "question": "農場のスタッフは毎日午前四時には起きますよ。",
     "answer": "The farm staff gets up every day by 4:00 am.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "be1f46a4-c257-4ed9-9a58-c3a839646ddf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

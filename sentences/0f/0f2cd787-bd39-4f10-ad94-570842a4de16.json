@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b49183106eccb6cd270d96c320df023c94fd200870ab39e00f7e7b7b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b49183106eccb6cd270d96c320df023c94fd200870ab39e00f7e7b7b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "命令"
@@ -93,11 +101,12 @@
     "question": "これは、コウイチ王からの命令です。",
     "answer": "This is a command from King Koichi.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0f2cd787-bd39-4f10-ad94-570842a4de16",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

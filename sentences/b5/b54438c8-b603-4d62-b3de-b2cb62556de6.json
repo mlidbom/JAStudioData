@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fe34d46c71365feddb594506107c6ae10a54100e53f9c32a7075029e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fe34d46c71365feddb594506107c6ae10a54100e53f9c32a7075029e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "田"
@@ -100,11 +108,12 @@
     "question": "田にはカエルがたくさんいますよ。",
     "answer": "There are many frogs in the rice fields.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b54438c8-b603-4d62-b3de-b2cb62556de6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

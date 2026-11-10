@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-060695e13d398dd9b5d075b4cec9545c89be09d1ea7187a8cdd1b162.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-060695e13d398dd9b5d075b4cec9545c89be09d1ea7187a8cdd1b162.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "両側"
@@ -226,11 +234,12 @@
     "question": "エスカレーターは本当は安全上、歩かずに止まって両側に立つものなんだよね。",
     "answer": "Escalators are actually safer if you stand still without walking and stand on both sides.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9127821e-d292-410d-a052-fa8a9c2a86eb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

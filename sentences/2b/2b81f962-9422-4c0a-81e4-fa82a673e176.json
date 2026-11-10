@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-31e76a0c8111e3772e9e00244ec314077cd493d5b29fe9b623ad6a89.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-31e76a0c8111e3772e9e00244ec314077cd493d5b29fe9b623ad6a89.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "天使"
@@ -79,11 +87,12 @@
     "question": "子犬は天使みたいでした。",
     "answer": "The puppy was like an angel.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2b81f962-9422-4c0a-81e4-fa82a673e176",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

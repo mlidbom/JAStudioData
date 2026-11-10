@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4bd3da789931a31bde999f45dc3d994f211a14356e9c19340f3da78b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4bd3da789931a31bde999f45dc3d994f211a14356e9c19340f3da78b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "理性"
@@ -205,11 +213,12 @@
     "question": "ダメだと分かっていたが、理性を保てなかったんだ。",
     "answer": "I understood it was hopeless, but I couldn’t hold on to reason.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0ee144bb-7c1e-471f-8756-5ef70553d29d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

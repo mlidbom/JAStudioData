@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1c9f64ec14d7918342ae34f12f056d669ad7ebb35598cccc27cf9f44.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1c9f64ec14d7918342ae34f12f056d669ad7ebb35598cccc27cf9f44.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "千葉"
@@ -170,11 +178,12 @@
     "question": "千葉のピーナッツは、家の中で対立が生まれるほど、おいしいんです。",
     "answer": "Peanuts from Chiba are so delicious that it creates conflict at home.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a69edbe2-135f-445f-bf5a-15ebdf749562",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

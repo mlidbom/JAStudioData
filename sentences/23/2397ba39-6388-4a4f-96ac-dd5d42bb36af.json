@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-84a207c2128c126fb106e676576a11869f39400a362c250fa08aec5c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-84a207c2128c126fb106e676576a11869f39400a362c250fa08aec5c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "喫煙"
@@ -79,11 +87,12 @@
     "question": "喫煙は体に良くないです。",
     "answer": "Smoking is not good for you.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2397ba39-6388-4a4f-96ac-dd5d42bb36af",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

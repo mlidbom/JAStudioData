@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e5c33c21c7b2f288ffe0c6c6dfadd4aa1a99250a019159a562628dd0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e5c33c21c7b2f288ffe0c6c6dfadd4aa1a99250a019159a562628dd0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "官邸"
@@ -114,11 +122,12 @@
     "question": "首相官邸ツアーに参加しました。",
     "answer": "I participated in a tour of the Prime Minister’s official residence.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7fba0f73-8e5a-4677-b6df-50f1a82889aa",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

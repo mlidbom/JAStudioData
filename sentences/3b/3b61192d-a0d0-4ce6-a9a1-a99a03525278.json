@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6ef6238921e1941844e9e8029bdfba85f602e5f8048b7b1ef505488a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6ef6238921e1941844e9e8029bdfba85f602e5f8048b7b1ef505488a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "寄る"
@@ -100,11 +108,12 @@
     "question": "学校の帰りに、図書館に寄るつもりです。",
     "answer": "When I come home from school I plan on dropping by the library.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3b61192d-a0d0-4ce6-a9a1-a99a03525278",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

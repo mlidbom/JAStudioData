@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3f56806bb334cea3da7f2583c477897068637092ae23d589096ecea6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3f56806bb334cea3da7f2583c477897068637092ae23d589096ecea6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "食堂"
@@ -65,11 +73,12 @@
     "question": "お昼ごはん、食堂で食べない？",
     "answer": "Do you want to eat lunch in the cafeteria?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1a535b5e-16d4-406d-b27d-68a9862301d9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

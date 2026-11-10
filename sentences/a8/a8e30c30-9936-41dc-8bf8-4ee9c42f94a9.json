@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d8d461660c0178c8dc09145cb1015c8d7daf8617f96735bc44b5ecc5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d8d461660c0178c8dc09145cb1015c8d7daf8617f96735bc44b5ecc5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "言葉"
@@ -79,11 +87,12 @@
     "question": "私は言葉に詰まった。",
     "answer": "I was at a loss for words.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a8e30c30-9936-41dc-8bf8-4ee9c42f94a9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

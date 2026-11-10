@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-275e3f6aca464307e3d04f52cce39a950a45e69392f54e6e810f0826.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-275e3f6aca464307e3d04f52cce39a950a45e69392f54e6e810f0826.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "確認"
@@ -142,11 +150,12 @@
     "question": "文芸評論家に確認してみましょう。",
     "answer": "I'm gonna confirm with a literary critic.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e55dcff1-ec22-4ece-898a-96b5aac156fd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

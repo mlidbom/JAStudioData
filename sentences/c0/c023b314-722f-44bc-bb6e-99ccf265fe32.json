@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0b9c47d563b851555f1709f56b40e2ccec5fd773a99fd4c2472ea29a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0b9c47d563b851555f1709f56b40e2ccec5fd773a99fd4c2472ea29a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "過ごす"
@@ -135,11 +143,12 @@
     "question": "私はアメリカで毎日忙しい日々を過ごしています。",
     "answer": "I lead a busy life every day in the U.S.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c023b314-722f-44bc-bb6e-99ccf265fe32",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

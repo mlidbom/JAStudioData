@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4384fb83228d23c16c31ec70899a664845f4609c9ea0ef6d0a5243db.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4384fb83228d23c16c31ec70899a664845f4609c9ea0ef6d0a5243db.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "先々月"
@@ -135,11 +143,12 @@
     "question": "先々月、フロリダで大きなハリケーンがあったそうだ。",
     "answer": "There was a big hurricane in Florida the month before last.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "45fb068b-4a2e-4c7b-adba-4b5b032a3853",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

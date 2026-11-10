@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8f8822de0f136b86d7c5e3ae0a3997775e92ad8845216d150ac1eb0f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8f8822de0f136b86d7c5e3ae0a3997775e92ad8845216d150ac1eb0f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "薄情"
@@ -142,11 +150,12 @@
     "question": "彼は薄情者だし、どっちの味方かサッパリ分からないよ。",
     "answer": "He is cold hearted and I have no idea whose side he’s taking.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9cd872a4-7d24-4bfc-82e1-20c5204de8e2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

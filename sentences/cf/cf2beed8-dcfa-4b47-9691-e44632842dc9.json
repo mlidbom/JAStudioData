@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fa4cc02f16ee0b7d0dac511c47b957be7327ac89ed2393e38a095fa1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fa4cc02f16ee0b7d0dac511c47b957be7327ac89ed2393e38a095fa1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "幅"
@@ -156,11 +164,12 @@
     "question": "うちのお母さん、肩幅が広いから、私はそれが遺伝したの。",
     "answer": "My mom has wide shoulders and I inherited them.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cf2beed8-dcfa-4b47-9691-e44632842dc9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

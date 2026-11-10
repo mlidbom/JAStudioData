@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0fac41090f803105c73a0f162d5085d936bc36d8778c5066a76ae0a6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0fac41090f803105c73a0f162d5085d936bc36d8778c5066a76ae0a6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鎮魂"
@@ -79,11 +87,12 @@
     "question": "さあ、みんなで鎮魂歌を歌いましょう。",
     "answer": "Come on, let's sing a requiem together.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2a8aa987-7687-4f6c-a9b8-a9f4da87a743",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

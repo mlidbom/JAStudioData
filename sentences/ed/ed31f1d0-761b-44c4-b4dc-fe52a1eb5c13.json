@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-41e373b1122d2e9e251ff3c2289aa2c0bb94fa08591fc107b942a1ae.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-41e373b1122d2e9e251ff3c2289aa2c0bb94fa08591fc107b942a1ae.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "嫌悪感"
@@ -219,11 +227,12 @@
     "question": "知らない人から急に頭に手を置かれたら、そりゃあ嫌悪感を感じるでしょう。",
     "answer": "If a stranger suddenly put his hand on your head, you would surely feel disgusted.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ed31f1d0-761b-44c4-b4dc-fe52a1eb5c13",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

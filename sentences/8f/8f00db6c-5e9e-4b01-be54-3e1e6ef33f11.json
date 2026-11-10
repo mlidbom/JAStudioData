@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e3edea18e4f9441d69cbfc7afd9ec756e01cebc47473648b4a5ceede.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e3edea18e4f9441d69cbfc7afd9ec756e01cebc47473648b4a5ceede.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "死ぬ"
@@ -93,11 +101,12 @@
     "question": "このスプレーで大体の虫は死ぬ。",
     "answer": "Most insects die with this spray.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8f00db6c-5e9e-4b01-be54-3e1e6ef33f11",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

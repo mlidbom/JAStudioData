@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bd949e4a81ec60e50ee46b20be2a9e2360c842379c75b3b5ae709702.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bd949e4a81ec60e50ee46b20be2a9e2360c842379c75b3b5ae709702.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "皆様"
@@ -156,11 +164,12 @@
     "question": "私が今ここにいるのは、皆様のおかげです。",
     "answer": "It is thanks to all of you that I am here now.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bb26de60-85f0-4a45-86c4-dc99742f19cd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

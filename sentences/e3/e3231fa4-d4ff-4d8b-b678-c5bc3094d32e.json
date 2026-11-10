@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1d77c265bf8fff06154f1d25fbe1574942f501c4ca19840750a7d1be.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1d77c265bf8fff06154f1d25fbe1574942f501c4ca19840750a7d1be.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "千"
@@ -121,11 +129,12 @@
     "question": "そのフランス人は、千に一人の天才です。",
     "answer": "That French person is a one-in-a-thousand genius.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e3231fa4-d4ff-4d8b-b678-c5bc3094d32e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

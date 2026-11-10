@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-29e7621dac2d1a7172cbbe956460f97f486a0976dea4cb1e2dae79f1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-29e7621dac2d1a7172cbbe956460f97f486a0976dea4cb1e2dae79f1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "耳打ち"
@@ -65,11 +73,12 @@
     "question": "「ありがとう」と耳打ちした。",
     "answer": "\"Thanks,\" I whispered in their ear.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "40f92895-6285-42df-a1fa-89231514d22a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

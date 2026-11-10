@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7bf41508866c01aaea8a2039e24e33f659f7960a8a2a85b2bb305792.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7bf41508866c01aaea8a2039e24e33f659f7960a8a2a85b2bb305792.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "岡山県"
@@ -170,11 +178,12 @@
     "question": "容疑者は、岡山県で金を盗んだことを認めています。",
     "answer": "The suspect admits that he stole the money in Okayama prefecture.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c5e40e74-6861-4bfb-a3aa-05b96b88887b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

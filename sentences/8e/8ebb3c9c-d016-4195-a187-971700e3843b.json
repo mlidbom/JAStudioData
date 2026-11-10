@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cea349b585833548b82375dc710c110081d9b43058a9bf8d0ea03dc7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cea349b585833548b82375dc710c110081d9b43058a9bf8d0ea03dc7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "順位"
@@ -121,11 +129,12 @@
     "question": "日本語の試験の順位が発表されました。",
     "answer": "The rankings from the Japanese exam were revealed.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8ebb3c9c-d016-4195-a187-971700e3843b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

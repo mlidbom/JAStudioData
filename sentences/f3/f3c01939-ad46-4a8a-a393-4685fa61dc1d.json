@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4ccb505d803595f4b2dfe7675c532679127ec7ecad96594249f88bd1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4ccb505d803595f4b2dfe7675c532679127ec7ecad96594249f88bd1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "冬"
@@ -79,11 +87,12 @@
     "question": "日本のニ月は冬ですよ。",
     "answer": "February in Japan is winter.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f3c01939-ad46-4a8a-a393-4685fa61dc1d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

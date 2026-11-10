@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2d0e4c03dfac04b9d30b1b6cfc907133d33c9da7bea2fbf967b952e1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2d0e4c03dfac04b9d30b1b6cfc907133d33c9da7bea2fbf967b952e1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "昭和"
@@ -79,11 +87,12 @@
     "question": "昭和何年生まれですか。",
     "answer": "Which year of Showa were you born in?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ce1e49c8-d7c0-44bf-bd4f-dc0bac22ef0c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

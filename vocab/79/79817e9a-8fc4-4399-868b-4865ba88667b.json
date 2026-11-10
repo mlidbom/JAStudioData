@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-9ce562b7af06678c81be2032a49c16f6bb01692e80d4b654956afab0.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-9ce562b7af06678c81be2032a49c16f6bb01692e80d4b654956afab0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "彼の娘",
@@ -40,8 +46,7 @@
   "sentenceCount": 6,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -65,7 +70,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "79817e9a-8fc4-4399-868b-4865ba88667b",
   "tags": [

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dbdffc3ee4d72a0eebe370cd1b1cc5a46752e3e4fdf6611e0f08d406.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dbdffc3ee4d72a0eebe370cd1b1cc5a46752e3e4fdf6611e0f08d406.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "不明"
@@ -170,11 +178,12 @@
     "question": "私の兄は今どこにいるか不明なんです。",
     "answer": "It's uncertain where my brother is now.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "292989e4-fb40-4fbe-9b4d-404814597cda",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

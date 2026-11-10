@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ae0aff61c31f404d71683f7e6ebdd0b39cdb73ae96906ebeff3a85d4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ae0aff61c31f404d71683f7e6ebdd0b39cdb73ae96906ebeff3a85d4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "腹切り"
@@ -156,11 +164,12 @@
     "question": "侍の腹切りをテーマにした映画は来週公開されます。",
     "answer": "The movie based on samurai harakiri will be released next week.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "379f09eb-c6fc-4747-99c6-8c8cdee5bea4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

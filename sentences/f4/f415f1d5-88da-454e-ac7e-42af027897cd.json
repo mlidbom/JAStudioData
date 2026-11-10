@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ec078fae03c864704831706fd877a6f9888fc84823d8bbe634f71678.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ec078fae03c864704831706fd877a6f9888fc84823d8bbe634f71678.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "氷"
@@ -114,11 +122,12 @@
     "question": "このアイスコーヒー、氷が入ってません。",
     "answer": "This iced coffee does not have ice in it.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f415f1d5-88da-454e-ac7e-42af027897cd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

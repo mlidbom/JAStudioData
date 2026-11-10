@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bb3d6d8bdb04dfb6d970d9eeca3cf935495bf9821ecfa87c288f93ca.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bb3d6d8bdb04dfb6d970d9eeca3cf935495bf9821ecfa87c288f93ca.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "主語"
@@ -121,11 +129,12 @@
     "question": "先週の日本語のクラスで、主語の使い方を学びました。",
     "answer": "I learned how to use subjects in Japanese class last week.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3006c8b3-33be-4848-b79b-4360a485c740",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

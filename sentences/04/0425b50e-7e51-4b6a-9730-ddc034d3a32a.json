@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ee59fe12bfd00392bba562e9e0be93812f639973dc04c29dabef0b76.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ee59fe12bfd00392bba562e9e0be93812f639973dc04c29dabef0b76.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "喜劇"
@@ -149,11 +157,12 @@
     "question": "その映画は悲しすぎて、喜劇というよりは悲劇だ。",
     "answer": "The movie is too sad. It should be called a tragedy, not a comedy.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0425b50e-7e51-4b6a-9730-ddc034d3a32a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

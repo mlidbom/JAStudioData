@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6cd0ffe6e9a1f101744a6e4456380e8c45b57f792a78c4401214e974.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6cd0ffe6e9a1f101744a6e4456380e8c45b57f792a78c4401214e974.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "薬用"
@@ -114,11 +122,12 @@
     "question": "この薬局に、薬用リップクリームはありますか？",
     "answer": "Does this pharmacy have medicinal lip moisturizers?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7a0dcd6f-e37b-489b-b5c1-49cfdb0a6007",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

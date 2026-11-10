@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-484f681aa37bdeeb076e47ea560f26db191a72cf45bbfad21db3b068.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-484f681aa37bdeeb076e47ea560f26db191a72cf45bbfad21db3b068.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "見送る"
@@ -114,11 +122,12 @@
     "question": "見送る方と見送られる方、どっちが良い？",
     "answer": "Which do you like being better? One who sees someone off, or one who is seen off by someone.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cf52102b-7370-44dd-bdbc-758a861f4584",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

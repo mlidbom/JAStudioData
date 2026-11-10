@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-be92c12080833fa502587d217c5eee0d8fedc0f75073a1d2705e9d85.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-be92c12080833fa502587d217c5eee0d8fedc0f75073a1d2705e9d85.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "上"
@@ -79,11 +87,12 @@
     "question": "山の上でヨガをしたいね。",
     "answer": "I want to do yoga on top of a mountain.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ac0bcf3e-15bf-4bce-92be-eb5476783a32",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

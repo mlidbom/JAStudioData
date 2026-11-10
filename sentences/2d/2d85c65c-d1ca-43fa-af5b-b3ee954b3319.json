@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7b6533499fbb55422b947c6c8cfbf5b3a83100d8e605db3bed1f1c40.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7b6533499fbb55422b947c6c8cfbf5b3a83100d8e605db3bed1f1c40.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "劇場"
@@ -121,11 +129,12 @@
     "question": "その映画の劇場公開はいつですか？",
     "answer": "When will the film be released in theaters?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2d85c65c-d1ca-43fa-af5b-b3ee954b3319",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

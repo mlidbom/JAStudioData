@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0b48b077ac93357ac3565a4f8a872dffe119ff951b44a58ba3e1cc45.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0b48b077ac93357ac3565a4f8a872dffe119ff951b44a58ba3e1cc45.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "膝頭"
@@ -135,11 +143,12 @@
     "question": "コウイチが寝ている間に、膝頭に目を書いた。",
     "answer": "While Koichi was sleeping, I drew eyes on his kneecaps.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "aa076063-1735-4c93-9e77-683e66ef3e1e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

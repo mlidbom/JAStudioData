@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d2eb734137b6e85cc65379013d444e1a365ce2af803fb3d312146f37.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d2eb734137b6e85cc65379013d444e1a365ce2af803fb3d312146f37.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "私"
@@ -79,11 +87,12 @@
     "question": "それは、私の生ビールです。",
     "answer": "That's my draft beer.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d4ce92f6-de6f-4bc5-ab5f-afaa6a0de737",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

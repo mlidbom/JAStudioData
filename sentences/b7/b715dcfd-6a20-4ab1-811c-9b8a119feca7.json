@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5d9cb91da0758df2f41092d6db51275cfc12cb43636cf7de659e47aa.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5d9cb91da0758df2f41092d6db51275cfc12cb43636cf7de659e47aa.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "九州"
@@ -114,11 +122,12 @@
     "question": "九州に行ったことはありますか？",
     "answer": "Have you ever been to Kyushu?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b715dcfd-6a20-4ab1-811c-9b8a119feca7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f9170c217d8f2ae96d9a4d550ab95a0d1e246f3c637c2e8f1121fae0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f9170c217d8f2ae96d9a4d550ab95a0d1e246f3c637c2e8f1121fae0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "出かける"
@@ -107,11 +115,12 @@
     "question": "田中さんは、ハワイのハネムーンに出かけましたよ。",
     "answer": "Tanaka-san left for their honeymoon in Hawaii.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "927e0fac-ec11-4de9-99ef-78a2177cbb2f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

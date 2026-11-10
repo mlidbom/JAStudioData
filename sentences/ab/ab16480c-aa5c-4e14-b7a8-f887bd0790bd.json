@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0c1dbaba847502cd66537e01d30f31be5cbaf4698c9a44b5e81b86df.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0c1dbaba847502cd66537e01d30f31be5cbaf4698c9a44b5e81b86df.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "〜君"
@@ -114,11 +122,12 @@
     "question": "マイケル君には兄弟がいません。",
     "answer": "Michael has no brothers.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ab16480c-aa5c-4e14-b7a8-f887bd0790bd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

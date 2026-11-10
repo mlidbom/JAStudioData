@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fe568b684494cb9ae14dc225cf3576a42dfe6a8f8cc42e17a27a4394.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fe568b684494cb9ae14dc225cf3576a42dfe6a8f8cc42e17a27a4394.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "顔面"
@@ -121,11 +129,12 @@
     "question": "どうやら顔面に少しマヒが出ているようですね。",
     "answer": "It appears that there's a slight paralysis in your facial area.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b7c83780-a03c-4ede-9b49-f5f8380e62ac",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

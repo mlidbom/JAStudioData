@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e28eb824a7a1efad5c9318fdb0e43cab60d85a866cb2a637c20afac2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e28eb824a7a1efad5c9318fdb0e43cab60d85a866cb2a637c20afac2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "要る"
@@ -135,11 +143,12 @@
     "question": "これは要る物と要らない物のリストです。",
     "answer": "This is a list of things you need and what you don't need.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d9562411-e93f-4469-9d5b-1dd45d182aff",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

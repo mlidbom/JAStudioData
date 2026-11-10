@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a50f72f1f80030625e4465f104103d63a16bef15b403bba4a186acb6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a50f72f1f80030625e4465f104103d63a16bef15b403bba4a186acb6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "嫌疑"
@@ -226,11 +234,12 @@
     "question": "あの政治家は人身売買に関わっていた嫌疑をかけられています。",
     "answer": "That politician is under suspicion of being involved in human trafficking.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "66bec294-e616-421d-8101-ddc3c16e1d99",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

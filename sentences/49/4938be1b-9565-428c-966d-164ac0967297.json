@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b4e6dce418f3425d41ae9d1733b3b65f1168b94c61444909184240c6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b4e6dce418f3425d41ae9d1733b3b65f1168b94c61444909184240c6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "確認"
@@ -86,11 +94,12 @@
     "question": "そのデータの確認は、ビエトの仕事です。",
     "answer": "Viet is in charge of data verification.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4938be1b-9565-428c-966d-164ac0967297",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

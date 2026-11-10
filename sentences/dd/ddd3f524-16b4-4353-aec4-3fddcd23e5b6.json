@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-42fddb6eb614567c8da95b80beb42fe763c1f78be40095949c3dd3a2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-42fddb6eb614567c8da95b80beb42fe763c1f78be40095949c3dd3a2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "経由"
@@ -170,11 +178,12 @@
     "question": "そのお店なら、大阪経由でも京都経由でも行けますよ。",
     "answer": "If you want to go to that restaurant, you can go there via Osaka or Kyoto.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ddd3f524-16b4-4353-aec4-3fddcd23e5b6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

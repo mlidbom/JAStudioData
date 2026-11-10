@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8c84451fcbe7a112c294b84154c2230000d2535d8d7b130acc531a31.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8c84451fcbe7a112c294b84154c2230000d2535d8d7b130acc531a31.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "留守"
@@ -142,11 +150,12 @@
     "question": "コウイチの家に行ってみたけど、留守でした。",
     "answer": "I visited Koichi's house, but he was not there.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c0b6f49d-12cf-4807-a5d6-ae821965a648",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

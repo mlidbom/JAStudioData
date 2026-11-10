@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-88a141855bf564cf19da05278c009ac300790fa8a4fbad1ec75fdadc.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-88a141855bf564cf19da05278c009ac300790fa8a4fbad1ec75fdadc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "見つけだす",
@@ -44,8 +50,7 @@
   "sentenceCount": 5,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -69,7 +74,9 @@
   "sourceData": {
     "answer": "to{} find-out/discover/locate",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "f1b67bd2-3862-4bcc-9849-0e4914aa20f8",
   "tags": [

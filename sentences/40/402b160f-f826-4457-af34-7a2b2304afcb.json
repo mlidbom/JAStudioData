@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fae5277c9f82109d39f8a15352b06c8029b50dd1890f457e0c18e241.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fae5277c9f82109d39f8a15352b06c8029b50dd1890f457e0c18e241.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "作業"
@@ -142,11 +150,12 @@
     "question": "二人で作業をすると早く終わります。",
     "answer": "When two people work on a task together, it will get done quickly.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "402b160f-f826-4457-af34-7a2b2304afcb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

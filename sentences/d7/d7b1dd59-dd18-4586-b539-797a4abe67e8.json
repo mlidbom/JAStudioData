@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c7d73ac842b082f28c9319ffacc5c813a60e076753ba2bf94317ed1e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c7d73ac842b082f28c9319ffacc5c813a60e076753ba2bf94317ed1e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "証言"
@@ -233,11 +241,12 @@
     "question": "マイケルだけは、コウイチに不利な証言はしたくないと言って、証言しませんでした。",
     "answer": "Only Michael refused because he didn't want to testify against Koichi.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d7b1dd59-dd18-4586-b539-797a4abe67e8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

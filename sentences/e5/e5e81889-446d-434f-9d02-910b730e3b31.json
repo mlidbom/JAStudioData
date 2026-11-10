@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0f00b62e2eff4ae0f68d8f01b22807f621f226cb83619b67a79fdc46.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0f00b62e2eff4ae0f68d8f01b22807f621f226cb83619b67a79fdc46.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "会"
@@ -191,11 +199,12 @@
     "question": "日本では、学校に行くとまずクラスの朝の会があります。",
     "answer": "In Japan, when you go to school, the first thing you do is have a class morning meeting.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e5e81889-446d-434f-9d02-910b730e3b31",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-30bc8b272b3aa65fc336bdfc86e9003492e1c48bc686d4d361b7e73a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-30bc8b272b3aa65fc336bdfc86e9003492e1c48bc686d4d361b7e73a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "検討する"
@@ -114,11 +122,12 @@
     "question": "これについては、まだもう少し検討するつもりです。",
     "answer": "I plan to look into this a little more.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d75d55e2-36a0-424f-8055-742fc40e21da",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

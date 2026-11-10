@@ -32,15 +32,20 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": " [sound:ATTS 気が乗る (azure microsoft server speech text to speech voice (ja-jp daichineural)).mp3]",
-  "audioG": "",
-  "audioTTS": "",
+  "audio": [
+    {
+      "fileName": "ATTS 気が乗る (azure microsoft server speech text to speech voice (ja-jp daichineural)).mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [],
   "sentenceCount": 3,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -64,11 +69,12 @@
   "sourceData": {
     "answer": "to{?}{come-around-to-do/become-inclined-to-do/get-excited-about/take-an-interest}",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "e0c64fec-461d-4b8f-bd1c-ff6380552d76",
   "tags": [
-    "_tts_audio",
     "source::yomitan"
   ]
 }

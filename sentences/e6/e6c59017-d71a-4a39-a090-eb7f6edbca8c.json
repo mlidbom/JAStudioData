@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b6922d005defff69b7e4763d6447683eec624661293cde51cae052fd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b6922d005defff69b7e4763d6447683eec624661293cde51cae052fd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "代える"
@@ -128,11 +136,12 @@
     "question": "牛のミルクをアーモンドミルクに代えて下さい。",
     "answer": "Please substitute cow's milk with almond milk.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e6c59017-d71a-4a39-a090-eb7f6edbca8c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

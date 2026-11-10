@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-64985021bc72fd7aaaf5efffbcd0a62e7b127df6207a0d993fa3a72d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-64985021bc72fd7aaaf5efffbcd0a62e7b127df6207a0d993fa3a72d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "政策"
@@ -212,11 +220,12 @@
     "question": "明日ので委員会では、どんな政策を提案するつもりなんですか？",
     "answer": "What policies are you going to propose to the committee tomorrow?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c2cf94ad-31b7-4c2c-9b9b-f0ae7b30c36d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

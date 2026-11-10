@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8558edff2ac6ac476092bd06f784f1e0fa59e685e81cead97c7ba334.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8558edff2ac6ac476092bd06f784f1e0fa59e685e81cead97c7ba334.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "完成"
@@ -121,11 +129,12 @@
     "question": "完成前に起こしてもらえますか？",
     "answer": "Can you get me up before it's completed?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6b80a775-43b9-44a1-81b5-d9995ae55e2a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

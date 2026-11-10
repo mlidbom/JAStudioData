@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-935f8480cb76e232b521348b8b4e5e0c45f2cc3de77bb4977fffbc4a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-935f8480cb76e232b521348b8b4e5e0c45f2cc3de77bb4977fffbc4a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "綱"
@@ -100,11 +108,12 @@
     "question": "新しい横綱のための綱が出来上がった。",
     "answer": "The sumo belt for a new sumo champion was completed.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "69258c2e-2042-495e-bf7e-6bfd34570ab1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

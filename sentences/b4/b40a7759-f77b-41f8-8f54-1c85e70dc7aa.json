@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b0054166033a1aeb757d60bcc914ab8b1290b7b604ed10e7b98a2efd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b0054166033a1aeb757d60bcc914ab8b1290b7b604ed10e7b98a2efd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "芝草"
@@ -170,11 +178,12 @@
     "question": "この芝草が、芝草クッキーを緑色にしてくれるんです。",
     "answer": "The turf in these turf cookies gives them their green color.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b40a7759-f77b-41f8-8f54-1c85e70dc7aa",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

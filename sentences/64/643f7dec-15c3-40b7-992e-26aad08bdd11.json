@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b1f50d51bce9c9b0831e5338237daa5ed1c4e5649a4f282dd40abd5e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b1f50d51bce9c9b0831e5338237daa5ed1c4e5649a4f282dd40abd5e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -147,11 +155,12 @@
     "question": "コストは日本の人口の大きさに左右されます。",
     "answer": "The cost depends on the size of the Japanese population.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "643f7dec-15c3-40b7-992e-26aad08bdd11",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

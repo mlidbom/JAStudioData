@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-35ebcea84c9d7ef4ee20a4ff6fd3910ec7f065ca775b4a676d335cf4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-35ebcea84c9d7ef4ee20a4ff6fd3910ec7f065ca775b4a676d335cf4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "心得る"
@@ -114,11 +122,12 @@
     "question": "クック船長はクックパッドの使い方をよく心得ている。",
     "answer": "Captain Cook knows how to use Cookpad very well.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4afe21f3-4cf4-4dec-8e9d-56410fcb8c09",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

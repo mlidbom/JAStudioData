@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d195d7e5e4008e21352e3057ce55b1bb0efb3efb69952e02b3be6462.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d195d7e5e4008e21352e3057ce55b1bb0efb3efb69952e02b3be6462.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "納入"
@@ -142,11 +150,12 @@
     "question": "授業料の納入期限はどこに書いてありますか。",
     "answer": "Where is the due date for the tuition payment written?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bdbc5939-7de6-4913-a94b-b24222f1e29e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

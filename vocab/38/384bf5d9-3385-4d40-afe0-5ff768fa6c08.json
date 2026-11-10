@@ -29,9 +29,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-fd3a715662ed6a4892f7bca65d117bab30bdc5a87c0ae39ba54f8fc8.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-fd3a715662ed6a4892f7bca65d117bab30bdc5a87c0ae39ba54f8fc8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "認識をする",
@@ -41,8 +47,7 @@
   "sentenceCount": 3,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -66,7 +71,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "384bf5d9-3385-4d40-afe0-5ff768fa6c08",
   "tags": [

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9d90e011a3690cda7dce268e5176ccf2fba836fd95ecfb4ec9db6dec.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9d90e011a3690cda7dce268e5176ccf2fba836fd95ecfb4ec9db6dec.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -140,11 +148,12 @@
     "question": "え、この絵、一億円もするんですか？",
     "answer": "Wait, does this painting really cost a hundred million yen?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c0cf2567-bc19-4e6e-a7a2-721ecd44e048",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

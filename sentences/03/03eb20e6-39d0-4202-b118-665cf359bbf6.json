@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-484b76b34adee9b704b113470b5e7c9cd32adb454191f9a5c09977ad.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-484b76b34adee9b704b113470b5e7c9cd32adb454191f9a5c09977ad.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "走る"
@@ -170,11 +178,12 @@
     "question": "毎日走って会社に行く人生はもうイヤなんです。",
     "answer": "I can't take a life of having to run to the office every day anymore.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "03eb20e6-39d0-4202-b118-665cf359bbf6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

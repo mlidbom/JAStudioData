@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b3e2b3a02374107abdb5d57d4305fb7d667e5279b480094c1d2150e5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b3e2b3a02374107abdb5d57d4305fb7d667e5279b480094c1d2150e5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "上"
@@ -93,11 +101,12 @@
     "question": "上のフロアにキッチンがあります。",
     "answer": "There is a kitchen on the floor above.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "11bf4b3f-ddf2-4e15-83a7-5c0adf653fed",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

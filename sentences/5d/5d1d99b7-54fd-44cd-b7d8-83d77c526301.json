@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8e0c540affa8d68e5f336dac34e603a24a6630750e8cff6a3bc7f9e2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8e0c540affa8d68e5f336dac34e603a24a6630750e8cff6a3bc7f9e2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "煎茶"
@@ -128,11 +136,12 @@
     "question": "煎茶を入れたので良かったら飲みませんか。",
     "answer": "I made green tea. Would you like some?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5d1d99b7-54fd-44cd-b7d8-83d77c526301",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-42adc7024e13fa8a4f516dd4470e97a87ea7382723721122c1c87967.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-42adc7024e13fa8a4f516dd4470e97a87ea7382723721122c1c87967.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "市営"
@@ -107,11 +115,12 @@
     "question": "今は市営マンションに住んでいます。",
     "answer": "I now live in a municipal apartment.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a2f50416-734a-4e17-b4d5-c65e032a3856",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

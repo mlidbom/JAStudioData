@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dba943bb4d8913740e2c3a1c644a46389f75dcb505033e6ea962ea39.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dba943bb4d8913740e2c3a1c644a46389f75dcb505033e6ea962ea39.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "生まれ"
@@ -93,11 +101,12 @@
     "question": "わたしは日本人ですが、生まれはサンフランシスコです。",
     "answer": "I’m Japanese, but I was born in San Francisco.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8360736a-8cc0-445e-82f0-6458191209ca",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

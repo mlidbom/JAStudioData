@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-41b9943b4c4a01acafcd9e04f0daba7ccfedff0856a1c2dad2f9e3d4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-41b9943b4c4a01acafcd9e04f0daba7ccfedff0856a1c2dad2f9e3d4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "出所"
@@ -93,11 +101,12 @@
     "question": "主人の出所は明日の午前中です。",
     "answer": "My husband is being released tomorrow morning.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5305f013-12a9-4579-bf2f-28c23e79592d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

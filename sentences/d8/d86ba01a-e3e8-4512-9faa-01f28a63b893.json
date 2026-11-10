@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c2266adbfbdabd92af15ce978278c9712db78c22a845923b4dbe52ca.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c2266adbfbdabd92af15ce978278c9712db78c22a845923b4dbe52ca.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大阪"
@@ -72,11 +80,12 @@
     "question": "私は生まれは大阪です。",
     "answer": "I was born in Osaka.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d86ba01a-e3e8-4512-9faa-01f28a63b893",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

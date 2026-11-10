@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-09810909d90763b1f4890f3d16547182a4d2dc09759bf941c9a2fac7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-09810909d90763b1f4890f3d16547182a4d2dc09759bf941c9a2fac7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "略す"
@@ -114,11 +122,12 @@
     "question": "略さずにフルネームを書いてください。",
     "answer": "Please write your full name without abbreviating it.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0ecb1135-22b8-47fc-b7a0-6fa0c476907d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

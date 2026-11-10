@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3ef21da68e0ad0fd52fbcb9518764b2cf28521a8f94a6eae81b79bb3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3ef21da68e0ad0fd52fbcb9518764b2cf28521a8f94a6eae81b79bb3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "失恋"
@@ -86,11 +94,12 @@
     "question": "これは失恋を歌った曲です。",
     "answer": "This is a song about lost love.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "878554e7-829e-4b26-b9f9-cd1f00f845d2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

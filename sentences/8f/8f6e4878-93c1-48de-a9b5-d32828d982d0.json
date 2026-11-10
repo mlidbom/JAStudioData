@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2a71b951df2247c118c8eb1119fdc64e02749563a09d5023549eef53.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2a71b951df2247c118c8eb1119fdc64e02749563a09d5023549eef53.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "洗濯機"
@@ -72,11 +80,12 @@
     "question": "洗濯機が壊れたみたい。",
     "answer": "The washing machine seems to be broken.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8f6e4878-93c1-48de-a9b5-d32828d982d0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b837f076ef0c033498377bd9aec9d0628b39b84aa7cba04ee6916226.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b837f076ef0c033498377bd9aec9d0628b39b84aa7cba04ee6916226.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "気に入る"
@@ -58,11 +66,12 @@
     "question": "あのレストラン気に入った？",
     "answer": "Were you satisfied with that restaurant?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "72ee1cc3-6551-4f05-a219-6c35910376c1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

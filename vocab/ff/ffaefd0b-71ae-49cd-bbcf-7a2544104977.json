@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-ee079d63967423288788c1bbd6f37a6ddfc0e7726ca0f2144cb5a0a4.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-ee079d63967423288788c1bbd6f37a6ddfc0e7726ca0f2144cb5a0a4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "と逢う",
@@ -52,8 +58,7 @@
   "sentenceCount": 17,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -82,7 +87,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "ffaefd0b-71ae-49cd-bbcf-7a2544104977",
   "tags": [

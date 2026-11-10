@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bb7f851d3dc60d030cbbbec20669e3bdeb580b8e5dead29574b27107.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bb7f851d3dc60d030cbbbec20669e3bdeb580b8e5dead29574b27107.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "電車"
@@ -149,11 +157,12 @@
     "question": "朝の電車の時間のスケジュールは、この紙を見て下さい。",
     "answer": "Please look at this paper for a schedule of morning train times.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0b58f2f9-e526-42b1-8c5f-668a195c49e2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

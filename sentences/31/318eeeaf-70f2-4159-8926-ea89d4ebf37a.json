@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7380bf9179eead6ae22f546fc90343ef99f1cb82bf38f38e2936248b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7380bf9179eead6ae22f546fc90343ef99f1cb82bf38f38e2936248b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "球"
@@ -100,11 +108,12 @@
     "question": "ああっ！球がバンカーに入っちゃったよ。",
     "answer": "Dammit! I hit the ball into a bunker.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "318eeeaf-70f2-4159-8926-ea89d4ebf37a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

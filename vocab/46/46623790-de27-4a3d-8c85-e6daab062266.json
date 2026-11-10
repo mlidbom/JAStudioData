@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-5c21dfbb7e93e88e6d62743cf5d1f8b02a3c0370550bcd787b1d4c6d.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-5c21dfbb7e93e88e6d62743cf5d1f8b02a3c0370550bcd787b1d4c6d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "ガッカリする",
@@ -48,8 +54,7 @@
   "sentenceCount": 5,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -73,7 +78,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "46623790-de27-4a3d-8c85-e6daab062266",
   "tags": [

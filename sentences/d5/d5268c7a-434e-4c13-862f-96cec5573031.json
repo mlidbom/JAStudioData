@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-85438ede47860af8734f8c7ea739d8a66f40da3b8468c9e9402379ef.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-85438ede47860af8734f8c7ea739d8a66f40da3b8468c9e9402379ef.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "海岸"
@@ -100,11 +108,12 @@
     "question": "今日は海岸をジョギングしました。",
     "answer": "Today, I jogged at the seashore.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d5268c7a-434e-4c13-862f-96cec5573031",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

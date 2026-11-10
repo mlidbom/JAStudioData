@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3f8641b49f4fb3a2c2d9f2c35483d5b5cf29ed867087bd14068acc43.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3f8641b49f4fb3a2c2d9f2c35483d5b5cf29ed867087bd14068acc43.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "通る"
@@ -100,11 +108,12 @@
     "question": "三丁目のコンビニの前は、毎日通りますよ。",
     "answer": "I pass by the convenience store in 3-chome every day.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0614adf4-fb95-461c-ab38-234d742c4df8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

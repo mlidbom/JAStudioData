@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f03d53feeeac2a623bd9a499d367d87dd88c11bb4747a970eb072de6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f03d53feeeac2a623bd9a499d367d87dd88c11bb4747a970eb072de6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "車庫"
@@ -212,11 +220,12 @@
     "question": "両親の車を車庫に入れる時に、柱にぶつけてしまいました。",
     "answer": "When I was backing my parents’ car into the garage I ran it into a pole.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b372a71a-9288-4ea0-87bc-5d7485bd2117",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cebc97b8d2bcecd8fbe8504abb104759339f3484110e4a44da4b180b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cebc97b8d2bcecd8fbe8504abb104759339f3484110e4a44da4b180b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "情報"
@@ -58,11 +66,12 @@
     "question": "その情報、どこ情報？",
     "answer": "Where is this information from?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9f82b6ba-9a0d-4ed1-be91-84baec97c340",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

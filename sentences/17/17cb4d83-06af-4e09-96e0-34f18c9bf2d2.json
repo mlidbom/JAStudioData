@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-225047ddac475165c48d48f4f12262630ee4a2953702ea17c927634b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-225047ddac475165c48d48f4f12262630ee4a2953702ea17c927634b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "翌日"
@@ -100,11 +108,12 @@
     "question": "列車は翌日平常運転に戻りました。",
     "answer": "The railroad service went back to normal the next day.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "17cb4d83-06af-4e09-96e0-34f18c9bf2d2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

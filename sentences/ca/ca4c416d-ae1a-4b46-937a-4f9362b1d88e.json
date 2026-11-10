@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c3b1dfb253be5a69d16341211b8a7214283cd8ae8a464113bfe721b5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c3b1dfb253be5a69d16341211b8a7214283cd8ae8a464113bfe721b5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "禁煙"
@@ -72,11 +80,12 @@
     "question": "このホテルは、全客室禁煙です。",
     "answer": "All guest rooms at this hotel are non-smoking.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ca4c416d-ae1a-4b46-937a-4f9362b1d88e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

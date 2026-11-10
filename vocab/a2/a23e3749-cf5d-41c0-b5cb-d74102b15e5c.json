@@ -32,9 +32,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-c17249e61e98a1a55c6f20937dfab16fa7068b408fca115cc6c52661.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-c17249e61e98a1a55c6f20937dfab16fa7068b408fca115cc6c52661.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "ばかったものを",
@@ -60,8 +66,7 @@
   "sentenceCount": 7,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {
       "sentenceEnd": "required"
@@ -89,7 +94,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "a23e3749-cf5d-41c0-b5cb-d74102b15e5c",
   "tags": [

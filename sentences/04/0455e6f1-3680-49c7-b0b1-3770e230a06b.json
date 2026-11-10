@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3bbe10fd6f7d7c3f4d0cca855df0aaae941d43cb53ad32ecd19c14fe.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3bbe10fd6f7d7c3f4d0cca855df0aaae941d43cb53ad32ecd19c14fe.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "冷静"
@@ -93,11 +101,12 @@
     "question": "落ち着いて！ちょっと冷静になろう。",
     "answer": "Let's calm down! Let's compose ourselves a bit.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0455e6f1-3680-49c7-b0b1-3770e230a06b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

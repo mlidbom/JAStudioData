@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0ec1e0aa7ce6b1842c1bb9de3257adcfae2aa96b309aa6a1b7936274.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0ec1e0aa7ce6b1842c1bb9de3257adcfae2aa96b309aa6a1b7936274.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "旅行する"
@@ -142,11 +150,12 @@
     "question": "いつ旅行する予定なんですか？",
     "answer": "When are you planning to travel?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c8885722-ca4b-44aa-94a8-5284b95e47ae",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

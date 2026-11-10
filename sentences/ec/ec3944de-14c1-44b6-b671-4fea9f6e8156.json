@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3f87ae40b74e31c6a1e763083d73718fd6d846c7646005c5b9799f8a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3f87ae40b74e31c6a1e763083d73718fd6d846c7646005c5b9799f8a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "電波"
@@ -121,11 +129,12 @@
     "question": "ここに立つとWi-Fiの電波がよく入りますよ。",
     "answer": "If you stand over here, you will get good Wi-Fi signal.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ec3944de-14c1-44b6-b671-4fea9f6e8156",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

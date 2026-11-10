@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-173cb306f8f1736df5c9499b95a722e35d0eb91ee0d72e4fe65df4b9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-173cb306f8f1736df5c9499b95a722e35d0eb91ee0d72e4fe65df4b9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "届く"
@@ -121,11 +129,12 @@
     "question": "トーフグからの手紙がちょうど今届きました。",
     "answer": "The letter from Tofugu was just delivered. ",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3c66389c-44ea-4b63-aa8b-d5c016c2601c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-eb986ddf0188b8f91b7e256c58c70cf1b601759074135dee713b2b94.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-eb986ddf0188b8f91b7e256c58c70cf1b601759074135dee713b2b94.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "男の人"
@@ -79,11 +87,12 @@
     "question": "田中先生は男の人です。",
     "answer": "Tanaka sensei is a man.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5f0a2be8-8289-4914-8253-92e0f059ed08",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

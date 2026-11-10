@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2b49b18569ad86f57f32431cfb68c81020b95bdda36dd8cbdcab0675.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2b49b18569ad86f57f32431cfb68c81020b95bdda36dd8cbdcab0675.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "住人"
@@ -135,11 +143,12 @@
     "question": "２０２号室の住人、有名なマンガ作家らしいよ。",
     "answer": "Apparently, the resident of Room 202 is a famous manga artist.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "af105229-b629-4484-bde4-3a55548bad3e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-75dca04794f9da8cbfd3f4449cf80594582b4f935a5141b2d4430c17.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-75dca04794f9da8cbfd3f4449cf80594582b4f935a5141b2d4430c17.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "二百"
@@ -135,11 +143,12 @@
     "question": "日本で二百センチメートルの人は中々見ません。",
     "answer": "In Japan, we don't see many people who are 200 cm tall.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dc085e65-717e-4620-af26-0ab07071fd43",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dc2f1c1f14b84c551d421ab0338963045888e24743264e4c65a26cdf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dc2f1c1f14b84c551d421ab0338963045888e24743264e4c65a26cdf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "餓死"
@@ -135,11 +143,12 @@
     "question": "警察は、その寝たきりの老人は餓死したと考えている。",
     "answer": "The police think the bedridden old man starved to death.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c4a8c38e-0212-4106-b2c5-a9375ecbd150",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

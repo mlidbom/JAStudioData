@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2566277240c1803adb35b6e66bcdb366b5a4be8cdf17fb7318a3e13f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2566277240c1803adb35b6e66bcdb366b5a4be8cdf17fb7318a3e13f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "軍人"
@@ -156,11 +164,12 @@
     "question": "その戦争では、50万人以上の軍人が命を落としました。",
     "answer": "In that war, over 500,000 servicemen lost their lives.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3bdba2e8-90e8-401a-8ecd-a77e03e2649c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

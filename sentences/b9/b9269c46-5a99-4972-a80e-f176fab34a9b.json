@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-37b369c9ed197378e252ba61fdd00a5bcff14b4b2e4e084404d05652.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-37b369c9ed197378e252ba61fdd00a5bcff14b4b2e4e084404d05652.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "仕組み"
@@ -128,11 +136,12 @@
     "question": "あなたは世の中の仕組みを知っていますか？",
     "answer": "Do you know the inner workings of the world?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b9269c46-5a99-4972-a80e-f176fab34a9b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

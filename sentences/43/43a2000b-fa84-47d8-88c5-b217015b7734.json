@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0a05dee718370a7f17656b7b6043d3b529e1a47ce1b3418a6c349ad0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0a05dee718370a7f17656b7b6043d3b529e1a47ce1b3418a6c349ad0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "勝者"
@@ -93,11 +101,12 @@
     "question": "勝者だけが次のステージにすすめます。",
     "answer": "Only the winner will advance to the next stage.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "43a2000b-fa84-47d8-88c5-b217015b7734",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

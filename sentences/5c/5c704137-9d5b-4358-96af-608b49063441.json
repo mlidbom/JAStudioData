@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ab3ca0a0d72b723cfb0147a89c2f6411df201b01d30af3a9fc439751.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ab3ca0a0d72b723cfb0147a89c2f6411df201b01d30af3a9fc439751.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "患者"
@@ -282,11 +290,12 @@
     "question": "その患者は、左足が麻痺してもなお、サッカー選手になれるという希望に固執していた。",
     "answer": "That patient clung to his dream of being a soccer player even though his left leg was paralyzed.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5c704137-9d5b-4358-96af-608b49063441",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e37e5670d4db665da7924fc34f301247609fb5e18777c1fb1fd7e46c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e37e5670d4db665da7924fc34f301247609fb5e18777c1fb1fd7e46c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "悲しみ"
@@ -107,11 +115,12 @@
     "question": "悲しみを乗りこえるには時間が必要です。",
     "answer": "You need time to overcome the sadness.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4e966d05-2e6f-4b6f-bb03-dc256b53e714",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

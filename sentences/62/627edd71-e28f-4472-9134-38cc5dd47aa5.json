@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4965f65ce8fc27e9972a425a1381374dbc0d877f634fea8a71f52929.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4965f65ce8fc27e9972a425a1381374dbc0d877f634fea8a71f52929.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "本館"
@@ -163,11 +171,12 @@
     "question": "あれ、本館にはどうやって行けばいいんだっけ？",
     "answer": "Oh, I forget, how do I get to the main building?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "627edd71-e28f-4472-9134-38cc5dd47aa5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

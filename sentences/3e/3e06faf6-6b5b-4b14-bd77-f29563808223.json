@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dbfd557e4ef1b92fb29051b6aee8e070aee404048896f2d25d7e2fcd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dbfd557e4ef1b92fb29051b6aee8e070aee404048896f2d25d7e2fcd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "末"
@@ -79,11 +87,12 @@
     "question": "末の妹は、まだ五才です。",
     "answer": "My youngest sister is still five years old.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3e06faf6-6b5b-4b14-bd77-f29563808223",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

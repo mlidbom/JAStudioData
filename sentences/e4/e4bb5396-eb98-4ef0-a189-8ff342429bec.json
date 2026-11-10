@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bc791641d5b1d5aeae4ef5e4390e227e375981d6fb795ea79c24390c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bc791641d5b1d5aeae4ef5e4390e227e375981d6fb795ea79c24390c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "打つ"
@@ -128,11 +136,12 @@
     "question": "今のうちに手を打っておこう。",
     "answer": "Let's take action before it's too late.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e4bb5396-eb98-4ef0-a189-8ff342429bec",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0a2a24f9de6450d0a3cc5857236da969404e9340411ea263d13a54db.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0a2a24f9de6450d0a3cc5857236da969404e9340411ea263d13a54db.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "出口"
@@ -128,11 +136,12 @@
     "question": "そこは出口ではありません。",
     "answer": "That is not an exit.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "79cc07d9-fd37-41e3-b3cc-1500019a6dc7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

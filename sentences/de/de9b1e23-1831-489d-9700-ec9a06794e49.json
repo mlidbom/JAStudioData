@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a0ad710fdef9b8025a6de1a4ed0e4237f9fb2c97ac09ff1d26fe426f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a0ad710fdef9b8025a6de1a4ed0e4237f9fb2c97ac09ff1d26fe426f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "朝"
@@ -107,11 +115,12 @@
     "question": "人気のベーカリーに朝早く行きました。",
     "answer": "I went to a popular bakery early in the morning.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "de9b1e23-1831-489d-9700-ec9a06794e49",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

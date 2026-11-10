@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a9e28af98e5c9175d8bba5deae3275171f91ef0639143ae06a0992fe.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a9e28af98e5c9175d8bba5deae3275171f91ef0639143ae06a0992fe.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "載せる"
@@ -177,11 +185,12 @@
     "question": "このトーフグ人形は、あのたなの上に載せておきますね。",
     "answer": "I'll place this Tofugu doll on top of the shelf, okay?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cc241520-f28f-46f9-a133-6fdeeb38ad40",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

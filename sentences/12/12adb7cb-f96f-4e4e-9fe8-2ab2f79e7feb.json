@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-931bb77a9b9bf34099a877bc6b2fc4f54f2586dffd49b213a96f4e6c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-931bb77a9b9bf34099a877bc6b2fc4f54f2586dffd49b213a96f4e6c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "結局"
@@ -135,11 +143,12 @@
     "question": "結局、彼は試験に合格しませんでした。",
     "answer": "After all, he didn't pass the exam.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "12adb7cb-f96f-4e4e-9fe8-2ab2f79e7feb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

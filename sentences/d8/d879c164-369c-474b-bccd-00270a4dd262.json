@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9cd1a764653db72b8f64944c0402c83f3954778aa46528715b47021a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9cd1a764653db72b8f64944c0402c83f3954778aa46528715b47021a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "石"
@@ -72,11 +80,12 @@
     "question": "これは月の石です。",
     "answer": "This is a moonstone.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d879c164-369c-474b-bccd-00270a4dd262",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

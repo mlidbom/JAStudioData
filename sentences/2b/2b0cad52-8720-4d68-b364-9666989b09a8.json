@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1e924331bf76bd65efdcff785a908c39fc2d3adf10af07746e20a04b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1e924331bf76bd65efdcff785a908c39fc2d3adf10af07746e20a04b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "垣"
@@ -135,11 +143,12 @@
     "question": "城の周りに石や木で強固な垣が築かれた。",
     "answer": "A strong fence of stone and wood was built around the castle.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2b0cad52-8720-4d68-b364-9666989b09a8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

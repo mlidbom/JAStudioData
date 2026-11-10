@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5efddbe696f76a3543313c4ab177bbf5d99979dd3d36845e1238d16d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5efddbe696f76a3543313c4ab177bbf5d99979dd3d36845e1238d16d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "出張"
@@ -79,11 +87,12 @@
     "question": "出張先で、美味しい食べ物を食べた。",
     "answer": "During the business trip, I ate delicious food.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "442d29ab-42fb-4d50-a588-cfb57579988c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

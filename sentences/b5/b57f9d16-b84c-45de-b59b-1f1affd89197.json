@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4bae9a80559a867ac894ffbece7e847529dc855c82b76d1b43926f84.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4bae9a80559a867ac894ffbece7e847529dc855c82b76d1b43926f84.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "揚がる"
@@ -65,11 +73,12 @@
     "question": "唐揚げ揚がったよ！",
     "answer": "The fried chicken (karaage) is fried up! ",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b57f9d16-b84c-45de-b59b-1f1affd89197",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

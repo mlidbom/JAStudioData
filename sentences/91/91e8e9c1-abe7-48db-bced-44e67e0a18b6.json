@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-50d5b8c6e16066f44421cb8dd9a26e5101f77a67739b1d480be0d882.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-50d5b8c6e16066f44421cb8dd9a26e5101f77a67739b1d480be0d882.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お笑い"
@@ -93,11 +101,12 @@
     "question": "私は日本のお笑いが好きです。",
     "answer": "I like Japanese comedy.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "91e8e9c1-abe7-48db-bced-44e67e0a18b6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

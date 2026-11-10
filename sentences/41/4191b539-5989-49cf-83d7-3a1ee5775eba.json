@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5ab43deff5d6a43947af073521f47643534b571bffacee1608cfa8ea.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5ab43deff5d6a43947af073521f47643534b571bffacee1608cfa8ea.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "悩み"
@@ -142,11 +150,12 @@
     "question": "あんたは何の悩みもなさそうでいいよね。",
     "answer": "You seem like you don't have any worries at all, huh? That must be nice.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4191b539-5989-49cf-83d7-3a1ee5775eba",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

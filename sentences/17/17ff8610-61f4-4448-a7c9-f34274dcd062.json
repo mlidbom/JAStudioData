@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-acf56c2bd26662ef3be5beb8599c0dd1660ef5d764fc35967c2a9642.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-acf56c2bd26662ef3be5beb8599c0dd1660ef5d764fc35967c2a9642.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "五十音順"
@@ -163,11 +171,12 @@
     "question": "僕の名前は、五十音順だといつも一番最初になります。",
     "answer": "My name is always first in aiueo order.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "17ff8610-61f4-4448-a7c9-f34274dcd062",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

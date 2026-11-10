@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-40d48610cbb8ace4c8f7a7311ce8f1157db3fd15c7a86d61746ac5d5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-40d48610cbb8ace4c8f7a7311ce8f1157db3fd15c7a86d61746ac5d5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "恐れる"
@@ -163,11 +171,12 @@
     "question": "失敗を恐れてばかりいては前に進めないよ。",
     "answer": "You can't move forward if you always fear failure.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dbbd8c5b-1619-4e4f-8e33-f5511101994c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

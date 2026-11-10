@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bde7d35b28523c61267c834227c5f60387b0230f798a0c67d937dcce.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bde7d35b28523c61267c834227c5f60387b0230f798a0c67d937dcce.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "地下鉄"
@@ -177,11 +185,12 @@
     "question": "私は「東京メトロ」という地下鉄を使って大学へ行っていました。",
     "answer": "I went to college using a subway called \"Tokyo Metro.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "49ea84cc-e4cf-462e-845c-b3af25735eb1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

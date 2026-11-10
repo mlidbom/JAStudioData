@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b6c716d3981d4a00df2b72f060b942556b239cae8765fa9c9f94087c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b6c716d3981d4a00df2b72f060b942556b239cae8765fa9c9f94087c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "縦書"
@@ -114,11 +122,12 @@
     "question": "文章を縦書にしたいんです。",
     "answer": "I want to write compositions using vertical style writing.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0754b77b-13ed-4af1-a866-e2e68fb14fad",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

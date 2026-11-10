@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d575486446bbe6c59ebaa1e906fdc2df560e444922d6a97c6e0f00f5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d575486446bbe6c59ebaa1e906fdc2df560e444922d6a97c6e0f00f5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "千円"
@@ -149,11 +157,12 @@
     "question": "千円のランチセットにはデザートがついてますか？",
     "answer": "Does the thousand-yen lunch set come with dessert?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "23ae053d-fa12-4d58-a03f-b5e6f3ada468",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

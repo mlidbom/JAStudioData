@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cbe6c474d55a6c72fb4ad837aa1f4cbab5262b47dd4e306051369d47.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cbe6c474d55a6c72fb4ad837aa1f4cbab5262b47dd4e306051369d47.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お疲れ様"
@@ -51,11 +59,12 @@
     "question": "お疲れ様！よくがんばったね。",
     "answer": "Good job! You worked hard.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f151c57a-00d2-481f-aae8-5be2f2ae9e95",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

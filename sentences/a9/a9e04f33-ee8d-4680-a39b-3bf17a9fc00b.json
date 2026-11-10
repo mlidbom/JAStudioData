@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-53ed6c2f605a82d25118e1aff80a2e66a2bac9159141db6f86179519.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-53ed6c2f605a82d25118e1aff80a2e66a2bac9159141db6f86179519.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "約束する"
@@ -149,11 +157,12 @@
     "question": "ゼッタイに誰にも言わないって、約束してくれる？",
     "answer": "Can you promise that you won't tell this to anybody else?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a9e04f33-ee8d-4680-a39b-3bf17a9fc00b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

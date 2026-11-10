@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7bf52dcf3b75e42a1e5b3067305ada2f70f825b8cf1950a415ef6231.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7bf52dcf3b75e42a1e5b3067305ada2f70f825b8cf1950a415ef6231.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "兄"
@@ -86,11 +94,12 @@
     "question": "兄の車でアトランタまで行きました。",
     "answer": "I drove my brother's car to Atlanta.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "29b14cb0-c9f6-4145-a753-4341db4494d7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

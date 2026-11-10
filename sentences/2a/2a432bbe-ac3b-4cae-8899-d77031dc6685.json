@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ec092b08eb6a8ee11e5847f9a89f0cc56143ebe26371b42e328bb600.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ec092b08eb6a8ee11e5847f9a89f0cc56143ebe26371b42e328bb600.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "忙しい"
@@ -128,11 +136,12 @@
     "question": "忙しすぎて、頭がクラクラしています。",
     "answer": "I'm so busy that my head is spinning.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2a432bbe-ac3b-4cae-8899-d77031dc6685",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

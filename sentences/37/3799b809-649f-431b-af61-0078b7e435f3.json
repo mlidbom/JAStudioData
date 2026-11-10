@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-347b5fed619806bc454c2e8d44bde2089dc04832cccada29daffec8e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-347b5fed619806bc454c2e8d44bde2089dc04832cccada29daffec8e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "橋"
@@ -93,11 +101,12 @@
     "question": "これは何という橋ですか？",
     "answer": "What is this bridge called?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3799b809-649f-431b-af61-0078b7e435f3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

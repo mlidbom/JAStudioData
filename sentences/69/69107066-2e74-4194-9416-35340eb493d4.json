@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2e6d7b2f8b33344a737699d1ea0b95cc1ec1ffff35f1218f57fb386a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2e6d7b2f8b33344a737699d1ea0b95cc1ec1ffff35f1218f57fb386a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "賃貸"
@@ -219,11 +227,12 @@
     "question": "友人が賃貸のアパートを探してるんですが、どこかいい物件を知りませんかね。",
     "answer": "My friend is looking for an apartment to rent, don’t you know any good places?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "69107066-2e74-4194-9416-35340eb493d4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b1114b5866a42266fafc7c40d03d70bb97145ba5b3921d34247ebb24.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b1114b5866a42266fafc7c40d03d70bb97145ba5b3921d34247ebb24.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "選挙する"
@@ -149,11 +157,12 @@
     "question": "トーフグの会長を毎年選挙しています。",
     "answer": "We elect a Tofugu Chairman every year.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3ae1d864-0a13-41da-bbbf-ec7d4d417a9a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e47bce780487f6e556d89049f1ad9c6d7a594df1e105962b4042e35d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e47bce780487f6e556d89049f1ad9c6d7a594df1e105962b4042e35d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "風邪"
@@ -163,11 +171,12 @@
     "question": "「なんで母親の葬式に来ないの？」「風邪ひいてるからだよ。」",
     "answer": "\"Why aren’t you coming to your mom’s funeral?\" \"’Cause I caught a cold.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "05ed0fff-be3a-47a9-878b-3d10db414650",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

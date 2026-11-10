@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-46d4e0eb76147a891ccba0be5da6fdf586d5bfc16e2e520326964592.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-46d4e0eb76147a891ccba0be5da6fdf586d5bfc16e2e520326964592.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "南緯"
@@ -275,11 +283,12 @@
     "question": "理論上は、南緯45度が南極点から赤道までの距離の中間地点であるとされる。",
     "answer": "Theoretically, 45 degrees south is considered to be middle point between the South Pole and the equator.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "652f35ff-43e9-493d-b9d4-4a9dd678152d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

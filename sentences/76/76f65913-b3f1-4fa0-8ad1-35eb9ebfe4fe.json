@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a9c1cffdb2fb66adc207682a82552bfb399654ede431cc3196e2ba97.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a9c1cffdb2fb66adc207682a82552bfb399654ede431cc3196e2ba97.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一冊"
@@ -261,11 +269,12 @@
     "question": "あなたのために旅の間に読める本を一冊買っておいたの。タイトルは『地図』よ。",
     "answer": "I bought you a book to read during your trip. The title is \"Map.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "76f65913-b3f1-4fa0-8ad1-35eb9ebfe4fe",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

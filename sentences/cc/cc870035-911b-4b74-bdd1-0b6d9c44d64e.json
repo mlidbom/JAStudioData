@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2bb97005bcd13a05c87578b2f1f97e155d59d94abd8a2cb8f9c01c16.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2bb97005bcd13a05c87578b2f1f97e155d59d94abd8a2cb8f9c01c16.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "殺虫剤"
@@ -114,11 +122,12 @@
     "question": "殺虫剤は人体に入ると危険です。",
     "answer": "Pesticides are dangerous if they enter the human body.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cc870035-911b-4b74-bdd1-0b6d9c44d64e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

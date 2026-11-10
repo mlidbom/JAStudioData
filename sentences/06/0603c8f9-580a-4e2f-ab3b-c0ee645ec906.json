@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-50e01f4e4a461290e7ddcf71dd65bce6b4ae376a7fe283b72c9ce363.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-50e01f4e4a461290e7ddcf71dd65bce6b4ae376a7fe283b72c9ce363.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "印"
@@ -93,11 +101,12 @@
     "question": "友情の印にこれをあげるよ。",
     "answer": "As a token of our friendship, I give you this.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0603c8f9-580a-4e2f-ab3b-c0ee645ec906",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

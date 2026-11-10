@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-103e159a4d102290c1edb8d10c14eb16c1e66b1ca8307000d33eb2a3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-103e159a4d102290c1edb8d10c14eb16c1e66b1ca8307000d33eb2a3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "実験"
@@ -205,11 +213,12 @@
     "question": "実験を行う時は、安全のために必ずヘルメットをして下さい。",
     "answer": "When conducting an experiment, be sure to wear a helmet for safety.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f2cce9e9-b3f0-407b-82ba-257a98da1479",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

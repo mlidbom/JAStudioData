@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8ce8047591bcc94001b121ff69bb003851b8f1de13f3d15da442d541.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8ce8047591bcc94001b121ff69bb003851b8f1de13f3d15da442d541.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "不正"
@@ -65,11 +73,12 @@
     "question": "これは不正サイトです。",
     "answer": "This is an unauthorized site.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b08c91a5-a565-4523-a6bc-ea82ade4feca",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

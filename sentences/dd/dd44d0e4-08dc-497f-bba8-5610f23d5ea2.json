@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ea8be269525ec12286fa80d0d07c3323cfc96200de42a9b4fba424c1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ea8be269525ec12286fa80d0d07c3323cfc96200de42a9b4fba424c1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "備蓄"
@@ -240,11 +248,12 @@
     "question": "ひどい霜で穀物が全部やられてしまった。今年は穀物の備蓄は出来ないかもしれないな。",
     "answer": "The grains was all damaged by the heavy frost. I don't think we'll be able to stockpile grain this year.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dd44d0e4-08dc-497f-bba8-5610f23d5ea2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

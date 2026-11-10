@@ -20,15 +20,20 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": " [sound:ATTS へと (azure microsoft server speech text to speech voice (ja-jp daichineural)).mp3]",
-  "audioG": "",
-  "audioTTS": "",
+  "audio": [
+    {
+      "fileName": "ATTS へと (azure microsoft server speech text to speech voice (ja-jp daichineural)).mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [],
   "sentenceCount": 19,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -52,11 +57,12 @@
   "sourceData": {
     "answer": "to/towards/for",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "bb232bd0-14f9-40c9-9724-97e5154a5d3c",
   "tags": [
-    "_tts_audio",
     "source::yomitan"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bb1904ecc616d277a655a581966f1dc1ecc703ac2556a6d410633c44.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bb1904ecc616d277a655a581966f1dc1ecc703ac2556a6d410633c44.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "アメリカ人"
@@ -65,11 +73,12 @@
     "question": "アメリカ人ですか？",
     "answer": "Are you American?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9b31561e-4b3d-496b-9c23-48d39e1f09ce",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

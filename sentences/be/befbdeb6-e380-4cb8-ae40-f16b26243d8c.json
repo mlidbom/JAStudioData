@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-66c58cf64f76eece7e41ce00e822f4b2dc12d6f6c68095b74b3c3ea6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-66c58cf64f76eece7e41ce00e822f4b2dc12d6f6c68095b74b3c3ea6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "昨年"
@@ -156,11 +164,12 @@
     "question": "この二十四時間スーパーは、昨年オープンしました。",
     "answer": "This 24-hour supermarket was opened last year.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "befbdeb6-e380-4cb8-ae40-f16b26243d8c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

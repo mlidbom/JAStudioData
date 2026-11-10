@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-324a2d413b2f6de8321fcbd2a3988883bd083ce82aa036aae0c4286c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-324a2d413b2f6de8321fcbd2a3988883bd083ce82aa036aae0c4286c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "重ねる"
@@ -163,11 +171,12 @@
     "question": "答えのないことにディスカッションを重ねるのってムダじゃないですか？",
     "answer": "Isn't it a waste of time to have a bunch of discussions about things that don't have answers?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "06d0de77-de64-4c32-803c-e9f1a2a7fe88",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

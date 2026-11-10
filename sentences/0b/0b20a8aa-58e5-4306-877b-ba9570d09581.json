@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-85f02d097a5c225fbe89cf445b450e90d8b7e13bbc614b79c25595ed.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-85f02d097a5c225fbe89cf445b450e90d8b7e13bbc614b79c25595ed.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "回答"
@@ -121,11 +129,12 @@
     "question": "アンケートへのご回答、ありがとうございました。",
     "answer": "Thank you for your response to the survey.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0b20a8aa-58e5-4306-877b-ba9570d09581",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

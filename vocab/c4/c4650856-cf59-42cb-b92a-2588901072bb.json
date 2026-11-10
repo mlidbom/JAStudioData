@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-ed1e8b255e39d0ae9699eaff3fc31eca56c759cbb83239037982fa9a.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-ed1e8b255e39d0ae9699eaff3fc31eca56c759cbb83239037982fa9a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "インド・カレー",
@@ -40,8 +46,7 @@
   "sentenceCount": 1,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -65,7 +70,9 @@
   "sourceData": {
     "answer": "Indian-curry",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "c4650856-cf59-42cb-b92a-2588901072bb",
   "tags": [

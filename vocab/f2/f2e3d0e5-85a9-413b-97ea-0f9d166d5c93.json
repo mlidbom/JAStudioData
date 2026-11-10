@@ -24,9 +24,15 @@
   "partsOfSpeech": [],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-f85031833379439208af61edb43731c39bd1a2a8bd3f3071f1e1d6b5.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-f85031833379439208af61edb43731c39bd1a2a8bd3f3071f1e1d6b5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "わるければ",
@@ -36,8 +42,7 @@
   "sentenceCount": 1,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -61,7 +66,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "f2e3d0e5-85a9-413b-97ea-0f9d166d5c93",
   "tags": [

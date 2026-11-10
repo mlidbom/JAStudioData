@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ac12af7524a5a1a1dfe6f4f5910fd567d81def7e1fb65ce35be3e89a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ac12af7524a5a1a1dfe6f4f5910fd567d81def7e1fb65ce35be3e89a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "刺身"
@@ -86,11 +94,12 @@
     "question": "刺身をスーパーで買ってきて！",
     "answer": "Go get some sashimi from the supermarket!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "56390a30-c8cb-458a-9fe3-bb62d698a92b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8af7617e87d4f326631955b67ac46194f8bf5c0fbf2e95494c33d621.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8af7617e87d4f326631955b67ac46194f8bf5c0fbf2e95494c33d621.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "造る"
@@ -233,11 +241,12 @@
     "question": "僕は建造物を造るのに使われる重機が好きなんですよ。",
     "answer": "I like heavy machinery used to build structures.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3e13ce72-8549-43b8-9cc7-fa01739b75c5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

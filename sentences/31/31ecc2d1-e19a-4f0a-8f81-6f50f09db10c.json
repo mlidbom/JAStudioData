@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a99cc8e01db2a8553534d7243208eaebab45a3af4d8ddc685f2aa669.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a99cc8e01db2a8553534d7243208eaebab45a3af4d8ddc685f2aa669.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "房"
@@ -114,11 +122,12 @@
     "question": "このブドウ、三房で298円だったんですよ。",
     "answer": "These grapes were 298 yen for three bunches.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "31ecc2d1-e19a-4f0a-8f81-6f50f09db10c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

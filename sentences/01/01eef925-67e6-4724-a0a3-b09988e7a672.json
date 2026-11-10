@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a50c477cc3d73c69a15fbf5b2437cf87fe0bb78f10d3aa71874152e0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a50c477cc3d73c69a15fbf5b2437cf87fe0bb78f10d3aa71874152e0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "瀬"
@@ -303,11 +311,12 @@
     "question": "「沈む瀬あれば浮かぶ瀬あり」なんていう言い回しがあるのは知ってるけど、今はマジで沈んでるわ。",
     "answer": "I know there’s a saying, \"life has its ups and its downs,\" but right now I’m really down.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "01eef925-67e6-4724-a0a3-b09988e7a672",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0448b4b7c7253666b8a004f71cb76948e411c275c83f7e75eab0e995.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0448b4b7c7253666b8a004f71cb76948e411c275c83f7e75eab0e995.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "市"
@@ -100,11 +108,12 @@
     "question": "マニラ市の人口はどのくらいですか？",
     "answer": "What is the population of Manila City?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "be77012a-f299-4edc-a6b7-a98014a04dd4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

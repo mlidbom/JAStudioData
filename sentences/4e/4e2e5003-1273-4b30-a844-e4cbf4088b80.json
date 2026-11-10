@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ba9b94647c8f279c6ede74a9a24b149f527e87460ddf293fd16298df.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ba9b94647c8f279c6ede74a9a24b149f527e87460ddf293fd16298df.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "東"
@@ -107,11 +115,12 @@
     "question": "それでは、東の方を向いて下さい。",
     "answer": "Then, please turn to the east.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4e2e5003-1273-4b30-a844-e4cbf4088b80",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

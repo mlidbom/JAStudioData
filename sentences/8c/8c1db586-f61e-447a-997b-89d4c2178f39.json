@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e03a8760390b3cad028a8c86f3914132361ec38f7db60d6a917c5cfa.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e03a8760390b3cad028a8c86f3914132361ec38f7db60d6a917c5cfa.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "心理"
@@ -93,11 +101,12 @@
     "question": "母の心理が、どうしても分からない。",
     "answer": "I never understand my mother's mentality.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8c1db586-f61e-447a-997b-89d4c2178f39",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

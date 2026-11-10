@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7ba55bca58a0799f1124504b86255ba39c6d21fdd075c913b68ca395.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7ba55bca58a0799f1124504b86255ba39c6d21fdd075c913b68ca395.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "衣服"
@@ -107,11 +115,12 @@
     "question": "脱いだ衣服はこちらにおいてください。",
     "answer": "Please put the clothes you've taken off here.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1ebf9db5-792a-4baa-ab34-61346598d4a9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

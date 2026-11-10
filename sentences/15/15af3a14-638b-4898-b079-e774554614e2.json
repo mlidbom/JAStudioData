@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-67c778cee1b26080a70d1c6c90aa49dbcd8a1b80d0ab9edad773c32b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-67c778cee1b26080a70d1c6c90aa49dbcd8a1b80d0ab9edad773c32b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "消しゴム"
@@ -86,11 +94,12 @@
     "question": "日本の消しゴムはクオリティがすごく高い。",
     "answer": "Japanese erasers have incredibly high quality.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "15af3a14-638b-4898-b079-e774554614e2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

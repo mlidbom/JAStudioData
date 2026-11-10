@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4ba82ccc79c4ce86a5c0f39c2ae0c1c0045f7edc91172b921403c5f8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4ba82ccc79c4ce86a5c0f39c2ae0c1c0045f7edc91172b921403c5f8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "七"
@@ -107,11 +115,12 @@
     "question": "このパスタは、たったの七ステップでできますよ。",
     "answer": "You can make this pasta in just seven steps.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f2761f4e-f527-434c-868f-988eaf984913",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

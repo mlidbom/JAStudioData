@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-71e68e23083f1ef73e73861d2704396927e5bfd24123bd01f9cee82f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-71e68e23083f1ef73e73861d2704396927e5bfd24123bd01f9cee82f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "米"
@@ -72,11 +80,12 @@
     "question": "これはカリフォルニアの米です。",
     "answer": "This is rice from California.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "580018b9-9809-4d98-acea-3ad00fbeb5b2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

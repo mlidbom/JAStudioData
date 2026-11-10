@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0a11a5d2fd01c9e3eedd9c5ad5247182f2912a853679f8fe6f96cd88.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0a11a5d2fd01c9e3eedd9c5ad5247182f2912a853679f8fe6f96cd88.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "喧しい"
@@ -44,11 +52,12 @@
     "question": "「ああ、喧しい！だまれ！」",
     "answer": "\"Ahh, so loud. Shut up!\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7f00482b-5cd3-4616-a8a4-32d52558290d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

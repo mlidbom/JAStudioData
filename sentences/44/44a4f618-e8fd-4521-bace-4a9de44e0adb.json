@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5b66fa6946eb8b59891623487da9cd909fdaa8f1c6258bccb9466b0e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5b66fa6946eb8b59891623487da9cd909fdaa8f1c6258bccb9466b0e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "供える"
@@ -149,11 +157,12 @@
     "question": "月見だんごを供える方法を教えてください。",
     "answer": "Please tell me how to offer moon-viewing dango.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "44a4f618-e8fd-4521-bace-4a9de44e0adb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

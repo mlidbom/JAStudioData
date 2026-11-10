@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-06cb4eb86df84ddc55b71987771395c657858aaa7d74601fd0bce6a0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-06cb4eb86df84ddc55b71987771395c657858aaa7d74601fd0bce6a0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "無くなる"
@@ -72,11 +80,12 @@
     "question": "あ、トイレットペーパー、もうすぐ無くなるよ。",
     "answer": "Oh, our toilet paper is almost gone.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bd38b7b4-83f9-4a9f-a77b-e60ab3294dee",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

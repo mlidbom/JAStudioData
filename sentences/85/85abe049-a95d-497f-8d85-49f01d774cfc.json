@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4f979ea9baf81bccfce103261174636c46203c01a62e8f35ed4c3fcb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4f979ea9baf81bccfce103261174636c46203c01a62e8f35ed4c3fcb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "缶コーヒー"
@@ -156,11 +164,12 @@
     "question": "彼らは、とても美味い缶コーヒーを販売して、大儲けしている。",
     "answer": "They’re making a killing selling delicious canned coffee.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "85abe049-a95d-497f-8d85-49f01d774cfc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

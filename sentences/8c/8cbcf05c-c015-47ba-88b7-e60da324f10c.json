@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d4ee529d6d35d402628b3525dff86aba7b0249185e40f12bf5ec62a1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d4ee529d6d35d402628b3525dff86aba7b0249185e40f12bf5ec62a1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "冷たい"
@@ -205,11 +213,12 @@
     "question": "冷たいことを言うようですが、こちらも上からの締めつけがきびしくて色々と難しいんです。",
     "answer": "I may sound cold, but I'm under tight control from above, and that makes many things difficult.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8cbcf05c-c015-47ba-88b7-e60da324f10c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

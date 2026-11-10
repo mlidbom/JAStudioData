@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0b7793510c3a3710cce44e0107af29417de3e6f17f85ad87ff1331ca.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0b7793510c3a3710cce44e0107af29417de3e6f17f85ad87ff1331ca.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "私大"
@@ -79,11 +87,12 @@
     "question": "私大は入学にお金がかかります。",
     "answer": "It costs money to enroll in a private university.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c8136024-f4ed-46fe-96bf-60493663669e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

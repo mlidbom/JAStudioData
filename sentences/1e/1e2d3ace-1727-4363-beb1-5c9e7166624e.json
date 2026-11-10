@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9e49b29b690b076edaaf656bf484c2a80a9300eaa20be88306776f27.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9e49b29b690b076edaaf656bf484c2a80a9300eaa20be88306776f27.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "保護する"
@@ -198,11 +206,12 @@
     "question": "警察は新宿駅近辺を一人で歩いていた少女を保護した。",
     "answer": "The police took the girl who was wandering by herself near Shinjuku Station into protective custody.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1e2d3ace-1727-4363-beb1-5c9e7166624e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

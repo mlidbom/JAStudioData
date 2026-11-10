@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ea428fc30dc9a0424ebd645ac8c43e136c23d9258c77a28c171d216f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ea428fc30dc9a0424ebd645ac8c43e136c23d9258c77a28c171d216f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "気分"
@@ -72,11 +80,12 @@
     "question": "なんとなくピクニックに出かけたい気分です。",
     "answer": "I feel like going on a picnic now.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bcadd369-b024-4e0a-8f4b-332fcd4ec132",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

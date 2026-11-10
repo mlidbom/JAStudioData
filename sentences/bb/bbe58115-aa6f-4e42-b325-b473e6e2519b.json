@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a571c06e255fb836ed94b1ee562b87ea271a75d2f7084f5e2bf4c623.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a571c06e255fb836ed94b1ee562b87ea271a75d2f7084f5e2bf4c623.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "警察"
@@ -107,11 +115,12 @@
     "question": "きっと警察は助けてくれません。",
     "answer": "I am sure the police will not help me.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bbe58115-aa6f-4e42-b325-b473e6e2519b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

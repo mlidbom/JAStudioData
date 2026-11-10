@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dbf70f6a62486e2fbcc832a7e35168d068c7f03aa61d25fe5ae8a23c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dbf70f6a62486e2fbcc832a7e35168d068c7f03aa61d25fe5ae8a23c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "都市"
@@ -128,11 +136,12 @@
     "question": "都市にはたくさんの人が住んでいます。",
     "answer": "A lot of people live in the city.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d3139ccd-6478-49a8-baea-db87bd055a0c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

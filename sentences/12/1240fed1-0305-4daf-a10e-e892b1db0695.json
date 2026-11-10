@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ac60b81be0b04b14b96a10872ecc2661f1cc8abab6ba04def4d25359.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ac60b81be0b04b14b96a10872ecc2661f1cc8abab6ba04def4d25359.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "割り勘"
@@ -247,11 +255,12 @@
     "question": "私は下戸でお酒を飲まないので、お酒のお勘定は割り勘じゃない方が嬉しいんですが。",
     "answer": "I can’t drink because I get drunk easily, so it would be nice if we didn’t split the alcohol bill.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1240fed1-0305-4daf-a10e-e892b1db0695",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

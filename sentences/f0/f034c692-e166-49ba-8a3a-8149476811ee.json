@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d5af3952874ee13a88a6a002961fcb7f440a1465fefce4cc8f612048.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d5af3952874ee13a88a6a002961fcb7f440a1465fefce4cc8f612048.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "美味しい"
@@ -86,11 +94,12 @@
     "question": "そのベーカリーのクロワッサンは、とても美味しかったです。",
     "answer": "The croissants from that bakery were delicious.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f034c692-e166-49ba-8a3a-8149476811ee",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

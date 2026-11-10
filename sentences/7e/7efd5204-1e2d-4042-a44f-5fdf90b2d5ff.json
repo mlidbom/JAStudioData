@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-44c76586be6e9e82b7241ff9b322538e4c239c7098f87e46962990e1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-44c76586be6e9e82b7241ff9b322538e4c239c7098f87e46962990e1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "枠"
@@ -107,11 +115,12 @@
     "question": "窓枠を木からステンレスのものに取り替えたい。",
     "answer": "I want to exchange the window frames from wood to stainless steel.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7efd5204-1e2d-4042-a44f-5fdf90b2d5ff",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

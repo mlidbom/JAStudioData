@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2a13fbe930e3f5437870ca22c2aa704686b7b2ed1b1c46e044873b07.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2a13fbe930e3f5437870ca22c2aa704686b7b2ed1b1c46e044873b07.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "軍"
@@ -86,11 +94,12 @@
     "question": "どう、軍の生活は？トレーニングはやっぱり大変？",
     "answer": "How's life in the military? Is training hard?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "459bc8e0-9c9f-4fb8-bc2e-3b90899ebc09",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0cfa9b3342bcd4d80a02bd60cdf29edca817816e60dc573e4088f54c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0cfa9b3342bcd4d80a02bd60cdf29edca817816e60dc573e4088f54c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "負け犬"
@@ -205,11 +213,12 @@
     "question": "負け犬と呼ばれるのは、もう嫌なんだよ。",
     "answer": "I don't want to be called a loser anymore.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "19767f14-9a33-4706-bdcc-406d5133616c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

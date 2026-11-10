@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8822c0cb01e3c5493dfb03a04c6f25774cc7c4ca504e7c714966e4f5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8822c0cb01e3c5493dfb03a04c6f25774cc7c4ca504e7c714966e4f5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "首相"
@@ -100,11 +108,12 @@
     "question": "昨日の首相の発言について、どう思いますか？",
     "answer": "What do you think about the Prime Minister's remarks yesterday?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dd656eb3-3e25-4663-9ce1-91caefdde299",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

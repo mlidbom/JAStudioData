@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1e90a6726da5bd993aa4c78058716f2deaa5a7deab6e8cbe7a496912.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1e90a6726da5bd993aa4c78058716f2deaa5a7deab6e8cbe7a496912.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "僕"
@@ -86,11 +94,12 @@
     "question": "僕と一緒に行きましょう。",
     "answer": "Come with me.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "44a7e133-81a3-4c2c-94db-af4994cbec10",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

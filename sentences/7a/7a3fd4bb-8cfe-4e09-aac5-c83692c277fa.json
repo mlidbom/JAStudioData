@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b8fe3c1e7bac2d083ca3baff94025cb4d206b9c445de502dcfa4e130.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b8fe3c1e7bac2d083ca3baff94025cb4d206b9c445de502dcfa4e130.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "話"
@@ -86,11 +94,12 @@
     "question": "また日本のトイレの話ですか？",
     "answer": "A talk about Japanese toilets again?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7a3fd4bb-8cfe-4e09-aac5-c83692c277fa",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4e7cc33c5eaacc1fce0845d8e89991cddba9623f5df4a20d11f698b3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4e7cc33c5eaacc1fce0845d8e89991cddba9623f5df4a20d11f698b3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "利息"
@@ -128,11 +136,12 @@
     "question": "すぐに利息が大きくなってしまった。",
     "answer": "The interest grew soon after.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6c36610a-e9d3-4d76-8f42-b52ec63916a4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

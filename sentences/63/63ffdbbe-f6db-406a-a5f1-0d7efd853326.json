@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6902e7a11fc78be8f3b08441d7ce6546b2fc90cfb3cd60598eb09b2a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6902e7a11fc78be8f3b08441d7ce6546b2fc90cfb3cd60598eb09b2a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "列"
@@ -114,11 +122,12 @@
     "question": "チケットを買うために列にならびました。",
     "answer": "I stood in line to buy tickets.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "63ffdbbe-f6db-406a-a5f1-0d7efd853326",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

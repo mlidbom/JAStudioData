@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-15e2a5968298cba6dfe63668ee2e8212adceb4a62f65d09281f0dac3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-15e2a5968298cba6dfe63668ee2e8212adceb4a62f65d09281f0dac3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "両腕"
@@ -142,11 +150,12 @@
     "question": "次は両腕を交差させてください。",
     "answer": " Next, please cross one arm over the other.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "07dc0675-f3ba-4ff9-9c4e-3f557aeb0db2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d4ecbcf86198364b89f05f1c981f41fc24584579dee6a21eaa622e01.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d4ecbcf86198364b89f05f1c981f41fc24584579dee6a21eaa622e01.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "浜辺"
@@ -86,11 +94,12 @@
     "question": "ちょっと浜辺を歩きませんか？",
     "answer": "Shall we take a walk on the beach?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "442b0364-8bd4-4bbe-a2e4-193bf99b3633",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

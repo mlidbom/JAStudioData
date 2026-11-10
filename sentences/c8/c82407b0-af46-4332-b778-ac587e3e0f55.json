@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-081b9ee57c5dd2d9fbf0bd17d1387f5551fc317b698ec9f03ae77ed2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-081b9ee57c5dd2d9fbf0bd17d1387f5551fc317b698ec9f03ae77ed2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "規則正しい"
@@ -163,11 +171,12 @@
     "question": "早寝早起きの規則正しい生活を送るよう、心がけてください。",
     "answer": "Please try to maintain a disciplined and orderly lifestyle by following a regular pattern of going to bed and waking up early.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c82407b0-af46-4332-b778-ac587e3e0f55",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

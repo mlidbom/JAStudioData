@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-820d77127602108a9d7d3f0b7711d0606d86c13fc1a8fc51f81fdf87.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-820d77127602108a9d7d3f0b7711d0606d86c13fc1a8fc51f81fdf87.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "許す"
@@ -107,11 +115,12 @@
     "question": "誰がそんなヒドイこと言ったの？許せない！",
     "answer": "Who said such awful things? It is unforgivable!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8a57e5f0-1609-40b9-8ec7-b4d956096402",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

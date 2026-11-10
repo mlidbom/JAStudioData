@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-9e1f7e006fd5fc5522864406fab8c3abef4f57785d3c9ad90cfccf67.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-9e1f7e006fd5fc5522864406fab8c3abef4f57785d3c9ad90cfccf67.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "無くちゃならない",
@@ -48,8 +54,7 @@
   "sentenceCount": 6,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -195,7 +200,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "432beb9e-66f0-4bb6-afa7-1c25891a3c7d",
   "tags": [

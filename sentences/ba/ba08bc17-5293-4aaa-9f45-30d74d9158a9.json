@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-464a19190dff7145e8661ca6d2592d6a1c56dbf25a9ba89eabea4316.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-464a19190dff7145e8661ca6d2592d6a1c56dbf25a9ba89eabea4316.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -182,11 +190,12 @@
     "question": "君は誤解しているよ。あれは俺の姉貴だよ。",
     "answer": "You’ve got the wrong idea. She’s my older sister.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ba08bc17-5293-4aaa-9f45-30d74d9158a9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

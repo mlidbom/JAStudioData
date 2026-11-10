@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ea35f68d50500fd70cb412e7105cc189503d6d3467a8c952ce4418d5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ea35f68d50500fd70cb412e7105cc189503d6d3467a8c952ce4418d5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "映画館"
@@ -86,11 +94,12 @@
     "question": "あ、新しい映画館ができてる。",
     "answer": "Oh, a new movie theater has been built.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "39ba8e55-03f7-471b-9899-90ab3cc60f15",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

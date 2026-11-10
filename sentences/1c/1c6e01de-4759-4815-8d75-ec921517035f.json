@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bbc0d1ed2e335a8b2090b233c77f2b47b85ed083d36c536cf7c615c5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bbc0d1ed2e335a8b2090b233c77f2b47b85ed083d36c536cf7c615c5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "仕事"
@@ -86,11 +94,12 @@
     "question": "赤ちゃんの仕事は泣くことです。",
     "answer": "The business of a baby is to cry.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1c6e01de-4759-4815-8d75-ec921517035f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c024bba521a1c992071b7eebcbf57a7fb002efa18e35b92f36a0cb47.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c024bba521a1c992071b7eebcbf57a7fb002efa18e35b92f36a0cb47.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "稚拙"
@@ -135,11 +143,12 @@
     "question": "稚拙な文章ですがもしよければ読んでください。",
     "answer": "It’s not a very good article, but please read it if you’d like.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4c1f7477-c06c-497d-96a4-8cc0d0a2bef3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

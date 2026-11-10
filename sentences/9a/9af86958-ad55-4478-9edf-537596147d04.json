@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2c06c775bfe422afb1c96575af836c58aedf9cfd23c3af9b5c77bf96.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2c06c775bfe422afb1c96575af836c58aedf9cfd23c3af9b5c77bf96.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "昨日"
@@ -107,11 +115,12 @@
     "question": "昨日の日本代表の試合、すごかったね！見た？",
     "answer": "Yesterday's game of the Japanese national team was amazing, right? Did you watch it?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9af86958-ad55-4478-9edf-537596147d04",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

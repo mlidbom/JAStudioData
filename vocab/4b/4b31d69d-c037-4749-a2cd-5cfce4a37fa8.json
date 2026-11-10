@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-0791a7ad90027579619ac6b60905e4dbd48808913b81312da5ef3008.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-0791a7ad90027579619ac6b60905e4dbd48808913b81312da5ef3008.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "御断わりする",
@@ -56,8 +62,7 @@
   "sentenceCount": 4,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -81,7 +86,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "4b31d69d-c037-4749-a2cd-5cfce4a37fa8",
   "tags": [

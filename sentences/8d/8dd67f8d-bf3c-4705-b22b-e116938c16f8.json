@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-178cae8a3ab55d580a6e3de374342718219c71b74d665af4c269b569.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-178cae8a3ab55d580a6e3de374342718219c71b74d665af4c269b569.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "禁煙"
@@ -58,11 +66,12 @@
     "question": "ここは禁煙スペースです。",
     "answer": "This is a non-smoking area.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8dd67f8d-bf3c-4705-b22b-e116938c16f8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

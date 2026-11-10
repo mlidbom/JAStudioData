@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ad8d8570c437ad231c2f0a580f068ad397f740f774af01cc88bb663b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ad8d8570c437ad231c2f0a580f068ad397f740f774af01cc88bb663b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "思い詰める"
@@ -184,11 +192,12 @@
     "question": "私は失業中ですが、そのことを思い詰めてはいません。",
     "answer": "I’m between jobs, but I’m not worrying too much about it.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2e734596-66c4-475c-8ec7-202693c477b5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

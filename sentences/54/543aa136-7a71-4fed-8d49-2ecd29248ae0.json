@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a576f628b2bcd4d8976533426baac0c37f306996ea92a110db7a4521.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a576f628b2bcd4d8976533426baac0c37f306996ea92a110db7a4521.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "漬ける"
@@ -184,11 +192,12 @@
     "question": "2-3時間漬けるだけで、美味しいきゅうりの浅漬けができます。",
     "answer": "You can make delicious lightly pickled cucumbers by marinating them for just 2-3 hours.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "543aa136-7a71-4fed-8d49-2ecd29248ae0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

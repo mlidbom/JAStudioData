@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2e5f54558db55360f48f3829244ae12383ce3cf62009b5f68a770dea.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2e5f54558db55360f48f3829244ae12383ce3cf62009b5f68a770dea.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "繰り返す"
@@ -184,11 +192,12 @@
     "question": "同じ失敗を何度も繰り返すのはやめようじゃないか。",
     "answer": "Can’t you stop repeating the same mistakes over and over?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4e833cfc-c6fa-4171-a00a-09d702b58558",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

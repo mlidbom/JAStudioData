@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fc3e45b7137167a596cb1d7993b54fe46b34b2dd96d0a0fe4433e63f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fc3e45b7137167a596cb1d7993b54fe46b34b2dd96d0a0fe4433e63f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "作戦"
@@ -156,11 +164,12 @@
     "question": "私たちの作戦はスパイに知られてしまった。",
     "answer": "Our strategy has been leaked to the spies.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d177ac1b-5735-4830-bfaa-6dfee1f2d7de",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

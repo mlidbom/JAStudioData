@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e8e482e1711d22d6c772af3c53535bb774f504ecf0c36b58b4990a4d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e8e482e1711d22d6c772af3c53535bb774f504ecf0c36b58b4990a4d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "気象"
@@ -191,11 +199,12 @@
     "question": "気象予報によると、明日は大雪になるそうです。",
     "answer": "According to the weather forecast, there will be heavy snow tomorrow.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0b672370-1d36-4c5e-b841-0e171986b724",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

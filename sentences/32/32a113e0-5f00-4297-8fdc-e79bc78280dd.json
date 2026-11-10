@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c0107edd7e36cadb8e4d454cfd0844ae8099f788ee155ab6d6ad17cf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c0107edd7e36cadb8e4d454cfd0844ae8099f788ee155ab6d6ad17cf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "映る"
@@ -79,11 +87,12 @@
     "question": "今、テレビにお父さん映らなかった？",
     "answer": "Didn't Dad appear on TV just now?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "32a113e0-5f00-4297-8fdc-e79bc78280dd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

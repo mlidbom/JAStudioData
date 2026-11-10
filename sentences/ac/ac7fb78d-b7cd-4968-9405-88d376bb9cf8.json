@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e8a6cbbbcf047bcbdbb44e32c5603e66a01bb90120e0ea6615f73443.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e8a6cbbbcf047bcbdbb44e32c5603e66a01bb90120e0ea6615f73443.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "閉店"
@@ -163,11 +171,12 @@
     "question": "うちのお店は、午前10時開店で、午後8時閉店となります。",
     "answer": "Our store opens at 10 a.m. and closes at 8 p.m.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ac7fb78d-b7cd-4968-9405-88d376bb9cf8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

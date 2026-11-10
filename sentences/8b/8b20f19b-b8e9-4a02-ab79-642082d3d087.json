@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-14dc33ac94b3562daf233d07f7d27054c66f346bfc53c9574be38d83.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-14dc33ac94b3562daf233d07f7d27054c66f346bfc53c9574be38d83.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "痛い"
@@ -65,11 +73,12 @@
     "question": "ううん、なんかノドが痛いの。",
     "answer": "No, I have a sore throat.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8b20f19b-b8e9-4a02-ab79-642082d3d087",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

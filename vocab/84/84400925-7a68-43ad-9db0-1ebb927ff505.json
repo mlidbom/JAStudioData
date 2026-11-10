@@ -31,9 +31,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-8b57cefb5a6e6a8e3a9b85c8b8ade95bd55d9596852acac6f2d99b2b.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-8b57cefb5a6e6a8e3a9b85c8b8ade95bd55d9596852acac6f2d99b2b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "あっという間ですね",
@@ -43,8 +49,7 @@
   "sentenceCount": 1,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -68,7 +73,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "84400925-7a68-43ad-9db0-1ebb927ff505",
   "tags": [

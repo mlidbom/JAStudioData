@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3a09e7567f7492596bb8948b5d08a865d21db31e214e58b4c690db53.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3a09e7567f7492596bb8948b5d08a865d21db31e214e58b4c690db53.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "渡す"
@@ -149,11 +157,12 @@
     "question": "上司に辞表を渡す時、手が震えました。",
     "answer": "When I handed in my resignation to the boss, my hands were shaking.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b7c520a3-42ab-453c-bd9b-6b3554155234",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

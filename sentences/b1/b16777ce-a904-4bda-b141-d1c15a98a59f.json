@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5d16d5072f6cd8e540b01dca3d76b907bd2931280bb56dd00cb00689.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5d16d5072f6cd8e540b01dca3d76b907bd2931280bb56dd00cb00689.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "蔵"
@@ -128,11 +136,12 @@
     "question": "今、蔵の掃除をしているんです。",
     "answer": "We are cleaning our storehouse now.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b16777ce-a904-4bda-b141-d1c15a98a59f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

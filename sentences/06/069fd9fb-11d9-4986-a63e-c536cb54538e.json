@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-87db6b318486837f2147cf97a468dda6c22e17796ad1e96e3b69f6e7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-87db6b318486837f2147cf97a468dda6c22e17796ad1e96e3b69f6e7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "芸能界"
@@ -100,11 +108,12 @@
     "question": "日本の芸能界ってどんなとこですか？",
     "answer": "What is the entertainment industry in Japan like?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "069fd9fb-11d9-4986-a63e-c536cb54538e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

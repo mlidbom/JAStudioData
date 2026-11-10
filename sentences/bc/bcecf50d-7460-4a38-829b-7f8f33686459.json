@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0d44f051cb7b6344b43c5df9fff3880d641d31d02a7a4d63f688997a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0d44f051cb7b6344b43c5df9fff3880d641d31d02a7a4d63f688997a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "参加"
@@ -170,11 +178,12 @@
     "question": "あなたもトーフグの忘年会に参加しませんか。きっと楽しいですよ。",
     "answer": "Why don't you participate in Tofugu's end-of-year party? It will be fun!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bcecf50d-7460-4a38-829b-7f8f33686459",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-211fde5a8c081c4133404faea2f5c0c9a16fcc9e3ede4347fc13945c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-211fde5a8c081c4133404faea2f5c0c9a16fcc9e3ede4347fc13945c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "消える"
@@ -203,11 +211,12 @@
     "question": "彼は、彼女が視界から完全に消えるまで、さようならと手を振り続けた。",
     "answer": "He waved goodbye until she completely disappeared from view.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "eace1880-bab8-43ea-970f-adebb19a71cf",
   "tags": [
-    "_tts_audio",
     "-::sentence::uses::incorrect-matches",
     "source::wani::removed"
   ]

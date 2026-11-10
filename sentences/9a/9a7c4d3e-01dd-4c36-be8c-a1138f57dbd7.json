@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9f37fb4dadb782c9c0ac06b78ddbf358359c312bc3141b7f7032c7d1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9f37fb4dadb782c9c0ac06b78ddbf358359c312bc3141b7f7032c7d1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "安心"
@@ -114,11 +122,12 @@
     "question": "私はプロのパイロットなので、どうぞご安心を。",
     "answer": "I'm a professional pilot, so don't worry.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9a7c4d3e-01dd-4c36-be8c-a1138f57dbd7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

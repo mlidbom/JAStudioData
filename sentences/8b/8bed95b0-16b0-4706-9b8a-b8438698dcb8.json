@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8168913106301f1ec1b7f7e7e25ded76bd6b7ac9d5afe0c050e3c753.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8168913106301f1ec1b7f7e7e25ded76bd6b7ac9d5afe0c050e3c753.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "考える"
@@ -86,11 +94,12 @@
     "question": "少し考えさせてください。",
     "answer": "Please let me think about it a little.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8bed95b0-16b0-4706-9b8a-b8438698dcb8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

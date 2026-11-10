@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3fba8c5363b78df402802be37b1cbc0a775243e4e2bae7807a802b76.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3fba8c5363b78df402802be37b1cbc0a775243e4e2bae7807a802b76.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "名詞"
@@ -51,11 +59,12 @@
     "question": "「コーヒー」は名詞です。",
     "answer": "\"Coffee\" is a noun.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "01a277aa-c9db-40e8-980b-f723e976101f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

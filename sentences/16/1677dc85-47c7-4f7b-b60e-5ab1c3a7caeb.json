@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2b47a582c5483d2563c1e075798563cc33f715e77baa0fbb9055a6df.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2b47a582c5483d2563c1e075798563cc33f715e77baa0fbb9055a6df.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "寺"
@@ -107,11 +115,12 @@
     "question": "その町には古い寺があります。",
     "answer": "There is an old temple in the town.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1677dc85-47c7-4f7b-b60e-5ab1c3a7caeb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

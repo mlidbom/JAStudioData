@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e7852c69ec98ee8382504e19e4b7f2d5ce8c2e3972875bd80c5508c8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e7852c69ec98ee8382504e19e4b7f2d5ce8c2e3972875bd80c5508c8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "失う"
@@ -121,11 +129,12 @@
     "question": "そんなにジャンプすると体力を失うよ。",
     "answer": "If you jump that much, you would lose your physical strength.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "830cb97b-3606-4122-8ccd-a40023330695",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

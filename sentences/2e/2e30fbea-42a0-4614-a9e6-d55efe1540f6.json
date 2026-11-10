@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e324046b7a54779ad2ce7547655e6f88f3c7d79243dfb7f4c21e98f2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e324046b7a54779ad2ce7547655e6f88f3c7d79243dfb7f4c21e98f2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "試食"
@@ -142,11 +150,12 @@
     "question": "先ずは何も言わないで試食してみて。",
     "answer": "First, just taste it without saying anything.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2e30fbea-42a0-4614-a9e6-d55efe1540f6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-935bff5da8781356f544bbed156f2ce25043a6e09509d98adaf066b8.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-935bff5da8781356f544bbed156f2ce25043a6e09509d98adaf066b8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "診て貰う",
@@ -48,8 +54,7 @@
   "sentenceCount": 2,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -73,7 +78,9 @@
   "sourceData": {
     "answer": "to{?}see-(a-doctor,-etc.) | to{?}consult-(someone)",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "2d60fd79-b3ec-449d-8306-7741ef61392e",
   "tags": [

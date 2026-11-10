@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-77e91e2235c8059590d557ed5c5573b29ff288cea441cc0394cb3554.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-77e91e2235c8059590d557ed5c5573b29ff288cea441cc0394cb3554.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "消化する"
@@ -205,11 +213,12 @@
     "question": "まだ消化しづらいものはやめといた方がいいんじゃない？",
     "answer": "You might want to avoid things that are hard to digest for now.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c105b333-129d-448d-a3ef-3ccf8b3c5f9f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

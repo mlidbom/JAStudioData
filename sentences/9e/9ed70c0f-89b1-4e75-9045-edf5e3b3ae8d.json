@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7d34558a29039ec5316aaa02c86b2d072b6b49306682a33de1c19593.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7d34558a29039ec5316aaa02c86b2d072b6b49306682a33de1c19593.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "別に"
@@ -128,11 +136,12 @@
     "question": "別にコーヒーがあればどこのカフェでもいいよ。",
     "answer": "As long as there's coffee, I wouldn't mind going to any cafe in particular.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9ed70c0f-89b1-4e75-9045-edf5e3b3ae8d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

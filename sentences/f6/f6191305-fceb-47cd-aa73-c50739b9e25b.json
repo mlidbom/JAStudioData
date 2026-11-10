@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ed30a1dc39c84c10146e75dfc5138e48438ded016eabf9d260bdddec.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ed30a1dc39c84c10146e75dfc5138e48438ded016eabf9d260bdddec.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "満潮"
@@ -149,11 +157,12 @@
     "question": "一番釣りに適しているのは満潮時でしょうか？",
     "answer": "Is high tide the best time to go fishing?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f6191305-fceb-47cd-aa73-c50739b9e25b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

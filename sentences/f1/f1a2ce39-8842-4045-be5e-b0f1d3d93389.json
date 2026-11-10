@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7b1fc50f7741611231da7adf2e8ca1fa86224ab3137e9040f1f92876.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7b1fc50f7741611231da7adf2e8ca1fa86224ab3137e9040f1f92876.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "注文する"
@@ -79,11 +87,12 @@
     "question": "Amazonで注文するよ！",
     "answer": "I'll order it on Amazon!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f1a2ce39-8842-4045-be5e-b0f1d3d93389",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8342155c69d0ddcecc79d893f11e4cb37082ba20c376ffcdbb78a8d3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8342155c69d0ddcecc79d893f11e4cb37082ba20c376ffcdbb78a8d3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "未決"
@@ -51,11 +59,12 @@
     "question": "スケジュールは、未決です。",
     "answer": "The schedule is undecided.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "57902183-9bf1-4fe1-b2d2-00ba21474df9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

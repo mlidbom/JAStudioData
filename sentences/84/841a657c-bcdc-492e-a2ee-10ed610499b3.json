@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0f99aaeb6bee282af832eaca4811b4fb8dd64fe7886a97e78f4949ff.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0f99aaeb6bee282af832eaca4811b4fb8dd64fe7886a97e78f4949ff.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "毎日"
@@ -184,11 +192,12 @@
     "question": "アイスのためにコンビニに行くのが毎日のルーティーンです。",
     "answer": "My daily routine is to go to a convenience store for ice cream.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "841a657c-bcdc-492e-a2ee-10ed610499b3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

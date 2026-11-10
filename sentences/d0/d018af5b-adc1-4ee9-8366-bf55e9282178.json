@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3133509c66e443f459a81e70be8c55e7e1dee7d1d848976de1cb4879.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3133509c66e443f459a81e70be8c55e7e1dee7d1d848976de1cb4879.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "銃殺"
@@ -177,11 +185,12 @@
     "question": "犬が飼い主に銃殺されるという悲しい事件がありました。",
     "answer": "There was a tragic incident where a dog was shot and killed by its owner.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d018af5b-adc1-4ee9-8366-bf55e9282178",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

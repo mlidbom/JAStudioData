@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-95a59291d5b6d81bd671487382b9ac75a6ecb3dfa1945c6131f88f3a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-95a59291d5b6d81bd671487382b9ac75a6ecb3dfa1945c6131f88f3a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "折り紙"
@@ -79,11 +87,12 @@
     "question": "私はプロの折り紙アーティストです。",
     "answer": "I'm a professional origami artist.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cc0e767f-c67a-46ad-934d-20828bf5fd0c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

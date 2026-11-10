@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-9deac8df279f9e30849ce2308906e183ad27d14fea82fc0052d933f6.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-9deac8df279f9e30849ce2308906e183ad27d14fea82fc0052d933f6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "でおいで",
@@ -40,8 +46,7 @@
   "sentenceCount": 12,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {
       "teFormStemStart": "required"
@@ -76,7 +81,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "9cb01f49-68b7-4f58-ab02-4cbe02827609",
   "tags": [

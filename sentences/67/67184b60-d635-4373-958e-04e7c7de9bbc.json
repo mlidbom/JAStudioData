@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a3cb832da327fb05e67d9c8b2be41acc0090cd8ba0a9a3aa9d4254ef.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a3cb832da327fb05e67d9c8b2be41acc0090cd8ba0a9a3aa9d4254ef.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "英国"
@@ -149,11 +157,12 @@
     "question": "私は英国の大学で英文学を学んでいます。",
     "answer": "I am studying English Literature at a university in the UK.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "67184b60-d635-4373-958e-04e7c7de9bbc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

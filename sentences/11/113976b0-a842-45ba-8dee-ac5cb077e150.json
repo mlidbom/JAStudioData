@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-878d0c8761a82a0103098f08cc59963ee6b3284eede8b7ead06154d4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-878d0c8761a82a0103098f08cc59963ee6b3284eede8b7ead06154d4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "暖かい"
@@ -100,11 +108,12 @@
     "question": "今日はポカポカと暖かい一日だった。",
     "answer": "It was a nice warm day today.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "113976b0-a842-45ba-8dee-ac5cb077e150",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

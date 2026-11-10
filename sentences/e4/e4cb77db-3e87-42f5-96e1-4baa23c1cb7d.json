@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f37a43205dc035615df5db6c7ba0a46a83290899aea0ba6dee2fd490.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f37a43205dc035615df5db6c7ba0a46a83290899aea0ba6dee2fd490.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "図"
@@ -100,11 +108,12 @@
     "question": "下の図を見てください。",
     "answer": "Please look at the diagram below.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e4cb77db-3e87-42f5-96e1-4baa23c1cb7d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

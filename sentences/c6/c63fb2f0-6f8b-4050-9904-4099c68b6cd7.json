@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0bd9d7c8130abf25f7e8039f1b744f3f3f3cf9a138bc7dd7181e615b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0bd9d7c8130abf25f7e8039f1b744f3f3f3cf9a138bc7dd7181e615b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "郵便番号"
@@ -128,11 +136,12 @@
     "question": "アメリカの郵便番号は何ケタあるんですか？",
     "answer": "How many digits are there in an American zip code?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c63fb2f0-6f8b-4050-9904-4099c68b6cd7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-50e729db9ee080df71949009f94994544bf495ae0e981e2aae9d9f06.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-50e729db9ee080df71949009f94994544bf495ae0e981e2aae9d9f06.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "出来した",
@@ -44,8 +50,7 @@
   "sentenceCount": 2,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -69,7 +74,9 @@
   "sourceData": {
     "answer": "well-done/good-job",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "d04bb10c-d93b-49ea-9944-f441c061ac39",
   "tags": [

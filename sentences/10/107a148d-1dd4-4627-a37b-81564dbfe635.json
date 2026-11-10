@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f8fa2a7c108e2b0e4cd8847e31997e470b1e0e9099417ff0a6c75be0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f8fa2a7c108e2b0e4cd8847e31997e470b1e0e9099417ff0a6c75be0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大勢"
@@ -282,11 +290,12 @@
     "question": "大勢の人の前で話す事に慣れていないので、今からもう手が震えています。",
     "answer": "I’m not used to speaking in front of crowds, so my hands are already shaking.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "107a148d-1dd4-4627-a37b-81564dbfe635",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

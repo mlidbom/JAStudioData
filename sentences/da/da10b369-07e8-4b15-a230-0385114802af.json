@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0af269e01d18dfd83aa8ec0c25f9e22d742785175edcdbda2e045f4b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0af269e01d18dfd83aa8ec0c25f9e22d742785175edcdbda2e045f4b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "湧く"
@@ -128,11 +136,12 @@
     "question": "へー、この辺って水が湧くんだね。",
     "answer": "Oh, so there's spring water around here.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "da10b369-07e8-4b15-a230-0385114802af",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

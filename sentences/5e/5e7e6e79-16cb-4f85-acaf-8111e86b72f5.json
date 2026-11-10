@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9e576c54a588edd7fd37a183148a623c8ac96025a7eb34b01a6abdb0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9e576c54a588edd7fd37a183148a623c8ac96025a7eb34b01a6abdb0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "沸点"
@@ -79,11 +87,12 @@
     "question": "沸点は何度ですか。",
     "answer": "How many degrees is the boiling point?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5e7e6e79-16cb-4f85-acaf-8111e86b72f5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

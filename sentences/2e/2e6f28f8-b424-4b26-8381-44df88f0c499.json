@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-137676ec2912a547ff9b0d5acb4f0be9303a84626c9e4e4d55970f42.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-137676ec2912a547ff9b0d5acb4f0be9303a84626c9e4e4d55970f42.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "訓練"
@@ -121,11 +129,12 @@
     "question": "あの犬はよく訓練されている。",
     "answer": "That dog is well trained.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2e6f28f8-b424-4b26-8381-44df88f0c499",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

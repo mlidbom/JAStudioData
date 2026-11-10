@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d1fd26f92eefc7a04391580c0e82587d8c4ca958f67b9e2a41433959.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d1fd26f92eefc7a04391580c0e82587d8c4ca958f67b9e2a41433959.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -119,11 +127,12 @@
     "question": "この金魚は珍種で、一匹５万円です。",
     "answer": "This type of gold fish is a rare variety, and it's 50,000 yen.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dc0b3563-474f-4910-aafa-3bbd003ed641",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

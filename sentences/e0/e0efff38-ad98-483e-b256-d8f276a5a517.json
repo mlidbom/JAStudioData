@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b19de61c7b8ad2aa56ad00b490ec9cebf1ca5dd996c46b77a403541b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b19de61c7b8ad2aa56ad00b490ec9cebf1ca5dd996c46b77a403541b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "履き物"
@@ -268,11 +276,12 @@
     "question": "「ここで履き物をぬいでください」と「ここでは着物をぬいでください」を平仮名で書くと全く同じになる。",
     "answer": "When you write \"Please take shoes off here\" and \"Please take kimonos off here\" in hiragana, they look exactly the same.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e0efff38-ad98-483e-b256-d8f276a5a517",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

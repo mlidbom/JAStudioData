@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-344d9f53e709735a48dd95fa1d710c11dd55309206c537c13809dacc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-344d9f53e709735a48dd95fa1d710c11dd55309206c537c13809dacc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "日没"
@@ -177,11 +185,12 @@
     "question": "今出発すれば、日没までには着けると思います。",
     "answer": "If I leave now I think I can arrive by sunset.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c184349d-f837-4c99-862d-a0d17c764350",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-79a66a6a3add1372c031db6e25d65f089bf28a5510eb722ff08480a4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-79a66a6a3add1372c031db6e25d65f089bf28a5510eb722ff08480a4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "握る"
@@ -191,11 +199,12 @@
     "question": "おにぎりは、ご飯を握って作るので「お握り」と呼ばれています。",
     "answer": "Since you make rice balls by pressing rice, it's called \"onigiri.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "91c0863c-88a3-4bf6-a908-3c336bf5acdf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

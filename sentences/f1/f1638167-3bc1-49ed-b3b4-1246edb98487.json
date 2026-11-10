@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-475cb24cf24f4fead47473d53ceefaf84fc6f4bb520cf835439eef0b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-475cb24cf24f4fead47473d53ceefaf84fc6f4bb520cf835439eef0b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "会社員"
@@ -135,11 +143,12 @@
     "question": "あの会社員は麻薬所持で逮捕された。",
     "answer": "That employee got busted for drug possession.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f1638167-3bc1-49ed-b3b4-1246edb98487",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

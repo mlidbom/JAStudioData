@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2f87f6549e5a63e8d6ef13f80e0b84620f6a06feb31c3fcddbb8634f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2f87f6549e5a63e8d6ef13f80e0b84620f6a06feb31c3fcddbb8634f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "謝る"
@@ -163,11 +171,12 @@
     "question": "自分がしたことじゃないのに謝るつもりはないよ。",
     "answer": "I refuse to apologize for something I didn’t do.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7f3e890a-ee16-4470-8dc9-b068fe2648f8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

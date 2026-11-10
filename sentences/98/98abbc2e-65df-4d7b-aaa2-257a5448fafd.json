@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-376ed0e9e01175057b2771fe4f0185c438d1b13005e34cc909bf96f0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-376ed0e9e01175057b2771fe4f0185c438d1b13005e34cc909bf96f0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "単語"
@@ -156,11 +164,12 @@
     "question": "テストにもよく出てくる「まぎらわしい英単語」をまとめました。",
     "answer": "I compiled a list of \"confusing English words\" that often appear on tests.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "98abbc2e-65df-4d7b-aaa2-257a5448fafd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

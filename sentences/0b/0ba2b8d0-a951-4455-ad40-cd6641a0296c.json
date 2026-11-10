@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ce15c6d91cb6e277f66afa11ab603f8a009022678876dbf4f8b59e49.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ce15c6d91cb6e277f66afa11ab603f8a009022678876dbf4f8b59e49.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "西洋"
@@ -149,11 +157,12 @@
     "question": "ハグは西洋の文化だと言えるでしょう。",
     "answer": "We could say hugging is a part of Western culture.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0ba2b8d0-a951-4455-ad40-cd6641a0296c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

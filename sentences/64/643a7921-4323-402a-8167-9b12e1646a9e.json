@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dd097bbce14cc8e22e46227e82cd739d4b02fbbe04e35e79da14b656.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dd097bbce14cc8e22e46227e82cd739d4b02fbbe04e35e79da14b656.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "舌",
@@ -136,11 +144,12 @@
     "question": "その生徒は、先生に向かって舌打ちをしました。",
     "answer": "That pupil tsk tsked the teacher.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "643a7921-4323-402a-8167-9b12e1646a9e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

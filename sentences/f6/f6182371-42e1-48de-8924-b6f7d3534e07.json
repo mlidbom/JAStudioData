@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bdee029b540d66a14a86707d945c0b46611ed1d654ceaa2bc1db6358.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bdee029b540d66a14a86707d945c0b46611ed1d654ceaa2bc1db6358.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "起こす"
@@ -177,11 +185,12 @@
     "question": "その人、仕事で問題を起こして、首になったんだよ。",
     "answer": "That person caused a problem at work and got fired.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f6182371-42e1-48de-8924-b6f7d3534e07",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

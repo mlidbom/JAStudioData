@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fb8362e212a33858072b40b872d216c464169ed5a6502cc6f5e7927a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fb8362e212a33858072b40b872d216c464169ed5a6502cc6f5e7927a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "売り切れ"
@@ -198,11 +206,12 @@
     "question": "人気のバンドのコンサートチケットは、発売から一分で売り切れてしまった。",
     "answer": "The popular band's concert tickets were sold out in a minute from the release.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "49f5f907-9ec9-4fbd-ae42-4bc6e85d3204",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

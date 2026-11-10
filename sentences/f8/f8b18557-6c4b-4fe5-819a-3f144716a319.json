@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1dcb0d7c44a45b0426f418af0d130c2418b6ab70fe69dd9fe99991d6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1dcb0d7c44a45b0426f418af0d130c2418b6ab70fe69dd9fe99991d6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "映画"
@@ -72,11 +80,12 @@
     "question": "これはホラー映画です。",
     "answer": "This is a horror movie.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f8b18557-6c4b-4fe5-819a-3f144716a319",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

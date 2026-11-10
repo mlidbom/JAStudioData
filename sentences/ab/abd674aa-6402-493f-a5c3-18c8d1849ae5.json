@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bb9323e35caf4f18714ce7a020a6adf933eec5ae6bf15ed28ea5a97f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bb9323e35caf4f18714ce7a020a6adf933eec5ae6bf15ed28ea5a97f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "価"
@@ -149,11 +157,12 @@
     "question": "その価には同意できないな。タダ同然じゃないか。",
     "answer": "I can’t agree with this price. It's like a freebie.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "abd674aa-6402-493f-a5c3-18c8d1849ae5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

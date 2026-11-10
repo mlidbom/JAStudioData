@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-60f4c0b9f59815d55c5a9db60d2301dc17740650820293111c93463c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-60f4c0b9f59815d55c5a9db60d2301dc17740650820293111c93463c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "電灯"
@@ -317,11 +325,12 @@
     "question": "うちの嫁さんは全然電灯を消さないんだよね。きっとスイッチがあることを知らないんだと思うよ。",
     "answer": "My wife never turns off the light. She probably doesn’t even know there is a switch.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "260a5a00-a613-4347-bea5-ee9302765d63",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

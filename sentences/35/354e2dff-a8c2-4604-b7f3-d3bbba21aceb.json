@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4eb234aafba3615819c44d1aee24816d5a0e6fd419b954b74e921876.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4eb234aafba3615819c44d1aee24816d5a0e6fd419b954b74e921876.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "味"
@@ -142,11 +150,12 @@
     "question": "このスープの隠し味はフグの骨なんです。",
     "answer": "The secret taste of this soup is puffer fish bones.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "354e2dff-a8c2-4604-b7f3-d3bbba21aceb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

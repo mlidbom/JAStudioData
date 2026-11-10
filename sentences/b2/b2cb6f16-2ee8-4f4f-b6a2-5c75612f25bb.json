@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d64bfb860f6362f6ccb5a3d542c02da92950f321509b8e70ee1cf209.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d64bfb860f6362f6ccb5a3d542c02da92950f321509b8e70ee1cf209.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "悲しい"
@@ -65,11 +73,12 @@
     "question": "悲しいけど、しょうがないよ。",
     "answer": "It's sad, but it can't be helped.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b2cb6f16-2ee8-4f4f-b6a2-5c75612f25bb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

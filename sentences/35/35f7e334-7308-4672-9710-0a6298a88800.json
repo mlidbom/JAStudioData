@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b864f28f24e9e6aa63bddb48a85b924e64e32cd2a89f9305224c1acf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b864f28f24e9e6aa63bddb48a85b924e64e32cd2a89f9305224c1acf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "恐慌"
@@ -254,11 +262,12 @@
     "question": "人生で二度もの経済恐慌を経験するとは思っていなかったよ。",
     "answer": "I wasn't expecting to experience two economic scares in my lifetime.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "35f7e334-7308-4672-9710-0a6298a88800",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

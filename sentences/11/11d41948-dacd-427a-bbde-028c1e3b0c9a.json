@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ec27aca7dad61be5defb367d98b48c418aa82241a939e8bfce26b01f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ec27aca7dad61be5defb367d98b48c418aa82241a939e8bfce26b01f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "郵便番号"
@@ -226,11 +234,12 @@
     "question": "郵便番号を間違えて書いてしまっていたようで、配達がおくれているみたいです。",
     "answer": "Apparently I wrote the wrong post number and the delivery seems to have been delayed.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "11d41948-dacd-427a-bbde-028c1e3b0c9a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8273c9c6fa9cf6ab1ca4cf594ff1119cf32f1ff7c6e9437b4368f182.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8273c9c6fa9cf6ab1ca4cf594ff1119cf32f1ff7c6e9437b4368f182.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "審判"
@@ -170,11 +178,12 @@
     "question": "私は審判でもあり、スポーツ解説者でもあります。",
     "answer": "I’m not only a referee, but also a sports analyst.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ae7f8e49-457b-4325-880e-29ff1e53c7d5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

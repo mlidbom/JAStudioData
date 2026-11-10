@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0d201bd5ccf11302b30656655b9bed1ca1de948b8459db8ca00b9ad2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0d201bd5ccf11302b30656655b9bed1ca1de948b8459db8ca00b9ad2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "平静"
@@ -254,11 +262,12 @@
     "question": "彼女は赤信号で止まれずにパニックに落ちいっていたが、ラジオを聞きながら心の平静を取りもどした。",
     "answer": "She was panicking, unable to stop at the red light, but regained her inner calm by listening to the radio.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cb8489a6-f99f-43da-a5b4-26b18ff43c53",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-be6ea70ed3b0128dd7ac4fecbccd673761ce1deed32831961e53bb5b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-be6ea70ed3b0128dd7ac4fecbccd673761ce1deed32831961e53bb5b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一昨日"
@@ -149,11 +157,12 @@
     "question": "一昨日の夜は、美しい星空を見ることができました。",
     "answer": "The night before last, I was able to see a beautiful starry sky.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6f0f7530-5b67-4eaa-bba5-3817d3bed2f2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

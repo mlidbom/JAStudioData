@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c42caf6bd5a2cde210277b4388c642e1398efd71ee5489441412983e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c42caf6bd5a2cde210277b4388c642e1398efd71ee5489441412983e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "獣医"
@@ -149,11 +157,12 @@
     "question": "獣医さんにペット保険をすすめられたんだよね。",
     "answer": "I was recommended pet insurance by the veterinarian.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5ef7e1c6-e900-4ab1-9dd4-5a5975b31f33",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

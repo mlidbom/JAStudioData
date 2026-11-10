@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-60506258c720da490ee27f53a6ecbe3e620b2cdbc758fba7eb410ca5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-60506258c720da490ee27f53a6ecbe3e620b2cdbc758fba7eb410ca5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お願い"
@@ -191,11 +199,12 @@
     "question": "ちょっとお願いがあるんだけど、聞いてもらえる？",
     "answer": "I have a favor to ask you, would you hear me out?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "718011b9-09ed-433b-805f-4dc0df913c78",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

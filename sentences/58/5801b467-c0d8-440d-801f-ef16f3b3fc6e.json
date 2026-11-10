@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e5e9f9bff0e2af97e4c6ea31e4cfe214dc24b283238222e3965f5a6f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e5e9f9bff0e2af97e4c6ea31e4cfe214dc24b283238222e3965f5a6f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "洗濯屋"
@@ -135,11 +143,12 @@
     "question": "洗濯屋にワイシャツを取りに行ってきます。",
     "answer": "I’m going to pick up my dress shirt from the dry cleaners.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5801b467-c0d8-440d-801f-ef16f3b3fc6e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

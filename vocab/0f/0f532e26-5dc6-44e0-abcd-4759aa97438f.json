@@ -19,9 +19,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-b22c651d727dec3d470da943f07ad6166c69b2e4e1f2ccfa1bc62144.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-b22c651d727dec3d470da943f07ad6166c69b2e4e1f2ccfa1bc62144.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "此の様",
@@ -35,8 +41,7 @@
   "sentenceCount": 9,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -60,7 +65,9 @@
   "sourceData": {
     "answer": "like-this/this-sort/this-way",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "0f532e26-5dc6-44e0-abcd-4759aa97438f",
   "tags": [

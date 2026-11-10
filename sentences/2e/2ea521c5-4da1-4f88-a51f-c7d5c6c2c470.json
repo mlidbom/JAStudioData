@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ce9f0df771d3c779a0de5763f1e320f7d496dae8c2da2b21e052a3dd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ce9f0df771d3c779a0de5763f1e320f7d496dae8c2da2b21e052a3dd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "掃除"
@@ -205,11 +213,12 @@
     "question": "まずやるべきことをやらなくてはね。部屋の掃除から始めようか。",
     "answer": "First things first. Let’s start by cleaning your room.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2ea521c5-4da1-4f88-a51f-c7d5c6c2c470",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-24d98ccab955ee21e535f72c1debe99ae81c77c3af601b3de89e743f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-24d98ccab955ee21e535f72c1debe99ae81c77c3af601b3de89e743f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "長唄"
@@ -86,11 +94,12 @@
     "question": "長唄教室に通い始めました。",
     "answer": "I started to go to the nagauta class.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6e1ed1cf-c3a1-4fae-be3a-5dc722ea15b7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

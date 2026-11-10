@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-422ff5c597282da23b3cc57b581dd9f57cfcff9e71ee52e56348a480.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-422ff5c597282da23b3cc57b581dd9f57cfcff9e71ee52e56348a480.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "薄まる"
@@ -177,11 +185,12 @@
     "question": "効果が薄まるので、お酒と一緒には飲まないで下さい。",
     "answer": "Please don't take this with alcohol as its effectiveness will be diminished.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4af78e8a-b783-4844-bd63-d4de9533c1b0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

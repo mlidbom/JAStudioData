@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ad72ac573557e0e8818d415d5755b5604805bba6f269ff668e9bbd8a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ad72ac573557e0e8818d415d5755b5604805bba6f269ff668e9bbd8a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "紅葉"
@@ -156,11 +164,12 @@
     "question": "うちの庭の紅葉の木はまだ紅葉してません。",
     "answer": "The Japanese maple in my yard has not yet turned red.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "68dc83ec-aaaa-409e-98a2-07e682283ed9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

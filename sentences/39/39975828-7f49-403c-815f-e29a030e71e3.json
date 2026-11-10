@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b5f6ef29c37d8e45f981a8f107f293820b960233a64ac95ade878cf3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b5f6ef29c37d8e45f981a8f107f293820b960233a64ac95ade878cf3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "左腕"
@@ -86,11 +94,12 @@
     "question": "左腕を骨折しました。",
     "answer": "My left arm is broken.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "39975828-7f49-403c-815f-e29a030e71e3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

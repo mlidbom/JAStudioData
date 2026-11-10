@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-00b14ec56cfbf6f6440dc01d29fcefd7cb3408da63c61a5de41780fa.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-00b14ec56cfbf6f6440dc01d29fcefd7cb3408da63c61a5de41780fa.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "全然"
@@ -170,11 +178,12 @@
     "question": "彼が何を言っているのか、全然分かりませんでした。",
     "answer": "I had no idea what he was talking about.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8bb51810-9e1c-4087-8e57-77710c1f5011",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

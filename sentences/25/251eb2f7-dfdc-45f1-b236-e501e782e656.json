@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-61c33cde78a43939461db08e2420893a3dafddbc676974bbe4d6fea4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-61c33cde78a43939461db08e2420893a3dafddbc676974bbe4d6fea4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "昇給"
@@ -163,11 +171,12 @@
     "question": "昇給できるかどうかが気にかかっているんです。",
     "answer": "I’m worried about whether or not I can get a raise.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "251eb2f7-dfdc-45f1-b236-e501e782e656",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

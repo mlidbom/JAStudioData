@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4cf64f735fe128724945194b13d548232e8b2841390cf8ab5e0c1dbf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4cf64f735fe128724945194b13d548232e8b2841390cf8ab5e0c1dbf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "肉屋"
@@ -331,11 +339,12 @@
     "question": "私の生まれた小さい町には「お肉屋さん」と言う名前のベジタリアンのレストランがあったの。今思い出すと、なんだか皮肉な名前よね。",
     "answer": "In the small town where I was born, there was a vegetarian restaurant named \"Butcher.\" Now that I recall it, it's kind of a sarcastic name.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5693a743-3b72-491a-a461-599779a900cf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

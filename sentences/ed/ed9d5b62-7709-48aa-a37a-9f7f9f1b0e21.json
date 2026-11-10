@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7bb81ee3a97b79ef9e6732df0324ea83c7e6c3930b38c480686bedd9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7bb81ee3a97b79ef9e6732df0324ea83c7e6c3930b38c480686bedd9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "触れる"
@@ -135,11 +143,12 @@
     "question": "この車にはお手を触れないようお願い申し上げます。",
     "answer": "Kindly do not touch this car.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ed9d5b62-7709-48aa-a37a-9f7f9f1b0e21",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c18fe8e2b19be3dd55563ba7a4472dab2ea4bddf827faf177eade514.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c18fe8e2b19be3dd55563ba7a4472dab2ea4bddf827faf177eade514.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "考え"
@@ -191,11 +199,12 @@
     "question": "あなたの考えを百円で買わせてもらえませんか？",
     "answer": "Can I buy your thoughts for 100 yen?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "efd907f4-6051-4a42-a2ac-a70a3bc6eae8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

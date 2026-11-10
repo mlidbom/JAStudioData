@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9c1a79b57324cbc80d43530ccdedf6ea103d90739a2ce96c241c1eee.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9c1a79b57324cbc80d43530ccdedf6ea103d90739a2ce96c241c1eee.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "住民"
@@ -128,11 +136,12 @@
     "question": "アパートの住民たちで、ピザパーティをしたいんです。",
     "answer": "I want to have a pizza party with the residents of the apartment.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "501de89f-8451-4992-8b59-b538e9cdd581",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

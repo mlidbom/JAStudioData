@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2dfdcf2caa42a7fee186e1e3125809239ac179887a3f86fd0017e525.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2dfdcf2caa42a7fee186e1e3125809239ac179887a3f86fd0017e525.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "見る"
@@ -142,11 +150,12 @@
     "question": "よく左右を見てからUターンして下さいね。",
     "answer": "Please look left and right carefully before making a U-turn.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fec512e7-f5ed-4746-9ed1-80df387dac29",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

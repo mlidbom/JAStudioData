@@ -32,9 +32,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-c7a30e76253793820761c0c55537d027aa778f1ba8f2196296483892.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-c7a30e76253793820761c0c55537d027aa778f1ba8f2196296483892.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "子育てする",
@@ -44,8 +50,7 @@
   "sentenceCount": 2,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -69,7 +74,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "bfe6d95f-aca5-4849-9e3e-bcadeaed9382",
   "tags": [

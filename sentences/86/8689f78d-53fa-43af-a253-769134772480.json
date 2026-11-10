@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d82a4a36bdc6116ffdcc4ded7b602392cf34cdf15b661d8c0c150762.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d82a4a36bdc6116ffdcc4ded7b602392cf34cdf15b661d8c0c150762.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "知る"
@@ -93,11 +101,12 @@
     "question": "このコアラ、人工ロボットだって知ってた？",
     "answer": "Did you know that this koala is an artificial robot?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8689f78d-53fa-43af-a253-769134772480",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

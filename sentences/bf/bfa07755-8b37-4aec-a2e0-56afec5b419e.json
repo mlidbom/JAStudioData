@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-59b733b0e7899f375960d9f2a2c0c43404c2b8dc345a193066930887.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-59b733b0e7899f375960d9f2a2c0c43404c2b8dc345a193066930887.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "総理大臣"
@@ -177,11 +185,12 @@
     "question": "政治家のキャリア40年にしてようやく総理大臣にまで登りつめました。",
     "answer": "After a forty-year career in politics, I finally became prime minister.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bfa07755-8b37-4aec-a2e0-56afec5b419e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

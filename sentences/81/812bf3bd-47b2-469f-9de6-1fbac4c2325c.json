@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6f7c61f1bae476ee097e9fc1bc9d224dd9064dbc29d15d20bc04d514.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6f7c61f1bae476ee097e9fc1bc9d224dd9064dbc29d15d20bc04d514.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "獲得"
@@ -184,11 +192,12 @@
     "question": "今日ゲームをプレイすると、いつもの二倍のコインが獲得できるよ。",
     "answer": "If you play the game today, you can get double the usual amount of coins.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "812bf3bd-47b2-469f-9de6-1fbac4c2325c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

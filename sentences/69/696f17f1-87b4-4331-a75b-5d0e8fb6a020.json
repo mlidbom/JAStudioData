@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-112504198b9229cf8314d07e91d1d30de5eeabf2acc98d11b06d62c7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-112504198b9229cf8314d07e91d1d30de5eeabf2acc98d11b06d62c7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "不規則"
@@ -142,11 +150,12 @@
     "question": "寝る時間が不規則なのは良くないよ。",
     "answer": "It's not good to have irregular bedtimes.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "696f17f1-87b4-4331-a75b-5d0e8fb6a020",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

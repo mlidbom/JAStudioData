@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-de36dc2863574b700b88ff47ea515d7506168b58f7c2a06efb32093e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-de36dc2863574b700b88ff47ea515d7506168b58f7c2a06efb32093e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "書き直す"
@@ -149,11 +157,12 @@
     "question": "その手紙、当時、何度も何度も書き直したんです。",
     "answer": "I rewrote that letter over and over again at the time.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ece74097-0fcb-4936-87da-2404ea6ce92b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

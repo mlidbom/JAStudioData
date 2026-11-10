@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1e0d671655987ac32b4b3e96bb60a8e58670232fe3695d0debb67b73.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1e0d671655987ac32b4b3e96bb60a8e58670232fe3695d0debb67b73.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "気を付けて"
@@ -128,11 +136,12 @@
     "question": "ストーブの火に気を付けて下さい。",
     "answer": "Please be careful of the fire on the stove.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "44d1353d-17bd-41ec-9aeb-f4abd2a8fdf6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

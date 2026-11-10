@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e84d86d01b121cddebf9da6014b8158c9286fd70aeb3cf0eddf1c2b8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e84d86d01b121cddebf9da6014b8158c9286fd70aeb3cf0eddf1c2b8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "顔面"
@@ -93,11 +101,12 @@
     "question": "彼はアスファルトに顔面を強打した。",
     "answer": "He hit his face hard on the asphalt.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "62630f91-cf8a-4430-a9d1-cf90948ba591",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

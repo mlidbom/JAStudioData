@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3cf15b8ed54bb9c1ff58cfa9896c64771d5b7633941585ec4ad89cce.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3cf15b8ed54bb9c1ff58cfa9896c64771d5b7633941585ec4ad89cce.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "聞こえる"
@@ -128,11 +136,12 @@
     "question": "聞こえたんだったら、ちゃんと返事してよ！",
     "answer": "If you could hear me, you should've said something!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e13aca54-0997-430d-8de4-e10fec860d5a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

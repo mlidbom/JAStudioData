@@ -33,9 +33,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-8f3d93ccc81119f8eb22a4b9751d34bacb7d2eaa2fa0394ef4f532fe.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-8f3d93ccc81119f8eb22a4b9751d34bacb7d2eaa2fa0394ef4f532fe.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "のお陰です",
@@ -77,8 +83,7 @@
   "sentenceCount": 30,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -102,7 +107,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "3d775ed0-c9d4-404a-a89b-9e8cc92af52a",
   "tags": [

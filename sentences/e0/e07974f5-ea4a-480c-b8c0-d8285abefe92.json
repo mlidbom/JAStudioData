@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9cfb75f8ab0551231f45abfc34bc855f9a90b2b755a338b04269b15b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9cfb75f8ab0551231f45abfc34bc855f9a90b2b755a338b04269b15b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "土星"
@@ -72,11 +80,12 @@
     "question": "どれが土星か、分かりますか。",
     "answer": "Do you know which one is Saturn?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e07974f5-ea4a-480c-b8c0-d8285abefe92",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

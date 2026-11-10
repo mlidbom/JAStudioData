@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3ad81d87f5a70a505bbeb79a1bd405fc82642dc9fe87739fb6e84ac6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3ad81d87f5a70a505bbeb79a1bd405fc82642dc9fe87739fb6e84ac6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "某"
@@ -114,11 +122,12 @@
     "question": "これは、山田某の話である。",
     "answer": "This is the story of Yamada someone or other.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a384a091-0913-4a25-a512-ca97e5c58c24",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

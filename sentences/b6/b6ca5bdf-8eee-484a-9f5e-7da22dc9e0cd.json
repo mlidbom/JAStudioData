@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-05bfc802e500205bb8c64507b33a24f6250a4217f2d7577865f1aa02.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-05bfc802e500205bb8c64507b33a24f6250a4217f2d7577865f1aa02.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -91,11 +99,12 @@
     "question": "お金が十円足りないんです。",
     "answer": "I’m ten yen short.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b6ca5bdf-8eee-484a-9f5e-7da22dc9e0cd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

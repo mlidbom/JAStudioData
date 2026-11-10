@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-690c05b16b1beeb592d21fb18747ec138bd6c15f9cfbf9a802c0a14c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-690c05b16b1beeb592d21fb18747ec138bd6c15f9cfbf9a802c0a14c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "突然"
@@ -135,11 +143,12 @@
     "question": "突然の大雨で、ビショビショになってしまった。",
     "answer": "Due to a sudden heavy rain, I got completely soaked.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d852f607-b3cf-4ea0-a945-b2bae7d7b9a6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

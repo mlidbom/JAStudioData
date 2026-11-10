@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f6591503bcad71494d96f49c7b693f4861c32ec2c417fc8ae21e4cf9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f6591503bcad71494d96f49c7b693f4861c32ec2c417fc8ae21e4cf9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "水色"
@@ -100,11 +108,12 @@
     "question": "あの水色のバッグがほしいんですが。",
     "answer": "I want that light blue bag.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "656f455b-52ca-4968-897e-b1cb940efa64",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

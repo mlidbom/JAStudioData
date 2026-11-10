@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d36feba8d34b2755add336b7cd812932b4a88ccf16846e6cac9b0faa.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d36feba8d34b2755add336b7cd812932b4a88ccf16846e6cac9b0faa.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "未遂"
@@ -289,11 +297,12 @@
     "question": "彼は取り付け騒ぎを防ぐ為にもう少しで預金者に嘘をつくところだったが、結局未遂に終わった。",
     "answer": "He was very close to lying to depositors to prevent a bank run, but in the end he gave up on the attempt.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ef4d0d16-ec95-4bbe-a3c5-fd04eee33170",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

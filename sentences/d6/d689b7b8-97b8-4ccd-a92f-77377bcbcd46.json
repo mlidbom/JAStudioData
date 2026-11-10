@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e77bb71ae612d10821d6a6d2c2c47c771a531e939efeb27ed6962b3b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e77bb71ae612d10821d6a6d2c2c47c771a531e939efeb27ed6962b3b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "劇"
@@ -149,11 +157,12 @@
     "question": "図書館で三時から人形劇があるらしいよ。",
     "answer": "I heard there's a puppet show at the library at 3:00.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d689b7b8-97b8-4ccd-a92f-77377bcbcd46",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

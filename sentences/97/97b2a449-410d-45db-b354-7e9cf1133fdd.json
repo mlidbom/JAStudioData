@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3a12f374c195bdadbb7420f75e594c06cacde7cf7fb7bf9cc0b005e1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3a12f374c195bdadbb7420f75e594c06cacde7cf7fb7bf9cc0b005e1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "親分"
@@ -93,11 +101,12 @@
     "question": "地下道でヤクザの親分とすれちがったんだ。",
     "answer": "I walked by a yakuza kingpin in the underpass.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "97b2a449-410d-45db-b354-7e9cf1133fdd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

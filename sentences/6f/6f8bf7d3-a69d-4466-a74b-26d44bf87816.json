@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-81bfa660e06ece7ce1a124aa4a1a1438e57706fc9375efc1bbcae401.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-81bfa660e06ece7ce1a124aa4a1a1438e57706fc9375efc1bbcae401.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "記帳"
@@ -156,11 +164,12 @@
     "question": "帳簿に記帳をし忘れたため、上司に叱られました。",
     "answer": "I was scolded by my boss for forgetting to register some items in the account book.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6f8bf7d3-a69d-4466-a74b-26d44bf87816",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

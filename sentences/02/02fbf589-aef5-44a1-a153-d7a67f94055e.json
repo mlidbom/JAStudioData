@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a6184ea497da2e21ebfa59824cc5d12bf3e35a385faefa0eef172e8b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a6184ea497da2e21ebfa59824cc5d12bf3e35a385faefa0eef172e8b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "高血圧"
@@ -219,11 +227,12 @@
     "question": "コウイチが高血圧だというデマをあちこちで飛ばしているのは一体だれなんだ？",
     "answer": "Who the heck is spreading the false rumor that Koichi has high blood pressure?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "02fbf589-aef5-44a1-a153-d7a67f94055e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

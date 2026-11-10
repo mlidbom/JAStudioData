@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6e8467afea7c1bca1657de534f73d4352c3cae6b727e051b251ef923.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6e8467afea7c1bca1657de534f73d4352c3cae6b727e051b251ef923.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "門"
@@ -107,11 +115,12 @@
     "question": "門にはカギがかかっているんだ。",
     "answer": "The gate is locked.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "89af1785-2aec-45bd-812f-9ec8472a8839",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

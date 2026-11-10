@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-51ff54f8c5c50c5b40c5af6dd6cba7c7eb58d1ec3e9b19372471c68f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-51ff54f8c5c50c5b40c5af6dd6cba7c7eb58d1ec3e9b19372471c68f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "別々"
@@ -170,11 +178,12 @@
     "question": "ジャガイモとセロリは別々に入れておいてください。",
     "answer": "Put the potatoes and celery out separately.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d4f4adb5-35e7-4817-b3bb-63f838782bd2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

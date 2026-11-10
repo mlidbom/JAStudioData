@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-da9020ef0e60e9e0c259f38dc942dde9380518e3f022cec11880093e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-da9020ef0e60e9e0c259f38dc942dde9380518e3f022cec11880093e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "丸い"
@@ -93,11 +101,12 @@
     "question": "この玉、ちょっと丸すぎませんか？",
     "answer": "Isn't this ball a bit too round?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f2d36371-416c-4e7c-aede-dc1e3bc5b329",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-df184ee20301c58f5bf02ae1ce1e6c8fdfcb76a9fd739cb5fd9afce2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-df184ee20301c58f5bf02ae1ce1e6c8fdfcb76a9fd739cb5fd9afce2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "空港"
@@ -149,11 +157,12 @@
     "question": "今日は空港までフランス人の友人を見送りに行きました。",
     "answer": "Today, I went to the airport to see off my French friends.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d7bec4d1-6175-4dee-bb72-7431fbbc885e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

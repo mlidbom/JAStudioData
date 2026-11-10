@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f8cdc6546acbe52f0ca9891d423d0e6ff23f349ab2db3d829c974375.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f8cdc6546acbe52f0ca9891d423d0e6ff23f349ab2db3d829c974375.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "結構"
@@ -212,11 +220,12 @@
     "question": "「今日は他には何か、ございませんか？」「いいえ。それだけで結構です。」",
     "answer": "\"Would you like anything else today?\" \"No, that’s alright.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "322317f4-30ea-4691-935a-04dada5f6ec1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -26,9 +26,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-8d8661b57730737a408b46b7d8586e24469970d5bc77958e9158ae60.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-8d8661b57730737a408b46b7d8586e24469970d5bc77958e9158ae60.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "に似ています",
@@ -42,8 +48,7 @@
   "sentenceCount": 13,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -67,7 +72,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "ccbad86c-52a3-4f1f-9813-8fa96736d5ee",
   "tags": [

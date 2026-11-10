@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ecfc66ae74fd48ca7b9f3a2daaf5d859af8cd12db6dfcab0dc137473.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ecfc66ae74fd48ca7b9f3a2daaf5d859af8cd12db6dfcab0dc137473.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "毎晩"
@@ -128,11 +136,12 @@
     "question": "彼は毎晩ジョギングをしてから夕食を食べます。",
     "answer": "He goes jogging every evening before dinner.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "de6ba615-cb50-417c-a28f-d2e942280b3b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

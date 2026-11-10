@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d4cd4fbc0c0bfb1250a78a46c5694033b37640cd519a814d3ad97200.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d4cd4fbc0c0bfb1250a78a46c5694033b37640cd519a814d3ad97200.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "区"
@@ -128,11 +136,12 @@
     "question": "私は、中央区の区役所で働いています。",
     "answer": "I work at the ward office of Chuo-ku.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b6824ba2-07db-49bf-92db-2b6f05aa9481",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

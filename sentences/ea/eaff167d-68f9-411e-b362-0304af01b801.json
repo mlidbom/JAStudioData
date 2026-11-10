@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0003e02e4aed8bb57bccc679525a751fe6ddaf326be6a9dce3295c20.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0003e02e4aed8bb57bccc679525a751fe6ddaf326be6a9dce3295c20.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大きい"
@@ -86,11 +94,12 @@
     "question": "このサンダルは大きすぎる。",
     "answer": "These sandals are too big.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "eaff167d-68f9-411e-b362-0304af01b801",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

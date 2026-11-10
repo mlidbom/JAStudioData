@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7a9f68d52b420c2ecbb2b2e68bcd0ff0d9d753f522fd690e41aedffe.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7a9f68d52b420c2ecbb2b2e68bcd0ff0d9d753f522fd690e41aedffe.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "辞典"
@@ -212,11 +220,12 @@
     "question": "辞典の使い方がよく分からないんですが、教えてもらえませんか？",
     "answer": "I don't quite understand how to use the dictionary, could you please teach me?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d32d56ed-b576-468d-beca-066647ec8f9d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

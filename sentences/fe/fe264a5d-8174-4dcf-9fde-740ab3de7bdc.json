@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bec49cf77c3c4db47d3050392f2245f038c5501b8b6161f506c4b2ac.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bec49cf77c3c4db47d3050392f2245f038c5501b8b6161f506c4b2ac.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "休憩"
@@ -184,11 +192,12 @@
     "question": "今までに、休憩を取ることを考えたことはありますか。",
     "answer": "Have you ever thought about taking a break?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fe264a5d-8174-4dcf-9fde-740ab3de7bdc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

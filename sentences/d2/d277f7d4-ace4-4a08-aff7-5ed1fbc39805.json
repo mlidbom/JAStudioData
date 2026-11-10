@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1a882e17d822a93663b6c5cc34ec78d0091f5910905c4e977ce01290.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1a882e17d822a93663b6c5cc34ec78d0091f5910905c4e977ce01290.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "出社"
@@ -114,11 +122,12 @@
     "question": "すみません、社長はまだ出社してないんです。",
     "answer": "I'm sorry, the president hasn't come to work yet.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d277f7d4-ace4-4a08-aff7-5ed1fbc39805",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

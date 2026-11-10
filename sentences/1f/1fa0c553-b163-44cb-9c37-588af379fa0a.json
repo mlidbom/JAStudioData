@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6807bb3539974d43d8f2a9bc2f5feeadf79ec7486b5d34b89dbdb4d9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6807bb3539974d43d8f2a9bc2f5feeadf79ec7486b5d34b89dbdb4d9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "傘立て"
@@ -233,11 +241,12 @@
     "question": "レストランの傘立てに傘を入れたまま忘れて出てきてしまいました。",
     "answer": "I left the restaurant, forgetting my umbrella in the stand where I had placed it.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1fa0c553-b163-44cb-9c37-588af379fa0a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

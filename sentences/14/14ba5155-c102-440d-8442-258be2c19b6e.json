@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-60a821799139d38ef76868c7f7e742f0aab8cf3d4a4d30760747a483.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-60a821799139d38ef76868c7f7e742f0aab8cf3d4a4d30760747a483.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "封鎖"
@@ -163,11 +171,12 @@
     "question": "銀行が潰れて、預金が封鎖されてしまったんです。",
     "answer": "The bank was bankrupted and my account was frozen.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "14ba5155-c102-440d-8442-258be2c19b6e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

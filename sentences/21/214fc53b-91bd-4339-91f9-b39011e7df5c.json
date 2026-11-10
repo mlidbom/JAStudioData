@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ffcdd4770ce1dcb33c37b884511cca4531e1daa68678a222d23de0d8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ffcdd4770ce1dcb33c37b884511cca4531e1daa68678a222d23de0d8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "五"
@@ -100,11 +108,12 @@
     "question": "五フロアのうちの一フロアはカフェテリアです。",
     "answer": "One of the five floors is a cafeteria.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "214fc53b-91bd-4339-91f9-b39011e7df5c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

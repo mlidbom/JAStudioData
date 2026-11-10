@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-60ed215d9390cb84869c82af233a201fe2fc631b1d866e12b5357171.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-60ed215d9390cb84869c82af233a201fe2fc631b1d866e12b5357171.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -126,11 +134,12 @@
     "question": "行きは車で行って、バスでかえるつもりです。",
     "answer": "I'm going to go by car and come home by bus.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d0a4b999-032a-4b6f-8676-a09f2a32c505",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

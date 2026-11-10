@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-938e47a72fa322dbb67a551a9770ddc9a21d7f492a2044533d03a8cf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-938e47a72fa322dbb67a551a9770ddc9a21d7f492a2044533d03a8cf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "麺"
@@ -121,11 +129,12 @@
     "question": "次に、麺に沸騰したお湯を注いでください。",
     "answer": "Next, pour boiling water over the noodles.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "25c56ef8-b547-46f6-8caa-aec40148a8e7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

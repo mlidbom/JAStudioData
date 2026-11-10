@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-14899d0b0c8fdcc0c230624c94391919bf3a81d7a4cd1de31af3d480.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-14899d0b0c8fdcc0c230624c94391919bf3a81d7a4cd1de31af3d480.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "開く"
@@ -114,11 +122,12 @@
     "question": "このお店は何時に開きますか。",
     "answer": "What time does this shop open?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1f53fb4d-186a-45de-b2b6-b4222634dbc6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

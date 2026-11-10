@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4357a69c0532a330c373bc0c4ef88b976e38e6768ada2c04dec4fe7f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4357a69c0532a330c373bc0c4ef88b976e38e6768ada2c04dec4fe7f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "寝る"
@@ -93,11 +101,12 @@
     "question": "よし、そろそろ寝るね〜。おやすみ〜。また明日〜。",
     "answer": "Alright, I’m gonna go to bed. Sleep well. See you in the morning.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "36ed59d7-3744-40fc-8927-e0945c9cbe5f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

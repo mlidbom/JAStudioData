@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ff2bdb42eaa830deecff30b4b83af00d5cd43d9a36e6fa15d6fea581.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ff2bdb42eaa830deecff30b4b83af00d5cd43d9a36e6fa15d6fea581.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "ふじ山"
@@ -51,11 +59,12 @@
     "question": "あっ、ふじ山だ！",
     "answer": "Oh, it's Mt. Fuji!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ec69c0a8-07e0-49ea-9388-86430e6bd5ef",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

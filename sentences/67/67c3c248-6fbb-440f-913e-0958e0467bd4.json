@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1f4323d87afa5930110a0454ef57cae72b9f3d598d165b2f7c6ba21d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1f4323d87afa5930110a0454ef57cae72b9f3d598d165b2f7c6ba21d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "偏見"
@@ -79,11 +87,12 @@
     "question": "それが偏見というものです。",
     "answer": "That is called prejudice.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "67c3c248-6fbb-440f-913e-0958e0467bd4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

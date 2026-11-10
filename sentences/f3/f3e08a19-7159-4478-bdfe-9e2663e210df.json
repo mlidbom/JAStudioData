@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a5900c05d3082fde5edd64f5a3a4199e8cd2087af24adde507f53376.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a5900c05d3082fde5edd64f5a3a4199e8cd2087af24adde507f53376.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "倒産"
@@ -114,11 +122,12 @@
     "question": "昨年はたくさんの企業が倒産しました。",
     "answer": "Many companies went bankrupt last year.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f3e08a19-7159-4478-bdfe-9e2663e210df",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

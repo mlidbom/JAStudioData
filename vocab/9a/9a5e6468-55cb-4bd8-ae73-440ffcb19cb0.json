@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-a8a7281d540cb5a74517612c5890efa58eaaae7c65d56ea21d70fe2b.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-a8a7281d540cb5a74517612c5890efa58eaaae7c65d56ea21d70fe2b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "呼ばわりをする",
@@ -40,8 +46,7 @@
   "sentenceCount": 3,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -65,7 +70,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "9a5e6468-55cb-4bd8-ae73-440ffcb19cb0",
   "tags": [

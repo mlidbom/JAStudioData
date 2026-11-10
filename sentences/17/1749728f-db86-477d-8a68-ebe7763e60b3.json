@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7739a50ccfdd9ba1585166f94a7bc063285aab712262b90918693090.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7739a50ccfdd9ba1585166f94a7bc063285aab712262b90918693090.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "昔話"
@@ -86,11 +94,12 @@
     "question": "これは日本の昔話ですか。",
     "answer": "Is this a Japanese folk tale?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1749728f-db86-477d-8a68-ebe7763e60b3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

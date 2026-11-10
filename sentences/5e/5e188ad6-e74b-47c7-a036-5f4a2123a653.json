@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-944f84ea7216cc8797f0b8ac44a179eaef2b6eae33970b4a6118ccfc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-944f84ea7216cc8797f0b8ac44a179eaef2b6eae33970b4a6118ccfc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "折れる"
@@ -212,11 +220,12 @@
     "question": "バレーボールをしてる時に、指の骨が折れてしまいました。",
     "answer": "I broke my finger while playing volleyball.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5e188ad6-e74b-47c7-a036-5f4a2123a653",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

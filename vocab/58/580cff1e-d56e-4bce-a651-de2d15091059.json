@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-dc05482a07d759cc713b3153ff1cf4a2dc9ee9b5dbae5597f50991c0.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-dc05482a07d759cc713b3153ff1cf4a2dc9ee9b5dbae5597f50991c0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "閑かな",
@@ -40,8 +46,7 @@
   "sentenceCount": 7,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -65,7 +70,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "580cff1e-d56e-4bce-a651-de2d15091059",
   "tags": [

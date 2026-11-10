@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2fe2a605d5b189f8d37cb4cb99ce4ba17b5dada70e4000e42645bcbb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2fe2a605d5b189f8d37cb4cb99ce4ba17b5dada70e4000e42645bcbb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "調子"
@@ -128,11 +136,12 @@
     "question": "お母さんの調子がよくないので、今週は家事を手伝います。",
     "answer": "I will help with housework this week because your mother is not in good shape.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e66bffe7-2130-496a-a15d-def3ae5d6990",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

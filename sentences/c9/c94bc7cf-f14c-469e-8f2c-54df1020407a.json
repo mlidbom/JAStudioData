@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e52c4c798d259e8f0ca2545b6e8b854ab900e2e1ddceb59aca4b94bf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e52c4c798d259e8f0ca2545b6e8b854ab900e2e1ddceb59aca4b94bf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "仲直り"
@@ -58,11 +66,12 @@
     "question": "仲直りしようよ。",
     "answer": "Let's make up.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c94bc7cf-f14c-469e-8f2c-54df1020407a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

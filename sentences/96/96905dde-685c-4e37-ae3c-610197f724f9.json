@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9423ac0c37ef594a37bd2aa221d16d7b473a982890ddca9af2a70ddb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9423ac0c37ef594a37bd2aa221d16d7b473a982890ddca9af2a70ddb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "詠嘆"
@@ -240,11 +248,12 @@
     "question": "この文には、「これが最後かもしれないんだなあ」という詠嘆の意味が込められています。",
     "answer": "This sentence is filled with a deep feeling of \"I wonder if this might be the last time.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "96905dde-685c-4e37-ae3c-610197f724f9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

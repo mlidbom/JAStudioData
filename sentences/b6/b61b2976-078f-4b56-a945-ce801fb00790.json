@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-64c2dcd0dae99cf386feb957a2ca4071c38d5c7a168a2c214a454092.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-64c2dcd0dae99cf386feb957a2ca4071c38d5c7a168a2c214a454092.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "売り手"
@@ -72,11 +80,12 @@
     "question": "この取引、売り手にとって有利すぎない？",
     "answer": "Isn't this transaction too advantageous for the seller?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b61b2976-078f-4b56-a945-ce801fb00790",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

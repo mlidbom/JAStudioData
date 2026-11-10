@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ffbca44ca4833c2369d6822c2e6c54c640e771f9edee15ca7d7a654c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ffbca44ca4833c2369d6822c2e6c54c640e771f9edee15ca7d7a654c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "囲碁"
@@ -100,11 +108,12 @@
     "question": "彼は囲碁トーナメントの決勝に進みました。",
     "answer": "He advanced to the finals of the Go tournament.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2c2cfb4d-e0e2-4976-bdd5-b7e2f50bc914",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

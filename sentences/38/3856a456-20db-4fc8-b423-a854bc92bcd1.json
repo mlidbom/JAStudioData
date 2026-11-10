@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6f49efe6d6c2086f0835de449c9bd2e6e1363d93af0ca1893ba2d8a5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6f49efe6d6c2086f0835de449c9bd2e6e1363d93af0ca1893ba2d8a5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "乗車券"
@@ -114,11 +122,12 @@
     "question": "バスの乗車券はどこで買える？",
     "answer": "Where can I buy a bus ticket?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3856a456-20db-4fc8-b423-a854bc92bcd1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

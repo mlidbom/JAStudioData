@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-10685ad4f2c3df3eb77ed66a803317294984e96e36e99f2c22f431ff.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-10685ad4f2c3df3eb77ed66a803317294984e96e36e99f2c22f431ff.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "子牛"
@@ -135,11 +143,12 @@
     "question": "サンタさん、どうか子牛をプレゼントして下さい。",
     "answer": "Dear Santa Claus, please bring me a calf as a present.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4766b29a-20a0-4e53-943f-e1a4c6a321bc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

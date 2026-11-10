@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fc9a16a3e23f6a3f76f03fba35767fa462aadbd5c0843606759a214a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fc9a16a3e23f6a3f76f03fba35767fa462aadbd5c0843606759a214a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "乗り物"
@@ -93,11 +101,12 @@
     "question": "乗り物はあまり好きじゃないんです。",
     "answer": "I am not a big fan of vehicles.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4342b740-318f-40d6-a554-2b8beff194b1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

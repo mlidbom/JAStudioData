@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6204a5b45faba5a942154b0aada363ccb356d643b44b6eaea73f74f0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6204a5b45faba5a942154b0aada363ccb356d643b44b6eaea73f74f0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "気"
@@ -58,11 +66,12 @@
     "question": "その少年は気がつよい。",
     "answer": "The boy is strong-willed.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6f7b5aaa-612f-47dd-93a5-bc13e33ed90f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dc7c1eedc02988db96de022ac87579f33bd62efc276ecfabe42172c5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dc7c1eedc02988db96de022ac87579f33bd62efc276ecfabe42172c5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "唄う"
@@ -107,11 +115,12 @@
     "question": "私のおじさんは、唄うアコーディオン弾きです。",
     "answer": "My uncle is a singing accordion player.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "63bf0ea4-4749-4f6e-9028-1ef79182715e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1d5581aeb02de107da7665e38cfbf06a359c0e05491dd4de43d624be.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1d5581aeb02de107da7665e38cfbf06a359c0e05491dd4de43d624be.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "公用"
@@ -121,11 +129,12 @@
     "question": "今、公用でパリにきています。",
     "answer": "I’m coming to Paris now on official business.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ae12aab7-bf82-41e8-a3a3-929d9f3a1f87",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

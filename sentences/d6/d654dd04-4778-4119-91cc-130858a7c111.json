@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-92f2530e2e7bd88d3fdab62eeb43e5a993d1bd83cdef7d7b1bd6e6eb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-92f2530e2e7bd88d3fdab62eeb43e5a993d1bd83cdef7d7b1bd6e6eb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "飲酒運転"
@@ -65,11 +73,12 @@
     "question": "飲酒運転は犯罪です。",
     "answer": "Drunk driving is a crime.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d654dd04-4778-4119-91cc-130858a7c111",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

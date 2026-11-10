@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fcc328b4aad8a9b760b98a8f94bf49b6e388dfc53c365672901e9c99.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fcc328b4aad8a9b760b98a8f94bf49b6e388dfc53c365672901e9c99.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "年輩"
@@ -128,11 +136,12 @@
     "question": "この病院にはご年輩の患者さんが多いんです。",
     "answer": "There are many elderly patients in this hospital.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2b609a37-0d6d-4e98-a956-746c801948e8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

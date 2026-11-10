@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-13f0574d90845e2689ce43c8584cc41ed67aa6fa624d33b6572b6dae.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-13f0574d90845e2689ce43c8584cc41ed67aa6fa624d33b6572b6dae.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "時計"
@@ -79,11 +87,12 @@
     "question": "うちの社長の時計はロレックスです。",
     "answer": "My company president wears a Rolex watch.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "659505a6-b90b-4dad-8d78-1e083f4031c6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

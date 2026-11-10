@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-32c0c8abba4b3c4e6d1fef30d8698700ff0a85d861363e8fb4a95f83.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-32c0c8abba4b3c4e6d1fef30d8698700ff0a85d861363e8fb4a95f83.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "中学生"
@@ -86,11 +94,12 @@
     "question": "これは中学生のときの作文です。",
     "answer": "This is an essay I wrote when I was in junior high.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "be00e879-71ad-47c8-9c97-619494f1a208",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

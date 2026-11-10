@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2ad7b09a6fde3a0703abd8bc2af68a624166b50df29cec4749fdeec2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2ad7b09a6fde3a0703abd8bc2af68a624166b50df29cec4749fdeec2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "厚い"
@@ -303,11 +311,12 @@
     "question": "私、食パンって厚ければ厚いほど美味しいと思うんですけど、気づいたら毎朝一斤まるまる食べるようになってました。",
     "answer": "I find that the thicker the slice of bread, the tastier it is. Before I knew it, I started eating a whole loaf of bread every morning.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "57ea923a-ff5e-4731-a30a-f2df32fd6328",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-646dc117ae28ee702f8277afaf6c04b92373c5f166fbcb652f9a6dbe.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-646dc117ae28ee702f8277afaf6c04b92373c5f166fbcb652f9a6dbe.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "予測"
@@ -352,11 +360,12 @@
     "question": "株価の正確な未来予測は不可能です。そんなことができるなら、彼らはセールスではなく自分で資産運用をしているはずです。",
     "answer": "The accurate prediction of stock prices is impossible. If that were possible, these guys would be managing assets themselves, instead of working in sales.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ae57d6b9-c8be-417f-a0e0-e126803a4276",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

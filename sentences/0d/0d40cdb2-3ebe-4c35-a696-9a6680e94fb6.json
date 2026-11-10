@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bbdb9083e387d09fa418d0dd85c41cd51beba7c75c063cbe7164e43b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bbdb9083e387d09fa418d0dd85c41cd51beba7c75c063cbe7164e43b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一歩"
@@ -79,11 +87,12 @@
     "question": "あと一歩でゴールです。",
     "answer": "The goal is one step away.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0d40cdb2-3ebe-4c35-a696-9a6680e94fb6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

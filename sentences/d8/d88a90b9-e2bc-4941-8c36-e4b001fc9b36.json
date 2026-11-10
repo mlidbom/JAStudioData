@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-448181b22b62d0669e14fd110085cac66df5257406c6142672d531be.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-448181b22b62d0669e14fd110085cac66df5257406c6142672d531be.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "足りない"
@@ -135,11 +143,12 @@
     "question": "このソファをロフトに上げるには力が足りない。",
     "answer": "I don't have enough strength to raise this sofa to the loft.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d88a90b9-e2bc-4941-8c36-e4b001fc9b36",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

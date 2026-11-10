@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f0a1eb49e4be6106ee63e6a67624b8159f5829daf221b5b182022b66.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f0a1eb49e4be6106ee63e6a67624b8159f5829daf221b5b182022b66.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "戦う"
@@ -121,11 +129,12 @@
     "question": "私の兄は病気と戦っています。",
     "answer": "My brother is fighting against an illness.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "09cc8196-a06b-4d9c-b73b-9d8af175a195",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

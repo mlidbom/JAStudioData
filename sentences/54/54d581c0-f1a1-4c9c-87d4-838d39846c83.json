@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a78198d83009fb02aa6634174b0a04d651ed01ec2ae2f6ad790cadac.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a78198d83009fb02aa6634174b0a04d651ed01ec2ae2f6ad790cadac.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一蹴する"
@@ -142,11 +150,12 @@
     "question": "上司に休暇を申請したが一蹴された。",
     "answer": "I submitted a holiday request to my boss but it was flatly rejected.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "54d581c0-f1a1-4c9c-87d4-838d39846c83",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

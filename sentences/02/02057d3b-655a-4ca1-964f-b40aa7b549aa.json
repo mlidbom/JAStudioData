@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fb14bb43e927d46c3c067a8fe9c25f14c6080a3d9f8bb98c96283659.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fb14bb43e927d46c3c067a8fe9c25f14c6080a3d9f8bb98c96283659.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "欠席"
@@ -268,11 +276,12 @@
     "question": "コロナにかかってしまったので、卒業式は欠席しなくちゃいけませんでした。",
     "answer": "I had to miss the graduation ceremony because I got COVID.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "02057d3b-655a-4ca1-964f-b40aa7b549aa",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

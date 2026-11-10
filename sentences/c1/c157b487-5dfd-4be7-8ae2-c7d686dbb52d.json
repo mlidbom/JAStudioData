@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e325661749bec6aeb956e804f4f97ff6453f9d000a9374aa9f1c877f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e325661749bec6aeb956e804f4f97ff6453f9d000a9374aa9f1c877f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "写す"
@@ -79,11 +87,12 @@
     "question": "わたしのサイン、写したでしょ？",
     "answer": "You copied my signature, didn't you?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c157b487-5dfd-4be7-8ae2-c7d686dbb52d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

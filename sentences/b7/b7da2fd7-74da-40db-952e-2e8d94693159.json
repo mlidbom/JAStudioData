@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6bb8f9fc60709b04a586beb9c179d0b309e929544ad3c674842db6f8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6bb8f9fc60709b04a586beb9c179d0b309e929544ad3c674842db6f8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "代用"
@@ -100,11 +108,12 @@
     "question": "サワークリームをヨーグルトで代用しました。",
     "answer": "I substituted sour cream with yogurt.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b7da2fd7-74da-40db-952e-2e8d94693159",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

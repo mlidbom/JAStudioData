@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d075b39aabd15b58e4685586f2066ee59e6a93a1450fda38c800ffcc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d075b39aabd15b58e4685586f2066ee59e6a93a1450fda38c800ffcc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "血脈"
@@ -184,11 +192,12 @@
     "question": "この血脈を引く女性が東京のどこかにいるという情報が入った。",
     "answer": "We received information that a woman who bears this bloodline is somewhere in Tokyo.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ada60ffe-ff55-4f50-97c7-e6a7449d42cf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

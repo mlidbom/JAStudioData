@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e122101fb0208ca63a47e0aef2113ab20fada45feb5c01ebccecfd52.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e122101fb0208ca63a47e0aef2113ab20fada45feb5c01ebccecfd52.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "入場"
@@ -135,11 +143,12 @@
     "question": "入場する前にチケットを買って下さい。",
     "answer": "Please buy a ticket before you enter.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f827cf9d-d227-471e-b046-243b7761178f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

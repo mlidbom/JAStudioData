@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7f4be561d8bc63bf8dbc35a414f33e6984d174d5dc16a631aa907161.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7f4be561d8bc63bf8dbc35a414f33e6984d174d5dc16a631aa907161.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "漬かる"
@@ -114,11 +122,12 @@
     "question": "キュウリの漬物、美味しく漬かるといいな。",
     "answer": "I hope the cucumber pickles turn out tasty when they're done pickling.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "43e0c14e-d22c-4506-af9b-d94713e0e253",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

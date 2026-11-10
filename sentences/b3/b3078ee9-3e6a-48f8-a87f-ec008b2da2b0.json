@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5242fb97aac13eaa06dc02dd4dfca8f9b350b49bcfed62a6c368c904.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5242fb97aac13eaa06dc02dd4dfca8f9b350b49bcfed62a6c368c904.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "授業"
@@ -177,11 +185,12 @@
     "question": "その教師は、いつも白いマスクをつけて授業をしていた。",
     "answer": "That teacher always taught the class while wearing a white mask.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b3078ee9-3e6a-48f8-a87f-ec008b2da2b0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

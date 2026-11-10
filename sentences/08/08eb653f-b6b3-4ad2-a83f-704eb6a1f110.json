@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-904d29fda2b706ecf6e78b04d03a899e8d1fca8d3dba4f07bf832bfd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-904d29fda2b706ecf6e78b04d03a899e8d1fca8d3dba4f07bf832bfd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [
@@ -96,11 +104,12 @@
     "question": "この本の作家は有名な学者です。",
     "answer": "The writer of this book is a famous scholar.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "08eb653f-b6b3-4ad2-a83f-704eb6a1f110",
   "tags": [
-    "_tts_audio",
     "-::sentence::uses::incorrect-matches",
     "source::wani::current"
   ]

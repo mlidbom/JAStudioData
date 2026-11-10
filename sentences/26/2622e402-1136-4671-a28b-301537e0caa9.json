@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8cab9e58978c6a2cb57e0c00e29bb43ff4921cccdfe3e577fefd47d4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8cab9e58978c6a2cb57e0c00e29bb43ff4921cccdfe3e577fefd47d4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "服"
@@ -51,11 +59,12 @@
     "question": "その服、かわいいね。",
     "answer": "Those clothes are cute.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2622e402-1136-4671-a28b-301537e0caa9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

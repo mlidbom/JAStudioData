@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c3a59e900d027032fd80c4c5472a4a4d248d33d1ad499fcf17a59ba8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c3a59e900d027032fd80c4c5472a4a4d248d33d1ad499fcf17a59ba8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "拳骨"
@@ -177,11 +185,12 @@
     "question": "父は、僕に拳骨を食らわせるふりをしました。",
     "answer": "My dad pretended to hit me with his fists clenched.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "66f3b50f-bdd9-4013-91e0-030083acf386",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

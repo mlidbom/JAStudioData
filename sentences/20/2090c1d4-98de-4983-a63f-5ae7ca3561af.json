@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0116edb794feee0f82de77719d72dcedddb489b7d8f6e5ec6605ec26.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0116edb794feee0f82de77719d72dcedddb489b7d8f6e5ec6605ec26.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "名曲"
@@ -65,11 +73,12 @@
     "question": "ベートーベンの「スモークサーモン」は名曲だ。",
     "answer": "Beethoven’s \"Smoked Salmon\" is a masterpiece.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2090c1d4-98de-4983-a63f-5ae7ca3561af",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

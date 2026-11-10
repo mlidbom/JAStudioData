@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ce100db949f1d45e063feaefade47d0ace3ca3a8ba24b61dd122bd10.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ce100db949f1d45e063feaefade47d0ace3ca3a8ba24b61dd122bd10.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "第一位"
@@ -177,11 +185,12 @@
     "question": "もしその試合に勝ったら、彼は世界ランキング第一位になります。",
     "answer": "If he wins that game, he'll become first in the world rankings.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "af637e14-69f2-43d1-9520-2295f2374e7b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

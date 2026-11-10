@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bfe45991edfdd8d158c3442aefc15c8b360c867958df71b404b3b73b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bfe45991edfdd8d158c3442aefc15c8b360c867958df71b404b3b73b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "磁場"
@@ -107,11 +115,12 @@
     "question": "地球にはとても強い磁場があります。",
     "answer": "The Earth has a substantial magnetic field.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4be95344-769d-49a9-9817-9aab9d5fff6a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1b1f57f3777fe907640aef450d629bbe615eef751745f6717ca492a2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1b1f57f3777fe907640aef450d629bbe615eef751745f6717ca492a2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "機械"
@@ -149,11 +157,12 @@
     "question": "今日は機械の調子があんまり良くないんだよね。",
     "answer": "Today the machine is not working very smoothly.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f75da939-be30-481f-9990-e4e319e098a5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

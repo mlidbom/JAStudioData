@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fa55b3f7864ff39ae618baca23c340e0b53fc59d5cf57a34162ec2b3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fa55b3f7864ff39ae618baca23c340e0b53fc59d5cf57a34162ec2b3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "分裂"
@@ -352,11 +360,12 @@
     "question": "その政党は三派に分裂したと思っていたんだけど、実際は四派に分裂していたんだね。",
     "answer": "I thought the political party was split three ways, but it was actually split four ways.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "070b2901-974c-4c1c-94e6-f16b73141ef7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -30,9 +30,15 @@
   "partsOfSpeech": [],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-e07c3417b480b5d383821ae7d7114cc3ae880ede1f88dd3b74944d47.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-e07c3417b480b5d383821ae7d7114cc3ae880ede1f88dd3b74944d47.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "間が持たん",
@@ -42,8 +48,7 @@
   "sentenceCount": 2,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -67,7 +72,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "3e31dc7c-defc-40bf-a3eb-bd26fe115bac",
   "tags": [

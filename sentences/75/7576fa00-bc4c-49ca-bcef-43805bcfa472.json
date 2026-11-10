@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-04db158218602b3a029cb44e91fd964b3ae3432d2e2c95d4f799c3bb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-04db158218602b3a029cb44e91fd964b3ae3432d2e2c95d4f799c3bb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "躍り"
@@ -100,11 +108,12 @@
     "question": "私は小躍りして喜びました。",
     "answer": "I jumped for joy.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7576fa00-bc4c-49ca-bcef-43805bcfa472",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

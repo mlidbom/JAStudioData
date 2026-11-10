@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4feca45bde822c7247cfda295d0d90b163e74ed8723fb17ef6bfa8ea.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4feca45bde822c7247cfda295d0d90b163e74ed8723fb17ef6bfa8ea.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "喋る"
@@ -100,11 +108,12 @@
     "question": "あの妖精は本当によく喋るよね。",
     "answer": "That fairy is really talkative, don't you think?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "974ec11f-abc6-4e68-8eed-cca525e5f99b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

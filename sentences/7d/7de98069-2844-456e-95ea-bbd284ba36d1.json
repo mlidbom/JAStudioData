@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-226efbb4c2e8039fb9a1e78722d47f360861d66104bdedbc1ce3caca.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-226efbb4c2e8039fb9a1e78722d47f360861d66104bdedbc1ce3caca.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "対応"
@@ -149,11 +157,12 @@
     "question": "コウイチは、今ワニカニユーザーからのクレームに対応していて忙しい。",
     "answer": "Koichi is busy right now addressing complaints from WaniKani users.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7de98069-2844-456e-95ea-bbd284ba36d1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

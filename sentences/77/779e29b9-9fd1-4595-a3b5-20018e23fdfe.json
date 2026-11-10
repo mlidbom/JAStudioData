@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fb63cca516cca0bce45eb60bc81d55740f7deff5b7082a11a3f596c3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fb63cca516cca0bce45eb60bc81d55740f7deff5b7082a11a3f596c3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "機嫌"
@@ -72,11 +80,12 @@
     "question": "今日のお母さんの機嫌はどう？",
     "answer": "What kind of mood is mom in today?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "779e29b9-9fd1-4595-a3b5-20018e23fdfe",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

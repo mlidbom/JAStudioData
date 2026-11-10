@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-689893917f1a8cfe015aacdd877d56867af9d6c7fc6cf67a6893567b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-689893917f1a8cfe015aacdd877d56867af9d6c7fc6cf67a6893567b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "関係"
@@ -93,11 +101,12 @@
     "question": "それは今は関係ないでしょ？",
     "answer": "That's irrelevant now, right?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f3c8b6ac-f457-4042-acce-27469be9b982",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

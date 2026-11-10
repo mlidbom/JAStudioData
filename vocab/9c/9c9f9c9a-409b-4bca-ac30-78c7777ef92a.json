@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-65ba37ba6d0389dab40f004310bfd95a009b67c13b58368fc57f9732.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-65ba37ba6d0389dab40f004310bfd95a009b67c13b58368fc57f9732.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "ほれほれする",
@@ -56,8 +62,7 @@
   "sentenceCount": 1,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -81,7 +86,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "9c9f9c9a-409b-4bca-ac30-78c7777ef92a",
   "tags": [

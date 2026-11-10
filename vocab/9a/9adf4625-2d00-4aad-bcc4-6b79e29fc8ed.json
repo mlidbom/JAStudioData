@@ -20,15 +20,20 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-2c11bdcd28546d70c3ba63f43dfdd90a9a4624bbb2db3be3d9bd4256.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-2c11bdcd28546d70c3ba63f43dfdd90a9a4624bbb2db3be3d9bd4256.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [],
   "sentenceCount": 0,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -52,7 +57,9 @@
   "sourceData": {
     "answer": "intercom/interphone",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "9adf4625-2d00-4aad-bcc4-6b79e29fc8ed",
   "tags": [

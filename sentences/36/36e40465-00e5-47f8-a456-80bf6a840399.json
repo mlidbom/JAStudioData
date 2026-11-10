@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5604c5410b827afe4c13788125b4f637a33a65059b31d64b3861474d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5604c5410b827afe4c13788125b4f637a33a65059b31d64b3861474d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "定額"
@@ -100,11 +108,12 @@
     "question": "定額のプランにしました。",
     "answer": "I went with the flat rate plan.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "36e40465-00e5-47f8-a456-80bf6a840399",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

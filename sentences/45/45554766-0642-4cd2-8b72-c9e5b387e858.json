@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6822c277ebd43429240d5bd2dc0244f1287fac015f4a4b7a203b1c9b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6822c277ebd43429240d5bd2dc0244f1287fac015f4a4b7a203b1c9b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "関する"
@@ -114,11 +122,12 @@
     "question": "この問題に関するあなたの意見を教えてください。",
     "answer": "What is your opinion on this issue?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "45554766-0642-4cd2-8b72-c9e5b387e858",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

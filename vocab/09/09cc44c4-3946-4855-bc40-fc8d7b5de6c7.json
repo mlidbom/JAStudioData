@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-7381df000334dc5eb173f03ba31b2f54cd3ac38a7a83be45fa3d6b20.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-7381df000334dc5eb173f03ba31b2f54cd3ac38a7a83be45fa3d6b20.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "何処だって",
@@ -40,8 +46,7 @@
   "sentenceCount": 5,
   "technicalNotes": "Needs to stay since it is in the dictionary as meaning anywhere",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -70,7 +75,9 @@
   "sourceData": {
     "answer": "where? | anywhere",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "09cc44c4-3946-4855-bc40-fc8d7b5de6c7",
   "tags": [

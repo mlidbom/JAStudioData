@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a0829499c347843589666a20c9a2e0587651df683f6af54d2b881d2e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a0829499c347843589666a20c9a2e0587651df683f6af54d2b881d2e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "捉える"
@@ -219,11 +227,12 @@
     "question": "コップの半分まで入れられた水は、人によって「半分しかない」とも「半分もある」とも捉えられます。",
     "answer": "A glass filled halfway with water can be perceived as \"half empty\" or \"half full,\" depending on the person.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3ab92143-dcc3-4387-b514-d2b963e86143",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

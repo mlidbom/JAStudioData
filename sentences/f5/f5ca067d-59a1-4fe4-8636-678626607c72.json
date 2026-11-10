@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2796ef52fbdb19f8598703ca2580dc180d89bdb5bfb21198266a6b43.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2796ef52fbdb19f8598703ca2580dc180d89bdb5bfb21198266a6b43.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "工事"
@@ -128,11 +136,12 @@
     "question": "夕べは工事の音がうるさくて、ねむれませんでした。",
     "answer": "I couldn't sleep because of the noise of the construction last night.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f5ca067d-59a1-4fe4-8636-678626607c72",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

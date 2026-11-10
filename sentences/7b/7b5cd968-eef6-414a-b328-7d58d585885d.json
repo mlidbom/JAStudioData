@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5007e10e9e92063111dbc669c7b2ed1a3bc3c738f6c4946ae3fc0026.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5007e10e9e92063111dbc669c7b2ed1a3bc3c738f6c4946ae3fc0026.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "所"
@@ -177,11 +185,12 @@
     "question": "お母さんがスクワットをしている所に、友人が来てしまった。",
     "answer": "My friend came over just as my mother was doing squats.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7b5cd968-eef6-414a-b328-7d58d585885d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

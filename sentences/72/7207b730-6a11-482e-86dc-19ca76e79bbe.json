@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e6937a6084a605037bb976a5312f0172d3dd97c6cc5822bd687b3eb0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e6937a6084a605037bb976a5312f0172d3dd97c6cc5822bd687b3eb0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "助ける"
@@ -170,11 +178,12 @@
     "question": "私は、その馬を助けるために川に入りました。",
     "answer": "I went into the river to help the horse.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7207b730-6a11-482e-86dc-19ca76e79bbe",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

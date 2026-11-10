@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-90a8c157f52737a92041af3ff3a7e636a24d3b50ba9787f09db6208f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-90a8c157f52737a92041af3ff3a7e636a24d3b50ba9787f09db6208f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "伸ばす"
@@ -135,11 +143,12 @@
     "question": "子供がいたずらでゴムを伸ばしすぎて使い物にならなくなりました。",
     "answer": "My kid mischievously overstretched the elastic and made it unusable.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9ee7d626-02c6-4cf7-b5c3-124dedbe2719",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

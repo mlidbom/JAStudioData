@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-42fd9d9c950466c33d84e7046e41b2b844c1bbd22bbb528e43c17cf4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-42fd9d9c950466c33d84e7046e41b2b844c1bbd22bbb528e43c17cf4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "電子機器"
@@ -282,11 +290,12 @@
     "question": "この工場では、電子機器に問題がないか、最後に作業員が一つずつ手作業でチェックしています。",
     "answer": "In this factory, workers manually check each electronic device one by one at the end of the process to make sure there are no problems.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c76ca9ea-a6f7-4bf8-aa04-45906bb60b61",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

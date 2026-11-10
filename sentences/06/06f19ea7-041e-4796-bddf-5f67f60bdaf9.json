@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c9e8c26d5a87104159d77930eabf2de346b8057ad453c3b9bb2633db.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c9e8c26d5a87104159d77930eabf2de346b8057ad453c3b9bb2633db.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "入力"
@@ -114,11 +122,12 @@
     "question": "ここにソーシャルセキュリティナンバーを入力して下さい。",
     "answer": "Please enter your social security number here.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "06f19ea7-041e-4796-bddf-5f67f60bdaf9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

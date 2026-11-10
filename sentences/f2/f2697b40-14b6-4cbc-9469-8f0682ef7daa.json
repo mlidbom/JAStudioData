@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-df7ce834151346407679633206a9b491f5701a2499f234d1908b1a02.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-df7ce834151346407679633206a9b491f5701a2499f234d1908b1a02.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "倉庫"
@@ -226,11 +234,12 @@
     "question": "倉庫の鍵を閉めるには、カチッという音が聞こえるまでレバーを上げる必要があります。",
     "answer": "You need to lift the lever until you hear a click to lock the warehouse.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f2697b40-14b6-4cbc-9469-8f0682ef7daa",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

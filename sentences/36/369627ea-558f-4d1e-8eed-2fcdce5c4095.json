@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-185eab74da98756a8d4e195efc9850074947eef7ec6a165a641e9de4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-185eab74da98756a8d4e195efc9850074947eef7ec6a165a641e9de4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "閉まる"
@@ -86,11 +94,12 @@
     "question": "このフタ、うまく閉まらないんだけど。",
     "answer": "This lid doesn't close properly.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "369627ea-558f-4d1e-8eed-2fcdce5c4095",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-99ddd0b0106c97d704ded459163be43a405e38e44a75b53bf2c4e56a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-99ddd0b0106c97d704ded459163be43a405e38e44a75b53bf2c4e56a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "州"
@@ -79,11 +87,12 @@
     "question": "私は、アイダホ州の生まれです。",
     "answer": "I was born in the state of Idaho.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "78519d05-fbb3-4fa0-9d90-8f2849028f04",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

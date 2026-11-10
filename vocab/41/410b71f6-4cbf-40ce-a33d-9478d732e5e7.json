@@ -20,9 +20,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-38a466d70f2d2425ba8233cdbf924546890ae08780cd20f0aadd6e49.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-38a466d70f2d2425ba8233cdbf924546890ae08780cd20f0aadd6e49.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "ちゅん",
@@ -40,8 +46,7 @@
   "sentenceCount": 1,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -65,7 +70,9 @@
   "sourceData": {
     "answer": "chirp/cheep",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "410b71f6-4cbf-40ce-a33d-9478d732e5e7",
   "tags": [

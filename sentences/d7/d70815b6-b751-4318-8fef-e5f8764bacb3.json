@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a04852016c8e137349555cc81cc6eed9e3ec861f7e35be66c25b3f86.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a04852016c8e137349555cc81cc6eed9e3ec861f7e35be66c25b3f86.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "蜜"
@@ -142,11 +150,12 @@
     "question": "その熊は、蜜の入った瓶を五本、次々飲み干しました。",
     "answer": "The bear swallowed five jars of the honey, one after the other.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d70815b6-b751-4318-8fef-e5f8764bacb3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

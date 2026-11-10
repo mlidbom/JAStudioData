@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f2b271e604dfdf1edbfc93355f1b1bbc88394da9884ef28c35972f7a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f2b271e604dfdf1edbfc93355f1b1bbc88394da9884ef28c35972f7a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "薦める"
@@ -212,11 +220,12 @@
     "question": "コウイチが美味しいと薦めてきたクラブケーキを食べてみたらすごく不味かった。",
     "answer": "Koichi said the crab cakes were delicious and recommended them; when I tried them they tasted terrible.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "eed96425-6957-4fee-ae65-8f4d4cc54794",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

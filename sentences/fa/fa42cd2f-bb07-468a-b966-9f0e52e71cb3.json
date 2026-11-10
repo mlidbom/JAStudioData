@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1c031c975965e08c51eb3ebf57d009cbdff977dd9f1ee0a9d9c6950d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1c031c975965e08c51eb3ebf57d009cbdff977dd9f1ee0a9d9c6950d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "清涼"
@@ -191,11 +199,12 @@
     "question": "十分間にどれだけの炭酸入り清涼飲料水を飲めると思いますか？",
     "answer": "How many carbonated soft drinks do you think you can drink in ten minutes?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fa42cd2f-bb07-468a-b966-9f0e52e71cb3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

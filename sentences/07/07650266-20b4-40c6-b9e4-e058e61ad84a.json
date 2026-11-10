@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a90d8489a0d91df89c14e49f53f625ab20df3673b6b54bb67d468389.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a90d8489a0d91df89c14e49f53f625ab20df3673b6b54bb67d468389.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "嘱託"
@@ -191,11 +199,12 @@
     "question": "あの人は、再雇用制度を利用した嘱託社員なんです。",
     "answer": "That person is a part-time employee who used the reemployment system.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "07650266-20b4-40c6-b9e4-e058e61ad84a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

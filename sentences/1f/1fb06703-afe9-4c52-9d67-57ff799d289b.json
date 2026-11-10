@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5687ce9c2a9f05dc76dcbaecdf52fcb6659c2c7817dfc4f8a8cf94bb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5687ce9c2a9f05dc76dcbaecdf52fcb6659c2c7817dfc4f8a8cf94bb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "削る"
@@ -191,11 +199,12 @@
     "question": "歯を削る音ってのは、私にとっては最も不快な音の一つだね。",
     "answer": "The sound of shaving down teeth is one of the most unpleasant sounds to me.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1fb06703-afe9-4c52-9d67-57ff799d289b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

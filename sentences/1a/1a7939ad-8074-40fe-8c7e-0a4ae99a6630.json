@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0d2b4878330cf58b47255198bd7c6657a3dec0395dc7485cde61f45e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0d2b4878330cf58b47255198bd7c6657a3dec0395dc7485cde61f45e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "良い"
@@ -177,11 +185,12 @@
     "question": "ケンカするほど仲が良いって言うだろ？",
     "answer": "You say you're getting along well as you fight, right?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1a7939ad-8074-40fe-8c7e-0a4ae99a6630",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

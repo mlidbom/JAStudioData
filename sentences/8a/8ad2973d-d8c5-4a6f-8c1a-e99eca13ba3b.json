@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c65f7eabb025aa25b0c1e060562d97371f45e10d094121acae97a4d1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c65f7eabb025aa25b0c1e060562d97371f45e10d094121acae97a4d1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "汚す"
@@ -135,11 +143,12 @@
     "question": "アイツは自分では決して手を汚さない、ずるい男だ。",
     "answer": "He is a cunning man who never dirties his hands.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8ad2973d-d8c5-4a6f-8c1a-e99eca13ba3b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

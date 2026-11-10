@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-231ac0952c38e875ddcfb29981b744c0ffcaebda539b5bf930574b7f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-231ac0952c38e875ddcfb29981b744c0ffcaebda539b5bf930574b7f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "電波"
@@ -107,11 +115,12 @@
     "question": "母は電波が心配で電子レンジを使わない。",
     "answer": "My mother is worried about radio waves and does not use the microwave.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5913a47a-553d-46b7-bf07-436c9f019216",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

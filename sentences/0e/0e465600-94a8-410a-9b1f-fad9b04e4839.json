@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bc3bbfc2d6543975b55ac40092000da24e8e46ce673b5d4e77a33497.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bc3bbfc2d6543975b55ac40092000da24e8e46ce673b5d4e77a33497.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -70,11 +78,12 @@
     "question": "このスカートは、千円です。",
     "answer": "This skirt is 1000 yen.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0e465600-94a8-410a-9b1f-fad9b04e4839",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

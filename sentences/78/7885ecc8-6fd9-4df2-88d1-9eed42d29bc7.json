@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-49f45d8bf7064d5009b20399ab11d9a2399ac2e84eba4843988ace4c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-49f45d8bf7064d5009b20399ab11d9a2399ac2e84eba4843988ace4c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "東京弁"
@@ -226,11 +234,12 @@
     "question": "私は東京生まれ東京育ちですが、親が京都出身なので東京弁より京都弁の方が強いです。",
     "answer": "I was born and raised in Tokyo, but my parents are from Kyoto, so my Kyoto dialect is stronger than my Tokyo dialect.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7885ecc8-6fd9-4df2-88d1-9eed42d29bc7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

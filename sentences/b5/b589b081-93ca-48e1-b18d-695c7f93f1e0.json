@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-acf5b12406948ca15c1c6aa1fef493c7d4f0602d3f8db3463b9ad2e7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-acf5b12406948ca15c1c6aa1fef493c7d4f0602d3f8db3463b9ad2e7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "具合"
@@ -100,11 +108,12 @@
     "question": "母の具合があまりよくないんです。",
     "answer": "My mother’s condition isn’t very good.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b589b081-93ca-48e1-b18d-695c7f93f1e0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

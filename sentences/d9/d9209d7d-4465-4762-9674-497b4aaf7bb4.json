@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8f49cd15b0a83e382f1d1014ed083bd766fb591fcad2b42db60f01b9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8f49cd15b0a83e382f1d1014ed083bd766fb591fcad2b42db60f01b9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "光"
@@ -72,11 +80,12 @@
     "question": "カーテンから光が入る。",
     "answer": "Light comes in through the curtain.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d9209d7d-4465-4762-9674-497b4aaf7bb4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

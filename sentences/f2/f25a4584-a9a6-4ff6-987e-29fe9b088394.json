@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8fa3bd158ce726e14a03c0eb6ddbcb19f462c256aa25e918221762d3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8fa3bd158ce726e14a03c0eb6ddbcb19f462c256aa25e918221762d3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "神様"
@@ -100,11 +108,12 @@
     "question": "あそこにいるのは神様です。",
     "answer": "The one over there is a god.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f25a4584-a9a6-4ff6-987e-29fe9b088394",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

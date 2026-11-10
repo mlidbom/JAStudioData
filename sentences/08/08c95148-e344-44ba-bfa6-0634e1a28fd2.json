@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b80abd57cb9f833b897bca240b7d9e1bded7fc58f68cd393b795bf5f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b80abd57cb9f833b897bca240b7d9e1bded7fc58f68cd393b795bf5f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "審判"
@@ -219,11 +227,12 @@
     "question": "審判を下すのは思ったよりも簡単な事ではなかった。",
     "answer": "Passing judgment wasn't as easy as I'd expected.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "08c95148-e344-44ba-bfa6-0634e1a28fd2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

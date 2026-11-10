@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7d6eee280f1cb765611903eccc358847e654d1ac358d10a70d0af23a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7d6eee280f1cb765611903eccc358847e654d1ac358d10a70d0af23a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "航空券"
@@ -163,11 +171,12 @@
     "question": "博多までの航空券を手配してもらえますか。",
     "answer": "Could you arrange a flight for me to Hakata?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1832e04e-0564-4eaf-9ef1-2ab3e7531e42",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

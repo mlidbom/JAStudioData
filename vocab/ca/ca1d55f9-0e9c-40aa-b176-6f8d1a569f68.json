@@ -21,9 +21,15 @@
     "slang"
   ],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-a8cf89ab443a2e58b53206cf353ed67337d6fdab614c84fb0dc28887.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-a8cf89ab443a2e58b53206cf353ed67337d6fdab614c84fb0dc28887.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "おっは",
@@ -37,8 +43,7 @@
   "sentenceCount": 1,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -67,7 +72,9 @@
   "sourceData": {
     "answer": "good-morning",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "ca1d55f9-0e9c-40aa-b176-6f8d1a569f68",
   "tags": [

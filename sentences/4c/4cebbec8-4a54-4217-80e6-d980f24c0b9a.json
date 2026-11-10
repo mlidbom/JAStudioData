@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d584c007a9af25be70010c68cb8aadaed66a76d70615a39520d66660.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d584c007a9af25be70010c68cb8aadaed66a76d70615a39520d66660.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鼓膜"
@@ -149,11 +157,12 @@
     "question": "そんなに大声を出されたら鼓膜が破れるよ。",
     "answer": "If you play things that loudly you’ll tear your eardrums.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4cebbec8-4a54-4217-80e6-d980f24c0b9a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

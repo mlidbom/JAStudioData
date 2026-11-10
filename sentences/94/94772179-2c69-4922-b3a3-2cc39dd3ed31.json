@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e8c98c18a2f282555e0f077f0af64db224ec0115cff49d506f0f31a9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e8c98c18a2f282555e0f077f0af64db224ec0115cff49d506f0f31a9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "比例"
@@ -149,11 +157,12 @@
     "question": "これがyの大きさに比例するのは分かりますか？",
     "answer": "Do you see how this is proportional to the value of y?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "94772179-2c69-4922-b3a3-2cc39dd3ed31",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

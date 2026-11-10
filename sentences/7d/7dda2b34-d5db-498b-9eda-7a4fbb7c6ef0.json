@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7998d63602943a09907f1bdad5e6ff24c2f233ee61f8aed3639f1857.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7998d63602943a09907f1bdad5e6ff24c2f233ee61f8aed3639f1857.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "空港"
@@ -212,11 +220,12 @@
     "question": "空港で借りた車の中に、パスポートを忘れた気がする。",
     "answer": "I think I left my passport in the car I rented at the airport.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7dda2b34-d5db-498b-9eda-7a4fbb7c6ef0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

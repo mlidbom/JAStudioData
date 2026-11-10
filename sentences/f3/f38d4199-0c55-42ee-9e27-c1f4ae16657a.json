@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9c00bba5f1ea13633323addc69a9c9d8555b11576c98de8df122bc8a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9c00bba5f1ea13633323addc69a9c9d8555b11576c98de8df122bc8a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "操作"
@@ -226,11 +234,12 @@
     "question": "他人にスマフォの遠隔操作を可能にさせるバックドアを発見しました。",
     "answer": "Someone found a backdoor that enables remote operation of your smartphone.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f38d4199-0c55-42ee-9e27-c1f4ae16657a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

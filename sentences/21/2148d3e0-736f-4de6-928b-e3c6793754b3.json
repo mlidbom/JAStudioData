@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b41551e9c80a98ec18d59860e916e954b85d92e520d0616044497af0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b41551e9c80a98ec18d59860e916e954b85d92e520d0616044497af0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "月額"
@@ -86,11 +94,12 @@
     "question": "このアプリは、月額たったの五ドルです。",
     "answer": "This app is only $5 per month.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2148d3e0-736f-4de6-928b-e3c6793754b3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e77f95e5c1e28f86f354cf4ce8149ceee7b7f1b935f816c559db6b18.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e77f95e5c1e28f86f354cf4ce8149ceee7b7f1b935f816c559db6b18.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "木"
@@ -86,11 +94,12 @@
     "question": "このテーブルは木で、できてます。",
     "answer": "This table is made of wood.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "97654574-91be-4d16-97f2-83cc850cd258",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4d7696de707d3a95fca131387b05b40446b5d49e061c149d58d3a6c0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4d7696de707d3a95fca131387b05b40446b5d49e061c149d58d3a6c0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "悲しい"
@@ -79,11 +87,12 @@
     "question": "それは悲しすぎるね。",
     "answer": "That's too sad.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c2c45bb5-1e94-40f2-95c7-7a443aba48b6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

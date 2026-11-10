@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0b6cf7b17d68a7b1ce35c5c00505ed24737b88f53e08a523f0badb2d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0b6cf7b17d68a7b1ce35c5c00505ed24737b88f53e08a523f0badb2d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "提出"
@@ -177,11 +185,12 @@
     "question": "そうだ！パスポートも提出しなきゃいけないんだった。",
     "answer": "Oh right! I had to submit my passport as well.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "325a69f3-8e0c-4bd8-9218-868c24d08c99",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

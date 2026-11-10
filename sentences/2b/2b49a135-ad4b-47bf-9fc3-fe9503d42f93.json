@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8985b366bdf9b514f1e3f25c86dc7e98094f2074977b2fae1e808421.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8985b366bdf9b514f1e3f25c86dc7e98094f2074977b2fae1e808421.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "段々"
@@ -212,11 +220,12 @@
     "question": "私の日本語が段々うまくなっていると言ってもらえて、すごく嬉しいです。",
     "answer": "I’m glad to hear that my Japanese is gradually getting better.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2b49a135-ad4b-47bf-9fc3-fe9503d42f93",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

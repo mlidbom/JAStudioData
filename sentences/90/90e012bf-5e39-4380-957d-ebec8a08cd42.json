@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cf7960f8de93908d657d70cae625b8502d177e63db4f4b325331edf0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cf7960f8de93908d657d70cae625b8502d177e63db4f4b325331edf0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "腰抜け"
@@ -149,11 +157,12 @@
     "question": "私は腰抜けだから言い返したくても言い返せないの。",
     "answer": "I am such a coward, so I can't talk back even if I wanted to.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "90e012bf-5e39-4380-957d-ebec8a08cd42",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

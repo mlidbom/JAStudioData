@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-66a5c38b3066fc7d4dcab419123f5e4d612718a2907c4d3eed582399.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-66a5c38b3066fc7d4dcab419123f5e4d612718a2907c4d3eed582399.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "弦"
@@ -100,11 +108,12 @@
     "question": "ギターの弦が緩んでいます。",
     "answer": "The guitar strings are loose.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "60681711-6e8a-4559-a88a-a6db063e630c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

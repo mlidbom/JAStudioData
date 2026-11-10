@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2eff9a8d00b3231c6cdab68d815753ba79674a4f1eb4426b62b7ebe8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2eff9a8d00b3231c6cdab68d815753ba79674a4f1eb4426b62b7ebe8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "遺失"
@@ -212,11 +220,12 @@
     "question": "この空港に遺失物取扱所があるかどうかをご存知ですか。",
     "answer": "Do you know if there is a lost and found office in this airport?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1dd6938f-1291-4db7-a70d-ee5c8febb9dc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

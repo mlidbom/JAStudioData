@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ba9f4a0c37e09ae3b1e4ea5b23938ec31a312025833904d82beeb2ea.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ba9f4a0c37e09ae3b1e4ea5b23938ec31a312025833904d82beeb2ea.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "平日"
@@ -86,11 +94,12 @@
     "question": "平日と休日、どちらなら平気ですか？",
     "answer": "Which would be okay, a weekday or a holiday?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "601036f9-de8f-482a-b297-778590482eb0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

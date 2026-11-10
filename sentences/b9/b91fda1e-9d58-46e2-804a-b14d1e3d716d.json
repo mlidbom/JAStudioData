@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a1844c54bfbe95f62328ccc7ebeaaf2934304ecc7cedd9c7ab27277c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a1844c54bfbe95f62328ccc7ebeaaf2934304ecc7cedd9c7ab27277c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "秒針"
@@ -135,11 +143,12 @@
     "question": "ねむれなかったので、時計の秒針を見て夜を過ごしました。",
     "answer": "I couldn't sleep, so I spent the night watching the second hand of the clock.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b91fda1e-9d58-46e2-804a-b14d1e3d716d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

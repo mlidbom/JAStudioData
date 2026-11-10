@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3f0fdde85b36b654fd57c1e24004dddb38de7041d22fada6579e019f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3f0fdde85b36b654fd57c1e24004dddb38de7041d22fada6579e019f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "陳腐"
@@ -93,11 +101,12 @@
     "question": "陳腐な台詞しか思い浮かびません。",
     "answer": "I can’t think of anything but cliched lines.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2f2de796-d331-41cf-aa88-65fbedbe44ff",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

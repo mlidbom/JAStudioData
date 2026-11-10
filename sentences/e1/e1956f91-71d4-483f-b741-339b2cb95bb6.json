@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e30084e0b53c51ed63ac15d3efbd2ae456fccb2d49c4b2f5fede8ee9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e30084e0b53c51ed63ac15d3efbd2ae456fccb2d49c4b2f5fede8ee9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "習慣"
@@ -226,11 +234,12 @@
     "question": "「たばこ、止めたんじゃなかったの？」「まあ、ほら、『古い習慣はなかなかなくならない』って言うだろ。」",
     "answer": "\"I thought you quit smoking.\" \"Well, they say old habits die hard.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e1956f91-71d4-483f-b741-339b2cb95bb6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-214617cddd92a95b41b8d63f545f00b0ca4dc725bea12b776f4476e2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-214617cddd92a95b41b8d63f545f00b0ca4dc725bea12b776f4476e2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "著作"
@@ -114,11 +122,12 @@
     "question": "彼女は少なくとも五十は著作があります。",
     "answer": "She has no less than 50 books published.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "97bd4f40-a402-4921-91cb-d4677a13e209",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

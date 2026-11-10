@@ -20,9 +20,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": " [sound:ATTS ヘタレ (azure microsoft server speech text to speech voice (ja-jp daichineural)).mp3]",
-  "audioG": "",
-  "audioTTS": "",
+  "audio": [
+    {
+      "fileName": "ATTS ヘタレ (azure microsoft server speech text to speech voice (ja-jp daichineural)).mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "へたれ",
@@ -32,8 +38,7 @@
   "sentenceCount": 1,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -57,11 +62,12 @@
   "sourceData": {
     "answer": "incompetence/laziness/worthlessness/weakness | good-for-nothing/loser/weakling/wuss",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "2386231a-9874-4233-8ad4-bef208675bb7",
   "tags": [
-    "_tts_audio",
     "source::yomitan"
   ]
 }

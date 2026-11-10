@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-60c59226b13d6a1f6bfaadb9e29f8ba36a153a4b4c631935e65ff69c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-60c59226b13d6a1f6bfaadb9e29f8ba36a153a4b4c631935e65ff69c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "完結"
@@ -142,11 +150,12 @@
     "question": "このマンガはまだ完結していません。",
     "answer": "This manga hasn’t been completed yet.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dcc8a3d5-a743-4589-91ff-9c18add22390",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-70a1adc9340faad7d073fbf31163dbb3df88d6ac89229a620ce7da52.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-70a1adc9340faad7d073fbf31163dbb3df88d6ac89229a620ce7da52.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "信奉"
@@ -175,11 +183,12 @@
     "question": "私は日本国民全員が神道を信奉すべきだと思います。",
     "answer": "I think all Japanese citizens should believe in Shinto.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "04ed4066-97c7-4bb9-9ab9-c23fd53135f0",
   "tags": [
-    "_tts_audio",
     "-::sentence::uses::incorrect-matches",
     "source::wani::current"
   ]

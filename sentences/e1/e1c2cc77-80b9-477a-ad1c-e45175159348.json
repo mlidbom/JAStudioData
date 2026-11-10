@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-87bbf2c157ab9d579f79cc76764a3934312626e0243b85091aec525e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-87bbf2c157ab9d579f79cc76764a3934312626e0243b85091aec525e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "〜丁目"
@@ -184,11 +192,12 @@
     "question": "四丁目にはバスが来ないので、会社までは歩くしかありません。",
     "answer": "You have no choice but to walk to the company as there's no bus coming to 4-chome.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e1c2cc77-80b9-477a-ad1c-e45175159348",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -26,9 +26,15 @@
   "partsOfSpeech": [],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-4c49ee7781082c75f310a61633ddac1ce0f267690be726c1d056c894.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-4c49ee7781082c75f310a61633ddac1ce0f267690be726c1d056c894.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "時間がない",
@@ -38,8 +44,7 @@
   "sentenceCount": 4,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -63,7 +68,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "7dd93a6c-c98d-454b-9e1e-00754fd328c5",
   "tags": [

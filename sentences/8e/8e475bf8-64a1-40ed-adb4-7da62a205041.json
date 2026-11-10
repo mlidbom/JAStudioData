@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b7afc4641bcd8d0556b9c8fa122be2b06c7cce1ee91d0e1189a857b1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b7afc4641bcd8d0556b9c8fa122be2b06c7cce1ee91d0e1189a857b1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "窮屈"
@@ -247,11 +255,12 @@
     "question": "部屋が窮屈でごめんね。ここに座っていてくれる？今、お茶持ってくるから。",
     "answer": "I'm sorry the room is so cramped. Can you just sit here? I'll get you some tea.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8e475bf8-64a1-40ed-adb4-7da62a205041",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

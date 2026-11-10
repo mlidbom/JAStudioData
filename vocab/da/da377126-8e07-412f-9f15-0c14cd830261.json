@@ -36,9 +36,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-db76c94fdf2710b6a046ee4951a834580c2264cdcd1c48241138b822.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-db76c94fdf2710b6a046ee4951a834580c2264cdcd1c48241138b822.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "知っての通り",
@@ -48,8 +54,7 @@
   "sentenceCount": 1,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -73,7 +78,9 @@
   "sourceData": {
     "answer": "as-we-know",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "da377126-8e07-412f-9f15-0c14cd830261",
   "tags": [

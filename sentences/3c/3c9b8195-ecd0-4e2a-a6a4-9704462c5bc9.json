@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4d44128f3b16cb7183285bce3acb62215cb2a088ac2c1668ee63be90.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4d44128f3b16cb7183285bce3acb62215cb2a088ac2c1668ee63be90.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "矢印"
@@ -184,11 +192,12 @@
     "question": "青い矢印の標識は「左折可」で、青地に白抜きの矢印の標識「一方通行」だよ！",
     "answer": "The blue arrow road sign means \"left turn allowed,\" and the sign with a white arrow on a blue background means \"one-way\"!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3c9b8195-ecd0-4e2a-a6a4-9704462c5bc9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

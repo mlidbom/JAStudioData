@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a58fb4bb679f163806b3a1fa8b235e50dcd5bcc3c3fe46587e39f725.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a58fb4bb679f163806b3a1fa8b235e50dcd5bcc3c3fe46587e39f725.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "合格する"
@@ -212,11 +220,12 @@
     "question": "今朝の時点では、まだ合格したのかどうか分からなかったんです。",
     "answer": "As of this morning, I didn't know if I passed the exam yet.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "167b4ae5-5c65-4201-8f2c-52230eacb98b",
   "tags": [
-    "_tts_audio",
     "source::wani::removed"
   ]
 }

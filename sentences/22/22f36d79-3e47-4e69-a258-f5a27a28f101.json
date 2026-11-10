@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-987dc0e0f05e55a66e363f0cc2c79d651f6a390047a45e427f91a008.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-987dc0e0f05e55a66e363f0cc2c79d651f6a390047a45e427f91a008.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "交わる"
@@ -135,11 +143,12 @@
     "question": "二つの道が交わって、ここで一つの道になります。",
     "answer": "The two roads intersect and become one road here.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "22f36d79-3e47-4e69-a258-f5a27a28f101",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

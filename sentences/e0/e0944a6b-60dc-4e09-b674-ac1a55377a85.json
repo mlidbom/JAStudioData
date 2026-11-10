@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-930e8eb9cb833a00d3594c75a5dd27f39bca79b35595cffba0f18dae.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-930e8eb9cb833a00d3594c75a5dd27f39bca79b35595cffba0f18dae.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "三十代"
@@ -184,11 +192,12 @@
     "question": "三人の子どもが生まれたとき、父と母は三十代でした。",
     "answer": "My parents were in their thirties when they had their three children.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e0944a6b-60dc-4e09-b674-ac1a55377a85",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

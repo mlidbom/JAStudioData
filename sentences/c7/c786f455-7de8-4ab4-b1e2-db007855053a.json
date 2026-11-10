@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fe8bea22f6eb35cea5281de5dfef492dbcd63d73b1f3cb770abd20e9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fe8bea22f6eb35cea5281de5dfef492dbcd63d73b1f3cb770abd20e9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "保持"
@@ -156,11 +164,12 @@
     "question": "データは一ヶ月保持された後は、全てなくなります。",
     "answer": "The data will be preserved for one month, then it will be gone.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c786f455-7de8-4ab4-b1e2-db007855053a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

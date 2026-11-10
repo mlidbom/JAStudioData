@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a719d118443e232fd734c53f6bf2fddbf83313ced7ab4bdf6977ee75.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a719d118443e232fd734c53f6bf2fddbf83313ced7ab4bdf6977ee75.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "録音"
@@ -184,11 +192,12 @@
     "question": "ごめん！録音ボタンをクリックしたつもりだったのに、録音できてなかった！",
     "answer": "Sorry! I thought I clicked the record button, but it didn't record!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "03e0c2b0-3ef8-49ed-8c61-f910061b99d7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

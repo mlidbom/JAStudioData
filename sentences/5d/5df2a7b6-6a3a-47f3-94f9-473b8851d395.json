@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8dd0103f3dc118c3b96c6b8d3f28ccc194040b1dcb6ab59b8496311a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8dd0103f3dc118c3b96c6b8d3f28ccc194040b1dcb6ab59b8496311a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "両替"
@@ -100,11 +108,12 @@
     "question": "UFOキャッチャーしたいのに、両替機が見つからない。",
     "answer": "I want to play UFO catcher, but I can't find a change machine.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5df2a7b6-6a3a-47f3-94f9-473b8851d395",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

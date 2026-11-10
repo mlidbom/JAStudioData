@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5bb4547a68f8b13a2629a038bc7bf40d71ed8fcd01de6c47ab97c69b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5bb4547a68f8b13a2629a038bc7bf40d71ed8fcd01de6c47ab97c69b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "仏僧"
@@ -142,11 +150,12 @@
     "question": "この本は元仏僧の方が書かれた本です。",
     "answer": "This book is written by a former Buddhist monk.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bde50f01-d996-4147-8dc7-d69944e71453",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

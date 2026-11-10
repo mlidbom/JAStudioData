@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6abd724df1699b41bac5bcda2365ea54953ed3ab1f98d3d9079ca868.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6abd724df1699b41bac5bcda2365ea54953ed3ab1f98d3d9079ca868.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "選挙"
@@ -156,11 +164,12 @@
     "question": "コウイチは、選挙演説中にブルースを歌って声がつぶれた。",
     "answer": "Koichi lost his voice from singing the blues during his election speech.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ca1c83c7-692b-424b-ab02-d1488d840df5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

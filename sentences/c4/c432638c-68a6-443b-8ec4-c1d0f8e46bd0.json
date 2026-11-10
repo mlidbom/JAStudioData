@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0ca8aab4a0b015bc6601e5828450b8ffe3158b78a6261a9e2d3f773f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0ca8aab4a0b015bc6601e5828450b8ffe3158b78a6261a9e2d3f773f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "兄弟"
@@ -114,11 +122,12 @@
     "question": "わたしには兄弟が四人います。",
     "answer": "I have four siblings.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c432638c-68a6-443b-8ec4-c1d0f8e46bd0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

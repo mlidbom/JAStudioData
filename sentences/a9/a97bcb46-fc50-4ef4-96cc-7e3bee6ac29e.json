@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d35d5d49a2bc428208d1a34cf0a73c01ec8cee94dbc00ca1d4203e7b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d35d5d49a2bc428208d1a34cf0a73c01ec8cee94dbc00ca1d4203e7b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "行"
@@ -114,11 +122,12 @@
     "question": "カタカナのサ行の文字は全て読めますよ。",
     "answer": "I can read all the katakana letters from the sa row.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a97bcb46-fc50-4ef4-96cc-7e3bee6ac29e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

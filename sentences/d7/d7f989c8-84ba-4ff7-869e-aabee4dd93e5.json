@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6dc676a61cffd0613b9f15eb84206f9df12fc3e26f2745abd6a4a3df.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6dc676a61cffd0613b9f15eb84206f9df12fc3e26f2745abd6a4a3df.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "電鉄"
@@ -93,11 +101,12 @@
     "question": "京王電鉄の青い車両はカッコイイですよね。",
     "answer": "Keio Electric Railway's blue train cars are cool.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d7f989c8-84ba-4ff7-869e-aabee4dd93e5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

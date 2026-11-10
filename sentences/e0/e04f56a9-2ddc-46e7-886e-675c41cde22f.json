@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8fd1ccd93e8e017cc70b814c10b2e763d5706add354876c4d8929a9a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8fd1ccd93e8e017cc70b814c10b2e763d5706add354876c4d8929a9a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [
@@ -103,11 +111,12 @@
     "question": "この本の作者に会いたいです。",
     "answer": "I want to meet the author of this book.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e04f56a9-2ddc-46e7-886e-675c41cde22f",
   "tags": [
-    "_tts_audio",
     "-::sentence::uses::incorrect-matches",
     "source::wani::current"
   ]

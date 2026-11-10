@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1a81eb3b587f27b56c65d849b46912b16242ab20acb74d3978c7b75e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1a81eb3b587f27b56c65d849b46912b16242ab20acb74d3978c7b75e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "嫌い"
@@ -72,11 +80,12 @@
     "question": "私はピーマンが嫌いです。",
     "answer": "I hate green peppers.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "466f7237-bfc9-4e04-976b-586615a077d4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

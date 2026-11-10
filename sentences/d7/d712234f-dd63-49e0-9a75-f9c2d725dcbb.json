@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ce25c310c1a8bf9cfaaa70b5c1998845172d42edbd98fa660945875b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ce25c310c1a8bf9cfaaa70b5c1998845172d42edbd98fa660945875b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "にしろ",
@@ -227,11 +235,12 @@
     "question": "どっちにしろ沼に飛び込まなきゃいけないと思うしね。",
     "answer": "I guess I have to jump into the swamp anyway.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d712234f-dd63-49e0-9a75-f9c2d725dcbb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a963a93f0b21e5e68bb9241b2c8f4c90bc96b3988ba4991a55d22e2d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a963a93f0b21e5e68bb9241b2c8f4c90bc96b3988ba4991a55d22e2d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "門扉"
@@ -177,11 +185,12 @@
     "question": "私が門扉の前で待っていると、誰かが割り込んできました。",
     "answer": "When I was waiting in front of the gate doors someone cut in front of me.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "44d4867d-655d-4479-a256-9b2a9c498522",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

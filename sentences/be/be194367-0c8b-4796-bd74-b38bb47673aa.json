@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-adb490beba347957a8f0e1f83e6a70ddda668fa28cbb08751e0666dd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-adb490beba347957a8f0e1f83e6a70ddda668fa28cbb08751e0666dd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "妨害"
@@ -142,11 +150,12 @@
     "question": "ここまで来れば、敵の妨害の危険はほぼ無いだろう。",
     "answer": "Now that we've come this far, the risk of being intercepted by the enemy should be practically zero.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "be194367-0c8b-4796-bd74-b38bb47673aa",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

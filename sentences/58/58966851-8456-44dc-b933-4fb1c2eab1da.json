@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-16313350222d8651dd20a8dd1103745fdbb217dc403dd396fee68964.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-16313350222d8651dd20a8dd1103745fdbb217dc403dd396fee68964.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "氏名"
@@ -114,11 +122,12 @@
     "question": "このリストには、あなたの氏名も入ってます。",
     "answer": "This list also has your name.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "58966851-8456-44dc-b933-4fb1c2eab1da",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

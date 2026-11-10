@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7b1715dba1a62db13ccb90478201f1c0ad8947f3581ae7c1b6499be3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7b1715dba1a62db13ccb90478201f1c0ad8947f3581ae7c1b6499be3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "提出"
@@ -219,11 +227,12 @@
     "question": "答えが合っているのか判断がつかなかったが、とりあえず時間が来たので提出した。",
     "answer": "I couldn't decide if the answers were correct, but the time was up, so I handed them in anyway.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ffddc6e8-237f-4e6c-9f41-762a9be98004",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

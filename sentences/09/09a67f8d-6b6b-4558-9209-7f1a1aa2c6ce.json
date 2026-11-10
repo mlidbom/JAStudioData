@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-af70d1315806bafef8904a0ec9b543f17741e1e52960047797cc260c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-af70d1315806bafef8904a0ec9b543f17741e1e52960047797cc260c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "直す"
@@ -121,11 +129,12 @@
     "question": "トイレを直さなければいけない。",
     "answer": "I have to fix the toilet.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "09a67f8d-6b6b-4558-9209-7f1a1aa2c6ce",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

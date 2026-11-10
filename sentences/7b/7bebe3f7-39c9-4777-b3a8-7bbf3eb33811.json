@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-67f915eb7b0a14d4d7baa88f759c5dad028f063ad7cabb96d81e26e5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-67f915eb7b0a14d4d7baa88f759c5dad028f063ad7cabb96d81e26e5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "三"
@@ -44,11 +52,12 @@
     "question": "三ドルです。",
     "answer": "It's three dollars.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7bebe3f7-39c9-4777-b3a8-7bbf3eb33811",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

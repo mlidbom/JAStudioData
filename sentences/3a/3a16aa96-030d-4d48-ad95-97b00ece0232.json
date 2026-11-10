@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-549ebcbe0a7a5dab9016d5edadad19bf2ad94c276b94e93d0622f9c1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-549ebcbe0a7a5dab9016d5edadad19bf2ad94c276b94e93d0622f9c1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "研究"
@@ -170,11 +178,12 @@
     "question": "研究によると、お茶は人を元気にします。",
     "answer": "According to research, tea makes people healthy.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3a16aa96-030d-4d48-ad95-97b00ece0232",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

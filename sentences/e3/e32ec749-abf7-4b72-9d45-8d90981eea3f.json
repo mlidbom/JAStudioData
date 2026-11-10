@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-912f49b9f4f8430445bc15b8e6e98474ca0051fdb64b837f9350fe0a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-912f49b9f4f8430445bc15b8e6e98474ca0051fdb64b837f9350fe0a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "黒い"
@@ -149,11 +157,12 @@
     "question": "今夜のパーティーは、黒いドレスで行こうと思う。",
     "answer": "I'm thinking of going to the party tonight in a black dress.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e32ec749-abf7-4b72-9d45-8d90981eea3f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

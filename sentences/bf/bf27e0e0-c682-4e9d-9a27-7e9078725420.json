@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d2f57cf7fb7eeef468ec19d6cf71a7d8ec73a5caed34302776eeff34.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d2f57cf7fb7eeef468ec19d6cf71a7d8ec73a5caed34302776eeff34.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "済ます"
@@ -373,11 +381,12 @@
     "question": "私は本当に何もやっていません。今朝そこで、父のためにちょっと用事を済ませていただけなんです。",
     "answer": "I swear I didn’t do anything. I was just running some errands there for my dad this morning.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bf27e0e0-c682-4e9d-9a27-7e9078725420",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

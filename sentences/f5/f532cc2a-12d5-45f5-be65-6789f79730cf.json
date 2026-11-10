@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2377831d2271df198c35a5453d7086979d405a339677f6e0e4be3b70.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2377831d2271df198c35a5453d7086979d405a339677f6e0e4be3b70.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "幾度"
@@ -128,11 +136,12 @@
     "question": "彼は、幾度失敗しても、諦めなかった。",
     "answer": "Even though he failed many times, he didn’t give up.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f532cc2a-12d5-45f5-be65-6789f79730cf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

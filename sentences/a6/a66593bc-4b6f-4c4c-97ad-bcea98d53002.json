@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-72747c6585db3a86e2dc202be80b882f528596a3c0275b7591d0dfc6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-72747c6585db3a86e2dc202be80b882f528596a3c0275b7591d0dfc6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "北西"
@@ -107,11 +115,12 @@
     "question": "北西に見える山が、ふじ山です。",
     "answer": "The mountain you can see in the northwest is Mt. Fuji.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a66593bc-4b6f-4c4c-97ad-bcea98d53002",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ecf584b17613a74f28081e9f45bbd4540ad99e869a503820570f147f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ecf584b17613a74f28081e9f45bbd4540ad99e869a503820570f147f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "スペイン語"
@@ -128,11 +136,12 @@
     "question": "スペイン語の発音は、日本語の発音と大体同じらしいですよ。",
     "answer": "Apparently, the pronunciation of Spanish is about the same as Japanese pronunciation.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "477c0c55-5ded-4820-abcb-eab280c3f384",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

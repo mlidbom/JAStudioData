@@ -30,9 +30,15 @@
   "partsOfSpeech": [],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-968f18e92c114b61e70a3f31f1c24af58ce1d3c3bb712fa06844ed54.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-968f18e92c114b61e70a3f31f1c24af58ce1d3c3bb712fa06844ed54.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "たかが知れている",
@@ -42,8 +48,7 @@
   "sentenceCount": 1,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -67,7 +72,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "8cde468d-149d-40f0-b363-6985fdbd4032",
   "tags": [

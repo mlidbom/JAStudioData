@@ -17,9 +17,15 @@
   "partsOfSpeech": [],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-dfd6a40228e841ebdd8bd2ef92e9a9e11823c5f8ea6ecc1bf4439405.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-dfd6a40228e841ebdd8bd2ef92e9a9e11823c5f8ea6ecc1bf4439405.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "デキてる",
@@ -29,8 +35,7 @@
   "sentenceCount": 0,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -54,7 +59,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "d2d38113-0f01-4814-bd1e-1c81863cf8e1",
   "tags": [

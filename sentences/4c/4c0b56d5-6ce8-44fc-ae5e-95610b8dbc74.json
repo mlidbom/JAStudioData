@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-70a1b27a558cf77bad4c29a461735cc4495470e6c80c7cad55b42c30.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-70a1b27a558cf77bad4c29a461735cc4495470e6c80c7cad55b42c30.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "涼む"
@@ -79,11 +87,12 @@
     "question": "どこかでちょっと涼む？",
     "answer": "Want to go cool off a bit somewhere?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4c0b56d5-6ce8-44fc-ae5e-95610b8dbc74",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

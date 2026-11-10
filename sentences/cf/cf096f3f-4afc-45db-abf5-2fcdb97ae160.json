@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a8ac8c3819f3a86ebdeb7f4e5dd936a25aea19d5dea222abc4349418.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a8ac8c3819f3a86ebdeb7f4e5dd936a25aea19d5dea222abc4349418.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "望み"
@@ -170,11 +178,12 @@
     "question": "君の望みなら、僕は何でもしてあげるよ。",
     "answer": "If it's your wish, I'll do anything for you.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cf096f3f-4afc-45db-abf5-2fcdb97ae160",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

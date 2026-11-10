@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6880d02746e806bdd83c8c053a409265c7101c1230ca9bc1fa2efe6a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6880d02746e806bdd83c8c053a409265c7101c1230ca9bc1fa2efe6a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "出発"
@@ -142,11 +150,12 @@
     "question": "フェリーが出発するまでの時間、お茶でものみましょうよ。",
     "answer": "Let's have some tea until the ferry departs.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4c0739d0-1f07-4dd6-8290-3156e02d2c1a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

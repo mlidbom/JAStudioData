@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8c42d19449e3db4451d42520b3878c423c6caf74891cc1c9b7947e77.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8c42d19449e3db4451d42520b3878c423c6caf74891cc1c9b7947e77.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大根"
@@ -79,11 +87,12 @@
     "question": "大根は和食によく使われます。",
     "answer": "Daikon is often used in Japanese cuisine.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "079756ee-cad7-4afa-9366-8c147d4dcba8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

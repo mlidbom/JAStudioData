@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-82ea33fcb97591e7a9828431ae4be8d353a65290d4c52423e2e6c579.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-82ea33fcb97591e7a9828431ae4be8d353a65290d4c52423e2e6c579.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -427,11 +435,12 @@
     "question": "「土曜日に夕食にいらっしゃいませんか？河豚のパイ生地包み焼きを作る予定なんですよ。」「喜んで行きたいのですが、会議がありますので。またの機会にお願いします。」",
     "answer": "\"Would you like to come to dinner on Saturday? I’m going to make Fugu-wellington.\" “I’d like to, but I have a meeting. I’ll take a rain check.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "94c9399b-bdbd-4676-9b6e-9720957026ab",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e01edcd20dd61e8dc07067562f4a64008dbad7fd1b6face5d7dba189.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e01edcd20dd61e8dc07067562f4a64008dbad7fd1b6face5d7dba189.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "戒める"
@@ -191,11 +199,12 @@
     "question": "誰かが彼女の無茶苦茶な運転を戒める必要があるんじゃない？",
     "answer": "Someone needs to warn her about her reckless driving, right?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "12f73b26-081f-4600-98f7-2010d6a19591",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

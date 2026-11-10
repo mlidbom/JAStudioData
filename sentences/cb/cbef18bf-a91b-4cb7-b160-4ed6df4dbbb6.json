@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9836ca45c8a245e4aaa803446a172846f03bb6d62db9ef7bd3b8f91d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9836ca45c8a245e4aaa803446a172846f03bb6d62db9ef7bd3b8f91d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鯨"
@@ -79,11 +87,12 @@
     "question": "鯨のベーコンを食べました。",
     "answer": "I ate whale bacon.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cbef18bf-a91b-4cb7-b160-4ed6df4dbbb6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

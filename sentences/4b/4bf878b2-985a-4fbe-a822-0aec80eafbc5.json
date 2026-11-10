@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2e035ecb7b59ffc08a5cef1371625957289955db8c6f52cc4ef33bef.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2e035ecb7b59ffc08a5cef1371625957289955db8c6f52cc4ef33bef.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "致す"
@@ -128,11 +136,12 @@
     "question": "もしよろしければ私が町をご案内致しますよ。",
     "answer": "I’ll guide you around the city, if you’d like.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4bf878b2-985a-4fbe-a822-0aec80eafbc5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

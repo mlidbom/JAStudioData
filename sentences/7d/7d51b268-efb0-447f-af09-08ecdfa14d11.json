@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-92bff898675fe788a5c9bc1b42d07b521f9e69069771dbb9d735672c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-92bff898675fe788a5c9bc1b42d07b521f9e69069771dbb9d735672c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大嫌い"
@@ -156,11 +164,12 @@
     "question": "世の中には、トーフグのことが大嫌いな人もいるらしい。",
     "answer": "I heard that there are some people in the world who hate Tofugu.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7d51b268-efb0-447f-af09-08ecdfa14d11",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

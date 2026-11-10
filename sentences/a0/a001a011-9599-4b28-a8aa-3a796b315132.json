@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1aa12dec3c955a3651282e917686659ab3d5700fc2c84e48aec4d969.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1aa12dec3c955a3651282e917686659ab3d5700fc2c84e48aec4d969.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "二十日"
@@ -142,11 +150,12 @@
     "question": "あと二十日で２０１９年です。",
     "answer": "It will be 2019 in twenty days.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a001a011-9599-4b28-a8aa-3a796b315132",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

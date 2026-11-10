@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a82405a27927a0d613da89061637c1f792def3b392acdc327cfbfdfb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a82405a27927a0d613da89061637c1f792def3b392acdc327cfbfdfb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "何"
@@ -72,11 +80,12 @@
     "question": "ディナーは何がいい？",
     "answer": "What do you want for dinner?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "51e3ec7d-4977-4f15-a1bb-09371fc3ba22",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

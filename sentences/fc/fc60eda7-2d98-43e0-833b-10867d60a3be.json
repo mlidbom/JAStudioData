@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c8abc4d086a376ce89a68603250c8c405e21e447b50a892e61f2ae18.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c8abc4d086a376ce89a68603250c8c405e21e447b50a892e61f2ae18.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "健忘症"
@@ -191,11 +199,12 @@
     "question": "お医者さんに健忘症の疑いがあると言われました。",
     "answer": "The doctor told me that he suspected amnesia.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fc60eda7-2d98-43e0-833b-10867d60a3be",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

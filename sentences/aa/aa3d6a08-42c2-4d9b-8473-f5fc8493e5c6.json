@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c67f1e89d600ecac9b6b6700fa89f6d11ac2bddf211b2142ac359d05.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c67f1e89d600ecac9b6b6700fa89f6d11ac2bddf211b2142ac359d05.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "手紙"
@@ -156,11 +164,12 @@
     "question": "外国への手紙の出し方を教えてくれませんか？",
     "answer": "Can you teach me how to mail out a letter to a foreign country?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "aa3d6a08-42c2-4d9b-8473-f5fc8493e5c6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

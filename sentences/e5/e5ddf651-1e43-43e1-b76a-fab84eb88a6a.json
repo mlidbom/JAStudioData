@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d0e8d93d70266cc6b06061e1cdf62b8467a331e7ffc304433055c389.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d0e8d93d70266cc6b06061e1cdf62b8467a331e7ffc304433055c389.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "文学"
@@ -116,11 +124,12 @@
     "question": "イギリス文学とフランス文学を学びました。",
     "answer": "I studied British literature and French literature.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e5ddf651-1e43-43e1-b76a-fab84eb88a6a",
   "tags": [
-    "_tts_audio",
     "-::sentence::uses::hidden-matches",
     "source::wani::current"
   ]

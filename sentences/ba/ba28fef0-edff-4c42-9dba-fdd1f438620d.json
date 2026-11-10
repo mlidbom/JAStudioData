@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-98e205053b0af72ee454632fdd2fe4f090482df506ee85c20f741e4d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-98e205053b0af72ee454632fdd2fe4f090482df506ee85c20f741e4d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "聴者"
@@ -163,11 +171,12 @@
     "question": "電話が壊れてるのかも。だって、聴者から電話が一本もないなんて、おかしいよ。",
     "answer": "Something might be wrong with the phone because it’s weird that no listeners have called in.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ba28fef0-edff-4c42-9dba-fdd1f438620d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

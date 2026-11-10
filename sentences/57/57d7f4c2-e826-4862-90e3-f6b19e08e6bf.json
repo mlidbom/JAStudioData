@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9dfa66cf0bca1631a3c1b76db29a851b1b618fcc99a9a2664d12a5a7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9dfa66cf0bca1631a3c1b76db29a851b1b618fcc99a9a2664d12a5a7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "間違い"
@@ -65,11 +73,12 @@
     "question": "間違いを一つ見つけたよ！",
     "answer": "I found one mistake!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "57d7f4c2-e826-4862-90e3-f6b19e08e6bf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

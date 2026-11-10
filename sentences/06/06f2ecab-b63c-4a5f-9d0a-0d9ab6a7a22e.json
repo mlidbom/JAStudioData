@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4d5131790707da8c05326fc85f7ffe3ebf86a0d83bff64f92ef964f1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4d5131790707da8c05326fc85f7ffe3ebf86a0d83bff64f92ef964f1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "統帥"
@@ -121,11 +129,12 @@
     "question": "今日は学校で、天皇の統帥権について学びました。",
     "answer": "Today at school we learned about the supreme command authority of the Emperor of Japan.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "06f2ecab-b63c-4a5f-9d0a-0d9ab6a7a22e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

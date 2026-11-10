@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d622c06ae6b1971b8372784fef1ffb6b0ee82eae346887b23af06985.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d622c06ae6b1971b8372784fef1ffb6b0ee82eae346887b23af06985.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "翻る"
@@ -345,11 +353,12 @@
     "question": "彼女のスカートが風で翻ったのは分かるんですが、その時の彼の心象を翻訳するのは私には難しすぎます。",
     "answer": "I know her skirt billowed in the wind, but rendering how he felt at the time is too difficult.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3aa049d7-e6f4-4004-973d-ae3ac7ea2966",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

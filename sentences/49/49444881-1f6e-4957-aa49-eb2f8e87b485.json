@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9c293fbae0ffda5fa1a75cdea89ef5c9c7a39a21621e622a0806123c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9c293fbae0ffda5fa1a75cdea89ef5c9c7a39a21621e622a0806123c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "自転車"
@@ -142,11 +150,12 @@
     "question": "私は毎日自転車でパン作り教室に通っています。",
     "answer": "I go to the baking workshop every day by bicycle.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "49444881-1f6e-4957-aa49-eb2f8e87b485",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

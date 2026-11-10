@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-318f6c1070b73458c1cd118ec37a4f296b2fb7ef7ffc52095f647e53.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-318f6c1070b73458c1cd118ec37a4f296b2fb7ef7ffc52095f647e53.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "目"
@@ -100,11 +108,12 @@
     "question": "うちのハスキーは目がブルーです。",
     "answer": "Our Husky's eyes are blue.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "223d869f-7abc-4872-b651-21d8a865d656",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

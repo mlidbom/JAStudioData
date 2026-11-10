@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1fb713a5b61642b2ecfa36cb855b0400702f98ca3c05d013f0fba6f0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1fb713a5b61642b2ecfa36cb855b0400702f98ca3c05d013f0fba6f0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "難しい"
@@ -79,11 +87,12 @@
     "question": "それってそんなに難しいことなの？",
     "answer": "Is that really so hard to do?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c4c9c290-1d8e-4287-8832-4ada3ba455b8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

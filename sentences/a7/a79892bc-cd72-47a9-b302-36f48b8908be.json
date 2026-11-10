@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ec9bb580282cf2d8f9ec89b44d956681c521ba9f5f93d4073d51b07b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ec9bb580282cf2d8f9ec89b44d956681c521ba9f5f93d4073d51b07b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "脂身"
@@ -135,11 +143,12 @@
     "question": "お肉の脂身って苦手なんですよね。",
     "answer": "I don’t like the fatty meat.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a79892bc-cd72-47a9-b302-36f48b8908be",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

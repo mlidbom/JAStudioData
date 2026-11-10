@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-061d09eb7e08bf21e193b1290b3ee27f3e5801febd128c6b07a51b9e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-061d09eb7e08bf21e193b1290b3ee27f3e5801febd128c6b07a51b9e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "上級"
@@ -261,11 +269,12 @@
     "question": "英語が母国語でない人で、ネイティブレベルや上級の英語を話す人もいれば、そうでない人もいます。",
     "answer": "Some non-native speakers speak English at a native or advanced level, while others do not.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "db03025b-ca71-4048-a6b4-12933926bbc6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

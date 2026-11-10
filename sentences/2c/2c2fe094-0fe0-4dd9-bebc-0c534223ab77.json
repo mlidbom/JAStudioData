@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4a5c34c0224f4ea5c53ebffb158b9ed5629c39712e06bf5ee5ba4f14.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4a5c34c0224f4ea5c53ebffb158b9ed5629c39712e06bf5ee5ba4f14.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "牛肉"
@@ -93,11 +101,12 @@
     "question": "日本では生の牛肉をたべますか？",
     "answer": "Do you eat raw beef in Japan?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2c2fe094-0fe0-4dd9-bebc-0c534223ab77",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

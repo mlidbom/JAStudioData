@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1d9f0f2069788107f02e848e38a05d040fa9e2cb88da8dadab11b5b7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1d9f0f2069788107f02e848e38a05d040fa9e2cb88da8dadab11b5b7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [
@@ -117,11 +125,12 @@
     "question": "この本の作家さんから、サインをもらいました。",
     "answer": "I got an autograph from the writer of this book.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9c003f61-3c21-459c-abde-fdf8fd5c55c5",
   "tags": [
-    "_tts_audio",
     "-::sentence::uses::incorrect-matches",
     "source::wani::current"
   ]

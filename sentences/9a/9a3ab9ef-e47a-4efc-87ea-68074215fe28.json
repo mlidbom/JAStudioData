@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e2456b81cb04c8f5f6839bdda5ccf4edc757203e63c7ea1aa0e759a5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e2456b81cb04c8f5f6839bdda5ccf4edc757203e63c7ea1aa0e759a5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "置き場"
@@ -135,11 +143,12 @@
     "question": "川崎駅の自転車置き場に自転車を停めています。",
     "answer": "I parked my bike at the bicycle parking area at Kawasaki Station.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9a3ab9ef-e47a-4efc-87ea-68074215fe28",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

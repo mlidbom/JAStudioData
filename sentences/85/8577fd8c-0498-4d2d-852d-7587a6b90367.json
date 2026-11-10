@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7976ded1b665e30054a551e6101c8cef1a1c750c9b69ad2ab262ce26.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7976ded1b665e30054a551e6101c8cef1a1c750c9b69ad2ab262ce26.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "準備"
@@ -107,11 +115,12 @@
     "question": "おはよう。朝ご飯の準備なら、もうできてるよ。",
     "answer": "Good morning. If it's about breakfast, it's already prepared.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8577fd8c-0498-4d2d-852d-7587a6b90367",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

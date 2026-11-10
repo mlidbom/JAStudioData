@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-242f5d567e891aa35c584f862ae19904dd0cf31b8bcccc28df8646a0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-242f5d567e891aa35c584f862ae19904dd0cf31b8bcccc28df8646a0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "信じる"
@@ -177,11 +185,12 @@
     "question": "信じられないかもしれないが、実はビエトはスパイだったんだよ。",
     "answer": "Believe it or not, Viet turned out to be a spy.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "893f2b87-8542-4304-a482-8f2e72414428",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

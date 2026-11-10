@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bb7e46c8a92135433b49eed099929014d6c7efff97cc262433b10af0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bb7e46c8a92135433b49eed099929014d6c7efff97cc262433b10af0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "上司"
@@ -107,11 +115,12 @@
     "question": "今日は上司とのミーティングがあります。",
     "answer": "I have a meeting with my boss today.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "27cb334d-df27-4fa5-bfa1-4b75b216fc0c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

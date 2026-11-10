@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bac2c5fd3c75c8b1d752852ec45c54943463ab6e7841b5f249d7c82f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bac2c5fd3c75c8b1d752852ec45c54943463ab6e7841b5f249d7c82f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "葉書"
@@ -114,11 +122,12 @@
     "question": "ポストに葉書を出してきてくれない？",
     "answer": "Can you go put a postcard in the mailbox for me?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "db2a88a6-489b-4c68-a515-ebee394f763a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

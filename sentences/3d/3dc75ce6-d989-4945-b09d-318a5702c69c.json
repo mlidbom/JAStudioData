@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b4bd02f26d78f3229dc88563d9e1b6e4cf74efd7984345a6ca5d2651.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b4bd02f26d78f3229dc88563d9e1b6e4cf74efd7984345a6ca5d2651.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [
@@ -96,11 +104,12 @@
     "question": "おすすめの本のジャンルは、少女マンガです。",
     "answer": "The book genre I recommend is girl's manga.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3dc75ce6-d989-4945-b09d-318a5702c69c",
   "tags": [
-    "_tts_audio",
     "-::sentence::uses::incorrect-matches",
     "source::wani::current"
   ]

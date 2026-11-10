@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3b9952f4e007cd1cebd2afb4ee63f859d5e08d91e4313bc6fa158c1d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3b9952f4e007cd1cebd2afb4ee63f859d5e08d91e4313bc6fa158c1d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "豚肉"
@@ -86,11 +94,12 @@
     "question": "私は豚肉を食べません。",
     "answer": "I do not eat pork.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e629c316-04ae-4787-879e-1a214e0fa79e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

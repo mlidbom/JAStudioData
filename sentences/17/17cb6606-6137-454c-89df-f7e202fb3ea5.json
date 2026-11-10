@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2f04499e2815c43e480c8150897531415d10198230fc0dab18f0e5b9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2f04499e2815c43e480c8150897531415d10198230fc0dab18f0e5b9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "駅前"
@@ -79,11 +87,12 @@
     "question": "コンビニなら駅前にあるよ。",
     "answer": "If you're looking for a convenience store, it's located in front of the station.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "17cb6606-6137-454c-89df-f7e202fb3ea5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

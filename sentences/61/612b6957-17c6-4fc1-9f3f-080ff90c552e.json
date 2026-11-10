@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d83817e42534577ef81549ae4d9ee7bd07b38ff249d48468a7daa7f3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d83817e42534577ef81549ae4d9ee7bd07b38ff249d48468a7daa7f3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "閉まる"
@@ -100,11 +108,12 @@
     "question": "急に、とびらがひとりでに閉まりました。",
     "answer": "Suddenly, the door closed by itself.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "612b6957-17c6-4fc1-9f3f-080ff90c552e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

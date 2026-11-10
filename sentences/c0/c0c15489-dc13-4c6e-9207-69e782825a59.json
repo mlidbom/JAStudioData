@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3592060c99b54e21212abf836f832ce773e8fc642a89228e4074eaf6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3592060c99b54e21212abf836f832ce773e8fc642a89228e4074eaf6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "合格する"
@@ -135,11 +143,12 @@
     "question": "まだ合格したかどうかは分かりません。",
     "answer": "We still don't know if you passed or not.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c0c15489-dc13-4c6e-9207-69e782825a59",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

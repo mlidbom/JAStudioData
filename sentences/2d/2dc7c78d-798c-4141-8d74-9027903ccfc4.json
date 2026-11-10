@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-89d0ed366719cb7c52e16a5ca281a70c1663b47844a41a418ec55d29.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-89d0ed366719cb7c52e16a5ca281a70c1663b47844a41a418ec55d29.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "頑張れ"
@@ -149,11 +157,12 @@
     "question": "まあ、結果を気にせずに、頑張れよ！",
     "answer": "Well, don’t worry about the results, just try your best!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2dc7c78d-798c-4141-8d74-9027903ccfc4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

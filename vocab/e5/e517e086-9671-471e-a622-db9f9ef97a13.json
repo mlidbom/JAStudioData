@@ -30,9 +30,15 @@
   "partsOfSpeech": [],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-fca88360d91a0cbc99963b0d555059d4e831fa4f44a89fc3e2a380f4.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-fca88360d91a0cbc99963b0d555059d4e831fa4f44a89fc3e2a380f4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "ただではすまない",
@@ -54,8 +60,7 @@
   "sentenceCount": 2,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -84,7 +89,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "e517e086-9671-471e-a622-db9f9ef97a13",
   "tags": [

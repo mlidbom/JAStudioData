@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1ac9af22f1d46f510e30f31d43000a3727fbd2caf6e2d0887731e522.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1ac9af22f1d46f510e30f31d43000a3727fbd2caf6e2d0887731e522.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "船員"
@@ -142,11 +150,12 @@
     "question": "船員の仕事って大変だけど、お給料は結構良いのよね。",
     "answer": "The sailor's work is hard, but the salary is pretty good.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "74ffb9b3-d595-434c-9256-63b671c61f95",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

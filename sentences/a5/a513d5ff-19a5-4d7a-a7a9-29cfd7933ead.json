@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d1827d991f756ad6b3605f6dae41897219ed4490ab648e21fa9b5bd0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d1827d991f756ad6b3605f6dae41897219ed4490ab648e21fa9b5bd0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "並ぶ"
@@ -114,11 +122,12 @@
     "question": "危ないですから白線の内側にお並びください。",
     "answer": "It's dangerous, so please line up inside the white line.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a513d5ff-19a5-4d7a-a7a9-29cfd7933ead",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-470f117508956ba5b17d42b3d6d7ad01e2607ff44b9087768efd409c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-470f117508956ba5b17d42b3d6d7ad01e2607ff44b9087768efd409c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "友達"
@@ -72,11 +80,12 @@
     "question": "彼は私の友達です。",
     "answer": "He is my friend.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a2f12042-3800-4c66-8610-5f372fc47dc6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

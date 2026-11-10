@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3ad0e896420e68be8e41b90f5cf883507f6d8095bfa189269bad3aa0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3ad0e896420e68be8e41b90f5cf883507f6d8095bfa189269bad3aa0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "伏兵"
@@ -86,11 +94,12 @@
     "question": "伏兵に襲われたんだ。",
     "answer": "They were attacked by an ambush.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e4ff89ab-d0b1-4b75-a6e9-79883b8cee7f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

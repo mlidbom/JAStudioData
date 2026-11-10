@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bdfe2dd1105d0ad18bc258ff36c22f936e9d6b0ea658f2b04448df2c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bdfe2dd1105d0ad18bc258ff36c22f936e9d6b0ea658f2b04448df2c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "年齢"
@@ -282,11 +290,12 @@
     "question": "「年齢はおいくつですか？」「あまり言いたくないです。」「じゃあ、別にいいよ。ただ、百歳を超えてるかどうかだけ教えてくれない？」",
     "answer": "\"How old are you?\" \"I’d rather not say.\" \"Okay, then. Just let me know if you are older than 100.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9f337f67-2176-4f8e-a698-8a326ef68dcd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

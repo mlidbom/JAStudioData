@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-054a8b396661531169c8e5f2d1fd1d435a420fb1bb195136ee25c8cb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-054a8b396661531169c8e5f2d1fd1d435a420fb1bb195136ee25c8cb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "殻"
@@ -135,11 +143,12 @@
     "question": "麦の殻を取ったら、その次はどうするの？",
     "answer": "What do we do after removing the husks from wheat?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c1bd6d8c-41bc-4337-b2f1-8e365f177869",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

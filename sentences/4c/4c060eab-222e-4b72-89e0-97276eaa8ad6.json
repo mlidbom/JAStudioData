@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7871a99badb42584dd86a9d2ab69d36b31ee11cb0d174ad5381a9f8a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7871a99badb42584dd86a9d2ab69d36b31ee11cb0d174ad5381a9f8a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "検索"
@@ -219,11 +227,12 @@
     "question": "こんなにたくさんの料理本を持っているのに、結局クックパッドで検索しちゃうんですよね。",
     "answer": "I have so many cookbooks, but I end up searching on Cookpad.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4c060eab-222e-4b72-89e0-97276eaa8ad6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

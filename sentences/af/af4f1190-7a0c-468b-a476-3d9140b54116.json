@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e58bbed4148490f903beaeef2086ea1d0f2ff5d660a7e29f3eb521d6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e58bbed4148490f903beaeef2086ea1d0f2ff5d660a7e29f3eb521d6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "隠居",
@@ -150,11 +158,12 @@
     "question": "私の父は農村で隠居しています。",
     "answer": "My father is retired in a farming village.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "af4f1190-7a0c-468b-a476-3d9140b54116",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

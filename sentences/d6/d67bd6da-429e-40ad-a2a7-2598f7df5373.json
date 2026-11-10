@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-42d72ee5e0f63da6c2456153798c5b6852c89282538138ef55d6f35a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-42d72ee5e0f63da6c2456153798c5b6852c89282538138ef55d6f35a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "野蛮"
@@ -177,11 +185,12 @@
     "question": "そんな野蛮な人たちと付き合ってはいけません。",
     "answer": "You must not associate with such savage people.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d67bd6da-429e-40ad-a2a7-2598f7df5373",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

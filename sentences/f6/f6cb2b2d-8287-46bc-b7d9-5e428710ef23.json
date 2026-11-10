@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-41f733adbccee9fd31eb8d2cd45be1945ffaaf448c0c9b2427819a64.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-41f733adbccee9fd31eb8d2cd45be1945ffaaf448c0c9b2427819a64.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "営業"
@@ -128,11 +136,12 @@
     "question": "トーフグの営業チームに配属されました。",
     "answer": "I was assigned to Tofugu's sales team.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f6cb2b2d-8287-46bc-b7d9-5e428710ef23",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

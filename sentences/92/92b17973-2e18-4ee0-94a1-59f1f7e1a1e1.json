@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9b45f3d9812b1b75f5d69045ef9f342a2ba0dc0b84b2986c12c642b1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9b45f3d9812b1b75f5d69045ef9f342a2ba0dc0b84b2986c12c642b1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "警察署"
@@ -100,11 +108,12 @@
     "question": "警察署って、なんだか入りづらいよね。",
     "answer": "Police stations somehow feel hard to enter, don't they?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "92b17973-2e18-4ee0-94a1-59f1f7e1a1e1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

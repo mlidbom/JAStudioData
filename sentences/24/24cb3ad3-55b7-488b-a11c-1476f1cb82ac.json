@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e5bda4240c2d05bfa70391ceb18ed66816413e0fae7fa3c308b4fe9f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e5bda4240c2d05bfa70391ceb18ed66816413e0fae7fa3c308b4fe9f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "意図的"
@@ -170,11 +178,12 @@
     "question": "誰かが意図的に情報をコントロールしているんだ。",
     "answer": "Someone is deliberately controlling the information.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "24cb3ad3-55b7-488b-a11c-1476f1cb82ac",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

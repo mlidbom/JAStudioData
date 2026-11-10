@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-aad450976e2649eaf6ba08997919e0c83b4e90de110b36461777c335.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-aad450976e2649eaf6ba08997919e0c83b4e90de110b36461777c335.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "沢"
@@ -177,11 +185,12 @@
     "question": "沢の音を聞きながら歩くのが好きなんです。",
     "answer": "I like walking while listening to the sound of the stream.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fada4048-f650-43aa-8155-fc5b0c5bc05e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-44ce865ec6a87ea9771ade802e17a5b6ae1543fa27ea0192504455ea.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-44ce865ec6a87ea9771ade802e17a5b6ae1543fa27ea0192504455ea.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "絵文字"
@@ -107,11 +115,12 @@
     "question": "絵文字を交ぜて、メッセージを入力しましょう。",
     "answer": "Type a message mixed up with some emoji.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9bf1f0df-9259-4c5f-9832-f6bf3106b1ac",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bf93367729410b0656a62e9dcec41558a5bb0f085d77ae51c99ff904.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bf93367729410b0656a62e9dcec41558a5bb0f085d77ae51c99ff904.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "並行"
@@ -345,11 +353,12 @@
     "question": "複数の言語を並行して勉強することは、ひとつだけを学習するよりも効率的だと聞いたことがあります。",
     "answer": "I heard that studying multiple languages at the same time is more efficient than only studying one.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "882cade2-a3a3-41f9-8479-adfa792c66a9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

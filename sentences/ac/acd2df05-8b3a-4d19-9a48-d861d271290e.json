@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6f711944df028bfec564f25c3fd9ac4353a60cc72cbfb92a2803d8ad.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6f711944df028bfec564f25c3fd9ac4353a60cc72cbfb92a2803d8ad.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "紫蘇"
@@ -100,11 +108,12 @@
     "question": "私、紫蘇は苦手なんです。",
     "answer": "I'm not a fan of shiso.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "acd2df05-8b3a-4d19-9a48-d861d271290e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

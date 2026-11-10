@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8aa58607d29b72bb2bdc67e7198e5e0f1de8d6b7f1533c2c01287a2b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8aa58607d29b72bb2bdc67e7198e5e0f1de8d6b7f1533c2c01287a2b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "起こる"
@@ -170,11 +178,12 @@
     "question": "どうしてこんなことが起こったのか、よく考えてみてください。",
     "answer": "Please try thinking through why something like this happened.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "af8273ef-15c6-46b0-a451-9b517fbc4d23",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c6c3d4ea32def446c5ce5229478a8455139c5da135a9c0c669b897bd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c6c3d4ea32def446c5ce5229478a8455139c5da135a9c0c669b897bd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "困難"
@@ -121,11 +129,12 @@
     "question": "このレストランはとても人気で、予約が困難なことで有名です。",
     "answer": "This restaurant is very popular and is known for its difficulty in making reservations.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "89e15e9b-1e3c-46f7-ad10-a537e692f649",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

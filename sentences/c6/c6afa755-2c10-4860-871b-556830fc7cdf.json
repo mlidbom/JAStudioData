@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-46ddcc4b29cd969b3548b0149e62600342dae30de0733f56e34f49e2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-46ddcc4b29cd969b3548b0149e62600342dae30de0733f56e34f49e2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "医学"
@@ -79,11 +87,12 @@
     "question": "大学では医学を学びます。",
     "answer": "I study medicine at university.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c6afa755-2c10-4860-871b-556830fc7cdf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

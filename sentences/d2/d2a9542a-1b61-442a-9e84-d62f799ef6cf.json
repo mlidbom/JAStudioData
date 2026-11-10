@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-013adc38fd1add7ae94fcb52753e3b1381ae118c1d92d279a6cdccbc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-013adc38fd1add7ae94fcb52753e3b1381ae118c1d92d279a6cdccbc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "自殺"
@@ -156,11 +164,12 @@
     "question": "自殺をしてはいけません。",
     "answer": "You must not commit suicide.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d2a9542a-1b61-442a-9e84-d62f799ef6cf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

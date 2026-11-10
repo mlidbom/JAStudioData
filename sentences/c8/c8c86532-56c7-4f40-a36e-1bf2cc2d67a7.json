@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cd5cdcb2abc9f0af97c5c6796b47653e7e9a78570089c0251ebe28a8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cd5cdcb2abc9f0af97c5c6796b47653e7e9a78570089c0251ebe28a8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "意識"
@@ -156,11 +164,12 @@
     "question": "その方は、意識はありますか？ありませんか？",
     "answer": "Is the person conscious, or unconscious?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c8c86532-56c7-4f40-a36e-1bf2cc2d67a7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c50d2c075cda9a27298b76a764bb5395ab1868a6496d84f8c484f9c0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c50d2c075cda9a27298b76a764bb5395ab1868a6496d84f8c484f9c0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "心配事"
@@ -142,11 +150,12 @@
     "question": "私の一番の心配事は、町に降り落ちる火山灰です。",
     "answer": "My biggest worry is volcanic ash falling over the city.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9fb9d401-017c-4500-bdb5-f54af263ffe3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

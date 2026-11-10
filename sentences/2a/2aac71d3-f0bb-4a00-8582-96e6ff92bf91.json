@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-782b186693373a4152f15d4becb2c0ef7fab6c3d7f0dc9a739ddefe7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-782b186693373a4152f15d4becb2c0ef7fab6c3d7f0dc9a739ddefe7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "停電"
@@ -100,11 +108,12 @@
     "question": "川崎市は停電しなかったの？",
     "answer": "Did Kawasaki City not lose power?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2aac71d3-f0bb-4a00-8582-96e6ff92bf91",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

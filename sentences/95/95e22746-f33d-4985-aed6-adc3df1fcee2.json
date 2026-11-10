@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-31de78bb2b14ae9325dcf6c99a261d0063de46a2dab364a2f20a02c9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-31de78bb2b14ae9325dcf6c99a261d0063de46a2dab364a2f20a02c9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "閑散"
@@ -149,11 +157,12 @@
     "question": "駅の南側は、いつも閑散としています。",
     "answer": "The south side of the station is always deserted.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "95e22746-f33d-4985-aed6-adc3df1fcee2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

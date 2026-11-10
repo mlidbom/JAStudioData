@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-26e921a314b19169236e7a15c5e3035b571aacd0b70e06f972875cd3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-26e921a314b19169236e7a15c5e3035b571aacd0b70e06f972875cd3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "胃痛"
@@ -142,11 +150,12 @@
     "question": "胃痛がひどくなって入院し、病院で一ヶ月過ごしました。",
     "answer": "My stomachache got worse and I was hospitalized, so I spent a month at the hospital.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "79b25284-4e88-45ba-9b4e-85923e3ba182",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

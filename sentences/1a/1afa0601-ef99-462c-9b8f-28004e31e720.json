@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-68cd4403c9623f7654c06ee8575f08dc3df0a8a4e087187e8b058d85.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-68cd4403c9623f7654c06ee8575f08dc3df0a8a4e087187e8b058d85.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "待ちぼうけ"
@@ -282,11 +290,12 @@
     "question": "待ちぼうけを食らったと思わないように、明日のミーティングが中止になったこと、ミサキさんにもちゃんと教えといてあげてね？",
     "answer": "Make sure to let Misaki know that tomorrow's meeting has been canceled so she doesn't feel stood up, okay?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1afa0601-ef99-462c-9b8f-28004e31e720",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

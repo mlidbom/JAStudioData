@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-52ea7e4949d3b730bf5af9eb79b664f953515e71bb93e2a1d9f678d2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-52ea7e4949d3b730bf5af9eb79b664f953515e71bb93e2a1d9f678d2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "手首"
@@ -72,11 +80,12 @@
     "question": "これは、手首のストレッチです。",
     "answer": "This is a wrist stretch.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "02ef6631-c1c9-4b47-a95b-457632942d20",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

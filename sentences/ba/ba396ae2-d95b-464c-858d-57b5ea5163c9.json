@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ecaf09fe05df84d7ee36f630230ca366452f09f5b64080abe2809e1f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ecaf09fe05df84d7ee36f630230ca366452f09f5b64080abe2809e1f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "薬学"
@@ -114,11 +122,12 @@
     "question": "私はこの大学の薬学部に入りたいんです。",
     "answer": "I want to get into the pharmacy department at this university.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ba396ae2-d95b-464c-858d-57b5ea5163c9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

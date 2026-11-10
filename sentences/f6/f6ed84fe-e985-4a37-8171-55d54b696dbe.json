@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3918dad66891c04bc9a2d5676ffbba91835a8fb5c401dcfabd52707d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3918dad66891c04bc9a2d5676ffbba91835a8fb5c401dcfabd52707d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "遠慮"
@@ -156,11 +164,12 @@
     "question": "質問があればどんなものでも遠慮なくおっしゃって下さいね。",
     "answer": "Don’t hesitate to ask me any questions.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f6ed84fe-e985-4a37-8171-55d54b696dbe",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

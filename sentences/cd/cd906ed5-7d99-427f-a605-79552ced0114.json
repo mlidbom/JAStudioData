@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a9878f93d4afacfe247f6d9fcd97823f9083c6e8c6e81c2b4906cb68.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a9878f93d4afacfe247f6d9fcd97823f9083c6e8c6e81c2b4906cb68.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "沼地"
@@ -149,11 +157,12 @@
     "question": "この沼地には、たくさんの野生動物が生息している。",
     "answer": "Many wild animals inhabit this marshland.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cd906ed5-7d99-427f-a605-79552ced0114",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

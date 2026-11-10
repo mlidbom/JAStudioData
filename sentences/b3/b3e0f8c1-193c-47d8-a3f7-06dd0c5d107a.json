@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5fe3f14e592aa6d319bbe38c69e2cebfc6beb3ae1ed45e2c87882ae0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5fe3f14e592aa6d319bbe38c69e2cebfc6beb3ae1ed45e2c87882ae0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一昨日"
@@ -128,11 +136,12 @@
     "question": "一昨日の朝は、早起きしてジョギングに行きました。",
     "answer": "I woke up early the day before yesterday and went jogging.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b3e0f8c1-193c-47d8-a3f7-06dd0c5d107a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

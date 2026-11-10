@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5afe47371cda719868715dc7f254add62372f216e9efa8b1ed648e7c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5afe47371cda719868715dc7f254add62372f216e9efa8b1ed648e7c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "結構です"
@@ -149,11 +157,12 @@
     "question": "「田中さんもポケモンしませんか？」「あ、私は結構です。」",
     "answer": "“Would you like to play Pokemon Mr. Tanaka?\" \"Oh, I'm fine.”",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d91374b5-8ca0-4634-bb4d-14a6dc4ef00a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

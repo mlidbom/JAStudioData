@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a03fd2a750a281d87167520f926367c7fd9e31c59a3cf858f7cec687.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a03fd2a750a281d87167520f926367c7fd9e31c59a3cf858f7cec687.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "薬方"
@@ -156,11 +164,12 @@
     "question": "私は、漢方薬方の研究をしています。",
     "answer": "I am conducting research on traditional Chinese herbal medicine prescriptions.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "269f15d2-63e5-474d-a6a0-d5f593b092fe",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

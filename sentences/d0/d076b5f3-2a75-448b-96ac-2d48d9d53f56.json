@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-366363c02aa49682b43a2b3d8f45c4cb081f46556c5a880365b52e7b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-366363c02aa49682b43a2b3d8f45c4cb081f46556c5a880365b52e7b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大人しい"
@@ -86,11 +94,12 @@
     "question": "今日はホテルで大人しくするよ。",
     "answer": "I'll be relaxing at the hotel today.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d076b5f3-2a75-448b-96ac-2d48d9d53f56",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

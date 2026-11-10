@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-666eae76bc983bcd45db8f7b70e1b9894200b020f29ba495fac1f50d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-666eae76bc983bcd45db8f7b70e1b9894200b020f29ba495fac1f50d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "内側"
@@ -219,11 +227,12 @@
     "question": "ゾンビを中に入れないために、シャッターを下ろして、内側からカギをかけました。",
     "answer": "To keep the zombies out, we lowered the shutters and locked them out from the inside.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b60216b3-e570-456a-8c01-61460d2ad642",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

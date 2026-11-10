@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9c79aac5bb02e7bbeb970803f4cc7247ada1b284ee476f7ddc654d57.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9c79aac5bb02e7bbeb970803f4cc7247ada1b284ee476f7ddc654d57.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "満月"
@@ -107,11 +115,12 @@
     "question": "満月の夜は、星がきれいに見えます。",
     "answer": "The stars are beautifully visible on a night with a full moon.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fedd26fa-2f4f-4dda-9018-bea90b4ec5f4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

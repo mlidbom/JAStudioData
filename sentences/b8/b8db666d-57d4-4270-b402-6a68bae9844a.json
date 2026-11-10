@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0a6d998fb3f274c12edf1e5173f74771ff70035cccf9776a023d192e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0a6d998fb3f274c12edf1e5173f74771ff70035cccf9776a023d192e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -175,11 +183,12 @@
     "question": "彼女は、完成したと同時にその墨絵を真っすぐ立てました。",
     "answer": "As soon as she completed the ink painting she stood it up.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b8db666d-57d4-4270-b402-6a68bae9844a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

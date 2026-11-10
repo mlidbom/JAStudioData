@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-13ffa63ef42110c5ed916479bb510f17a47465bd1828935d5e1e447f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-13ffa63ef42110c5ed916479bb510f17a47465bd1828935d5e1e447f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "箱"
@@ -107,11 +115,12 @@
     "question": "この箱、重いから気をつけてね。",
     "answer": "Be careful with this box; it's heavy.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "eff85a27-7f2f-43c6-85ad-205488425ab3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

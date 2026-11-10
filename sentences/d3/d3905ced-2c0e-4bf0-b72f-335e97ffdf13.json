@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f642de7c745f2355102b9e5dceda725f9880eb6920a35e492d9a0a22.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f642de7c745f2355102b9e5dceda725f9880eb6920a35e492d9a0a22.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "例外"
@@ -121,11 +129,12 @@
     "question": "このレストランの料理は例外なくどれもおいしいです。",
     "answer": "All of the dishes at this restaurant are delicious without exception.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d3905ced-2c0e-4bf0-b72f-335e97ffdf13",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

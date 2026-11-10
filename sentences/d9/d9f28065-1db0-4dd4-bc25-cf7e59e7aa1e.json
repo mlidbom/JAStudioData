@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d9bec171cf26cdb632c0ae33b7bf38facccacce7177d8ad90dc921e2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d9bec171cf26cdb632c0ae33b7bf38facccacce7177d8ad90dc921e2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "試合"
@@ -135,11 +143,12 @@
     "question": "「あの野球の試合は本当にひどかったね。」「本当にそうだね。」",
     "answer": "\"That baseball game was really terrible.\" \"Yeah, tell me about it.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d9f28065-1db0-4dd4-bc25-cf7e59e7aa1e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

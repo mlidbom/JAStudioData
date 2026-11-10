@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bb3e1521f2def712b6d1ff4d14870683cce963d195f5cd28013e5611.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bb3e1521f2def712b6d1ff4d14870683cce963d195f5cd28013e5611.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "下駄"
@@ -156,11 +164,12 @@
     "question": "こちらの下駄は二色のお色をご用意しております。",
     "answer": "These wooden clogs come in two colors.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8151304c-c819-4c6f-80f4-47c658fac8fb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

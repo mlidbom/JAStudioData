@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dc6c31166ff7e6bad9f785c39923d49c1197591cff259a3fb6da310b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dc6c31166ff7e6bad9f785c39923d49c1197591cff259a3fb6da310b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "水泳"
@@ -79,11 +87,12 @@
     "question": "水泳の授業は学校で楽しいです。",
     "answer": "Swimming classes at school are fun.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bfb11160-126f-49bf-b361-2039e635da38",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

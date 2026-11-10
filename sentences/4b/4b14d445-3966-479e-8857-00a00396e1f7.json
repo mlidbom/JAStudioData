@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ed2c923bdd62ef447e88ca189be7b2eb61de39dc7728db1da048ec23.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ed2c923bdd62ef447e88ca189be7b2eb61de39dc7728db1da048ec23.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "更衣室"
@@ -65,11 +73,12 @@
     "question": "更衣室はあそこです。",
     "answer": "The changing rooms are over there.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4b14d445-3966-479e-8857-00a00396e1f7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8cc70e7ef324ac1a24c1e590bc8155e887ba58a42ccff77a3fee555a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8cc70e7ef324ac1a24c1e590bc8155e887ba58a42ccff77a3fee555a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "元々"
@@ -114,11 +122,12 @@
     "question": "あのモデルさんって、元々はデザイナーだったんでしょ？",
     "answer": "That model used to be a designer, right?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6d45fc35-981b-452e-bb25-159acba0ec5f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

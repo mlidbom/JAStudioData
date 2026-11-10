@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fe04a0e81006ff120544c0995249d0dba0e26852d9b18890f4cfa532.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fe04a0e81006ff120544c0995249d0dba0e26852d9b18890f4cfa532.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "敵"
@@ -212,11 +220,12 @@
     "question": "「フグ、あなたはどっちの味方なの？私の敵なの？」「僕は君の味方だよ、サーモン。」",
     "answer": "\"Which side are you on, Fugu? Are you my enemy?\" \"I’m on your side, Salmon.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3e19f160-cb89-4ea1-847b-86e93b0e2406",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

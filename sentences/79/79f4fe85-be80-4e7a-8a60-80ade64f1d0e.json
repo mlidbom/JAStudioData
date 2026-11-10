@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5d1f4e66d8598c48abfc34282fc9874e09fa67901906f8e03aa0ad10.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5d1f4e66d8598c48abfc34282fc9874e09fa67901906f8e03aa0ad10.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "哺乳瓶"
@@ -128,11 +136,12 @@
     "question": "哺乳瓶を熱湯消毒しています。",
     "answer": "You disinfect the baby bottle in boiling water.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "79f4fe85-be80-4e7a-8a60-80ade64f1d0e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

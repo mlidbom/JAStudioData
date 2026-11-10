@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3e724d3343bd255e808c412b914ffb51e0cfa80bb9e00e48f19b08fa.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3e724d3343bd255e808c412b914ffb51e0cfa80bb9e00e48f19b08fa.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "辺"
@@ -58,11 +66,12 @@
     "question": "これは二等辺三角形です。",
     "answer": "This is an isosceles triangle.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b69785a8-6448-4a81-b184-bdffabdc8319",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

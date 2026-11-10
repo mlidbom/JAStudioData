@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e70ed809976c71c6aa34fcad1e2631cd424af52de36ddd559c76a2e9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e70ed809976c71c6aa34fcad1e2631cd424af52de36ddd559c76a2e9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "巻尺"
@@ -191,11 +199,12 @@
     "question": "この巻尺で胸囲を測るのを手伝ってもらえませんか。",
     "answer": "Could you help me get my chest measurement with this tape measure?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "47767386-21f0-45d4-a163-08458fe28bf4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

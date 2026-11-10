@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d1b1fbc13b75127569d899dc0bc66613ce1a367e273de143ae2b63b9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d1b1fbc13b75127569d899dc0bc66613ce1a367e273de143ae2b63b9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "欠点"
@@ -121,11 +129,12 @@
     "question": "今年、日本へ行くことについて、欠点は有りますか？",
     "answer": "Are there any drawbacks about going to Japan this year?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "af1dec6b-95fc-4511-87dc-ecb66264061d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

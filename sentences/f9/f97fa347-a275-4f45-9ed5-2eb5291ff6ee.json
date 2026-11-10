@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-13c1eb56c3f3ff71e08467316c71536ecc5dce191c317127babd07d3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-13c1eb56c3f3ff71e08467316c71536ecc5dce191c317127babd07d3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "平仮名"
@@ -142,11 +150,12 @@
     "question": "うちの子には平仮名の名前をつけたいんです。",
     "answer": "I want to name my child with hiragana.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f97fa347-a275-4f45-9ed5-2eb5291ff6ee",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

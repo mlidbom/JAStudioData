@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a0f9ad1d967f1db12e3c29988e7940bdd0077023a17eaf22f75dfd6e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a0f9ad1d967f1db12e3c29988e7940bdd0077023a17eaf22f75dfd6e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "氷河"
@@ -135,11 +143,12 @@
     "question": "遠くのほうにキラキラと青く光る氷河が見えました。",
     "answer": "I saw a glistening blue glacier in the distance.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ec32a8fc-06bc-4fc4-81af-b5452bae5a0b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

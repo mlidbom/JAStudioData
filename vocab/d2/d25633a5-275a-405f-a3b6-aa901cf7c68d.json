@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-8fe514ebd7c08331392ad4a0cef384e63d207fb0fd26d725c806f885.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-8fe514ebd7c08331392ad4a0cef384e63d207fb0fd26d725c806f885.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "口応えする",
@@ -56,8 +62,7 @@
   "sentenceCount": 1,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -81,7 +86,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "d25633a5-275a-405f-a3b6-aa901cf7c68d",
   "tags": [

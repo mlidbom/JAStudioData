@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6c4a79dc22a1601d1557df37d4ba34c22c84524ea88cef95584eee97.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6c4a79dc22a1601d1557df37d4ba34c22c84524ea88cef95584eee97.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "動物"
@@ -128,11 +136,12 @@
     "question": "この辺に大きな動物は住んでいますか？",
     "answer": "Are there large animals living around here?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a79ff1b4-1cbb-41e6-af86-4460efa36e92",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

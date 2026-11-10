@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9b3ed68f9e4eb061d224f7b2d206fb646f03d5c947082e6027a29fc4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9b3ed68f9e4eb061d224f7b2d206fb646f03d5c947082e6027a29fc4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "今晩は"
@@ -149,11 +157,12 @@
     "question": "「あ、今晩は。」「今晩は。昨日の社長とのミーティング、どうだった？」",
     "answer": "\"Oh hey, good evening.\" \"Good evening. How was the meeting with the president yesterday?\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c9b39982-1145-4f77-a750-9f27eae7c28d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-10807d743fb25cbe097cc4f53aa6c05dac8cae7f87f641adcdd576b3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-10807d743fb25cbe097cc4f53aa6c05dac8cae7f87f641adcdd576b3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "給与"
@@ -128,11 +136,12 @@
     "question": "毎月の給与は、指定の銀行口座にお振り込みいたします。",
     "answer": "We will transfer your monthly wages to the designated bank account.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "09eeaed5-74cc-4e56-8bd8-7ff008ee6b37",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d6ffbc562f65f02b93e1d1aa8ddc5987353d2a79d45c0aa866c4371f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d6ffbc562f65f02b93e1d1aa8ddc5987353d2a79d45c0aa866c4371f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "南極"
@@ -135,11 +143,12 @@
     "question": "南極の氷でかき氷を作ってみたいんです。",
     "answer": "I want to try making shaved ice with Antarctic ice.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5560f56a-24d1-4168-ad7f-a6bfc310ba96",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

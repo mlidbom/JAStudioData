@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7ec3d6249e4240990b882417f4f15c3eedd55db3cb7f38bdcbb099c3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7ec3d6249e4240990b882417f4f15c3eedd55db3cb7f38bdcbb099c3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "異常"
@@ -100,11 +108,12 @@
     "question": "異常気象が続いています。",
     "answer": "The abnormal weather continues.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "99378239-b80f-4a35-976d-961fa9686ed5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

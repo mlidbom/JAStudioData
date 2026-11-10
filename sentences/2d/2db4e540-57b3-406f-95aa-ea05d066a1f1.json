@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9b9ac37af1dd15d22d074c1abd594816e5c12a40e07efa86d76b2b80.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9b9ac37af1dd15d22d074c1abd594816e5c12a40e07efa86d76b2b80.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -91,11 +99,12 @@
     "question": "コンビニのレジで百円を出した。",
     "answer": "I handed a hundred yen to the convenience store cashier.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2db4e540-57b3-406f-95aa-ea05d066a1f1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-73557f71b15a8cfe6464ae34cf7f34905a5c381921d4fdf0f8e1592d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-73557f71b15a8cfe6464ae34cf7f34905a5c381921d4fdf0f8e1592d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "漬かる"
@@ -128,11 +136,12 @@
     "question": "大根はもう漬かってるはずだから、出していいよ。",
     "answer": "The daikon radish should be well pickled by now, so you can take it out.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c05600e1-568c-4be1-89fe-bf09245684e6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

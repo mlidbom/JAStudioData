@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-99209a255775e5ac8b262374bb57b360e459e0fd82f817c76e2ce7c6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-99209a255775e5ac8b262374bb57b360e459e0fd82f817c76e2ce7c6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "警視庁"
@@ -163,11 +171,12 @@
     "question": "私の兄は、東京都警視庁公安部に勤めています。",
     "answer": "My brother works for the Tokyo Metropolitan Police Department Public Security Bureau.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ba8a805a-82a1-467b-8fd0-7fb9dc7cb96c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

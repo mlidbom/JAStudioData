@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f86a429b9198b8616a2aa46a13929c96f0076d466bc73f1c72305d0c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f86a429b9198b8616a2aa46a13929c96f0076d466bc73f1c72305d0c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "先生"
@@ -86,11 +94,12 @@
     "question": "先生は「おはよう」といった。",
     "answer": "The teacher said \"good morning.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0a11bcb3-83c7-43a7-8095-8e9b1cb6bc52",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

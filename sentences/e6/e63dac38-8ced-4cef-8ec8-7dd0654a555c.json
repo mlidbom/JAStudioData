@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9fa0dd0e2ef7e43f1492817681e28cbc2b6cd4e20eeba01b52173f55.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9fa0dd0e2ef7e43f1492817681e28cbc2b6cd4e20eeba01b52173f55.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "居酒屋"
@@ -135,11 +143,12 @@
     "question": "高級居酒屋よりも安いチェーン居酒屋の方がほっとする。",
     "answer": "Cheaper chain izakayas are more relaxing than upscale izakayas.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e63dac38-8ced-4cef-8ec8-7dd0654a555c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

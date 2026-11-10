@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1f2cf92d9f9e18a0b78ee8a66bd0be522dbd64903fe0bb0e9f490cfb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1f2cf92d9f9e18a0b78ee8a66bd0be522dbd64903fe0bb0e9f490cfb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "碁"
@@ -142,11 +150,12 @@
     "question": "年寄りたちと碁は打ちたくないんだよね。",
     "answer": "I just don’t want to beat old people at Go.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "44f9cbd8-26ba-443e-af95-3ead814f9250",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

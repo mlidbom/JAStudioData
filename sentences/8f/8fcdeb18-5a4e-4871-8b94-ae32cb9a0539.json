@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-af1efe9700ca091a952ca965aa2ffbe3d3d04e289fbc01d5f239837f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-af1efe9700ca091a952ca965aa2ffbe3d3d04e289fbc01d5f239837f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "本物"
@@ -128,11 +136,12 @@
     "question": "このナイキのスニーカー、本物だと思って買いました。",
     "answer": "I bought these Nike sneakers thinking they were real.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8fcdeb18-5a4e-4871-8b94-ae32cb9a0539",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

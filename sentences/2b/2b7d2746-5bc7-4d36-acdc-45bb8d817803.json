@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c2d7679163beb03402c1a4be091efd15649711c97c876a87fbbaf21b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c2d7679163beb03402c1a4be091efd15649711c97c876a87fbbaf21b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "貫き通す"
@@ -114,11 +122,12 @@
     "question": "彼は最後まで自分の信念を貫き通しました。",
     "answer": "He stuck to his beliefs until the end.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2b7d2746-5bc7-4d36-acdc-45bb8d817803",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

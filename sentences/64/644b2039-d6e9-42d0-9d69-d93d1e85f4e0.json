@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d495ceaf71290f92275d3f0797b6767377b4c30675b7d8e4552a7fbd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d495ceaf71290f92275d3f0797b6767377b4c30675b7d8e4552a7fbd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "非常"
@@ -93,11 +101,12 @@
     "question": "この非常ブレーキ、こわれてるかもしれないよ。",
     "answer": "I think this e-brake might be broken.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "644b2039-d6e9-42d0-9d69-d93d1e85f4e0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

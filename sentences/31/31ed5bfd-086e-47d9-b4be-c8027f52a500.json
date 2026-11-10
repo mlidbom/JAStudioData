@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4856ffdc715bdcbef251aa0db9579099965e8985e611a1ff422ff3a6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4856ffdc715bdcbef251aa0db9579099965e8985e611a1ff422ff3a6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "不正"
@@ -121,11 +129,12 @@
     "question": "大切なデータに不正なアクセスがあった。",
     "answer": "There was unauthorized access to important data.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "31ed5bfd-086e-47d9-b4be-c8027f52a500",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

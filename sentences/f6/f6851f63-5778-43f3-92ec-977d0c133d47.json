@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-86c1f99c95adbacb884455ba7167daa91d462e528897d8f41f856f8f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-86c1f99c95adbacb884455ba7167daa91d462e528897d8f41f856f8f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "文化"
@@ -149,11 +157,12 @@
     "question": "この町の古い文化を外国人にも知ってほしいんです。",
     "answer": "I want foreigners to know the old culture of this town.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f6851f63-5778-43f3-92ec-977d0c133d47",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

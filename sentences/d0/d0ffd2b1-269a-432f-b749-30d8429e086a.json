@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fe648ead82a8a9f10bf18039cfb37afd5414315f6215ead5d5d75210.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fe648ead82a8a9f10bf18039cfb37afd5414315f6215ead5d5d75210.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "損なう"
@@ -219,11 +227,12 @@
     "question": "働きすぎてあんたが健康を損なうんじゃないかって、心配してるのよ。",
     "answer": "I’m worried that you may ruin your health by working too hard.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d0ffd2b1-269a-432f-b749-30d8429e086a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

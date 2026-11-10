@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-20b9ac723ebc25d5c8189fdd26020cace89941fe9ad9f155dacb997c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-20b9ac723ebc25d5c8189fdd26020cace89941fe9ad9f155dacb997c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "扱い"
@@ -268,11 +276,12 @@
     "question": "ワイングラスの扱いに気をつけるようにと言われた直後に、案の定一つ割ってしまった。",
     "answer": "Right after I was told to be careful with the wine glass, sure enough, I broke one.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fbbbc50b-7924-4bd0-b0ef-731ae530bf6b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

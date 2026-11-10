@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-649a84be84164db470f2931cf740b51fcbe22d1bd6eb0bfb1bc2637a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-649a84be84164db470f2931cf740b51fcbe22d1bd6eb0bfb1bc2637a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "模型"
@@ -128,11 +136,12 @@
     "question": "おじいちゃんが、模型の飛行機を作ってくれたんだ。",
     "answer": "My grandpa made a model airplane for me.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a158a908-088f-4401-a833-940e8d2d76c0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

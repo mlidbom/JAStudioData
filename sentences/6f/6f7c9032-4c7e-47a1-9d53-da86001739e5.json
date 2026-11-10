@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0c5df6d8de6fc71e2fa07719fb31941beabd4862f4d877cbeaaa302e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0c5df6d8de6fc71e2fa07719fb31941beabd4862f4d877cbeaaa302e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "柄"
@@ -128,11 +136,12 @@
     "question": "彼女は私にヒョウ柄の名刺をくれました。",
     "answer": "She gave me her leopard print business card.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6f7c9032-4c7e-47a1-9d53-da86001739e5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

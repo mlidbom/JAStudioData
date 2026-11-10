@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0c98297af8c26f9fa6be42586b56bdb97ba39f6fb363635ba45cf93f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0c98297af8c26f9fa6be42586b56bdb97ba39f6fb363635ba45cf93f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "学者"
@@ -142,11 +150,12 @@
     "question": "学者たちは毎日ハローキティについて研究しています。",
     "answer": "The scholars are doing research about Hello Kitty every day.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c1c11a7e-950a-4e29-9dca-4c7d1b2a3608",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

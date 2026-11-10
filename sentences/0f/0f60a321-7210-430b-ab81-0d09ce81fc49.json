@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-030cd5bc0eb30e5f543a3e5a8209de1a657a33194abad9579b6d4c1e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-030cd5bc0eb30e5f543a3e5a8209de1a657a33194abad9579b6d4c1e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "人参"
@@ -51,11 +59,12 @@
     "question": "この人参スープ、おいしい！",
     "answer": "This carrot soup is delicious!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0f60a321-7210-430b-ab81-0d09ce81fc49",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-00ae74d5e3d85c931cabc61c817f81b93a9a0605d5d708ad71e429bb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-00ae74d5e3d85c931cabc61c817f81b93a9a0605d5d708ad71e429bb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "暫定"
@@ -142,11 +150,12 @@
     "question": "こちらの料金設定は暫定的ですのでご留意下さいませ。",
     "answer": "Please bear in mind that these prices are temporary.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ccac701b-458b-4647-808b-0780fc93c75f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

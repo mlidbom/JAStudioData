@@ -29,9 +29,22 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-9f20464781862e35ade6567e6dca3c366463fbb3595696af372134d3.mp3][sound:hypertts-fce89592725c3e34529afb71b1720b67ec9bd14588c4fbb354777eb0.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-9f20464781862e35ade6567e6dca3c366463fbb3595696af372134d3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Google ja-JP-Neural2-D",
+      "voiceGender": "male"
+    },
+    {
+      "fileName": "hypertts-fce89592725c3e34529afb71b1720b67ec9bd14588c4fbb354777eb0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "瞬きをする",
@@ -41,8 +54,7 @@
   "sentenceCount": 2,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -66,7 +78,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "97986e14-402f-4487-af04-31a44c9ad8b2",
   "tags": [

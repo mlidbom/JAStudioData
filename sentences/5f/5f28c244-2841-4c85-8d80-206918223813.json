@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7b715241d82f32427e001158870dd0cf03e6ac4eb8ebdb5c92b31ee5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7b715241d82f32427e001158870dd0cf03e6ac4eb8ebdb5c92b31ee5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "理屈"
@@ -163,11 +171,12 @@
     "question": "現実には理屈だけじゃ通用しないことは山ほどある。",
     "answer": "In reality, there are many things where logic alone will not work.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5f28c244-2841-4c85-8d80-206918223813",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8bc6f49ce312058669602b07e986dc248355fd82d27b63bcf72e242f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8bc6f49ce312058669602b07e986dc248355fd82d27b63bcf72e242f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "数"
@@ -128,11 +136,12 @@
     "question": "日本では、生まれる赤ちゃんの数が下がっている。",
     "answer": "In Japan, the number of babies being born is decreasing.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e97dcb6d-8df2-4ec5-9b49-d6d710cd7b8f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

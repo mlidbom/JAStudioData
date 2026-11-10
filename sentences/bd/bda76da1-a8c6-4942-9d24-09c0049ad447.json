@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-201e6f1cffb1fb6993b6572d1329ac95620273f8ba18a6a3d7ef1f26.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-201e6f1cffb1fb6993b6572d1329ac95620273f8ba18a6a3d7ef1f26.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "電子"
@@ -233,11 +241,12 @@
     "question": "一年前から、紙の本ではなくて電子リーダーやタブレットで本をよんでいます。",
     "answer": "Since a year ago, I've been reading books with an electronic reader and a tablet, not paper books.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bda76da1-a8c6-4942-9d24-09c0049ad447",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

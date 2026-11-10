@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b4a9c8d85ec67cb2e8b4c89cf38e8139bca1ae1eeee87af572cf609e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b4a9c8d85ec67cb2e8b4c89cf38e8139bca1ae1eeee87af572cf609e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "電柱"
@@ -142,11 +150,12 @@
     "question": "今日車を電柱にぶつけちゃったんだよね。",
     "answer": "I ran my car into a telephone pole today.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1b073147-3bb6-4eba-811a-731040683d3d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

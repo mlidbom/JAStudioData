@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a47de3457d9f05368306467a59a1ebd84a88483b7024f49318fead0f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a47de3457d9f05368306467a59a1ebd84a88483b7024f49318fead0f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "若い"
@@ -191,11 +199,12 @@
     "question": "もう若い子のノリには付いていけません。",
     "answer": "I can't keep up with the vibe of young people anymore.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f133f98f-125f-4cc0-b830-aff23698c738",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

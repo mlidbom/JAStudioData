@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3446c699725fd55e3f3bac6f1c11c74562aee1bd87e0d498f9fd498f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3446c699725fd55e3f3bac6f1c11c74562aee1bd87e0d498f9fd498f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "子"
@@ -121,11 +129,12 @@
     "question": "あなたは、わたしのほんとうの子ではないの。",
     "answer": "You aren’t my real child.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "55346138-9f8c-4e3d-80a1-0dad627cee90",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

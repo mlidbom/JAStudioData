@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-827debd54cff0348404ab89eac07e347014f13afb1d0d340a9a0e9c4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-827debd54cff0348404ab89eac07e347014f13afb1d0d340a9a0e9c4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "魂"
@@ -156,11 +164,12 @@
     "question": "小さな天使とベーコンのビデオを観て、魂が震えました。",
     "answer": "The video about the little angel and the bacon deeply moved my soul.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fa35e91a-a17b-4ca7-a2c1-03105066dcf8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

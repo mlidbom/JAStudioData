@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a44cd335e0954cd76a932ef7320fd9602de82c1a0841888019160f00.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a44cd335e0954cd76a932ef7320fd9602de82c1a0841888019160f00.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "肉"
@@ -93,11 +101,12 @@
     "question": "やはり日本生まれの牛の肉は、おいしいです。",
     "answer": "Beef from Japan-raised cattle is delicious.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b9230032-11f2-4175-99c3-72daab077131",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

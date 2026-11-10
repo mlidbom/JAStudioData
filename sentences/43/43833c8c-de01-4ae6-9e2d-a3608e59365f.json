@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dd1875734037dfd518add6a5f5de757e9a7b5e397300d3fe17c5d7f5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dd1875734037dfd518add6a5f5de757e9a7b5e397300d3fe17c5d7f5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "会"
@@ -107,11 +115,12 @@
     "question": "夕べ、女子会をしました。",
     "answer": "We had a girls-only party last night.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "43833c8c-de01-4ae6-9e2d-a3608e59365f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

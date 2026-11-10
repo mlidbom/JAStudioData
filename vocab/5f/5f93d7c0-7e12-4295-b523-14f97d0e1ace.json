@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-061c82da98ada2890415d03a698bfb5e0d63eae45fae7287cc84a585.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-061c82da98ada2890415d03a698bfb5e0d63eae45fae7287cc84a585.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "でくれない",
@@ -56,8 +62,7 @@
   "sentenceCount": 128,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -83,7 +88,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "5f93d7c0-7e12-4295-b523-14f97d0e1ace",
   "tags": [

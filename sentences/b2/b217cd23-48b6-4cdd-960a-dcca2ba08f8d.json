@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-44c7919477de583073f253c2ce0ac41f57cdca86f3d3231bd7a5082f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-44c7919477de583073f253c2ce0ac41f57cdca86f3d3231bd7a5082f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "冷房"
@@ -177,11 +185,12 @@
     "question": "暑すぎだよ〜。ちょっと冷房付けてもらえないかな。",
     "answer": "It's too hot. Could you turn on the air conditioning please?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b217cd23-48b6-4cdd-960a-dcca2ba08f8d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

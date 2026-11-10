@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dd8b11def57a9efcbb0c22563baa37421a55bd9a36b1516e547f0940.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dd8b11def57a9efcbb0c22563baa37421a55bd9a36b1516e547f0940.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鳥"
@@ -65,11 +73,12 @@
     "question": "あの鳥は、アメリカンイーグルです。",
     "answer": "That bird is an American eagle.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9b5dec44-eda7-4412-a300-6dc8ce556916",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

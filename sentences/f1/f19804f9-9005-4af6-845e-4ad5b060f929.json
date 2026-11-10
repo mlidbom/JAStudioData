@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ce4851466f833c9b0d25bb3118c9cab2c874acb6b142023ec9dad707.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ce4851466f833c9b0d25bb3118c9cab2c874acb6b142023ec9dad707.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "土砂"
@@ -121,11 +129,12 @@
     "question": "津波で大量の土砂が二階の教室に流れ込んだ。",
     "answer": "Due to the tsunami, a large amount of earth and sand flowed into the second-floor classroom.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f19804f9-9005-4af6-845e-4ad5b060f929",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

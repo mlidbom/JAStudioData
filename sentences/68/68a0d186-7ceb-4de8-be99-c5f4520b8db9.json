@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-57c7029c3dfffde52fefbb0c34413828877cf9ea0f379e21f798ed62.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-57c7029c3dfffde52fefbb0c34413828877cf9ea0f379e21f798ed62.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "黒い"
@@ -58,11 +66,12 @@
     "question": "黒いペン、下さい。",
     "answer": "A black pen, please.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "68a0d186-7ceb-4de8-be99-c5f4520b8db9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

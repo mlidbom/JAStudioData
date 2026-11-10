@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b2ce5b6f968955351710cbb4ca17326f56e621ee8c0843a0f0d6c490.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b2ce5b6f968955351710cbb4ca17326f56e621ee8c0843a0f0d6c490.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "来週"
@@ -72,11 +80,12 @@
     "question": "次のクラスは来週です。",
     "answer": "The next class is next week.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ffa69d86-7c7d-4d6c-99b3-267cf112b91c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

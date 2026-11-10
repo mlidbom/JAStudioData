@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-45bb060910d2691e5666270836e0e2ab29b94d503614b520b4bd5fbc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-45bb060910d2691e5666270836e0e2ab29b94d503614b520b4bd5fbc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "牧師"
@@ -135,11 +143,12 @@
     "question": "牧師さんはもう今日は教会を出ちゃいましたか？",
     "answer": "Has the pastor already left the church for the day?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5ad27c89-20ca-433a-ac97-ad9125bfb91a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

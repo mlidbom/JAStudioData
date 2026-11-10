@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f4804dc611f8fc4b3a9a7cd439140fd0299534f604f6ad70a2505bad.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f4804dc611f8fc4b3a9a7cd439140fd0299534f604f6ad70a2505bad.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "目医者"
@@ -114,11 +122,12 @@
     "question": "目医者の先生って、みんなメガネかけてない？",
     "answer": "Doesn't every eye doctor wear glasses?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a6aef2d1-8ccb-4e3f-9823-96058f6c67b4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

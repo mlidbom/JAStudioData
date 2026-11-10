@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-85bc7079a70e80d16315cbc721af569c7244e9e6ec6943b95ea281e2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-85bc7079a70e80d16315cbc721af569c7244e9e6ec6943b95ea281e2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "第一段"
@@ -233,11 +241,12 @@
     "question": "第一段階として、まずは基本の復習をしなくちゃいけないかもしれない。",
     "answer": "I may need to review the basics for the first step.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0d29c95d-e983-43f8-9330-024ce45b7789",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

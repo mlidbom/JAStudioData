@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1294b09380a2aedbd2205b5cf870a401b7479f6ccff6034d27f395c6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1294b09380a2aedbd2205b5cf870a401b7479f6ccff6034d27f395c6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "悲しむ"
@@ -142,11 +150,12 @@
     "question": "彼女が悲しむのは見たくありません。",
     "answer": "I don't want to see her sad.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1192d8c5-7c3d-40be-9179-b3254c304709",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4bd9c0d657dc314d8772d035d01a6efc2c542aedd4f66d22cab9ff2c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4bd9c0d657dc314d8772d035d01a6efc2c542aedd4f66d22cab9ff2c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "道路"
@@ -79,11 +87,12 @@
     "question": "アメリカの道路は広いですね。",
     "answer": "American roads are wide.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "20211134-0afe-4c48-9af8-19cd76f7d9af",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

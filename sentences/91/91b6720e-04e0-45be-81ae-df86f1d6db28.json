@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5bc199f4a9e960028175c17080b9934bf3fbf6b01401c50e47c0f8b0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5bc199f4a9e960028175c17080b9934bf3fbf6b01401c50e47c0f8b0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "道路"
@@ -163,11 +171,12 @@
     "question": "ここは、いつも道路の工事をやってて車が通れません。",
     "answer": "I can't drive through this paved road as there's always construction.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "91b6720e-04e0-45be-81ae-df86f1d6db28",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

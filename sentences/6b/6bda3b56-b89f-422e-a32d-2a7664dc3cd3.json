@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-691e2e363230ab8f10911c8d97873b181d1890d03758d241216039b0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-691e2e363230ab8f10911c8d97873b181d1890d03758d241216039b0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "特急"
@@ -72,11 +80,12 @@
     "question": "特急料金はいくらですか？",
     "answer": "How much is the limited express fare?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6bda3b56-b89f-422e-a32d-2a7664dc3cd3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

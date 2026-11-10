@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-39d9f752a43b666263fbf375e169cae0625778b7b6eb8114f382f11e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-39d9f752a43b666263fbf375e169cae0625778b7b6eb8114f382f11e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "日の出"
@@ -79,11 +87,12 @@
     "question": "きれいな日の出だったね。",
     "answer": "It was a beautiful sunrise.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "208144c3-da03-441c-bb2f-d4c7425909dc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

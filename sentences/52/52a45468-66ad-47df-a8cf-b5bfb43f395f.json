@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-deb7c930e2a460d457f72f3161ca7b8b2d09081a16cc8854c260b772.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-deb7c930e2a460d457f72f3161ca7b8b2d09081a16cc8854c260b772.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "作品"
@@ -198,11 +206,12 @@
     "question": "その作家のマンガは全部読んだよ。彼の作品、すごく好きなんだ。",
     "answer": "I've read all of that author's manga. I really love his works.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "52a45468-66ad-47df-a8cf-b5bfb43f395f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

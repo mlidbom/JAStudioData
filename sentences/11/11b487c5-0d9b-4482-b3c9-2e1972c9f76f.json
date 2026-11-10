@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8bfdf1e91b20cbda49a2ce273735d3569dd58d6f01fb137afa2d3e34.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8bfdf1e91b20cbda49a2ce273735d3569dd58d6f01fb137afa2d3e34.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "俳句"
@@ -163,11 +171,12 @@
     "question": "日本人だったら、この俳句のミスは放っておかないよね。",
     "answer": "A Japanese person wouldn't let these haiku mistakes slide.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "11b487c5-0d9b-4482-b3c9-2e1972c9f76f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

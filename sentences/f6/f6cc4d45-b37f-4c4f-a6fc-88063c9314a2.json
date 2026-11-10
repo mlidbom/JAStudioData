@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e7590cf7a10945aec4155f5ff31f96d0565db07ce00b98d55c6e176c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e7590cf7a10945aec4155f5ff31f96d0565db07ce00b98d55c6e176c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "全員",
@@ -123,11 +131,12 @@
     "question": "警察は関係者全員を尋問しました。",
     "answer": "The police questioned everyone who was involved.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f6cc4d45-b37f-4c4f-a6fc-88063c9314a2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

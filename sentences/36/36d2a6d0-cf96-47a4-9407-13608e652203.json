@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-656b9917bb63289192ed1c59a3ac4464b4e1c4933b24938c8ac97ddd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-656b9917bb63289192ed1c59a3ac4464b4e1c4933b24938c8ac97ddd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "引き分け"
@@ -142,11 +150,12 @@
     "question": "引き分けとは、両方のチームが同じ点だったということです。",
     "answer": "A draw means that both teams had the same score.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "36d2a6d0-cf96-47a4-9407-13608e652203",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

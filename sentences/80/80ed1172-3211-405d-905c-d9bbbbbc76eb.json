@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f16d871e4f000771fbaf728f8a62d8bea845a8618ce4edcba0fdb2eb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f16d871e4f000771fbaf728f8a62d8bea845a8618ce4edcba0fdb2eb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "取り決め"
@@ -156,11 +164,12 @@
     "question": "ちゃんと取り決めを守ってもらえるのか、不安です。",
     "answer": "I'm worried about whether they'll obey the agreement.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "80ed1172-3211-405d-905c-d9bbbbbc76eb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

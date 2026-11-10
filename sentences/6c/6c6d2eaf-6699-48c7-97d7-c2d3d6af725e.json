@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2db074dc9ce8d5eed5414a2e244ff8feaf0478d44d8657d1c9b17b17.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2db074dc9ce8d5eed5414a2e244ff8feaf0478d44d8657d1c9b17b17.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一階"
@@ -121,11 +129,12 @@
     "question": "トイレは一階の出口の横にあります。",
     "answer": "The bathroom is next to the exit on the first floor.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6c6d2eaf-6699-48c7-97d7-c2d3d6af725e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

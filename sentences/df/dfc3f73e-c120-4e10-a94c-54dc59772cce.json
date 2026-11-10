@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c9c3fe3904a6706f2eb5a7518fc1a17a904759ade49b8883da5cc21f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c9c3fe3904a6706f2eb5a7518fc1a17a904759ade49b8883da5cc21f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "漂う"
@@ -156,11 +164,12 @@
     "question": "美味しいみそ汁の匂いが漂ってきて、目が覚めました。",
     "answer": "I was awakened by the smell of delicious miso soup in the air.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dfc3f73e-c120-4e10-a94c-54dc59772cce",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

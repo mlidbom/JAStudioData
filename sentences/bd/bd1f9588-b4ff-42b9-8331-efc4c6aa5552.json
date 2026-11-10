@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-55bb2541050d77af22c3d89659a2f954a3b3473ac5a27b09cff58c56.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-55bb2541050d77af22c3d89659a2f954a3b3473ac5a27b09cff58c56.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お疲れ様"
@@ -107,11 +115,12 @@
     "question": "お疲れ様でした、所長。お先に失礼します。",
     "answer": "Thank you for your hard work, chief. I'll be taking my leave now.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bd1f9588-b4ff-42b9-8331-efc4c6aa5552",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-505356b708fce0e9ea7b42c674f58fd0b6103075a2354c0a1f83669a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-505356b708fce0e9ea7b42c674f58fd0b6103075a2354c0a1f83669a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "駅長"
@@ -128,11 +136,12 @@
     "question": "川田さんはここの駅長と親友なんです。",
     "answer": "Kawada-san is a close friend of the stationmaster here.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f0e9a67f-c3d9-4098-b4ec-d351a9bd101c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

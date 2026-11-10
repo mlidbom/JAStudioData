@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-32d7da8b5c7182f80057a4d0ba8f2e78e126a80879b466d37c27a873.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-32d7da8b5c7182f80057a4d0ba8f2e78e126a80879b466d37c27a873.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "家事"
@@ -177,11 +185,12 @@
     "question": "元々私は家事に向いてないので、毎日時間がかかってしまいます。",
     "answer": "Housework is not my innate forte, so it takes me some time every day.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "be31eced-3706-42b7-aaaf-d6ee6d572000",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

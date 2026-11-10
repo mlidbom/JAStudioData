@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-60005aea863b08d3fa7a63a0d9155bb4c0a4fb7f43268be0a994269a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-60005aea863b08d3fa7a63a0d9155bb4c0a4fb7f43268be0a994269a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "入り江"
@@ -170,11 +178,12 @@
     "question": "この入江に港を建設しようと思っているんです。",
     "answer": "We're planning to build a port in this inlet.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "395e87b3-43f9-45c9-9b2a-b9010c89d53e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

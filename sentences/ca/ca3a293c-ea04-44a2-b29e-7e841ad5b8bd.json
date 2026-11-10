@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d621c97c3c1b5d1d10e4b125d4f8a456781f17d97c5a70861afea632.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d621c97c3c1b5d1d10e4b125d4f8a456781f17d97c5a70861afea632.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "読む"
@@ -156,11 +164,12 @@
     "question": "入社してからは、毎朝電車で新聞を読んでいます。",
     "answer": "After joining the company, I read newspapers on the train every morning.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ca3a293c-ea04-44a2-b29e-7e841ad5b8bd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

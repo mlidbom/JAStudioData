@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-118eab8c356cba8e74c3e4f298b80831435ba2d086349c3ab3b07366.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-118eab8c356cba8e74c3e4f298b80831435ba2d086349c3ab3b07366.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "心配"
@@ -149,11 +157,12 @@
     "question": "心配しないで、平気ですよ。全て上手くいくはず。",
     "answer": "Don't worry, it's okay. Everything should work out.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4b82e5b2-5589-4109-98ab-9375c44ab8de",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

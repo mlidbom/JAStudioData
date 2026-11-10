@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-72470e6f8824452e3b7a49189b8af886f738a96baef7ebf61e011a82.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-72470e6f8824452e3b7a49189b8af886f738a96baef7ebf61e011a82.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "亡くなる"
@@ -114,11 +122,12 @@
     "question": "これは、亡くなった友人のための花です。",
     "answer": "This is a flower for my friend who has passed away.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1f190f1b-7851-4d77-b70d-45d267826ae3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

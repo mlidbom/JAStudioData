@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7d615f42dca183c947024b0127dd4fcd9a1246e2b0db8451ee6db8f8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7d615f42dca183c947024b0127dd4fcd9a1246e2b0db8451ee6db8f8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鉛管"
@@ -338,11 +346,12 @@
     "question": "この家のパイプの一部はまだ鉛管になっているから、水道から出るお湯を直接口にしてはいけないよ。",
     "answer": "Some parts of this house still use lead pipes, so do not drink hot water from the tap, okay?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "64a64557-743a-46cf-978d-150a51bfc2ff",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

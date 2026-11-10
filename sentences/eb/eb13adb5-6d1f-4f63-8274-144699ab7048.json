@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c687445510dd3aa5033b0a6b704d0fd5365c1208d001ab9a38dbde2f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c687445510dd3aa5033b0a6b704d0fd5365c1208d001ab9a38dbde2f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "複写"
@@ -205,11 +213,12 @@
     "question": "一枚目はお手元にお持ちください。私達は複写の方を頂きますね。",
     "answer": "You can keep the original, but we’ll take a copy.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "eb13adb5-6d1f-4f63-8274-144699ab7048",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

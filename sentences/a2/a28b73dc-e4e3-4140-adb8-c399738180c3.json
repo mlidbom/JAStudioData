@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e6c0cc1650a869578d1b4876b8b40b51296f3f9e65e9285e1a42ad2c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e6c0cc1650a869578d1b4876b8b40b51296f3f9e65e9285e1a42ad2c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "何時"
@@ -149,11 +157,12 @@
     "question": "五日のデートは、何時に東京にする？",
     "answer": "What time should we meet in Tokyo for our date on the 5th?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a28b73dc-e4e3-4140-adb8-c399738180c3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

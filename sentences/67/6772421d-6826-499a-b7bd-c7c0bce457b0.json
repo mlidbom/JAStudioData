@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-31a0084072aafbd082b6657d5e9210d906b72bf7ae492f83c89c6e7d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-31a0084072aafbd082b6657d5e9210d906b72bf7ae492f83c89c6e7d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "木材"
@@ -121,11 +129,12 @@
     "question": "明日、ホームセンターに木材を買いに行く予定です。",
     "answer": "I'm planning to go to the home center to buy lumber tomorrow.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6772421d-6826-499a-b7bd-c7c0bce457b0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

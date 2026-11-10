@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-325269d0c64e40bc3efb68e3f14bd2ee5ee2630a8e4021de238ddd93.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-325269d0c64e40bc3efb68e3f14bd2ee5ee2630a8e4021de238ddd93.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鳥肌"
@@ -128,11 +136,12 @@
     "question": "「ゴキブリ」という名前を聞くだけで、鳥肌が立ちます。",
     "answer": "I get goosebumps just from hearing the name \"cockroach.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "14b2b0ab-7756-452e-a3f1-b5d6eb275440",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-df085f79b92b72d96f0f7d7e4f36d1923649dd6496f06f7e25ac0c6e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-df085f79b92b72d96f0f7d7e4f36d1923649dd6496f06f7e25ac0c6e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "風"
@@ -170,11 +178,12 @@
     "question": "今日は、台風が近くに来ているせいで、風が強いです。",
     "answer": "The wind is strong today because the typhoon is coming nearby.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "180bfb75-a78d-422c-98af-ab3ff268de1c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f255ba33fd97996b6a64eb2d8fd63bcfe141267b62afba6af2b32d30.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f255ba33fd97996b6a64eb2d8fd63bcfe141267b62afba6af2b32d30.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "欠く"
@@ -170,11 +178,12 @@
     "question": "生の魚は、買った三日後には、どうしてもフレッシュさを欠きますね。",
     "answer": "Raw fish can't help but lack freshness three days after purchase.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8413b2ab-384f-4302-9789-7863b027a44a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

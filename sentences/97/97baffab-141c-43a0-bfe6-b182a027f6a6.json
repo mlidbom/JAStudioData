@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-de5cb7d0ff83c7eee18d7cb291ba491d50f5f116a5d23a4bea643014.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-de5cb7d0ff83c7eee18d7cb291ba491d50f5f116a5d23a4bea643014.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "犬"
@@ -149,11 +157,12 @@
     "question": "うちの犬、ライオンくらいの大きさなんです。",
     "answer": "My dog ​​is about the size of a lion.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "97baffab-141c-43a0-bfe6-b182a027f6a6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

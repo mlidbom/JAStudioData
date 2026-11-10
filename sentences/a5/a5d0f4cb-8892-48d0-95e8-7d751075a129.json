@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f6cb5ed79fce61118f801884133137acbed10178cfc205ba647cbe9d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f6cb5ed79fce61118f801884133137acbed10178cfc205ba647cbe9d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "方向音痴"
@@ -114,11 +122,12 @@
     "question": "私は方向音痴で、すぐ道に迷います。",
     "answer": "I have no sense of direction so I get lost immediately.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a5d0f4cb-8892-48d0-95e8-7d751075a129",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

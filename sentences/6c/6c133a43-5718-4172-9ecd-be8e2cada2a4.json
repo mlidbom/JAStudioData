@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b4db8be69fedff50a9cddbe0cf19a3cbf3656eae4770cedf80484eb1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b4db8be69fedff50a9cddbe0cf19a3cbf3656eae4770cedf80484eb1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "圧力"
@@ -114,11 +122,12 @@
     "question": "その報道は上からの圧力でもみ消されました。",
     "answer": "The report was suppressed due to pressure from higher-ups.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6c133a43-5718-4172-9ecd-be8e2cada2a4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

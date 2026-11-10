@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cb9a857e75a7edf62a7b4d62ca0fd346cf436880e7bb8b2374360912.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cb9a857e75a7edf62a7b4d62ca0fd346cf436880e7bb8b2374360912.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "凍死"
@@ -156,11 +164,12 @@
     "question": "犬小屋でネズミが凍死していました。",
     "answer": "A rat was frozen to death in a kennel.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0d7c3c62-5a2f-4d49-a4e9-255692dbdd95",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

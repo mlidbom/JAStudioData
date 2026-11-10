@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-31d4c3331843dc5e1d2cddb13bff2b1a4f2f8ace9eb2755926687f7b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-31d4c3331843dc5e1d2cddb13bff2b1a4f2f8ace9eb2755926687f7b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "当て字"
@@ -170,11 +178,12 @@
     "question": "この本は、当て字を多く使用しているため、少し分かりにくいです。",
     "answer": "This book is a bit confusing because it uses a lot of ateji.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "54b6134d-e438-4b45-abeb-9021a4dfdc6b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

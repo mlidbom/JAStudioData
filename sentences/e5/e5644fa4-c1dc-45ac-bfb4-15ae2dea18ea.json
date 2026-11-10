@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-da79a30c35e522ebbac4883d1b452b4363be80f3f46c7afbab089039.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-da79a30c35e522ebbac4883d1b452b4363be80f3f46c7afbab089039.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "屋上"
@@ -135,11 +143,12 @@
     "question": "このビルの屋上ではトマトを育てています。",
     "answer": "We grow tomatoes on the rooftop of this building.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e5644fa4-c1dc-45ac-bfb4-15ae2dea18ea",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

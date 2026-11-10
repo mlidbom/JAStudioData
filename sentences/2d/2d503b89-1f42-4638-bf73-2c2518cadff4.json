@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-eed9848db3321c6e93b5cee208400e56b8aafb0cd1255e464ec768cc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-eed9848db3321c6e93b5cee208400e56b8aafb0cd1255e464ec768cc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "痴呆"
@@ -86,11 +94,12 @@
     "question": "祖母の痴呆が始まったんです。",
     "answer": "My grandmother is starting to get dementia.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2d503b89-1f42-4638-bf73-2c2518cadff4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

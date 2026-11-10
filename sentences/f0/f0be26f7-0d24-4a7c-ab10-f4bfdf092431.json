@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-32e938bc210f45d7dbaeb8828d5db348691185fd6bb65f5d395614b6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-32e938bc210f45d7dbaeb8828d5db348691185fd6bb65f5d395614b6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "腹"
@@ -156,11 +164,12 @@
     "question": "お前ちょっと腹が出てきたんじゃねぇか？",
     "answer": "You are getting a little fat around the belly, aren’t you?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f0be26f7-0d24-4a7c-ab10-f4bfdf092431",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

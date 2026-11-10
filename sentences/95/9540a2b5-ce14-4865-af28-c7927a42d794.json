@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5fdd6fa443f41da43a242a6649651bf4fcf3f994a971adc39fbf829a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5fdd6fa443f41da43a242a6649651bf4fcf3f994a971adc39fbf829a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "金魚"
@@ -100,11 +108,12 @@
     "question": "これは、金魚ですか？コイですか？",
     "answer": "Is this a goldfish? Is it carp?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9540a2b5-ce14-4865-af28-c7927a42d794",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

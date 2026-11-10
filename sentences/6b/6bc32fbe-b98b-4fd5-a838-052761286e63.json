@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0211ba7d51ed9d6526894b5dcac5c7c3672ea9ee0f9977739438867b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0211ba7d51ed9d6526894b5dcac5c7c3672ea9ee0f9977739438867b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "動物園"
@@ -128,11 +136,12 @@
     "question": "動物園で間近で見たフラミンゴは、とてもきれいでした。",
     "answer": "The flamingos looked so beautiful when I saw them up close at a zoological garden.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6bc32fbe-b98b-4fd5-a838-052761286e63",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

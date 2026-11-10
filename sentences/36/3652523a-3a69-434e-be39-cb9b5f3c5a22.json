@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8000d33974d10b94898aedb7f43408a4552f1fcefe3eed6f93dd02af.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8000d33974d10b94898aedb7f43408a4552f1fcefe3eed6f93dd02af.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "年"
@@ -128,11 +136,12 @@
     "question": "２０２１年はオリンピックの年でした。",
     "answer": "2021 was the year of the Olympics.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3652523a-3a69-434e-be39-cb9b5f3c5a22",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

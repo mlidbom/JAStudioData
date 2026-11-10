@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5c2e092d9dc26e855c51b3d96e2d8335b534e3628a350acec192e4ac.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5c2e092d9dc26e855c51b3d96e2d8335b534e3628a350acec192e4ac.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "賞金"
@@ -233,11 +241,12 @@
     "question": "実はコウイチの首には賞金がかけられているって知っていましたか。",
     "answer": "Did you know that the prize money is actually on Koichi's head?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b23e7fda-ffed-446f-b091-53188467198d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

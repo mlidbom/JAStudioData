@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-321fd6df25860d55a987f9844a6d7bdd9662eaea1a2a50620631f32b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-321fd6df25860d55a987f9844a6d7bdd9662eaea1a2a50620631f32b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鰐"
@@ -170,11 +178,12 @@
     "question": "鰐蟹って漢字、何も見ずに手書きで書けるの？すごいね！",
     "answer": "You can handwrite the kanji for WaniKani without looking at anything? That's amazing!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7afb97ac-1832-4cd9-8dcd-95068eed0b09",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d4ec44075b469bf9a3f58b1b455f78aaaf9283b68633f41e90abf6a1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d4ec44075b469bf9a3f58b1b455f78aaaf9283b68633f41e90abf6a1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "土星"
@@ -135,11 +143,12 @@
     "question": "土星にはどうやって行けばいいですか？",
     "answer": "How can I get to Saturn?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ca7258cf-36e1-481e-8084-b0d0ef720444",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

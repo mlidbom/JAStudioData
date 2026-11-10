@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-703a6fd77d8a989b27d4ce5469ebf0d7b2d68801b4934a8888d39815.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-703a6fd77d8a989b27d4ce5469ebf0d7b2d68801b4934a8888d39815.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "何千"
@@ -142,11 +150,12 @@
     "question": "この先、何千メートル行けばいいんだろう。",
     "answer": "I wonder how many thousand meters more I should go.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "020f7c97-254d-47ae-9957-65f1a52f7756",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

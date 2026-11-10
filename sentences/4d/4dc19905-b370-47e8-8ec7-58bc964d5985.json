@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dc1106d5897fd6cac5b7f0e984ba9f64b63676a413e52c5a220c3422.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dc1106d5897fd6cac5b7f0e984ba9f64b63676a413e52c5a220c3422.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "表情"
@@ -128,11 +136,12 @@
     "question": "うちの子、いつも表情がカタイんだよね。",
     "answer": "My child always has a stiff expression, you know?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4dc19905-b370-47e8-8ec7-58bc964d5985",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

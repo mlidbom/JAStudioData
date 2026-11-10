@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b591b0091662336b189fcd5a3bef19034ef6d04822ca4ebf0defa0af.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b591b0091662336b189fcd5a3bef19034ef6d04822ca4ebf0defa0af.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "警官"
@@ -86,11 +94,12 @@
     "question": "彼のお父さんは警官だよ。",
     "answer": "His dad is a police officer.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c932997c-41bb-45f3-9197-33bf40e34732",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

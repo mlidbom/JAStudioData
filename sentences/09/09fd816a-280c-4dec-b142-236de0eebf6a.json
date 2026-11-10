@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cb6e03621380accc6cb358cd93dfe5ce238985f879dfdf8a22f2aaec.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cb6e03621380accc6cb358cd93dfe5ce238985f879dfdf8a22f2aaec.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "逃れる"
@@ -254,11 +262,12 @@
     "question": "万が一ゾンビが実際に現れた場合を想定して、どうやってゾンビから逃れるのかを考えているんです。",
     "answer": "I’m thinking about how to escape from zombies if they actually showed up.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "09fd816a-280c-4dec-b142-236de0eebf6a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

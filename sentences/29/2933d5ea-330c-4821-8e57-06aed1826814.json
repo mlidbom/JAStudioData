@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fcb5b750c75fbb9940d1cbbb5ef80d87296b7f01d7f01d5a47f8af3e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fcb5b750c75fbb9940d1cbbb5ef80d87296b7f01d7f01d5a47f8af3e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "病院"
@@ -149,11 +157,12 @@
     "question": "お母さんが病院にいるので、毎日病院に通っています。",
     "answer": "My mother is in the hospital, so I go there every day.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2933d5ea-330c-4821-8e57-06aed1826814",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b58930832c8dc63d6ecdfdb2ce035757ba8f2cda2bb5ff06e93af5fc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b58930832c8dc63d6ecdfdb2ce035757ba8f2cda2bb5ff06e93af5fc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "留学生"
@@ -149,11 +157,12 @@
     "question": "あのクラスの留学生、何だかあどけない感じがするよね。",
     "answer": "That class's foreign students look kind of innocent, don't you think?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1b9c64f2-0bd9-44c3-bd99-e455f6bf4bf3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

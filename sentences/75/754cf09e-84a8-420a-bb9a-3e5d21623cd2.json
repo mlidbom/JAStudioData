@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b3b601c5e6236779dcfd6fa1972694076f70e5146dd7da4953dc41d0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b3b601c5e6236779dcfd6fa1972694076f70e5146dd7da4953dc41d0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "靴"
@@ -240,11 +248,12 @@
     "question": "歩き方が悪いせいか、靴を買っても一年たたないうちにはきつぶしてしまう。",
     "answer": "Perhaps it is because my walking style is bad, but my shoes get worn out within a year of buying them.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "754cf09e-84a8-420a-bb9a-3e5d21623cd2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

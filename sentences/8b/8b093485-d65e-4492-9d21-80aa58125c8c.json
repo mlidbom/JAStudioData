@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9cb505c4a8abebdee347b889df3fb385697c2cd3796e43e51b6e68d5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9cb505c4a8abebdee347b889df3fb385697c2cd3796e43e51b6e68d5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一冊"
@@ -114,11 +122,12 @@
     "question": "これは、世界に一冊しかない絵本です。",
     "answer": "Only one copy of this particular picture book exists in the world.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8b093485-d65e-4492-9d21-80aa58125c8c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

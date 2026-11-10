@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a8f443b5f977fd84344fbf6ad83bebe21bebc727c03e67b918d93f9f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a8f443b5f977fd84344fbf6ad83bebe21bebc727c03e67b918d93f9f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -126,11 +134,12 @@
     "question": "この助詞の使い方を教えてくれませんか？",
     "answer": "Can you tell me how to use this particle?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4c3f8abb-5a69-4845-bd54-a4fe5cc6985a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

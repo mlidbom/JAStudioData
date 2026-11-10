@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7bb0b4932b03a0c83c6cdc39f4dc07ebb65fd3f506d0899ab75646eb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7bb0b4932b03a0c83c6cdc39f4dc07ebb65fd3f506d0899ab75646eb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "電子機器"
@@ -261,11 +269,12 @@
     "question": "私、電気のニオイが分かるんですよね。最近若い方は電子機器を常に使っているので、電気のニオイがプンプンします。",
     "answer": "I can smell electricity, you know. Young people these days are constantly using electronic devices, so I often smell electricity around them.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7869ba62-581e-40dc-ba5f-48e29a13dc5d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7d9fe9bdc974cd19eac5078fbd68a2ad43ebb7ddb2df97c8f2af7cd0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7d9fe9bdc974cd19eac5078fbd68a2ad43ebb7ddb2df97c8f2af7cd0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "途中"
@@ -310,11 +318,12 @@
     "question": "「今すぐに来られますか？」「ええ。今向かっている途中です。」「え？ということは、場所をご存知なんですね？」「いいえ、分かりません。」",
     "answer": "\"Can you come over right now?\" \"Sure, I’m actually on my way now.\" \"Huh? Do you know where you’re going?\" \"Nope, I don’t.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cdeb1fca-d418-41e1-982f-bc45d4c5c807",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

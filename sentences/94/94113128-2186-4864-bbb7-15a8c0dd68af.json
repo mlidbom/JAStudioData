@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-11628d1f75cec5a22a807d6035b90de9501bea86181f76e3127fa9d0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-11628d1f75cec5a22a807d6035b90de9501bea86181f76e3127fa9d0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "消す"
@@ -198,11 +206,12 @@
     "question": "教室を出た後は電気を消すのを忘れないで下さい。",
     "answer": "After you leave the classroom, please don’t forget to turn off the light.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "94113128-2186-4864-bbb7-15a8c0dd68af",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

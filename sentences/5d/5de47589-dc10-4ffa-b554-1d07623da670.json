@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ce46d83c60b2f87ef4c73332cc13eb40f038e0668cd0a787657cb321.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ce46d83c60b2f87ef4c73332cc13eb40f038e0668cd0a787657cb321.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "遠距離"
@@ -156,11 +164,12 @@
     "question": "日本では、遠距離通学や遠距離通勤はよくあることです。",
     "answer": "In Japan, having a long distance commute to school or work is pretty common.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5de47589-dc10-4ffa-b554-1d07623da670",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

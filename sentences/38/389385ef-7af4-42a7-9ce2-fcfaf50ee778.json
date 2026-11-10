@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-61be0163b918b33b5bc326c3a137528877195213f04f1bfa7ffcbc0a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-61be0163b918b33b5bc326c3a137528877195213f04f1bfa7ffcbc0a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "開ける"
@@ -191,11 +199,12 @@
     "question": "「ねぇ。このワイン、開けてもらえないかな？」「もちろん。そんなの楽勝さ。」",
     "answer": "\"Hey. Can you open this wine?\" \"Of course. It's a piece of cake.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "389385ef-7af4-42a7-9ce2-fcfaf50ee778",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

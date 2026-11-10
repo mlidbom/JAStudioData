@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e1cacba9f64abfc199efbd4d7d0cd7405dd583e6649545ff3ac70e67.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e1cacba9f64abfc199efbd4d7d0cd7405dd583e6649545ff3ac70e67.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "欄外"
@@ -177,11 +185,12 @@
     "question": "サインが欄外にはみ出てしまったんですが、大丈夫でしょうか。",
     "answer": "I wonder if it’s okay that my signature is going out of the margins.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7548683f-fac2-4b2a-ace9-85e23b092729",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bbd108bfe79715e9fe19e44ee7bd4e4cdba6cc3eea013beb4a8ef67a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bbd108bfe79715e9fe19e44ee7bd4e4cdba6cc3eea013beb4a8ef67a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "調子"
@@ -79,11 +87,12 @@
     "question": "今日の調子はどうですか？",
     "answer": "How are you today?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7daf227b-eeb0-4aca-915b-8ffc9df54b04",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

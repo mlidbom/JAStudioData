@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-db5c45e25d19c83229ac48cebf12be6306f59ed3dd9276f7bdaeb327.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-db5c45e25d19c83229ac48cebf12be6306f59ed3dd9276f7bdaeb327.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "片言"
@@ -191,11 +199,12 @@
     "question": "うちの娘はまだ小さいので、片言ぐらいしかしゃべることができません。",
     "answer": "Our daughter is still little, so she can only speak baby talk.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cf06967b-d3e7-447f-9a8a-7962d1e475d7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-03f8d9fb81fe5c2be944bc6cb2376a1850a8d51fbb88d3fcca88886b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-03f8d9fb81fe5c2be944bc6cb2376a1850a8d51fbb88d3fcca88886b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "人"
@@ -93,11 +101,12 @@
     "question": "あの人はクリーニングの人ですか？",
     "answer": "Is that person a cleaning person?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cbd50177-bfcc-4053-ac3c-bae3e14ce8b9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

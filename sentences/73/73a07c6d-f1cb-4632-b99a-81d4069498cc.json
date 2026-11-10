@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-61faaddd7d2c3c6ece85e09293cda9cf49f123c1b9725d592b9baaf8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-61faaddd7d2c3c6ece85e09293cda9cf49f123c1b9725d592b9baaf8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "仕草"
@@ -93,11 +101,12 @@
     "question": "先生の仕草は女の人らしい。",
     "answer": "The teacher's gestures are feminine.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "73a07c6d-f1cb-4632-b99a-81d4069498cc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

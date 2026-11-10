@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ae532a3a29f86e6dd128872b407b9fd22b28138df87a9b25de2f43d0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ae532a3a29f86e6dd128872b407b9fd22b28138df87a9b25de2f43d0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "紅茶"
@@ -149,11 +157,12 @@
     "question": "お紅茶はどのようにおいれ致しましょうか。",
     "answer": "How do you like your black tea?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7d9aae1c-3e5d-48ed-81e9-d161f4609605",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

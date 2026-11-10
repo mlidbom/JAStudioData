@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3631d13b14d8ce7889b0cdc3972f1ae1c9aa37985e3178a25ef718b1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3631d13b14d8ce7889b0cdc3972f1ae1c9aa37985e3178a25ef718b1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "思想"
@@ -128,11 +136,12 @@
     "question": "コウイチの思想にはついていけません。",
     "answer": "I can't follow Koichi's thoughts.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "57064ad7-6855-4df3-a882-d64e3bde9df4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

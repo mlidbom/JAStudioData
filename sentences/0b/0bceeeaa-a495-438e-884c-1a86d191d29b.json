@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-50d8e29597b6a351ad4b1ea2fd202eb3eeec0a6b6987e511bcd89747.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-50d8e29597b6a351ad4b1ea2fd202eb3eeec0a6b6987e511bcd89747.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "企てる"
@@ -135,11 +143,12 @@
     "question": "クーデターを企てたが、失敗してしまった。",
     "answer": "We planned a coup, but it failed.\t",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0bceeeaa-a495-438e-884c-1a86d191d29b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

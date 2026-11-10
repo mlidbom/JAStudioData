@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-162dede8f44371ad11e4f0fb2e4b69d9264c98562cfb5aa0a4c6432e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-162dede8f44371ad11e4f0fb2e4b69d9264c98562cfb5aa0a4c6432e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "葉"
@@ -191,11 +199,12 @@
     "question": "お茶の葉っぱは、一回だけでなく、何回か使えますよ。",
     "answer": "You can use tea leaves not only once, but several times.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "aa9b0b18-38d2-46ac-8177-c2acfd0b52e4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

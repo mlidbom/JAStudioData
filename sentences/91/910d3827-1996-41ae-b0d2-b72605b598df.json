@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5a3f6140011979875d00ca5e795c9d354c97bc525ba1c52b34734e84.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5a3f6140011979875d00ca5e795c9d354c97bc525ba1c52b34734e84.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "肺病"
@@ -177,11 +185,12 @@
     "question": "肺病の治療のために、三日後に入院するんです。",
     "answer": "I’ll be hospitalized in three days to treat my lung disease.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "910d3827-1996-41ae-b0d2-b72605b598df",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

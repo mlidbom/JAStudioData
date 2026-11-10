@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-634827338a47c6a5b06d13967272ac9733dd72513aed2bf9c40fe287.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-634827338a47c6a5b06d13967272ac9733dd72513aed2bf9c40fe287.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "捜し物",
@@ -40,8 +46,7 @@
   "sentenceCount": 5,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -65,7 +70,9 @@
   "sourceData": {
     "answer": "looking-for-something/searching-for-something | object-being-sought",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "a49a875e-c743-40e8-a32c-5f32c4a77f81",
   "tags": [

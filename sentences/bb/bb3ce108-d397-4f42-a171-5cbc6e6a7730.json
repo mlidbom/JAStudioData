@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f5cf9a314473a017347a380fae49c2d77fbd666d901bf5cce74a9fb7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f5cf9a314473a017347a380fae49c2d77fbd666d901bf5cce74a9fb7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "忘年会"
@@ -100,11 +108,12 @@
     "question": "忘年会は今日じゃなくて明日です。",
     "answer": "The year-end party is tomorrow, not today.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bb3ce108-d397-4f42-a171-5cbc6e6a7730",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

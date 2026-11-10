@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-626bc36f5de7a03d68d65882cfb19ba877932fdf430409b8ca5ab2f4.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-626bc36f5de7a03d68d65882cfb19ba877932fdf430409b8ca5ab2f4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "てはいけません",
@@ -60,8 +66,7 @@
   "sentenceCount": 37,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -151,7 +156,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "acab16ae-ac8a-4a8a-aeed-48cf2f86da42",
   "tags": [

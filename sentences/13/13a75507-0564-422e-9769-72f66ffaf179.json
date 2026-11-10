@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-70c64b4d4ae305ca8f7c90ac120b2981644e8f0c6e0a6f854c696ed7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-70c64b4d4ae305ca8f7c90ac120b2981644e8f0c6e0a6f854c696ed7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "毛布"
@@ -114,11 +122,12 @@
     "question": "ソファの上に毛布が一枚あります。",
     "answer": "There is one blanket on the sofa.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "13a75507-0564-422e-9769-72f66ffaf179",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

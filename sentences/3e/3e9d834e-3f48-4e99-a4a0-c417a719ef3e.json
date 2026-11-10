@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-691a466fb53d682fd79e0ebb6f749db0f77acb2b7cbfe333b0441e62.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-691a466fb53d682fd79e0ebb6f749db0f77acb2b7cbfe333b0441e62.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "女性"
@@ -72,11 +80,12 @@
     "question": "女性用トイレはあちらです。",
     "answer": "The women's restroom is over there.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3e9d834e-3f48-4e99-a4a0-c417a719ef3e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

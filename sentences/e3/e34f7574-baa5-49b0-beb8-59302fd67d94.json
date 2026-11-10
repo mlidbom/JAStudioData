@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-825365f67f46e1bca8d5d14cbe7f00f25585d4690e89896d1643afae.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-825365f67f46e1bca8d5d14cbe7f00f25585d4690e89896d1643afae.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "各々"
@@ -149,11 +157,12 @@
     "question": "どうやら各々独自のポテトチップスの食べ方があるようだ。",
     "answer": "It seems that each person has their own way of eating potato chips.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e34f7574-baa5-49b0-beb8-59302fd67d94",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

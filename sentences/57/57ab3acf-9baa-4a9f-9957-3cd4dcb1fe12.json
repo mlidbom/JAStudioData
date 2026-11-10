@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-64b92abe5c05fbcef9b5109e79f803857704943a53619ed24f9edc71.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-64b92abe5c05fbcef9b5109e79f803857704943a53619ed24f9edc71.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "覆面"
@@ -210,11 +218,12 @@
     "question": "覆面のスーパーマンは、ボロボロのマントを身につけていました。",
     "answer": "The masked superman was wearing such a tattered cloak.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "57ab3acf-9baa-4a9f-9957-3cd4dcb1fe12",
   "tags": [
-    "_tts_audio",
     "-::sentence::uses::incorrect-matches",
     "source::wani::current"
   ]

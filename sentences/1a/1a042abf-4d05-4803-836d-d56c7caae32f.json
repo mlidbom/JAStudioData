@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ab41a1a9246d009ae7b8759200f19cad4b609034be24cc2c156589ec.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ab41a1a9246d009ae7b8759200f19cad4b609034be24cc2c156589ec.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "競う"
@@ -114,11 +122,12 @@
     "question": "あなたとチェスで競うつもりはないです。",
     "answer": "I am not planning to compete with you over chess.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1a042abf-4d05-4803-836d-d56c7caae32f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ed1966194ede8e244b73c47bedb00c99630cd4b3b9bceb623ed0b0e1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ed1966194ede8e244b73c47bedb00c99630cd4b3b9bceb623ed0b0e1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "悪気"
@@ -163,11 +171,12 @@
     "question": "悪気がないのは分かってるけど、今のはヒドすぎるよ。",
     "answer": "I know you didn't mean any harm, but what you just said was too harsh.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ffa683bb-0532-4eee-a5de-e8a0681bee07",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

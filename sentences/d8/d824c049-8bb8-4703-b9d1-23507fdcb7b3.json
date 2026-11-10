@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-880a6e844e972fde2bf154889b73978aefb71a628df6a687c3ae1125.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-880a6e844e972fde2bf154889b73978aefb71a628df6a687c3ae1125.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "人差し指"
@@ -72,11 +80,12 @@
     "question": "人差し指にトゲが刺さっちゃった！",
     "answer": "I got a splinter in my index finger!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d824c049-8bb8-4703-b9d1-23507fdcb7b3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

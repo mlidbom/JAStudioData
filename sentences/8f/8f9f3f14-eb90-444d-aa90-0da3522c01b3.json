@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5162cd557a33d9a45cacf089b7dcc714a7646eb1ec29786f27122e30.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5162cd557a33d9a45cacf089b7dcc714a7646eb1ec29786f27122e30.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "数字"
@@ -114,11 +122,12 @@
     "question": "数字を入力するのが下手です。",
     "answer": "I'm not good at entering numbers.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8f9f3f14-eb90-444d-aa90-0da3522c01b3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

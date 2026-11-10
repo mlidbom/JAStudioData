@@ -26,9 +26,15 @@
   "partsOfSpeech": [],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "[sound:hypertts-acbef0f023b373f0c5e7e6470cbed496b4e8111707af97d561dd4406.mp3]",
-  "audioG": "",
-  "audioTTS": "",
+  "audio": [
+    {
+      "fileName": "hypertts-acbef0f023b373f0c5e7e6470cbed496b4e8111707af97d561dd4406.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "てやつ",
@@ -38,8 +44,7 @@
   "sentenceCount": 25,
   "technicalNotes": "",
   "references": "Cure Dolly: <a href=\"https://www.youtube.com/watch?v=40avkmkQR8M\">って = は??</a>&nbsp;|&nbsp;<a href=\"https://www.youtube.com/watch?v=kO89HzRQygQ&amp;list=PLg9uYxuZf8x_A-vcqqyOFZu06WlhnypWj&amp;index=26\">だって、から、それから</a>&nbsp;",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -63,11 +68,12 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "41eedc58-97c7-4ed5-8bfb-34c1c759b543",
   "tags": [
-    "_tts_audio",
     "source::yomitan"
   ]
 }

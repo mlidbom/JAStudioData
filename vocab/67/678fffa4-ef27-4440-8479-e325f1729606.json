@@ -19,9 +19,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-d9f8ea9f5fd953836a7a7ba5dc8fd3f6077b12b6d49b278da8f57a69.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-d9f8ea9f5fd953836a7a7ba5dc8fd3f6077b12b6d49b278da8f57a69.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "白痴",
@@ -35,8 +41,7 @@
   "sentenceCount": 3,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {
       "singleToken": "required"
@@ -62,7 +67,9 @@
   "sourceData": {
     "answer": "tomfoolery/foolish-act/nonsense | fool/idiot",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "678fffa4-ef27-4440-8479-e325f1729606",
   "tags": [

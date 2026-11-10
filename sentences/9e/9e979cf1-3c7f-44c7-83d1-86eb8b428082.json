@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9c6b2cf690844c987c42f214416100cfec795f3fa9c22929a5a65c54.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9c6b2cf690844c987c42f214416100cfec795f3fa9c22929a5a65c54.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "弓"
@@ -135,11 +143,12 @@
     "question": "コウイチの弓がどこにも見当たらないんだ。",
     "answer": "We can't find Koichi's bow anywhere.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9e979cf1-3c7f-44c7-83d1-86eb8b428082",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

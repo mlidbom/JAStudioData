@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-61677d8e8e2ac62923baec82c52703c7cfa433c51c3cd857f252ba2d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-61677d8e8e2ac62923baec82c52703c7cfa433c51c3cd857f252ba2d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "物"
@@ -170,11 +178,12 @@
     "question": "今夜食べる物が足りないので、スーパーに買いに行ってきます。",
     "answer": "We don't have enough food for tonight, so I'm going to the supermarket.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d135082d-f96a-4b3e-a71d-71667faab937",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

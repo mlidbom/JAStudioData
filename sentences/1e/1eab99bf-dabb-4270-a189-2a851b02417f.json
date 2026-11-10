@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-438f7ca46513575105d53cb63079ed4835c19f18a63cbaef0e4402a0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-438f7ca46513575105d53cb63079ed4835c19f18a63cbaef0e4402a0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "手荷物"
@@ -261,11 +269,12 @@
     "question": "手荷物の中には、必要なものだけを入れるようにしています。",
     "answer": "I try to put only what I need in my hand luggage.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1eab99bf-dabb-4270-a189-2a851b02417f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

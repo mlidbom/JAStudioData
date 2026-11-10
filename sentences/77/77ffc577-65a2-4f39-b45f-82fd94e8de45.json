@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bdac7ad2749459716a0edb944b431e54c61b81f72de37584e280b4cd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bdac7ad2749459716a0edb944b431e54c61b81f72de37584e280b4cd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "燃える"
@@ -149,11 +157,12 @@
     "question": "これは燃えやすいから火のそばで使わないでください。",
     "answer": "This is easy to burn, so please don't use it near fire.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "77ffc577-65a2-4f39-b45f-82fd94e8de45",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

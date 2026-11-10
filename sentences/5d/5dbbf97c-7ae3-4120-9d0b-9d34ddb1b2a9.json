@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-65f450ebf31c9ef0608485564f1f89f284dc543fa063315032416ee7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-65f450ebf31c9ef0608485564f1f89f284dc543fa063315032416ee7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "役人"
@@ -156,11 +164,12 @@
     "question": "大学を出て、全てのテストに通れば、役人になれます。",
     "answer": "If you graduate from college and pass all tests, you can become a government official.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5dbbf97c-7ae3-4120-9d0b-9d34ddb1b2a9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

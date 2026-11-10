@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5150e24b43157cc0d1483755f08a20c63b424cb7e01da6e450981298.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5150e24b43157cc0d1483755f08a20c63b424cb7e01da6e450981298.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "八冊"
@@ -233,11 +241,12 @@
     "question": "今日は外に出ず、一日中マンガを読んでいて、合計で八冊読みました。",
     "answer": "I didn't go outside today and read comics all day, eight in total.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ac49a935-153e-4804-86bc-6042cb70941b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

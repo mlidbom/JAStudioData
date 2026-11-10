@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6e305fe3a35d3a1138b8fc0eaf016a547e1f18d44d0ada1745a9aa54.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6e305fe3a35d3a1138b8fc0eaf016a547e1f18d44d0ada1745a9aa54.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "四十"
@@ -121,11 +129,12 @@
     "question": "このテーブルクロス、四十センチに切って下さい。",
     "answer": "Cut this tablecloth to 40 cm, please.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ad874698-584f-4a66-bac1-94618f38b4b2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

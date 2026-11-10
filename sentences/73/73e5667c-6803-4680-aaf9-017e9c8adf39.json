@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cf8d77ee0333ca992827bd44c475ede5a2e5ee6d31e05d0918f925c0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cf8d77ee0333ca992827bd44c475ede5a2e5ee6d31e05d0918f925c0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "程よく"
@@ -65,11 +73,12 @@
     "question": "ひき肉を程よくこねます。",
     "answer": "Mix the ground meat well.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "73e5667c-6803-4680-aaf9-017e9c8adf39",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

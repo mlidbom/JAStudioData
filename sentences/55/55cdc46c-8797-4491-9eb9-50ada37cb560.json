@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ed4993ec2728b990afc9c978c5b8bd86b04bfde4f161da972e95137d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ed4993ec2728b990afc9c978c5b8bd86b04bfde4f161da972e95137d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "給与"
@@ -142,11 +150,12 @@
     "question": "月にもらえる給与は手取りでいくらぐらいですか。",
     "answer": "What is the monthly take-home pay that you receive?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "55cdc46c-8797-4491-9eb9-50ada37cb560",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

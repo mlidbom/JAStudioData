@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-85e8821faea1c54a546edaa202aa5e5fe67ad1ab9bd41f743c07b4ec.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-85e8821faea1c54a546edaa202aa5e5fe67ad1ab9bd41f743c07b4ec.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "金星"
@@ -93,11 +101,12 @@
     "question": "夜の空に明るい金星が見える。",
     "answer": "You can see a bright Venus in the night sky.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cdf38a8c-3587-41a5-8c5d-cc891eb9083f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

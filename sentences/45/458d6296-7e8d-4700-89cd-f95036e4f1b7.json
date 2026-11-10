@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b0cb3134c7414e146ff78c688a0e7aac296de580e5acfc2935e8370a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b0cb3134c7414e146ff78c688a0e7aac296de580e5acfc2935e8370a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "借りる"
@@ -142,11 +150,12 @@
     "question": "アクを取りたいので、ちょっとお玉を借りてもいいですか？",
     "answer": "I want to skim the scum off the top, so can I borrow your ladle for a second?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "458d6296-7e8d-4700-89cd-f95036e4f1b7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

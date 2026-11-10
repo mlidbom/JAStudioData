@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-df7c26e22a03b7bb0e01f79cfeff31fc191d6162da880b0d080917d2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-df7c26e22a03b7bb0e01f79cfeff31fc191d6162da880b0d080917d2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "即死"
@@ -240,11 +248,12 @@
     "question": "彼は潮津波に乗ってサーフィンをしようとしたが、残念ながら即死した。",
     "answer": "He tried to ride tidal bore and surf it, but unfortunately he died instantly.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5b2d9219-48bd-4a69-ab4d-5e580f243751",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

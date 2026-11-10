@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2f9c63150952a54f582b6f2a4e04feae963a269b4d47865aa2a4f129.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2f9c63150952a54f582b6f2a4e04feae963a269b4d47865aa2a4f129.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "多分"
@@ -65,11 +73,12 @@
     "question": "あの木は多分、竹です。",
     "answer": "That tree is probably bamboo.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fe7ee10e-6cc9-4cd3-8596-10af656bc298",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

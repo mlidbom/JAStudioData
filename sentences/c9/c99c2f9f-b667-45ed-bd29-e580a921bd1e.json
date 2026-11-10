@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6d5a3f0c0ce4c92a1756f447160604609f8dc7dc7d1a8c465c4f45d1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6d5a3f0c0ce4c92a1756f447160604609f8dc7dc7d1a8c465c4f45d1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "毛虫"
@@ -114,11 +122,12 @@
     "question": "キャベツの中に毛虫がいた。",
     "answer": "There was a caterpillar in the cabbage.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c99c2f9f-b667-45ed-bd29-e580a921bd1e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

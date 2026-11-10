@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fb59dd0b0b7efd3f4d822c58611b2a168afab74c1ff04ee5181ea6b4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fb59dd0b0b7efd3f4d822c58611b2a168afab74c1ff04ee5181ea6b4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "部首"
@@ -86,11 +94,12 @@
     "question": "この字の部首は何ですか？",
     "answer": "What is the radical of this character?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a6ea12c0-b6db-4ffe-b82c-a056f00237ce",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

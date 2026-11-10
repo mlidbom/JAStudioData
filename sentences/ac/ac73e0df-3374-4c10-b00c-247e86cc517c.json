@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-742f339ef9c75139a2e20c69fbcec3bb0897cadd2249f147073d2b29.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-742f339ef9c75139a2e20c69fbcec3bb0897cadd2249f147073d2b29.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "音楽"
@@ -121,11 +129,12 @@
     "question": "竹内まりやと山下タツロウの音楽が気に入っています。",
     "answer": "I like the music of Takeuchi Mariya and Yamashita Tatsurō.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ac73e0df-3374-4c10-b00c-247e86cc517c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-668c6425d83cf3096d78b65dfcc5fe9de22455907b8bf32566425817.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-668c6425d83cf3096d78b65dfcc5fe9de22455907b8bf32566425817.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "何じゃない",
@@ -40,8 +46,7 @@
   "sentenceCount": 15,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -65,7 +70,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "518dea7f-a1e4-4731-9b9c-abdc4d8931b1",
   "tags": [

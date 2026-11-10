@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-15ef64b411e7cd7de69596f5701f2d13630ff87f234428b90602dff1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-15ef64b411e7cd7de69596f5701f2d13630ff87f234428b90602dff1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "獣"
@@ -198,11 +206,12 @@
     "question": "あの男の人、獣のような目をしていて、恐いわ。",
     "answer": "That guy has eyes like a beast. He’s scary.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cb5f61ec-0281-454e-9cf2-56078cb0afd9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

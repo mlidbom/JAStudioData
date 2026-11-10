@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4ab1d098db59a8c102fdc2f67b6dc16a29b83fa41072f792f2d167c0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4ab1d098db59a8c102fdc2f67b6dc16a29b83fa41072f792f2d167c0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "教科書"
@@ -128,11 +136,12 @@
     "question": "その日本語の教科書は高すぎて買えません。",
     "answer": "I can't buy the Japanese textbook because it's too expensive.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "40932941-eb8e-4c53-9b03-c0ab135ed010",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

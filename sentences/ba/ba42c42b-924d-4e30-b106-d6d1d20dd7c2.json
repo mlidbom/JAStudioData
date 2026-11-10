@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-97c86758e66d4992e9a8eb4cbccd21b8cfcd6dbbfb7c2f9dba01ff67.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-97c86758e66d4992e9a8eb4cbccd21b8cfcd6dbbfb7c2f9dba01ff67.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "去る"
@@ -93,11 +101,12 @@
     "question": "そのマネージャーは去年会社を去りました。",
     "answer": "That manager left the company last year.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ba42c42b-924d-4e30-b106-d6d1d20dd7c2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

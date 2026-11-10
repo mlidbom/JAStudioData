@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0cf61a9743ee556c581dda5bdbe46db8cf0a45dd08827d4cbfbf5d4a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0cf61a9743ee556c581dda5bdbe46db8cf0a45dd08827d4cbfbf5d4a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "伝"
@@ -135,11 +143,12 @@
     "question": "ザッカーバーグをインタビューするための伝をさがしています。",
     "answer": "I'm looking for connections to interview Zuckerberg.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "99a9200e-f721-4e58-b25b-90675945a91b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

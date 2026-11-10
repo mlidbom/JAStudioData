@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-668e2bcd2df029ffea3299cca4b8baa0a4c7960baae13f34650c8f9c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-668e2bcd2df029ffea3299cca4b8baa0a4c7960baae13f34650c8f9c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "巻く"
@@ -163,11 +171,12 @@
     "question": "二時間かけて髪を巻いたが、それでもあまりうまく巻けなかった。",
     "answer": "I spend two hours curling my hair, but it still doesn’t curl well.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "eaf9a353-938b-45ca-856c-0dc9469bb45e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

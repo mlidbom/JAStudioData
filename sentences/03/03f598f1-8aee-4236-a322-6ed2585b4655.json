@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9f9bda43998da00dcac0b77f4fc283faf63db980186d0e5b0823e025.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9f9bda43998da00dcac0b77f4fc283faf63db980186d0e5b0823e025.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "舗"
@@ -163,11 +171,12 @@
     "question": "おかげ様で自分の舗を構えることができました。",
     "answer": "Thanks to you I was able to set up my own shop.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "03f598f1-8aee-4236-a322-6ed2585b4655",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

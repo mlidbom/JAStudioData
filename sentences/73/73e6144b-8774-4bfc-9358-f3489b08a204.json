@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-17d97617dd60b3ac4f9192444d0c276f5d32daa3d6d4bf81877060bd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-17d97617dd60b3ac4f9192444d0c276f5d32daa3d6d4bf81877060bd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "表す"
@@ -156,11 +164,12 @@
     "question": "先生へのお礼を表すために、クッキーを作ったんです。",
     "answer": "I made cookies to express my thanks to you, Sensei.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "73e6144b-8774-4bfc-9358-f3489b08a204",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

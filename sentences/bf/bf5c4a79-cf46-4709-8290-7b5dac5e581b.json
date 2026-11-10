@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b01197bb1e77f18c5d792e372f4d7e190522bb23ce5660a7f36d51da.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b01197bb1e77f18c5d792e372f4d7e190522bb23ce5660a7f36d51da.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "微か"
@@ -170,11 +178,12 @@
     "question": "シンと静まり返った雪山に、微かな音が響くのが聞こえました。",
     "answer": "A faint sound could be heard echoing through the silent snowy mountains.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bf5c4a79-cf46-4709-8290-7b5dac5e581b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

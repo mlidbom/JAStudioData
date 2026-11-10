@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0fb88aa3dac377584d1ee16dec1dde56a6f8c3253ad8297d099e4572.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0fb88aa3dac377584d1ee16dec1dde56a6f8c3253ad8297d099e4572.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "貝"
@@ -128,11 +136,12 @@
     "question": "貝のパスタとシイタケのパスタ、どっちがいいかな？",
     "answer": "Shellfish pasta or shiitake mushroom pasta, which one should I get?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "88ab2fdd-dbeb-46dc-9963-40d4157fa247",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

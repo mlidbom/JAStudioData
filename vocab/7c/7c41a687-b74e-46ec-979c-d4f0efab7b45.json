@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-c421abfe3947cfdb8d4301f615a9e8ebe8588fa9526ca8e169ff9cbc.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-c421abfe3947cfdb8d4301f615a9e8ebe8588fa9526ca8e169ff9cbc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "愛してる",
@@ -40,8 +46,7 @@
   "sentenceCount": 27,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -65,7 +70,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "7c41a687-b74e-46ec-979c-d4f0efab7b45",
   "tags": [

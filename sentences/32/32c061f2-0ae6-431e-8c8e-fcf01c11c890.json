@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a2432c21319f5eb5ff64d6012f9969a088958d2ae31e9d4192562b78.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a2432c21319f5eb5ff64d6012f9969a088958d2ae31e9d4192562b78.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "面接"
@@ -107,11 +115,12 @@
     "question": "今回の面接の面接官は女性でした。",
     "answer": "The interviewer for the interview this time was a woman.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "32c061f2-0ae6-431e-8c8e-fcf01c11c890",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

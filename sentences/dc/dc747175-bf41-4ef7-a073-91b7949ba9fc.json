@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7ad121da1bcefe5c2a59e35054d4c72035f39970e28379df7369233a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7ad121da1bcefe5c2a59e35054d4c72035f39970e28379df7369233a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "知り合い"
@@ -114,11 +122,12 @@
     "question": "アイツと知り合いだとはゼッタイにバレたくない。",
     "answer": "I absolutely don't want it to be known that I'm acquainted with them.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dc747175-bf41-4ef7-a073-91b7949ba9fc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

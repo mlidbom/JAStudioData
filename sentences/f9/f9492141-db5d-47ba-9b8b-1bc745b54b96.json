@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0e54e1508e620ba17fe1b838f6c714968b3afc2e15d94f1d7341dd1e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0e54e1508e620ba17fe1b838f6c714968b3afc2e15d94f1d7341dd1e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "保障"
@@ -135,11 +143,12 @@
     "question": "明日は、国家安全保障会議に出席する予定です。",
     "answer": "Tomorrow, I will attend the National Security Council.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f9492141-db5d-47ba-9b8b-1bc745b54b96",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

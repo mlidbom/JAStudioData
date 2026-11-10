@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ea2944bbf295681c734af0445e235b693db726bb4b45525661e37a16.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ea2944bbf295681c734af0445e235b693db726bb4b45525661e37a16.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "同期中"
@@ -114,11 +122,12 @@
     "question": "ごめん、今データ同期中だからちょっと待って。",
     "answer": "Sorry, I'm currently syncing data, so please wait a moment.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7f59f6ee-380d-46ea-aad6-6bfcd7f767f8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

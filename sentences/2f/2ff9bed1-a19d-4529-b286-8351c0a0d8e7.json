@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4d7562ef3e4926a6a43b48919e247e4c1da5f3039bf1f22a56d403dd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4d7562ef3e4926a6a43b48919e247e4c1da5f3039bf1f22a56d403dd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "救急車"
@@ -247,11 +255,12 @@
     "question": "救急車が急発進して男性にぶつかったため、もう一台別の救急車も必要になった。",
     "answer": "The ambulance suddenly took off and hit a guy, so we needed another ambulance.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2ff9bed1-a19d-4529-b286-8351c0a0d8e7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

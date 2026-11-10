@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-28e264523d8ba985ce42dd33f9fd085dd7751bda1ce7f043c39e2c3b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-28e264523d8ba985ce42dd33f9fd085dd7751bda1ce7f043c39e2c3b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "務める"
@@ -261,11 +269,12 @@
     "question": "田村さんは田中さんの個人秘書を一年間務めたんだけど、あまりうまくいかなかったんだよね。",
     "answer": "Mr. Tamura was employed as Ms. Tanaka’s private secretary for one year, but it didn’t really work out.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "107cb229-25b0-4f7d-adae-6926bd653549",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

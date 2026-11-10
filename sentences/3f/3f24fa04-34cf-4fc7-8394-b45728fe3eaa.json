@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5676b2a4710bbb306c78f417d95ba9a0d440b131f61e603bfd402967.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5676b2a4710bbb306c78f417d95ba9a0d440b131f61e603bfd402967.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "〜屋"
@@ -135,11 +143,12 @@
     "question": "この町には有名なとんこつラーメン屋があります。",
     "answer": "There is a famous tonkotsu ramen shop in this town.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3f24fa04-34cf-4fc7-8394-b45728fe3eaa",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

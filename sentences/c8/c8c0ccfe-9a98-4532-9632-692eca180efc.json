@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5fffe6626eca60fd1d64ce3b3ba9a05004e025b843a2404c915ad2f4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5fffe6626eca60fd1d64ce3b3ba9a05004e025b843a2404c915ad2f4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "宿"
@@ -121,11 +129,12 @@
     "question": "ここはすごく有名な宿なんです。",
     "answer": "This is a very famous inn.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c8c0ccfe-9a98-4532-9632-692eca180efc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

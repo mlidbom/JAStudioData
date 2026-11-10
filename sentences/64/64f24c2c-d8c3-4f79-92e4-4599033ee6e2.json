@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d8f847ccb9f06c954c21fb0ca4d80fef59f3a00e7c52353a99b6a517.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d8f847ccb9f06c954c21fb0ca4d80fef59f3a00e7c52353a99b6a517.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "犯人"
@@ -79,11 +87,12 @@
     "question": "クッキー食べた犯人、お父さんだった。",
     "answer": "The culprit who ate the cookies turned out to be Dad.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "64f24c2c-d8c3-4f79-92e4-4599033ee6e2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

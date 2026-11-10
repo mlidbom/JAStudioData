@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2a2ba7d402cb901599b64ac461de0b4df2b7c7e2093425f080f026d0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2a2ba7d402cb901599b64ac461de0b4df2b7c7e2093425f080f026d0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "及ぶ"
@@ -100,11 +108,12 @@
     "question": "その火山の噴火の被害は、広範囲に及んだ。",
     "answer": "The damage from the volcanic eruption was extensive.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6f4f50a3-ab33-45e9-9415-83d7f31bbc14",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

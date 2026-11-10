@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a26a9268f3637445de533030240f2b28e8611b7e719d99f9ce7acf23.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a26a9268f3637445de533030240f2b28e8611b7e719d99f9ce7acf23.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "共有"
@@ -135,11 +143,12 @@
     "question": "タスクは仲間と共有した方が早く終わるよ。",
     "answer": "You can finish tasks more quickly when you share them with your peers.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "58d8b577-18ac-4e48-8878-b1e000413281",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

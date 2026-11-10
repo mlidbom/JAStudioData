@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6fc82be9916b0c415fb346192f482825696ff5c733f03f56a5cc2aeb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6fc82be9916b0c415fb346192f482825696ff5c733f03f56a5cc2aeb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "外来"
@@ -72,11 +80,12 @@
     "question": "こちらは、外来クリニックの先生です。",
     "answer": "This is an outpatient clinic doctor.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "02e8dd0f-706c-48ea-b9b9-91cc56982802",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

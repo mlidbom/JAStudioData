@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d1f574c139740661f36442de5b45bac32eb5ee2e96945d348a13177b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d1f574c139740661f36442de5b45bac32eb5ee2e96945d348a13177b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "禅僧"
@@ -163,11 +171,12 @@
     "question": "それは、どこかの禅僧が言っていた言葉です。",
     "answer": "That is what some Zen monk said.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a4c40c5b-308d-42e6-a829-b253d0388cf7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

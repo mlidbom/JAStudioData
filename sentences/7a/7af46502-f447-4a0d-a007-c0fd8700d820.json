@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-789bcef77d686846058d886e247f07d52322e18add2bb04cd0b9beb7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-789bcef77d686846058d886e247f07d52322e18add2bb04cd0b9beb7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "浮世絵"
@@ -114,11 +122,12 @@
     "question": "その浮世絵についてお話をしませんか？",
     "answer": "Why don’t we talk about the ukiyo-e?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7af46502-f447-4a0d-a007-c0fd8700d820",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

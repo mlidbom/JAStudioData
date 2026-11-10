@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b9655dcd0d7ee65108fef909be8c60b13a6371f52e55c1e88c5e4b45.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b9655dcd0d7ee65108fef909be8c60b13a6371f52e55c1e88c5e4b45.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -161,11 +169,12 @@
     "question": "コウイチは首をたてに振ったが、ビエトは首を横に振った。",
     "answer": "Koichi nodded his head, but Viet shook his head.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "59f1425e-4558-422c-8270-ee339e905daf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

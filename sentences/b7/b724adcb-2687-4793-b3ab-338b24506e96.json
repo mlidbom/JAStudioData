@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0e900e4eb6983ac1ad03cac67d53a0ba328eb29530238dcf5efd788b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0e900e4eb6983ac1ad03cac67d53a0ba328eb29530238dcf5efd788b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "承る"
@@ -86,11 +94,12 @@
     "question": "ご伝言を承りましょうか。",
     "answer": "Would you like to leave a message?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b724adcb-2687-4793-b3ab-338b24506e96",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

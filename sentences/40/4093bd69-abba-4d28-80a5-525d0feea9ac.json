@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b3a59557e2b16c45769e9b694cd8196a5a87a2925cadc522d86a389e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b3a59557e2b16c45769e9b694cd8196a5a87a2925cadc522d86a389e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "目医者"
@@ -170,11 +178,12 @@
     "question": "今日は、目医者に行って新しい度のコンタクトレンズを作ってきました。",
     "answer": "Today, I went to an eye doctor and got contact lens with my new prescription.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4093bd69-abba-4d28-80a5-525d0feea9ac",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

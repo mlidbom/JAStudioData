@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e1041e8379eb8db9a779bbfd8a3034669da4225a86fef4cb3998c854.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e1041e8379eb8db9a779bbfd8a3034669da4225a86fef4cb3998c854.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "炒飯"
@@ -121,11 +129,12 @@
     "question": "美味しい炒飯を作るのは簡単じゃない。",
     "answer": "Making delicious fried rice isn't easy.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bc4714f5-2682-4393-9936-dfe840387e9e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

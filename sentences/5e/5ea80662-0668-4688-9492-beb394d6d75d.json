@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e5b18f73d24d4ec13e0b79c38b7bdd673babfa71461c0186e2217839.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e5b18f73d24d4ec13e0b79c38b7bdd673babfa71461c0186e2217839.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "工学"
@@ -79,11 +87,12 @@
     "question": "ロボット工学のクラスに入りたい。",
     "answer": "I want to take a robot engineering class.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5ea80662-0668-4688-9492-beb394d6d75d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-df3b7f5645789973b2152d440699f5c1ab46f50e3918f12a737cdc52.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-df3b7f5645789973b2152d440699f5c1ab46f50e3918f12a737cdc52.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "歌劇"
@@ -205,11 +213,12 @@
     "question": "私はとある歌劇に出ていたフランス人役者のファンになりました。",
     "answer": "I became a fan of a French actor in one of the operas.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bf15d39c-e06e-498b-92b6-316dd59c62d0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

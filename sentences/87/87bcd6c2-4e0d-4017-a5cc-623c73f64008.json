@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e43c6d73f0be8e0eb8b14eb0777ba9efa065dfcafe73f54542e377e3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e43c6d73f0be8e0eb8b14eb0777ba9efa065dfcafe73f54542e377e3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "基本"
@@ -142,11 +150,12 @@
     "question": "これ知らないのはまずいよ。\t基本中の基本だよ？",
     "answer": "It's not good if you don't know this. It's like the absolute basics, you know?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "87bcd6c2-4e0d-4017-a5cc-623c73f64008",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

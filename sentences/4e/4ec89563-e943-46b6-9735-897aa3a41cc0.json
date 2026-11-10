@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-73bad6dff6cc76ec3769de4623871c33f847e77c96921e8d5518643b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-73bad6dff6cc76ec3769de4623871c33f847e77c96921e8d5518643b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "映画館"
@@ -149,11 +157,12 @@
     "question": "映画館のキャラメルバターのポップコーンが大好きなんです。",
     "answer": "I love the caramel butter popcorn at the movie theater.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4ec89563-e943-46b6-9735-897aa3a41cc0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

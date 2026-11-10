@@ -19,9 +19,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-29ca568ba57a04891ded7126a4dc75f4323cdb9c16048b70c1c570ee.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-29ca568ba57a04891ded7126a4dc75f4323cdb9c16048b70c1c570ee.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "やばい",
@@ -47,8 +53,7 @@
   "sentenceCount": 4,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -72,7 +77,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "a3d72fce-40ad-4660-8f92-042365e62eb4",
   "tags": [

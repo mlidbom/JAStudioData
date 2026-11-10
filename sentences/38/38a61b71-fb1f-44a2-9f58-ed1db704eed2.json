@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-baa7ec2354b5b09b2ec0c666b00f4afee12ed677695135230a8993ef.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-baa7ec2354b5b09b2ec0c666b00f4afee12ed677695135230a8993ef.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "太い"
@@ -72,11 +80,12 @@
     "question": "太い木がたくさんあった。",
     "answer": "There were many thick trees.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "38a61b71-fb1f-44a2-9f58-ed1db704eed2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-61a1e890ca131b2753bb7b62ee8030259836bc85af8ec8ff28eaddb3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-61a1e890ca131b2753bb7b62ee8030259836bc85af8ec8ff28eaddb3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "火曜日"
@@ -163,11 +171,12 @@
     "question": "すみませんが、来週の月曜日と火曜日は予定があるんです。",
     "answer": "Sorry, but I have plans for next Monday and Tuesday.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c1c224a5-c5fb-4dc3-846c-6ac20161db4e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

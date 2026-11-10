@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-17e87f40894f2e28917bd4c3d4afd243618fed3adfcacead5d55ccdd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-17e87f40894f2e28917bd4c3d4afd243618fed3adfcacead5d55ccdd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "審査"
@@ -128,11 +136,12 @@
     "question": "この論文はもう一度審査にかけるべきだ。",
     "answer": "We should review this paper again.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ba4d67e3-f6fc-4026-8686-2c7d9fdeab54",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

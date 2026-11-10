@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6a1f95531949a20e5019f0cfb0fb3ddc52e735e3ca0c7505281aac17.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6a1f95531949a20e5019f0cfb0fb3ddc52e735e3ca0c7505281aac17.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "継承"
@@ -233,11 +241,12 @@
     "question": "王位継承者の暗殺を企てている者がいるとの噂があります。",
     "answer": "There is a rumor that someone is plotting the assassination of the successor to the throne.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "edfbd81b-80b0-48f5-86fd-67c04ea14e6c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

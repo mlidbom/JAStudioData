@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-29a4723d2ab20be2f62e9f42377a569ed498857c52940196629d6b5a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-29a4723d2ab20be2f62e9f42377a569ed498857c52940196629d6b5a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "強い"
@@ -219,11 +227,12 @@
     "question": "風が強いから、今日は外に出るのはやめた方がいい。",
     "answer": "It's very windy today, so it's better not to go out today.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "152638b6-5d04-4138-a248-0cdad1eaa2b6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

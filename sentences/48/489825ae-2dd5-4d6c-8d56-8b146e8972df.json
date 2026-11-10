@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0ae341100283cba515ed3a0cbb0c4d42f4379084184efe30bfdc327e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0ae341100283cba515ed3a0cbb0c4d42f4379084184efe30bfdc327e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "天気"
@@ -72,11 +80,12 @@
     "question": "休みの日の天気はくもりだ。",
     "answer": "The weather on my day off is cloudy.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "489825ae-2dd5-4d6c-8d56-8b146e8972df",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5bdf85f770812b830e0c8ccd244128c2b05a10faeaf8bc206527bfd8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5bdf85f770812b830e0c8ccd244128c2b05a10faeaf8bc206527bfd8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "何回"
@@ -149,11 +157,12 @@
     "question": "日本へは何回来たことがありますか。",
     "answer": "How many times have you been to Japan?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "511abf4a-3c38-45d9-9642-c9bfcb5a19c5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

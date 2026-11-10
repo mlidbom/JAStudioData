@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a4a272ea23617a1f6b11240a46c5682c8b2594da80ad42204d501327.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a4a272ea23617a1f6b11240a46c5682c8b2594da80ad42204d501327.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "雑費"
@@ -128,11 +136,12 @@
     "question": "日本の大学生の食費と雑費の平均はいくらぐらいですか。",
     "answer": "What is the average cost of a Japanese college student’s food and miscellaneous expenses?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0b81b301-8982-423f-bd07-0023291fcff5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-18f9b1397d10309144dd8603d897cce98bfea43fbf48118d00850031.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-18f9b1397d10309144dd8603d897cce98bfea43fbf48118d00850031.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "粒"
@@ -128,11 +136,12 @@
     "question": "私は一粒の岩塩をオブラートで包みました。",
     "answer": "I wrapped a single grain of rock salt in a wafer.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dc8c5c85-bc92-4514-857f-765446599e45",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

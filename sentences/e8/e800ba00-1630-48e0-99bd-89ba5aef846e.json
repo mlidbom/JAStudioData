@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-82f5c1ebc5f0d11fb8a4468d89442747c7fed7f0df5c04dd76200ef4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-82f5c1ebc5f0d11fb8a4468d89442747c7fed7f0df5c04dd76200ef4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "事"
@@ -135,11 +143,12 @@
     "question": "先生が言ってる事は半分しか分かりませんでした。",
     "answer": "I only understood half of what the teacher was saying.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e800ba00-1630-48e0-99bd-89ba5aef846e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

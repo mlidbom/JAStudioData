@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-24491110e4e01ffe742e468be61b311e496297058012f2857c06a772.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-24491110e4e01ffe742e468be61b311e496297058012f2857c06a772.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "先"
@@ -107,11 +115,12 @@
     "question": "この先にレストランがある。",
     "answer": "There's a restaurant just ahead of us.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dfa1672a-9c35-4fa4-aba8-66348735b81b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

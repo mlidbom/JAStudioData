@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-89d34bc6909958f92c7c77cf9af8e8bfe0725740fb0f8f48ea8d7260.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-89d34bc6909958f92c7c77cf9af8e8bfe0725740fb0f8f48ea8d7260.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "顧問"
@@ -205,11 +213,12 @@
     "question": "明日、部活を休んでもいいかどうか、顧問の先生に聞いてみたら？",
     "answer": "Why don't you ask your advisor if it's okay for you to miss club activities tomorrow?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b2c052d9-0dde-4af2-a504-1889510729a3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

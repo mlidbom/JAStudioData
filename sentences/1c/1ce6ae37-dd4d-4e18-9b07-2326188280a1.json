@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e60fa7ebc73f93b00b51f07a4f8053bb395270189529829d6f8e9301.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e60fa7ebc73f93b00b51f07a4f8053bb395270189529829d6f8e9301.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "美術"
@@ -156,11 +164,12 @@
     "question": "彼は美術の本を読んで、様々な画家について学んでいます。",
     "answer": "He reads art books to learn about different painters.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1ce6ae37-dd4d-4e18-9b07-2326188280a1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

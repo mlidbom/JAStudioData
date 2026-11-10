@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c97e3b101db3ff8908e4c9782e57c42458d47c3af3e61d03c4da208f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c97e3b101db3ff8908e4c9782e57c42458d47c3af3e61d03c4da208f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "六つ"
@@ -149,11 +157,12 @@
     "question": "ミーティングルームには、テーブルが一つと、オフィスチェアが六つあります。",
     "answer": "The meeting room has one table and six office chairs.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "14b9c7fe-aac6-467d-87d8-695527842d39",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

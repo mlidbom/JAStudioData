@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b6f470f911464e591b3fb3cec3cf8255c770b51a68ba0a217f926d20.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b6f470f911464e591b3fb3cec3cf8255c770b51a68ba0a217f926d20.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "輸出"
@@ -212,11 +220,12 @@
     "question": "輸出のことについてはよく分かりませんが、輸入のことについては任せてください。",
     "answer": "Although I don't know much about export matters, you can count on me when it comes to import matters.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5c3a8b87-675e-4e84-aca7-fe917075ac92",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

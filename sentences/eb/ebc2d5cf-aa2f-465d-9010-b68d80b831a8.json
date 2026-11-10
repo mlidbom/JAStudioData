@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b6ba4fc883738ae15f175b08a8040fccb238711616b616acae77de0c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b6ba4fc883738ae15f175b08a8040fccb238711616b616acae77de0c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "桃"
@@ -149,11 +157,12 @@
     "question": "大リーグの試合で、ピッチャーがボールの代わりに桃を投げました。",
     "answer": "The pitcher threw a peach instead of a ball in the MLB game.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ebc2d5cf-aa2f-465d-9010-b68d80b831a8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e1fa77b0f07708408bacfb46ac96d5589e289643c6a340e90a84ad24.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e1fa77b0f07708408bacfb46ac96d5589e289643c6a340e90a84ad24.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "銘柄"
@@ -163,11 +171,12 @@
     "question": "後どれくらいでお客さんに推奨する銘柄が決まりそうですか。",
     "answer": "How much longer will it take you to decide which brand to recommend to your customer?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "65d494cd-87ff-44c2-8dad-ba486a21d918",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

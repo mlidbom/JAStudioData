@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-646bef62ec0e5462b65fb993fcd7ee458f9542b352fe6854eeb8d0f1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-646bef62ec0e5462b65fb993fcd7ee458f9542b352fe6854eeb8d0f1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "青い"
@@ -72,11 +80,12 @@
     "question": "このオレンジ、まだ青いですね。",
     "answer": "This orange is still unripe.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3849e494-021f-494b-a9ba-8b75b5325403",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

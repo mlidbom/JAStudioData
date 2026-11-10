@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5261d4d6dfb2f9a52ab91c03512ff530697003cf71f9aae707506fd9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5261d4d6dfb2f9a52ab91c03512ff530697003cf71f9aae707506fd9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "曲"
@@ -86,11 +94,12 @@
     "question": "おすすめの曲はありますか？",
     "answer": "Do you have any recommended songs?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7165d54e-f3c8-4999-b63b-ae98c0925ef8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

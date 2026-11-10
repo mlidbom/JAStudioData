@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-aed4c06d2c42623eed3863fe0f16ee4b5edd43e88ce3a4e40170ef90.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-aed4c06d2c42623eed3863fe0f16ee4b5edd43e88ce3a4e40170ef90.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "改正"
@@ -114,11 +122,12 @@
     "question": "インターネットの改正料金、もうチェックしましたか？",
     "answer": "Have you checked the revised Internet rates?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e88c0b2b-45f5-4fbd-8982-9140183c4a88",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

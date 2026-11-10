@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b164bfd9c4039343080c3fa2a81dd344d2999ed7aeb979ca3ff5cdf2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b164bfd9c4039343080c3fa2a81dd344d2999ed7aeb979ca3ff5cdf2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "黒板"
@@ -170,11 +178,12 @@
     "question": "黒板が使えないので、ホワイトボードを持参しています。",
     "answer": "We can’t use the blackboard so I’ll bring in a whiteboard.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a936cabf-d1e6-4be9-a6e0-f0df2e267de7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-560f1a57b654e6d4f783a8d96ad996e6db1682aaadf2d5146fa75558.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-560f1a57b654e6d4f783a8d96ad996e6db1682aaadf2d5146fa75558.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "酌"
@@ -156,11 +164,12 @@
     "question": "お酌をさせていただいてもよろしいですか。",
     "answer": "May I pour you some sake?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1056281d-1fc5-4ffc-a5ab-ab046332fab1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

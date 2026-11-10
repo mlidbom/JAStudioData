@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bdd543fc51ec6ab3ca68af19fef2a5720fe4cb9dc291db3c30084a3d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bdd543fc51ec6ab3ca68af19fef2a5720fe4cb9dc291db3c30084a3d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "手洗い"
@@ -114,11 +122,12 @@
     "question": "このマスクは、手洗いすればまた使えますよ。",
     "answer": "This mask can be used again if you hand wash it.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c261966e-ee12-4f30-ae30-c879e1c63c63",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

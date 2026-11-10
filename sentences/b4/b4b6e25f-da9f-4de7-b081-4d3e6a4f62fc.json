@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-19447ec687798d352063026b285108aaaf7f47489d72e02fe6b20583.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-19447ec687798d352063026b285108aaaf7f47489d72e02fe6b20583.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "予報"
@@ -79,11 +87,12 @@
     "question": "今日は午後から雨の予報です。",
     "answer": "Rain is forecast for this afternoon.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b4b6e25f-da9f-4de7-b081-4d3e6a4f62fc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

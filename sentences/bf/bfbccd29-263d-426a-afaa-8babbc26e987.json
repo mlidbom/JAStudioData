@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f16eb5c80e48544bebfeb7c7d9e45895c53465a2eb146a6bd0ec4602.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f16eb5c80e48544bebfeb7c7d9e45895c53465a2eb146a6bd0ec4602.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "国民"
@@ -177,11 +185,12 @@
     "question": "八月十日は山の日です。山の日は、日本の国民の休日です。",
     "answer": "August 10th is Mountain Day. Mountain Day is a holiday for Japanese nationals.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bfbccd29-263d-426a-afaa-8babbc26e987",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

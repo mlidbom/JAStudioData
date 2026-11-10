@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-40afc6c46f5d155a2fd1859c82b2449b4b35df7ab7a75af22f5dc7d6.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-40afc6c46f5d155a2fd1859c82b2449b4b35df7ab7a75af22f5dc7d6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "もやしっ子",
@@ -40,8 +46,7 @@
   "sentenceCount": 2,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -65,7 +70,9 @@
   "sourceData": {
     "answer": "weak-child/frail-child/gangly-child",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "9e3865fc-6118-49bc-a19d-248ddb565f41",
   "tags": [

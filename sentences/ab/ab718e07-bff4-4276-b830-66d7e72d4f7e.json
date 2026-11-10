@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2bd8dac0c6d32cb9082e0647f441fbfac16512159e08e2b66372a67a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2bd8dac0c6d32cb9082e0647f441fbfac16512159e08e2b66372a67a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "内緒"
@@ -121,11 +129,12 @@
     "question": "私はICレコーダーで会話を内緒で録音します。",
     "answer": "I secretly record conversations with my IC recorder.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ab718e07-bff4-4276-b830-66d7e72d4f7e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

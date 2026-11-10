@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6dad2f748be354fdf0ff51b3ae3426d724ff1cbbec5e017ecf5eac74.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6dad2f748be354fdf0ff51b3ae3426d724ff1cbbec5e017ecf5eac74.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "防止"
@@ -226,11 +234,12 @@
     "question": "その先生は、コピペとAI使用を防止するために細工をしていました。",
     "answer": "The teacher devised a way to prevent copy-pasting and using AI.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "64e83de6-ae11-4f41-b7ac-9ace01307994",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

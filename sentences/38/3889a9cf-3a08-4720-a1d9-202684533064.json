@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5cea3d3b89b700030c9f6275f102b806c75b2634a32ff01261d2e05a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5cea3d3b89b700030c9f6275f102b806c75b2634a32ff01261d2e05a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "科学"
@@ -149,11 +157,12 @@
     "question": "次回の科学のクラスまでに、川に行って下さい。",
     "answer": "Please go to a river by the next science class.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3889a9cf-3a08-4720-a1d9-202684533064",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

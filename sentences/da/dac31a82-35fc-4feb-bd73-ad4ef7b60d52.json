@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-389a47482c2068ed0f2175ea5f651bedfc5a2bd30b4069a26801ff95.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-389a47482c2068ed0f2175ea5f651bedfc5a2bd30b4069a26801ff95.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "祭日"
@@ -79,11 +87,12 @@
     "question": "祭日なのに、仕事なの？",
     "answer": "Do you have to work even though it's a national holiday?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dac31a82-35fc-4feb-bd73-ad4ef7b60d52",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

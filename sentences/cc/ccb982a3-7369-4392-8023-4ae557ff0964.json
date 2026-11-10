@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-76dddecf4536579cbd69c125c5fe6e5e239c0c0b2965a4da4e695f12.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-76dddecf4536579cbd69c125c5fe6e5e239c0c0b2965a4da4e695f12.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "適当"
@@ -100,11 +108,12 @@
     "question": "あいつは適当な事ばかり言っている。",
     "answer": "That guy often says irresponsible things.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ccb982a3-7369-4392-8023-4ae557ff0964",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

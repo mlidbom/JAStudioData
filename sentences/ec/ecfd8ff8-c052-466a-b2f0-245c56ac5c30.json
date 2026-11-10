@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b6db59079ee40721046c0b9a815c0a20a03e306637ebf7c48a04b69d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b6db59079ee40721046c0b9a815c0a20a03e306637ebf7c48a04b69d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "累積"
@@ -233,11 +241,12 @@
     "question": "日本政府が巨額の国債を累積していることについて、あなたはどのようにお考えですか。",
     "answer": "How do you think the Japanese government accumulated such a great amount of national debt? ",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ecfd8ff8-c052-466a-b2f0-245c56ac5c30",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

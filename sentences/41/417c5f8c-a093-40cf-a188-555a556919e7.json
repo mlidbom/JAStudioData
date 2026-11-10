@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ca6130cb2ec8ced5ace71831a1f9a25db140019cc6f867c541e4ff23.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ca6130cb2ec8ced5ace71831a1f9a25db140019cc6f867c541e4ff23.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大切"
@@ -51,11 +59,12 @@
     "question": "友人は大切だ。",
     "answer": "Friends are important.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "417c5f8c-a093-40cf-a188-555a556919e7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

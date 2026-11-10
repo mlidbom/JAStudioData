@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bc300ee6bb4154a0868e2b27a8baa4187ce8b28db7250c94b095e943.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bc300ee6bb4154a0868e2b27a8baa4187ce8b28db7250c94b095e943.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "晴れる"
@@ -107,11 +115,12 @@
     "question": "天気が晴れると、気分も晴れますね。",
     "answer": "When the weather is sunny, your mood brightens too, right?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "789d57dd-88e1-4f04-87e8-1e4f8bb3d027",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

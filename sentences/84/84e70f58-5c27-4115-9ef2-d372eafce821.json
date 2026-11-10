@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-249b25b9448af31c9f859adb089e86f706eed05cc50681dde1fc35b0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-249b25b9448af31c9f859adb089e86f706eed05cc50681dde1fc35b0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "車内"
@@ -79,11 +87,12 @@
     "question": "車内に人々がたくさんいます。",
     "answer": "There are many people in the car.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "84e70f58-5c27-4115-9ef2-d372eafce821",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

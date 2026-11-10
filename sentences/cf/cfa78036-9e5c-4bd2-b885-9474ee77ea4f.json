@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-92e6593b8403ca82c56d3a49b91eab0a64c7e37c033c7b7ae491331e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-92e6593b8403ca82c56d3a49b91eab0a64c7e37c033c7b7ae491331e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "悪人"
@@ -170,11 +178,12 @@
     "question": "あいつは悪人だが、花が大好きなガーデニングのプロなんだ。",
     "answer": "He's a bad guy, but he's a gardening professional who loves flowers.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cfa78036-9e5c-4bd2-b885-9474ee77ea4f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

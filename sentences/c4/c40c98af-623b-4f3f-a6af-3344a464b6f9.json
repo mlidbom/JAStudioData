@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-14ff3d7d0cc23c668c0ae17b537960f91b7f2b63a890da046a643901.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-14ff3d7d0cc23c668c0ae17b537960f91b7f2b63a890da046a643901.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "辛い"
@@ -100,11 +108,12 @@
     "question": "私、辛いものは食べれないんです。",
     "answer": "I can't eat spicy food.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c40c98af-623b-4f3f-a6af-3344a464b6f9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

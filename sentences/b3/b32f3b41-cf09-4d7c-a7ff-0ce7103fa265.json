@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-58ce894797461e8d617454a71305cc79600a701926b6c58e0972ad94.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-58ce894797461e8d617454a71305cc79600a701926b6c58e0972ad94.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "拝見する"
@@ -177,11 +185,12 @@
     "question": "あなたが描いた日陰に座っている少女の絵を拝見しました。",
     "answer": "I took a look at your painting of a girl sitting in the shade.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b32f3b41-cf09-4d7c-a7ff-0ce7103fa265",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

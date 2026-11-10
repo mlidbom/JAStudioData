@@ -30,9 +30,15 @@
   "partsOfSpeech": [],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-feefd3423fa9d16e1f7e26326417c77050a64cd5b0ead9a582f6a8cc.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-feefd3423fa9d16e1f7e26326417c77050a64cd5b0ead9a582f6a8cc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "ただではおかない",
@@ -46,8 +52,7 @@
   "sentenceCount": 2,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -76,7 +81,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "3c872794-37f5-45de-b28f-c2b87855303c",
   "tags": [

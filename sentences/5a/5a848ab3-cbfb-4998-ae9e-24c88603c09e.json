@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-25b05fe789c97166353d1d9f575567f5669c8cd868d05ef2ea7412a7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-25b05fe789c97166353d1d9f575567f5669c8cd868d05ef2ea7412a7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "首になる"
@@ -114,11 +122,12 @@
     "question": "首にならないように、がんばります。",
     "answer": "I will try my best not to get fired.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5a848ab3-cbfb-4998-ae9e-24c88603c09e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

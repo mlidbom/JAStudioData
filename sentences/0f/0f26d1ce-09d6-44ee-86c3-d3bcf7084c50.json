@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0e4332f94bd68eb8b05dc80d9af863f6eeabfd7134d1c9677a703634.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0e4332f94bd68eb8b05dc80d9af863f6eeabfd7134d1c9677a703634.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大勢"
@@ -275,11 +283,12 @@
     "question": "大勢の生徒の出席を取る時、たまに一人か二人、名前を飛ばしてしまうことがあります。",
     "answer": "When I take the attendance of a large number of students, I sometimes skip over one or two names.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0f26d1ce-09d6-44ee-86c3-d3bcf7084c50",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

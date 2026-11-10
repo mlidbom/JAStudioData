@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-13673cb5246ee1def0ea23e8700c7cffaef06bc3ca979f91900faa1c.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-13673cb5246ee1def0ea23e8700c7cffaef06bc3ca979f91900faa1c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "無くなった",
@@ -40,8 +46,7 @@
   "sentenceCount": 25,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {
       "irrealis": "forbidden",
@@ -70,7 +75,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "ee6b3a92-4e11-4997-9bbf-5475e2d7f889",
   "tags": [

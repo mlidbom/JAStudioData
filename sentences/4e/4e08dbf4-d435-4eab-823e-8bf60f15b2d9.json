@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-83a8dd636d20a90fb7bfefab491f9fde9eb4864977f1331530c9272d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-83a8dd636d20a90fb7bfefab491f9fde9eb4864977f1331530c9272d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "要求する"
@@ -86,11 +94,12 @@
     "question": "男は金を要求した。",
     "answer": "The man demanded money.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4e08dbf4-d435-4eab-823e-8bf60f15b2d9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

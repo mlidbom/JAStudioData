@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-128f7e4384fbd0c9e272424e22337b5939936e1da813618d1a2d6a5e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-128f7e4384fbd0c9e272424e22337b5939936e1da813618d1a2d6a5e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "平和"
@@ -100,11 +108,12 @@
     "question": "住人にとって平和な町にしたいです。",
     "answer": "I want to make it a peaceful town for the residents.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c5916cfe-f34a-4756-a2fd-8fc15db4408f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

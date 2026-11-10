@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7825d3225ff78f407792a848e5e53c41f96ec1ed82c9bcf8fb59bc1a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7825d3225ff78f407792a848e5e53c41f96ec1ed82c9bcf8fb59bc1a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "交番"
@@ -135,11 +143,12 @@
     "question": "交番の前に、たくさんのジャーマンシェパードがいました。",
     "answer": "There were a lot of German shepherds in front of the police box.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "577e8ae7-8b3e-4016-a7d8-c817673844c7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

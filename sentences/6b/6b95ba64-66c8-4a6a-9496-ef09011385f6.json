@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a0ff5827f8a11d5c8edab9aa7bb3c7088f8e44e2e37291116cd50bdf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a0ff5827f8a11d5c8edab9aa7bb3c7088f8e44e2e37291116cd50bdf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "器"
@@ -72,11 +80,12 @@
     "question": "この器は母のです。",
     "answer": "This bowl is my mom's.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6b95ba64-66c8-4a6a-9496-ef09011385f6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

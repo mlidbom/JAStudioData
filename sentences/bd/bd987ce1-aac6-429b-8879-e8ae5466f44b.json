@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f57c08d6e1ee26e795ef6f7aaca5f8380c103ca7450503ccfc77c923.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f57c08d6e1ee26e795ef6f7aaca5f8380c103ca7450503ccfc77c923.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "各〜"
@@ -121,11 +129,12 @@
     "question": "各場所に、案内係が立っているはずです。",
     "answer": "There should be an usher standing at each location.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bd987ce1-aac6-429b-8879-e8ae5466f44b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

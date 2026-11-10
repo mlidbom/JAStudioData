@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-919cec23fa9d8d78ee8a609b4a8c54b724f109e68903edf8bab12895.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-919cec23fa9d8d78ee8a609b4a8c54b724f109e68903edf8bab12895.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "記念碑"
@@ -107,11 +115,12 @@
     "question": "これは何の記念碑ですか。",
     "answer": "What kind of monument is this?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "62935590-631e-4fdb-b9f5-37e5edec28be",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

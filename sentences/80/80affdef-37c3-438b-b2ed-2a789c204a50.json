@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fdb7bc89af72441c020583ac174dbe585c27a7847bcffbded4120a29.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fdb7bc89af72441c020583ac174dbe585c27a7847bcffbded4120a29.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "暑い"
@@ -135,11 +143,12 @@
     "question": "日本では、このところ暑い日がつづいています。",
     "answer": "It has been hot these days in Japan.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "80affdef-37c3-438b-b2ed-2a789c204a50",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

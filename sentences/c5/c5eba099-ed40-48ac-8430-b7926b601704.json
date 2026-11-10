@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-12c35f026f50dfe8ee96fca45e98b64064f22d5d3841bb81fb24c6f9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-12c35f026f50dfe8ee96fca45e98b64064f22d5d3841bb81fb24c6f9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "着る"
@@ -121,11 +129,12 @@
     "question": "今日はコートを着た方がいいかも。",
     "answer": "Maybe I should wear a coat today.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c5eba099-ed40-48ac-8430-b7926b601704",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b0a06f0fc6e747aa4a283f87ffb7416a756ef7c7c5b91fc643eed1c8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b0a06f0fc6e747aa4a283f87ffb7416a756ef7c7c5b91fc643eed1c8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "難しい"
@@ -198,11 +206,12 @@
     "question": "ちょっと私には難しそうだし、やめておくよ。",
     "answer": "That sounds a little too difficult for me, so I'm not going to do it.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "663d775c-05f1-40ec-b09d-04cf1f99323d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

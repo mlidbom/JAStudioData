@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8897e3434f99aa249a4ad34718e195e87949fa3a4da24dd6ea641bf7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8897e3434f99aa249a4ad34718e195e87949fa3a4da24dd6ea641bf7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "炊事"
@@ -128,11 +136,12 @@
     "question": "僕たちは、炊事をする男を雇った。",
     "answer": "We hired a man to do kitchen work.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8e89cd91-b216-4df0-b4b7-af9392f31440",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

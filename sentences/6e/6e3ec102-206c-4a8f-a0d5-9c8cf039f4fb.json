@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1033265b5ef39f81cb4de2154cc16bae2d7977564e6faeb3c550b4f6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1033265b5ef39f81cb4de2154cc16bae2d7977564e6faeb3c550b4f6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "壊れる"
@@ -205,11 +213,12 @@
     "question": "寝過ごして朝ごはんを食べ損ねた上に、車が壊れたんだ。本当に今日はついてないよ。",
     "answer": "I overslept, missed my breakfast, and then my car broke down. It’s really not my day today.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6e3ec102-206c-4a8f-a0d5-9c8cf039f4fb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

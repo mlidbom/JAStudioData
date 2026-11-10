@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5f3d6a2a9160eac72068842a2eecbda975e0ffabed7e6f68ef4aa55b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5f3d6a2a9160eac72068842a2eecbda975e0ffabed7e6f68ef4aa55b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "反対"
@@ -72,11 +80,12 @@
     "question": "その考えには反対です。",
     "answer": "I’m opposed to the idea.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0d041ec9-479d-471a-8e8c-d7c7d95c5e97",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

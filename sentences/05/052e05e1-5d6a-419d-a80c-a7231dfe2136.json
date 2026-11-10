@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9db8161b0b1207ea0e129c0c723c055f0b15e8aa7e344bc08d762f3f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9db8161b0b1207ea0e129c0c723c055f0b15e8aa7e344bc08d762f3f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "地中"
@@ -100,11 +108,12 @@
     "question": "地中にはレーダーがある。",
     "answer": "There is a radar underground.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "052e05e1-5d6a-419d-a80c-a7231dfe2136",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

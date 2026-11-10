@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-29d5ad7d14c8c4015e06a3d7284786b477adf0c25f6a3b2da3d360bc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-29d5ad7d14c8c4015e06a3d7284786b477adf0c25f6a3b2da3d360bc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "通訳"
@@ -317,11 +325,12 @@
     "question": "もし私が全能の神だったら、この会話を通訳してあげることができるけど、そうじゃないから無理だわ。ごめんよ。",
     "answer": "If I were omnipotent, I would be able to interpret this conversation for you, but I’m not, so I can’t. Sorry.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c48ecd1d-90b2-4fe0-a8fb-9717ebe401a2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

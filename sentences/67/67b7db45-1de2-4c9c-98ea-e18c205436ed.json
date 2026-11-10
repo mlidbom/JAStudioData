@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dddca3694d8d7a05981bf3740bdaf778c66907873763d8f0f52ac3e8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dddca3694d8d7a05981bf3740bdaf778c66907873763d8f0f52ac3e8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "先端"
@@ -114,11 +122,12 @@
     "question": "そのお箸の先端は焦げています。",
     "answer": "The tip of the chopsticks are burnt.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "67b7db45-1de2-4c9c-98ea-e18c205436ed",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

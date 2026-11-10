@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bb5ba99c1e3ac980ddab51f6eb919bb31395866ee10489c374e2c6f3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bb5ba99c1e3ac980ddab51f6eb919bb31395866ee10489c374e2c6f3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "潜る"
@@ -170,11 +178,12 @@
     "question": "水の中にどのぐらいの間潜っていられますか。",
     "answer": "How long can you stay underwater?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b62e0807-b879-4308-a3a7-2549bcd06671",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

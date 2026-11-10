@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c4b80dbdc55c34ee223b42bd969cf3ff95f1b0f17611f0e55732e834.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c4b80dbdc55c34ee223b42bd969cf3ff95f1b0f17611f0e55732e834.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "〜弁"
@@ -86,11 +94,12 @@
     "question": "私は京都弁が好きです。",
     "answer": "I like the Kyoto dialect.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c3bd8968-58b7-4c32-92eb-3cde2ab96819",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

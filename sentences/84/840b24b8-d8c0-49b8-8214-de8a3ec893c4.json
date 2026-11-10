@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7b5711161cfb2bd99f865fac4f8a9eec6f04f4e653571d69e112c225.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7b5711161cfb2bd99f865fac4f8a9eec6f04f4e653571d69e112c225.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "子牛"
@@ -86,11 +94,12 @@
     "question": "この子牛は、まだまだ小さい赤ちゃんです。",
     "answer": "This calf is still a little baby.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "840b24b8-d8c0-49b8-8214-de8a3ec893c4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

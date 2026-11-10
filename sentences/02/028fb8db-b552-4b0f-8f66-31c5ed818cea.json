@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-07d1a63e9b6f3b29384e8b6be49abc712343557098c96b8ead7e3c0f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-07d1a63e9b6f3b29384e8b6be49abc712343557098c96b8ead7e3c0f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "焦げる"
@@ -261,11 +269,12 @@
     "question": "一定にかき混ぜることで、鍋の底が焦げることが防げるとお母さんが言っていたわ。",
     "answer": "My mom told me that constant stirring keeps the bottom of the pan from burning.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "028fb8db-b552-4b0f-8f66-31c5ed818cea",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

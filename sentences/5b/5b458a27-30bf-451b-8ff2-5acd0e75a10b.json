@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7091459b01d807cf97efe83efb8df5c1becbdef5e04ab2eb5e791146.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7091459b01d807cf97efe83efb8df5c1becbdef5e04ab2eb5e791146.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "囲む"
@@ -93,11 +101,12 @@
     "question": "日本は海に囲まれた国です。",
     "answer": "Japan is a country surrounded by the sea.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5b458a27-30bf-451b-8ff2-5acd0e75a10b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

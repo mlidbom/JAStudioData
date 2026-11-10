@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-876a112cab930e1536a01523a2e44e70ff5d3b009dcdea4654e02eab.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-876a112cab930e1536a01523a2e44e70ff5d3b009dcdea4654e02eab.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "全力"
@@ -254,11 +262,12 @@
     "question": "もし私がパントリーの方に行こうとしたら、全力で止めて下さい。",
     "answer": "If I try to go to the pantry, please stop me with your full power.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "42648a83-df12-4cca-9373-1fd7a742e105",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

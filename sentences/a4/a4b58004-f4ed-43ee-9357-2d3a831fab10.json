@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-61b47e4afb2c4e266bc18c3da33a5732071d8ad36079a20ca62f313e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-61b47e4afb2c4e266bc18c3da33a5732071d8ad36079a20ca62f313e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "私生活"
@@ -58,11 +66,12 @@
     "question": "私生活のストレスが大きい。",
     "answer": "Stress from my private life is big.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a4b58004-f4ed-43ee-9357-2d3a831fab10",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

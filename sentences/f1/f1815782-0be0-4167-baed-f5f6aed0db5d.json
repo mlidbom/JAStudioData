@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7869354e9caf5facbf950951aeb14c929b9f442e16cbb2ae47a62289.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7869354e9caf5facbf950951aeb14c929b9f442e16cbb2ae47a62289.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "晩ご飯"
@@ -135,11 +143,12 @@
     "question": "晩ご飯、良かったらウチで食べていく？",
     "answer": "Would you like to have dinner at our place?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f1815782-0be0-4167-baed-f5f6aed0db5d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

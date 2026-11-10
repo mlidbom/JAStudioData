@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6e708d19a0fd4e7f87b38a3e9cb68bb6d806236fe2bc01648801481a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6e708d19a0fd4e7f87b38a3e9cb68bb6d806236fe2bc01648801481a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "五十音順"
@@ -156,11 +164,12 @@
     "question": "リストは好き順とかじゃなく、ただの五十音順なので、悪しからず。",
     "answer": "The list is not in order of preference or anything, just in aiueo order, so please don't be put off by that.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "97db0e13-71b5-4a42-a170-72908da7504d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

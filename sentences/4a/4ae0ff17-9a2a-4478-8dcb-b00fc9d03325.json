@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-39ce28e2d5923bf0a55076b618c342c85732b558698f17e8714c308b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-39ce28e2d5923bf0a55076b618c342c85732b558698f17e8714c308b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "憎らしい"
@@ -219,11 +227,12 @@
     "question": "候補者のコウイチ氏は、大統領候補討論会の前、憎らしいほど落ち着いていました。",
     "answer": "Candidate Koichi was provokingly cool before the presidential debate.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4ae0ff17-9a2a-4478-8dcb-b00fc9d03325",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

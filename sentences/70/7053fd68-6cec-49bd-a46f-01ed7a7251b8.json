@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e167329f3a0da3c94544a236f8f721707680a0309e88d1fd61482310.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e167329f3a0da3c94544a236f8f721707680a0309e88d1fd61482310.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "地帯"
@@ -100,11 +108,12 @@
     "question": "ここは、あなた以外には安全地帯です。",
     "answer": "This is a safe zone for everyone but you.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7053fd68-6cec-49bd-a46f-01ed7a7251b8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

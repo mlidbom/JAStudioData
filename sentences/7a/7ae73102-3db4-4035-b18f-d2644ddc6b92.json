@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-536260f215b59110e02f8cb4eb9c452b547e47e46dd03d38461f1cd4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-536260f215b59110e02f8cb4eb9c452b547e47e46dd03d38461f1cd4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "事"
@@ -177,11 +185,12 @@
     "question": "車で会社に行く事が歩いて行く事よりも多いです。",
     "answer": "I go to work by car more often than I walk.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7ae73102-3db4-4035-b18f-d2644ddc6b92",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

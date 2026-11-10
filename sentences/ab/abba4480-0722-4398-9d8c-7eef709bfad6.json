@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-475acd23d2d8377e772320dc7680f73d7da7ae170501c46a807de2a0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-475acd23d2d8377e772320dc7680f73d7da7ae170501c46a807de2a0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "髪型"
@@ -79,11 +87,12 @@
     "question": "ビートルズみたいな髪型だね。",
     "answer": "Your hairstyle looks like the Beatles’.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "abba4480-0722-4398-9d8c-7eef709bfad6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

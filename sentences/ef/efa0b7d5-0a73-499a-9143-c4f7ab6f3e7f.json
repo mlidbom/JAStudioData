@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-44440606c4a1c5647d9f9f64df157b5ea1bf901e67d997db295bdf49.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-44440606c4a1c5647d9f9f64df157b5ea1bf901e67d997db295bdf49.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "伝える"
@@ -128,11 +136,12 @@
     "question": "お父様とお母様にも、よろしくお伝えくださいね。",
     "answer": "Please give your mother and father my regards.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "efa0b7d5-0a73-499a-9143-c4f7ab6f3e7f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

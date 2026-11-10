@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-00b3527d0c5a2a8083f7cd23e426e5e1bc9d1c1c8324ae92d82f785b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-00b3527d0c5a2a8083f7cd23e426e5e1bc9d1c1c8324ae92d82f785b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "深夜"
@@ -135,11 +143,12 @@
     "question": "ここは深夜にお酒と音楽を楽しめるバーです。",
     "answer": "This is a bar where you can enjoy music and alcohol until late at night.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8eb581d4-1735-4c15-a6cf-0d3a70e8fa4a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

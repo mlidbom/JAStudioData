@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e566bda47b2f2722d33d6843d85a207cc849d1e4add7da2bfd9ab83c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e566bda47b2f2722d33d6843d85a207cc849d1e4add7da2bfd9ab83c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "混血"
@@ -163,11 +171,12 @@
     "question": "動物は、別の種が混血することはめったにありません。",
     "answer": "It's rare for animals to mix breeds with one another.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f0ee3424-85c6-4295-9ad4-95b25c926257",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

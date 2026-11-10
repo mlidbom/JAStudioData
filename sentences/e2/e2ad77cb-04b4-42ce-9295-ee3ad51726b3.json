@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e59ad8b2a8d5fab2de5fd3dc6b474bd02003ddd3813dd71244d2b353.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e59ad8b2a8d5fab2de5fd3dc6b474bd02003ddd3813dd71244d2b353.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お守り"
@@ -79,11 +87,12 @@
     "question": "このお守り、どこで買ったの？",
     "answer": "Where did you buy this charm?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e2ad77cb-04b4-42ce-9295-ee3ad51726b3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

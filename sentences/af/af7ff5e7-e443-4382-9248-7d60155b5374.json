@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f619cef5c3e16a52be869f250229a39f4b748be35974aab127b3be80.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f619cef5c3e16a52be869f250229a39f4b748be35974aab127b3be80.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "二月"
@@ -86,11 +94,12 @@
     "question": "日本の二月は中々さむいですよ。",
     "answer": "February in Japan is quite cold.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "af7ff5e7-e443-4382-9248-7d60155b5374",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

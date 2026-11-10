@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4a763d2f21007f3e5d044ef35087d31150e77fcb446ed8d81e068a07.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4a763d2f21007f3e5d044ef35087d31150e77fcb446ed8d81e068a07.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "母親"
@@ -135,11 +143,12 @@
     "question": "母親になってみて、人生はどう変わりましたか？",
     "answer": "How has your life changed now that you became a mother?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1da5adb8-f730-4108-a166-13679f794cb2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

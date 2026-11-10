@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0497108cdcffdd5e723566b617c2d2bf21a3e71c09aa5b3e4c299f91.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0497108cdcffdd5e723566b617c2d2bf21a3e71c09aa5b3e4c299f91.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "医師"
@@ -261,11 +269,12 @@
     "question": "医師によると、祖父の心拍はだんだん弱くなっていって、最後に停止したそうです。",
     "answer": "According to the doctor, my grandfather's heartbeat became gradually weaker and weaker, then it finally stopped.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4fffcf37-1396-40dc-a0cd-09846e72f18b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-95d1d3cf5784f73683b3b1839b7c49a7843a0984e3f0b84f719023d8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-95d1d3cf5784f73683b3b1839b7c49a7843a0984e3f0b84f719023d8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "戸口"
@@ -58,11 +66,12 @@
     "question": "この戸口、少し小さいね。",
     "answer": "This doorway is a little small.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3473d387-2c9f-4790-8a7a-1a2a0ced20cb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

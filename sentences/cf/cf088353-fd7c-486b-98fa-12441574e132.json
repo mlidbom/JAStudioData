@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-483cb1c07ddb515fed3f3f0a52564b78dbfe1f18e02ac8cb2fb7fcea.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-483cb1c07ddb515fed3f3f0a52564b78dbfe1f18e02ac8cb2fb7fcea.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "火事"
@@ -219,11 +227,12 @@
     "question": "昨日、３丁目で火事があったそうです。死者やケガ人は出ませんでした。",
     "answer": "It seems there was a fire at 3-chome yesterday. There were no deaths or injuries.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cf088353-fd7c-486b-98fa-12441574e132",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

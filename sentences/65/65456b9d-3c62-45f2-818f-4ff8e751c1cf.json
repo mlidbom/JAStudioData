@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bd1580dd182c203ec1aeb04ab436e2c6ce9d65cf2b1a4597be3bcd2e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bd1580dd182c203ec1aeb04ab436e2c6ce9d65cf2b1a4597be3bcd2e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "四匹"
@@ -114,11 +122,12 @@
     "question": "ここにいるコオロギ、四匹ずつください。",
     "answer": "I’d like four of each of these crickets here.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "65456b9d-3c62-45f2-818f-4ff8e751c1cf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

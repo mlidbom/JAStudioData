@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-796ca9df3c2c8262fa9d87e8f780a5114d09a194dabcbad516662dba.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-796ca9df3c2c8262fa9d87e8f780a5114d09a194dabcbad516662dba.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "〜分"
@@ -100,11 +108,12 @@
     "question": "十五分休みましょうか。",
     "answer": "Shall we rest for fifteen minutes?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7cc9f0c6-eccb-4bbd-9cdc-3708839bb498",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

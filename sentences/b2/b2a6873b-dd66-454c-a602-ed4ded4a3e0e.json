@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-afb68722a73014fbfaa964c70e0f924a60a03a3b436beea942ff899d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-afb68722a73014fbfaa964c70e0f924a60a03a3b436beea942ff899d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "百"
@@ -72,11 +80,12 @@
     "question": "この本は、およそ百ページです。",
     "answer": "This book is about a hundred pages.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b2a6873b-dd66-454c-a602-ed4ded4a3e0e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

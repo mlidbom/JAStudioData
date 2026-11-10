@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3dbba2b6af2da03d57334c5f0c74dd5460b9842a2e3969a1196e7f58.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3dbba2b6af2da03d57334c5f0c74dd5460b9842a2e3969a1196e7f58.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "王妃"
@@ -72,11 +80,12 @@
     "question": "これは王妃の首飾りです。",
     "answer": "This is the queen's necklace.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8ef7f518-f478-4423-b466-9dfc72083e24",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

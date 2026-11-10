@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-63ad8387097f17a86199262e37b6a8cb710f6ae9fa7adfe49bd2804f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-63ad8387097f17a86199262e37b6a8cb710f6ae9fa7adfe49bd2804f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "増税"
@@ -93,11 +101,12 @@
     "question": "増税するなんて、ゼッタイに認めません。",
     "answer": "I will never accept a tax increase.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "abe4fe9e-d2e4-4884-b3c1-8c1320e7185e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

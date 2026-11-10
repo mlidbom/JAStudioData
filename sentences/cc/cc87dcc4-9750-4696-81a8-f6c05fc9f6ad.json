@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-92627a0d7fa900a426a2a2d0d55eb2dd025e0dfb667e38274486f355.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-92627a0d7fa900a426a2a2d0d55eb2dd025e0dfb667e38274486f355.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "故"
@@ -121,11 +129,12 @@
     "question": "ここは火山が多い。それ故に、地震もよく起きる。",
     "answer": "There are many volcanoes here. For that reason, there are often earthquakes too.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cc87dcc4-9750-4696-81a8-f6c05fc9f6ad",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

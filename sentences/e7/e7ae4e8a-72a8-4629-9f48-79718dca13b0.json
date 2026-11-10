@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-29c0e19b965fd90f49711d57fff55342af3905ea0a706a82982df428.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-29c0e19b965fd90f49711d57fff55342af3905ea0a706a82982df428.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "冥王星"
@@ -177,11 +185,12 @@
     "question": "冥王星が惑星から準惑星に降格された理由を説明できますか？",
     "answer": "Can you explain why Pluto was demoted from planet to dwarf planet?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e7ae4e8a-72a8-4629-9f48-79718dca13b0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

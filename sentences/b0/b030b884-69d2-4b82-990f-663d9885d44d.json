@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-07ea75041c52916342efb2daa6aa12a5c59268fb56f3ff9f107bbec0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-07ea75041c52916342efb2daa6aa12a5c59268fb56f3ff9f107bbec0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "東側"
@@ -86,11 +94,12 @@
     "question": "東側のマドからは、日の出が見られます。",
     "answer": "You can see the sunrise from the windows on the east side.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b030b884-69d2-4b82-990f-663d9885d44d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

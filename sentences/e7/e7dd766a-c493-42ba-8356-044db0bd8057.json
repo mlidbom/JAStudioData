@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-975e862eab1caaba109dec5346e2ee0f5ff4c901a59a1454343f63ec.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-975e862eab1caaba109dec5346e2ee0f5ff4c901a59a1454343f63ec.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "割り箸"
@@ -163,11 +171,12 @@
     "question": "日本の首相を歓迎するために、通りは割り箸で飾られました。",
     "answer": "The streets were decorated with chopsticks to welcome the Japanese prime minister.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e7dd766a-c493-42ba-8356-044db0bd8057",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

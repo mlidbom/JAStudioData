@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e69631308444d9c8fc317fa8399b9b107563473eba9a5c91d009d6f0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e69631308444d9c8fc317fa8399b9b107563473eba9a5c91d009d6f0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "井戸"
@@ -121,11 +129,12 @@
     "question": "え、今、井戸から声がしなかった？",
     "answer": "Wait, didn't you just hear a voice coming from the well?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6477ad61-3a52-4257-bad1-c97e74973be3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8fc4b0736aa821be829490e1b36f5e105acaf293c50dcb474f0dec8e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8fc4b0736aa821be829490e1b36f5e105acaf293c50dcb474f0dec8e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "品物"
@@ -184,11 +192,12 @@
     "question": "そのお店のショーケースにはたくさんの品物がならんでいました。",
     "answer": "The store's showcases were filled with many items.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "72cbd80e-5a41-485a-846b-1044fcfc35cf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

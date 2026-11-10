@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-38aa01b7e5289aa0dae505bf4eca48c778988e87e3075f2433433c2a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-38aa01b7e5289aa0dae505bf4eca48c778988e87e3075f2433433c2a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "肺がん"
@@ -177,11 +185,12 @@
     "question": "君の辛さはすごく分かるよ。僕も肺がんなんだ。",
     "answer": "I really understand what you’re going through because I also have lung cancer.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "af872054-0efe-4af3-bc06-539b795007d8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

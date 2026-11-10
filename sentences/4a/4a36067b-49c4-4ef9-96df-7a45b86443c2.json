@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-edf9d93c14174c4830bbc96cce1788b115236f54c801a682b38437cf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-edf9d93c14174c4830bbc96cce1788b115236f54c801a682b38437cf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "世話"
@@ -114,11 +122,12 @@
     "question": "日本ではお世話になりました。",
     "answer": "Thank you for your great kindness in Japan.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4a36067b-49c4-4ef9-96df-7a45b86443c2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

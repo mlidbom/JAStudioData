@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dbbd7bac25012b6feb0f57d33580a53cb4c68524a26ad8d91e0eddbe.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dbbd7bac25012b6feb0f57d33580a53cb4c68524a26ad8d91e0eddbe.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "容疑者"
@@ -93,11 +101,12 @@
     "question": "容疑者は、自分の罪を認めた。",
     "answer": "The suspect admitted his guilt.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "985db561-2dee-409a-bfe1-9174d9c6f1e0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

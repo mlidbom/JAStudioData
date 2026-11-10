@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5a49f82650e61f0740175267fb1a93f5c1b2351c160fd657004613a7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5a49f82650e61f0740175267fb1a93f5c1b2351c160fd657004613a7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "使い方"
@@ -142,11 +150,12 @@
     "question": "もう少し、言葉の使い方に気を付けた方がいいよ。",
     "answer": "You should be more careful about how you use language.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "252aa7a6-35dc-41fa-9616-9d2ff150fa10",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

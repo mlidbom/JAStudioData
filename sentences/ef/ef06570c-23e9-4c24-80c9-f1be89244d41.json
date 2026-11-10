@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3841acebf6a0106de3e4195ffbaf024383f3d5cfa5ad1606f662f555.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3841acebf6a0106de3e4195ffbaf024383f3d5cfa5ad1606f662f555.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "並列"
@@ -205,11 +213,12 @@
     "question": "その駅では、特急電車と各駅電車が並列して停車していた。",
     "answer": "At that station, the express train and local train were stopped side by side.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ef06570c-23e9-4c24-80c9-f1be89244d41",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

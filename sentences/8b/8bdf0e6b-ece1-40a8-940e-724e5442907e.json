@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-57d0b690cf49bc95602cf7af84d3bba00cd44522411fdc7f8c6518ec.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-57d0b690cf49bc95602cf7af84d3bba00cd44522411fdc7f8c6518ec.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "怪談"
@@ -184,11 +192,12 @@
     "question": "今度、有名な怪談を元にした映画が制作されるそうです。",
     "answer": "I heard that a movie based on a famous ghost story would be produced soon.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8bdf0e6b-ece1-40a8-940e-724e5442907e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-f116a0c4aa60b0af542e3298fbae857ab595e5a8fc4d90fa7006e152.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-f116a0c4aa60b0af542e3298fbae857ab595e5a8fc4d90fa7006e152.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "無駄な",
@@ -44,8 +50,7 @@
   "sentenceCount": 3,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -69,7 +74,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "a5957c23-b279-4231-952a-2379547fd572",
   "tags": [

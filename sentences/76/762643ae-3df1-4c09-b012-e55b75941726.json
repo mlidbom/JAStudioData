@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1f9b4dd66b86a706753b60fff7bd08d478795d84723e3da8bf5f95e8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1f9b4dd66b86a706753b60fff7bd08d478795d84723e3da8bf5f95e8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "生ビール"
@@ -72,11 +80,12 @@
     "question": "生ビールはテイクアウトできますか？",
     "answer": "Can I get a draft beer to go?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "762643ae-3df1-4c09-b012-e55b75941726",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

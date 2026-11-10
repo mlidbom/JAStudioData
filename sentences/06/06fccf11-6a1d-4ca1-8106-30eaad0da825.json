@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9805fd5c2c8f5d67bc00f1038b04b372e9826e733c2ef00b825370e1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9805fd5c2c8f5d67bc00f1038b04b372e9826e733c2ef00b825370e1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "包む"
@@ -86,11 +94,12 @@
     "question": "睡眠薬をビニールラップで包みました。",
     "answer": "I wrapped up my sleeping pills with the plastic wrap.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "06fccf11-6a1d-4ca1-8106-30eaad0da825",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

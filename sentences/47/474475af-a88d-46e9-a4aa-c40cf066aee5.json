@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9b570dac8ef4835066ccffb35a1bcb54e06906beed7d9a04291cf927.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9b570dac8ef4835066ccffb35a1bcb54e06906beed7d9a04291cf927.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "都会"
@@ -128,11 +136,12 @@
     "question": "こんな田舎じゃなく、私は都会で働きたいのよ。",
     "answer": "I want to work in the city, not in the countryside like this.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "474475af-a88d-46e9-a4aa-c40cf066aee5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

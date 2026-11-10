@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-066ac3693ff9980156e0ed4e786e31fddff5c741e39301d410a50aca.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-066ac3693ff9980156e0ed4e786e31fddff5c741e39301d410a50aca.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "次回"
@@ -86,11 +94,12 @@
     "question": "次回は、いつですか？",
     "answer": "When is the next time?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fd4968c1-ee69-46bd-9b08-bab8c36e9fac",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

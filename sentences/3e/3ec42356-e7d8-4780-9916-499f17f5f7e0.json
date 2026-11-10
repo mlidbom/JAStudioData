@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a6aa5791cedcd7f4737cd30403ecdc0b2fc9afd2943022c50f961ab0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a6aa5791cedcd7f4737cd30403ecdc0b2fc9afd2943022c50f961ab0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "依存"
@@ -121,11 +129,12 @@
     "question": "外国の資源に依存するのは危険だ。",
     "answer": "Dependence on foreign countries for resources is dangerous.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3ec42356-e7d8-4780-9916-499f17f5f7e0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

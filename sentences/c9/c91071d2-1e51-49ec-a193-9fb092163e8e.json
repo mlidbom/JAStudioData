@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-62fa0386e1bc99c8c6d76f5fb63bb9378f900cd1218f22fd256ef758.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-62fa0386e1bc99c8c6d76f5fb63bb9378f900cd1218f22fd256ef758.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "結構です"
@@ -205,11 +213,12 @@
     "question": "いいえ、結構です。夕食はいりません。申し訳ありませんが、ストレスで食欲がないんです。",
     "answer": "No, that’s okay. I don’t want dinner. Sorry, but I’m so stressed that I have no appetite.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c91071d2-1e51-49ec-a193-9fb092163e8e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

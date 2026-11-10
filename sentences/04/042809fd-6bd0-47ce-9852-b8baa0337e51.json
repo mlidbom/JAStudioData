@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2bf0ed7e925e99af7d720447878292001b9169609f89ce57fc9be4b8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2bf0ed7e925e99af7d720447878292001b9169609f89ce57fc9be4b8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "汗臭い"
@@ -142,11 +150,12 @@
     "question": "三時間も運動したから、さすがに汗臭くなった。",
     "answer": "After three hours of exercise, it's no wonder I got sweaty and started to smell.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "042809fd-6bd0-47ce-9852-b8baa0337e51",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

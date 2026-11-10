@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ef5154744b1f3abf6484b27b4549e551129bd72a6460e301d4cd0304.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ef5154744b1f3abf6484b27b4549e551129bd72a6460e301d4cd0304.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "投手"
@@ -86,11 +94,12 @@
     "question": "メキシコのチームの投手はとても強いです。",
     "answer": "The pitcher on the Mexican team is very strong.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8106b685-0f96-43dd-b0c2-b1d6bfd91a98",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

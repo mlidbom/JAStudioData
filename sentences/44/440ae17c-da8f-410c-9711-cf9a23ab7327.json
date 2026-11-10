@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a8be3342c062a71d709835a7cd76aa862895814e1be2b6cee8e9f29d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a8be3342c062a71d709835a7cd76aa862895814e1be2b6cee8e9f29d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -175,11 +183,12 @@
     "question": "全員に喜んでもらえる献立を考えるのは難しい。",
     "answer": "It is difficult to come up with a menu that will please everyone.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "440ae17c-da8f-410c-9711-cf9a23ab7327",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

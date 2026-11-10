@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8a9d6aa0d0c82b884cecd7982936316374b75caba7110b1bf619376b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8a9d6aa0d0c82b884cecd7982936316374b75caba7110b1bf619376b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "関する"
@@ -149,11 +157,12 @@
     "question": "日本語の文法に関して、聞きたいことがあるんです。",
     "answer": "I have a question regarding Japanese grammar.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "89996396-d83d-4b96-bd6b-470f7b38b91c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

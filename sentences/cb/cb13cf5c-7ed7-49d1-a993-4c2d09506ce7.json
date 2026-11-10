@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bc38f0570ae49ba8dde5e5752528816a16b4ec4809a06e0a5dbd0082.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bc38f0570ae49ba8dde5e5752528816a16b4ec4809a06e0a5dbd0082.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "自販機"
@@ -93,11 +101,12 @@
     "question": "あ、あそこに自販機がある！",
     "answer": "Oh, there's a vending machine over there!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cb13cf5c-7ed7-49d1-a993-4c2d09506ce7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2cfbc9cabfd9a33db32c083557ee60bcf056d5a910bbeea29d388841.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2cfbc9cabfd9a33db32c083557ee60bcf056d5a910bbeea29d388841.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "言う"
@@ -114,11 +122,12 @@
     "question": "今日はちゃんと先生に「おはようございます」言った？",
     "answer": "Did you tell your teacher \"Good morning\" today?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "879bbcd7-d28c-4cda-9cf7-dbe55b68cdc8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

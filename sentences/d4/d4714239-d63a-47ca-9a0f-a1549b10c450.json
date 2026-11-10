@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ffe29f3de6c0d40c4bd04e6ef82cb32cc9bf3dbe3a2216990a55df2c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ffe29f3de6c0d40c4bd04e6ef82cb32cc9bf3dbe3a2216990a55df2c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "銀座"
@@ -93,11 +101,12 @@
     "question": "銀座にはバーがたくさんあります。",
     "answer": "There are many bars in Ginza.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d4714239-d63a-47ca-9a0f-a1549b10c450",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

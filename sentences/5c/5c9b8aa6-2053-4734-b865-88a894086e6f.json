@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-63f5085b038c4a007dedab93a3265647c7388f508bc4575a5bc58a82.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-63f5085b038c4a007dedab93a3265647c7388f508bc4575a5bc58a82.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "言葉"
@@ -107,11 +115,12 @@
     "question": "この言葉の意味を教えて下さい。",
     "answer": "Can you teach me the meaning of this word?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5c9b8aa6-2053-4734-b865-88a894086e6f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

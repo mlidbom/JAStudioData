@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ffc591ffd5d6c0cdbb960b316eea0e08a40cf5e5480a4e8cb619e95f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ffc591ffd5d6c0cdbb960b316eea0e08a40cf5e5480a4e8cb619e95f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "本当に"
@@ -114,11 +122,12 @@
     "question": "この車、本当に中古なんですか？",
     "answer": "Is this car seriously used?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e9771656-d00d-44be-8f53-0975248ba1ec",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fcac40215d2137d7f96c990a4407c3564bc9bb1d2f4a7e0d69affb86.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fcac40215d2137d7f96c990a4407c3564bc9bb1d2f4a7e0d69affb86.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "肯く"
@@ -114,11 +122,12 @@
     "question": "母は話を聞きながら、ウンウンと肯きました。",
     "answer": "My mother nodded saying \"uh huh\" while listening to the conversation. ",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "52c7112a-e85d-43ce-8d41-1b7579c23110",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6fed689c8ffa68a86ab0d511c9ddfa3feb8cab9553e135cb02e51912.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6fed689c8ffa68a86ab0d511c9ddfa3feb8cab9553e135cb02e51912.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "保護する"
@@ -212,11 +220,12 @@
     "question": "あそこで虫をついばんでいる鳥は、国際間で保護することが取り決められた鳥です。",
     "answer": "The bird pecking at worms over there is actually an endangered bird species and is to be protected worldwide.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c801b006-6b40-4744-93a7-52ebd722bf74",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

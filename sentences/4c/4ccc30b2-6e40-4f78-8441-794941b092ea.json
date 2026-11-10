@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2ec214251f1597becb3c62d8a1eb1e0bdfa898a88357497f7db20d52.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2ec214251f1597becb3c62d8a1eb1e0bdfa898a88357497f7db20d52.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "軍隊"
@@ -233,11 +241,12 @@
     "question": "私は、軍隊を持つ必要の無い国は存在しないと思っています。",
     "answer": "I do not believe that there is any country that does not need to have an army.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4ccc30b2-6e40-4f78-8441-794941b092ea",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e1e9e10ede94092834237228d42e6a2d711f9a91b55ae2bcf1b22751.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e1e9e10ede94092834237228d42e6a2d711f9a91b55ae2bcf1b22751.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "羊毛"
@@ -107,11 +115,12 @@
     "question": "クリスマスプレゼントに、羊毛のブランケットをもらいました。",
     "answer": "I got a wool blanket as a Christmas present.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cfa8ec91-9e0a-428e-9054-829f4c3af4ef",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

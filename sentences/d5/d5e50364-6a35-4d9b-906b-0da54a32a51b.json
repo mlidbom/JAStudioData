@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-40f230b2d58fde7682a1d2c1d11719319a3d526ee9df58cc161fc6bf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-40f230b2d58fde7682a1d2c1d11719319a3d526ee9df58cc161fc6bf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "〜枚"
@@ -142,11 +150,12 @@
     "question": "日曜日のサッカーの試合のチケットを十枚持っています。",
     "answer": "I have ten tickets for the soccer game on Sunday.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d5e50364-6a35-4d9b-906b-0da54a32a51b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

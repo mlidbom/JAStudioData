@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cd4b59bda1bb91f7756c1269886d6e6db6f165b515f26897a1f31512.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cd4b59bda1bb91f7756c1269886d6e6db6f165b515f26897a1f31512.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "従業"
@@ -149,11 +157,12 @@
     "question": "従業する業務内容は会社と相談の上、決定します。",
     "answer": "The content of the work to be engaged in will be determined through consultation with the company.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "745ffa9f-e42b-4c62-96bb-4e4c7a1295ad",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

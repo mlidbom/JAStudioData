@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-81a1337d688f96c64f89d4f937a1d641e797c64778932f2e9d8c4b31.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-81a1337d688f96c64f89d4f937a1d641e797c64778932f2e9d8c4b31.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "中央"
@@ -100,11 +108,12 @@
     "question": "ステージの中央に立たないで下さい。",
     "answer": "Don't stand at the center of the stage.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "edd485c1-1cc8-4c23-bb1c-ea4592f5b8f2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

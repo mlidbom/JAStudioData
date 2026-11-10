@@ -30,9 +30,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "[sound:hypertts-418c06928226f90f327bb2db8e199d4961092e30fac562dcbac4c5d7.mp3]",
-  "audioG": "",
-  "audioTTS": "",
+  "audio": [
+    {
+      "fileName": "hypertts-418c06928226f90f327bb2db8e199d4961092e30fac562dcbac4c5d7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "生成をする",
@@ -42,8 +48,7 @@
   "sentenceCount": 2,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -67,7 +72,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "c7df9b78-8b10-46b6-bff1-ec969e1181d7",
   "tags": [

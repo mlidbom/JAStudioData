@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5c97ce6a7f9cb16ed763511d74f678340e74b727a0aaf388880cb4f4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5c97ce6a7f9cb16ed763511d74f678340e74b727a0aaf388880cb4f4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "百万"
@@ -121,11 +129,12 @@
     "question": "このトラック、百万台もあるんですよ。",
     "answer": "There are a million of these trucks.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "73790159-87f4-4f16-82ad-ada6f2441b94",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

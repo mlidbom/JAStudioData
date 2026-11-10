@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c94e9623a0caa3852f81977b6abd4438611654c9dc361f67e4c24c4d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c94e9623a0caa3852f81977b6abd4438611654c9dc361f67e4c24c4d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "絞殺"
@@ -128,11 +136,12 @@
     "question": "検死の結果、死因は「絞殺」と断定されました。",
     "answer": "The cause of death was determined to be \"strangulation\" according to the autopsy results.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1197117a-771a-46bb-9b0d-0db0e0b3e4f3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-95944da2b14ec4c4ecc7d6d7944149fa210482aa9f3ab5bff4f86cdd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-95944da2b14ec4c4ecc7d6d7944149fa210482aa9f3ab5bff4f86cdd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "犬"
@@ -72,11 +80,12 @@
     "question": "ぼくのペットは犬です。",
     "answer": "My pet is a dog.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f54ed46d-70b1-4b37-99b5-1cdf388b66f8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

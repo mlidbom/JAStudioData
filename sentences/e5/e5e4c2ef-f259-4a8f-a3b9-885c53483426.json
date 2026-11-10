@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f1447355f2f86dc6728a69a7ab656bde80c0c7d519d6a3e2cd73384f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f1447355f2f86dc6728a69a7ab656bde80c0c7d519d6a3e2cd73384f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "詩"
@@ -114,11 +122,12 @@
     "question": "今日の宿題は、日本語で詩を書くことです。",
     "answer": "Today’s homework is to write a poem in Japanese.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e5e4c2ef-f259-4a8f-a3b9-885c53483426",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

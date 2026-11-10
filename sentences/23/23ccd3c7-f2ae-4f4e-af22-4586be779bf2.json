@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4eb462e30c0cc83c1dadcfb75cb6b3a89976e46b7be91d5ec48504a9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4eb462e30c0cc83c1dadcfb75cb6b3a89976e46b7be91d5ec48504a9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "壊す"
@@ -261,11 +269,12 @@
     "question": "この河豚を自分なりに料理してみたんですが、お腹を壊してしまいました。",
     "answer": "I cooked this blowfish in my own way and it wrecked my stomach.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "23ccd3c7-f2ae-4f4e-af22-4586be779bf2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

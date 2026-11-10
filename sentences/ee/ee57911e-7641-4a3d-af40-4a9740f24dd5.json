@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c75bc8c9d407952d5347898a9fbaeba14bc7edeee46a485da54eb2b7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c75bc8c9d407952d5347898a9fbaeba14bc7edeee46a485da54eb2b7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "老人"
@@ -107,11 +115,12 @@
     "question": "日本は老人の人口がとても多いんですよ。",
     "answer": "Japan has a very large population of elderly people.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ee57911e-7641-4a3d-af40-4a9740f24dd5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

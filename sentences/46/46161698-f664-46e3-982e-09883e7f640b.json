@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cc064f111f0d871847f7bdeaacfd13eff41da08a2ba64280eef8b0e0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cc064f111f0d871847f7bdeaacfd13eff41da08a2ba64280eef8b0e0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "勝者"
@@ -114,11 +122,12 @@
     "question": "このレースの勝者はお金がもらえますよ。",
     "answer": "The winners of this race will get some money.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "46161698-f664-46e3-982e-09883e7f640b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

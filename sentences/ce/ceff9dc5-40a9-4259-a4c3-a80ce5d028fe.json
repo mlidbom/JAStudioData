@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e096b1b9b5c58725863d7bd9ecc5deb4610dbde8097b33baebcb4901.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e096b1b9b5c58725863d7bd9ecc5deb4610dbde8097b33baebcb4901.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "並列"
@@ -135,11 +143,12 @@
     "question": "今日は学校で、直列回路と並列回路について学びました。",
     "answer": "Today at school we learned about series circuits and parallel circuits.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ceff9dc5-40a9-4259-a4c3-a80ce5d028fe",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

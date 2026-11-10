@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e15d30ec4eecf94c5ee25b40bafb7e12284cac249464a8e137040f98.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e15d30ec4eecf94c5ee25b40bafb7e12284cac249464a8e137040f98.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "年代順"
@@ -268,11 +276,12 @@
     "question": "このデータベースでは、年代順でも五十音順でもサーチできるようになっています。",
     "answer": "In this database, you can search either in chronological or aiueo order.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "352f758c-65ba-4f6c-92db-a8062b8089f6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

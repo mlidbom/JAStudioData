@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0cc2e545b9baeac7d925453e76fdd482a9b83befc4680d95bfb9b759.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0cc2e545b9baeac7d925453e76fdd482a9b83befc4680d95bfb9b759.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "商品"
@@ -142,11 +150,12 @@
     "question": "私、新商品のチョコには目がないんです。",
     "answer": "I can't resist new chocolate products.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "42268ce0-09b4-4aea-ac27-9f5f06a2dce4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

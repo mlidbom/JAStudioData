@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5348be94f565d1178ac6cddc5a04836e8cc5090e864ea010c4ead33f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5348be94f565d1178ac6cddc5a04836e8cc5090e864ea010c4ead33f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "静か"
@@ -65,11 +73,12 @@
     "question": "今日は静かですね。",
     "answer": "It is quiet today, isn't it?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6af8897d-2003-4a00-ab6d-2f715c6e1ec2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

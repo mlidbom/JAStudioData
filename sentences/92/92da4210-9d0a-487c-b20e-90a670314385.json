@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-98a23417d327f2dfdabc3b9d3abc8d5b1459f5fc1fa0549bd1cc60b7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-98a23417d327f2dfdabc3b9d3abc8d5b1459f5fc1fa0549bd1cc60b7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "本物"
@@ -72,11 +80,12 @@
     "question": "このレタス、もしかして本物なの？",
     "answer": "Is this lettuce perhaps real?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "92da4210-9d0a-487c-b20e-90a670314385",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

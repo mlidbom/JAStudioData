@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5505536e623ce9f799d6d557d162b66b31425bbd508e65fcb8751a91.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5505536e623ce9f799d6d557d162b66b31425bbd508e65fcb8751a91.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "手掛かり"
@@ -93,11 +101,12 @@
     "question": "手掛かりはまだ見つからないのですか。",
     "answer": "Still can't find any clues?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7226b96c-5389-4ac1-9b2c-77c85fa95a20",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

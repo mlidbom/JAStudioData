@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e031af8b6fbb81fb840666cd3ee34b6a0e70b5f24baddea471ff7196.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e031af8b6fbb81fb840666cd3ee34b6a0e70b5f24baddea471ff7196.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "症状"
@@ -114,11 +122,12 @@
     "question": "少しずつですが、症状の改善が見られます。",
     "answer": "It’s little by little, but the symptoms are improving.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "47292ed3-f92c-4480-b2aa-ebeba40bb937",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

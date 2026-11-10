@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2de6f300acd230b397060c8b28b77f519d172f4d815bdb843bfd3605.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2de6f300acd230b397060c8b28b77f519d172f4d815bdb843bfd3605.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鬼"
@@ -128,11 +136,12 @@
     "question": "昨日、お母さん、鬼のようにキレてたよね。",
     "answer": "Mom was as mad as an ogre yesterday, huh?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1d3ec1f5-f01c-4655-839a-edb95ab80caa",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

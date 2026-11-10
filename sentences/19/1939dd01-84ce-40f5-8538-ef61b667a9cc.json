@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-609a180ce36e43ce8994f38b3815f0b191104956aa73731d79f67c7c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-609a180ce36e43ce8994f38b3815f0b191104956aa73731d79f67c7c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "日本語"
@@ -135,11 +143,12 @@
     "question": "週に一回、日本語の教室に通っています。",
     "answer": "I go to a Japanese classroom once a week.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1939dd01-84ce-40f5-8538-ef61b667a9cc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

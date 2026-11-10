@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e76ffb08956a8efac38fc46dcc385ac18af5aec15c7a54583ed4c6ac.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e76ffb08956a8efac38fc46dcc385ac18af5aec15c7a54583ed4c6ac.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "近く"
@@ -86,11 +94,12 @@
     "question": "コンビニは近くにありますか？",
     "answer": "Is there a convenience store nearby?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4c3ed8a4-6c3c-43f0-93a2-8e9cec249c0a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

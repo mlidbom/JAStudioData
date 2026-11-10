@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-542184b8eaa71a96d9c5051f61f6c2f8f61ed7bded988d44802385d5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-542184b8eaa71a96d9c5051f61f6c2f8f61ed7bded988d44802385d5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "前景"
@@ -86,11 +94,12 @@
     "question": "前景をちょっとぼかしてみます。",
     "answer": "I’ll blur the foreground a bit.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b99214ae-bba2-4dc4-a5d1-6f72d4d08c93",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

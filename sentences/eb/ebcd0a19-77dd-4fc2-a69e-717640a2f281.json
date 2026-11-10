@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4a303b381b035447891beb00f2cd93fb9230e21bf89d4f3fa1387d1a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4a303b381b035447891beb00f2cd93fb9230e21bf89d4f3fa1387d1a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "送る"
@@ -142,11 +150,12 @@
     "question": "今日は、ここまでにしよう。家まで送るよ。",
     "answer": "Let’s call it a day. I’ll walk you home.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ebcd0a19-77dd-4fc2-a69e-717640a2f281",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

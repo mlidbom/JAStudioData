@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-25fff225cf6289a3401c7e9a3bdab31ed76b76006cf9836893c6bbfb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-25fff225cf6289a3401c7e9a3bdab31ed76b76006cf9836893c6bbfb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "求人"
@@ -107,11 +115,12 @@
     "question": "兄の会社で求人してるみたいですよ。",
     "answer": "It looks like my brother's company is hiring.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1cb2501f-a569-45fb-9f69-04faa5dbf9d7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

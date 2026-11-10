@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-e9974470ca815af430db92dfb39c2954388354ebe2817ee4e01b7289.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-e9974470ca815af430db92dfb39c2954388354ebe2817ee4e01b7289.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "ばいいのに",
@@ -40,8 +46,7 @@
   "sentenceCount": 13,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [
@@ -67,7 +72,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "50f76b70-19fa-4f31-be92-2b693799b1a7",
   "tags": [

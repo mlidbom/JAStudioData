@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b812db771c67c8781881d9b171210f7d3272328041c1ef52f05fd7b0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b812db771c67c8781881d9b171210f7d3272328041c1ef52f05fd7b0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "金属"
@@ -93,11 +101,12 @@
     "question": "マイケルは、屋根に金属のハシゴを掛けた。",
     "answer": "Michael stood a metal ladder against the roof.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6250268f-f6ef-4684-bc84-c238367ed497",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

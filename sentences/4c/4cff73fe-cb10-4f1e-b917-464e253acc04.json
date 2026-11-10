@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1ea9220fdfea63f750f387730c5eb61cf51f46f8989a5e09a2243492.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1ea9220fdfea63f750f387730c5eb61cf51f46f8989a5e09a2243492.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "摂氏"
@@ -121,11 +129,12 @@
     "question": "アメリカも早く華氏から摂氏に変えればいいのに。",
     "answer": "I wish the US would hurry up and change from Fahrenheit to Celsius.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4cff73fe-cb10-4f1e-b917-464e253acc04",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

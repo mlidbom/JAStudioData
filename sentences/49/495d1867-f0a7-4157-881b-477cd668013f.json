@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b7f2d71e2fb11bbe0acc28c3efb2e270594bdd481082f11b83675704.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b7f2d71e2fb11bbe0acc28c3efb2e270594bdd481082f11b83675704.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "連日"
@@ -72,11 +80,12 @@
     "question": "今年の北海道は連日大雪です。",
     "answer": "This year, Hokkaido has been experiencing heavy snowfall every day.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "495d1867-f0a7-4157-881b-477cd668013f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

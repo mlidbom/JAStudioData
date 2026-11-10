@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9be53938f8b65dfd76a08dc05ba5e56a11b67f32f49f6ad30796d877.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9be53938f8b65dfd76a08dc05ba5e56a11b67f32f49f6ad30796d877.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "景色"
@@ -128,11 +136,12 @@
     "question": "家の近くに景色の良い公園があります。",
     "answer": "There is a park with a beautiful view near my house.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f633e817-6cda-491e-a4b1-8754a9fb77ab",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

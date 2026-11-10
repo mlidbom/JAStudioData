@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f473c16b51ea4417d80d553a5ca7cd07a607f8c86f80ff5dede6cfd3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f473c16b51ea4417d80d553a5ca7cd07a607f8c86f80ff5dede6cfd3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一斗缶"
@@ -163,11 +171,12 @@
     "question": "その店では、一斗缶のキャンペーンを行っています。",
     "answer": "That store has a promotion on five-gallon containers.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "be26fbdb-d658-400e-90ad-568f9f69892a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

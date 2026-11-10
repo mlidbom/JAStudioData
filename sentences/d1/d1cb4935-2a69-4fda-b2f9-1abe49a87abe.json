@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cc25bdae58bee8f4d9cffe4e62398da4b8c2778938c813502ed752da.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cc25bdae58bee8f4d9cffe4e62398da4b8c2778938c813502ed752da.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "収穫"
@@ -198,11 +206,12 @@
     "question": "お米の収穫期は今年はいつ頃になりそうですか？",
     "answer": "When do you think the rice harvest will be this year?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d1cb4935-2a69-4fda-b2f9-1abe49a87abe",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

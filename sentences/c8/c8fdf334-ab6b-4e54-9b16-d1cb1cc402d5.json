@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bf1a4aea1e039c60d7f89ac3b9d5ebb87b535fd158a23faf0a3b3204.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bf1a4aea1e039c60d7f89ac3b9d5ebb87b535fd158a23faf0a3b3204.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "昨日"
@@ -135,11 +143,12 @@
     "question": "昨日は、夜中から朝まで、ずっとカラオケしてました。",
     "answer": "Yesterday, I sang karaoke all night until morning",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c8fdf334-ab6b-4e54-9b16-d1cb1cc402d5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

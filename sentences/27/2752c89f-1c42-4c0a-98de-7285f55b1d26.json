@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-66e3d4aafad8ac27a0b72327372b27a787602e3f54c4e35979a631b9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-66e3d4aafad8ac27a0b72327372b27a787602e3f54c4e35979a631b9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "自決"
@@ -79,11 +87,12 @@
     "question": "そのサムライは自決した。",
     "answer": "The samurai committed suicide.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2752c89f-1c42-4c0a-98de-7285f55b1d26",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

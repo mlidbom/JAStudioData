@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-aee2a48d741a97b8d7eccb2a325495a6a8b4ffae18b3c04d280bba6d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-aee2a48d741a97b8d7eccb2a325495a6a8b4ffae18b3c04d280bba6d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "文化"
@@ -114,11 +122,12 @@
     "question": "コスプレは日本の文化の一つですか？",
     "answer": "Is cosplaying part of Japanese culture?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4fa39ce3-bffd-4949-af1a-1c8ce51cfd42",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

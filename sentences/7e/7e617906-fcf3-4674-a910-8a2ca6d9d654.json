@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-700a079196097ae75e6f2014fa3fbb369bb0fe65af0245ebad4b7ca1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-700a079196097ae75e6f2014fa3fbb369bb0fe65af0245ebad4b7ca1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "結構"
@@ -93,11 +101,12 @@
     "question": "「何か飲みますか？」 「いいえ、結構です。」",
     "answer": "\"Would you like something to drink?\" \"No, thank you. I'm good.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7e617906-fcf3-4674-a910-8a2ca6d9d654",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3fbe50e7210434903986ce0d0bb8574d9045dae74c685c29fc4e33d1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3fbe50e7210434903986ce0d0bb8574d9045dae74c685c29fc4e33d1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "科目"
@@ -100,11 +108,12 @@
     "question": "お母さんは科学や数学などの科目の先生です。",
     "answer": "Mom is a teacher of subjects like science and mathematics.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ed4df209-d1db-45cc-a3d6-860750c307b5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

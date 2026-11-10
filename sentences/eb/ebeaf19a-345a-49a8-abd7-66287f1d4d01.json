@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-80bbb6a8c234498040e507194925673426b876d00b394d40f4691ba1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-80bbb6a8c234498040e507194925673426b876d00b394d40f4691ba1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "東京都"
@@ -79,11 +87,12 @@
     "question": "東京都は日本の都市です。",
     "answer": "Tokyo is a city in Japan.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ebeaf19a-345a-49a8-abd7-66287f1d4d01",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

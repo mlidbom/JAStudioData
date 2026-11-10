@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8d8b34d859a2007399b95d87b2e467d394f2b9d997aea5af5fab3c81.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8d8b34d859a2007399b95d87b2e467d394f2b9d997aea5af5fab3c81.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "月曜日"
@@ -100,11 +108,12 @@
     "question": "今度の月曜日、仕事の後、飲みに行かない？",
     "answer": "Would you like to go out for a drink this coming Monday after work?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6978641d-7f5e-45d0-96de-76ed9cc36357",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

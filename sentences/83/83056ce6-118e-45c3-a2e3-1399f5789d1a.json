@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b5697d68e138febee4281cf9a3a45265519c7a4fbb573dbf6f97fd2c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b5697d68e138febee4281cf9a3a45265519c7a4fbb573dbf6f97fd2c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大した"
@@ -65,11 +73,12 @@
     "question": "大したことじゃないよ。",
     "answer": "It's no big deal.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "83056ce6-118e-45c3-a2e3-1399f5789d1a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

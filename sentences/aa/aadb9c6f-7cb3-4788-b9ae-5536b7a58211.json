@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8318d36c88d0b9e77759e9b19e7dad36f994176ee225d83191fd48ef.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8318d36c88d0b9e77759e9b19e7dad36f994176ee225d83191fd48ef.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "洗浄剤"
@@ -107,11 +115,12 @@
     "question": "洗浄剤なら、シンクの下にあります。",
     "answer": "If you're looking for detergent, it's under the sink.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "aadb9c6f-7cb3-4788-b9ae-5536b7a58211",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

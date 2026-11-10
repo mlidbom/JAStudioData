@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8f8032cd6c7a7657f869686fe62d9947f71af4cff75342d87a73e012.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8f8032cd6c7a7657f869686fe62d9947f71af4cff75342d87a73e012.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "設定する"
@@ -163,11 +171,12 @@
     "question": "クーラーはいつも何度に設定していますか？",
     "answer": "What temperature do you usually set your air conditioner to?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "142b71a6-9b5a-4aff-a7f2-87822379fba4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-ffd248882bbf45bde2e6b87f3132f6518144ebe0ede993bc202a6ead.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-ffd248882bbf45bde2e6b87f3132f6518144ebe0ede993bc202a6ead.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "請合い",
@@ -48,8 +54,7 @@
   "sentenceCount": 0,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -73,7 +78,9 @@
   "sourceData": {
     "answer": "assurance/guarantee",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "54217378-5abd-434c-a369-2a377fb97c69",
   "tags": [

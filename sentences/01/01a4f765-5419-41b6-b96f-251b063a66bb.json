@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fc559ef0722310358f878b8630cd2d1d420ffda1d42b0de0879fd6dc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fc559ef0722310358f878b8630cd2d1d420ffda1d42b0de0879fd6dc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "弦楽器"
@@ -156,11 +164,12 @@
     "question": "私の叔父は、弦楽器の修理をしています。",
     "answer": "My uncle repairs stringed instruments.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "01a4f765-5419-41b6-b96f-251b063a66bb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e147ffe8e0793cb8ab9fa19f8dad17d82cefbd23871d9fbc43a39f13.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e147ffe8e0793cb8ab9fa19f8dad17d82cefbd23871d9fbc43a39f13.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "秋"
@@ -79,11 +87,12 @@
     "question": "秋の夜は星がきれいです。",
     "answer": "Autumn nights have beautiful stars.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "78558e02-c430-4135-ac44-9f9e3cc2645b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

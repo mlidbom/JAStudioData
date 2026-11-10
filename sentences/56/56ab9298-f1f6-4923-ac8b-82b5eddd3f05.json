@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-75d993d1fa54b3a5be56707e62de202b2710f7fca9dfe3793992200e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-75d993d1fa54b3a5be56707e62de202b2710f7fca9dfe3793992200e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "楽しい"
@@ -184,11 +192,12 @@
     "question": "朝ごはんは、テレビを見ながら食べる方が、人と話しながら食べるより楽しいよ。",
     "answer": "It's more fun to eat breakfast while watching TV than it is to eat while talking to someone.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "56ab9298-f1f6-4923-ac8b-82b5eddd3f05",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

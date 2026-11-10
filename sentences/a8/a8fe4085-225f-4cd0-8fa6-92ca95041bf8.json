@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ef8f726f96b43c9ded84ffe6b2bd21b8b15d8b686637b6d45c5bd65e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ef8f726f96b43c9ded84ffe6b2bd21b8b15d8b686637b6d45c5bd65e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "過ぎる"
@@ -170,11 +178,12 @@
     "question": "昨晩は、晩ご飯を食べ過ぎて、どうしても寝られませんでした。",
     "answer": "I couldn't get to sleep last night because I ate too much supper.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a8fe4085-225f-4cd0-8fa6-92ca95041bf8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

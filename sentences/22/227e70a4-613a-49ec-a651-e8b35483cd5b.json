@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4e204e655c5f6879565168e8a8fa030249a2d79f97379552c4eccdd7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4e204e655c5f6879565168e8a8fa030249a2d79f97379552c4eccdd7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "東京都"
@@ -142,11 +150,12 @@
     "question": "東京都に住みたがる人は多いですよ。",
     "answer": "There are many people who want to live in the Tokyo prefecture.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "227e70a4-613a-49ec-a651-e8b35483cd5b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

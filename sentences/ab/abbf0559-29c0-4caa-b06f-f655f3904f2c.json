@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-46f696cb5aa8418fda456eeb1f93330dc68c2c0e7f92222e75a82f07.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-46f696cb5aa8418fda456eeb1f93330dc68c2c0e7f92222e75a82f07.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "欠席"
@@ -107,11 +115,12 @@
     "question": "昨日のミーティングの欠席者はゼロでした。",
     "answer": "There were zero absences from yesterday's meeting.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "abbf0559-29c0-4caa-b06f-f655f3904f2c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

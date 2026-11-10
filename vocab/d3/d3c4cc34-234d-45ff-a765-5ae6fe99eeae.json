@@ -24,9 +24,15 @@
   "partsOfSpeech": [],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-c81549dca462c302de18da8dd5023b0639070cddff30cf78020c6379.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-c81549dca462c302de18da8dd5023b0639070cddff30cf78020c6379.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "心配かける",
@@ -48,8 +54,7 @@
   "sentenceCount": 17,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -73,7 +78,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "d3c4cc34-234d-45ff-a765-5ae6fe99eeae",
   "tags": [

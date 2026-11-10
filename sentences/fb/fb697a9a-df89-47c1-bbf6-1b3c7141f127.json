@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0bd0e0fea9389b8d2b76941153e09529b69a0c423c4a112eae1a955e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0bd0e0fea9389b8d2b76941153e09529b69a0c423c4a112eae1a955e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "八"
@@ -79,11 +87,12 @@
     "question": "これは八ページのエッセイです。",
     "answer": "This is an eight-page essay.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fb697a9a-df89-47c1-bbf6-1b3c7141f127",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

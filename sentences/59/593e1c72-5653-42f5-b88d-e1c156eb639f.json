@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-871cd0bbd45bd7cf7b4187d7a5f20f6d57e29a2adda9755945f12a79.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-871cd0bbd45bd7cf7b4187d7a5f20f6d57e29a2adda9755945f12a79.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "来る"
@@ -65,11 +73,12 @@
     "question": "アメリカから来ました。",
     "answer": "I came from America.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "593e1c72-5653-42f5-b88d-e1c156eb639f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b1d032baf5f284f37a10e7f2a551faca10d39cccda16fab7fc5149e0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b1d032baf5f284f37a10e7f2a551faca10d39cccda16fab7fc5149e0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "過去形"
@@ -184,11 +192,12 @@
     "question": "過去形と過去完了形の違いをやさしく説明してくれますか。",
     "answer": "Can you tell me the difference between the past tense and the past participle in a simple way?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "01a3093b-1c21-4bdc-ae87-fc26b11ea126",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

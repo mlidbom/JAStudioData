@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b186f2695f3f74ce4c0f034d486609e16d789639c2c95fe5bbad98b1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b186f2695f3f74ce4c0f034d486609e16d789639c2c95fe5bbad98b1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "恩賞"
@@ -121,11 +129,12 @@
     "question": "あのベーコン泥棒を引っ捕えた者には恩賞を与えよう。",
     "answer": "I'll give a reward to the person who can catch the bacon thief.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "48f34044-2781-4af2-ba84-31d6bc6fd762",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

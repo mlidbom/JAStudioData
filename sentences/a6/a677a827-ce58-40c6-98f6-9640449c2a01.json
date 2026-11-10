@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-947c7fd3be60b663e38e2c11917dd3f7b8bfd4e046e805f668af873c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-947c7fd3be60b663e38e2c11917dd3f7b8bfd4e046e805f668af873c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鈍器"
@@ -86,11 +94,12 @@
     "question": "毎月の鈍器代はいくらですか。",
     "answer": "How much do you spend on blunt weapons every month?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a677a827-ce58-40c6-98f6-9640449c2a01",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

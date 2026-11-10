@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4b376414a71903cb9a230e67905c3e5f7183c87673be01e87cdf10f2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4b376414a71903cb9a230e67905c3e5f7183c87673be01e87cdf10f2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "象徴"
@@ -170,11 +178,12 @@
     "question": "この絵のベーコンは何かを象徴しているんですか？",
     "answer": "Does the bacon in this picture symbolize something?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "df56a234-21bc-47e3-bdcc-2a2cea8c6c04",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

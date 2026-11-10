@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-aff097daca33d8aac14a96f5201e8c2cfebd895bca40d8b29cad080e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-aff097daca33d8aac14a96f5201e8c2cfebd895bca40d8b29cad080e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "占い"
@@ -191,11 +199,12 @@
     "question": "占いは、良いことだけ信じるようにしています。",
     "answer": "I try to believe only in the good things from fortune telling.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3dce7380-34d9-438d-88a4-ebee2305f7c3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

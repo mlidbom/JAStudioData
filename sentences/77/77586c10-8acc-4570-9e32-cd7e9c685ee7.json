@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cb6f35428a145334f553e0f2e36843b60e70c5a3ad1f54c6983cad82.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cb6f35428a145334f553e0f2e36843b60e70c5a3ad1f54c6983cad82.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "煎茶"
@@ -156,11 +164,12 @@
     "question": "私の兄はホットケーキに煎茶をかけて食べるんです。",
     "answer": "My big brother pours green leaf tea over pancakes.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "77586c10-8acc-4570-9e32-cd7e9c685ee7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

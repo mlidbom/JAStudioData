@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c2ba4fedc4fc431f6e83c6896752dc6eccfda9a5b623a33fed760e66.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c2ba4fedc4fc431f6e83c6896752dc6eccfda9a5b623a33fed760e66.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "坂"
@@ -128,11 +136,12 @@
     "question": "その寺なら、この坂を上ったところにありますよ。",
     "answer": "That temple stands at the top of this hill.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3d0429a4-b68b-4e09-93fb-7e4283d27796",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

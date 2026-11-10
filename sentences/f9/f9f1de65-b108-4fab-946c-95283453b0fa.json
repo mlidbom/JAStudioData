@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0b1131708c6f2d1be58bf757edb6d51a138251ed62487a2902369829.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0b1131708c6f2d1be58bf757edb6d51a138251ed62487a2902369829.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "存在する"
@@ -233,11 +241,12 @@
     "question": "ワニカニが存在してくれたおかげで、ついに漢字を覚えることができました。",
     "answer": "Thanks to the existence of WaniKani, I was finally able to memorize kanji characters.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f9f1de65-b108-4fab-946c-95283453b0fa",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

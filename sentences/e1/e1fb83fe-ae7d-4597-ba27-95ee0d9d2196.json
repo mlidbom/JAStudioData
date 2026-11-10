@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-90e78c2b017387cfd3e48b753ed591206b978eb7116f05f66c2ae554.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-90e78c2b017387cfd3e48b753ed591206b978eb7116f05f66c2ae554.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "紹介する"
@@ -177,11 +185,12 @@
     "question": "お前にどの娘を紹介するかを選ぶのは難しいよ。",
     "answer": "It’s hard to choose which girl to introduce to you.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e1fb83fe-ae7d-4597-ba27-95ee0d9d2196",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

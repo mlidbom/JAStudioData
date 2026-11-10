@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a4e0fc8d32e0381af61f042d44d4e0fed961b66be5661ecdb3481d2b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a4e0fc8d32e0381af61f042d44d4e0fed961b66be5661ecdb3481d2b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "幕府"
@@ -114,11 +122,12 @@
     "question": "幕府が俺の家族を皆殺しにした。",
     "answer": "The bakufu slaughtered my family.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a0bc3e6f-e25f-4c1a-b7da-57916d1d90a1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

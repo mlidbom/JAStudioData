@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e4ac690dfb98d891641b7d3c5a041a9030e4e8dbba0bdee1e9fed0f3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e4ac690dfb98d891641b7d3c5a041a9030e4e8dbba0bdee1e9fed0f3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "応じる"
@@ -163,11 +171,12 @@
     "question": "先方は、我々の二割りの値下げ要求に応じるでしょうか？",
     "answer": "Do you think they will accept our request for a 20% discount?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6cd5eca3-f6da-4ab4-8057-466e27455a55",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

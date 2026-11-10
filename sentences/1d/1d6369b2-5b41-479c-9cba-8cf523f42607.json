@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5b64a3af9476d879c4f477975f5a44479867dc26b915b7e1c3535a96.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5b64a3af9476d879c4f477975f5a44479867dc26b915b7e1c3535a96.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "求める"
@@ -128,11 +136,12 @@
     "question": "社長交代を求めるメールを送りました。",
     "answer": "I sent an email asking for the replacement of the company president.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1d6369b2-5b41-479c-9cba-8cf523f42607",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c3ae68031c197831d4282911ee442c3336da92caa6f823bfd298c7e4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c3ae68031c197831d4282911ee442c3336da92caa6f823bfd298c7e4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "水星"
@@ -114,11 +122,12 @@
     "question": "水星には大気がありません。",
     "answer": "Mercury does not have an atmosphere.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "86b3cbd0-135c-42dd-8ce6-783a5bbaab52",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

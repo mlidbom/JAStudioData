@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-65c482ba713d4fe94267e98f38185a770f5504ceba1f1d4b6e7bd600.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-65c482ba713d4fe94267e98f38185a770f5504ceba1f1d4b6e7bd600.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "笑い"
@@ -212,11 +220,12 @@
     "question": "もう自分でも何を笑ってるのか分からないけど、ただ笑いが止まらないんです。",
     "answer": "I don't know what I'm laughing at anymore, but I just can't stop laughing.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d54197b0-e960-428b-bb3a-eee4e0e8155a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

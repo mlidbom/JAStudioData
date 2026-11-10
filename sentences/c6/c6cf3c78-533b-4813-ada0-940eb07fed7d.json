@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d6e12d0081e4d05e08639c8419ffcb97f8f44cd3446fb77cbfe44271.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d6e12d0081e4d05e08639c8419ffcb97f8f44cd3446fb77cbfe44271.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "構う"
@@ -191,11 +199,12 @@
     "question": "「こちらの品は百万円ほどお高くなります。」「それでも構わないよ。それを頂くよ。」",
     "answer": "\"This one will cost about a million yen more.\" \"I still don’t mind. I’ll take it.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c6cf3c78-533b-4813-ada0-940eb07fed7d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

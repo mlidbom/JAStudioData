@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2d48d4f82bad51905211eaa96b61dbd982e2ca2a6aa802028762c697.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2d48d4f82bad51905211eaa96b61dbd982e2ca2a6aa802028762c697.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "研究所"
@@ -100,11 +108,12 @@
     "question": "このシャンプーは、アメリカの研究所で、生まれました。",
     "answer": "This shampoo was created at a research institute in the United States.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a65f1d9d-36c6-4981-a352-1a8c7a0371a1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

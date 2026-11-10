@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8618151e6f8a990009ac97a76ef870c3981d75f709ec7f8f76f754a4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8618151e6f8a990009ac97a76ef870c3981d75f709ec7f8f76f754a4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "好き"
@@ -72,11 +80,12 @@
     "question": "ワニカニのこと、好き？",
     "answer": "Do you like WaniKani?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a26f9a74-c340-40ce-b452-6c6fe14ce581",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

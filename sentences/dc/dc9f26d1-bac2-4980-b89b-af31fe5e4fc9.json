@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7181480387916f306fe70f4a33f507d3c0d1a240ba0f2dfbbc096e0d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7181480387916f306fe70f4a33f507d3c0d1a240ba0f2dfbbc096e0d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "治す"
@@ -114,11 +122,12 @@
     "question": "この病気を治すには薬が必要です。",
     "answer": "Medications are needed to cure this disease.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dc9f26d1-bac2-4980-b89b-af31fe5e4fc9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

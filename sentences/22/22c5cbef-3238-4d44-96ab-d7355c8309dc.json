@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4a7fb7b96b4d9b0396423024c7e021d2a9633a0e8acdaac660a0ede6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4a7fb7b96b4d9b0396423024c7e021d2a9633a0e8acdaac660a0ede6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "傾く"
@@ -128,11 +136,12 @@
     "question": "その松の木は、少し南の方向へ傾いています。",
     "answer": "That pine tree leans a bit toward the south.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "22c5cbef-3238-4d44-96ab-d7355c8309dc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

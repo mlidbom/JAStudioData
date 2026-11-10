@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8c271d853f4f3d1ea7c1640f264a062c04d598bd26d9076939159869.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8c271d853f4f3d1ea7c1640f264a062c04d598bd26d9076939159869.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "〜毎に"
@@ -107,11 +115,12 @@
     "question": "今は大体三時間毎にミルクをあげてる。",
     "answer": "Right now I'm giving him formula roughly every three hours.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3ca86797-2958-4bc3-89ff-57551bf9eb46",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

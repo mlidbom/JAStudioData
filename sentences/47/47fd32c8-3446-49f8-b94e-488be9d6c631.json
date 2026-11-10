@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-23f9cc13b81dccd04df25ce2a5b48c365f32d47bea28e035ada5f736.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-23f9cc13b81dccd04df25ce2a5b48c365f32d47bea28e035ada5f736.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "人違い"
@@ -191,11 +199,12 @@
     "question": "妻にボーナスを渡したつもりだったんですが、どうやら人違いだったようです。",
     "answer": "I thought I had given my wife a bonus, but it seems like I made a mistake and gave it to the wrong person.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "47fd32c8-3446-49f8-b94e-488be9d6c631",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

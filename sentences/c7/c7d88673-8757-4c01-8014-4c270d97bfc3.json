@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5446b447d61ad21bbb187b39308eb4bbf93c97a301f105bbcd2c3ec5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5446b447d61ad21bbb187b39308eb4bbf93c97a301f105bbcd2c3ec5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "為替"
@@ -128,11 +136,12 @@
     "question": "ドル円の現在の為替レートは、1ドル=146円25銭です。",
     "answer": "The current exchange rate for USD/JPY is 1 dollar = 146.25 yen.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c7d88673-8757-4c01-8014-4c270d97bfc3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

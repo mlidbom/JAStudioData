@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e3ff1a0c8ed1ae4823d4750f7c642db621e2db90a83881fabbdcf36e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e3ff1a0c8ed1ae4823d4750f7c642db621e2db90a83881fabbdcf36e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "迎え"
@@ -86,11 +94,12 @@
     "question": "駅まで迎えをよこすよ。",
     "answer": "I’ll send someone to meet you at the station.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2d421753-aa3b-4c68-b103-48072cccdacd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

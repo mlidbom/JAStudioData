@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d832c66b4f880434ecacf51441c5ddd8293c2cb7147b1b9c63eba833.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d832c66b4f880434ecacf51441c5ddd8293c2cb7147b1b9c63eba833.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "期間"
@@ -79,11 +87,12 @@
     "question": "今週はテスト期間中です。",
     "answer": "This week is the test period.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f692abaa-d0d0-4748-863d-d5b785ae5375",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

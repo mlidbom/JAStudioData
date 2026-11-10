@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4b6af9219cb501bd19b967c043e220375ce987f197eb8180e6a09221.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4b6af9219cb501bd19b967c043e220375ce987f197eb8180e6a09221.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "太字"
@@ -107,11 +115,12 @@
     "question": "太字ペンでサインして下さい。",
     "answer": "Sign with a bold pen.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "aab23e19-9e1f-4b12-8767-a76a0a3b6796",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

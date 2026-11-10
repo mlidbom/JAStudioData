@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cb6ac4b1989f6291f5b9fbc908994a3f8f10472e878b2c7e0655275f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cb6ac4b1989f6291f5b9fbc908994a3f8f10472e878b2c7e0655275f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "作業"
@@ -86,11 +94,12 @@
     "question": "これからクリーニングの作業をします。",
     "answer": "I will start working on cleaning now.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1129073e-f6be-44cf-9fe3-0e7c474b9acc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

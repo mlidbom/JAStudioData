@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-85cbe526e6c2ea3b5c571533d3408678cc51311f7adaaaa8e754d78f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-85cbe526e6c2ea3b5c571533d3408678cc51311f7adaaaa8e754d78f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "冷凍庫"
@@ -170,11 +178,12 @@
     "question": "冷凍庫の中に怪しいカタマリが入っているんだけど、あれ何？",
     "answer": "There is a mysterious block in our freezer. What is that?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bd30a317-de06-4526-b8de-59e454486f1e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

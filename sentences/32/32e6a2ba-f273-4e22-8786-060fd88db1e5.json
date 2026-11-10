@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-67c370cd59e91ad7e05972183f90ce2edc6ca96b8c57e653faeab13f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-67c370cd59e91ad7e05972183f90ce2edc6ca96b8c57e653faeab13f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "宛名"
@@ -135,11 +143,12 @@
     "question": "顧客の宛名リストを紛失してしまった。",
     "answer": "I lost the list of customer names and addresses.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "32e6a2ba-f273-4e22-8786-060fd88db1e5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1b5878da6f0cad975efc28facee2d613912153f4ce26f27acb4f9ed3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1b5878da6f0cad975efc28facee2d613912153f4ce26f27acb4f9ed3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "囲む"
@@ -128,11 +136,12 @@
     "question": "こうやってみんなで火を囲むのって楽しいね。",
     "answer": "It's fun to gather around the fire like this with everyone, isn't it?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "aeccbdc5-97c6-49de-a720-c283b3b00344",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

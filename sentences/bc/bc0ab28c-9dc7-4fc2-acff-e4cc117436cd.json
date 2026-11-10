@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f54a3f4fc5ae8eeffbd04a16c96c4c001b4274910934fdd513bff33e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f54a3f4fc5ae8eeffbd04a16c96c4c001b4274910934fdd513bff33e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "詰まる"
@@ -93,11 +101,12 @@
     "question": "魚の骨が喉に詰まっちゃった。",
     "answer": "I got a fish bone stuck in my throat.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bc0ab28c-9dc7-4fc2-acff-e4cc117436cd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

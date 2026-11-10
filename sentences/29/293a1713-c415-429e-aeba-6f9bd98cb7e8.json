@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5a38f4772df25cf8e6cad2377cdef9503ac2179b322bf24eb575ce98.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5a38f4772df25cf8e6cad2377cdef9503ac2179b322bf24eb575ce98.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "辛い"
@@ -107,11 +115,12 @@
     "question": "「やばい〜！めっちゃ辛い～！でも、このカレーすっげ〜美味しい！」",
     "answer": "\"Omg! My mouth is on fire, but this curry is sooo good!\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "293a1713-c415-429e-aeba-6f9bd98cb7e8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

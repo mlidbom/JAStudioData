@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9e6c59bd0d065b88e11af27174c30f5a3ddfa64e01e89960dcdd89f3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9e6c59bd0d065b88e11af27174c30f5a3ddfa64e01e89960dcdd89f3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "医療"
@@ -205,11 +213,12 @@
     "question": "日本で医者になりたいので、今は医療用語を勉強しています。",
     "answer": "I want to be a doctor in Japan, so I’m studying medical terminology now.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "303242e1-54ef-4aa9-83e7-292e37b6b6d7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

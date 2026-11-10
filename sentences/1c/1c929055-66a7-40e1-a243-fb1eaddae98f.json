@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f73a2a80574ef0f91ef8a3059395aade302f4d35874c85324e2abc97.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f73a2a80574ef0f91ef8a3059395aade302f4d35874c85324e2abc97.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "喉頭"
@@ -135,11 +143,12 @@
     "question": "喉頭ガンは酒やタバコが原因で起こることが多い。",
     "answer": "Laryngeal cancer is often caused by alcohol and tobacco.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1c929055-66a7-40e1-a243-fb1eaddae98f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

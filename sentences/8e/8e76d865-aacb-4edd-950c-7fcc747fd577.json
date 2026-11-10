@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e0cfacaa71b16a5aef3b67b823bd2e8ab354be248b6ee917be3d592e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e0cfacaa71b16a5aef3b67b823bd2e8ab354be248b6ee917be3d592e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "措辞"
@@ -149,11 +157,12 @@
     "question": "君の詩の措辞が素晴らしいことに感動しました。",
     "answer": "I was impressed that the wording of your poem was so beautiful.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8e76d865-aacb-4edd-950c-7fcc747fd577",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

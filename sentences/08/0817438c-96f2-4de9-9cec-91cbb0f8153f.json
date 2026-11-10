@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-37e989a8b9bd0f0d67863338e299cdf3db3ae44b897e96dc314a74fe.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-37e989a8b9bd0f0d67863338e299cdf3db3ae44b897e96dc314a74fe.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "名前"
@@ -72,11 +80,12 @@
     "question": "私の名前は山田です。",
     "answer": "My name is Yamada.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0817438c-96f2-4de9-9cec-91cbb0f8153f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-30fc9491aa5c198caa4604cacc7f46ae46c0bdb62e6721db845c58a9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-30fc9491aa5c198caa4604cacc7f46ae46c0bdb62e6721db845c58a9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "双"
@@ -205,11 +213,12 @@
     "question": "妹と私は二卵性双生児ですが、外見がすごく似ています。",
     "answer": "My sister and I are fraternal twins, but we look very similar.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "34d10cd7-086d-4fa7-afb9-9d53d081397a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

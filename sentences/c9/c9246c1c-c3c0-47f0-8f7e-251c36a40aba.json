@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-39ac79a2b123d11720c2f9817b56443ff079a7da592fe9d4c1b8a63d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-39ac79a2b123d11720c2f9817b56443ff079a7da592fe9d4c1b8a63d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お礼"
@@ -58,11 +66,12 @@
     "question": "これ、お礼の石です。",
     "answer": "This is a rock to show my gratitude.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c9246c1c-c3c0-47f0-8f7e-251c36a40aba",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

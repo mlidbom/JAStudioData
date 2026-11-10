@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1b01ebbd43a0425e9f832d6eb9ef0b6953b8f750fe742d113d9688b1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1b01ebbd43a0425e9f832d6eb9ef0b6953b8f750fe742d113d9688b1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一ヶ月"
@@ -135,11 +143,12 @@
     "question": "一ヶ月半、日本で学校に行くんです。",
     "answer": "I'll be going to school in Japan for one and a half months.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e4f2592e-3b84-4cbc-a638-27d2704ab4dc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

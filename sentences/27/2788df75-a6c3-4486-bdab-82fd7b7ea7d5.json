@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a17f3363b40a06c3e315449b76b4a1ae4b96b6fb77363c28c4fb8dce.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a17f3363b40a06c3e315449b76b4a1ae4b96b6fb77363c28c4fb8dce.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "王女"
@@ -58,11 +66,12 @@
     "question": "王女はビンゴがすきです。",
     "answer": "The princess likes bingo.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2788df75-a6c3-4486-bdab-82fd7b7ea7d5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

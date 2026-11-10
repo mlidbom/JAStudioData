@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-702282f082f1b2d6e54211bb77e9d81535b3ef556459bbe8e30895f7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-702282f082f1b2d6e54211bb77e9d81535b3ef556459bbe8e30895f7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "億"
@@ -100,11 +108,12 @@
     "question": "私は友達が二億人います。",
     "answer": "I have two hundred million friends.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0d5bdd1d-6d0b-42cb-ae6a-95bb0dbcfea8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

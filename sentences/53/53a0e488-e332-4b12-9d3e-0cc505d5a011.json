@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-012654f48f6ffdd93e6b970615bb08722194c39ae1624d5ca71ef0eb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-012654f48f6ffdd93e6b970615bb08722194c39ae1624d5ca71ef0eb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "泳ぎ"
@@ -65,11 +73,12 @@
     "question": "すばらしい泳ぎでしたよ。",
     "answer": "It was a wonderful swim.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "53a0e488-e332-4b12-9d3e-0cc505d5a011",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

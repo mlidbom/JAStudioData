@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-11ce6a9814fce985252e05899e1aba3d82ea5ea9d16b9b49015d3894.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-11ce6a9814fce985252e05899e1aba3d82ea5ea9d16b9b49015d3894.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "文学"
@@ -79,11 +87,12 @@
     "question": "四月から文学のコースに入ります。",
     "answer": "I'm starting a literature course in April.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "87fba835-f35a-47a1-95d3-79388afdab81",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

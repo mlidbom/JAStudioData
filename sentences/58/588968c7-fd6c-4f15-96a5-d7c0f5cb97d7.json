@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7ee15daef11e7c257a04d9d220c39f0c3429ad85729cb80ff1d9a78d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7ee15daef11e7c257a04d9d220c39f0c3429ad85729cb80ff1d9a78d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一致する"
@@ -177,11 +185,12 @@
     "question": "偽のベーコンに残された指紋は、マミのものと一致しました。",
     "answer": "The fingerprints left on the fake bacon matched Mami’s.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "588968c7-fd6c-4f15-96a5-d7c0f5cb97d7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

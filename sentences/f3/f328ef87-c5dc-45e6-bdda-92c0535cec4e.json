@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-42fa1c8f34d56574afd9dc5c2f734146119c45b81200ae67da35d8f7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-42fa1c8f34d56574afd9dc5c2f734146119c45b81200ae67da35d8f7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "更迭"
@@ -100,11 +108,12 @@
     "question": "監督の更迭が求められている。",
     "answer": "We’re looking for a replacement supervisor.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f328ef87-c5dc-45e6-bdda-92c0535cec4e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7a66c8182c26ea1cce6dcc87e4c8f79415fe17e2b5f886ab00539094.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7a66c8182c26ea1cce6dcc87e4c8f79415fe17e2b5f886ab00539094.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "内"
@@ -121,11 +129,12 @@
     "question": "心の内をメッセージにしました。",
     "answer": "I turned what was in my heart into a message.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e46a5516-26b5-400d-a398-47ea178c6322",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

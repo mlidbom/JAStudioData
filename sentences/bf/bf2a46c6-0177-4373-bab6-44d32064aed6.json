@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fae5a2a8685af28a1c3391e2a9770d86a44f190a5a9019f3a4279bd4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fae5a2a8685af28a1c3391e2a9770d86a44f190a5a9019f3a4279bd4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "貯金"
@@ -114,11 +122,12 @@
     "question": "単刀直入に聞きますが、貯金額っていくらぐらいですか？",
     "answer": "I'll ask directly, how much is in your savings?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bf2a46c6-0177-4373-bab6-44d32064aed6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2e31eeee5a15f08f688db8da1e470ceaaa841447d4a532ed6da2cc29.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2e31eeee5a15f08f688db8da1e470ceaaa841447d4a532ed6da2cc29.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "指輪"
@@ -163,11 +171,12 @@
     "question": "指輪が指から外れなくなってしまいました。",
     "answer": "I can't get this ring off of my finger.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fb8fcd23-3221-40f3-8c24-54808915310c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

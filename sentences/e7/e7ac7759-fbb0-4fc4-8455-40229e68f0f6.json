@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b0dc35894cff12ad79497fdf51f7c294d24ae5415ce25a33be9bcec4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b0dc35894cff12ad79497fdf51f7c294d24ae5415ce25a33be9bcec4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "詩"
@@ -121,11 +129,12 @@
     "question": "詩が大好きで、毎日詩を読んでいます。",
     "answer": "I like poems a lot, so I read them every day.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e7ac7759-fbb0-4fc4-8455-40229e68f0f6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0de9504837bf08c1d02e5f216c05de29ae3c2cdc17c2ffb5a6e70c3f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0de9504837bf08c1d02e5f216c05de29ae3c2cdc17c2ffb5a6e70c3f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "工場"
@@ -261,11 +269,12 @@
     "question": "ワインの工場でケガをしたため、出血に気がつくのが一日後になりました。",
     "answer": "Since I was injured in a wine factory, I only noticed the bleeding a day later.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7bc0c9be-fce7-4c10-becf-915993e02c9f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

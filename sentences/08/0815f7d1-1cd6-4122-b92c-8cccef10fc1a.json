@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2b73a5d23b99de9b412d65a23f65a142cfbc79187574d93b3d32f703.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2b73a5d23b99de9b412d65a23f65a142cfbc79187574d93b3d32f703.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "左利き"
@@ -121,11 +129,12 @@
     "question": "あなたは右利きですか？それとも左利きですか？",
     "answer": "Are you right-handed? Or are you left-handed?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0815f7d1-1cd6-4122-b92c-8cccef10fc1a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

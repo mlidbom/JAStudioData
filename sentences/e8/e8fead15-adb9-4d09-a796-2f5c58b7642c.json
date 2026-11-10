@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d42aa20d721acb1f0654e4c85dbfb682bffad5eebef7f4f476873563.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d42aa20d721acb1f0654e4c85dbfb682bffad5eebef7f4f476873563.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "自愛"
@@ -79,11 +87,12 @@
     "question": "お体ご自愛ください。",
     "answer": "Please take care of yourself.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e8fead15-adb9-4d09-a796-2f5c58b7642c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

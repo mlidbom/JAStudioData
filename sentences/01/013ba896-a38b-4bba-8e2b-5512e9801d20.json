@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3d04f5c635c833d864b3d76917a205930599e1037d9dea4617d71053.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3d04f5c635c833d864b3d76917a205930599e1037d9dea4617d71053.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "全く"
@@ -65,11 +73,12 @@
     "question": "あなたと全く同じ考えです。",
     "answer": "I have the exact same idea as you.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "013ba896-a38b-4bba-8e2b-5512e9801d20",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

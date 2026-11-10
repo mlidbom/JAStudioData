@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ef35268ea99a5a33c723b9f5076efdcd4ac0dc7109159f1951efe48a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ef35268ea99a5a33c723b9f5076efdcd4ac0dc7109159f1951efe48a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "被る"
@@ -184,11 +192,12 @@
     "question": "この仕事では、安全のためにヘルメットを被る必要があります。",
     "answer": "In this job, it's necessary to wear a helmet for safety.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9c04e13c-5b02-47c1-abd1-62fdce65e9d7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1cbe80212c056a36c2cc3857b5e47550d2ec07691b480a59433c613f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1cbe80212c056a36c2cc3857b5e47550d2ec07691b480a59433c613f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "六日"
@@ -135,11 +143,12 @@
     "question": "あなたは四月六日に、どこにいましたか？",
     "answer": "Where were you on April 6th?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e3340bbd-0169-4456-b9d2-40c6b2a70130",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

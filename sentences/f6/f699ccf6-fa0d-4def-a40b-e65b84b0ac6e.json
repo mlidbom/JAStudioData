@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-975a81e1b39d0505495d85325912afbc0e0977d107dc0e6c1cedbfe9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-975a81e1b39d0505495d85325912afbc0e0977d107dc0e6c1cedbfe9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "通す"
@@ -72,11 +80,12 @@
     "question": "ガラスは光を通します。",
     "answer": "Glass lets light pass through it.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f699ccf6-fa0d-4def-a40b-e65b84b0ac6e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

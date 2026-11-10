@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3f9f0280e412dd59b5e458ca3d0f4fb3534a39f2cc179dda8a52ca99.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3f9f0280e412dd59b5e458ca3d0f4fb3534a39f2cc179dda8a52ca99.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [
@@ -103,11 +111,12 @@
     "question": "私はいつも本の序文は飛ばします。",
     "answer": "I usually skip a book’s preface.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "93aa0629-7499-47b7-9a81-31a964f863e1",
   "tags": [
-    "_tts_audio",
     "-::sentence::uses::incorrect-matches",
     "source::wani::current"
   ]

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-838ddbe82b733465aa5a6a51576a7d40956bcd58a87f788b297a26eb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-838ddbe82b733465aa5a6a51576a7d40956bcd58a87f788b297a26eb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "腹が減った"
@@ -156,11 +164,12 @@
     "question": "腹が減ったな。この件については、昼飯を食べながら話さないか？",
     "answer": "I’m hungry. Would you like to continue this over lunch?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3e98cdcf-6975-4449-b5bc-773c5bd255e7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

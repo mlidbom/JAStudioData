@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fe4dc7c90426d05e642a06a2dd3d4566c14d2c46ac40a72c927e4329.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fe4dc7c90426d05e642a06a2dd3d4566c14d2c46ac40a72c927e4329.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "〜台"
@@ -114,11 +122,12 @@
     "question": "バス一台に五十人も入りますか？",
     "answer": "Will fifty people fit in one bus?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a433e0dd-5c97-4ead-927a-0d51122bedbb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

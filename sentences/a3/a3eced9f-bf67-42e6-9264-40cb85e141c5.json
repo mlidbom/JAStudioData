@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d5baed18fb725b24347e7cd2f1e770cd6d42a7f314689a26fbefec2c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d5baed18fb725b24347e7cd2f1e770cd6d42a7f314689a26fbefec2c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "関西"
@@ -205,11 +213,12 @@
     "question": "こいつは関西は完全に初心者だから、俺らがガイドしてやらないとな。",
     "answer": "This guy is a total noob in Kansai, so we’ll have to show him around.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a3eced9f-bf67-42e6-9264-40cb85e141c5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-051d0d5755cf69f7d9416d77c10d5687c413ff561a07098a2b4ced26.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-051d0d5755cf69f7d9416d77c10d5687c413ff561a07098a2b4ced26.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "屋根"
@@ -135,11 +143,12 @@
     "question": "屋根の上にたくさんの鳥が止まっています。",
     "answer": "There are many birds on the roof.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dc1cb8ab-10b0-4be8-9fd9-6f69bb1abd2f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

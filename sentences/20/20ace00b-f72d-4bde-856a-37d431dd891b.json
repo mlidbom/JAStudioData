@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-16bb5104a8c99da4b0aba689cd0ccc7c5423e64c8314e2de3ded849b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-16bb5104a8c99da4b0aba689cd0ccc7c5423e64c8314e2de3ded849b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "伝統"
@@ -121,11 +129,12 @@
     "question": "タイラーが飲んでいるのは、アイルランドの伝統のビールです。",
     "answer": "What Tyler is drinking is a traditional Irish beer.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "20ace00b-f72d-4bde-856a-37d431dd891b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

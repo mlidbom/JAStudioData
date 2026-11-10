@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-790ca7139e47541a410de113998f60e05f5c5ece3ab91571537629ec.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-790ca7139e47541a410de113998f60e05f5c5ece3ab91571537629ec.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "飛行機"
@@ -212,11 +220,12 @@
     "question": "私は飛行機が苦手なので、一生日本に行けることはないでしょう。",
     "answer": "I dislike airplanes, so I would never be able to go to Japan.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1bbc8d79-eeb0-4978-9047-9032ce030bee",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

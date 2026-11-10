@@ -33,9 +33,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-853e1cd3f3bd85c0400d45e09e9f49d17601078a3e25ca26bcd54264.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-853e1cd3f3bd85c0400d45e09e9f49d17601078a3e25ca26bcd54264.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "いえの人",
@@ -45,8 +51,7 @@
   "sentenceCount": 11,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -75,7 +80,9 @@
   "sourceData": {
     "answer": "one's-family/family-member",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "a372534a-2500-4d3a-a80b-dc51dad85ad5",
   "tags": [

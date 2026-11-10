@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fccce4f882b22675b5b95452c02d1e2a6524e23e8f8eb6d0aa5c9eaa.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fccce4f882b22675b5b95452c02d1e2a6524e23e8f8eb6d0aa5c9eaa.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "点ける"
@@ -93,11 +101,12 @@
     "question": "夜は車のヘッドライトを点ける。",
     "answer": "I put the car headlights on at night.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f16f0c0f-a745-4666-9dde-3d65f8cecac5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

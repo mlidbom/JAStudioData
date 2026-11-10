@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f906dbdad9753d10c7dfc62cf0ba64cec607ebb0c18f58e0d2d83eba.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f906dbdad9753d10c7dfc62cf0ba64cec607ebb0c18f58e0d2d83eba.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "気象"
@@ -149,11 +157,12 @@
     "question": "気象予報士と気象学者の違いが説明できますか。",
     "answer": "Can you explain the difference between forecasters and meteorologists?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "71a14973-1d31-443f-b23c-96235e32ce52",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

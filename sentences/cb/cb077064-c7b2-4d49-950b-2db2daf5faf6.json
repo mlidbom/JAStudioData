@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9964f19a60aed395ff2eb5cc93ab7671403e840f0fd17581a223edb5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9964f19a60aed395ff2eb5cc93ab7671403e840f0fd17581a223edb5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "四千"
@@ -86,11 +94,12 @@
     "question": "この山は、およそ四千メートルです。",
     "answer": "This mountain is about 4000 meters tall.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cb077064-c7b2-4d49-950b-2db2daf5faf6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

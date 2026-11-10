@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4efcde00ee9533c3627a9413792dad928ffb6a3790c61953c510c998.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4efcde00ee9533c3627a9413792dad928ffb6a3790c61953c510c998.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "家庭"
@@ -142,11 +150,12 @@
     "question": "家庭のゴミは、ここに出しておいてください。",
     "answer": "Please leave out household waste here.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "95dca23d-e6e4-49c8-a7fd-13cdbc556591",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

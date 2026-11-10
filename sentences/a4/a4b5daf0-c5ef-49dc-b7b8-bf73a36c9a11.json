@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bd8cabed664d2340d3246adcb44eac2929f5e7a5530a1b04492109b3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bd8cabed664d2340d3246adcb44eac2929f5e7a5530a1b04492109b3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "男性"
@@ -121,11 +129,12 @@
     "question": "あの男性の名前を知っていますか。",
     "answer": "Do you know that guy's name?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a4b5daf0-c5ef-49dc-b7b8-bf73a36c9a11",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

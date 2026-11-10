@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-693b3f1a3aab1c8813a2701fe610a40a002564fe178383f70b1647b8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-693b3f1a3aab1c8813a2701fe610a40a002564fe178383f70b1647b8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "謝る"
@@ -163,11 +171,12 @@
     "question": "いや、何でお前が謝るんだよ。謝らなくていいよ。",
     "answer": "No, why are you apologizing? You don't need to apologize.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e53d0036-00aa-4c08-8019-6ddbc8210852",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

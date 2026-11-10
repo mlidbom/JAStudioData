@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d70c2652d537b91fa0c1a222b68ce7597ef9b39068f14708f38e977f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d70c2652d537b91fa0c1a222b68ce7597ef9b39068f14708f38e977f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "終点"
@@ -86,11 +94,12 @@
     "question": "この電車は終点まで走行します。",
     "answer": "This train runs until the last stop.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "eb4e942f-5766-4254-9225-16ab5d9dcbcf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

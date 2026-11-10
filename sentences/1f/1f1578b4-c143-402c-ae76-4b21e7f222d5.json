@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2d843219d102e62d2180030b35837b01b38729ebe3e6f0e625448f9f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2d843219d102e62d2180030b35837b01b38729ebe3e6f0e625448f9f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "教える"
@@ -114,11 +122,12 @@
     "question": "海外生活の仕方を教えて下さい。",
     "answer": "Please tell me how to live abroad.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1f1578b4-c143-402c-ae76-4b21e7f222d5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

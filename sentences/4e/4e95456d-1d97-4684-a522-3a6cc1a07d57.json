@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3e7311e5fde851dcf4ce84b6436352ba6ecb23d46c0cdb16cae4951c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3e7311e5fde851dcf4ce84b6436352ba6ecb23d46c0cdb16cae4951c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鉛毒"
@@ -191,11 +199,12 @@
     "question": "鉛筆には鉛は入っていないので、鉛毒はありません。",
     "answer": "Pencils do not contain lead, so there's no toxicity from them.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4e95456d-1d97-4684-a522-3a6cc1a07d57",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

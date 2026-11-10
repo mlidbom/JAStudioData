@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-99c47fed6c5b4bda9ec08259fda7f2388d059b21b82cf2acc1de2fa7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-99c47fed6c5b4bda9ec08259fda7f2388d059b21b82cf2acc1de2fa7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "憲法"
@@ -100,11 +108,12 @@
     "question": "それって憲法違反じゃないですか？",
     "answer": "Isn't that a violation of the Constitution?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9161ae93-9da4-427c-a26c-4cb331f0842e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

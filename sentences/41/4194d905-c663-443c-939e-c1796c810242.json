@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c15891fbf540546ed8dd35a5ed3f94a0041e91a56bc7004d2260232f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c15891fbf540546ed8dd35a5ed3f94a0041e91a56bc7004d2260232f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "溶岩"
@@ -233,11 +241,12 @@
     "question": "火山が溶岩を吹き出していて危険なので、これ以上近づくことはできません。",
     "answer": "We can’t go any closer because the volcano is spewing out lava and it’s dangerous.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4194d905-c663-443c-939e-c1796c810242",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

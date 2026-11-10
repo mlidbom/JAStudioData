@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9490738eab772ca64c45c2411e2fd14eab548a4cd83b90237b89cf67.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9490738eab772ca64c45c2411e2fd14eab548a4cd83b90237b89cf67.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "回答"
@@ -121,11 +129,12 @@
     "question": "こちらに回答を入力してください。",
     "answer": "Please enter your answer here.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "050b1d9f-62ea-4449-8e62-016091855657",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

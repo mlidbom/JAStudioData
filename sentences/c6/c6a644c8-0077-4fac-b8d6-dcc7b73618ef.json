@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-988c60734f74f15bfb940bf7894ef630a3f2c40a24a2934bdc0af578.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-988c60734f74f15bfb940bf7894ef630a3f2c40a24a2934bdc0af578.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "当たり"
@@ -86,11 +94,12 @@
     "question": "「当たり！」という文字が目に入った。",
     "answer": "The words “You win!” met my eye.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c6a644c8-0077-4fac-b8d6-dcc7b73618ef",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

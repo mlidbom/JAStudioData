@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5a307c16aa721dc3fe3ec6a2c7179b97f1dedb3cb0800ce4a1b729bb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5a307c16aa721dc3fe3ec6a2c7179b97f1dedb3cb0800ce4a1b729bb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "髪の毛"
@@ -303,11 +311,12 @@
     "question": "「ねえ、サーモン。今何してんの？」「髪の毛セットしてるとこ。」「終わったら、ちょっと時間ある？」「無理〜。これが終わったらネイルもしなきゃなの。」",
     "answer": "\"Salmon, what are you doing right now?\" \"I am doing my hair.\" \"After that, do you have time?\" \"Nope. I have to do my nails next.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a7b0818a-8fe8-4cf2-8145-c1c616b79809",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

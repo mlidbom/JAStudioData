@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ca65d74705ef345e37ed87862434fc4cf54261a3e2db2a35c83aa85f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ca65d74705ef345e37ed87862434fc4cf54261a3e2db2a35c83aa85f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "招待する"
@@ -156,11 +164,12 @@
     "question": "ウェディングパーティーには何人ぐらい招待するつもりなの？",
     "answer": "How many people are you planning to invite to the wedding party?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7fb0c2bb-7906-4825-bdae-20730d159078",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

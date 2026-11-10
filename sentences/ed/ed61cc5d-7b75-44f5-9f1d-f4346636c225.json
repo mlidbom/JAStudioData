@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-02f4597565274db9e05dfbffa8e3c9c395aec27469ffea2ac2624e3a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-02f4597565274db9e05dfbffa8e3c9c395aec27469ffea2ac2624e3a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "侵入"
@@ -338,11 +346,12 @@
     "question": "このコンピュータウィルスは、大晦日の夜に時計の針が12時を告げると、何千台ものパソコンに侵入をするんですよ。",
     "answer": "This computer virus is going to penetrate thousands of computers at the stroke of midnight on the night of New Year’s Eve.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ed61cc5d-7b75-44f5-9f1d-f4346636c225",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

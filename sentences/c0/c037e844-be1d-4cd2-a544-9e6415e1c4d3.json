@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-42ba4fb746b61b3c6f4e3f85465cd2fadc827f2fa04ea8ebc9340f71.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-42ba4fb746b61b3c6f4e3f85465cd2fadc827f2fa04ea8ebc9340f71.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "雷雨"
@@ -198,11 +206,12 @@
     "question": "今朝の強烈な雷雨で停電になったので、今はインターネットが使えません。",
     "answer": "The severe thunderstorm this morning caused a power outage, so I can’t use the internet right now.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c037e844-be1d-4cd2-a544-9e6415e1c4d3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

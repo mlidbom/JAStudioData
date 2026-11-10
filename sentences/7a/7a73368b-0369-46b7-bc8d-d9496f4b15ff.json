@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-902d7a0559bc3ed34cbfeb46ab7964db7b83e9740eeabe4f02f1f678.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-902d7a0559bc3ed34cbfeb46ab7964db7b83e9740eeabe4f02f1f678.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "隔月"
@@ -247,11 +255,12 @@
     "question": "日本文化の授業が隔月で開講されるんですが、今月は餅つきをする予定です。",
     "answer": "We have a Japanese culture class every other month and we plan to pound mochi this month.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7a73368b-0369-46b7-bc8d-d9496f4b15ff",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

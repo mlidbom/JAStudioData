@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2294fb9e66ab3324c6a5e437e56ca7eac34d405c81839969a9ac90ab.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2294fb9e66ab3324c6a5e437e56ca7eac34d405c81839969a9ac90ab.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "区分"
@@ -212,11 +220,12 @@
     "question": "これは予算区分の問題なので、私にはどうしようもありません。",
     "answer": "This is a problem of budget classification, so there's nothing I can do.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c7556581-caa3-430e-aa1e-2a4eba113c88",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

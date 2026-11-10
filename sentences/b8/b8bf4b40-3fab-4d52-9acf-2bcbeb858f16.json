@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-66afc5e32e4e5d68c87795cd8ac031d671419f8abe26b7c77a857b70.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-66afc5e32e4e5d68c87795cd8ac031d671419f8abe26b7c77a857b70.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "余震"
@@ -107,11 +115,12 @@
     "question": "その地震の後に、余震が相次ぎました。",
     "answer": "The earthquake was followed by aftershocks.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b8bf4b40-3fab-4d52-9acf-2bcbeb858f16",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

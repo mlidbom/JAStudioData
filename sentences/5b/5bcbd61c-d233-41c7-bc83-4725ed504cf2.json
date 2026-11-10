@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2336d7e3a5d73de26e82e62ec4fd8d31e28b0ea99376a688e71d209d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2336d7e3a5d73de26e82e62ec4fd8d31e28b0ea99376a688e71d209d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "内"
@@ -128,11 +136,12 @@
     "question": "このマスク、内がわはピンクなんです。",
     "answer": "The inside of this mask is pink.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5bcbd61c-d233-41c7-bc83-4725ed504cf2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

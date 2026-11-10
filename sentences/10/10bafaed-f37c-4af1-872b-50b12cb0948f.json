@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bc3650230364b9c4f530b0f56d6aa926eaffc9e55c3e767f941b14bb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bc3650230364b9c4f530b0f56d6aa926eaffc9e55c3e767f941b14bb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "妖怪"
@@ -121,11 +129,12 @@
     "question": "この妖怪はいつも半袖のTシャツを着ています。",
     "answer": "This yokai always wears a short-sleeved T-shirt.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "10bafaed-f37c-4af1-872b-50b12cb0948f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

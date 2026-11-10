@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-816a113a7f2c372830a835cd4a6a0540fd9e06cb66e6713fe3bc0989.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-816a113a7f2c372830a835cd4a6a0540fd9e06cb66e6713fe3bc0989.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "王様"
@@ -93,11 +101,12 @@
     "question": "あの王様の画像、もう見ましたか？",
     "answer": "Have you seen the image of that king yet?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1d485645-2702-4ed4-99cb-222efd4e4c65",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

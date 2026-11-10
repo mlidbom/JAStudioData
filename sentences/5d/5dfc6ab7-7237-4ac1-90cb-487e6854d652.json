@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-14715729fb6db253f6427fb9aad61d5169ab8f30b53802d9714ed4d7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-14715729fb6db253f6427fb9aad61d5169ab8f30b53802d9714ed4d7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "間違える"
@@ -240,11 +248,12 @@
     "question": "間違えて他人の児童手当が私の銀行に振りこまれていたみたいです。",
     "answer": "It seems that someone else's child allowance was deposited into my bank by mistake.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5dfc6ab7-7237-4ac1-90cb-487e6854d652",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

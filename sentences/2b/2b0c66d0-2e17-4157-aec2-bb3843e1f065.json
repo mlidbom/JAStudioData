@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2e71bc8cd2a9c6e9b6b54aedda2f53af821e9867340545fa7dd2c1ac.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2e71bc8cd2a9c6e9b6b54aedda2f53af821e9867340545fa7dd2c1ac.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "斜体"
@@ -142,11 +150,12 @@
     "question": "どうしてこの単語の文字のフォントを斜体に変えたんですか。",
     "answer": "Why did you change this word’s font to italics?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2b0c66d0-2e17-4157-aec2-bb3843e1f065",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0ef0b8c0740287805328b06d5fc832007d07d9361aa292a993b93b6e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0ef0b8c0740287805328b06d5fc832007d07d9361aa292a993b93b6e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "戻す"
@@ -282,11 +290,12 @@
     "question": "「彼にあんなひどいこと言わなければよかったわ。」「そうね。でも、言ってしまったことはもう元には戻せないわ。」",
     "answer": "\"I wish I hadn’t said that horrible thing to him.\" \"Yeah, but once you say something you can’t go back to before.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a64d579b-6a04-4b0b-bd1c-f40523d8fea1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

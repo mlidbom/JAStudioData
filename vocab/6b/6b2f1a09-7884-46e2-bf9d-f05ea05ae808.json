@@ -19,9 +19,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": " [sound:ATTS フフフ (azure microsoft server speech text to speech voice (ja-jp daichineural)).mp3]",
-  "audioG": "",
-  "audioTTS": "",
+  "audio": [
+    {
+      "fileName": "ATTS フフフ (azure microsoft server speech text to speech voice (ja-jp daichineural)).mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "ふふ",
@@ -39,8 +45,7 @@
   "sentenceCount": 5,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -64,11 +69,12 @@
   "sourceData": {
     "answer": "ha-ha-ha/hee-hee-hee",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "6b2f1a09-7884-46e2-bf9d-f05ea05ae808",
   "tags": [
-    "_tts_audio",
     "source::yomitan"
   ]
 }

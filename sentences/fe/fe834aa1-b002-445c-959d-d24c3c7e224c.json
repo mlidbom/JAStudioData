@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-58bf501313f9e19a3189cce0e917710d9450a38cd22c66a332c40af2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-58bf501313f9e19a3189cce0e917710d9450a38cd22c66a332c40af2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "郵便箱"
@@ -205,11 +213,12 @@
     "question": "僕の家の前の表札の横には、郵便箱が一つ取り付けてあった。",
     "answer": "There was one mailbox mounted next to the nameplate in front of my house.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fe834aa1-b002-445c-959d-d24c3c7e224c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

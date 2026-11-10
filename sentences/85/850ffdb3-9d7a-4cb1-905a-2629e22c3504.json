@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6066a642bc50fcabe6f352e030a3802db6e8d67f44c440554137a1f8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6066a642bc50fcabe6f352e030a3802db6e8d67f44c440554137a1f8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "武道"
@@ -156,11 +164,12 @@
     "question": "武道でコウイチと肩をならべる者はいません。",
     "answer": "Koichi has no equal in martial arts.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "850ffdb3-9d7a-4cb1-905a-2629e22c3504",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

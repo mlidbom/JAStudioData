@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-32dda23b3e87e531be93bf69be8b0d4dcea022d86547a0fca6f14893.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-32dda23b3e87e531be93bf69be8b0d4dcea022d86547a0fca6f14893.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "区"
@@ -219,11 +227,12 @@
     "question": "私の家は世田谷区にあります。世田谷区は住みやすいエリアとして知られています。",
     "answer": "My house is located in Setagaya Ward. The Setagaya Ward is known as a comfortable living area.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3bd9c1b6-061d-4979-a191-e87452a818df",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

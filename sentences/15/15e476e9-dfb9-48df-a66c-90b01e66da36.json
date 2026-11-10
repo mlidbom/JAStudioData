@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c34900f912dfd4201933a364be3ab0c824791527bbe1026f1846a3c9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c34900f912dfd4201933a364be3ab0c824791527bbe1026f1846a3c9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "沈滞"
@@ -149,11 +157,12 @@
     "question": "景気の沈滞により、たくさんの労働者が首を切られました。",
     "answer": "A lot of laborers were laid off due to business stagnation.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "15e476e9-dfb9-48df-a66c-90b01e66da36",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

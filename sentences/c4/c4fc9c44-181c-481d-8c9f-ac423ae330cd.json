@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-391ab9fca921e02b15fdcbf86461d4befc8e36e250a5b55e9f1fba8a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-391ab9fca921e02b15fdcbf86461d4befc8e36e250a5b55e9f1fba8a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "急患"
@@ -450,11 +458,12 @@
     "question": "人員不足でごった返しになっていた病院が急患の受け入れを断ったせいで、男性が死亡したそうなんだけど、でもそれって病院だけのせいじゃないよね。",
     "answer": "The understaffed and overcrowded hospital refused to treat the emergency patient and he died, but it’s not all the hospital’s fault.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c4fc9c44-181c-481d-8c9f-ac423ae330cd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

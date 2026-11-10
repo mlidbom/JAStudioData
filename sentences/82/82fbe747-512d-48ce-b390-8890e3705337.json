@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-45b954eabd739a85430bfc61f2ba38608d1065b7abac6cc8e9dd659d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-45b954eabd739a85430bfc61f2ba38608d1065b7abac6cc8e9dd659d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "切れる"
@@ -93,11 +101,12 @@
     "question": "この刀はとても切れる。",
     "answer": "This sword is very sharp.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "82fbe747-512d-48ce-b390-8890e3705337",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -19,9 +19,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": " [sound:ATTS 色づく (azure microsoft server speech text to speech voice (ja-jp daichineural)).mp3]",
-  "audioG": "",
-  "audioTTS": "",
+  "audio": [
+    {
+      "fileName": "ATTS 色づく (azure microsoft server speech text to speech voice (ja-jp daichineural)).mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "色付く",
@@ -31,8 +37,7 @@
   "sentenceCount": 6,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -56,11 +61,12 @@
   "sourceData": {
     "answer": "to: change-color-(esp.-leaves,-fruit,-flowers)-(colour) | turn-crimson-(e.g.-leaves-in-autumn)/begin-to-redden | ripen/grow-ripe",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "89c11114-d0ad-4c95-aff5-61d587ed1687",
   "tags": [
-    "_tts_audio",
     "source::yomitan"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7e980389e3593efa7916beea17a9004761c2c98bde775b71369679fc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7e980389e3593efa7916beea17a9004761c2c98bde775b71369679fc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "郵便箱"
@@ -79,11 +87,12 @@
     "question": "この郵便箱、カメラがついてるよ！",
     "answer": "This mailbox has a camera in it!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "213a3709-8ddc-4933-b7f4-9a9f0b97d6aa",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

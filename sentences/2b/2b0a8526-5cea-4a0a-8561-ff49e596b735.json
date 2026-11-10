@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f4979d823762cf2834defa7ac95a570b1dfb0d6b5999d8626a050f43.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f4979d823762cf2834defa7ac95a570b1dfb0d6b5999d8626a050f43.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "唐揚げ"
@@ -93,11 +101,12 @@
     "question": "唐揚げを三人前頼みました。",
     "answer": "I ordered three servings of karaage.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2b0a8526-5cea-4a0a-8561-ff49e596b735",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

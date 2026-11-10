@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c32cccf7b094a12eb69679097272d36314c803bc8cb0a078f2fa1373.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c32cccf7b094a12eb69679097272d36314c803bc8cb0a078f2fa1373.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "電鉄"
@@ -149,11 +157,12 @@
     "question": "大人になったら、電鉄会社に入社したいです。",
     "answer": "When I grow up, I want to join an electric railway company.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6f0fa36d-c1e4-42e7-995e-f7cb365d48cd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

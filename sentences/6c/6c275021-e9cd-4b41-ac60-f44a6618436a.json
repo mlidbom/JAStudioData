@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9ac4c2852276c865c536ac230fa95cbfb1d758c4e6e60190d7e7ad70.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9ac4c2852276c865c536ac230fa95cbfb1d758c4e6e60190d7e7ad70.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "友人"
@@ -135,11 +143,12 @@
     "question": "友人のハネムーンについてきました。",
     "answer": "I tagged along on my friend's honeymoon.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6c275021-e9cd-4b41-ac60-f44a6618436a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

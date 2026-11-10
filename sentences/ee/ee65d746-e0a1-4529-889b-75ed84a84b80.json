@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-51f0918660d35bd2cbee1690c37faddc7df68ae7e8d0e0e09f30ed3b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-51f0918660d35bd2cbee1690c37faddc7df68ae7e8d0e0e09f30ed3b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "休憩所"
@@ -254,11 +262,12 @@
     "question": "逮捕された男は、休憩所に不法侵入した疑いがかけられていた。",
     "answer": "The man they arrested is suspected of breaking into the rest area.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ee65d746-e0a1-4529-889b-75ed84a84b80",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

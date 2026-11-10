@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c8e5f5395f5d68aa9f765f2f1b76b191f19acd55713fbfc996e278c8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c8e5f5395f5d68aa9f765f2f1b76b191f19acd55713fbfc996e278c8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "気温"
@@ -72,11 +80,12 @@
     "question": "気温が急に下がった。",
     "answer": "The temperature fell suddenly.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bca5c6e1-61a9-4470-9e7c-34bbcdf16c8e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

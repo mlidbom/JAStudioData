@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b9db8d4e16bf2c5ecf5869cfda2c6829882263dd7c6074c53d207001.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b9db8d4e16bf2c5ecf5869cfda2c6829882263dd7c6074c53d207001.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大腸"
@@ -79,11 +87,12 @@
     "question": "大腸がんが見つかりました。",
     "answer": "They found large intestine cancer.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "66879229-4d66-4d7d-a819-97b3fc6fd585",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

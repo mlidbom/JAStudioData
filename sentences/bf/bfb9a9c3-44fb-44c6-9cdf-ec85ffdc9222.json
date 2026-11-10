@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b353c56fb81b84488f9c34de412b81e0277a387c103d53a485b5121d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b353c56fb81b84488f9c34de412b81e0277a387c103d53a485b5121d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "領域"
@@ -135,11 +143,12 @@
     "question": "これはもう、科学の領域ではないんです。",
     "answer": "This is no longer within the realm of science.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bfb9a9c3-44fb-44c6-9cdf-ec85ffdc9222",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

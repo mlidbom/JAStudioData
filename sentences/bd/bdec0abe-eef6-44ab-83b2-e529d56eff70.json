@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-675dbc60c2f1c3f8e71e488704e63a7db8c009547c1973526bc6b760.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-675dbc60c2f1c3f8e71e488704e63a7db8c009547c1973526bc6b760.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "名人"
@@ -205,11 +213,12 @@
     "question": "スキーの名人になるには、どうしたらいいですか？",
     "answer": "What should I do to become an expert skier?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bdec0abe-eef6-44ab-83b2-e529d56eff70",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

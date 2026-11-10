@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-22c6863a0e590f0522544ce6232eebf9ee15d3e1fc879a86eedb3716.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-22c6863a0e590f0522544ce6232eebf9ee15d3e1fc879a86eedb3716.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "感謝"
@@ -184,11 +192,12 @@
     "question": "言葉には出さないけど、親にはいつも感謝しています。",
     "answer": "I never say it out loud, but I'm always grateful to my parents.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "824ddfa7-1c98-4e2c-9920-5af528631115",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

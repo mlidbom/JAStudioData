@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fd87f0988b4e1246f79c8094856911f7ae20ac85ad998c9539fc29f8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fd87f0988b4e1246f79c8094856911f7ae20ac85ad998c9539fc29f8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "運転手"
@@ -233,11 +241,12 @@
     "question": "運転手は大丈夫だったみたいだけど、車は事故でめちゃくちゃになっていたよ。",
     "answer": "The driver seemed okay but his car was totaled in the accident.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7f38d167-6e08-4376-8939-a46c157638c0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

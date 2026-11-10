@@ -29,9 +29,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-07cd00a236d55de1013ee9bc52c4b0a48cf3162842558b7416b2219b.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-07cd00a236d55de1013ee9bc52c4b0a48cf3162842558b7416b2219b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "侮辱をする",
@@ -41,8 +47,7 @@
   "sentenceCount": 2,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -66,7 +71,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "dcbd316a-0bdc-4e86-804d-55be444ea9ef",
   "tags": [

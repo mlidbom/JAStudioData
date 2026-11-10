@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a302dea247e85b0ec28c22e4ed866a1e93c50620024307096f73cae9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a302dea247e85b0ec28c22e4ed866a1e93c50620024307096f73cae9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [
@@ -152,11 +160,12 @@
     "question": "この本の訳者の名前、何て読むか知ってる？",
     "answer": "Do you know how to read the name of this book’s translator?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bd77020d-6294-4a42-8bf0-090c0c1160dc",
   "tags": [
-    "_tts_audio",
     "-::sentence::uses::incorrect-matches",
     "source::wani::current"
   ]

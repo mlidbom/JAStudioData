@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-83f70fc109e905c95d1f0286f6e36034bb557ee313296e3d30a3d43e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-83f70fc109e905c95d1f0286f6e36034bb557ee313296e3d30a3d43e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "縄跳び"
@@ -128,11 +136,12 @@
     "question": "FM802を聞きながら縄跳びをしています。",
     "answer": "I’m skipping rope and listening to FM802.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "518979ef-b2f8-471b-b18e-0992e277e86a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

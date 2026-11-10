@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-da182efe4c4ae581c67de640f0b5c99a04188fed0d8da2a19cdca8f8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-da182efe4c4ae581c67de640f0b5c99a04188fed0d8da2a19cdca8f8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "〜室"
@@ -79,11 +87,12 @@
     "question": "社長室をノックした。",
     "answer": "I knocked on the president's office.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f8f8f9f0-48c0-4e18-81a2-172012709e7f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0d8b281271a9c31534dae999e9159d8a36bf41ba32eb874c95ba3f38.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0d8b281271a9c31534dae999e9159d8a36bf41ba32eb874c95ba3f38.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "甘く見る"
@@ -163,11 +171,12 @@
     "question": "シャツを入れないと、お客さんに甘く見られるかもしれないよ。",
     "answer": "Tuck in your shirt or your client may not take you seriously.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3acf4acc-5d45-43fa-bb50-047eb9831d05",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

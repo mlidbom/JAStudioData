@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9baaed3e32b0120cbc0716354ed5e98b3a218a63c011668794062d82.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9baaed3e32b0120cbc0716354ed5e98b3a218a63c011668794062d82.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "朝"
@@ -121,11 +129,12 @@
     "question": "朝、出社する前にコーヒーとお茶をのみます。",
     "answer": "In the morning before going to work, we have coffee and tea.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8fe25c68-3649-47d9-8ad7-97f1276c93dc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

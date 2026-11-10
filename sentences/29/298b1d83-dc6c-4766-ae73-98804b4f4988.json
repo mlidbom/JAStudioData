@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b3ec94d1d8246d04310197ccf025dc326c9bf2a38cae085da8d3153a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b3ec94d1d8246d04310197ccf025dc326c9bf2a38cae085da8d3153a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "名誉"
@@ -259,11 +267,12 @@
     "question": "あいつは名誉を得ることには興味がないなんて言ってるけど、俺は嘘だと思うね。",
     "answer": "He says he has no interest in gaining prestige, but I think that’s a lie.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "298b1d83-dc6c-4766-ae73-98804b4f4988",
   "tags": [
-    "_tts_audio",
     "-::sentence::uses::incorrect-matches",
     "source::wani::current"
   ]

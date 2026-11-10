@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-afb07521dd69d7b046ba121d4bd2a3716545dca48496856fec4351f5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-afb07521dd69d7b046ba121d4bd2a3716545dca48496856fec4351f5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "数詞"
@@ -135,11 +143,12 @@
     "question": "マイクさんは、どうやって数詞を覚えたんですか？",
     "answer": "How did you memorize numerals, Mike?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "aaccf9d3-29c1-41ce-9635-c5a16a432598",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

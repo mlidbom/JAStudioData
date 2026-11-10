@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-79c469a97c37c18d09e7804ca4d91efeb80ec81ba0fe16d01ea4173b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-79c469a97c37c18d09e7804ca4d91efeb80ec81ba0fe16d01ea4173b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "猿"
@@ -163,11 +171,12 @@
     "question": "その飼育員さんが、猿たちが囲いから出ることを防ぎました。",
     "answer": "That zookeeper kept the monkeys from leaving their enclosure. ",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ae2b3c07-a6ab-4097-8bb6-5c27fb474907",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

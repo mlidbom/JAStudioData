@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5d684dc8dc5bf3d31f1eca897e43f34e634db67ec70876d8eca47b38.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5d684dc8dc5bf3d31f1eca897e43f34e634db67ec70876d8eca47b38.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "書類"
@@ -142,11 +150,12 @@
     "question": "大事な書類なので、ゼッタイに無くさないでくださいね。",
     "answer": "Please do not lose this important document.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "60e55a65-8ea3-4cde-b265-233d5b35eec4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

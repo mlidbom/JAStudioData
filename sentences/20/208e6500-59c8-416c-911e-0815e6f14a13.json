@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f80444a17b490e9b7924480a190b6e68e059468cc7321fd8c8554dfe.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f80444a17b490e9b7924480a190b6e68e059468cc7321fd8c8554dfe.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "温泉"
@@ -100,11 +108,12 @@
     "question": "今週末、友人と温泉旅行に行きます。",
     "answer": "I will go on a hot spring trip with my friends this weekend.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "208e6500-59c8-416c-911e-0815e6f14a13",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

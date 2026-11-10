@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-936cf8b37823146919918ed5779df623caee2e13436c298f1b589a35.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-936cf8b37823146919918ed5779df623caee2e13436c298f1b589a35.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "でくれれば",
@@ -44,8 +50,7 @@
   "sentenceCount": 17,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {
       "yieldLastTokenToOverlappingCompound": "required"
@@ -71,7 +76,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "2b10847b-d0a9-4184-9918-537c2004196a",
   "tags": [

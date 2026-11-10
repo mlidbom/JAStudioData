@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c63b82f530f7a4f514087a6cd4801267bc7549499c88538bfda2a59e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c63b82f530f7a4f514087a6cd4801267bc7549499c88538bfda2a59e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "下痢"
@@ -79,11 +87,12 @@
     "question": "朝から下痢が止まりません。",
     "answer": "The diarrhea hasn’t stopped since morning.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2f90c266-cd95-4871-a012-7598c9fee841",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

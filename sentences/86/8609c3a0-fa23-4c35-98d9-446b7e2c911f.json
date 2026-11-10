@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b68bf4223e99fc49b4acebcf62449152a1d479985efc1dd46d998ceb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b68bf4223e99fc49b4acebcf62449152a1d479985efc1dd46d998ceb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "地下"
@@ -72,11 +80,12 @@
     "question": "その車両は地下に入った。",
     "answer": "The vehicle went underground.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8609c3a0-fa23-4c35-98d9-446b7e2c911f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

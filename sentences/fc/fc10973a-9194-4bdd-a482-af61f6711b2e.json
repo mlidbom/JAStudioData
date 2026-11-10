@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c9757b8ce2e1595d9e901010bf447f7b74dae9fb99f7700a48d7bb6b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c9757b8ce2e1595d9e901010bf447f7b74dae9fb99f7700a48d7bb6b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "事"
@@ -121,11 +129,12 @@
     "question": "その事については、後でまたゆっくり話しませんか。",
     "answer": "Shall we talk about the matter later?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fc10973a-9194-4bdd-a482-af61f6711b2e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

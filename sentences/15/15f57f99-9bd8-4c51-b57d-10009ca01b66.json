@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4a3eeda044fc99eda22846e64b192961c89b6c359106915ed823357a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4a3eeda044fc99eda22846e64b192961c89b6c359106915ed823357a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "翌朝"
@@ -331,11 +339,12 @@
     "question": "申し訳ありませんが、お客様の足つぼマッサージのご予約は、本日の夜9時から翌朝9時30分にご変更されております。",
     "answer": "I’m afraid that your 9:00 p.m. foot-pressure massage has been pushed back to 9:30 tomorrow morning.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "15f57f99-9bd8-4c51-b57d-10009ca01b66",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

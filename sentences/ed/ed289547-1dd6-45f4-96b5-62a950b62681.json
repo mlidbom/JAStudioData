@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3643e230a7d56a20b918d849806d7667cd8c9b1979d8199974c23016.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3643e230a7d56a20b918d849806d7667cd8c9b1979d8199974c23016.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "料理"
@@ -86,11 +94,12 @@
     "question": "料理はほとんど出来ません。",
     "answer": "I can hardly cook.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ed289547-1dd6-45f4-96b5-62a950b62681",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

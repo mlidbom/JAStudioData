@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-22809c7179ebbfa52557a4bdb42b76e44b73c6efc6f09e5ba90373d7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-22809c7179ebbfa52557a4bdb42b76e44b73c6efc6f09e5ba90373d7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "学校"
@@ -72,11 +80,12 @@
     "question": "平日は学校に行きます。",
     "answer": "I go to school on weekdays.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7804cf09-5f4b-4aed-9459-97227c3c44c4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

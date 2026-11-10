@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6f342320994fc9a074266ecb0452785c2f1827ba19fd2e4195a92838.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6f342320994fc9a074266ecb0452785c2f1827ba19fd2e4195a92838.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "取り敢えず",
@@ -87,11 +95,12 @@
     "question": "取り敢えず枝豆とビールをください。",
     "answer": "Edamame and beer for now please.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c1395d07-9de0-4296-b65f-5aed5bf5a887",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

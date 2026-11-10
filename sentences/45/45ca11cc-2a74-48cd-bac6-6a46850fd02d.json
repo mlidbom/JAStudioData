@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-385cebd7573bc04a3bb6bf5e2d96a7ca40f8ff4cebd389739c1c466c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-385cebd7573bc04a3bb6bf5e2d96a7ca40f8ff4cebd389739c1c466c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "早々"
@@ -93,11 +101,12 @@
     "question": "ホテルを出て早々アパートをかりた。",
     "answer": "I started renting an apartment just after leaving the hotel.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "45ca11cc-2a74-48cd-bac6-6a46850fd02d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

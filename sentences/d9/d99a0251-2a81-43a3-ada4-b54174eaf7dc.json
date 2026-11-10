@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ddaee934844abebde11c7d5c5f15a3ed128f2465f190c5a7a28163e3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ddaee934844abebde11c7d5c5f15a3ed128f2465f190c5a7a28163e3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "追い付く"
@@ -135,11 +143,12 @@
     "question": "あと五分くらいで追い付くと思う。",
     "answer": "I think I'll catch up in about five minutes.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d99a0251-2a81-43a3-ada4-b54174eaf7dc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

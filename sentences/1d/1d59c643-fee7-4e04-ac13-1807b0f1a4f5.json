@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b1cbce563da8e65e703f1fbf6e07c001147482779f470dca31b2e3af.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b1cbce563da8e65e703f1fbf6e07c001147482779f470dca31b2e3af.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "改まる"
@@ -149,11 +157,12 @@
     "question": "まさか日本の年号がワニカニに改まる日が来るなんて！",
     "answer": "I never thought that the day would come when the Japanese year would be altered to WaniKani.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1d59c643-fee7-4e04-ac13-1807b0f1a4f5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

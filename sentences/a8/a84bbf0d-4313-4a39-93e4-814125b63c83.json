@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3b938b3248b393afe8cbb01a572f0a5239ed4ae794602fff19b08d5c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3b938b3248b393afe8cbb01a572f0a5239ed4ae794602fff19b08d5c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "降参"
@@ -149,11 +157,12 @@
     "question": "私はまだ降参していません。",
     "answer": "I haven’t given up yet.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a84bbf0d-4313-4a39-93e4-814125b63c83",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

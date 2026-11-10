@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b12fa0a327be0612e6e14af583a8a4a1486684fddef1ec8a18429ae1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b12fa0a327be0612e6e14af583a8a4a1486684fddef1ec8a18429ae1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "品質"
@@ -233,11 +241,12 @@
     "question": "日本製だからといって品質が保証されているかは分からないよ。",
     "answer": "Just because an item’s made in Japan doesn’t mean its quality is guaranteed.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a87d380a-cf23-4087-8fef-100d10b4948c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

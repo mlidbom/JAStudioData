@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-84da8dfaef0496eef5c40c3ccc1efe24495c4bacf8350e7c3ef9b81e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-84da8dfaef0496eef5c40c3ccc1efe24495c4bacf8350e7c3ef9b81e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "酌む"
@@ -79,11 +87,12 @@
     "question": "ヒシャクでタルからお酒を酌んだ。",
     "answer": "I scooped sake out of the barrel with a ladle.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bd5ba21a-007e-47c6-b9de-05350ef94725",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

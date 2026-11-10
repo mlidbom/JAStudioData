@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a2c304ab85164c72cc717ad52e626e11f4611ed473eeca4c1311d3fa.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a2c304ab85164c72cc717ad52e626e11f4611ed473eeca4c1311d3fa.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "等号"
@@ -219,11 +227,12 @@
     "question": "コウイチは等号の上と下の線が同じ長さじゃないと気分が悪くなる。",
     "answer": "Koichi feels sick if the top and bottom lines of an equal sign are not the same length.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "82c3ca1c-b44c-4774-91bf-30711544b6f7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

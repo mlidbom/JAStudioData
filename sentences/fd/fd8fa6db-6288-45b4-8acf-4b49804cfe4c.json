@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7b753836898408980743d1d2323f6b33b85543fb583af3d9b6c22aa3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7b753836898408980743d1d2323f6b33b85543fb583af3d9b6c22aa3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "伸ばす"
@@ -226,11 +234,12 @@
     "question": "祖母は死ぬ間際、私の顔に手を伸ばし、「愛してるよ」と言ってくれました。",
     "answer": "My grandmother reached her hands up to my face and told me \"I love you,\" right before she passed away.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fd8fa6db-6288-45b4-8acf-4b49804cfe4c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -37,9 +37,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-63c0a0c225e03bce29a8bf239b561d07c1bc868002601bb661d67c02.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-63c0a0c225e03bce29a8bf239b561d07c1bc868002601bb661d67c02.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "んですから",
@@ -57,8 +63,7 @@
   "sentenceCount": 0,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [
@@ -84,7 +89,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "6f8d085b-9bc9-4672-8a56-58e08d4ae021",
   "tags": [

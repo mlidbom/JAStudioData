@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ecaabfe6fc3931d18e83a47bd71d1da53a7dfc56782824f9e104d093.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ecaabfe6fc3931d18e83a47bd71d1da53a7dfc56782824f9e104d093.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "集まり"
@@ -114,11 +122,12 @@
     "question": "今日は研究室の集まりがある。",
     "answer": "There’s a get-together with people from the lab today.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c9964dbd-a901-4863-93b6-39653526b734",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

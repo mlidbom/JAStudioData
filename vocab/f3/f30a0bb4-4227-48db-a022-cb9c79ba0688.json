@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-ba00f466961a2def26dc921850d3bf7d45406422d9d71223ec6e510b.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-ba00f466961a2def26dc921850d3bf7d45406422d9d71223ec6e510b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "ぐらいに",
@@ -40,8 +46,7 @@
   "sentenceCount": 13,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {
       "yieldLastTokenToOverlappingCompound": "required"
@@ -67,7 +72,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "f30a0bb4-4227-48db-a022-cb9c79ba0688",
   "tags": [

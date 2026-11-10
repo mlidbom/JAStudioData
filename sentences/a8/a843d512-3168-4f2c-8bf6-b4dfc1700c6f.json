@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b5f9204039efb7851a11162417f73731c63f71de70dd869c97f77e68.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b5f9204039efb7851a11162417f73731c63f71de70dd869c97f77e68.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "誕生日"
@@ -296,11 +304,12 @@
     "question": "私だけワニカニの誕生日会に呼んでもらえなくて、無視された気分になった。",
     "answer": "I was the only one not invited to WaniKani's birthday party, so I felt left out.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a843d512-3168-4f2c-8bf6-b4dfc1700c6f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d69300c5fd4c9b380343e18a32060eea8ec03385c2b8a5e68902b769.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d69300c5fd4c9b380343e18a32060eea8ec03385c2b8a5e68902b769.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "早い"
@@ -65,11 +73,12 @@
     "question": "一日早いけど、おめでとう！",
     "answer": "Congratulations, even though it's a day early!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "40ec35da-e473-4576-9bde-1ce659f21fdd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

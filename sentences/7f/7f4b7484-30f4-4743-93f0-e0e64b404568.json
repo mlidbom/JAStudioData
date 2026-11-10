@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-53eddc50cc7685319d457b755b6f259af0854ba501990d56e0f2c9fa.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-53eddc50cc7685319d457b755b6f259af0854ba501990d56e0f2c9fa.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "任意"
@@ -107,11 +115,12 @@
     "question": "任意の八ケタの数字を選んでください。",
     "answer": "Please choose any 8-digit number.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7f4b7484-30f4-4743-93f0-e0e64b404568",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

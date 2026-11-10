@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6eccfedd98f8303cbde2b87228d56e0cf6ab0bc2c2e832788c7bab1f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6eccfedd98f8303cbde2b87228d56e0cf6ab0bc2c2e832788c7bab1f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "二台"
@@ -121,11 +129,12 @@
     "question": "わたしのデスクにはモニターがニ台あります。",
     "answer": "There are two monitors on my desk.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6725b13f-e6d7-42e0-ad5e-9fb165b482f6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9f014376dd85939726b10e6e9b10b953e535ca63b0cf8963d57111fd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9f014376dd85939726b10e6e9b10b953e535ca63b0cf8963d57111fd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "理解"
@@ -191,11 +199,12 @@
     "question": "愛してるよ、ソファー。お前だけはオレのことを理解してくれる。",
     "answer": "I love you, sofa. Only you understand me.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c2add3df-1d29-4485-bf1b-c02f5b71dd0d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

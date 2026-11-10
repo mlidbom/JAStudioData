@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e989b4d292440c44995c0b3fe26f1d084bc36c0f2f002ff6a75497e9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e989b4d292440c44995c0b3fe26f1d084bc36c0f2f002ff6a75497e9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "失敗"
@@ -233,11 +241,12 @@
     "question": "あの彼がプレゼンで失敗するとは思ってもみませんでした。",
     "answer": "I never thought that he would fail in that presentation.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2cc8c633-45ab-453d-896d-18d082edd90e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

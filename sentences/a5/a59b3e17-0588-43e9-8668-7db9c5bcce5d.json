@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4916e15a42c3abf6b8d4314f67fea878f170561ef98456d4f668ceca.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4916e15a42c3abf6b8d4314f67fea878f170561ef98456d4f668ceca.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "斜め"
@@ -219,11 +227,12 @@
     "question": "水平な横線を引くように言ったのに、ちょっと斜めになっています。",
     "answer": "I told him to draw a horizontal line, but it’s slightly diagonal.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a59b3e17-0588-43e9-8668-7db9c5bcce5d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

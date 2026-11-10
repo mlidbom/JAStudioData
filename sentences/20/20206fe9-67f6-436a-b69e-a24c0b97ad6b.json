@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bb6931b4b9e779bae90e4e8418a1baecb9d6aa2a8bd32d5ab4bdf89b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bb6931b4b9e779bae90e4e8418a1baecb9d6aa2a8bd32d5ab4bdf89b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "気"
@@ -107,11 +115,12 @@
     "question": "今日のフライトも、気をつけてね。",
     "answer": "Take care on today's flight, too.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "20206fe9-67f6-436a-b69e-a24c0b97ad6b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

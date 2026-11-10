@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3f8fa130a5f94aa53cd58db6e7da7bc1caa5ff55c7f879e2dae800ee.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3f8fa130a5f94aa53cd58db6e7da7bc1caa5ff55c7f879e2dae800ee.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "育つ"
@@ -79,11 +87,12 @@
     "question": "このサボテン、元気に育ってるね。",
     "answer": "This cactus is growing well.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "83016368-56c7-4afb-a72a-095ad3056d8f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

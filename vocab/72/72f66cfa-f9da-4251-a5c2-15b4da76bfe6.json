@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "[sound:hypertts-b30d6e3e76b5e3411fa0bb9e7edc691388d22bee3d41a2c454082154.mp3]",
-  "audioG": "",
-  "audioTTS": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b30d6e3e76b5e3411fa0bb9e7edc691388d22bee3d41a2c454082154.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "苦勞をする",
@@ -48,8 +54,7 @@
   "sentenceCount": 11,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {
       "yieldLastTokenToOverlappingCompound": "forbidden"
@@ -75,7 +80,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "72f66cfa-f9da-4251-a5c2-15b4da76bfe6",
   "tags": [

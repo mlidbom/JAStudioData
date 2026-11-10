@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4755d82a2f981054b1d18b22246d2571003fc9fc992d1fcdd42a3f32.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4755d82a2f981054b1d18b22246d2571003fc9fc992d1fcdd42a3f32.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "ゆで卵"
@@ -205,11 +213,12 @@
     "question": "僕が君のゆで卵を盗んだと思っているのなら、とんだお門違いだよ。",
     "answer": "If you think I stole your boiled egg, you’re barking up the wrong tree.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bfeabd20-2f3d-47f1-abde-03673fe31df8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

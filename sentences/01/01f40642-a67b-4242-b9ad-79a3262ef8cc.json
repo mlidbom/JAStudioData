@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e9d7a25a882d27f3053048df8c6581bf7f12b542127cc7e1bf23947d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e9d7a25a882d27f3053048df8c6581bf7f12b542127cc7e1bf23947d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "歌詞"
@@ -142,11 +150,12 @@
     "question": "ここから歌詞が思い出せないんだよね。",
     "answer": "I can't remember the lyrics from here.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "01f40642-a67b-4242-b9ad-79a3262ef8cc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

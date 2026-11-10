@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9558629b8ebbf9bf3032c203688eb25bb7183b319a480a81d2f15bea.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9558629b8ebbf9bf3032c203688eb25bb7183b319a480a81d2f15bea.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "天国"
@@ -121,11 +129,12 @@
     "question": "これは、天国にいる母へのメッセージです。",
     "answer": "This is a message to my mother in heaven.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6bda8ae2-b5c0-47c6-9694-812d96da6d12",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

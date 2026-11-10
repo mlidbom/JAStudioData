@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5c33a2bf09aa428ade2085e5f162af7794e557322e400d10bd4c9c30.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5c33a2bf09aa428ade2085e5f162af7794e557322e400d10bd4c9c30.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "林"
@@ -100,11 +108,12 @@
     "question": "あの林にはログハウスがたくさんあります。",
     "answer": "There are many log houses in that forest.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d6b49520-213a-4404-acdd-e13ecd605cee",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

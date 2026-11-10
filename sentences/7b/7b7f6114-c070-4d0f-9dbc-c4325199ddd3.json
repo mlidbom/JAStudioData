@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2e6f7aa14a151fd95b5b4d5433140a8d4e9db9c684c30b6520110ab7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2e6f7aa14a151fd95b5b4d5433140a8d4e9db9c684c30b6520110ab7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "回数券"
@@ -142,11 +150,12 @@
     "question": "電車の回数券は金券ショップでも買えますよ。",
     "answer": "You can also buy a book of train tickets from a ticket outlet.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7b7f6114-c070-4d0f-9dbc-c4325199ddd3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

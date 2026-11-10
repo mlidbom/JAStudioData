@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4c872957d855d4efd8f9e4fd26d0b181ab3aba00c837a521a1915788.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4c872957d855d4efd8f9e4fd26d0b181ab3aba00c837a521a1915788.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "即座"
@@ -128,11 +136,12 @@
     "question": "即座の結果は期待しないでください。",
     "answer": "Please don’t expect immediate results.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "be486b6c-8bc8-4406-83f8-7ab57dbc90c0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

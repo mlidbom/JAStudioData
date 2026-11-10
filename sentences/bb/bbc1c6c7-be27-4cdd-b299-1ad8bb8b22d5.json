@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4c19943025a1d2237d6195e2cfaf93fb96658a10d05caf6c0714fe48.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4c19943025a1d2237d6195e2cfaf93fb96658a10d05caf6c0714fe48.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "名所"
@@ -93,11 +101,12 @@
     "question": "東京タワーは、日本の名所の一つです。",
     "answer": "Tokyo Tower is one of Japan's famous places.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bbc1c6c7-be27-4cdd-b299-1ad8bb8b22d5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

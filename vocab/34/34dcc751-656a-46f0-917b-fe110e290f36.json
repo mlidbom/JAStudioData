@@ -29,9 +29,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-19983a4da5ab293b35fa93d8e9e03be30cda93fbaf28693ea2b954ca.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-19983a4da5ab293b35fa93d8e9e03be30cda93fbaf28693ea2b954ca.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "生産をする",
@@ -41,8 +47,7 @@
   "sentenceCount": 1,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -66,7 +71,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "34dcc751-656a-46f0-917b-fe110e290f36",
   "tags": [

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2af165fb9b8c5b224083d4e4652dee1bdd13eb78e02d87ed312f4183.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2af165fb9b8c5b224083d4e4652dee1bdd13eb78e02d87ed312f4183.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "燃え付く"
@@ -100,11 +108,12 @@
     "question": "タバコから燃え付いた火がやっと消えました。",
     "answer": "The fire that started from the cigarette has finally gone out.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b9459568-9c41-4353-b37d-3e91d0516087",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

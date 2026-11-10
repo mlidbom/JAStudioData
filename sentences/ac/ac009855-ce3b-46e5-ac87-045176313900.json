@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-891c56ab87faaa366a6594d15447f9645b71de0aeb7334ca23c1cdb8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-891c56ab87faaa366a6594d15447f9645b71de0aeb7334ca23c1cdb8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "出獄"
@@ -177,11 +185,12 @@
     "question": "出獄した日に万引きしてまた警察に逮捕されました。",
     "answer": "The day I got out of prison, I was arrested by the police again for shoplifting.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ac009855-ce3b-46e5-ac87-045176313900",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-54e82f2f552c0004edece0bf7c1c02b2e14a3d95078b60c7920a5e4a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-54e82f2f552c0004edece0bf7c1c02b2e14a3d95078b60c7920a5e4a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一"
@@ -44,11 +52,12 @@
     "question": "レベル一です。",
     "answer": "It's level 1.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ca95fe3c-d54b-47db-a1c3-92b822082b32",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

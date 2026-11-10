@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7ccb3fc947e5d999798a3684b7301fd420e8cf41ecb6d87eec61a71f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7ccb3fc947e5d999798a3684b7301fd420e8cf41ecb6d87eec61a71f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "教室"
@@ -128,11 +136,12 @@
     "question": "今日は、マフィンを作るための教室に行きます。",
     "answer": "Today, I'm going to the class to make muffins.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1fbe2a90-4da7-4873-bbb5-5e2d3856c43f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

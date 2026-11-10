@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d0d3b60086279b8893d96a848c685334ba3bd2b1ec7f80a982e67735.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d0d3b60086279b8893d96a848c685334ba3bd2b1ec7f80a982e67735.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "便利"
@@ -177,11 +185,12 @@
     "question": "便利なアイテムを知っていたらぜひ教えて下さい。",
     "answer": "If you know of any useful items, please let me know.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8b0a8138-37ea-42ea-91e6-5db3d17831cb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

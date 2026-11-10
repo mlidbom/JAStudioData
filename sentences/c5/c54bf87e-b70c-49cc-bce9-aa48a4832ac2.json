@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9d2851d801e5b03d1f92b1428de7027c77d57ef67e0b1bebe72ee922.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9d2851d801e5b03d1f92b1428de7027c77d57ef67e0b1bebe72ee922.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "勢力"
@@ -121,11 +129,12 @@
     "question": "台風の勢力は、夜にかけて次第に弱まっていきました。",
     "answer": "The typhoon's strength gradually weakened over night.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c54bf87e-b70c-49cc-bce9-aa48a4832ac2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

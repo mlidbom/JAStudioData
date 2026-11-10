@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f1a7b06ef3f9eb537b80e6db0214d6708a0e97cf5b9b50101bdb9e25.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f1a7b06ef3f9eb537b80e6db0214d6708a0e97cf5b9b50101bdb9e25.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "腕"
@@ -135,11 +143,12 @@
     "question": "腕の力がなさすぎて荷物が運べない。",
     "answer": "I’ve got too little arm strength to carry the luggage.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "431b0ca8-92a4-4041-a852-aa2b0e81b449",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

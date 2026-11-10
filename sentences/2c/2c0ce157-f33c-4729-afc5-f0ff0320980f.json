@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b068204ffd39f6c117b9e81e09cb3d26f4464af754f52a5269a55340.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b068204ffd39f6c117b9e81e09cb3d26f4464af754f52a5269a55340.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "〜間"
@@ -135,11 +143,12 @@
     "question": "三分間だけ、トイレにいさせてくれませんか？",
     "answer": "Can you let me be in the bathroom for only three minutes?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2c0ce157-f33c-4729-afc5-f0ff0320980f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

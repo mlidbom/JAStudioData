@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6b1995c9d5bb665aab4ea244ae720e92d582d04a4d44d3895d648826.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6b1995c9d5bb665aab4ea244ae720e92d582d04a4d44d3895d648826.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "明日"
@@ -135,11 +143,12 @@
     "question": "明日は、町民の人々とのお茶会があります。",
     "answer": "Tomorrow, there will be a tea party with the townspeople.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "32155a9b-ec49-4a7e-9867-538b514f93d3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

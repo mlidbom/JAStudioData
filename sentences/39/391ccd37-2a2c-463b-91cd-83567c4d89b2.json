@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-436c7e8c2b6bf818a0a64c9059babc7eed591bc3056885cbfe27bdc7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-436c7e8c2b6bf818a0a64c9059babc7eed591bc3056885cbfe27bdc7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "六"
@@ -142,11 +150,12 @@
     "question": "なんで六メートルの大きなソファがいるんですか？",
     "answer": "Why do you need a giant six-meter sofa?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "391ccd37-2a2c-463b-91cd-83567c4d89b2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

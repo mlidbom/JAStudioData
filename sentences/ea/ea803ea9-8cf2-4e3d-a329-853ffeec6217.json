@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3f7bbecce8a16b80d925c35ad04423f5a29ea16892f76d8db8f68a5b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3f7bbecce8a16b80d925c35ad04423f5a29ea16892f76d8db8f68a5b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "考慮"
@@ -212,11 +220,12 @@
     "question": "私の家族ではなく自分の家族のことを考慮してください。",
     "answer": "Please consider your own family instead of mine.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ea803ea9-8cf2-4e3d-a329-853ffeec6217",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-288742ea80bb34ea8d87965c17352c845a8cf5ac52b294ace3ba74e1.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-288742ea80bb34ea8d87965c17352c845a8cf5ac52b294ace3ba74e1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "呼捨てにする",
@@ -40,8 +46,7 @@
   "sentenceCount": 4,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -65,7 +70,9 @@
   "sourceData": {
     "answer": "to{?}{address-(someone)-without-using-a-suffix-such-as-\"-san\"-or-\"-chan\"/refer-to-(someone)-without-a-title-suffix}",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "258c3f26-f9e2-4c07-8994-c6e4bf89c8c1",
   "tags": [

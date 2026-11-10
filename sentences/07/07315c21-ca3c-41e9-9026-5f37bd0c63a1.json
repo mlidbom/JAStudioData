@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f17b447bd053679f571a5bcf0f573c43d8461d03ccfab7de0ec661e3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f17b447bd053679f571a5bcf0f573c43d8461d03ccfab7de0ec661e3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "世辞",
@@ -171,11 +179,12 @@
     "question": "コウイチは心にもないお世辞を言うのが下手です。",
     "answer": "Koichi is not good at giving insincere compliments.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "07315c21-ca3c-41e9-9026-5f37bd0c63a1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

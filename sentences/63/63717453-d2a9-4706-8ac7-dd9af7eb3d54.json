@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7d185e13bd38bb4ec284fd5313e40f0133e0904ba49bf0559644c9d2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7d185e13bd38bb4ec284fd5313e40f0133e0904ba49bf0559644c9d2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "胃"
@@ -79,11 +87,12 @@
     "question": "ストレスで、胃がキリキリします。",
     "answer": "My stomach aches from stress.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "63717453-d2a9-4706-8ac7-dd9af7eb3d54",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

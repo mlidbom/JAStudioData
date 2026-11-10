@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a42246cb775ff6f16cdd58f5953191fda0b336959c3735d0854298e3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a42246cb775ff6f16cdd58f5953191fda0b336959c3735d0854298e3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "乗り場"
@@ -72,11 +80,12 @@
     "question": "ゴンドラ乗り場はどこですか？",
     "answer": "Where is the gondola terminal?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6f083476-4882-4448-93df-79de8c08a68d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

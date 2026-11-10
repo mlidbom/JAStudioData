@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0c1fee7a8e4d71510b766e36d354932d795a3d1f393663a629492cbf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0c1fee7a8e4d71510b766e36d354932d795a3d1f393663a629492cbf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "潜る"
@@ -156,11 +164,12 @@
     "question": "モグラが土の下に潜って行くところを見ました。",
     "answer": "I saw a mole going underground.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "235da06c-14ee-4a59-8647-5bc632237323",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

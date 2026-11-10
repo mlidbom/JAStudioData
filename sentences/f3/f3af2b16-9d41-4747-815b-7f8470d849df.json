@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c977a06921cca5a888a3516fd3c64fe7220b063d35c205064eaa1e7c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c977a06921cca5a888a3516fd3c64fe7220b063d35c205064eaa1e7c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "降車"
@@ -191,11 +199,12 @@
     "question": "「あのジェットコースター、どうだった？」「すっごく良かったから、降車した瞬間にゲロっちゃったよ。」",
     "answer": "\"What did you think of that roller coaster?\" \"It was so intense that I threw up right after getting off.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f3af2b16-9d41-4747-815b-7f8470d849df",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

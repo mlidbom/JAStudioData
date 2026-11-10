@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b87998b06b13ffd0a9cc24e4a9d401e7844649919c4497b1d6957dfa.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b87998b06b13ffd0a9cc24e4a9d401e7844649919c4497b1d6957dfa.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "会議室"
@@ -142,11 +150,12 @@
     "question": "この会議室にはプロジェクターとホワイトボードがあります。",
     "answer": "This meeting room has a projector and whiteboard.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8af2ac97-cfc8-48df-87bd-ecfc0c2877b7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

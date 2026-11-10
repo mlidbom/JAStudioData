@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3fa0d1ead741b481f93959ed07f99da0f1d63ef9de2525ffd3cee577.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3fa0d1ead741b481f93959ed07f99da0f1d63ef9de2525ffd3cee577.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "通り"
@@ -163,11 +171,12 @@
     "question": "東京には、「竹下通り」という名の通りがあって、中学生や高校生に人気です。",
     "answer": "There is a street called \"Takeshita Street\" in Tokyo, which is popular with junior high and high school students.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8da1c2dd-8da2-4239-b12a-05045886d0c7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

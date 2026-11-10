@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-886c582ae38ab16adef83cca35c6e6ea2c5170f29dd91431df435014.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-886c582ae38ab16adef83cca35c6e6ea2c5170f29dd91431df435014.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "襟"
@@ -93,11 +101,12 @@
     "question": "襟が曲がっていますよ。",
     "answer": "Your collar is twisted.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5be1f857-a5d5-4570-b4cc-2c6d6dc67d31",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-23abac318364858f0b9a4caa05133c62ede9df57d519190967458dbe.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-23abac318364858f0b9a4caa05133c62ede9df57d519190967458dbe.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "降る"
@@ -98,11 +106,12 @@
     "question": "雪が降ってきたよ。",
     "answer": "It's snowing.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ed904d85-cecc-4183-b4df-e9228d4ece17",
   "tags": [
-    "_tts_audio",
     "-::sentence::uses::incorrect-matches",
     "source::wani::current"
   ]

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9fc92130674fa7500e259686fc3d5aea836fd674f9961a0f0cb5cfe0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9fc92130674fa7500e259686fc3d5aea836fd674f9961a0f0cb5cfe0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "建築"
@@ -163,11 +171,12 @@
     "question": "その建築物は市のランドマークになっています。",
     "answer": "That building has become a landmark of the city.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0b3d7635-c756-444f-b08c-4bccabd44a60",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

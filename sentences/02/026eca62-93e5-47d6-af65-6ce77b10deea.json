@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bd044c8beb02891ad9f5234b335b1d4810d7e74c1d48ce11db25ae1d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bd044c8beb02891ad9f5234b335b1d4810d7e74c1d48ce11db25ae1d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "理屈"
@@ -121,11 +129,12 @@
     "question": "ホッケーは理屈抜きで好きなんです。",
     "answer": "I like hockey without reason.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "026eca62-93e5-47d6-af65-6ce77b10deea",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

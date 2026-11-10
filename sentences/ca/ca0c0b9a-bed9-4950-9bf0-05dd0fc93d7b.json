@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ca80853a1eef5aa90f87712a301843140b51b07ec8b913c8f4391c98.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ca80853a1eef5aa90f87712a301843140b51b07ec8b913c8f4391c98.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鏡"
@@ -107,11 +115,12 @@
     "question": "こんなところに手鏡が落ちてる。なんでだろう。",
     "answer": "A hand mirror is lying here. I wonder why.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ca0c0b9a-bed9-4950-9bf0-05dd0fc93d7b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

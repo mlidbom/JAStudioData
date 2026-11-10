@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a9b9772444b4774e6e4b74dae524dbc0debf17fa859e4e9456031a6a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a9b9772444b4774e6e4b74dae524dbc0debf17fa859e4e9456031a6a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "運ぶ"
@@ -149,11 +157,12 @@
     "question": "えっ、一人で三つのスーツケースを運んだんですか？",
     "answer": "What? Did you carry all three suitcases by yourself?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "292454e1-5a46-45ae-bdd3-d30f862ce08f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

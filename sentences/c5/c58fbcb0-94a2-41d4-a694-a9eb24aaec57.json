@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f5979145923250729f9825de82b6bfcd1702229f6824e5a0be41fd11.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f5979145923250729f9825de82b6bfcd1702229f6824e5a0be41fd11.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "煙い"
@@ -121,11 +129,12 @@
     "question": "花火が煙くて、むせてしまいました。",
     "answer": "The smoky fireworks made me cough.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c58fbcb0-94a2-41d4-a694-a9eb24aaec57",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

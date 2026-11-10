@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cd82d08c3ee33cedfa0f9c0b61b74340826138730ca7100e49b444ce.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cd82d08c3ee33cedfa0f9c0b61b74340826138730ca7100e49b444ce.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "運ぶ"
@@ -100,11 +108,12 @@
     "question": "お茶を、お客さんの部屋に運びました。",
     "answer": "I brought tea to the customer's room.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dc640ec7-ad49-4647-a178-682c20904074",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

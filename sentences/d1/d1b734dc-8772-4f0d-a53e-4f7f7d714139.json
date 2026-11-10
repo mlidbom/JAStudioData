@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fb99559e059ceb0f8e02a96c9e916e88104c6d51588ac206cfbb1efb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fb99559e059ceb0f8e02a96c9e916e88104c6d51588ac206cfbb1efb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "予め"
@@ -128,11 +136,12 @@
     "question": "予めフライト前日にオンラインでチェックインしておきました。",
     "answer": "I checked in online on the day before the flight.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d1b734dc-8772-4f0d-a53e-4f7f7d714139",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

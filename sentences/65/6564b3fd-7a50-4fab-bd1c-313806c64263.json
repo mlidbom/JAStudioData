@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9bf7c649a5b3f698754c496ee353fa13ee2c66362d42b0f60e209ece.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9bf7c649a5b3f698754c496ee353fa13ee2c66362d42b0f60e209ece.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -91,11 +99,12 @@
     "question": "高尚な趣味をお持ちなんですね。",
     "answer": "You have such refined tastes.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6564b3fd-7a50-4fab-bd1c-313806c64263",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

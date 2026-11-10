@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ace66369c6164fb1b0f4da36cb8ddb491d15a2c55ac257ab371bf67c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ace66369c6164fb1b0f4da36cb8ddb491d15a2c55ac257ab371bf67c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "進む"
@@ -79,11 +87,12 @@
     "question": "プロジェクトは進んでますか？",
     "answer": "Is the project moving forward?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "44c25c9b-9c27-4eeb-9e06-ed88b9766073",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

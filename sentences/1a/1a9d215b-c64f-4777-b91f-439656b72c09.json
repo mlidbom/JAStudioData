@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d9880065eff70cab2272ffa350a7a7a3e74c78a97b878e4726984038.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d9880065eff70cab2272ffa350a7a7a3e74c78a97b878e4726984038.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "売る"
@@ -128,11 +136,12 @@
     "question": "道に絵を売る人がいました。",
     "answer": "There was a person selling pictures on the street.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1a9d215b-c64f-4777-b91f-439656b72c09",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

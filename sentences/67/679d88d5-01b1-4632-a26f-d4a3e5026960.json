@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5c0c0f21d6cd9e53068fc1ea6511af412df0aa258caa70367180f85e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5c0c0f21d6cd9e53068fc1ea6511af412df0aa258caa70367180f85e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "生涯"
@@ -79,11 +87,12 @@
     "question": "生涯ずっと独身なんて嫌だよう。",
     "answer": "I don’t want to stay single my whole life.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "679d88d5-01b1-4632-a26f-d4a3e5026960",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

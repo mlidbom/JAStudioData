@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cf7cffef93167befb46c9f27c91d86b64fe4f21e2507df9cd9087acc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cf7cffef93167befb46c9f27c91d86b64fe4f21e2507df9cd9087acc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "独り言"
@@ -163,11 +171,12 @@
     "question": "母は、独り言を言ってるのを近所の人に聞かれて赤面した。",
     "answer": "My mother blushed when neighbors heard her talking to herself.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "aa9e5b99-80c5-4ff1-bb8e-875bd2e71f35",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6f47fbb150f0a0e4f1650c71248f0d8e874903bab3792f289777fd2a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6f47fbb150f0a0e4f1650c71248f0d8e874903bab3792f289777fd2a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "国王"
@@ -114,11 +122,12 @@
     "question": "日本には国王がいません。",
     "answer": "There is no king in Japan.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "47fb4cc7-ef12-4f96-b154-66f08fc4939e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

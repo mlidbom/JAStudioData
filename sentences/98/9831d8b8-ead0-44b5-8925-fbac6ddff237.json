@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7b9e34cb1f83266d948cca80e2ece0eda884182c36f2a723c7b26469.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7b9e34cb1f83266d948cca80e2ece0eda884182c36f2a723c7b26469.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "陽気"
@@ -100,11 +108,12 @@
     "question": "コウイチ君は本当に陽気な男の子ですね。",
     "answer": "Koichi is a really cheerful boy.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9831d8b8-ead0-44b5-8925-fbac6ddff237",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

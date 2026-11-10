@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7332030d13958024705fc1b6c176d836cd2a390c7a3d3c9ce6ad1f39.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7332030d13958024705fc1b6c176d836cd2a390c7a3d3c9ce6ad1f39.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "雄犬"
@@ -226,11 +234,12 @@
     "question": "脱走していた雄犬が、先程無事に保護されました｡",
     "answer": "The male dog that had escaped has just been safely captured.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c3bfb5ff-83ea-489e-8c59-30ae044638be",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

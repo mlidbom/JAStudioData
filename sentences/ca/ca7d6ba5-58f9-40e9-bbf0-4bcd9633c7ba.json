@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-655aec0293941403c9d72e4b408b4dfdb43404c9b9c478ac8806f386.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-655aec0293941403c9d72e4b408b4dfdb43404c9b9c478ac8806f386.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "外れ"
@@ -205,11 +213,12 @@
     "question": "「当たりが出ると、もう一本」とかかれたアイスを買ったが、全部外れだった。",
     "answer": "I bought some ice cream that had, \"If you hit, you get another\" written on them, but they were all misses.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ca7d6ba5-58f9-40e9-bbf0-4bcd9633c7ba",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

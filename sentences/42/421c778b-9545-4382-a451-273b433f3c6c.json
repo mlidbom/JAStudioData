@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e8483dde8b6271b29e7e00776cec3f4166265d2fae41399753bb2204.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e8483dde8b6271b29e7e00776cec3f4166265d2fae41399753bb2204.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "終える"
@@ -135,11 +143,12 @@
     "question": "ほとんどの魚は水中で一生を終える。",
     "answer": "Most fish spend their entire life in water.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "421c778b-9545-4382-a451-273b433f3c6c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f24528ecb0b627eeda3011f65ab58dbb9c535cc7dd38ebc1eedd10e9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f24528ecb0b627eeda3011f65ab58dbb9c535cc7dd38ebc1eedd10e9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "濁す"
@@ -114,11 +122,12 @@
     "question": "核心をついた質問に、社長は言葉を濁した。",
     "answer": "At the heart of the problem, the company president was vague.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5f50b2f7-484b-4769-9729-01b0503c1712",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

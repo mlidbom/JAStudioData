@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-00659022f6a3db9aa8d71f18ed39f511b28bfb8a038e952309ea78fe.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-00659022f6a3db9aa8d71f18ed39f511b28bfb8a038e952309ea78fe.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "挨拶"
@@ -142,11 +150,12 @@
     "question": "近くにいたので、挨拶しに来ました。",
     "answer": "I was in the area, so I came by to say hi.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3fa07ef9-f291-4ae1-a07d-d76c25f6d3fb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

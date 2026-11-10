@@ -19,9 +19,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": " [sound:ATTS ああいう (azure microsoft server speech text to speech voice (ja-jp daichineural)).mp3]",
-  "audioG": "",
-  "audioTTS": "",
+  "audio": [
+    {
+      "fileName": "ATTS ああいう (azure microsoft server speech text to speech voice (ja-jp daichineural)).mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "ああ言う",
@@ -31,8 +37,7 @@
   "sentenceCount": 9,
   "technicalNotes": "",
   "references": "<a href=\"https://www.youtube.com/watch?v=xLkY6whr7T4&amp;list=PLg9uYxuZf8x_A-vcqqyOFZu06WlhnypWj&amp;index=23\">Directional Words: Cure Dolly</a>&nbsp;#&nbsp;<a href=\"https://www.youtube.com/watch?v=uSJukXcyccw&amp;list=PLg9uYxuZf8x_A-vcqqyOFZu06WlhnypWj&amp;index=26\">Like/Hearsay :Cure Dolly</a>",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -56,11 +61,12 @@
   "sourceData": {
     "answer": "that-sort-of/like-that",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "a552fe9d-1212-4c6f-bd9f-1b360e8aae0d",
   "tags": [
-    "_tts_audio",
     "source::yomitan"
   ]
 }

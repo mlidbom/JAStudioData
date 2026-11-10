@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-82f67b38bef6f69280b3fedd84dc070aa0b8382a407d63576d3083cc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-82f67b38bef6f69280b3fedd84dc070aa0b8382a407d63576d3083cc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "不透明"
@@ -128,11 +136,12 @@
     "question": "不透明な窓がある女子の更衣室です。",
     "answer": "This is the girls locker room, which has opaque windows.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3f6b0ad8-b2f6-4d23-9e2e-ee16946db587",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

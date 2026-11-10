@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-378c6120b0f7783a4da4171b6f6651059963397ae0e783c11fa1eeeb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-378c6120b0f7783a4da4171b6f6651059963397ae0e783c11fa1eeeb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "悲しむ"
@@ -142,11 +150,12 @@
     "question": "彼女は愛するペットが亡くなってとても悲しんでいます。",
     "answer": "She was very saddened by the loss of her beloved pet.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "21717db7-2b9d-437e-88ff-abc83d6ca903",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

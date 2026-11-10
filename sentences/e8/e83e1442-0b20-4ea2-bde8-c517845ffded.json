@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a84e9b3d4f2f780175fb04ae897ace340802b0fcc91f3832b3104547.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a84e9b3d4f2f780175fb04ae897ace340802b0fcc91f3832b3104547.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "現象"
@@ -135,11 +143,12 @@
     "question": "これは、科学的には説明できない現象です。",
     "answer": "This is a phenomenon that cannot be explained scientifically.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e83e1442-0b20-4ea2-bde8-c517845ffded",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

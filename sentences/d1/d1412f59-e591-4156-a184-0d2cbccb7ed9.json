@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4ef6d2c86451eb270de0f46c660c50b8e053422f16bab3072b699214.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4ef6d2c86451eb270de0f46c660c50b8e053422f16bab3072b699214.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "目次"
@@ -184,11 +192,12 @@
     "question": "この本全部読まないとだめ？目次だけ読むってことは無理かな？",
     "answer": "Do I have to read this whole book? Can’t I just read the table of contents?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d1412f59-e591-4156-a184-0d2cbccb7ed9",
   "tags": [
-    "_tts_audio",
     "source::wani::removed"
   ]
 }

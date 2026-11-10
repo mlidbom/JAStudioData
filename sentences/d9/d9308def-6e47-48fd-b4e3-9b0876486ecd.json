@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c1ba990e569ca37330bb8715fcef7b5fbad3f9f524ac23cf069d25c3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c1ba990e569ca37330bb8715fcef7b5fbad3f9f524ac23cf069d25c3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "地区"
@@ -142,11 +150,12 @@
     "question": "彼は、去年の大会で地区の代表に選ばれた選手です。",
     "answer": "He is the player who was chosen as the representative of the district in last year's tournament.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d9308def-6e47-48fd-b4e3-9b0876486ecd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

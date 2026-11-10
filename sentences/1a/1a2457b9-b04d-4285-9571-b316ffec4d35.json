@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8e6eb5773ca1d5fa47aaf49c2949dcf851fdbf56177beced17d9c111.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8e6eb5773ca1d5fa47aaf49c2949dcf851fdbf56177beced17d9c111.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "終点"
@@ -149,11 +157,12 @@
     "question": "このシカゴ発のアムトラックの終点の駅は何て言う名前ですか。",
     "answer": "What's the name of the last stop on the Amtrak leaving from Chicago?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1a2457b9-b04d-4285-9571-b316ffec4d35",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

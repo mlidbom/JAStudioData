@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-195974680be395b42f9b5d98d6d8fd05d62a8edc2c6ac718d314159a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-195974680be395b42f9b5d98d6d8fd05d62a8edc2c6ac718d314159a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "不便"
@@ -191,11 +199,12 @@
     "question": "もし不便なことがあればすぐにフロントデスクに言ってくださいね。",
     "answer": "If there is any inconvenience, let the front desk know immediately.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1f757519-d81c-4777-b185-cf2200cf445d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

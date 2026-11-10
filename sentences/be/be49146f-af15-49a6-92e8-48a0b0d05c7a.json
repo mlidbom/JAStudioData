@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4e7e9ec9269db264467a8f62f08671ed2be94f81c7902c6c87fc47fe.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4e7e9ec9269db264467a8f62f08671ed2be94f81c7902c6c87fc47fe.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "日焼け"
@@ -177,11 +185,12 @@
     "question": "日焼け止めクリームを忘れたせいで、日焼けで真っ赤になった。",
     "answer": "Because I forgot to apply sunscreen, I got sunburnt and turned completely red.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "be49146f-af15-49a6-92e8-48a0b0d05c7a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

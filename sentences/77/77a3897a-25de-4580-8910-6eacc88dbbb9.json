@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-de23dab87b56735b33f299d94bbc326095ae3aabd502fe2eb5ed32d2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-de23dab87b56735b33f299d94bbc326095ae3aabd502fe2eb5ed32d2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "ゴミ箱"
@@ -65,11 +73,12 @@
     "question": "ゴミ箱はどこですか？",
     "answer": "Where is the trash can?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "77a3897a-25de-4580-8910-6eacc88dbbb9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

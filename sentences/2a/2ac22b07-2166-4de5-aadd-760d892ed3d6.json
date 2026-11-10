@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-82016a553d180e3a838afacf14ee279ce0f0c0376a67e6db11122f99.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-82016a553d180e3a838afacf14ee279ce0f0c0376a67e6db11122f99.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "走り回る"
@@ -142,11 +150,12 @@
     "question": "社長は今日も会社の中で走り回っています。",
     "answer": "The president is running around in the company today as usual.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2ac22b07-2166-4de5-aadd-760d892ed3d6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

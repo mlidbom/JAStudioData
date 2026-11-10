@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cd4ca6b5df683316e930707f92ef0120e388c637758f587f82beaa5e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cd4ca6b5df683316e930707f92ef0120e388c637758f587f82beaa5e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "焼き肉"
@@ -198,11 +206,12 @@
     "question": "私が特にイライラするのは、焼き肉をクチャクチャ音を立てて食べる人です。",
     "answer": "I find it really irritating when people chew yakiniku loudly.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9c9593e6-b106-4edb-84f2-54db6dbbb96d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-713ddc48019f57276b8bd31cfd3351aca2ebeb6fecd9708835301f40.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-713ddc48019f57276b8bd31cfd3351aca2ebeb6fecd9708835301f40.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "元"
@@ -114,11 +122,12 @@
     "question": "元のデータに正して下さいね。",
     "answer": "Please correct it to the original data.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e374f3f2-a474-4e7d-b530-88d60fcbc22f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

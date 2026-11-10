@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f4b8f49fb0a4b3f96967000abebdc436ff7e5a42099e25a3acb81a72.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f4b8f49fb0a4b3f96967000abebdc436ff7e5a42099e25a3acb81a72.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "建築家"
@@ -135,11 +143,12 @@
     "question": "こちらはフランス人建築家のジュール・レスカスが建築した建物です。",
     "answer": "This building was built by French architect Jules Lescas.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "beb3d1a6-31a4-42a6-be54-8908a6e3a781",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

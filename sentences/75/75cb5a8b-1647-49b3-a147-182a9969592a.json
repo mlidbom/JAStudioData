@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cf235b78ac66704c8c11c95cc8d5d8332c7fc123e4510eaa855c385c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cf235b78ac66704c8c11c95cc8d5d8332c7fc123e4510eaa855c385c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "載せる"
@@ -205,11 +213,12 @@
     "question": "同意なしに住所や電話番号をリストに載せるなんて、今時ありえないです。",
     "answer": "It's not acceptable nowadays to put someone's address and phone number on the list without consent.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "75cb5a8b-1647-49b3-a147-182a9969592a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

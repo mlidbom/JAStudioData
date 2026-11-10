@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-66379b081c337a94d85037e077530e4f2af6e17262d63ce67ae61309.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-66379b081c337a94d85037e077530e4f2af6e17262d63ce67ae61309.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "駅員"
@@ -149,11 +157,12 @@
     "question": "スペイン語が話せる駅員さんはいますか？",
     "answer": "Is there a station attendant who speaks Spanish?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ceff875b-470a-475e-9cd3-db17515a8cb0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d2ec0944af4320becea3009cb53aca6be983d8a655024b5b707f73fa.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d2ec0944af4320becea3009cb53aca6be983d8a655024b5b707f73fa.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "人気"
@@ -79,11 +87,12 @@
     "question": "今、人気の本はこれです。",
     "answer": "This is a popular book now.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0cedbfe7-1346-446c-a741-7788b3a0f6f8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

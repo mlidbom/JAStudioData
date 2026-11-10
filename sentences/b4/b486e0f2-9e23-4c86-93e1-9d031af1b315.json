@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-231e2e9767cc7c4c6876340a3349744988a735b9249fe5ce15f64f35.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-231e2e9767cc7c4c6876340a3349744988a735b9249fe5ce15f64f35.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "焼き芋"
@@ -79,11 +87,12 @@
     "question": "私は焼き芋が好きです。",
     "answer": "I like baked potatoes.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b486e0f2-9e23-4c86-93e1-9d031af1b315",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

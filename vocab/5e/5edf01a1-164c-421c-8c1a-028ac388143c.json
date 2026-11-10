@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-e6c083891a86f71d6f3f72673942bcad02dbcc04741f6888d9c3fb99.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-e6c083891a86f71d6f3f72673942bcad02dbcc04741f6888d9c3fb99.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "どん引きする",
@@ -48,8 +54,7 @@
   "sentenceCount": 0,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -73,7 +78,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "5edf01a1-164c-421c-8c1a-028ac388143c",
   "tags": [

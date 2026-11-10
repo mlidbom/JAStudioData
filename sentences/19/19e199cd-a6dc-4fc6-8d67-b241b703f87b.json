@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6cf7350661062c36694239179cf89a63de550b85444a3ac4c1d73a99.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6cf7350661062c36694239179cf89a63de550b85444a3ac4c1d73a99.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お菓子"
@@ -149,11 +157,12 @@
     "question": "お菓子屋さんに行って、ケーキを買ってきてちょうだいな。",
     "answer": "Can you go to a pastry shop and buy a cake?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "19e199cd-a6dc-4fc6-8d67-b241b703f87b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

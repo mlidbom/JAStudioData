@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-75b14a6b2a5d33c0acf9ecf28b9c9e4b7bf1c6d8b9b93c23cce0a5c5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-75b14a6b2a5d33c0acf9ecf28b9c9e4b7bf1c6d8b9b93c23cce0a5c5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "遠視"
@@ -128,11 +136,12 @@
     "question": "遠視なので、メガネが必要なんです。",
     "answer": "I am farsighted, so I need glasses.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c256a237-2c72-4c6c-98ee-59278c7f94ed",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

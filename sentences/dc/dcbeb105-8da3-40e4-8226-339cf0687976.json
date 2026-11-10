@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-728ac1b81bfde9f032b5f9df6cff03635f6bc4d68d661c1d2b21a7bf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-728ac1b81bfde9f032b5f9df6cff03635f6bc4d68d661c1d2b21a7bf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "合図"
@@ -86,11 +94,12 @@
     "question": "それがスタートの合図でした。",
     "answer": "That was the signal to start.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dcbeb105-8da3-40e4-8226-339cf0687976",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

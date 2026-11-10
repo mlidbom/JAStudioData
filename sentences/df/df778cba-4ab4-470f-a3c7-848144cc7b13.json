@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dd12433b2a769a6f8194a61d698805fdcabcacd291b5a31aa43531d5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dd12433b2a769a6f8194a61d698805fdcabcacd291b5a31aa43531d5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "残り"
@@ -100,11 +108,12 @@
     "question": "さあ、残り時間は5分を切りました。",
     "answer": "Well, we have less than five minutes left now.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "df778cba-4ab4-470f-a3c7-848144cc7b13",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

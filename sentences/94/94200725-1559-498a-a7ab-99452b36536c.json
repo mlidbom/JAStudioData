@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-eeb3af9f2cfc5c8ed6aa6e2578e887f39d11e0041ad05a623572e5aa.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-eeb3af9f2cfc5c8ed6aa6e2578e887f39d11e0041ad05a623572e5aa.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "任務"
@@ -121,11 +129,12 @@
     "question": "美味しい混ぜご飯を作ることが、あなたの任務です。",
     "answer": "Your task is to make a delicious mixed rice dish.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "94200725-1559-498a-a7ab-99452b36536c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

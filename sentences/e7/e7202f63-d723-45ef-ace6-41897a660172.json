@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c6b18087d813740ad888f22513e24ba9c24c9ba02f4d19c7b72bdebc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c6b18087d813740ad888f22513e24ba9c24c9ba02f4d19c7b72bdebc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "疾走"
@@ -156,11 +164,12 @@
     "question": "少年は、駅の構内を全力疾走していた。",
     "answer": "The boys sprinted around the station.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e7202f63-d723-45ef-ace6-41897a660172",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0ec1d7537d3cf8d72ee2783dd38a1ffe0f98f70b1386d763e00cbd8f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0ec1d7537d3cf8d72ee2783dd38a1ffe0f98f70b1386d763e00cbd8f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "和室"
@@ -163,11 +171,12 @@
     "question": "姉の家には、お茶を飲むための和室があります。",
     "answer": "My sister's house has a Japanese-style room for drinking tea in it.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e20f1994-0915-4694-ab18-1c89da8e479b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

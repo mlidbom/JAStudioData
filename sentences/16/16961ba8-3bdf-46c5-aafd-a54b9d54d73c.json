@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b30d44373f94484d2a4c54f76a3e6186e45163018908d264a45b7e2a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b30d44373f94484d2a4c54f76a3e6186e45163018908d264a45b7e2a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "入れる"
@@ -121,11 +129,12 @@
     "question": "ボランティアの会に入れて下さい。",
     "answer": "Please let me join the volunteer meeting.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "16961ba8-3bdf-46c5-aafd-a54b9d54d73c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

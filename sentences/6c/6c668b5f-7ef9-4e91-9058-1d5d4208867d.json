@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fd7def89a5d1ef2ad029032e5a8f40d75ff6333972c0f15ac8144aa4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fd7def89a5d1ef2ad029032e5a8f40d75ff6333972c0f15ac8144aa4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -147,11 +155,12 @@
     "question": "南口から出るとすぐにお茶の店があります。",
     "answer": "As soon as you get out of the south exit, there is a tea shop.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6c668b5f-7ef9-4e91-9058-1d5d4208867d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

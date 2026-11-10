@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-eb9cb2cc9721f0b9b9a3d5f2cc4af6738bd540408d21ad3599f0073e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-eb9cb2cc9721f0b9b9a3d5f2cc4af6738bd540408d21ad3599f0073e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "直行"
@@ -72,11 +80,12 @@
     "question": "後でトイレに直行した。",
     "answer": "I went straight to the toilet afterwards.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b50c2b66-591f-44b7-b8e9-22a72b8a2aed",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

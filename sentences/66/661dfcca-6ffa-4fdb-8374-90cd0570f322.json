@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-db4bfe555f54b57320e5df409c2635c50bb8bc65c0d2fdc7cb21c7fa.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-db4bfe555f54b57320e5df409c2635c50bb8bc65c0d2fdc7cb21c7fa.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "亡くなる"
@@ -128,11 +136,12 @@
     "question": "姉は、亡くなる前に「宝くじ...」と言いました。",
     "answer": "My sister said \"the lottery...\" before her death.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "661dfcca-6ffa-4fdb-8374-90cd0570f322",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

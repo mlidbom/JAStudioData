@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3a29df43cb47c10b4b2648d74272af281a072fff66f6bf0ccda1aa43.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3a29df43cb47c10b4b2648d74272af281a072fff66f6bf0ccda1aa43.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "百"
@@ -107,11 +115,12 @@
     "question": "小さいころ、ジュースは一つ百円でした。",
     "answer": "When I was little, juice was one hundred yen.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b81062e6-ab9d-421b-a708-9f5ce3a606c5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

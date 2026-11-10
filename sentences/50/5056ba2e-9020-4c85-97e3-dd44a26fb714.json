@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f9cc4decf2040294b927d2d176494652598623c41c05d6104c7655c2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f9cc4decf2040294b927d2d176494652598623c41c05d6104c7655c2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "捜査"
@@ -142,11 +150,12 @@
     "question": "捜査により、犯人のアリバイが偽物だと判明しました。",
     "answer": "The investigation revealed that the suspect's alibi was false.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5056ba2e-9020-4c85-97e3-dd44a26fb714",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

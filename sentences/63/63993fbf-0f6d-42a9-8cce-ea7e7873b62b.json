@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2f36ae335ff6ca8d999130e83d14bf8e64fc81f94521fb4c1bb8257c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2f36ae335ff6ca8d999130e83d14bf8e64fc81f94521fb4c1bb8257c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "走る"
@@ -114,11 +122,12 @@
     "question": "町の北を走るバスがあります。",
     "answer": "There is a bus that runs north of town.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "63993fbf-0f6d-42a9-8cce-ea7e7873b62b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

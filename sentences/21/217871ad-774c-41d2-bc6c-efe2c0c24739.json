@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-89d71c0fd3a5389ee9145845d5263ae224d9e7be5ddcd5a2fa353e65.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-89d71c0fd3a5389ee9145845d5263ae224d9e7be5ddcd5a2fa353e65.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "足"
@@ -86,11 +94,12 @@
     "question": "足にタトゥーがある。",
     "answer": "I have a tattoo on my leg.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "217871ad-774c-41d2-bc6c-efe2c0c24739",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

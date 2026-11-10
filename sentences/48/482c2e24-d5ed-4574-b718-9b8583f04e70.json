@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7a32cce6cd52fc0097d681cffc52cd23f2e6ec21fefe06b91f0a8256.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7a32cce6cd52fc0097d681cffc52cd23f2e6ec21fefe06b91f0a8256.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "発酵"
@@ -163,11 +171,12 @@
     "question": "ワインの甘みを残して発酵を止める方法を教えてください。",
     "answer": "Please teach me how to keep the sweetness in wine and stop fermentation.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "482c2e24-d5ed-4574-b718-9b8583f04e70",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

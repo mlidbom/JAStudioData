@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a37ca3aae4b1cd0d70771a81c952f39191ba656e9e460a84d6fa30e3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a37ca3aae4b1cd0d70771a81c952f39191ba656e9e460a84d6fa30e3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "英会話"
@@ -128,11 +136,12 @@
     "question": "まさか。また英会話のテストに落ちちゃったよ。ショックすぎる。",
     "answer": "Oh no, I can’t believe I failed another English conversation test. I’m so shocked.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2d9fb7e8-a951-4ff0-92db-58df561bfa63",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a6e2775be7a078d9036e41e09619cacf4ba923e558e50a207cccb417.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a6e2775be7a078d9036e41e09619cacf4ba923e558e50a207cccb417.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "感銘"
@@ -156,11 +164,12 @@
     "question": "私達は彼のピアノの演奏に深く感銘を受けました。",
     "answer": "We were deeply impressed by his piano performance.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7e8e2b17-6fd0-4741-b925-5b21b831bd1b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

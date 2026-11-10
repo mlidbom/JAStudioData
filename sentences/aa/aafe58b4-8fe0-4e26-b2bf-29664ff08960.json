@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4c62531127a84cfdbd5c3110b97c0f4d6afb9955d1d72207e8395fd9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4c62531127a84cfdbd5c3110b97c0f4d6afb9955d1d72207e8395fd9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "脊髄"
@@ -142,11 +150,12 @@
     "question": "事故で脊髄に傷がついてしまったのです。",
     "answer": "My spinal cord was damaged in the accident.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "aafe58b4-8fe0-4e26-b2bf-29664ff08960",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8015add887560b70f31247d5a8ef2d124e496a83ce6d69abcab0cd82.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8015add887560b70f31247d5a8ef2d124e496a83ce6d69abcab0cd82.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一時"
@@ -107,11 +115,12 @@
     "question": "一時までにメールをいただけますか？",
     "answer": "Can you email me by one o'clock?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "822adca4-a01b-48c9-992c-1780509ae062",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-917b9a1852c52e90340c099343b2d03cd300e818f3a5edc4e88142b5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-917b9a1852c52e90340c099343b2d03cd300e818f3a5edc4e88142b5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "穀物"
@@ -149,11 +157,12 @@
     "question": "このスープには五種類の穀物が入っています。",
     "answer": "There are five types of grains in this soup.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fc7a53ab-72c1-4578-80df-818484da2f0c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

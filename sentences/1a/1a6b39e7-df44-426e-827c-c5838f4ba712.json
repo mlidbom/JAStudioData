@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-be6d9ec077a5d8817cddd9f61b8d4e79719c0cb9d63db49ab1cb3cf7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-be6d9ec077a5d8817cddd9f61b8d4e79719c0cb9d63db49ab1cb3cf7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "祝日"
@@ -100,11 +108,12 @@
     "question": "今度の祝日の予定、もう立てた？",
     "answer": "Have you made a plan for the next holiday already?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1a6b39e7-df44-426e-827c-c5838f4ba712",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

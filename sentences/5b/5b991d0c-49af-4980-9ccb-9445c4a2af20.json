@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2256f82ae497d9d24c966c2b95019c13876ed0b362ec08034958d33b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2256f82ae497d9d24c966c2b95019c13876ed0b362ec08034958d33b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "小麦粉"
@@ -135,11 +143,12 @@
     "question": "うわっ最悪。さっき買った高級小麦粉、電車に忘れちゃった。",
     "answer": "Oh no. I left the expensive flour I just bought on the train.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5b991d0c-49af-4980-9ccb-9445c4a2af20",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

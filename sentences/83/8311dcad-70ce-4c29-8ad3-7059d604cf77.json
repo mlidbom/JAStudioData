@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-afcd8f377ad046b1f8e73a70264565f394a665e0c56881558f1b1997.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-afcd8f377ad046b1f8e73a70264565f394a665e0c56881558f1b1997.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "明治"
@@ -114,11 +122,12 @@
     "question": "明治文学についての作文を書いています。",
     "answer": "I'm writing an essay about Meiji literature.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8311dcad-70ce-4c29-8ad3-7059d604cf77",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

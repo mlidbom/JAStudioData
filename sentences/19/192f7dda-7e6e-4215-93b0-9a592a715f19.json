@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dcdf7c030134626a703f30809bcfe96dbbec65a294e356511f4c4cb7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dcdf7c030134626a703f30809bcfe96dbbec65a294e356511f4c4cb7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "気象庁"
@@ -219,11 +227,12 @@
     "question": "やっと気象庁に電話が繋がったと思ったら、切られたんだよ。ありえなくね？",
     "answer": "I thought I finally got my call through to the weather agency, but they hung up on me. Unbelievable.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "192f7dda-7e6e-4215-93b0-9a592a715f19",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8d33a869b596dcf1626e70c12d23d552e263e60a04501b60b0da85ba.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8d33a869b596dcf1626e70c12d23d552e263e60a04501b60b0da85ba.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一割"
@@ -289,11 +297,12 @@
     "question": "「この河豚、ちょっと高すぎますよ。まけてもらえませんか？」「一割引きにしてあげましょう。」",
     "answer": "\"This blowfish is too expensive. Can you give me a discount?\" \"We’ll give you a 10% discount.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b0e48256-ad82-45cd-9edd-032748e39985",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

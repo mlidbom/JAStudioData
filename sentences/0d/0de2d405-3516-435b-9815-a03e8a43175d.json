@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a49e3e7acafacfb8798a18e66e6964e8b5824c75e3311c0f3b4b9fff.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a49e3e7acafacfb8798a18e66e6964e8b5824c75e3311c0f3b4b9fff.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "疾患"
@@ -135,11 +143,12 @@
     "question": "私の妹は、精神疾患を抱えています。",
     "answer": "My little sister has a mental disorder.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0de2d405-3516-435b-9815-a03e8a43175d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

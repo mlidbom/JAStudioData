@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8029bdd8ce9929a0c32df9062a87a9ebd946741e1d3785660fd5e952.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8029bdd8ce9929a0c32df9062a87a9ebd946741e1d3785660fd5e952.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "到着"
@@ -177,11 +185,12 @@
     "question": "日本に到着した時、私はちょっとテンションが高すぎましたよね。",
     "answer": "I was too hyper when I arrived in Japan, wasn’t I?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9c28eed1-419e-4c69-ab66-0e28343ebe42",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

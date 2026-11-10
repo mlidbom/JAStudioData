@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d6758f2de1fbb5e6405a1429a458d404c17a7b19086a89c35245ad80.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d6758f2de1fbb5e6405a1429a458d404c17a7b19086a89c35245ad80.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "歌う"
@@ -93,11 +101,12 @@
     "question": "母は毎日シャワー中に歌う。",
     "answer": "My mother sings in the shower every day.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2fd781ce-a9a0-4a76-85cd-702ca24161b9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

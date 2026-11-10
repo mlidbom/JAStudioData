@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6c4a578971af4047d0f0978f98348b557b25d5f83c0cd93eeb33e5b9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6c4a578971af4047d0f0978f98348b557b25d5f83c0cd93eeb33e5b9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "右"
@@ -114,11 +122,12 @@
     "question": "右の木は水をあげないで下さい。",
     "answer": "Please don't water the tree on the right.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "eb99cbb0-2574-4c82-897b-195e4855214a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

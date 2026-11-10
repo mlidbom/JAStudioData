@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-46d3a67318ff4fbe0dd0b6103eb53f62df863ed21dcfc0f40695cbcc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-46d3a67318ff4fbe0dd0b6103eb53f62df863ed21dcfc0f40695cbcc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "学生"
@@ -261,11 +269,12 @@
     "question": "「人生の学生です」と言えば、学生のディスカウントがうけられるっていうのは本当なんですか？",
     "answer": "Is it true that if you say you're a \"student of life\" you'll get a student discount?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7a0edd1e-6433-45cd-8ecc-85f31d68d2a3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4b6260e6c2ef943bdb48eb02728201345d1431cbc65e27e5ec5d481d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4b6260e6c2ef943bdb48eb02728201345d1431cbc65e27e5ec5d481d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "断つ"
@@ -135,11 +143,12 @@
     "question": "これでもう逃げ道は断たれてしまった。",
     "answer": "This means that there's no longer any way to escape.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9203cb9a-6778-4575-ae4f-7c12a27e2772",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

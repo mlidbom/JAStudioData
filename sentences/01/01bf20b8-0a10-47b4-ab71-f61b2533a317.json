@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ba8d4e74b01eff63b9e2e8183272698a11ab927defdd8b725622381d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ba8d4e74b01eff63b9e2e8183272698a11ab927defdd8b725622381d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お見舞い"
@@ -261,11 +269,12 @@
     "question": "病院にお見舞いに行くと、彼女の部屋はたくさんの花で飾られていました。",
     "answer": "When I visited her in the hospital, her room was decorated with many flowers.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "01bf20b8-0a10-47b4-ab71-f61b2533a317",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

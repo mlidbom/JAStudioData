@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e20e6d91e08f3fc3acc548f7cd99744c8c4476d957d0fe0ece73cd65.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e20e6d91e08f3fc3acc548f7cd99744c8c4476d957d0fe0ece73cd65.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "河豚"
@@ -177,11 +185,12 @@
     "question": "河豚がサーモンの手にそっとお金を渡したのを見ちゃったんだよ。",
     "answer": "I happened to witness that Fugu slipped some money into Salmon's hand.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "26ac7a3a-6b18-49a0-adcd-3f8fc6bfa076",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

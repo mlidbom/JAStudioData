@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2cac8fa171fe8490a899eab7fdd43e6bf8d97e58821dfada31b1e45e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2cac8fa171fe8490a899eab7fdd43e6bf8d97e58821dfada31b1e45e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "欠かす"
@@ -156,11 +164,12 @@
     "question": "私の生活に、携帯電話を欠かすことはできない。",
     "answer": "I cannot live without my cell phone.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7761dd7d-d851-4c8e-a92f-fbca43d4d4fa",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

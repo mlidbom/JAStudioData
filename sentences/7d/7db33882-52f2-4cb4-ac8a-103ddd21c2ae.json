@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-30ad45309b49d487f25d6313021306bfa9b7590b193a01281714642c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-30ad45309b49d487f25d6313021306bfa9b7590b193a01281714642c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "株式市場"
@@ -142,11 +150,12 @@
     "question": "多くの株が下落したため、今日の株式市場は真っ赤です。",
     "answer": "The stock market is in the red today as many shares have dropped.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7db33882-52f2-4cb4-ac8a-103ddd21c2ae",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

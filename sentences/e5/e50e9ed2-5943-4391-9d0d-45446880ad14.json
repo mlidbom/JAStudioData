@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-09e71fd268d86a9cb10a155e0d59d12994beae11a6bddac413c443b2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-09e71fd268d86a9cb10a155e0d59d12994beae11a6bddac413c443b2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "宇宙"
@@ -163,11 +171,12 @@
     "question": "宇宙の果てには何があると思いますか。",
     "answer": "What do you think there is at the end of universe?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e50e9ed2-5943-4391-9d0d-45446880ad14",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

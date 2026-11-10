@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-13f88f2c392b40409b6967c14f6f1251083a970f4d67c66378404420.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-13f88f2c392b40409b6967c14f6f1251083a970f4d67c66378404420.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "盛る"
@@ -100,11 +108,12 @@
     "question": "ここに赤土を盛ってください。",
     "answer": "Please heap up red soil here.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d3c2a23c-28df-4d43-b219-398e7f6beb9e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

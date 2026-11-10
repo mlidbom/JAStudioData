@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0cbc319cc83c91cc553b175ac25b0c5c116a2008eccb0aa55450d08c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0cbc319cc83c91cc553b175ac25b0c5c116a2008eccb0aa55450d08c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "受付"
@@ -79,11 +87,12 @@
     "question": "受付の手続きはもうお済みですか？",
     "answer": "Have you already checked in at reception?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b9f8b126-39f1-46fa-ab08-a7ab4bde2067",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

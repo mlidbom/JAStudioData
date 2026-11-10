@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ba0b02c0f45b59b26c53cc161a64a34939ee36f613a7fa2cb0852565.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ba0b02c0f45b59b26c53cc161a64a34939ee36f613a7fa2cb0852565.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一昨日"
@@ -100,11 +108,12 @@
     "question": "一昨日から熱が出ています。",
     "answer": "I have had a fever since the day before yesterday.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6e385439-2801-4cd5-aaff-26a5a90b5fa6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

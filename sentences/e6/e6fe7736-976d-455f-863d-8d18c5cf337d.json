@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-db9c7aa1b47cb0f42cb41a13d0f58df79b4fb7e7e99a9dc66150b4f7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-db9c7aa1b47cb0f42cb41a13d0f58df79b4fb7e7e99a9dc66150b4f7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "清潔"
@@ -156,11 +164,12 @@
     "question": "キッチンは清潔にしておくものでしょ？",
     "answer": "We're supposed to keep our kitchens clean, right?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e6fe7736-976d-455f-863d-8d18c5cf337d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

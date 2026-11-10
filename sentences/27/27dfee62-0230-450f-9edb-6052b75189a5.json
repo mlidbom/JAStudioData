@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ed8e33ba9a1b81ad45ecec4d6f891f2584c0050675d991d8127f0bb1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ed8e33ba9a1b81ad45ecec4d6f891f2584c0050675d991d8127f0bb1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "平仮名"
@@ -156,11 +164,12 @@
     "question": "このチョコレートを食べると平仮名を全部おぼえることができますよ。",
     "answer": "If you eat this chocolate, you can memorize all of the hiragana.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "27dfee62-0230-450f-9edb-6052b75189a5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

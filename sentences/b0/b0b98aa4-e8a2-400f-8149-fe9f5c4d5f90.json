@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d524ac24b9f7ca9acb5528c746543aaf3ba39b4008f2bce69b5badf8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d524ac24b9f7ca9acb5528c746543aaf3ba39b4008f2bce69b5badf8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "等号"
@@ -184,11 +192,12 @@
     "question": "等号の右側の数式が正か負かについて、注意する必要があります。",
     "answer": "You have to pay attention to whether the formula to the right of the equal sign is plus or minus.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b0b98aa4-e8a2-400f-8149-fe9f5c4d5f90",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

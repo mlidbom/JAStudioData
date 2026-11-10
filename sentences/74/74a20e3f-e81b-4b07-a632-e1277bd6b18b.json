@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-782f7000c5376434cc0ed9b67227b4592cf236bc72b2b2f39d40d643.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-782f7000c5376434cc0ed9b67227b4592cf236bc72b2b2f39d40d643.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "候補者"
@@ -142,11 +150,12 @@
     "question": "全ての候補者がメガネを掛けていた。",
     "answer": "All of the candidates wore glasses.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "74a20e3f-e81b-4b07-a632-e1277bd6b18b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

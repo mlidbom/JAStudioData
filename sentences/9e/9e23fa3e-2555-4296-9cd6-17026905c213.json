@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-aaacb729f83d2c3d7779352b9a46351af38b66da533ed61784a3d6d7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-aaacb729f83d2c3d7779352b9a46351af38b66da533ed61784a3d6d7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "順位"
@@ -184,11 +192,12 @@
     "question": "順位なんかいちいち気にしてたらやってられないよ。",
     "answer": "I can’t do it if I have to worry about each ranking separately.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9e23fa3e-2555-4296-9cd6-17026905c213",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

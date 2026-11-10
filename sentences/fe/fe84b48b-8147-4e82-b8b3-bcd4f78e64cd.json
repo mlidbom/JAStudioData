@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-76ed46773e1b7bf06cd171682e5dfcc50adc97e1d7ee59875b7bd5e2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-76ed46773e1b7bf06cd171682e5dfcc50adc97e1d7ee59875b7bd5e2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "技術"
@@ -240,11 +248,12 @@
     "question": "以前に働いていた会社で、ウエブ開発の最新技術を身につけました。",
     "answer": "I learned the latest web development skills from the company I used to work for.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fe84b48b-8147-4e82-b8b3-bcd4f78e64cd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

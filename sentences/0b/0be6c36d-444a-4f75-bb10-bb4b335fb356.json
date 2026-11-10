@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cd1b7d812856f649280e70d182c239381f223476e057e6ef4c8604e7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cd1b7d812856f649280e70d182c239381f223476e057e6ef4c8604e7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "割る"
@@ -128,11 +136,12 @@
     "question": "ごめんなさい、お皿を割ってしまいました。",
     "answer": "I’m sorry, I broke the plate.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0be6c36d-444a-4f75-bb10-bb4b335fb356",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

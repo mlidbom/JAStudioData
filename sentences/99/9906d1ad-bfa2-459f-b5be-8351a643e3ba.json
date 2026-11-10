@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-726848dd7542ec09cb2eeb88d116a97e329da6c6741b9e63638a4e29.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-726848dd7542ec09cb2eeb88d116a97e329da6c6741b9e63638a4e29.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "昼休み"
@@ -135,11 +143,12 @@
     "question": "昼休みに、スマホでそのニュースをチェックしてみます。",
     "answer": "During lunch break, I'll check the news on my smartphone.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9906d1ad-bfa2-459f-b5be-8351a643e3ba",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

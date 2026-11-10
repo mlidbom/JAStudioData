@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-eded2ad6d2c84f5e7e756b4e9159cefe2be4a1d111eab4e82b40290e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-eded2ad6d2c84f5e7e756b4e9159cefe2be4a1d111eab4e82b40290e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "職員"
@@ -163,11 +171,12 @@
     "question": "私は教師ではありませんが、学校職員です。",
     "answer": "I’m not a teacher, but I am part of the school staff.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "efad890b-ac27-4fd8-838e-a8954bf5facf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6cce1ae6034f38756642e69adfec3d94a9a1b2c22fb2965775389f2f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6cce1ae6034f38756642e69adfec3d94a9a1b2c22fb2965775389f2f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "食べ物"
@@ -72,11 +80,12 @@
     "question": "安田さんは、食べ物をおねがいします。",
     "answer": "Please bring some food, Ms. Yasuda.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9d684ee6-ec37-47cb-bb9d-f23b2637174c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b138f8dbb22220968549b025ee2feec3de9ec3a1189af78bc22e85e2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b138f8dbb22220968549b025ee2feec3de9ec3a1189af78bc22e85e2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "弓"
@@ -163,11 +171,12 @@
     "question": "コンビニでは弓と矢は買えないと思うよ？",
     "answer": "I don't think you can buy bows and arrows at a convenience store, can you?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9d1e5d49-dc02-485e-887c-630b22879619",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

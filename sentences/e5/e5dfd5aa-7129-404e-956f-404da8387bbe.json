@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5a97798add4b55b5ba7542200eb4b7f1a2c747268114edad907a3b7d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5a97798add4b55b5ba7542200eb4b7f1a2c747268114edad907a3b7d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "評価"
@@ -324,11 +332,12 @@
     "question": "私のホームドクターは、いつも急いでいて、自分の症状について調べてきた患者の話を聞かずにけんもほろろに追い出すので、評価が低い。",
     "answer": "My family doctor has a low rating because he is always in a rush, is unwilling to listen to patients who have researched a medical problem they have, and often dismisses their worries.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e5dfd5aa-7129-404e-956f-404da8387bbe",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

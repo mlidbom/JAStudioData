@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4e518b28aec11c1acbbd49c5a0776d74d8cefbcd538d0f88a84d1f21.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4e518b28aec11c1acbbd49c5a0776d74d8cefbcd538d0f88a84d1f21.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "喪"
@@ -212,11 +220,12 @@
     "question": "大変申し訳ありませんが、喪に服しているため年賀状が送れないのです。",
     "answer": "I’m very sorry but I’m afraid I can’t send a New Year’s card because I’m in mourning.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a3a2ecbc-fcab-4432-8ccc-77ab06fc6dd3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

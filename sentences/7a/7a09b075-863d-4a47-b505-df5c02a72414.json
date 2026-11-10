@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-65d9d03a890dfb7ff1f6b422089df7fb01a7cd32d6df5dab4576987f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-65d9d03a890dfb7ff1f6b422089df7fb01a7cd32d6df5dab4576987f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "自然"
@@ -65,11 +73,12 @@
     "question": "日本の自然が大好きです。",
     "answer": "I love the nature of Japan.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7a09b075-863d-4a47-b505-df5c02a72414",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

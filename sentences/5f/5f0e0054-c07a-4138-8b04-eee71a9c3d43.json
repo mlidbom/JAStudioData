@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5eaa7e87de180306801e4facd31ae9d20c16c2381c761604841e9ac6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5eaa7e87de180306801e4facd31ae9d20c16c2381c761604841e9ac6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "狼"
@@ -93,11 +101,12 @@
     "question": "遠くから狼の鳴き声が聞こえる。",
     "answer": "I can hear the sound of wolves in the distance.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5f0e0054-c07a-4138-8b04-eee71a9c3d43",
   "tags": [
-    "_tts_audio",
     "source::wani::removed"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b74fb7602a1bc3c025b57820ab5036b37ccd8e6ef70786f01d5f21ca.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b74fb7602a1bc3c025b57820ab5036b37ccd8e6ef70786f01d5f21ca.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "取り出す"
@@ -135,11 +143,12 @@
     "question": "男が、マイケルのカバンからスマホを取り出すのを見たよ。",
     "answer": "I saw a man take the smartphone out of Michael’s bag.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "70548f54-d9a5-4af4-8577-34c90483bc6c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

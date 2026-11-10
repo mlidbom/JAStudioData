@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f44d6773031e11875e836a2ae5a9f43f06c0fae5c20d5fb7b2d00f4c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f44d6773031e11875e836a2ae5a9f43f06c0fae5c20d5fb7b2d00f4c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "遅れる"
@@ -247,11 +255,12 @@
     "question": "もし飛行機が遅れたら、補償金のようなものは支払われたりするんでしょうか。",
     "answer": "If the flight is delayed, can I get some kind of compensation?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1f26032c-1ec2-4437-b05e-8be3a024cbcc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

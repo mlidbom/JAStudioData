@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4e3baf32f555e760d0329a6b98f0533acc044e5f91481a5c62cafcf1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4e3baf32f555e760d0329a6b98f0533acc044e5f91481a5c62cafcf1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "歴史"
@@ -149,11 +157,12 @@
     "question": "まずはトーフグの歴史についてサッと説明させてください。",
     "answer": "Let me give you a brief explanation of Tofugu’s history first.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "affacc1d-3e4d-4240-aeb9-f3751380f0ec",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

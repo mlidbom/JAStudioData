@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e1c2ff9d2b5ef64dfad17bd59d9e0eb1450b7334ac7da7abebcb3849.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e1c2ff9d2b5ef64dfad17bd59d9e0eb1450b7334ac7da7abebcb3849.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "草"
@@ -135,11 +143,12 @@
     "question": "牛は草の他にも米などをたべますよ。",
     "answer": "Other than grass, cows eat rice and things like that.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e71cabf3-743c-495d-829e-2eb531cc2b74",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

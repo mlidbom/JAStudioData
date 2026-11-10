@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cd44e2f670f3157be4cbe5ff9ad53e1e2897ea300079253fafe91113.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cd44e2f670f3157be4cbe5ff9ad53e1e2897ea300079253fafe91113.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "規則正しい"
@@ -135,11 +143,12 @@
     "question": "学生たちは規則正しく並んで教室に入っていった。",
     "answer": "The students lined up in a well regulated fashion and entered the classroom.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a68c16ad-d8ee-4bbb-b60a-c0e4a240346e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-499560d42c2346a423d89d10df722b12b4d37acd13d7e31856207976.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-499560d42c2346a423d89d10df722b12b4d37acd13d7e31856207976.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "弱々しい"
@@ -149,11 +157,12 @@
     "question": "母は弱々しい声で、おばあちゃんに「ゆっくり、休んで」と言った。",
     "answer": "My mother in a weak voice told her grandmother, \"Take time to rest.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e2d25e52-ff29-46b9-97e9-bc1da34e53a8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

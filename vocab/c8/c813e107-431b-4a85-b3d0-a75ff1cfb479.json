@@ -23,9 +23,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-4f615e9586a123f1d81c849546c481f3f306c3b73d7f172754faf1e0.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-4f615e9586a123f1d81c849546c481f3f306c3b73d7f172754faf1e0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "はや",
@@ -43,8 +49,7 @@
   "sentenceCount": 6,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {
       "singleToken": "required"
@@ -70,7 +75,9 @@
   "sourceData": {
     "answer": "<read>はや</read>:: already/now/by-this-time | quick/early/fast/rapid\n<read>はよ</read>:<tag><ja>早よ</ja></tag>:: early/quickly/soon | early-morning/early-hour/early-in-the-day",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "c813e107-431b-4a85-b3d0-a75ff1cfb479",
   "tags": [

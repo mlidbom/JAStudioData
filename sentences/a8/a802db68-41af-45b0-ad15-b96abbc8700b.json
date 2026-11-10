@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d69adc14af2497f23f68559603b73ce3188539728c505288c84b5408.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d69adc14af2497f23f68559603b73ce3188539728c505288c84b5408.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "転送"
@@ -156,11 +164,12 @@
     "question": "五ギガバイト以上の大きなデータは、転送するのに時間がかかります。",
     "answer": "Large data above five gigabytes takes time to transfer.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a802db68-41af-45b0-ad15-b96abbc8700b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

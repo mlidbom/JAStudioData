@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-95858263a116ec00c2671c3255bc1ad3a6c2739cb6687e9f8f3404e3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-95858263a116ec00c2671c3255bc1ad3a6c2739cb6687e9f8f3404e3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "旅行する"
@@ -135,11 +143,12 @@
     "question": "初めて北海道旅行した時に、そこに行った。",
     "answer": "I went there when I traveled to Hokkaido for the first time.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "778f815e-2f43-40c0-ac0c-3d9800f14772",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

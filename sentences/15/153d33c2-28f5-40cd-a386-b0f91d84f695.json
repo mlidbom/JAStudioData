@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-826d90e5f75cc9798dbe8bf652c94f13117f7b34a3769570744ee82b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-826d90e5f75cc9798dbe8bf652c94f13117f7b34a3769570744ee82b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "印"
@@ -149,11 +157,12 @@
     "question": "道にまよわないように、ここに印をつけておこう。",
     "answer": "Let's mark it here so we don't get lost.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "153d33c2-28f5-40cd-a386-b0f91d84f695",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

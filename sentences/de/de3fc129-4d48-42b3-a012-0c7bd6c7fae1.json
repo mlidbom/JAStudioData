@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b7ec86de84e1e50e1957c1201fcfb7a9190e4a0b57f9b592dc28ea7f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b7ec86de84e1e50e1957c1201fcfb7a9190e4a0b57f9b592dc28ea7f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "病棟"
@@ -86,11 +94,12 @@
     "question": "あんたの病棟で、かっこいい男は見た？",
     "answer": "Did you see any hot guys in your hospital ward?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "de3fc129-4d48-42b3-a012-0c7bd6c7fae1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

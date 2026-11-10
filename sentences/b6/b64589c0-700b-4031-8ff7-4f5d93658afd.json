@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-18172f28c6308292adcc37efba1a212fb4a4072ff8aac624b18c49df.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-18172f28c6308292adcc37efba1a212fb4a4072ff8aac624b18c49df.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "暫く"
@@ -58,11 +66,12 @@
     "question": "暫くお待ち下さい。",
     "answer": "Please wait for a moment.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b64589c0-700b-4031-8ff7-4f5d93658afd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

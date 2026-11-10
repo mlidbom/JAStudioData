@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4fb5e508bfb9e82bb6ac2aab176bb07570f33774cb63c762a26044ce.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4fb5e508bfb9e82bb6ac2aab176bb07570f33774cb63c762a26044ce.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "役場"
@@ -128,11 +136,12 @@
     "question": "今日の朝、役場に行ってきました。",
     "answer": "I went to the town hall this morning.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a396395f-d209-4875-9da7-ff87a6b4cb7e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-200044b19a63cac298e42759aaeb0dc0a0307999fe95e5ead79b6db2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-200044b19a63cac298e42759aaeb0dc0a0307999fe95e5ead79b6db2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "連絡する"
@@ -149,11 +157,12 @@
     "question": "会社を首になったら連絡するよ。",
     "answer": "I'll get in touch with you after I'm fired.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6682b8b1-4333-4d5b-b795-f47459cca53a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

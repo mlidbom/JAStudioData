@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-be486cb56fd062c06ed282dff1cf27b0808d6add344688ee857fcdfc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-be486cb56fd062c06ed282dff1cf27b0808d6add344688ee857fcdfc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "予想"
@@ -86,11 +94,12 @@
     "question": "それは予想外でした。",
     "answer": "That was unexpected.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "db7c2686-38fb-4e92-8e71-4193d6ca09ee",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

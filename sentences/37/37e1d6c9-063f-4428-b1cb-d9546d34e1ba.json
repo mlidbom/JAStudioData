@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-481cccc2ad904f8dd65fe528b5e4b22bcdba68ecef43e86266e6432c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-481cccc2ad904f8dd65fe528b5e4b22bcdba68ecef43e86266e6432c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "専攻"
@@ -65,11 +73,12 @@
     "question": "専攻は何ですか？",
     "answer": "What is your major?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "37e1d6c9-063f-4428-b1cb-d9546d34e1ba",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f879ea8a3d3523c6ae3614de710558a8ded0e35303cc5752cac1b09c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f879ea8a3d3523c6ae3614de710558a8ded0e35303cc5752cac1b09c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "豚肉"
@@ -128,11 +136,12 @@
     "question": "豚肉にはビタミンB₁がたっぷり入っています。",
     "answer": "Pork is rich in vitamin B₁.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "daa66428-c7c0-4cc4-b15f-ff946c17d98a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d0c737980d3d069da3bd1d98a5551810535a614e69e7fcb97c290034.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d0c737980d3d069da3bd1d98a5551810535a614e69e7fcb97c290034.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "英会話"
@@ -170,11 +178,12 @@
     "question": "私の兄は、英会話は上手だけど、計算は苦手なんです。",
     "answer": "My older brother is good at English conversations, but bad at calculations.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "56f7ace6-8aab-46df-ac4f-10ab1158ea5d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

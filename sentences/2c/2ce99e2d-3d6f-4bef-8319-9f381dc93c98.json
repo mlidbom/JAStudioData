@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-980d5fdb97f2425a3462cded0eae6a33daf71eab44fa0692d20de9fe.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-980d5fdb97f2425a3462cded0eae6a33daf71eab44fa0692d20de9fe.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "放射能"
@@ -205,11 +213,12 @@
     "question": "放射能に関する会議を招集する前に、出席者を決める方がいいだろう。",
     "answer": "Before calling the meeting about the radioactivity, we should decide who should attend.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2ce99e2d-3d6f-4bef-8319-9f381dc93c98",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

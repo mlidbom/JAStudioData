@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4db9abb419af10893844389a37463ed2d0372d6dd03c8a25050edef9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4db9abb419af10893844389a37463ed2d0372d6dd03c8a25050edef9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "後ろ"
@@ -114,11 +122,12 @@
     "question": "後ろに見える大きな山が、ふじ山です。",
     "answer": "The big mountain you can see behind is Mt. Fuji.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e363f7ff-9b7a-41db-844a-08972cee9313",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

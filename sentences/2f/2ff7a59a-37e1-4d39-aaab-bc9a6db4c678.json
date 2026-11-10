@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d57dd51321ea7f2a9d5d346e1e18d85b0e338481d629211db5adc39d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d57dd51321ea7f2a9d5d346e1e18d85b0e338481d629211db5adc39d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "説明書"
@@ -317,11 +325,12 @@
     "question": "新しいゲームをする時に説明書を読んでから始めるタイプですか。それとも、説明書は読まずにいきなり始めるタイプですか。",
     "answer": "When you play a new game, are you the type of person who reads the instructions first or do you start playing without reading them?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2ff7a59a-37e1-4d39-aaab-bc9a6db4c678",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

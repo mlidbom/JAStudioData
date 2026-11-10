@@ -24,9 +24,15 @@
   "partsOfSpeech": [],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-617ceb5b7bd7b44042e2252270830780efff641f266517589f5c2984.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-617ceb5b7bd7b44042e2252270830780efff641f266517589f5c2984.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "合っている",
@@ -44,8 +50,7 @@
   "sentenceCount": 11,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {
       "masuStem": "forbidden",
@@ -72,7 +77,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "fa145825-18fd-46dd-8f1a-7caade0d18e0",
   "tags": [

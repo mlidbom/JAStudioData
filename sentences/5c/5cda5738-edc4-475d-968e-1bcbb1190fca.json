@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ce8bffe01c79f650965132ad0100375fea31d6167e9d1574d1c53848.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ce8bffe01c79f650965132ad0100375fea31d6167e9d1574d1c53848.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "豚骨ラーメン"
@@ -93,11 +101,12 @@
     "question": "ここは豚骨ラーメンの店です。",
     "answer": "This place is a tonkotsu ramen restaurant.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5cda5738-edc4-475d-968e-1bcbb1190fca",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

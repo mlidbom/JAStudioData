@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-53b27219b9b099f969d4662d2c52f72243c1b3414d387897769cf4f7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-53b27219b9b099f969d4662d2c52f72243c1b3414d387897769cf4f7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "喜び"
@@ -170,11 +178,12 @@
     "question": "このロボットには喜びや楽しさといったポジティブな感情はありません。",
     "answer": "This robot has no positive emotions such as joy or fun.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "167287c5-7243-45a7-9660-6b91fd29aacf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

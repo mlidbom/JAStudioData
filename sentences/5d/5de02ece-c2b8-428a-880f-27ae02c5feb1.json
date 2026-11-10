@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3428ed134c29e61d6531a063f8555a5eb3c50849c1d814b9622ce1ce.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3428ed134c29e61d6531a063f8555a5eb3c50849c1d814b9622ce1ce.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "谷"
@@ -65,11 +73,12 @@
     "question": "谷の水はきれいです。",
     "answer": "The water in the valley is clean.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5de02ece-c2b8-428a-880f-27ae02c5feb1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

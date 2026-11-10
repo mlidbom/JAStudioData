@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8b7e328f67c7b0d0eb22a792a310ce343e4edb175a83c6aef9bdfc88.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8b7e328f67c7b0d0eb22a792a310ce343e4edb175a83c6aef9bdfc88.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "共犯者"
@@ -121,11 +129,12 @@
     "question": "共犯者の息子は、一昨年の一月に生まれました。",
     "answer": "My accomplice's son was born in January of the year before last.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9ce8ce07-1eda-4084-81bb-cfc6b265805b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

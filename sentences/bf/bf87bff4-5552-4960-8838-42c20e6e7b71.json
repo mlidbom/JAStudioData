@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-350e0d9ea03289b9c4d5118d22f14319221d01a84db74dafb11f4532.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-350e0d9ea03289b9c4d5118d22f14319221d01a84db74dafb11f4532.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "情報"
@@ -86,11 +94,12 @@
     "question": "まずは情報を整理しましょう。",
     "answer": "First, let's organize the information.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bf87bff4-5552-4960-8838-42c20e6e7b71",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

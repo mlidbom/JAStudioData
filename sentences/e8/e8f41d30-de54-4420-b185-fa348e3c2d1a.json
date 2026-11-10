@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-87053aee763a8c4302fd2534d8feeb6629663dc1f54f1343e8137bd1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-87053aee763a8c4302fd2534d8feeb6629663dc1f54f1343e8137bd1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "投資"
@@ -135,11 +143,12 @@
     "question": "コウイチは、ビエトに投資判断を求めました。",
     "answer": "Koichi asked Viet for an investment decision.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e8f41d30-de54-4420-b185-fa348e3c2d1a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

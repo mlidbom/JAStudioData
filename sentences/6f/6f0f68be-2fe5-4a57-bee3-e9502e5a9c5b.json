@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-24d2e1a766c157a502dc1b2f544b2f04eeec4bcfcd59ee4cd92a3522.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-24d2e1a766c157a502dc1b2f544b2f04eeec4bcfcd59ee4cd92a3522.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "救う"
@@ -240,11 +248,12 @@
     "question": "友人のブログが荒らされています。友人を救うための知恵を貸してください。",
     "answer": "My friend’s blog has been trolled. Give me some advice to rescue her from it.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6f0f68be-2fe5-4a57-bee3-e9502e5a9c5b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6b27fafabcd298640732dbb1989c08f44a757111633f70b8a319e71a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6b27fafabcd298640732dbb1989c08f44a757111633f70b8a319e71a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "下げる"
@@ -107,11 +115,12 @@
     "question": "あっ、このロープ、ベーコンを下げるのにちょうどいい。",
     "answer": "Oh, this rope is perfect for hanging bacon.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6835bca1-eed4-4af4-baac-c76bcc0d8843",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

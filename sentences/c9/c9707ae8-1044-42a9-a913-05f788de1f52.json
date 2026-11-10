@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a9e358e1c9e816c49f11d4459140e128a47ae760a343df8488fe15ed.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a9e358e1c9e816c49f11d4459140e128a47ae760a343df8488fe15ed.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "受領書"
@@ -233,11 +241,12 @@
     "question": "先週購入されたトーフグ製品の受領書を送って頂けませんか？",
     "answer": "Could you please send me a receipt for the Tofugu products you purchased from us last week?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c9707ae8-1044-42a9-a913-05f788de1f52",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

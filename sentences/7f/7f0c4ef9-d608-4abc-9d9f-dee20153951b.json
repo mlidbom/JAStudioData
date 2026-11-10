@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a281b91484d92ed9993fe4887b280c0b0d6370e3ad4729486b88b661.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a281b91484d92ed9993fe4887b280c0b0d6370e3ad4729486b88b661.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "耳"
@@ -86,11 +94,12 @@
     "question": "ついにウワサが王の耳に入った。",
     "answer": "Finally, the rumor reached the king's ear.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7f0c4ef9-d608-4abc-9d9f-dee20153951b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

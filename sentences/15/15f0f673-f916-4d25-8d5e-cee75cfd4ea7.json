@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-58cd2e1bd5c5f72fbbce9185b64a3f6d995b05f387849c35d3ad88f2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-58cd2e1bd5c5f72fbbce9185b64a3f6d995b05f387849c35d3ad88f2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "通る"
@@ -72,11 +80,12 @@
     "question": "たくさんの車が通る。",
     "answer": "Many cars pass by.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "15f0f673-f916-4d25-8d5e-cee75cfd4ea7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

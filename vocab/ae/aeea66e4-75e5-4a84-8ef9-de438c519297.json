@@ -26,9 +26,15 @@
   "partsOfSpeech": [],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-e4ddd081b76aa777af310bc58e44884867e013117f1c30426e9d05f6.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-e4ddd081b76aa777af310bc58e44884867e013117f1c30426e9d05f6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "てくれてo",
@@ -38,8 +44,7 @@
   "sentenceCount": 81,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {
       "yieldLastTokenToOverlappingCompound": "required"
@@ -65,7 +70,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "aeea66e4-75e5-4a84-8ef9-de438c519297",
   "tags": [

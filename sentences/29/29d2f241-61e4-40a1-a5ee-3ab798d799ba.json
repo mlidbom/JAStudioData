@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d575bd1e0a9b977fa502f96a91a24c54ce6fcdbe4c1c32e1ffc1f8f4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d575bd1e0a9b977fa502f96a91a24c54ce6fcdbe4c1c32e1ffc1f8f4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "重い"
@@ -149,11 +157,12 @@
     "question": "この大きくて重い石を、ベンチの代わりに使いたいと思います。",
     "answer": "I want to use this big, heavy rock as a bench.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "29d2f241-61e4-40a1-a5ee-3ab798d799ba",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

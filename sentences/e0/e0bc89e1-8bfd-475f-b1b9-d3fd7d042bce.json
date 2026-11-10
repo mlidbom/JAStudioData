@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e6538c4af5bc4148a00e886139e8d0023a9379e7d5064f4ccc727dd4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e6538c4af5bc4148a00e886139e8d0023a9379e7d5064f4ccc727dd4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "総理"
@@ -163,11 +171,12 @@
     "question": "森総理がおっしゃっていた通りになりましたね。",
     "answer": "It turned out just as Prime Minister Mori said it would.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e0bc89e1-8bfd-475f-b1b9-d3fd7d042bce",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

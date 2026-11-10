@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0ec502dd31b59ff12ab63b6a9e950da3013b8da1c2ba12058ae4c7af.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0ec502dd31b59ff12ab63b6a9e950da3013b8da1c2ba12058ae4c7af.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "見送る"
@@ -114,11 +122,12 @@
     "question": "彼は海外に行くチャンスを見送った。",
     "answer": "He passed up a chance to go abroad.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d5b18442-2d1b-4fe0-bafa-c4b73c70813f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

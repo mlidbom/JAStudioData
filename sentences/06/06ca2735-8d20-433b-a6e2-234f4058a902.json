@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-aa68f0218a96b4ab4026e4eeae986ac933ccaab2cb78db0109e65470.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-aa68f0218a96b4ab4026e4eeae986ac933ccaab2cb78db0109e65470.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "繰る"
@@ -163,11 +171,12 @@
     "question": "おっと。すみません。トランプを繰るのが苦手なんです。",
     "answer": "Oops. I’m sorry. I’m bad at shuffling cards.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "06ca2735-8d20-433b-a6e2-234f4058a902",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

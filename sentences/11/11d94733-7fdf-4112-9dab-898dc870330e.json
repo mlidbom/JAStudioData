@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8b52a9af8fc877a6cd9c21a8cc177b54af645dd4d6d603d2e49b02a3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8b52a9af8fc877a6cd9c21a8cc177b54af645dd4d6d603d2e49b02a3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "本棚"
@@ -51,11 +59,12 @@
     "question": "あれ、本棚にない？",
     "answer": "Oh, it's not on the bookshelf?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "11d94733-7fdf-4112-9dab-898dc870330e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

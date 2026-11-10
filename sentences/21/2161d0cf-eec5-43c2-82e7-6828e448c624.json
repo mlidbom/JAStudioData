@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2f78894fb93c0336d4343cc922ad2492b707176e4ffd3b33c85d916f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2f78894fb93c0336d4343cc922ad2492b707176e4ffd3b33c85d916f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "坑道"
@@ -142,11 +150,12 @@
     "question": "地下20mのところに坑道が掘られています。",
     "answer": "They’re digging a tunnel somewhere 20 miles underground.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2161d0cf-eec5-43c2-82e7-6828e448c624",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

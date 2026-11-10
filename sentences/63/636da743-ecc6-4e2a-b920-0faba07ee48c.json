@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cf1e58df6a047d8de74917179463f798a4331b36c786fd11b944c1f9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cf1e58df6a047d8de74917179463f798a4331b36c786fd11b944c1f9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "宝"
@@ -72,11 +80,12 @@
     "question": "これは、宝のマップです。",
     "answer": "This is a treasure map.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "636da743-ecc6-4e2a-b920-0faba07ee48c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

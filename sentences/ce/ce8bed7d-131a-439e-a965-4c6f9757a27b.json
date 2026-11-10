@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b75a80eebe64793c7a11ddcb37b3f19905b1731a22e626b92d32d7cd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b75a80eebe64793c7a11ddcb37b3f19905b1731a22e626b92d32d7cd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "免状"
@@ -142,11 +150,12 @@
     "question": "今度お会いする際に免状をお渡ししますね。",
     "answer": "I’ll give you the diploma the next time we meet.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ce8bed7d-131a-439e-a965-4c6f9757a27b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

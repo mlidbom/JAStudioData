@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dedb56f4aaf8f9f5d164ead310a121772a74257f16bb46c5dbe6dbb3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dedb56f4aaf8f9f5d164ead310a121772a74257f16bb46c5dbe6dbb3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "漢字"
@@ -93,11 +101,12 @@
     "question": "「目」という漢字の形が気に入ってます。",
     "answer": "I like the shape of the \"eye\" kanji.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0da726aa-c982-4cb2-a865-37b32b5fe3e1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

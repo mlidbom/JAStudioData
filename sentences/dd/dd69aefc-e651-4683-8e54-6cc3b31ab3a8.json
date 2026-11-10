@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d887c56279fff33a032f2170b53b6308f0653ab882c2564c5b936cab.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d887c56279fff33a032f2170b53b6308f0653ab882c2564c5b936cab.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "気温"
@@ -107,11 +115,12 @@
     "question": "朝と夜の気温の差が激しいんです。",
     "answer": "The temperature difference between the morning and night is intense.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dd69aefc-e651-4683-8e54-6cc3b31ab3a8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

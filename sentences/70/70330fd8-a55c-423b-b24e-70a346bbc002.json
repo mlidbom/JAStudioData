@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-28cc4d387b98fba6babe9556aa6b6c46e3f6a9fbb60a327bef3f2b53.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-28cc4d387b98fba6babe9556aa6b6c46e3f6a9fbb60a327bef3f2b53.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "山びこ"
@@ -44,11 +52,12 @@
     "question": "山びこだ！きこえる？",
     "answer": "That's a mountain echo. Can you hear it?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "70330fd8-a55c-423b-b24e-70a346bbc002",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

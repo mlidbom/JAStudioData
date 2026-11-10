@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-400e53488b59d1b544bcefa071aa52643c43a2ba71d6478a914de50f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-400e53488b59d1b544bcefa071aa52643c43a2ba71d6478a914de50f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "匂う"
@@ -121,11 +129,12 @@
     "question": "フーム、匂いますねー。事件の匂いがしますよ、ワトソン君！",
     "answer": "Hmm, something smells. It smells like a case, Watson!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c4648d77-2c00-46e1-823f-336221b86193",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-35d7a688f93b1809bc946246573e8a9f9ce4e7fef3a4bbefbd73f243.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-35d7a688f93b1809bc946246573e8a9f9ce4e7fef3a4bbefbd73f243.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "同音異義語"
@@ -128,11 +136,12 @@
     "question": "日本語には、同音異義語はいくつありますか？",
     "answer": "How many homophones are there in Japanese?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "de5b35ba-7202-4a8b-a234-c5100d6d80bb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

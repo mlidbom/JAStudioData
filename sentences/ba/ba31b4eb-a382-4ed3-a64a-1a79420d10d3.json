@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3ef5ab24a481cbb78484b64bf98d02e8d3b49cc9e30e88befd0cd31e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3ef5ab24a481cbb78484b64bf98d02e8d3b49cc9e30e88befd0cd31e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "靴屋"
@@ -233,11 +241,12 @@
     "question": "靴屋での仕事に内定が出たが、丁重にお断りさせてもらったよ。",
     "answer": "I was offered a job at the shoe store, but I politely declined.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ba31b4eb-a382-4ed3-a64a-1a79420d10d3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

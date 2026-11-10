@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-67b6513d6a65bcac3c553085ec26d99006882cae1b510b127e307434.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-67b6513d6a65bcac3c553085ec26d99006882cae1b510b127e307434.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "材料"
@@ -65,11 +73,12 @@
     "question": "材料は何ですか？",
     "answer": "What are the ingredients?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e1277a2a-4702-46a2-a12b-6d982447055f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

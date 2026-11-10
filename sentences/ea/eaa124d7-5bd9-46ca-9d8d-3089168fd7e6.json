@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-77a76c4c474cf68cb8f4c742298d402d5b85e12fcf7449b2691cf85e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-77a76c4c474cf68cb8f4c742298d402d5b85e12fcf7449b2691cf85e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "贈呈"
@@ -128,11 +136,12 @@
     "question": "主役を演じた友人に花束を贈呈しました。",
     "answer": "I presented flowers to a friend who was playing the leading role.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "eaa124d7-5bd9-46ca-9d8d-3089168fd7e6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

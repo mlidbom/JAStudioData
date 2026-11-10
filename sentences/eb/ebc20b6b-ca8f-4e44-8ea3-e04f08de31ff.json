@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-03f52800c2f353c3e0e52891d99899bc266f37bb9d0733a1a6ccce35.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-03f52800c2f353c3e0e52891d99899bc266f37bb9d0733a1a6ccce35.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "第一印象"
@@ -165,11 +173,12 @@
     "question": "第一印象はあまりいいものではなかったらしいです。",
     "answer": "I heard that the first impression wasn’t very good.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ebc20b6b-ca8f-4e44-8ea3-e04f08de31ff",
   "tags": [
-    "_tts_audio",
     "-::sentence::uses::incorrect-matches",
     "source::wani::current"
   ]

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d9fec96878e354e2cf3fe6bbc824b958e9ac274f8e56f12dd6d270d2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d9fec96878e354e2cf3fe6bbc824b958e9ac274f8e56f12dd6d270d2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "払い戻す"
@@ -191,11 +199,12 @@
     "question": "恐れ入りますが、お客様は鍵を失くされたので、保証金の払い戻しは出来かねます。",
     "answer": "I’m afraid that we cannot refund your deposit since you lost the key.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "32a598ce-c0c2-493e-b892-26b8516f6aeb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

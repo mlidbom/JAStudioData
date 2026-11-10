@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d3251d5562b7c26fde8ef9ce24a05de7892732caebc937de6a965581.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d3251d5562b7c26fde8ef9ce24a05de7892732caebc937de6a965581.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "緩む"
@@ -156,11 +164,12 @@
     "question": "そのトンネルのボルトは、何本か緩んできています。",
     "answer": "Some of the bolts in the tunnel are coming loose.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cb8e87f9-e9f2-4789-954a-48f9c87bd71a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

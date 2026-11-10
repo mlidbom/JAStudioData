@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c29c4d67e0cf7336943f8907ebcd70660e6bcefd5c10ea77c95e131e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c29c4d67e0cf7336943f8907ebcd70660e6bcefd5c10ea77c95e131e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "迷惑メール"
@@ -240,11 +248,12 @@
     "question": "コウイチからのメールはいつも迷惑メールフォルダに入ってしまうんだけどどうしてなんだろう？",
     "answer": "Emails from Koichi are always found in the junk mail folder. I wonder why.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "31892db3-987e-4a7c-a466-52bd7bb0e10f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-026cd473b23a83281727ef5f38980d501ec99a0474019f0b4d9f57a5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-026cd473b23a83281727ef5f38980d501ec99a0474019f0b4d9f57a5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "総括"
@@ -338,11 +346,12 @@
     "question": "私は情報を総括し、上司の注意を促すために報告しましたが、彼は聞く耳を持ちませんでした。",
     "answer": "I summed up the information and reported it to my boss, but he wouldn’t listen.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "23839d2c-5d9a-4cf3-bd02-e626878621e0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

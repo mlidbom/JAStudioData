@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2d22cc6f6a5cebdaf6001080f981faa2fc9b3e908fc911c8560034d6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2d22cc6f6a5cebdaf6001080f981faa2fc9b3e908fc911c8560034d6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "間違える"
@@ -128,11 +136,12 @@
     "question": "こんな簡単な問題を間違えるなんて、悔しいよ。",
     "answer": "Making a mistake on such a simple question is so frustrating.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d8912837-e7f9-4907-b116-d490028afce5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

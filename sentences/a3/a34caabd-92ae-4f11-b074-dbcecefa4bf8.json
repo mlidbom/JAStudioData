@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d80fbeb5ae7084dc6aa2fb0e5160db2304348bec387fcb98e9ba3ed9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d80fbeb5ae7084dc6aa2fb0e5160db2304348bec387fcb98e9ba3ed9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "思わず"
@@ -156,11 +164,12 @@
     "question": "思わず本音を口にしてしまいました。",
     "answer": "I spoke of my real intentions unintentionally.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a34caabd-92ae-4f11-b074-dbcecefa4bf8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6de944279f12bed649507a5c84394676a71911e4abdd4c86d5d43d47.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6de944279f12bed649507a5c84394676a71911e4abdd4c86d5d43d47.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "恩赦"
@@ -79,11 +87,12 @@
     "question": "大統領は、七面鳥に恩赦を与えた。",
     "answer": "The president granted amnesty to the turkey.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e3e6e54e-6b15-4ab8-87bd-c191f6087ae0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

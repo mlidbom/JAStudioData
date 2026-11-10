@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-65cb6f44a749a342f523aa7fd6eea7fcd0adfd4ee4d36d4776f63952.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-65cb6f44a749a342f523aa7fd6eea7fcd0adfd4ee4d36d4776f63952.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "干す"
@@ -128,11 +136,12 @@
     "question": "バスタオルなら、そこに干してあるでしょ？",
     "answer": "If you're looking for bath towels, they're hanging there, right?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b8faa66c-e653-4691-ac26-af5761d88cd6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

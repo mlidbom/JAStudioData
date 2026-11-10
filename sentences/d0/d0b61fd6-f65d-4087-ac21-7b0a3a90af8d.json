@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b0b9e2360abf6c50624086f4d6689965a82852c998d21c3ee35a2401.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b0b9e2360abf6c50624086f4d6689965a82852c998d21c3ee35a2401.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "寒い"
@@ -184,11 +192,12 @@
     "question": "この寒い中、一時間もバスを待たなきゃならなかったんだよ。",
     "answer": "I had to wait an hour in this cold for the bus.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d0b61fd6-f65d-4087-ac21-7b0a3a90af8d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

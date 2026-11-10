@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7b2dc2eb3a4a6dc341ad9fa714abe08d846afbf1178eca7ce346fed4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7b2dc2eb3a4a6dc341ad9fa714abe08d846afbf1178eca7ce346fed4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "戸棚"
@@ -177,11 +185,12 @@
     "question": "今日買った単三電池は戸棚の上に置いておいたよ。",
     "answer": "I put the double A batteries that we bought today in the cupboard.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1cc537eb-e09c-41eb-be68-eac471976962",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

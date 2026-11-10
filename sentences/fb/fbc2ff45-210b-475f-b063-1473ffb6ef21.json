@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c67da39c8abf41a3c5b5f3a39d23cd78421f3379f197c30a8a82354b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c67da39c8abf41a3c5b5f3a39d23cd78421f3379f197c30a8a82354b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "遅滞"
@@ -107,11 +115,12 @@
     "question": "その動画を遅滞なく削除せよ。",
     "answer": "Delete the video without delay.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fbc2ff45-210b-475f-b063-1473ffb6ef21",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

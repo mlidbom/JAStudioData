@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5d29a02086f92a792f7df6d0f0ced5fa54f7ed89e7ac8e11e7d80843.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5d29a02086f92a792f7df6d0f0ced5fa54f7ed89e7ac8e11e7d80843.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "火星"
@@ -170,11 +178,12 @@
     "question": "できれば今すぐ火星に行きたいと思っています。",
     "answer": "I would like to go to Mars right now if possible.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c198ab57-7b1d-4cc7-8025-765cec900d41",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

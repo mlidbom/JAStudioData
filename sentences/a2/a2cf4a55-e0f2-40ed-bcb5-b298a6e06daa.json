@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5a0168322fc243bec677d5e76471bb2b09a1cc2bd0406d458d6ac4b9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5a0168322fc243bec677d5e76471bb2b09a1cc2bd0406d458d6ac4b9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "食べる"
@@ -114,11 +122,12 @@
     "question": "私は、パイナップルを一口だけ食べました。",
     "answer": "I only had a bite of pineapple.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a2cf4a55-e0f2-40ed-bcb5-b298a6e06daa",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

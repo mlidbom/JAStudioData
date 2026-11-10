@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5f5164c891543eb77c0f2cc73828302cf6bad1cbeeaab0f7d9f8e42f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5f5164c891543eb77c0f2cc73828302cf6bad1cbeeaab0f7d9f8e42f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "不等"
@@ -79,11 +87,12 @@
     "question": "この時、以下の不等式が成り立ちます。",
     "answer": "At this time, the following inequality holds.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4c4ffba1-3438-43db-87ad-3fbcbe47df9f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

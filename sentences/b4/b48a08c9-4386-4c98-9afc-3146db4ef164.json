@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a48e709f9bf22ba8b6d91e6a8504fa5197932d6ceeb73726c36acd9f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a48e709f9bf22ba8b6d91e6a8504fa5197932d6ceeb73726c36acd9f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "料理"
@@ -198,11 +206,12 @@
     "question": "マミは、カリフラワーを白いブロッコリーだと思って料理していました。",
     "answer": "Mami thought cauliflower was just white broccoli and cooked it accordingly.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b48a08c9-4386-4c98-9afc-3146db4ef164",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

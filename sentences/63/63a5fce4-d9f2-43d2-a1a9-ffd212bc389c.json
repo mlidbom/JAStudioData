@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-20d94ea464e1612e2c5408b31709c11dda8212e511f5867b4398bfd9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-20d94ea464e1612e2c5408b31709c11dda8212e511f5867b4398bfd9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "概算"
@@ -128,11 +136,12 @@
     "question": "旅行費用の概算を教えてもらえますか。",
     "answer": "Could you give me a rough estimate for the travel costs?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "63a5fce4-d9f2-43d2-a1a9-ffd212bc389c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

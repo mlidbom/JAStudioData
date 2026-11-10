@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c94666e3e2071b4d32440b7c7deb0dd342701cbcd89367708e5daddd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c94666e3e2071b4d32440b7c7deb0dd342701cbcd89367708e5daddd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "没落"
@@ -128,11 +136,12 @@
     "question": "本当に日本は没落していると思いますか？",
     "answer": "Do you think Japan is really collapsing?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c4348f72-6dc1-453a-8af5-89bbb9192bc0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

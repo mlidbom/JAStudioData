@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-32a261526578e1782996da8aaf98e8e2e3b34263a680d228f3237b8f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-32a261526578e1782996da8aaf98e8e2e3b34263a680d228f3237b8f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "賢明"
@@ -345,11 +353,12 @@
     "question": "このビールを買うのは賢明なご決断ですよ。コクがあるだけでなく、喉ごしもとてもいいですからね。",
     "answer": "Buying this beer is a wise decision. Not only does it have full-bodied flavor, but it also has such a pleasant, clean finish.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d9566207-8772-4f14-aa18-7ef6c05d4d97",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

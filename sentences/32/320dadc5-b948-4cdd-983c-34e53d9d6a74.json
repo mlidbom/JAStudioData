@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dfcbd8c99d4b39b2177dbe9c32711e461773d1662ca4bc8299a42c55.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dfcbd8c99d4b39b2177dbe9c32711e461773d1662ca4bc8299a42c55.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "勉強"
@@ -107,11 +115,12 @@
     "question": "ありがとうございます！勉強になります。",
     "answer": "Thank you so much. I've been learning a lot from you.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "320dadc5-b948-4cdd-983c-34e53d9d6a74",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

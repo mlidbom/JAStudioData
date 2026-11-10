@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d565fdd6b3207242a3f44a9c80925a7fe01aed0c9dc11058f39fd53c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d565fdd6b3207242a3f44a9c80925a7fe01aed0c9dc11058f39fd53c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "乗せる"
@@ -170,11 +178,12 @@
     "question": "日本では、犬をタクシーに乗せることは出来ますか？",
     "answer": "In Japan, is it possible to take a dog with you in a taxi?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "39128f54-e890-42e6-a214-272a5864a0ca",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

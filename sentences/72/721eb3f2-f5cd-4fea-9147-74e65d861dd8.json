@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9a824d2242c72a2cacd32e9ba5aa8778caa42a7525fb48c37ce713a6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9a824d2242c72a2cacd32e9ba5aa8778caa42a7525fb48c37ce713a6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "浴槽"
@@ -142,11 +150,12 @@
     "question": "毎日掃除をしないと、浴槽には垢がたまります。",
     "answer": "When I don’t clean it everyday, the bathtub accumulates grime.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "721eb3f2-f5cd-4fea-9147-74e65d861dd8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

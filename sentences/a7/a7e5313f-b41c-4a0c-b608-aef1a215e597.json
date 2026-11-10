@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-02fe453c7b094ec16eb5c14bef4a935e8f272c11c3e52253bd29ed5a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-02fe453c7b094ec16eb5c14bef4a935e8f272c11c3e52253bd29ed5a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "営む"
@@ -156,11 +164,12 @@
     "question": "私のおじは、岡山県でイタリアン・レストランを営んでいます。",
     "answer": "My uncle runs an Italian restaurant in Okayama prefecture.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a7e5313f-b41c-4a0c-b608-aef1a215e597",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

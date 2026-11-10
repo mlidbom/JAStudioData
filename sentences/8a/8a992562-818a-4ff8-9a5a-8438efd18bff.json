@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fd6ddefc5bef766b0b2ce0355f1dd69ea03ccf053db9c1727acb4b61.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fd6ddefc5bef766b0b2ce0355f1dd69ea03ccf053db9c1727acb4b61.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "高値"
@@ -303,11 +311,12 @@
     "question": "先週、家を売ったんですが、希望していたほどの高値では売れませんでした。",
     "answer": "We sold our property last week, but it didn't get as high a price as we hoped for.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8a992562-818a-4ff8-9a5a-8438efd18bff",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

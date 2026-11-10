@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8948b0f429ad199bca82cf633566063dfc933ce9238ca74016768074.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8948b0f429ad199bca82cf633566063dfc933ce9238ca74016768074.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "焼き肉"
@@ -79,11 +87,12 @@
     "question": "今日は焼き肉が食べたい気分です。",
     "answer": "I am in the mood for grilled meat today.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bb3d91e9-fe58-41a2-9fed-3da13f60b98e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

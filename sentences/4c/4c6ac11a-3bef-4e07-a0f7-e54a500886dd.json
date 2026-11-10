@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7149c18890d2ebede955b80a1b52de1bf9e37e1afdda7202ed434cda.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7149c18890d2ebede955b80a1b52de1bf9e37e1afdda7202ed434cda.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "男の子"
@@ -128,11 +136,12 @@
     "question": "２０１８年に男の子が生まれました。",
     "answer": "A boy was born in 2018.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4c6ac11a-3bef-4e07-a0f7-e54a500886dd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

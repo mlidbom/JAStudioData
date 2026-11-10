@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2d46a9c8509cd252e7be28d861049ce81c796100b8c638fef2479ac2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2d46a9c8509cd252e7be28d861049ce81c796100b8c638fef2479ac2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "支店"
@@ -114,11 +122,12 @@
     "question": "兄は、その支店で中古の車を買いました。",
     "answer": "My brother bought a used car at the branch.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "47a0ee83-6dad-4ad4-be48-1d211042f84b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

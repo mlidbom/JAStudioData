@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fd8691e117f627b4fa16f6b71cdf1a58498908a0e8244ca82a46d8f3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fd8691e117f627b4fa16f6b71cdf1a58498908a0e8244ca82a46d8f3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "保証"
@@ -156,11 +164,12 @@
     "question": "この商品には一年間の保証が付いています。",
     "answer": "This product comes with a one-year warranty.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4fce009f-289d-4df9-be9a-231bcce2d55f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8db883affe90bc4c2e50c898658a97ca6d20f6bcf1ea8a51ebf0dbf8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8db883affe90bc4c2e50c898658a97ca6d20f6bcf1ea8a51ebf0dbf8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "構成"
@@ -233,11 +241,12 @@
     "question": "この文を構成する文法は今まで見たことがありませんでした。",
     "answer": "I've never seen the grammar that makes up this sentence before.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2f15a18d-9fa9-4e17-96cd-1acb0a3b7493",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

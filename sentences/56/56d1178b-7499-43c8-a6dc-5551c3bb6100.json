@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e34b6c4a84a37ef174d8bfc7168ea73281b9eb80fbf7188001c2e9c2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e34b6c4a84a37ef174d8bfc7168ea73281b9eb80fbf7188001c2e9c2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "回転する"
@@ -142,11 +150,12 @@
     "question": "あのピッチャーはボールを回転させるのが上手い。",
     "answer": "That pitcher is good at spinning the ball.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "56d1178b-7499-43c8-a6dc-5551c3bb6100",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

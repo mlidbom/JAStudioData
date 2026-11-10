@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f8d493d5e7ea3d9228c67208fd9ffde30a52115557380cc96feabd8e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f8d493d5e7ea3d9228c67208fd9ffde30a52115557380cc96feabd8e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "姿勢"
@@ -128,11 +136,12 @@
     "question": "恐らく姿勢が悪いことが首の痛みの原因でしょう。",
     "answer": "Your poor posture is probably causing your neck pain.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ac5a6cb3-d4a5-4d41-8e98-7c68f255067a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

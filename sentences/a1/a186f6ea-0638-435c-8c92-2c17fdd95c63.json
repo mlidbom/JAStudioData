@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9bd71917c86aaf660e1dac6c19e69b1025dd8335cd6b042ee89dffd4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9bd71917c86aaf660e1dac6c19e69b1025dd8335cd6b042ee89dffd4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "星"
@@ -100,11 +108,12 @@
     "question": "夜には、星がとてもきれいでした。",
     "answer": "That night the stars were really pretty.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a186f6ea-0638-435c-8c92-2c17fdd95c63",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

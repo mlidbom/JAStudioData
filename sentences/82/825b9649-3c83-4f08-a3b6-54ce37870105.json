@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f54af548933d492b32ace8718a0f63e08ae80972fa9f583a24819431.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f54af548933d492b32ace8718a0f63e08ae80972fa9f583a24819431.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "ベッドの下"
@@ -121,11 +129,12 @@
     "question": "ベッドの下はモップをしないんです。",
     "answer": "I don't mop under the bed.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "825b9649-3c83-4f08-a3b6-54ce37870105",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-87649a8abf7bb7beb78d35584a26af725da22a94aa572c1c8866e4db.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-87649a8abf7bb7beb78d35584a26af725da22a94aa572c1c8866e4db.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "車両"
@@ -65,11 +73,12 @@
     "question": "車両は大きいですね。",
     "answer": "This vehicle is big.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "419d2fd9-0447-4451-8bf2-f2f515f632ef",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ab3d75aadd87e2105d3d0137017463952b31ff43c16b9cd0aa210c11.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ab3d75aadd87e2105d3d0137017463952b31ff43c16b9cd0aa210c11.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "噂"
@@ -128,11 +136,12 @@
     "question": "サイラスというあの男は、実はロボットだという噂がある。",
     "answer": "There are rumors that the man named Cyrus is actually a robot.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5eeb0e23-677e-4220-9fd7-71dcaaf15c80",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

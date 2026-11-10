@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-85a0a068fd8088f3246ed6d9ea7cef41b16a991818c2912750f7f4bc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-85a0a068fd8088f3246ed6d9ea7cef41b16a991818c2912750f7f4bc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "二時半"
@@ -93,11 +101,12 @@
     "question": "今日は二時半から科学のクラスです。",
     "answer": "Today, I have a science class at 2:30.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ab339572-14c1-40a1-ba1c-9fc3c93ae09b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

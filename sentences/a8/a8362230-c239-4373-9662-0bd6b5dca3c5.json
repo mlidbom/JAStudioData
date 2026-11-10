@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b5a18d186d06b328e970d4bd561c722bc6fbe9bffb10ba784b962323.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b5a18d186d06b328e970d4bd561c722bc6fbe9bffb10ba784b962323.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "五月"
@@ -100,11 +108,12 @@
     "question": "五月一日にニューヨークへかえりました。",
     "answer": "On May 1st, I returned to New York.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a8362230-c239-4373-9662-0bd6b5dca3c5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

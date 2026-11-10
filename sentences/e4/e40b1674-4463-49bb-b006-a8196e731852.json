@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-000567e195e08092eb44ef1454ec365807b99625963fd99d5bd29fd7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-000567e195e08092eb44ef1454ec365807b99625963fd99d5bd29fd7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "経路"
@@ -184,11 +192,12 @@
     "question": "犯人がこのドラッグを入手した経路はまだ分かっていません。",
     "answer": "The route through which the culprit obtained this drug is still unknown.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e40b1674-4463-49bb-b006-a8196e731852",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

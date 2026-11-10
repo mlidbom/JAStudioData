@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-beb9f1afb37b34da1c9f961ffe8e1687fb9893889fe020de7ae3c280.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-beb9f1afb37b34da1c9f961ffe8e1687fb9893889fe020de7ae3c280.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "耐える"
@@ -149,11 +157,12 @@
     "question": "彼のひどい寝起きの口臭に、耐えられなかったんです。",
     "answer": "I couldn’t stand his awful morning breath.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c4fa6b43-b0db-4c3d-a928-454511bc92b8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

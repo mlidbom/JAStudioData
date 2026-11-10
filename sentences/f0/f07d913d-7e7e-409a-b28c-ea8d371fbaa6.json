@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-aaa1ac5fcf530ad98c80acb6512e87312f2ae8945efe547a6a9a5056.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-aaa1ac5fcf530ad98c80acb6512e87312f2ae8945efe547a6a9a5056.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "好む"
@@ -100,11 +108,12 @@
     "question": "コウイチは、黒ニンニクを好んで食べます。",
     "answer": "Koichi likes eating black garlic.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f07d913d-7e7e-409a-b28c-ea8d371fbaa6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

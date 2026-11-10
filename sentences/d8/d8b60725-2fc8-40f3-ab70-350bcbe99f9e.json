@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bae3e13418719fd19d2055b5643c8f2a85ed43f6269074097dd1313f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bae3e13418719fd19d2055b5643c8f2a85ed43f6269074097dd1313f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "空間"
@@ -100,11 +108,12 @@
     "question": "大学では、空間デザインを学びました。",
     "answer": "At university, I learned spatial design.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d8b60725-2fc8-40f3-ab70-350bcbe99f9e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-47f79fe974b9f8a74c50f7f265bb3b8ca3ba9d1108249b72e608b49e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-47f79fe974b9f8a74c50f7f265bb3b8ca3ba9d1108249b72e608b49e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "解ける"
@@ -275,11 +283,12 @@
     "question": "もしここにマリアがいたら、こんな数学の問題五秒で解けちゃうよ。マリアにとってはちょちょいのちょいだね。",
     "answer": "If Maria were here, this math problem would be solved in five seconds flat. They're a piece of cake for her.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d3d1ade6-09bf-4244-a41b-8f8c1f1f66d7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

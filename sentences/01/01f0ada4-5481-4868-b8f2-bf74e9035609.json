@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1ac4c9d0ef9589538369dce65ad9162f346a30d9bf74554b7a9d091e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1ac4c9d0ef9589538369dce65ad9162f346a30d9bf74554b7a9d091e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "深さ"
@@ -121,11 +129,12 @@
     "question": "百メートルの深さまでハシゴで下りました。",
     "answer": "I climbed down a ladder to a depth of 100 meters.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "01f0ada4-5481-4868-b8f2-bf74e9035609",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

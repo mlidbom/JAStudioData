@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9e691a08fc28467861bb625570494a1d18b96c9560d172a6c5f39637.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9e691a08fc28467861bb625570494a1d18b96c9560d172a6c5f39637.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "交ぜる"
@@ -93,11 +101,12 @@
     "question": "カードをよく交ぜて下さい。",
     "answer": "Please shuffle the cards well.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "521cfa18-4b07-46f3-a0fa-31f79e29e349",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

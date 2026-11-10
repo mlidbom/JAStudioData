@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2a132879892ec8b9f93044c8b15a7483665348df0d9cb4337548a6cc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2a132879892ec8b9f93044c8b15a7483665348df0d9cb4337548a6cc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "画面"
@@ -156,11 +164,12 @@
     "question": "画面の明るさをもう少し下げてもらってもいいですか？",
     "answer": "Can I ask you to turn down the screen brightness a bit?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1f120819-f33a-462a-a88e-38d712584c66",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f82415bb4f3c46cc91f9ee1191d8b8fe4bbfe5489530e3c7592431f9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f82415bb4f3c46cc91f9ee1191d8b8fe4bbfe5489530e3c7592431f9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "他動詞"
@@ -79,11 +87,12 @@
     "question": "他動詞は目的語を取ります。",
     "answer": "Transitive verbs take objects.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5a479138-77b2-40fc-8376-60120cb94957",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

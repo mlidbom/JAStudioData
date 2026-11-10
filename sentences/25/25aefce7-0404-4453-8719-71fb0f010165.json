@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d270cdb7894b4e58445204c06831d17645cfefd1e52177c919b0e18d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d270cdb7894b4e58445204c06831d17645cfefd1e52177c919b0e18d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "投稿"
@@ -121,11 +129,12 @@
     "question": "フェイスブックに犬の写真を投稿しました。",
     "answer": "I posted pictures of my dog to Facebook.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "25aefce7-0404-4453-8719-71fb0f010165",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

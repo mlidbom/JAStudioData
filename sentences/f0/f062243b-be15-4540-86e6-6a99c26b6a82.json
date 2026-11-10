@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7aa6641de505da9337ed4f2fdaef4e9ff160c50006aa55e17d43094d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7aa6641de505da9337ed4f2fdaef4e9ff160c50006aa55e17d43094d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "下手"
@@ -177,11 +185,12 @@
     "question": "わたし、バナナグラムが下手な人とはデートにいけないの。ごめんなさい。",
     "answer": "I can't go on a date with someone who isn't good at Bananagrams. I'm sorry.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f062243b-be15-4540-86e6-6a99c26b6a82",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8cb0a466b5ac9c0d74f710888ed9434fc9fbdb6826ddf8102abf5fd8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8cb0a466b5ac9c0d74f710888ed9434fc9fbdb6826ddf8102abf5fd8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "贈る"
@@ -142,11 +150,12 @@
     "question": "ファンタジーベースボールの優勝者には、何か賞品が贈られます。",
     "answer": "The winner of fantasy baseball will be given something as a prize.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1c9c3835-65fe-4f40-96f1-683b7e475f59",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

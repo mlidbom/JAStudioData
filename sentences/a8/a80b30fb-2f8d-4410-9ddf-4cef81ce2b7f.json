@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-defe9e8c2ac94ab7c34bc328f87f3011f8f01fe566105d2903c6cdb2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-defe9e8c2ac94ab7c34bc328f87f3011f8f01fe566105d2903c6cdb2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "洗濯する"
@@ -401,11 +409,12 @@
     "question": "洗濯が好きだと言っていたから結婚したのに、今まで一度も洗濯をしてくれたことがありません。",
     "answer": "I married him because he said he likes doing laundry, but he still hasn't even done it once.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a80b30fb-2f8d-4410-9ddf-4cef81ce2b7f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

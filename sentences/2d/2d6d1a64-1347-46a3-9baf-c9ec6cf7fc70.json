@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-eb4862f886c80df6deb17ba41a6faff05e58b962a1ae70dcb5bb06d2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-eb4862f886c80df6deb17ba41a6faff05e58b962a1ae70dcb5bb06d2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一千"
@@ -58,11 +66,12 @@
     "question": "一千くらいです。",
     "answer": "It's about one thousand.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2d6d1a64-1347-46a3-9baf-c9ec6cf7fc70",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

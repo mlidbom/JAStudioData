@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ce6f647ed6948cb7ae9810a572cc2e94da4749cc56b64a137eed3e6e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ce6f647ed6948cb7ae9810a572cc2e94da4749cc56b64a137eed3e6e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "小さい順"
@@ -142,11 +150,12 @@
     "question": "答えの数字は、小さい順に書くのがルールです。",
     "answer": "The rule is to write the answer numbers in ascending order.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "09276fcc-19b0-4493-86d5-e6fa7f28e3d0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

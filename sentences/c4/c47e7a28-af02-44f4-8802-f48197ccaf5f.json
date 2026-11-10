@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-787ffd9b1a90ad48fa3a1305ad97c6ab7a4f57936a483a053335da03.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-787ffd9b1a90ad48fa3a1305ad97c6ab7a4f57936a483a053335da03.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "台風"
@@ -219,11 +227,12 @@
     "question": "台風が来る前に外のプランターを全て家の中に入れました。",
     "answer": "Before the typhoon came, I put all the outside planters inside the house.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c47e7a28-af02-44f4-8802-f48197ccaf5f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

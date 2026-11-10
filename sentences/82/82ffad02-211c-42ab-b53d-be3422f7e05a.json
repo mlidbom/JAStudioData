@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-53a77e4d2a43342b80d7ff764f560a836d955a1856fc08a30438dd33.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-53a77e4d2a43342b80d7ff764f560a836d955a1856fc08a30438dd33.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "文化祭"
@@ -107,11 +115,12 @@
     "question": "そっちの学校の文化祭っていつ？",
     "answer": "When is your school's culture festival?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "82ffad02-211c-42ab-b53d-be3422f7e05a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

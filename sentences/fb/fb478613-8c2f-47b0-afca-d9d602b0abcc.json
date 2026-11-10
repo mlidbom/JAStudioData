@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1bb1c7b72da7d7407159fd49e7393c4f282f47822784739676dfb8cb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1bb1c7b72da7d7407159fd49e7393c4f282f47822784739676dfb8cb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "受付"
@@ -100,11 +108,12 @@
     "question": "まずは受付に行ってください。",
     "answer": "Please first go to the receptionist.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fb478613-8c2f-47b0-afca-d9d602b0abcc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

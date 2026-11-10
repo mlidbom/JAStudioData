@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cef8511e4b9c7688053fd62c90b4ee98d5cf3ac0da3c52ff8b65b064.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cef8511e4b9c7688053fd62c90b4ee98d5cf3ac0da3c52ff8b65b064.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "金曜日"
@@ -44,11 +52,12 @@
     "question": "ようやく金曜日です。",
     "answer": "Finally, it is Friday.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8856aa61-409e-47b3-a8c4-1012ee46252c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

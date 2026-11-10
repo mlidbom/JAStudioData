@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-add5280ef3e5ab9beebff08fdfdb106978ce8ca6ef1f72c58776ccf3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-add5280ef3e5ab9beebff08fdfdb106978ce8ca6ef1f72c58776ccf3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "購読する"
@@ -135,11 +143,12 @@
     "question": "その雑誌は購読する価値がありますよ。",
     "answer": "It’s worth subscribing to this magazine.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2d1eedb0-ae71-4814-9cc3-a1aa3f9f3b3c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

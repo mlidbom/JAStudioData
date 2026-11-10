@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-33ac99a7e6039f9f5fd87b5017e0c751db0f4924b15610c6070ddc12.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-33ac99a7e6039f9f5fd87b5017e0c751db0f4924b15610c6070ddc12.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "科目"
@@ -79,11 +87,12 @@
     "question": "中学では九科目学びます。",
     "answer": "In junior high school, you will study nine subjects.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5b56d154-750d-46ec-8c65-8fd833fc6db8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

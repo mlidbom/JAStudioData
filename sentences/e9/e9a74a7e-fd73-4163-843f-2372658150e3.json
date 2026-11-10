@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4fe3610133fc3240159f3f761b95d6cc717a8bb349e5f9a71fcf7cad.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4fe3610133fc3240159f3f761b95d6cc717a8bb349e5f9a71fcf7cad.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "凹む"
@@ -86,11 +94,12 @@
     "question": "失恋で凹んでいます。",
     "answer": "I’m sinking in unrequited love.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e9a74a7e-fd73-4163-843f-2372658150e3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

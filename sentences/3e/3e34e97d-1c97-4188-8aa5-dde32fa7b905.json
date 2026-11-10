@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3babfaa07928fbf307e1c9db4eda83f58297fe49a49796f1859b54c7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3babfaa07928fbf307e1c9db4eda83f58297fe49a49796f1859b54c7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "退く"
@@ -121,11 +129,12 @@
     "question": "現役を退くには、まだ早過ぎますよ。",
     "answer": "It's too early to retire from active duty.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3e34e97d-1c97-4188-8aa5-dde32fa7b905",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

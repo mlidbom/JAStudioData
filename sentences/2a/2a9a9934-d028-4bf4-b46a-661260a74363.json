@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-18243862791de73b16e5d220eb52edbc155c8106b5c48fdb1f6ea0e5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-18243862791de73b16e5d220eb52edbc155c8106b5c48fdb1f6ea0e5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "保険"
@@ -65,11 +73,12 @@
     "question": "生命保険、入ってる？",
     "answer": "Do you have life insurance?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2a9a9934-d028-4bf4-b46a-661260a74363",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

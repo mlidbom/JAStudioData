@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-df1ad36eb093af5d6ab07e3f14ed86f8ea710db15560d4a39fc403ab.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-df1ad36eb093af5d6ab07e3f14ed86f8ea710db15560d4a39fc403ab.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "細かい"
@@ -100,11 +108,12 @@
     "question": "今、細かいお金しかありません。",
     "answer": "I only have a small amount of change now.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "98fc67d4-4d0d-4616-bf26-8e775af0cb85",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f631373c6ab375a732a11a19b30c6854d62a07008e285e69674793df.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f631373c6ab375a732a11a19b30c6854d62a07008e285e69674793df.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "報道"
@@ -247,11 +255,12 @@
     "question": "今回のテロのことは、日本ではどのように報道されていますか？",
     "answer": "How will this terrorist attack be reported in Japan?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c6052a17-62dd-4758-a4c8-cb46eb0f954b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

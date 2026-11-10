@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fe36125bcaf68ded84f6a33d839be6350f7de728ff108af0fe600ab8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fe36125bcaf68ded84f6a33d839be6350f7de728ff108af0fe600ab8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "元旦"
@@ -100,11 +108,12 @@
     "question": "元旦には家族で初詣に行きます。",
     "answer": "I’m going to visit a shrine with my family on New Year’s Day.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ca34d107-6cd0-4b77-9498-e56400551bcf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

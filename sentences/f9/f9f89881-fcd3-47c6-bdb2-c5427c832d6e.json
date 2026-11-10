@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8e7a0668bb154e27db1b8d822f189a16e92f7796290d3d3fadb738ca.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8e7a0668bb154e27db1b8d822f189a16e92f7796290d3d3fadb738ca.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "甘党"
@@ -128,11 +136,12 @@
     "question": "私は甘党で、ケーキには目がないの。",
     "answer": "I have a sweet tooth and I’m extremely fond of cake.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f9f89881-fcd3-47c6-bdb2-c5427c832d6e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

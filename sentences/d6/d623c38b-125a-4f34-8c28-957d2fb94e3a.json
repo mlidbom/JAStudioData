@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e8d23ec8b3898b2821a8df819399a25c6ba06305c8c5c4e70aaa0c3a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e8d23ec8b3898b2821a8df819399a25c6ba06305c8c5c4e70aaa0c3a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "地"
@@ -107,11 +115,12 @@
     "question": "そのライオンは、大きなアフリカの地で生まれました。",
     "answer": "That lion was born in the vast land of Africa.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d623c38b-125a-4f34-8c28-957d2fb94e3a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

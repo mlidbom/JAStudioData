@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-46d009e1c74d0456428f40609f71ad3478b76c56562a73edc20bc50d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-46d009e1c74d0456428f40609f71ad3478b76c56562a73edc20bc50d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "分析"
@@ -107,11 +115,12 @@
     "question": "それは先生の息の質の分析結果です。",
     "answer": "That’s the result of the teacher’s breath quality analysis.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3037129b-09a5-427a-a322-0b8c2413662a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

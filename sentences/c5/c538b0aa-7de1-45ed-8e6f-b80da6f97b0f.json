@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7c8c3614a80c10dd38dc7f5d0734f9acf5c519a75b53902e9e42005d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7c8c3614a80c10dd38dc7f5d0734f9acf5c519a75b53902e9e42005d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "障害"
@@ -121,11 +129,12 @@
     "question": "私はパニック障害に苦しんでいます。",
     "answer": "I suffer from panic disorder.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c538b0aa-7de1-45ed-8e6f-b80da6f97b0f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

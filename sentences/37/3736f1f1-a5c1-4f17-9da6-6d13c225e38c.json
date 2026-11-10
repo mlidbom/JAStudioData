@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-409014d7e7a54b3ad703e2c694c892cb3534d82430ca2fa25126fe52.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-409014d7e7a54b3ad703e2c694c892cb3534d82430ca2fa25126fe52.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "四つ"
@@ -114,11 +122,12 @@
     "question": "水に氷が四つ入っていた。",
     "answer": "There were four ice cubes in water.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3736f1f1-a5c1-4f17-9da6-6d13c225e38c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-07ccd790f3df30fc94f7d3d2bfb6d738a2111eedddaa883e7c6a95a5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-07ccd790f3df30fc94f7d3d2bfb6d738a2111eedddaa883e7c6a95a5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "総理府"
@@ -128,11 +136,12 @@
     "question": "総理府の電話番号を知っていますか？",
     "answer": "Do you know the phone number of the prime minister's office?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "42a1caf7-57cc-45a2-b333-621d6451c200",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

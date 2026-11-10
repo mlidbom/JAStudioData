@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e73bcd43fb837c8d0fb7351ae827e125abb8357b46b458c403a1149d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e73bcd43fb837c8d0fb7351ae827e125abb8357b46b458c403a1149d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一億"
@@ -163,11 +171,12 @@
     "question": "コウイチは東京に一億円のマンションを持っています。",
     "answer": "Koichi has a one-hundred-million yen condo in Tokyo.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0a28b195-891d-4613-8a27-073f95fe9777",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

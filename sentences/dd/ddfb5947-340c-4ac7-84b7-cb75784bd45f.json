@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-06d3bbc0817caa14b59b512c8b2f050faec5d78e5558e63ff1985348.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-06d3bbc0817caa14b59b512c8b2f050faec5d78e5558e63ff1985348.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "自分"
@@ -135,11 +143,12 @@
     "question": "自分のお皿は自分で下げて下さい。",
     "answer": "Please clear your own plates yourself.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ddfb5947-340c-4ac7-84b7-cb75784bd45f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

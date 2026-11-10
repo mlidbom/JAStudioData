@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4202b154fe39a5fa5fc74a1a205c5dad8d3e61c25033d685c71c2e4a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4202b154fe39a5fa5fc74a1a205c5dad8d3e61c25033d685c71c2e4a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "扇風機"
@@ -135,11 +143,12 @@
     "question": "時計のチクタクという音と、扇風機のブーンという音しか聞こえなかった。",
     "answer": "The only thing I could hear was the sound of the clock ticking and the whirring of the electric fan.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0545ff2a-a3c3-4c7b-bb4b-4ecb17883ef1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

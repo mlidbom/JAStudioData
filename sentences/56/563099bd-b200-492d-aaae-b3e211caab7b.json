@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e80f358e2fe5de598b4c9af8849bce993c6e6f00871abc098a151993.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e80f358e2fe5de598b4c9af8849bce993c6e6f00871abc098a151993.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "残る"
@@ -191,11 +199,12 @@
     "question": "キャンプに行かずに家に残って、残っていたカレーを食べました。",
     "answer": "I stayed home instead of going camping and ate the leftover curry.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "563099bd-b200-492d-aaae-b3e211caab7b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

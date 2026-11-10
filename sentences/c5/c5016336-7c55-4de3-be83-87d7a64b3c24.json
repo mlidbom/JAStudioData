@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-77524a2d0e41d31d4bfcf3cd28f38fa4d732fac3f8771dc82caa28ea.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-77524a2d0e41d31d4bfcf3cd28f38fa4d732fac3f8771dc82caa28ea.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "報告"
@@ -121,11 +129,12 @@
     "question": "報告書が書けたら帰っていいですよ。",
     "answer": "You can leave when you have written your report.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c5016336-7c55-4de3-be83-87d7a64b3c24",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

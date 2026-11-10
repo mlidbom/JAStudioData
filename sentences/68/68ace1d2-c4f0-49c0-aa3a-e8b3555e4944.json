@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-22c91cadeb5dbe2d31e7f40268ea04e9ede22f558c36427d4288aaf7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-22c91cadeb5dbe2d31e7f40268ea04e9ede22f558c36427d4288aaf7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "番組"
@@ -226,11 +234,12 @@
     "question": "あの人気番組は、ホストがスキャンダルのせいで、休止になってしまいました。",
     "answer": "That popular program got suspended due to the host's scandal.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "68ace1d2-c4f0-49c0-aa3a-e8b3555e4944",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

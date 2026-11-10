@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-541c4eda9f0b8bdf6eb7c68f94d821f117ddd79d768effd0db250cf5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-541c4eda9f0b8bdf6eb7c68f94d821f117ddd79d768effd0db250cf5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "方言"
@@ -128,11 +136,12 @@
     "question": "このエリアの方言で「ありがとう」は何と言いますか？",
     "answer": "How do you say \"thanks\" in the dialect of this area?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "37b06df6-a288-45e3-b20e-dcd568bd810d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

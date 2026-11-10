@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fd078d94bb91acbf1ba5b8aa47404a58c7e9943d4ecf5a852661e762.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fd078d94bb91acbf1ba5b8aa47404a58c7e9943d4ecf5a852661e762.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "増税"
@@ -345,11 +353,12 @@
     "question": "さっき届いた請求書の固定資産税が、50%も増税されてたんだけど、間違いだよね。そうであってほしい。",
     "answer": "I just received a 50% increase on my property tax, but it’s a mistake. At least, I hope it is.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c26435be-4eab-4f99-8917-b03172e347cf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

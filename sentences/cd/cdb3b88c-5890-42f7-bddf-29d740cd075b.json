@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1664ae57996a9bac23ec7c0ccaf315b7f7227555f277a2b53d83f809.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1664ae57996a9bac23ec7c0ccaf315b7f7227555f277a2b53d83f809.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "野菜"
@@ -114,11 +122,12 @@
     "question": "どんなにお腹が苦しくても、野菜なら食べられます。",
     "answer": "No matter how full I am, I can eat vegetables.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cdb3b88c-5890-42f7-bddf-29d740cd075b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -17,9 +17,15 @@
   "partsOfSpeech": [],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-1e4ce383ccf4897af945ceefaab616b1887ca410228800993179d322.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-1e4ce383ccf4897af945ceefaab616b1887ca410228800993179d322.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
   "forms": [
     {
       "text": "だところで",
@@ -33,8 +39,7 @@
   "sentenceCount": 1,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [
@@ -62,7 +67,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "ce95a84c-7f70-4fc4-ba4c-8bb29ec630b2",
   "tags": [

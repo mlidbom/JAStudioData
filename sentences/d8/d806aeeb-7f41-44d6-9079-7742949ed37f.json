@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-24c4f452cce2e09c19a143ab892828f030ad1fa40b9fcc2285b8022f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-24c4f452cce2e09c19a143ab892828f030ad1fa40b9fcc2285b8022f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "冷酷"
@@ -184,11 +192,12 @@
     "question": "あなたのこと、ずっと冷酷な人だと思っていました。",
     "answer": "I always thought you were a cruel person.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d806aeeb-7f41-44d6-9079-7742949ed37f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

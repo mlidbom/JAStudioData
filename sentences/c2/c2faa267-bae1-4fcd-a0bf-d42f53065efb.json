@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5492f8e749d936919a490404f9227002af946b78bd59d8d3d46ac889.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5492f8e749d936919a490404f9227002af946b78bd59d8d3d46ac889.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "衝撃"
@@ -114,11 +122,12 @@
     "question": "あなたは爆発の衝撃で気絶したのよ。",
     "answer": "You passed out from the shock of an explosion.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c2faa267-bae1-4fcd-a0bf-d42f53065efb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

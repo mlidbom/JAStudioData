@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5590ee016a2417514d94d6a193e49b29ffe6aa2956a6a0fe8305945c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5590ee016a2417514d94d6a193e49b29ffe6aa2956a6a0fe8305945c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "年内"
@@ -142,11 +150,12 @@
     "question": "年内にアパートから出てって下さい。",
     "answer": "Please leave the apartment by the end of the year.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fd949450-265e-46c8-931a-5ca93c4aa322",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

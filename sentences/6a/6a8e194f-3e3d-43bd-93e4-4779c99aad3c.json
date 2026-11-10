@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c90ea16677b6446dd023fd6505ffc28c106f0a95d7790f11d62a2c8d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c90ea16677b6446dd023fd6505ffc28c106f0a95d7790f11d62a2c8d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "栞"
@@ -114,11 +122,12 @@
     "question": "本を読む時に栞は使いますか。",
     "answer": "When you read books do you use a bookmark?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6a8e194f-3e3d-43bd-93e4-4779c99aad3c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

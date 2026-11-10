@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7dee34e49a872f960a1c6107668573944e7754d83ec9595532a36b8b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7dee34e49a872f960a1c6107668573944e7754d83ec9595532a36b8b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "買い物"
@@ -100,11 +108,12 @@
     "question": "スーパーで買い物をしたばかりです。",
     "answer": "I've just done the grocery shopping.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "29ef83c2-20d4-4c4a-891e-af72a984bb67",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

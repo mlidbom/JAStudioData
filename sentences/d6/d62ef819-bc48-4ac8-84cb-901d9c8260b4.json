@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8c63fa3dcdebf2f2b86b43b685cf4cc72b038e022ce536353ffea4b4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8c63fa3dcdebf2f2b86b43b685cf4cc72b038e022ce536353ffea4b4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "震える"
@@ -149,11 +157,12 @@
     "question": "アル中の父の手は、いつも震えていた。",
     "answer": "My alcoholic father’s hands always shake.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d62ef819-bc48-4ac8-84cb-901d9c8260b4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

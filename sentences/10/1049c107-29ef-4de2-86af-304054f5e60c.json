@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5fd2c2ae8dc993b60fb49eaec47a46f3ddd99addb88902c0fecd83cc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5fd2c2ae8dc993b60fb49eaec47a46f3ddd99addb88902c0fecd83cc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "品物"
@@ -135,11 +143,12 @@
     "question": "この時間のスーパーには品物がほとんどありません。",
     "answer": "There are almost no goods in the grocery store around this time.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1049c107-29ef-4de2-86af-304054f5e60c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

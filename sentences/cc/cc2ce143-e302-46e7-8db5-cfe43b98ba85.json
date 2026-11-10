@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d49a63cf53d3e9e6684e84b3af94a449708423fa7235ff4120880faf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d49a63cf53d3e9e6684e84b3af94a449708423fa7235ff4120880faf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "線路"
@@ -142,11 +150,12 @@
     "question": "兄は必ず線路が見えるよう、電車の後ろの車両に乗ります。",
     "answer": "My older brother always gets on the last car of the train so that he can see the train tracks.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cc2ce143-e302-46e7-8db5-cfe43b98ba85",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cf0a26dcae12ce6a3e07ce43c0078f6ee4f2bba0ffcfaa3ebdc7002a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cf0a26dcae12ce6a3e07ce43c0078f6ee4f2bba0ffcfaa3ebdc7002a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "守る"
@@ -121,11 +129,12 @@
     "question": "コウイチの犬は、コウイチを危険から守りました。",
     "answer": "Koichi's dog protected him from danger.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b2e4ac15-8aae-4927-8bf7-61bd181bd1e4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

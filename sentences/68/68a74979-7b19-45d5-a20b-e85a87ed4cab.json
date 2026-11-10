@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-97fcaef4e2a56e2cf5d9bc00d2b9ec598b55864d24423fdc8d2b9589.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-97fcaef4e2a56e2cf5d9bc00d2b9ec598b55864d24423fdc8d2b9589.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "右腕"
@@ -156,11 +164,12 @@
     "question": "右腕を骨折したため、しばらくの間仕事ができません。",
     "answer": "I broke my right arm, so I won't be able to work for a while.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "68a74979-7b19-45d5-a20b-e85a87ed4cab",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

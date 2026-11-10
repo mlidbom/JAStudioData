@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-36abe42d4733e3065706d4a248a8fcf7e51603371e6ee90cd18b1ea7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-36abe42d4733e3065706d4a248a8fcf7e51603371e6ee90cd18b1ea7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "衛星"
@@ -212,11 +220,12 @@
     "question": "落下する衛星を避けることは、不可能ではありません。",
     "answer": "It’s not impossible to avoid a falling satellite.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "398fbc32-bc2c-4d09-bdea-d39911a16cb1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

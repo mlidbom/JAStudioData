@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-986674d81a74216f2d7e75a89d8752b4e1faff7adfe4354bde214699.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-986674d81a74216f2d7e75a89d8752b4e1faff7adfe4354bde214699.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "職業"
@@ -128,11 +136,12 @@
     "question": "あなたの職業って、もしかしてモデルなの？スタイルめっちゃいいよね。",
     "answer": "Do you work as a model, perhaps? You have great style.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a6a3542a-2f7b-4dfb-aed0-c54697219aef",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

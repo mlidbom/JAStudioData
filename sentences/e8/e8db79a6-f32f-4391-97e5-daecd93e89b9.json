@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-66cbb4ac71c5b185b2c590c32f40ab5cccef46e4deffc71abc9dda95.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-66cbb4ac71c5b185b2c590c32f40ab5cccef46e4deffc71abc9dda95.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "不快"
@@ -177,11 +185,12 @@
     "question": "上司の不快なジョークに笑いたくもないのに笑っている自分が嫌いです。",
     "answer": "I don’t want to laugh at my boss’s unpleasant jokes and I hate myself when I do.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e8db79a6-f32f-4391-97e5-daecd93e89b9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

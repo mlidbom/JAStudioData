@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ffe9bcb6342261bcfff6270a6c81b5bd91333f603e86da72a140f85c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ffe9bcb6342261bcfff6270a6c81b5bd91333f603e86da72a140f85c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "目的"
@@ -191,11 +199,12 @@
     "question": "私たちの目的は、皆さんに楽しく日本語を勉強してもらうことです。",
     "answer": "Our goal is for everyone to enjoy studying Japanese.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5256c70b-9dc4-41db-99f3-499e57b8d903",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

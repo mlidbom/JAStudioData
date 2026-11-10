@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-eac03c40cc38196d62660c65cef31294956cc9978734493fb2ec3e93.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-eac03c40cc38196d62660c65cef31294956cc9978734493fb2ec3e93.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "旅"
@@ -72,11 +80,12 @@
     "question": "私は旅が大好きです。",
     "answer": "I love traveling.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dff105c4-d9a9-44f2-9fa8-e91f91542f32",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

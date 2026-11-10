@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-eb1eba8f09a65ea109d6dd0474a07a71393dcb828e6ea31094c5c003.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-eb1eba8f09a65ea109d6dd0474a07a71393dcb828e6ea31094c5c003.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "准教授"
@@ -135,11 +143,12 @@
     "question": "私は京都大学で准教授として務めています。",
     "answer": "I work as an associate professor at Kyoto University.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dc6954ca-f65f-44f0-a953-4bca8fed671e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

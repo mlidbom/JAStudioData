@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f23a8b7af529fe5c7552dab970f25ce062328b2ef99fb065b17b88cf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f23a8b7af529fe5c7552dab970f25ce062328b2ef99fb065b17b88cf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "当たり"
@@ -142,11 +150,12 @@
     "question": "インタビューした三人当たり一人は日本人でした。",
     "answer": "One of the three successful interviewees was Japanese.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dbfd9cd5-9333-4acd-897f-ffa3c3a5ba84",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

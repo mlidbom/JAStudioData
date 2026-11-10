@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cfa3cba7fc67ce49a15fec07780d6d2cad6aedb95831d7d5aab767ad.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cfa3cba7fc67ce49a15fec07780d6d2cad6aedb95831d7d5aab767ad.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "線"
@@ -177,11 +185,12 @@
     "question": "正しくない場所は、二重線でマークしておいて下さい。",
     "answer": "Please have the incorrect spots marked with double lines.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9bd54a56-680e-4dd6-93f1-8830d2c8d4c0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

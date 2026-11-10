@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-152b98bf58f7c6b3691bc1acdbf569bde2db5a06af7ec20ff5f94c91.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-152b98bf58f7c6b3691bc1acdbf569bde2db5a06af7ec20ff5f94c91.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "最高"
@@ -121,11 +129,12 @@
     "question": "仕事が終わってからのビールは、やっぱり最高だな。",
     "answer": "Having a beer after work is the best.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2ec9a4a7-fa93-452d-8807-a502587498cd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

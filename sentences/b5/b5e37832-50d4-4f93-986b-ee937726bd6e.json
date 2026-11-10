@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-89e6673a9de0ceed609adac6b1a4d49d5607e10750643f6d2622b0ef.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-89e6673a9de0ceed609adac6b1a4d49d5607e10750643f6d2622b0ef.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "飴"
@@ -65,11 +73,12 @@
     "question": "飴を一つ下さい。",
     "answer": "Please give me a candy.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b5e37832-50d4-4f93-986b-ee937726bd6e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

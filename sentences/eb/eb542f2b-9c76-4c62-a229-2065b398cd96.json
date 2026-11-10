@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-08811d70fd5ac0b4168f41308e428ea785f2557e12866d20ba68ac03.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-08811d70fd5ac0b4168f41308e428ea785f2557e12866d20ba68ac03.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "〜才"
@@ -58,11 +66,12 @@
     "question": "わたしは五才です。",
     "answer": "I am five years old.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "eb542f2b-9c76-4c62-a229-2065b398cd96",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

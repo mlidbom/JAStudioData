@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0737f82bffc64eeae9179293aea4e11fd399737ffc30c5b1572deb24.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0737f82bffc64eeae9179293aea4e11fd399737ffc30c5b1572deb24.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "同期中"
@@ -170,11 +178,12 @@
     "question": "昨日はGoogleドライブがずっと同期中で午前中仕事にならなかった。",
     "answer": "Yesterday, Google Drive was syncing all morning, so I couldn't get any work done.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "23ee9eab-423a-4e79-b87d-aab1348747e9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

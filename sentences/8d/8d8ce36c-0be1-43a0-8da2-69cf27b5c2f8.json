@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-88c713237a9ec8e071612ec9c462a41d2592b261a52803ed5e2432aa.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-88c713237a9ec8e071612ec9c462a41d2592b261a52803ed5e2432aa.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "いい加減"
@@ -121,11 +129,12 @@
     "question": "そういういい加減な情報を流すの、いい加減やめろよ！",
     "answer": "You need to stop giving out that kind of lousy information!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8d8ce36c-0be1-43a0-8da2-69cf27b5c2f8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

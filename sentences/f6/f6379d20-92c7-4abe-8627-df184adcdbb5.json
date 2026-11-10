@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-888b44a650a3e24bd4263d987b19e2cdfd16d1757014741304bb95d7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-888b44a650a3e24bd4263d987b19e2cdfd16d1757014741304bb95d7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "改善"
@@ -142,11 +150,12 @@
     "question": "このミーティングは、プロジェクトの改善点を話し合うためのものです。",
     "answer": "This meeting is to discuss improvements to the project.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f6379d20-92c7-4abe-8627-df184adcdbb5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

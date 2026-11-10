@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ed2ade7d14100ad5b63239b878910f9afe02941aa979f2e6481e7b8e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ed2ade7d14100ad5b63239b878910f9afe02941aa979f2e6481e7b8e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "客室"
@@ -107,11 +115,12 @@
     "question": "客室は広く、ベッドが二つありました。",
     "answer": "The guest room was large and had two beds.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "85d227e5-423d-4829-b7f5-e7263cc5da3d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e44b92830711c9d70489cc1bef0372a522efbe0ef6e8fb5623fcb9a3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e44b92830711c9d70489cc1bef0372a522efbe0ef6e8fb5623fcb9a3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "動物"
@@ -170,11 +178,12 @@
     "question": "動物園では野生動物も近くで見ることができます。",
     "answer": "At the zoo, you can see wild animals up close.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4191c99e-9763-4b58-b352-b756f96cad4a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

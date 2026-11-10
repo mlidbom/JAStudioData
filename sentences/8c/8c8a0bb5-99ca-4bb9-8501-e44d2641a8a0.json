@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8b171a0c3485a719ddd18caf1c7e5835b7722c9bf300c6bba06196ac.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8b171a0c3485a719ddd18caf1c7e5835b7722c9bf300c6bba06196ac.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "辞める"
@@ -142,11 +150,12 @@
     "question": "医者のアドバイスにしたがって、仕事を辞めました。",
     "answer": "I followed the doctor's advice and quit my job.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8c8a0bb5-99ca-4bb9-8501-e44d2641a8a0",
   "tags": [
-    "_tts_audio",
     "source::wani::removed"
   ]
 }

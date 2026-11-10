@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-faa4795e033f9d92e8cc79514d4df5c242d636c508e317768d00a7ad.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-faa4795e033f9d92e8cc79514d4df5c242d636c508e317768d00a7ad.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "炒る"
@@ -121,11 +129,12 @@
     "question": "まず、大豆をこんがりと炒ることから始めましょう。",
     "answer": "First, let's begin by roasting the soybeans until they turn golden brown.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "76bc0a14-b400-4531-b8f4-7ef64f98390e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

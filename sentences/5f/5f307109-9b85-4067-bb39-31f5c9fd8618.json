@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e2f65bafe175cafbae386e955afb6207b473aa3dbf87f30d4ff7a132.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e2f65bafe175cafbae386e955afb6207b473aa3dbf87f30d4ff7a132.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "押し"
@@ -121,11 +129,12 @@
     "question": "俺は押しに弱いんだよなあ。",
     "answer": "I’m weak-willed to pressure.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5f307109-9b85-4067-bb39-31f5c9fd8618",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

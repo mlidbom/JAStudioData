@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3b55965a8cbdada4fc04bbeec7b97c1892d0acf1f38d88c282852bcc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3b55965a8cbdada4fc04bbeec7b97c1892d0acf1f38d88c282852bcc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "遮断機"
@@ -219,11 +227,12 @@
     "question": "遮断機が降りている時に、線路を渡ってはいけません。",
     "answer": "When the railroad crossing gate comes down, do not cross the tracks.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "869573c1-a1c3-4fb2-9c81-e1ad563371e5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

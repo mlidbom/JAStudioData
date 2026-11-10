@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d9d43ab91f180eb73b6fce5d70c33fbf40b04c60918862f584428cd9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d9d43ab91f180eb73b6fce5d70c33fbf40b04c60918862f584428cd9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "バス停"
@@ -79,11 +87,12 @@
     "question": "このバス、あのバス停で止まりますか？",
     "answer": "Does this bus stop at that bus stop?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "558dcb1b-7ad9-4ecd-bf15-4cde15e87e53",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

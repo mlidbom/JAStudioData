@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-499fca09fe6452d410d492b1ace4fa3ad934a9c04a675ec091e32c98.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-499fca09fe6452d410d492b1ace4fa3ad934a9c04a675ec091e32c98.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "次"
@@ -79,11 +87,12 @@
     "question": "次のバスで行きましょう。",
     "answer": "Let's go with the next bus.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d809b599-a58e-4d0c-9766-8b28de3b157c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

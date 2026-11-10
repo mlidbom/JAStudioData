@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-363a4fa49794d6f61a080275f4263072fa6b102b47bc63c937062fb5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-363a4fa49794d6f61a080275f4263072fa6b102b47bc63c937062fb5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "算定する"
@@ -184,11 +192,12 @@
     "question": "今日の入場人数を今すぐ算定してもらってもいいですか？",
     "answer": "Right now, could you calculate the number of people who came today?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0fb65f37-b1a5-4f15-8eb9-4094e39ed457",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

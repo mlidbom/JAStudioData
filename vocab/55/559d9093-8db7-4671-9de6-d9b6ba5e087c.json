@@ -19,9 +19,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "[sound:hypertts-83f7963262ad35e6b56465697b724125f92a16de78feff196b572b1e.mp3]",
-  "audioG": "",
-  "audioTTS": "",
+  "audio": [
+    {
+      "fileName": "hypertts-83f7963262ad35e6b56465697b724125f92a16de78feff196b572b1e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Google ja-JP-Neural2-C",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "畏る",
@@ -39,8 +45,7 @@
   "sentenceCount": 1,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -69,11 +74,12 @@
   "sourceData": {
     "answer": "to: fear/be-afraid",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "559d9093-8db7-4671-9de6-d9b6ba5e087c",
   "tags": [
-    "_tts_audio",
     "source::yomitan"
   ]
 }

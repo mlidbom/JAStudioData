@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e0fb392b585388c08c8ebb652335574fd8a500fa6a00a817d7ef1fbf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e0fb392b585388c08c8ebb652335574fd8a500fa6a00a817d7ef1fbf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "相撲"
@@ -149,11 +157,12 @@
     "question": "今夜ビールを飲みながら相撲を見るってのはどうだい？",
     "answer": "Do you want to drink some beer and watch sumo wrestling tonight?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cfa8ae48-12ec-4698-aad9-c274fb15a193",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

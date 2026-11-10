@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-47a0f7ddb66088309094ff0fb5d5a5dcb05109a4699a6f9a186cf820.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-47a0f7ddb66088309094ff0fb5d5a5dcb05109a4699a6f9a186cf820.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "夏"
@@ -93,11 +101,12 @@
     "question": "夏と言えば、生ビールと花火です。",
     "answer": "What reminds me of summer is draft beer and fireworks.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1d96a337-ac39-4956-9e2b-a979c7913934",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

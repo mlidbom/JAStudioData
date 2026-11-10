@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-10ab691f4b961e10df88e25ac5c8f3b40ee2f143433cbe4dda727b75.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-10ab691f4b961e10df88e25ac5c8f3b40ee2f143433cbe4dda727b75.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お持ち帰り"
@@ -170,11 +178,12 @@
     "question": "どうする、お店で食べる？お持ち帰りにする？",
     "answer": "What shall we do, eat at a restaurant? Get takeout?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "03c51589-c4fb-4e47-a42c-89b140db300b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

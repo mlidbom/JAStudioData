@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-74b6385a148e5fa6a667193629773ee5d7a2d231357c6c10f7afe6a6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-74b6385a148e5fa6a667193629773ee5d7a2d231357c6c10f7afe6a6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "詩歌"
@@ -156,11 +164,12 @@
     "question": "これは詩歌を楽しむために作られたラジオ番組です。",
     "answer": "This is a radio program created for the enjoyment of poetry.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ef591e27-c864-49a2-a262-b5dbb19c9939",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

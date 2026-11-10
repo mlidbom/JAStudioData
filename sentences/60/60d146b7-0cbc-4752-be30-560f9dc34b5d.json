@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-41fbe2108874692fda663ac02e180d0766764dc04eb946ef6bd20fe0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-41fbe2108874692fda663ac02e180d0766764dc04eb946ef6bd20fe0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "摘む"
@@ -177,11 +185,12 @@
     "question": "彼女は薔薇の花びらを一枚一枚丁寧に手で摘んでいきます。",
     "answer": "She carefully plucks each rose petal by hand.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "60d146b7-0cbc-4752-be30-560f9dc34b5d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

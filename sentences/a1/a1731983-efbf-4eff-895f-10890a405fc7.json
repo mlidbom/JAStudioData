@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d5aefdbe52d02bc4e2819eded1ecb60beba62fa4e913dc1c2e5672e2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d5aefdbe52d02bc4e2819eded1ecb60beba62fa4e913dc1c2e5672e2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "貸し〜"
@@ -163,11 +171,12 @@
     "question": "これは私のじゃなくて、貸し自転車なんです。",
     "answer": "This isn't mine, it's a rental bike.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a1731983-efbf-4eff-895f-10890a405fc7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

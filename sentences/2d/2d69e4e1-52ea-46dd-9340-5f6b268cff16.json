@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-edec0ac70d23f73bb74e9c00e25283b8af8d19529a8e3fbfba0f8b1f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-edec0ac70d23f73bb74e9c00e25283b8af8d19529a8e3fbfba0f8b1f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "略図"
@@ -184,11 +192,12 @@
     "question": "あなたが作った略図をちょっと見せてもらえませんか？",
     "answer": "Could you show me the rough diagram you made?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2d69e4e1-52ea-46dd-9340-5f6b268cff16",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

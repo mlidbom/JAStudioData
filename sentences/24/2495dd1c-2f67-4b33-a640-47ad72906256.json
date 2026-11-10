@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-49c3cf8dc720cd9dd7db09ad92d03d5a60182274a6c9295d29024125.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-49c3cf8dc720cd9dd7db09ad92d03d5a60182274a6c9295d29024125.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "異なる"
@@ -135,11 +143,12 @@
     "question": "種類の異なるコーヒーを飲み比べてみました。",
     "answer": "I drank and compared different types of coffee.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2495dd1c-2f67-4b33-a640-47ad72906256",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

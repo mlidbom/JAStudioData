@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-6d59195a7eab238609ef764daab8771899eba11d5cc57b092b710bf7.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-6d59195a7eab238609ef764daab8771899eba11d5cc57b092b710bf7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "何処に",
@@ -64,8 +70,7 @@
   "sentenceCount": 123,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -89,7 +94,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "4766e982-3901-40da-96c4-c2d7c20e808f",
   "tags": [

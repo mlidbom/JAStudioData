@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-07f21918669f34722f9a404ab0503cd58b0effec828b18e200fc2792.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-07f21918669f34722f9a404ab0503cd58b0effec828b18e200fc2792.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "特急"
@@ -226,11 +234,12 @@
     "question": "チケットを先に買っておいたので、今出れば三時五十分の特急に間に合うよ。",
     "answer": "I already got a ticket for you, so if you leave now you can still catch the 3:50 express train.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c5717ce8-02bf-4f9b-8699-df4f94185efd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

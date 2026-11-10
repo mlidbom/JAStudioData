@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ac04b31405bbe82541b3d68e5e6585060e55dd9d95deaff67558bcff.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ac04b31405bbe82541b3d68e5e6585060e55dd9d95deaff67558bcff.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "神"
@@ -135,11 +143,12 @@
     "question": "神はどこかにいると思いますか？",
     "answer": "Do you think the gods exist somewhere?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "14771785-3caa-4571-8d36-e83c0666cba4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e8fa955f26980c11121783b57865968b2d6bceae88e2aa2a0bb12cdb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e8fa955f26980c11121783b57865968b2d6bceae88e2aa2a0bb12cdb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "猫"
@@ -65,11 +73,12 @@
     "question": "猫も家族の一員です。",
     "answer": "Cats are part of the family, too.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f3a9f1c7-7e5a-48f3-b863-bcb6e3fafc05",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

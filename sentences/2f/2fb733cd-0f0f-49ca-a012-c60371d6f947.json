@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ac4960ea3d6d5bb81eacb848258075637e2fbc68749ed627d5a4fd82.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ac4960ea3d6d5bb81eacb848258075637e2fbc68749ed627d5a4fd82.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "収入"
@@ -107,11 +115,12 @@
     "question": "本当の収入を打ち明けたら、フラれたんだ。",
     "answer": "I confided in her about my actual income, and she dumped me.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2fb733cd-0f0f-49ca-a012-c60371d6f947",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

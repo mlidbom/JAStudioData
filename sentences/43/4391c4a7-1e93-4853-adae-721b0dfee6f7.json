@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a9c03de277bb2055e60f6251e2a397cadb1db967ac0ea920255cf12c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a9c03de277bb2055e60f6251e2a397cadb1db967ac0ea920255cf12c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "感じる"
@@ -135,11 +143,12 @@
     "question": "最近兄に冷たくされていると感じます。",
     "answer": "I feel like my older brother has been giving me the cold shoulder recently.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4391c4a7-1e93-4853-adae-721b0dfee6f7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

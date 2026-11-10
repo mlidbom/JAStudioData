@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a2164f1f9606ed2d3720aa3fd32cb7d0a3dd250492273b1476ecdbde.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a2164f1f9606ed2d3720aa3fd32cb7d0a3dd250492273b1476ecdbde.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "仮称"
@@ -114,11 +122,12 @@
     "question": "トーフグが仮称だったなんて、びっくりだよ。",
     "answer": "I was surprised to learn that Tofugu was just a working name.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "adf1ed6d-7461-4b56-95e0-a8f32638f3fb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

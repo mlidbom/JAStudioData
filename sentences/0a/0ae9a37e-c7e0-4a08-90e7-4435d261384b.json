@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c883fb2ecf281832d0d6c260382fee77e02a0fba42f974b9b6f3a4c1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c883fb2ecf281832d0d6c260382fee77e02a0fba42f974b9b6f3a4c1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "遠く"
@@ -177,11 +185,12 @@
     "question": "今はメガネをかけてないので、遠くの物がよく見えません。",
     "answer": "I'm not wearing glasses right now, so I can't see far away objects very well.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0ae9a37e-c7e0-4a08-90e7-4435d261384b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

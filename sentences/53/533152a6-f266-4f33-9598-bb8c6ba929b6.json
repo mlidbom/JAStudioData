@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d187f7225733eac55c3422918f03dd828bd15d27d05fee79b4cffb47.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d187f7225733eac55c3422918f03dd828bd15d27d05fee79b4cffb47.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "帰す"
@@ -100,11 +108,12 @@
     "question": "今日は少し早く運転手を帰した。",
     "answer": "I sent my driver home a little early today.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "533152a6-f266-4f33-9598-bb8c6ba929b6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ad82865441eafb47bac758171be4e29091f7adeda4531f9d3a42fafd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ad82865441eafb47bac758171be4e29091f7adeda4531f9d3a42fafd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "字"
@@ -135,11 +143,12 @@
     "question": "字の大きさを、もっと大きくしてください。",
     "answer": "Please increase the size of the character more.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3051c8a6-8c8c-4bff-8da2-96827b005c92",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

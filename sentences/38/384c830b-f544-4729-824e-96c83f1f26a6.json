@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9263b1de2d50dd337d75b087fb7bb03144a3178ee90c959dca2d2c99.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9263b1de2d50dd337d75b087fb7bb03144a3178ee90c959dca2d2c99.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "漁師"
@@ -198,11 +206,12 @@
     "question": "私はその漁師を知っていますよ。私の義理の兄ですから。",
     "answer": "I know that fisherman because he is my brother in law.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "384c830b-f544-4729-824e-96c83f1f26a6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

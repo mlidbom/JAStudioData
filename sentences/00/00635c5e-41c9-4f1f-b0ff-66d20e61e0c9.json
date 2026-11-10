@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-08bb51fcc6f38986fdc124615cda8c4c147b0e1ef395b88e261b2bab.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-08bb51fcc6f38986fdc124615cda8c4c147b0e1ef395b88e261b2bab.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "悪い"
@@ -219,11 +227,12 @@
     "question": "牛乳は悪くなっていたけど、俺は気にしなかった。",
     "answer": "The milk went bad, but I didn’t care.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "00635c5e-41c9-4f1f-b0ff-66d20e61e0c9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

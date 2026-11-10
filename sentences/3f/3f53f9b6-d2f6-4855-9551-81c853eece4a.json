@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b1fc7426f9e4fa4ccff0799749bc38a237b9ceff10b94cc896e07026.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b1fc7426f9e4fa4ccff0799749bc38a237b9ceff10b94cc896e07026.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "住宅"
@@ -177,11 +185,12 @@
     "question": "戦争に備えて、核シェルターを備え付けている住宅が増えています。",
     "answer": "The number of dwellings with nuclear shelters has increased in preparation for war.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3f53f9b6-d2f6-4855-9551-81c853eece4a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5a25c097f53831f6bae5302a32864069ffcd1f1a2c22e97fd3565109.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5a25c097f53831f6bae5302a32864069ffcd1f1a2c22e97fd3565109.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "入隊"
@@ -205,11 +213,12 @@
     "question": "入隊試験に面接があるとは思ってもみなかった。",
     "answer": "I never thought there would be an interview for the enlistment test.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8cab47f0-d93c-481c-b6e9-12bec1100007",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

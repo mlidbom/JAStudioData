@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1bd4a46e498f9d0ba1ea7325f6fd07f05cf5f6eac138749e4c3cd7b8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1bd4a46e498f9d0ba1ea7325f6fd07f05cf5f6eac138749e4c3cd7b8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "下巻"
@@ -170,11 +178,12 @@
     "question": "この経済学の教科書は上巻と下巻があるんだよ。",
     "answer": "This economics textbook has the first volume and the last volume.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e14e75d7-db53-428c-89b5-ddab906676fc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

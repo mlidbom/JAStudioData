@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-edc3b2efe68dd0e442bed01b749cb0161184b5beb60f470bee629fdc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-edc3b2efe68dd0e442bed01b749cb0161184b5beb60f470bee629fdc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "邸内"
@@ -86,11 +94,12 @@
     "question": "これは、邸内の写真です。",
     "answer": "This is a picture of the grounds.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5b51a8a0-6e46-407e-93fc-99bcaae2776f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

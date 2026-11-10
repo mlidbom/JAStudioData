@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-77f30cf87cc58429077effee8afb88183514d476106e7b63d229974b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-77f30cf87cc58429077effee8afb88183514d476106e7b63d229974b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "頼む"
@@ -177,11 +185,12 @@
     "question": "「茹でたワニカニ、いつまでに必要ですか？」「できるだけ早く頼むよ。」",
     "answer": "\"When do you need boiled crabigator by?\" \"I need it as soon as possible.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "23e42b37-86e1-45e5-a605-8e48d47e2afb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

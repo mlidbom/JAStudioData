@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fada7bdee772380ab3f85520760e9c6353aa4c85f3abf2c39a1d2de4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fada7bdee772380ab3f85520760e9c6353aa4c85f3abf2c39a1d2de4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "作業"
@@ -93,11 +101,12 @@
     "question": "地下での作業はどうでしたか？",
     "answer": "How was your operation underground?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ab8e676a-d21b-4270-b267-fd09bc4fa220",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2ab4d9037acf0015decb86763c80f6c82738b29c5749cdbbf496dbff.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2ab4d9037acf0015decb86763c80f6c82738b29c5749cdbbf496dbff.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "温かい"
@@ -65,11 +73,12 @@
     "question": "母の手はいつも温かい。",
     "answer": "My mother's hands are always warm.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6e537a77-2af3-4379-95a7-ac0a3cb1bc22",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

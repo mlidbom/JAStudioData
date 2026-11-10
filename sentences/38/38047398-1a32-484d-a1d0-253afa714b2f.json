@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9c4e5ffc15b2578286a94a140266bbfcca8a78d29428518ee3b3788f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9c4e5ffc15b2578286a94a140266bbfcca8a78d29428518ee3b3788f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "愛知県"
@@ -142,11 +150,12 @@
     "question": "愛知県に行ったことがありますか？",
     "answer": "Have you ever visited Aichi Prefecture?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "38047398-1a32-484d-a1d0-253afa714b2f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

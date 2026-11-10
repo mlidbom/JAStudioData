@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dd22407ef2a70c2a0b599ebe9568cf21f08a861eab93a9d077af1a1f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dd22407ef2a70c2a0b599ebe9568cf21f08a861eab93a9d077af1a1f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "緯度"
@@ -86,11 +94,12 @@
     "question": "GPSで経度や緯度が検索できます。",
     "answer": "I can look up the latitude and longitude on my GPS.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2e46c296-814f-40fc-a8f4-3dc7d8821bd6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

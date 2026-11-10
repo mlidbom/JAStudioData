@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f7045541e0f7c831d81a7299870d449229024aaa95932efbfc7c211c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f7045541e0f7c831d81a7299870d449229024aaa95932efbfc7c211c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "駐屯"
@@ -163,11 +171,12 @@
     "question": "あそこには米軍が駐屯しているんだよ。",
     "answer": "US armed forces are stationed over there. ",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "84a5ff0c-778f-4768-8226-1a43389da2da",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

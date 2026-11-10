@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7cfede6e97ea38fab6363eee77c5522f5c9df4977389fb7188b948d7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7cfede6e97ea38fab6363eee77c5522f5c9df4977389fb7188b948d7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "招待する"
@@ -177,11 +185,12 @@
     "question": "どのお友達を誕生日会に招待するか決めましたか。",
     "answer": "Have you decided which friends to invite over for your birthday party?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "78746bd6-6647-4f5a-8786-7774b41478d6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

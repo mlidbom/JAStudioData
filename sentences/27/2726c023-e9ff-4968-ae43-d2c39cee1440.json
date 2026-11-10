@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dced7276a56b2ff14ce69eb1e2825b4a5bdd421ac4d246c02e32b745.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dced7276a56b2ff14ce69eb1e2825b4a5bdd421ac4d246c02e32b745.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "朗報"
@@ -149,11 +157,12 @@
     "question": "朗報を伝えるためにここに来ました。",
     "answer": "I’m here to tell you some good news.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2726c023-e9ff-4968-ae43-d2c39cee1440",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2c231dfd2d379989859d7a0bc6c7011a165bcd89715db556e27a8124.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2c231dfd2d379989859d7a0bc6c7011a165bcd89715db556e27a8124.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "残業"
@@ -65,11 +73,12 @@
     "question": "今日、残業あるかも。",
     "answer": "Today, there might be overtime.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "84916cb7-5bc2-4d69-a5d3-775c4550ab85",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

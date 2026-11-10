@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4b07ac2fb72ccf255ddeb8289e581aeada2df4ea4eb4aa2a48033c61.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4b07ac2fb72ccf255ddeb8289e581aeada2df4ea4eb4aa2a48033c61.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "差す"
@@ -107,11 +115,12 @@
     "question": "暗い部屋に光が差しています。",
     "answer": "Light is shining into the dark room.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5cb0f6db-8713-41e0-9a0a-1a249f4bff93",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

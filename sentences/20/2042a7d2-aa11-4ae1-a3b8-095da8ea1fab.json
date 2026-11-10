@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-792ca50d56dd766985a3d5534b040dfdd5f7a0976d9fa53d7e56bd35.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-792ca50d56dd766985a3d5534b040dfdd5f7a0976d9fa53d7e56bd35.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "新宿"
@@ -114,11 +122,12 @@
     "question": "この新宿のホテルのシャワーは、水かぬるま湯しか出ない。",
     "answer": "This Shinjuku hotel's shower only has cold or lukewarm water.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2042a7d2-aa11-4ae1-a3b8-095da8ea1fab",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

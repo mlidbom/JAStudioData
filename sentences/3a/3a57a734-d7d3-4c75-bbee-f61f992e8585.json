@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6cc911d7e966ae5fb8c4ebfb40fded5bcebc5c03ca75727f47afbe2e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6cc911d7e966ae5fb8c4ebfb40fded5bcebc5c03ca75727f47afbe2e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "垣根"
@@ -121,11 +129,12 @@
     "question": "男は垣根の上にそっと義手を置きました。",
     "answer": "The man placed his prosthetic hand gently on the hedge.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3a57a734-d7d3-4c75-bbee-f61f992e8585",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

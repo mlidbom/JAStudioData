@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-13e4a7517ac8f4c088dbc59ede2f226070c38719418336c4b857a205.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-13e4a7517ac8f4c088dbc59ede2f226070c38719418336c4b857a205.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "画像"
@@ -86,11 +94,12 @@
     "question": "この画像、ちょっとぼやけてるね。",
     "answer": "This image is a bit blurry, isn't it?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3e25cda0-a4aa-46c1-8bf1-e036493b6b8f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

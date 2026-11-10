@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ac859ade745b5ce61026b88beec5063dfc1b29a442e584d02e917e37.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ac859ade745b5ce61026b88beec5063dfc1b29a442e584d02e917e37.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "録音"
@@ -163,11 +171,12 @@
     "question": "今日はガンダムパーティーがあるので、ポッドキャストの録音は月曜日にしましょう。",
     "answer": "We have a Gundam party today, so let's postpone the podcast recording to Monday.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "104d6204-f303-455c-b1e9-641447ddbe93",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

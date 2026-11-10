@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1419270acafc51a80efa4476393be6eadd44997c6c32220a3167e9a7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1419270acafc51a80efa4476393be6eadd44997c6c32220a3167e9a7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "図説"
@@ -247,11 +255,12 @@
     "question": "もし説明と共に図説があれば、より分かりやすくなるかと思うんですが、どう思いますか？",
     "answer": "I think it would be easier to understand if there was an illustration with an explanation, what do you think?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "52b2e3ed-ccd3-4ba0-bee9-4f1c7c404dd4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bea6c9dacbfbe79945bfb26214ad3eae296cda156dfdb45750247dab.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bea6c9dacbfbe79945bfb26214ad3eae296cda156dfdb45750247dab.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "見せる"
@@ -65,11 +73,12 @@
     "question": "そのノート、見せて。",
     "answer": "Show me the notebook.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f80b343d-9700-4b4a-9e80-4a0a7bacfcc0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

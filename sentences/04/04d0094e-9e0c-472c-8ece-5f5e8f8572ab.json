@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4120b15990e2473a3c054057d0033e28a22cf6aa4b4538082591c165.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4120b15990e2473a3c054057d0033e28a22cf6aa4b4538082591c165.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "〜倍"
@@ -170,11 +178,12 @@
     "question": "年末までに売り上げを去年の五倍にしたいんです。",
     "answer": "I want to increase sales by five times before the end of the year.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "04d0094e-9e0c-472c-8ece-5f5e8f8572ab",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

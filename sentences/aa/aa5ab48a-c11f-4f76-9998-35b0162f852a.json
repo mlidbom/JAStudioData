@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e5a540f584f1b53fb37b4287cc4128981de0387fe88240b4eb36dce4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e5a540f584f1b53fb37b4287cc4128981de0387fe88240b4eb36dce4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "飛ぶ"
@@ -198,11 +206,12 @@
     "question": "ワニカニの年間サブスクリプションは、飛ぶように売れています。",
     "answer": "Annual subscriptions for WaniKani are flying off the shelves.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "aa5ab48a-c11f-4f76-9998-35b0162f852a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

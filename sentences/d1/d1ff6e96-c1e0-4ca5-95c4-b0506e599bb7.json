@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e5a717c48197453e6cf6142e73cda0685ff59bdde3a1504f2fc765bf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e5a717c48197453e6cf6142e73cda0685ff59bdde3a1504f2fc765bf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "象"
@@ -156,11 +164,12 @@
     "question": "足がむくんで、象の足みたいになっています。",
     "answer": "My legs are swollen, and look like elephant legs.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d1ff6e96-c1e0-4ca5-95c4-b0506e599bb7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

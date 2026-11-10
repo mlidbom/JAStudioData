@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1c543112d95322d9c7cb5bd1db5700c7ab6c97a33ef96f6632e923df.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1c543112d95322d9c7cb5bd1db5700c7ab6c97a33ef96f6632e923df.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "苛む"
@@ -142,11 +150,12 @@
     "question": "うだるような暑さが私達を苛む。",
     "answer": "The sweltering heat torments us.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4dfc9aaa-7fb9-45cf-b27c-f9698df3e942",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

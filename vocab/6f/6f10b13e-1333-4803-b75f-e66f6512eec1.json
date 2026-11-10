@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-b12c950b8a2d2fe3b709856a95c792fd18aac1fea678b82062e1af4d.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-b12c950b8a2d2fe3b709856a95c792fd18aac1fea678b82062e1af4d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "でもしようがない",
@@ -80,8 +86,7 @@
   "sentenceCount": 2,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -115,7 +120,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "6f10b13e-1333-4803-b75f-e66f6512eec1",
   "tags": [

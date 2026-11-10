@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3d3ae6bec247fe5d0b5975f9dc8f368cbbca582a94e49eb4a26e4919.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3d3ae6bec247fe5d0b5975f9dc8f368cbbca582a94e49eb4a26e4919.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "石"
@@ -121,11 +129,12 @@
     "question": "川の石をコレクションしています。",
     "answer": "I collect river rocks.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "290b552f-62aa-4a52-9300-af209abee40b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

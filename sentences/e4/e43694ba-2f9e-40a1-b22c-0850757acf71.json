@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9eb73214f8b51758c9600c12a9c4d832004a4e09050a49ed3383daaa.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9eb73214f8b51758c9600c12a9c4d832004a4e09050a49ed3383daaa.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "学期"
@@ -177,11 +185,12 @@
     "question": "学期末試験は三月なので、まだまだ勉強する時間はたっぷりあります。",
     "answer": "Final exams are held in March so there's still plenty of time to prepare.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e43694ba-2f9e-40a1-b22c-0850757acf71",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

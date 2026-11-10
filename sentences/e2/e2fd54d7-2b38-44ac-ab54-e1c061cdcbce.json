@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d4ef9ae11d685eb5b247edfd06a71765c5299315abb087347f898dbf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d4ef9ae11d685eb5b247edfd06a71765c5299315abb087347f898dbf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "東口"
@@ -114,11 +122,12 @@
     "question": "明日は午後五時に東口で会いましょう。",
     "answer": "Let's meet at 5 p.m. tomorrow at the east exit.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e2fd54d7-2b38-44ac-ab54-e1c061cdcbce",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

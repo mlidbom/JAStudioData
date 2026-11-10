@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f071bb43bb79ab98fafecd4ca9f7a5d45e435696364210327e95edaa.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f071bb43bb79ab98fafecd4ca9f7a5d45e435696364210327e95edaa.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "公示"
@@ -282,11 +290,12 @@
     "question": "ミスした人の名前を公示することは、ミスを防止することにはならないと思う。",
     "answer": "I don't think publicly announcing the name of the person who made the mistake will prevent (future) mistakes.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ec6d48b1-49c8-4ab1-b4d2-b832d43df02e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

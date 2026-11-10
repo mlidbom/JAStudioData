@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-966508583c361175ab30441b47c21b7c93b4be6819cfb92955d7d3dc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-966508583c361175ab30441b47c21b7c93b4be6819cfb92955d7d3dc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "三個"
@@ -142,11 +150,12 @@
     "question": "コーヒーにはミルクとシロップを三個ずつ入れます。",
     "answer": "I put three milks and three syrup cups in my coffee.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "399fdc86-acbe-4ab9-bffa-70a43b70ce4a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

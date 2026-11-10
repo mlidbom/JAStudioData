@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-770f6c16dc3b42e37cda718e9c9d070390fbef676c38151bca186156.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-770f6c16dc3b42e37cda718e9c9d070390fbef676c38151bca186156.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "赴任"
@@ -135,11 +143,12 @@
     "question": "今度、中国に赴任することになりました。",
     "answer": "I am about to be posted to China.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "12a03bd3-29f5-41e0-8787-3f35fe6bb8ea",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

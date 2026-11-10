@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f0f668ea90e855f24860a9dece4b47c99ec3404736f2b72ca660b77f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f0f668ea90e855f24860a9dece4b47c99ec3404736f2b72ca660b77f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "風呂屋"
@@ -114,11 +122,12 @@
     "question": "風呂屋に来るのは初めてです。",
     "answer": "This is my first time going to a public bathhouse.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "012ae2f4-7c1a-4b9f-bb4f-ac8744fb0095",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

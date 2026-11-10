@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7de775e87a0ffa6d06ad0b42c026a2b823767c7287d9e8a0fa0df39a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7de775e87a0ffa6d06ad0b42c026a2b823767c7287d9e8a0fa0df39a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "父親"
@@ -135,11 +143,12 @@
     "question": "父親はいつも私たちに助言をしてくれます。",
     "answer": "Our father always gives us advice.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b1406232-af5e-4ac1-9399-5b76abc45e10",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

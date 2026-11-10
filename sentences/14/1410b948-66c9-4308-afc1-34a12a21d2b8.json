@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4bb58553733c192e76da97488145c8d47a506e1d0ab267bc743facf7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4bb58553733c192e76da97488145c8d47a506e1d0ab267bc743facf7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お姉さん"
@@ -79,11 +87,12 @@
     "question": "お姉さん、出口はあっちですよ。",
     "answer": "Miss, the exit is over there.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1410b948-66c9-4308-afc1-34a12a21d2b8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

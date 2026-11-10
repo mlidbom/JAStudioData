@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-587c6e8f5a3ab0116b52141172cfb3612b8f335cb1e1e0622bb00bf5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-587c6e8f5a3ab0116b52141172cfb3612b8f335cb1e1e0622bb00bf5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "撤去"
@@ -100,11 +108,12 @@
     "question": "瓦礫の撤去に関するニュースをネットで読みました。",
     "answer": "I read the news about removing rubble on the internet.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b813652a-5034-4030-843f-116ca0cfba39",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

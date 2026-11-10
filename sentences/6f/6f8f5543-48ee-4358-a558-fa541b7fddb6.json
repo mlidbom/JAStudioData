@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b86ef448c358230b68c96d33889c9104f753efb0e0b566e1e00846fe.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b86ef448c358230b68c96d33889c9104f753efb0e0b566e1e00846fe.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "四月"
@@ -72,11 +80,12 @@
     "question": "四月まで、あと三日だ。",
     "answer": "Only three days more days until April.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6f8f5543-48ee-4358-a558-fa541b7fddb6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

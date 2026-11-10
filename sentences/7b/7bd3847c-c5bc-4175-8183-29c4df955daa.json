@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-31f0a381f9f89b552c6f3bf23b6db8c567635e0f5cacf4a1cadef9e0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-31f0a381f9f89b552c6f3bf23b6db8c567635e0f5cacf4a1cadef9e0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "宙"
@@ -170,11 +178,12 @@
     "question": "うちの猫はたまに口を開けて宙を見る時があります。",
     "answer": "My cat sometimes opens her mouth to look in the air.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7bd3847c-c5bc-4175-8183-29c4df955daa",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

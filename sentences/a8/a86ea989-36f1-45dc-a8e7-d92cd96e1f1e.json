@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ae333bac5b06dd4d5aed9949f4326f4adbaf0bb88b319c868c4ec383.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ae333bac5b06dd4d5aed9949f4326f4adbaf0bb88b319c868c4ec383.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "字幕"
@@ -156,11 +164,12 @@
     "question": "字幕のせいで気が散ることもあります。",
     "answer": "Subtitles can be a distraction.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a86ea989-36f1-45dc-a8e7-d92cd96e1f1e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

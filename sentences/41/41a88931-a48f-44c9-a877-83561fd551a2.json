@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6a8ec6bba6536ea12f1069c9ef6e49d93c5959cfb080ae99042eef79.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6a8ec6bba6536ea12f1069c9ef6e49d93c5959cfb080ae99042eef79.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "立つ"
@@ -121,11 +129,12 @@
     "question": "デスクワークばっかりだと立つのがしんどい。",
     "answer": "It's hard to stand up when all you do is desk work.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "41a88931-a48f-44c9-a877-83561fd551a2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

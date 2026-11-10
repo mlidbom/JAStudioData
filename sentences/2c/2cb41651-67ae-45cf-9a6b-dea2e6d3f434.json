@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-08e5525819b52a8f85b3bdb4f9da8fd4175fefea27ad25c3aa14c07f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-08e5525819b52a8f85b3bdb4f9da8fd4175fefea27ad25c3aa14c07f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "内緒話"
@@ -247,11 +255,12 @@
     "question": "当人達は内緒話をしているつもりのようだが、声がでかいので全部筒抜けだよ。",
     "answer": "They are trying to whisper to each other, but their voices are so loud that I can hear everything.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2cb41651-67ae-45cf-9a6b-dea2e6d3f434",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

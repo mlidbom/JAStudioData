@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7f0fdab366960a387837656ef90f3fc4bd7158a370b4a20f93e09ba8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7f0fdab366960a387837656ef90f3fc4bd7158a370b4a20f93e09ba8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "水晶"
@@ -142,11 +150,12 @@
     "question": "この水晶は大中小の三つの大きさがあります。",
     "answer": "This crystal comes in three sizes; small, medium, and large.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9c016794-b0fb-42d3-82bd-f538c1c1f9a8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

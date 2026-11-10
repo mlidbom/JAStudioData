@@ -19,9 +19,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-dd55bf15e8f0434c664da26875b2fa74cb5f07e1af8ca565a6d4d1b3.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-dd55bf15e8f0434c664da26875b2fa74cb5f07e1af8ca565a6d4d1b3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "ニコチン・パッチ",
@@ -31,8 +37,7 @@
   "sentenceCount": 1,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -56,7 +61,9 @@
   "sourceData": {
     "answer": "nicotine-patch",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "e6ae8a32-fb37-404f-927d-98aa326562f4",
   "tags": [

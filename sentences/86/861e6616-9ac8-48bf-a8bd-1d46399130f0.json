@@ -3,8 +3,16 @@
   "corpusAnswer": "This ice-cream is now on sale at convenience stores nationwide.",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-def7caf18109a429a8d96672755f53e3007b8c9eeb86f801f2cb642c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-def7caf18109a429a8d96672755f53e3007b8c9eeb86f801f2cb642c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "発売中"
@@ -100,11 +108,12 @@
     "question": "このアイスは全国のコンビニで発売中です。",
     "answer": "This ice-cream is on sale at convenience stores nationwide.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "861e6616-9ac8-48bf-a8bd-1d46399130f0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

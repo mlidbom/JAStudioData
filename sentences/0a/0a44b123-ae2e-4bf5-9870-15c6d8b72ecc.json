@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-41a54e1a9bd583f95d28a771eb19c567eb437f7bba74f4c42d0a01db.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-41a54e1a9bd583f95d28a771eb19c567eb437f7bba74f4c42d0a01db.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "骨折"
@@ -72,11 +80,12 @@
     "question": "骨折してますね。",
     "answer": "Your bone is broken.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0a44b123-ae2e-4bf5-9870-15c6d8b72ecc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

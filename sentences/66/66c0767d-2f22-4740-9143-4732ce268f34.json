@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-67d77aed625680b22ca56f6a6e7c7264790e6032275168b544a0fa97.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-67d77aed625680b22ca56f6a6e7c7264790e6032275168b544a0fa97.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "集中"
@@ -184,11 +192,12 @@
     "question": "パパがゲームに集中している時は、話しかけない方がいいよ。",
     "answer": "You should not talk to Dad when he is concentrated in a game.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "66c0767d-2f22-4740-9143-4732ce268f34",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

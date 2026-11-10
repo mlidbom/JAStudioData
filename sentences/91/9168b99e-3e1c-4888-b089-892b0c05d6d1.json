@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-80139abc66111aad28b9f9d378113261628de7e6b4048f8c5d64a5ab.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-80139abc66111aad28b9f9d378113261628de7e6b4048f8c5d64a5ab.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "刀"
@@ -86,11 +94,12 @@
     "question": "日本で刀をかいたいんです。",
     "answer": "I want to buy a sword in Japan.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9168b99e-3e1c-4888-b089-892b0c05d6d1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

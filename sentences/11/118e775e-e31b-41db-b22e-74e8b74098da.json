@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-993ddd42bbc5fec45b7a167a732a290d3609adb9af02db98d559463b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-993ddd42bbc5fec45b7a167a732a290d3609adb9af02db98d559463b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お願い"
@@ -44,11 +52,12 @@
     "question": "お願い！手伝って！",
     "answer": "Please! Help me!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "118e775e-e31b-41db-b22e-74e8b74098da",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

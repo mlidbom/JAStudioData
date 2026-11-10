@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8a185988e0910b7346d30675a2f26a6b07172ac7c91f7ed453b74f10.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8a185988e0910b7346d30675a2f26a6b07172ac7c91f7ed453b74f10.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "喜劇"
@@ -100,11 +108,12 @@
     "question": "Netflixに喜劇王チャップリンのドキュメンタリーが上がってたよ。",
     "answer": "There's a documentary about the comedy king Charlie Chaplin available on Netflix.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c6d15470-d5ac-415a-852f-7ecc44efdde6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

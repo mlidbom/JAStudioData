@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1271ca959ba70e30cf451cea3f7c6616ec0f886b2a5ec37846b06a10.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1271ca959ba70e30cf451cea3f7c6616ec0f886b2a5ec37846b06a10.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "走行"
@@ -121,11 +129,12 @@
     "question": "バスの走行中に立ち上がらないで下さい。",
     "answer": "Do not stand up while the bus is moving.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3a754a4b-97ff-4015-b48f-3caa13b6c8a3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

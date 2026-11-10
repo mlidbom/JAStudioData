@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ec13fcda6196b21a0a7aa07cefc431fe3624fed1edee287b855c6620.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ec13fcda6196b21a0a7aa07cefc431fe3624fed1edee287b855c6620.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "中尉"
@@ -170,11 +178,12 @@
     "question": "我が軍の中尉が敵軍に拉致され、処刑されました。",
     "answer": "Our army’s first lieutenant was captured by the enemy and executed.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a71135ee-5953-4114-8a16-f2657442cd14",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

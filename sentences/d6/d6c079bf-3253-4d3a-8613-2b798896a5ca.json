@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d5da47940c079a3375d7734af16f09470d6a9b03904cc820a241e336.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d5da47940c079a3375d7734af16f09470d6a9b03904cc820a241e336.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "童話"
@@ -128,11 +136,12 @@
     "question": "この童話は小さい子たちに人気があります。",
     "answer": "This fairy tale is popular with small children.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d6c079bf-3253-4d3a-8613-2b798896a5ca",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

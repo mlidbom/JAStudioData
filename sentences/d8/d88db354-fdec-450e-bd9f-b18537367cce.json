@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d7a74723bd6726676a4ca6c09733b5452e9e6ca7242116b2d0288b3b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d7a74723bd6726676a4ca6c09733b5452e9e6ca7242116b2d0288b3b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "過敏"
@@ -121,11 +129,12 @@
     "question": "過敏性大腸症候群に苦しんでいます。",
     "answer": "I’m suffering from irritable colon syndrome.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d88db354-fdec-450e-bd9f-b18537367cce",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

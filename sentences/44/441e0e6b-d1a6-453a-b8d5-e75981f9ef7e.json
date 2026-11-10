@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0c8db28930d1d8a9332dde97495f133941e247f9f970aeb13093f9d6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0c8db28930d1d8a9332dde97495f133941e247f9f970aeb13093f9d6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "誤用"
@@ -156,11 +164,12 @@
     "question": "薬の誤用は命に関わることがあります。",
     "answer": "Misuse of medicine can be fatal.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "441e0e6b-d1a6-453a-b8d5-e75981f9ef7e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

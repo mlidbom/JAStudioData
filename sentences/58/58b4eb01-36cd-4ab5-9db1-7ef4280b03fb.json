@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4ca28d78e9cd9dd113a43a4402ce99bd8975cac1388f831ce5a06a7a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4ca28d78e9cd9dd113a43a4402ce99bd8975cac1388f831ce5a06a7a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "惑う"
@@ -93,11 +101,12 @@
     "question": "人々は泣き叫び、逃げ惑っていた。",
     "answer": "People were crying out and fleeing frantically.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "58b4eb01-36cd-4ab5-9db1-7ef4280b03fb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

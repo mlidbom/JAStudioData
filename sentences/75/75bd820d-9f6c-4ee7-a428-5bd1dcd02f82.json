@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-630e3d3b59fe2958eef2d41be8eb85091dec45786199b1bc6d0e733d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-630e3d3b59fe2958eef2d41be8eb85091dec45786199b1bc6d0e733d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "揃う"
@@ -107,11 +115,12 @@
     "question": "山田さんちのクツはいつもきれいに揃っている。",
     "answer": "The Yamada family's shoes are always neatly arranged.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "75bd820d-9f6c-4ee7-a428-5bd1dcd02f82",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

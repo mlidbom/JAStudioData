@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-aa9c3dcfb23215f96a589b5a36e3dd4f344e6686c9ff9bbfa8f52ac5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-aa9c3dcfb23215f96a589b5a36e3dd4f344e6686c9ff9bbfa8f52ac5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "警察"
@@ -72,11 +80,12 @@
     "question": "動くな！警察だ。",
     "answer": "Don't move! It's the police.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cda4fdca-fbd7-4fe5-b21f-dda5bef5ae0e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

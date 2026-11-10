@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6b2f4bd4ccfd71cdf178604fadde8eaeb0b495b062fc2b1c912fe339.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6b2f4bd4ccfd71cdf178604fadde8eaeb0b495b062fc2b1c912fe339.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "殺す"
@@ -254,11 +262,12 @@
     "question": "うちの子は、虫を殺すこともできないくらい気の弱い子なんです。",
     "answer": "My child is so timid that they can't even bring themselves to kill insects.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "80aaea20-953f-451f-8809-9aa409d1f577",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

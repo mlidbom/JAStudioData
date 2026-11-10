@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e22fa91dc46c3b52f7f26eac594fafaa4d4fef7790e04330bda15e47.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e22fa91dc46c3b52f7f26eac594fafaa4d4fef7790e04330bda15e47.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "預かる"
@@ -184,11 +192,12 @@
     "question": "必要になった時のために預かっておいてほしい。",
     "answer": "I want you to hold onto this for me in case I need it.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "eff5b399-0946-4f6c-8c2b-47287666e394",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-71e37fc56d7f0ca2440fa73764695fd36c704e4c4f893a25b30220b1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-71e37fc56d7f0ca2440fa73764695fd36c704e4c4f893a25b30220b1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "支店"
@@ -107,11 +115,12 @@
     "question": "私の主人は、ニューヨーク支店の支店長です。",
     "answer": "My husband is the branch manager of the New York branch.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "209a1584-1260-4582-818f-26c1cd8c4012",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

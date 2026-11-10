@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1bcdbbcd3f1ff6537dc97af039e8f165f8f22530eedf7426aa089cac.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1bcdbbcd3f1ff6537dc97af039e8f165f8f22530eedf7426aa089cac.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "架設"
@@ -205,11 +213,12 @@
     "question": "今まで一度も橋梁を架設したことがありません。",
     "answer": "I’ve never built a bridge before.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9aab550f-bb6d-4f0e-82dc-b2455fb5a4ad",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

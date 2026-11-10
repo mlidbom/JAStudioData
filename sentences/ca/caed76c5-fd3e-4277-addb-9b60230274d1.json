@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e547cbf7f2a47be3dd013aac260335723ddde7001c1d0f35df54004c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e547cbf7f2a47be3dd013aac260335723ddde7001c1d0f35df54004c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "小遣い"
@@ -156,11 +164,12 @@
     "question": "お子さんには月々お小遣いはいくら渡しているんですか。",
     "answer": "How much spending money do you give your kid a month?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "caed76c5-fd3e-4277-addb-9b60230274d1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

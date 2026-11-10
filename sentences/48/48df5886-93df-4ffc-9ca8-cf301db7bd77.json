@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5de80a55207a4c12093d0ab7d67f3c6a2863ef6cc32316acaf5f0ac6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5de80a55207a4c12093d0ab7d67f3c6a2863ef6cc32316acaf5f0ac6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "詠歌"
@@ -163,11 +171,12 @@
     "question": "みなさんは、誰がこの詠歌を書いたのが知っていますか？",
     "answer": "Everyone, do you know who wrote this poem?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "48df5886-93df-4ffc-9ca8-cf301db7bd77",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

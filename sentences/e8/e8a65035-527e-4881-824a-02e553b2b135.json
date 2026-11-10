@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-20165254e3a58f51b90b21a53cf78929689abc1ce9bef578b0a206a8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-20165254e3a58f51b90b21a53cf78929689abc1ce9bef578b0a206a8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "登録"
@@ -79,11 +87,12 @@
     "question": "住民登録はもうお済みですか？",
     "answer": "Have you completed your resident registration already?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e8a65035-527e-4881-824a-02e553b2b135",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

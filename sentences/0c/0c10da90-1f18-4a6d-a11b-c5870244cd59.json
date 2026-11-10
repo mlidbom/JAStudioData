@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-18c9126448ad159434bec267b887dc413f90b41339d50a3977fedde1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-18c9126448ad159434bec267b887dc413f90b41339d50a3977fedde1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "焼ける"
@@ -387,11 +395,12 @@
     "question": "「この肉は厚いから、焼けるまでに時間がかかりそうだね」「あなたが皿洗いをしている間に、焼けると思うけど」",
     "answer": "\"This meat is thick, so I think it'll be a while until it's cooked.\" \"I think it'll cook while you're doing the dishes.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0c10da90-1f18-4a6d-a11b-c5870244cd59",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

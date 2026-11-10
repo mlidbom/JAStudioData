@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cb45bd5302d8582f54d9e32c37c7016f51355f172c4c83e87ca0e053.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cb45bd5302d8582f54d9e32c37c7016f51355f172c4c83e87ca0e053.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "憎しみ"
@@ -224,11 +232,12 @@
     "question": "てっきり彼らはお互いに憎しみ合っているものだと思っていました。",
     "answer": "I certainly thought they hated each other.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ea586e00-556b-44d3-8f13-4395cdd73ead",
   "tags": [
-    "_tts_audio",
     "-::sentence::uses::incorrect-matches",
     "source::wani::current"
   ]

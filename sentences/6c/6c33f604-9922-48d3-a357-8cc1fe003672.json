@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-04b0a99c11c88c410823f0a1855c10f60dc988304d78f4d02995bd76.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-04b0a99c11c88c410823f0a1855c10f60dc988304d78f4d02995bd76.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "灰"
@@ -212,11 +220,12 @@
     "question": "鹿児島の桜島の火山の噴火で、近くの街は灰だらけになってしまいました。",
     "answer": "The Sakurajima volcano eruption in Kagoshima covered the nearby city with ash.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6c33f604-9922-48d3-a357-8cc1fe003672",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

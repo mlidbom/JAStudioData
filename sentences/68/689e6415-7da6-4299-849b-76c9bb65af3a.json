@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-36efe2a849d9f473f51a65e09bfb13756b8f7e5b681ccc6f560a9cab.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-36efe2a849d9f473f51a65e09bfb13756b8f7e5b681ccc6f560a9cab.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "制度"
@@ -114,11 +122,12 @@
     "question": "これは、新制度についての初心者向けガイドブックです。",
     "answer": "This guidebook for the new system is intended for beginners.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "689e6415-7da6-4299-849b-76c9bb65af3a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

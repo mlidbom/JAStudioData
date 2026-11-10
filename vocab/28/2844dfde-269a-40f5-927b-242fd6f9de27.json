@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-45f079761b7da4fea0cbe462a864721b6615238fd8e19fabeb0e155a.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-45f079761b7da4fea0cbe462a864721b6615238fd8e19fabeb0e155a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "縄を掛ける",
@@ -40,8 +46,7 @@
   "sentenceCount": 1,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -65,7 +70,9 @@
   "sourceData": {
     "answer": "to{?}{bind-(a-criminal)-with-rope/arrest/seize} | to{?}bind-(something)-with-rope",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "2844dfde-269a-40f5-927b-242fd6f9de27",
   "tags": [

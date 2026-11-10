@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9a562ae302d687897b2bbc3f7df524a7789b8bec70bb831f0eff1f5d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9a562ae302d687897b2bbc3f7df524a7789b8bec70bb831f0eff1f5d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "洗う"
@@ -163,11 +171,12 @@
     "question": "家に帰ったら手を洗ってうがいをしてください。",
     "answer": "When you return home, please wash your hands and gargle.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9d7d505f-0e0e-4fd9-911e-c27f95e5f0bc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

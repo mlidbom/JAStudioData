@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0719dda9d3220b369fa775665d7a0cf32187308e189ff4b48e1aef02.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0719dda9d3220b369fa775665d7a0cf32187308e189ff4b48e1aef02.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "預かる"
@@ -149,11 +157,12 @@
     "question": "日曜日に妹の子供を預かることになった。",
     "answer": "It's been decided I'll take care of my sister's child on Sunday.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9229850a-d3f9-43ad-a753-27ce4b2be515",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

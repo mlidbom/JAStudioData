@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-219c5230721fdff1b983e2ddd880464b4f6740763ce843ad2d6878c6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-219c5230721fdff1b983e2ddd880464b4f6740763ce843ad2d6878c6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "今月"
@@ -135,11 +143,12 @@
     "question": "今月の十日までにやって下さい。",
     "answer": "Please do this by the 10th of this month.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "eb2be712-abad-4639-9e36-77bd9d3b0106",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

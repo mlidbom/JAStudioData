@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ab7825cbb8d75d9e0fec2f91e90056a470c57fec5055efd998ab2907.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ab7825cbb8d75d9e0fec2f91e90056a470c57fec5055efd998ab2907.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "棚"
@@ -114,11 +122,12 @@
     "question": "この棚は、父が自分で作ったんです。",
     "answer": "My father built this shelf by himself.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "786fdb71-5a96-41f5-8e2d-3a2d7bafa2a9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-35bfa3b8aa32a37cfaf59917dc56cd924892caf64164d91a4f29bc1e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-35bfa3b8aa32a37cfaf59917dc56cd924892caf64164d91a4f29bc1e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "論理"
@@ -135,11 +143,12 @@
     "question": "その論理でいくと意味が通じないよ。",
     "answer": "It won't make sense if we go by that logic.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b741880a-e586-429e-80e3-28f30f1dd4c7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

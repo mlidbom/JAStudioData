@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9a466118e0c95af673ffc131d16853dcd018cde9b256f5ea2a101cb1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9a466118e0c95af673ffc131d16853dcd018cde9b256f5ea2a101cb1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "〜斤"
@@ -93,11 +101,12 @@
     "question": "このパン、一斤サービスするよ。",
     "answer": "I'll give you a extra loaf of this bread for free.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ee396f37-cee9-4bfc-9098-796b6a86b170",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

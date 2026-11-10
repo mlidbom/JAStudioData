@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2cbb0b9665d2900944f6f85e23438ae61534dec39286a0d900f8b9ba.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2cbb0b9665d2900944f6f85e23438ae61534dec39286a0d900f8b9ba.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "国宝"
@@ -93,11 +101,12 @@
     "question": "ふじ山は日本の国宝の一つです。",
     "answer": "Mt. Fuji is one of the national treasures in Japan.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "db4a15ad-b199-4987-a5ba-5f72cdfa29f8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

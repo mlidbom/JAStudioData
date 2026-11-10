@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-25f8cd2631c02b411f61779813bc13f216fcbc3531f2a2d3669bad20.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-25f8cd2631c02b411f61779813bc13f216fcbc3531f2a2d3669bad20.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "買う"
@@ -93,11 +101,12 @@
     "question": "今日も朝、コンビニでコーヒーを買う。",
     "answer": "I'm buying coffee at the convenience store in the morning today as well.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ce86b799-d035-4179-9ed6-09e7d459aae5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

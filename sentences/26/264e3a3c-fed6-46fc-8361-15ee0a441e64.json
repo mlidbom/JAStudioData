@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-897b0917dc50fb468c9ceec4468e7db1e58c75c57796213b206a2730.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-897b0917dc50fb468c9ceec4468e7db1e58c75c57796213b206a2730.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "教わる"
@@ -135,11 +143,12 @@
     "question": "ひらがなとカタカナは、もう教わりましたか？",
     "answer": "Did someone already teach you hiragana and katakana?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "264e3a3c-fed6-46fc-8361-15ee0a441e64",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6908a1b19ffde58c00705cf107793d4b37689e2563a673be28a89a8f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6908a1b19ffde58c00705cf107793d4b37689e2563a673be28a89a8f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一番目"
@@ -128,11 +136,12 @@
     "question": "今回のテストで、私はクラスで一番目だった。",
     "answer": "In this test, I was first in my class.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "24e660c9-6d39-4520-9dd1-a90f4c954d27",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

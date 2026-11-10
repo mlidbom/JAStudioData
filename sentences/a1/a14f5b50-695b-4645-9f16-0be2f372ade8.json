@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-60f52ecc69fdbce826fb30ddcacdc0297f0e4bd4b7809f06d3a440d8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-60f52ecc69fdbce826fb30ddcacdc0297f0e4bd4b7809f06d3a440d8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大きい順"
@@ -205,11 +213,12 @@
     "question": "このゲームでは、最初にみんなでサイコロをふって、サイコロの目が大きい順にプレイします。",
     "answer": "In this game, everyone rolls the dice together at the beginning, and then plays in order from the highest roll.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a14f5b50-695b-4645-9f16-0be2f372ade8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

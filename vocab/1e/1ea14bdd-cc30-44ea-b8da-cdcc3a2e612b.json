@@ -24,9 +24,18 @@
     "polite"
   ],
   "usuallyWrittenInKana": true,
-  "audioB": "[sound:katakana_d5_go.mp3]",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-a5adf7e908a6ff86eabe13821b465616349d082680f740d9a173d696.mp3]",
+  "audio": [
+    {
+      "fileName": "katakana_d5_go.mp3"
+    },
+    {
+      "fileName": "hypertts-a5adf7e908a6ff86eabe13821b465616349d082680f740d9a173d696.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "御",
@@ -44,8 +53,7 @@
   "sentenceCount": 283,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -69,7 +77,9 @@
   "sourceData": {
     "answer": "honorific/polite/humble-prefix | honorific-suffix",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "1ea14bdd-cc30-44ea-b8da-cdcc3a2e612b",
   "tags": [

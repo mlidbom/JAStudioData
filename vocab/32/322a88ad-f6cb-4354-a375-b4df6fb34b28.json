@@ -26,15 +26,20 @@
   "partsOfSpeech": [],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-78e8021c7d6e48d2658aef27bd1f4b7582e708f697a6dfe27ad95357.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-78e8021c7d6e48d2658aef27bd1f4b7582e708f697a6dfe27ad95357.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [],
   "sentenceCount": 1,
   "technicalNotes": "Needed duo to misparsing of したがる",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -58,7 +63,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "322a88ad-f6cb-4354-a375-b4df6fb34b28",
   "tags": [

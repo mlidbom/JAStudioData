@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b8b19cebc573db3edc35cc7e2f16e4062276b18e49474c70ea1d17ee.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b8b19cebc573db3edc35cc7e2f16e4062276b18e49474c70ea1d17ee.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "震災"
@@ -170,11 +178,12 @@
     "question": "私の学校の先生は震災で帰らぬ人となりました。",
     "answer": "A teacher at my school did not return home after the earthquake.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "eb843673-5433-45aa-af34-7f6323a30239",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

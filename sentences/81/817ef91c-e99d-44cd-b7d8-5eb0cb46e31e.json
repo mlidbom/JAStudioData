@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b534a265243873b245a054b0e63727a9681a50bf6635440ebd145940.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b534a265243873b245a054b0e63727a9681a50bf6635440ebd145940.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "塩水"
@@ -114,11 +122,12 @@
     "question": "私は毎日塩水を飲んでいます。",
     "answer": "I drink salt water every day.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "817ef91c-e99d-44cd-b7d8-5eb0cb46e31e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

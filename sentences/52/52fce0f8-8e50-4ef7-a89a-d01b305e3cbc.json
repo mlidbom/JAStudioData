@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ca3c71845bfaf49c0da7db7bc42c16011984c560d6ce51a1e7c9a64a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ca3c71845bfaf49c0da7db7bc42c16011984c560d6ce51a1e7c9a64a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "居酒屋"
@@ -86,11 +94,12 @@
     "question": "おすすめの居酒屋とかってありますか？",
     "answer": "Do you have any recommendations for a good izakaya?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "52fce0f8-8e50-4ef7-a89a-d01b305e3cbc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

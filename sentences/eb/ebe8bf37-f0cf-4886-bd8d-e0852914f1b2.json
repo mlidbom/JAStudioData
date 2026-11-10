@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-68b6dde88c2e2db5cb2f5ee6a5815bd19599923775ca869ad6b16a8b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-68b6dde88c2e2db5cb2f5ee6a5815bd19599923775ca869ad6b16a8b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "認める"
@@ -233,11 +241,12 @@
     "question": "認めるのは悔しいけど、今回はフグはいい仕事をしていると思うよ。",
     "answer": "I hate to admit it, but I think Fugu is doing a great job this time.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ebe8bf37-f0cf-4886-bd8d-e0852914f1b2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

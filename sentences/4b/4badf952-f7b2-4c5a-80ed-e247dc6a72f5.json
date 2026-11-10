@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-10ab8d52195cf1497eba60c3a6e442264ab90f8bf7a3a0d28c04bac1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-10ab8d52195cf1497eba60c3a6e442264ab90f8bf7a3a0d28c04bac1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "月額"
@@ -72,11 +80,12 @@
     "question": "それって月額いくらですか？",
     "answer": "How much is that per month?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4badf952-f7b2-4c5a-80ed-e247dc6a72f5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

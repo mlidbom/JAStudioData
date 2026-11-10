@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9fb9d2770aeb3c45ff25c5efa1c0068c39e4080e5ef7481a2b80c7d9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9fb9d2770aeb3c45ff25c5efa1c0068c39e4080e5ef7481a2b80c7d9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "寺"
@@ -156,11 +164,12 @@
     "question": "お正月にお寺でおみくじを引いてみるつもりです。",
     "answer": "I'm planning to draw a fortune slip at the temple during New Year's.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c1391ee5-fc1a-48ff-879d-3e8566466b83",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

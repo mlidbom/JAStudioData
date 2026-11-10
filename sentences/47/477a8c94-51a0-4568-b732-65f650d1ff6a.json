@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-62b273817f2f88201f72fcda9d142b88fb14def067363a46119ad854.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-62b273817f2f88201f72fcda9d142b88fb14def067363a46119ad854.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "早く"
@@ -121,11 +129,12 @@
     "question": "ゆっくり休んで早くよくなってください。",
     "answer": "Please get plenty of rest and feel better soon!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "477a8c94-51a0-4568-b732-65f650d1ff6a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

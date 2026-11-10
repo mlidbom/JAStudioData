@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6131e9127a705eb601a5a0d263b5d9c65ffcdb6731a797ef45756da7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6131e9127a705eb601a5a0d263b5d9c65ffcdb6731a797ef45756da7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "抱っこ"
@@ -149,11 +157,12 @@
     "question": "娘は抱っこをしているとぐっすり寝てくれます。",
     "answer": "My daughter sleeps soundly when I hold her in my arms.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "93cbfcc3-72dc-46db-ac1d-9580cca4e1de",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-cac286ddb2bf0f58ba01a0942ccd3adbda40aa2210b46fd651dc121b.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-cac286ddb2bf0f58ba01a0942ccd3adbda40aa2210b46fd651dc121b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "仲好くする",
@@ -56,8 +62,7 @@
   "sentenceCount": 7,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -81,7 +86,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "83ebb62b-068d-451b-8b61-cc64fa544097",
   "tags": [

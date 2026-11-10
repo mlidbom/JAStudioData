@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e0292815ce0629cae765a17a42f7cb4f1f07c2ad8ceb169c34a92fb8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e0292815ce0629cae765a17a42f7cb4f1f07c2ad8ceb169c34a92fb8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "暴騰"
@@ -93,11 +101,12 @@
     "question": "住宅価格が暴騰している。",
     "answer": "House prices are skyrocketing.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6cba660e-09f9-4228-9190-87457e3a716d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

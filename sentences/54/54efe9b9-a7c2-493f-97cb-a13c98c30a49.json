@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2ffc0076f893047ec1b4b047ba83dea6c5b11701e71eb3f8dcbf4f32.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2ffc0076f893047ec1b4b047ba83dea6c5b11701e71eb3f8dcbf4f32.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "足し算"
@@ -100,11 +108,12 @@
     "question": "私の兄は、足し算が上手で早いです。",
     "answer": "My brother is good and fast at adding.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "54efe9b9-a7c2-493f-97cb-a13c98c30a49",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

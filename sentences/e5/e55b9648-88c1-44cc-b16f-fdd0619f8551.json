@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-21b400c15db535f0e49320e1f18ef73e6bc6171b0977095ad8c00103.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-21b400c15db535f0e49320e1f18ef73e6bc6171b0977095ad8c00103.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "親切"
@@ -149,11 +157,12 @@
     "question": "いつも親切にしていただいて、ありがとうございます。",
     "answer": "Thank you for always being kind.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e55b9648-88c1-44cc-b16f-fdd0619f8551",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

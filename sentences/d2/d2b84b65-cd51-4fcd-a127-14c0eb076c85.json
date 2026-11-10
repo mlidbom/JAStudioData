@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c1bbca4ccc1c227d487f307b503f70ea1d2bb400a06a9ed359c835d7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c1bbca4ccc1c227d487f307b503f70ea1d2bb400a06a9ed359c835d7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "薄める"
@@ -191,11 +199,12 @@
     "question": "この味噌汁はしょっぱすぎるよ。もうちょっと薄めてもらってもいいかな？",
     "answer": "This miso soup is too salty. Can you water down a little bit?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d2b84b65-cd51-4fcd-a127-14c0eb076c85",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

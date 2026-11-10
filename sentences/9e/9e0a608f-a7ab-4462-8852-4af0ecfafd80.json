@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5d589c684c1753f2f68c0274af36dcb0557f346cdd8992425150d5b7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5d589c684c1753f2f68c0274af36dcb0557f346cdd8992425150d5b7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "朝ご飯"
@@ -177,11 +185,12 @@
     "question": "ウチの朝ご飯は、パンじゃなくご飯と決まっています。",
     "answer": "For breakfast at my house, it's always rice instead of bread.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9e0a608f-a7ab-4462-8852-4af0ecfafd80",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

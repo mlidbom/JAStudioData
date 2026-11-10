@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8ac6dcc8fecc56a1f6cfd839453ef63fbc5ca30089e2d4ce1c2a6931.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8ac6dcc8fecc56a1f6cfd839453ef63fbc5ca30089e2d4ce1c2a6931.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "歯医者"
@@ -121,11 +129,12 @@
     "question": "大きくなったら歯医者になりたい。",
     "answer": "I want to be a dentist when I grow up.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "10b9557a-b7b1-4505-9c54-4b678b359d5d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

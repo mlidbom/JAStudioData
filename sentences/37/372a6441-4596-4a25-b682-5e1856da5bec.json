@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6de7c55fd3250e996d4caf64346d2255816e6e43c016cff71394e11d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6de7c55fd3250e996d4caf64346d2255816e6e43c016cff71394e11d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "狩猟"
@@ -128,11 +136,12 @@
     "question": "この鳥の狩猟は禁じられています。",
     "answer": "Hunting of this bird is prohibited.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "372a6441-4596-4a25-b682-5e1856da5bec",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

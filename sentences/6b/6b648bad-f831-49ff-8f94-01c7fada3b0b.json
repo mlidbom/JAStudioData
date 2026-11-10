@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5cdf54447a3f08313c9e0071783800aae37490bcc967a8c64055cfe4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5cdf54447a3f08313c9e0071783800aae37490bcc967a8c64055cfe4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "抽象"
@@ -177,11 +185,12 @@
     "question": "彼女のレビューは何だか抽象的だったので、あまりよく分かりませんでした。",
     "answer": "Her review was kind of abstract, so I didn’t really understand it.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6b648bad-f831-49ff-8f94-01c7fada3b0b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

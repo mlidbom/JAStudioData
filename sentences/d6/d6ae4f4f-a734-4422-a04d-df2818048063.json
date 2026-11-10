@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d3d52b0fda47974327afe8196d55c90e6fb3198569d1ae4dc67d044c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d3d52b0fda47974327afe8196d55c90e6fb3198569d1ae4dc67d044c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "整然"
@@ -156,11 +164,12 @@
     "question": "東京は人が多いけれど整然としています。",
     "answer": "Even though there are many people in Tokyo, it is well organized.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d6ae4f4f-a734-4422-a04d-df2818048063",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

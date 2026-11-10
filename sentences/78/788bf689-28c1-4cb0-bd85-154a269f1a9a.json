@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8b9b9e1681e771a775a47511540519cae6e929b0f58fcca365bd3660.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8b9b9e1681e771a775a47511540519cae6e929b0f58fcca365bd3660.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "切る"
@@ -142,11 +150,12 @@
     "question": "犬の毛を切ったら牛みたいになっちゃった。",
     "answer": "I cut my dog's fur, and now it looks like a cow.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "788bf689-28c1-4cb0-bd85-154a269f1a9a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bf6ebd380f38753b728fc2ce1225c27ebc0e1e08a414eac02fb0a1ad.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bf6ebd380f38753b728fc2ce1225c27ebc0e1e08a414eac02fb0a1ad.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "冷静"
@@ -135,11 +143,12 @@
     "question": "できるだけ冷静な口調で話すようにした。",
     "answer": "I tried to keep my tone as calm as possible.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d9f54f0b-baa3-44de-b829-59ab4a1e8e30",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

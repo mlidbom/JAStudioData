@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c6928e070365f4c008a3e15353502d8930a913fcd2da271095d5f6a7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c6928e070365f4c008a3e15353502d8930a913fcd2da271095d5f6a7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "祈る"
@@ -135,11 +143,12 @@
     "question": "ハリケーンのひがい者のために祈りました。",
     "answer": "I prayed for the hurricane victims.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c678a4dc-73d6-4aec-ba47-7f8ce1504c1e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

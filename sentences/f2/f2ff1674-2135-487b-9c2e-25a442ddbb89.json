@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6a76caa65306fa8bdd9ccb50cef54ca41e1dc9c55f83644ca8e94fc0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6a76caa65306fa8bdd9ccb50cef54ca41e1dc9c55f83644ca8e94fc0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "薦める"
@@ -128,11 +136,12 @@
     "question": "ミステリーファンにはこの映画を見ることを薦めます。",
     "answer": "I recommend mystery fans go see this movie. ",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f2ff1674-2135-487b-9c2e-25a442ddbb89",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

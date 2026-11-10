@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-74a9e824f5122ee7e58af8c1ed3089d1b4f18d188ab01a5ed10598f8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-74a9e824f5122ee7e58af8c1ed3089d1b4f18d188ab01a5ed10598f8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "地価"
@@ -114,11 +122,12 @@
     "question": "中国市場の暴落による地価の下落が止まりません。",
     "answer": "Land value has not stopped falling due to the crash of the Chinese market.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dacab040-00e2-4576-8f08-2f4530c10f35",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

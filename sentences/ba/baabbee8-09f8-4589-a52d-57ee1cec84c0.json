@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-562f3d1114be28dd802244ec12f811e7d4df8e6e9c1e70119e59c492.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-562f3d1114be28dd802244ec12f811e7d4df8e6e9c1e70119e59c492.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "箱"
@@ -198,11 +206,12 @@
     "question": "このダンボール箱には、いらなくなった服が入っています。",
     "answer": "This cardboard box contains unwanted clothes.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "baabbee8-09f8-4589-a52d-57ee1cec84c0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

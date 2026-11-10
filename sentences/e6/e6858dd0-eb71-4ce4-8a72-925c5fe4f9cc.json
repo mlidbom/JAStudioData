@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6c1ea1a12a8716d852a8a41284f60c13953d81e177543828c3e7f005.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6c1ea1a12a8716d852a8a41284f60c13953d81e177543828c3e7f005.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "建物"
@@ -205,11 +213,12 @@
     "question": "あそこに赤い建物があるのが見えますか？あの赤い建物は、地元のアートギャラリーです。",
     "answer": "See that red building over there? That red building is a local art gallery.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e6858dd0-eb71-4ce4-8a72-925c5fe4f9cc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

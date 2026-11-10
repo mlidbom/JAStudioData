@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-df14b187ffa4ea4b499dafb6fc39dd4ee807474db8c28984ec53f9ad.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-df14b187ffa4ea4b499dafb6fc39dd4ee807474db8c28984ec53f9ad.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "梅"
@@ -233,11 +241,12 @@
     "question": "「こんなにたくさんの梅の実、どうしたの？」「今日、梅園に行ってきたんだよ。」",
     "answer": "\"Where did you get this many ume?\" \"I visited an ume orchard today.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "eb3b964b-7275-4f56-b417-aff75c05b4c4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0e044197d887e532e3e59b179b6debfd6a7a1e2f33f6c6402d31e161.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0e044197d887e532e3e59b179b6debfd6a7a1e2f33f6c6402d31e161.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "映画館"
@@ -156,11 +164,12 @@
     "question": "今週末、私たちは映画館で新作映画を見る予定です。",
     "answer": "We're planning to see a new movie at the theater this weekend.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ba70f064-6dfd-44e5-ab75-c440ae6cbc15",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

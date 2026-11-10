@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8e4297b1b9030a7cb4b5808f8082447e36d3a81499e209c846251268.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8e4297b1b9030a7cb4b5808f8082447e36d3a81499e209c846251268.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "梅雨"
@@ -93,11 +101,12 @@
     "question": "関東は昨日梅雨に入ったそうです。",
     "answer": "The rainy season started in Kanto yesterday.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "264a2ed8-9962-4ee7-89f3-763b458a84f2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1cffa56c1ce32dfe2b0521088e9bcc1b7d857d95c17b6750f1ebbe66.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1cffa56c1ce32dfe2b0521088e9bcc1b7d857d95c17b6750f1ebbe66.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "暮れる"
@@ -135,11 +143,12 @@
     "question": "早くしないと、日が暮れるわよ。",
     "answer": "If you don’t hurry up, it will get dark.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0c54e708-41b1-40b3-868c-f6ecc4c28506",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

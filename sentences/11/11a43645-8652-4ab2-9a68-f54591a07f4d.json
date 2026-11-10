@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8aebffc13421a3075e07736d1579ba3d31792d4f541b5a597e8dc5ef.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8aebffc13421a3075e07736d1579ba3d31792d4f541b5a597e8dc5ef.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一応"
@@ -184,11 +192,12 @@
     "question": "一応念のため、全データのバックアップをこのハードディスクに取っておきました。",
     "answer": "For now I made a backup of all the data on this hard drive, just in case.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "11a43645-8652-4ab2-9a68-f54591a07f4d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

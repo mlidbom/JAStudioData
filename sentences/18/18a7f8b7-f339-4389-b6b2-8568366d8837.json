@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-99260dbd88eb6467e5046a4d66bbbf41ad5a667b5f5f978a113fb520.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-99260dbd88eb6467e5046a4d66bbbf41ad5a667b5f5f978a113fb520.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "前売り券"
@@ -135,11 +143,12 @@
     "question": "前売り券はどこで買えるんですか？",
     "answer": "Where can I buy advance tickets?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "18a7f8b7-f339-4389-b6b2-8568366d8837",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8dc1d025fec46f3de70f2b3ca1bc970b547156aa0675b29b208cf7c1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8dc1d025fec46f3de70f2b3ca1bc970b547156aa0675b29b208cf7c1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "車"
@@ -65,11 +73,12 @@
     "question": "父の車はベンツです。",
     "answer": "My father's car is a Benz.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "91275cf8-d1a2-49ed-a9bf-911538dc96bf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

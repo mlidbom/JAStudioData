@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4ddf5b442902c42997dc003c05ad01f50b7a72db2a8ff48d646d5c6f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4ddf5b442902c42997dc003c05ad01f50b7a72db2a8ff48d646d5c6f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "主義"
@@ -142,11 +150,12 @@
     "question": "フグは肉を食べないよ。菜食主義者だからさ。",
     "answer": "Fugu doesn’t eat meat. He’s a vegetarian.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "62cb3061-1bd8-4590-af6f-506aed6f42ee",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

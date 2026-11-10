@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-62267233f40fff46c15fd0f50634b748d9375cb1a1e9881db886def0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-62267233f40fff46c15fd0f50634b748d9375cb1a1e9881db886def0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "語る"
@@ -135,11 +143,12 @@
     "question": "次のセミナーでは、何について語る予定ですか？",
     "answer": "What do you plan to talk about at the next seminar?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "30594f50-49ba-404a-8511-3c7a88aa142b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

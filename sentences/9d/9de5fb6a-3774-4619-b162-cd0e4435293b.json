@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-60e4fdbfd02f9cd5b94939127637302b4b2766d6cab1c2779c7851e1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-60e4fdbfd02f9cd5b94939127637302b4b2766d6cab1c2779c7851e1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "羊毛"
@@ -51,11 +59,12 @@
     "question": "羊毛はふわふわです。",
     "answer": "Wool is fluffy.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9de5fb6a-3774-4619-b162-cd0e4435293b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

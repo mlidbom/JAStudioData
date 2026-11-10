@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-24a65e2897255d4c22e1423a1ab0cfbdcd1d2acb72effdb0afa37e47.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-24a65e2897255d4c22e1423a1ab0cfbdcd1d2acb72effdb0afa37e47.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "無理"
@@ -114,11 +122,12 @@
     "question": "あんまり無理なことばかり言わないでください。",
     "answer": "Please don't be too unreasonable.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "12970662-b127-40c2-b5f8-0b9aa9cab335",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

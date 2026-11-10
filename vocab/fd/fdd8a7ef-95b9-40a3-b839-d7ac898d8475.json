@@ -32,9 +32,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-ae56ed3c3fcad9aefa16f6baa531760071d377b6747288121a930116.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-ae56ed3c3fcad9aefa16f6baa531760071d377b6747288121a930116.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "興味を持つ",
@@ -44,8 +50,7 @@
   "sentenceCount": 4,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -69,7 +74,9 @@
   "sourceData": {
     "answer": "to{?}have-an-interest-(in)",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "fdd8a7ef-95b9-40a3-b839-d7ac898d8475",
   "tags": [

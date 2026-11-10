@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-367f99d10b8ec85d612f522b8e11cd821e0046a8eb25cdd73f89e9c0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-367f99d10b8ec85d612f522b8e11cd821e0046a8eb25cdd73f89e9c0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "毎回"
@@ -114,11 +122,12 @@
     "question": "ボストンマラソンには、毎回出ています。",
     "answer": "I run the Boston Marathon every time.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a0c863fc-9582-4172-8281-c13ac1779744",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

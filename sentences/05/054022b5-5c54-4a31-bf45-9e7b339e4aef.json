@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-28a2eb2a51fcaf2368b69baadf4ddffc12e6f228f60e0c505f57d805.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-28a2eb2a51fcaf2368b69baadf4ddffc12e6f228f60e0c505f57d805.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "痒い"
@@ -121,11 +129,12 @@
     "question": "一週間シャワーを浴びてないから頭が痒い。",
     "answer": "My head is itching because I haven't showered in a week.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "054022b5-5c54-4a31-bf45-9e7b339e4aef",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

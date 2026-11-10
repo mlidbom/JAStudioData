@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ab7209a87b2fd0dc0500604fff08843cad3e6d9192a81658e526141e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ab7209a87b2fd0dc0500604fff08843cad3e6d9192a81658e526141e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "聴く"
@@ -177,11 +185,12 @@
     "question": "その癒し系の曲を聴いてると、眠くなってきたよ。",
     "answer": "I’m listening to this relaxing song and I’m getting sleepy.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dcc96b01-f8c0-4dca-9021-9e75ff97b699",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

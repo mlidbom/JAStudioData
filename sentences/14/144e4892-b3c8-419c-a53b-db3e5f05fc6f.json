@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-af7e0d20f1fea5ab45e61bb67ddfcc117496485c09261cfda12ab146.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-af7e0d20f1fea5ab45e61bb67ddfcc117496485c09261cfda12ab146.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鉛"
@@ -177,11 +185,12 @@
     "question": "今日はすごくやる気が無くて、体が鉛のように重く感じる。",
     "answer": "I’m so unmotivated today, my body feels as heavy as lead.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "144e4892-b3c8-419c-a53b-db3e5f05fc6f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

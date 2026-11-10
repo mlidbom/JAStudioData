@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5da80fc6da0eb78d6ce4afe923fdd26fbf1004bc7f35bc2816105780.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5da80fc6da0eb78d6ce4afe923fdd26fbf1004bc7f35bc2816105780.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "幻覚"
@@ -79,11 +87,12 @@
     "question": "それ、ただの幻覚じゃない？",
     "answer": "Isn't that just a hallucination?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c2c0b12e-d6ed-4bab-9dab-e24a2b33666f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

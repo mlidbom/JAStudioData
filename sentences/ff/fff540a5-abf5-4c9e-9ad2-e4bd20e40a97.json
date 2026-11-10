@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b2dbc546931281c4d2e4a93a82d5a73816a08e2df7744f461daa887e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b2dbc546931281c4d2e4a93a82d5a73816a08e2df7744f461daa887e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "支える"
@@ -170,11 +178,12 @@
     "question": "父は母や私を支えるために毎日仕事へ行った。",
     "answer": "My father went to work every day to support my mother and me.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fff540a5-abf5-4c9e-9ad2-e4bd20e40a97",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

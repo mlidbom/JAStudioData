@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1338026eb47ab0cdf9f95fe19e1ac68ad04f6e06de33c3c3213fd6f0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1338026eb47ab0cdf9f95fe19e1ac68ad04f6e06de33c3c3213fd6f0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "線路"
@@ -163,11 +171,12 @@
     "question": "線路には、何があっても入らないで下さい。",
     "answer": "Never go on the railroad tracks, no matter what.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0ad2e17e-f940-41b8-bda3-f3d15590354a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-822b5a985d542105eb128f836227c48bf95f2cf62773face8cea62fb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-822b5a985d542105eb128f836227c48bf95f2cf62773face8cea62fb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "火"
@@ -72,11 +80,12 @@
     "question": "キャンドルに火をつけた。",
     "answer": "I lit the candle.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9b343852-9ef2-4ce1-8196-d672cbf17e82",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

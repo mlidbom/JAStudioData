@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d34d7a690841945935f3e5862a74b7e1a59c7eb56d82054003289cd7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d34d7a690841945935f3e5862a74b7e1a59c7eb56d82054003289cd7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "女の人"
@@ -142,11 +150,12 @@
     "question": "このレストランには女の人のスタッフがたくさんいます。",
     "answer": "There are many female staff at this restaurant.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0fd0a035-7012-4a00-90be-259c6a8d6f83",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

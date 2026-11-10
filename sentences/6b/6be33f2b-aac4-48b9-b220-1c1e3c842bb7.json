@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0dd6b231e128f8c5f00dfeb5a6db0a501d5acdb4917cd60baf8ef464.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0dd6b231e128f8c5f00dfeb5a6db0a501d5acdb4917cd60baf8ef464.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "移動"
@@ -261,11 +269,12 @@
     "question": "コウイチ王子を安全な場所へ移動させなくてはいけません。",
     "answer": "We have to transfer Prince Koichi to a safe place.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6be33f2b-aac4-48b9-b220-1c1e3c842bb7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

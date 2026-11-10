@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b9c570e2c47b8eaee01ca31527ff28e3f15e13b42b5eae2fff41bb87.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b9c570e2c47b8eaee01ca31527ff28e3f15e13b42b5eae2fff41bb87.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "収まる"
@@ -79,11 +87,12 @@
     "question": "なんとか予算内に収まりそうです。",
     "answer": "It looks like we'll somehow manage to stay within the budget.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3c1871d8-5ee9-49b8-af89-234a668e4a97",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

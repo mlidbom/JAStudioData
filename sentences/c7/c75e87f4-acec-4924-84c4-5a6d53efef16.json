@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4447d17b4f059aefef47c8c9fa1d1c575cedcd417572e51534e74214.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4447d17b4f059aefef47c8c9fa1d1c575cedcd417572e51534e74214.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "会社員"
@@ -65,11 +73,12 @@
     "question": "父は会社員です。",
     "answer": "My father is a company employee.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c75e87f4-acec-4924-84c4-5a6d53efef16",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

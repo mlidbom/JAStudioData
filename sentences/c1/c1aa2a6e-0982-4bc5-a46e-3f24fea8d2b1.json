@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a7d494e0824a24c7a727d65bc36793bf0c953d17b5195195f917e366.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a7d494e0824a24c7a727d65bc36793bf0c953d17b5195195f917e366.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "口"
@@ -100,11 +108,12 @@
     "question": "このペットボトルは口が大きすぎる。",
     "answer": "The mouth of this plastic bottle is too large.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c1aa2a6e-0982-4bc5-a46e-3f24fea8d2b1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

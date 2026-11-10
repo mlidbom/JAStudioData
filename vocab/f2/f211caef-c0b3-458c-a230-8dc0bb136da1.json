@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-b04d2c3ee36aa261bd0576d5668d885777a1a53b79a3357b39a07281.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-b04d2c3ee36aa261bd0576d5668d885777a1a53b79a3357b39a07281.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "稽えられる",
@@ -44,8 +50,7 @@
   "sentenceCount": 8,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -69,7 +74,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "f211caef-c0b3-458c-a230-8dc0bb136da1",
   "tags": [

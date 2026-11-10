@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d468710d99ad8a4111165e7d881706b578cd497625590a2a2f5512ab.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d468710d99ad8a4111165e7d881706b578cd497625590a2a2f5512ab.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "涙"
@@ -107,11 +115,12 @@
     "question": "やばい、涙が出てきた。",
     "answer": "Oh no, I'm starting to cry.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2bcba639-a14f-402f-8d46-988f5baef3a2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

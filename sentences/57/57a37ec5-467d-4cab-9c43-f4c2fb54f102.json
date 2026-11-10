@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-18e61a62d206fa87749459d70c0143b88e859fc1af4c5db340e18849.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-18e61a62d206fa87749459d70c0143b88e859fc1af4c5db340e18849.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "搾る"
@@ -128,11 +136,12 @@
     "question": "レモンを唐揚げに搾ってもいいですか？",
     "answer": "Can I squeeze lemon over the fried food?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "57a37ec5-467d-4cab-9c43-f4c2fb54f102",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

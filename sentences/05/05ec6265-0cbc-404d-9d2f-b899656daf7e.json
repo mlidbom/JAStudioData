@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e6db18ac6fe7bf6992dfbb5c714a1a599c1ce91e7a68a603aad91e9f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e6db18ac6fe7bf6992dfbb5c714a1a599c1ce91e7a68a603aad91e9f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "工事"
@@ -79,11 +87,12 @@
     "question": "工事は今日から明日までです。",
     "answer": "The construction is from today to tomorrow.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "05ec6265-0cbc-404d-9d2f-b899656daf7e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

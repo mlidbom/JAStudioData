@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-753de78bc9ba26c94e8a72988da20fd0ab1c429c6ab669e7fc60a7ce.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-753de78bc9ba26c94e8a72988da20fd0ab1c429c6ab669e7fc60a7ce.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "事変"
@@ -100,11 +108,12 @@
     "question": "私は東京事変というバンドが好きです。",
     "answer": "I like a band called Tokyo Jihen.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1cb9b4a5-ea5b-41fb-abd4-40ae22022294",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-68746fe613609f1d2f307424fc704e4796302cbb65468242f79b8720.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-68746fe613609f1d2f307424fc704e4796302cbb65468242f79b8720.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "直行"
@@ -100,11 +108,12 @@
     "question": "入り口に直行して下さい。",
     "answer": "Please go straight to the entrance.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "15d9d1e3-c967-47df-8ddc-413c370b9f52",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

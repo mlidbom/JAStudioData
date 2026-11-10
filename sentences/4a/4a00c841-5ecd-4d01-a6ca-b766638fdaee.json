@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a8231e8afa3fd467db3f6527e6eeec0e8e12095be3783fde34e0bfda.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a8231e8afa3fd467db3f6527e6eeec0e8e12095be3783fde34e0bfda.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "洗車"
@@ -205,11 +213,12 @@
     "question": "洗車が終わるのを待っている間、ガソリンスタンドのバイトがずっとダラダラ話しかけてきて、かなりウザかった。",
     "answer": "While I waited for the car wash to finish, the part-timer kept yacking at me and it was really annoying.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4a00c841-5ecd-4d01-a6ca-b766638fdaee",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

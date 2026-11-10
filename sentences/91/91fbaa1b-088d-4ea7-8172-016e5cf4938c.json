@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7a9fa4cb97efa6debbc5414349878b61da240d7ca5d135103b288b07.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7a9fa4cb97efa6debbc5414349878b61da240d7ca5d135103b288b07.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "東"
@@ -142,11 +150,12 @@
     "question": "ここから東へ行くと、川がありますよ。",
     "answer": "If you go east from here, there is a river.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "91fbaa1b-088d-4ea7-8172-016e5cf4938c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

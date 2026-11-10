@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-84937ed2a5b0a3dfa954832a3e0fa06103e62fb520254d12913df888.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-84937ed2a5b0a3dfa954832a3e0fa06103e62fb520254d12913df888.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "体育"
@@ -79,11 +87,12 @@
     "question": "明日は体育があります。",
     "answer": "We have physical education tomorrow.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d58f41c3-81e8-423f-bf4c-6f03ec70b323",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

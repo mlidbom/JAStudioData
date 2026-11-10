@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-17e0f716d2769ba67d9170c773ddb092a9bd66905cdcb0016e412790.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-17e0f716d2769ba67d9170c773ddb092a9bd66905cdcb0016e412790.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "両替"
@@ -240,11 +248,12 @@
     "question": "この一万円札を千円札に両替してもらえませんか？",
     "answer": "Could you exchange this 10,000 yen bill for 1,000 yen bills?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "efcd0ba9-2a54-42d8-9a90-10cf80a198e6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

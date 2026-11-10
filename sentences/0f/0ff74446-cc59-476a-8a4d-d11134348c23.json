@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c28304dc1395f3b61d36e47b349ca27f47c4901abf1cbde39cae14eb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c28304dc1395f3b61d36e47b349ca27f47c4901abf1cbde39cae14eb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "測る"
@@ -135,11 +143,12 @@
     "question": "その看護婦さんは、血圧を測るのが上手です。",
     "answer": "The nurse is good at measuring people’s blood pressure.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0ff74446-cc59-476a-8a4d-d11134348c23",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

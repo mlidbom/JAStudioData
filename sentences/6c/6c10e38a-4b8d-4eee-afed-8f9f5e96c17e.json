@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2ea7e9285213ec0ac36703c0de44c5f7b49f0458ce5ec6faf8fb4462.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2ea7e9285213ec0ac36703c0de44c5f7b49f0458ce5ec6faf8fb4462.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "中国"
@@ -86,11 +94,12 @@
     "question": "中国の人口は日本よりも大きい。",
     "answer": "China's population is larger than Japan.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6c10e38a-4b8d-4eee-afed-8f9f5e96c17e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

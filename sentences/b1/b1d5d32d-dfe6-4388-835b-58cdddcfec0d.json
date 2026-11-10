@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-700ef7b9b8436fc39459182290631c834e856f979551fd2eb9c1c786.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-700ef7b9b8436fc39459182290631c834e856f979551fd2eb9c1c786.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "台所"
@@ -65,11 +73,12 @@
     "question": "この台所、広いですね。",
     "answer": "This kitchen is spacious.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b1d5d32d-dfe6-4388-835b-58cdddcfec0d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

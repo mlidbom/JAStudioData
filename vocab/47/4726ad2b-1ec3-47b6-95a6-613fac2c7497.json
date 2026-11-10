@@ -26,15 +26,20 @@
   "partsOfSpeech": [],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "[sound:hypertts-12d0ec01e7d1e96ff94b1ec6f0c3b1943d2424f5b2df01e72a11bbb6.mp3]",
-  "audioG": "",
-  "audioTTS": "",
+  "audio": [
+    {
+      "fileName": "hypertts-12d0ec01e7d1e96ff94b1ec6f0c3b1943d2424f5b2df01e72a11bbb6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [],
   "sentenceCount": 2,
   "technicalNotes": "Needed because various sentences will not recognise this as やがる imperative instead seeing <ja>や</ja>＋<ja>がれ</ja>",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {
       "godanPotential": "forbidden"
@@ -60,7 +65,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "4726ad2b-1ec3-47b6-95a6-613fac2c7497",
   "tags": [

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-771f5fb587c8956619f4f71f936b6b291322ed222b1631ac554ce237.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-771f5fb587c8956619f4f71f936b6b291322ed222b1631ac554ce237.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鳴き声"
@@ -149,11 +157,12 @@
     "question": "自動販売機の下から子犬の鳴き声が聞こえるんです。",
     "answer": "I hear a puppy barking under the vending machine.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1c16217b-e760-4d48-b85c-23cb3f17d719",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

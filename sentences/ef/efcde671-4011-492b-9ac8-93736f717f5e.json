@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f5c0d03f22434d6a87fa3849de4c375272ef4539d1068362aa9493b7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f5c0d03f22434d6a87fa3849de4c375272ef4539d1068362aa9493b7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "助言"
@@ -149,11 +157,12 @@
     "question": "社長は全てのスタッフに役に立つ助言をしました。",
     "answer": "The president gave useful advice to all the staff.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "efcde671-4011-492b-9ac8-93736f717f5e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

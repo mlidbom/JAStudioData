@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5d9382f8ba89299aabecadacb0702df7f0d4dbe92dc474e14eeedbe5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5d9382f8ba89299aabecadacb0702df7f0d4dbe92dc474e14eeedbe5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Google ja-JP-Neural2-D",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "駒"
@@ -240,11 +248,12 @@
     "question": "父さんが日曜日にチェスの駒の動かし方を教えてくれるって約束してくれたんだ。",
     "answer": "My dad promised me that he would teach me how to move chess pieces this Sunday.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5f39c4c8-0596-4b8e-a8ea-477057b1a785",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

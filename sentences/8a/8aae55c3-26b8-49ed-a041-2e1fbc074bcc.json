@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9f67449f858ac09a667c0c3f0ec8674ffe89bdaf1076dccc67b4ef32.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9f67449f858ac09a667c0c3f0ec8674ffe89bdaf1076dccc67b4ef32.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "暑い"
@@ -72,11 +80,12 @@
     "question": "今日はとても暑いですね。",
     "answer": "It's very hot today, isn't it?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8aae55c3-26b8-49ed-a041-2e1fbc074bcc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

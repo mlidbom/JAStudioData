@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2b3a9f9dbcfdde6fd7558a1daade8a3261888184e4ba486c69a7cf9f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2b3a9f9dbcfdde6fd7558a1daade8a3261888184e4ba486c69a7cf9f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "札"
@@ -114,11 +122,12 @@
     "question": "村の入り口にお札がたくさんありました。",
     "answer": "There were many amulets at the entrance of the village.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dbfe1ea3-dc82-447d-a2b1-c7f7abf489cc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

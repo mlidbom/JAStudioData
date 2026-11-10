@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5f794b53786edb440cd72a562d172e32dfdf15e31a6af5ffa0bce33a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5f794b53786edb440cd72a562d172e32dfdf15e31a6af5ffa0bce33a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "渡す"
@@ -170,11 +178,12 @@
     "question": "彼が私にペンを渡してくれた時、胸がどきどきした。",
     "answer": "When he handed me the pen my heart was pounding.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "afcccb21-c662-4f42-b998-6fb912e82df5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

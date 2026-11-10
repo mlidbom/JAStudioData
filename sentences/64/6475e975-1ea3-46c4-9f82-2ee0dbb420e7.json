@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-588aaa0389dd91d7370b6c251bae6359b452ea7deee696fa87740a7c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-588aaa0389dd91d7370b6c251bae6359b452ea7deee696fa87740a7c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "完璧"
@@ -121,11 +129,12 @@
     "question": "私は日本の国歌を完璧に歌えます。",
     "answer": "I can sing the Japanese national anthem perfectly.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6475e975-1ea3-46c4-9f82-2ee0dbb420e7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9656b16675ba9f3c3fd0296acb3f740d657f4dcc439a6a46feb8ff84.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9656b16675ba9f3c3fd0296acb3f740d657f4dcc439a6a46feb8ff84.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "抜く"
@@ -156,11 +164,12 @@
     "question": "トゲを抜きたいんだけど、ピンセットどこにあるか知らない？",
     "answer": "I want to pull out a splinter, do you know where the tweezers are?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e82032e0-da60-4edc-8551-653850a5a110",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

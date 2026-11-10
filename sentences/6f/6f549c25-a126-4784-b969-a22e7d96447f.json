@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-30ed1a9f7ee3a976dccbc01ac3be0340df30e9c742e19210e88bacd7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-30ed1a9f7ee3a976dccbc01ac3be0340df30e9c742e19210e88bacd7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "休暇"
@@ -128,11 +136,12 @@
     "question": "やばい！まだ八月なのに、有給休暇、もう全部使い切っちゃった。",
     "answer": "Oh no! It's only August and I've already used up all my paid vacation days.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6f549c25-a126-4784-b969-a22e7d96447f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

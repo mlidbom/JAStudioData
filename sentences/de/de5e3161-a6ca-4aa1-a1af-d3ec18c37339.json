@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4db44bd62b911785a37103a6a70d5b70fe27bb97bf278e5da4ed74e6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4db44bd62b911785a37103a6a70d5b70fe27bb97bf278e5da4ed74e6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "学者"
@@ -79,11 +87,12 @@
     "question": "父は心理学の学者です。",
     "answer": "My father is a scholar of psychology.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "de5e3161-a6ca-4aa1-a1af-d3ec18c37339",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-d1c7c264eed8746d55cf0a2044e6236e5876890f91058d23d837f6a8.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-d1c7c264eed8746d55cf0a2044e6236e5876890f91058d23d837f6a8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "かと言って",
@@ -40,8 +46,7 @@
   "sentenceCount": 1,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -70,7 +75,9 @@
   "sourceData": {
     "answer": "having-said-that/on-the-other-hand",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "f7a0240c-9780-46e8-a5bc-508fc8c37cc3",
   "tags": [

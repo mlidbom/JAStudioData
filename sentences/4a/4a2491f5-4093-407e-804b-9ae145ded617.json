@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1b4312d05ee9f112c535c389b0bdbcc5249a5bdbd1be566802dde251.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1b4312d05ee9f112c535c389b0bdbcc5249a5bdbd1be566802dde251.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "山"
@@ -149,11 +157,12 @@
     "question": "ゴミの山かとおもったら、下にベッドがあった。",
     "answer": "I thought it was a mountain of trash, then I realized there was a bed underneath..",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4a2491f5-4093-407e-804b-9ae145ded617",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2634cac105dc073435c820e22c789de79957ffd3f3d0cf01543c4a90.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2634cac105dc073435c820e22c789de79957ffd3f3d0cf01543c4a90.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "嫌い"
@@ -135,11 +143,12 @@
     "question": "僕には嫌いな人はいません。",
     "answer": "I don't have anyone I don't like.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fac13dd5-acdc-4f1f-81ca-93f244f1d31f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

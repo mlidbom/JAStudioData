@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-29c9b4aa2930978442a3f9871b684160dcc8b2e9f2a74e21295e7705.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-29c9b4aa2930978442a3f9871b684160dcc8b2e9f2a74e21295e7705.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "失恋"
@@ -128,11 +136,12 @@
     "question": "失恋して、食事がノドを通らなくなった。",
     "answer": "I was heartbroken and couldn't get any food down my throat.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6f9ecf2c-b207-482b-b7eb-8abd24fc71a5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0ab0e2070e48c693c6978168e12a632060970c5036056a47dfcd2cc1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0ab0e2070e48c693c6978168e12a632060970c5036056a47dfcd2cc1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "尼僧"
@@ -128,11 +136,12 @@
     "question": "その尼僧は、寝起きはいつも顔がむくんでいます。",
     "answer": "That nun’s face is always swollen when she wakes up.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e895c333-9e01-4372-9fc7-d43f5cbc7e3c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

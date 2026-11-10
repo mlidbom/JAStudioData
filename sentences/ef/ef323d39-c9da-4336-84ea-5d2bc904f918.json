@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8510bd080c0972e59d7becc276a4188a200618c9cc0e821a5bf7b072.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8510bd080c0972e59d7becc276a4188a200618c9cc0e821a5bf7b072.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "飲み放題"
@@ -86,11 +94,12 @@
     "question": "飲み放題プランは2000円からです。",
     "answer": "The all-you-can-drink plans start at 2000 yen.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ef323d39-c9da-4336-84ea-5d2bc904f918",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

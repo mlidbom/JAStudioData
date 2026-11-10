@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ae3a33f32cce0655f47e051f93665c18b1118db1becb8bfd7a602347.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ae3a33f32cce0655f47e051f93665c18b1118db1becb8bfd7a602347.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "行列"
@@ -142,11 +150,12 @@
     "question": "コンサートのチケットを買うために、夜中から行列にならびました。",
     "answer": "I lined up in a queue at midnight to buy concert tickets.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cb163220-88d5-484e-92c9-4ab5d017a9d0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ec5df2a4ca85390cad4dd11f85e6d31d2c38d8305787cb8852567e48.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ec5df2a4ca85390cad4dd11f85e6d31d2c38d8305787cb8852567e48.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "冷凍庫"
@@ -100,11 +108,12 @@
     "question": "げっ、冷凍庫、閉め忘れてた！",
     "answer": "Geez, I forgot to close the freezer!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c657c7de-515b-4360-829f-6b2e3f6f5980",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

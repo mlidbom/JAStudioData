@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8aa1d78a8bd771c99fbb429bc98fcef6abdd306716089edd3d8417df.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8aa1d78a8bd771c99fbb429bc98fcef6abdd306716089edd3d8417df.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "愛情"
@@ -170,11 +178,12 @@
     "question": "私は両親の愛情を感じたことがありません。",
     "answer": "I have never felt the love of my parents.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "280acaee-936e-4758-b0d4-0f98c6fbaf3d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

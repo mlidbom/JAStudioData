@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-87bf94d27e9bd875ace6b080d69a7c785280a5623b2d2636b5e45d8f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-87bf94d27e9bd875ace6b080d69a7c785280a5623b2d2636b5e45d8f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一番"
@@ -100,11 +108,12 @@
     "question": "今週のテストで一番高い点数をとりたいです。",
     "answer": "I want to get the highest score on this week's test.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "15de1ad4-43f9-47e2-9829-9124a910372f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1e378fbe62b222e6adcd1721781c87b1b60e2a124b8bf7c68e3447ad.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1e378fbe62b222e6adcd1721781c87b1b60e2a124b8bf7c68e3447ad.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "雌花"
@@ -135,11 +143,12 @@
     "question": "ヒマラヤスギは、樹齢30年を超えないと雌花を付けません。",
     "answer": "Himalayan Cedar trees can't produce female flowers until they're over 30 years old.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2041b138-a441-46e6-9f0a-4eaab8f481cc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

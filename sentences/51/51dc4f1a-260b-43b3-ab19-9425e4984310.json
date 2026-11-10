@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a07a9dd8484e2a96302939b5225906ae082ee83dc1389fcf6bae2313.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a07a9dd8484e2a96302939b5225906ae082ee83dc1389fcf6bae2313.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "準備する"
@@ -170,11 +178,12 @@
     "question": "新居を準備するのにかかる費用はいくらぐらいですか。",
     "answer": "About how much does it cost to prepare a new home?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "51dc4f1a-260b-43b3-ab19-9425e4984310",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

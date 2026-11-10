@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c7c4ac7a2c0644fbd0ba46ed6eadebb083fccc90c191ebdd5c128c5f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c7c4ac7a2c0644fbd0ba46ed6eadebb083fccc90c191ebdd5c128c5f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "使う"
@@ -86,11 +94,12 @@
     "question": "私たちは、毎日電気を使います。",
     "answer": "We use electricity every day.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "41e08794-86a0-4277-b0d9-16a5ed3d1237",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

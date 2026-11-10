@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6f4360fd23fc779816778b69c08c4f1b17086b0200335d0b150d0469.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6f4360fd23fc779816778b69c08c4f1b17086b0200335d0b150d0469.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "赤い"
@@ -135,11 +143,12 @@
     "question": "このトマト、今日赤くなったばかりなんです。",
     "answer": "This tomato just turned red today.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f55768fd-86f2-4564-b432-16a98f99581d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

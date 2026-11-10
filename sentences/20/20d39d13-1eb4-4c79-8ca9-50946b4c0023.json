@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e67cd4f8a048054fc59991e7fb564c513239188abedae3efb2dbad1c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e67cd4f8a048054fc59991e7fb564c513239188abedae3efb2dbad1c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "泳ぐ"
@@ -170,11 +178,12 @@
     "question": "市立プールだからといって、泳ぐにはお金がかかります。",
     "answer": "Even though it's a municipal pool, it still costs money to swim.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "20d39d13-1eb4-4c79-8ca9-50946b4c0023",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

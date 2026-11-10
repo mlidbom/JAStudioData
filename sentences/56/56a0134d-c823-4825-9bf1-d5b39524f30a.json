@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cde5e56904f7d763d3ef5f984bdda60f54311c0c0bb621a7fe02148a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cde5e56904f7d763d3ef5f984bdda60f54311c0c0bb621a7fe02148a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "告げる"
@@ -86,11 +94,12 @@
     "question": "ミモザは春を告げる花です。",
     "answer": "The mimosa flower heralds the arrival of spring.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "56a0134d-c823-4825-9bf1-d5b39524f30a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b4adc7892c13a30cc9c8e43150327c9ae834ed1b23cd89bb540626ee.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b4adc7892c13a30cc9c8e43150327c9ae834ed1b23cd89bb540626ee.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お婆さん"
@@ -539,11 +547,12 @@
     "question": "この度は本当にご愁傷様です。あなたのお婆さんはとても素敵な人だったので、あなたのお爺さんの代わりに私が一緒にいられればいいのにといつも願っていたほどですよ。残念ながら願いは叶いませんでしたがね。",
     "answer": "I am so sorry for your loss. Your grandmother was such a nice lady that I always wished she was with me instead of your grandfather. Sadly, my wish never came true.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "657f3221-e4b0-4641-8473-a675e81cbd26",
   "tags": [
-    "_tts_audio",
     "-::sentence::uses::incorrect-matches",
     "source::wani::current"
   ]

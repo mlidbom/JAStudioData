@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7bfd0baeedb8cc533d7308c7a63f5ef13a141614dc67dbe308d5d01a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7bfd0baeedb8cc533d7308c7a63f5ef13a141614dc67dbe308d5d01a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "読み方"
@@ -135,11 +143,12 @@
     "question": "フランス語は話せるけど、フランス語の読み方は知らない。",
     "answer": "I can speak French, but I don't know how to read French.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "233d49d9-fc9a-427b-80f9-99f4b21defed",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-aeff0a7c0c2c1d48487781e5fe7d97026d8e5f625ef83d31cd914c2e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-aeff0a7c0c2c1d48487781e5fe7d97026d8e5f625ef83d31cd914c2e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "画像"
@@ -114,11 +122,12 @@
     "question": "今、画像をダウンロードしています。",
     "answer": "I'm downloading the image now.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5d0d5d9a-26db-433c-8acb-88e217fb0044",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

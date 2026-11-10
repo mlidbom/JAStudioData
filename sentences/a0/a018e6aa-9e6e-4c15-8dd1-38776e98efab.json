@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0db5734829e4c259702cd9187acc080cadd9ae77cabce29b086dde6e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0db5734829e4c259702cd9187acc080cadd9ae77cabce29b086dde6e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "祈念"
@@ -135,11 +143,12 @@
     "question": "明日は原爆犠牲者慰霊平和祈念式典に出席します。",
     "answer": "I'll attend the peace memorial service for atomic-bomb victims tomorrow.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a018e6aa-9e6e-4c15-8dd1-38776e98efab",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5592105c6ac101edcf2b9be4de1436bf354266d6cd08d2a3d8409b97.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5592105c6ac101edcf2b9be4de1436bf354266d6cd08d2a3d8409b97.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "処分"
@@ -275,11 +283,12 @@
     "question": "投資していた企業が、突然行政処分を受けることになり、株価が急落しました。",
     "answer": "The company I had invested in suddenly received an administrative penalty, and its stock price plummeted.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "003cfbc4-4024-420f-8aca-979b2017c4ce",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

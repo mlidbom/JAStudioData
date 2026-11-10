@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-05eea35e0ec42361a342f7625a058c88d811ccfa6a39c8d40d5923f1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-05eea35e0ec42361a342f7625a058c88d811ccfa6a39c8d40d5923f1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "式"
@@ -128,11 +136,12 @@
     "question": "開会式は九時にスタートする予定です。",
     "answer": "The opening ceremony is scheduled for 9 a.m.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f3bb5ac9-290c-4f15-8806-bbe66d36d1c1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

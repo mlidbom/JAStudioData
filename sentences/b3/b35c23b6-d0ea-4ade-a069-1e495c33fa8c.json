@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f6d404d84369da219bc5f9e0401793b2474c1da1f56b5516849264ae.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f6d404d84369da219bc5f9e0401793b2474c1da1f56b5516849264ae.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "含む"
@@ -184,11 +192,12 @@
     "question": "このマーガリンには、トランス脂肪酸は含まれていません。",
     "answer": "This margarine does not contain trans fats.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b35c23b6-d0ea-4ade-a069-1e495c33fa8c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

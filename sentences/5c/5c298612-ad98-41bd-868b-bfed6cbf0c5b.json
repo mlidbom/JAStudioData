@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-59d5506608bd1c6d14bad19e1055bc105f05dc3a1fa5603bd8bb7f15.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-59d5506608bd1c6d14bad19e1055bc105f05dc3a1fa5603bd8bb7f15.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "敬語"
@@ -142,11 +150,12 @@
     "question": "あの女が私に敬語を使わないなんて、本当に屈辱的だわ。",
     "answer": "It’s so humiliating that she never uses honorifics with me.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5c298612-ad98-41bd-868b-bfed6cbf0c5b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

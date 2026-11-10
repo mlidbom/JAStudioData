@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-36ae97e0bb1bb6f9bfcd299b5b50f8fe840adbf90a64c751d5aa3763.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-36ae97e0bb1bb6f9bfcd299b5b50f8fe840adbf90a64c751d5aa3763.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "使用"
@@ -128,11 +136,12 @@
     "question": "プールにどれくらいの水を使用か知ってますか？",
     "answer": "Do you know how much water is used in a pool?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bb37eabb-30ee-4dc7-b711-19b8f1e2af5f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

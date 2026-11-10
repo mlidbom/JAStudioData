@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d3c473ca56e59f57266cfe27692d342251254fde12b1d7aba8481d9e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d3c473ca56e59f57266cfe27692d342251254fde12b1d7aba8481d9e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "昆虫学者",
@@ -67,11 +75,12 @@
     "question": "彼は昆虫学者です。",
     "answer": "He is an entomologist.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "505b4c8a-7f19-4078-9ae5-e9943ad0b317",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

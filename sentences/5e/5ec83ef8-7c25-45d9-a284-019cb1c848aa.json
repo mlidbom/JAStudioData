@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8d184c06c26dc8edf6ade946d95e2ed08543049245c020cd477d47b4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8d184c06c26dc8edf6ade946d95e2ed08543049245c020cd477d47b4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "尋ねる"
@@ -443,11 +451,12 @@
     "question": "自分のウンコを食べてみて、それがすっごい苦かったんだけど、どうして苦いのかって先生に尋ねてみたら、「胆汁酸がいっぱい含まれてるから苦いんだよ」って教えてくれたよ。",
     "answer": "I told my teacher I ate my own poop and that it was very bitter so I asked him why that was. He told me our poop contains a lot of bile acid and that’s why it’s very bitter.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5ec83ef8-7c25-45d9-a284-019cb1c848aa",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

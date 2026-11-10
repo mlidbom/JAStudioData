@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9904fba88a9634a0a9cf12616c41fb7f62d8e2cc0d104dd387042aff.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9904fba88a9634a0a9cf12616c41fb7f62d8e2cc0d104dd387042aff.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "提案する"
@@ -149,11 +157,12 @@
     "question": "昨日、新人が、素晴らしいビジネスモデルを提案してきた。",
     "answer": "Yesterday, a newcomer proposed a great business model.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "30c558dc-33a1-47d6-b33a-91c034f8ca08",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

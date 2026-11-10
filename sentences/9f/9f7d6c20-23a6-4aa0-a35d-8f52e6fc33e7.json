@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-15508d6987e0142fc1c49d2302deb3ea5573ded8e2bad27e13420760.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-15508d6987e0142fc1c49d2302deb3ea5573ded8e2bad27e13420760.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "通す"
@@ -121,11 +129,12 @@
     "question": "会ったばかりの他人を家に通しちゃダメです。",
     "answer": "Never let others who you just met into your home.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9f7d6c20-23a6-4aa0-a35d-8f52e6fc33e7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

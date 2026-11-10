@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-33bddbf96488614a51cafa3e9ad0a40d2cebce63b3663fb536a4a062.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-33bddbf96488614a51cafa3e9ad0a40d2cebce63b3663fb536a4a062.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "間"
@@ -170,11 +178,12 @@
     "question": "父がコンビニでコーヒーを買っている間、私は車内にいました。",
     "answer": "While my father was buying coffee at a convenience store, I was in the car.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0b0a9929-4f7e-4bbc-831c-a3f5e9da133e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

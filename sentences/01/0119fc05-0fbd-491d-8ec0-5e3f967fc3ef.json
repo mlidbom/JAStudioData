@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9464efad562a8723ce9c6be1c59bea04d9ec546b6714a3a654fb4567.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9464efad562a8723ce9c6be1c59bea04d9ec546b6714a3a654fb4567.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "塗料"
@@ -93,11 +101,12 @@
     "question": "刷毛に蛍光塗料を付けました。",
     "answer": "I dipped the paint brush in the fluorescent paint.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0119fc05-0fbd-491d-8ec0-5e3f967fc3ef",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

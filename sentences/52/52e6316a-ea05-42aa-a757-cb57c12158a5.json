@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7a00a9e79945e80be9e191df44fc28312c44d063deedb9ff37a9b888.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7a00a9e79945e80be9e191df44fc28312c44d063deedb9ff37a9b888.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "気付く"
@@ -177,11 +185,12 @@
     "question": "その女が自分の母だと気付くまでに時間がかかりました。",
     "answer": "It took me some time to realize that the woman was my own mother.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "52e6316a-ea05-42aa-a757-cb57c12158a5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

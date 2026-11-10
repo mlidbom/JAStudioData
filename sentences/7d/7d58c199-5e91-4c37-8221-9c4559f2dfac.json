@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7863d5ff02a209619434acf589878d6a4c889f491bb04f16d4373e24.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7863d5ff02a209619434acf589878d6a4c889f491bb04f16d4373e24.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "フランス人"
@@ -86,11 +94,12 @@
     "question": "このレストランのシェフはフランス人です。",
     "answer": "The chef at this restaurant is French.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7d58c199-5e91-4c37-8221-9c4559f2dfac",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

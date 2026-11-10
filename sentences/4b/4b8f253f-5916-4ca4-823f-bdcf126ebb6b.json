@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0dd9e82440201f990db22866396bc9f8d786c1be28ecf9c3ef5014e0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0dd9e82440201f990db22866396bc9f8d786c1be28ecf9c3ef5014e0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "倉"
@@ -107,11 +115,12 @@
     "question": "倉で見つけた地図を広げてみた。",
     "answer": "I unfolded the map I found in the warehouse.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4b8f253f-5916-4ca4-823f-bdcf126ebb6b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

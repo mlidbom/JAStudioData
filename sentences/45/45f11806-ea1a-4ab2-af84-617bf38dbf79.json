@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bac38fce335c41a3b9b51be43324b9579023b56a11eec5e52f9ae6e3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bac38fce335c41a3b9b51be43324b9579023b56a11eec5e52f9ae6e3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "止まる"
@@ -93,11 +101,12 @@
     "question": "バスは、もう少しで止まりそうでした。",
     "answer": "The bus almost stopped.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "45f11806-ea1a-4ab2-af84-617bf38dbf79",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

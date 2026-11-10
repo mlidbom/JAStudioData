@@ -19,15 +19,20 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-ef00915712b663a7ae65645357b3d3e19690c458c31bc2e218f227c4.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-ef00915712b663a7ae65645357b3d3e19690c458c31bc2e218f227c4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [],
   "sentenceCount": 0,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -51,7 +56,9 @@
   "sourceData": {
     "answer": "temperature/body-temperature-(human,-animal)",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "cb89d18b-a67e-4597-940f-37f4f5704a16",
   "tags": [

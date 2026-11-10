@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5b1c5a30f1ca3ef47adff34ed2dab963c989e149ab7e95d1fe0b9af2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5b1c5a30f1ca3ef47adff34ed2dab963c989e149ab7e95d1fe0b9af2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "親友"
@@ -100,11 +108,12 @@
     "question": "私たちって、友人以上、親友以下よね。",
     "answer": "We are more than friends but less than best friends, don't you think?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a3c5267c-bd93-4043-85cb-000bbc1f197b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

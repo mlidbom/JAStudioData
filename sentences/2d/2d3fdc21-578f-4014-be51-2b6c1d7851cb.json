@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a7d3a24e8b114c11845f6b518e14e4eda56fac20ec98cc723ac976d3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a7d3a24e8b114c11845f6b518e14e4eda56fac20ec98cc723ac976d3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "整える"
@@ -107,11 +115,12 @@
     "question": "ビエトは、ヒゲを整えるのが上手です。",
     "answer": "Viet is good at grooming his beard.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2d3fdc21-578f-4014-be51-2b6c1d7851cb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

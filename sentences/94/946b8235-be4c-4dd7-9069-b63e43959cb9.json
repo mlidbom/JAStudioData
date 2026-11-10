@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4bf6239e840e21a457e95bf0ea2f6002b0c52827ac7a8454c66aaf7f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4bf6239e840e21a457e95bf0ea2f6002b0c52827ac7a8454c66aaf7f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Google ja-JP-Neural2-D",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "金玉"
@@ -135,11 +143,12 @@
     "question": "それは金玉ではありません。",
     "answer": "That is not a testicle.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "946b8235-be4c-4dd7-9069-b63e43959cb9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

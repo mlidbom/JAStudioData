@@ -20,15 +20,24 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:災い_b.mp3][sound:hypertts-8928068171b39e030f8c44c261867f397e4bdf2bfdfc699c2b29c88a.mp3]",
+  "audio": [
+    {
+      "fileName": "災い_b.mp3",
+      "voiceGender": "male"
+    },
+    {
+      "fileName": "hypertts-8928068171b39e030f8c44c261867f397e4bdf2bfdfc699c2b29c88a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [],
   "sentenceCount": 7,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -57,7 +66,9 @@
   "sourceData": {
     "answer": "<read>まが</read>:: wickedness/evil/calamity/disaster\n<read>か</read>:: disaster/calamity/misfortune",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "295f7fa4-bb4a-4419-8c30-13ba6784503f",
   "tags": [

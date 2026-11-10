@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8bf24538d434d3562add6d99e949b0c8482fb8e03532845b66b1bf5a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8bf24538d434d3562add6d99e949b0c8482fb8e03532845b66b1bf5a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "恐らく"
@@ -128,11 +136,12 @@
     "question": "犯人は恐らくこの辺りに潜んでいるのでしょう。",
     "answer": "The criminal is probably lurking in this area.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a67882b6-ea3a-4897-813a-9517dde22d7a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d4da4a589f18275de5d1d7829a93a3668340ffd67e71afaa7f03536d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d4da4a589f18275de5d1d7829a93a3668340ffd67e71afaa7f03536d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "会員"
@@ -86,11 +94,12 @@
     "question": "田中さんはスポーツジムの会員です。",
     "answer": "Mr. Tanaka is a member of a gym.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ac8675a7-4675-47ba-8398-420e26919626",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

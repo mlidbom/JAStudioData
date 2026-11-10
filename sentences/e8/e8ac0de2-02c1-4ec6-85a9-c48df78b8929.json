@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d5a5234629a84e40c7170052aa9967d800afa254d5d687f6ffa6498c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d5a5234629a84e40c7170052aa9967d800afa254d5d687f6ffa6498c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "勿体ない"
@@ -128,11 +136,12 @@
     "question": "食べ物を捨てるのは勿体ない事ですよね。",
     "answer": "It's wasteful to throw away food, isn't it?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e8ac0de2-02c1-4ec6-85a9-c48df78b8929",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

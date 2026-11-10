@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7bd23681e5bf43b6f1dbd1eea17c656f00475f0655e0c04e9144fe0e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7bd23681e5bf43b6f1dbd1eea17c656f00475f0655e0c04e9144fe0e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "朝ごはん"
@@ -93,11 +101,12 @@
     "question": "毎日の朝ごはんはベーコンとパンです。",
     "answer": "My breakfast everyday is bacon and bread.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a7515d69-14c2-4100-8f1c-62d688a03225",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

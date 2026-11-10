@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5da2cb897878325df4444aace8a40f138443cb5ac2b0d0b66a135ac2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5da2cb897878325df4444aace8a40f138443cb5ac2b0d0b66a135ac2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "公邸"
@@ -142,11 +150,12 @@
     "question": "大統領公邸が何者かに襲撃されました。",
     "answer": "The President’s official residence was raided by someone.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8341bc9c-42b9-4da7-82a2-46fe5f578d61",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

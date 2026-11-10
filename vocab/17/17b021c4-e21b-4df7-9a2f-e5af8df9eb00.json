@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-553a6118a2d2e89606d5fe1a381f536988cb66b58f7ead4ee1b6ef2c.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-553a6118a2d2e89606d5fe1a381f536988cb66b58f7ead4ee1b6ef2c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "為れます",
@@ -40,8 +46,7 @@
   "sentenceCount": 75,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -65,7 +70,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "17b021c4-e21b-4df7-9a2f-e5af8df9eb00",
   "tags": [

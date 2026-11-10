@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f5932db32c74af2cf44f6aeeeeaa24ab2a53fd2df7df45e8edb020db.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f5932db32c74af2cf44f6aeeeeaa24ab2a53fd2df7df45e8edb020db.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "中指"
@@ -86,11 +94,12 @@
     "question": "ネコに中指をなめられました。",
     "answer": "A cat licked my middle finger.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f80c6724-39fb-4ea4-907b-7f7a55557ff2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

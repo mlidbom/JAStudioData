@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1598a77e3dd7319766552f4a80b13cc11d05d6b742e0bfe0b87df12d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1598a77e3dd7319766552f4a80b13cc11d05d6b742e0bfe0b87df12d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "悪化"
@@ -135,11 +143,12 @@
     "question": "最近この辺りは治安がかなり悪化している。",
     "answer": "In recent times, there has been a notable decline in the overall safety of this neighborhood.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b1fd7efe-d830-4ae3-bb57-2625e054f980",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

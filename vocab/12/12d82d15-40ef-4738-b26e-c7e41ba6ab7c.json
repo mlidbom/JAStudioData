@@ -29,9 +29,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "[sound:hypertts-3b1fdecef2730c7b81f2959273ca7cbca7c9b65db20ecfa0be960f8c.mp3]",
-  "audioG": "",
-  "audioTTS": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3b1fdecef2730c7b81f2959273ca7cbca7c9b65db20ecfa0be960f8c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "良い天気",
@@ -45,8 +51,7 @@
   "sentenceCount": 7,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -70,7 +75,9 @@
   "sourceData": {
     "answer": "fine-weather/fair-weather",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "12d82d15-40ef-4738-b26e-c7e41ba6ab7c",
   "tags": [

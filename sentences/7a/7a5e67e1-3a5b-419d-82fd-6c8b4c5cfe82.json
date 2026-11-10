@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-76a3f3b8c914ab85d45e5f76935ce7f3dd4dd1766f6dc2590fe4831c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-76a3f3b8c914ab85d45e5f76935ce7f3dd4dd1766f6dc2590fe4831c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "警察庁"
@@ -212,11 +220,12 @@
     "question": "どうして警察庁は犯人の肩を持つような発言をしているんだ？",
     "answer": "Why is the National Police Agency making remarks that seem to take the side of the suspect?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7a5e67e1-3a5b-419d-82fd-6c8b4c5cfe82",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

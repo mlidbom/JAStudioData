@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8a1c0d0411ea87506826ddd57a671c4175f45bfa65ce1f6b839a309e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8a1c0d0411ea87506826ddd57a671c4175f45bfa65ce1f6b839a309e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "速度"
@@ -142,11 +150,12 @@
     "question": "インターネットの速度がおそすぎてイライラしています。",
     "answer": "The internet speeds are too slow and it’s pissing me off.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "07a98db4-c2fd-4218-8193-9d8f2c3197a6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

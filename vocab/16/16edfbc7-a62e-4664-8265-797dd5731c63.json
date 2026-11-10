@@ -28,9 +28,15 @@
     "roughMasculine"
   ],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-f0a752d7c63b6856c8bddc5605ee89e23d280ca2b9b517debd79ac82.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-f0a752d7c63b6856c8bddc5605ee89e23d280ca2b9b517debd79ac82.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
   "forms": [
     {
       "text": "でおれ",
@@ -44,8 +50,7 @@
   "sentenceCount": 0,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {
       "godanPotential": "forbidden"
@@ -117,7 +122,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "16edfbc7-a62e-4664-8265-797dd5731c63",
   "tags": [

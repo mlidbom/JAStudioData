@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-faaefa7c9c99018301b87d93c78473eff94c4ec0b92d1efcf2c4567f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-faaefa7c9c99018301b87d93c78473eff94c4ec0b92d1efcf2c4567f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "外面"
@@ -226,11 +234,12 @@
     "question": "このメガネは、レンズの外面のカーブをフラットにしているので、周辺部のボヤケやユガミが少ないんです。",
     "answer": "These glasses have a flat curvature on the outer surface of the lens, so there's less distortion and glare in the peripheral areas.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "eaea9d0c-e13d-4794-b987-22491e22592c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

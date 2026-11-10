@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-60522dc7a15b17924ebdda381e0dbfef2b189a65400c604e44abcaad.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-60522dc7a15b17924ebdda381e0dbfef2b189a65400c604e44abcaad.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大声"
@@ -121,11 +129,12 @@
     "question": "コネ入社だなんて、大声では言えないよ。",
     "answer": "I can't say too loudly that I joined the company through a connection.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "91a14c10-3053-46b7-8bf9-0cf55536c12a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

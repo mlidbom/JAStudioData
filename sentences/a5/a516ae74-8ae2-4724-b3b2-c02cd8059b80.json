@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9f8ff5f6017a44d9c0270d43967a48ba1e65549555107689c7277724.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9f8ff5f6017a44d9c0270d43967a48ba1e65549555107689c7277724.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "書類"
@@ -93,11 +101,12 @@
     "question": "それは何の書類ですか？",
     "answer": "What is the document for?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a516ae74-8ae2-4724-b3b2-c02cd8059b80",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-572b6714a79a12d3f8eefa6efbce0b85e649dcb51605bc6183ee7076.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-572b6714a79a12d3f8eefa6efbce0b85e649dcb51605bc6183ee7076.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "北"
@@ -58,11 +66,12 @@
     "question": "北はこっちですよ。",
     "answer": "North is this way.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d29f812f-1f13-48fc-9d28-d297657e29bc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

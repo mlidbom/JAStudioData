@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-644aa7c6a92f508b1a0e69aaf5d8f4fe254d662607354a0c011e9b45.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-644aa7c6a92f508b1a0e69aaf5d8f4fe254d662607354a0c011e9b45.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "疲労"
@@ -142,11 +150,12 @@
     "question": "このエナジードリンクを飲めば疲労が一発でとれるんです。",
     "answer": "If you drink this energy drink, you can get rid of fatigue right away.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d3a06db5-e6a7-4ec3-bb94-37e96542eddd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

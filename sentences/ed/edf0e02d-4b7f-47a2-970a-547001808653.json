@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7a85941da90303c01e680621afdd7cd1d2f9509f9d8e7400ba05067d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7a85941da90303c01e680621afdd7cd1d2f9509f9d8e7400ba05067d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "居間"
@@ -79,11 +87,12 @@
     "question": "「今、どこ？」「え、今、居間だよ」",
     "answer": "\"Where are you?\" \"I'm in the living room now.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "edf0e02d-4b7f-47a2-970a-547001808653",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

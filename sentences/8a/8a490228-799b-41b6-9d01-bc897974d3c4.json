@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8c99ec8c1add0935cdb451a7378544dbf60d7be331fbfe43040df27b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8c99ec8c1add0935cdb451a7378544dbf60d7be331fbfe43040df27b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "攻撃"
@@ -142,11 +150,12 @@
     "question": "今まで見た中で一番セクシーなミサイル攻撃だったよ。",
     "answer": "It was the sexiest missile attack I’ve ever seen.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8a490228-799b-41b6-9d01-bc897974d3c4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

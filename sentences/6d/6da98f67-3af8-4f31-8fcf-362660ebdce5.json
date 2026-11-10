@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c246fd95ba75d9337c549e27085abe635f4f17504b0ec54e38505b18.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c246fd95ba75d9337c549e27085abe635f4f17504b0ec54e38505b18.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "親展"
@@ -107,11 +115,12 @@
     "question": "検査結果は後日、親展で送付されます。",
     "answer": "The test results will be sent to you later, marked “confidential.”",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6da98f67-3af8-4f31-8fcf-362660ebdce5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

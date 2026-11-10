@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e2fe9a27cb00b070cfd970a3424546a760c70f5de129b7c8e81537fa.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e2fe9a27cb00b070cfd970a3424546a760c70f5de129b7c8e81537fa.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "昼寝"
@@ -177,11 +185,12 @@
     "question": "昼寝から目覚めると、すでに夜の七時を回っていた。",
     "answer": "When I woke up from my nap, it was already past 7 p.m.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c24ffd4a-3ca6-40c7-abbd-c3ba9d14d363",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

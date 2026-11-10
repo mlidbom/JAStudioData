@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-916ff4bb643a531c505a14eb7d4ecbd0128ddde8a1b94d239085db0d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-916ff4bb643a531c505a14eb7d4ecbd0128ddde8a1b94d239085db0d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "ありがとう",
@@ -129,11 +137,12 @@
     "question": "「赤ちゃんのご誕生、おめでとうございます。」「有難うございます。」",
     "answer": "\"Congratulations on the birth of your baby.\" \"Thank you very much.”",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "af233d32-2725-440f-bfe6-0b2ffcea056d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

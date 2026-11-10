@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-632955d888c9874a8f5ea5683e06ec74d2f214bda871f6a017f3f620.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-632955d888c9874a8f5ea5683e06ec74d2f214bda871f6a017f3f620.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "秒針"
@@ -93,11 +101,12 @@
     "question": "腕時計の秒針が折れちゃってるの。",
     "answer": "My wrist watch’s second hand has been broken.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "19a7cb65-1a38-4299-af06-f67b0c3b43c3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ce54af2dc4b6a727c4e3f53209fbee62fe911ffc5a7540b56f6c1ec6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ce54af2dc4b6a727c4e3f53209fbee62fe911ffc5a7540b56f6c1ec6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "〜漬け"
@@ -100,11 +108,12 @@
     "question": "私の大好物は、マグロのしょうゆ漬けです。",
     "answer": "My favorite food is tuna marinated in soy sauce.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bf8aae18-0964-409f-9656-feb3252ed032",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

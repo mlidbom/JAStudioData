@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-45ecd7a48682e19f89cdbd6cd9a05f6649f81d892b809a8ed08231e4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-45ecd7a48682e19f89cdbd6cd9a05f6649f81d892b809a8ed08231e4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "流行語"
@@ -107,11 +115,12 @@
     "question": "最近の流行語は全然分かりません。",
     "answer": "I don't know any of the recent buzzwords.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "db535b04-f952-419a-8559-1f25451fcbcd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

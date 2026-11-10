@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1a710604b95cf09f376b59cfb61f9b7ee4b9fe574dfbd49e9fb52a7d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1a710604b95cf09f376b59cfb61f9b7ee4b9fe574dfbd49e9fb52a7d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "雰囲気"
@@ -79,11 +87,12 @@
     "question": "さっきのミーティング、雰囲気やばかったね。",
     "answer": "The atmosphere in that meeting earlier was pretty intense, wasn't it?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "171cbec1-7b92-403a-bbbf-3da38d080b49",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

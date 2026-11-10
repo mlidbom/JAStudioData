@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a8747c3df1fdb2721775282c7b06c0c1456e3a1b21bbf6232ee413b3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a8747c3df1fdb2721775282c7b06c0c1456e3a1b21bbf6232ee413b3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "天井"
@@ -86,11 +94,12 @@
     "question": "天井にクモがいる！",
     "answer": "There is a spider on the ceiling!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b45dc711-2b54-497f-9b90-b6ba6590e3f3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

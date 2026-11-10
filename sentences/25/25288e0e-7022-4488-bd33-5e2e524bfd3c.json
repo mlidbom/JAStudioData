@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-78c9b27b192a96f47998e33bfeff9deae45b24768c640c4ae76572fa.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-78c9b27b192a96f47998e33bfeff9deae45b24768c640c4ae76572fa.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "古来"
@@ -65,11 +73,12 @@
     "question": "カッパは、日本古来のヨウカイです。",
     "answer": "The kappa is an ancient Japanese yokai.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "25288e0e-7022-4488-bd33-5e2e524bfd3c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

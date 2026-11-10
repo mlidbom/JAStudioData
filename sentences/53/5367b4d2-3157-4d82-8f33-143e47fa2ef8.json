@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-25eb1b66c783e2ba89686f6eab0daf2fa24576a5eec9bafae23ccf2b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-25eb1b66c783e2ba89686f6eab0daf2fa24576a5eec9bafae23ccf2b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "通り"
@@ -121,11 +129,12 @@
     "question": "この通りを右に行って下さい。",
     "answer": "Go to the right on this street.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5367b4d2-3157-4d82-8f33-143e47fa2ef8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

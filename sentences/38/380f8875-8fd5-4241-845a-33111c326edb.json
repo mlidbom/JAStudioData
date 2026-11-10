@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c0277244a78d86bef52f70b9712d25ffece6de9ff456999f7117bbe6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c0277244a78d86bef52f70b9712d25ffece6de9ff456999f7117bbe6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "炒める"
@@ -156,11 +164,12 @@
     "question": "三十分もかけて玉ねぎを炒めるんですか？",
     "answer": "Do you really spend thirty minutes sautéing the onions?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "380f8875-8fd5-4241-845a-33111c326edb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

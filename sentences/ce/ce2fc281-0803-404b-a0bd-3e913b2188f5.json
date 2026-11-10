@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-939a65328db0fbf059c4b8bbff73ab571e756e1477917a38a390b5c0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-939a65328db0fbf059c4b8bbff73ab571e756e1477917a38a390b5c0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "新聞"
@@ -100,11 +108,12 @@
     "question": "近年、新聞のニュースはオンラインでチェックします。",
     "answer": "In recent years, I check news from the newspaper online.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ce2fc281-0803-404b-a0bd-3e913b2188f5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

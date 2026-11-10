@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dbb196e81211189326a9cfb7ec4da25f752718d73b35d705da995154.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dbb196e81211189326a9cfb7ec4da25f752718d73b35d705da995154.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "勉強する"
@@ -140,11 +148,12 @@
     "question": "学校は勉強しに行くところですよ。",
     "answer": "School is where you go to study.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e892ce5f-fda7-4dd3-a635-6b6c4dadea54",
   "tags": [
-    "_tts_audio",
     "-::sentence::uses::incorrect-matches",
     "source::wani::current"
   ]

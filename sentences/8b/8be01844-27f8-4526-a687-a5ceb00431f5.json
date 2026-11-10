@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-01b20db2c0bb86e51f56708683024ad7be798f1bc3a917878c94b48a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-01b20db2c0bb86e51f56708683024ad7be798f1bc3a917878c94b48a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "覚える"
@@ -135,11 +143,12 @@
     "question": "私は人の顔を覚えるのが苦手です。",
     "answer": "I am not good at remembering people's faces.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8be01844-27f8-4526-a687-a5ceb00431f5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

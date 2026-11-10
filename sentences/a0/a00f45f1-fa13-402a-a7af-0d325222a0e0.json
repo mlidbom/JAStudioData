@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-200d11fc9af1c86500dcb96067dbf38f91633b5f10a865c42b6f309e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-200d11fc9af1c86500dcb96067dbf38f91633b5f10a865c42b6f309e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "舞台"
@@ -240,11 +248,12 @@
     "question": "すごくいい声持ってるね。舞台で歌を歌ってみようと思った事はないの？",
     "answer": "You have such a great voice. Have you ever thought about singing on stage?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a00f45f1-fa13-402a-a7af-0d325222a0e0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

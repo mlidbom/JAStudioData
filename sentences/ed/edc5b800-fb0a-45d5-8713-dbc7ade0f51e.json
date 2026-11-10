@@ -3,8 +3,16 @@
   "corpusAnswer": "It's just about time. We're heading out.",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-13dd1b2ea09fd10401b7049d75b9f1283f53ff5e3a0ca1bd537b06fb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-13dd1b2ea09fd10401b7049d75b9f1283f53ff5e3a0ca1bd537b06fb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "潮時"
@@ -79,11 +87,12 @@
     "question": "そろそろ潮時だ。引き上げるぞ。",
     "answer": "It’s high time we got out of here. Let’s move.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "edc5b800-fb0a-45d5-8713-dbc7ade0f51e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

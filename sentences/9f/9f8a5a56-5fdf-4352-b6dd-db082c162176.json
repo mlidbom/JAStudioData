@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-43c8b0a9c7d2de8b3d19083612b546e7145c3f2b976ba45309cb9445.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-43c8b0a9c7d2de8b3d19083612b546e7145c3f2b976ba45309cb9445.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "沖合"
@@ -177,11 +185,12 @@
     "question": "ピンク色の怪獣は海岸から約8km沖合にいるとの報告を受けました。",
     "answer": "They reported that the pink monster is about eight kilometers offshore.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9f8a5a56-5fdf-4352-b6dd-db082c162176",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

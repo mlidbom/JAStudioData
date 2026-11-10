@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-93e00eff8f7bee0cee577ce23cbeb690b271f241a54912b00e625e7f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-93e00eff8f7bee0cee577ce23cbeb690b271f241a54912b00e625e7f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "ハート形"
@@ -170,11 +178,12 @@
     "question": "うちのおばあちゃんは、ハート形のおにぎりを作るのが上手です。",
     "answer": "My grandmother is good at making heart-shaped rice balls.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a2ca90de-0750-434d-8427-f1763eecdde0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

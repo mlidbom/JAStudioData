@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f0c9535d908d30fc19daf50a5676179b3cc4b3a10deb1b5aaee4189f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f0c9535d908d30fc19daf50a5676179b3cc4b3a10deb1b5aaee4189f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "引き算"
@@ -149,11 +157,12 @@
     "question": "小学校三年生レベルの引き算なのに、答えがどうしても分からない。",
     "answer": "Although it is a elementary school third grade level subtraction problem, I still can't figure out the answer.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "da48a0f7-aacf-4740-984d-aa6652aef11b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

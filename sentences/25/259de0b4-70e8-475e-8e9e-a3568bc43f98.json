@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d5ee2bc98aa7a8ce4f93ea389a86fef3ad13e072171beb79735aa897.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d5ee2bc98aa7a8ce4f93ea389a86fef3ad13e072171beb79735aa897.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "領収書"
@@ -219,11 +227,12 @@
     "question": "いい加減そろそろ領収書を出して、経費を払い戻してもらった方がいいんじゃない？",
     "answer": "I think you should really turn in your receipts to get reimbursed.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "259de0b4-70e8-475e-8e9e-a3568bc43f98",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-66f511576a9de02985a7dcf70dd5e7f65cb28283c31aea0731c113d1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-66f511576a9de02985a7dcf70dd5e7f65cb28283c31aea0731c113d1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "沼沢"
@@ -156,11 +164,12 @@
     "question": "この黄色い花を咲かせる植物は、沼沢地に生息します。",
     "answer": "This plant with yellow flowers lives in swamps.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5466953f-cbc6-4152-8e53-9930985bd4c2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

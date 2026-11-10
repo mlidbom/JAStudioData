@@ -19,9 +19,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-bc4072b0540658b1968cd31088bcf591a2961ad9e6d934e9cad3def7.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-bc4072b0540658b1968cd31088bcf591a2961ad9e6d934e9cad3def7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "おー",
@@ -39,8 +45,7 @@
   "sentenceCount": 75,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {
       "sentenceStart": "required"
@@ -71,7 +76,9 @@
   "sourceData": {
     "answer": "oh!/good-heavens! | ugh!/oh-no! | ah!/the-penny-drops! | yes!/okay!",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "46d33b41-ac65-4898-9e95-d7265b801491",
   "tags": [

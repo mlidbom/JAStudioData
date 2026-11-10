@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-66f8454cf055650e4e66b237f6d6dbe6214a5283a1fab8858f2b2691.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-66f8454cf055650e4e66b237f6d6dbe6214a5283a1fab8858f2b2691.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "債券"
@@ -163,11 +171,12 @@
     "question": "東京都は来たるオリンピックのため、追加で債券を発行した。",
     "answer": "The Tokyo Metropolitan Government has issued additional bonds for the upcoming Olympics.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "80dbdec1-1818-402c-a369-a4e03a1d7aee",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

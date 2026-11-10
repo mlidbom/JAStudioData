@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2eec47beec07287ad7684eec72699d7131a7f177a49b68f2dff88e3a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2eec47beec07287ad7684eec72699d7131a7f177a49b68f2dff88e3a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "許す"
@@ -142,11 +150,12 @@
     "question": "彼のこと、まだ許すことはできないよ。",
     "answer": "I still can't forgive him.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "97a90949-c92a-449b-a976-16b956ae1804",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9c2033bb71ff3ba353737472e69d70a884fcafba44c0e7a071005f2d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9c2033bb71ff3ba353737472e69d70a884fcafba44c0e7a071005f2d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "配る"
@@ -177,11 +185,12 @@
     "question": "日本の女子学生たちは、バレンタインデーに学校で手作りのチョコレートを配るんです。",
     "answer": "Female students in Japan pass out handmade chocolates at school on Valentine's Day.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f112f8bb-3860-4c1a-afbe-34e111bc4c9c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

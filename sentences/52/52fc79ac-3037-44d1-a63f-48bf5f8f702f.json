@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8c1a741dec7facba91412d6903fb7f311a9662afd6a1170d28c56813.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8c1a741dec7facba91412d6903fb7f311a9662afd6a1170d28c56813.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "取材"
@@ -156,11 +164,12 @@
     "question": "今は有名アーティストのコンサートの取材をしています。",
     "answer": "I'm covering the concert of a famous artist now.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "52fc79ac-3037-44d1-a63f-48bf5f8f702f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

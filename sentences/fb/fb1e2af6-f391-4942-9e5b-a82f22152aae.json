@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3ec4bd15570ce2dfbd8b7e6acd3df2b18037fa59e1acefed4dd48e8a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3ec4bd15570ce2dfbd8b7e6acd3df2b18037fa59e1acefed4dd48e8a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "商人"
@@ -93,11 +101,12 @@
     "question": "町には商人がたくさんいます。",
     "answer": "There are many merchants in the town.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fb1e2af6-f391-4942-9e5b-a82f22152aae",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

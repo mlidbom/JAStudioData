@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2f772acd17039faee224c6e93d2666d5185c9dcbd7f628e562bbfed2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2f772acd17039faee224c6e93d2666d5185c9dcbd7f628e562bbfed2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "見返る"
@@ -142,11 +150,12 @@
     "question": "ガシャーンと大きな音がして、私は思わず後ろを見返った。",
     "answer": "There was a huge crash and I involuntarily looked behind me.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3262d90f-4552-4ee8-8444-2f60e351c8b4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

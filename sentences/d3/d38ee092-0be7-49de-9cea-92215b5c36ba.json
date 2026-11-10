@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-54ffbd948c03f9eb00634a4df4238f0b044072cc3dda4c3a85bd5a2a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-54ffbd948c03f9eb00634a4df4238f0b044072cc3dda4c3a85bd5a2a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お願い"
@@ -114,11 +122,12 @@
     "question": "お願いだから、その話はもうやめて。",
     "answer": "Please, let's stop talking about that.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d38ee092-0be7-49de-9cea-92215b5c36ba",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

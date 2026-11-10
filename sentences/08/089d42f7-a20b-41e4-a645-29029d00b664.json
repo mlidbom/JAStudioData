@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a5b4c036601a0b9acc1cd051d0bce2ed7a0aefbfb76b7e8c79d0fedf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a5b4c036601a0b9acc1cd051d0bce2ed7a0aefbfb76b7e8c79d0fedf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "千"
@@ -100,11 +108,12 @@
     "question": "一リットルとは、千ミリリットルのことだ。",
     "answer": "One liter is a thousand milliliters.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "089d42f7-a20b-41e4-a645-29029d00b664",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

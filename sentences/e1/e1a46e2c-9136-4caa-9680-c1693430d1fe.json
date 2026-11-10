@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-06c458e48f7dae3e8550ae8d2f5cfa78a89894528d075801be09881a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-06c458e48f7dae3e8550ae8d2f5cfa78a89894528d075801be09881a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "合図"
@@ -93,11 +101,12 @@
     "question": "サムは、親指を上げて合図を送った。",
     "answer": "Sam gave the signal by raising his thumb up.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e1a46e2c-9136-4caa-9680-c1693430d1fe",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

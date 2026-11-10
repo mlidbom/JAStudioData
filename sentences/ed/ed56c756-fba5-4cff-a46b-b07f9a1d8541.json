@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f914e0f725b0457a2a5898806e7df8807520552720f8807942d5241a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f914e0f725b0457a2a5898806e7df8807520552720f8807942d5241a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "入所"
@@ -93,11 +101,12 @@
     "question": "今日はモデルエージェンシーの入所テストでした。",
     "answer": "I had an entrance test for a model agency today.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ed56c756-fba5-4cff-a46b-b07f9a1d8541",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

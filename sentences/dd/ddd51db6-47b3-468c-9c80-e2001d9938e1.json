@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f12ab7487bb37e29d75d140004187c278b17f166e830dd86de735f8d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f12ab7487bb37e29d75d140004187c278b17f166e830dd86de735f8d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "急ぐ"
@@ -142,11 +150,12 @@
     "question": "もっと急いでよ！急げばまだ間に合うはずだよ。",
     "answer": "Hurry up! If we hurry, we can still make it.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ddd51db6-47b3-468c-9c80-e2001d9938e1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

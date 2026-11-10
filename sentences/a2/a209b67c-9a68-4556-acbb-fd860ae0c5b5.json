@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-402ae55b9a465a3d23ae03fe5a44f59d069b040b8fb04e451ce11774.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-402ae55b9a465a3d23ae03fe5a44f59d069b040b8fb04e451ce11774.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "魔法"
@@ -163,11 +171,12 @@
     "question": "わぁ、A級の新しい魔法を習得中なの？上手くいけば、万歳ものだね！",
     "answer": "Wow, are you learning new A rank magic? If it goes well we should celebrate!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a209b67c-9a68-4556-acbb-fd860ae0c5b5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

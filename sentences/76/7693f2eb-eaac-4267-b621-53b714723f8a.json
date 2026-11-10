@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6ecfdae3e8ba416dcd0d09b7d1406f430fbee5fa9892f3e1a1d41c62.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6ecfdae3e8ba416dcd0d09b7d1406f430fbee5fa9892f3e1a1d41c62.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一階"
@@ -163,11 +171,12 @@
     "question": "このフロアのクリーニングが終わったら、一階に来てくれる？",
     "answer": "After cleaning this floor, will you come to the first floor?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7693f2eb-eaac-4267-b621-53b714723f8a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

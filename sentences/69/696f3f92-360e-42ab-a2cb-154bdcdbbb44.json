@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cad6c1c0b853fdaca687c478559ef765cb29d8d87221b370e89512cb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cad6c1c0b853fdaca687c478559ef765cb29d8d87221b370e89512cb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "役人"
@@ -79,11 +87,12 @@
     "question": "今日、役人が来ましたよ。",
     "answer": "A public official came today.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "696f3f92-360e-42ab-a2cb-154bdcdbbb44",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

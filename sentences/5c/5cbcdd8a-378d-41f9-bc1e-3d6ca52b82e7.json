@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6adcda53b980272e934ecfe5f42e9e9176901f5b635350fc029944f7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6adcda53b980272e934ecfe5f42e9e9176901f5b635350fc029944f7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "丸い"
@@ -51,11 +59,12 @@
     "question": "丸いボールがほしい。",
     "answer": "I want a round ball.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5cbcdd8a-378d-41f9-bc1e-3d6ca52b82e7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

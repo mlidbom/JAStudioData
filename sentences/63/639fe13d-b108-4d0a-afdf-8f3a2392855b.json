@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b18b79d31df93f1254b072acdb7139c67f659a1c2f835977153b9bc0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b18b79d31df93f1254b072acdb7139c67f659a1c2f835977153b9bc0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "励ます"
@@ -79,11 +87,12 @@
     "question": "いつも励ましてくれてありがとう。",
     "answer": "Thank you for always encouraging me.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "639fe13d-b108-4d0a-afdf-8f3a2392855b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

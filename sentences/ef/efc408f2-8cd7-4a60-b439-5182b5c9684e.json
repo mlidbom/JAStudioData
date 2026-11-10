@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3ff650344a9000b74368514aa24d841ce123fd7c2d9f4dc55c4c52b3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3ff650344a9000b74368514aa24d841ce123fd7c2d9f4dc55c4c52b3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "入所"
@@ -177,11 +185,12 @@
     "question": "入所の前に必ずルールをチェックしておいて下さい。",
     "answer": "Be sure to check the rules before your admission.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "efc408f2-8cd7-4a60-b439-5182b5c9684e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

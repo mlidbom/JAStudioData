@@ -19,9 +19,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-424cf694cd925da012c3e1d3a5bfb37fc38fbbbc25e06008394a2bd2.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-424cf694cd925da012c3e1d3a5bfb37fc38fbbbc25e06008394a2bd2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "詰まらない",
@@ -39,8 +45,7 @@
   "sentenceCount": 8,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -64,7 +69,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "3c5c3de7-5577-46cc-92d4-e9bbfdc9fe94",
   "tags": [

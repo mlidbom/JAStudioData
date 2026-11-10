@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0ab4a501c936f4b8721df37eb34fce62bdef86307746947648cac2e6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0ab4a501c936f4b8721df37eb34fce62bdef86307746947648cac2e6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お土産"
@@ -128,11 +136,12 @@
     "question": "まだお土産を選んでいません。",
     "answer": "I haven’t picked out a souvenir yet.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "da3ded65-7576-4ff2-89cf-c20eae42b06d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-59a2c379444e1e2bcae0032b2dacf97789cc2bbc665dd641aeda8a11.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-59a2c379444e1e2bcae0032b2dacf97789cc2bbc665dd641aeda8a11.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "でみた",
@@ -40,8 +46,7 @@
   "sentenceCount": 44,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {
       "surface": "required"
@@ -67,7 +72,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "ea50f056-ccbb-4751-b55b-751b6591c26b",
   "tags": [

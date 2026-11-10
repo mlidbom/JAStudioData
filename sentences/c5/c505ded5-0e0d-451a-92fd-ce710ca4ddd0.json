@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-502e1fb1d8eb53d552d2318cc8510b9cb507e48c6b1e9f6cd637a220.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-502e1fb1d8eb53d552d2318cc8510b9cb507e48c6b1e9f6cd637a220.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "流行"
@@ -156,11 +164,12 @@
     "question": "この冬、お年寄りの間にインフルエンザが流行しているらしい。",
     "answer": "Apparently influenza is prevalent among the elderly this year.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c505ded5-0e0d-451a-92fd-ce710ca4ddd0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

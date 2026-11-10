@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-947c2eb159236466bd88c3b69d33768e9c651d8a5d8fa3aaa09d0ac5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-947c2eb159236466bd88c3b69d33768e9c651d8a5d8fa3aaa09d0ac5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "白熊"
@@ -114,11 +122,12 @@
     "question": "どうしてここに白熊がいるんだ？",
     "answer": "Why is there a polar bear here?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8ea23ac1-e344-4ab0-8270-a7a7d27f62d3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2f872d95357e2a926772e61ed79083343cd1c7f41f5b32ecb37ff7fb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2f872d95357e2a926772e61ed79083343cd1c7f41f5b32ecb37ff7fb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "凍結"
@@ -107,11 +115,12 @@
     "question": "アカウントが凍結されちゃいました。",
     "answer": "My account has been frozen.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "878d8606-e263-4346-8585-5f4ab29b78c4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

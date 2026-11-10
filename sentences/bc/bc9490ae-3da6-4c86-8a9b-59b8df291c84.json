@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e09f6d44e727fce37724e6c3d9f3fe396d2447334b3b88983a36e8af.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e09f6d44e727fce37724e6c3d9f3fe396d2447334b3b88983a36e8af.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "磁気"
@@ -170,11 +178,12 @@
     "question": "磁気カードと磁石を一緒にしない方がいいよ。",
     "answer": "You shouldn’t put magnetic cards and magnets together.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bc9490ae-3da6-4c86-8a9b-59b8df291c84",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

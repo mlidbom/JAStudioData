@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7b44ea31b8793dd1fa700fd0769dd9f20b51c11dac55edf5d4d9b6bb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7b44ea31b8793dd1fa700fd0769dd9f20b51c11dac55edf5d4d9b6bb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "公営"
@@ -226,11 +234,12 @@
     "question": "もし収入がものすごく低いのであれば、安い公営のアパートに住めるかもしれませんよ。",
     "answer": "If your income is really low, you may be able to live in a cheap public apartment.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ad9acd4f-782c-4661-b8c8-621432bcca10",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

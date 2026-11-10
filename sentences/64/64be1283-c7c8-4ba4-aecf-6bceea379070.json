@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6242e1b45d316810713b8487c9812a9cbe8b9eb955edc424c7b9c743.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6242e1b45d316810713b8487c9812a9cbe8b9eb955edc424c7b9c743.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "好き"
@@ -135,11 +143,12 @@
     "question": "好きな人と家でゴロゴロするのが大好きです。",
     "answer": "I love just staying home and doing nothing with someone I love.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "64be1283-c7c8-4ba4-aecf-6bceea379070",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

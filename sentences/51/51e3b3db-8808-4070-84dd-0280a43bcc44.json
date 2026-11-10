@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-63b4c55cc3f565ff062908b2ac5ee0f7f40ae29b6036b7adf7ed8f79.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-63b4c55cc3f565ff062908b2ac5ee0f7f40ae29b6036b7adf7ed8f79.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "不法"
@@ -86,11 +94,12 @@
     "question": "それって不法コピーじゃないの？",
     "answer": "Isn't that an illegal copy?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "51e3b3db-8808-4070-84dd-0280a43bcc44",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

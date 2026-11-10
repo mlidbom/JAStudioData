@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ab57c52ae55fb6c967cb5d2d9d8e275243467af7a8b91d6b8d7fd07b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ab57c52ae55fb6c967cb5d2d9d8e275243467af7a8b91d6b8d7fd07b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "牛丼"
@@ -170,11 +178,12 @@
     "question": "「この牛丼は、私のおごりね。」「わあ、ありがとう。じゃあ、お言葉に甘えます。」",
     "answer": "\"This beef bowl is my treat.\" \"Oh, thank you. I’ll take you up on that.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "62a05b57-aa38-4b0d-b704-92013864b5ce",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

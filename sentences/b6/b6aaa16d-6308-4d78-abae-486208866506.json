@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8342a4007678a6fca10de70cbb6a5b36b7d9000c3522473b6e8ec5b0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8342a4007678a6fca10de70cbb6a5b36b7d9000c3522473b6e8ec5b0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "表す"
@@ -72,11 +80,12 @@
     "question": "データは全てを表す。",
     "answer": "The data shows everything.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b6aaa16d-6308-4d78-abae-486208866506",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

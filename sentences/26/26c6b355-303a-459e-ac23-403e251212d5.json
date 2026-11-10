@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d791143c9615f43f1d588f11de7bd26f5d5cdabd22286d3790e5479f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d791143c9615f43f1d588f11de7bd26f5d5cdabd22286d3790e5479f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "判断する"
@@ -156,11 +164,12 @@
     "question": "食用キノコか毒キノコかを判断するのは難しい。",
     "answer": "It is difficult to judge whether a mushroom is edible or poisonous.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "26c6b355-303a-459e-ac23-403e251212d5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

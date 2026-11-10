@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c308da818a01b07593d85bb8b2ff5ec4e71b57d0e0cd9b6946551227.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c308da818a01b07593d85bb8b2ff5ec4e71b57d0e0cd9b6946551227.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "濃度"
@@ -72,11 +80,12 @@
     "question": "この、マンモグラフィ濃度って何ですか？",
     "answer": "What is this mammographic density?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "58bf8344-736d-4324-90a8-38c871a36fc5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

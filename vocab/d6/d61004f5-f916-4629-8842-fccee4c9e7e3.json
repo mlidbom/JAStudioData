@@ -20,9 +20,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "[sound:hypertts-d921be4719f261af8dce7d6e018d072ce70b178dbf9d310036d24100.mp3]",
-  "audioG": "",
-  "audioTTS": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d921be4719f261af8dce7d6e018d072ce70b178dbf9d310036d24100.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Google ja-JP-Neural2-C",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "ヘへ",
@@ -36,8 +42,7 @@
   "sentenceCount": 3,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -61,11 +66,12 @@
   "sourceData": {
     "answer": "heh-heh/hee-hee/ha-ha | female-genitals/vagina/vulva",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "d61004f5-f916-4629-8842-fccee4c9e7e3",
   "tags": [
-    "_tts_audio",
     "source::yomitan"
   ]
 }

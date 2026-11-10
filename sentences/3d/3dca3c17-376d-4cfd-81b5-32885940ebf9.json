@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-729a9386c9dd88386add723d23a3bc1eed7cd42b430a87a98c4c94e2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-729a9386c9dd88386add723d23a3bc1eed7cd42b430a87a98c4c94e2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "更生"
@@ -128,11 +136,12 @@
     "question": "その会社は、会社更生法を申請しました。",
     "answer": "The company filed for reorganization under the Company Resuscitation Law.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3dca3c17-376d-4cfd-81b5-32885940ebf9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b0e043f65990e327056bdef518bb5441a7662003adadcfeff77ddcdd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b0e043f65990e327056bdef518bb5441a7662003adadcfeff77ddcdd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "良質"
@@ -156,11 +164,12 @@
     "question": "朝食には、良質なタンパク質を取るよう心がけています。",
     "answer": "I'm trying to make sure I consume good quality protein for breakfast.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e21e3594-f9c9-424c-9d62-dc08b3fcbc6c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

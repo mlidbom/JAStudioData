@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f1487b253485923c1ba82b8c9c3d25ddb1a220698f851e03c57970f0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f1487b253485923c1ba82b8c9c3d25ddb1a220698f851e03c57970f0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "主因"
@@ -219,11 +227,12 @@
     "question": "ニアミスの主因は、この電車がスピードを上げるべきではないタイミングで上げたことです。",
     "answer": "The main cause behind the near-miss is that the train sped up when it wasn't supposed to.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4bcd30da-4a57-455f-8ca4-2d30801783ad",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

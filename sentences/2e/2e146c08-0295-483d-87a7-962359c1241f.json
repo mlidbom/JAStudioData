@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e22acc773b6ad42f0211aae609e5bcc63b2f2f631cd87effe246626e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e22acc773b6ad42f0211aae609e5bcc63b2f2f631cd87effe246626e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "国籍"
@@ -198,11 +206,12 @@
     "question": "日本国籍がないんですが、司法試験を受験することは可能ですか？",
     "answer": "I don’t have Japanese citizenship, but is it possible for me to take the bar examination?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2e146c08-0295-483d-87a7-962359c1241f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

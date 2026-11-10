@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-09c70f181c844f901c7cac9086464b1ce501ce60afa27ada2c4410cb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-09c70f181c844f901c7cac9086464b1ce501ce60afa27ada2c4410cb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "不可欠"
@@ -212,11 +220,12 @@
     "question": "日本語がペラペラになるのに不可欠なことは何だと思いますか？",
     "answer": "What do you think would be essential to becoming fluent in Japanese?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a1c6fd40-f685-40d8-ae27-88d7911c6386",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

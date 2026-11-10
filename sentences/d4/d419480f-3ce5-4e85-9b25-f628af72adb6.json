@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-34d90e66c61ece69da7a1e54e77e4bdaefd419936dbfbece538b5e47.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-34d90e66c61ece69da7a1e54e77e4bdaefd419936dbfbece538b5e47.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "紙"
@@ -142,11 +150,12 @@
     "question": "紙とペンをテーブルの上に出してください。",
     "answer": "Put the paper and pen on the table.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d419480f-3ce5-4e85-9b25-f628af72adb6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

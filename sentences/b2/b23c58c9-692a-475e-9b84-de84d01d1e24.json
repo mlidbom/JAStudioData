@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6eebf4bbca917ec064063b745946c73d1e7af74e571c3877645e0613.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6eebf4bbca917ec064063b745946c73d1e7af74e571c3877645e0613.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "虚しい"
@@ -170,11 +178,12 @@
     "question": "毎日同じような日々の人生で、虚しくなりませんか。",
     "answer": "Do you feel empty, living the same daily life day after day?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b23c58c9-692a-475e-9b84-de84d01d1e24",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

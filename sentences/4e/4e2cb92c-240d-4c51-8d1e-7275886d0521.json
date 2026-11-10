@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cbd7a6a1d780b6b6232eaf80697d09d2cc938b50b33f3fec4b165255.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cbd7a6a1d780b6b6232eaf80697d09d2cc938b50b33f3fec4b165255.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "異義"
@@ -93,11 +101,12 @@
     "question": "この単語に異義はありますか？",
     "answer": "Is there a different meaning for this word?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4e2cb92c-240d-4c51-8d1e-7275886d0521",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

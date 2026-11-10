@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6684ba76bc7fa6c3061cca5ac57ce508327e5ec203a1ce3c8e40ead4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6684ba76bc7fa6c3061cca5ac57ce508327e5ec203a1ce3c8e40ead4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "昔"
@@ -93,11 +101,12 @@
     "question": "コウイチはただの昔の友人です。",
     "answer": "Koichi is just an old friend.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0c266e03-4a7c-4c06-8823-fb0677aa332e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-29f28949b8a04a12a625b6c2d0b887e784ed99c7ed59677cb22f6d55.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-29f28949b8a04a12a625b6c2d0b887e784ed99c7ed59677cb22f6d55.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "同窓会"
@@ -86,11 +94,12 @@
     "question": "小学校の同窓会の案内が来た。",
     "answer": "I received an invitation to my elementary school reunion.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d28dcdf6-6f38-49f4-b605-ea31e2612962",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-08bc3ee14214ea371e2ef64d0b3451ebe2cd329b5fcdf74d51ab241c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-08bc3ee14214ea371e2ef64d0b3451ebe2cd329b5fcdf74d51ab241c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "病床"
@@ -93,11 +101,12 @@
     "question": "この病院の病床数はいくつですか？",
     "answer": "How many beds does this hospital have?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ebdbb009-b88f-4d77-a5ac-a8f97dd990f0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bb03d6efa4e65ba41a90538233c50370f52a955d5fb2f30acb181b26.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bb03d6efa4e65ba41a90538233c50370f52a955d5fb2f30acb181b26.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "読み違い"
@@ -128,11 +136,12 @@
     "question": "捜査令状の読み違いで、犯人に笑われた。",
     "answer": "The culprit laughed at me for misreading the search warrant.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "06b6608e-ac46-4ab3-86ed-9763846326b0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

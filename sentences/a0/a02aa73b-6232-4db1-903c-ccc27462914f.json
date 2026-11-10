@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-80e496c9191ff3bd55fb045e600948db2a7fc4e7dbc250c98e6439c7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-80e496c9191ff3bd55fb045e600948db2a7fc4e7dbc250c98e6439c7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "直接的"
@@ -205,11 +213,12 @@
     "question": "直接的な知り合いではないんですけど、連絡先なら分かると思いますよ。",
     "answer": "I don't have a direct connection with him, but I could probably get his contact information.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a02aa73b-6232-4db1-903c-ccc27462914f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

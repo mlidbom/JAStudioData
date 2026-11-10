@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2d52a97b13267e9889bdb47162741f40a3d66efd9896856b558b10f9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2d52a97b13267e9889bdb47162741f40a3d66efd9896856b558b10f9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "支度"
@@ -142,11 +150,12 @@
     "question": "学校へ行く支度ができたら呼んでください。",
     "answer": "Please call me when you've gotten ready for school.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "151743fe-d5a6-4266-927e-5cfcc91079c5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

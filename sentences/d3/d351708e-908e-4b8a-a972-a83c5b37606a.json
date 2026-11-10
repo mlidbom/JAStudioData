@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6281c4d39fea9b33b1207957283e068e4dea9357ef5530b1dc77ab48.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6281c4d39fea9b33b1207957283e068e4dea9357ef5530b1dc77ab48.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "制度"
@@ -163,11 +171,12 @@
     "question": "マサオなら、その制度について健全な判断をしてくれるはずです。",
     "answer": "If we ask Masao, he should be able give us a sound judgement.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d351708e-908e-4b8a-a972-a83c5b37606a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

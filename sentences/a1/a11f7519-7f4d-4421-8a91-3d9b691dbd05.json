@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5a62214f8cbeb6694e4419eea0e8fc07cda21089d07fa6c3c46ceccd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5a62214f8cbeb6694e4419eea0e8fc07cda21089d07fa6c3c46ceccd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "元気"
@@ -114,11 +122,12 @@
     "question": "元気そうなのに、ずっとくしゃみをしてる。",
     "answer": "They're sneezing all the time, but they look fine.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a11f7519-7f4d-4421-8a91-3d9b691dbd05",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

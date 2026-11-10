@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-541ddfbc657b9d8101dc8cba84d0f681fa12b1166b20bc613083e44a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-541ddfbc657b9d8101dc8cba84d0f681fa12b1166b20bc613083e44a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "捜す"
@@ -198,11 +206,12 @@
     "question": "祖母を捜しているんです。アルツハイマーがあって、昨日から家に帰ってないんです。",
     "answer": "I’m searching for my grandmother. She has Alzheimer's and hasn’t come home since yesterday.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ef7200ed-da55-4abe-aa02-7026816e7d7f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

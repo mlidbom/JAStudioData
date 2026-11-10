@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a10c85b7a52c5a1a0d4029c6daa99cdc01387311ba23acaca46225b1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a10c85b7a52c5a1a0d4029c6daa99cdc01387311ba23acaca46225b1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "招き猫"
@@ -121,11 +129,12 @@
     "question": "電動招き猫のコンセント、\tさしっぱなしにしないでね。",
     "answer": "Don't leave the electrical Maneki Neko plugged into the outlet.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ab121256-e255-466b-937f-4d84cf7f135c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

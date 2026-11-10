@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6abb573590feb462c2110aa07cdfc59f8d944c3af69157d1067e5e8a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6abb573590feb462c2110aa07cdfc59f8d944c3af69157d1067e5e8a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "三"
@@ -93,11 +101,12 @@
     "question": "このキッチンには三タイプあります。",
     "answer": "There are three types of this kitchen model.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c7037514-92f8-4536-b6e4-b878457f1e95",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

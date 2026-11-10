@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ece7031c69f40a89f16fcfdb206c4ed0f1f48517624cd3c21a5d7904.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ece7031c69f40a89f16fcfdb206c4ed0f1f48517624cd3c21a5d7904.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "六"
@@ -121,11 +129,12 @@
     "question": "このレストランには六タイプのソースがあります。",
     "answer": "This restaurant has six types of sauce.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b75bfe5f-dbdb-41bb-854c-5beea3352645",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

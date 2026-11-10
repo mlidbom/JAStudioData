@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9b794cbd52fe134f3e6d455fd2e31c8c069ec3d3fd6d81f085f04e35.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9b794cbd52fe134f3e6d455fd2e31c8c069ec3d3fd6d81f085f04e35.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "地区"
@@ -93,11 +101,12 @@
     "question": "この地区はファミリー向けで住みやすいです。",
     "answer": "This district is family oriented and easy to live in.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "405fab4c-7374-4406-9098-3d5235edd2b3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

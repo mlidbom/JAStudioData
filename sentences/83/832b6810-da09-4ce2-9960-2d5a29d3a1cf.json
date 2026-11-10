@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5dce0276448d815b4f012417fb5c707ca4f6feccb62127b4f104c330.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5dce0276448d815b4f012417fb5c707ca4f6feccb62127b4f104c330.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "禁止"
@@ -114,11 +122,12 @@
     "question": "このアパート、たしかペットは禁止だったはずですよ。",
     "answer": "I believe pets are not allowed in this apartment.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "832b6810-da09-4ce2-9960-2d5a29d3a1cf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

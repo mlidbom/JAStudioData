@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8fa3211b42547d5f8be9d038516d65a1fdf046d69e0af12e4adb9c42.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8fa3211b42547d5f8be9d038516d65a1fdf046d69e0af12e4adb9c42.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "〜付き"
@@ -72,11 +80,12 @@
     "question": "このスプーンはケース付きですよ。",
     "answer": "These spoons come with a case.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "eb2a3726-574e-4ef9-905e-783aa093451e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

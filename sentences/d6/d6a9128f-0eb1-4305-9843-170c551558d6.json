@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-948e4b64b3624b06451636d9eaac2a4c071f4772a2f309bb83e4ef90.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-948e4b64b3624b06451636d9eaac2a4c071f4772a2f309bb83e4ef90.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "猫舌"
@@ -135,11 +143,12 @@
     "question": "コウイチは猫舌なので、いつもフーフーしてスープを食べます。",
     "answer": "Koichi has a sensitive tongue, so he always blows on his soup before eating it.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d6a9128f-0eb1-4305-9843-170c551558d6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-694eff2953d83c4d78f67e6417294b812dc2a81625197facc57e0c8b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-694eff2953d83c4d78f67e6417294b812dc2a81625197facc57e0c8b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "森"
@@ -170,11 +178,12 @@
     "question": "森が見える場所に家を作りたいと思っています。",
     "answer": "I want to build a house where you can see the forest.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "951a0131-62fe-4e98-b07f-aece18b80c48",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fde3d8b45ed034ba55119b007b583d26a5f51be0fdc75a802a2e55a4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fde3d8b45ed034ba55119b007b583d26a5f51be0fdc75a802a2e55a4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "防犯"
@@ -212,11 +220,12 @@
     "question": "その防犯カメラを分解検査してもらわないといけません。",
     "answer": "We need to have that security camera taken apart and inspected.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "42a56b7b-cf77-4015-8715-974f709b2327",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

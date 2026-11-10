@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9e13df7f2ad3f84557180a0e90e4cd3ca73b92b2170aa5c1f3acbd40.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9e13df7f2ad3f84557180a0e90e4cd3ca73b92b2170aa5c1f3acbd40.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "居間"
@@ -219,11 +227,12 @@
     "question": "「ごはんできたよー！」と言っても、だれも居間から動こうとしなかった。",
     "answer": "Even when I said, \"Dinner is ready!\" nobody wanted to move from the sitting room.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b18d84ce-ab06-4235-a50e-276fcb15304d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

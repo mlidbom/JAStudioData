@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cd45a49cdf2f7af138f82b9f951ad3e16e4d50534217264e37f5c069.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cd45a49cdf2f7af138f82b9f951ad3e16e4d50534217264e37f5c069.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "卸値"
@@ -149,11 +157,12 @@
     "question": "それは卸値で購入することができたんです。",
     "answer": "I was able to buy it at wholesale price.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8647ec15-6b0d-4962-8715-cce63bb79425",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

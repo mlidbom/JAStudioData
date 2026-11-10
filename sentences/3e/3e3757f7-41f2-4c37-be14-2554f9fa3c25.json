@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f62d19e403eef17ddbf90e2dce973603d3d70d9b4d520ee96249374b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f62d19e403eef17ddbf90e2dce973603d3d70d9b4d520ee96249374b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "天候"
@@ -79,11 +87,12 @@
     "question": "当日は、天候に恵まれました。",
     "answer": "The weather was favorable on that day.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3e3757f7-41f2-4c37-be14-2554f9fa3c25",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

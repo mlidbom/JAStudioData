@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f9e92081704e005df680f2458fcaf4573d8df529161aeb49e623f438.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f9e92081704e005df680f2458fcaf4573d8df529161aeb49e623f438.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "英訳"
@@ -121,11 +129,12 @@
     "question": "日本語から英訳することしかできません。",
     "answer": "All I can do is to translate from Japanese to English.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "71fe9912-8850-4bca-bf32-005c6ca8fd7a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

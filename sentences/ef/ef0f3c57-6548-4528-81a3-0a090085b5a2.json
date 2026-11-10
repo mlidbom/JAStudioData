@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-48569f8596f2f74d43fb5619489f3d6e43f2ecb19286bdc69d18b173.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-48569f8596f2f74d43fb5619489f3d6e43f2ecb19286bdc69d18b173.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "地理"
@@ -121,11 +129,12 @@
     "question": "地理を学ぶために大学へ行きました。",
     "answer": "I went to college to learn geography.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ef0f3c57-6548-4528-81a3-0a090085b5a2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

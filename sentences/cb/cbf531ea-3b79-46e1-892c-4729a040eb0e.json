@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6e2c5fe6a49314113ae2bf6b5cfc2a1c2cee610ceedf0db826039de9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6e2c5fe6a49314113ae2bf6b5cfc2a1c2cee610ceedf0db826039de9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "少佐"
@@ -170,11 +178,12 @@
     "question": "その少佐は、大佐に飲み物を奢ると言ってきかなかった。",
     "answer": "The lieutenant insisted on buying the colonel a drink.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cbf531ea-3b79-46e1-892c-4729a040eb0e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

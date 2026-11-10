@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-afc9034600e628fb2b1498bfa6bdbfdc8c251daa4eba7cb9f1794e74.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-afc9034600e628fb2b1498bfa6bdbfdc8c251daa4eba7cb9f1794e74.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "借り手"
@@ -135,11 +143,12 @@
     "question": "借り手は、銀行の金利が上がってほしくありません。",
     "answer": "Borrowers do not want bank interest rates to rise.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d951a6a5-e045-4eff-a2e2-e17e83a49fce",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

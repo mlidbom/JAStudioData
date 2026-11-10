@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-995f573843e8e5a5ae17f511af9b5ef7a195983cd6026dd11572f7e3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-995f573843e8e5a5ae17f511af9b5ef7a195983cd6026dd11572f7e3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "昼休み"
@@ -100,11 +108,12 @@
     "question": "昼休みにはいつも外でランチを食べます。",
     "answer": "I always eat lunch outside during lunch break.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2f875dc7-a562-4171-8704-dc35e729d4ea",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

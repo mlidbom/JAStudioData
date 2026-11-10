@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ff71ef6c2a735e30d905b18b6dbfce9fa12f0bda1d3660f444239196.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ff71ef6c2a735e30d905b18b6dbfce9fa12f0bda1d3660f444239196.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "骨折"
@@ -212,11 +220,12 @@
     "question": "最近どうしてるの？私は足の小指を骨折した以外は、いつも通りだよ。",
     "answer": "How have you been lately? I'm doing fine as usual, except for fracturing my pinky toe.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0848ceb1-9a09-4f40-b53c-805ae24476ea",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

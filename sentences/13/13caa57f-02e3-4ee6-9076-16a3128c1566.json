@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f3a163c6e89e3da7650dfb3ce66d3372080a9416dc5d4bca8d2f5797.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f3a163c6e89e3da7650dfb3ce66d3372080a9416dc5d4bca8d2f5797.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "食堂"
@@ -156,11 +164,12 @@
     "question": "私の家の近くには、食堂がいくつかあります。",
     "answer": "There are several eateries near my house.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "13caa57f-02e3-4ee6-9076-16a3128c1566",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

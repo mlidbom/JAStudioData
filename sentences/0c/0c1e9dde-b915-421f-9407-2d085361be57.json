@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d9d76ff3aaa76dc8e1dda8eee274fa54b34996a282501945527305b8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d9d76ff3aaa76dc8e1dda8eee274fa54b34996a282501945527305b8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "従業"
@@ -184,11 +192,12 @@
     "question": "ここの従業員たちは、大阪支店の従業員たちより楽観的なようだ。",
     "answer": "Employees here seem to be more optimistic than their Osaka-branch counterparts.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0c1e9dde-b915-421f-9407-2d085361be57",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

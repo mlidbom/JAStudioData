@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ab9b39428ff2f88180d9bbb3de548e2ae14cd6a941ac09c7ef0f83cc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ab9b39428ff2f88180d9bbb3de548e2ae14cd6a941ac09c7ef0f83cc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "虫歯"
@@ -65,11 +73,12 @@
     "question": "虫歯は予防が大切です。",
     "answer": "Prevention is the key to tooth decay.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7a0a2f6a-bba1-4afd-b894-ba3172f8a7d1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

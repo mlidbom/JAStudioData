@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f63f8ab5fb865e7b18f21fd6d9feeeb7dd69d27c892e443e76958f61.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f63f8ab5fb865e7b18f21fd6d9feeeb7dd69d27c892e443e76958f61.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "別に"
@@ -135,11 +143,12 @@
     "question": "「お母さん元気にしてる？」「うん。別に変わりないよ。」",
     "answer": "\"Is your mother doing okay?\" \"Yeah. Nothing's changed in particular.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e2fba8a2-50ad-45bd-a6e9-4da0ad2c66b8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

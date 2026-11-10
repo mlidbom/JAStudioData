@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9f5969dcf8b4a2fc32918f4852a7446f47f028331c33a76ff427d3f4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9f5969dcf8b4a2fc32918f4852a7446f47f028331c33a76ff427d3f4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "酢の物"
@@ -177,11 +185,12 @@
     "question": "大人になったら酢の物が好きになりました。",
     "answer": "She came to like pickled food as she grew up.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "293f734d-293f-498a-8fb2-d00186f7f13f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

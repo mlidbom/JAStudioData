@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-af6d65d88cf42014355ce442ec3e2e42b1f1b95cec466ded07401758.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-af6d65d88cf42014355ce442ec3e2e42b1f1b95cec466ded07401758.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "集中する"
@@ -107,11 +115,12 @@
     "question": "クラスが終わるまで集中して！",
     "answer": "Focus until class is over!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7a1c76ad-00ca-48ab-8ffb-45a13fb27d48",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

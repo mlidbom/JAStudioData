@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f77b0ab4a5b080ff5f97612d5a949fa248aaca6b5d568f5492ae3527.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f77b0ab4a5b080ff5f97612d5a949fa248aaca6b5d568f5492ae3527.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一"
@@ -79,11 +87,12 @@
     "question": "このレモン、一キログラム！？大きいですね！",
     "answer": "This lemon weighs a kilogram!? That's big!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d55a990d-a02e-4a6f-ab76-737a5b20555a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

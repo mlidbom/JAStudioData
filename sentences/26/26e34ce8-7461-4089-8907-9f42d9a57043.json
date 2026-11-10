@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b8fd217ce889a75eef2c579ecfcb2dfc11206e2806ae66b150efb535.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b8fd217ce889a75eef2c579ecfcb2dfc11206e2806ae66b150efb535.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "邦人"
@@ -156,11 +164,12 @@
     "question": "アメリカには在留邦人はどのくらいいるんですか。",
     "answer": "How many Japanese residents are there in the United States?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "26e34ce8-7461-4089-8907-9f42d9a57043",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

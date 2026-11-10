@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3796dfd5695d77c2e7c5fed17bb25a461ef4170b946b216fcfbf9b56.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3796dfd5695d77c2e7c5fed17bb25a461ef4170b946b216fcfbf9b56.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "息子"
@@ -51,11 +59,12 @@
     "question": "息子は元気です。",
     "answer": "My son is doing well.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "10e9f229-fd49-48f2-9da4-ef0c9de8fbfa",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2e4e93c7dc13488bab22f55684885eab61dc2676076fbd35d90ecc34.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2e4e93c7dc13488bab22f55684885eab61dc2676076fbd35d90ecc34.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "雰囲気"
@@ -86,11 +94,12 @@
     "question": "オフィスの雰囲気はどんな感じですか？",
     "answer": "What's the atmosphere like in the office?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d7d2509b-f86a-4e8d-9561-93941363f75d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

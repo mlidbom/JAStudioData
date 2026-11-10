@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-622486abbb5ec639854a77f27ed619a73bc22a9579ab6e14ad8ce23b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-622486abbb5ec639854a77f27ed619a73bc22a9579ab6e14ad8ce23b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -105,11 +113,12 @@
     "question": "やばっ、残額、五百円もないわ。",
     "answer": "Oh no, the remaining amount is less than 500 yen.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3c4ff586-f1ab-4a35-b0ee-bddacf7be64f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

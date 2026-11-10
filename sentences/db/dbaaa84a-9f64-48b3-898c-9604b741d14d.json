@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-894e1729d299bb8d2653113a2eebeb12c163f7ef884adbd3991f39b0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-894e1729d299bb8d2653113a2eebeb12c163f7ef884adbd3991f39b0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "兵士"
@@ -149,11 +157,12 @@
     "question": "兵士の目は無言で私にそのことを伝えた。",
     "answer": "The soldier's eyes silently informed me of this.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dbaaa84a-9f64-48b3-898c-9604b741d14d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

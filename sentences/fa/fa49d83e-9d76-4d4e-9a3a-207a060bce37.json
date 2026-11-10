@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e1d922d51ff2cb9efb7a48b86f42b69598ae4be10c593a93099d547f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e1d922d51ff2cb9efb7a48b86f42b69598ae4be10c593a93099d547f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "塚"
@@ -100,11 +108,12 @@
     "question": "塚を見下ろすことのは失礼です。",
     "answer": "It’s rude to look down at a burial mound.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fa49d83e-9d76-4d4e-9a3a-207a060bce37",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

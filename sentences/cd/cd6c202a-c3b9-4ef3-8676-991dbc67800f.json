@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6cc551d1b4ce67e3654d004f80192661921c091faa285f8b3973ee6b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6cc551d1b4ce67e3654d004f80192661921c091faa285f8b3973ee6b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "献血"
@@ -156,11 +164,12 @@
     "question": "車が移動献血車に衝突するのを見ました。",
     "answer": "I saw a car bump into the mobile blood bank van.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cd6c202a-c3b9-4ef3-8676-991dbc67800f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

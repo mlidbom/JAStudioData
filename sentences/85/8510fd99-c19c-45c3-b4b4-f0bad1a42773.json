@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cceea11152776b8f9e579a34188306b79ba9f90726507aada3e9187a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cceea11152776b8f9e579a34188306b79ba9f90726507aada3e9187a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "死亡"
@@ -170,11 +178,12 @@
     "question": "今回のフライトで、死亡した人はいませんでした。",
     "answer": "No one died in this flight.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8510fd99-c19c-45c3-b4b4-f0bad1a42773",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

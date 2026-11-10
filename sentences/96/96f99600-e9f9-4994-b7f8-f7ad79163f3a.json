@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c388a89a9e3e1916bc50cca92dc2e15e35f445ff13a3615d0d5f9780.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c388a89a9e3e1916bc50cca92dc2e15e35f445ff13a3615d0d5f9780.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "輸入する"
@@ -149,11 +157,12 @@
     "question": "日本は色んな国から食料を輸入しています。",
     "answer": "Japan imports foods from various countries.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "96f99600-e9f9-4994-b7f8-f7ad79163f3a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

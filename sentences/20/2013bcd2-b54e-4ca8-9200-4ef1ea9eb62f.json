@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0e20354cb1f26c1605db2c2227814c2ea7aaddcb7f75141481a2dcff.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0e20354cb1f26c1605db2c2227814c2ea7aaddcb7f75141481a2dcff.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "段々"
@@ -135,11 +143,12 @@
     "question": "山田さん、そこ段々になってるから気をつけて！",
     "answer": "Mr. Yamada, be careful, the ground is stepped there!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2013bcd2-b54e-4ca8-9200-4ef1ea9eb62f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

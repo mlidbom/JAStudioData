@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-96a74ac01bbabf86f58e11b9e715a00309eadafbfe9757108d001f3c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-96a74ac01bbabf86f58e11b9e715a00309eadafbfe9757108d001f3c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "参加者"
@@ -184,11 +192,12 @@
     "question": "ある参加者が会議を混乱させてしまってね。さんざんだったよ。",
     "answer": "Thanks to one participant, the meeting was thrown into chaos. It was a disaster.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "857edf6d-3d2b-4036-a88f-40e1169c80cc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

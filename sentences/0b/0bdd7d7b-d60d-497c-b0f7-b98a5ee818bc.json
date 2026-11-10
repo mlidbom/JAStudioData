@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ad9413f6a44d1a8c69b88770d28be7e29d47db2694c78f297db1dd17.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ad9413f6a44d1a8c69b88770d28be7e29d47db2694c78f297db1dd17.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "意外"
@@ -128,11 +136,12 @@
     "question": "あなた弟と妹がいるの？意外だね。",
     "answer": "Oh, you have a brother and a sister. That's unexpected.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0bdd7d7b-d60d-497c-b0f7-b98a5ee818bc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

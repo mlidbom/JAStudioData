@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-780d12d7b87d43d6f79a33a2756abebc65b75380e4b1a825fdc1e1ae.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-780d12d7b87d43d6f79a33a2756abebc65b75380e4b1a825fdc1e1ae.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "書き入れる"
@@ -205,11 +213,12 @@
     "question": "この書類のここに社会保証番号を書き入れてもらえれば、あとは全て上手くやっておきますよ。",
     "answer": "If you could fill in your social security number here in this document, I can take care the rest.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "637b286c-7a43-426a-9f2d-152f27f69d06",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

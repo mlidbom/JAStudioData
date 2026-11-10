@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b8c2c608213c0b0d3f51583576d9d6926637ffdbf798cf5b04119578.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b8c2c608213c0b0d3f51583576d9d6926637ffdbf798cf5b04119578.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "執行猶予"
@@ -198,11 +206,12 @@
     "question": "あいつは執行猶予期間中に他の刑事事件を起こしたんだよ。",
     "answer": "That guy caused other criminal cases during his suspended sentence.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a6078615-07f5-4b36-8dbb-3405c6c502f8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

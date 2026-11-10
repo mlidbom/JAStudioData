@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2aceeb72c0bc7be12cbb40b7ea64586de495c9bf4780f03301c7898a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2aceeb72c0bc7be12cbb40b7ea64586de495c9bf4780f03301c7898a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "落書き"
@@ -240,11 +248,12 @@
     "question": "新宿駅の地下道には、昔、たくさんの落書きがしてありましたが、今はほとんど見当たりません。",
     "answer": "There used to be lot of graffiti along the underground passages at Shinjuku Station a long time ago, but we rarely see them now.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fa10cc02-6352-41b6-bc32-35e62644cbb3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6b8718b7469e7efa4a709d0181f1bfbccffe223de8e6970a62e41666.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6b8718b7469e7efa4a709d0181f1bfbccffe223de8e6970a62e41666.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "証人"
@@ -72,11 +80,12 @@
     "question": "彼はエホバの証人です。",
     "answer": "He is a Jehovah's Witness.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fa322168-804e-47a8-9a58-50b08a17aaa3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

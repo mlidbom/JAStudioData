@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2ea7e1b7f862dfe4522c1f04113674447a9e030e68b948fb8ca30d31.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2ea7e1b7f862dfe4522c1f04113674447a9e030e68b948fb8ca30d31.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "決"
@@ -93,11 +101,12 @@
     "question": "なかなか決が出ないみたいだね。",
     "answer": "It seems that it's taking a while to make a decision, right?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "263fa4e5-edf3-4980-a829-c35c11a9661b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

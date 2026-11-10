@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-68809245d2d0b32fbadcbcc8f48f7b227db49ef5d76e41b1ce20114f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-68809245d2d0b32fbadcbcc8f48f7b227db49ef5d76e41b1ce20114f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "吾輩"
@@ -114,11 +122,12 @@
     "question": "吾輩は猫である。名前はまだ無い。",
     "answer": "I am a cat. I have, as yet, no name.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ce262794-836b-4414-838b-e164c0a95733",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

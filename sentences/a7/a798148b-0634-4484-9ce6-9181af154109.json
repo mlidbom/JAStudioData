@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7f13f9730937c047c432e516af84ddb5720c00726d8745d133828ba1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7f13f9730937c047c432e516af84ddb5720c00726d8745d133828ba1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "口癖"
@@ -156,11 +164,12 @@
     "question": "「何々が旬の季節です」ってあのシェフの口癖だよね。",
     "answer": "That chef’s catchphrase is, \"Such and such is in season.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a798148b-0634-4484-9ce6-9181af154109",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

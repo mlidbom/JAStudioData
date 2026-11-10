@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-22997e2b7abfa08cdcdb7d4d36e44774c9633b8f8e5c9dc6d0272cf5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-22997e2b7abfa08cdcdb7d4d36e44774c9633b8f8e5c9dc6d0272cf5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "検査"
@@ -79,11 +87,12 @@
     "question": "病院で検査を受けました。",
     "answer": "I received a checkup at the hospital.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0f839386-99be-4d7e-b9e7-ee95a824a691",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

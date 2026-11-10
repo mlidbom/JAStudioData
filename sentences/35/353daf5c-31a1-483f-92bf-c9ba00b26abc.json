@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a4e8fc8f50b4f097804049eea6164645167486d9ef30cb187395e0ba.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a4e8fc8f50b4f097804049eea6164645167486d9ef30cb187395e0ba.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "泣き声"
@@ -303,11 +311,12 @@
     "question": "小さい子の泣き声にイライラするなら、大人だったら自分でヘッドフォンしてノイズキャンセルすれば良いのにって思う。",
     "answer": "If you get irritated by the crying of small children, as an adult, you could just wear headphones with noise cancellation, I think.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "353daf5c-31a1-483f-92bf-c9ba00b26abc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

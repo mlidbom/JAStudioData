@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6bc43886f4276bf65a1ace0b87fec9e9a769ac589621041b6549efb8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6bc43886f4276bf65a1ace0b87fec9e9a769ac589621041b6549efb8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "減らす"
@@ -121,11 +129,12 @@
     "question": "先生に宿題をちょっとだけ減らしてもらいました。",
     "answer": "I had my teacher decrease the number of homework assignments I was given.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "550882a1-7f3a-4757-9927-c02285449f39",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

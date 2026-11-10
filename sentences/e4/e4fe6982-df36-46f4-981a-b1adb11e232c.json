@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f0e7613f05fb41b0e5b3654a4e259416a54c64ed0c67e8d85de7c59c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f0e7613f05fb41b0e5b3654a4e259416a54c64ed0c67e8d85de7c59c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "確認する"
@@ -170,11 +178,12 @@
     "question": "警察には、情報をリアルタイムで確認するシステムがある。",
     "answer": "The police have a system to verify information in real time.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e4fe6982-df36-46f4-981a-b1adb11e232c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7ee1c8bab86d2c1e103cf7a245de97f365e35c14bb3be28a320fa1fd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7ee1c8bab86d2c1e103cf7a245de97f365e35c14bb3be28a320fa1fd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大規模"
@@ -184,11 +192,12 @@
     "question": "今度のプロジェクトは、かなり大規模なものになる予定だよ。",
     "answer": "The upcoming project is expected to be quite large in scale.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "56c3625e-880b-4363-982f-68118a759941",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

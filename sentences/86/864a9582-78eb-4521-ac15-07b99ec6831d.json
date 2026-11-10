@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-02a6cc808e21a1ddf1249c816f0d4709c9b3f486e12f437ee851d386.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-02a6cc808e21a1ddf1249c816f0d4709c9b3f486e12f437ee851d386.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "閉じる"
@@ -114,11 +122,12 @@
     "question": "あ！シオリをはさむ前にページを閉じちゃった。",
     "answer": "Whoops! I closed the book before putting in the bookmark.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "864a9582-78eb-4521-ac15-07b99ec6831d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

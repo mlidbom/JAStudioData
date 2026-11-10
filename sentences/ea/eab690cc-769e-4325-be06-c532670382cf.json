@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bedbe8ce82ac4e7f571b952794bbcc0c3203effe35a69442e1521ebc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bedbe8ce82ac4e7f571b952794bbcc0c3203effe35a69442e1521ebc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "訓読み"
@@ -107,11 +115,12 @@
     "question": "漢字には音読みと訓読みがあります。",
     "answer": "Kanji characters have both on reading and kun reading.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "eab690cc-769e-4325-be06-c532670382cf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

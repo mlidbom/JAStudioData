@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-97daf1f63e05a6d5df73f71a94881c26f518ba04783ca8a191698454.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-97daf1f63e05a6d5df73f71a94881c26f518ba04783ca8a191698454.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "疎か"
@@ -189,11 +197,12 @@
     "question": "基本を疎かにしてはいけません。",
     "answer": "You must not neglect the basics.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c37244fb-7d0c-4daf-99c0-a895ba2430d1",
   "tags": [
-    "_tts_audio",
     "-::sentence::uses::incorrect-matches",
     "source::wani::current"
   ]

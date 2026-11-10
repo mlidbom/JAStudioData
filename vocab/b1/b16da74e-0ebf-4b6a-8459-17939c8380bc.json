@@ -32,9 +32,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-93fde6eda5f7d152ba05416a787fcd63aae4afc1c79eb41cd262265a.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-93fde6eda5f7d152ba05416a787fcd63aae4afc1c79eb41cd262265a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "見ての通り",
@@ -44,8 +50,7 @@
   "sentenceCount": 1,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -69,7 +74,9 @@
   "sourceData": {
     "answer": "as-you-see/as-you-can-see",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "b16da74e-0ebf-4b6a-8459-17939c8380bc",
   "tags": [

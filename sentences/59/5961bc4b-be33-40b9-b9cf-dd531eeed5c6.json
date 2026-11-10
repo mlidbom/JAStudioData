@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-778aec6bab3bd6b9ffe4b553b338042acd88b171fb0e34f69632698d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-778aec6bab3bd6b9ffe4b553b338042acd88b171fb0e34f69632698d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "航法"
@@ -121,11 +129,12 @@
     "question": "どこで空中航法を学んだんですか。",
     "answer": "Where did you learn aerial navigation?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5961bc4b-be33-40b9-b9cf-dd531eeed5c6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

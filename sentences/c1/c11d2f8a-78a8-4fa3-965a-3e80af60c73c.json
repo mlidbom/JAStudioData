@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6cf708f332433ab695d280d22c22dec4b81e4f4e6edfa8da44bdbbb6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6cf708f332433ab695d280d22c22dec4b81e4f4e6edfa8da44bdbbb6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大幅"
@@ -128,11 +136,12 @@
     "question": "会議の資料が大幅に変更されました。",
     "answer": "The meeting’s documents were largely changed.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c11d2f8a-78a8-4fa3-965a-3e80af60c73c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

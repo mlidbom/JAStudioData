@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c2334419b9b5c96103bded29866a3190f5ed0fc8285ce2de71256f96.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c2334419b9b5c96103bded29866a3190f5ed0fc8285ce2de71256f96.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "刺身"
@@ -93,11 +101,12 @@
     "question": "イカの刺身を一人前下さい。",
     "answer": "Please give me squid sashimi for one.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dc2f94bc-ab03-4eba-b928-4090150fc1d0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

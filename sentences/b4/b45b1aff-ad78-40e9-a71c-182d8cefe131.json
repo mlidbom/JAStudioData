@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e2970dbfab5018ad4aa743db6fbb63990fed02b98aff3c8687d40348.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e2970dbfab5018ad4aa743db6fbb63990fed02b98aff3c8687d40348.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "数学"
@@ -86,11 +94,12 @@
     "question": "その数学の答えは正しいですか？",
     "answer": "Are the math answers correct?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b45b1aff-ad78-40e9-a71c-182d8cefe131",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

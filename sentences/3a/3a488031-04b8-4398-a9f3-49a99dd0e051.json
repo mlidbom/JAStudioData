@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-99de6493c2d006faa23ea7f31c91013a087163edbabc5032d78c5ccb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-99de6493c2d006faa23ea7f31c91013a087163edbabc5032d78c5ccb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "欠乏"
@@ -184,11 +192,12 @@
     "question": "ビタミンDが欠乏しているかどうかはどうすれば分かりますか。",
     "answer": "How can I know if I’m deficient in Vitamin D?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3a488031-04b8-4398-a9f3-49a99dd0e051",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

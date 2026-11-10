@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8c5a7f37894ffd650ec6a7481bf452b0d0d6ea7b7e9983ca5df2ce24.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8c5a7f37894ffd650ec6a7481bf452b0d0d6ea7b7e9983ca5df2ce24.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -105,11 +113,12 @@
     "question": "ボリュームをもう少し大きくして下さい。",
     "answer": "Turn up the volume a little more, please.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bc8167ac-775c-4d56-b134-1644324f3c58",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

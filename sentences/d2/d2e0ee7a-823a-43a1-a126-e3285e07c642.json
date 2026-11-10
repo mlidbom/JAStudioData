@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f73a74a4862b0491a238114e2f3078678382e8e378a9fac260e39a35.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f73a74a4862b0491a238114e2f3078678382e8e378a9fac260e39a35.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -91,11 +99,12 @@
     "question": "このドレスは五千円でした。",
     "answer": "This dress was 5,000 yen.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d2e0ee7a-823a-43a1-a126-e3285e07c642",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

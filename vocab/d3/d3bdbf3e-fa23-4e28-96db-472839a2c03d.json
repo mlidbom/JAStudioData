@@ -32,9 +32,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-da008cdc8a798732c9da2a408900b7202cfdbaff54a009ca8692fec2.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-da008cdc8a798732c9da2a408900b7202cfdbaff54a009ca8692fec2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "眼を飛ばす",
@@ -44,8 +50,7 @@
   "sentenceCount": 1,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -69,7 +74,9 @@
   "sourceData": {
     "answer": "to{?}{stare-(at)/glare}",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "d3bdbf3e-fa23-4e28-96db-472839a2c03d",
   "tags": [

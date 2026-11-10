@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f04a8efc200edefc389ea26a1550804cfc25d2c92d3634645922c74d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f04a8efc200edefc389ea26a1550804cfc25d2c92d3634645922c74d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "隔てる"
@@ -233,11 +241,12 @@
     "question": "私のアパートでは、浴槽と洗面所はシャワーカーテン一枚で隔てられています。",
     "answer": "In my apartment, the bathtub and the washroom are separated by a single shower curtain.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6d457b5f-e307-42cc-b0f5-797ebb123e93",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-20abc7620c5cfdb02ed19db3266f0ad767292a61f69256cf3d3ef4d8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-20abc7620c5cfdb02ed19db3266f0ad767292a61f69256cf3d3ef4d8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "芝生"
@@ -233,11 +241,12 @@
     "question": "この公園では、芝生の上を歩くのは禁止されています。",
     "answer": "Walking on the lawn in this park is prohibited. ",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e8fff128-9e94-494e-a616-5c0e27c66254",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

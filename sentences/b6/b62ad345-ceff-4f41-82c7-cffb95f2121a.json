@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7c56530fc1ee8d53ecd7d78c940d72b9e127bc0d790c92ab7e874b93.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7c56530fc1ee8d53ecd7d78c940d72b9e127bc0d790c92ab7e874b93.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "生まれ"
@@ -44,11 +52,12 @@
     "question": "フランス生まれです。",
     "answer": "I was born in France.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b62ad345-ceff-4f41-82c7-cffb95f2121a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

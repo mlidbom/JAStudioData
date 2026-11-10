@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-077c34d7ee93ca310bdf0d000658b31c8ccaf0d8efc27fd97ea70027.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-077c34d7ee93ca310bdf0d000658b31c8ccaf0d8efc27fd97ea70027.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "誠に"
@@ -86,11 +94,12 @@
     "question": "誠に申し訳ございません。",
     "answer": "I sincerely apologize.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "16241a1b-fe22-4fc1-bf08-9d3487276753",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

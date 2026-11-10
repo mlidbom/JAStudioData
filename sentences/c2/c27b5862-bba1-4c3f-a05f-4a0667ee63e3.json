@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5bcc27e6a37dd2508fb4c3a0d76263be85a11c0764a60eddf2a31c0e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5bcc27e6a37dd2508fb4c3a0d76263be85a11c0764a60eddf2a31c0e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "吸う"
@@ -212,11 +220,12 @@
     "question": "これを最後に、きっぱりとタバコを吸うのを止めるつもりなんだ。",
     "answer": "After this one, I’m going to quit smoking once and for all.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c27b5862-bba1-4c3f-a05f-4a0667ee63e3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-354642ec43d579b4fe3dfe5f30dfd4ea48a50e00892223ef53aabb20.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-354642ec43d579b4fe3dfe5f30dfd4ea48a50e00892223ef53aabb20.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "給油所"
@@ -163,11 +171,12 @@
     "question": "この給油所ではどのくらい働いているんですか？",
     "answer": "How long have you worked at this gas station?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8da7647e-a243-4d84-9522-ed0dd1809baa",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

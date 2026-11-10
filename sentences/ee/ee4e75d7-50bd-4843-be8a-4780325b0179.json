@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a16697114778a24b9f2b4f8f688fbb2bb62ba369177e9ea2bb0d7520.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a16697114778a24b9f2b4f8f688fbb2bb62ba369177e9ea2bb0d7520.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "酒好き"
@@ -86,11 +94,12 @@
     "question": "私の彼氏は酒好きです。",
     "answer": "My boyfriend is a drinker.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ee4e75d7-50bd-4843-be8a-4780325b0179",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

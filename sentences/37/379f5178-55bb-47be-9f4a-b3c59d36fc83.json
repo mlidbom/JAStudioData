@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0c15419236575c597230bfb632996c1245bc3f6379de0f732b2ef4ab.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0c15419236575c597230bfb632996c1245bc3f6379de0f732b2ef4ab.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "病人"
@@ -184,11 +192,12 @@
     "question": "病人には早くよくなってほしいですが、やっぱり近づかないでほしいです。",
     "answer": "I want the patients to feel better soon, but still I don't want them to come near me.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "379f5178-55bb-47be-9f4a-b3c59d36fc83",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

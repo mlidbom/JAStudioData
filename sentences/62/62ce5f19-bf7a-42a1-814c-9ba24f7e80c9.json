@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-882b5d325b998557d65f63b7bcaca5b5047005eaa1aeb3382b3b5a33.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-882b5d325b998557d65f63b7bcaca5b5047005eaa1aeb3382b3b5a33.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鎮圧"
@@ -142,11 +150,12 @@
     "question": "警察が三日がかりでデモ隊を鎮圧しました。",
     "answer": "The police suppressed the demonstrators by the third day.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "62ce5f19-bf7a-42a1-814c-9ba24f7e80c9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

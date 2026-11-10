@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-97b4364a51781d51e6f36d8af2040601a3d2b1864d4cd94369482771.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-97b4364a51781d51e6f36d8af2040601a3d2b1864d4cd94369482771.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "荷札"
@@ -100,11 +108,12 @@
     "question": "荷札の書き方を教えてください。",
     "answer": "Please tell me how to write a package label.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6900c75f-f004-4152-a240-e4618c04ead0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

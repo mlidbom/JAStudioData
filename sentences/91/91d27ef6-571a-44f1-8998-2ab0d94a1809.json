@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-982e288689ee360ad9dc5268a195275aaeaed33fdd3ebb5e1ef63327.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-982e288689ee360ad9dc5268a195275aaeaed33fdd3ebb5e1ef63327.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "今"
@@ -65,11 +73,12 @@
     "question": "今、日本にいます。",
     "answer": "I'm in Japan right now.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "91d27ef6-571a-44f1-8998-2ab0d94a1809",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

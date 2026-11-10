@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8f92e400c76a09a216dc3476a8b51d9028f89d800fa6439332c67310.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8f92e400c76a09a216dc3476a8b51d9028f89d800fa6439332c67310.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "訪ねる"
@@ -191,11 +199,12 @@
     "question": "家を訪ねる前に、電話してみた方がいいよ。",
     "answer": "You should call her before visiting.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a30cd1d3-a9b3-4110-b9f0-11f3ea6d335b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

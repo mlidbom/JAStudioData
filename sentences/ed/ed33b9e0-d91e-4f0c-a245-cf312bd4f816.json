@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3cfc709e6a22157515cdf53a42cd68a003f356ef8cf6cf0eceaa37f9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3cfc709e6a22157515cdf53a42cd68a003f356ef8cf6cf0eceaa37f9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "怪物"
@@ -107,11 +115,12 @@
     "question": "怪物には友達がほとんどいなかった。",
     "answer": "The monster had very few friends.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ed33b9e0-d91e-4f0c-a245-cf312bd4f816",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

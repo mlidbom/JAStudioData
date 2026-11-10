@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-17d32d4dc808db04ad2c02628aaa1ed781adb6b9fedfd10eeb9b7891.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-17d32d4dc808db04ad2c02628aaa1ed781adb6b9fedfd10eeb9b7891.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "点"
@@ -72,11 +80,12 @@
     "question": "日本に点が入った。",
     "answer": "Japan got a score.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "826b3b73-a4d9-4a13-b523-c9a20114c042",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

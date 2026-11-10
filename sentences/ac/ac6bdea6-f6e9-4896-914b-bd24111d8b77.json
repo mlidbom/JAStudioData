@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7312347f53b5dc624d123a4c2094dfc4034a4160917bc6621b2f23ef.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7312347f53b5dc624d123a4c2094dfc4034a4160917bc6621b2f23ef.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "音訓"
@@ -121,11 +129,12 @@
     "question": "漢字の音訓の見分け方を教えてください。",
     "answer": "Please teach me how to differentiate between on'yomi and kun'yomi.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ac6bdea6-f6e9-4896-914b-bd24111d8b77",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

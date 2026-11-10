@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c400c97cc41f5b4042f374e91dee365a1d07268d3658c72d4038c15e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c400c97cc41f5b4042f374e91dee365a1d07268d3658c72d4038c15e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "払い"
@@ -205,11 +213,12 @@
     "question": "保険料は月払いよりも年払いの方がお得なの、知ってた？",
     "answer": "Did you know that paying insurance premiums annually is more economical than paying monthly?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9745e2cf-879e-4653-8052-91f864b03387",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

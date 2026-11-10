@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b73b53f0d4cdfa7dec26ede716efb6888ece711896f5de0d1c2dc245.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b73b53f0d4cdfa7dec26ede716efb6888ece711896f5de0d1c2dc245.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "恐喝"
@@ -156,11 +164,12 @@
     "question": "不倫をダシにヤクザに恐喝されています。",
     "answer": "The yakuza is using my adultery to blackmail me.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7d5abd7e-6662-418d-a52e-b86b1b346bd2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

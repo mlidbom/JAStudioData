@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ad15c3bb0e7c3bf6384c305e600787c503fc072ad2f6acf22cbe8a12.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ad15c3bb0e7c3bf6384c305e600787c503fc072ad2f6acf22cbe8a12.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "平仮名"
@@ -72,11 +80,12 @@
     "question": "平仮名は読めますか？",
     "answer": "Can you read hiragana?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a867d9f2-7516-4e3a-bf2d-25fbc1d778a4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

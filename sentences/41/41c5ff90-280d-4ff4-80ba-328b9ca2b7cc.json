@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5900bb25d2c2656b2a8af1cf265dfb2983bf14fc22944bf8046bc897.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5900bb25d2c2656b2a8af1cf265dfb2983bf14fc22944bf8046bc897.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "不自由"
@@ -142,11 +150,12 @@
     "question": "母は足が不自由なので、車を使うことが多いです。",
     "answer": "My mother has a leg disability, so she often uses a car.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "41c5ff90-280d-4ff4-80ba-328b9ca2b7cc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

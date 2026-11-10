@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-77b68f69afe94dd1c5affd9973b56226180cc882b2d5a3622bf4d348.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-77b68f69afe94dd1c5affd9973b56226180cc882b2d5a3622bf4d348.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "〜札"
@@ -107,11 +115,12 @@
     "question": "百ドル札でもいいですか？",
     "answer": "Is it okay to use a hundred dollar bill?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4563292b-1a02-4222-bed3-56b8c6e37840",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a0772d8863fc4aa63d5735babd94c9a5047e992f1352807df8267734.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a0772d8863fc4aa63d5735babd94c9a5047e992f1352807df8267734.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "傷つける"
@@ -72,11 +80,12 @@
     "question": "コンタクトレンズを傷つけちゃったかも。",
     "answer": "I might have scratched my contact lens.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1dbe635d-4f0d-4140-91bc-54cc9a37b72b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

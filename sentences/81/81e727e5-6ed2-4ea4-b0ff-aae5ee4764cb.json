@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b0e3b12db099c3f88c0ccb117ad46c7c815535c0910de5ac6577d0d4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b0e3b12db099c3f88c0ccb117ad46c7c815535c0910de5ac6577d0d4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "黄色"
@@ -163,11 +171,12 @@
     "question": "その草地には黄色の草がたくさん生えています。",
     "answer": "There are many yellow grass growing on the grassland.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "81e727e5-6ed2-4ea4-b0ff-aae5ee4764cb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

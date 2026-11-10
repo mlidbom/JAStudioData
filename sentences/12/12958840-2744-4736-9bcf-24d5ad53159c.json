@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c2a6bbe70d1d57b20a8c6ebcdc5eb96d0e10d32d0c2c1e1c01600151.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c2a6bbe70d1d57b20a8c6ebcdc5eb96d0e10d32d0c2c1e1c01600151.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "電池"
@@ -86,11 +94,12 @@
     "question": "スマホの電池が切れた。",
     "answer": "The battery of the smartphone has run out.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "12958840-2744-4736-9bcf-24d5ad53159c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

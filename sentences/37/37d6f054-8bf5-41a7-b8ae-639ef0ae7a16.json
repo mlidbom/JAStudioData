@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-85fd81cae09b7e66360d47a904154d30ab889e2805d7f5d96bed89a0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-85fd81cae09b7e66360d47a904154d30ab889e2805d7f5d96bed89a0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "信号"
@@ -93,11 +101,12 @@
     "question": "あ、あそこに信号がある。",
     "answer": "Oh, there's a traffic light over there.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "37d6f054-8bf5-41a7-b8ae-639ef0ae7a16",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

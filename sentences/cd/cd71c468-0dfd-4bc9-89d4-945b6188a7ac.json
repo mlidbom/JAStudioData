@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-47ea9b1c748d651700722eb982c83fc4df1803788718c3c42cf0e93d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-47ea9b1c748d651700722eb982c83fc4df1803788718c3c42cf0e93d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "過去形"
@@ -128,11 +136,12 @@
     "question": "この場合は過去形は使わないんですか？",
     "answer": "Don’t you use the past tense in this case?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cd71c468-0dfd-4bc9-89d4-945b6188a7ac",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

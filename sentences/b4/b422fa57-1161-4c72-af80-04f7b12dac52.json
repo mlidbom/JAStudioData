@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-76fb75c1015eb133cf88eeb88a270d85406980e5de6eeb8c97a05a60.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-76fb75c1015eb133cf88eeb88a270d85406980e5de6eeb8c97a05a60.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お兄さん"
@@ -135,11 +143,12 @@
     "question": "私のお兄さんは体が大きくて、仕草も男の子らしいです。",
     "answer": "My older brother is big and he also has a masculine demeanor.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b422fa57-1161-4c72-af80-04f7b12dac52",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

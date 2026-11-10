@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-63f5fe1ea922735e2cf60d48650d5d43ddd9074e9ce3c3e956c94648.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-63f5fe1ea922735e2cf60d48650d5d43ddd9074e9ce3c3e956c94648.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一階"
@@ -121,11 +129,12 @@
     "question": "一階にはお店がたくさんあります。",
     "answer": "There are many shops on the first floor.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6f08380c-d48d-49b3-8404-2be23485c0f8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

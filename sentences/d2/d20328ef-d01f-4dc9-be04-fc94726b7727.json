@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5462d2d1ac6278d9254f7ab0a8393e8050e737ec443f0a9675e93b30.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5462d2d1ac6278d9254f7ab0a8393e8050e737ec443f0a9675e93b30.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "直る"
@@ -86,11 +94,12 @@
     "question": "出血が止まって、足首のいたみも直った。",
     "answer": "The bleeding stopped and the pain in the ankle went away.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d20328ef-d01f-4dc9-be04-fc94726b7727",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

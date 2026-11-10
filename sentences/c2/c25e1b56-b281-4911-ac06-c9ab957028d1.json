@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-292a168a4c1888a98b50bfd6771f47b5a4ff90fac569505e5f598673.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-292a168a4c1888a98b50bfd6771f47b5a4ff90fac569505e5f598673.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "金"
@@ -86,11 +94,12 @@
     "question": "これは本当の金ですか？",
     "answer": "Is this real gold?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c25e1b56-b281-4911-ac06-c9ab957028d1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

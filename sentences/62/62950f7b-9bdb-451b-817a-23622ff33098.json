@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-95b7cc7d02b981140aee2ded0b42ebaffb99ed634df6a0b2df0b8d3b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-95b7cc7d02b981140aee2ded0b42ebaffb99ed634df6a0b2df0b8d3b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "庭"
@@ -289,11 +297,12 @@
     "question": "うちには美しい庭があるんだが、隣の人の鶏がいつも花を食べてしまうんだ。",
     "answer": "I have a beautiful garden but my neighbor’s chickens keep eating my flowers.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "62950f7b-9bdb-451b-817a-23622ff33098",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

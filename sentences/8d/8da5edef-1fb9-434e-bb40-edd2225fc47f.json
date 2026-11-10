@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7aa7a5ef7448aa0b776feb61ad9f95d07cba57907ac461aab70367f9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7aa7a5ef7448aa0b776feb61ad9f95d07cba57907ac461aab70367f9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "宮廷"
@@ -121,11 +129,12 @@
     "question": "宮廷では咳風邪が流行っています。",
     "answer": "A chest cold is going around the Imperial Court.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8da5edef-1fb9-434e-bb40-edd2225fc47f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

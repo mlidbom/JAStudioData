@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e89d7cefe78322bbc5b1fd93e23fd256a966fc6a2f60480e7324585a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e89d7cefe78322bbc5b1fd93e23fd256a966fc6a2f60480e7324585a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "留守番電話"
@@ -93,11 +101,12 @@
     "question": "留守番電話にメッセージを残しました。",
     "answer": "I left a message on the answering machine.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c5bf3359-34f6-4baa-98e9-77a90e536e6f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

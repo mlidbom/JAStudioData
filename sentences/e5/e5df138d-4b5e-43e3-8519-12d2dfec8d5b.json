@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-abd604e59f28c5723dd0248c04ab91b3c53cfeabcf6e0137fdcaceb0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-abd604e59f28c5723dd0248c04ab91b3c53cfeabcf6e0137fdcaceb0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "水深"
@@ -65,11 +73,12 @@
     "question": "ここは水深100フィートです。",
     "answer": "It's one hundred feet deep here.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e5df138d-4b5e-43e3-8519-12d2dfec8d5b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

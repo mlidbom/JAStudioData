@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8889cb3ae1a7c674ef6c04518ed30782c5fbb9a8ce7f1a6233022554.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8889cb3ae1a7c674ef6c04518ed30782c5fbb9a8ce7f1a6233022554.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "夫妻"
@@ -247,11 +255,12 @@
     "question": "知人のお医者さん夫妻から、あの薬だけはやめといた方がいいって止められたんです。",
     "answer": "A doctor couple I know advised me to avoid that particular medication.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "149a7edf-897d-4df0-9303-63efa2bb4f20",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

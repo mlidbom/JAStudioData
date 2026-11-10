@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bd9b257757ad37612646be9aacfe3b4b15cdf1c8bd7f0a7119685231.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bd9b257757ad37612646be9aacfe3b4b15cdf1c8bd7f0a7119685231.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "注意"
@@ -149,11 +157,12 @@
     "question": "ランニングに行く時は車に注意してね。",
     "answer": "Be careful of cars when you go for a run.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "72d935c8-a65b-40b2-8f9e-31d32313dcca",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

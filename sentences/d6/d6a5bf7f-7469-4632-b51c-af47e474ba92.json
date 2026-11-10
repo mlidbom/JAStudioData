@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f2c4879dd2bc690d0b94e1ec58d5303406cc74ac4546910dba3f9aca.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f2c4879dd2bc690d0b94e1ec58d5303406cc74ac4546910dba3f9aca.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "偏り"
@@ -135,11 +143,12 @@
     "question": "あなたって、考え方にすごく偏りがあるよね。",
     "answer": "Your way of thinking is really biased, isn't it?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d6a5bf7f-7469-4632-b51c-af47e474ba92",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

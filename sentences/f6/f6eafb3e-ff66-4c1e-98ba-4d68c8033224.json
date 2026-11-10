@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-74056a76bc9b4a307f0f7836c3f84e8d6c28970f049ae4e9d2b30dcc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-74056a76bc9b4a307f0f7836c3f84e8d6c28970f049ae4e9d2b30dcc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "兵員"
@@ -156,11 +164,12 @@
     "question": "もうあの国には、兵員はほとんど残っていません。",
     "answer": "There are hardly any military personnel left in that country anymore.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f6eafb3e-ff66-4c1e-98ba-4d68c8033224",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

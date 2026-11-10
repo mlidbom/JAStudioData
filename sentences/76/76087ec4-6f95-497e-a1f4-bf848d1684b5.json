@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b9b2332bbe6b3323eaa7e59d1e93097bce81cc8ad15d9f8fe634e535.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b9b2332bbe6b3323eaa7e59d1e93097bce81cc8ad15d9f8fe634e535.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "頁"
@@ -86,11 +94,12 @@
     "question": "この漫画は全頁フルカラーです。",
     "answer": "This manga is fully colored on all pages.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "76087ec4-6f95-497e-a1f4-bf848d1684b5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

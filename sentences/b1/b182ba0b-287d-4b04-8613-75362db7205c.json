@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0a994e04009da68decd02a6be5b1db75d0eb445b79c528841cb45fc5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0a994e04009da68decd02a6be5b1db75d0eb445b79c528841cb45fc5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "運がいい"
@@ -177,11 +185,12 @@
     "question": "今回の台風では、死人もケガ人も出ず、本当に運がよかった。",
     "answer": "We were lucky as there were no deaths or injuries from this typhoon.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b182ba0b-287d-4b04-8613-75362db7205c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

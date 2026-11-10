@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e9610a55cb496634663b16a3118427e6b16ec5cb67849c3e5e889b96.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e9610a55cb496634663b16a3118427e6b16ec5cb67849c3e5e889b96.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "豚カツ"
@@ -114,11 +122,12 @@
     "question": "豚カツ定食にしようと思います。",
     "answer": "I think I'll have the breaded pork cutlet set meal.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a07f102f-6bdf-4d1d-9905-fb5425b7a7f0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

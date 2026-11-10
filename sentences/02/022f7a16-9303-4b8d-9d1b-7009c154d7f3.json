@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a8f0bb8340af9f8f9f8cc2043a6f962d225c44de74992c42a21cc5c0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a8f0bb8340af9f8f9f8cc2043a6f962d225c44de74992c42a21cc5c0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "本屋"
@@ -93,11 +101,12 @@
     "question": "先日、友人と本屋に行きました。",
     "answer": "The other day, I went to the bookstore with a friend.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "022f7a16-9303-4b8d-9d1b-7009c154d7f3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

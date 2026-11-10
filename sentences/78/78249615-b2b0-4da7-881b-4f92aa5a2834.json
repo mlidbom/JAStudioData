@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6dbde77b57a04c7862ef31aac5bb709cec8a73ae0d4cff7399ec8763.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6dbde77b57a04c7862ef31aac5bb709cec8a73ae0d4cff7399ec8763.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "読み方"
@@ -149,11 +157,12 @@
     "question": "すみません。お名前の読み方を教えてもらってもいいですか？",
     "answer": "Excuse me. Could you tell me how to read your name?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "78249615-b2b0-4da7-881b-4f92aa5a2834",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

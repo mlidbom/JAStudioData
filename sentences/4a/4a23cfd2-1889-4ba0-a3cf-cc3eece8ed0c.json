@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-65b029dc97054ab19fc90e2570d50afc09bf72295b2571ef0db16dfc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-65b029dc97054ab19fc90e2570d50afc09bf72295b2571ef0db16dfc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "食料品"
@@ -163,11 +171,12 @@
     "question": "食料品を買いに行く前に、いつも買い出しリストを作ります。",
     "answer": "Before going grocery shopping, I always make a shopping list.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4a23cfd2-1889-4ba0-a3cf-cc3eece8ed0c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

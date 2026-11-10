@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8fb7cae8c8d1a617c0ee8503474d45a7070f1ef6f2b4c8c5859f8d14.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8fb7cae8c8d1a617c0ee8503474d45a7070f1ef6f2b4c8c5859f8d14.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "番号札"
@@ -170,11 +178,12 @@
     "question": "すみません、この辺りに番号札はありませんでしたか？",
     "answer": "Sorry, wasn't there a numbered ticket around here?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d1ad3f42-1ef7-433d-ae8d-17c13734663a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a52709b869c004c287f4880c91a1355c1e59ace08905c18d0625c609.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a52709b869c004c287f4880c91a1355c1e59ace08905c18d0625c609.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "居酒屋"
@@ -177,11 +185,12 @@
     "question": "扉が開き、居酒屋の中に老婆が一人ぼっちで入ってきた。",
     "answer": "The door opened and an old woman walked into the izakaya restaurant by herself.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "06b98a7d-9ee7-4ecf-81b0-577541da9bf7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

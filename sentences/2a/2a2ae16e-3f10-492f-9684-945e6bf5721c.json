@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6b510c41b94f3be24eb67b4109a4397530b9282ce4145c5277f03d93.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6b510c41b94f3be24eb67b4109a4397530b9282ce4145c5277f03d93.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "教訓"
@@ -205,11 +213,12 @@
     "question": "今回の教訓を活かして、次回はもっと上手くやれるようにしたいと思います。",
     "answer": "I hope to learn from the lessons learned this time and do better next time.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2a2ae16e-3f10-492f-9684-945e6bf5721c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-aa099c7326542fc5095d42d9c8911d6e8dc329cb9fee7129ae3258de.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-aa099c7326542fc5095d42d9c8911d6e8dc329cb9fee7129ae3258de.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "水曜日"
@@ -142,11 +150,12 @@
     "question": "毎週水曜日、学校の後プールに行って泳いでいます。",
     "answer": "Every Wednesday, I go to the pool after school and swim.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5d69149a-67e1-47f5-8505-672a8c82ae2a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

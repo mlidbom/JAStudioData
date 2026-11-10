@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7f048392aa41868f496fcbe8bc0ad683e59ca4d85ba6ab0104c24cf0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7f048392aa41868f496fcbe8bc0ad683e59ca4d85ba6ab0104c24cf0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "軍艦"
@@ -177,11 +185,12 @@
     "question": "軍艦プラモの専門店を開く予定なんだよ。",
     "answer": "I’m going to open a specialty shop for plastic battleship models.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0a0187a8-135f-475b-8b05-2c8da1965c49",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

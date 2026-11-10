@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-29bd777c9fa24244103c8fc8b9a595263bbf48a2dc606884faf6fe6b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-29bd777c9fa24244103c8fc8b9a595263bbf48a2dc606884faf6fe6b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "明かり"
@@ -72,11 +80,12 @@
     "question": "この辺は明かりが少ない。",
     "answer": "There's not much light around here.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bbe9c017-201b-405a-9da3-d27f22366901",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-363d691d2f900c0f6a0cf55787f2842489a43ceb517293d5a5988f54.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-363d691d2f900c0f6a0cf55787f2842489a43ceb517293d5a5988f54.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "商売"
@@ -135,11 +143,12 @@
     "question": "最近はあのコンビニのせいで、商売あがったりだね。",
     "answer": "Business has dried up recently because of that convenience store.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "56ae5559-9a44-41f5-9cd4-4bd24abd596a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

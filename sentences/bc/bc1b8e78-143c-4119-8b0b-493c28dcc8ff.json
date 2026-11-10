@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-90aa3a4e72a00bdc11abc44686b945b70ab0d9f323f8f752958e05d8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-90aa3a4e72a00bdc11abc44686b945b70ab0d9f323f8f752958e05d8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "動き"
@@ -93,11 +101,12 @@
     "question": "あの人、何だか動きが不自然ですね。",
     "answer": "That person’s movements are a little unnatural.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bc1b8e78-143c-4119-8b0b-493c28dcc8ff",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

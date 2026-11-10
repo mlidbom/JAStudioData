@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dc8ba77239d057bf72d77b98e84b4b62126fc764c92d19a2f1a4fe1b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dc8ba77239d057bf72d77b98e84b4b62126fc764c92d19a2f1a4fe1b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "最近"
@@ -191,11 +199,12 @@
     "question": "最近は出社しないで家でリモートワークをしています。",
     "answer": "Lately, I don't go to work and work remotely from home.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ba40275d-2e2c-41e1-8fe9-8b05f4c56c9c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

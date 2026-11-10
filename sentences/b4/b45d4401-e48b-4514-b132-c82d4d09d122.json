@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8355c2f5a7259afee173dcf07c00fc0bcb526a060da5da05589359ac.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8355c2f5a7259afee173dcf07c00fc0bcb526a060da5da05589359ac.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "仏僧"
@@ -135,11 +143,12 @@
     "question": "今、仏僧の生活スタイルについて調べています。",
     "answer": "I am currently researching the lifestyle of Buddhist monks.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b45d4401-e48b-4514-b132-c82d4d09d122",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

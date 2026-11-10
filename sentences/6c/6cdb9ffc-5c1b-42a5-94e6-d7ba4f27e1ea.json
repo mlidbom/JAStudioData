@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5da88bbbbdb16a289ef4de6fac2b42c066712449b34b54ff241f4653.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5da88bbbbdb16a289ef4de6fac2b42c066712449b34b54ff241f4653.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "禁じる",
@@ -94,11 +102,12 @@
     "question": "関係者以外の立ち入りを禁じる。",
     "answer": "Entry is prohibited to all but related parties.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6cdb9ffc-5c1b-42a5-94e6-d7ba4f27e1ea",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

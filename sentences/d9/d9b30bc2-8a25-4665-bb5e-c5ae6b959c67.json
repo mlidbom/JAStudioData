@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d48affcee96d26fa338c69356e89a862dde0f036b4431943d6bff157.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d48affcee96d26fa338c69356e89a862dde0f036b4431943d6bff157.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "犬"
@@ -72,11 +80,12 @@
     "question": "この犬は、チワワですか？",
     "answer": "Is this dog a Chihuahua?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d9b30bc2-8a25-4665-bb5e-c5ae6b959c67",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a3d7b5c90a1de25ef5e2fa2a44b22cf63831e89b3e80b2b9b988a3ea.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a3d7b5c90a1de25ef5e2fa2a44b22cf63831e89b3e80b2b9b988a3ea.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "景色"
@@ -142,11 +150,12 @@
     "question": "ここから見る景色が大好きなんです。",
     "answer": "I love this landscape we can see from here.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "50af92cc-0141-4b82-9e4b-5e749701ca23",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

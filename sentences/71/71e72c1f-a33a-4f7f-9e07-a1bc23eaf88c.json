@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-20ddd9393edc5f6481ea7d159531cce53951c7e76b57b9740d9e811e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-20ddd9393edc5f6481ea7d159531cce53951c7e76b57b9740d9e811e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "本能"
@@ -72,11 +80,12 @@
     "question": "それは人間の本能です。",
     "answer": "That's a human instinct.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "71e72c1f-a33a-4f7f-9e07-a1bc23eaf88c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

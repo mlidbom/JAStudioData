@@ -20,9 +20,22 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "[sound:hypertts-391a9b69852bfed0b4a991894f7ccadeedca8038b129e98a171dd2a4.mp3][sound:hypertts-030aa016ee98e2d050cf8678417bd03e08a2be170537260f2cae91de.mp3]",
-  "audioG": "",
-  "audioTTS": "",
+  "audio": [
+    {
+      "fileName": "hypertts-391a9b69852bfed0b4a991894f7ccadeedca8038b129e98a171dd2a4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    },
+    {
+      "fileName": "hypertts-030aa016ee98e2d050cf8678417bd03e08a2be170537260f2cae91de.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "下って",
@@ -32,8 +45,7 @@
   "sentenceCount": 0,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [
@@ -82,7 +94,9 @@
   "sourceData": {
     "answer": "humbly | after-a-time/later/down-to-(e.g.-\"down-to-present-day\") | followed-by/next",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "753a8267-21d6-415e-9391-35eb2440f9c0",
   "tags": [

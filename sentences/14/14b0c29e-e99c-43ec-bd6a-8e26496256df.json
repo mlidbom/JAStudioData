@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-81527c3f85bf48a26abfa5c65160f4fbbfced74f1ac43321d6ceaa08.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-81527c3f85bf48a26abfa5c65160f4fbbfced74f1ac43321d6ceaa08.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "結構です"
@@ -114,11 +122,12 @@
     "question": "「ごいっしょにポテトもいかがですか？」「いいえ、結構です。」",
     "answer": "\"Would you like french fries as well?\" \"No thanks.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "14b0c29e-e99c-43ec-bd6a-8e26496256df",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

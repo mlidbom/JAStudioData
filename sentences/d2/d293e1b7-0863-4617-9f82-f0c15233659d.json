@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4c7c3331c276fbc0aa1afe2a462b728bce7d327ef036117433d6432a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4c7c3331c276fbc0aa1afe2a462b728bce7d327ef036117433d6432a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "騒音"
@@ -170,11 +178,12 @@
     "question": "騒音問題について、お隣さんにどうやって切り出したらいいんだろう。",
     "answer": "How should I approach my neighbor about a noise problem?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d293e1b7-0863-4617-9f82-f0c15233659d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3e0e56a0f210a0edcaeb48e49b2876402e55f164c0db18cbb6c63627.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3e0e56a0f210a0edcaeb48e49b2876402e55f164c0db18cbb6c63627.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "袖"
@@ -79,11 +87,12 @@
     "question": "ねえ、袖が汚れているよ。",
     "answer": "Hey, your sleeve seems dirty.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4ab70d93-8776-407b-ad9d-c1d400311675",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

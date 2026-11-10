@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-934edb8112e4c7b18b62eed5e190b10366470ecc4b0efa3910e31c51.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-934edb8112e4c7b18b62eed5e190b10366470ecc4b0efa3910e31c51.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "言う"
@@ -86,11 +94,12 @@
     "question": "もう少しゆっくり言って下さい。",
     "answer": "Please say it a little slower.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "26e8acc3-185e-42fa-9a18-94fba8fbd4f4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

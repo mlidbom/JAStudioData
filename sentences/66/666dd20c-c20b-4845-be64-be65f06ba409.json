@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c03637f5cd0c8d695b289e7093b141996b04822c5b665a90ce0fd27a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c03637f5cd0c8d695b289e7093b141996b04822c5b665a90ce0fd27a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "毎度"
@@ -100,11 +108,12 @@
     "question": "毎度、同じエラーが出るんですよ。",
     "answer": "Every time, I get the same error.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "666dd20c-c20b-4845-be64-be65f06ba409",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

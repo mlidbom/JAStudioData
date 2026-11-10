@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1f0e7905830ab0f82369d13db7c22ef8beab4e5483a742c5b6d351b0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1f0e7905830ab0f82369d13db7c22ef8beab4e5483a742c5b6d351b0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "切符"
@@ -142,11 +150,12 @@
     "question": "そのツアーの切符は、現地で購入することもできます。",
     "answer": "You can buy tickets for that tour on site.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a2cc8bfc-e111-4bf6-93c9-b049da2678da",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

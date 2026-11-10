@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-213b3af64a2d5f9a81c5cfc66077e886f82528b13c5a15620b942d1a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-213b3af64a2d5f9a81c5cfc66077e886f82528b13c5a15620b942d1a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "蒙古"
@@ -219,11 +227,12 @@
     "question": "この絵には、蒙古襲来の時の様子が描かれています。",
     "answer": "This picture depicts the state at the time of the Mongolian invasion.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "98b8c7b5-acd6-4041-a227-8c70ed044cf3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

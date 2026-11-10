@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d85c8ab3c70a91eb6f3eca8d39056ec80daeafcd0350a6b9a85a7c2f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d85c8ab3c70a91eb6f3eca8d39056ec80daeafcd0350a6b9a85a7c2f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "正確"
@@ -142,11 +150,12 @@
     "question": "コウイチはワニカニの正確なユーザー数を知りません。",
     "answer": "Koichi doesn't know the accurate number of WaniKani users.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4c86002d-3d0c-4234-a600-5c1ace5aa9f9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

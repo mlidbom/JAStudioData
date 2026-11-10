@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-733d3f6a7e7855689718498a4749b523654b7ea4a29af7b37cea01d2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-733d3f6a7e7855689718498a4749b523654b7ea4a29af7b37cea01d2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "腐る"
@@ -198,11 +206,12 @@
     "question": "牛乳は腐りやすいんだから冷蔵庫の外に出しっ放しにしないでね。",
     "answer": "Don’t leave milk out of the fridge because it goes bad easily.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ee2e88a2-433b-4e86-ad9d-d26b1fce812e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

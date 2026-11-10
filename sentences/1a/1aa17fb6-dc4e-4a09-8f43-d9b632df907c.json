@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c1eb38ec1b726881db5354b045d927688f4f9237ac2c9db1076b3fe7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c1eb38ec1b726881db5354b045d927688f4f9237ac2c9db1076b3fe7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "公共"
@@ -205,11 +213,12 @@
     "question": "ここは公共トイレですよ！カラオケをする場所ではありません。",
     "answer": "This is a public bathroom! Not a place to do karaoke.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1aa17fb6-dc4e-4a09-8f43-d9b632df907c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

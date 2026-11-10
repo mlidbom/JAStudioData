@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2c00408fe6455d2f5c060bc0f625887929cd30c7b6ec90f9f7ca8809.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2c00408fe6455d2f5c060bc0f625887929cd30c7b6ec90f9f7ca8809.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "塁"
@@ -149,11 +157,12 @@
     "question": "彼が塁を踏んだのかどうか、よく見えなかった。",
     "answer": "I couldn’t really see if he stepped on the base or not.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "231970cc-9717-4b52-aa7c-ca6b406b0711",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

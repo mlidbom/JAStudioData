@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2c30606e3f3d38afa69d05a205c2a38966255727346da075134dde1a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2c30606e3f3d38afa69d05a205c2a38966255727346da075134dde1a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "郵便局"
@@ -114,11 +122,12 @@
     "question": "この辺に郵便局はありますか？",
     "answer": "Is there a post office in this area?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fbc2dede-a307-4346-9b93-7b3c51d9006a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-414f8340325db17693641d0d06c77137c786b5b8c1822d4b27aac1e4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-414f8340325db17693641d0d06c77137c786b5b8c1822d4b27aac1e4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "今すぐ"
@@ -79,11 +87,12 @@
     "question": "今すぐテレビのニュース見て！",
     "answer": "Watch the news on TV right now!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bfe9eb02-3dea-442a-9c9e-ce7765dd4476",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

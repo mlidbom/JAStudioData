@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1ae9689b0fcba8ea6b05162d05766ecd3a1f7e448b42ea2106fd59a7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1ae9689b0fcba8ea6b05162d05766ecd3a1f7e448b42ea2106fd59a7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "親"
@@ -79,11 +87,12 @@
     "question": "この子犬の親は両方ジャーマンシェパードです。",
     "answer": "Both parents of this puppy are German Shepherds.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cd3a1999-02a2-40b6-944e-575fb222fa73",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

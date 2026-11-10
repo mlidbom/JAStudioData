@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a0c5c13affabe8b95537f79a88ad1af16cbbfc292052ab81defd1cfa.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a0c5c13affabe8b95537f79a88ad1af16cbbfc292052ab81defd1cfa.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "汗"
@@ -142,11 +150,12 @@
     "question": "彼の額には、汗がキラキラ光っていた。",
     "answer": "His forehead glistened with sweat.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9278f1cf-4778-4bdd-9b20-f9280a3a425c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

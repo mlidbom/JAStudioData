@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-642a52cddb740e29bd9a67aed453162082fbd6ef7a6cec40afcd6a62.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-642a52cddb740e29bd9a67aed453162082fbd6ef7a6cec40afcd6a62.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "不明瞭"
@@ -254,11 +262,12 @@
     "question": "説明書を読んだんですが、あまりに不明瞭だったので、新モデルの実力についてちょっと不安に思っています。",
     "answer": "I’m a little worried about this new model’s capabilities because even though I read the instructions, they were really unclear.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "11b161ab-d766-4869-b5ca-be7faf366586",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

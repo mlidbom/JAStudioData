@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5cf8ebdc9a35995cff4093ceb65e321622ffcf6c293e5e11deb04341.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5cf8ebdc9a35995cff4093ceb65e321622ffcf6c293e5e11deb04341.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "バベルの塔"
@@ -149,11 +157,12 @@
     "question": "バベルの塔に辿り着く一番速い方法はなんですか？",
     "answer": "What’s the fastest way to get to the Tower of Babel?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d581a7a6-0ae5-423a-becb-d54aa6f46f3b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

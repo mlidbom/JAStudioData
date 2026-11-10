@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a065fc3fd0dd868270e63c0f1cc4977b260e3393285dcc66d5cfc7de.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a065fc3fd0dd868270e63c0f1cc4977b260e3393285dcc66d5cfc7de.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "死体"
@@ -100,11 +108,12 @@
     "question": "二人の死体は、山で見つかった。",
     "answer": "Dead bodies of the two were found in a mountain.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8dc28267-5562-4db1-bb31-3211c39da54b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

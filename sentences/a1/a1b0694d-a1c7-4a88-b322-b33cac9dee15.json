@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-94a98baa13130350214aea8a207f7d8c2ff74c5694bbfa809e39bbc3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-94a98baa13130350214aea8a207f7d8c2ff74c5694bbfa809e39bbc3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "小学校"
@@ -142,11 +150,12 @@
     "question": "小学校の子どもたちに、絵本をよむボランティアの会に入ってます。",
     "answer": "I am in a volunteer club that reads picture books to elementary school children.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a1b0694d-a1c7-4a88-b322-b33cac9dee15",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

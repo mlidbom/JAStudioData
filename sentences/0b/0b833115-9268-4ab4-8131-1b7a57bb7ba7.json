@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1e853c3111316abcdd1030cbe5f458225a5f24a5edbce79ca2dfe9ca.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1e853c3111316abcdd1030cbe5f458225a5f24a5edbce79ca2dfe9ca.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "原油"
@@ -114,11 +122,12 @@
     "question": "原油の値段は上がり続けている。",
     "answer": "The price of crude oil is going to keep rising.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0b833115-9268-4ab4-8131-1b7a57bb7ba7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

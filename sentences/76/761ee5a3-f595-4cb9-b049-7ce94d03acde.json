@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-08af91ad71ba37a268768be8cc55b1fd8fc6356bd2d9174c1199d430.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-08af91ad71ba37a268768be8cc55b1fd8fc6356bd2d9174c1199d430.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "朝ご飯"
@@ -184,11 +192,12 @@
     "question": "毎朝シリアルを朝ご飯にするのは、あまり体に良くないです。",
     "answer": "Having cereal for breakfast every morning isn't very good for your health.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "761ee5a3-f595-4cb9-b049-7ce94d03acde",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

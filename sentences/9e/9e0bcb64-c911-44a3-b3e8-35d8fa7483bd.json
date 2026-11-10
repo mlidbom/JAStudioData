@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c3d4a89c24b8bb6d9339e059697c573d4712fe4e95c2837483769d8f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c3d4a89c24b8bb6d9339e059697c573d4712fe4e95c2837483769d8f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "予定"
@@ -142,11 +150,12 @@
     "question": "今週末は友人とかき氷を食べに行く予定です。",
     "answer": "I plan to go eat shaved ice with friends this weekend.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9e0bcb64-c911-44a3-b3e8-35d8fa7483bd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

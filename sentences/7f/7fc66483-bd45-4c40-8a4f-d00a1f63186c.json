@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f9515a0ee614a3349e10efc7957ad360fa9ecf6e753a977dc929cae9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f9515a0ee614a3349e10efc7957ad360fa9ecf6e753a977dc929cae9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "無茶"
@@ -135,11 +143,12 @@
     "question": "あんまり無茶ばっかりしないでね。みんな心配してるよ。",
     "answer": "Don't be too reckless. Everyone is worried about you.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7fc66483-bd45-4c40-8a4f-d00a1f63186c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

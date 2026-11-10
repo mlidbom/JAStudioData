@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9403a8d26062f6f3f0786ae18dc89b2e62ca009570aa032c88795605.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9403a8d26062f6f3f0786ae18dc89b2e62ca009570aa032c88795605.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "喧しい"
@@ -93,11 +101,12 @@
     "question": "喧しくてワニカニに集中できない。",
     "answer": "It's so noisy I can't focus on WaniKani.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c61affee-cdd5-4cac-9c38-8b6c9028fe6c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

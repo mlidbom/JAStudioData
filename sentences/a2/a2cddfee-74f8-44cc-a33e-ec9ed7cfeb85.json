@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bfa0acba2d13262b9bf7df910083519a2216fcb5bebb3018bcc21613.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bfa0acba2d13262b9bf7df910083519a2216fcb5bebb3018bcc21613.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "脳死"
@@ -100,11 +108,12 @@
     "question": "とりあえず脳死でこのエクササイズやってみて。",
     "answer": "For now, try doing this exercise without thinking about it.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a2cddfee-74f8-44cc-a33e-ec9ed7cfeb85",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

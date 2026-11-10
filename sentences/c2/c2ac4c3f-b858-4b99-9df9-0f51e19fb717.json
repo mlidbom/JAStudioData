@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1f9f4f562665701c742b13c460087ddef1c3c98f01a273c25ba92ea9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1f9f4f562665701c742b13c460087ddef1c3c98f01a273c25ba92ea9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "吐く"
@@ -254,11 +262,12 @@
     "question": "「遅れてごめんなさい。朝、少し気分が悪くて吐いてしまって。」「大丈夫だよ。遅れても来ないよりはましだよ。」",
     "answer": "\"I’m sorry I’m late. I was sick and threw up this morning.\" \"It’s okay. Better late than never.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c2ac4c3f-b858-4b99-9df9-0f51e19fb717",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

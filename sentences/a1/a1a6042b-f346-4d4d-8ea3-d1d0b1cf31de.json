@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-337fde203d6cfda2247108f8584d5b00de444bffca80b3097dc0781a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-337fde203d6cfda2247108f8584d5b00de444bffca80b3097dc0781a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "閉じる"
@@ -142,11 +150,12 @@
     "question": "急にパソコンの画面が勝手に閉じちゃったんです。",
     "answer": "The computer screen suddenly closed on its own.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a1a6042b-f346-4d4d-8ea3-d1d0b1cf31de",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

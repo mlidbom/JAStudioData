@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b969511fa06b89217ea46fff8b8653cae1fbfee3e2c92ec454b96e74.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b969511fa06b89217ea46fff8b8653cae1fbfee3e2c92ec454b96e74.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "凍死"
@@ -268,11 +276,12 @@
     "question": "ドイツでは、ホームレスが凍死しないように、町の色々なところにシェルターポッドが配置されています。",
     "answer": "In Germany, shelter pods are placed in various parts of town to prevent homeless people from freezing to death.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "589c43b7-b23f-48a3-b09c-fc649894c37b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

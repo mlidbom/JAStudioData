@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-41e867c1689e09089900271b35bbb5d341a572b3f7adbe0f87349e06.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-41e867c1689e09089900271b35bbb5d341a572b3f7adbe0f87349e06.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "脱衣"
@@ -149,11 +157,12 @@
     "question": "脱衣所にアップルウォッチを忘れてしまいました。",
     "answer": "I forgot my Apple Watch in the changing room.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9934e023-1a71-49c4-9de0-7e1b80b7544c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

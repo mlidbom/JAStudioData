@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-92cca4eda26aa36751d986eb3b2bffab09abb083fcaead77a0b3a6a3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-92cca4eda26aa36751d986eb3b2bffab09abb083fcaead77a0b3a6a3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "招き猫"
@@ -359,11 +367,12 @@
     "question": "お店によく置かれている招き猫は、左手を上げています。これは、左手が「お客さんを招く」とされているためです。",
     "answer": "The maneki neko often seen in stores is raising its left paw, since the left hand is believed to \"beckon customers.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "19039ef9-09be-4a3a-8194-9b539d832a12",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -20,15 +20,20 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-dd7f979ecded9f476c3888c86301fbfdaf56c0c17fe650ab83ff0aa0.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-dd7f979ecded9f476c3888c86301fbfdaf56c0c17fe650ab83ff0aa0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [],
   "sentenceCount": 1,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -52,7 +57,9 @@
   "sourceData": {
     "answer": "to{?}{telephone/call-in/ring-in/contact-by-phone}",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "5d7b3c2b-34a0-4871-9e5b-6d5d6431f8d8",
   "tags": [

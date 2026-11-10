@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7df31cf924aa8272afe78fa09fc7e94bee8047f1befbab6e8d6c0d57.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7df31cf924aa8272afe78fa09fc7e94bee8047f1befbab6e8d6c0d57.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "流行歌"
@@ -114,11 +122,12 @@
     "question": "ワシは今時の流行歌は全然分からんぞ。",
     "answer": "I don't know trendy songs these days at all.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8ddd9276-9c3d-407d-8c09-c2ac03e3c3e4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2ee878bf037bd9b4634c4fb00b6061ea4cae17002acd4163499a1da1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2ee878bf037bd9b4634c4fb00b6061ea4cae17002acd4163499a1da1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "進行"
@@ -156,11 +164,12 @@
     "question": "フグのエキスから作られた新しいワクチンが病気の進行を止めました。",
     "answer": "The new vaccine made from blowfish extract has suppressed the progression of the disease.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "390761ce-4c42-4e69-abef-f1b92f444e92",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

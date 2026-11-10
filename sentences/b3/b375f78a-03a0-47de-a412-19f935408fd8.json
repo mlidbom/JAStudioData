@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e15f2d3f02b6dfc3f707656e7474ef7e84260003a805335514f5ff38.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e15f2d3f02b6dfc3f707656e7474ef7e84260003a805335514f5ff38.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "煙"
@@ -79,11 +87,12 @@
     "question": "煙のコゲくさいニオイで起きました。",
     "answer": "I woke up to the smell of burnt smoke.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b375f78a-03a0-47de-a412-19f935408fd8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

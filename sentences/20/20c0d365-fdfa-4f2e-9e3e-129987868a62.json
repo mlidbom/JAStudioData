@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5cb32eeb248b5309d31964d2f46003ecdec179aaa89db1101e9bf9bd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5cb32eeb248b5309d31964d2f46003ecdec179aaa89db1101e9bf9bd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "肩"
@@ -128,11 +136,12 @@
     "question": "ビエトはいつも、肩で風を切って歩いている。",
     "answer": "Viet always walks with a swagger.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "20c0d365-fdfa-4f2e-9e3e-129987868a62",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

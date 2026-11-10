@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-133121a4a1e2b1df807a9559f54a97ff420ea0e5365fc2f386ca53c8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-133121a4a1e2b1df807a9559f54a97ff420ea0e5365fc2f386ca53c8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "画廊"
@@ -79,11 +87,12 @@
     "question": "彼女は自分の画廊を開いた。",
     "answer": "She opened her own picture gallery.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d58db653-8bfe-4371-9247-60df3c676540",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c88afa50e9a12bd7218b161c52cb5f043f647367c9453cb8a5798498.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c88afa50e9a12bd7218b161c52cb5f043f647367c9453cb8a5798498.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "花"
@@ -149,11 +157,12 @@
     "question": "花を見ると元気になりますね。",
     "answer": "Seeing flowers gives you positive energy.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "58fa0fb2-5526-4b88-8023-5980caab0dfe",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

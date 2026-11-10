@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f8bf602ed564f3ef1214dc7d8cffb558724909bff4197b0f813e12e2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f8bf602ed564f3ef1214dc7d8cffb558724909bff4197b0f813e12e2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "女王"
@@ -72,11 +80,12 @@
     "question": "それは、女王のネックレスです。",
     "answer": "It is the queen's necklace.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e77dc46c-6c45-48af-8122-47ec71cf8b21",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

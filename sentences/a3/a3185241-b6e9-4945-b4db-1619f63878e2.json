@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cb50b79c2fee2750a6d81aeb5ccba2e382e329b480648b0a15a920f5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cb50b79c2fee2750a6d81aeb5ccba2e382e329b480648b0a15a920f5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大事"
@@ -121,11 +129,12 @@
     "question": "きちんと「ありがとう」と言うことは大事です。",
     "answer": "It is important to say \"thank you\" properly.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a3185241-b6e9-4945-b4db-1619f63878e2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

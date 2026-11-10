@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-60c7577b6cf57874558d973614ccb33224c9945a975f585ecf35e4fa.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-60c7577b6cf57874558d973614ccb33224c9945a975f585ecf35e4fa.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "脱税"
@@ -135,11 +143,12 @@
     "question": "ヤバイ、脱税してたのがバレたかもしれない。",
     "answer": "Oh no, I might have been caught evading taxes.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "87fb65c3-31ce-4119-b4f5-cb3394eada13",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

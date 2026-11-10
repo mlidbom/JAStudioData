@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-0a158496ae067540cb90c75bd5b73ef0e176d0482e6dac291ce55f07.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-0a158496ae067540cb90c75bd5b73ef0e176d0482e6dac291ce55f07.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "電話が掛かって来る",
@@ -44,8 +50,7 @@
   "sentenceCount": 6,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -69,7 +74,9 @@
   "sourceData": {
     "answer": "to{?}get-a-phone-call",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "57b6f1e8-ccec-452b-b93c-5b58b85f1da9",
   "tags": [

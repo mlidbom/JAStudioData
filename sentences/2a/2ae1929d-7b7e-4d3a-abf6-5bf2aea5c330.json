@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6dad4c802aded501fd938be0ee43b890797d66833764b3de5fa5393a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6dad4c802aded501fd938be0ee43b890797d66833764b3de5fa5393a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "対象"
@@ -156,11 +164,12 @@
     "question": "このキャンペーンの対象エリアは関西のみとなっています。",
     "answer": "The target area for this campaign is limited to the Kansai region only.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2ae1929d-7b7e-4d3a-abf6-5bf2aea5c330",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

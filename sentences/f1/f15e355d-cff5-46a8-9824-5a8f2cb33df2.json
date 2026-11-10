@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-788933cf405f1736e76cf2b9235d0d886d684794dc86356c4f23caa0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-788933cf405f1736e76cf2b9235d0d886d684794dc86356c4f23caa0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "月曜日"
@@ -72,11 +80,12 @@
     "question": "月曜日は新しい週の始まりです。",
     "answer": "Monday is the beginning of a new week.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f15e355d-cff5-46a8-9824-5a8f2cb33df2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

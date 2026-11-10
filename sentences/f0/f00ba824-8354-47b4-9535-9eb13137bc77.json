@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b27c4e987a471aa95c7b23e3ba89cc35d0f003925f26e6a0f7f4a27d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b27c4e987a471aa95c7b23e3ba89cc35d0f003925f26e6a0f7f4a27d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "店員"
@@ -79,11 +87,12 @@
     "question": "レジに店員がいない。",
     "answer": "There is no staff at the cash register.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f00ba824-8354-47b4-9535-9eb13137bc77",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

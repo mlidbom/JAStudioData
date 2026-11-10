@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e54b3b2b95cbffcfbe6064508328031d54d292079ba6122b1675956a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e54b3b2b95cbffcfbe6064508328031d54d292079ba6122b1675956a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "辺り"
@@ -142,11 +150,12 @@
     "question": "日が出て、辺りが明るくなってきました。",
     "answer": "The sun is rising and it is getting brighter around here.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "606e0d61-2aeb-465a-9963-3967262bcb09",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5bd781ad6a9251ebc26f55e836e1771f70a684650c3b3ffbdbf44a6b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5bd781ad6a9251ebc26f55e836e1771f70a684650c3b3ffbdbf44a6b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "管轄"
@@ -72,11 +80,12 @@
     "question": "ここは、南署の管轄です。",
     "answer": "The southern police have jurisdiction here.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0736b328-06c5-4753-8cfa-1e47b6004997",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

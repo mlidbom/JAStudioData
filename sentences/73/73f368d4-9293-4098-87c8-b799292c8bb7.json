@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6eb2330b9f69d682caedff42b8187f7c81fd0da86e0355808b0f4346.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6eb2330b9f69d682caedff42b8187f7c81fd0da86e0355808b0f4346.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "漬ける"
@@ -163,11 +171,12 @@
     "question": "私は、うちのおばあちゃんが漬ける大根が大好きです。",
     "answer": "I love the radish pickles that my grandma makes at home.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "73f368d4-9293-4098-87c8-b799292c8bb7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

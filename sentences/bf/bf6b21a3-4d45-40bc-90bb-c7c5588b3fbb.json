@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3b0b26a77941a658b7cfbded727cd342305d5c3b62a59bcda12c8866.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3b0b26a77941a658b7cfbded727cd342305d5c3b62a59bcda12c8866.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "排水溝"
@@ -121,11 +129,12 @@
     "question": "排水溝に落ちて怪我をした。",
     "answer": "I fell into a drainage ditch and got injured.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bf6b21a3-4d45-40bc-90bb-c7c5588b3fbb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

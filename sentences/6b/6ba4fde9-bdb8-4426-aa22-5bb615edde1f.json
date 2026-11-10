@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3e41e9520b11628f57eaeb7e85511aa512c3bb7c982ba792d94db7dc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3e41e9520b11628f57eaeb7e85511aa512c3bb7c982ba792d94db7dc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "駅員"
@@ -107,11 +115,12 @@
     "question": "あそこの駅員さんに聞いてみましょう。",
     "answer": "Let's ask the station attendant over there.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6ba4fde9-bdb8-4426-aa22-5bb615edde1f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

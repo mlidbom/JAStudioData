@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ba65b6903bb05fee144efc84b522c163a00ca226f7f19c1c87a7c53a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ba65b6903bb05fee144efc84b522c163a00ca226f7f19c1c87a7c53a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "疲れ"
@@ -163,11 +171,12 @@
     "question": "年のせいか、疲れが中々とれないんだよね。",
     "answer": "Maybe it's because I'm old, but I can't shake off my fatigue easily.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c3db455a-1eb6-4e2a-9262-dfdf8d707cdf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

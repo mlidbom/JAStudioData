@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-520596c35d8df09fc3a719b083d0d6605fe57aaf36d46355c6945c31.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-520596c35d8df09fc3a719b083d0d6605fe57aaf36d46355c6945c31.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "違反"
@@ -170,11 +178,12 @@
     "question": "法律に違反するようなことはくれぐれもしないでください。",
     "answer": "Please do not do anything that violates the law.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2cdead99-26cb-4296-8413-c58e8633c7a8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

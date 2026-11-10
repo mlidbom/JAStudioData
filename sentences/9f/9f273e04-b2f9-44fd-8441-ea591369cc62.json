@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0d906024ed2437d85f33ceca9af37a3a2652204091670dce31348482.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0d906024ed2437d85f33ceca9af37a3a2652204091670dce31348482.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "写す"
@@ -100,11 +108,12 @@
     "question": "今日のクラスのノート、写してもいい？",
     "answer": "Can I copy your notes from today's class?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9f273e04-b2f9-44fd-8441-ea591369cc62",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

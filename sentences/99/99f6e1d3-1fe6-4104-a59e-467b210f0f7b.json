@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f64f2a5079d7588253865dddc62e0e57b8497b74058c190cb08e51b9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f64f2a5079d7588253865dddc62e0e57b8497b74058c190cb08e51b9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "月見"
@@ -65,11 +73,12 @@
     "question": "月見うどん、一つ下さい。",
     "answer": "An udon with an egg, please.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "99f6e1d3-1fe6-4104-a59e-467b210f0f7b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

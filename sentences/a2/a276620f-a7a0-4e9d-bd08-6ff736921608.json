@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b04d9ca066f528daebcfac89f6d1d6db2f21bd5439008b73d1d15245.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b04d9ca066f528daebcfac89f6d1d6db2f21bd5439008b73d1d15245.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "全米"
@@ -121,11 +129,12 @@
     "question": "今、全米ヒットチャートでナンバーワンの曲は何ですか？",
     "answer": "What is the number one song on the US hit chart now?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a276620f-a7a0-4e9d-bd08-6ff736921608",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

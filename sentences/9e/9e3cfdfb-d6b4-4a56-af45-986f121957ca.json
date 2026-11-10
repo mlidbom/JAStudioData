@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bbd596f024f26488493b1373edd47a28b0cebc7d79846d62d4d30286.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bbd596f024f26488493b1373edd47a28b0cebc7d79846d62d4d30286.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "遠く"
@@ -149,11 +157,12 @@
     "question": "私は家族から遠くはなれて住んでいます。",
     "answer": "I live far away from my family.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9e3cfdfb-d6b4-4a56-af45-986f121957ca",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

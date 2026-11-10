@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f4f334e49c36797be65a7470adb6aa857a97c714f6ec87bf1c248a3a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f4f334e49c36797be65a7470adb6aa857a97c714f6ec87bf1c248a3a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "属する"
@@ -156,11 +164,12 @@
     "question": "グループに属するのは私のガラじゃないんです。",
     "answer": "I am not a type of person who belongs to a group.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0d99620c-2d13-4cc9-b0ce-8d089a7c87dd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

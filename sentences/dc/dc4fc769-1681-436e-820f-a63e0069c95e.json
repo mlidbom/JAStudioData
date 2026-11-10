@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b844c37a9946af86ed3a85015d3730af4d690b898d0c122e23e124a9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b844c37a9946af86ed3a85015d3730af4d690b898d0c122e23e124a9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "家庭教師"
@@ -114,11 +122,12 @@
     "question": "家庭教師は、ホワイトボードをかべに立て掛けた。",
     "answer": "The tutor put up a white board against the wall.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dc4fc769-1681-436e-820f-a63e0069c95e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

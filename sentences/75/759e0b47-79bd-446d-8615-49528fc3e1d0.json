@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f881028d77e89537e3b8522fb12493ee6c6ea0c2172b24dd8737d621.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f881028d77e89537e3b8522fb12493ee6c6ea0c2172b24dd8737d621.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "左側"
@@ -219,11 +227,12 @@
     "question": "私は左側を下にして横になる方が好きです。",
     "answer": "I prefer to lie with my left side down.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "759e0b47-79bd-446d-8615-49528fc3e1d0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

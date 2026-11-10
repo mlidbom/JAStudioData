@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e5f81a174d587d370e0a535875680f496d700421317787cb42032c24.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e5f81a174d587d370e0a535875680f496d700421317787cb42032c24.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "水兵"
@@ -205,11 +213,12 @@
     "question": "あの水兵が、船長にふるえ声で何かを話しているのを見てしまったんだ。",
     "answer": "I happened to see the seaman saying something to the captain in a shaky voice.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4ed4cb66-91f2-4bdd-997d-a381ccc51f2d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

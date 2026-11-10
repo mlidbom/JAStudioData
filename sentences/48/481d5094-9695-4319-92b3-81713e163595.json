@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d717ee27b0c1961a820bd7209ed207ca8e4d056d4951439710c22c15.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d717ee27b0c1961a820bd7209ed207ca8e4d056d4951439710c22c15.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "輸血"
@@ -177,11 +185,12 @@
     "question": "お前の気の済むまで、オレの血を輸血するがいい。",
     "answer": "Transfer my blood as much as you want until you are satisfied.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "481d5094-9695-4319-92b3-81713e163595",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

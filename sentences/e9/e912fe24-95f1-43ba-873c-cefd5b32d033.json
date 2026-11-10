@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ed0f1f5e39007d34549f06c92017d786e0eb97c0f935a2e7b6053bfb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ed0f1f5e39007d34549f06c92017d786e0eb97c0f935a2e7b6053bfb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "告げる"
@@ -86,11 +94,12 @@
     "question": "恋人に別れを告げました。",
     "answer": "I bid farewell to my girlfriend.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e912fe24-95f1-43ba-873c-cefd5b32d033",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-35ee36abc48d7f2b88fd23a3358b216260938214b1cf9ec1930b0530.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-35ee36abc48d7f2b88fd23a3358b216260938214b1cf9ec1930b0530.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "衣服"
@@ -107,11 +115,12 @@
     "question": "衣服は着たままでかまいませんよ。",
     "answer": "It's fine to leave your clothes on.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "adfe9491-9882-4ddd-8e39-976659a91bb0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

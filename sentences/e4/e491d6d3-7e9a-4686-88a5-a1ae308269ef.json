@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6032c85dfc0362182ae33bacbcf58ff9cf9e40e7bc6cc15d80906826.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6032c85dfc0362182ae33bacbcf58ff9cf9e40e7bc6cc15d80906826.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "運"
@@ -128,11 +136,12 @@
     "question": "今日が運が良いみたいで宝くじが当たったんだ。",
     "answer": "It seems like I am lucky today. I won a lottery.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e491d6d3-7e9a-4686-88a5-a1ae308269ef",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

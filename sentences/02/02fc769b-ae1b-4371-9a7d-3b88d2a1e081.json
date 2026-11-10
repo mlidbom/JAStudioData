@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-61a22cdd6174493c79c09b21fc2b37a5748d850179331aea71f5a83a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-61a22cdd6174493c79c09b21fc2b37a5748d850179331aea71f5a83a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "泥"
@@ -317,11 +325,12 @@
     "question": "「おい、ちょっと待て！お前今、床に泥を付けただろ？」「えっ！泥なんて付けてませんよ。私のうんこなら付けましたが。」",
     "answer": "\"Hey, hold on! Did you just get mud on the floor?\" \"Oh! It’s not mud. It’s actually my poop.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "02fc769b-ae1b-4371-9a7d-3b88d2a1e081",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

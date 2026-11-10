@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9be295d7660db1c6b1d38f2e381d7afef2eaa41312d8fb4d31f7eeec.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9be295d7660db1c6b1d38f2e381d7afef2eaa41312d8fb4d31f7eeec.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "昼寝"
@@ -135,11 +143,12 @@
     "question": "コウイチはただ今昼寝中です。おかけになって少々お待ちください。",
     "answer": "Koichi is napping at the moment. Please be seated and wait for a moment. ",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fd784a5b-4be0-4f26-b992-fd081b2b6a38",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

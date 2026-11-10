@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8f4d4344d231ac3366cd03fb31485b1675cd88c87c72a12e9e4aba10.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8f4d4344d231ac3366cd03fb31485b1675cd88c87c72a12e9e4aba10.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "手紙"
@@ -79,11 +87,12 @@
     "question": "それは、父からの手紙です。",
     "answer": "It is a letter from my father.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9f299a7e-9994-459a-b3cb-1699e3a1afef",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

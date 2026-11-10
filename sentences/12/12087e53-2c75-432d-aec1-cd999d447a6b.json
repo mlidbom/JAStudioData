@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7cdca931a95973c69e34aa9291f183f8e1a4156dee46e89240e84174.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7cdca931a95973c69e34aa9291f183f8e1a4156dee46e89240e84174.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "休み"
@@ -135,11 +143,12 @@
     "question": "ご主人のお休みはいつですか？",
     "answer": "When is your husband's day off?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "12087e53-2c75-432d-aec1-cd999d447a6b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -20,9 +20,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-30481b7e5c74db296a87cbd4c51fb7f75e25ff57f41761fd57c0ba42.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-30481b7e5c74db296a87cbd4c51fb7f75e25ff57f41761fd57c0ba42.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "ギルティ",
@@ -32,8 +38,7 @@
   "sentenceCount": 1,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -57,7 +62,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "129caf15-806b-4ead-bd26-a284327abc2a",
   "tags": [

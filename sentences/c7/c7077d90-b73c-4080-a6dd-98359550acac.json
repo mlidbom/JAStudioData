@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fe25233ee823c5ca5e761e0bbd378cb14766fad62799756b99c6debe.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fe25233ee823c5ca5e761e0bbd378cb14766fad62799756b99c6debe.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "費用"
@@ -121,11 +129,12 @@
     "question": "日本では引っ越し費用って大体どれくらいなの？",
     "answer": "Roughly how much is the cost of moving in Japan?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c7077d90-b73c-4080-a6dd-98359550acac",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

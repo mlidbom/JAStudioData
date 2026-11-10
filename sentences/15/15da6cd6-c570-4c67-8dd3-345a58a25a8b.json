@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cd738787c2959ef88d3679a0b330a76440a1adc9ea0a418cf9f1859b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cd738787c2959ef88d3679a0b330a76440a1adc9ea0a418cf9f1859b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "短刀"
@@ -79,11 +87,12 @@
     "question": "その短刀、どこで買ったの？",
     "answer": "Where did you buy that tanto?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "15da6cd6-c570-4c67-8dd3-345a58a25a8b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

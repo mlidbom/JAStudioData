@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9efd3d448e83246d2b5490ac7e8a1cb6ddb5b0b8929b204ca4824788.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9efd3d448e83246d2b5490ac7e8a1cb6ddb5b0b8929b204ca4824788.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "美人"
@@ -219,11 +227,12 @@
     "question": "電話番号をきく時、「あなた美人ですね」ってどうしても言えなかったんだよ。",
     "answer": "When I asked for her phone number, I just couldn't say, \"You're a beautiful woman.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7ba24b67-8a01-4eb4-8934-5391e7c95f68",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

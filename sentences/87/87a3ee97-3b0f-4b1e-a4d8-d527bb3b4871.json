@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-69156b9e2d0272e1aece3f2bbfd8de30d50cb487073f5657c570f00f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-69156b9e2d0272e1aece3f2bbfd8de30d50cb487073f5657c570f00f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "以外"
@@ -72,11 +80,12 @@
     "question": "ビール以外のアルコール下さい。",
     "answer": "Please give me some alcohol other than beer.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "87a3ee97-3b0f-4b1e-a4d8-d527bb3b4871",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

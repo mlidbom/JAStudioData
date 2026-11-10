@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0b874544a4eb9c1355d0297a31a9a2f59bdeaa3e7ae60da773c4b42b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0b874544a4eb9c1355d0297a31a9a2f59bdeaa3e7ae60da773c4b42b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "西暦"
@@ -121,11 +129,12 @@
     "question": "昭和は西暦何年に終わったんですか？",
     "answer": "What year in the Western calendar did the Showa era end?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "abd4b826-083f-4d53-a407-3c08b984d565",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

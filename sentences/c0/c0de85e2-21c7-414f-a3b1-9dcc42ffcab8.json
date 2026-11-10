@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-58899c6efaa5351290fb4bead77a84f64aeec9e42a81c522a4841771.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-58899c6efaa5351290fb4bead77a84f64aeec9e42a81c522a4841771.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "別の"
@@ -128,11 +136,12 @@
     "question": "姉は私とは別の母から生まれた子です。",
     "answer": "My sister was born from another mother.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c0de85e2-21c7-414f-a3b1-9dcc42ffcab8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

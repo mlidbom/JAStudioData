@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ee8caff5c86bf248467a1914fd1cca47e5c8a3c8546078895b489258.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ee8caff5c86bf248467a1914fd1cca47e5c8a3c8546078895b489258.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "約束"
@@ -93,11 +101,12 @@
     "question": "うん、分かった。約束する！",
     "answer": "Sure, understood. I promise!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8121da70-38d3-474d-80d1-1e9b6875f169",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

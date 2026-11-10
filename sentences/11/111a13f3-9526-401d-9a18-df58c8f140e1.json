@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-64847f7ac3065f3534d323174925b705ec19c928500316bf3beda550.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-64847f7ac3065f3534d323174925b705ec19c928500316bf3beda550.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "小説"
@@ -107,11 +115,12 @@
     "question": "あなたの一番好きな小説は何ですか？",
     "answer": "What is your favorite novel?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "111a13f3-9526-401d-9a18-df58c8f140e1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

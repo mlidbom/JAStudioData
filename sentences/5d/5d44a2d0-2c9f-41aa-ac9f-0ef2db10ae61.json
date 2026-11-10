@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c188c49eaa9276b85834a0cd580fd81b29c6a3e68d759c379888f282.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c188c49eaa9276b85834a0cd580fd81b29c6a3e68d759c379888f282.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "獣"
@@ -65,11 +73,12 @@
     "question": "獣がワナにかかったぞ！",
     "answer": "The beast was caught in the trap!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5d44a2d0-2c9f-41aa-ac9f-0ef2db10ae61",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

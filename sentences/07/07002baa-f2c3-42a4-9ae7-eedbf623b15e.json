@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b72330a1f4ae9e8986e51a83314d19d554ff310c9a9a88b25e534146.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b72330a1f4ae9e8986e51a83314d19d554ff310c9a9a88b25e534146.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "経路"
@@ -198,11 +206,12 @@
     "question": "事前にGoogleマップで目的地までの経路をチェックしておいてくださいね！",
     "answer": "Be sure to check the route to your destination in advance using Google Maps!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "07002baa-f2c3-42a4-9ae7-eedbf623b15e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

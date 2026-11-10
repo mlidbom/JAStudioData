@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-16a4eb1b836ff2df4ccbe1ce934383818c9bdd1492d4d4558e2a81d4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-16a4eb1b836ff2df4ccbe1ce934383818c9bdd1492d4d4558e2a81d4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "性格"
@@ -100,11 +108,12 @@
     "question": "うちの子はおっとりした性格です。",
     "answer": "My child has a calm personality.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6f273e77-508d-4ddc-887c-e3607fc4c025",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

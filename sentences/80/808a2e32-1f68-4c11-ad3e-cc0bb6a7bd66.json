@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-91c87bb140f5227681ca6d2057dcc0319122ffedda8179f2e135a175.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-91c87bb140f5227681ca6d2057dcc0319122ffedda8179f2e135a175.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "想像する"
@@ -135,11 +143,12 @@
     "question": "そのシーンを想像してみてください。",
     "answer": "Please try to imagine that scene.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "808a2e32-1f68-4c11-ad3e-cc0bb6a7bd66",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9ed45f14c21e6debfa99368a4895cfa2d3911a068856e38902e8caf2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9ed45f14c21e6debfa99368a4895cfa2d3911a068856e38902e8caf2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "性病"
@@ -107,11 +115,12 @@
     "question": "性病にかかってしまいました。",
     "answer": "I have contracted a sexually transmitted disease.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c37c759f-2a2b-4898-9788-461422070c27",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

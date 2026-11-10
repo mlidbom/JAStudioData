@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9f933380a4be3c4cb99bc5d797b52e418012a755f3482af1db3f708b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9f933380a4be3c4cb99bc5d797b52e418012a755f3482af1db3f708b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "男の子"
@@ -100,11 +108,12 @@
     "question": "あの元気な男の子は来年一年生だ。",
     "answer": "That energetic boy will be a first-grader next year.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "304eff1e-0956-40c0-af65-749530099d07",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

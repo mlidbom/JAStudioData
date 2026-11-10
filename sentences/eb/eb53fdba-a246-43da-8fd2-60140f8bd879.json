@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8b471d22bdd6df3894f4c79c3492a9978524cd5e3b8adff212162dfe.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8b471d22bdd6df3894f4c79c3492a9978524cd5e3b8adff212162dfe.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "回転"
@@ -86,11 +94,12 @@
     "question": "先日、回転ずし屋に出かけました。",
     "answer": "The other day, I went to a revolving sushi restaurant.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "eb53fdba-a246-43da-8fd2-60140f8bd879",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

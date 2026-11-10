@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9f6eea5076f36819f9fc6b5f7766ecfdbc3c8879c4bac5e8c18c4b62.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9f6eea5076f36819f9fc6b5f7766ecfdbc3c8879c4bac5e8c18c4b62.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "医者"
@@ -163,11 +171,12 @@
     "question": "私の医者としてのミッションは人々を元気にすることです。",
     "answer": "As a physician my mission is to make people healthy.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cae3b972-4613-46e4-a2ca-ed04a0f15cf9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

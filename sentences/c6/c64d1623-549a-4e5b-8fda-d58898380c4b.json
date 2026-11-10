@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ab6b192785b2ed840852f137e117c5b2eaa39fb832e6a83c14b202ba.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ab6b192785b2ed840852f137e117c5b2eaa39fb832e6a83c14b202ba.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "施設"
@@ -212,11 +220,12 @@
     "question": "医療施設では、医者や看護師が患者さんを診察したり看護したりします。",
     "answer": "In a medical facility, doctors and nurses examine and care for patients.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c64d1623-549a-4e5b-8fda-d58898380c4b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

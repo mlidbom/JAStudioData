@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-64903255ad41961362d4f39eb50088c0477863b1c4d7d9f67513f8a9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-64903255ad41961362d4f39eb50088c0477863b1c4d7d9f67513f8a9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一番目"
@@ -149,11 +157,12 @@
     "question": "その朝、一番目に家を出たのは兄でした。",
     "answer": "On that morning, my older brother was the first to leave the house.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fb9d2da2-c6ff-4b76-a409-cc3bd5b7098f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

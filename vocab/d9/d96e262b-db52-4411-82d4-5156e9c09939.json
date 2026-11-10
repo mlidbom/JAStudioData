@@ -33,9 +33,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-2f5dec96c194f34986aee96dc99a4c93009e4b1a6ef0c4bd90400cfc.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-2f5dec96c194f34986aee96dc99a4c93009e4b1a6ef0c4bd90400cfc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "良くない",
@@ -57,8 +63,7 @@
   "sentenceCount": 44,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -82,7 +87,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "d96e262b-db52-4411-82d4-5156e9c09939",
   "tags": [

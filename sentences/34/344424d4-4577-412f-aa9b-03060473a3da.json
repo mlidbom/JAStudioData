@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-13a6ec5b8c91acf95a876161c490126aab510733ba5e7777f79a31d4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-13a6ec5b8c91acf95a876161c490126aab510733ba5e7777f79a31d4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "何月"
@@ -72,11 +80,12 @@
     "question": "何月生まれですか？",
     "answer": "What month are you born in?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "344424d4-4577-412f-aa9b-03060473a3da",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

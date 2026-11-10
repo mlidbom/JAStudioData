@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-afa6210b086b37d6ca6028f8b3c7aa8e2ab6c7c1cf7c3ddd7f4f2336.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-afa6210b086b37d6ca6028f8b3c7aa8e2ab6c7c1cf7c3ddd7f4f2336.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "太陽"
@@ -135,11 +143,12 @@
     "question": "あっ、太陽の光が出てきましたね。",
     "answer": "Oh, the sun has come out.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5ffcd596-9ea6-4fba-88eb-3495f25cb706",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9797c36b53c99df0ddfaf1f889e27c10d53337e3f3ab3223265632f2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9797c36b53c99df0ddfaf1f889e27c10d53337e3f3ab3223265632f2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "悪霊"
@@ -261,11 +269,12 @@
     "question": "悪霊がいると聞いたので、トンネルの中ではスピードを上げて運転しました。",
     "answer": "She drove speeding through the tunnel because she heard there was an evil spirit in there.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a242bbbb-67fd-4b2d-9847-54f264d335d2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

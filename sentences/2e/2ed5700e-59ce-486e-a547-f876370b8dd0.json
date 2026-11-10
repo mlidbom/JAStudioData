@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fa42d105204a142e191373aee70f4f1f678af06418bd9306a89e5a0b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fa42d105204a142e191373aee70f4f1f678af06418bd9306a89e5a0b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "斎場",
@@ -115,11 +123,12 @@
     "question": "ちょうど斎場に到着するところです。",
     "answer": "We’re about to arrive at the funeral hall.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2ed5700e-59ce-486e-a547-f876370b8dd0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

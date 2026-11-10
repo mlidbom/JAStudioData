@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7f6f735975c2357142580e85c11b69a8bd9fcbb82b5ed580e75d8db6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7f6f735975c2357142580e85c11b69a8bd9fcbb82b5ed580e75d8db6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "召し上がる"
@@ -86,11 +94,12 @@
     "question": "もしよければお召し上がり下さい。",
     "answer": "Please eat if you’d like.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e34e75b4-5b49-4d03-ba2f-c42731a10c3c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

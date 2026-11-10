@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-252d0047c20b8fd4ef703701c6b731c67ce37d3e1e22d7bb6c7ec669.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-252d0047c20b8fd4ef703701c6b731c67ce37d3e1e22d7bb6c7ec669.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "位置"
@@ -177,11 +185,12 @@
     "question": "子供じゃないんだから、使った物はちゃんと元の位置に戻そうよ。",
     "answer": "You're not a child, so you should put the things you've used back in their proper place.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ce303593-f85b-4224-a71c-83f4f0f2aad4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

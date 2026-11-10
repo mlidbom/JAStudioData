@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fd70cb2bf6987ec830ab9df8c752d60feaa60519cc88f9968e5976ce.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fd70cb2bf6987ec830ab9df8c752d60feaa60519cc88f9968e5976ce.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "老齢"
@@ -233,11 +241,12 @@
     "question": "日本の老齢年金の仕組みについてご説明してもらえませんでしょうか。",
     "answer": "Could you please explain the structure of Japan’s old-age pension to me?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d7ff7301-1312-4479-be06-67bcf8d4db0b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

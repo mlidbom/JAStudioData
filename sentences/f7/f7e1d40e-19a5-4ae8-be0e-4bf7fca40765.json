@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3b333a9030da1f367a546b8d72f5abd5e9e12b451cb1fa06c4acd2be.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3b333a9030da1f367a546b8d72f5abd5e9e12b451cb1fa06c4acd2be.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "送る"
@@ -86,11 +94,12 @@
     "question": "さっきのビデオ、LINEで送るね。",
     "answer": "I'll send you the video from earlier via LINE.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f7e1d40e-19a5-4ae8-be0e-4bf7fca40765",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

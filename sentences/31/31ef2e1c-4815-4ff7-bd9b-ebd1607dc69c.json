@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-68e975db1bebcd293710dcd6464d1ae1e12731044783832eec81e3ea.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-68e975db1bebcd293710dcd6464d1ae1e12731044783832eec81e3ea.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "迷惑"
@@ -212,11 +220,12 @@
     "question": "日本語が下手なので、あなたに迷惑をかけてしまうかもしれません。",
     "answer": "I am bad at Japanese, so I might be an inconvenience to you.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "31ef2e1c-4815-4ff7-bd9b-ebd1607dc69c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

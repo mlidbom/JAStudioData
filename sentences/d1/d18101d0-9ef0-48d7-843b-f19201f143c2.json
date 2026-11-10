@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-634a1b4e1c6c1a9e89ef81b7995293933b129188d504eb267dde4ff5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-634a1b4e1c6c1a9e89ef81b7995293933b129188d504eb267dde4ff5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "言う"
@@ -121,11 +129,12 @@
     "question": "スタッフは「ありがとうございました」と、言う。",
     "answer": "The staff says, \"Thank you.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d18101d0-9ef0-48d7-843b-f19201f143c2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

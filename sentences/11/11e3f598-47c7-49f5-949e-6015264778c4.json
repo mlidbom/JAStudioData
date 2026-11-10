@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6f2c3182d1d4444145e0d8ba92094a9086531e81b8544152b090808b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6f2c3182d1d4444145e0d8ba92094a9086531e81b8544152b090808b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "足りる"
@@ -86,11 +94,12 @@
     "question": "十キログラムで足りるかな。",
     "answer": "I wonder if ten kilograms is enough.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "11e3f598-47c7-49f5-949e-6015264778c4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-09c52d1e5b4df8e941327bf120ba2dedde6b31f8e44117c4927bef21.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-09c52d1e5b4df8e941327bf120ba2dedde6b31f8e44117c4927bef21.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "見える"
@@ -79,11 +87,12 @@
     "question": "ここから火山が見える。",
     "answer": "The volcano is visible from here.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "49d34f84-93d9-4160-b0c5-dd4659ab0ca0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

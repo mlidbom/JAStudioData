@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b8bc530ae18b6d9fbff748866cf15e7f6f4a03f7664cac78524ed740.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b8bc530ae18b6d9fbff748866cf15e7f6f4a03f7664cac78524ed740.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大衆"
@@ -121,11 +129,12 @@
     "question": "もっと大衆の声に耳をかたむけてください。",
     "answer": "Please listen closely to the voice of the general public.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d94f70cb-a5b5-4f38-a5da-b6928629e2b7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

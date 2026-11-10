@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9f3b204beb2c2f82a86292a07a5293d3ab69eb9a70980c5ac282ec6c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9f3b204beb2c2f82a86292a07a5293d3ab69eb9a70980c5ac282ec6c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "中毒"
@@ -86,11 +94,12 @@
     "question": "彼女は薬物中毒のリハビリ中です。",
     "answer": "She's undergoing rehab for drug addiction.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ee6ccfe8-538e-4a56-9999-f36ec1f56232",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

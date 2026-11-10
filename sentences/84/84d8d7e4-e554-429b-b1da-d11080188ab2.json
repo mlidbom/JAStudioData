@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c51eb62abc4122efb568e6e76623e64fea5a0535c013c62559168fb6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c51eb62abc4122efb568e6e76623e64fea5a0535c013c62559168fb6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "殿堂"
@@ -163,11 +171,12 @@
     "question": "東大は学問の殿堂と言われています。",
     "answer": "The University of Tokyo is said to be a sanctuary of learning.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "84d8d7e4-e554-429b-b1da-d11080188ab2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

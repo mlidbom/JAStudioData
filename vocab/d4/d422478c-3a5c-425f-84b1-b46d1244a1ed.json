@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-a07878930c6820a1eb303c978e195b133445f58f9e84aa22b8034232.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-a07878930c6820a1eb303c978e195b133445f58f9e84aa22b8034232.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "思っても見なかった",
@@ -40,8 +46,7 @@
   "sentenceCount": 10,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -65,7 +70,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "d422478c-3a5c-425f-84b1-b46d1244a1ed",
   "tags": [

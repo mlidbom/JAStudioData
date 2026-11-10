@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ce3bf557afcadccd00f644c084d55c860150f7b5f85fa90ae2257cda.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ce3bf557afcadccd00f644c084d55c860150f7b5f85fa90ae2257cda.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "要求"
@@ -135,11 +143,12 @@
     "question": "学生たちは先生に試験のやり方の見直しを要求した。",
     "answer": "The students requested the teacher to review the exam method.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b2a70de7-0385-485b-a6ea-73556f6df312",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e9b8d2bed56e2495a99d412ff0a41ffee9c4389e10205003e2c5664b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e9b8d2bed56e2495a99d412ff0a41ffee9c4389e10205003e2c5664b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "原因"
@@ -79,11 +87,12 @@
     "question": "ケンカの原因は何ですか？",
     "answer": "What is the cause of the fight?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "366290b7-ae03-43cd-83f9-aa22af6d21be",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

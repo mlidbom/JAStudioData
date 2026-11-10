@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d01cc5ebf9c31aa45ad572124aa3630eb197e02b2830b926edf207b0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d01cc5ebf9c31aa45ad572124aa3630eb197e02b2830b926edf207b0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "船体"
@@ -177,11 +185,12 @@
     "question": "全ての船体を直すのには、少なくても一年かかります。",
     "answer": "It takes at least a year to fix all of the hulls.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "53446afd-ffa9-455e-b835-69a83b5db3b4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-50ad72196ed1a990cba843ddc3a411ac98a1626eab2aea4c5311caf8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-50ad72196ed1a990cba843ddc3a411ac98a1626eab2aea4c5311caf8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "宝石"
@@ -93,11 +101,12 @@
     "question": "これは母の大切な宝石です。",
     "answer": "This is my mother's prized jewel.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7f205749-d43b-455d-acbd-937704faa555",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

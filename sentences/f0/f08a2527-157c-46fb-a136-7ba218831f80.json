@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1edfea3d14dcd19544d7b500ee47fe032a4ef5fc75d159fa034ea8cc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1edfea3d14dcd19544d7b500ee47fe032a4ef5fc75d159fa034ea8cc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "解く"
@@ -149,11 +157,12 @@
     "question": "パズルを解くのが好きなんです。",
     "answer": "I like solving puzzles.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f08a2527-157c-46fb-a136-7ba218831f80",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c7056864978f070baf612f12a057633ec0c094afefd2684feee7777a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c7056864978f070baf612f12a057633ec0c094afefd2684feee7777a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "変更"
@@ -121,11 +129,12 @@
     "question": "パスワードの変更をしてください。",
     "answer": "Please change your password.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c86d543c-b4e5-4aa5-b601-e83a6c0c2397",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

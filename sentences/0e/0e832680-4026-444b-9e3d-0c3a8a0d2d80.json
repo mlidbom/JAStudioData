@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c8c841b7a2658f8e14dc04b0354b5c727fb3d066f4478688dcb1ef48.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c8c841b7a2658f8e14dc04b0354b5c727fb3d066f4478688dcb1ef48.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "〜階"
@@ -198,11 +206,12 @@
     "question": "「何階ですか？」「四階をおねがいします。」「このエレベーターは四階には止まりませんよ。」",
     "answer": "\"Which floor?\" \"Fourth please.\" \"This elevator doesn't stop on the fourth floor.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0e832680-4026-444b-9e3d-0c3a8a0d2d80",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

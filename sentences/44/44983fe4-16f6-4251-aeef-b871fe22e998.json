@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dae07901cebd9d6559a5fb41454d7b10d1e784426733d424b52c4add.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dae07901cebd9d6559a5fb41454d7b10d1e784426733d424b52c4add.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "採用"
@@ -149,11 +157,12 @@
     "question": "教師はどの教科書を採用するかを迷っていた。",
     "answer": "The teacher was having trouble deciding which textbook to use. ",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "44983fe4-16f6-4251-aeef-b871fe22e998",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

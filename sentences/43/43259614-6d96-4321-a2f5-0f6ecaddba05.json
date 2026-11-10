@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a1a784d3fb3b8fd39fa54e31939c18070b837687560acaef9edd97da.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a1a784d3fb3b8fd39fa54e31939c18070b837687560acaef9edd97da.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "機械"
@@ -100,11 +108,12 @@
     "question": "それはなんの機械ですか？",
     "answer": "What kind of machine is that?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "43259614-6d96-4321-a2f5-0f6ecaddba05",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

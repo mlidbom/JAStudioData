@@ -29,9 +29,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "[sound:hypertts-35bb66a7cb2f11eb33b7200159777abb2715a5ad0a755843fdb016a9.mp3]",
-  "audioG": "",
-  "audioTTS": "",
+  "audio": [
+    {
+      "fileName": "hypertts-35bb66a7cb2f11eb33b7200159777abb2715a5ad0a755843fdb016a9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "せられる",
@@ -41,8 +47,7 @@
   "sentenceCount": 11,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {
       "yieldLastTokenToOverlappingCompound": "forbidden"
@@ -73,7 +78,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "b0861859-3edd-451e-a8d8-e1e9624fd4d3",
   "tags": [

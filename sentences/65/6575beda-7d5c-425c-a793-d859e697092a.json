@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-792294099f5c2d85de73df8d0a64dd1ee535d4c7cb34554b17aa5b04.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-792294099f5c2d85de73df8d0a64dd1ee535d4c7cb34554b17aa5b04.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "伸びる"
@@ -72,11 +80,12 @@
     "question": "この生地はよく伸びますね。",
     "answer": "This material stretches well.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6575beda-7d5c-425c-a793-d859e697092a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

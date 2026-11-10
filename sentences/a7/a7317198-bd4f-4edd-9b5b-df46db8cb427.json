@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-20197434b2dfa5e08c8f7ac2aad289a7ddb9cabda122d3f879660a84.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-20197434b2dfa5e08c8f7ac2aad289a7ddb9cabda122d3f879660a84.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "歯医者"
@@ -79,11 +87,12 @@
     "question": "今日は二時から歯医者です。",
     "answer": "I have a dentist appointment at two o'clock today.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a7317198-bd4f-4edd-9b5b-df46db8cb427",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

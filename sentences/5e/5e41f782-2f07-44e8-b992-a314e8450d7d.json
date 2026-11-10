@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0dd39c1e1269f13c3ea4b26c1de76b694ccf850732a47c88fa4027cf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0dd39c1e1269f13c3ea4b26c1de76b694ccf850732a47c88fa4027cf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "血"
@@ -121,11 +129,12 @@
     "question": "父は、私と血がつながってません。",
     "answer": "My father is not related to me by blood.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5e41f782-2f07-44e8-b992-a314e8450d7d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

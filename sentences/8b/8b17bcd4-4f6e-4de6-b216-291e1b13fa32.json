@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-57d0bc75b6e7404f11dce332dbe153686a1b2a73125cd2c997a9c835.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-57d0bc75b6e7404f11dce332dbe153686a1b2a73125cd2c997a9c835.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "急行"
@@ -142,11 +150,12 @@
     "question": "京都行き急行は三番乗り場から出るみたいだよ。",
     "answer": "It seems like the express train bound for Kyoto departs from platform three.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8b17bcd4-4f6e-4de6-b216-291e1b13fa32",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-68bd4fe56f5efe639b0bfce42abc2c2764f25ea1f92423859073d750.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-68bd4fe56f5efe639b0bfce42abc2c2764f25ea1f92423859073d750.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "息"
@@ -149,11 +157,12 @@
     "question": "びっくりしすぎて、息が止まるかと思ったよ。",
     "answer": "You knocked the breath out of me!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e30337b6-3faf-48d8-9eb7-e6347c531757",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

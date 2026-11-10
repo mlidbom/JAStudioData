@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-42c216fde2eb9c1fde851b0b79e654b6c2d3d6b30b34203ee3eb3276.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-42c216fde2eb9c1fde851b0b79e654b6c2d3d6b30b34203ee3eb3276.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "営業"
@@ -205,11 +213,12 @@
     "question": "ああ、あのメイドカフェは今日は営業してるよ。どの子に会いに来たの？\t",
     "answer": "Yes! That maid cafe is open for business today. Which girl are you going to see?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1769aab3-022f-431c-908c-d56b26d99e85",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

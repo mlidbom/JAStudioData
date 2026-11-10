@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-52a1a5df4ac187a1144e8db70bae537af41149fc5f04492ca9d60c4c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-52a1a5df4ac187a1144e8db70bae537af41149fc5f04492ca9d60c4c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "比率"
@@ -93,11 +101,12 @@
     "question": "それってGDP比率の何パーセントぐらいですか？",
     "answer": "Approximately what percentage of GDP is that?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cbad324e-24d0-474f-8c90-9211c9882376",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

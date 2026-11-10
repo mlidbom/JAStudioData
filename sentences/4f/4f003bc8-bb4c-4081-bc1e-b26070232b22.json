@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b1fa5bcc20dd31d74f66c76ce001b791062d711ad3133e164e64d7e2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b1fa5bcc20dd31d74f66c76ce001b791062d711ad3133e164e64d7e2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "止まる"
@@ -86,11 +94,12 @@
     "question": "この白いラインで車が止まる。",
     "answer": "Cars stop at this white line.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4f003bc8-bb4c-4081-bc1e-b26070232b22",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-81d517ec5a4d35d1c63eb3c025603a87b80417818008f7ff3e21c898.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-81d517ec5a4d35d1c63eb3c025603a87b80417818008f7ff3e21c898.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "結婚する"
@@ -427,11 +435,12 @@
     "question": "お前、もう元カノについて考えるのはよした方がいいぞ。特に、サーモンのお父さんに彼女と結婚していいかどうか聞いて、許しも得ちまったんだからな。",
     "answer": "You’ve gotta stop thinking about your ex-girlfriend, especially because you asked Salmon’s dad if you could marry her and he said yes.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "77bbc2c5-9813-47a2-9260-c68d124b5c97",
   "tags": [
-    "_tts_audio",
     "-::sentence::uses::incorrect-matches",
     "source::wani::current"
   ]

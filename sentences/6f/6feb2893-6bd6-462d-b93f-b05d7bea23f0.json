@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9771766d7eed84c0caec9ee81d4ae4f49f16f515e8bebdfd031bb7bb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9771766d7eed84c0caec9ee81d4ae4f49f16f515e8bebdfd031bb7bb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "狭める"
@@ -170,11 +178,12 @@
     "question": "この部屋を狭めて、バスルームを広くするつもりなんです。",
     "answer": "I plan to narrow down this room and make the bathroom larger.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6feb2893-6bd6-462d-b93f-b05d7bea23f0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

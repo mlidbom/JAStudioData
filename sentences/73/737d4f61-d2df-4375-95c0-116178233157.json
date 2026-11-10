@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c1f8b23fffa0b703b46ccd095269fc9d3a06601f1e1312b0e991bbbf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c1f8b23fffa0b703b46ccd095269fc9d3a06601f1e1312b0e991bbbf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "恋人"
@@ -163,11 +171,12 @@
     "question": "恋人は今までいたことがありません。",
     "answer": "I have never had a girlfriend before.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "737d4f61-d2df-4375-95c0-116178233157",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

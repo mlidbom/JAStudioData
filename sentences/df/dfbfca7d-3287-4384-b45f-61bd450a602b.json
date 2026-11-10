@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a223cf8667d8015f9048a78f36a217d1c2a54de95d169f08c9c2ade5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a223cf8667d8015f9048a78f36a217d1c2a54de95d169f08c9c2ade5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "三百"
@@ -135,11 +143,12 @@
     "question": "一年は三百六十五日です。",
     "answer": "One year is three hundred and sixty-five days.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dfbfca7d-3287-4384-b45f-61bd450a602b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

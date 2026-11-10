@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3ee3f57b4445d006fa164050d7ef32545f69dcdb53d1fbe4c9c7429d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3ee3f57b4445d006fa164050d7ef32545f69dcdb53d1fbe4c9c7429d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "形容詞"
@@ -205,11 +213,12 @@
     "question": "え、「キレイ」って「い形容詞」じゃなくて「な形容詞」なんですか？",
     "answer": "What, \"kirei\" is not an \"i-adjective\", but a \"na-adjective\"?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "780311f4-b99e-4349-b095-46ac4e5aaeba",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

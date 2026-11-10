@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bb35c7b864e8c969a69fcd01f804759b5a44a0a06c52747dab993465.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bb35c7b864e8c969a69fcd01f804759b5a44a0a06c52747dab993465.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "乗り換える"
@@ -233,11 +241,12 @@
     "question": "どこでどのバスに乗り換えれば金閣寺に着くのか、奥へ行ってカウンターのところで聞いてみよう！",
     "answer": "Let's go in and ask at the counter which buses to get and where to transfer to get to Kinkakuji Temple!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b2d77ac4-1488-4cd4-a297-f8b53dfe5b32",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

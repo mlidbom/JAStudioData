@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e1190d6cb366a27d33bc72395cc5e138c1d1fd564db3cade346646d1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e1190d6cb366a27d33bc72395cc5e138c1d1fd564db3cade346646d1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "効く"
@@ -128,11 +136,12 @@
     "question": "コウイチの昨日のお説教がマイケルに効いたみたいです。",
     "answer": "It seems that Koichi's ear-bashing yesterday was effective for Michael.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "eda595a3-b8d7-42a0-8cc6-ecb586617bce",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

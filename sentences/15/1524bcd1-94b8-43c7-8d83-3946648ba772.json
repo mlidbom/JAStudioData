@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5d4148ee213ea70c774acc5f1137996ec1308d7ee2e6cbeedde2f961.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5d4148ee213ea70c774acc5f1137996ec1308d7ee2e6cbeedde2f961.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "絞殺"
@@ -156,11 +164,12 @@
     "question": "しかし、犯人は絞殺死体となって海岸で発見された。",
     "answer": "However, the culprit was found strangled to death on the beach.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1524bcd1-94b8-43c7-8d83-3946648ba772",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

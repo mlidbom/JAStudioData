@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-80364b7d5499b1518fd0d99cbc0adc3bd6d399810b8289a46c73c948.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-80364b7d5499b1518fd0d99cbc0adc3bd6d399810b8289a46c73c948.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "七"
@@ -79,11 +87,12 @@
     "question": "七カラットのダイアモンドを下さい。",
     "answer": "I would like a seven-carat diamond.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4c4207a2-23b5-48fe-ba9b-91ce9e567288",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

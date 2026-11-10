@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d44bdae16f3094cdc762d6bd7e2f23473b21fd08eb567f21663d95ff.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d44bdae16f3094cdc762d6bd7e2f23473b21fd08eb567f21663d95ff.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "蚊帳"
@@ -121,11 +129,12 @@
     "question": "十人用の大きな蚊帳はありますか？",
     "answer": "Do you have a mosquito net big enough for ten people?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "920ee614-c472-4ff4-869f-2a1323a5b259",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

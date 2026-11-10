@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c14107d0ac11bf12b9daf86461ba1cc59902c1be952dfadb2207efdb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c14107d0ac11bf12b9daf86461ba1cc59902c1be952dfadb2207efdb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "喫煙"
@@ -191,11 +199,12 @@
     "question": "トーフグの社員には、喫煙する人が一人もいません。",
     "answer": "None of Tofugu's employees smoke.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "13dc90f1-9a32-41d5-a676-d35510f43b88",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

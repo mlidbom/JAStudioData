@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-74ff518b229ed23f3619fce7875225b5e49aeb4eac4ae38716b5de97.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-74ff518b229ed23f3619fce7875225b5e49aeb4eac4ae38716b5de97.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "替える"
@@ -128,11 +136,12 @@
     "question": "お父さんに電球を替えるようにもう頼んだよ。",
     "answer": "I already asked dad to change the bulb.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "17a04933-b2cc-453e-99ec-32e2c812eb39",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

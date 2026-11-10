@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e037be2d9f63610eb08099ba32e2d7a6fd53d312cdd21d91b22797cc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e037be2d9f63610eb08099ba32e2d7a6fd53d312cdd21d91b22797cc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鹿児島県"
@@ -212,11 +220,12 @@
     "question": "鹿児島県で、今までで運転した中で一番デッコボコの道路をドライブしました。",
     "answer": "I drove on the most bumpy road I’ve ever driven on in Kagoshima Prefecture.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "42433317-2dee-449b-9ee2-fcbd20d34bcd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

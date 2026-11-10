@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f58e88b8c27c109e86c72fd338e00c974d08521bd677c96500004eb7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f58e88b8c27c109e86c72fd338e00c974d08521bd677c96500004eb7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "不明"
@@ -72,11 +80,12 @@
     "question": "このホテルは、オーナーが不明です。",
     "answer": "The owner of this hotel is unknown.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "92fe059f-bcb5-4b44-b444-09a24f60c8b9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

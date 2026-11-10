@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-735ea8a94645fa912b6b52e14caaf96b4d74c6f4741c67dae162490f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-735ea8a94645fa912b6b52e14caaf96b4d74c6f4741c67dae162490f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "テーブルの上"
@@ -128,11 +136,12 @@
     "question": "さっき、テーブルの上をきれいにしたよ。",
     "answer": "I cleaned the table earlier.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "080f8323-a574-4be2-b847-3f79338101b6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

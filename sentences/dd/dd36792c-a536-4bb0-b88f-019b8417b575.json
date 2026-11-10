@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-786284d0f8978a54f8ed90dc63f15cee64cca35b40e7a4a38d5ae19b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-786284d0f8978a54f8ed90dc63f15cee64cca35b40e7a4a38d5ae19b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "施行"
@@ -142,11 +150,12 @@
     "question": "その法律は来月五日に施行される予定です。",
     "answer": "The law is scheduled to take effect on the fifth of next month.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dd36792c-a536-4bb0-b88f-019b8417b575",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

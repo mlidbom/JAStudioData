@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1fe8f9654729fcd4f1d0d5bcc36d2b217379b44f16f66d18d21825dc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1fe8f9654729fcd4f1d0d5bcc36d2b217379b44f16f66d18d21825dc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "蒸れる"
@@ -184,11 +192,12 @@
     "question": "この靴、可愛いんだけど、足が蒸れて臭うんだよね。",
     "answer": "These shoes look cute, but they make my feet sweaty and stinky.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c7795e53-95b5-42b4-9742-57dad64c2994",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

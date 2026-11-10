@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d42d05d4da849706b62dd2f4a7fe27ffb7a8ce88db99fd0575832be2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d42d05d4da849706b62dd2f4a7fe27ffb7a8ce88db99fd0575832be2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "私立大学"
@@ -107,11 +115,12 @@
     "question": "私立大学の学生は外国人も多いです。",
     "answer": "Private universities have many foreign students as well.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0b5a0b83-64d3-4306-a038-27cd14179be1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

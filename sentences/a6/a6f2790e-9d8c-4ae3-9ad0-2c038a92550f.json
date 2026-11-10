@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9e61ef6e4b61f084f692af77db86c5155124b2fbf2d76e2121a1e38a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9e61ef6e4b61f084f692af77db86c5155124b2fbf2d76e2121a1e38a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "電話"
@@ -107,11 +115,12 @@
     "question": "それ、正しい電話番号ではないよ。",
     "answer": "That's not the right phone number.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a6f2790e-9d8c-4ae3-9ad0-2c038a92550f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

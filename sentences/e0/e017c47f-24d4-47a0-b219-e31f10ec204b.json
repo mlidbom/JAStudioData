@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ccd1c54eb5a908eb770b4baac3c1562ec3c3568680fa2f2b5ae97428.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ccd1c54eb5a908eb770b4baac3c1562ec3c3568680fa2f2b5ae97428.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "否定"
@@ -149,11 +157,12 @@
     "question": "その女優はダイエット中であることを否定した。",
     "answer": "The actress denied that she was on a diet.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e017c47f-24d4-47a0-b219-e31f10ec204b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

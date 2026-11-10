@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5b5d89be03d97f21d452e57648c680fa339cd949228b8967fe7d0a3c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5b5d89be03d97f21d452e57648c680fa339cd949228b8967fe7d0a3c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "周囲"
@@ -184,11 +192,12 @@
     "question": "コウイチは周囲の目を気にしながら黒いビルに入っていきました。",
     "answer": "Koichi went into a black building, cautious of his surroundings.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cd52aab8-3b67-4698-b2ef-0476af4f6787",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

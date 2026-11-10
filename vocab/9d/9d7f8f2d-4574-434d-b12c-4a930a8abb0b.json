@@ -32,9 +32,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-86e3f767f4f4e881de8f7187676be84cd478ebefdf37876b69ea9942.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-86e3f767f4f4e881de8f7187676be84cd478ebefdf37876b69ea9942.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "うぐらいなら",
@@ -44,8 +50,7 @@
   "sentenceCount": 5,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {
       "dictionaryFormStart": "required"
@@ -73,7 +78,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "9d7f8f2d-4574-434d-b12c-4a930a8abb0b",
   "tags": [

@@ -21,15 +21,20 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "[sound:瞬き_b.mp3][sound:hypertts-085e536c3b476560eb7ffc75b3a21bf511de577a98ddbba4c0ab1179.mp3]",
-  "audioG": "[sound:瞬き_g.mp3][sound:hypertts-085e536c3b476560eb7ffc75b3a21bf511de577a98ddbba4c0ab1179.mp3]",
-  "audioTTS": "",
+  "audio": [
+    {
+      "fileName": "hypertts-085e536c3b476560eb7ffc75b3a21bf511de577a98ddbba4c0ab1179.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [],
   "sentenceCount": 2,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -53,7 +58,18 @@
   "sourceData": {
     "answer": "blink-(of-eyes)/wink | twinkling-(of-stars)/flicker-(of-light)/blink-(of-light)",
     "mnemonic": "A <kanji>blink</kanji> is a <vocabulary>blink</vocabulary> and a <vocabulary>wink</vocabulary> as well, depending on how many eyes you use.",
-    "readingMnemonic": "<vocabulary>A wink</vocabulary> is all it takes to get the \"<reading>Ma butter</reading>\" (<ja>まばた</ja>) from the store. It's hidden, and they only bring it out if you do the wink."
+    "readingMnemonic": "<vocabulary>A wink</vocabulary> is all it takes to get the \"<reading>Ma butter</reading>\" (<ja>まばた</ja>) from the store. It's hidden, and they only bring it out if you do the wink.",
+    "audio": [
+      {
+        "fileName": "瞬き_b.mp3",
+        "voiceGender": "male"
+      },
+      {
+        "fileName": "瞬き_g.mp3",
+        "voiceGender": "female"
+      }
+    ],
+    "images": []
   },
   "id": "a203b077-b055-45b9-b9e8-1427d634b84c",
   "tags": [

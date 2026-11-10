@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1e2fc584d37d02ce1e82f9b0cd334baaa4b43405c2a8935079cd229b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1e2fc584d37d02ce1e82f9b0cd334baaa4b43405c2a8935079cd229b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "新築"
@@ -205,11 +213,12 @@
     "question": "新築の方がアレルギーが出ることが多いって聞いたんですけど、本当ですか？",
     "answer": "I've heard that newly built homes tend to cause more allergies, but is that true?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fdd648f2-5152-41d3-8b11-5da1cb4972ab",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

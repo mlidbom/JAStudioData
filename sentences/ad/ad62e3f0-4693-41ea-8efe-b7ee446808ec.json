@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2180a6f321add36b24cc1aaaa3209c3b988601e0090895837cf57a8a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2180a6f321add36b24cc1aaaa3209c3b988601e0090895837cf57a8a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "旅行者"
@@ -163,11 +171,12 @@
     "question": "ユニバは海外旅行者が多いから、平日でも空いてないんだよ。",
     "answer": "Universal Studios Japan is crowded even on weekdays because there are many foreign tourists.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ad62e3f0-4693-41ea-8efe-b7ee446808ec",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

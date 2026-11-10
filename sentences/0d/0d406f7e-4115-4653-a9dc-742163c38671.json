@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-712d3cf527e1b65b8d6cd51124a6e91f25e475d5970537ac3b9b7e28.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-712d3cf527e1b65b8d6cd51124a6e91f25e475d5970537ac3b9b7e28.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "出かける"
@@ -114,11 +122,12 @@
     "question": "五月三日はどこかに出かける？",
     "answer": "Should we go out somewhere on May 3rd?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0d406f7e-4115-4653-a9dc-742163c38671",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

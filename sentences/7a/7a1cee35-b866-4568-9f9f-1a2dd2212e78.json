@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b03707e9c029911ff530528923b05db68978574eab5f5fdfba9650db.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b03707e9c029911ff530528923b05db68978574eab5f5fdfba9650db.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "完了"
@@ -79,11 +87,12 @@
     "question": "注文完了したよ！",
     "answer": "I completed the order!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7a1cee35-b866-4568-9f9f-1a2dd2212e78",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

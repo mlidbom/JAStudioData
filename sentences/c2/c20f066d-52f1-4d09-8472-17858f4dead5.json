@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8a725a99510b7269a6ff11d61c2aa4b8e48e80dac971daa082a147ab.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8a725a99510b7269a6ff11d61c2aa4b8e48e80dac971daa082a147ab.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "名所"
@@ -72,11 +80,12 @@
     "question": "この町は、花見の名所です。",
     "answer": "This town is a famous spot for cherry blossom viewing.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c20f066d-52f1-4d09-8472-17858f4dead5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0acfda2ce9efe1f2b02775a22ee99d861a2995e787800f240f790b20.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0acfda2ce9efe1f2b02775a22ee99d861a2995e787800f240f790b20.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "退屈"
@@ -191,11 +199,12 @@
     "question": "最近、仕事が単調になっちゃって、すごく退屈なんだよ。",
     "answer": "Lately, my work has become monotonous and I'm very bored.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7f2b46d0-c900-450e-babe-d6460493dcc1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

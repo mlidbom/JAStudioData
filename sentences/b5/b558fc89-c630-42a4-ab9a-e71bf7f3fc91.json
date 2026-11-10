@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6cb8af449b9aa370f5dedf07cffb6f37e626417167e8130be3caf341.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6cb8af449b9aa370f5dedf07cffb6f37e626417167e8130be3caf341.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "防水"
@@ -324,11 +332,12 @@
     "question": "この防水ブーツ、防水されているとはとても言えないな。この辺りを歩いてるだけで、足がビショビショになっちゃったよ。",
     "answer": "These waterproof boots are far from being waterproof. My feet got soaking wet from just walking around here.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b558fc89-c630-42a4-ab9a-e71bf7f3fc91",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

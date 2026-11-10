@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-925df05f6c28a25f6a228db081e357519f8cd9b24425a4657fc9de61.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-925df05f6c28a25f6a228db081e357519f8cd9b24425a4657fc9de61.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "実在"
@@ -177,11 +185,12 @@
     "question": "ワニカニの顔は、実在の人物をモデルに作られたというウワサがあります。",
     "answer": "There’s a rumor that WaniKani’s face was modeled after a real person.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3297ec46-f142-4558-abf2-c04fbeb6302d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

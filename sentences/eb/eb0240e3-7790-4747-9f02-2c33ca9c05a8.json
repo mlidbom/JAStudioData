@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d813924dbd493acbbf1d7fe8a1e7da1adb354df1b309cf7a54407384.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d813924dbd493acbbf1d7fe8a1e7da1adb354df1b309cf7a54407384.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "土"
@@ -100,11 +108,12 @@
     "question": "モグラが土に入っていった。",
     "answer": "The mole was going into the ground.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "eb0240e3-7790-4747-9f02-2c33ca9c05a8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

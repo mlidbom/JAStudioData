@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c300c6ac64a0f2a838c2191ddf16155de4f20cb51ff299c2a438ee62.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c300c6ac64a0f2a838c2191ddf16155de4f20cb51ff299c2a438ee62.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "消しゴム"
@@ -163,11 +171,12 @@
     "question": "クリスマスに、彼女に消しゴムの形のイヤリングをプレゼントしたら、フラれました。",
     "answer": "I got dumped when I gave her eraser-shaped earrings as a Christmas present.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "33a21775-f23c-4020-8d4b-bd48afdabed6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-076a880a1f6aa35b40f8cbcb03c1470d278346badd3b07e9b6eec28f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-076a880a1f6aa35b40f8cbcb03c1470d278346badd3b07e9b6eec28f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "料理"
@@ -163,11 +171,12 @@
     "question": "メニューには魚料理がたくさんございますが、みなさんどれになさいますか？",
     "answer": "There's a lot of fish on the menu. What is everyone getting?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2fd272a4-526f-45bc-a835-50a4b2f58372",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

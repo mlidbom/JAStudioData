@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-78ce5e69bfb99772849e404bb8266d9203950ab0cd77bc5fccab0a0e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-78ce5e69bfb99772849e404bb8266d9203950ab0cd77bc5fccab0a0e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "火災"
@@ -205,11 +213,12 @@
     "question": "私の父はオフィスの火災でずっと意識不明でしたが、今日ついに目を覚ましました！",
     "answer": "My father was unconscious for a long time after the fire in his office, but he finally woke up today!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ca66bea0-457d-40b1-95fb-6273d30704df",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

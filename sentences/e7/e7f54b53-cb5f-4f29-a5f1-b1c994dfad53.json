@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c020dedf9bfd70fff8358960d0fc55e3e9b3fce1cf08a38c1c094f56.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c020dedf9bfd70fff8358960d0fc55e3e9b3fce1cf08a38c1c094f56.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "俳句"
@@ -107,11 +115,12 @@
     "question": "私はよく自転車に乗りながら俳句を作ります。",
     "answer": "I often write haiku while riding my bike.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e7f54b53-cb5f-4f29-a5f1-b1c994dfad53",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dfca87c2c58a59dae10fed22e0dca2a68c764cffd82f5f82ed02dbea.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dfca87c2c58a59dae10fed22e0dca2a68c764cffd82f5f82ed02dbea.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "弓"
@@ -289,11 +297,12 @@
     "question": "弓を引くには、まず上半身を安定させなくてはいけません。",
     "answer": "You have to stabilize your upper body to draw the bow.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "be57ad3c-ff61-4096-9a9e-0d77267d9be3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

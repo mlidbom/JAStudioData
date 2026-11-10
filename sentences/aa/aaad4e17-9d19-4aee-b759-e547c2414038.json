@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-866f7305deadc2f8d7495e6109f9c3e3695411224128bd6d6b162da3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-866f7305deadc2f8d7495e6109f9c3e3695411224128bd6d6b162da3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "値段"
@@ -191,11 +199,12 @@
     "question": "この商品には値段が書かれていませんでした。",
     "answer": "There was no price written on this item.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "aaad4e17-9d19-4aee-b759-e547c2414038",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

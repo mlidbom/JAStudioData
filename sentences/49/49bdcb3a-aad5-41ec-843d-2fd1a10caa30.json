@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c38259173012d9a82012b5f9fd7a69dc8bd6ec91f081b9f9835804fc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c38259173012d9a82012b5f9fd7a69dc8bd6ec91f081b9f9835804fc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "今月"
@@ -100,11 +108,12 @@
     "question": "今月は大切なテストがあります。",
     "answer": "There's an important test this month.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "49bdcb3a-aad5-41ec-843d-2fd1a10caa30",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

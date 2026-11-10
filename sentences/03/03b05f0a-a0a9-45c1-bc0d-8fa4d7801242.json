@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-150876ac74fa8b22c1800183b176d6f7c6b012133c611012792cb577.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-150876ac74fa8b22c1800183b176d6f7c6b012133c611012792cb577.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "含む"
@@ -156,11 +164,12 @@
     "question": "水銀を含むゴミは別に分けて出してください。",
     "answer": "Please separate the trash containing mercury from the other trash.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "03b05f0a-a0a9-45c1-bc0d-8fa4d7801242",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

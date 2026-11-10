@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5eed2cc4977b9bdc904fb7f90b7597309a1b4fa94725c050053b1ceb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5eed2cc4977b9bdc904fb7f90b7597309a1b4fa94725c050053b1ceb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "極める"
@@ -142,11 +150,12 @@
     "question": "日本語を極めるのは、生易しい事ではない。",
     "answer": "It is no easy task to master the Japanese language.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7517a16e-d418-4c80-8c61-fd79914ebb24",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

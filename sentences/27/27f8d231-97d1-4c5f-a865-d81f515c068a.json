@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f0a64b9d3d8cf7cde4857f434d4ddc59cdd59c580c2c9384c93814ea.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f0a64b9d3d8cf7cde4857f434d4ddc59cdd59c580c2c9384c93814ea.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "飴"
@@ -156,11 +164,12 @@
     "question": "ドラッグストアでノド飴を買ってきてくれませんか？",
     "answer": "Can you go to the pharmacy and get me some lozenges for my throat?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "27f8d231-97d1-4c5f-a865-d81f515c068a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

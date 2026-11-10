@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fd14d37fdb08bca9aa9de938fb08fdde32c85d1602b224096e55aa47.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fd14d37fdb08bca9aa9de938fb08fdde32c85d1602b224096e55aa47.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "阿呆"
@@ -142,11 +150,12 @@
     "question": "学生の頃は、いつも阿呆なことばかりしてたな。",
     "answer": "When I was a student I only did stupid things.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "eec36533-d19a-4737-a40b-f481c5bd9ecc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

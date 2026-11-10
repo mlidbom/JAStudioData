@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2eba1ec080b89bb85fea059a8f0999a36d0b57f99fb8075941b42aa0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2eba1ec080b89bb85fea059a8f0999a36d0b57f99fb8075941b42aa0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "観光"
@@ -86,11 +94,12 @@
     "question": "観光案内のパンフレットありますか？",
     "answer": "Do you have a sightseeing brochure?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8e977240-bc5f-4c4a-a91a-cd6ea1f9a223",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

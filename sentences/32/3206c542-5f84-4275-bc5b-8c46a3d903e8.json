@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e4f41f5d2cef6991ba7de021611351f76a58a39ddfdb5554c1bc7cf1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e4f41f5d2cef6991ba7de021611351f76a58a39ddfdb5554c1bc7cf1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鳴る"
@@ -86,11 +94,12 @@
     "question": "お腹が鳴ってしまった。",
     "answer": "My stomach growled.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3206c542-5f84-4275-bc5b-8c46a3d903e8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

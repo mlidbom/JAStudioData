@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2c29b873a72aaa19423bd7a3b0ea8d642eb70b4c006c80118a42c55e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2c29b873a72aaa19423bd7a3b0ea8d642eb70b4c006c80118a42c55e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "痛める"
@@ -121,11 +129,12 @@
     "question": "スリッパでフルマラソンをしたら足首を痛めた。",
     "answer": "I ran a full marathon in slippers and injured my ankles.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b42ac695-7fe8-415a-bbfb-6deb46666dc6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-978b2bd0f6250619ca09986f97239ad6b6069350ffde768cbdf1f188.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-978b2bd0f6250619ca09986f97239ad6b6069350ffde768cbdf1f188.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "身体"
@@ -100,11 +108,12 @@
     "question": "身体は元気ですが、心はボロボロですよ。",
     "answer": "My body is fine, but my heart is tattered.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9b3fcd09-d7af-402f-aca6-c4e28feaf20a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

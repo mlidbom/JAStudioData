@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1b32a45e6c99e76afe2c23327709a99cb10b4f1162b3b5e60033a7d0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1b32a45e6c99e76afe2c23327709a99cb10b4f1162b3b5e60033a7d0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "延びる"
@@ -142,11 +150,12 @@
     "question": "上司のせいで会議が延びるのが嫌いです。",
     "answer": "I hate it when meetings are prolonged because of my boss.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "88413662-f286-412c-935a-05d02b5dc72b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

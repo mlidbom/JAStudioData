@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bf559f64bc8b3dc6067ce612fdd6ea79fd8093b1631f73b86bbb36ae.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bf559f64bc8b3dc6067ce612fdd6ea79fd8093b1631f73b86bbb36ae.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "記録"
@@ -310,11 +318,12 @@
     "question": "この本には、太平洋戦争終了後もパラオに残ることを決意した日本兵の証言が記録されています。",
     "answer": "This book contains testimonies from Japanese soldiers who decided to remain in Palau even after the Pacific War had ended.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a95d7dab-f359-4bdd-8b14-6acd8dcfe2c2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

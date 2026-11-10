@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e5b8d57196dd98485e74841d902f0e8a49b18b136e565b92cf3b1776.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e5b8d57196dd98485e74841d902f0e8a49b18b136e565b92cf3b1776.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "途中"
@@ -156,11 +164,12 @@
     "question": "昼ご飯を食べてる途中で、電話がかかってきた。",
     "answer": "I was in the middle of eating lunch when I got a phone call.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "806f532c-d177-41e3-9ef1-6ed4016a39b6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

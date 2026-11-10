@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-18c5549a067a8f17e0f9dc33ad9c165e138e42174bf69895a5c1ad9a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-18c5549a067a8f17e0f9dc33ad9c165e138e42174bf69895a5c1ad9a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "条件"
@@ -107,11 +115,12 @@
     "question": "その条件を聞いて、すっかり目が覚めたよ。",
     "answer": "Hearing those terms had me wide awake.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1e558160-cc52-4974-bbb2-48d4b7ed36dc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

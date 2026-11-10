@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-34b3f3a6f4bc427d50aabb23761e1ffe88e1c9944b9588b55485e606.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-34b3f3a6f4bc427d50aabb23761e1ffe88e1c9944b9588b55485e606.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "困る"
@@ -149,11 +157,12 @@
     "question": "車イスユーザーの方にお話を聞いて、困りごとをまとめました。",
     "answer": "I listened to wheelchair users and compiled their concerns.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "307b22b2-f6a9-4afd-abed-becb5831741f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

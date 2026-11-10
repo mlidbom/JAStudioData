@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-59911344e18138200c3295550f5c1c8e546ec0d500cd06c13f24bb97.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-59911344e18138200c3295550f5c1c8e546ec0d500cd06c13f24bb97.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "悪化"
@@ -107,11 +115,12 @@
     "question": "ストレスのせいで、病気の悪化が早い。",
     "answer": "Stress is causing the disease to worsen quickly.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d94f2567-943d-4232-851b-558adf3a03fc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e60f7e65854e5cda7884311efd8a2fcc4ed3035767ccd6640ca5a629.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e60f7e65854e5cda7884311efd8a2fcc4ed3035767ccd6640ca5a629.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一斉"
@@ -142,11 +150,12 @@
     "question": "生徒達は一斉に温度計に目をやりました。",
     "answer": "The students looked at the thermometer simultaneously.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a1189ed8-5746-4d85-a8fb-8a296c06c000",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

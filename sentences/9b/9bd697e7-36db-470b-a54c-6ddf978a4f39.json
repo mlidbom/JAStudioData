@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c4c7e05e4a6b18644a472322f1ce9d8bf02177243a613c40bf80cd91.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c4c7e05e4a6b18644a472322f1ce9d8bf02177243a613c40bf80cd91.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "氏名"
@@ -107,11 +115,12 @@
     "question": "氏名を入力して下さい。",
     "answer": "Please enter your full name.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9bd697e7-36db-470b-a54c-6ddf978a4f39",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-eb799813cd7cbaa61c670d715612c11a54c7d211fbd1884e8e3352f8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-eb799813cd7cbaa61c670d715612c11a54c7d211fbd1884e8e3352f8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "愛憎"
@@ -177,11 +185,12 @@
     "question": "この愛憎の入り混じった気持ちをコントロールするのはもう無理だよ。",
     "answer": "I can’t control these mixed feelings of love and hate anymore.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e7f0b33d-d827-4282-a9f9-da500e111256",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

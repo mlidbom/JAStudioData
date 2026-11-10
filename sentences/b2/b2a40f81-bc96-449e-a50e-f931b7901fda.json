@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9acd689ef345c21105af7f6d34c2b8f8b7681649a099929a286401be.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9acd689ef345c21105af7f6d34c2b8f8b7681649a099929a286401be.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "織る"
@@ -121,11 +129,12 @@
     "question": "羊さんの羊毛で、ひざ掛けを織っているんです。",
     "answer": "I'm weaving a lap blanket with wool from Ms. Sheep.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b2a40f81-bc96-449e-a50e-f931b7901fda",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

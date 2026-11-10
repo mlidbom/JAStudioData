@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-38ca06514e6a1bff9f138143d0df9025c4ab30b674fd84349ebe2077.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-38ca06514e6a1bff9f138143d0df9025c4ab30b674fd84349ebe2077.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お風呂"
@@ -79,11 +87,12 @@
     "question": "ゆっくりお風呂に浸かりたいなあ。",
     "answer": "I want to slowly soak in the bath.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "db38e809-c66e-4147-8f22-5f6a08d34bef",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

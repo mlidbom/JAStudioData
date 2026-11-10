@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e10c21fc67fb97ce1e07b6c341ebd0713f63aefd6019ce5bbf380bd6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e10c21fc67fb97ce1e07b6c341ebd0713f63aefd6019ce5bbf380bd6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "明らか"
@@ -86,11 +94,12 @@
     "question": "今日のコウイチは明らかにおかしい。",
     "answer": "Koichi is clearly acting strange today.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "605265a6-5231-4376-af72-fc1717ac19bf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

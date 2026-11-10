@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0777e355dd88545e4cb0c3d03e03a319c3859f2d4e463fc25df758c5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0777e355dd88545e4cb0c3d03e03a319c3859f2d4e463fc25df758c5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "上手い"
@@ -58,11 +66,12 @@
     "question": "パパはテニスが上手い。",
     "answer": "Dad is good at tennis.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "06cbc2e2-c3e7-4a15-95bd-645ee7baccd8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

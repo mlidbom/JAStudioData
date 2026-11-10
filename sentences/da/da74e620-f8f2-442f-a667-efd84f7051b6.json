@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-36cdcbf8610ee8e30e4a50679dd5e5fe6356594d51f8074201861e39.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-36cdcbf8610ee8e30e4a50679dd5e5fe6356594d51f8074201861e39.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "食べる"
@@ -65,11 +73,12 @@
     "question": "毎日ドーナッツを食べる。",
     "answer": "I eat donuts every day.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "da74e620-f8f2-442f-a667-efd84f7051b6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

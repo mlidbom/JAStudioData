@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b40a9a4939c5111e194a987408318929f1513e08cc6fd60ce63f795d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b40a9a4939c5111e194a987408318929f1513e08cc6fd60ce63f795d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "民謡"
@@ -114,11 +122,12 @@
     "question": "最近は毎日ロシア民謡を聞いています。",
     "answer": "Lately, I’ve been listening to Russian folk songs everyday.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b2a8ab25-3e00-4836-9a19-def7a197c941",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

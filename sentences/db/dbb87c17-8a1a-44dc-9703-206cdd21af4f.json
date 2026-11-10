@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fccba7fb2adb4e98c74c0035117d43664240083850f22a7b2b7101ac.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fccba7fb2adb4e98c74c0035117d43664240083850f22a7b2b7101ac.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "境界"
@@ -142,11 +150,12 @@
     "question": "あの橋があるところが、二つの国の境界です。",
     "answer": "The place where that bridge is located is at the border between two countries.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dbb87c17-8a1a-44dc-9703-206cdd21af4f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

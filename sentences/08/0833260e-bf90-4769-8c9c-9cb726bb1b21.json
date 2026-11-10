@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b024e9697115ad6897dfd5e2f9b25108710795c9d62017123976c5a1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b024e9697115ad6897dfd5e2f9b25108710795c9d62017123976c5a1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "薬用"
@@ -121,11 +129,12 @@
     "question": "私はいつも薬用石けんを使っています。",
     "answer": "I always use medicated soap.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0833260e-bf90-4769-8c9c-9cb726bb1b21",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

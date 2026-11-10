@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-009e4928e40c36dae40e6362a152b2d2b3c77eedf9d6cdfc1350c99d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-009e4928e40c36dae40e6362a152b2d2b3c77eedf9d6cdfc1350c99d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "金庫"
@@ -86,11 +94,12 @@
     "question": "家に金庫はありますか？",
     "answer": "Do you have a safe in your home?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5c6cd142-580b-433d-992b-f572d8d9211f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

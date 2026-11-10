@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-333b0ee4c6de7655a560570267ae8db1b6c7cf51b09be1d33253b815.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-333b0ee4c6de7655a560570267ae8db1b6c7cf51b09be1d33253b815.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "待合室"
@@ -135,11 +143,12 @@
     "question": "病院の待合室にはたくさんの人がいました。",
     "answer": "There were many people in the hospital waiting room.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b5056d9d-5275-4691-8302-aaadf7d2f9ba",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

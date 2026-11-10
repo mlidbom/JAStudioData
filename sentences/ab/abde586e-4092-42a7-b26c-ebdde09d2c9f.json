@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cbd6920cdef0d92aeb7a924bf31bd872cf6ebf0907a176ca43b09e7a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cbd6920cdef0d92aeb7a924bf31bd872cf6ebf0907a176ca43b09e7a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "環境"
@@ -191,11 +199,12 @@
     "question": "家の周りの環境がよくないので、引っこすことにしました。",
     "answer": "I’ve decided to move because the environment around my house is not good.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "abde586e-4092-42a7-b26c-ebdde09d2c9f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

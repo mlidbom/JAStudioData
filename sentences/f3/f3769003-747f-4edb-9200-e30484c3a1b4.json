@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9ea52a9d43741524b48d5382f983c7b3a628798ee5a601b334f6a67e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9ea52a9d43741524b48d5382f983c7b3a628798ee5a601b334f6a67e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "品質"
@@ -100,11 +108,12 @@
     "question": "彼女は品質管理マネージャーとして入社した。",
     "answer": "She’s been brought on board as the quality control manager.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f3769003-747f-4edb-9200-e30484c3a1b4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

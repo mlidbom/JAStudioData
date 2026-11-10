@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0ded6bbd4dc802d219ea18673dab3b15552c2f93b47e23b117f49cc1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0ded6bbd4dc802d219ea18673dab3b15552c2f93b47e23b117f49cc1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "上旬"
@@ -149,11 +157,12 @@
     "question": "気象庁は六月上旬に梅雨が始まると言っている。",
     "answer": "The Japan Meteorological Agency says the rainy season will start at the beginning of June.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "850392b1-0d70-4f30-97ea-f915c7c7d113",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

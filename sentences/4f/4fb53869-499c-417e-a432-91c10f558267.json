@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f369a6cad4365f78af7fd97a1964433ffd042b48a8453f2b35678147.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f369a6cad4365f78af7fd97a1964433ffd042b48a8453f2b35678147.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "任務"
@@ -205,11 +213,12 @@
     "question": "任務完了前に撤退することは許されないとコウイチに言われました。",
     "answer": "Koichi told me that I'm not allowed to leave before completing the mission.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4fb53869-499c-417e-a432-91c10f558267",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-abe4ce301886c0a068c95272ecbacde30ce5c81b2b90df213bea25a4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-abe4ce301886c0a068c95272ecbacde30ce5c81b2b90df213bea25a4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "少し"
@@ -121,11 +129,12 @@
     "question": "このアパートは三人には少し小さいですか？",
     "answer": "Is this apartment a little small for three people?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9263e0e3-5f56-41ea-a7eb-acd4651d4356",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

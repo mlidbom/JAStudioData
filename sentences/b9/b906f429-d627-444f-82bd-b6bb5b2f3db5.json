@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5d7baab06b655e54c47d7069700b0ec2bf908fd6bb09f829969b560f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5d7baab06b655e54c47d7069700b0ec2bf908fd6bb09f829969b560f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "町外れ"
@@ -135,11 +143,12 @@
     "question": "男は町外れにあるガソリンスタンドで働いていた。",
     "answer": "The man worked at a gas station on the outskirts of town.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b906f429-d627-444f-82bd-b6bb5b2f3db5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-68fcfde30ff1d045e73fd0df21f7785f35bad1150bc5ef26160028c4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-68fcfde30ff1d045e73fd0df21f7785f35bad1150bc5ef26160028c4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "予告"
@@ -114,11 +122,12 @@
     "question": "その映画の予告はYouTubeでよく流れてきます。",
     "answer": "The trailer for that movie often pops up on YouTube.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "17beb5a6-1b85-4044-a988-0c8a587b96fe",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

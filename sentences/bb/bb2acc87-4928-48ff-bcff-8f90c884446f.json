@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e352d9aa89525e5c8cf3b422de0f5ec6dabbe1dfb2c11cbe94839dd8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e352d9aa89525e5c8cf3b422de0f5ec6dabbe1dfb2c11cbe94839dd8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "値"
@@ -114,11 +122,12 @@
     "question": "羽毛布団はやっぱり値が張るね。",
     "answer": "A down quilt is expensive, as I expected.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bb2acc87-4928-48ff-bcff-8f90c884446f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

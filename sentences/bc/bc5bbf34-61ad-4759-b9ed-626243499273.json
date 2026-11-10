@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c9638f467dc9c42c22e7fc5086e6bc32b16ca75301dcab225b90052b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c9638f467dc9c42c22e7fc5086e6bc32b16ca75301dcab225b90052b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "半分"
@@ -79,11 +87,12 @@
     "question": "ざっくり日本人の半分ぐらいはニンジャです。",
     "answer": "About half of the Japanese are ninjas.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bc5bbf34-61ad-4759-b9ed-626243499273",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

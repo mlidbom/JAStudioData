@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a2a946e97807e1f7c5ef3ac85c968fd15f220dfe05918d453f80798a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a2a946e97807e1f7c5ef3ac85c968fd15f220dfe05918d453f80798a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "揚げる"
@@ -191,11 +199,12 @@
     "question": "ヨットのセイルを揚げるのって結構大変なんだよね。",
     "answer": "It's actually quite a bit of work to hoist a sail on a yacht.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6868a2d6-687e-4d76-bebc-3746372aadcc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

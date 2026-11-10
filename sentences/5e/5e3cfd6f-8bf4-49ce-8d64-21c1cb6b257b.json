@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3e833a8eec9ef08f5172832746a1a21a8bdbd2cf1d7d04cbe4a3a384.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3e833a8eec9ef08f5172832746a1a21a8bdbd2cf1d7d04cbe4a3a384.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "工学者"
@@ -170,11 +178,12 @@
     "question": "大学に行かなくても、工学者になれますか？",
     "answer": "Can I become an engineer without going to college?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5e3cfd6f-8bf4-49ce-8d64-21c1cb6b257b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

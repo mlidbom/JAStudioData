@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e1fd0dbd6db9eb1be9e2f013cb5dbbe0fdc57871c252c52e99e38ee1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e1fd0dbd6db9eb1be9e2f013cb5dbbe0fdc57871c252c52e99e38ee1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "証明"
@@ -156,11 +164,12 @@
     "question": "何か身分を証明できる物は持っていますか？",
     "answer": "Do you have something to verify your identity?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c44c70af-f8a0-47cd-85c1-1ed7ea539d90",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

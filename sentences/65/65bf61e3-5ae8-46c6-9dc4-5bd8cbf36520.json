@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9bc8454f8b5097153e7cd827cda33353a860652f1ec7a5c5aa9e32a1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9bc8454f8b5097153e7cd827cda33353a860652f1ec7a5c5aa9e32a1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "付ける"
@@ -149,11 +157,12 @@
     "question": "お母さんは手首に金のブレスレットを付けていました。",
     "answer": "My mother had a gold bracelet on her wrist.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "65bf61e3-5ae8-46c6-9dc4-5bd8cbf36520",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3b9a8f5c0ea99a7e49b3459ed85b56398434ed52983ea9b4d568fe8d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3b9a8f5c0ea99a7e49b3459ed85b56398434ed52983ea9b4d568fe8d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "耕作"
@@ -128,11 +136,12 @@
     "question": "この土地を耕作するには許可がいります。",
     "answer": "You need approval in order to cultivate this plot of land.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f91fbac9-4d08-4dbb-b667-a35844772d69",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

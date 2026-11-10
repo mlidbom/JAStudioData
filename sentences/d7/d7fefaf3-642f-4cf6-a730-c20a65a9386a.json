@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b89a0a3c3b2df2a595568fc76a19be16a0c2733020a7949e0df5c744.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b89a0a3c3b2df2a595568fc76a19be16a0c2733020a7949e0df5c744.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "年"
@@ -100,11 +108,12 @@
     "question": "あの年からずっと木を切ってないよ。",
     "answer": "I haven't cut down a tree since that year.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d7fefaf3-642f-4cf6-a730-c20a65a9386a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

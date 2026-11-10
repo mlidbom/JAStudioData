@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8b2d8a7d4d20ec00c03af8ca17b514bd7d40916c59bdd97110be5d41.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8b2d8a7d4d20ec00c03af8ca17b514bd7d40916c59bdd97110be5d41.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "切手"
@@ -72,11 +80,12 @@
     "question": "これはアメリカの切手です。",
     "answer": "This is an American stamp.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9edabe00-f6f4-42bc-b3c2-77d55c5aea80",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

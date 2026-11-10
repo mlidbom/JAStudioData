@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b48c77219c3e8fbdcd035de1b831f5ea91b8eb4dec66b3daf5dd6102.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b48c77219c3e8fbdcd035de1b831f5ea91b8eb4dec66b3daf5dd6102.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "会議"
@@ -128,11 +136,12 @@
     "question": "会議をサボって連ドラを見てるとは、何事だ！",
     "answer": "You ditched the conference to watch a serial TV drama!? What the heck!?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c5e58f2f-4376-4915-8508-6f7f4423f2ed",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

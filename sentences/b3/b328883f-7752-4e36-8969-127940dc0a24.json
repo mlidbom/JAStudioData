@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-798a7579f7eb4c7c2e3b0887593a82882d4652f138b5977abc3f106a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-798a7579f7eb4c7c2e3b0887593a82882d4652f138b5977abc3f106a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "国境"
@@ -149,11 +157,12 @@
     "question": "私の妹は、この国境の向こう側にいるんです。",
     "answer": "My younger sister is on the other side of this national border.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b328883f-7752-4e36-8969-127940dc0a24",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e68fc573bcb8db73c2d141be48531a5397652d50d5fa0dcd42923128.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e68fc573bcb8db73c2d141be48531a5397652d50d5fa0dcd42923128.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "ナポレオン三世"
@@ -93,11 +101,12 @@
     "question": "ナポレオン三世は1808年に生まれた。",
     "answer": "Napoleon III was born in the year 1808.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0eae1920-ef72-43f9-ae2a-e7a9d066657d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

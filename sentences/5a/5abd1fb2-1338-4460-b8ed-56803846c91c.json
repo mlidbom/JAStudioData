@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cafc4c39f5978794d0c736ff77e24eb33e6ba5e3d6f8e62a2e0ee094.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cafc4c39f5978794d0c736ff77e24eb33e6ba5e3d6f8e62a2e0ee094.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "外交"
@@ -100,11 +108,12 @@
     "question": "日本の外交についての本はたくさんある。",
     "answer": "There are many books about Japanese diplomacy.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5abd1fb2-1338-4460-b8ed-56803846c91c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

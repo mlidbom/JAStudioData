@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-173a72bef14a8906100b5c7adc6dd2473d3dd3b10d8fa068b1a5eca5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-173a72bef14a8906100b5c7adc6dd2473d3dd3b10d8fa068b1a5eca5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "金曜日"
@@ -170,11 +178,12 @@
     "question": "金曜日に飲みに行く約束、忘れてないよね？",
     "answer": "You haven't forgotten that we planned to go out for drinks Friday night, have you?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fb74ae29-9657-4778-81b6-6c3bdde40205",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

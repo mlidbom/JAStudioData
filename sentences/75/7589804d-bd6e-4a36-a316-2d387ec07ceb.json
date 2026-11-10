@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d3e31a5d75ba802ae3130985b6ec1dba32459d94e7361e2fba4b722b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d3e31a5d75ba802ae3130985b6ec1dba32459d94e7361e2fba4b722b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "暗記"
@@ -100,11 +108,12 @@
     "question": "え、これを丸暗記したの？",
     "answer": "Oh, did you memorize this word for word?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7589804d-bd6e-4a36-a316-2d387ec07ceb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

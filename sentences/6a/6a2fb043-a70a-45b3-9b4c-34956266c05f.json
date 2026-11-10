@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c5239d832f14db5836de13d21597ecd59c291405c8942cc6107730d4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c5239d832f14db5836de13d21597ecd59c291405c8942cc6107730d4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "飯"
@@ -177,11 +185,12 @@
     "question": "この社員は三度の飯より仕事をするのが好きです。",
     "answer": "This employee prefers working to eating three meals a day.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6a2fb043-a70a-45b3-9b4c-34956266c05f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

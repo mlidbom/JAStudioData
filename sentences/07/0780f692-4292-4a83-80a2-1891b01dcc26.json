@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-908b9aa486a6113fc47787c365469c7587f3f5c2901d88405d386e01.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-908b9aa486a6113fc47787c365469c7587f3f5c2901d88405d386e01.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "空車"
@@ -226,11 +234,12 @@
     "question": "ニューヨークでは、空車のタクシーを見たら手を上げて大声で「タクシー！」と言って下さい。",
     "answer": "In New York, if you see an available taxi raise your hand and shout, \"Taxi!\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0780f692-4292-4a83-80a2-1891b01dcc26",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

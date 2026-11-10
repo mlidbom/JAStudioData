@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-88862c9c18c5ae26d01159dcb529c241115e16d2b67ccc6132e33dfe.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-88862c9c18c5ae26d01159dcb529c241115e16d2b67ccc6132e33dfe.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "火"
@@ -135,11 +143,12 @@
     "question": "ストーブの火をつけるのが上手ですね。",
     "answer": "You're good at lighting the stove.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "46d2fbb6-3867-4830-9deb-1f21029ae3a3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

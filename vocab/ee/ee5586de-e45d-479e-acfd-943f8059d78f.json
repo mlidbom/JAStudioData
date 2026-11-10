@@ -19,9 +19,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-62fd657f5a49cec2eba7235ce7bc468b09e420226e967de9887b424a.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-62fd657f5a49cec2eba7235ce7bc468b09e420226e967de9887b424a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "友達甲斐",
@@ -31,8 +37,7 @@
   "sentenceCount": 1,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {
       "yieldLastTokenToOverlappingCompound": "required"
@@ -58,7 +63,9 @@
   "sourceData": {
     "answer": "true-friendship",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "ee5586de-e45d-479e-acfd-943f8059d78f",
   "tags": [

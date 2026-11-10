@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e012801a357da0e2dbca8651262c4756db0555f1af87a50ddf91e69b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e012801a357da0e2dbca8651262c4756db0555f1af87a50ddf91e69b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "相変わらず"
@@ -163,11 +171,12 @@
     "question": "彼は相変わらず、つぶやくような小声で、ヒドイことを言いまくっていた。",
     "answer": "He was muttering an oath under his breath as usual.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "65f9bcc1-fdf0-462b-9539-3af267e26a0c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

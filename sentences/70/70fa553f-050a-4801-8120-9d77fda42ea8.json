@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-12a2e04b60ddbd21c802558597551450d2f3887e831f2496a511b7da.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-12a2e04b60ddbd21c802558597551450d2f3887e831f2496a511b7da.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "偽る"
@@ -268,11 +276,12 @@
     "question": "日本では「言わぬが花」だと聞いたので、日本にいる間中自分は口がきけないと偽りました。",
     "answer": "I heard \"silence is a virtue\" in Japan, so I pretended that I was incapable of speech while I was there.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "70fa553f-050a-4801-8120-9d77fda42ea8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

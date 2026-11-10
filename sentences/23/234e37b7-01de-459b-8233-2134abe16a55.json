@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-66c4330ad209a4af0e68179ad118d7f7a40d52c7cb9f47110b362e09.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-66c4330ad209a4af0e68179ad118d7f7a40d52c7cb9f47110b362e09.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "手渡す"
@@ -114,11 +122,12 @@
     "question": "できれば直接会って、手渡しで渡したいんです。",
     "answer": "I'd like to see you in person and hand-deliver it to you, if possible.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "234e37b7-01de-459b-8233-2134abe16a55",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

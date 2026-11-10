@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b01f8c28864f1c65af899fbdb58e0f8e882e2c9a025da8e4bee01f79.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b01f8c28864f1c65af899fbdb58e0f8e882e2c9a025da8e4bee01f79.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "教授"
@@ -163,11 +171,12 @@
     "question": "音楽大学で教授から、ピアノ教授法について教授してもらいました。",
     "answer": "I received instruction on piano teaching methods from a professor at the music university.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2e9073c5-0c7d-4e46-932e-f8247d5c48aa",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

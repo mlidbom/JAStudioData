@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6e13fd3b78431deef543d9c5085cf022d8d9fa5792137916cc4f5fe8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6e13fd3b78431deef543d9c5085cf022d8d9fa5792137916cc4f5fe8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "裏切り者"
@@ -163,11 +171,12 @@
     "question": "彼は裏切り者なんかじゃないよ。ただ、生まれつきちょっととぼけているだけさ。",
     "answer": "He is not a traitor. He’s just naturally a little slow.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "582f05cf-e70d-45ff-86f7-7f707226170b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

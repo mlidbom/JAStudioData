@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c46ba780ef75fb87d9668d9151fc5fd1ab5915bf47d5baf5ffaf6dc8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c46ba780ef75fb87d9668d9151fc5fd1ab5915bf47d5baf5ffaf6dc8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "知識"
@@ -128,11 +136,12 @@
     "question": "彼は役に立たない知識ばかり知っています。",
     "answer": "He knows only useless knowledge.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "566b527f-8651-4240-9711-7d72b240cb84",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-188f71c2e1c5fe26effd99e3e208e9299f7a000fe2b0d409cb66cac8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-188f71c2e1c5fe26effd99e3e208e9299f7a000fe2b0d409cb66cac8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "完成"
@@ -58,11 +66,12 @@
     "question": "さあ、もうすぐ完成ですよ。",
     "answer": "Alright, it's almost finished now.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "236c24f2-cefd-4679-916c-0d7ce5aca1ae",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

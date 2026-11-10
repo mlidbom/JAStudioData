@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2f032d0bb431a2c7bffd8323f771765ad214eaac42c8ba970f9d8cdb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2f032d0bb431a2c7bffd8323f771765ad214eaac42c8ba970f9d8cdb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "覆う"
@@ -149,11 +157,12 @@
     "question": "私の庭は落ち葉に覆われています。",
     "answer": "My garden is covered in fallen leaves.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "afcc6ebb-4a67-4f93-8893-294e8e615458",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

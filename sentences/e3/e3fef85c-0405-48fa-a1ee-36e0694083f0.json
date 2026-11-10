@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-80020a7070e2be5a952662ff2ee0f3df7d9dfcefc0ad067ebe683d78.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-80020a7070e2be5a952662ff2ee0f3df7d9dfcefc0ad067ebe683d78.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "映画館"
@@ -296,11 +304,12 @@
     "question": "「今夜、映画館に行かない？」「そうできればいいんだけど、このレポートを仕上げなくちゃいけないんだ。」",
     "answer": "\"Would you like to go to the movie theater tonight?\" \"I wish I could but I have to finish this paper.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e3fef85c-0405-48fa-a1ee-36e0694083f0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

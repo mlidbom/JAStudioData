@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3cd3f84489a789c8922049f48c84db6c5e539f4215541b1b1d37ce3e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3cd3f84489a789c8922049f48c84db6c5e539f4215541b1b1d37ce3e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "決まる"
@@ -184,11 +192,12 @@
     "question": "ねえママ、今日は何を食べるか決まるのはいつ？",
     "answer": "Hey mom, when will it be decided what we will eat today?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8d761438-96d7-4cdd-8c0b-5dc1b7fcc043",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-200ae4bd9fc1f3aa7e42ba08ca72f7529f725ab4aabfe425a92bdca0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-200ae4bd9fc1f3aa7e42ba08ca72f7529f725ab4aabfe425a92bdca0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "京都"
@@ -100,11 +108,12 @@
     "question": "四月に京都で花見を楽しむ予定だ。",
     "answer": "I'm planning to go enjoy cherry blossom viewing in Kyoto in April.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e9c23989-cbc5-4175-8525-9187bb0fe34c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

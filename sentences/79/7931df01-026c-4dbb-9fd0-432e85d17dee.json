@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-776fa1461b6dbbb24426b74a967faecf4c15d6dbd504f03bf18b133b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-776fa1461b6dbbb24426b74a967faecf4c15d6dbd504f03bf18b133b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "本社"
@@ -107,11 +115,12 @@
     "question": "本社にはスタッフが千人ほどいます。",
     "answer": "The HQ has a staff of about 1,000.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7931df01-026c-4dbb-9fd0-432e85d17dee",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8a4a4ac11bb36b6c194d15f1090f0dcc23850223b3daca1df38210b4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8a4a4ac11bb36b6c194d15f1090f0dcc23850223b3daca1df38210b4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "譜面"
@@ -142,11 +150,12 @@
     "question": "譜面を無料でダウンロードできるサイトを探しています。",
     "answer": "I’m looking for a site where I can download music for free.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "802e0ee1-a66c-4732-8dd5-d78cfa89533c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

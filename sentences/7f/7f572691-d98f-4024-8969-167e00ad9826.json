@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a32bb73fa36d708afe7385ba9523162e9e3122bfb97b8e5c5f6bb5a4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a32bb73fa36d708afe7385ba9523162e9e3122bfb97b8e5c5f6bb5a4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Google ja-JP-Neural2-D",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "等しい"
@@ -149,11 +157,12 @@
     "question": "左の金玉と右の金玉の重さって等しいと思いますか？",
     "answer": "Do you think the left and right balls are equal in weight?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7f572691-d98f-4024-8969-167e00ad9826",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

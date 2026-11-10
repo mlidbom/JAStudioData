@@ -20,9 +20,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-ccb875308d93e3294ed7cda47b71134edcfcc22e3ec7e5aa9b85bb9e.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-ccb875308d93e3294ed7cda47b71134edcfcc22e3ec7e5aa9b85bb9e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "てよ",
@@ -36,8 +42,7 @@
   "sentenceCount": 3,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {
       "teFormStemStart": "required"
@@ -65,7 +70,9 @@
   "sourceData": {
     "answer": "expresses-a-firm-view-or-feeling | please-.../would-you-...",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "02a60f3b-0da5-4208-8b07-589754a6e8c2",
   "tags": [

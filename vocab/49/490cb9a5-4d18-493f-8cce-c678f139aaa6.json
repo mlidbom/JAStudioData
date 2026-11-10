@@ -30,9 +30,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-a1b8d70d779724348ed32bee00393f013cd88dd5bb3370cabd490be6.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-a1b8d70d779724348ed32bee00393f013cd88dd5bb3370cabd490be6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "解体をする",
@@ -42,8 +48,7 @@
   "sentenceCount": 2,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -67,7 +72,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "490cb9a5-4d18-493f-8cce-c678f139aaa6",
   "tags": [

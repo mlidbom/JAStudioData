@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-523f58fb63ab6b82931868a6692b8c5709d4e1da53b7d3ee59796ecc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-523f58fb63ab6b82931868a6692b8c5709d4e1da53b7d3ee59796ecc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "故意"
@@ -226,11 +234,12 @@
     "question": "故意ではありませんが、あなたを悲しませてしまったのは事実です。",
     "answer": "It was not on purpose, but it did cause you grief.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f0219176-de45-46b9-927c-bc4cfc694a3b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

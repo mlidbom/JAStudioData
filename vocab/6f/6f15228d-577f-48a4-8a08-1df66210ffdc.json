@@ -36,9 +36,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-ba16a912d5efbf555f0f814aa71bf5655928c807e7b90886b7dcfd26.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-ba16a912d5efbf555f0f814aa71bf5655928c807e7b90886b7dcfd26.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "月が奇麗です",
@@ -76,8 +82,7 @@
   "sentenceCount": 5,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -106,7 +111,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "6f15228d-577f-48a4-8a08-1df66210ffdc",
   "tags": [

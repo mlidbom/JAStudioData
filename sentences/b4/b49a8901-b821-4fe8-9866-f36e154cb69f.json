@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ef07135145c80b802b161fa67b3c4bab61956fcce5e76efcaff8e26e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ef07135145c80b802b161fa67b3c4bab61956fcce5e76efcaff8e26e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "辺り"
@@ -100,11 +108,12 @@
     "question": "辺りには、まだ雪がたくさん有ります。",
     "answer": "There is still a lot of snow around.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b49a8901-b821-4fe8-9866-f36e154cb69f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

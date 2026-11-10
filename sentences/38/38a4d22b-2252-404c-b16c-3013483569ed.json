@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e5b54d9fca1363adeaa743f0de3e19eb33cae13510992a1f5ce695c3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e5b54d9fca1363adeaa743f0de3e19eb33cae13510992a1f5ce695c3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "白鳥"
@@ -79,11 +87,12 @@
     "question": "白鳥の羽は、白くてきれいです。",
     "answer": "Swan wings are white and beautiful.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "38a4d22b-2252-404c-b16c-3013483569ed",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

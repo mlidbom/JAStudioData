@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-28099799b25a341ff7ac3b8c94b371ed6c990b7b50bc219c8e20170f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-28099799b25a341ff7ac3b8c94b371ed6c990b7b50bc219c8e20170f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "消す"
@@ -79,11 +87,12 @@
     "question": "このイラストを消す予定です。",
     "answer": "I'm planning to remove this illustration.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "99252189-5599-487a-a735-4f0d37cee9cc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

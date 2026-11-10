@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e4de12b14657458cc28a19e468ad820155570a25937779ef6993ddd8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e4de12b14657458cc28a19e468ad820155570a25937779ef6993ddd8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "専門"
@@ -128,11 +136,12 @@
     "question": "私の専門は天文学です。新しい星を発見したいです。",
     "answer": "My specialty is astronomy. I want to discover new stars.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4d10c9ff-b4b7-4b9d-8503-6d492656de0e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ce4bd62a62d3d45e9eeb945a72d2f6cf9a76d123da9c6fc984f7bb53.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ce4bd62a62d3d45e9eeb945a72d2f6cf9a76d123da9c6fc984f7bb53.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "捜査"
@@ -114,11 +122,12 @@
     "question": "本日は捜査に関する重要書類を作成する予定です。",
     "answer": "I’m going to draw up some important documents for a criminal investigation today.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b8a903ab-6adb-4893-b5b9-1283c23cac4f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

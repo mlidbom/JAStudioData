@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a36fe8df845b7e6efc9c0e245a90a747cbbec757bd53fef63ab4975a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a36fe8df845b7e6efc9c0e245a90a747cbbec757bd53fef63ab4975a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "私邸"
@@ -86,11 +94,12 @@
     "question": "この豪華な建物は、大統領の私邸です。",
     "answer": "This gorgeous building is the president’s private residence.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "737e646f-c82b-438c-944a-a3da8152dde3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

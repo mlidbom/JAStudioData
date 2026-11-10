@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1b27128f34c8b016325ab0a751347d8b4fa5b0e941dea5ecee9e7a9a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1b27128f34c8b016325ab0a751347d8b4fa5b0e941dea5ecee9e7a9a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "入団"
@@ -177,11 +185,12 @@
     "question": "その教団に入団しても、何の得にもならないよ。",
     "answer": "You won't gain anything out of joining that religious organization.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "529fd7df-fd98-42e2-bb69-99147d6b5f52",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d090129fa99c3ca8b1913f790c7ab4886909dca1786b4b3cdfb32874.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d090129fa99c3ca8b1913f790c7ab4886909dca1786b4b3cdfb32874.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大空"
@@ -170,11 +178,12 @@
     "question": "おじいちゃん、大空から私たちのこと見てくれているかな？",
     "answer": "I wonder if Grandpa is watching us from the heavens?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7eabd0a4-7bce-4265-a619-42a91dbc39f3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

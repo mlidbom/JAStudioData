@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4abcf9b9ee8e99cf630ed9f38feaff9b07f548d0fcdc1153b432a179.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4abcf9b9ee8e99cf630ed9f38feaff9b07f548d0fcdc1153b432a179.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鉛管"
@@ -191,11 +199,12 @@
     "question": "水道の配管には、かつては鉛管がよく使われていました。",
     "answer": "Lead piping was once often used in plumbing systems.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d693385b-2662-4b20-bbc8-6ff2acaa2e0d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

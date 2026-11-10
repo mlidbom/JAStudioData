@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8af504b6bec62a73da1a7d7cc7fd028897f10eca420e885c70297a98.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8af504b6bec62a73da1a7d7cc7fd028897f10eca420e885c70297a98.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "事件"
@@ -107,11 +115,12 @@
     "question": "会社に向かっていると、ある事件が起こった。",
     "answer": "There was an incident on my way to work.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "78fe1fa0-9860-48ef-9650-431286c40130",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

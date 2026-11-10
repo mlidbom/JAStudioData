@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-200c0185cb8f00ebec9ab5faed99cdc2d27d4fe453b657929aa67463.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-200c0185cb8f00ebec9ab5faed99cdc2d27d4fe453b657929aa67463.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "テーブルの上"
@@ -100,11 +108,12 @@
     "question": "本はテーブルの上にあります。",
     "answer": "The book is on the table.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d067613f-edf8-4885-896d-4648efcfbfbd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

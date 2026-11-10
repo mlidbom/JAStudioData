@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-07d5525d70c272b4e4b192e8b11e9d7daa134e7b11a988c77be75073.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-07d5525d70c272b4e4b192e8b11e9d7daa134e7b11a988c77be75073.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "原子"
@@ -177,11 +185,12 @@
     "question": "大学で、原子エネルギーの勉強をしたいと思っています。",
     "answer": "I would like to study atomic energy in college.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a1b1c539-f673-46b2-9a50-0064548a6723",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

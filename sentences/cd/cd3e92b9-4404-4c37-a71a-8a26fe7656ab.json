@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bf75b4fb85eec386ac9e70c938a3e147e566b1eb7e599af51ff59546.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bf75b4fb85eec386ac9e70c938a3e147e566b1eb7e599af51ff59546.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "行う",
@@ -115,11 +123,12 @@
     "question": "サヤカは、日本文学に関する研究を行っています。",
     "answer": "Sayaka is conducting research on Japanese literature.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cd3e92b9-4404-4c37-a71a-8a26fe7656ab",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

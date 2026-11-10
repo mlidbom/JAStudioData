@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1b5fcda3957b1b67bb02ae9f0bb075e1b4567b3f509bca02d99161f8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1b5fcda3957b1b67bb02ae9f0bb075e1b4567b3f509bca02d99161f8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "記事"
@@ -72,11 +80,12 @@
     "question": "外交についての記事があまりない。",
     "answer": "There are not many articles about diplomacy.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c37ea28c-2145-46d9-b5fb-06b5ecc7c49f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

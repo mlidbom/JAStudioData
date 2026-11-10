@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a7a4f6f57276588c1fbe6ef71cea6256af902eb442b517abeee3e635.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a7a4f6f57276588c1fbe6ef71cea6256af902eb442b517abeee3e635.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "残り"
@@ -107,11 +115,12 @@
     "question": "残りの水はどこに行ったの？",
     "answer": "Where is the leftover water?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "306dac6b-d305-4958-880d-529095f03023",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

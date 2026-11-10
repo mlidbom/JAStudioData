@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bb8404e69a718c1667c1b05b56189e64e0f9bc405d549c2bcff20496.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bb8404e69a718c1667c1b05b56189e64e0f9bc405d549c2bcff20496.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "木製"
@@ -142,11 +150,12 @@
     "question": "この木製のオルゴールはディズニーランドのお土産なんです。",
     "answer": "This wooden music box is a souvenir from Disneyland.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c185e1c2-5427-42c8-aaff-cb731710607b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

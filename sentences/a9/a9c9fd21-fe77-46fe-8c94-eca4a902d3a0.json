@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d7c346366cd6d377d1c1254f3dd305e9cf3017b2e2937c77d5334591.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d7c346366cd6d377d1c1254f3dd305e9cf3017b2e2937c77d5334591.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "合格する"
@@ -128,11 +136,12 @@
     "question": "みんな合格したのに、私だけ不合格でした。",
     "answer": "Everyone else passed, but I was the only one who failed.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a9c9fd21-fe77-46fe-8c94-eca4a902d3a0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f4041e510e4faf4d0dc31d50e66e011e7f47430eb19f173fed11059a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f4041e510e4faf4d0dc31d50e66e011e7f47430eb19f173fed11059a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "負担"
@@ -163,11 +171,12 @@
     "question": "この仕事は、経験の浅い社員には負担が大きいかもしれません。",
     "answer": "This task may be burdensome for inexperienced employees.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "232173f9-5dec-4a46-ac53-f489c4d35194",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

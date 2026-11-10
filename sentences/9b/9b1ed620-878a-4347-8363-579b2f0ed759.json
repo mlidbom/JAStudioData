@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-88c6dfbef623db064c5363b29dd1c2f2195065ac434a67a2147fa5a1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-88c6dfbef623db064c5363b29dd1c2f2195065ac434a67a2147fa5a1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "意味"
@@ -79,11 +87,12 @@
     "question": "あんたの言ってる意味分かんない。",
     "answer": "I don't understand what you are saying.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9b1ed620-878a-4347-8363-579b2f0ed759",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

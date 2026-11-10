@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-566b39ebfea34374fbb79c73956bd9fcf65bdeeb1da8e53657fb20b5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-566b39ebfea34374fbb79c73956bd9fcf65bdeeb1da8e53657fb20b5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "自撮り"
@@ -79,11 +87,12 @@
     "question": "スマホで自撮りした。",
     "answer": "I took a selfie with my smartphone.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7f59e607-ec6f-40aa-bda2-3c070de59d34",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

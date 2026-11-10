@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-da66b31b6d0683b6191c4c4500a8826d701871141988f21cfe7433fb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-da66b31b6d0683b6191c4c4500a8826d701871141988f21cfe7433fb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "見える"
@@ -177,11 +185,12 @@
     "question": "自分が他人からどう見えるのかがすごく気になる。",
     "answer": "I'm really curious about how I seem to others.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0f839e7a-3204-4d0b-914f-4db1919a19ba",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

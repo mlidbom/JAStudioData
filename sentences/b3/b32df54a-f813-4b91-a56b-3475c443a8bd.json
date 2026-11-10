@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4b06c41f485eba94793611c6f817ffc18635ac57b20841ca1f8022cd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4b06c41f485eba94793611c6f817ffc18635ac57b20841ca1f8022cd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "癒す"
@@ -184,11 +192,12 @@
     "question": "諒一郎は読書によって知識への渇きを癒すことができた。",
     "answer": "Ryoichiro quenched his thirst for knowledge through reading.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b32df54a-f813-4b91-a56b-3475c443a8bd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

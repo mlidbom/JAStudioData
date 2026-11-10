@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fad85ae29047297f1dd0d1a38733d3d633dcbe01224f827b0c71656f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fad85ae29047297f1dd0d1a38733d3d633dcbe01224f827b0c71656f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "中央"
@@ -86,11 +94,12 @@
     "question": "テーブルの中央にカードをおいた。",
     "answer": "I put a card in the center of the table.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3ba9dde2-4808-4c77-acf2-39ab56cbdb19",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

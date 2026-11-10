@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6e0160691a9c36eb228184db89b05d515862867231e88bdf8240eb8b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6e0160691a9c36eb228184db89b05d515862867231e88bdf8240eb8b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "廃止"
@@ -128,11 +136,12 @@
     "question": "死刑制度廃止には、賛成ですか、反対ですか。",
     "answer": "Do you agree or disagree with the abolition of the death penalty?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0eaf5c5d-6d4b-4d7d-ae27-ab1cc3ec0166",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

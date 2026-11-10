@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-11c812e91f1a3340ecdf2052c494486929f50019bccff328c2f77197.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-11c812e91f1a3340ecdf2052c494486929f50019bccff328c2f77197.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "感嘆符"
@@ -154,11 +162,12 @@
     "question": "メールで語尾に必ず感嘆符を付ける友達がいます。",
     "answer": "I have a friend who puts an exclamation mark at the end of every single sentence in her emails.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "acb88b20-7630-445d-9521-1c879358c27b",
   "tags": [
-    "_tts_audio",
     "-::sentence::uses::incorrect-matches",
     "source::wani::current"
   ]

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a42b886bd925af01bdacd847ba5176a45d00c7616f34256baab450c1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a42b886bd925af01bdacd847ba5176a45d00c7616f34256baab450c1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "回復"
@@ -79,11 +87,12 @@
     "question": "まずは体力の回復が先ですよ。",
     "answer": "You have to recover your physical strength first.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a3f9db71-e1bf-4348-9184-39ff33111223",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

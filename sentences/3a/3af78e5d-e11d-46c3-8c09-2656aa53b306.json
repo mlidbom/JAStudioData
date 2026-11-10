@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3bc180c89008ba76d0e031b5f117a29d382f2e6bb16982804996c2a4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3bc180c89008ba76d0e031b5f117a29d382f2e6bb16982804996c2a4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "血圧"
@@ -107,11 +115,12 @@
     "question": "うちの家族はみんな血圧が高いんです。",
     "answer": "Everyone in my family has high blood pressure.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3af78e5d-e11d-46c3-8c09-2656aa53b306",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

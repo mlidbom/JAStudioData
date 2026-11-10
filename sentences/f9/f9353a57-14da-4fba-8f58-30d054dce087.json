@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b3a91fd961d1abb036255e12270ea4ceb0feafc1543e52d5e75925e0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b3a91fd961d1abb036255e12270ea4ceb0feafc1543e52d5e75925e0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "数える"
@@ -149,11 +157,12 @@
     "question": "先生はその時教室にいた学生の数を数えました。",
     "answer": "The teacher counted the number of students in the classroom at the time.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f9353a57-14da-4fba-8f58-30d054dce087",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

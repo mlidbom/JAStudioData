@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d14cb2523630a5144adab0e14348bc5fddfaaa4391cbf6ba344fd1ec.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d14cb2523630a5144adab0e14348bc5fddfaaa4391cbf6ba344fd1ec.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "仕草"
@@ -100,11 +108,12 @@
     "question": "木を切る仕草がお父さんにそっくりです。",
     "answer": "The way you cut trees looks exactly like how your dad does it.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2d675492-c93a-4296-984b-6d9f8428a625",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

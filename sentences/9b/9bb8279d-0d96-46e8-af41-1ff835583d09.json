@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d6b4c11d80ee25f1bc863edbdb03588bff4fd5f9667ebee7c780aed2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d6b4c11d80ee25f1bc863edbdb03588bff4fd5f9667ebee7c780aed2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "親戚"
@@ -135,11 +143,12 @@
     "question": "なんとか飛行場で親戚を拾うことができました。",
     "answer": "I barely managed to pick up my relative at the airport.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9bb8279d-0d96-46e8-af41-1ff835583d09",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

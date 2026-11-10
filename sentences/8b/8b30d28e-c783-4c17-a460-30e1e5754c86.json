@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-277d9ca2580960a020bb736a4f775af6689f0a348d924ec6deddcbc5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-277d9ca2580960a020bb736a4f775af6689f0a348d924ec6deddcbc5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "管理人"
@@ -184,11 +192,12 @@
     "question": "うちのアパートの管理人さんは、いつも笑顔であいさつをしてくれる。",
     "answer": "The manager of our apartment always greets us with a smile.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8b30d28e-c783-4c17-a460-30e1e5754c86",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

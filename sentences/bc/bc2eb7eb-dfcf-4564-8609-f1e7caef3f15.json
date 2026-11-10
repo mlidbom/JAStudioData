@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-22375e01d2de7958c9b67728816c46f8d61851ab2b8fd565c8db1e70.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-22375e01d2de7958c9b67728816c46f8d61851ab2b8fd565c8db1e70.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "艦艇"
@@ -149,11 +157,12 @@
     "question": "海軍の艦艇の乗組員が不足しています。",
     "answer": "The crew of the navy’s war fleet is lacking.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bc2eb7eb-dfcf-4564-8609-f1e7caef3f15",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5d9c3bda08b285d95098731082b5dc87ed216b6ed2db4d5e49ab1d4e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5d9c3bda08b285d95098731082b5dc87ed216b6ed2db4d5e49ab1d4e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "入れる"
@@ -79,11 +87,12 @@
     "question": "サンドイッチにアボカド入れた？",
     "answer": "Did you put avocado in the sandwich?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "721553bc-cb56-4331-a30f-245b05327230",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

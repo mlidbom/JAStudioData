@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b1b3e07be28f10073a337928ffb7449a0f47350def4dfff425b8a9b0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b1b3e07be28f10073a337928ffb7449a0f47350def4dfff425b8a9b0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "水兵"
@@ -86,11 +94,12 @@
     "question": "「かもめの水兵さん」っていう曲、知ってる？",
     "answer": "Do you know the song \"The Seagull Sailor\"?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "40a4ac3a-5f48-4bcd-a154-32bfbbce3f5a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1cc6dfc2f1b7132c32f83749af5129026f48aa1876c8d26534227117.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1cc6dfc2f1b7132c32f83749af5129026f48aa1876c8d26534227117.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "滑る"
@@ -177,11 +185,12 @@
     "question": "雪解けは始まったけど、まだ滑りやすい場所もあるから気をつけてね。",
     "answer": "Although the snow is starting to thaw, there are still some places where it’s easy to slip, so you should be careful.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5c4b499b-dd55-446a-9030-670792c398ef",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

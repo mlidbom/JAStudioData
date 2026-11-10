@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ce8d8cd552dd269ee83e6ca82ce69d7d2fb9ee17b8a9fe0070fb92ef.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ce8d8cd552dd269ee83e6ca82ce69d7d2fb9ee17b8a9fe0070fb92ef.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "保存"
@@ -170,11 +178,12 @@
     "question": "レシートっていつまで保存しておけばいいんですか？",
     "answer": "How long should I keep the receipts for?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9cae5e92-0e25-4898-8f58-6c80b1815b64",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f76d56a4c4d3ed9ca3626c20777c0df2f6ffe3b38910b337d1cd761d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f76d56a4c4d3ed9ca3626c20777c0df2f6ffe3b38910b337d1cd761d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "蔑む"
@@ -149,11 +157,12 @@
     "question": "あの男は、無意識に人のことを蔑んでいるのよ。",
     "answer": "That man unconsciously looks down on people.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "08dedefc-8b18-4174-ace6-90fc0825cd92",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

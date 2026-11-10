@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6d6284887cc70e817fc66f4c19fd52ec244e8912032938f5f0f8084a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6d6284887cc70e817fc66f4c19fd52ec244e8912032938f5f0f8084a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "表す"
@@ -156,11 +164,12 @@
     "question": "この赤い玉は、「日の丸」と言って、日の出を表しています。",
     "answer": "This red ball is called \"hinomaru,\" and represents the sunrise.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c4d86087-2418-42d8-adec-d88f8dd4aac3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

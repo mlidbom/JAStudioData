@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-32bfc30b5e5bde8b80714541ea0f458864aa9baa92b35078c594a59f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-32bfc30b5e5bde8b80714541ea0f458864aa9baa92b35078c594a59f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "人数"
@@ -107,11 +115,12 @@
     "question": "この会社のスタッフの人数は二十人です。",
     "answer": "The number of staff at this company is twenty people.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "48475838-d705-4367-8807-f645eb07b0cc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

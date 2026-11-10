@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b3152a3e52d5d6a2beefda68eda2e00329e6b63cf338bae0e092243b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b3152a3e52d5d6a2beefda68eda2e00329e6b63cf338bae0e092243b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "児童"
@@ -149,11 +157,12 @@
     "question": "私の姉は、児童相談所で働いています。",
     "answer": "My sister works at a children's welfare center.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3e624866-bd6b-4fe3-a006-13ba7a25b784",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

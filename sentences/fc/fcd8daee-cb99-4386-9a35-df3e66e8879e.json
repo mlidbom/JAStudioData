@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8c19d3f1ec64028f63310a05f3138e83b3afdbcfd355d2a5a991b3ec.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8c19d3f1ec64028f63310a05f3138e83b3afdbcfd355d2a5a991b3ec.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "時期"
@@ -72,11 +80,12 @@
     "question": "もうすぐ台風の時期ですね。",
     "answer": "It's time for a typhoon soon.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fcd8daee-cb99-4386-9a35-df3e66e8879e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-642adb902f464bc0894f1247f62bf5cda420537896658298c706bf1f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-642adb902f464bc0894f1247f62bf5cda420537896658298c706bf1f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "珠算"
@@ -184,11 +192,12 @@
     "question": "今日は珠算を勉強するって気分じゃないんだよね。",
     "answer": "I don’t feel like studying calculations on an abacus today.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6da95fe1-7468-444a-8dba-029a21602599",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9ac5b5ca33a623e48a4df2c2cfbf829a242cd092be2da931f2d983ae.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9ac5b5ca33a623e48a4df2c2cfbf829a242cd092be2da931f2d983ae.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "感情"
@@ -142,11 +150,12 @@
     "question": "感情に流されすぎてはいけないよ。",
     "answer": "Do not give in too much to your feelings.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0f16e507-d120-4148-8ce5-374741d2a58c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

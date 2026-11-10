@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-be2bd803c8a2f13cfe110cb4f051f2251b892e917ec414122ed1941a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-be2bd803c8a2f13cfe110cb4f051f2251b892e917ec414122ed1941a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "掛け算"
@@ -100,11 +108,12 @@
     "question": "今日は掛け算の問題を100問解いたよ。",
     "answer": "I solved 100 multiplication problems today.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "13e962d4-03cb-4cee-a7dc-df7df3b5b06a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-952683085982df31ed8f05078cc80d04a94f2541aaf175262d27c183.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-952683085982df31ed8f05078cc80d04a94f2541aaf175262d27c183.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "届ける"
@@ -226,11 +234,12 @@
     "question": "このピザをお客さんに三十分以内に届ける必要があるんです。",
     "answer": "I need to deliver this pizza to the customer within thirty minutes.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b06cedf9-79fa-4785-a971-e7db3117d948",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2741a8f2878d02763b4f0bf7301eb9a69018d2bdb885c057e8fc0b37.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2741a8f2878d02763b4f0bf7301eb9a69018d2bdb885c057e8fc0b37.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "輸出する"
@@ -177,11 +185,12 @@
     "question": "日本の商品を海外に輸出するには、どんな手続きが必要ですか？",
     "answer": "What procedures are necessary to export Japanese products overseas?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c43bbb95-f05b-4776-b1c6-7e23f1594480",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ad0c18b586c6ffc853233fce34026ea5fbdcce3984a583c9bc22034e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ad0c18b586c6ffc853233fce34026ea5fbdcce3984a583c9bc22034e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "南"
@@ -86,11 +94,12 @@
     "question": "入り口は南の方にあります。",
     "answer": "The entrance is in the south.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8d9719de-e4ce-49cf-9f22-75fa843cc42d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

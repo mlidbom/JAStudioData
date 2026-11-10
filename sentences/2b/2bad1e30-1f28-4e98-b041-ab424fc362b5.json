@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-70915b7621e11d1105094c5d9dee0809d9b8e254c13745e80609d371.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-70915b7621e11d1105094c5d9dee0809d9b8e254c13745e80609d371.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "天才"
@@ -93,11 +101,12 @@
     "question": "そのゴリラは、まぎれもなく天才だ。",
     "answer": "That gorilla is definitely a genius.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2bad1e30-1f28-4e98-b041-ab424fc362b5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

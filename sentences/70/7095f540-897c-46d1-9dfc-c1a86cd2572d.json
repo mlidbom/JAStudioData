@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-51fc86ec284114e1dd441d5362d62fabdd8e45dd3c46b2ba037a3919.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-51fc86ec284114e1dd441d5362d62fabdd8e45dd3c46b2ba037a3919.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "米兵"
@@ -247,11 +255,12 @@
     "question": "ここは米兵がたくさん通るので、通行のジャマにならないようにしてください。",
     "answer": "There are many U.S. soldiers passing through here, so please don't be a distraction to the traffic.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7095f540-897c-46d1-9dfc-c1a86cd2572d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

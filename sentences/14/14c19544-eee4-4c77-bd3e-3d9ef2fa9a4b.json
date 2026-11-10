@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-488706418ee72b31db4410e7f0bb947eb1e51627a5357fbc771e9ef7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-488706418ee72b31db4410e7f0bb947eb1e51627a5357fbc771e9ef7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "差し上げる"
@@ -86,11 +94,12 @@
     "question": "これ、よかったら差し上げますよ。",
     "answer": "I will give this to you, if you'd like.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "14c19544-eee4-4c77-bd3e-3d9ef2fa9a4b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

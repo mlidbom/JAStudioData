@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-61e3487559b4805ae72071c5de4c6eba5d4c3659340c86c0bf56fbbd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-61e3487559b4805ae72071c5de4c6eba5d4c3659340c86c0bf56fbbd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "言い方"
@@ -114,11 +122,12 @@
     "question": "「ありがとう」の言い方で、その人の生まれが分かります。",
     "answer": "You will know where they're from by how they say \"Thank you.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5a8201d2-9521-491e-a6eb-d83039398c5a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

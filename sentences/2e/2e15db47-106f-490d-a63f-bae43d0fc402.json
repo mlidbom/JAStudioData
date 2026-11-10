@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9db0b46a8a292b8f1df2266bcb758988b81bf4efb68fba80767c1be1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9db0b46a8a292b8f1df2266bcb758988b81bf4efb68fba80767c1be1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鋼材"
@@ -142,11 +150,12 @@
     "question": "鋼材不足には早急に対処する必要があります。",
     "answer": "We have to deal with the steel shortage as soon as possible.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2e15db47-106f-490d-a63f-bae43d0fc402",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

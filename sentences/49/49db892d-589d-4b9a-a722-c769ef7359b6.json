@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fb0b6cd9898ff2f2ce2e1050cbfa94fc19ce10dd35b8e2dadcc497e4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fb0b6cd9898ff2f2ce2e1050cbfa94fc19ce10dd35b8e2dadcc497e4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "運ぶ"
@@ -128,11 +136,12 @@
     "question": "鳥が木の一部を運ぶのを見ました。",
     "answer": "I saw a bird carrying a part of the tree.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "49db892d-589d-4b9a-a722-c769ef7359b6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

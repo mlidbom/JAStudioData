@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-caf81151c60046f1cc527ff382710fadcd5dbf744e8c4f278e7c772f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-caf81151c60046f1cc527ff382710fadcd5dbf744e8c4f278e7c772f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "読み違い"
@@ -184,11 +192,12 @@
     "question": "名前の読み違いは日本人の間でもよくあることですよ。",
     "answer": "Misreading of names is common even among Japanese.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2dae0973-3a31-487a-8c6a-e4713754645c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

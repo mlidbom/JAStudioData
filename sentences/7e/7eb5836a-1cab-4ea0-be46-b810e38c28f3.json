@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fc207e2e6087eb7ddeb090f2ffbaaf05cc98e7b60fe9a18b91ed4b23.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fc207e2e6087eb7ddeb090f2ffbaaf05cc98e7b60fe9a18b91ed4b23.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "略図"
@@ -135,11 +143,12 @@
     "question": "あなたの家からうちまでの略図をかいて、メールでお送りします",
     "answer": "I'll draw a rough map from your house to mine and email it to you.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7eb5836a-1cab-4ea0-be46-b810e38c28f3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

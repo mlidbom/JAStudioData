@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d386f1c2eab142826b8c36c4e529a8ea92eec9f9332b14554058d00e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d386f1c2eab142826b8c36c4e529a8ea92eec9f9332b14554058d00e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "〜冊"
@@ -114,11 +122,12 @@
     "question": "何冊くらいいると思う？",
     "answer": "About how many books do you think we need?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7524bb97-207b-4d3d-b606-2eb7dda701f8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

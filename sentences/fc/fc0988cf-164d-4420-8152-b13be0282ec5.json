@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dfe4b7f7240dd3897aa01e6f9eb35194795281b4cffe67a263bfec66.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dfe4b7f7240dd3897aa01e6f9eb35194795281b4cffe67a263bfec66.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "残念"
@@ -72,11 +80,12 @@
     "question": "それは残念すぎますね。",
     "answer": "That's so unfortunate.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fc0988cf-164d-4420-8152-b13be0282ec5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

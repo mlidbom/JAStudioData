@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f1aba88ceed71a365702cf743cef89f68371b7d1465a32d5fd6d55e1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f1aba88ceed71a365702cf743cef89f68371b7d1465a32d5fd6d55e1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "被る"
@@ -149,11 +157,12 @@
     "question": "うちの子は、他人の前ではいつも猫を被ります。",
     "answer": "My child always wears a mask of innocence in front of non-family members.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "75e187fb-e87e-43c0-bab7-014d80e5b3fb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

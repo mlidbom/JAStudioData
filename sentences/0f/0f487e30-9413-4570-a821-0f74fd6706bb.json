@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b647bc41cb60f07ff84239603a6e790e7c3f6fedcdf72b5f4eb94968.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b647bc41cb60f07ff84239603a6e790e7c3f6fedcdf72b5f4eb94968.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "私立"
@@ -100,11 +108,12 @@
     "question": "日本のインターナショナルスクールは主に私立です。",
     "answer": "International schools in Japan are mainly private.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0f487e30-9413-4570-a821-0f74fd6706bb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

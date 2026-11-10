@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-df74a1af5c45f14b53033078864a4542f09f45982db59a29ebc125b6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-df74a1af5c45f14b53033078864a4542f09f45982db59a29ebc125b6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "美術"
@@ -121,11 +129,12 @@
     "question": "私は大学で美術を学んでいます。",
     "answer": "I am studying art at university.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "140f4289-b54b-41be-837a-e45ff1d9805c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

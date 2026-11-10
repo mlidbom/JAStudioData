@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b2aa9bef7a5fc2f1cea2a20d9fd6c137525c73349de8a75ef4c690df.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b2aa9bef7a5fc2f1cea2a20d9fd6c137525c73349de8a75ef4c690df.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "価格"
@@ -86,11 +94,12 @@
     "question": "この商品の価格はいくらですか？",
     "answer": "What’s the price of this item?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5c0a29bc-6a61-41e5-8eb9-33b587b2efc1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

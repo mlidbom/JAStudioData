@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6c3d4fbac547b808a82a267c20cbe40743d45ae62bed1ad8fac07d37.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6c3d4fbac547b808a82a267c20cbe40743d45ae62bed1ad8fac07d37.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "官僚的"
@@ -156,11 +164,12 @@
     "question": "この会社では官僚的な形式主義がまかり通りすぎている。",
     "answer": "There’s too much bureaucratic red tape in this company.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6bb4fca1-e736-4f9e-a083-7219c465ed8a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

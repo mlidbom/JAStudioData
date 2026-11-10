@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bd9dd5867ee795c998d8503afce0d4a00f541619cc866d7f0e921f90.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bd9dd5867ee795c998d8503afce0d4a00f541619cc866d7f0e921f90.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "医大"
@@ -93,11 +101,12 @@
     "question": "元パートナーは医大の先生でした。",
     "answer": "My former partner was a teacher at a medical school.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f687f0de-2ae0-4e9d-8da8-52f3a090b28d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

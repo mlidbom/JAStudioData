@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4be0c11f63db60f9a04b19b24e8a1346c5f97654e586affd6ec642cf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4be0c11f63db60f9a04b19b24e8a1346c5f97654e586affd6ec642cf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "入社"
@@ -86,11 +94,12 @@
     "question": "入社テストは何日ですか？",
     "answer": "What's the date of the company's entrance test?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "db04eefb-4ed8-4c82-a0b9-959f2b248b3a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

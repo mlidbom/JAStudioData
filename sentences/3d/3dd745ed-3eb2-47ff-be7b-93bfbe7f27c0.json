@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7c7062899dea09f26d0bec61b6b54a6420c70ada1fb6b799c37d16be.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7c7062899dea09f26d0bec61b6b54a6420c70ada1fb6b799c37d16be.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "叫ぶ"
@@ -198,11 +206,12 @@
     "question": "「感情を吐き出すために叫ぶのが終わったら、ちゃんと電気を消してね。」「了解。」",
     "answer": "\"Turn the light off when you’re done screaming about your emotions.\" \"Roger.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3dd745ed-3eb2-47ff-be7b-93bfbe7f27c0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

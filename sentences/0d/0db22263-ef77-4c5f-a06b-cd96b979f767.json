@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b0bb94056901ef4889f35871f25da92a3576c3fcb2676b9f6d4321de.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b0bb94056901ef4889f35871f25da92a3576c3fcb2676b9f6d4321de.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "掲載"
@@ -191,11 +199,12 @@
     "question": "イラストや写真の無断掲載をしてはいけません。",
     "answer": "Publication of illustrations and photographs without permission is not allowed.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0db22263-ef77-4c5f-a06b-cd96b979f767",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

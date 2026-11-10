@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-423b1d45b1752b8fcadf5073a4a528b0c4b2004a74a6b35f004b7b68.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-423b1d45b1752b8fcadf5073a4a528b0c4b2004a74a6b35f004b7b68.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "字"
@@ -107,11 +115,12 @@
     "question": "この字は「ン」ですか？それとも「ソ」ですか？",
     "answer": "Is this character \"n\"? Or is it \"so\"?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "208bcf53-a26a-4d51-aaf3-5d9a9a5752ab",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

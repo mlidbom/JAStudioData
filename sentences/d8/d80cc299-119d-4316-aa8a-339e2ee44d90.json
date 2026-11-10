@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b807f40dfdf10bc5f554c55de632830a2b32019d17e241be18928886.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b807f40dfdf10bc5f554c55de632830a2b32019d17e241be18928886.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "売る"
@@ -121,11 +129,12 @@
     "question": "このバイク、いくらだったら売ってくれますか？",
     "answer": "How much would you sell this motorcycle for?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d80cc299-119d-4316-aa8a-339e2ee44d90",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

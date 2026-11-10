@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-99b244881d9d548c6ad50a10fdca359f7bbf5a8023292d607dab3094.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-99b244881d9d548c6ad50a10fdca359f7bbf5a8023292d607dab3094.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "貴女たち",
@@ -64,8 +70,7 @@
   "sentenceCount": 14,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -89,7 +94,9 @@
   "sourceData": {
     "answer": "you-(plural)",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "5db4e53a-ee2c-4d4b-a4f9-4425c6a6c849",
   "tags": [

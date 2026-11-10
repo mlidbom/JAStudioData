@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-36416c3fc3bcc3639f0e820c21c1443965711501692a17d7f8033f8b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-36416c3fc3bcc3639f0e820c21c1443965711501692a17d7f8033f8b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "汚れる"
@@ -121,11 +129,12 @@
     "question": "汚れやすいので白いコントローラーはお勧めしません。",
     "answer": "I don’t recommend white controllers because they get dirty easily.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9dbdff02-81bb-4881-9a83-bd62f7ce6a13",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

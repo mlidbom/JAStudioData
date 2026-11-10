@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-81be0dd7d3e116f957b169143be3a73f0e678df146c06714715436c3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-81be0dd7d3e116f957b169143be3a73f0e678df146c06714715436c3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "欄"
@@ -142,11 +150,12 @@
     "question": "この欄は空けておいてください。",
     "answer": "Please leave this column blank.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c083c7b5-c711-4fd8-9341-c5d799882da0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

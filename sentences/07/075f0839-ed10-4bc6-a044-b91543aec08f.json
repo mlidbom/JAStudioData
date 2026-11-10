@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1377502a71c4eca1aacf5ea740e459fda18bb3ac529d98d16c60c9fc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1377502a71c4eca1aacf5ea740e459fda18bb3ac529d98d16c60c9fc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "靖国神社"
@@ -114,11 +122,12 @@
     "question": "靖国神社に参拝したことはありますか。",
     "answer": "Have you ever visited Yasukuni Shrine?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "075f0839-ed10-4bc6-a044-b91543aec08f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

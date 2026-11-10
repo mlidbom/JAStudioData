@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-873d3008ec516a11b8c7584f87089ce4904a24fcfd4e4337b7b3389e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-873d3008ec516a11b8c7584f87089ce4904a24fcfd4e4337b7b3389e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "供給"
@@ -121,11 +129,12 @@
     "question": "水の供給がようやく再開されました。",
     "answer": "The water supply has finally resumed.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b81fb2ed-db71-46bb-b23d-2b68c7ea6dbc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

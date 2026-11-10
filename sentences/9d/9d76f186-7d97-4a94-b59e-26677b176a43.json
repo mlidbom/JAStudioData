@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-828febe99de0d21faf540201bcc1ab1d1cd6ef3b44ef45f617fa8d20.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-828febe99de0d21faf540201bcc1ab1d1cd6ef3b44ef45f617fa8d20.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "向こう"
@@ -121,11 +129,12 @@
     "question": "道の向こうのベーカリーでパンを二斤買いましょう。",
     "answer": "Let's buy two loaves of bread at the bakery on the other side of the road.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9d76f186-7d97-4a94-b59e-26677b176a43",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

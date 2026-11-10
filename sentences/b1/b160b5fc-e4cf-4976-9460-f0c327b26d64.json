@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e8239b0b0b17a921c54353b09deda318eb6d7c254a8472c50e087da3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e8239b0b0b17a921c54353b09deda318eb6d7c254a8472c50e087da3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "久しぶり"
@@ -135,11 +143,12 @@
     "question": "久しぶり！とあったことのない人にいわれた。",
     "answer": "I was told \"long time no see\" by a person that I had never met before.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b160b5fc-e4cf-4976-9460-f0c327b26d64",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

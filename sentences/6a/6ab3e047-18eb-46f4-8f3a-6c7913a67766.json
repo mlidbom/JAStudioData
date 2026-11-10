@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-040637ddf8fe3d2bee715a0de208708b1efefb2332694f6d1abba049.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-040637ddf8fe3d2bee715a0de208708b1efefb2332694f6d1abba049.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "刃物"
@@ -205,11 +213,12 @@
     "question": "刃物をちらつかせながら、男は低い声で私に「こっちへ来い」と言いました。",
     "answer": "While brandishing his knife, he said to me in a low voice, \"Get over here.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6ab3e047-18eb-46f4-8f3a-6c7913a67766",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

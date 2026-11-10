@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-278b7ec5d62d95a655d8167c706bdf7a92c088f784691d76630ab36c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-278b7ec5d62d95a655d8167c706bdf7a92c088f784691d76630ab36c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "猟師"
@@ -72,11 +80,12 @@
     "question": "私の叔父は猟師です。",
     "answer": "My uncle is a hunter.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "03cdaf1f-5d12-4893-a6c3-b67cff2f3ab9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-64f88ac5414370fe8a278f50dfb3501c53caff81e31e8982ad956e04.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-64f88ac5414370fe8a278f50dfb3501c53caff81e31e8982ad956e04.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "夫"
@@ -79,11 +87,12 @@
     "question": "夫に聞いてみます。",
     "answer": "I'll ask my husband.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a3aeea0d-23d1-4065-abc4-6c80b6644548",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

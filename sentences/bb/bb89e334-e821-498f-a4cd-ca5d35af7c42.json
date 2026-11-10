@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-52d3e8c029b6ed300b6e0e89f258c531608520ce27da6d0652f1d6ee.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-52d3e8c029b6ed300b6e0e89f258c531608520ce27da6d0652f1d6ee.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "町"
@@ -65,11 +73,12 @@
     "question": "この町のガソリンスタンドは小さい。",
     "answer": "Gas stations in this town are small.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bb89e334-e821-498f-a4cd-ca5d35af7c42",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

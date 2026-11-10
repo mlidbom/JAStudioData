@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-75cc24ffec253983528ebc0c690b12c4dcb4ce6a0eaf228f7f189e8c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-75cc24ffec253983528ebc0c690b12c4dcb4ce6a0eaf228f7f189e8c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "心配"
@@ -170,11 +178,12 @@
     "question": "明日の試験が心配で、安心していられません。",
     "answer": "I'm so worried about tomorrow's exam that I can't feel at ease.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "77932871-ab5c-4c53-802d-a78c0c3719ca",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

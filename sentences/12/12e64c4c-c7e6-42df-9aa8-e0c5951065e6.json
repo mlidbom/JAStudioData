@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1d935902c9f3eba9f8c4c2d085541f73fb0258a912dbc715f03e71ff.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1d935902c9f3eba9f8c4c2d085541f73fb0258a912dbc715f03e71ff.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "空港"
@@ -100,11 +108,12 @@
     "question": "母は空港まで来てくれました。",
     "answer": "My mother came to the airport for me.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "12e64c4c-c7e6-42df-9aa8-e0c5951065e6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

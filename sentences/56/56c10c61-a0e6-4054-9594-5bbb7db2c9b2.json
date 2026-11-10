@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c4321bf6aea1baa002f673656527bf4cc3e3ffd5f780182887f8e0b4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c4321bf6aea1baa002f673656527bf4cc3e3ffd5f780182887f8e0b4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "確率"
@@ -163,11 +171,12 @@
     "question": "宝くじに当たる確率がどのくらいか知っていますか？",
     "answer": "Do you know how likely it is to win the lottery?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "56c10c61-a0e6-4054-9594-5bbb7db2c9b2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

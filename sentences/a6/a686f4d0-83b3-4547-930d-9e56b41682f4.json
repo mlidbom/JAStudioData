@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fea37448b6b7f65ee039bb3a5a5d34914bec7ca34b9ec4b12e8f81ef.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fea37448b6b7f65ee039bb3a5a5d34914bec7ca34b9ec4b12e8f81ef.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "保険"
@@ -100,11 +108,12 @@
     "question": "旅行保険、どこのやつにした？",
     "answer": "Which travel insurance did you choose?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a686f4d0-83b3-4547-930d-9e56b41682f4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

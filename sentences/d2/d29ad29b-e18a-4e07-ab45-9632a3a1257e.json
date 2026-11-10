@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bd68f19ff53dd5e04032463dcc29900fa666b520e7a68f650246058d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bd68f19ff53dd5e04032463dcc29900fa666b520e7a68f650246058d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "医師"
@@ -121,11 +129,12 @@
     "question": "あっ、その医師って、テレビによく出てる方ですよね？",
     "answer": "Oh, that doctor is on TV a lot, right?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d29ad29b-e18a-4e07-ab45-9632a3a1257e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

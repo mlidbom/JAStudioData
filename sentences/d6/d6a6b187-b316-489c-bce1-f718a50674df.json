@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c4c71e2513c9a85b25bd291bae5dd30885079eaba93b9751d9d54abf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c4c71e2513c9a85b25bd291bae5dd30885079eaba93b9751d9d54abf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "庭"
@@ -128,11 +136,12 @@
     "question": "庭の草むしりで一日が終わってしまった。",
     "answer": "A whole day is over, though all I did was weeding the garden.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d6a6b187-b316-489c-bce1-f718a50674df",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c5bf4a0e3db686967cf1dfd6facc5cf57ef37bf0e04e8ed0426c2514.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c5bf4a0e3db686967cf1dfd6facc5cf57ef37bf0e04e8ed0426c2514.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "脱走する"
@@ -254,11 +262,12 @@
     "question": "うちの子、学校から脱走しようとしたみたいなんだよね。",
     "answer": "Apparently, our kid has tried to escape from school.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4a399caa-ab8a-49e8-991a-93c30c062cb6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

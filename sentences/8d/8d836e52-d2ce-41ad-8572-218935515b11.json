@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f89977cf514057e0cb823ce49d52d7a0587d465cefdc32472688f263.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f89977cf514057e0cb823ce49d52d7a0587d465cefdc32472688f263.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "名前"
@@ -135,11 +143,12 @@
     "question": "トーフグは、ワニカニを作っている会社の名前です。",
     "answer": "Tofugu is the name of the company that makes WaniKani.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8d836e52-d2ce-41ad-8572-218935515b11",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

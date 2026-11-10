@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a8aa1255467c408ae0b4f247860e704d8c33ef656c788a10b047189e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a8aa1255467c408ae0b4f247860e704d8c33ef656c788a10b047189e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "豚骨ラーメン"
@@ -170,11 +178,12 @@
     "question": "この豚骨ラーメンを食べると懐かしい気持ちになるよ。",
     "answer": "This pork bone ramen makes me feel nostalgic.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2e38e4b4-0032-40f5-a22c-6be05ed0de0b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

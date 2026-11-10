@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9f35173e76b5ec46c9b2e029310070b120f8017937e5a8b6456067e2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9f35173e76b5ec46c9b2e029310070b120f8017937e5a8b6456067e2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "衝突"
@@ -142,11 +150,12 @@
     "question": "高速道路で、車が次々と衝突しました。",
     "answer": "On the highway, cars collided one after another.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6ff54303-d6fd-4fde-8e58-7b1aec5ef712",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-85e565e254e8f0ff529d3a0255dadbc756b683d15278cfa5789b922b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-85e565e254e8f0ff529d3a0255dadbc756b683d15278cfa5789b922b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "病人"
@@ -240,11 +248,12 @@
     "question": "うちの姉は病人に対してだけ天使のように親切にする事ができます。",
     "answer": "My sister can be kind of like an angel to sick people.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0f6b0e82-3d01-4470-a4fb-a2dbfbeaac01",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

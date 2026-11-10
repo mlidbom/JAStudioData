@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bd4c0fad89ee87e2141aa1d82937a7ac747abe0e0c73678cbef8ed7a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bd4c0fad89ee87e2141aa1d82937a7ac747abe0e0c73678cbef8ed7a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "禅宗"
@@ -107,11 +115,12 @@
     "question": "その禅宗に関する映画は、この映画館で上映中です。",
     "answer": "The movie about the Zen sect of Japanese Buddhism is playing at this theater.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d59dda88-20c3-41ed-bc12-b707a397da88",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-72e0304cac2809bf68b885199a3bb898328cb2e3594e17c7475a44bd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-72e0304cac2809bf68b885199a3bb898328cb2e3594e17c7475a44bd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "承諾"
@@ -114,11 +122,12 @@
     "question": "事後承諾になってしまってすみません。",
     "answer": "Sorry to ask for your consent after the decision was made.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d74259e4-e947-4e93-a1d2-3af3009ddb66",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

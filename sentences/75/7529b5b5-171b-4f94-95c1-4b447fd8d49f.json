@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-38fdf157a38045b9b40fcdef010d47cd60aeceb6edc3d8510c9a05ec.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-38fdf157a38045b9b40fcdef010d47cd60aeceb6edc3d8510c9a05ec.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "両腕"
@@ -156,11 +164,12 @@
     "question": "コックの両腕には、ヤケドの跡がたくさんありました。",
     "answer": "There were many burns on both of the cook’s arms.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7529b5b5-171b-4f94-95c1-4b447fd8d49f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

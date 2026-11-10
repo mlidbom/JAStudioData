@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-384b1386566c66c6d4e99c798ab9f2139935b622e1c88f5ef1056c33.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-384b1386566c66c6d4e99c798ab9f2139935b622e1c88f5ef1056c33.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "組"
@@ -100,11 +108,12 @@
     "question": "九人を三組のグループに分けた。",
     "answer": "I divided nine people into three groups.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dac7730e-1a89-42d6-9b86-7516299fbf31",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

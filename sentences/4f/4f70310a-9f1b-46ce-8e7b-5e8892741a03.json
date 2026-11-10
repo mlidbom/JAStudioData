@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f56f4638cf1b10f1a58c2cfeaca419f85aab9d040be18ad37b784eba.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f56f4638cf1b10f1a58c2cfeaca419f85aab9d040be18ad37b784eba.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "震源地"
@@ -128,11 +136,12 @@
     "question": "震源地に近いところに住んでる友達が心配だよ。",
     "answer": "I’m worried about my friends who live close to the epicenter.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4f70310a-9f1b-46ce-8e7b-5e8892741a03",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

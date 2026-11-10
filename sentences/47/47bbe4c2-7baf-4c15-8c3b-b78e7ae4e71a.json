@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f11fa031f7c4efdd0b156151b1d8e458c559f2fd177715094b11fd10.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f11fa031f7c4efdd0b156151b1d8e458c559f2fd177715094b11fd10.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "詠歌"
@@ -261,11 +269,12 @@
     "question": "仏教の教えを和歌の形にして、旋律に乗せて唱えるものを御詠歌といいます。",
     "answer": "Chanting Buddhist teachings in the form of a waka poem with a melody is called \"goeika\".",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "47bbe4c2-7baf-4c15-8c3b-b78e7ae4e71a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

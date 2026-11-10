@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f0c0cda038a6b8c0b380a1f37112a354eebad1665b70bc9dcf5c4c27.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f0c0cda038a6b8c0b380a1f37112a354eebad1665b70bc9dcf5c4c27.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "正しい"
@@ -142,11 +150,12 @@
     "question": "ぼくが三日にホテルに入ったというのは正しいです。",
     "answer": "It's true that I went into the hotel on the 3rd.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "550453cd-2c02-4293-82c1-6ef3fd779796",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

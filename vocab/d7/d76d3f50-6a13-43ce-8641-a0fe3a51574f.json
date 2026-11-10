@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-4a3f80204f0eb78c48238f1c1331d7986775865926774f77e34fa137.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-4a3f80204f0eb78c48238f1c1331d7986775865926774f77e34fa137.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "んで下さい",
@@ -48,8 +54,7 @@
   "sentenceCount": 30,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {
       "teFormStemStart": "required"
@@ -105,7 +110,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "d76d3f50-6a13-43ce-8641-a0fe3a51574f",
   "tags": [

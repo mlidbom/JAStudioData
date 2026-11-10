@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b88f60cf4723951d259931fb916b3f4ff0a05ee6ed1485ce3b777d9e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b88f60cf4723951d259931fb916b3f4ff0a05ee6ed1485ce3b777d9e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "固い"
@@ -86,11 +94,12 @@
     "question": "父の決心は固いと思います。",
     "answer": "I think my father's decision is firm.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "177fe3c2-a387-4600-8513-8557fc158ff2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

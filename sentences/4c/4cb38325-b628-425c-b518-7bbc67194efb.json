@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b4c871dc01ebd4126b4a43b0ac5ff31de03349fdd0d45915cf9b7b61.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b4c871dc01ebd4126b4a43b0ac5ff31de03349fdd0d45915cf9b7b61.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "落胆"
@@ -156,11 +164,12 @@
     "question": "息子は、受験に失敗して落胆しているんだ。",
     "answer": "My son failed an exam and is discouraged.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4cb38325-b628-425c-b518-7bbc67194efb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

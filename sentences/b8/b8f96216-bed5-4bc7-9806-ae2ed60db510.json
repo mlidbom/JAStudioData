@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-60dceb95b805efd0864c677a8258c21f67d48a3354fa47ed3bfef36a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-60dceb95b805efd0864c677a8258c21f67d48a3354fa47ed3bfef36a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "発音"
@@ -114,11 +122,12 @@
     "question": "「Otolaryngology」の発音を教えてくれませんか？",
     "answer": "Can you tell me the pronunciation of \"Otolaryngology\"?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b8f96216-bed5-4bc7-9806-ae2ed60db510",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c4ec7c5c51a61771bbce34e4a8f56e2a97799048b7be59dc7d3ee237.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c4ec7c5c51a61771bbce34e4a8f56e2a97799048b7be59dc7d3ee237.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "文字通り"
@@ -65,11 +73,12 @@
     "question": "この子は文字通り「天才」だ。",
     "answer": "This child is literally a genius.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d8244c92-fff1-40ad-ba30-10e06f953c65",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

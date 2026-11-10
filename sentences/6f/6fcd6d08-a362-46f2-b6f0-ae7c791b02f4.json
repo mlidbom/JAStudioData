@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d4e05fb36170283276ef0e59da0a4f4b1c301e7017e135ddf249aec9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d4e05fb36170283276ef0e59da0a4f4b1c301e7017e135ddf249aec9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "時々"
@@ -205,11 +213,12 @@
     "question": "時々「コウイチは今何してるかな？」って思うんだよね。",
     "answer": "Sometimes I wonder what Koichi is doing at the moment.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6fcd6d08-a362-46f2-b6f0-ae7c791b02f4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

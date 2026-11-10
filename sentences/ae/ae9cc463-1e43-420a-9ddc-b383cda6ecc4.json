@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e795847981da6f4c85714fc51206071204bbe500002cb0790ab2318d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e795847981da6f4c85714fc51206071204bbe500002cb0790ab2318d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "小麦粉"
@@ -156,11 +164,12 @@
     "question": "お水の三倍の量の小麦粉を入れてください。",
     "answer": "Add three times more flour than water.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ae9cc463-1e43-420a-9ddc-b383cda6ecc4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

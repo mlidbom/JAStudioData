@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cc9e87522f7294a3f35d9638fdc3320baf3566d57c3779b3562e16f7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cc9e87522f7294a3f35d9638fdc3320baf3566d57c3779b3562e16f7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "風船"
@@ -135,11 +143,12 @@
     "question": "あのピエロが、風船で犬を作ってくれたんだ。",
     "answer": "That clown made a dog out of a balloon for me.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "22c00fb4-5c68-495b-acfb-7c4a3abe5a7f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

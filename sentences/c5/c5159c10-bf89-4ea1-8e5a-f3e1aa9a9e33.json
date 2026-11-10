@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5a0fc2900c7100760b0d0ae15fdb626e6d73c71e7c1a91c698694ef0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5a0fc2900c7100760b0d0ae15fdb626e6d73c71e7c1a91c698694ef0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "計算"
@@ -93,11 +101,12 @@
     "question": "あの女は計算高いことで有名です。",
     "answer": "That woman is famous for being calculated.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c5159c10-bf89-4ea1-8e5a-f3e1aa9a9e33",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

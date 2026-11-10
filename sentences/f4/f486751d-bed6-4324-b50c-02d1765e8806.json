@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-436f82450a520f48e93f20bc612c0b0ca313cec337b5fc9c544e96c2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-436f82450a520f48e93f20bc612c0b0ca313cec337b5fc9c544e96c2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "力"
@@ -135,11 +143,12 @@
     "question": "リラックスしたいのに、どうしても力が入ってしまう。",
     "answer": "I want to relax, but I somehow get tense.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f486751d-bed6-4324-b50c-02d1765e8806",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

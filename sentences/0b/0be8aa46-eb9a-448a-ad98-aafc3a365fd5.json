@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dd3d502df7a1f968e752ba319f9417036897b3bfdbb3467456696d4b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dd3d502df7a1f968e752ba319f9417036897b3bfdbb3467456696d4b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "対策"
@@ -345,11 +353,12 @@
     "question": "コーヒーを入れようとしてボタンを押したら、コーヒーメーカーが火を噴いたの。不具合の原因を見つけて、再発防止対策を講じなきゃいけないわ。",
     "answer": "I was making a cup of coffee, I pressed a button, and the machine caught on fire. We have to find the cause of the defect and take measures to prevent its recurrence.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0be8aa46-eb9a-448a-ad98-aafc3a365fd5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

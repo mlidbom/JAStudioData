@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bee53a1edf30d9454b6c358953ed53dfaa4039880580fd3a67785442.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bee53a1edf30d9454b6c358953ed53dfaa4039880580fd3a67785442.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "長さ"
@@ -107,11 +115,12 @@
     "question": "このバナナの長さは、二十センチです。",
     "answer": "The length of this banana is twenty centimeters.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c75477f3-7a49-48b6-84ed-dd322e1e207b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

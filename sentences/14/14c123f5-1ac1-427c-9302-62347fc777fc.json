@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9cfd432abdf8d919271fd74edcdbeb56731824d71e7dcde8e50ddcb8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9cfd432abdf8d919271fd74edcdbeb56731824d71e7dcde8e50ddcb8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "美術館"
@@ -72,11 +80,12 @@
     "question": "週末は美術館デートでした。",
     "answer": "We had an art museum date over the weekend.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "14c123f5-1ac1-427c-9302-62347fc777fc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

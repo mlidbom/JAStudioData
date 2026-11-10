@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f8458f48cf9a1038425f011eb32be239b0e1ce2f087f8dc752b80256.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f8458f48cf9a1038425f011eb32be239b0e1ce2f087f8dc752b80256.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "湿る"
@@ -163,11 +171,12 @@
     "question": "昨日の夜、寝汗をたくさんかいちゃったから、ベッドが何だか湿ってるのよね。",
     "answer": "I sweat a lot when I was sleeping last night and my bed is a little damp.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2b313b52-9789-4d8f-b568-103082724b90",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

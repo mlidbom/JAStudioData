@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8b468c4b10e23f0a9ff170d48bb56e8010bd4e8c9127b1b3eacd39ba.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8b468c4b10e23f0a9ff170d48bb56e8010bd4e8c9127b1b3eacd39ba.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "生物"
@@ -128,11 +136,12 @@
     "question": "あの生物は一体何なのか未だに不明です。",
     "answer": "It is still unknown what that creature is.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "71844edc-662d-475a-a03d-e104a4a95f8e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

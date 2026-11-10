@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-39301a84d41aa685771eed56553d8d040dd0e4ec4f04efb5823424b1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-39301a84d41aa685771eed56553d8d040dd0e4ec4f04efb5823424b1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "空く"
@@ -205,11 +213,12 @@
     "question": "ラッキーなことに、テーブルが一つ空いていたのですぐ店に入れました。",
     "answer": "Luckily, there was one available table, so we were able to get seated at the restaurant right away.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9c1fbe94-5b03-45e7-be50-764973f8ac67",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

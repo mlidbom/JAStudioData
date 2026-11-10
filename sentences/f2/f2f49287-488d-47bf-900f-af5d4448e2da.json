@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c32aa8251357a1fbdbc71b703b4756b695825d2a0d0f687c1f64ac76.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c32aa8251357a1fbdbc71b703b4756b695825d2a0d0f687c1f64ac76.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "締結する"
@@ -191,11 +199,12 @@
     "question": "どうしてあの国が突然平和友好条約を締結したのか不思議に思うよ。",
     "answer": "It’s strange, I wonder why those countries entered into a peace treaty so suddenly.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f2f49287-488d-47bf-900f-af5d4448e2da",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

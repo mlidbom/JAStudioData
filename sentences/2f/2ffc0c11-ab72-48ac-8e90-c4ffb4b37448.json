@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4f5b3649e86adede8a7128500b80455129d559fd0abab5d82c264698.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4f5b3649e86adede8a7128500b80455129d559fd0abab5d82c264698.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "没収"
@@ -121,11 +129,12 @@
     "question": "先生に携帯電話を没収されました。",
     "answer": "I forfeited my cell phone to the teacher.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2ffc0c11-ab72-48ac-8e90-c4ffb4b37448",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

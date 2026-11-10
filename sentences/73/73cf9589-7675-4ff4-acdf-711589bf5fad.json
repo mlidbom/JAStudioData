@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1b21a896f840a0702e00b0b2b8b40faa75e30a603d1963da9f627a68.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1b21a896f840a0702e00b0b2b8b40faa75e30a603d1963da9f627a68.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "弾力"
@@ -128,11 +136,12 @@
     "question": "お肌の弾力が無くなってきているの。",
     "answer": "The elasticity of my skin is disappearing.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "73cf9589-7675-4ff4-acdf-711589bf5fad",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

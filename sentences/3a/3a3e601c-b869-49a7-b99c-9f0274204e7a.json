@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-002aaf877e9868d5e876f8ad297f1ae164cad5a2867aaa641a72ea4e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-002aaf877e9868d5e876f8ad297f1ae164cad5a2867aaa641a72ea4e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "効果"
@@ -135,11 +143,12 @@
     "question": "この薬には痛みを和らげる効果があります。",
     "answer": "This medicine has the effect of relieving pain.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3a3e601c-b869-49a7-b99c-9f0274204e7a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

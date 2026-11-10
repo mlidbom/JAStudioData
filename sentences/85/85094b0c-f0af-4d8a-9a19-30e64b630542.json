@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e891a9d9e0101fcd5cee20d6db2ffd99292c1a6b585b81928533174f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e891a9d9e0101fcd5cee20d6db2ffd99292c1a6b585b81928533174f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "麻"
@@ -275,11 +283,12 @@
     "question": "これは麻の木じゃないって、何回説明したら分かってもらえるんですか？",
     "answer": "How many times do I have to tell you that this is not a hemp plant?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "85094b0c-f0af-4d8a-9a19-30e64b630542",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

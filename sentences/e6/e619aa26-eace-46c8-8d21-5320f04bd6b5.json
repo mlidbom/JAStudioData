@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b6738c1a418df6d1f4b8570ad58bc1ba16fa75b695cbe5ff901bccc9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b6738c1a418df6d1f4b8570ad58bc1ba16fa75b695cbe5ff901bccc9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "渋々"
@@ -107,11 +115,12 @@
     "question": "渋々自分がやったことを認めました。",
     "answer": "I reluctantly admitted to the things I did.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e619aa26-eace-46c8-8d21-5320f04bd6b5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

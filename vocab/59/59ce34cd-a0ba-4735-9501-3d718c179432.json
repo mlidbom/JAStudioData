@@ -26,9 +26,15 @@
   "partsOfSpeech": [],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-38365af997b52c457c1fe0bfc4afdd116374fc3807ba056bfdca716b.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-38365af997b52c457c1fe0bfc4afdd116374fc3807ba056bfdca716b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "宜しくない",
@@ -46,8 +52,7 @@
   "sentenceCount": 3,
   "technicalNotes": "Needed because of anything よろしく, getting caught up in the common phrase.",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -71,7 +76,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "59ce34cd-a0ba-4735-9501-3d718c179432",
   "tags": [

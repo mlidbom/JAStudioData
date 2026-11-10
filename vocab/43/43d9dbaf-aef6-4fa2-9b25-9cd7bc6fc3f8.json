@@ -29,9 +29,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-a45b936908efce43f097da57c98283dab12aa9cf34a3f05c7409af77.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-a45b936908efce43f097da57c98283dab12aa9cf34a3f05c7409af77.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "おそれ入る",
@@ -49,8 +55,7 @@
   "sentenceCount": 5,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -74,7 +79,9 @@
   "sourceData": {
     "answer": "to: {be-sorry/beg-pardon/be-much-obliged/feel-small} | be-grateful | be-{amazed/filled-with-awe/surprised} | be-{disconcerted/embarrassed}",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "43d9dbaf-aef6-4fa2-9b25-9cd7bc6fc3f8",
   "tags": [

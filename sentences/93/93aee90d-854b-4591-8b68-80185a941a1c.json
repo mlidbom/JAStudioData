@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f92ed11fbbf84e71fdc41025e3ba27f92a84447f20ea15be1b8b62ce.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f92ed11fbbf84e71fdc41025e3ba27f92a84447f20ea15be1b8b62ce.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "燃料"
@@ -79,11 +87,12 @@
     "question": "単なる燃料切れだったよ。",
     "answer": "I was simply running out of fuel.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "93aee90d-854b-4591-8b68-80185a941a1c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

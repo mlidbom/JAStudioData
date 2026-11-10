@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0294e3b7bdfc1997c3a2abf32f29938d8c8f5a1bd83ce855f14b020a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0294e3b7bdfc1997c3a2abf32f29938d8c8f5a1bd83ce855f14b020a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "電気"
@@ -149,11 +157,12 @@
     "question": "会社の電気が明るい時は、スタッフが出社しているサインです。",
     "answer": "When the lights are on, it's a sign that staff are in the office.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fed36506-edf0-47a7-ac50-d9a9c63366bd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

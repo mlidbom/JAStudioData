@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e55e80cc25dabdac26fa55b382e6f8a6a9cd5e6d38cea4a7dfc423fa.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e55e80cc25dabdac26fa55b382e6f8a6a9cd5e6d38cea4a7dfc423fa.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "怪獣"
@@ -79,11 +87,12 @@
     "question": "ワニカニって怪獣なの？",
     "answer": "Is Wanikani a kaiju?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5ea8b587-9a1d-4946-ad42-8949f84aa273",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

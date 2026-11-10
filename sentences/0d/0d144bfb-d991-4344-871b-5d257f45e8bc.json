@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f5a3569c2a8a75077cadca023c7109961b4dc2eb4ffae056bc45c966.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f5a3569c2a8a75077cadca023c7109961b4dc2eb4ffae056bc45c966.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "徐行"
@@ -184,11 +192,12 @@
     "question": "住宅地や学校の近くでは、徐行で運転してください。",
     "answer": "Please drive slowly near residential districts and schools.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0d144bfb-d991-4344-871b-5d257f45e8bc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

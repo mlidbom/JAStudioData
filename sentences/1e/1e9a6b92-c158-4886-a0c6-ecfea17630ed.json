@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-13d09f80d568c59f48b959884a0cd390442b8e87758acfc18e44b563.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-13d09f80d568c59f48b959884a0cd390442b8e87758acfc18e44b563.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "攻撃"
@@ -170,11 +178,12 @@
     "question": "敵はまず巨大都市を攻撃してくるだろう。",
     "answer": "The enemy will probably attack the megacities first.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1e9a6b92-c158-4886-a0c6-ecfea17630ed",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

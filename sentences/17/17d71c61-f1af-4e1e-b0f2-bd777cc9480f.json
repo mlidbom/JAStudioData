@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4759d35906390a89a7c7bf34702dfde810c50fca2c959cb021a58a71.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4759d35906390a89a7c7bf34702dfde810c50fca2c959cb021a58a71.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "逆効果"
@@ -154,11 +162,12 @@
     "question": "胃ぶくろを満たしてハートをつかむはずが、逆効果だった。",
     "answer": "I expected to capture his heart by filling his stomach, but it had the opposite effect.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "17d71c61-f1af-4e1e-b0f2-bd777cc9480f",
   "tags": [
-    "_tts_audio",
     "-::sentence::uses::incorrect-matches",
     "source::wani::current"
   ]

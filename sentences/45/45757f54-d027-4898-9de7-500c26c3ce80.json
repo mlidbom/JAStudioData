@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2c2814fcc51c85520c9051ab620fd36d4ccf4d5616535907a0a20b29.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2c2814fcc51c85520c9051ab620fd36d4ccf4d5616535907a0a20b29.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "来る"
@@ -65,11 +73,12 @@
     "question": "もうすぐ先生が来る。",
     "answer": "The teacher's coming soon.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "45757f54-d027-4898-9de7-500c26c3ce80",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

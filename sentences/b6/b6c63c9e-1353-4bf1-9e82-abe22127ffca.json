@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-46887352bbdd8b559eae11f4b4f07de9e74da255b11404f300afe9aa.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-46887352bbdd8b559eae11f4b4f07de9e74da255b11404f300afe9aa.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大きく"
@@ -142,11 +150,12 @@
     "question": "タクシーを見たら、右手を大きく上げて下さいね。",
     "answer": "If you see a taxi, please fully raise your right hand.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b6c63c9e-1353-4bf1-9e82-abe22127ffca",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

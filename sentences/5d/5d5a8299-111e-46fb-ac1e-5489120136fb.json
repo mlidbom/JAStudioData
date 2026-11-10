@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-56b7a347454fcb7f7f2d88cf505b0aff8020c820f7ad9d1c8edadf74.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-56b7a347454fcb7f7f2d88cf505b0aff8020c820f7ad9d1c8edadf74.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "東芝"
@@ -177,11 +185,12 @@
     "question": "東芝のお客様センターから届いたメールは、全文文字化けしていました。",
     "answer": "The email from Toshiba’s customer center was all garbled.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5d5a8299-111e-46fb-ac1e-5489120136fb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

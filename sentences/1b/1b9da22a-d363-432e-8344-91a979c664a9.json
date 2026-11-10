@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f4ea0cc7c5ce2a916e44aea79dfa981c7484af06268708bb5eb96097.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f4ea0cc7c5ce2a916e44aea79dfa981c7484af06268708bb5eb96097.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "自宅"
@@ -170,11 +178,12 @@
     "question": "自宅のトイレから、助けを呼ぶ声が聞こえてきたんです。",
     "answer": "I heard a voice calling for help from the bathroom in my house.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1b9da22a-d363-432e-8344-91a979c664a9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

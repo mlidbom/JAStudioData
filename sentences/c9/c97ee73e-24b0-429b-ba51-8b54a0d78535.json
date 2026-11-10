@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4db8ecd0fa1bb3899d45886a2610a3165989ddbf401fe015c2de9c43.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4db8ecd0fa1bb3899d45886a2610a3165989ddbf401fe015c2de9c43.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "酸素"
@@ -156,11 +164,12 @@
     "question": "毎日午後に有酸素運動をしています。",
     "answer": "I do aerobic exercises every afternoon.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c97ee73e-24b0-429b-ba51-8b54a0d78535",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

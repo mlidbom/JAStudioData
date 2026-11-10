@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-88b515d444e1105ad0b6c7ce8c9490d84d0cb4487072768a823cc085.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-88b515d444e1105ad0b6c7ce8c9490d84d0cb4487072768a823cc085.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "月光"
@@ -128,11 +136,12 @@
     "question": "月光の中に、月の王女がいた。",
     "answer": "In the moonlight, there was a princess of the moon.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "64d16ced-d687-45fc-9e05-9b2bc36781ba",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

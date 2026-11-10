@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-69b04a813a3243c5b7995e006661cd2003ce1105eab747a9767f1cbf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-69b04a813a3243c5b7995e006661cd2003ce1105eab747a9767f1cbf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "住人"
@@ -128,11 +136,12 @@
     "question": "町内の住人たちは、毎年四月に花見パーティーをします。",
     "answer": "Residents in town have a cherry blossom viewing party every April.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c8ba4659-e143-4f4e-a6fd-1fd92572c216",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

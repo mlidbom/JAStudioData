@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6feff0a8afc72c0104e2f080a97175ed5f633b2046709626cd702890.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6feff0a8afc72c0104e2f080a97175ed5f633b2046709626cd702890.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "木曜日"
@@ -149,11 +157,12 @@
     "question": "そうじは木曜日にしようと思ってます。",
     "answer": "I am planning to do the cleanup on Thursday.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2010ffe4-36c5-49f0-8fa8-9fb48ae948ea",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

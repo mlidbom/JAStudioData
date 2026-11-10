@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-63187851b4b27a6acc4289b511c90c24b5e114c1d3efdb5c995d9d4d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-63187851b4b27a6acc4289b511c90c24b5e114c1d3efdb5c995d9d4d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "証明"
@@ -163,11 +171,12 @@
     "question": "日付スタンプのある証明写真が必要なんです。",
     "answer": "I need a certified photo with date stamp.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7b689182-dd7e-446e-80d9-d5d6d8953152",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

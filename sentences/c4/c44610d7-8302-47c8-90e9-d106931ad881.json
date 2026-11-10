@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-31418a77ed4c28ad6d7c6c98567e8f39034f597a508c81cea3e6af35.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-31418a77ed4c28ad6d7c6c98567e8f39034f597a508c81cea3e6af35.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "炒める"
@@ -156,11 +164,12 @@
     "question": "炒めすぎないように気をつけてくださいね。",
     "answer": "Be careful not to overcook them, okay?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c44610d7-8302-47c8-90e9-d106931ad881",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

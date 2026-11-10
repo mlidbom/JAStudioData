@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-efc6f81bc4113bb9b1b962fa11e56cc69855da55532e1e381b915c47.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-efc6f81bc4113bb9b1b962fa11e56cc69855da55532e1e381b915c47.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "脳死"
@@ -163,11 +171,12 @@
     "question": "脳死かどうかはどうやってジャッジするんですか？",
     "answer": "How do you judge if someone is brain dead?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f32bca72-2575-48f7-99fc-698b88f56246",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

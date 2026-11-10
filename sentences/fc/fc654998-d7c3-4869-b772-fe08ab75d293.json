@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bc3a1a860473d09f73e267bbe03a53ff10bf9cc54461a92378e2402a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bc3a1a860473d09f73e267bbe03a53ff10bf9cc54461a92378e2402a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "君"
@@ -107,11 +115,12 @@
     "question": "君の作るカレーが日本一だよ。",
     "answer": "The curry you make is the best in Japan.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fc654998-d7c3-4869-b772-fe08ab75d293",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

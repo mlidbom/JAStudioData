@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-294c0450f7e19419a2c14c7a7e3ec195af68ff46d76c663ce595cf60.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-294c0450f7e19419a2c14c7a7e3ec195af68ff46d76c663ce595cf60.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "全て"
@@ -93,11 +101,12 @@
     "question": "全ての人は、人から生まれました。",
     "answer": "Every person was born from a person.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fadec474-f1be-45af-801a-4b73a446b582",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

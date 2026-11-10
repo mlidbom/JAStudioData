@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-780a3d05eb991d6710a2e5a765aa8429ca51c21d23a3959c7802525c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-780a3d05eb991d6710a2e5a765aa8429ca51c21d23a3959c7802525c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "生地"
@@ -107,11 +115,12 @@
     "question": "生地を広げてから、切って、形を作ります。",
     "answer": "Spread the dough, then cut it and make a shape.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "159932dc-effb-4143-9958-7d7b692100ea",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

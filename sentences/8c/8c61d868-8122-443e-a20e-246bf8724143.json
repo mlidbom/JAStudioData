@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-468acb032bf62c90c3e7fe69fa70d49f2e21f3b9b90b73d2e81e6710.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-468acb032bf62c90c3e7fe69fa70d49f2e21f3b9b90b73d2e81e6710.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "番号札"
@@ -93,11 +101,12 @@
     "question": "番号札をとって、お待ちください。",
     "answer": "Please take a numbered ticket and wait your turn.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8c61d868-8122-443e-a20e-246bf8724143",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

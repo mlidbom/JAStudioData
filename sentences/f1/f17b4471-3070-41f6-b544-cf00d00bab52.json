@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d6e09184a7ba3cff5b840c56267a4618b4d204f0590dc4708aada098.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d6e09184a7ba3cff5b840c56267a4618b4d204f0590dc4708aada098.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "三冊"
@@ -135,11 +143,12 @@
     "question": "週末に三冊全部読むのは、ちょっと無理かも。",
     "answer": "I may not be able to read all three books in a weekend.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f17b4471-3070-41f6-b544-cf00d00bab52",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

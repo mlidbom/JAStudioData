@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-04ac4b59a1a06e6e43ba83e5af185b5f3085efcc707acebbbd77a9e9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-04ac4b59a1a06e6e43ba83e5af185b5f3085efcc707acebbbd77a9e9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "植物"
@@ -142,11 +150,12 @@
     "question": "この森には色々な植物が生えてますね。",
     "answer": "There are various plants growing in this forest.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cb499ca8-9e00-4c60-964c-3f0fb7cf9cf2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

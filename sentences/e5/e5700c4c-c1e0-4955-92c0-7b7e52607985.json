@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-50fd6deaf7b14c2c5b3bb11f4daa6f415e5c59e34a36ffc375e87573.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-50fd6deaf7b14c2c5b3bb11f4daa6f415e5c59e34a36ffc375e87573.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "小包"
@@ -79,11 +87,12 @@
     "question": "この小包は、ほんの友情の印です。",
     "answer": "This package is just a symbol of our friendship.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e5700c4c-c1e0-4955-92c0-7b7e52607985",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

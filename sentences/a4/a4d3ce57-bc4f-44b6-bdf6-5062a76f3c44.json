@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d5a336d895571e6f3cb8afedefe28c256121df6fcd24979ea1e54fb7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d5a336d895571e6f3cb8afedefe28c256121df6fcd24979ea1e54fb7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "優先"
@@ -296,11 +304,12 @@
     "question": "うちの会社は、新しいベーコンのフレーバーの開発を優先するべきだと思うんだよね。",
     "answer": "I think our company should prioritize the development of new flavors of bacon.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a4d3ce57-bc4f-44b6-bdf6-5062a76f3c44",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

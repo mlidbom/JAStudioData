@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-46c4e1c14a801ef0cbd3aa4be14a26365015ec91bad451dd6db3e344.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-46c4e1c14a801ef0cbd3aa4be14a26365015ec91bad451dd6db3e344.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "枯れ木"
@@ -79,11 +87,12 @@
     "question": "枯れ木に花を咲かせましょう。",
     "answer": "Let’s make the dead tree bloom.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e4d86d47-ba04-4a6d-a29d-04fc895fcfad",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

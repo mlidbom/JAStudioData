@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a93515dc73a91caa13a394ca2fcc3e0c5c4d48107df3c7c8130bddef.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a93515dc73a91caa13a394ca2fcc3e0c5c4d48107df3c7c8130bddef.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "生む"
@@ -128,11 +136,12 @@
     "question": "このレストランのオーナーが、日本のイタリアンの人気を生んだシェフです。",
     "answer": "The owner of this restaurant is the chef who made Italian cuisine popular in Japan.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fe465edd-255b-4b65-822a-75ffb94f8715",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

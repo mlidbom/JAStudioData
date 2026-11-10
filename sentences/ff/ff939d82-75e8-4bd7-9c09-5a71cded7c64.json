@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1356c5769a7411811e68af7d901573d9088e4be1122d9adde1552220.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1356c5769a7411811e68af7d901573d9088e4be1122d9adde1552220.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "人口"
@@ -107,11 +115,12 @@
     "question": "このエリアの人口は、たったの一人です。",
     "answer": "The population of this area is only one person.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ff939d82-75e8-4bd7-9c09-5a71cded7c64",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

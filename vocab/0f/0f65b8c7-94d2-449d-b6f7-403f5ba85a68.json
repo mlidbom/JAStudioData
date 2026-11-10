@@ -28,9 +28,15 @@
   "partsOfSpeech": [],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-10ab52476e5de073ba91fdd7e2c27f3e765cec81b0e99d5e15d31ac9.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-10ab52476e5de073ba91fdd7e2c27f3e765cec81b0e99d5e15d31ac9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "人使いが荒い",
@@ -44,8 +50,7 @@
   "sentenceCount": 1,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -69,7 +74,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "0f65b8c7-94d2-449d-b6f7-403f5ba85a68",
   "tags": [

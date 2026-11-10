@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e6d718c55ce68a79e4282653bf0e43adc9fa4d3fd11f86911cfa47fc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e6d718c55ce68a79e4282653bf0e43adc9fa4d3fd11f86911cfa47fc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "飲み会"
@@ -247,11 +255,12 @@
     "question": "うちの親が飲み会には行っちゃダメだって言うんだよね。",
     "answer": "My parents say that I can’t go to the drinking party.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "86453e65-8160-4f69-913d-f368a63135a3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

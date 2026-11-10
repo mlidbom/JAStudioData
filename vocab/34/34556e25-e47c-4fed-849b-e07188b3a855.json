@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-cf2a9a065d89a9d8eea1c33ff121660ea9ead69c2149c7416f2947ff.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-cf2a9a065d89a9d8eea1c33ff121660ea9ead69c2149c7416f2947ff.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "見詰め返す",
@@ -48,8 +54,7 @@
   "sentenceCount": 1,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -73,7 +78,9 @@
   "sourceData": {
     "answer": "to{} stare-back-at/look-back-at",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "34556e25-e47c-4fed-849b-e07188b3a855",
   "tags": [

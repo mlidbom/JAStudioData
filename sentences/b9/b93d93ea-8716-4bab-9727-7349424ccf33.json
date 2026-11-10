@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-50ea1e26267ad798f7f9b402c463a623ec4b37fb4167e10113799b2c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-50ea1e26267ad798f7f9b402c463a623ec4b37fb4167e10113799b2c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "流れる"
@@ -121,11 +129,12 @@
     "question": "近くを流れる川の水は、とてもきれいでした。",
     "answer": "The water flowing in the nearby river was very clean.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b93d93ea-8716-4bab-9727-7349424ccf33",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

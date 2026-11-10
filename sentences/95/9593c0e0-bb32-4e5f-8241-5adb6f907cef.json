@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-073d91cb0b3e9b68c850463b1e31e6d2f301c9241887dabd071cc4f1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-073d91cb0b3e9b68c850463b1e31e6d2f301c9241887dabd071cc4f1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "踊る"
@@ -212,11 +220,12 @@
     "question": "海の中の魚達は、みんな太鼓の音に合わせて一斉に踊り出しました。",
     "answer": "All the fish in the sea started dancing to the sound of the drum.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9593c0e0-bb32-4e5f-8241-5adb6f907cef",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

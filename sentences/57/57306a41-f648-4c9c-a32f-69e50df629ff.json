@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1629f1a91919c65a2952af0ff47e5d6fbd66fcc4af1cbb75d93b8a43.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1629f1a91919c65a2952af0ff47e5d6fbd66fcc4af1cbb75d93b8a43.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "汽車"
@@ -100,11 +108,12 @@
     "question": "汽車の煙が目にしみました。",
     "answer": "The smoke from the steam train stung my eyes.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "57306a41-f648-4c9c-a32f-69e50df629ff",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

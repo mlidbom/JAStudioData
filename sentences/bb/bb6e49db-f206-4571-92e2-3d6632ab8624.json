@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3984af4c5bb946410adf589f8469ba388d14daf6b95efcb8afbc559d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3984af4c5bb946410adf589f8469ba388d14daf6b95efcb8afbc559d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "味方"
@@ -114,11 +122,12 @@
     "question": "お前は一体どっちの味方なんだ？",
     "answer": "Who the heck are your allies?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bb6e49db-f206-4571-92e2-3d6632ab8624",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

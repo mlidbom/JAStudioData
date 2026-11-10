@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-19e9b76942516bf852d0b11f6bd916545f774ce8d77d8d64d3799f44.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-19e9b76942516bf852d0b11f6bd916545f774ce8d77d8d64d3799f44.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "暇"
@@ -198,11 +206,12 @@
     "question": "三村さんは暇さえあれば常に株の勉強をしていて感心します。",
     "answer": "I admire Mr. Mimura's constant study of stocks in his spare time.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8affbc6b-edbd-4652-92b6-bbf1892b1a88",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

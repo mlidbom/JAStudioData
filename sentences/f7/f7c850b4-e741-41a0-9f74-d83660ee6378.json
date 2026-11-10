@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b911b97e351cd55f7a483912bec238b6090c0c9368975fc83b6ea5e5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b911b97e351cd55f7a483912bec238b6090c0c9368975fc83b6ea5e5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "告白"
@@ -156,11 +164,12 @@
     "question": "僕には告白する勇気はありません。",
     "answer": "I don't have the courage to confess.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f7c850b4-e741-41a0-9f74-d83660ee6378",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

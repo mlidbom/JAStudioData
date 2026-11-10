@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e9e14a70f90f375874f52eb97174e666bd262ce76badbf435264cb1a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e9e14a70f90f375874f52eb97174e666bd262ce76badbf435264cb1a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "留守番電話"
@@ -310,11 +318,12 @@
     "question": "トーフグのオフィスに何度も何度も電話をしていますが、いつも留守番電話なんです。",
     "answer": "I've been calling the Tofugu office over and over again, but I always get the answering machine.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f4ebebf9-d66d-40fc-95b2-2f26e0e600b7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

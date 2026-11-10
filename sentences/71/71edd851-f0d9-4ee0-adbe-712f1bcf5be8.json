@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e215a33145649dbed445db341b15943038f531b5338cfe2d3e7a6aea.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e215a33145649dbed445db341b15943038f531b5338cfe2d3e7a6aea.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "量る"
@@ -261,11 +269,12 @@
     "question": "空いている時間でここにある荷物の重さを量って、この紙に書いておいてください。",
     "answer": "When you have time, please weigh the luggage here and write their weights down on this paper.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "71edd851-f0d9-4ee0-adbe-712f1bcf5be8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

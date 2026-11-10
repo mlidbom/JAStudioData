@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e2e7102261fdc3eb3e3b0675f474cc25a8b08fbaacefa902acae19d8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e2e7102261fdc3eb3e3b0675f474cc25a8b08fbaacefa902acae19d8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "草刈り"
@@ -198,11 +206,12 @@
     "question": "昨日は俺が悪かったよ。本当にごめん。お詫びの印に、今日は草刈りをするよ。",
     "answer": "I am really sorry for being a jerk yesterday. I’ll mow the grass today to apologize.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bb3a68d5-aef4-41f2-89d2-0a3d44074b75",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

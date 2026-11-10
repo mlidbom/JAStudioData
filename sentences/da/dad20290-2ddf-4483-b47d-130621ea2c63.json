@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c8153cb174890b391868239ca8acb1d1bc70cb0943ce934f68789ad1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c8153cb174890b391868239ca8acb1d1bc70cb0943ce934f68789ad1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "運動会"
@@ -51,11 +59,12 @@
     "question": "明日は運動会です。",
     "answer": "Tomorrow is sports day.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dad20290-2ddf-4483-b47d-130621ea2c63",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

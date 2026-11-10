@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4d9767fd87d555e77e6118521e3cb41d87b74bdbd06c32f91eb5656f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4d9767fd87d555e77e6118521e3cb41d87b74bdbd06c32f91eb5656f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "姉"
@@ -107,11 +115,12 @@
     "question": "姉のお父さんと私のお父さんは同じ人です。",
     "answer": "My sister's dad and my dad are the same person.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fa22b7bc-505d-499e-ad6f-6800d489c837",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

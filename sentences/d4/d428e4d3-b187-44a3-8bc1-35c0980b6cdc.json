@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-14bd90d0ef305a6554153e2f70ca889b22ba2818b3da733cc5ab8bed.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-14bd90d0ef305a6554153e2f70ca889b22ba2818b3da733cc5ab8bed.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "眠い"
@@ -184,11 +192,12 @@
     "question": "朝コーヒーを飲まないとすぐに眠くなってしまうんです。",
     "answer": "If I don't drink coffee in the morning, I become sleepy quickly.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d428e4d3-b187-44a3-8bc1-35c0980b6cdc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

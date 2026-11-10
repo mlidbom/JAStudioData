@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-68db336ef008ec0ee1afbe5e30d5fed62032b4876eb5b209f9dcc764.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-68db336ef008ec0ee1afbe5e30d5fed62032b4876eb5b209f9dcc764.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "答え"
@@ -100,11 +108,12 @@
     "question": "「三足す四」の正しい答えは「七」です。",
     "answer": "The correct answer of \"three plus four\" is \"seven.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "66f1542f-f650-43d7-8c12-ff888a3b2861",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f398d0b3609f651a2ae26e1aac70f4f6443f417f38b89ed1f4fbeac6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f398d0b3609f651a2ae26e1aac70f4f6443f417f38b89ed1f4fbeac6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "囚人"
@@ -163,11 +171,12 @@
     "question": "そこには、囚人達の道具がしまわれていた。",
     "answer": "The prisoners' tools were stored away there.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ad907d41-4c16-4274-b712-e6f7e91dffd7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

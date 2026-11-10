@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-23f82538ac102d634f8592e380ed06aff90b4a95bb5ef58d9513f58b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-23f82538ac102d634f8592e380ed06aff90b4a95bb5ef58d9513f58b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "学問"
@@ -156,11 +164,12 @@
     "question": "学問と文学は切っても切れない関係にある。",
     "answer": "Scholarship is always associated with literature.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "18c1b48a-36c7-442b-9b28-89f7752fff64",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

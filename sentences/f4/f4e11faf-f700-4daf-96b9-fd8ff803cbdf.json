@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f1ae9a6157e0234c733cc78ee2065ed67e459e72a3e27a89e897f036.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f1ae9a6157e0234c733cc78ee2065ed67e459e72a3e27a89e897f036.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "傍"
@@ -156,11 +164,12 @@
     "question": "傍から見ていても全然わからなかった。",
     "answer": "I couldn't understand it even when I was watching from close by.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f4e11faf-f700-4daf-96b9-fd8ff803cbdf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

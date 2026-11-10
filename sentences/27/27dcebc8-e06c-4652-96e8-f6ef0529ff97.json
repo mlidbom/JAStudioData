@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f858d858ce9b48779436408d69b60dcbac47e5d7af8ae48acc441de8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f858d858ce9b48779436408d69b60dcbac47e5d7af8ae48acc441de8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "読み方"
@@ -149,11 +157,12 @@
     "question": "この漢字には読み方が四通りもあるんですか？！",
     "answer": "Does this kanji have four ways to read?!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "27dcebc8-e06c-4652-96e8-f6ef0529ff97",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

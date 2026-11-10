@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-76366d3d28727873f8c21f99e306a17b12f97b7e4f6454e731499d26.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-76366d3d28727873f8c21f99e306a17b12f97b7e4f6454e731499d26.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "焼く"
@@ -100,11 +108,12 @@
     "question": "今日はチーズケーキを焼くつもりです。",
     "answer": "I am going to bake a cheesecake today.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c48259af-a530-4b02-acf1-a60ea029fd97",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

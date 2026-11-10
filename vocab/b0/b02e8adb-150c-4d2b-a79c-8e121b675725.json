@@ -19,9 +19,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-75ed7af13a7f56cdb5e9120e65dc2e82e2c779461ca8defe8b4e5b6e.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-75ed7af13a7f56cdb5e9120e65dc2e82e2c779461ca8defe8b4e5b6e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "何故だか",
@@ -31,8 +37,7 @@
   "sentenceCount": 2,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -61,7 +66,9 @@
   "sourceData": {
     "answer": "somehow/for-some-reason/without-knowing-why",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "b02e8adb-150c-4d2b-a79c-8e121b675725",
   "tags": [

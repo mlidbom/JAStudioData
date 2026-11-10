@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f8190a11856eb98f5fc7fe00b22f94d8b48840fe07d8c7ba78e0065d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f8190a11856eb98f5fc7fe00b22f94d8b48840fe07d8c7ba78e0065d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "柔らかい",
@@ -94,11 +102,12 @@
     "question": "あなたのセーターはとっても柔らかいですね。",
     "answer": "Your sweater is so soft.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0cca2baa-a372-4f38-9f3d-f757095dd3f8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

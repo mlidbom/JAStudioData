@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0a041842e0ce06e22de0703128aa2db11ead2a9dcfea078065cc095d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0a041842e0ce06e22de0703128aa2db11ead2a9dcfea078065cc095d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "遺憾"
@@ -100,11 +108,12 @@
     "question": "裁判は誠に遺憾な結果に終わりました。",
     "answer": "The trial ended with an absolutely unsatisfactory result.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a07293fa-df17-48bd-863a-a697d876630c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fea009b7c40ad9c413ff2ea28d777e33a9d94acb7abde577863f810c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fea009b7c40ad9c413ff2ea28d777e33a9d94acb7abde577863f810c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "松"
@@ -226,11 +234,12 @@
     "question": "松を買うのに一時間も待つとは思ってもみなかった。",
     "answer": "I didn't expect to wait for an hour just to buy pine.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8f02726f-ee8d-416c-8ade-d5e8a734a3d6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

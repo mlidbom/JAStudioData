@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b38c31313f27b65bf0b50a9f6eed73cad4464551f524a6bf95e2b864.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b38c31313f27b65bf0b50a9f6eed73cad4464551f524a6bf95e2b864.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "家族"
@@ -156,11 +164,12 @@
     "question": "家族で朝ごはんを食べるなんて、何年ぶりだろう？",
     "answer": "How long ago was the last time we ate breakfast as a family?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0ebc501d-df99-47d2-a05e-45aed509c4bd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

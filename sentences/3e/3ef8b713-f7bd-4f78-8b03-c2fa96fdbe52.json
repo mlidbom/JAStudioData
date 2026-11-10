@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cd15269e978b9f89d7362d35e5b99e1d93906c29ba15646653bdd3ee.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cd15269e978b9f89d7362d35e5b99e1d93906c29ba15646653bdd3ee.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "教わる"
@@ -135,11 +143,12 @@
     "question": "アップルパイのレシピは、おばあちゃんに教わるといいよ。",
     "answer": "You should learn an apple pie recipe from Grandma.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3ef8b713-f7bd-4f78-8b03-c2fa96fdbe52",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

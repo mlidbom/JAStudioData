@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-540b3afc70015ca5c2f2d8468dcb7948238d632fcec459c6fc16217e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-540b3afc70015ca5c2f2d8468dcb7948238d632fcec459c6fc16217e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "田代島"
@@ -86,11 +94,12 @@
     "question": "田代島の人口は百人以下です。",
     "answer": "The population of Tashirojima is less than one hundred.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4b078dcc-fefd-4311-828c-c7ad0b61656b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

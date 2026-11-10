@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f0829e4fbbf117c850678e2aca32ea71dad048df43b6cf587de49fa1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f0829e4fbbf117c850678e2aca32ea71dad048df43b6cf587de49fa1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "過去形"
@@ -121,11 +129,12 @@
     "question": "この形容詞を過去形に変えてください。",
     "answer": "Please change this i-adjective into the past tense.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1264017f-6984-4c2e-8350-278e527f55df",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

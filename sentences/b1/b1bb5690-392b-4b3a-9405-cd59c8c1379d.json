@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-589dd291032667dd9976f2a3d6c576e293e1489a44cd1190c3ffe825.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-589dd291032667dd9976f2a3d6c576e293e1489a44cd1190c3ffe825.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "要求する"
@@ -135,11 +143,12 @@
     "question": "顧客は速い対応を要求しています。",
     "answer": "Customers are demanding fast responses.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b1bb5690-392b-4b3a-9405-cd59c8c1379d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

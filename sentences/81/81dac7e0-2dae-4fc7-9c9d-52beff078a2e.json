@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b2752deef0cd53a861085c1b4117202ebc15ced218541eab65cf8e09.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b2752deef0cd53a861085c1b4117202ebc15ced218541eab65cf8e09.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "駅員"
@@ -121,11 +129,12 @@
     "question": "この駅には、駅員はいません。",
     "answer": "There are no station attendants at this station.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "81dac7e0-2dae-4fc7-9c9d-52beff078a2e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

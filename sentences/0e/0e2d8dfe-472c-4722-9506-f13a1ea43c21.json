@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9f61d64ef44bb3bf0f95e741840291136a493214a69d94b3f3acf5df.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9f61d64ef44bb3bf0f95e741840291136a493214a69d94b3f3acf5df.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "福島"
@@ -86,11 +94,12 @@
     "question": "このバンドのボーカルは、福島の出身です。",
     "answer": "This band's vocalist is from Fukushima.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0e2d8dfe-472c-4722-9506-f13a1ea43c21",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

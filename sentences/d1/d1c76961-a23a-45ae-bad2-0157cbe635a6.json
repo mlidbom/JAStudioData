@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-86de72e069cd46004d0f4d66c9eee33c7af26bf6c7dac315a5e44af3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-86de72e069cd46004d0f4d66c9eee33c7af26bf6c7dac315a5e44af3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "人々"
@@ -93,11 +101,12 @@
     "question": "出口にたくさんの人々がいた。",
     "answer": "There were many people at the exit.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d1c76961-a23a-45ae-bad2-0157cbe635a6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

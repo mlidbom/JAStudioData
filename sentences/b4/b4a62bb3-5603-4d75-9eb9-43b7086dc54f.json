@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-26c05b0137b712ad284cc7d6da8cb557e0e896f5efaef1954bfae04f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-26c05b0137b712ad284cc7d6da8cb557e0e896f5efaef1954bfae04f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "先週"
@@ -114,11 +122,12 @@
     "question": "先週は、私の会社はお休みでした。",
     "answer": "Last week, my company was closed.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b4a62bb3-5603-4d75-9eb9-43b7086dc54f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

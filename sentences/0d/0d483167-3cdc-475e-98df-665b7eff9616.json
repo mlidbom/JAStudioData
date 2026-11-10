@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-14a77bc90bb477d8920090d88b65f81c82570eba2177cb4d3ec208d1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-14a77bc90bb477d8920090d88b65f81c82570eba2177cb4d3ec208d1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "行列"
@@ -100,11 +108,12 @@
     "question": "行列のできるラーメン屋を見つけた。",
     "answer": "I found a ramen restaurant that has a line.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0d483167-3cdc-475e-98df-665b7eff9616",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

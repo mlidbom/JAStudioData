@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3229f26d15940f356d55cf5d8bcf7d09416259dcf60a9c2518e79630.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3229f26d15940f356d55cf5d8bcf7d09416259dcf60a9c2518e79630.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大事"
@@ -107,11 +115,12 @@
     "question": "大事なノートを失ってしまった。",
     "answer": "I lost an important notebook.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1109051e-14a0-4133-affd-e3e24e498554",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

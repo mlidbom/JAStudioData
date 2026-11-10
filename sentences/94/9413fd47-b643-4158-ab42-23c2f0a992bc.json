@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e6df9c42562272e3a82119cfea7e684d9d92c3d520d80639ea4c9f34.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e6df9c42562272e3a82119cfea7e684d9d92c3d520d80639ea4c9f34.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "会釈"
@@ -163,11 +171,12 @@
     "question": "会釈をしたら会釈を返すのが礼儀でしょう。",
     "answer": "You might have the decency to return my nod with a nod.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9413fd47-b643-4158-ab42-23c2f0a992bc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f09aa11502039008ebddfcfcb88f87a7e59392d47f0ba4a0086103b0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f09aa11502039008ebddfcfcb88f87a7e59392d47f0ba4a0086103b0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "伝達"
@@ -163,11 +171,12 @@
     "question": "伝えたかったことが、ちゃんと伝達されたのか心配です。",
     "answer": "I'm worried about whether what I wanted to say was conveyed properly.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e307d566-efbe-4499-b2ec-4d4abc0b30c1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

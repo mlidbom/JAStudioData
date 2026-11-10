@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a3e9e77c84baefb3642d1e545c3d527536b9ef64799256d0069681f1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a3e9e77c84baefb3642d1e545c3d527536b9ef64799256d0069681f1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "眠い"
@@ -58,11 +66,12 @@
     "question": "やばい、眠すぎる。",
     "answer": "Oh no, I'm too sleepy.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8cc34499-9dcf-4023-92d9-1c9a9e047041",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

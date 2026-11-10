@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-18b18db8bb90d2928368c7c254fc46d90ed4fbc1b78fe7d2a7c05858.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-18b18db8bb90d2928368c7c254fc46d90ed4fbc1b78fe7d2a7c05858.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "今週"
@@ -93,11 +101,12 @@
     "question": "ミーティングは、今週でもいいですか？",
     "answer": "Is it okay to have a meeting this week?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5ef9d659-626e-4e76-8922-7bcdd79521be",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

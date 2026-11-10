@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9e40f2e53a676f6dc69a3948484ff7679301989894791d6dc91b0da4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9e40f2e53a676f6dc69a3948484ff7679301989894791d6dc91b0da4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "映る"
@@ -198,11 +206,12 @@
     "question": "テレビ電話をしていると、犬の顔がひょっこり映ってほっこりした。",
     "answer": "During the video call, the dog's face unexpectedly appeared and it was heartwarming.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8aa1cfd9-2570-49b7-b416-67157fe77fb9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

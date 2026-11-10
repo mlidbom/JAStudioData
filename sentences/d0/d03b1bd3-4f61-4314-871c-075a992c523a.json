@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c2cbe9f289eccb6d0ea02f6bab586c8e219f3060169a80db0750de0f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c2cbe9f289eccb6d0ea02f6bab586c8e219f3060169a80db0750de0f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "日本酒"
@@ -135,11 +143,12 @@
     "question": "父は平日は日本酒をあまり口にしない。",
     "answer": "My father doesn't drink much sake on weekdays.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d03b1bd3-4f61-4314-871c-075a992c523a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

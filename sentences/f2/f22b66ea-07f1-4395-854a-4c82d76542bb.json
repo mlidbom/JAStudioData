@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3155c3db4176a9ea66a02e174707b62f3702a157e270859fdec3dfc1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3155c3db4176a9ea66a02e174707b62f3702a157e270859fdec3dfc1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "飴細工"
@@ -100,11 +108,12 @@
     "question": "飴細工作ったことある？",
     "answer": "Have you ever made sugar sculptures?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f22b66ea-07f1-4395-854a-4c82d76542bb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

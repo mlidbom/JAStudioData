@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-edefdea678f33d590cb330d1625605a019c8fa18684e7e6309a9d5ee.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-edefdea678f33d590cb330d1625605a019c8fa18684e7e6309a9d5ee.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "二倍"
@@ -177,11 +185,12 @@
     "question": "テレビのボリュームを二倍にしてくれませんか？",
     "answer": "Can you double the volume on the TV?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "383fae40-86e4-4c75-9e7f-89c71cf7c5d2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

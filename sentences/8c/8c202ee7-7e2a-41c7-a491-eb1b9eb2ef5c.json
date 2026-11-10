@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-33259e1ad02752fe7929d56ced81ac0f5b93d10751b9f429d77b2c75.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-33259e1ad02752fe7929d56ced81ac0f5b93d10751b9f429d77b2c75.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "遮る"
@@ -135,11 +143,12 @@
     "question": "人の話を遮るのは失礼です。",
     "answer": "It’s rude to interrupt a person.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8c202ee7-7e2a-41c7-a491-eb1b9eb2ef5c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

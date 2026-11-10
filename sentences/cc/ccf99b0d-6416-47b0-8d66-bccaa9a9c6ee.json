@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0367a5ef18e0a03d71e7f455caaa9d29b594d1cb194f3982db1f6263.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0367a5ef18e0a03d71e7f455caaa9d29b594d1cb194f3982db1f6263.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "傘"
@@ -100,11 +108,12 @@
     "question": "私は傘をクロークに預けました。",
     "answer": "I left my umbrella in the cloakroom.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ccf99b0d-6416-47b0-8d66-bccaa9a9c6ee",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

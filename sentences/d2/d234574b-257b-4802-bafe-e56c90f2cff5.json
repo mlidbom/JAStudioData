@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ee822f5635befb9fc4e87b41b96b116af1e4e4527f67bc00ad423bfd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ee822f5635befb9fc4e87b41b96b116af1e4e4527f67bc00ad423bfd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鋭利"
@@ -114,11 +122,12 @@
     "question": "通り魔は、鋭利な刃物で私の全身を切りつけた。",
     "answer": "The random attacker slashed at my body with a sharp knife.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d234574b-257b-4802-bafe-e56c90f2cff5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

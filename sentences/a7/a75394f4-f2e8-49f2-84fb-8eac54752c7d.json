@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c660ceee3da528600dcf4c9e7ded16a7cfb9353d06859ae63343989c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c660ceee3da528600dcf4c9e7ded16a7cfb9353d06859ae63343989c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鼻詰まり"
@@ -135,11 +143,12 @@
     "question": "私は高熱と鼻詰まりに苦しんでいます。",
     "answer": "I’m suffering from a terrible fever and stuffy nose.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a75394f4-f2e8-49f2-84fb-8eac54752c7d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

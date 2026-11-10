@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b42f4138da200047eed2515d4b68ee6b3f5f0cc71a04270776264a8b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b42f4138da200047eed2515d4b68ee6b3f5f0cc71a04270776264a8b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "親切"
@@ -212,11 +220,12 @@
     "question": "家に行くと、マイケルのママはいつも親切にお茶を出してくれる。",
     "answer": "When I got to their home, Michael's mom always kindly offered me some tea.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e5d86f05-c982-450d-acae-ba6a7b0d123c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

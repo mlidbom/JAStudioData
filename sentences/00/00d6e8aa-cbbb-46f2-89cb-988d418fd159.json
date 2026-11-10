@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-783b44ad56cefef565ba58815a142cc66d2a42bcfe841e8bbd81ad5d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-783b44ad56cefef565ba58815a142cc66d2a42bcfe841e8bbd81ad5d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "眉毛"
@@ -121,11 +129,12 @@
     "question": "ドレスの色に合わせて、眉毛を染めたの。",
     "answer": "I dyed my eyebrows to match my dress.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "00d6e8aa-cbbb-46f2-89cb-988d418fd159",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

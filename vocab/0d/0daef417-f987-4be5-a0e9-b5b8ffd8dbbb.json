@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-441c56053d6a9045b74a1a33a8f44b4168e5401492ec5210d03aa5a7.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-441c56053d6a9045b74a1a33a8f44b4168e5401492ec5210d03aa5a7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "事が無い",
@@ -48,8 +54,7 @@
   "sentenceCount": 18,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -86,7 +91,9 @@
   "sourceData": {
     "answer": "(something)-has-never-occurred/to-have-never-done-(something)/such-a-thing-has-not-happened | never-happens/there-is-never-a-time-when",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "0daef417-f987-4be5-a0e9-b5b8ffd8dbbb",
   "tags": [

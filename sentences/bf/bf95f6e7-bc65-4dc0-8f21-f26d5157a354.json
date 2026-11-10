@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-edc01c0de33e9cd8fde9104bd57209d7ab4cf65b04401bf19ae326d2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-edc01c0de33e9cd8fde9104bd57209d7ab4cf65b04401bf19ae326d2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "前面"
@@ -86,11 +94,12 @@
     "question": "このTシャツは前面のデザインがすごく良い。",
     "answer": "The design on the front of this T-shirt is really great.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bf95f6e7-bc65-4dc0-8f21-f26d5157a354",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

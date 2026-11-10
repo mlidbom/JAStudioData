@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5c1855945a6f5af811d18285e63ec84b2fa459cd8a5e080bf9912aa0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5c1855945a6f5af811d18285e63ec84b2fa459cd8a5e080bf9912aa0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "生卵"
@@ -240,11 +248,12 @@
     "question": "「生卵アレルギーはありますか？」「私の知る限りではありません。」",
     "answer": "\"Do you have raw egg allergy?\" \"Not that I know of.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d3d41dcb-1adb-4c72-ad3f-3905806b3cc1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

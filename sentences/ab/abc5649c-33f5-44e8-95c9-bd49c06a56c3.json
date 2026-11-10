@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2a0bbf3798cc40c01c1d016530509880899c3aeb0d6c484ba8e55f7e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2a0bbf3798cc40c01c1d016530509880899c3aeb0d6c484ba8e55f7e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "人口"
@@ -128,11 +136,12 @@
     "question": "人口の70%くらいはシャイなんだって。",
     "answer": "Apparently, about 70% of the population is shy.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "abc5649c-33f5-44e8-95c9-bd49c06a56c3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

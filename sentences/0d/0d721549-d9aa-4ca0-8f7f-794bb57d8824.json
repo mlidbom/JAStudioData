@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-25de4749d772a175bdfdb1f980a1a6d96c71ded7963bd843710abb66.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-25de4749d772a175bdfdb1f980a1a6d96c71ded7963bd843710abb66.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "腰"
@@ -156,11 +164,12 @@
     "question": "腰に激痛が走ってるんだ。もう一歩も歩けないよ。",
     "answer": "My waist is in intense pain. I can’t take another step.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0d721549-d9aa-4ca0-8f7f-794bb57d8824",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-682edc12b555c9c95d9e09e5e7adb43d095f352c0dc9394bf7b742d1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-682edc12b555c9c95d9e09e5e7adb43d095f352c0dc9394bf7b742d1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "加湿器"
@@ -149,11 +157,12 @@
     "question": "最近加湿器の調子が悪いんだよね。",
     "answer": "Something has been wrong with my humidifier.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5c0b5b4e-b857-4f28-aeef-4500efaf1de2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

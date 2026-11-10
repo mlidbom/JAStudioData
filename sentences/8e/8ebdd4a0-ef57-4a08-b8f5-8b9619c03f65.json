@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b424f759a4901d7e2babcd344bef5e8d6aeefc00bf6c47a1661389d6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b424f759a4901d7e2babcd344bef5e8d6aeefc00bf6c47a1661389d6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "硬貨"
@@ -170,11 +178,12 @@
     "question": "祖母は財布の中に硬貨を貯めていました。",
     "answer": "My grandmother saved coins in her wallet.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8ebdd4a0-ef57-4a08-b8f5-8b9619c03f65",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

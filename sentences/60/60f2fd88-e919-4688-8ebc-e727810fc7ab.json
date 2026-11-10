@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5eb9c47b8ab8f71910fa6c409c90427833cf2e98e2132d766a89d61d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5eb9c47b8ab8f71910fa6c409c90427833cf2e98e2132d766a89d61d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "困窮"
@@ -324,11 +332,12 @@
     "question": "両親は生活に困窮していましたが、私にも彼らを助ける余裕はありませんでした。",
     "answer": "My parents were living in poverty but I didn’t have the money to help them.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "60f2fd88-e919-4688-8ebc-e727810fc7ab",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

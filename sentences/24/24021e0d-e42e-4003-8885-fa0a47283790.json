@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ff218876fafaccd842b6242f50c1ae8ef1bfa3578f7fed693ae23c3a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ff218876fafaccd842b6242f50c1ae8ef1bfa3578f7fed693ae23c3a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "特徴"
@@ -121,11 +129,12 @@
     "question": "ワニカニの最大の特徴はなんですか？",
     "answer": "What is WaniKani's most significant feature?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "24021e0d-e42e-4003-8885-fa0a47283790",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

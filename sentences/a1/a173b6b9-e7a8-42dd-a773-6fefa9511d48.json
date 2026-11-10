@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-17b7335d2c60bc0a9617e18d8f0757a7d59bed4f6678d213105deccf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-17b7335d2c60bc0a9617e18d8f0757a7d59bed4f6678d213105deccf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "毎月"
@@ -79,11 +87,12 @@
     "question": "このワークショップは毎月ありますか？",
     "answer": "Do you hold this workshop every month?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a173b6b9-e7a8-42dd-a773-6fefa9511d48",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

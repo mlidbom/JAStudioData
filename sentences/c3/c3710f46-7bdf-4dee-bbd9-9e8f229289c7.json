@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-28f17800fc509190bd00bdbfba6d8a180ad417c2207f3e6dd48b658b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-28f17800fc509190bd00bdbfba6d8a180ad417c2207f3e6dd48b658b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "停電"
@@ -142,11 +150,12 @@
     "question": "停電のせいで、冷凍庫のアイスクリームが全部とけちゃった。",
     "answer": "Because of the blackout, all of the ice cream in the freezer melted.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c3710f46-7bdf-4dee-bbd9-9e8f229289c7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

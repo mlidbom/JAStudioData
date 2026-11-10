@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bcd8c20a958c8d199900d1973528c5fa3d9f25d1eed81c3f0acc1862.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bcd8c20a958c8d199900d1973528c5fa3d9f25d1eed81c3f0acc1862.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "詩人"
@@ -79,11 +87,12 @@
     "question": "彼はカナダの生まれの詩人です。",
     "answer": "He is a poet born in Canada.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6f7c5a12-2414-4618-965a-e2a51c091093",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

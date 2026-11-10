@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-08e06dfebf4b9dc56d705bc3759199cf245a5d00a5e4c22fad436f58.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-08e06dfebf4b9dc56d705bc3759199cf245a5d00a5e4c22fad436f58.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "公益"
@@ -121,11 +129,12 @@
     "question": "私は公益法人で働いています。",
     "answer": "I’m working for a nonprofit foundation.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "523c8b18-ce4a-4dd5-ab94-5df39c45ec9b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

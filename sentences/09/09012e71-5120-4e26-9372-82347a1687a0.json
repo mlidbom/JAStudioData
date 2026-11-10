@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b34e5ee221156ce399a714b2a347fa0126e1fe958bac03ba71ad1e0b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b34e5ee221156ce399a714b2a347fa0126e1fe958bac03ba71ad1e0b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "理屈"
@@ -114,11 +122,12 @@
     "question": "小難しい理屈ばっかりこねて、本当に嫌な人ね。",
     "answer": "You're always overcomplicating things with your fancy reasoning; you're quite obnoxious.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "09012e71-5120-4e26-9372-82347a1687a0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

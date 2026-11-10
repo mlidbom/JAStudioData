@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-01e98c03148112fb1ebba17c880e2f14d78910f5839d9a3f3235b236.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-01e98c03148112fb1ebba17c880e2f14d78910f5839d9a3f3235b236.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "完了"
@@ -37,11 +45,12 @@
     "question": "作戦完了！",
     "answer": "Mission complete!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5314d4b4-4fc9-4899-88d0-5d9dee71fc07",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

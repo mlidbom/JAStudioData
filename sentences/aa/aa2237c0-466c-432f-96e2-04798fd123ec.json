@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-442821f47aec441260319b24d55f7d468ff1a0a84f6c89159f948012.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-442821f47aec441260319b24d55f7d468ff1a0a84f6c89159f948012.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "貴賓"
@@ -177,11 +185,12 @@
     "question": "社長が外国の貴賓を接待する際に、通訳として同行しました。",
     "answer": "When the company president went to welcome a distinguished foreign visitor, I attended as an interpreter.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "aa2237c0-466c-432f-96e2-04798fd123ec",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

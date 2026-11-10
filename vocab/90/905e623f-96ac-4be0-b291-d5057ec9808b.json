@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-3432df59066aaf8d2c700e3a6bbc99db1a9a9e4b8e2bf0a238a7451c.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-3432df59066aaf8d2c700e3a6bbc99db1a9a9e4b8e2bf0a238a7451c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "ことが出来ない",
@@ -52,8 +58,7 @@
   "sentenceCount": 21,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -90,7 +95,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "905e623f-96ac-4be0-b291-d5057ec9808b",
   "tags": [

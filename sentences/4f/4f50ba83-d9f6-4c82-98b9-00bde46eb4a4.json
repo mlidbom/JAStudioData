@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bc2934427779f78ecaeac57db5261b39c498e728c610fbf19f3af94f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bc2934427779f78ecaeac57db5261b39c498e728c610fbf19f3af94f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "左手"
@@ -86,11 +94,12 @@
     "question": "左手を上げて下さい。",
     "answer": "Please raise your left hand.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4f50ba83-d9f6-4c82-98b9-00bde46eb4a4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

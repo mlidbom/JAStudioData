@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3a16429234d6df37e04e15bdc19cd3145871c671a8878fb4580d0315.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3a16429234d6df37e04e15bdc19cd3145871c671a8878fb4580d0315.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "返信"
@@ -191,11 +199,12 @@
     "question": "返信したつもりだったんだけど、送信できてなかった。",
     "answer": "I thought I replied, but it turns out it didn't send.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ca89ec2b-163f-42e6-8811-8ed32996de74",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

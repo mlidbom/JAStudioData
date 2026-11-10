@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-91007a92f6bb59af3f9c87f48ba3e0536bbe764e697b731415defab0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-91007a92f6bb59af3f9c87f48ba3e0536bbe764e697b731415defab0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "科目"
@@ -114,11 +122,12 @@
     "question": "どの科目のテストも全て八十点でした。",
     "answer": "I got an eighty on the tests for all subjects.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e4f7630b-ba22-44a4-8aa9-957b9c67b94f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

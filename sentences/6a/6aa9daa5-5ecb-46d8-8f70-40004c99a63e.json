@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0417f23d8afa7a7dbfc0a1f1ace0d767db0cfd5c6079f4ddf7486ea1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0417f23d8afa7a7dbfc0a1f1ace0d767db0cfd5c6079f4ddf7486ea1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お父さん"
@@ -51,11 +59,12 @@
     "question": "お父さん、分かった？",
     "answer": "Dad, did you understand?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6aa9daa5-5ecb-46d8-8f70-40004c99a63e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

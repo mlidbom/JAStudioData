@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-63d9d76bf60fb3556075baaaa97c805175ed14fc9d57fd6a4f56ca1b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-63d9d76bf60fb3556075baaaa97c805175ed14fc9d57fd6a4f56ca1b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "楽"
@@ -170,11 +178,12 @@
     "question": "テストの後は休みだと思うと気が楽です。",
     "answer": "I feel at ease thinking that there won't be school after the test.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5dab460f-97ec-4789-bff8-621728e7d4e7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

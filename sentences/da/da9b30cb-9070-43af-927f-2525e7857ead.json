@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cd0e9e82d57d2d9912cc4eb1481152d48da680d4a234e059e90cf518.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cd0e9e82d57d2d9912cc4eb1481152d48da680d4a234e059e90cf518.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "水槽"
@@ -121,11 +129,12 @@
     "question": "どのくらい頻繁に水槽の掃除をしますか。",
     "answer": "How often do you clean the fish tank?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "da9b30cb-9070-43af-927f-2525e7857ead",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

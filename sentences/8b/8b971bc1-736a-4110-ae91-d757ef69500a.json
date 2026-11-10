@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-93155bce23ee2ae61fb8fda29efbfd0f9f8cedc8605f6b225185aa3a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-93155bce23ee2ae61fb8fda29efbfd0f9f8cedc8605f6b225185aa3a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "降る"
@@ -121,11 +129,12 @@
     "question": "明日は雨が降るみたいですね。",
     "answer": "It looks like it will rain tomorrow.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8b971bc1-736a-4110-ae91-d757ef69500a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

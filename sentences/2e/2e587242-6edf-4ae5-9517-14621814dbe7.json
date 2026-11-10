@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bf7e4abd79bf73f43f8c4aa3df1b26705c8b2f45ee8bd3aff367ec6d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bf7e4abd79bf73f43f8c4aa3df1b26705c8b2f45ee8bd3aff367ec6d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "誘拐"
@@ -93,11 +101,12 @@
     "question": "社長の息子を誘拐するつもりだ。",
     "answer": "I’m going to kidnap the manager’s son.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2e587242-6edf-4ae5-9517-14621814dbe7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

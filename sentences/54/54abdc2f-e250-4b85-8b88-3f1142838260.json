@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-18f1fdbc2b38e0c5828f0b3728f8a242e6129c314083dbaf8f53843f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-18f1fdbc2b38e0c5828f0b3728f8a242e6129c314083dbaf8f53843f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "花粉症"
@@ -156,11 +164,12 @@
     "question": "プロポリスが花粉症に効くって聞いたよ。",
     "answer": "I heard that propolis extract is good for hay fever.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "54abdc2f-e250-4b85-8b88-3f1142838260",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

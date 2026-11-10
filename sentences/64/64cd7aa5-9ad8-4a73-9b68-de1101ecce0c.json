@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-58b37e3b8cd7afc79dda238ad170576c9353e4065cce8004385b3ff4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-58b37e3b8cd7afc79dda238ad170576c9353e4065cce8004385b3ff4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -98,11 +106,12 @@
     "question": "東口にはコンビニがありますか？",
     "answer": "Is there a convenience store at the east exit?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "64cd7aa5-9ad8-4a73-9b68-de1101ecce0c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7269df5803efea1796e9f94bfc1268098ad62876130a3c4379a5cb1d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7269df5803efea1796e9f94bfc1268098ad62876130a3c4379a5cb1d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "埋める"
@@ -107,11 +115,12 @@
     "question": "記事の空白はイラストで埋める？それとも広告で？",
     "answer": "Should we fill the blank space in the article with an illustration, or with an advertisement?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "18ee774e-266e-40dd-ad3a-4b801a5fdd05",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

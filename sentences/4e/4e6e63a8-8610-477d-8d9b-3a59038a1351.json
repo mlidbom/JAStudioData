@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-070620cd9fabd6a58b535d203c2c33312eb8d424ee8789c84cadec31.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-070620cd9fabd6a58b535d203c2c33312eb8d424ee8789c84cadec31.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "水"
@@ -93,11 +101,12 @@
     "question": "水かジュースをもらえますか。",
     "answer": "Can I get water or juice?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4e6e63a8-8610-477d-8d9b-3a59038a1351",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

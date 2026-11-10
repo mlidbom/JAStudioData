@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-105e748e3409de5e8aead1d81e9ccf77aa26dec1f1a7eedd036396db.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-105e748e3409de5e8aead1d81e9ccf77aa26dec1f1a7eedd036396db.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "交ぜる"
@@ -93,11 +101,12 @@
     "question": "男の子と女の子を交ぜたクラスでした。",
     "answer": "The class was a mix of boys and girls.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "29aaf72a-253b-4ae1-b21b-59245d2ee52e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

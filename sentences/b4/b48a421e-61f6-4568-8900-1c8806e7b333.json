@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-77fe72d2f01895b5550a56b58cd8bf5d6095b24b1e1c39beef06e09c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-77fe72d2f01895b5550a56b58cd8bf5d6095b24b1e1c39beef06e09c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "近所"
@@ -100,11 +108,12 @@
     "question": "近所にコインランドリーがある。",
     "answer": "There is a coin laundry in the neighborhood.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b48a421e-61f6-4568-8900-1c8806e7b333",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

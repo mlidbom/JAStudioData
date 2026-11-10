@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-48d6562f03ae5773b153eb0ee6a3be3617adb9482a62ccdf4a241cf5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-48d6562f03ae5773b153eb0ee6a3be3617adb9482a62ccdf4a241cf5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "憶測"
@@ -100,11 +108,12 @@
     "question": "これはただの憶測だけどね。",
     "answer": "It's just my guess.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "eea3c869-c10b-4e61-ade2-a718486d4f90",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

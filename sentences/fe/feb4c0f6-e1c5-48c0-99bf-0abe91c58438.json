@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2f2f3451a88bacdaafa099268d81aaeef91a898ceb9b03db27a89e29.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2f2f3451a88bacdaafa099268d81aaeef91a898ceb9b03db27a89e29.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "割合"
@@ -191,11 +199,12 @@
     "question": "その言葉を使ってる人の割合は、年配の人がほとんどだと思うよ。",
     "answer": "I think most of the people who use that term are elderly people.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "feb4c0f6-e1c5-48c0-99bf-0abe91c58438",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

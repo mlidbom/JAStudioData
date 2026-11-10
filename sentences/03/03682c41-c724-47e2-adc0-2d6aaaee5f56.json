@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-49341ad7d6e9651a5e9664ab9ffcd7b19f5cbf4ce51f495a1830163d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-49341ad7d6e9651a5e9664ab9ffcd7b19f5cbf4ce51f495a1830163d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "天気予報"
@@ -93,11 +101,12 @@
     "question": "天気予報、見事に外れましたね。",
     "answer": "The weather forecast was crazy off, huh?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "03682c41-c724-47e2-adc0-2d6aaaee5f56",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

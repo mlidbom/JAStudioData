@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b258b0e62c158987222aa8ef25f71c9309eb1eec8f32834743735a5c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b258b0e62c158987222aa8ef25f71c9309eb1eec8f32834743735a5c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "塩味"
@@ -121,11 +129,12 @@
     "question": "グリークサラダには、塩味の利いたオリーブが欠かせません。",
     "answer": "Salty olives are an essential ingredient in Greek salad.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "93b45999-91cb-4a2b-ba13-768778e41221",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

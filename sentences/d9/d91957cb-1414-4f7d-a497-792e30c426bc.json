@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-12fa51e18053d14f84deb5504b6413e89fbb099269a8fa0d3f2ef4f0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-12fa51e18053d14f84deb5504b6413e89fbb099269a8fa0d3f2ef4f0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "元パートナー"
@@ -93,11 +101,12 @@
     "question": "元パートナーからテキストがきた。",
     "answer": "I got a text from my ex-partner.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d91957cb-1414-4f7d-a497-792e30c426bc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

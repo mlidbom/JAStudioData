@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-012f254b75d6dcb59723d3094728c998c6a3dc3d877e4842f90ec8fd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-012f254b75d6dcb59723d3094728c998c6a3dc3d877e4842f90ec8fd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お父さん"
@@ -72,11 +80,12 @@
     "question": "お父さんにメールした。",
     "answer": "I emailed my dad.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "454028de-0e56-42f0-bac3-07a105bcec2b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

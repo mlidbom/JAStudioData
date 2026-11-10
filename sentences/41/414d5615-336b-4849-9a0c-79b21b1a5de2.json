@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3e22645f0bbce3ee426508f1e7d10ef6ade5ac335a50926864064ff4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3e22645f0bbce3ee426508f1e7d10ef6ade5ac335a50926864064ff4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "食器"
@@ -191,11 +199,12 @@
     "question": "あなたが池に落としたのはこの金の食器ですか、それともこの銀の食器ですか。",
     "answer": "Which utensils did you drop in the pond, the gold ones or the silver ones?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "414d5615-336b-4849-9a0c-79b21b1a5de2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

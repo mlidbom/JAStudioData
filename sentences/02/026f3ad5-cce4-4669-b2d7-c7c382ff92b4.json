@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fec6de31abfc3a13b2a0c890017ea303f0ec622cbe5227544db44aaf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fec6de31abfc3a13b2a0c890017ea303f0ec622cbe5227544db44aaf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "条約"
@@ -163,11 +171,12 @@
     "question": "コウイチの今年の抱負は、ベルサイユ条約の全文を暗記することです。",
     "answer": "Koichi’s New Year’s resolution is memorizing the entire text of the Treaty of Versailles.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "026f3ad5-cce4-4669-b2d7-c7c382ff92b4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

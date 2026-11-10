@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e7916b0dbc923cb64f9eb845b1f491bdfdf59ec9e18ecba506aaf714.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e7916b0dbc923cb64f9eb845b1f491bdfdf59ec9e18ecba506aaf714.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "並ぶ"
@@ -212,11 +220,12 @@
     "question": "エコバッグを買うために十二時間も行列に並ぶなんて信じられないよ。",
     "answer": "I can’t believe that people wait in line for twelve hours just to get some eco-friendly bags.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "37c3c2e7-5cfc-4301-978e-4cf6209bf503",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7f61f44280f47f3bdc905fb0e57b23bf8a821fccb8aa74dd084c9671.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7f61f44280f47f3bdc905fb0e57b23bf8a821fccb8aa74dd084c9671.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "待たせる"
@@ -191,11 +199,12 @@
     "question": "お待たせしてすみません。いや〜バスにえらく長いこと待たされましてね。",
     "answer": "Sorry for making you wait so long. I had to wait for the bus for such a long time.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b562b745-11aa-4479-8154-cde31aa294a9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b8216e50549414b36b17f22154454a2116541feff592daea41f244e4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b8216e50549414b36b17f22154454a2116541feff592daea41f244e4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -98,11 +106,12 @@
     "question": "死刑執行は五時間も遅れました。",
     "answer": "The execution was delayed for five hours.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9b83590a-946e-436f-93b5-9d0571c4d9c5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

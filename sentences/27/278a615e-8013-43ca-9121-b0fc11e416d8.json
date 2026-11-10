@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4195e359865fe0c750fc9d34461a735c7e9c0741240c3b1777069a73.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4195e359865fe0c750fc9d34461a735c7e9c0741240c3b1777069a73.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "現に"
@@ -142,11 +150,12 @@
     "question": "現にさっきそう言ったじゃありませんか。",
     "answer": "Didn’t you actually say that a while ago?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "278a615e-8013-43ca-9121-b0fc11e416d8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-eb8c9f36dd60ef6d21a2be7674e6da23ef204472f0b9bff36dafa125.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-eb8c9f36dd60ef6d21a2be7674e6da23ef204472f0b9bff36dafa125.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "習慣"
@@ -205,11 +213,12 @@
     "question": "私は毎日ジョギングをすることを習慣にしています。",
     "answer": "I have made a habit of jogging every day.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4f5fce7e-4d59-48c1-b580-ec8560384e5a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

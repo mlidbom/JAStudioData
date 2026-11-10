@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f0956721e1a3c00b5b8103c1bf28f58dcc7b239ed4ad28a18181eb35.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f0956721e1a3c00b5b8103c1bf28f58dcc7b239ed4ad28a18181eb35.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "窒息"
@@ -121,11 +129,12 @@
     "question": "死因は首を絞められたことによる窒息です。",
     "answer": "The cause of death was suffocation due to strangulation of the neck.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2193ddaf-b852-4c89-b738-fe20dd3a1c58",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

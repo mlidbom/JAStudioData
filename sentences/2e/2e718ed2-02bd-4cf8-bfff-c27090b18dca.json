@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ef3438a7e59d9795838e9018c892dc52f628ca07c389a34a5151b81e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ef3438a7e59d9795838e9018c892dc52f628ca07c389a34a5151b81e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "断る"
@@ -135,11 +143,12 @@
     "question": "その仕事、断るべきだと思う？",
     "answer": "Do you think I should refuse the job?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2e718ed2-02bd-4cf8-bfff-c27090b18dca",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

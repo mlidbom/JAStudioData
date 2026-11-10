@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-994d8fb9ebcd124c74e9a006d4947d29f77177d9d7d9b0551d6696e7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-994d8fb9ebcd124c74e9a006d4947d29f77177d9d7d9b0551d6696e7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "柴犬"
@@ -128,11 +136,12 @@
     "question": "ニッカは柴犬ではなく珍島犬です。",
     "answer": "Nikka isn’t a Shiba, she’s a Jindo.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7f2d407c-2f3a-45ed-bdbf-c870393dcf76",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

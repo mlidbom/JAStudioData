@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a8b444385bc4f3b4c27f9f4aca34f8a499e0ddfdb73a971b75ffd9be.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a8b444385bc4f3b4c27f9f4aca34f8a499e0ddfdb73a971b75ffd9be.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "角度"
@@ -163,11 +171,12 @@
     "question": "一つの角度が全て六十度ということは、それは「正三角形」ですよ。",
     "answer": "Each angle is sixty degrees, which means it's an \"equilateral triangle.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "05c8b76d-a3b2-4062-92be-01fd66c8f8b5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

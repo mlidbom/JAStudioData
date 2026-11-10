@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6ba80c072d30a8e3e60f3ad5de48ccd054b50047ba081b665f104c15.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6ba80c072d30a8e3e60f3ad5de48ccd054b50047ba081b665f104c15.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "脅迫"
@@ -282,11 +290,12 @@
     "question": "脅迫電話を受けた直後に警察に電話をしましたが、彼らは何だか対応したくなさそうでした。",
     "answer": "I called the police right after I received the threatening call, but for some reason it seemed like they didn’t want to deal with it.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7666a200-1430-4f53-ae6c-1d1ca2637351",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-eed63cad229dc5e18d595c568a1004bdc2ba094adca85c5a0f388b89.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-eed63cad229dc5e18d595c568a1004bdc2ba094adca85c5a0f388b89.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "漆器"
@@ -114,11 +122,12 @@
     "question": "漆器の手入れの仕方を教えてください。",
     "answer": "Please teach me how to maintain lacquer ware.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dedc7b8d-31e0-4533-8024-dedb1f610986",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

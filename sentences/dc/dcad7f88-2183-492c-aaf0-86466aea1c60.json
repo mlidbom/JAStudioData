@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-22d7ed11c5a2b0f3778849969759c026494363ff1b659d0f9c74b49f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-22d7ed11c5a2b0f3778849969759c026494363ff1b659d0f9c74b49f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "絵文字"
@@ -163,11 +171,12 @@
     "question": "このレシートの絵文字、よく見て下さい。🧾文字が見えませんか？",
     "answer": "Take a closer look at this receipt emoji. Can you see the letters?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dcad7f88-2183-492c-aaf0-86466aea1c60",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

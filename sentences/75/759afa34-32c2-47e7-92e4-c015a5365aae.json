@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-71b6e87cc0a79ba4672a573f4416e62698611fb8073a45b7a4179d97.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-71b6e87cc0a79ba4672a573f4416e62698611fb8073a45b7a4179d97.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "自愛"
@@ -170,11 +178,12 @@
     "question": "寒くなってきておりますので、くれぐれもご自愛くださいませ。",
     "answer": "Please take care of yourself as the weather is getting colder.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "759afa34-32c2-47e7-92e4-c015a5365aae",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

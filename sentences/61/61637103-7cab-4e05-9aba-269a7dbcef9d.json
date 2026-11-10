@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-59150086a82b7509a153929a5531d7f74f491b2d5f0ad256f4083825.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-59150086a82b7509a153929a5531d7f74f491b2d5f0ad256f4083825.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "主語"
@@ -289,11 +297,12 @@
     "question": "日本語では、いちいち主語を言わなくても相手に分かってもらえる事が多いんですよね。",
     "answer": "In Japanese, even if you don't say the subject every time, the listener would often get it.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "61637103-7cab-4e05-9aba-269a7dbcef9d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-24f5a2deb149de8fb5c320ea284a7a28e7c248a2f548489556edb850.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-24f5a2deb149de8fb5c320ea284a7a28e7c248a2f548489556edb850.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "傷"
@@ -107,11 +115,12 @@
     "question": "ウクレレに傷がついちゃったんです。",
     "answer": "I got a scratch on my ukulele.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a63c6fb9-c277-4df1-a379-aa30dbc9aadb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

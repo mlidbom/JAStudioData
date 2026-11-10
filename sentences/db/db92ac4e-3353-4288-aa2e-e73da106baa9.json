@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f1fff16b173c6b894525976d12f00dbcb03133a34519619e7960aca0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f1fff16b173c6b894525976d12f00dbcb03133a34519619e7960aca0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "数"
@@ -135,11 +143,12 @@
     "question": "今回、死亡した人の数は前回と同じでした。",
     "answer": "This time, the number of deaths was the same as last time.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "db92ac4e-3353-4288-aa2e-e73da106baa9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

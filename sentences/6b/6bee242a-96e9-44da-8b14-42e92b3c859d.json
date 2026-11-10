@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a96a3bd857ed3cec2a5bd16c72d0bf9a88601e990fac2d629a82492f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a96a3bd857ed3cec2a5bd16c72d0bf9a88601e990fac2d629a82492f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "限界"
@@ -135,11 +143,12 @@
     "question": "その野球選手は、自分の限界を感じて引退した。",
     "answer": "The baseball player retired when he&nbsp;felt that he had&nbsp;reached his limit.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6bee242a-96e9-44da-8b14-42e92b3c859d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

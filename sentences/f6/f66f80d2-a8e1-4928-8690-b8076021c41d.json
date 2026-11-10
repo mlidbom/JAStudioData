@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-98d5ba8733200c81a1ff2977820def99d701339bae4091ad3db58dbf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-98d5ba8733200c81a1ff2977820def99d701339bae4091ad3db58dbf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "交じる"
@@ -121,11 +129,12 @@
     "question": "白い毛の中に黒い毛が交じる。",
     "answer": "Black hair is mixed in with the white hair.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f66f80d2-a8e1-4928-8690-b8076021c41d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

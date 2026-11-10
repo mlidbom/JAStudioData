@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-a9d522ea4cc974fdc8f2b30054e8974ecff2dac4875df19bb80a3a32.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-a9d522ea4cc974fdc8f2b30054e8974ecff2dac4875df19bb80a3a32.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "此れは此れは",
@@ -40,8 +46,7 @@
   "sentenceCount": 6,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -65,7 +70,9 @@
   "sourceData": {
     "answer": "hey-there/see-here/I-say",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "40ee228a-4f34-4e0d-981e-09b3ea6aab8c",
   "tags": [

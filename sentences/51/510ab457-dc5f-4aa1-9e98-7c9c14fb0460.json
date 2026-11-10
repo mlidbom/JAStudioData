@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-459677cd1ab4b64b1a4ebecc9e6c13b321b6e7777bae92395a7bd90f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-459677cd1ab4b64b1a4ebecc9e6c13b321b6e7777bae92395a7bd90f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "客観的"
@@ -79,11 +87,12 @@
     "question": "これは客観的事実です。",
     "answer": "This is an objective fact.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "510ab457-dc5f-4aa1-9e98-7c9c14fb0460",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b96ca251dd6db85877dbb164784a8c41701b452b18a952bbb71229b7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b96ca251dd6db85877dbb164784a8c41701b452b18a952bbb71229b7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "数える"
@@ -191,11 +199,12 @@
     "question": "父は毎日夜になるとベッドの中で羊を数える。",
     "answer": "My father counts sheep in bed every night.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "591f2512-eba0-4efe-b85c-7b15528bbd12",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5afb3b55f68aa83afc134cac710bc84f2c5001874eb8b3f6074ec0f2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5afb3b55f68aa83afc134cac710bc84f2c5001874eb8b3f6074ec0f2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "親指"
@@ -121,11 +129,12 @@
     "question": "うちの家族は全員親指にホクロがあります。",
     "answer": "Everyone in my family has a mole on their thumb.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0850c5d9-8acc-4859-b894-23ed41d2b8cc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

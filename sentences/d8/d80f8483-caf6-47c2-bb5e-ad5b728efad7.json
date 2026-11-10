@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-558b409e60f66b545097f5f86238bf3da5df256f93d284a597d47d13.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-558b409e60f66b545097f5f86238bf3da5df256f93d284a597d47d13.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "終点"
@@ -156,11 +164,12 @@
     "question": "このハイキングコースの終点は、地図で見ると、大体この辺りです。",
     "answer": "The endpoint of this hiking trail is roughly around here on the map.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d80f8483-caf6-47c2-bb5e-ad5b728efad7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

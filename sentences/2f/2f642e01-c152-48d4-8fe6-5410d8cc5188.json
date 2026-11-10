@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3946093751fac7b644e9e2011c96bb1dc1924e711f72ca9f8bc8e647.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3946093751fac7b644e9e2011c96bb1dc1924e711f72ca9f8bc8e647.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "手洗い"
@@ -142,11 +150,12 @@
     "question": "家に帰ったら、まず手洗いうがいをしましょう。",
     "answer": "When you get home, wash your hands and gargle first.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2f642e01-c152-48d4-8fe6-5410d8cc5188",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

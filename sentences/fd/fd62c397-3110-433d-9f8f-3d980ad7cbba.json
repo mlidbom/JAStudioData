@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-01bf8dc6029de921078d822fa1f20535a4ffa3c9c7d27da32f1c73ba.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-01bf8dc6029de921078d822fa1f20535a4ffa3c9c7d27da32f1c73ba.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "不健康"
@@ -212,11 +220,12 @@
     "question": "不健康な野球選手についてのテレビ番組は、全国放送される予定ですよ。",
     "answer": "The TV show about unhealthy baseball players will be broadcasted nationwide.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fd62c397-3110-433d-9f8f-3d980ad7cbba",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-87eb298031256fc080752b58b342da9edec244d056b12b7a7f03e78f.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-87eb298031256fc080752b58b342da9edec244d056b12b7a7f03e78f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Google ja-JP-Neural2-C",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "ゴメンだ",
@@ -48,8 +54,7 @@
   "sentenceCount": 7,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -73,7 +78,9 @@
   "sourceData": {
     "answer": "I'm-sorry | excuse-me | may-I-come-in",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "63fa08e4-dd04-469f-a140-b25d810cbc61",
   "tags": [

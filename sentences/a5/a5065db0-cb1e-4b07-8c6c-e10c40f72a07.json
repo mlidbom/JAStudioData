@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-efc514fb32eef08620b748fd664e0847b6215e3f89d2f939f5a55576.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-efc514fb32eef08620b748fd664e0847b6215e3f89d2f939f5a55576.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "正しい"
@@ -51,11 +59,12 @@
     "question": "ママはいつも正しい。",
     "answer": "Mom is always right.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a5065db0-cb1e-4b07-8c6c-e10c40f72a07",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

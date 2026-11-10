@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-986e5a8ab9f87d32a59d9315a047768904d07b6625e01277bcec746e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-986e5a8ab9f87d32a59d9315a047768904d07b6625e01277bcec746e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "同感"
@@ -86,11 +94,12 @@
     "question": "私もその意見に同感ですね。",
     "answer": "I agree with that opinion as well.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "75bdabb6-2a77-41cc-9c12-48f2bc99c3f8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

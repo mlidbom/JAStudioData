@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-25afefb2bcb2cb66933859599f5266d0d02b3caf3b166fb4a91134a4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-25afefb2bcb2cb66933859599f5266d0d02b3caf3b166fb4a91134a4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "今朝"
@@ -170,11 +178,12 @@
     "question": "今朝は思ったより冬らしい天気だったので、コートで会社に行きました。",
     "answer": "This morning, it was more winter-ish weather than I expected, so I went to work in my coat.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e2b6e348-3dc9-400e-982c-298c50e55c37",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

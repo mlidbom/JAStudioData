@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fd23d21c30db4d4c207a6afa2599546f36e6d874e0fce41957b38f80.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fd23d21c30db4d4c207a6afa2599546f36e6d874e0fce41957b38f80.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "生む"
@@ -72,11 +80,12 @@
     "question": "お金は不正を生む。",
     "answer": "Money breeds fraud.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cd06ec59-6ca5-4f40-b6af-66d9063621c5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

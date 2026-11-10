@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d09cfdd5f41c2a98c43197b72ca882c36d32f094ab2a59c612f769aa.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d09cfdd5f41c2a98c43197b72ca882c36d32f094ab2a59c612f769aa.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "通じる"
@@ -198,11 +206,12 @@
     "question": "あの人、全然話が通じないんですよ。エイリアンと話してるみたいな感覚になります。",
     "answer": "Nothing I say gets through to that person and nothing they say makes sense either; it's like talking to an alien.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "35c6dcc9-af8b-4e25-a326-09047f71c6cc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

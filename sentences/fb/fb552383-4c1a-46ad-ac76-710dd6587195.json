@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e2a9fb79e9887591bc839be3720f5f4ddba93f2cbc9d56d040ad573b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e2a9fb79e9887591bc839be3720f5f4ddba93f2cbc9d56d040ad573b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "時差"
@@ -142,11 +150,12 @@
     "question": "日本との時差を聞いて、気が遠くなりました。",
     "answer": "I was overwhelmed when I heard the time difference with Japan.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fb552383-4c1a-46ad-ac76-710dd6587195",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

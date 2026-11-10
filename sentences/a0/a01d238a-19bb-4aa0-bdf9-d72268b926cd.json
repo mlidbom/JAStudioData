@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-16d03f0d23174554d98899aeb9870bb1741d82cd0a066d29303f6e5b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-16d03f0d23174554d98899aeb9870bb1741d82cd0a066d29303f6e5b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "脱走する"
@@ -142,11 +150,12 @@
     "question": "犬が脱走しないように、フェンスを作りました。",
     "answer": "We built a fence to prevent the dog from escaping.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a01d238a-19bb-4aa0-bdf9-d72268b926cd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

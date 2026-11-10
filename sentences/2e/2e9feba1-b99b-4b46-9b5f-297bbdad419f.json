@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2300e33a72d5ad7c32afa69dd65c029b6538b77d36706bd8bcbca2cc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2300e33a72d5ad7c32afa69dd65c029b6538b77d36706bd8bcbca2cc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "計画"
@@ -345,11 +353,12 @@
     "question": "計画を立てるのは大好きなんですけど、計画したことを実行するのはきらいなんです。",
     "answer": "I like to plan but I don't like to carry out what I've planned.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2e9feba1-b99b-4b46-9b5f-297bbdad419f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

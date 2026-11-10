@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-07e79df82a7d14808098e6a6173274443551bea6a4c3bb419ef1b6fa.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-07e79df82a7d14808098e6a6173274443551bea6a4c3bb419ef1b6fa.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -98,11 +106,12 @@
     "question": "ここには木のボードを立てますか？",
     "answer": "Will you set up a wooden board here?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "56a546ec-cee9-4841-813e-6d3c212e3e09",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-b2f8cf4d4d4247e23adb4e0527b76bf3bb13015d5f1cf5cbd5ef4325.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-b2f8cf4d4d4247e23adb4e0527b76bf3bb13015d5f1cf5cbd5ef4325.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "でいなかった",
@@ -40,8 +46,7 @@
   "sentenceCount": 12,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {
       "teFormStemStart": "required"
@@ -77,7 +82,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "eddb38da-70ba-4ee0-9308-9510b9ed5c10",
   "tags": [

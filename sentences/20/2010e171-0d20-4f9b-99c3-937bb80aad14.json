@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-df586b6a04ffc781f7dbc5eea4957e468297750348afd1fbf6909c16.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-df586b6a04ffc781f7dbc5eea4957e468297750348afd1fbf6909c16.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "前売り券"
@@ -198,11 +206,12 @@
     "question": "映画の前売り券を二枚もらったんだけど、よかったらいっしょに行かない？",
     "answer": "I got two advance tickets for a movie. Would you like to come with me?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2010e171-0d20-4f9b-99c3-937bb80aad14",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

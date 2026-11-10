@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9dcbf850e11ff35a1e6b0b15ae2d050eb3a129e4a888185507240e2a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9dcbf850e11ff35a1e6b0b15ae2d050eb3a129e4a888185507240e2a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "裁判"
@@ -121,11 +129,12 @@
     "question": "できるだけ、裁判はしたくないんですよね。",
     "answer": "I'd like to avoid a trial, if possible.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e629dde3-cb49-4b99-b074-2bd96d89c88b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

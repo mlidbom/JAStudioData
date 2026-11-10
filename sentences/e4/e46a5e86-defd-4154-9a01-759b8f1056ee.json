@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c61aa2603273d8a68e225dc58dec2cd39505d8e5452c847b5d026066.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c61aa2603273d8a68e225dc58dec2cd39505d8e5452c847b5d026066.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "氏名"
@@ -72,11 +80,12 @@
     "question": "これは、主人の氏名です。",
     "answer": "This is my husband's first and last name.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e46a5e86-defd-4154-9a01-759b8f1056ee",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2d20a4d176299a7e6c01649721d7740bf006320685f2db9c1d104c4a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2d20a4d176299a7e6c01649721d7740bf006320685f2db9c1d104c4a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "晩"
@@ -114,11 +122,12 @@
     "question": "あの晩、何があったんだ？",
     "answer": "What happened that night?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9ce4cb88-6d2b-4989-be75-4a73927001fb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

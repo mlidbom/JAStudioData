@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c410b450456391e6f6cba17f717640ed7f39ac75f2c6caf97f1a7897.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c410b450456391e6f6cba17f717640ed7f39ac75f2c6caf97f1a7897.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "細かい"
@@ -100,11 +108,12 @@
     "question": "じゃあ、このキャベツを細かくきざんでください。",
     "answer": "Then, finely chop this cabbage please.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "008769c0-3f0c-4336-81d4-7f2db875bf4e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d2ac2584fc274d082ba10b308313cb9726d7a9af8e013d161345d2c6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d2ac2584fc274d082ba10b308313cb9726d7a9af8e013d161345d2c6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "空手"
@@ -156,11 +164,12 @@
     "question": "近くのスポーツセンターに、新しく空手の道場ができたそうですよ。",
     "answer": "There's apparently a new karate dojo at the nearby sports center.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5bf2f065-5dc6-49c3-8c6c-83266b14380b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

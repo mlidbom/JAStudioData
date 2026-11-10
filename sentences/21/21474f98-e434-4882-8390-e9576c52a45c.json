@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-84091bbdbc62063d054c3d20b1df6afb5245bbfc20ea0bc3202c359a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-84091bbdbc62063d054c3d20b1df6afb5245bbfc20ea0bc3202c359a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "班"
@@ -142,11 +150,12 @@
     "question": "あの班は、五輪の左端の輪っかに間違った色を選びました。",
     "answer": "That group chose the wrong color for the far left Olympic ring.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "21474f98-e434-4882-8390-e9576c52a45c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

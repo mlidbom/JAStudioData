@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3047b40037fbdfdd0f4393fbbc2eaa111e7b7fc4dee35d316954a06f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3047b40037fbdfdd0f4393fbbc2eaa111e7b7fc4dee35d316954a06f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "借り手"
@@ -163,11 +171,12 @@
     "question": "そうは言っても、借り手が見つからない可能性もありますよね？",
     "answer": "Regardless of what you say, there's still a possibility that we won't be able to find a tenant, right?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "48980594-22e3-4f47-981d-c0dae685483a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

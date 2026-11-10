@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6d9e048ff1447c36d2cab1a60368467c5dd66c5aa3f864144ed8d163.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6d9e048ff1447c36d2cab1a60368467c5dd66c5aa3f864144ed8d163.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "領域"
@@ -142,11 +150,12 @@
     "question": "各領域のボーダーを明確にしたほうがいい。",
     "answer": "It is better to clarify the boundaries of each area.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "369863e6-bcd2-4a7e-b286-45b911c3931e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

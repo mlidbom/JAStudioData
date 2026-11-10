@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9908ac3a599be15abfdfe6a5e0a3afe6e12d43fd4f12cf43d6a96539.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9908ac3a599be15abfdfe6a5e0a3afe6e12d43fd4f12cf43d6a96539.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "締まる"
@@ -93,11 +101,12 @@
     "question": "このシートベルトは自動的に締まってくれます。",
     "answer": "This seat belt tightens on its own.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "17408119-8fb6-4c41-84d2-6d1c08a7604a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

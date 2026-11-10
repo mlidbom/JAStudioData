@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c1b2eae7e08fb2b636e1ff858ec6993d04680c33c9234731399d39da.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c1b2eae7e08fb2b636e1ff858ec6993d04680c33c9234731399d39da.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "昼ご飯"
@@ -177,11 +185,12 @@
     "question": "今日は昼ご飯を食べる時間はありませんでした。",
     "answer": "There was no time for lunch today.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "edfaaeca-0583-4ba8-905a-a49feff7662d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

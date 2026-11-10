@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-af5968b1c7320dd54cdf6ae974bcd344717c732dc8c0163c2f04a612.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-af5968b1c7320dd54cdf6ae974bcd344717c732dc8c0163c2f04a612.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "石ころ"
@@ -79,11 +87,12 @@
     "question": "入り口の前は石ころが多いです。",
     "answer": "There are many pebbles in front of the entrance.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "66e26187-7c15-4cbe-843c-acd2c15bd2a6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

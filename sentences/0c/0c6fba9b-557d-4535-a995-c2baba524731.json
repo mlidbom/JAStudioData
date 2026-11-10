@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8afa5a61d43e82ea93057355461838e520eb0322e86eafd3e1146fa0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8afa5a61d43e82ea93057355461838e520eb0322e86eafd3e1146fa0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "岳"
@@ -212,11 +220,12 @@
     "question": "富山県には、剣の山という意味の、剣岳と呼ばれる山があります。",
     "answer": "There is a mountain called Tsurugidake, which literally means Mt. Sword, in Toyama prefecture.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0c6fba9b-557d-4535-a995-c2baba524731",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

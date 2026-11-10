@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-817c1e5c37123f34aa7b3ffc65ddee09d9ab1c252096d4173451938f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-817c1e5c37123f34aa7b3ffc65ddee09d9ab1c252096d4173451938f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "装置"
@@ -114,11 +122,12 @@
     "question": "今日は電気制御装置の使い方を学びました。",
     "answer": "I learned how to use an electrical control device today.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f81d349f-e75e-4cc5-b15a-fef8f1324e79",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

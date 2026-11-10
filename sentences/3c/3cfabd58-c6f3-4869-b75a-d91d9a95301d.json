@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ac4cd45ef553137d9e25bdf57a6325697abd4f2a44c8d110639520ae.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ac4cd45ef553137d9e25bdf57a6325697abd4f2a44c8d110639520ae.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "受領書"
@@ -247,11 +255,12 @@
     "question": "配達が完了したら、配達先から受領書を忘れずに受け取ってください。",
     "answer": "When delivery is complete, don't forget to collect the delivery confirmation slip from the recipient.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3cfabd58-c6f3-4869-b75a-d91d9a95301d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

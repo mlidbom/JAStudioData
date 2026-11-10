@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-38fa4dd844381d43215166b3360306e3971467d1f83305121e7e4b61.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-38fa4dd844381d43215166b3360306e3971467d1f83305121e7e4b61.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大文字"
@@ -72,11 +80,12 @@
     "question": "Tだけ大文字で、他は小文字です。",
     "answer": "Only the T is uppercase, and others are lowercase letters.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8f374b32-5650-4310-b32c-e0944ff51176",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -28,9 +28,15 @@
   "partsOfSpeech": [],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-0c61fde3450e0114784e43aa78a6ecb95b47d2924ab9a0fc89e987cd.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-0c61fde3450e0114784e43aa78a6ecb95b47d2924ab9a0fc89e987cd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "必要は無い",
@@ -40,8 +46,7 @@
   "sentenceCount": 17,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -70,7 +75,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "8b6fb42c-3023-4ccc-9417-aacbddb09eb9",
   "tags": [

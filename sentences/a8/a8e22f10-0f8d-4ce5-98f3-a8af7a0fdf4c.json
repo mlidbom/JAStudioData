@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9a2c96684c79f9ab652e2de34ee41d49153dc63c615be2e72c8b36af.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9a2c96684c79f9ab652e2de34ee41d49153dc63c615be2e72c8b36af.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "退ける"
@@ -142,11 +150,12 @@
     "question": "このお守りには、災いを退ける力がある。",
     "answer": "This charm has the power to repel misfortune. ",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a8e22f10-0f8d-4ce5-98f3-a8af7a0fdf4c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

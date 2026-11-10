@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-39297f0eb3eb4ac8fef0b210a63279519a4fcf2e547c1c68723df449.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-39297f0eb3eb4ac8fef0b210a63279519a4fcf2e547c1c68723df449.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "公害"
@@ -170,11 +178,12 @@
     "question": "私は歩きタバコは公害だと思っています。",
     "answer": "I believe smoking while walking is pollution.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "814d8b30-94cd-4c6a-be43-eb8635a8a57e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

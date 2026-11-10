@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-949d37b549ea485233459ae2c952d338b809a08477acd20fecbe1e9e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-949d37b549ea485233459ae2c952d338b809a08477acd20fecbe1e9e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "御覧になる"
@@ -177,11 +185,12 @@
     "question": "もう三階へ行かれて新しい部屋を御覧になられましたか？",
     "answer": "Have you been to the third floor and seen the new rooms already?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f97a3cd6-c46d-476c-bc5e-b96850bc9e74",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

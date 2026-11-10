@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8ffb94e0e079c71b2d0a07414ae0b66d69fd70005afbb0e7ecd53e44.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8ffb94e0e079c71b2d0a07414ae0b66d69fd70005afbb0e7ecd53e44.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "詳しい"
@@ -93,11 +101,12 @@
     "question": "ずいぶんシメサバについて詳しいんですね。",
     "answer": "You are quite the expert on mackerel sushi.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ca00360e-b07e-402f-83e4-98e42f848682",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

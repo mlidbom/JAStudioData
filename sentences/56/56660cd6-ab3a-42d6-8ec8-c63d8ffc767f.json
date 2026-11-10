@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ec4d5d32f14306688c2e08e9743155b1e94908adb6f2b13f35bbf362.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ec4d5d32f14306688c2e08e9743155b1e94908adb6f2b13f35bbf362.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "山頂"
@@ -128,11 +136,12 @@
     "question": "富士山の山頂には住所がありません。",
     "answer": "There is no address for the summit of Mt. Fuji.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "56660cd6-ab3a-42d6-8ec8-c63d8ffc767f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-11d8ac518dbb8fd2a131492055398131fa6c3e21cd1988bede6d37f4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-11d8ac518dbb8fd2a131492055398131fa6c3e21cd1988bede6d37f4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "喉"
@@ -100,11 +108,12 @@
     "question": "猫は、喉でゴロゴロという音を出します。",
     "answer": "Cats purr with their throats.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5b7771be-c321-4bd6-a3af-c6b116c3950b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

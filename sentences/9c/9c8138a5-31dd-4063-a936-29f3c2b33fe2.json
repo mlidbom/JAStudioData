@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1b1433f08a529c7ebf23abc7e2ecd362912c1df3cd61690fa544a691.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1b1433f08a529c7ebf23abc7e2ecd362912c1df3cd61690fa544a691.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "四匹"
@@ -156,11 +164,12 @@
     "question": "東京タワーの上に、四匹のドラゴンが止まっていた。",
     "answer": "There were four dragons on the Tokyo Tower.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9c8138a5-31dd-4063-a936-29f3c2b33fe2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

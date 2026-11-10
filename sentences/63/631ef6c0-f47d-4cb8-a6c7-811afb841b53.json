@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5d9c5fc7482d4f37ff7ed5c18ca2f6f1cea71b6073a498075919cbf0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5d9c5fc7482d4f37ff7ed5c18ca2f6f1cea71b6073a498075919cbf0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "違反"
@@ -107,11 +115,12 @@
     "question": "それはルール違反じゃないですか？",
     "answer": "Isn't that against the rules?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "631ef6c0-f47d-4cb8-a6c7-811afb841b53",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

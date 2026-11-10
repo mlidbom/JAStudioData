@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4b6ea24f6e51b7bfdd174956a4a4f82dcb439bf32ff20d67abb47938.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4b6ea24f6e51b7bfdd174956a4a4f82dcb439bf32ff20d67abb47938.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "感想"
@@ -135,11 +143,12 @@
     "question": "よかったら、感想を聞かせてください。",
     "answer": "If you don't mind, please let me know your thoughts.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "39efbade-5d9a-4fa8-ba76-c0911a02bdd1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

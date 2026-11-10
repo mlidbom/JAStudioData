@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5642c189377f1c1ba9bc95ce4e494d18da8b327a3518c418d9f2f569.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5642c189377f1c1ba9bc95ce4e494d18da8b327a3518c418d9f2f569.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "処置"
@@ -184,11 +192,12 @@
     "question": "一時的な処置をほどこしたはいいけど、また後で同じことが起こらないか心配だ。",
     "answer": "It's nice to have a temporary measure, but I'm afraid it will happen again later.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3983818f-bbf5-4d47-84cc-1920ed42c25c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

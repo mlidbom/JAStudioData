@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a8eee6aa2ee4d0b2614b67c08a11e2765882322bbd717ef219fd98d5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a8eee6aa2ee4d0b2614b67c08a11e2765882322bbd717ef219fd98d5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "駆ける"
@@ -205,11 +213,12 @@
     "question": "先生が腕を組んだまま廊下を駆けて行くのを見て、大笑いしました。",
     "answer": "We burst out laughing when we saw the teacher dashing down the hallway with his arms folded.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ff633c54-88d3-487d-a4d8-1c9af90cc932",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

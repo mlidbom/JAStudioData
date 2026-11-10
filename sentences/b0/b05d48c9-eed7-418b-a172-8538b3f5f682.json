@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-34baafbf30fdb539a29cb2cf37fbe41f61171d74c3f9d204f31ae88a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-34baafbf30fdb539a29cb2cf37fbe41f61171d74c3f9d204f31ae88a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "第一位"
@@ -128,11 +136,12 @@
     "question": "この作品は作文コンクールで第一位でした。",
     "answer": "This work got first place in the writing contest.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b05d48c9-eed7-418b-a172-8538b3f5f682",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

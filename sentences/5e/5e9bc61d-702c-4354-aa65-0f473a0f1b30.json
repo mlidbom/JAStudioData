@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d85fbb9a9b94435e428797d7c1a28e32e2fb3e1277a6ec799921f462.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d85fbb9a9b94435e428797d7c1a28e32e2fb3e1277a6ec799921f462.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "足す"
@@ -72,11 +80,12 @@
     "question": "白のペンキを足しましょう。",
     "answer": "Let's add some white paint.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5e9bc61d-702c-4354-aa65-0f473a0f1b30",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

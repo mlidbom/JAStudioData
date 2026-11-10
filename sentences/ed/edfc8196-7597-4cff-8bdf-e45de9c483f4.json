@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5ec0ca27f2caff50ae9736eb63ba6c648b696f0e464a4ea6baf644e4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5ec0ca27f2caff50ae9736eb63ba6c648b696f0e464a4ea6baf644e4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "殺人者"
@@ -247,11 +255,12 @@
     "question": "信じてください。息子は誰かに殺人者に仕立て上げられただけなんです。",
     "answer": "Believe me, my son was just framed as a murderer by someone.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "edfc8196-7597-4cff-8bdf-e45de9c483f4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b5a6452664b067b6f4077b3fbac8ccaf4eb6e61483906bd88d5b2a67.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b5a6452664b067b6f4077b3fbac8ccaf4eb6e61483906bd88d5b2a67.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一"
@@ -93,11 +101,12 @@
     "question": "このメロンはアメリカ一の大きさです。",
     "answer": "This is the largest size melon in the United States.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "79c555c3-ff1b-4146-bb10-7e70492f4a6b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

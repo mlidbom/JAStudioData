@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d7319d6cc9ec2f732e338afdf2d1c3c97507721c12af2b9c56879494.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d7319d6cc9ec2f732e338afdf2d1c3c97507721c12af2b9c56879494.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "映す"
@@ -149,11 +157,12 @@
     "question": "この映画、ここでベーグルをアップ映す意図は何なの？",
     "answer": "What's the intention behind showing a close-up of a bagel at this point in this movie?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5e91496f-dc8d-431f-8ca4-8cac609f763f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

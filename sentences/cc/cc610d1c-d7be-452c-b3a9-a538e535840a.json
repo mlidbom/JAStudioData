@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-340c19b1a3053f1db24d3acd2df3aacc1115d73db213456a4efc8fbc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-340c19b1a3053f1db24d3acd2df3aacc1115d73db213456a4efc8fbc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "残虐"
@@ -93,11 +101,12 @@
     "question": "これは非常に残虐な犯行です。",
     "answer": "This is an extremely brutal crime.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cc610d1c-d7be-452c-b3a9-a538e535840a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

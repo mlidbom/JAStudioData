@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3c6dddc88217c9c89809f1437d9bb6a754cf21bf1baa969258883eba.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3c6dddc88217c9c89809f1437d9bb6a754cf21bf1baa969258883eba.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "国"
@@ -177,11 +185,12 @@
     "question": "この国は夜に女の人が一人で出かけても安全ですよ。",
     "answer": "This country is safe for a woman to go out alone at night.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "81a5829a-5827-49c3-b82a-eaf3fd54ba0d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dc5412fc49a373b7b623f9b3109b9171f9ce35c8a2423c3b53f9d8b0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dc5412fc49a373b7b623f9b3109b9171f9ce35c8a2423c3b53f9d8b0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "約束する"
@@ -275,11 +283,12 @@
     "question": "大好きな人とデートの約束したんだけど、インフルになって行けそうもなくて泣いてる。",
     "answer": "I made plans for a date with someone I really like, but I got the flu and now I'm crying because it seems like I won't be able to go.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "446a52af-cb8d-416d-824f-d0ee8a5c4278",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

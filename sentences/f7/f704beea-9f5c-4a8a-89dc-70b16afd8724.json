@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8b0a47dc1ddbc055d21dfea90dbd51acde5ddb696b844e638f461100.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8b0a47dc1ddbc055d21dfea90dbd51acde5ddb696b844e638f461100.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "初歩"
@@ -142,11 +150,12 @@
     "question": "ワニカニの使い方の初歩を教えるビデオを作りました。",
     "answer": "We made a video to teach you the ABCs of how to use WaniKani.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f704beea-9f5c-4a8a-89dc-70b16afd8724",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ad84677d51b5d60bf9b869b10a06f6018c047d51c5371354feab1e2d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ad84677d51b5d60bf9b869b10a06f6018c047d51c5371354feab1e2d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "捜査"
@@ -163,11 +171,12 @@
     "question": "警察は、ビエトの部下が起こした事件について、捜査しています。",
     "answer": "The police are investigating the case caused by Viet's subordinate.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d592f65a-ca15-47d3-beeb-e5ec0acfcc7e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

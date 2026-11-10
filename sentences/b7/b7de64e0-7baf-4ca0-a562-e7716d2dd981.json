@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-70524d613592408be719304ca68d447fd6242d7581ae57d83246db58.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-70524d613592408be719304ca68d447fd6242d7581ae57d83246db58.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "申し申し"
@@ -114,11 +122,12 @@
     "question": "申し申し、田中先生のご主人ですか？",
     "answer": "Hello, are you Tanaka-sensei's husband?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b7de64e0-7baf-4ca0-a562-e7716d2dd981",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

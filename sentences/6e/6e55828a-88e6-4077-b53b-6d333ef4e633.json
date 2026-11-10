@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-03708cfe3e46c8a9023ac50e70b5733841514e36d3bbd0b5049287db.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-03708cfe3e46c8a9023ac50e70b5733841514e36d3bbd0b5049287db.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "得意"
@@ -93,11 +101,12 @@
     "question": "一番得意な料理は何ですか。",
     "answer": "What is your specialty dish?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6e55828a-88e6-4077-b53b-6d333ef4e633",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

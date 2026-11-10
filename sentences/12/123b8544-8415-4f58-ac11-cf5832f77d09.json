@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b13c94082a4909d58208613a86049e446bdace464127e6a961d5e076.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b13c94082a4909d58208613a86049e446bdace464127e6a961d5e076.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "魚屋"
@@ -114,11 +122,12 @@
     "question": "魚屋さんで生のサーモンを買いました。",
     "answer": "We bought some raw salmon at a fish shop.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "123b8544-8415-4f58-ac11-cf5832f77d09",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

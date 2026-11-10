@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-57bf7132b072e6345586d70dfb69c37fcd25d04143c5c47f13e0a321.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-57bf7132b072e6345586d70dfb69c37fcd25d04143c5c47f13e0a321.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "住む"
@@ -142,11 +150,12 @@
     "question": "中国に住んでいる時に、末の妹が生まれました。",
     "answer": "When I was living in China, my youngest sister was born.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "95653df6-2e38-4945-89bc-cceb5b03401d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

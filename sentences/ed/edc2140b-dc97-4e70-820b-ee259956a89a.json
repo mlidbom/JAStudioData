@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a221d918cb4d52ac73a54d525fe135555f272903efc4c256fbb7b118.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a221d918cb4d52ac73a54d525fe135555f272903efc4c256fbb7b118.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鶏"
@@ -79,11 +87,12 @@
     "question": "この鶏は雄鶏で合ってる？",
     "answer": "Am I right about this chicken being a rooster?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "edc2140b-dc97-4e70-820b-ee259956a89a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

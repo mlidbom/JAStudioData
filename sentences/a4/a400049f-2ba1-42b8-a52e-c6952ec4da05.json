@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-470c5ec7fdf956031a7fb122f7cfd41475427c1eddee10c42e351f75.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-470c5ec7fdf956031a7fb122f7cfd41475427c1eddee10c42e351f75.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "軍人"
@@ -79,11 +87,12 @@
     "question": "うちの父は元軍人です。",
     "answer": "My father is a former soldier.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a400049f-2ba1-42b8-a52e-c6952ec4da05",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

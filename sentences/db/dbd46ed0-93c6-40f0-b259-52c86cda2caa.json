@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-633e270423c914bb7b32495794fe5eb685b45e7d7253bbf2840a4f6d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-633e270423c914bb7b32495794fe5eb685b45e7d7253bbf2840a4f6d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "曲がる"
@@ -86,11 +94,12 @@
     "question": "そのマスタード色のネクタイ、ちょっと曲がってるよ。",
     "answer": "Your mustard-colored necktie is a bit crooked.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dbd46ed0-93c6-40f0-b259-52c86cda2caa",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

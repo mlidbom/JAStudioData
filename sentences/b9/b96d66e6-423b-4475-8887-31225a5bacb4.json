@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ae8e8623e5abcf5eb0d0bfdb78784ccfdca89777da76984210d42c25.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ae8e8623e5abcf5eb0d0bfdb78784ccfdca89777da76984210d42c25.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "客室"
@@ -142,11 +150,12 @@
     "question": "このホテルでは全ての客室にコンシェルジュサービスが付いてきます。",
     "answer": "In this hotel, all the guest rooms have concierge service.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b96d66e6-423b-4475-8887-31225a5bacb4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

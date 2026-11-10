@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-10197269cbdf9509018329b84390b0e3ee36952f04cfb2b6272d98c3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-10197269cbdf9509018329b84390b0e3ee36952f04cfb2b6272d98c3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "掛かる"
@@ -65,11 +73,12 @@
     "question": "お、魚が掛かったぞ！",
     "answer": "Oh, fish got hooked!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cc5d686d-8370-4e6f-913c-50f21c93546c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

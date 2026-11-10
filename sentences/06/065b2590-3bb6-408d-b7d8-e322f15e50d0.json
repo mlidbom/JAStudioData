@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cd3a330cd5bc002726424b095c73d918275326e0b0dd1ef2622a0a57.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cd3a330cd5bc002726424b095c73d918275326e0b0dd1ef2622a0a57.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "系譜"
@@ -142,11 +150,12 @@
     "question": "この巻紙に一族の系譜が描かれています。",
     "answer": "I’m sketching my family’s genealogy on this roll of paper.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "065b2590-3bb6-408d-b7d8-e322f15e50d0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

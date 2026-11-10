@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e8121e9e94c101c2b0e6e5771a10e1be4759dfbf970a00bce8a6ab68.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e8121e9e94c101c2b0e6e5771a10e1be4759dfbf970a00bce8a6ab68.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "国境"
@@ -205,11 +213,12 @@
     "question": "日本は海に囲まれているんだから歩いて国境をこえるなんて無理だよ。",
     "answer": "It is impossible to cross the national border on foot because Japan is surrounded by seas, you know?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ba32ceaa-8066-4c83-a0bd-8e2a17fdbe2e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

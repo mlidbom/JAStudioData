@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b2b66603f7f443b33f3d58640de3563a56e3b4855c54cb626a0a331d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b2b66603f7f443b33f3d58640de3563a56e3b4855c54cb626a0a331d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "抜ける"
@@ -163,11 +171,12 @@
     "question": "今、忙しい。風船の空気が抜けるところのビデオを見てるの。",
     "answer": "I'm busy right now. I'm watching a video of a balloon being deflated.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8ac7e00e-7e88-415a-8bda-1ae76e19d5d4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

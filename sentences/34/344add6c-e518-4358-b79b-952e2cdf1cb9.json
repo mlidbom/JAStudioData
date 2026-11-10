@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-645e7b7ca6c71370f7f584838d12c7c3a5d5103ada673cff5e00dce5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-645e7b7ca6c71370f7f584838d12c7c3a5d5103ada673cff5e00dce5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "人気"
@@ -100,11 +108,12 @@
     "question": "このビールは、とても人気があります。",
     "answer": "This beer is very popular.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "344add6c-e518-4358-b79b-952e2cdf1cb9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

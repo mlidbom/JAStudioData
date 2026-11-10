@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-687ae6f31097063842f9a4a87bd05a5a4910f91aa7af3d9d53285128.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-687ae6f31097063842f9a4a87bd05a5a4910f91aa7af3d9d53285128.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "中々"
@@ -79,11 +87,12 @@
     "question": "一月のテストは中々むずかしかった。",
     "answer": "The test in January was quite difficult.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "58e422df-be70-48de-bb05-614984ee2c2c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

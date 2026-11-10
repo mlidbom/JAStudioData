@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2d08b28a3fba0a0053193dfb2a6946c5aa36f2418521618eb332d8fc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2d08b28a3fba0a0053193dfb2a6946c5aa36f2418521618eb332d8fc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "解ける"
@@ -163,11 +171,12 @@
     "question": "早く誤解が解けるといいんだけど。",
     "answer": "I hope the misunderstanding will be cleared up soon.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b113b1b4-e1ab-41c9-8fed-4e1c97e02c01",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

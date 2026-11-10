@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2d00a886593251544b1cbd0e596632060073029416f48823729addaf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2d00a886593251544b1cbd0e596632060073029416f48823729addaf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "準備する"
@@ -149,11 +157,12 @@
     "question": "今日は金曜日だからお弁当を準備しなくちゃ。",
     "answer": "Since it's Friday, I need to prepare a bento.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8936cca5-1859-41cf-994a-cdee2e8d792c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

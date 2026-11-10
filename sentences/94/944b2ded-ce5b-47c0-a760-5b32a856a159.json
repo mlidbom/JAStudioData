@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bd231f19b67640315bcd28a6f83bcae0956af9b7fb218d7089f847fc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bd231f19b67640315bcd28a6f83bcae0956af9b7fb218d7089f847fc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "気分"
@@ -93,11 +101,12 @@
     "question": "今日の母は気分がいいです。",
     "answer": "Mom's in a good mood today.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "944b2ded-ce5b-47c0-a760-5b32a856a159",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

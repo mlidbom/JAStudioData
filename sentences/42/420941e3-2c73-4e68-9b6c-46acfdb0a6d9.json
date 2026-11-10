@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a93ae03e562402df9da6fb1b795b706a6e76debd4ed1fb6dec8b85d1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a93ae03e562402df9da6fb1b795b706a6e76debd4ed1fb6dec8b85d1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "刻む"
@@ -100,11 +108,12 @@
     "question": "葱を刻むのは面倒くさいよ。",
     "answer": "I can’t be bothered to cut up the green onion.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "420941e3-2c73-4e68-9b6c-46acfdb0a6d9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

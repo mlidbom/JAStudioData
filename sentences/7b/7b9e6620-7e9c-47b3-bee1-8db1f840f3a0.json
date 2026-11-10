@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4cd66eb1c2ad7e4a7f3782b55dcec3185720e5300e2d97705b45e122.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4cd66eb1c2ad7e4a7f3782b55dcec3185720e5300e2d97705b45e122.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "苦い"
@@ -86,11 +94,12 @@
     "question": "父は苦いコーヒーを気に入ってます。",
     "answer": "My father likes bitter coffee.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7b9e6620-7e9c-47b3-bee1-8db1f840f3a0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

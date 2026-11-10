@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1a6148ef3c8b176dfbe7784a2a27f31b62905747e4726ff92e5f2ce3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1a6148ef3c8b176dfbe7784a2a27f31b62905747e4726ff92e5f2ce3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "製品"
@@ -219,11 +227,12 @@
     "question": "この製品が売れなかったら、その後はどうする気なんだ？",
     "answer": "If this product doesn't sell, what are you planning to do afterwards?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "53ca6a57-9f3a-4a62-9dbb-dd84f6bd878a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

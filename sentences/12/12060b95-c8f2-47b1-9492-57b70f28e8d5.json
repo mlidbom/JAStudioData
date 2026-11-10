@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-86b6bbea1508567c80cbf34511c4e13528423861cb31f99b27bef8f4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-86b6bbea1508567c80cbf34511c4e13528423861cb31f99b27bef8f4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "電気"
@@ -86,11 +94,12 @@
     "question": "電気を点けて下さい。",
     "answer": "Please turn the light on.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "12060b95-c8f2-47b1-9492-57b70f28e8d5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

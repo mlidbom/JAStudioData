@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4b9476440bdd2d5998ee95cf09f43f2b996d72d40104c08fd846a69f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4b9476440bdd2d5998ee95cf09f43f2b996d72d40104c08fd846a69f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "短い"
@@ -121,11 +129,12 @@
     "question": "わぁ！あんたの尻尾が私より短いなんて、知らなかったわ。",
     "answer": "Wah! I didn’t know your tail was shorter than mine.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a6859e96-ac8e-4d6d-a8bf-2f33950cf4c4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c4de998153e4aa170d661aad267736fa83d9b7e1e4b32bf3ef12ed78.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c4de998153e4aa170d661aad267736fa83d9b7e1e4b32bf3ef12ed78.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "求める"
@@ -198,11 +206,12 @@
     "question": "今日だけで返金を求める電話が二十回ありました。",
     "answer": "We had twenty calls asking for a refund just today.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1b1ad18a-c008-4b0c-967f-9bc11250943c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

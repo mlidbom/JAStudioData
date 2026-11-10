@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-56679fa51731ceb7693a4eadc6ffb80d0883d2a8ce8671aa1e431013.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-56679fa51731ceb7693a4eadc6ffb80d0883d2a8ce8671aa1e431013.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "顔付き"
@@ -100,11 +108,12 @@
     "question": "この前より、顔付きがリラックスしてるね。",
     "answer": "You look more relaxed than before.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "91284076-81ea-4532-8e85-c981463cd44d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

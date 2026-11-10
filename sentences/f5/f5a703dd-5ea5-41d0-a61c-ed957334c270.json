@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7c188ce1e1d87327157fa329771bc8330aa8e582f687efcbe6c6ec54.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7c188ce1e1d87327157fa329771bc8330aa8e582f687efcbe6c6ec54.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "膨張"
@@ -107,11 +115,12 @@
     "question": "宇宙は膨張しています。",
     "answer": "The universe is expanding.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f5a703dd-5ea5-41d0-a61c-ed957334c270",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

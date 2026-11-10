@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6fec6de2fceabb959f6c9bbd987b67c5dd7d0e5f24769f3d369a8de9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6fec6de2fceabb959f6c9bbd987b67c5dd7d0e5f24769f3d369a8de9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "電飾"
@@ -324,11 +332,12 @@
     "question": "省エネのために電飾にOAタップを使ってるって聞いたんだけど、タコ足配線にするのは危ないわよ。",
     "answer": "I heard that you use power strips for decorative lighting to eliminate wasted energy, but you might overload the circuits so it’s dangerous.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1aa7c709-ebb4-4f98-bfaa-00129c306f87",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

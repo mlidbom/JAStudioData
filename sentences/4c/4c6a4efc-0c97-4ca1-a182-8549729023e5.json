@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-922f20f45e619b807ab44bff5d8cebcc3d9a1e288be075351998f238.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-922f20f45e619b807ab44bff5d8cebcc3d9a1e288be075351998f238.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "胆"
@@ -128,11 +136,12 @@
     "question": "お前はもう少し胆を練る必要がある。",
     "answer": "You need to build up your courage.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4c6a4efc-0c97-4ca1-a182-8549729023e5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

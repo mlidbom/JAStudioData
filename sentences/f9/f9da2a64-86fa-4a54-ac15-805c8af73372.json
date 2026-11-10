@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9f42a4b13b42644ff5ffdfcb846f54db659237856534461dd98eff9b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9f42a4b13b42644ff5ffdfcb846f54db659237856534461dd98eff9b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "生じる"
@@ -156,11 +164,12 @@
     "question": "システムのアップデートにより一時的にシステムを止める必要が生じます。",
     "answer": "Due to system updates, it will be necessary to temporarily halt the system.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f9da2a64-86fa-4a54-ac15-805c8af73372",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

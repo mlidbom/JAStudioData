@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fc776945678f717b803bb5099809be61d7d557395942f53298b725ef.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fc776945678f717b803bb5099809be61d7d557395942f53298b725ef.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "用"
@@ -86,11 +94,12 @@
     "question": "今日は、なにも用がない。",
     "answer": "There is nothing to do today.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8c246cbb-76fe-4629-b96e-c30d792cfc89",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

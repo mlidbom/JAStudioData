@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3114d8838eb68f2c5450b6b0b3918aaf8eb1845930b209ec6efeb733.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3114d8838eb68f2c5450b6b0b3918aaf8eb1845930b209ec6efeb733.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "〜症"
@@ -128,11 +136,12 @@
     "question": "それって、認知症の初期症状じゃないですか？",
     "answer": "Aren’t those early symptoms of dementia?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "00c368d2-dca6-4005-82d9-c654bb19845b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

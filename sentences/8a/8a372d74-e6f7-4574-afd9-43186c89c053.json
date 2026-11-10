@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f339bd8781e095b13aac3fbcee74cb553e5aee1dfa2525f848e8a67b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f339bd8781e095b13aac3fbcee74cb553e5aee1dfa2525f848e8a67b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "凍る"
@@ -149,11 +157,12 @@
     "question": "オレンジジュースを凍らせて氷を作ったことはありますか。",
     "answer": "Have you ever made ice cubes by freezing orange juice?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8a372d74-e6f7-4574-afd9-43186c89c053",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

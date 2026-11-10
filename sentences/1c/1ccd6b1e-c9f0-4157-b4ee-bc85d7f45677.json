@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0cd1479d601d30d7613c274607874fed38d8f8ace438f66a9a3b2742.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0cd1479d601d30d7613c274607874fed38d8f8ace438f66a9a3b2742.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "包み"
@@ -128,11 +136,12 @@
     "question": "日付が変わる瞬間に包みを開けてもいい？",
     "answer": "Is it okay if I open this package at the stroke of midnight?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1ccd6b1e-c9f0-4157-b4ee-bc85d7f45677",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-35adc0661027fe056b1a36aa03383884b841ea1c713062e50783f17d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-35adc0661027fe056b1a36aa03383884b841ea1c713062e50783f17d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "武士"
@@ -135,11 +143,12 @@
     "question": "武士は刀を肩に担いで歩いていた。",
     "answer": "That samurai was walking while carrying his katana sword over his shoulder.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ac25069a-ff8c-481f-aa01-2b5c4f8a466d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

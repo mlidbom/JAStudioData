@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b513fa430ffa678b08d05432491576750def12181ff9fe7f5ed0bd38.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b513fa430ffa678b08d05432491576750def12181ff9fe7f5ed0bd38.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "夜"
@@ -107,11 +115,12 @@
     "question": "私は夜に出かけることが多いです。",
     "answer": "I often go out at night.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b7985fb6-5063-4a64-8ecd-62b430becbc8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

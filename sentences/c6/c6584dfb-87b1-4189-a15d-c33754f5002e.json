@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e425bbe0b70037c94af546f0817a0386eec0926d7cd8576fef5516ef.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e425bbe0b70037c94af546f0817a0386eec0926d7cd8576fef5516ef.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "勇敢"
@@ -114,11 +122,12 @@
     "question": "お前の父さんは、とても勇敢な戦士だったよ。",
     "answer": "Your father was a very brave soldier.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c6584dfb-87b1-4189-a15d-c33754f5002e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

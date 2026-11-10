@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e0b7599a8f53d896f7de65101fe44093d67d823a9172a0486318d00c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e0b7599a8f53d896f7de65101fe44093d67d823a9172a0486318d00c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "都市"
@@ -142,11 +150,12 @@
     "question": "何かおもしろい都市伝説を知っていますか？",
     "answer": "Do you know any interesting urban legends?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9f9bc4d6-d5c1-44e3-86f5-5580ee058e03",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

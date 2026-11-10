@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-63b11e619a00faee7e2fc469ed718d4bd1b9ac5c4a2113e5baeb360f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-63b11e619a00faee7e2fc469ed718d4bd1b9ac5c4a2113e5baeb360f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "眼球"
@@ -170,11 +178,12 @@
     "question": "私は自分の左の眼球をあちこち捜したが、なかなか見つけられなかった。",
     "answer": " I searched high and low for my left eyeball, but I just couldn’t find it.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b764230f-989f-4639-b724-c6ceae5b659c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

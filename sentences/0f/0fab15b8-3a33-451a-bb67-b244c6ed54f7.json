@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-faa05da30a15c7121539cf22953e41e1445acb46563e6ca920cceaf6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-faa05da30a15c7121539cf22953e41e1445acb46563e6ca920cceaf6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "気付く"
@@ -128,11 +136,12 @@
     "question": "気づいたらもう学校に行く時間だった。",
     "answer": "When I noticed, it was already time to go to school.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0fab15b8-3a33-451a-bb67-b244c6ed54f7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

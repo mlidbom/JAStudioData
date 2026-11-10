@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6bb91cfb8f8595af8c00af81cdd40471d574b481c424e3fc9a8549c5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6bb91cfb8f8595af8c00af81cdd40471d574b481c424e3fc9a8549c5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "供える"
@@ -163,11 +171,12 @@
     "question": "明日お墓に供える花を、帰りに買ってきてくれない？",
     "answer": "Can you buy some flowers to place on the graves tomorrow on your way home?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "52b9cabf-6ab9-4b56-b739-e4938d7fdc58",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

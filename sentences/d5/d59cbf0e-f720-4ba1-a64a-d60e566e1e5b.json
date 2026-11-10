@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-18a589a423f11d306ec05d2445fbf4851fb146410c747f2bc2b8cfe2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-18a589a423f11d306ec05d2445fbf4851fb146410c747f2bc2b8cfe2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "受かる"
@@ -156,11 +164,12 @@
     "question": "試験に受かるまで週末は出かけないって決心したんだ。",
     "answer": "I made a resolution that I won't go out on weekends until I pass my exams.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d59cbf0e-f720-4ba1-a64a-d60e566e1e5b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

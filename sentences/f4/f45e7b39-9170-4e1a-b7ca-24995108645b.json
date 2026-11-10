@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3b64739378224c290cef17f7fffefb7d15325ea0f29df278d8524d9b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3b64739378224c290cef17f7fffefb7d15325ea0f29df278d8524d9b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "萌芽"
@@ -149,11 +157,12 @@
     "question": "あなたの役目は、二人の恋の萌芽を絶つことよ。",
     "answer": "Your duty is to suppress the germination of love between people.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f45e7b39-9170-4e1a-b7ca-24995108645b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

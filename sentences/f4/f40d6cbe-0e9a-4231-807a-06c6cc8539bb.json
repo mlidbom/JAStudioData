@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-59cb3ff9a46f5a114f0e2d4d029e9723777adbe9a22050dacbb6dc4b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-59cb3ff9a46f5a114f0e2d4d029e9723777adbe9a22050dacbb6dc4b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "払い戻す"
@@ -163,11 +171,12 @@
     "question": "すみません、もう不要になったのでSuicaの残高を払い戻したいのですが...。",
     "answer": "Excuse me, I'd like to refund the balance of my Suica card because I no longer need it...",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f40d6cbe-0e9a-4231-807a-06c6cc8539bb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

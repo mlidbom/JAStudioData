@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b1e7bf82adf0cdcf932e831a174b1ff9bf14365cccd73f547acb5807.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b1e7bf82adf0cdcf932e831a174b1ff9bf14365cccd73f547acb5807.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "吾輩"
@@ -205,11 +213,12 @@
     "question": "吾輩が貴殿に久しく手紙を書いていなかったことをどうかお許しください。",
     "answer": "Please forgive me for not writing to you in such a long time.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dd3867fa-6089-4c89-834e-9d00a480ec59",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

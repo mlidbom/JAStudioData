@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dba33830f10145f48ba0a97f504d77dd50e59482d1687509bc4a398b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dba33830f10145f48ba0a97f504d77dd50e59482d1687509bc4a398b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "五枚"
@@ -100,11 +108,12 @@
     "question": "コピー用紙、あと五枚しかないよ。",
     "answer": "There are only five sheets of copy paper left.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fd5a014f-9bb8-4001-99c9-de76dbc10eca",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

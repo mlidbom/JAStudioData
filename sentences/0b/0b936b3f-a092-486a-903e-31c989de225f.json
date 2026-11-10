@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3bfb9b84c9985b78b69722f26d17d433decdb4171614c022e4ab1c76.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3bfb9b84c9985b78b69722f26d17d433decdb4171614c022e4ab1c76.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一匹"
@@ -142,11 +150,12 @@
     "question": "そこには、一匹のカエルが座っていた。",
     "answer": "A lone frog was sitting there.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0b936b3f-a092-486a-903e-31c989de225f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

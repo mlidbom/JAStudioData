@@ -29,9 +29,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-3f45dc66d158a385defbc1451472caae5e196d3d0e05e2d256e8baea.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-3f45dc66d158a385defbc1451472caae5e196d3d0e05e2d256e8baea.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "馬鹿垂れ",
@@ -53,8 +59,7 @@
   "sentenceCount": 5,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -78,7 +83,9 @@
   "sourceData": {
     "answer": "idiot/moron",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "1fdea766-cf6f-4f3b-b2c5-7da1b456e7de",
   "tags": [

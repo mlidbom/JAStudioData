@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-081c749d7b84f049571e0fa50a2afefed2e0283b321f60b4acc94211.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-081c749d7b84f049571e0fa50a2afefed2e0283b321f60b4acc94211.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "丸い"
@@ -121,11 +129,12 @@
     "question": "このレストランには丸いフルーツしかありません。",
     "answer": "This restaurant only serves round-shaped fruit.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "68b353f2-8efe-4407-a048-02febe5df6ee",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

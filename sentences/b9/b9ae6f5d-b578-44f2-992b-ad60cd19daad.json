@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2d8c4a6e7470670107191c8be87c5a363db2e2497c2fa4b80c4c41f6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2d8c4a6e7470670107191c8be87c5a363db2e2497c2fa4b80c4c41f6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "分ける"
@@ -86,11 +94,12 @@
     "question": "パスタを二人で分ける。",
     "answer": "We split the pasta between two people.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b9ae6f5d-b578-44f2-992b-ad60cd19daad",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

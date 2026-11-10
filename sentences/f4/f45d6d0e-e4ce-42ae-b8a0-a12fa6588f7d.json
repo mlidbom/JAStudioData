@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8d98f8b7cd52cb0c9dcc5ab0882d8f21dbbfe26bbccaa8750b6bd3b7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8d98f8b7cd52cb0c9dcc5ab0882d8f21dbbfe26bbccaa8750b6bd3b7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "路地"
@@ -135,11 +143,12 @@
     "question": "その魚屋は、西通りから少し路地に入った所にあります。",
     "answer": "The fish store is in an alley just off of Western Street.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f45d6d0e-e4ce-42ae-b8a0-a12fa6588f7d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-573111249730d3675912d9196154ff4258de71a206d993eef841498b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-573111249730d3675912d9196154ff4258de71a206d993eef841498b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "判子"
@@ -142,11 +150,12 @@
     "question": "ここにはサイン、そこには判子をお願いします。",
     "answer": "Please sign here and put your seal there.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1d57570c-599b-4d5f-af36-428a5d4fedca",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

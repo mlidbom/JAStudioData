@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-deb9aaff3eda1df82a6cfe2a771fc2a5620147b699241c779904c51e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-deb9aaff3eda1df82a6cfe2a771fc2a5620147b699241c779904c51e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "焼く"
@@ -177,11 +185,12 @@
     "question": "これを庭で見つけたら、すぐに焼いてください。ダニのタマゴなんで。",
     "answer": "If you find these in your yard, burn them immediately. They're tick eggs.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6c04d3b0-3564-489e-a6a8-99bcf35af4f8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

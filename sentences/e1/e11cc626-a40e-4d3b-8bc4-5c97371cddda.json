@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-79eb31898fefb84c0a2d7f3ebf2dce1be65902a533510125d16a1f33.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-79eb31898fefb84c0a2d7f3ebf2dce1be65902a533510125d16a1f33.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "時刻表"
@@ -149,11 +157,12 @@
     "question": "通勤・通学者にとって、電車の時刻表は絶対に必要なものです。",
     "answer": "The train schedule is a must-have for commuters.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e11cc626-a40e-4d3b-8bc4-5c97371cddda",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

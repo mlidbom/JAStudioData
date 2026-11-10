@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d1839a2442ebc1a1a06a75d9c21e113387a350b4160a91d6d753d23d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d1839a2442ebc1a1a06a75d9c21e113387a350b4160a91d6d753d23d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "閣議"
@@ -198,11 +206,12 @@
     "question": "さっきの閣議では何が議題だったんだっけ？忘れちゃった。",
     "answer": "What did we discuss at the cabinet meeting held earlier today? I forgot.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5e26cdd7-993f-4b19-b696-20a1a11f1493",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

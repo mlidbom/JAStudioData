@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2e3a40d3017439daeffd22433ca67f6e6a38e560b43b891ba95acc67.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2e3a40d3017439daeffd22433ca67f6e6a38e560b43b891ba95acc67.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "抽選"
@@ -156,11 +164,12 @@
     "question": "私はあの病院の抽選で、胃のバイパス手術が当たったんです。",
     "answer": "I won a gastric bypass surgery from that hospital’s raffle.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8c23df81-27b2-439b-ac43-462cd03e6037",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

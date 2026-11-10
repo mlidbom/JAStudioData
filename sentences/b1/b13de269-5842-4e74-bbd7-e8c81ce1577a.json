@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6779cc5ffd2ef50eb808403eede0027c789a6f4cf25f81adf49aca0b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6779cc5ffd2ef50eb808403eede0027c789a6f4cf25f81adf49aca0b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "砕石"
@@ -93,11 +101,12 @@
     "question": "この道は現在砕石舗装工事中です。",
     "answer": "This road is currently being paved.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b13de269-5842-4e74-bbd7-e8c81ce1577a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

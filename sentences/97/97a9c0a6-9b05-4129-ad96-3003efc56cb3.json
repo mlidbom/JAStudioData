@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8c8ef0bae62e2d78eeb1343f6b08378282b098dd3f8b120514029a1d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8c8ef0bae62e2d78eeb1343f6b08378282b098dd3f8b120514029a1d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "塾生"
@@ -149,11 +157,12 @@
     "question": "彼は塾生たちの中で一番記憶力が悪かった。",
     "answer": "He has the worst memory out of all the cram school students. ",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "97a9c0a6-9b05-4129-ad96-3003efc56cb3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

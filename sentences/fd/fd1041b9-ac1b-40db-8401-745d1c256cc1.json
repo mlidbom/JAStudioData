@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0b5dc439d92d9cd158be42c3d5be2d0b18c5607ff819d1a841070960.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0b5dc439d92d9cd158be42c3d5be2d0b18c5607ff819d1a841070960.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "月光"
@@ -86,11 +94,12 @@
     "question": "夕べは、月光がとてもきれいでした。",
     "answer": "The moonlight was very beautiful last night.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fd1041b9-ac1b-40db-8401-745d1c256cc1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

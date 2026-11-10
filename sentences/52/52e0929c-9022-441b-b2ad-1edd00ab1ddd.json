@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ae86e3f213099037d69e43621523d3abb81b4ca59f81fcc3ba1afdb6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ae86e3f213099037d69e43621523d3abb81b4ca59f81fcc3ba1afdb6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "人権"
@@ -170,11 +178,12 @@
     "question": "人権を軽んじるような企業で働かない方がいいよ。",
     "answer": "You shouldn’t work for a company that disrespects human rights.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "52e0929c-9022-441b-b2ad-1edd00ab1ddd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3b0944dd6e922ee3b6b59dce265b92fada096ee5cf26db7523d7c08c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3b0944dd6e922ee3b6b59dce265b92fada096ee5cf26db7523d7c08c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "網羅"
@@ -149,11 +157,12 @@
     "question": "あの男はたった一ヶ月で、ここでの業務を網羅した。",
     "answer": "That man covered all the tasks here in just one month.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cb9f3394-fb0c-421d-a360-ca081285e411",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

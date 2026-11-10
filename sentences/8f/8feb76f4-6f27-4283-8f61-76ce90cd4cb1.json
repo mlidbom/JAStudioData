@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-88931cf434a5d2b1311d672a840ba835f4700515d94d81640d53d8f4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-88931cf434a5d2b1311d672a840ba835f4700515d94d81640d53d8f4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "指す"
@@ -149,11 +157,12 @@
     "question": "宿題やってないよ、、。先生に指されたらどうしよう。",
     "answer": "I haven't done my homework... What if the teacher points at me?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8feb76f4-6f27-4283-8f61-76ce90cd4cb1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

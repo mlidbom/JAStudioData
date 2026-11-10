@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b37ec360a21ac3eb9cd56648b463342a4606050ab02baabd6f2e7a91.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b37ec360a21ac3eb9cd56648b463342a4606050ab02baabd6f2e7a91.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "縮まる"
@@ -198,11 +206,12 @@
     "question": "雷がゴロゴロ鳴っている間、うちの犬は怖がって縮まっていました。",
     "answer": "My puppy was shrinking in fear while the thunder was rumbling.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a040e2f2-9650-4c8b-949d-75d29dc8ad07",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

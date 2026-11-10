@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e29a551a012e9612dd56c6b1fcf20b8f9ff50a31b311697655de6f41.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e29a551a012e9612dd56c6b1fcf20b8f9ff50a31b311697655de6f41.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "入れ墨"
@@ -149,11 +157,12 @@
     "question": "その入れ墨には今までいくら費やしているんですか。",
     "answer": "How much money have you spent on tattoos?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "be534c63-3b8a-4a88-96c1-0c929a7498b1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

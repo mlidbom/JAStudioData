@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3422dcd0f9e3d95922f316c8d69cd5e89b60490f75fa8dbe136cca8b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3422dcd0f9e3d95922f316c8d69cd5e89b60490f75fa8dbe136cca8b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "晩"
@@ -142,11 +150,12 @@
     "question": "三日前の晩から熱があるんです。",
     "answer": "I've had a fever since three nights ago.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "05e8c35c-bd73-4bb9-a01e-6458bdcb917c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

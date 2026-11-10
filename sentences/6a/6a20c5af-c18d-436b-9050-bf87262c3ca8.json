@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-eb1bb03690de4dfd74d6cf14a6cbb893ad7c1ebc694567298bbcea31.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-eb1bb03690de4dfd74d6cf14a6cbb893ad7c1ebc694567298bbcea31.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "三角形"
@@ -135,11 +143,12 @@
     "question": "この三角形のグラフで、何が分かるんですか？",
     "answer": "What can you tell from this triangular graph?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6a20c5af-c18d-436b-9050-bf87262c3ca8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

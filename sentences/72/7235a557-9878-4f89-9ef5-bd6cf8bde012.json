@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-965d0310a14041f956aac4f7af6e5f61e29b2f5b8ab7cbfc8d73f48a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-965d0310a14041f956aac4f7af6e5f61e29b2f5b8ab7cbfc8d73f48a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "剣"
@@ -65,11 +73,12 @@
     "question": "この剣いくらですか。",
     "answer": "How much is this sword?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7235a557-9878-4f89-9ef5-bd6cf8bde012",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

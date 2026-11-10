@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d8f04d3e3f9c7bb51133c58f5af2b93bdc33780343c010f21b146989.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d8f04d3e3f9c7bb51133c58f5af2b93bdc33780343c010f21b146989.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "凍る"
@@ -135,11 +143,12 @@
     "question": "道路はまだガチガチに凍ってるから気を付けてね。",
     "answer": "Please be careful because the road is still frozen solid.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "91e30c81-89ac-41be-952c-581b7aa422e6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

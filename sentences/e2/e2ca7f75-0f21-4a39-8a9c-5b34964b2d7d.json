@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c8bd43bb2377f0a014b24b814f6042a995a3edd0adc65a29b32ef0b6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c8bd43bb2377f0a014b24b814f6042a995a3edd0adc65a29b32ef0b6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "飲む"
@@ -100,11 +108,12 @@
     "question": "この水道水は飲めますか？",
     "answer": "Can you drink this tap-water?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e2ca7f75-0f21-4a39-8a9c-5b34964b2d7d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

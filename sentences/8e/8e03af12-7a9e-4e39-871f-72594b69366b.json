@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cd595cc992cbb31ad4d035763a328a84f587b961ade0b300b9d86265.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cd595cc992cbb31ad4d035763a328a84f587b961ade0b300b9d86265.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "所属"
@@ -142,11 +150,12 @@
     "question": "コウイチはポートランドの剣道チームに所属しています。",
     "answer": "Koichi belongs to a kendo team in Portland.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8e03af12-7a9e-4e39-871f-72594b69366b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

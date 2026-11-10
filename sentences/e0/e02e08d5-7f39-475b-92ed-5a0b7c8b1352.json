@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-40ac4e148cf1129b8515052edfc0b03407215cdd6aebd54c2d15be23.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-40ac4e148cf1129b8515052edfc0b03407215cdd6aebd54c2d15be23.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "日曜日"
@@ -100,11 +108,12 @@
     "question": "来週の日曜日は予定があります。",
     "answer": "I have plans for next Sunday.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e02e08d5-7f39-475b-92ed-5a0b7c8b1352",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

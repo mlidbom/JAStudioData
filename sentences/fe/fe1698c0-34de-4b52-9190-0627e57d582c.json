@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4dea2c90c8385c2d442439e9bc074bd090c628820aa1e6fb925f9f3b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4dea2c90c8385c2d442439e9bc074bd090c628820aa1e6fb925f9f3b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "会社"
@@ -93,11 +101,12 @@
     "question": "会社に近いアパートはありますか？",
     "answer": "Is there an apartment close to the company?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fe1698c0-34de-4b52-9190-0627e57d582c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

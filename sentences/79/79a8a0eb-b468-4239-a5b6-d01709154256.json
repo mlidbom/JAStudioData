@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-75f0f643d9b6657e5835d212f2fc64fb51ba6dc2afb2894b2dafafb3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-75f0f643d9b6657e5835d212f2fc64fb51ba6dc2afb2894b2dafafb3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "中佐"
@@ -149,11 +157,12 @@
     "question": "中佐は、日本への移住に反対することを決めた。",
     "answer": "The lieutenant colonel decided against immigrating to Japan.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "79a8a0eb-b468-4239-a5b6-d01709154256",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

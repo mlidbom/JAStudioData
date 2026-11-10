@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c4f85eeaceb45dc1f4e6453a6da6811d4397f3fdc532489c166796ea.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c4f85eeaceb45dc1f4e6453a6da6811d4397f3fdc532489c166796ea.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "欲求"
@@ -163,11 +171,12 @@
     "question": "カップラーメンでは、私のラーメン欲求をみたすことは出来ません。",
     "answer": "I can't satisfy my ramen craving with cup noodles.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cfc4adcf-e6b8-4e09-a801-e7db3cb74039",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

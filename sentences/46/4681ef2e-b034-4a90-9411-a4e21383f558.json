@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-844afc42e42d0b5aa5604002595d6c243ec63482b479d4a24363f71c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-844afc42e42d0b5aa5604002595d6c243ec63482b479d4a24363f71c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "報道"
@@ -282,11 +290,12 @@
     "question": "地元メディアの報道によると、ワニカニのレアトレーディングカードがオークションで一億円で落札されたそうです。",
     "answer": "According to local media reports, a rare trading card of WaniKani was sold at auction for one hundred million yen.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4681ef2e-b034-4a90-9411-a4e21383f558",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

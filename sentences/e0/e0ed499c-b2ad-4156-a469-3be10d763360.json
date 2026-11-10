@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7042f7219a55e21f95108e196f2ecf89fc2bcc9dd428980633bca88f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7042f7219a55e21f95108e196f2ecf89fc2bcc9dd428980633bca88f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "左右"
@@ -107,11 +115,12 @@
     "question": "ジャケットの左右にはポケットがあります。",
     "answer": "The jacket has pockets on the left and the right.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e0ed499c-b2ad-4156-a469-3be10d763360",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2ad891a28032c0d432eb7b197401e6c9c950a36cbeaef9e2095f1261.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2ad891a28032c0d432eb7b197401e6c9c950a36cbeaef9e2095f1261.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "傘"
@@ -121,11 +129,12 @@
     "question": "幼稚園に傘を忘れてきちゃった。",
     "answer": "I forgot my umbrella at the kindergarten.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0e0829bb-a53a-4185-b89f-53f99404cbfb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

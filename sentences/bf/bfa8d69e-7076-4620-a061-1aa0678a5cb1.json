@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1a4d151a619f301afebf33797be80afdf6a989a3b6e835c94c77e5ae.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1a4d151a619f301afebf33797be80afdf6a989a3b6e835c94c77e5ae.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "何千"
@@ -86,11 +94,12 @@
     "question": "何千回もエラーが出た。",
     "answer": "We've got thousands of errors.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bfa8d69e-7076-4620-a061-1aa0678a5cb1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

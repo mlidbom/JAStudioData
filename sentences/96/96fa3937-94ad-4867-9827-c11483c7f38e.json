@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6a55300ddf8756ec794b328445eef1b11d3586888b7e20260dda5475.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6a55300ddf8756ec794b328445eef1b11d3586888b7e20260dda5475.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "陛下"
@@ -163,11 +171,12 @@
     "question": "陛下、恐れ入りますが会議にご出席のご予定だったのでは。",
     "answer": "Your Majesty, I’m sorry to impose but you were supposed to attend the meeting.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "96fa3937-94ad-4867-9827-c11483c7f38e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

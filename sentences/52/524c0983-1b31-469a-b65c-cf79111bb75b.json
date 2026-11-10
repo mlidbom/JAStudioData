@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ee0e875ccbffb8d4375d3e0ce4093e74da39024c7ec9e6702fecfce2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ee0e875ccbffb8d4375d3e0ce4093e74da39024c7ec9e6702fecfce2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "和服"
@@ -142,11 +150,12 @@
     "question": "うちのおばあちゃんは和服を作るのが上手です。",
     "answer": "My grandmother is good at making Japanese style clothing.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "524c0983-1b31-469a-b65c-cf79111bb75b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

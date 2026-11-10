@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-087335511ba400f970f48bbe58f2cc05e0fae8a14f5aa257f006bca4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-087335511ba400f970f48bbe58f2cc05e0fae8a14f5aa257f006bca4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "確認する"
@@ -184,11 +192,12 @@
     "question": "弁護士に確認してみた方がいいんじゃない？",
     "answer": "Wouldn't it be better to confirm with a lawyer?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c145903b-7332-4cb3-b130-d5c50bee0e76",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

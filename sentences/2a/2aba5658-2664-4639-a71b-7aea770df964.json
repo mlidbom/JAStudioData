@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-34ca43a34d343d2daefcd92a915ab726af29f2a8b4f6b0a87bf06851.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-34ca43a34d343d2daefcd92a915ab726af29f2a8b4f6b0a87bf06851.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "時差"
@@ -107,11 +115,12 @@
     "question": "まだ時差ボケに苦しんでいるんです。",
     "answer": "I’m still suffering from jet lag.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2aba5658-2664-4639-a71b-7aea770df964",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

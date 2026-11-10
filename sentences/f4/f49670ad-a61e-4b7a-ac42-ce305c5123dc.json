@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-08a1bfd7865256ca71fbe12c034a57d3258dd5b3e5e7aa174e1e22a3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-08a1bfd7865256ca71fbe12c034a57d3258dd5b3e5e7aa174e1e22a3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "混乱"
@@ -170,11 +178,12 @@
     "question": "その町は、山火事で大混乱となっていた。",
     "answer": "The wildfire brought utter chaos to the town.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f49670ad-a61e-4b7a-ac42-ce305c5123dc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

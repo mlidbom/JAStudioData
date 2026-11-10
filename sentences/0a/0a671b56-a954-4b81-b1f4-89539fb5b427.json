@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ae94bc28b3a355d85ec3405bb4518196bcd0b79ae489333ebb8a7d2e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ae94bc28b3a355d85ec3405bb4518196bcd0b79ae489333ebb8a7d2e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "以降"
@@ -184,11 +192,12 @@
     "question": "夜九時以降の外出は父に禁止されているんです。",
     "answer": "My dad forbids me from going out after 9 p.m.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0a671b56-a954-4b81-b1f4-89539fb5b427",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

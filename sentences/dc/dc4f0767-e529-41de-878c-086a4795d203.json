@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9da1c53118a7ad153cc6c9ea9f88ecdec1452c974ccdd8ff80c10d15.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9da1c53118a7ad153cc6c9ea9f88ecdec1452c974ccdd8ff80c10d15.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "成る"
@@ -135,11 +143,12 @@
     "question": "彼は、数百人から成るチームのリーダーです。",
     "answer": "He is a leader of a team that has become several hundred of people.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dc4f0767-e529-41de-878c-086a4795d203",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

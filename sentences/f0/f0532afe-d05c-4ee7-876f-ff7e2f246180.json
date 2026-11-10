@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c777131e8ffc6a3e7cf195c31f3fd752c5bd669a9631341abff3a181.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c777131e8ffc6a3e7cf195c31f3fd752c5bd669a9631341abff3a181.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "放つ"
@@ -107,11 +115,12 @@
     "question": "あの選手はすごいホームランを放つらしいですよ。",
     "answer": "I heard that player hits amazing home runs.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f0532afe-d05c-4ee7-876f-ff7e2f246180",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

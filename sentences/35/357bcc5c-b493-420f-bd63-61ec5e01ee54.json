@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-322ece43533adeef7324069440d6ad3d85d321c6b3e1121819b7f5c2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-322ece43533adeef7324069440d6ad3d85d321c6b3e1121819b7f5c2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "体育"
@@ -114,11 +122,12 @@
     "question": "「体育の日」っていつだっけ？十月だよね。",
     "answer": "When is \"Health and Sports Day\" again? It's in October, right?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "357bcc5c-b493-420f-bd63-61ec5e01ee54",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

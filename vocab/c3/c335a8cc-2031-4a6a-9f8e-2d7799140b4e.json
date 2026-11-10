@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-cd3754ad508a4b170b9c77d4d5f8ac0790409beb6861a0bfa6088f51.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-cd3754ad508a4b170b9c77d4d5f8ac0790409beb6861a0bfa6088f51.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "て廻る",
@@ -56,8 +62,7 @@
   "sentenceCount": 7,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {
       "teFormStemStart": "required"
@@ -83,7 +88,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "c335a8cc-2031-4a6a-9f8e-2d7799140b4e",
   "tags": [

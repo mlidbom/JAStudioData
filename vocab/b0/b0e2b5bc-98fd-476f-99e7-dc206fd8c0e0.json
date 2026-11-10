@@ -29,9 +29,15 @@
   "partsOfSpeech": [],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-bc7085609100fb835d1eb16f60b8983e467a2a64f22259e7db4c161b.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-bc7085609100fb835d1eb16f60b8983e467a2a64f22259e7db4c161b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "と言った所",
@@ -41,8 +47,7 @@
   "sentenceCount": 1,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -66,7 +71,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "b0e2b5bc-98fd-476f-99e7-dc206fd8c0e0",
   "tags": [

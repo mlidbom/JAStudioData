@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5d634e9c3a04494957b0e07b8d45f4826191b66b0974078d79f1a48e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5d634e9c3a04494957b0e07b8d45f4826191b66b0974078d79f1a48e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "内ポケット"
@@ -149,11 +157,12 @@
     "question": "このスーツのジャケットには内ポケットがありません。",
     "answer": "This suit jacket doesn't have an inside pocket.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ca4d0d4c-3774-47e3-87c3-0d80c8ba176c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

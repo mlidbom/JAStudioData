@@ -20,9 +20,18 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "[sound:yomitan_audio_2025-04-27-09-08-30-058.mp3]",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-c60aef635ba2041ea2fad64f6763b2a45298ec6220bbd752d993637b.mp3]",
+  "audio": [
+    {
+      "fileName": "yomitan_audio_2025-04-27-09-08-30-058.mp3"
+    },
+    {
+      "fileName": "hypertts-c60aef635ba2041ea2fad64f6763b2a45298ec6220bbd752d993637b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "牢",
@@ -36,8 +45,7 @@
   "sentenceCount": 3,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -61,7 +69,9 @@
   "sourceData": {
     "answer": "basket-(shopping,-etc.)/hamper/cage",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "9b5d60e4-f5e5-4d53-a7a4-b75655032c28",
   "tags": [

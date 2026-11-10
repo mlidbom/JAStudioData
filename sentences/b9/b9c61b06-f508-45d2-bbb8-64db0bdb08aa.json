@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6b46de5716defeba83003ef1e1dd6ba6b614021b38a5f0f2f6e38cfc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6b46de5716defeba83003ef1e1dd6ba6b614021b38a5f0f2f6e38cfc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "炒る"
@@ -142,11 +150,12 @@
     "question": "フライパンでゴマを炒ると良い匂いがします。",
     "answer": "It smells good when you roast sesame seeds in a pan.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b9c61b06-f508-45d2-bbb8-64db0bdb08aa",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

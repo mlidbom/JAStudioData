@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3bd2a3611ae24095d16803c5167fef33251c36d0aa1a3336ffd707ee.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3bd2a3611ae24095d16803c5167fef33251c36d0aa1a3336ffd707ee.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "現実"
@@ -72,11 +80,12 @@
     "question": "これは夢か、現実か？",
     "answer": "Is this a dream or real?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4ff3691c-d51f-41eb-8137-9722e734512e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

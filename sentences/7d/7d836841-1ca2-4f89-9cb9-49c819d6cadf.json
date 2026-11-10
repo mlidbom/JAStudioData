@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-28be1927eeb6c3de4cc5a6e23b6dc84fdab06347e3118eb0aa5983c2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-28be1927eeb6c3de4cc5a6e23b6dc84fdab06347e3118eb0aa5983c2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "激励"
@@ -170,11 +178,12 @@
     "question": "日本語能力検定試験の前に、先生が激励してくれました。",
     "answer": "Before the JLPT test, my teacher gave me a pep talk.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7d836841-1ca2-4f89-9cb9-49c819d6cadf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2c0ec34dc6cedb6d65705d345b4855ede6e09ae7328bfa6bfa890001.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2c0ec34dc6cedb6d65705d345b4855ede6e09ae7328bfa6bfa890001.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "台詞"
@@ -191,11 +199,12 @@
     "question": "あの男優の「お前の態度が気に入らないんだ！」っていう台詞は、オレが考えたんだぜ。",
     "answer": "I came up with that actor's \"I don't like your attitude!\" line.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f5ad62ef-3e45-48e9-af8c-4779664461a8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

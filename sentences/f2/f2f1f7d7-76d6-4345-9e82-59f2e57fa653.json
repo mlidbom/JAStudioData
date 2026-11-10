@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7b452be48a35ac8d891f445b0b40a5fe8e163696300be1fcfe136d0e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7b452be48a35ac8d891f445b0b40a5fe8e163696300be1fcfe136d0e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "慌ただしい"
@@ -114,11 +122,12 @@
     "question": "出発が慌ただしく、コーヒーも飲めなかった。",
     "answer": "It was a hasty departure. I didn't even get to drink a cup of coffee.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f2f1f7d7-76d6-4345-9e82-59f2e57fa653",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f6602da0c672313c404dd7f277587e25c6e0b4e820b31774ba154f3e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f6602da0c672313c404dd7f277587e25c6e0b4e820b31774ba154f3e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "観る"
@@ -142,11 +150,12 @@
     "question": "今日は東京タワーを観に行ってきました。",
     "answer": "We went to see Tokyo Tower today.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "01bcc2d7-9e1a-48d3-bc2a-37ceb988835e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

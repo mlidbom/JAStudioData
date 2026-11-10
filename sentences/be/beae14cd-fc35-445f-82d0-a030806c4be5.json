@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bd073d463bf59570fba9ccd03d99608a15bdb6e0118a72da76c412f0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bd073d463bf59570fba9ccd03d99608a15bdb6e0118a72da76c412f0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "七日"
@@ -100,11 +108,12 @@
     "question": "フロリダまでボートで七日もかかったよ。",
     "answer": "It took me seven days to get to Florida by boat.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "beae14cd-fc35-445f-82d0-a030806c4be5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

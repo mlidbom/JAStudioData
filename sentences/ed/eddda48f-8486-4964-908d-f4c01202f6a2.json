@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-50200b80407fa280c16093bb2c08fd8b7159df6a2d8fb4e61a5b902f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-50200b80407fa280c16093bb2c08fd8b7159df6a2d8fb4e61a5b902f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "碁盤"
@@ -149,11 +157,12 @@
     "question": "濡れ衣だよ。じいちゃんの碁盤を壊したのは俺じゃないよ。",
     "answer": "That’s a false accusation. I didn’t break grandpa’s Go board.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "eddda48f-8486-4964-908d-f4c01202f6a2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

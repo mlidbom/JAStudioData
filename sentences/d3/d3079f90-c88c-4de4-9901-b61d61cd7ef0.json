@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0e56c781284ef37711f9a2dabbb3bcb4142f17b7c2291f07765a7110.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0e56c781284ef37711f9a2dabbb3bcb4142f17b7c2291f07765a7110.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お兄さん"
@@ -135,11 +143,12 @@
     "question": "ちょっと、そこのお兄さん！シャツに血がついてますよ！",
     "answer": "Hey there! Your shirt has some blood on it!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d3079f90-c88c-4de4-9901-b61d61cd7ef0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-390d2c9ce2e40cc05cbf92de112b38a39090ae31b5878b6c32da9339.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-390d2c9ce2e40cc05cbf92de112b38a39090ae31b5878b6c32da9339.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "同日"
@@ -107,11 +115,12 @@
     "question": "同日にシアトルとポートランドに行けますか？",
     "answer": "Can you go to Seattle and Portland in the same day?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e5f64d01-b8f3-45a1-9034-b54014c536f1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

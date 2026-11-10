@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-365768c5eb9c907e57fac2f4f2d2615e2cd981b86102884238d0e703.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-365768c5eb9c907e57fac2f4f2d2615e2cd981b86102884238d0e703.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "嬉しい"
@@ -100,11 +108,12 @@
     "question": "今日は何だか嬉しそうですね。",
     "answer": "You look happy today, for some reason.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "db3fc8eb-a3a0-4a29-a96b-7c332831949c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

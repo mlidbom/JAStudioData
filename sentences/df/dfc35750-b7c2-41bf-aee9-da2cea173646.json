@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-90f0ded35af92b7e44d7004144d67bc0fa18380b0c89dc7a7b38c615.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-90f0ded35af92b7e44d7004144d67bc0fa18380b0c89dc7a7b38c615.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "〜券"
@@ -114,11 +122,12 @@
     "question": "三ヶ月の定期券をもらえますか？",
     "answer": "Can I get a commuter pass for three consecutive months?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dfc35750-b7c2-41bf-aee9-da2cea173646",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

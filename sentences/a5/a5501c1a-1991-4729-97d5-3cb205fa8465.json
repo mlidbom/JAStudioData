@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0371c670745cd9888751b92c7b82526bd7d05a823a3b4d9e29946130.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0371c670745cd9888751b92c7b82526bd7d05a823a3b4d9e29946130.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "治癒"
@@ -142,11 +150,12 @@
     "question": "虫歯が自然治癒することはありません。",
     "answer": "Cavities don’t just spontaneously heal.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a5501c1a-1991-4729-97d5-3cb205fa8465",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

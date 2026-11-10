@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e04f5f180d5f38543a2c055c0ccf8708b8ab20eef940cf2624381131.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e04f5f180d5f38543a2c055c0ccf8708b8ab20eef940cf2624381131.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "余計"
@@ -79,11 +87,12 @@
     "question": "このイス、一つ余計だったね。",
     "answer": "This is one too many chairs, isn't it?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "db79e47e-20a8-4c30-a4bc-9ce97050b32c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

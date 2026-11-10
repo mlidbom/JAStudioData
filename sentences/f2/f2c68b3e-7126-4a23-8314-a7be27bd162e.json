@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ad8486fc130e45aaf77c6b356202bb7a01d0f3f57a0f7be3e868b7ea.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ad8486fc130e45aaf77c6b356202bb7a01d0f3f57a0f7be3e868b7ea.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "閉店"
@@ -100,11 +108,12 @@
     "question": "え、あそこのコンビニ、閉店しちゃったの？",
     "answer": "Oh, has that convenience store closed down?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f2c68b3e-7126-4a23-8314-a7be27bd162e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

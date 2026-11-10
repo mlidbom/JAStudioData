@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8e6bbcd85d4c686b53c819e8bda93fab39a4fe288edf1f762aad90fc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8e6bbcd85d4c686b53c819e8bda93fab39a4fe288edf1f762aad90fc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "処理"
@@ -191,11 +199,12 @@
     "question": "彼は、上司が顧客のクレーム処理をしないことについてぶつぶつ文句を言っている。",
     "answer": "He complains that his boss doesn’t deal with clients’ complaints.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0ae9c66d-db52-4667-9bdd-fe12492e0e97",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-363e145ccab228b8a5daf44df1008fae510960e1b8038fa98c3b3500.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-363e145ccab228b8a5daf44df1008fae510960e1b8038fa98c3b3500.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "透き通る"
@@ -86,11 +94,12 @@
     "question": "水が透き通っていてきれい。",
     "answer": "The water is very clear and beautiful.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5822ff2c-85f2-4dbf-9b46-8491269690b1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

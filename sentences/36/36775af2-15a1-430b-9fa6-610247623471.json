@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7c18f2ee3dceef0537d3a4c2be146c77d3321727d91b19fc22949757.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7c18f2ee3dceef0537d3a4c2be146c77d3321727d91b19fc22949757.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "水道"
@@ -184,11 +192,12 @@
     "question": "この辺の水道の水は、人が口にして平気ですか？",
     "answer": "Is it okay for people to drink the tap water in this area?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "36775af2-15a1-430b-9fa6-610247623471",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

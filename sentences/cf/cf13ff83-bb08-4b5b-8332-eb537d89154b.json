@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-432fad75fd16a47e77f9ee047dea6c06df2a972f8113d1440e563a9f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-432fad75fd16a47e77f9ee047dea6c06df2a972f8113d1440e563a9f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "緩い"
@@ -121,11 +129,12 @@
     "question": "このシャツは首回りが緩いんですよね。",
     "answer": "The neck of this shirt is pretty loose.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cf13ff83-bb08-4b5b-8332-eb537d89154b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

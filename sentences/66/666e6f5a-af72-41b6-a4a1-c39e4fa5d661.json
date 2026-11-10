@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8798ba5ed803c54648ac6e2a3517a850455f1d58c3bf7e2146017c23.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8798ba5ed803c54648ac6e2a3517a850455f1d58c3bf7e2146017c23.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "正確"
@@ -93,11 +101,12 @@
     "question": "コンピュータで計算したので、正確ですよ。",
     "answer": "I did the calculations on the computer, so they are accurate.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "666e6f5a-af72-41b6-a4a1-c39e4fa5d661",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

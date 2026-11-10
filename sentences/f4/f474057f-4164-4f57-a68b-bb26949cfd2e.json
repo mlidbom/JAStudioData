@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-02fa73c6b0ec825dfa35cf258dd9aeb7e789a28a6abcb870d1ba824b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-02fa73c6b0ec825dfa35cf258dd9aeb7e789a28a6abcb870d1ba824b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "嫌悪感"
@@ -149,11 +157,12 @@
     "question": "あなたと話していると、いつも嫌悪感を抱くんです。",
     "answer": "I’m always filled with disgust when I talk with you.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f474057f-4164-4f57-a68b-bb26949cfd2e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

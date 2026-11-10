@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fa55bad98731358c1461f3b018a1caf3e6195f37d99818e498ec5f9c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fa55bad98731358c1461f3b018a1caf3e6195f37d99818e498ec5f9c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "串"
@@ -114,11 +122,12 @@
     "question": "焼き鳥とは、串に刺さった鶏肉のことです。",
     "answer": "Yakitori is chicken spitted on skewers.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d687f0ef-b376-4a9e-bf6d-37a64c874d49",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

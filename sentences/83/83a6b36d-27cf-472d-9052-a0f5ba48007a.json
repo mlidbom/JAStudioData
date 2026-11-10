@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-26f4c71f6a6fd95bfdeec5db8ede2868a4af25fd69f8b61b5683225a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-26f4c71f6a6fd95bfdeec5db8ede2868a4af25fd69f8b61b5683225a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "材木"
@@ -142,11 +150,12 @@
     "question": "このトラックで、ここから材木店まで材木を運ぶんです。",
     "answer": "With this truck, we transport lumber from here to the lumberyard.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "83a6b36d-27cf-472d-9052-a0f5ba48007a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9f45177a9810d7f129113af0a1d7dff7da28a544965887bbc980492f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9f45177a9810d7f129113af0a1d7dff7da28a544965887bbc980492f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "略す"
@@ -247,11 +255,12 @@
     "question": "略して話されても部外者の私には何のことか全然分かりません。",
     "answer": "As an outsider, I have no idea what you are talking about when you speak in abbreviated form.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2c4e238c-0032-4e59-8f04-1766de68d4eb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

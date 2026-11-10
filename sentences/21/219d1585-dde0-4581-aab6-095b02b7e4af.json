@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-604a0f8df93a331ea3398f1fce8d74b4009c0fae61fc06e16b5e5e1f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-604a0f8df93a331ea3398f1fce8d74b4009c0fae61fc06e16b5e5e1f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "脱字"
@@ -114,11 +122,12 @@
     "question": "あっ、ヤバい。一字脱字がある！",
     "answer": "Oh, no. There's one missing character!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "219d1585-dde0-4581-aab6-095b02b7e4af",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

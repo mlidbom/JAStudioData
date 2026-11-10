@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e9cb7d0d80358248ba03175e23c9f22c2f5b635c25780c4bb64a6720.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e9cb7d0d80358248ba03175e23c9f22c2f5b635c25780c4bb64a6720.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "達する"
@@ -219,11 +227,12 @@
     "question": "ワニカニでは、あるレベルに達するとコウイチのカラオケ動画が流れるらしい。本当かな？",
     "answer": "I heard that at WaniKani, when you reach a certain level, Koichi’s karaoke video is played. I wonder if it's true.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a04c52a8-6358-44cf-8f1d-c9927f9bdd45",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -19,9 +19,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-40cbffcee3e96f53a5120d0e45db3ea28484ffdf2ca159fc53b02783.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-40cbffcee3e96f53a5120d0e45db3ea28484ffdf2ca159fc53b02783.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "強請り",
@@ -35,8 +41,7 @@
   "sentenceCount": 0,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -60,7 +65,9 @@
   "sourceData": {
     "answer": "begging/pestering/pleading/coaxing",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "141c55da-4865-4705-a175-70740ad429e9",
   "tags": [

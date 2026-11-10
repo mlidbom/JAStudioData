@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4f1e2cba8d3a8fabc92edd4e8a1d38dd58f2e5b1b25afb13430e7579.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4f1e2cba8d3a8fabc92edd4e8a1d38dd58f2e5b1b25afb13430e7579.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "子猫"
@@ -93,11 +101,12 @@
     "question": "この子猫はまだおねしょをします。",
     "answer": "This kitten still has accidents.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0eee9b62-d294-4cfc-82b8-33d4173ff764",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

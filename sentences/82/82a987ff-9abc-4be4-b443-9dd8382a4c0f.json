@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cc042fd469a2abc501046c2f3ec006f1e7ec3ccdfec6a04c4e29f436.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cc042fd469a2abc501046c2f3ec006f1e7ec3ccdfec6a04c4e29f436.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "俺"
@@ -107,11 +115,12 @@
     "question": "こいつ、俺のツレなんだ。",
     "answer": "He's my buddy.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "82a987ff-9abc-4be4-b443-9dd8382a4c0f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

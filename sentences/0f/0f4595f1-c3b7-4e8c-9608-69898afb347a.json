@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f23046e1a8b6ba3e271daf3699d2ce80162b0d00da8de4d9b4730534.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f23046e1a8b6ba3e271daf3699d2ce80162b0d00da8de4d9b4730534.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "余震"
@@ -156,11 +164,12 @@
     "question": "まだ余震が続いているので、気をつけてください。",
     "answer": "There are still aftershocks, so please be careful.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0f4595f1-c3b7-4e8c-9608-69898afb347a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

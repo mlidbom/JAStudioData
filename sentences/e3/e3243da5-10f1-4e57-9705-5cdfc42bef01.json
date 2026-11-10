@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ed6d54c0cbb28d0779a9df0a264ba9f544d77f491cf340e41f29aabd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ed6d54c0cbb28d0779a9df0a264ba9f544d77f491cf340e41f29aabd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "評価"
@@ -177,11 +185,12 @@
     "question": "この映画が批判的な評価を受けるとは思わなかった。",
     "answer": "I did not expect this film to receive critical acclaim.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e3243da5-10f1-4e57-9705-5cdfc42bef01",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

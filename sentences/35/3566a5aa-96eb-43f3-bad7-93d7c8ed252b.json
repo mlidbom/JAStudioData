@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ad26db8b389d0b32ff49491965b9a84e52573815aeab4aef45b31c55.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ad26db8b389d0b32ff49491965b9a84e52573815aeab4aef45b31c55.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "青年"
@@ -93,11 +101,12 @@
     "question": "その青年は十八才でした。",
     "answer": "The young man was eighteen years old.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3566a5aa-96eb-43f3-bad7-93d7c8ed252b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

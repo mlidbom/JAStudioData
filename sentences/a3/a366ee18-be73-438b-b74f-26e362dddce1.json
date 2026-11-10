@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b085a90976f302d09c074a3245616b9c6626a5546daecb037aa647d0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b085a90976f302d09c074a3245616b9c6626a5546daecb037aa647d0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "皿"
@@ -135,11 +143,12 @@
     "question": "広いテーブルの上に大きいお皿がたくさんあった。",
     "answer": "There were many large dishes on a big, wide table.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a366ee18-be73-438b-b74f-26e362dddce1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

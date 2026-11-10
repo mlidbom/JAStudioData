@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a68aab4fc12f5e5602ca296b21a436883dd5a5ed1759972d398d85af.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a68aab4fc12f5e5602ca296b21a436883dd5a5ed1759972d398d85af.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "戦争"
@@ -121,11 +129,12 @@
     "question": "戦争に行くのは半年ぶりです。",
     "answer": "This is the first time I've gone to war in six months.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "52d07de0-7f19-42e4-9a8d-126d6bdbc338",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

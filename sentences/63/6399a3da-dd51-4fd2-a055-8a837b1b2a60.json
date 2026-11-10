@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0a56bdf1ecb340dd6accbc370e981056f5870dbf98da658bf5d7d61d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0a56bdf1ecb340dd6accbc370e981056f5870dbf98da658bf5d7d61d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "経済"
@@ -198,11 +206,12 @@
     "question": "トーフグが毎晩飲み会を設けているのは、経済活性化のためです。",
     "answer": "Tofugu holds a drinking party every night to help stimulate the economy.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6399a3da-dd51-4fd2-a055-8a837b1b2a60",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

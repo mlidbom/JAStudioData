@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-429fe4c4b467a533c7ceac85830be67cf98201a86a4a1aa58c00d103.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-429fe4c4b467a533c7ceac85830be67cf98201a86a4a1aa58c00d103.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "分かれる",
@@ -199,11 +207,12 @@
     "question": "トンネルを出ると、道が二股に分かれていた。",
     "answer": "After I passed through the tunnel, there was a fork in the road.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "84a32201-a4a0-47c6-ada1-52b822a7c0d0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

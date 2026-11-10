@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-572a1a5359c6d3ae76dd62566916c69b5d23487eeb4628ad35874c34.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-572a1a5359c6d3ae76dd62566916c69b5d23487eeb4628ad35874c34.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -112,11 +120,12 @@
     "question": "ブロッコリー、一束２００円だって。",
     "answer": "It says broccoli is 200 yen per bunch.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b22fb77b-4c84-4ee7-b227-30a4eecf4e9e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

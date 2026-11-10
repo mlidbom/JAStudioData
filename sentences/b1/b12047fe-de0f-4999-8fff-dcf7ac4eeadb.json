@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-585cd09301987e0225bee5b6e5fee1946f239b881725a7ff1d3ee066.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-585cd09301987e0225bee5b6e5fee1946f239b881725a7ff1d3ee066.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "整理する"
@@ -205,11 +213,12 @@
     "question": "このデータを全て整理するには、かなり時間がかかると思います。",
     "answer": "I think it will take quite some time to organize all this data.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b12047fe-de0f-4999-8fff-dcf7ac4eeadb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

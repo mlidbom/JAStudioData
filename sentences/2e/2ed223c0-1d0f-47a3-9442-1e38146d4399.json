@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1ae5731f7a5cc7a2f494805e598c78777be184c6ec3934e2f8bcee48.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1ae5731f7a5cc7a2f494805e598c78777be184c6ec3934e2f8bcee48.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "雷"
@@ -212,11 +220,12 @@
     "question": "雷の音で、洗濯物を取り入れなくちゃいけないことを思い出しました。",
     "answer": "The thunder reminded us that we had laundry to bring inside.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2ed223c0-1d0f-47a3-9442-1e38146d4399",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4425d41d6cca3627a574c8203b0e3447629e577d73de10a6e36be89b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4425d41d6cca3627a574c8203b0e3447629e577d73de10a6e36be89b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "昨年"
@@ -100,11 +108,12 @@
     "question": "昨年は旅行でグアムに行きました。",
     "answer": "I went on a trip to Guam last year.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "afded13b-c34b-45f4-b780-ee3db6827146",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

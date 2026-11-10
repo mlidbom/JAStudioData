@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8e0d8d43a5c5cc5911350b45f7e98b0655b10ab066bd97bd2347b638.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8e0d8d43a5c5cc5911350b45f7e98b0655b10ab066bd97bd2347b638.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "英和"
@@ -58,11 +66,12 @@
     "question": "これ、英和だっけ？",
     "answer": "This is English-to-Japanese, right?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bbd6e4ff-117b-493e-aa52-d3b6064f178c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

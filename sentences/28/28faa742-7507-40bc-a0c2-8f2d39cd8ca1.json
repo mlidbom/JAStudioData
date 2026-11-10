@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-48e1b2fb5db2cb3238b50d3f76e1b65ba8819765dbcd344fdd2a3518.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-48e1b2fb5db2cb3238b50d3f76e1b65ba8819765dbcd344fdd2a3518.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "指定する"
@@ -128,11 +136,12 @@
     "question": "ミーティングの場所は、お客さまが指定しました。",
     "answer": "The meeting place was designated by the client.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "28faa742-7507-40bc-a0c2-8f2d39cd8ca1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

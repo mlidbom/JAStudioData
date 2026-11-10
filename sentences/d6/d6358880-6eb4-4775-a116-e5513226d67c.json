@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6e102a4fe4a82533c7f3057661142e5bc3df57e49e4e139f46858224.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6e102a4fe4a82533c7f3057661142e5bc3df57e49e4e139f46858224.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "用事"
@@ -114,11 +122,12 @@
     "question": "すみません。用事を思い出したので、お先に失礼します。",
     "answer": "Excuse me. I'm sorry to leave early, but I just remembered there's something I have to do.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d6358880-6eb4-4775-a116-e5513226d67c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e95ccbc861976d68a64004050743ba3009f4b29b60d6515b1427d6d2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e95ccbc861976d68a64004050743ba3009f4b29b60d6515b1427d6d2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "石垣"
@@ -191,11 +199,12 @@
     "question": "彼は義足を付けていたので、石垣を乗り越えられませんでした。",
     "answer": "He couldn’t climb over the stone wall because he has artificial legs.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "760fbb2b-1ec2-4d94-898f-68612b37ef44",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

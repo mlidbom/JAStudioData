@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dae8dc3177d001e742a333dec85d93b62aee7c96a471fd9c324ea8bb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dae8dc3177d001e742a333dec85d93b62aee7c96a471fd9c324ea8bb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "補佐"
@@ -135,11 +143,12 @@
     "question": "私はトーフグ営業部の補佐として働きました。",
     "answer": "I worked as an assistant in the Tofugu sales department.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3ca67585-7b58-4f4a-9938-2c07a3d5399b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

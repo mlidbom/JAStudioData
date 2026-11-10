@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9e25d31483894fed2e5dbe333b50cf3c610f3e1eb9f0e7c55bf5d46a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9e25d31483894fed2e5dbe333b50cf3c610f3e1eb9f0e7c55bf5d46a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鉄板"
@@ -128,11 +136,12 @@
     "question": "業務用の鉄板を一枚注文した。",
     "answer": "I ordered a single commercial-grade iron plate.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d9a40f3e-deb5-41c5-ba38-4102a7e8f4d1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

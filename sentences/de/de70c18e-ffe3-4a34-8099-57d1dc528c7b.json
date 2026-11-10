@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7c683f570dd2b17b4743c3c73566cf69cdfb728eba72ee76b4a98ad1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7c683f570dd2b17b4743c3c73566cf69cdfb728eba72ee76b4a98ad1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "割合"
@@ -86,11 +94,12 @@
     "question": "出席者の割合は80%だった。",
     "answer": "The ratio of people who attended was eighty percent.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "de70c18e-ffe3-4a34-8099-57d1dc528c7b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

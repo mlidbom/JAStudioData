@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a3f3a6c53f6394e385f37ec1187a45f91e3209288f384290305c0754.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a3f3a6c53f6394e385f37ec1187a45f91e3209288f384290305c0754.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "青葉"
@@ -135,11 +143,12 @@
     "question": "青葉を見るのは目にいい事ですよ。",
     "answer": "It's good for your eyes to see greenery.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "12b08fca-9a89-4b1b-8650-b037a05c6482",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

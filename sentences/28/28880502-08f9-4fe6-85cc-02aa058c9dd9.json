@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7b5e1046e59270641553d0962e295e1a05dbe023fd523fcdb865d2a0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7b5e1046e59270641553d0962e295e1a05dbe023fd523fcdb865d2a0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "周り"
@@ -261,11 +269,12 @@
     "question": "大好きな事があるなら、周りが何と言おうと、それをやりつづけるべきだよ。",
     "answer": "If there's something you love, you should stick with it regardless of what the other people say.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "28880502-08f9-4fe6-85cc-02aa058c9dd9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

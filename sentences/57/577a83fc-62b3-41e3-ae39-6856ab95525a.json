@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fd65ed9b8f4440f7084db9a6764c1890e8cacaba9af397f1f60f6407.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fd65ed9b8f4440f7084db9a6764c1890e8cacaba9af397f1f60f6407.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "登録"
@@ -184,11 +192,12 @@
     "question": "三宅結花です。携帯電話を変えたので、新しい電話番号とメールアドレスの登録をお願いします。",
     "answer": "This is Yuka Miyake. I’ve changed my phone, so could you register my new number and email address in your address book, please? Thank you.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "577a83fc-62b3-41e3-ae39-6856ab95525a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

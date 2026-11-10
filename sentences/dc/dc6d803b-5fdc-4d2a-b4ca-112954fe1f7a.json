@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-50d7b367d0c3be4b846afa0677d935e8dc8331eca2e2b21878689a87.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-50d7b367d0c3be4b846afa0677d935e8dc8331eca2e2b21878689a87.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "月曜日"
@@ -149,11 +157,12 @@
     "question": "月曜日はいつも起きるのがツライです。会社に行きたくないんで。",
     "answer": "I always have a hard time getting up on Mondays. I don't want to go to work.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dc6d803b-5fdc-4d2a-b4ca-112954fe1f7a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fb304678a3d4dd8432d287e7033db2b34f5bfc497fcd998961536ec2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fb304678a3d4dd8432d287e7033db2b34f5bfc497fcd998961536ec2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "地下鉄"
@@ -107,11 +115,12 @@
     "question": "地下鉄の出口は色々な所にあります。",
     "answer": "There are subway exits in various places.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7220e886-02a9-42b8-9472-48f13249002e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

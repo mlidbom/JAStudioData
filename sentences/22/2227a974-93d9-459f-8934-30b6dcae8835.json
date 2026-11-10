@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a99cdb750ca905e13034dcf12dc977bb4ba10730a1113f2f8a7d38f0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a99cdb750ca905e13034dcf12dc977bb4ba10730a1113f2f8a7d38f0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "価値"
@@ -135,11 +143,12 @@
     "question": "そのお皿の価値を知っていますか？",
     "answer": "Do you know how much that dish is worth?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2227a974-93d9-459f-8934-30b6dcae8835",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

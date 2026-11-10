@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e988a39878f5b612c32b4a57f63a78e2ea4f9cb3df261c3c6722822e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e988a39878f5b612c32b4a57f63a78e2ea4f9cb3df261c3c6722822e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大規模"
@@ -205,11 +213,12 @@
     "question": "皆さんは、もし皆さんが住む町で大規模な地震が起きたらどうしますか？",
     "answer": "What would you do if there was a massive earthquake in your town?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0139c39d-6c59-4dda-86f7-37868c047328",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

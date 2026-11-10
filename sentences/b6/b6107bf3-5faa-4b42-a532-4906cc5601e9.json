@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c56fec5eb18cbaf1e765b848a89ade93c227e6663435980fc7721a1a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c56fec5eb18cbaf1e765b848a89ade93c227e6663435980fc7721a1a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "映る"
@@ -107,11 +115,12 @@
     "question": "スクリーンにパスワードが映っていますよ。",
     "answer": "The password is being projected on the screen.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b6107bf3-5faa-4b42-a532-4906cc5601e9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

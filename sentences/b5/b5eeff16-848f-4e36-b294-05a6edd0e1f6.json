@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-db26f9329cd5a9311685413741ca2d481f6ea5b79b83b6391d71bd64.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-db26f9329cd5a9311685413741ca2d481f6ea5b79b83b6391d71bd64.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "功績"
@@ -149,11 +157,12 @@
     "question": "成功が誰の功績かを判断するのは難しい。",
     "answer": "It’s difficult to decide who deserves credit for success.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b5eeff16-848f-4e36-b294-05a6edd0e1f6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

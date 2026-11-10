@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5c4d03d8191ae053ca1c21ffed3c16cdaf595ee3c348826689234dbb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5c4d03d8191ae053ca1c21ffed3c16cdaf595ee3c348826689234dbb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "押さえる"
@@ -121,11 +129,12 @@
     "question": "宇宙人は左手でガッと男の頭を押さえた。",
     "answer": "The alien held down the man's head forcefully with his left hand.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e7b504cb-379e-4017-8a78-83d7c733e6cf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

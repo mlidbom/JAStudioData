@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-86806adc9897b125c72ff7f589062f6e44224c11f2c834be108edc85.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-86806adc9897b125c72ff7f589062f6e44224c11f2c834be108edc85.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "医大"
@@ -107,11 +115,12 @@
     "question": "医大に入るにはお金がかかります。",
     "answer": "It costs money to enter a medical university.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fd67f1cc-bfb3-40f8-9c65-66c55b184798",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

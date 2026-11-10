@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1640d5b1f0a9da8a948e1e90d829394450935affc8a4dd080940246d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1640d5b1f0a9da8a948e1e90d829394450935affc8a4dd080940246d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "拡大"
@@ -156,11 +164,12 @@
     "question": "このボタンをクリックしたら、コウイチの顔が拡大できるよ。",
     "answer": "If you click on this button, you can zoom in on Koichi's face.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b8cc32b6-205f-4206-a8a3-1729297b093d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

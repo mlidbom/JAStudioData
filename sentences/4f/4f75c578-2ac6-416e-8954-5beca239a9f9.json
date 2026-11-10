@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b880ab1c51b1ef2b65f9dd27f9582540351f4b2deb3d8f75d4a9b2ae.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b880ab1c51b1ef2b65f9dd27f9582540351f4b2deb3d8f75d4a9b2ae.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "世紀"
@@ -142,11 +150,12 @@
     "question": "「今って何世紀だっけ？」「二十一世紀だよ。」",
     "answer": "\"What century is it right now?\" \"It's the 21st century.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4f75c578-2ac6-416e-8954-5beca239a9f9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

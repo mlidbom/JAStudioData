@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bbfa5c24b712a01d1a3262de8088a7995831c5e415145edd750cd39b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bbfa5c24b712a01d1a3262de8088a7995831c5e415145edd750cd39b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "終了"
@@ -86,11 +94,12 @@
     "question": "ミーティングは終了しました。",
     "answer": "The meeting has ended.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a079f7da-e502-4191-9ca7-64a6b817dd78",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

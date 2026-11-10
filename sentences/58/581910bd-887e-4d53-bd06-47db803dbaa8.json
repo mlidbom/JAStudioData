@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5c11abba95cf5231532c6869b09f0b3d0a119a9320cff0233020d304.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5c11abba95cf5231532c6869b09f0b3d0a119a9320cff0233020d304.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "入院"
@@ -100,11 +108,12 @@
     "question": "明日から母が三日間入院します。",
     "answer": "After tomorrow, my mother will be hospitalized for three days.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "581910bd-887e-4d53-bd06-47db803dbaa8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e392b4a9e203f0d9b711eb05a94df6e75507749627657887d0f27b6c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e392b4a9e203f0d9b711eb05a94df6e75507749627657887d0f27b6c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "比べる"
@@ -191,11 +199,12 @@
     "question": "去年と比べてワニカニユーザーの数が減っているんです。どうしましょう？",
     "answer": "The number of WaniKani users is lower compared to last year. What should we do?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "11061e69-4cf8-43e4-97b6-7cdf0d6afc03",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-65e9b19963a454a4ebaaeabeb9b0fb0afb28d9e36892bc3e9349b29c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-65e9b19963a454a4ebaaeabeb9b0fb0afb28d9e36892bc3e9349b29c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "損害"
@@ -135,11 +143,12 @@
     "question": "トラックの衝突で積荷がダメージを受けたが、小さな損害で済んだ。",
     "answer": "The truck crash damaged the cargo, but it was only minor damage.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5a70a48e-ddec-4a96-a8ae-56345db1798a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

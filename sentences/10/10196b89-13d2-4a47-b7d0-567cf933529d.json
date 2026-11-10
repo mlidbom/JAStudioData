@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b7a928cc6af9f1cd979a6247230f60c600183a2f57c4aa351609373f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b7a928cc6af9f1cd979a6247230f60c600183a2f57c4aa351609373f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "演技"
@@ -149,11 +157,12 @@
     "question": "フグは大学で演技の勉強をしています。",
     "answer": "Fugu is studying acting at university.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "10196b89-13d2-4a47-b7d0-567cf933529d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5dd9a37bbd51a35d9fc946aa163fb9856e5f1cac284364790ebb71ff.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5dd9a37bbd51a35d9fc946aa163fb9856e5f1cac284364790ebb71ff.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "心身"
@@ -233,11 +241,12 @@
     "question": "心身が元気でなくなってしまい、休学することにしました。",
     "answer": "My mind and body were not well so I decided to take a leave of absence.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9f0ab807-532e-4762-b2a4-7aea75a40842",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

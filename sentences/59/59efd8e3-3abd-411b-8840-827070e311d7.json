@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-496a1be3cd3a2e26318a0dfc0e7477ef297c1556514cc234a7b999d1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-496a1be3cd3a2e26318a0dfc0e7477ef297c1556514cc234a7b999d1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "交渉"
@@ -177,11 +185,12 @@
     "question": "なんとか交渉してみますが、期待はしないでくださいね。",
     "answer": "I'll try negotiating, but please don't expect anything.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "59efd8e3-3abd-411b-8840-827070e311d7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

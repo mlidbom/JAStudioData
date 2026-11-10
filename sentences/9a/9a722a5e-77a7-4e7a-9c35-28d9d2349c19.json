@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-35eae2d2c2c50d13a5b999f9497fe89af50813b0cf053fa203dfb65b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-35eae2d2c2c50d13a5b999f9497fe89af50813b0cf053fa203dfb65b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "見送る"
@@ -79,11 +87,12 @@
     "question": "東京まで見送りに行った。",
     "answer": "I went to Tokyo to see them off.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9a722a5e-77a7-4e7a-9c35-28d9d2349c19",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e4a0d665f95f84b7b31fc83aa7d27505456a9a9294344e31fbf298a9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e4a0d665f95f84b7b31fc83aa7d27505456a9a9294344e31fbf298a9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "栃木県"
@@ -121,11 +129,12 @@
     "question": "栃木県の出身なんですか？",
     "answer": "Are you from Tochigi Prefecture?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "40165cf5-d749-458a-b436-6989755e1540",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

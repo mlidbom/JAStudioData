@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-19a3ed6da2138f38c1fa5e8a6c0412cd52782fdcb4b3e9bb338877b1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-19a3ed6da2138f38c1fa5e8a6c0412cd52782fdcb4b3e9bb338877b1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "閉店"
@@ -37,11 +45,12 @@
     "question": "本日閉店。",
     "answer": "Stored closed today.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "429ff7ed-a634-47a3-ae89-044f63da01b6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

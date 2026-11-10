@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-56ea7e5a46c60c5e8e8f258fb56dad859a7e9000a9aba589a3c1deb5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-56ea7e5a46c60c5e8e8f258fb56dad859a7e9000a9aba589a3c1deb5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "胎児"
@@ -198,11 +206,12 @@
     "question": "エコーで胎児が足を伸ばしたり縮めたりするところが見れました。",
     "answer": "I was able to see the fetus stretch and shrink on the echo.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a863fee5-9a9d-4435-899a-a7d033b96f7e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

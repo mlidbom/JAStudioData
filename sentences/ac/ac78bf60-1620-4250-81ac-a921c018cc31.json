@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cbb552871e6b0cd9216172d04b57a0bb7549c74f592680af3f19533f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cbb552871e6b0cd9216172d04b57a0bb7549c74f592680af3f19533f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "公共"
@@ -205,11 +213,12 @@
     "question": "とある公共施設でボランティアをしていたことがあります。",
     "answer": "I used to volunteer at a public facility.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ac78bf60-1620-4250-81ac-a921c018cc31",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

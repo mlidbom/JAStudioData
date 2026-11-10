@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-947f541fa104f4f1dca4b7680b5fb47306afbc73bcdd028ebbb05c6f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-947f541fa104f4f1dca4b7680b5fb47306afbc73bcdd028ebbb05c6f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "飲む"
@@ -114,11 +122,12 @@
     "question": "兄は一気にウイスキーを飲んで顔が赤くなった。",
     "answer": "My brother drank some whiskey and his face turned red all at once.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4685e41d-3dc7-446c-ad17-5500c514bc67",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

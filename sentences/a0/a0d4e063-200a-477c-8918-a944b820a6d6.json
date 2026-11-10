@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-da70294ed51185699711a95e8ca8c5129ab17775ac223159033dbbd6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-da70294ed51185699711a95e8ca8c5129ab17775ac223159033dbbd6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "安心"
@@ -58,11 +66,12 @@
     "question": "これで安心です。",
     "answer": "That’s a relief.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a0d4e063-200a-477c-8918-a944b820a6d6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3bf99aa74e759c78914703648a5c953a7616d9ab5423764b8edfe92f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3bf99aa74e759c78914703648a5c953a7616d9ab5423764b8edfe92f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "汽船"
@@ -121,11 +129,12 @@
     "question": "この建物は関門汽船乗り場の近くにあります。",
     "answer": "This building is located near the Kanmon Steamship Terminal.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3cade584-11bd-4712-8783-1f3132ee62ee",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

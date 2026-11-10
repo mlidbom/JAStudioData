@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ece78af9e3ccf3b6a156448f98516e7c1fc1ccd1c0b498a621f1876d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ece78af9e3ccf3b6a156448f98516e7c1fc1ccd1c0b498a621f1876d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "上がる"
@@ -72,11 +80,12 @@
     "question": "八月に花火が上がる。",
     "answer": "Fireworks get set off in August.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c07c4ea7-7ea6-49db-a5a5-66dca23ff089",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

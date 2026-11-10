@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1adaae78623385814c3aaa1a5a401d5742c0a34bcb8c98cb8406bbf5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1adaae78623385814c3aaa1a5a401d5742c0a34bcb8c98cb8406bbf5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "刈り取る"
@@ -268,11 +276,12 @@
     "question": "私の実家は農家で米を育てているので、今週末は稲の刈り取りを手伝わなきゃいけないんです。",
     "answer": "My parents are farmers who raise rice so I have to help them harvest rice this weekend.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "220fcd81-661c-4655-bee5-dfb7a3ac120f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

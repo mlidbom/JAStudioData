@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-caf5fbd6700c8fc46f38424715b5c55eb13f028cb6656f4d790929f2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-caf5fbd6700c8fc46f38424715b5c55eb13f028cb6656f4d790929f2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "隠れる"
@@ -107,11 +115,12 @@
     "question": "あー、お月様が隠れちゃった。",
     "answer": "Oh, the moon has hidden away.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "747f6d75-4d1f-4c34-ab58-faf1bf06abcb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

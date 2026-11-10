@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ad97c4b8b4a86e08dacc8302622a0b2221c876f58625560fd00f35db.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ad97c4b8b4a86e08dacc8302622a0b2221c876f58625560fd00f35db.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "水中"
@@ -79,11 +87,12 @@
     "question": "水中にコイがたくさんいる。",
     "answer": "There are a lot of koi fish in the water.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7b4177b2-bbef-4d24-8e0e-6fc71ac53741",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

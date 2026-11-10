@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7943e3b3fc55d4b04af8ccfa9a5ab0fbba41131f92e63effdd27d2db.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7943e3b3fc55d4b04af8ccfa9a5ab0fbba41131f92e63effdd27d2db.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "捕鯨"
@@ -86,11 +94,12 @@
     "question": "私は捕鯨には反対です。",
     "answer": "I’m against whaling.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "84704f51-dfb4-4f1a-81d2-819bd2d62e7e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

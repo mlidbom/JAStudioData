@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5dcd65894ac9c11e49e885264cbbaa7d65eb41456d33797030d02e4a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5dcd65894ac9c11e49e885264cbbaa7d65eb41456d33797030d02e4a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "悠長"
@@ -107,11 +115,12 @@
     "question": "そんな悠長なことを言ってる時間はないよ。",
     "answer": "This isn’t the time to talk about such leisurely things.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "91c944ed-59c5-450e-9c39-8ff5234247e2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

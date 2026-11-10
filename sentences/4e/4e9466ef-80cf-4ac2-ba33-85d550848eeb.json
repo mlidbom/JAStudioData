@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5d5fd81701865413c26fa6cf493248441aa0a028a8a611af33c06c21.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5d5fd81701865413c26fa6cf493248441aa0a028a8a611af33c06c21.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "柴"
@@ -156,11 +164,12 @@
     "question": "おじいさんは、山で柴刈りをしていました。",
     "answer": "My grandfather was gathering firewood in the mountains.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4e9466ef-80cf-4ac2-ba33-85d550848eeb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

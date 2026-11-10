@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0bb517e778854da2959d3618a9a9f7acd29a87cad1accb394db4d752.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0bb517e778854da2959d3618a9a9f7acd29a87cad1accb394db4d752.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "先々月"
@@ -93,11 +101,12 @@
     "question": "先々月、キューバにいきました。",
     "answer": "I went to Cuba the month before last.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4b564c6d-e687-485c-9b5e-836d9b2237fb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

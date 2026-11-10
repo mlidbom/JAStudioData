@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2345a90bff30e15fac0a9e04ac0f0ad467d8f4c031b460ca6b15de91.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2345a90bff30e15fac0a9e04ac0f0ad467d8f4c031b460ca6b15de91.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "竜巻"
@@ -121,11 +129,12 @@
     "question": "昨夜、竜巻警報が出て、停電にもなりました。",
     "answer": "There was a tornado warning and a power outage last night.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "84b1b246-dffa-4bfb-9d9d-ef40b46cb204",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

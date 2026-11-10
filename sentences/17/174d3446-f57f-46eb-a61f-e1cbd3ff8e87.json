@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3ff19160f3802c7fcc7d6dc5288d9611672859eb25cd4248b4afe034.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3ff19160f3802c7fcc7d6dc5288d9611672859eb25cd4248b4afe034.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "飲み放題"
@@ -149,11 +157,12 @@
     "question": "このレストランは飲み放題があるみたいだよ。",
     "answer": "It looks like this restaurant has an all-you-can-drink option.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "174d3446-f57f-46eb-a61f-e1cbd3ff8e87",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

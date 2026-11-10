@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-467e8e570c060e9cb7c894c9223d13a6a4f16599539a7e2e54120ebb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-467e8e570c060e9cb7c894c9223d13a6a4f16599539a7e2e54120ebb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "段階"
@@ -170,11 +178,12 @@
     "question": "この段階で結論を出すのはまだ早すぎる。",
     "answer": "It is still too early to draw conclusions at this stage.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0b302b39-0e63-4976-a53e-d57e1c9ae9bd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

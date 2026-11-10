@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-51a29a7073d40b660f06fdb49d7b6f768b248c50ae7f22c5c0bccc00.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-51a29a7073d40b660f06fdb49d7b6f768b248c50ae7f22c5c0bccc00.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "当て字"
@@ -114,11 +122,12 @@
     "question": "日本語の当て字は、外国人にとって分かりにくいです。",
     "answer": "Japanese ateji are difficult for foreigners to understand.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "67370575-206d-4ead-b00e-89c43e5729f1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

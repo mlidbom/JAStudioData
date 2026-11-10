@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-27f4eff8b5d82771547b158242d7ae1ae95c0b157a72b1d127c366d1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-27f4eff8b5d82771547b158242d7ae1ae95c0b157a72b1d127c366d1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "集中"
@@ -170,11 +178,12 @@
     "question": "日本は、東京などの大きな町に人口が集中しています。",
     "answer": "In Japan, the population is concentrated in large cities such as Tokyo.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5ce00275-d991-486f-b712-f0ac08677216",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

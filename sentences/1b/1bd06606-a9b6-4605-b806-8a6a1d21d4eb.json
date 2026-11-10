@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-229adca6536c0826e4fac777a95459ff8fd86171a68903c65ad4b7b8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-229adca6536c0826e4fac777a95459ff8fd86171a68903c65ad4b7b8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "原子力"
@@ -226,11 +234,12 @@
     "question": "私の父は、以前は原子力発電所で仕事をしていました。",
     "answer": "My dad used to work at a nuclear power plant.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1bd06606-a9b6-4605-b806-8a6a1d21d4eb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

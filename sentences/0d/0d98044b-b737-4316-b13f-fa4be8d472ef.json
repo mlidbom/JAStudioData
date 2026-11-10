@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7c5660c98ce272ac3f32802b843035885014e22fdf3ff32b2b53c08d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7c5660c98ce272ac3f32802b843035885014e22fdf3ff32b2b53c08d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お客さん"
@@ -191,11 +199,12 @@
     "question": "あなたは大切なワニカニのお客さんの一人なんですよ。",
     "answer": "You are one of our precious WaniKani customers.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0d98044b-b737-4316-b13f-fa4be8d472ef",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

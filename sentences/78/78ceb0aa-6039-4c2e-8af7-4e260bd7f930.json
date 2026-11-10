@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3122d112e2462a5b8a79aeda60a3721939834e06efd8b526bab670ca.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3122d112e2462a5b8a79aeda60a3721939834e06efd8b526bab670ca.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "高校"
@@ -86,11 +94,12 @@
     "question": "高校まで、車で行けば十分ですよ。",
     "answer": "It only takes 10 minutes to get to the high school if you drive.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "78ceb0aa-6039-4c2e-8af7-4e260bd7f930",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

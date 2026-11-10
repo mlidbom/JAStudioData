@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-09bd9b2ab3bcb7a30e8577a8a18b1abf7e44d2c862b4417c84140df6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-09bd9b2ab3bcb7a30e8577a8a18b1abf7e44d2c862b4417c84140df6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "咳"
@@ -86,11 +94,12 @@
     "question": "咳が長引いています。",
     "answer": "My cough is lingering.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5fa7dcbd-094e-4ece-9c7f-5e779941f35d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

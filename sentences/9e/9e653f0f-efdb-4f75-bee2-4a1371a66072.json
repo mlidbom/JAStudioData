@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e379e38a979079216f569ba7f4665000f9d3b448167eb0dff1a2e8ca.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e379e38a979079216f569ba7f4665000f9d3b448167eb0dff1a2e8ca.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "勘定"
@@ -93,11 +101,12 @@
     "question": "お勘定をお願いします。",
     "answer": "Can I have the check, please?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9e653f0f-efdb-4f75-bee2-4a1371a66072",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

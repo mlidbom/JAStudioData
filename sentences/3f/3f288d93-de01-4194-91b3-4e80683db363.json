@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-18b17633a855d6ecbe3ee3004dd752b5d49503274788f6a3ff086e59.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-18b17633a855d6ecbe3ee3004dd752b5d49503274788f6a3ff086e59.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "急ぐ"
@@ -128,11 +136,12 @@
     "question": "ごめん、ちょっと急ぐから先に行くね！",
     "answer": "Sorry, I'm in a bit of a hurry, I'll go first!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3f288d93-de01-4194-91b3-4e80683db363",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

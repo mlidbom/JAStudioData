@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fb4be9ff426d9f6030a834433d8a222e99f2621d1b51dd7a025e6f5d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fb4be9ff426d9f6030a834433d8a222e99f2621d1b51dd7a025e6f5d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "作者"
@@ -135,11 +143,12 @@
     "question": "その曲には作者の思いがこもっています。",
     "answer": "That song is filled with the feelings of the composer.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4b1a2d0f-50d3-451f-a925-6dd0102f7799",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

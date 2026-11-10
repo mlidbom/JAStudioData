@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b1246bd59122c63998cd6d71f9760e028b120c5f8bbcfab443b398ec.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b1246bd59122c63998cd6d71f9760e028b120c5f8bbcfab443b398ec.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "慣れる"
@@ -191,11 +199,12 @@
     "question": "裾上げをお願いできますか？自分ではあまり縫い物に慣れてなくて。",
     "answer": "Could you bring the hem up for me? I’m not really used to sewing.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f8489eec-865a-4399-bfb7-0ad80dfe1053",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

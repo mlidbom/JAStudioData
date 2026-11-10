@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-92e8320da87a73ad9953eda2eb3fc2019bd26268a656897d514d1d30.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-92e8320da87a73ad9953eda2eb3fc2019bd26268a656897d514d1d30.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "地図"
@@ -72,11 +80,12 @@
     "question": "この地図は、正しいですか？",
     "answer": "Is this map correct?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1e37e74d-4752-4c5e-80c0-1d1d54bc9dbd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

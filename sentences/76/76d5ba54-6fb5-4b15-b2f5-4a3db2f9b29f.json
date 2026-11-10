@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-24a83b0d4d554dddcea9665f808ec34c687f67cdcf43bcff596c95ee.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-24a83b0d4d554dddcea9665f808ec34c687f67cdcf43bcff596c95ee.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "飛ばす"
@@ -93,11 +101,12 @@
     "question": "僕の順番を飛ばさないでよ！",
     "answer": "Don't skip over my turn!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "76d5ba54-6fb5-4b15-b2f5-4a3db2f9b29f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

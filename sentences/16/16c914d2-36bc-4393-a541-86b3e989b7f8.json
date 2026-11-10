@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8000c5a34a760c5b5a20e2809c0b2e4e2d50aaad1f7d02255795236f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8000c5a34a760c5b5a20e2809c0b2e4e2d50aaad1f7d02255795236f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "無言"
@@ -149,11 +157,12 @@
     "question": "毎晩無言電話がかかってくるんです。",
     "answer": "Every night I get a silent prank phone call.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "16c914d2-36bc-4393-a541-86b3e989b7f8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

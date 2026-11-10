@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-33b9d4e089933bc0b022ae8b1de28da7ab5ffff6105abbedfc917864.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-33b9d4e089933bc0b022ae8b1de28da7ab5ffff6105abbedfc917864.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "何日"
@@ -65,11 +73,12 @@
     "question": "何日がいい？",
     "answer": "What day's good for you?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2b104282-2d06-45fe-adb3-d392f2a4a812",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

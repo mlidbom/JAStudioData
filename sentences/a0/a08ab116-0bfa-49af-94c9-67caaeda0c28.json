@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-280d437a75c37e2856bdd0a676c792878a2d979ea5e7a26a3be0ec2f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-280d437a75c37e2856bdd0a676c792878a2d979ea5e7a26a3be0ec2f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "売り上げ"
@@ -79,11 +87,12 @@
     "question": "DVDの売り上げはどうですか？",
     "answer": "How's the DVD selling?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a08ab116-0bfa-49af-94c9-67caaeda0c28",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6fe95e07ce11025d9b5a49be7d184c30c099491dbc8f5dad23186c8d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6fe95e07ce11025d9b5a49be7d184c30c099491dbc8f5dad23186c8d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "黙る"
@@ -114,11 +122,12 @@
     "question": "どうしたの？どうして黙っているの？",
     "answer": "What’s the matter? Why are you so quiet?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "494e31eb-b5b8-474f-818d-ca69a9f29c18",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

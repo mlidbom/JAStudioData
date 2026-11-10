@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4e9cc7ab7b3fc1ddc272e4b4d8ea20b6f1a0e34707de20dce6868b25.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4e9cc7ab7b3fc1ddc272e4b4d8ea20b6f1a0e34707de20dce6868b25.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "地震"
@@ -93,11 +101,12 @@
     "question": "最近、地震、多いよね。昨日もでしょ？",
     "answer": "There have been a lot of earthquakes lately, haven't there? Yesterday too, right?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0e112c6a-907e-4663-8b9c-7fc4173d0eba",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

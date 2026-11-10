@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-03303f73fe400ad6ebb62a0e0cfc94f7dbb69c234ccee51a03ecbea3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-03303f73fe400ad6ebb62a0e0cfc94f7dbb69c234ccee51a03ecbea3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "海王星"
@@ -65,11 +73,12 @@
     "question": "海王星は色が青いです。",
     "answer": "The color of Neptune is blue.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f68a4148-125f-4a8b-8156-747ca5e0dc8a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

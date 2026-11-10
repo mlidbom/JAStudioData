@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8a7ae408f215466b365a599dda2995fdd1f1bd2fc5dd0a8c81058f30.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8a7ae408f215466b365a599dda2995fdd1f1bd2fc5dd0a8c81058f30.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "張る"
@@ -205,11 +213,12 @@
     "question": "テントをもうちょっとピンと張りたいんですが、手伝ってくれませんか？",
     "answer": "I'd like to stretch the tent more tightly. Could you help me?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "540d9530-8245-4076-ac72-83bf9551383c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

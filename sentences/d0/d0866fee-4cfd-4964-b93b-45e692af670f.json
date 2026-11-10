@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-72ae9b493ea261319e5ca4b5ec6c0ae13c447804e460ca270262ae71.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-72ae9b493ea261319e5ca4b5ec6c0ae13c447804e460ca270262ae71.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "充電する"
@@ -247,11 +255,12 @@
     "question": "充電するのを忘れたから携帯の電源が切れて、目覚ましが鳴らなかったんだ。",
     "answer": "I forgot to charge my battery and my cellphone died, so my alarm didn’t go off.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d0866fee-4cfd-4964-b93b-45e692af670f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

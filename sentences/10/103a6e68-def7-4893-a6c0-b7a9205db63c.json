@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-30e2263f5acada14e239115a10b41e9e44963d8837edd3824fc844e7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-30e2263f5acada14e239115a10b41e9e44963d8837edd3824fc844e7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "傍観"
@@ -156,11 +164,12 @@
     "question": "私はイジメをただ傍観していました。",
     "answer": "I only looked on at the bullying.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "103a6e68-def7-4893-a6c0-b7a9205db63c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

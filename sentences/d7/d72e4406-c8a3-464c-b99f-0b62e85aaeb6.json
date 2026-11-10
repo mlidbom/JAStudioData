@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2038822a653c1688c0316302517c1154032ec090471c83974d61f1ea.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2038822a653c1688c0316302517c1154032ec090471c83974d61f1ea.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "天候"
@@ -135,11 +143,12 @@
     "question": "ここ一か月は天候が優れないみたいです。",
     "answer": "It appears that the weather won't be good for a month.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d72e4406-c8a3-464c-b99f-0b62e85aaeb6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

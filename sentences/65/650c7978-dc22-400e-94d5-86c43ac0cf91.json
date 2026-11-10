@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8d841e21b4ad4103994ef16cf4a4daed5ad56c00160bbbd85f36dd3b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8d841e21b4ad4103994ef16cf4a4daed5ad56c00160bbbd85f36dd3b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "色"
@@ -58,11 +66,12 @@
     "question": "この色はコバルトブルーです。",
     "answer": "This color is cobalt blue.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "650c7978-dc22-400e-94d5-86c43ac0cf91",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

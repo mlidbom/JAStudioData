@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2291da46ecb6ff209ad5946d6e956ca7d9ace7ae651dc1b414e658ce.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2291da46ecb6ff209ad5946d6e956ca7d9ace7ae651dc1b414e658ce.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "島"
@@ -128,11 +136,12 @@
     "question": "この島で一週間生活をしてもらいます。",
     "answer": "I’m going to have you live on this island for a week.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2f77bc1f-fbb0-4234-92c9-a0fcd433aa63",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

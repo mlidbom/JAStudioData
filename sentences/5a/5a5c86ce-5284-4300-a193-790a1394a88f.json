@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-db65c541f094dccb6574c8a5613783d576d2940a52253754d3dd9838.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-db65c541f094dccb6574c8a5613783d576d2940a52253754d3dd9838.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "招待する"
@@ -196,11 +204,12 @@
     "question": "チャーリーが、今度チョコレート工場に招待するよって言ってくれたんだ！",
     "answer": "Charlie said he's inviting me to the chocolate factory next time!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5a5c86ce-5284-4300-a193-790a1394a88f",
   "tags": [
-    "_tts_audio",
     "-::sentence::uses::incorrect-matches",
     "source::wani::current"
   ]

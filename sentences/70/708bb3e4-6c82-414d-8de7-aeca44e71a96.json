@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-57a7075803e2aff57ceac4b07130cab24940652a685433f92c2a5ead.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-57a7075803e2aff57ceac4b07130cab24940652a685433f92c2a5ead.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "実験"
@@ -72,11 +80,12 @@
     "question": "これは科学の実験です。",
     "answer": "This is a science experiment.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "708bb3e4-6c82-414d-8de7-aeca44e71a96",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

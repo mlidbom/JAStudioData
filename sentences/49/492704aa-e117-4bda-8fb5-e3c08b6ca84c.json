@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-89f15a86567db8166db2a2cc5e3371561f7c7f98e14364a1b377efae.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-89f15a86567db8166db2a2cc5e3371561f7c7f98e14364a1b377efae.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "長袖"
@@ -163,11 +171,12 @@
     "question": "今日は、長袖着ていった方がいいかな？",
     "answer": "Should I wear a long sleeve top today?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "492704aa-e117-4bda-8fb5-e3c08b6ca84c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

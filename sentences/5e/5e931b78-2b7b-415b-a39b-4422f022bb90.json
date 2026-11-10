@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a75b94b07682660d08184c7e457c9a82cc8188dffa2ff2c870733751.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a75b94b07682660d08184c7e457c9a82cc8188dffa2ff2c870733751.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "猛〜"
@@ -107,11 +115,12 @@
     "question": "バイクが猛スピードで突っ込んできた。",
     "answer": "The motorcycle came rushing forward at breakneck speed. ",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5e931b78-2b7b-415b-a39b-4422f022bb90",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

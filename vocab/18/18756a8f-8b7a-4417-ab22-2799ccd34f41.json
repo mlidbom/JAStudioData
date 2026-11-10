@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-4dcf853ead6ad66df6bb0e4666cbf90248bf097212dd3e544456e1c9.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-4dcf853ead6ad66df6bb0e4666cbf90248bf097212dd3e544456e1c9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "たことは無い",
@@ -48,8 +54,7 @@
   "sentenceCount": 10,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -82,7 +87,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "18756a8f-8b7a-4417-ab22-2799ccd34f41",
   "tags": [

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-15e6dcf9f6091ab7493ea1629631069d596f77d0991d7dc904f9bc33.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-15e6dcf9f6091ab7493ea1629631069d596f77d0991d7dc904f9bc33.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "夫婦"
@@ -142,11 +150,12 @@
     "question": "ご心配いただかなくても、夫婦関係は良好ですよ。",
     "answer": "Don't worry, we have a good marriage.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "79f1d3f3-2ad8-482d-922a-47b38c860974",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

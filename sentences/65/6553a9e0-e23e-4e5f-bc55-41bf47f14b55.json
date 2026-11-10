@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4f83db7f0ddd8c3d91edba1c7dd788136b2776a6a577101404612e76.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4f83db7f0ddd8c3d91edba1c7dd788136b2776a6a577101404612e76.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "悪口"
@@ -205,11 +213,12 @@
     "question": "みんなが私の悪口を言っているのを聞いちゃったんだよね。",
     "answer": "I overheard everyone talking behind my back.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6553a9e0-e23e-4e5f-bc55-41bf47f14b55",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

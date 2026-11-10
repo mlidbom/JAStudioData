@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4e530dfabfe0b0037efaf5cac3c9f2478b98d48db2ba77b17fe09680.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4e530dfabfe0b0037efaf5cac3c9f2478b98d48db2ba77b17fe09680.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "程度"
@@ -121,11 +129,12 @@
     "question": "この程度の金額でビビってたらなんにもできないよ。",
     "answer": "If you get scared by just this amount of money, you wouldn't be able to do anything.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8172bb7b-07d4-4c2f-becc-9d9890ee4aa0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

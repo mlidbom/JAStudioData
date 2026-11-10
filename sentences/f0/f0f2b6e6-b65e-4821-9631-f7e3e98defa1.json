@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f8c1f2a40717e44fbfe69e1add78d489ac56f1abfa2de6d12340988e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f8c1f2a40717e44fbfe69e1add78d489ac56f1abfa2de6d12340988e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "失態"
@@ -226,11 +234,12 @@
     "question": "社長は大失態を犯し、それをごまかそうとしたが、それがかえってアダとなった。",
     "answer": "The president made a huge blunder and he tried to cover it up, but it backfired.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f0f2b6e6-b65e-4821-9631-f7e3e98defa1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

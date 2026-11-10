@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-26b6932a2a3b538a9790f386d7783a5f6208dbd2b9f06b387914a0c9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-26b6932a2a3b538a9790f386d7783a5f6208dbd2b9f06b387914a0c9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "背景"
@@ -233,11 +241,12 @@
     "question": "トーフグの本社を背景にして写真を撮ってもらえませんか。",
     "answer": "Could you take my picture with the Tofugu headquarters in the background?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d5ca01a0-f5a6-46af-87c5-6260d05e6889",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5bbe03eb6de93cb48e953be904d90c228cc0da43984fdd19b9cd90ad.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5bbe03eb6de93cb48e953be904d90c228cc0da43984fdd19b9cd90ad.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "文法"
@@ -177,11 +185,12 @@
     "question": "文法を学べば学ぶほど、文章をかくのが上手になりますよ。",
     "answer": "The more grammar you learn, the better your writing will become.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "86d751b0-f23e-4f0a-bbf8-5dd0776e2b75",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8991209892bfda82e031bff763833295bf2df70c005b01921da5d07d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8991209892bfda82e031bff763833295bf2df70c005b01921da5d07d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "入院"
@@ -142,11 +150,12 @@
     "question": "入院してから毎日朝ごはんはヨーグルトとリンゴでした。",
     "answer": "Every day since I got hospitalized, my breakfast has been some yogurt and an apple.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "48b83056-d22c-41e5-b847-c55aba305e30",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

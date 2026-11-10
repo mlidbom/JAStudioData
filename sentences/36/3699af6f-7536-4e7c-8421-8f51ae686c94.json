@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4daa1d6cdeff3659fd1c7adf02112024d7a6036136897fe0c07356cf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4daa1d6cdeff3659fd1c7adf02112024d7a6036136897fe0c07356cf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "水色"
@@ -142,11 +150,12 @@
     "question": "どうして今日の空は水色なんだろう？",
     "answer": "Why is the sky light blue today?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3699af6f-7536-4e7c-8421-8f51ae686c94",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

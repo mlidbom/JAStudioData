@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-90f484ba7bd3d0b078fd38bdfa4aa6b980c7e520c9ecacce193f53c0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-90f484ba7bd3d0b078fd38bdfa4aa6b980c7e520c9ecacce193f53c0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "広島"
@@ -86,11 +94,12 @@
     "question": "広島空港から市バスで市内に向かってるところです。",
     "answer": "I'm heading into the city from Hiroshima airport by city bus.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9773769c-c231-46c5-ba43-5f87980f7790",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

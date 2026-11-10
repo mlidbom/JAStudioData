@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-547a21cff394f9812634e4c436ffe68e0a38d60095d38691f9238a8a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-547a21cff394f9812634e4c436ffe68e0a38d60095d38691f9238a8a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "往復"
@@ -100,11 +108,12 @@
     "question": "ここから大阪まで、往復でいくらですか？",
     "answer": "How much is a round trip from here to Osaka?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dd0ab3ff-5ed2-4e24-8a52-a9572137a81c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

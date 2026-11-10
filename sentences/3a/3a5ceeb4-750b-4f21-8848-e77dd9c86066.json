@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-05e5094ed1a8fd1f70a05a968491258ed950080a9bd2042f70150a41.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-05e5094ed1a8fd1f70a05a968491258ed950080a9bd2042f70150a41.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "消化不良"
@@ -282,11 +290,12 @@
     "question": "先生に相談したんだけど、まだよく分からなくて消化不良ですごくモヤモヤしてるんだよね。",
     "answer": "I consulted with the teacher, but I still can't understand it well, so I'm feeling really frustrated for not digesting it well.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3a5ceeb4-750b-4f21-8848-e77dd9c86066",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

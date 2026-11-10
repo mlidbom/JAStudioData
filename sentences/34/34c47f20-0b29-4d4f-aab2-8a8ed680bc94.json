@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-da4d59008c1a67ad7dee7f2d227419c741a55121aca1d71044c00b54.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-da4d59008c1a67ad7dee7f2d227419c741a55121aca1d71044c00b54.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "電子"
@@ -149,11 +157,12 @@
     "question": "その電子ピアノを直すのには、いくらかかりますか？",
     "answer": "How much does it cost to fix the electronic piano?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "34c47f20-0b29-4d4f-aab2-8a8ed680bc94",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

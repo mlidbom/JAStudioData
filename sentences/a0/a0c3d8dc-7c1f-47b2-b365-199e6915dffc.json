@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ffdbcdaddc8d47b1f67ccc2bf8e9899a692fc925b8c53bfa74854c65.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ffdbcdaddc8d47b1f67ccc2bf8e9899a692fc925b8c53bfa74854c65.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "面積"
@@ -107,11 +115,12 @@
     "question": "彼のおでこの面積は100平方メートルある。",
     "answer": "The area of his forehead is 100 square meters.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a0c3d8dc-7c1f-47b2-b365-199e6915dffc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

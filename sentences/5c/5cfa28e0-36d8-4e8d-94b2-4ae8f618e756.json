@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-788da5d4513136056065065a809e5e6f6a113f5f9a6542b92705111b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-788da5d4513136056065065a809e5e6f6a113f5f9a6542b92705111b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "波"
@@ -72,11 +80,12 @@
     "question": "今日の波、すごく高いね。",
     "answer": "Today's waves are very high, aren't they?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5cfa28e0-36d8-4e8d-94b2-4ae8f618e756",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

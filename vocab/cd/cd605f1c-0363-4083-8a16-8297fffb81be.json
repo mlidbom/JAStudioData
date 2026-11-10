@@ -29,9 +29,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-5cfb2e3925870de8f036759704c3ade2d01a27babae881933a0f92c0.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-5cfb2e3925870de8f036759704c3ade2d01a27babae881933a0f92c0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "べとる",
@@ -133,8 +139,7 @@
   "sentenceCount": 5,
   "technicalNotes": "せとる breaks the app somehow...",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {
       "godanPotential": "required"
@@ -173,7 +178,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "cd605f1c-0363-4083-8a16-8297fffb81be",
   "tags": [

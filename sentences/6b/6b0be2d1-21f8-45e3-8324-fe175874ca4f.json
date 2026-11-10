@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0761f84e8ac4980166f706b03d9a18b0d1260ec6a4fb786613f54cb0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0761f84e8ac4980166f706b03d9a18b0d1260ec6a4fb786613f54cb0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "許可"
@@ -93,11 +101,12 @@
     "question": "それって誰が許可したの？",
     "answer": "Who gave you permission to do that?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6b0be2d1-21f8-45e3-8324-fe175874ca4f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

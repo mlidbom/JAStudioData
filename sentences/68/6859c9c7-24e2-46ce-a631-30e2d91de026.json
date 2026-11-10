@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c7a499af37e4178d135f22704a178ededcf7778d56b970778a5d46a2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c7a499af37e4178d135f22704a178ededcf7778d56b970778a5d46a2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "姉"
@@ -198,11 +206,12 @@
     "question": "二人の姉と、一人の兄がいるので、四人兄弟です。",
     "answer": "I have two sisters and a brother, so we are siblings of four.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6859c9c7-24e2-46ce-a631-30e2d91de026",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

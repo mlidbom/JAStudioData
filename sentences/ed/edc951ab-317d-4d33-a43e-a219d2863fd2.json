@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-adbdd044a32a20ced43df7bbfbd7def174f66bde6b9e0a2f3f8a834a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-adbdd044a32a20ced43df7bbfbd7def174f66bde6b9e0a2f3f8a834a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "頂戴"
@@ -72,11 +80,12 @@
     "question": "では、遠慮なく頂戴します。",
     "answer": "Well then, I shall eat it gratefully, without hesitation.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "edc951ab-317d-4d33-a43e-a219d2863fd2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

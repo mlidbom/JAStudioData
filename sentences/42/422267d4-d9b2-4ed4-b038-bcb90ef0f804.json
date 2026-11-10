@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c1eb71e2da1150d91ea5c7740759e0d711b6589afa94b3ea930cea47.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c1eb71e2da1150d91ea5c7740759e0d711b6589afa94b3ea930cea47.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "搭乗"
@@ -226,11 +234,12 @@
     "question": "えっ、搭乗手続きもしてないのに、どうやって搭乗口に来たんですか？",
     "answer": "Huh? How did you get to the boarding gate when you haven't even been through check-in?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "422267d4-d9b2-4ed4-b038-bcb90ef0f804",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2a4383870c0ffa9a380554660cfe2049ef2f8520c1c060dff5ff36a3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2a4383870c0ffa9a380554660cfe2049ef2f8520c1c060dff5ff36a3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "約束する"
@@ -121,11 +129,12 @@
     "question": "「約束する？」「うん、約束するよ。」",
     "answer": "\"Promise?\" \"Yes. I promise.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "84761e5f-6bac-4165-b5d0-f263f8642d1e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

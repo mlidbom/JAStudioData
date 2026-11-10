@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7a9ffb1e0af306cb4d7d8135a21bb38fb5325a095fda7440ebebf6d1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7a9ffb1e0af306cb4d7d8135a21bb38fb5325a095fda7440ebebf6d1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "比率"
@@ -107,11 +115,12 @@
     "question": "うちの会社の男女比率は、5:2です。",
     "answer": "The male to female ratio in our company is 5:2.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1547d5d3-79b2-4203-91cf-30437c3d500e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

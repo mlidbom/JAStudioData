@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a59f63e49dd2511c2221a8a359b61064d72dfdece3a94b3135c169d2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a59f63e49dd2511c2221a8a359b61064d72dfdece3a94b3135c169d2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "寒い"
@@ -58,11 +66,12 @@
     "question": "今日はとても寒いです。",
     "answer": "It is very cold today.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cac10f83-34bb-42c4-be2d-3dd4ef47e4fa",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

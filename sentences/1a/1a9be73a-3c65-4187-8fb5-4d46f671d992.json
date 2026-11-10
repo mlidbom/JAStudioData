@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b5d0ed9021a990edacdb1c9c8429265d67213c7ec60e948db9aa91c4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b5d0ed9021a990edacdb1c9c8429265d67213c7ec60e948db9aa91c4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "振り仮名"
@@ -142,11 +150,12 @@
     "question": "名前にはカタカナで振り仮名をつけてください。",
     "answer": "Please add the furigana for your name in katakana.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1a9be73a-3c65-4187-8fb5-4d46f671d992",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

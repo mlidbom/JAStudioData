@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-18c6a5a0bec052670274047a2a768b3856278b6073c74a3476710fef.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-18c6a5a0bec052670274047a2a768b3856278b6073c74a3476710fef.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "見当たる"
@@ -121,11 +129,12 @@
     "question": "コンビニに行っても、アイスが見当たらなかった。",
     "answer": "I went to a convenience store, but I couldn't find any ice cream.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ed8f19d9-74ca-4a91-bab3-464704d9aaa0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

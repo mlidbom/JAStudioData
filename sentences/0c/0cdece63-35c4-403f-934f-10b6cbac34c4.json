@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b171e603f7812b80c42ca149cff0dc7bdecb182ed9363c9a66d97339.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b171e603f7812b80c42ca149cff0dc7bdecb182ed9363c9a66d97339.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "低い"
@@ -100,11 +108,12 @@
     "question": "低い声の男の人が好きです。",
     "answer": "I like a guy with a low voice.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0cdece63-35c4-403f-934f-10b6cbac34c4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

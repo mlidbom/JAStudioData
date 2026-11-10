@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4e16be95d1c3a0c78af953c6ca6adec3e6602510ac13883b2a85211a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4e16be95d1c3a0c78af953c6ca6adec3e6602510ac13883b2a85211a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "確かに"
@@ -198,11 +206,12 @@
     "question": "彼は確かにリーダーに向いていると思います。でも、時々言葉がきついのがネックです。",
     "answer": "He is certainly a good leader. But the problem is that sometimes his language is too harsh.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "076c6b40-5448-416c-b760-0f8b8278cf58",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

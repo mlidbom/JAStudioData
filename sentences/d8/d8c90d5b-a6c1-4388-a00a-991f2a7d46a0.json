@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1c93edc918b94ff14f849802e1f62b0da0ff2e6640578a2a37c6beb1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1c93edc918b94ff14f849802e1f62b0da0ff2e6640578a2a37c6beb1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "算定する"
@@ -163,11 +171,12 @@
     "question": "母は毎月の家のお金の出入りを算定することが上手です。",
     "answer": "My mother is good at calculating the money going in and out of the house every month.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d8c90d5b-a6c1-4388-a00a-991f2a7d46a0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

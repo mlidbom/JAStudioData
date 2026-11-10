@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3f49131de50ba5b0064bcdf23464db93a23e6ed9989ef0b61087c798.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3f49131de50ba5b0064bcdf23464db93a23e6ed9989ef0b61087c798.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一遍に"
@@ -149,11 +157,12 @@
     "question": "一遍にいろんなことを言われても、分からないわ。",
     "answer": "If you say a bunch of things at once I won’t understand.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "18eb0eba-eb7c-4869-a15b-c008d2d9ab20",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

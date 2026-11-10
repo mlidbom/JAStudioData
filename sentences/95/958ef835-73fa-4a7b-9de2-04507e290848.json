@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c222c60cc886f8f83f2c673f919446a79c6a25254800aaed4dfba778.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c222c60cc886f8f83f2c673f919446a79c6a25254800aaed4dfba778.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "職場"
@@ -170,11 +178,12 @@
     "question": "私の職場には、最新のコンピュータが備えられています。",
     "answer": "My workplace is equipped with the most up-to-date computers.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "958ef835-73fa-4a7b-9de2-04507e290848",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

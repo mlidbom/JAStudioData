@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cc34f7665306f00d8b3e71cffa9e7c355d010bdc1868479bee3cec8e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cc34f7665306f00d8b3e71cffa9e7c355d010bdc1868479bee3cec8e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "治る"
@@ -86,11 +94,12 @@
     "question": "お前の病気は必ず治る。",
     "answer": "Your disease will most definitely be cured.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cae0ef2c-7b0f-4a1c-9e7f-9c842000ae24",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

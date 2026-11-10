@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d9ff0b902dc8c05f2feb1dc2e0cdb9c0757ca334397fc43af0ddb3b9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d9ff0b902dc8c05f2feb1dc2e0cdb9c0757ca334397fc43af0ddb3b9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "賭け"
@@ -86,11 +94,12 @@
     "question": "あいつとの賭けに勝ったよ。",
     "answer": "I won a bet against him.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4bf85136-ce8c-4585-bade-c32b1e3a24d3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3fb1031f9e3b0100abd870a74987988e046fd1d2cf489cbe2222b612.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3fb1031f9e3b0100abd870a74987988e046fd1d2cf489cbe2222b612.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鉛毒"
@@ -380,11 +388,12 @@
     "question": "白粉には鉛白が使われていたため、大正時代以前の役者さんには、鉛中毒に苦しみ鉛毒死した人がたくさんいたんですよ。",
     "answer": "Face powder used to contain white lead, so many actors during and before the Taisho era suffered from lead poisoning and died from lead toxicity.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cbdf44f0-6bf3-4974-ad37-0e1bbf59bc67",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

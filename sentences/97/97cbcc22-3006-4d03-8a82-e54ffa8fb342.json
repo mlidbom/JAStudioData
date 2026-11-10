@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-62a1c907fabc6cfd815eacb1d09c25495405cc3e0506bccbf7b50b86.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-62a1c907fabc6cfd815eacb1d09c25495405cc3e0506bccbf7b50b86.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "英雄"
@@ -135,11 +143,12 @@
     "question": "この言葉は、英雄たちについて書かれたとある本からの引用です。",
     "answer": "This phrase is quoted from a book about heroes.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "97cbcc22-3006-4d03-8a82-e54ffa8fb342",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

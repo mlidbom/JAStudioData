@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8efb6ddd74c7651ee06fb13630bbd537a4c8ef0fea6a480b6582578a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8efb6ddd74c7651ee06fb13630bbd537a4c8ef0fea6a480b6582578a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "欧米"
@@ -149,11 +157,12 @@
     "question": "このホテルの主なお客様は、欧米の方々なんです。",
     "answer": "The hotel's main customers are Westerners.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "995064d7-3a3e-46a8-8125-9d6521c29ac4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

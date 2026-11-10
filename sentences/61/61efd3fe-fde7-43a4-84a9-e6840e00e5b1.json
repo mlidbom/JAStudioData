@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8bac99077f09c97b2c77ad59e6a29a38f62fdf75acaae480aebdbb3a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8bac99077f09c97b2c77ad59e6a29a38f62fdf75acaae480aebdbb3a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "小さい"
@@ -107,11 +115,12 @@
     "question": "このドレスは、わたしには小さすぎる。",
     "answer": "This dress is too small for me.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "61efd3fe-fde7-43a4-84a9-e6840e00e5b1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

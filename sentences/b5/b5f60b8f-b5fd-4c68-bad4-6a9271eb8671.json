@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-433d1d9f1afe21f0717604640aee868e887a387fcbaf1c05e949ad8f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-433d1d9f1afe21f0717604640aee868e887a387fcbaf1c05e949ad8f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "試食"
@@ -121,11 +129,12 @@
     "question": "試食の後、買う気を失ったんです。",
     "answer": "I lost interest in buying this after sampling it.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b5f60b8f-b5fd-4c68-bad4-6a9271eb8671",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

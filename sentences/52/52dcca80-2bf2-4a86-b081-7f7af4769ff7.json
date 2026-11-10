@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-350abeec5996cd1bb2d71cddf7a2601cf187ae30eb515e0da8f5c437.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-350abeec5996cd1bb2d71cddf7a2601cf187ae30eb515e0da8f5c437.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大学院"
@@ -135,11 +143,12 @@
     "question": "私の友人は大学院で文学を学んでいます。",
     "answer": "My friend is studying literature in grad school.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "52dcca80-2bf2-4a86-b081-7f7af4769ff7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

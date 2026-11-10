@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a186cdb9015ce9bb42abb86c4dec407b15e5f9630cfd0eae76aab0d0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a186cdb9015ce9bb42abb86c4dec407b15e5f9630cfd0eae76aab0d0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "行列"
@@ -107,11 +115,12 @@
     "question": "今日は数学のクラスで行列について学びました。",
     "answer": "I learned about matrices today in math class.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4d07965f-4051-4f4f-b2e5-6dc575ba58ed",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

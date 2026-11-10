@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1ccba0a92a946634c2eb5ee389a0eed8a22b3cb5898107a4e961a98f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1ccba0a92a946634c2eb5ee389a0eed8a22b3cb5898107a4e961a98f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "貸す"
@@ -198,11 +206,12 @@
     "question": "すみませんが、人にお金を貸すな、と親に言われているんです。",
     "answer": "I'm sorry, but my parents have told me not to lend money to people.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "49dc7877-8f52-4f22-8305-a69f867b7fa9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

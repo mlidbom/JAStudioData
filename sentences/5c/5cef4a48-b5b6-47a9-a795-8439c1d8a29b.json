@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8263722bc421edffb144cf8e9c68146590e1cdbe6ae4c3e7f99fffed.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8263722bc421edffb144cf8e9c68146590e1cdbe6ae4c3e7f99fffed.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大失敗"
@@ -268,11 +276,12 @@
     "question": "私の大失敗のせいで、今月はワニカニの売り上げが五十パーセントも減ってしまいました。",
     "answer": "Because of my fiasco, WaniKani sales decreased by fifty percent this month.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5cef4a48-b5b6-47a9-a795-8439c1d8a29b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

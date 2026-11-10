@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e6067c3adf8b153e176dbcba0387da6e4aa291f28e57b455fe76828d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e6067c3adf8b153e176dbcba0387da6e4aa291f28e57b455fe76828d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "炒飯"
@@ -79,11 +87,12 @@
     "question": "私はキムチ炒飯が大好きです。",
     "answer": "I love kimchi fried rice.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "440da7db-c6c0-49ac-8db1-24fd5d981c11",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bffeae712f937c8d621181583cdf94c05a679b895c6d2206b9d96637.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bffeae712f937c8d621181583cdf94c05a679b895c6d2206b9d96637.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "同期中"
@@ -205,11 +213,12 @@
     "question": "Dropbox、いつも同期中にフリーズしちゃうんだよね。何でだろう。",
     "answer": "Dropbox always freezes during syncing for some reason. I wonder why.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dc76b3fd-24ed-4b8d-93fe-edd09203043e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

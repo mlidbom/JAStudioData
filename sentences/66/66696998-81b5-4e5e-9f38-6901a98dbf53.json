@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f94cba536b2f37632a1bc15c6bda9903f4e1b4faa5dc96fcb984851b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f94cba536b2f37632a1bc15c6bda9903f4e1b4faa5dc96fcb984851b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "文"
@@ -86,11 +94,12 @@
     "question": "データや文を入力します。",
     "answer": "I enter data and sentences.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "66696998-81b5-4e5e-9f38-6901a98dbf53",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

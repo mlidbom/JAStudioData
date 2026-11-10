@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b598ad227a32c5f1e55b30b95b530860bbec6fad74b699a470fed0ca.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b598ad227a32c5f1e55b30b95b530860bbec6fad74b699a470fed0ca.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "謹賀新年"
@@ -149,11 +157,12 @@
     "question": "年賀状には謹賀新年と書いてありました。",
     "answer": "Happy New Year! was written on the New Year’s card.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6454f931-30af-4b8e-bb58-bdee40df8d5f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

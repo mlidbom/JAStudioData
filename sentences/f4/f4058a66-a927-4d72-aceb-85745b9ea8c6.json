@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-032be138c997e1b98d8f20a2ee9da0cf999eca5911124eefc29f2a78.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-032be138c997e1b98d8f20a2ee9da0cf999eca5911124eefc29f2a78.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "匂う"
@@ -65,11 +73,12 @@
     "question": "この香水は、全く匂わない。",
     "answer": "This perfume doesn't smell at all.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f4058a66-a927-4d72-aceb-85745b9ea8c6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

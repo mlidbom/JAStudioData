@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a721c05ef0f6c998f7ffd6224e41ac99519a544130b8240f44981672.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a721c05ef0f6c998f7ffd6224e41ac99519a544130b8240f44981672.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "停電"
@@ -296,11 +304,12 @@
     "question": "どうしてまだ停電してるって分かってるのに、電気のスイッチを何度も付けたり消したりしちゃうんだろう。",
     "answer": "Why do I keep flipping light switches on and off if I know that there is still a power outage. ",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "29e6b6fc-2ca4-45fe-a2c8-ffabcc90fb69",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

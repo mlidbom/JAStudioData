@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a8baea984b59d2cc41d0fe98651a6294d467e24622671ab6eb796a6e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a8baea984b59d2cc41d0fe98651a6294d467e24622671ab6eb796a6e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "恭しい"
@@ -107,11 +115,12 @@
     "question": "二人は神前で恭しく頭を下げた。",
     "answer": "The couple respectfully bowed their heads before the altar.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b64e08cb-fcf9-481c-8f08-e2943cdf3fa3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

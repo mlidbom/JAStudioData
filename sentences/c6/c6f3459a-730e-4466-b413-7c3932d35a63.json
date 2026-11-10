@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4a05a64937a1c9bef9afd1963431d1ed318bfa98e04c1b1d0c6141a7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4a05a64937a1c9bef9afd1963431d1ed318bfa98e04c1b1d0c6141a7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -98,11 +106,12 @@
     "question": "説明書通りにやれば大丈夫ですよ。",
     "answer": "Just follow the instructions and you'll be fine.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c6f3459a-730e-4466-b413-7c3932d35a63",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

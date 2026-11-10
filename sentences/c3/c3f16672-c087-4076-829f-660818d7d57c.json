@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b26dd380fec1f4a419243e7d94a66466b1e7c726f747f513719bd632.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b26dd380fec1f4a419243e7d94a66466b1e7c726f747f513719bd632.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "宛名"
@@ -93,11 +101,12 @@
     "question": "宛名書きの仕事を任された。",
     "answer": "I was entrusted with the task of writing names and addresses.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c3f16672-c087-4076-829f-660818d7d57c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

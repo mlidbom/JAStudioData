@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5b1cb7a93a8ea8fa298fdd779f6db252ccd4e40787619a317e5ce7d5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5b1cb7a93a8ea8fa298fdd779f6db252ccd4e40787619a317e5ce7d5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "機"
@@ -135,11 +143,12 @@
     "question": "うちの社長はジェット機を二機持っています。",
     "answer": "Our president has two jets.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "48ccc724-7e27-4270-ba67-303470c59b90",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

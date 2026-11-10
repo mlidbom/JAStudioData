@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5cc6b5c20735879c20aa7ab7c875fed4e668409e2a0ea286b62ce0b3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5cc6b5c20735879c20aa7ab7c875fed4e668409e2a0ea286b62ce0b3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "歌"
@@ -142,11 +150,12 @@
     "question": "今日ショッピングモールでかかってた歌の名前、知ってますか？",
     "answer": "Do you know the name of the song that was playing at the shopping mall today?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0b07ac7c-d5f2-4409-b971-a841e89a89ef",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

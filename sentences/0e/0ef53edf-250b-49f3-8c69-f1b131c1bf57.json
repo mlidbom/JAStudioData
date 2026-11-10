@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8bafcfc559b6b176a60f7adcf0292fdada9f8741115ce50027c79c6c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8bafcfc559b6b176a60f7adcf0292fdada9f8741115ce50027c79c6c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "高校"
@@ -163,11 +171,12 @@
     "question": "うちの妹は、今年高校三年生です。来年、大学の入学テストが有ります。",
     "answer": "My younger sister is a junior in high school this year. Next year, there will be a university entrance test.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0ef53edf-250b-49f3-8c69-f1b131c1bf57",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

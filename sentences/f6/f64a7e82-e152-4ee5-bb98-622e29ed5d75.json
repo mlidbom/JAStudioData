@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1bfe57d41dcfa94a664dd448244268f952811c0de564b51dce4b54d4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1bfe57d41dcfa94a664dd448244268f952811c0de564b51dce4b54d4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "粗塩"
@@ -142,11 +150,12 @@
     "question": "お風呂に粗塩を入れると体にいいらしいですよ。",
     "answer": "Putting sea salt in baths seems to be good for you.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f64a7e82-e152-4ee5-bb98-622e29ed5d75",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

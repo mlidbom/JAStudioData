@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d30b07a36abc4f1b1abeb46a6761ac26a5ce425c640062db07c30995.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d30b07a36abc4f1b1abeb46a6761ac26a5ce425c640062db07c30995.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "家"
@@ -107,11 +115,12 @@
     "question": "すいません、まだ家を出てないんです。",
     "answer": "Sorry, I haven't left home yet.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "70954d0c-d0eb-4e4b-ab5e-128027231461",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

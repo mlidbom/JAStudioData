@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a05db1e22c66ddace74f1a79b3f07017efdc155da328ac12f9d923f0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a05db1e22c66ddace74f1a79b3f07017efdc155da328ac12f9d923f0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "生保"
@@ -149,11 +157,12 @@
     "question": "生保に入れば、万が一自分に何かあったとしても安心です。",
     "answer": "If you buy life insurance, you will have peace of mind if anything ever happens to you.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "be7d9884-6040-4316-9cae-8d34d1862c4b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

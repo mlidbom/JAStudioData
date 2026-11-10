@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d86ba2d5c9532272957976d2ce931a43e45d11a13eaefae2b4b61a44.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d86ba2d5c9532272957976d2ce931a43e45d11a13eaefae2b4b61a44.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "味噌汁"
@@ -212,11 +220,12 @@
     "question": "「明日までに、この味噌汁を飲んでしまわなければならないよ。」「じゃあ、さっさと片付けちまおうぜ。」",
     "answer": "\"We have to finish eating this miso soup by tomorrow.\" \"Okay, let’s get it over with.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "acd88116-ca81-41d8-a809-3317c58a459c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

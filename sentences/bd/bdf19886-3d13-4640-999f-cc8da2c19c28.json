@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0872aa41a3d70dda3db2b233341348bcc8fbe2c4a6d2e3fd999e6dd4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0872aa41a3d70dda3db2b233341348bcc8fbe2c4a6d2e3fd999e6dd4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "正月"
@@ -93,11 +101,12 @@
     "question": "正月休みは、いつからですか？",
     "answer": "When does your New Year's holiday start?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bdf19886-3d13-4640-999f-cc8da2c19c28",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

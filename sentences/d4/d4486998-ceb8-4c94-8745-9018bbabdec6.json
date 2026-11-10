@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5c367f85d411aac70ac8d53b84b5e2dc2a0fd7e7b718eadd604395b1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5c367f85d411aac70ac8d53b84b5e2dc2a0fd7e7b718eadd604395b1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "凍結"
@@ -128,11 +136,12 @@
     "question": "凍結防止のために道に塩をまきます。",
     "answer": "We spread salt on the roads to prevent freezing.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d4486998-ceb8-4c94-8745-9018bbabdec6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

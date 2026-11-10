@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9f194ba09cb13d2fe2a76a984a0163b3cd2dab00c22c0d90a824fa47.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9f194ba09cb13d2fe2a76a984a0163b3cd2dab00c22c0d90a824fa47.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "病床"
@@ -128,11 +136,12 @@
     "question": "彼は、もう一年も病床にふしています。",
     "answer": "He has been bedridden for over a year now.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c6a76ba0-df52-484e-90bc-e82ad0ffaf01",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

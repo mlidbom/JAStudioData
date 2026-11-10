@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-90b79c6c742fdc217e4b638de1960314d6b9147d0e26471bee903a15.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-90b79c6c742fdc217e4b638de1960314d6b9147d0e26471bee903a15.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "〜階"
@@ -163,11 +171,12 @@
     "question": "友人が三十階建てのタワーマンションに住んでいます。",
     "answer": "My friend lives in a tower apartment with thirty floors.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9aa9cb69-fdd1-4703-84e9-041c4bd83ac1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

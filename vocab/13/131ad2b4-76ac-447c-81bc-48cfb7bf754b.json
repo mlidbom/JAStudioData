@@ -29,9 +29,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-b8049540518d549f38e5545aa5c5c215ffabc4ba12735e76dd90cadb.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-b8049540518d549f38e5545aa5c5c215ffabc4ba12735e76dd90cadb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "ご主人様",
@@ -45,8 +51,7 @@
   "sentenceCount": 3,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -70,7 +75,9 @@
   "sourceData": {
     "answer": "master | Your-lordship/My-lord | husband",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "131ad2b4-76ac-447c-81bc-48cfb7bf754b",
   "tags": [

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bdd7317921952d5471fee4988d6624c70899a8e1b01c7ac8befff850.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bdd7317921952d5471fee4988d6624c70899a8e1b01c7ac8befff850.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鼻歌"
@@ -170,11 +178,12 @@
     "question": "ビエトは鼻歌まじりで楽しそうに自転車に乗っていました。",
     "answer": "Viet was happily riding his bicycle while humming.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8f21e16b-bc14-4295-acc4-2fc94cb4063d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

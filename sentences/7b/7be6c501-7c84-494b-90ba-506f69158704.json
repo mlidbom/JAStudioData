@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-36bd2bede965b2c1670a4ee416568ea63a3a7696b6e9da22646c1157.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-36bd2bede965b2c1670a4ee416568ea63a3a7696b6e9da22646c1157.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "英文"
@@ -156,11 +164,12 @@
     "question": "うちの子は、英文の作文コンテストで賞を受賞しました。",
     "answer": "My child won an award in an English essay contest.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7be6c501-7c84-494b-90ba-506f69158704",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

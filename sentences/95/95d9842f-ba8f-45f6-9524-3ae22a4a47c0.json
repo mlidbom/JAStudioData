@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5aee4d93a1224d5e174516490be7a2e605051394e2842688e0f3937f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5aee4d93a1224d5e174516490be7a2e605051394e2842688e0f3937f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "白"
@@ -86,11 +94,12 @@
     "question": "わたしのウェディングドレスは白です。",
     "answer": "My wedding dress is white.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "95d9842f-ba8f-45f6-9524-3ae22a4a47c0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

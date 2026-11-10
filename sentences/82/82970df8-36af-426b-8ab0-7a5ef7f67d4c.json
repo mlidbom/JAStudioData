@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-36f3e10bb5096c06bab5b22cb17f162a1e0715e03ed4a00cb88b939e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-36f3e10bb5096c06bab5b22cb17f162a1e0715e03ed4a00cb88b939e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "苛々する"
@@ -114,11 +122,12 @@
     "question": "運転しながら苛々しないでよ。",
     "answer": "Don't get impatient while you're driving.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "82970df8-36af-426b-8ab0-7a5ef7f67d4c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

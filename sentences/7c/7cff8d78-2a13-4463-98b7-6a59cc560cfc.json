@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-44b7d0ebaa221434a810276a7a7a9cbca0dd01dfb4002741746f0358.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-44b7d0ebaa221434a810276a7a7a9cbca0dd01dfb4002741746f0358.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "弟"
@@ -86,11 +94,12 @@
     "question": "左の男の子がわたしの弟です。",
     "answer": "The boy on the left is my brother.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7cff8d78-2a13-4463-98b7-6a59cc560cfc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

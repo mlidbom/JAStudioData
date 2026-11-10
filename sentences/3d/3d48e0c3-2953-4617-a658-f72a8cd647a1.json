@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-255b4e6eee894a37243a08e47720fc6de09e3cf97b76ab7ab1e664f9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-255b4e6eee894a37243a08e47720fc6de09e3cf97b76ab7ab1e664f9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "読み違い"
@@ -142,11 +150,12 @@
     "question": "今日、超恥ずかしい読み違いをしてしまった。",
     "answer": "I made the most embarrassing reading mistake today.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3d48e0c3-2953-4617-a658-f72a8cd647a1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

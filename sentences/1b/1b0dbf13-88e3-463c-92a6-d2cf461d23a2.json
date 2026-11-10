@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-43c7de2be5c810c149adcc2978f04a6ff5cadda6dc43f206d26f332c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-43c7de2be5c810c149adcc2978f04a6ff5cadda6dc43f206d26f332c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "人数"
@@ -205,11 +213,12 @@
     "question": "去年のイベントではスタッフの人数が足りなかったのに、今年は多すぎるくらいです。",
     "answer": "There weren't enough staff at last year's event, but this year there are too many.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1b0dbf13-88e3-463c-92a6-d2cf461d23a2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

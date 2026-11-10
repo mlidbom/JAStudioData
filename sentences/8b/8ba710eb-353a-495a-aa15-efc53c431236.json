@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a9da9cc9b9808d601607752ee09d1851544e0cbad03d6e051d61a94b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a9da9cc9b9808d601607752ee09d1851544e0cbad03d6e051d61a94b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "何月"
@@ -149,11 +157,12 @@
     "question": "ハワイに行くのは何月でもいいよ。",
     "answer": "It doesn't matter what month we go to Hawaii.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8ba710eb-353a-495a-aa15-efc53c431236",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e9b9c2ea273c25e48bf3a0004f849bb750ccd99c32fc89a4a94fa363.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e9b9c2ea273c25e48bf3a0004f849bb750ccd99c32fc89a4a94fa363.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "兵器"
@@ -86,11 +94,12 @@
     "question": "これが俺の最終兵器だ！",
     "answer": "This is my ultimate weapon!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "663222e1-bc2f-4ea2-90f0-ea810917425f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

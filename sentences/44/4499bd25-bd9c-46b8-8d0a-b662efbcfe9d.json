@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a529aab741ae5b1cec1df3140557e1c6bd5421c96bfb73093486b81b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a529aab741ae5b1cec1df3140557e1c6bd5421c96bfb73093486b81b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "乗り場"
@@ -191,11 +199,12 @@
     "question": "今、家の前のバス乗り場で通り過ぎる車を見ながらダラダラしているよ。",
     "answer": "At the moment, I’m chilling at the bus stop in front of my house looking at cars passing by.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4499bd25-bd9c-46b8-8d0a-b662efbcfe9d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d6f201f37fe95d6d491e9042d74a261c70900a0c6637fce162198149.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d6f201f37fe95d6d491e9042d74a261c70900a0c6637fce162198149.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "果たして"
@@ -289,11 +297,12 @@
     "question": "あのカフェでコウイチに会えるかもしれないと思っていたら、果たしてその通りになった。",
     "answer": "I thought I might be able to meet Koichi at the cafe, and sure enough, I did.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ab1bc6bd-e87d-40f7-ab5f-3c30dfe04dbe",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

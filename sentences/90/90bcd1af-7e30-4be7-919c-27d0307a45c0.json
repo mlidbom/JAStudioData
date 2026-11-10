@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-19dc875aaea65bb00a4ebde9a849a9c1dc1638156ccdcb28f3fc6d4c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-19dc875aaea65bb00a4ebde9a849a9c1dc1638156ccdcb28f3fc6d4c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "〜氏"
@@ -79,11 +87,12 @@
     "question": "これがトランプ氏からの手紙です。",
     "answer": "This is a letter from Mr. Trump.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "90bcd1af-7e30-4be7-919c-27d0307a45c0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

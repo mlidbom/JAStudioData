@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ec5dc7a3a0ed0acf1e22a5b6f8499ac6ceeae0f1fe47b0bebdd4546b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ec5dc7a3a0ed0acf1e22a5b6f8499ac6ceeae0f1fe47b0bebdd4546b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -105,11 +113,12 @@
     "question": "このテレビにも、欠点は一つだけあります。",
     "answer": "This TV also has only one flaw.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "485b3383-d3d7-4f39-bfa3-e218c36c3f9c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

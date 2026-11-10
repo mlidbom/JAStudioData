@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-61adbfd499392fb489640e0ac4a4b486e43da8032e4fd610bc6b40fb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-61adbfd499392fb489640e0ac4a4b486e43da8032e4fd610bc6b40fb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "乗せる"
@@ -142,11 +150,12 @@
     "question": "テーブルに足を乗せるのは失礼ですよ。",
     "answer": "It's rude to put your feet on a table.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a2f4bc14-d9c6-4e46-9f3e-c0bddf15eaff",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

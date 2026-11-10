@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e77615cb2646fb9d93499ccf8085f7da6f0862ec8a5c20fee8a8c28b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e77615cb2646fb9d93499ccf8085f7da6f0862ec8a5c20fee8a8c28b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "指差す"
@@ -212,11 +220,12 @@
     "question": "日本では、人を指差すのは失礼なんだよ。",
     "answer": "In Japan, it’s rude to point at people.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fa84370b-0e0b-4b8f-9329-9e8d386f3ed9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-52fa7ca8341d8b4b22fe4bf1f00b879f8aaafb01e697926c10ab5304.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-52fa7ca8341d8b4b22fe4bf1f00b879f8aaafb01e697926c10ab5304.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お母さん"
@@ -128,11 +136,12 @@
     "question": "ビール代なら、お母さんがだしてあげるわよ。",
     "answer": "I'm your mother, I can pay for your beer.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5774f651-3ba7-4f7e-906b-d8cbe20f5d30",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

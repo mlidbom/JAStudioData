@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f5e87dc21a013de300bdb817d806a7e9d5a2127d142395cfd145b828.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f5e87dc21a013de300bdb817d806a7e9d5a2127d142395cfd145b828.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "地球"
@@ -100,11 +108,12 @@
     "question": "地球の環境を守ることは重要です。",
     "answer": "It is important to protect the environment of the earth.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9619bc66-05d2-4ef6-865a-3730941ea06f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

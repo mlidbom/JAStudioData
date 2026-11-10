@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6756fc8d6a25f615ad657974bbe849b27f492f3f93acbe903112a467.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6756fc8d6a25f615ad657974bbe849b27f492f3f93acbe903112a467.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "見分ける"
@@ -170,11 +178,12 @@
     "question": "あの男が言ったことが本当かどうか見分けるなんてムリだよ。",
     "answer": "It's impossible to tell whether what the man said is true.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a1f563e4-2089-42d2-8cfe-0593b3c2421a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

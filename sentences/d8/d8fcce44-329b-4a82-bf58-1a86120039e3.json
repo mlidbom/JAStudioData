@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-05d1e7b1069d777ef167c4fdefe1a6ed8dc47efc91e75d8bb6c82884.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-05d1e7b1069d777ef167c4fdefe1a6ed8dc47efc91e75d8bb6c82884.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "通す"
@@ -142,11 +150,12 @@
     "question": "お肉には、しっかり火を通してください。",
     "answer": "Please heat the meat thoroughly.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d8fcce44-329b-4a82-bf58-1a86120039e3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

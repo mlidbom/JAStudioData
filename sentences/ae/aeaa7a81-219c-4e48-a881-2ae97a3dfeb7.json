@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f0aaf345f4aed75b7394e9a84f7583e6800cb826db2aeebfb0d95678.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f0aaf345f4aed75b7394e9a84f7583e6800cb826db2aeebfb0d95678.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "日"
@@ -121,11 +129,12 @@
     "question": "日本にきた日にパスポートをなくした。",
     "answer": "I lost my passport on the day I came to Japan.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "aeaa7a81-219c-4e48-a881-2ae97a3dfeb7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

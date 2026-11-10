@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a965cf5cd0970a9f7eafc32f0e15545303125bea43fb92a428be82d9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a965cf5cd0970a9f7eafc32f0e15545303125bea43fb92a428be82d9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "〜毎に"
@@ -184,11 +192,12 @@
     "question": "うちの車は、一年毎に点検に出しています。",
     "answer": "We have our car inspected once every year.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dc72c6fc-62d5-4d35-b5da-7f8635615d1e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

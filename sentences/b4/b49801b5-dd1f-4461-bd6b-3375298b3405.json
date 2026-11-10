@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-700970b76217d3e143579c2f4d4aaba8b37dc0ca95428a331cd8a570.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-700970b76217d3e143579c2f4d4aaba8b37dc0ca95428a331cd8a570.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "助詞"
@@ -100,11 +108,12 @@
     "question": "私は日本語の文法の助詞が苦手です。",
     "answer": "I am not good with particles in Japanese grammar.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b49801b5-dd1f-4461-bd6b-3375298b3405",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

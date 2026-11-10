@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f985cf3be3a515f682b200e4d9ac6fb5a3ce5e24abbf4039bef027df.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f985cf3be3a515f682b200e4d9ac6fb5a3ce5e24abbf4039bef027df.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お知らせ"
@@ -170,11 +178,12 @@
     "question": "雨で花火が中止になったというお知らせがありました。",
     "answer": "It was announced that the fireworks had been cancelled due to rain.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "00b4da02-0863-4208-a267-f4d583679f61",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f39bbe21d06eda44f03c0de3ccd63a18bf616134936f389ef51c68f6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f39bbe21d06eda44f03c0de3ccd63a18bf616134936f389ef51c68f6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "沸騰"
@@ -107,11 +115,12 @@
     "question": "スープが沸騰してグツグツいってますよ。",
     "answer": "The soup was boiling and simmering.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9376d93e-23e7-4acb-8f30-dbdd9900b2e8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

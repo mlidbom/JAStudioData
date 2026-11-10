@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-48dc6d5bf3ec842db20d310cfd3bc61e324d6de18bf435be16ef5a2f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-48dc6d5bf3ec842db20d310cfd3bc61e324d6de18bf435be16ef5a2f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "錠剤"
@@ -177,11 +185,12 @@
     "question": "錠剤を飲み込むことができないので、砕いて飲んでいます。",
     "answer": "I can’t swallow pills, so I smash and drink them.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "74eff505-2423-4da1-bf0c-2a0db175b3c2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

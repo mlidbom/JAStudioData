@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fd3817e8d68ecbd84d3b681144aabc18ba62fa76f9b12e80e49db00c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fd3817e8d68ecbd84d3b681144aabc18ba62fa76f9b12e80e49db00c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "岡山県"
@@ -135,11 +143,12 @@
     "question": "岡山県は、地震で大混乱となりました。",
     "answer": "The earthquake brought utter chaos to Okayama prefecture.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d84a2e27-57f4-4316-9b7e-0df8f87fef72",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

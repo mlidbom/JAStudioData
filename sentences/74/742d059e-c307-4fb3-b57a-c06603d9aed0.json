@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cc5783a0692f8a60c5a3d3ac0132a7371b204b9beec4b59912da01d9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cc5783a0692f8a60c5a3d3ac0132a7371b204b9beec4b59912da01d9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "町外れ"
@@ -142,11 +150,12 @@
     "question": "近くにコンビニすらない町外れのホテルにステイしてるんだ。",
     "answer": "I'm staying at a hotel on the outskirts of town, that doesn’t even have a convenience store nearby.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "742d059e-c307-4fb3-b57a-c06603d9aed0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

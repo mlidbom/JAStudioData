@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f9d973347daca87906e4db41e55c67b792ccf898f826f7fc7d973f7e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f9d973347daca87906e4db41e55c67b792ccf898f826f7fc7d973f7e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "根"
@@ -121,11 +129,12 @@
     "question": "木の根が地下に入ってきてしまった。",
     "answer": "The roots of the tree are coming through the basement.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "04e090e2-494c-42df-9a6b-2ab9a9b63a1f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

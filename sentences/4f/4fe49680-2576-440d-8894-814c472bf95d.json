@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c5654e2e52d549dd9ec7f5467135d1325da3eb8074dc968ba4e1c209.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c5654e2e52d549dd9ec7f5467135d1325da3eb8074dc968ba4e1c209.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "脱線"
@@ -121,11 +129,12 @@
     "question": "すいません、また脱線してしまいました。",
     "answer": "Sorry, I got sidetracked again.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4fe49680-2576-440d-8894-814c472bf95d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

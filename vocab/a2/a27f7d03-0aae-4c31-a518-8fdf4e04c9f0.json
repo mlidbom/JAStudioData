@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-608ee8b73e6aa7a93bc0dc4308425a4c6583720d28bbb65fa09b723a.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-608ee8b73e6aa7a93bc0dc4308425a4c6583720d28bbb65fa09b723a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "出来てる",
@@ -48,8 +54,7 @@
   "sentenceCount": 12,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -73,7 +78,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "a27f7d03-0aae-4c31-a518-8fdf4e04c9f0",
   "tags": [

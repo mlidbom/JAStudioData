@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2ed615fda6082ab5551ef15b1a347a3286e30eec5411c45667302716.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2ed615fda6082ab5551ef15b1a347a3286e30eec5411c45667302716.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "点数"
@@ -93,11 +101,12 @@
     "question": "今回の点数は百点でした。",
     "answer": "The score this time was 100 points.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1ce2c5fe-4b8e-450f-9858-f4ed51683a27",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

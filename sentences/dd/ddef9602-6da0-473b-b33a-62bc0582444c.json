@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c87ec4adcbc4bbcc4e678c2d05d369b339bb55c5ddd79256f7480fcf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c87ec4adcbc4bbcc4e678c2d05d369b339bb55c5ddd79256f7480fcf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "危険"
@@ -198,11 +206,12 @@
     "question": "コタツに入ると、気持ち良すぎて出られなくなるので危険です。",
     "answer": "Getting in a kotatsu is dangerous because it just feels too good and you can no longer get out.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ddef9602-6da0-473b-b33a-62bc0582444c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7d1fe1a6a4770a9a640ccd1cb8636f2e9a5a52ae60dbb2e517791c8b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7d1fe1a6a4770a9a640ccd1cb8636f2e9a5a52ae60dbb2e517791c8b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "前景"
@@ -114,11 +122,12 @@
     "question": "この前景レイヤー、見えなくしてみて。",
     "answer": "Can you make this foreground layer invisible?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7389fedf-4c7b-4e01-a074-05eefe004996",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

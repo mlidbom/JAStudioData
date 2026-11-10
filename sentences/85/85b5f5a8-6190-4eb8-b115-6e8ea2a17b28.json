@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-21b51345635a9da5d0f3249946702be04f520bad90a50aa2ba04c3e9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-21b51345635a9da5d0f3249946702be04f520bad90a50aa2ba04c3e9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "灰色"
@@ -114,11 +122,12 @@
     "question": "この灰色のお守りは、悪い気を追い払ってくれます。",
     "answer": "This gray charm drives out evil spirits.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "85b5f5a8-6190-4eb8-b115-6e8ea2a17b28",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

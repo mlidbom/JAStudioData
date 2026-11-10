@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-703b67fb464ec54da09675556e8237ac9bdbe5e4d87eda857144067d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-703b67fb464ec54da09675556e8237ac9bdbe5e4d87eda857144067d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "人"
@@ -72,11 +80,12 @@
     "question": "この人がコウイチです。",
     "answer": "This person is Koichi.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "addd6252-9bea-4045-8181-c21825000fa3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

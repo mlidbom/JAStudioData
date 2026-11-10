@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b139d906f6eb9329315c5c4d42fa186e0381015b6e7269ebd0592b8d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b139d906f6eb9329315c5c4d42fa186e0381015b6e7269ebd0592b8d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "自販機"
@@ -191,11 +199,12 @@
     "question": "日本には、自販機で肉やタレを売ってる焼肉屋があるんです。",
     "answer": "In Japan, there are yakiniku restaurants that sell meat and sauces through vending machines.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6641a1a3-11cf-4b06-9581-44a54b5326c9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1afe572239f2ef615e90c414eb2920f6193a160eb5db95b77cc4f6c0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1afe572239f2ef615e90c414eb2920f6193a160eb5db95b77cc4f6c0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "丼"
@@ -142,11 +150,12 @@
     "question": "朝から蟹丼なんて食べてるの？あんたって、本当に朝型人間ね。",
     "answer": "You're eating a crab bowl in the morning? You're a real morning person, aren't you?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "09ac0def-a094-40fe-8fcc-a5e8c126d739",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

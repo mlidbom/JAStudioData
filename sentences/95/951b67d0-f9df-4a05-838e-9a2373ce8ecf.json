@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-02cf789237cdf65fe4b8381a7ae7526f08522fcf04f76e2db44b44ce.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-02cf789237cdf65fe4b8381a7ae7526f08522fcf04f76e2db44b44ce.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -133,11 +141,12 @@
     "question": "さっき歩道で五百円玉を拾いました。",
     "answer": "I just picked up a 500 yen coin on the sidewalk.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "951b67d0-f9df-4a05-838e-9a2373ce8ecf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7ae0683ffa795ca3a99fbbe7b7bb3ed7c3bce2acbafeac332dbba8dc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7ae0683ffa795ca3a99fbbe7b7bb3ed7c3bce2acbafeac332dbba8dc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "期待する"
@@ -121,11 +129,12 @@
     "question": "そうならないことを期待するよ。",
     "answer": "I hope that doesn't happen.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "89d04d69-ff37-4109-89b9-75a4601fa4f0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

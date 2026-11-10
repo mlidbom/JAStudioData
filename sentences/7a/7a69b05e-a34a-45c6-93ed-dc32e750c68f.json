@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-19cc95e99d5d64e78d9d35ba78005b839baccac88a350c9faffad005.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-19cc95e99d5d64e78d9d35ba78005b839baccac88a350c9faffad005.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "音読み"
@@ -100,11 +108,12 @@
     "question": "この漢字の音読みって何だっけ？",
     "answer": "What was the on'yomi for this kanji again?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7a69b05e-a34a-45c6-93ed-dc32e750c68f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

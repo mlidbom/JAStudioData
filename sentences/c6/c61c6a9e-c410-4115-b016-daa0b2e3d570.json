@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-93df3bb05172951874f6bdc05d1e1ee267f30cd67cc5e64cf4a71e42.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-93df3bb05172951874f6bdc05d1e1ee267f30cd67cc5e64cf4a71e42.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "里芋"
@@ -184,11 +192,12 @@
     "question": "里芋は日本で何千年も前から食べられています。",
     "answer": "Taro has been eaten in Japan for thousands of years.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c61c6a9e-c410-4115-b016-daa0b2e3d570",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

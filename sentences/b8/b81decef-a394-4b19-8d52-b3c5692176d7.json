@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8510049476a2a620e8bee49b467e4248a2401c179f7ded9099228ec6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8510049476a2a620e8bee49b467e4248a2401c179f7ded9099228ec6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "社長"
@@ -58,11 +66,12 @@
     "question": "社長はミーティング中です。",
     "answer": "The company president is in a meeting.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b81decef-a394-4b19-8d52-b3c5692176d7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

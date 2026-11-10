@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-37ac02f386c8fef3d81c1fd4c13786c931b61314ec1decc92a87b0fa.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-37ac02f386c8fef3d81c1fd4c13786c931b61314ec1decc92a87b0fa.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -140,11 +148,12 @@
     "question": "五千円のお任せコースで予約したよ。",
     "answer": "I made a reservation for a 5000-yen omakase special.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "166857f9-fbc8-4f22-ba21-64b3d7179b66",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-37019518b5e9b915c4c6ff14a7370b941720e8ec6c981e27284545ca.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-37019518b5e9b915c4c6ff14a7370b941720e8ec6c981e27284545ca.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "花火"
@@ -72,11 +80,12 @@
     "question": "今日の花火は中止だってさ。",
     "answer": "Seems like today's fireworks have been canceled.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b4dda84e-5d66-41c3-8a97-a1689c3f5172",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

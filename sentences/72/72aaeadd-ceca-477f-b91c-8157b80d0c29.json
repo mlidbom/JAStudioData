@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f803acc1534e7ebd155a081cc1cdc02fa8396e424400c7592a9c1657.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f803acc1534e7ebd155a081cc1cdc02fa8396e424400c7592a9c1657.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "輸出する"
@@ -135,11 +143,12 @@
     "question": "この会社はスパゲッティウィッグを世界各国に輸出している。",
     "answer": "This company exports spaghetti wigs to various countries around the world.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "72aaeadd-ceca-477f-b91c-8157b80d0c29",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

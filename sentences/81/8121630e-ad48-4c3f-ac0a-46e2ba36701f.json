@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6b57dfa747708002b44714db3e6d68bfe1d718d77077d66b5926ac53.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6b57dfa747708002b44714db3e6d68bfe1d718d77077d66b5926ac53.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "欲しい"
@@ -275,11 +283,12 @@
     "question": "「欲しいものを買っていいよ。金額の制限は無しだよ。」「まあ！熱でもあるの？ 何かあったの？」",
     "answer": "\"You can buy anything you want. Money is no limit.\" \"Wow! Do you have a fever? What’s up with you?\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8121630e-ad48-4c3f-ac0a-46e2ba36701f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0be9a074c2d2b07cbcfb493a11cfb893bc8609b57b7ae867e458acd0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0be9a074c2d2b07cbcfb493a11cfb893bc8609b57b7ae867e458acd0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "分泌"
@@ -170,11 +178,12 @@
     "question": "胃液は1日1～2Lも分泌されています。",
     "answer": "Around 1-2 liters of gastric juices are secreted each day.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "428f29d7-a8f6-42fc-96da-210cda491763",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

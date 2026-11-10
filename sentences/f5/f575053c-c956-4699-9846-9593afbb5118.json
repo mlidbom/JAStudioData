@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-66ed7ea06f603b9d62028a63fbfedb59e6ec7ae7b75bcf1e77bb9a28.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-66ed7ea06f603b9d62028a63fbfedb59e6ec7ae7b75bcf1e77bb9a28.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一人"
@@ -100,11 +108,12 @@
     "question": "はじめて一人でドライブにいった。",
     "answer": "For the first time, I went for a drive alone.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f575053c-c956-4699-9846-9593afbb5118",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

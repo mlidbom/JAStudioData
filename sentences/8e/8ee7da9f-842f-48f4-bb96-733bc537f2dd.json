@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-847761a8f829820aeba40e4d2069eeb137852c664909edf1c39f1c9b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-847761a8f829820aeba40e4d2069eeb137852c664909edf1c39f1c9b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "半"
@@ -79,11 +87,12 @@
     "question": "この子は三才半です。",
     "answer": "This child is three and a half years old.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8ee7da9f-842f-48f4-bb96-733bc537f2dd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

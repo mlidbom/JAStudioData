@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7e213593db30d328901b7e7749009a13599c03212bed197606a162fb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7e213593db30d328901b7e7749009a13599c03212bed197606a162fb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "協会"
@@ -135,11 +143,12 @@
     "question": "ワニカニ協会の会員になりませんか？",
     "answer": "Would you like to become a member of the WaniKani Association?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "df22d418-638b-40aa-868a-60907d7f6eb3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3c9dfd623736c2e75c29930fae1fb40ee24f5af6bc9c04f62e41681b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3c9dfd623736c2e75c29930fae1fb40ee24f5af6bc9c04f62e41681b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -154,11 +162,12 @@
     "question": "答案は提出する前に見返したほうがいい。",
     "answer": "You should look back over your test before you submit it.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9cdb2aaf-fee7-46ab-a740-36ede3ccfee0",
   "tags": [
-    "_tts_audio",
     "source::wani::removed"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-42d9184fe0e112a1cd92219501948df9693b7f9dac32b9b811ad6a60.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-42d9184fe0e112a1cd92219501948df9693b7f9dac32b9b811ad6a60.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "兆候"
@@ -205,11 +213,12 @@
     "question": "彼女は、私に下痢の兆候がきたと告げるやいなや、トイレに駆け込んでいった。",
     "answer": "She told me that she had symptoms of diarrhea and rushed into the bathroom.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "763bf0a0-9bb1-4c30-90d8-a287bff850be",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

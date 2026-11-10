@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-165f1b2ff5e721ad9338ee8ca68f3f3ce8b479d654536ea11cb98356.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-165f1b2ff5e721ad9338ee8ca68f3f3ce8b479d654536ea11cb98356.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "泊める"
@@ -142,11 +150,12 @@
     "question": "うちに知らない人を泊めるのは嫌です。",
     "answer": "I don’t want to have some stranger stay at our house.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "88df9c38-8419-43e5-b8b4-90bf28b830d8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

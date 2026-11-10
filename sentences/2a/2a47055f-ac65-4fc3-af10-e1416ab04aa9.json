@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d30de9ede9b0bfb3e6280b151c1c26cd37db5922280c5615fc91d5e7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d30de9ede9b0bfb3e6280b151c1c26cd37db5922280c5615fc91d5e7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "年下"
@@ -107,11 +115,12 @@
     "question": "私は、姉よりも十才年下です。",
     "answer": "I am ten years younger than my sister.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2a47055f-ac65-4fc3-af10-e1416ab04aa9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

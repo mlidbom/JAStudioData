@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c2973552d813a6b8fece8dbff40c1377665edb39e6092ff86bc93c24.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c2973552d813a6b8fece8dbff40c1377665edb39e6092ff86bc93c24.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "二つ"
@@ -72,11 +80,12 @@
     "question": "メロンが二つ川に入った。",
     "answer": "Two melons went into the river.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "34cc2a58-cda3-4bfe-bd10-68799158a025",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3bcf36a717f09a78ef6e84ae94a0e71382fe48461a27acc462df4bba.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3bcf36a717f09a78ef6e84ae94a0e71382fe48461a27acc462df4bba.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "絡む"
@@ -114,11 +122,12 @@
     "question": "酒を飲んで人に絡む人は苦手です。",
     "answer": "I'm not fond of people who drink and bother others.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a0c250b6-9007-4cd2-93be-6662350ce071",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

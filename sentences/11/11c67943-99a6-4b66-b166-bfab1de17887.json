@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c4e09f44e36776addedd252cd5454e249e78b13d6876f47d948e9a18.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c4e09f44e36776addedd252cd5454e249e78b13d6876f47d948e9a18.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "叔父"
@@ -72,11 +80,12 @@
     "question": "叔父はこの学校の校長です。",
     "answer": "My uncle is the principal of this school.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "11c67943-99a6-4b66-b166-bfab1de17887",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

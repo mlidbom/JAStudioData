@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8ebb85f8abae13b3127c134d6e2bcc813d8e775defc4e4926fa2e90f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8ebb85f8abae13b3127c134d6e2bcc813d8e775defc4e4926fa2e90f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一年生"
@@ -135,11 +143,12 @@
     "question": "一年生の子は手を上げて下さい。",
     "answer": "First-graders, please raise your hand.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "259f3b72-aa19-4819-87c0-7d6f057a0524",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

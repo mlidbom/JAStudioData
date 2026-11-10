@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8a8ed3a69974bcc6f2513945f1ef4eb4b9d901f5f6ea7cd2f963e885.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8a8ed3a69974bcc6f2513945f1ef4eb4b9d901f5f6ea7cd2f963e885.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "映画館"
@@ -247,11 +255,12 @@
     "question": "あそこの映画館、いつ行ってもガラガラだから、かなりリラックスして映画が見れるんだよね。",
     "answer": "That movie theater is always practically empty whenever we go, so you can really relax and enjoy the movie.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2baef72d-7bbb-4f87-8810-7fb24e626de4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

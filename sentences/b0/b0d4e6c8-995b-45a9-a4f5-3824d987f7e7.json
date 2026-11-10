@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9c48a020f598241b1cb1ef86e90fdeccf6b235d0bda0361d291b405a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9c48a020f598241b1cb1ef86e90fdeccf6b235d0bda0361d291b405a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "語る"
@@ -121,11 +129,12 @@
     "question": "これは有名作家が、自分の一生を語った本です。",
     "answer": "This is a book where a famous writer talks about their life.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b0d4e6c8-995b-45a9-a4f5-3824d987f7e7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fe0e2d5db7110d74481b34034f6dfff6b784f1732d64b0613f61438d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fe0e2d5db7110d74481b34034f6dfff6b784f1732d64b0613f61438d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "替わる"
@@ -170,11 +178,12 @@
     "question": "ドラえもんの声優が替わってから、観なくなってしまった。",
     "answer": "I stopped watching Doraemon after the voice actor was replaced.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "88597237-257d-49cf-8244-db24e52f5967",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

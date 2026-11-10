@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1e2a9545a55876bfcaf8013c10f31f877c88c8da5e0d3f77f2f6d58e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1e2a9545a55876bfcaf8013c10f31f877c88c8da5e0d3f77f2f6d58e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "寿司"
@@ -359,11 +367,12 @@
     "question": "近所にお寿司屋さんがあるんだけど、すごく旨いちらし寿司をたったの10ドルで出しているんだよ。これ以上のものはないね。",
     "answer": "There is a sushi restaurant in my neighborhood that has great Chirashi-zushi for just $10. It’s tough to beat.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d1688fcf-5eb3-4b25-b75a-2cf366b76363",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

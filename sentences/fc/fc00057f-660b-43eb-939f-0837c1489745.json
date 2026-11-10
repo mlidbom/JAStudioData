@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-552970e053b2203764219396f04687cef15cae1a3f5dc6cac2004130.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-552970e053b2203764219396f04687cef15cae1a3f5dc6cac2004130.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "水泡"
@@ -331,11 +339,12 @@
     "question": "データを保存する前にブラウザがクラッシュしてしまったため、長文のメッセージを書いていた努力が水泡に帰してしまった。",
     "answer": "My browser crashed before I saved my data so my efforts to write a long message ended in failure.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fc00057f-660b-43eb-939f-0837c1489745",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

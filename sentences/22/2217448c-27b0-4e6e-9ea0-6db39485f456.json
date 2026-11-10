@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6e949e3d563fc484ca36b74c0c9d64bdab8eb1b43a1b64e08240b81d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6e949e3d563fc484ca36b74c0c9d64bdab8eb1b43a1b64e08240b81d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "窮状"
@@ -233,11 +241,12 @@
     "question": "役所に窮状を訴えたのですが、聞き入れてもらえませんでした。",
     "answer": "I appealed to the government about the wretched conditions, but I didn’t receive a response.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2217448c-27b0-4e6e-9ea0-6db39485f456",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

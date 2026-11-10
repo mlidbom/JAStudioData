@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b0e2ee1883cc1206710d8a8f7880f3b5d0b52517900841f0e2d64d28.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b0e2ee1883cc1206710d8a8f7880f3b5d0b52517900841f0e2d64d28.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "投票する"
@@ -114,11 +122,12 @@
     "question": "今回の選挙でも投票するつもり？",
     "answer": "Are you planning to vote at this election as well?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fe7e5a93-16b4-487a-9322-b41ca25e007c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

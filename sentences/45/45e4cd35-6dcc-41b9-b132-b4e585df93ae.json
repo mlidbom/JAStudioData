@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cd7cf1aff9fd4e8ba86cff6c6cbc5cb6adc926225a31cc48fe4ec4e4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cd7cf1aff9fd4e8ba86cff6c6cbc5cb6adc926225a31cc48fe4ec4e4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "解凍"
@@ -142,11 +150,12 @@
     "question": "このターキー、解凍するのにどのくらい時間かかるかな？",
     "answer": "I wonder how long it will take to thaw this turkey.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "45e4cd35-6dcc-41b9-b132-b4e585df93ae",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

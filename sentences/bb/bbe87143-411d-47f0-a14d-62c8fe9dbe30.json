@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6b1e9378202d73f0862041d2153de645c405c937d57a113cf6bc9fd8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6b1e9378202d73f0862041d2153de645c405c937d57a113cf6bc9fd8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "口紅"
@@ -275,11 +283,12 @@
     "question": "口紅をポケットに入れっぱなしにしてたみたいで、乾燥機の中で溶けちゃったのよね。",
     "answer": "I left my lipstick in my pocket and it melted in the dryer.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bbe87143-411d-47f0-a14d-62c8fe9dbe30",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

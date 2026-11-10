@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-152cedd45081376f29bc30a55d7dc24dc69cc31f1b92fb29b3771fde.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-152cedd45081376f29bc30a55d7dc24dc69cc31f1b92fb29b3771fde.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "近視"
@@ -114,11 +122,12 @@
     "question": "私は近視と乱視の両方があります。",
     "answer": "I have both nearsightedness and an astigmatism.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bca20133-2957-4e02-b70e-7b5eb8729682",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-566bcc3bee7a784ded795e6f9921d69ded50f9e00a018da00df02eef.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-566bcc3bee7a784ded795e6f9921d69ded50f9e00a018da00df02eef.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "出す"
@@ -86,11 +94,12 @@
     "question": "リサイクルのゴミを出す日です。",
     "answer": "It's the day to put out the recycling.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "61dd4a2e-38b8-44f4-87a8-f3ae410b80a4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

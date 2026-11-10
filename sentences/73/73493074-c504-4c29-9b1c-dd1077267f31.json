@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-abcd88b3a6cf42c3ccb5180ac00fed89648e8ded5f6da3962cbff0e0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-abcd88b3a6cf42c3ccb5180ac00fed89648e8ded5f6da3962cbff0e0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "主に"
@@ -107,11 +115,12 @@
     "question": "不正アクセスは主にヨーロッパからでした。",
     "answer": "Unauthorized access was mainly from Europe.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "73493074-c504-4c29-9b1c-dd1077267f31",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

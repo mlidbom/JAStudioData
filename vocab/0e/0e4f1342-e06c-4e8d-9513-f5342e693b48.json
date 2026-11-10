@@ -33,9 +33,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-ed7b62eba52be77f5332b51aa40a966d8b6cef1824ae050760277177.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-ed7b62eba52be77f5332b51aa40a966d8b6cef1824ae050760277177.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "腹がへる",
@@ -45,8 +51,7 @@
   "sentenceCount": 9,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -70,7 +75,9 @@
   "sourceData": {
     "answer": "to{?}become-hungry",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "0e4f1342-e06c-4e8d-9513-f5342e693b48",
   "tags": [

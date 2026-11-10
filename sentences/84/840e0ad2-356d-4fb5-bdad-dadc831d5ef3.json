@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f5d90f9276369366f161043e338ac6f43feb6e2d053ca136fef7a7df.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f5d90f9276369366f161043e338ac6f43feb6e2d053ca136fef7a7df.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "全日本"
@@ -79,11 +87,12 @@
     "question": "全日本の女子バレーボールチームは上手です。",
     "answer": "The All Japanese women's volleyball team is good.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "840e0ad2-356d-4fb5-bdad-dadc831d5ef3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

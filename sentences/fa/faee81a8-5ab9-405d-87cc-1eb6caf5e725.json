@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8f7e2764025be7a5341db8d2a420b64599cdf719e6647d5b09d0874b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8f7e2764025be7a5341db8d2a420b64599cdf719e6647d5b09d0874b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "親類"
@@ -156,11 +164,12 @@
     "question": "私には一人も親類がいません。",
     "answer": "I do not have a single relative.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "faee81a8-5ab9-405d-87cc-1eb6caf5e725",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

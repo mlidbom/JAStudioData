@@ -33,9 +33,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-18acf6a1d3dc6d4990e6ddbe4e355255757af5134b4f88580087b5b5.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-18acf6a1d3dc6d4990e6ddbe4e355255757af5134b4f88580087b5b5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "なんとかする",
@@ -53,8 +59,7 @@
   "sentenceCount": 15,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -78,7 +83,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "8901ee64-9069-4923-8843-73e888705b92",
   "tags": [

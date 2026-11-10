@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9216a60bb4120ed9e74b23744a33f8153a8879183ab76c6179aeed23.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9216a60bb4120ed9e74b23744a33f8153a8879183ab76c6179aeed23.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "生ビール"
@@ -72,11 +80,12 @@
     "question": "これは生ビールのサーバーです。",
     "answer": "This is a draft beer dispenser.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "55f8a48f-5909-46c9-a3f9-da64dea01b50",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-90b0044d3f2641b9e9b9feba60b58897649ee4d51193d94caff1f976.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-90b0044d3f2641b9e9b9feba60b58897649ee4d51193d94caff1f976.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "表情"
@@ -107,11 +115,12 @@
     "question": "アンタ、なんか表情がソフトになったね。",
     "answer": "Hey, your expression seems softer now.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ddcb3406-dac5-4e1f-a112-375d035b5b91",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

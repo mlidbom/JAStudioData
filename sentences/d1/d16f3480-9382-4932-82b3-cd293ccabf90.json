@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6a2e351d063b060685aa6719cbafa8dc871e71e30af3f117fdc0a1de.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6a2e351d063b060685aa6719cbafa8dc871e71e30af3f117fdc0a1de.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "ベッドの下"
@@ -121,11 +129,12 @@
     "question": "ベッドの下にはマンガがたくさんあります。",
     "answer": "There are many manga under the bed.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d16f3480-9382-4932-82b3-cd293ccabf90",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

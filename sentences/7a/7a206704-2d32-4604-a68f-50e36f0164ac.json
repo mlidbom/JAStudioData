@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c17c2c7952b83edcc7f86134f65508f444545eeb67a879d1d832eebd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c17c2c7952b83edcc7f86134f65508f444545eeb67a879d1d832eebd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "別人"
@@ -184,11 +192,12 @@
     "question": "友人のコウイチだと思って声をかけたら、別人だった。",
     "answer": "I thought it was my friend Koichi when I called out to him, but it was a different person.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7a206704-2d32-4604-a68f-50e36f0164ac",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

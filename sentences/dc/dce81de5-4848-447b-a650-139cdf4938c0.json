@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-eeb39be9b6d679289b2e75e5adec08e30fdce3679fbe661422b27bab.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-eeb39be9b6d679289b2e75e5adec08e30fdce3679fbe661422b27bab.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "怪獣"
@@ -135,11 +143,12 @@
     "question": "怪獣が私の白いスカートにどろをはねかけた。",
     "answer": "The kaiju splashed mud on my white skirt.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dce81de5-4848-447b-a650-139cdf4938c0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

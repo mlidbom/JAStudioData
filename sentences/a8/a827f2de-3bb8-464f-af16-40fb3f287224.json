@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-43c23b4439c3351f88f3c191f98478ec0847c215b9522b433ba16ef3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-43c23b4439c3351f88f3c191f98478ec0847c215b9522b433ba16ef3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "食べ放題"
@@ -100,11 +108,12 @@
     "question": "食べ放題のピザ屋に行こう。",
     "answer": "Let's go to an all-you-can-eat pizza place.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a827f2de-3bb8-464f-af16-40fb3f287224",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-123c3f1be5b2ace6385ea1941cdf1e2a6dc81c785da5116a3228a4b0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-123c3f1be5b2ace6385ea1941cdf1e2a6dc81c785da5116a3228a4b0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -84,11 +92,12 @@
     "question": "入場には千円かかります。",
     "answer": "Admission costs 1000 yen.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b1a183f1-a343-4f4a-9379-ec84b1136458",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

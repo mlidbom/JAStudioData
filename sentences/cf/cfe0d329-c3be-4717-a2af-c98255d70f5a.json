@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1ad9fa144f82cb6a54bda34c8a6fb16747c265668d1670d1a26c13ff.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1ad9fa144f82cb6a54bda34c8a6fb16747c265668d1670d1a26c13ff.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "許可"
@@ -100,11 +108,12 @@
     "question": "学校から許可はもらっています。",
     "answer": "We have permission from the school.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cfe0d329-c3be-4717-a2af-c98255d70f5a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

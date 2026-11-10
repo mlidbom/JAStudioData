@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c9ad3f4fb1f0ae6ee8c72bd8336bb03389e5c8c1162e85396872beac.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c9ad3f4fb1f0ae6ee8c72bd8336bb03389e5c8c1162e85396872beac.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "社費"
@@ -156,11 +164,12 @@
     "question": "オフィスで働く社員達のランチは、社費でまかなわれている。",
     "answer": "Lunch for office workers is paid for at company expense.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f0768b10-fca0-4a5e-90ac-982b029b9ea9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

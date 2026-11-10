@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7a977e683fbf61855063a4fd872df7fca61de35a8d610f09bde3d6ea.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7a977e683fbf61855063a4fd872df7fca61de35a8d610f09bde3d6ea.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "過ごす"
@@ -107,11 +115,12 @@
     "question": "日曜日は友達と映画を観て過ごしました。",
     "answer": "I spent Sunday watching movies with friends.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "611d64a1-2858-44a7-ba8f-94b73eb6640f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1f54d36848c51937420d95221a766fe587f97026f4966ee5c8a8a88c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1f54d36848c51937420d95221a766fe587f97026f4966ee5c8a8a88c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "裁判"
@@ -387,11 +395,12 @@
     "question": "この貯金箱には小遣いからためた80ドルが入っているんだけど、裁判を起こすには到底足りないと思うんだよね。",
     "answer": "This piggy bank contains the eighty dollars I’ve saved from my allowance, but I guess it is not close to enough to file a lawsuit.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "199718e4-7c5f-4b15-a7ec-41773a3c0f2e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

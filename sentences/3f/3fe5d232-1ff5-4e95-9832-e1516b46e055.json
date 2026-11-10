@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-63adb7613fe5b9e4188388369b7f44216f674d19e7ca4f56e9a78293.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-63adb7613fe5b9e4188388369b7f44216f674d19e7ca4f56e9a78293.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "銃弾"
@@ -261,11 +269,12 @@
     "question": "少し待って貰ってもいいですか？ちょっと銃弾を取りに行かなくてはならないので。",
     "answer": "Could you hang on a second? I have to get my bullets.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3fe5d232-1ff5-4e95-9832-e1516b46e055",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

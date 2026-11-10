@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cfe925f81e566b05e9312c5f0fc7bd9317b33e518244c53670a45f23.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cfe925f81e566b05e9312c5f0fc7bd9317b33e518244c53670a45f23.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "落ち"
@@ -72,11 +80,12 @@
     "question": "そういう落ちだったのね。",
     "answer": "That was the outcome, huh?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ace4302a-adaa-4721-ac4c-32281fdaed4c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

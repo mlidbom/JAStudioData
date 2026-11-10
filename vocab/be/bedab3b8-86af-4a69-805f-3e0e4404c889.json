@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-3f01d83623ff150d5a7e7e9013c56fe3dbf12ce7626ec2c3a466c82a.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-3f01d83623ff150d5a7e7e9013c56fe3dbf12ce7626ec2c3a466c82a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "って言われている",
@@ -64,8 +70,7 @@
   "sentenceCount": 28,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -89,7 +94,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "bedab3b8-86af-4a69-805f-3e0e4404c889",
   "tags": [

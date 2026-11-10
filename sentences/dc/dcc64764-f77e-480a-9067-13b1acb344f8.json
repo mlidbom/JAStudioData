@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-46bab78cb368b0a4626d80eaa8e2ef996ed51f53b238fe2603f11d56.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-46bab78cb368b0a4626d80eaa8e2ef996ed51f53b238fe2603f11d56.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大人しい"
@@ -58,11 +66,12 @@
     "question": "大人しい犬ですね。",
     "answer": "That's a quiet dog.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dcc64764-f77e-480a-9067-13b1acb344f8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

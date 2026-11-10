@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2e0d9e8d55816b87c37230a334b7d1dbc04aa2d50933de5048f8dba6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2e0d9e8d55816b87c37230a334b7d1dbc04aa2d50933de5048f8dba6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "余る"
@@ -205,11 +213,12 @@
     "question": "私達の果樹園にはあり余るほどの林檎があります。",
     "answer": "There is an abundance of apples in our orchard.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d9843653-4625-4aab-9b23-3fa6f90cae02",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

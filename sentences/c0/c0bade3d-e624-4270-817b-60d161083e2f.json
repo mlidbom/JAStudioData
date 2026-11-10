@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a02cc2258ffab235284f7ba33a79866dcb50bb651bb367a231c5fd55.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a02cc2258ffab235284f7ba33a79866dcb50bb651bb367a231c5fd55.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "検査する"
@@ -128,11 +136,12 @@
     "question": "今度、水道水の水質を検査する予定です。",
     "answer": "I'm going to have the quality of my tap water tested next time.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c0bade3d-e624-4270-817b-60d161083e2f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

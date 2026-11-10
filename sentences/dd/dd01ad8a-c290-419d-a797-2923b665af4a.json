@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-05db00f7afd14263b3066e382a781ae67f950811572abcfdcbbf36fb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-05db00f7afd14263b3066e382a781ae67f950811572abcfdcbbf36fb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "十分"
@@ -72,11 +80,12 @@
     "question": "あなたは十分がんばりました！",
     "answer": "You have worked hard enough!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dd01ad8a-c290-419d-a797-2923b665af4a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

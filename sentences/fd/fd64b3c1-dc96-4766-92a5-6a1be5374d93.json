@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1dd0e22c6af8f7e3d00785039f9b2f5b30045fc4deb3c460d3190ebc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1dd0e22c6af8f7e3d00785039f9b2f5b30045fc4deb3c460d3190ebc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "挙がる"
@@ -121,11 +129,12 @@
     "question": "先生がそう言うと、たくさん手が挙がった。",
     "answer": "When the teacher said that, many hands were raised.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fd64b3c1-dc96-4766-92a5-6a1be5374d93",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

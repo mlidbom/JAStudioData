@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e56cef3e1d5e31b9ee13bdcb38bacc1dc4423bfb4608ea9fabb18832.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e56cef3e1d5e31b9ee13bdcb38bacc1dc4423bfb4608ea9fabb18832.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "王子"
@@ -107,11 +115,12 @@
     "question": "王子は小さいころに子犬をかってた。",
     "answer": "The prince had a puppy when he was little.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b51d667e-903e-4ee6-9257-f373bfba2295",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

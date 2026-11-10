@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c10c62af929823ecea8cce67bd88882508fc5324682d2d11d40b2ec7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c10c62af929823ecea8cce67bd88882508fc5324682d2d11d40b2ec7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "雨戸"
@@ -149,11 +157,12 @@
     "question": "雨が雨戸を叩く音で深夜に起きてしまった。",
     "answer": "I woke up in the middle of the night because of the sound of rain hitting the shutters.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fbba01c3-078b-447d-993a-3feb8cbd8237",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

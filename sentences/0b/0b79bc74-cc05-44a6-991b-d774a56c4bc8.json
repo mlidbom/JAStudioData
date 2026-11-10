@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-16c2a4e36910b020a73870f44d41d59a33694cde27069c732c168d53.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-16c2a4e36910b020a73870f44d41d59a33694cde27069c732c168d53.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "対立"
@@ -86,11 +94,12 @@
     "question": "父と兄の対立を止めたいです。",
     "answer": "I want to stop the conflict between my father and my brother.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0b79bc74-cc05-44a6-991b-d774a56c4bc8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

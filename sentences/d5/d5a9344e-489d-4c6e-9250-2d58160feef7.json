@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1e2b0082d0b072d5d1427134ceaddffc0b5f78a03075643b8585808a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1e2b0082d0b072d5d1427134ceaddffc0b5f78a03075643b8585808a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "駅長"
@@ -107,11 +115,12 @@
     "question": "えっ！あの駅長、元プロゴルファーだよね？",
     "answer": "What?! That stationmaster used to be a professional golfer, right?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d5a9344e-489d-4c6e-9250-2d58160feef7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

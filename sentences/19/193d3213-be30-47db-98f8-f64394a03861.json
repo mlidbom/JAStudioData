@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d514aa6865cd798c2b9d0c7d1cb4a182f0ba9529288daae9fdaf5582.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d514aa6865cd798c2b9d0c7d1cb4a182f0ba9529288daae9fdaf5582.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "誘う"
@@ -205,11 +213,12 @@
     "question": "上司にラーメンを食べに行かないかと誘われたら、行くしかないっしょ。",
     "answer": "If my boss asks me to go eat ramen, I have no choice but to go, right?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "193d3213-be30-47db-98f8-f64394a03861",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

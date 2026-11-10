@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5fdb5c577cf885eca9b51221dc9b57ef06ad4ae7d692370aa8f98835.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5fdb5c577cf885eca9b51221dc9b57ef06ad4ae7d692370aa8f98835.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "先日"
@@ -79,11 +87,12 @@
     "question": "先日のパーティー、中止でしたね。",
     "answer": "The party the other day got canceled.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5ef0ca7d-406d-46c6-b1f3-b94c892e0b74",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

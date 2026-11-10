@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fdc34dc96f5e55b4259a4802db8db23fbb68b07d4b58a52eb367502a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fdc34dc96f5e55b4259a4802db8db23fbb68b07d4b58a52eb367502a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "食卓"
@@ -226,11 +234,12 @@
     "question": "私がお皿を洗うから、あなたは食卓を綺麗にしてくれる？いいかしら？",
     "answer": "I’ll wash the dishes and you can set the table for me. Is that okay?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "42e78278-fa7f-4766-ab8f-5c2c75743c72",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0d728e7d9aca3c7f280cfd0d125af4255bfd7df8b63221f63c3c7ab3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0d728e7d9aca3c7f280cfd0d125af4255bfd7df8b63221f63c3c7ab3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お構いなく"
@@ -72,11 +80,12 @@
     "question": "見てるだけなので、お構いなく。",
     "answer": "I'm just looking, so don't mind me.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f972cf30-8054-4640-9046-e18c70233825",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

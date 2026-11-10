@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2d6d44ce324ef9c631f8567349b1287123c69bae5944003f1d7f4e59.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2d6d44ce324ef9c631f8567349b1287123c69bae5944003f1d7f4e59.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "仮定"
@@ -254,11 +262,12 @@
     "question": "たとえば、一ドル百円と仮定すると、一本一ドルのコカコーラは百円になりますよね？",
     "answer": "For example, if we say one dollar is one hundred yen, then one can of $1 coca cola is one hundred yen, right?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "86a965a9-8759-4ffb-ba89-858b48d4d2c2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

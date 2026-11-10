@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-72a02ecb340f874825d4950e94ac6d757038aacd07143c52e61c4f5a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-72a02ecb340f874825d4950e94ac6d757038aacd07143c52e61c4f5a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "名人"
@@ -65,11 +73,12 @@
     "question": "父はフリスビーの名人です。",
     "answer": "My father is a frisbee expert.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8a29ec8c-b869-4312-b60d-38ff4fbde9af",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

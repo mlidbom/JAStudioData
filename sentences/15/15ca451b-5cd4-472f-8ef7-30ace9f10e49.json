@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3d814f8e1bf6c05f4fa4e8adcab48f60f91e2283f3e60a600127f108.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3d814f8e1bf6c05f4fa4e8adcab48f60f91e2283f3e60a600127f108.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "朝"
@@ -51,11 +59,12 @@
     "question": "もう朝ですよ。",
     "answer": "It's already morning.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "15ca451b-5cd4-472f-8ef7-30ace9f10e49",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

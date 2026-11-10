@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-972c98cc4d50d54c1435aeaea1dbe0ab23e35265762296dcd4bcdc5b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-972c98cc4d50d54c1435aeaea1dbe0ab23e35265762296dcd4bcdc5b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "住所"
@@ -114,11 +122,12 @@
     "question": "次に、住所を入力して下さい。",
     "answer": "Next, please enter your address.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3303a125-21dd-41be-bfe2-7373dc97babe",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c4b744f90e5b381a5e37ef076ed832c20b0d97e376ec41edfc385101.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c4b744f90e5b381a5e37ef076ed832c20b0d97e376ec41edfc385101.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "封書"
@@ -296,11 +304,12 @@
     "question": "契約書にサインをして封筒に入れてありますが、まだその封書を郵送していません。",
     "answer": "I signed the contract and put it in an envelope, but I haven’t mailed the sealed letter to them yet.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "09b3099a-d5ff-4880-b747-ed8c84e24304",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

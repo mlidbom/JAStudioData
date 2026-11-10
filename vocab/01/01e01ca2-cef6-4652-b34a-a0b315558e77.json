@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-535655a733ac433cc25b16f30e510400939bbb65601d014218c9b115.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-535655a733ac433cc25b16f30e510400939bbb65601d014218c9b115.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "ならん",
@@ -56,8 +62,7 @@
   "sentenceCount": 118,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {
       "yieldLastTokenToOverlappingCompound": "required"
@@ -83,7 +88,9 @@
   "sourceData": {
     "answer": "cannot-help-(doing,-etc.)/cannot-resist/cannot-bear-not-to | must-not-.../should-not-... | must-.../have-to-.../ought-to-...",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "01e01ca2-cef6-4652-b34a-a0b315558e77",
   "tags": [

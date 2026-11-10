@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-284fd8573e3bb5cba8feaff9f2d72b3945b5cb65948bec58626a8660.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-284fd8573e3bb5cba8feaff9f2d72b3945b5cb65948bec58626a8660.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "沼"
@@ -163,11 +171,12 @@
     "question": "沼の底にはたくさんの生き物がいるんだよ。",
     "answer": "Many creatures live at the bottom of the bog.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "13f06569-817d-4a96-8205-6cff8a9dc1ed",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

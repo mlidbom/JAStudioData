@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-35937d51cb9acd7e37fb3cfeeb0585284188f0185da51bfb6110d5de.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-35937d51cb9acd7e37fb3cfeeb0585284188f0185da51bfb6110d5de.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "今まで"
@@ -177,11 +185,12 @@
     "question": "今まで何をしていたんですか。",
     "answer": "What have you been doing until now?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e07dbdb1-6f23-4703-9efb-5ef8ef456a9a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

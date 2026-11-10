@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7b18441a647cc6bec15073a10d874d7db7c232eb16317892c939e5cf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7b18441a647cc6bec15073a10d874d7db7c232eb16317892c939e5cf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "管制塔"
@@ -205,11 +213,12 @@
     "question": "もし巨大な竜巻がこの地域を襲ったら、管制塔はどうなるんでしょうか。",
     "answer": "If a huge tornado hit this area, how do you think the control tower would fare?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "77a026eb-8530-4fc6-b36f-39cd74d78da1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

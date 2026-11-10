@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6a8afbce0f3e951123cdf0d06a06e2ae92237c714bb450884e2aca82.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6a8afbce0f3e951123cdf0d06a06e2ae92237c714bb450884e2aca82.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "容赦"
@@ -177,11 +185,12 @@
     "question": "罪人は容赦なく罰せられなくてはならない。",
     "answer": "The criminal must be punished without mercy!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e49f403c-98be-4f12-8ba9-f373b772de70",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

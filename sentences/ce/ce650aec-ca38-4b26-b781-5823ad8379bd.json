@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a5511f75f73126880fc8dcc8ec01a13e256cd5a110e3eda5c64a63a0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a5511f75f73126880fc8dcc8ec01a13e256cd5a110e3eda5c64a63a0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "共通点"
@@ -198,11 +206,12 @@
     "question": "コウイチとは共通点が全くないから、何を話せばいいか分からないよ。",
     "answer": "I don't know what to talk about because Koichi and I have nothing in common.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ce650aec-ca38-4b26-b781-5823ad8379bd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

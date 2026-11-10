@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bb7e870ed81a13a55feae7d932b91c0616d2a020c0fbd4b09c391a3b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bb7e870ed81a13a55feae7d932b91c0616d2a020c0fbd4b09c391a3b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "夕べ"
@@ -107,11 +115,12 @@
     "question": "五月に「ワインの夕べ」というイベントがあります。",
     "answer": "There's an event called \"Wine Evening\" in May.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7aadfa26-4f46-449b-b628-359adb56fd68",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

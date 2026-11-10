@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-36d0dfa8566c3265a420db440175c154d476f31c06d1660adadc1a21.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-36d0dfa8566c3265a420db440175c154d476f31c06d1660adadc1a21.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "芸術家"
@@ -156,11 +164,12 @@
     "question": "その芸術家は、弟子に留守番をたのんで、ヨーロッパに留学しました。",
     "answer": "The artist asked his disciple to look after his house while he was away and left for Europe to study.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "319bb02e-8c18-4a85-b391-18d2d91d79ca",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

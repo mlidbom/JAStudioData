@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-65ad69c3345c8bf9ac6e766181cf5c1e7032c5553a7481d868e6234d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-65ad69c3345c8bf9ac6e766181cf5c1e7032c5553a7481d868e6234d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "画像"
@@ -58,11 +66,12 @@
     "question": "おもしろい画像ですね。",
     "answer": "That's an interesting image.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "168ec63f-70d0-47c0-8b6d-883baee5c97a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

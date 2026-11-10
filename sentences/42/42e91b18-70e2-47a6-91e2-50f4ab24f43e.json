@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0eb3635e4b14dc0fe33fa8e29428a8c2c9a13d709157e48a922ce2bd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0eb3635e4b14dc0fe33fa8e29428a8c2c9a13d709157e48a922ce2bd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "隅々"
@@ -121,11 +129,12 @@
     "question": "今日は部屋を隅々まで掃除しました。",
     "answer": "Today I cleaned every nook and cranny of my room.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "42e91b18-70e2-47a6-91e2-50f4ab24f43e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

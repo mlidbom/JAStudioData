@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-60e75370eb3b8fa873b8727c25bfa69ef0826e4db7feabe65cfcdac8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-60e75370eb3b8fa873b8727c25bfa69ef0826e4db7feabe65cfcdac8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "髪"
@@ -282,11 +290,12 @@
     "question": "生まれたての赤ちゃんは、毎日お風呂に入れてあげて髪を洗ってあげた方がいいのかな。",
     "answer": "I wonder if I should give my newborn baby a bath and wash her hair every day.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2c09cf8a-173c-42f2-85f9-0129bf9934e7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

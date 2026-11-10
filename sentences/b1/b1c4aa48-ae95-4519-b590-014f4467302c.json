@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0f7f787d8ae687b533c64336a1c7f61b9e782800c66563b51d1fbbd6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0f7f787d8ae687b533c64336a1c7f61b9e782800c66563b51d1fbbd6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "診察"
@@ -121,11 +129,12 @@
     "question": "先生は診察の予定がみっちり詰まっています。",
     "answer": "The doctor has a jam-packed medical exam schedule.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b1c4aa48-ae95-4519-b590-014f4467302c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

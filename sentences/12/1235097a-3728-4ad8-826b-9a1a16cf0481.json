@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cdfc2dd8f8f9a31521babc4013ac694699f240c231df24de6ef1174f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cdfc2dd8f8f9a31521babc4013ac694699f240c231df24de6ef1174f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "診断"
@@ -198,11 +206,12 @@
     "question": "私の息子は四歳の時に喘息だと診断されました。",
     "answer": "My son was diagnosed with asthma when he was four.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1235097a-3728-4ad8-826b-9a1a16cf0481",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2b64726d3a2ac5ffe9b4fac578f20690644b9461a3957bf509da87a3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2b64726d3a2ac5ffe9b4fac578f20690644b9461a3957bf509da87a3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "値札"
@@ -128,11 +136,12 @@
     "question": "この品物には、値札シールがありません。",
     "answer": "This item doesn't have a price tag.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "613e85a7-1a96-42a6-822f-6ed9f509376b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

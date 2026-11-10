@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6c207ee6794fba669d5ccddb324c8f533e403bb3bda4737ae5e0afef.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6c207ee6794fba669d5ccddb324c8f533e403bb3bda4737ae5e0afef.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鋼"
@@ -114,11 +122,12 @@
     "question": "そのゲームで鋼の鎧っていくらだったっけ？",
     "answer": "How much is the steel armor in the game?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c785c035-f5b4-4e43-8b34-17b82521641b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

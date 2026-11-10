@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-561f9f39e3ec6fa0ad85fe194ee2f1f8f9aed2361d3579754404e0bc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-561f9f39e3ec6fa0ad85fe194ee2f1f8f9aed2361d3579754404e0bc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大根"
@@ -191,11 +199,12 @@
     "question": "大根は煮物にすると魚や卵との相性が良いですよ。",
     "answer": "If you cook nimono with daikon, it goes well with fish or eggs.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "44a0ebd0-40e2-49ea-b1ac-7614158330f0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

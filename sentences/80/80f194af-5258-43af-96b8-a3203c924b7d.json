@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fa6776a0da14d22f73c41a9e35334d9d2303e393b1acf951d0c6a5a8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fa6776a0da14d22f73c41a9e35334d9d2303e393b1acf951d0c6a5a8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "近日"
@@ -79,11 +87,12 @@
     "question": "このレストランは近日オープンする。",
     "answer": "This restaurant will open soon.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "80f194af-5258-43af-96b8-a3203c924b7d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

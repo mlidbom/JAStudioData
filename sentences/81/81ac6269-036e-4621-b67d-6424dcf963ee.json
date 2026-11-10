@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-11fad202c20d0b29037ef476ce58bcc6c8f2d7c28a8159ff214d5c70.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-11fad202c20d0b29037ef476ce58bcc6c8f2d7c28a8159ff214d5c70.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "控え"
@@ -121,11 +129,12 @@
     "question": "控えの選手には誰がいたっけ？",
     "answer": "Who’s the reserve player?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "81ac6269-036e-4621-b67d-6424dcf963ee",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

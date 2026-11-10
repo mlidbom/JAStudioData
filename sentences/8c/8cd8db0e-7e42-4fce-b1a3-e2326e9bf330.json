@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6f7ca8591cabe12248b86191c042ca4d13deaab2941cb4e3132a8d14.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6f7ca8591cabe12248b86191c042ca4d13deaab2941cb4e3132a8d14.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "悪例"
@@ -226,11 +234,12 @@
     "question": "日本語を学ぶ時には、いい例だけでなく、悪例を学ぶことも必要です。",
     "answer": "When learning Japanese, it is necessary to learn from good examples as well as bad examples.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8cd8db0e-7e42-4fce-b1a3-e2326e9bf330",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

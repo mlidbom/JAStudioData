@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fb605cc0e8e1901d76d318076310fdf16c5a193cc2fb07035f728f40.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fb605cc0e8e1901d76d318076310fdf16c5a193cc2fb07035f728f40.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "梅酒"
@@ -51,11 +59,12 @@
     "question": "梅酒みたいでおいしい！",
     "answer": "It's delicious, like plum wine!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3400eb17-c8c0-4443-94f2-155d2546ff0a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

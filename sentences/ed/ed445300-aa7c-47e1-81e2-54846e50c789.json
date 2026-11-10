@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1767c3bd62b77e9098b3cf490a74d1c5aa9201eacf779bc173f54fa3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1767c3bd62b77e9098b3cf490a74d1c5aa9201eacf779bc173f54fa3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "車庫"
@@ -205,11 +213,12 @@
     "question": "車庫には、二台のBMWが並列して停められていました。",
     "answer": "Two BMWs were parked in a row at the garage.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ed445300-aa7c-47e1-81e2-54846e50c789",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

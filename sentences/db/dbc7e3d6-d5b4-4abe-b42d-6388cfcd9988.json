@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-14907a0f969154414700f294c59b86cbcbe0a8ab0e578d1f0098c9fe.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-14907a0f969154414700f294c59b86cbcbe0a8ab0e578d1f0098c9fe.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "応援"
@@ -177,11 +185,12 @@
     "question": "僕は、AKB４８の高橋みなみを応援していました。",
     "answer": "I was supporting Takahashi Minami of AKB48.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dbc7e3d6-d5b4-4abe-b42d-6388cfcd9988",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

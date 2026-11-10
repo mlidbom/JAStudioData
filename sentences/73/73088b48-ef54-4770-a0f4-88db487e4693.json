@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8b1d55f3a2ce409fab5f0a877873cae27641c9ec67f67dcc2e3dae6d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8b1d55f3a2ce409fab5f0a877873cae27641c9ec67f67dcc2e3dae6d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "葉"
@@ -170,11 +178,12 @@
     "question": "十一月になると、木の葉に色がついて山が美しいです。",
     "answer": "In November, the mountains are beautiful with the colors from the leaves.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "73088b48-ef54-4770-a0f4-88db487e4693",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

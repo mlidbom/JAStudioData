@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-194cb9336e3c4190acc958bf499dd8fb9ea372d1ae7849c93a7a06ad.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-194cb9336e3c4190acc958bf499dd8fb9ea372d1ae7849c93a7a06ad.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "話す"
@@ -163,11 +171,12 @@
     "question": "今回のミーティングでは、主に米国の牛肉のことを話しました。",
     "answer": "At this meeting, we mainly talked about American beef.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ebf5e42c-13f8-4574-895c-13404a09bc5a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e80bb6f1950d7ddb94849dac7ee896bd7317fea3f76d198dab69b85a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e80bb6f1950d7ddb94849dac7ee896bd7317fea3f76d198dab69b85a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "味噌"
@@ -114,11 +122,12 @@
     "question": "味噌と醤油は和食には欠かせません。",
     "answer": "Miso and soy sauce are essential for a Japanese-style meal.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "15fd6721-180d-47ae-af7e-b1379b38c8db",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

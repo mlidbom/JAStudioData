@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2f650de8f4ad56c69b09de63b9793fe563ce4c581e3110ac11a51fcb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2f650de8f4ad56c69b09de63b9793fe563ce4c581e3110ac11a51fcb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "無休"
@@ -156,11 +164,12 @@
     "question": "トーフグのウェブサイトは、24時間年中無休で開いております。",
     "answer": "Tofugu’s website is always open, twenty-four hours a day, every day of the year.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2cbc1b19-3fb7-43d7-8796-d80aa5296d24",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

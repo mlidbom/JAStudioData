@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-224b5e5b8b8f9f185539a3606edc4bfd439b742d0ddd8fa1c42a57d1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-224b5e5b8b8f9f185539a3606edc4bfd439b742d0ddd8fa1c42a57d1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "阪神"
@@ -65,11 +73,12 @@
     "question": "私は阪神タイガースのファンです。",
     "answer": "I'm a fan of the Hanshin Tigers.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7b2c023a-fd22-498d-b9c5-64cdc5718bd2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

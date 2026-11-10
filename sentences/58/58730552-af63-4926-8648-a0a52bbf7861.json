@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-60961b3f421cd92eaab92bb9fe189ff03f1bdb4cb50e9336c1f5c38e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-60961b3f421cd92eaab92bb9fe189ff03f1bdb4cb50e9336c1f5c38e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "施行"
@@ -149,11 +157,12 @@
     "question": "まだその法律の施行が確定したわけではない。",
     "answer": "The implementation of that law hasn’t been finalized yet.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "58730552-af63-4926-8648-a0a52bbf7861",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1c3c65ba37f4b47d2eb32d78b11c1d964f14e3df2501167490221b79.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1c3c65ba37f4b47d2eb32d78b11c1d964f14e3df2501167490221b79.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "行為"
@@ -287,11 +295,12 @@
     "question": "私がそのような残虐行為を繰り返したのは、その度に達成感を得られることができたからです。",
     "answer": "I repeated those brutal acts because I was able to feel a sense of accomplishment each time.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cb2637e1-dc4d-4277-bdce-f9ae920cf694",
   "tags": [
-    "_tts_audio",
     "-::sentence::uses::incorrect-matches",
     "source::wani::current"
   ]

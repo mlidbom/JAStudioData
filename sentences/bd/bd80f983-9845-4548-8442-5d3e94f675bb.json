@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-17be8389980d22d324f6609165da1562cfeb66e7250308328193f079.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-17be8389980d22d324f6609165da1562cfeb66e7250308328193f079.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "最近"
@@ -177,11 +185,12 @@
     "question": "テレビを持ってないので、最近の有名人や人気の曲を全く知りません。",
     "answer": "I don't have a TV, so I don't know any recent celebrities or popular songs.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bd80f983-9845-4548-8442-5d3e94f675bb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

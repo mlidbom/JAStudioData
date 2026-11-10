@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-edb11b35eacd3ada063e9fe248e467bd9731cd55a7224ac22b416baf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-edb11b35eacd3ada063e9fe248e467bd9731cd55a7224ac22b416baf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "楽器"
@@ -191,11 +199,12 @@
     "question": "楽器にも色々ありますが、どんな楽器が好きですか。私は打楽器が好きです。",
     "answer": "There are various different types of musical instruments. Which type do you like? I like percussion.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "38a5cb0b-f326-4b33-ac45-e1fbd204f627",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

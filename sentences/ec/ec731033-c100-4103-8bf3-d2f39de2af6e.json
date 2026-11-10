@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f21658ddd0884601efaf0b4bbdbca62cac2a3939d50c2d1f749679d0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f21658ddd0884601efaf0b4bbdbca62cac2a3939d50c2d1f749679d0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "地蔵"
@@ -86,11 +94,12 @@
     "question": "お地蔵さんの頭がへこんでるよ。",
     "answer": "The head of Jizou is dented.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ec731033-c100-4103-8bf3-d2f39de2af6e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6e54c7cdca8403a32a5c737a6dc4175cf987c32e69caf30a7e2d0889.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6e54c7cdca8403a32a5c737a6dc4175cf987c32e69caf30a7e2d0889.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "三杯"
@@ -261,11 +269,12 @@
     "question": "その時ちょっとへこみ気味だったもんで、ビールを三杯一気飲みしちゃったんだよね。",
     "answer": "I was depressed at the time, so I chugged three glasses of beer.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cc1d3a24-abfa-482e-8e9f-72fc2361e385",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

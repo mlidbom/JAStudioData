@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b268a9efdeb0d873b7a76ece3ed23363529fe6cf6241d0d88ec45782.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b268a9efdeb0d873b7a76ece3ed23363529fe6cf6241d0d88ec45782.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "過去"
@@ -177,11 +185,12 @@
     "question": "玉ねぎが目にしみたことは過去に一度もありません。",
     "answer": "My eyes have never watered from onions before.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5378982b-93b4-4622-9e5a-ab2b3af329bd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

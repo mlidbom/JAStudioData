@@ -33,9 +33,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-48557a2b2bf2f8c30470d614977dc6b49209a6ec93219bc228fdbfdf.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-48557a2b2bf2f8c30470d614977dc6b49209a6ec93219bc228fdbfdf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "おけばよかった",
@@ -53,8 +59,7 @@
   "sentenceCount": 4,
   "technicalNotes": "jamdict matches several shorter versions of this if this does not take over, so we really need to keep it.",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [
@@ -80,7 +85,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "8ccf1dd7-4dd1-43c2-980f-1f1d10a5e6dd",
   "tags": [

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ad3af01fcffb36421365a1aa3930b684e2a53a1373c56d14dcd75850.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ad3af01fcffb36421365a1aa3930b684e2a53a1373c56d14dcd75850.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "得体"
@@ -142,11 +150,12 @@
     "question": "こんな得体の知れないもの、食べられないよ。",
     "answer": "I can’t eat something so strange.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5b9dbc30-985d-45b1-87bd-8669c7ceaebb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

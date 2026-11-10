@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ebc6bd44e6b40c8e84b03e556e83241c1a5175963c4745949c791f53.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ebc6bd44e6b40c8e84b03e556e83241c1a5175963c4745949c791f53.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "字典"
@@ -93,11 +101,12 @@
     "question": "え、明日のテスト、字典使ってOKなの？",
     "answer": "Oh, are dictionaries OK for tomorrow's test?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "05afc87d-5c22-46e9-82f9-46acb687cdc3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2d9afcbeef442b0c8b8cdd03956c254372372045970985304b6fffc5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2d9afcbeef442b0c8b8cdd03956c254372372045970985304b6fffc5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "貨物"
@@ -156,11 +164,12 @@
     "question": "毎日札幌貨物ターミナルと福岡貨物ターミナル間を走行する貨物列車があります。",
     "answer": "There is a freight train that runs between Sapporo cargo terminal and Fukuoka cargo terminal every day.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e2e78f15-cdbe-448e-b747-01cd7a0b192d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

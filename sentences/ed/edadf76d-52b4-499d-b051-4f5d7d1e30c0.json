@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2cb965ca8ee8abd7a2a96d9b80f576f95be659edd87c43ff0d7516c3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2cb965ca8ee8abd7a2a96d9b80f576f95be659edd87c43ff0d7516c3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "断る"
@@ -142,11 +150,12 @@
     "question": "ビエトは次期国務長官に任命されたが、断った。",
     "answer": "Viet was appointed as the next Secretary of State, but he refused.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "edadf76d-52b4-499d-b051-4f5d7d1e30c0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

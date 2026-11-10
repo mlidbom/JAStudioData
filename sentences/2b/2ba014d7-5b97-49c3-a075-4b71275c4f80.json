@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ecf0d39809d12435c1c7366d6c9bd66378eb2ccde2056a58a0b8ca7f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ecf0d39809d12435c1c7366d6c9bd66378eb2ccde2056a58a0b8ca7f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "丈"
@@ -93,11 +101,12 @@
     "question": "そのズボン、ちょっと丈が短いんじゃない？",
     "answer": "Isn't the length of those pants a bit short?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2ba014d7-5b97-49c3-a075-4b71275c4f80",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

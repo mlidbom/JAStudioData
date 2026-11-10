@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fab45991d7450c4f1b6356c76043420c7ce4ae13238e03023d2a0534.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fab45991d7450c4f1b6356c76043420c7ce4ae13238e03023d2a0534.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "公営"
@@ -93,11 +101,12 @@
     "question": "日本では、競馬は公営ギャンブルです。",
     "answer": "In Japan, horse racing is government run gambling.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c978b915-51ac-46e5-a63f-b2c12ac2c9c2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-45fe12148abd7d778aa153d3b4f3847db3e47ce137eda1a77dd7c6cf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-45fe12148abd7d778aa153d3b4f3847db3e47ce137eda1a77dd7c6cf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "麺つゆ"
@@ -121,11 +129,12 @@
     "question": "この麺つゆは煮物などの料理にも使えます。",
     "answer": "This noodle broth can be used in stews and other dishes.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "abab5113-d91d-48b0-b895-c649898e42b8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

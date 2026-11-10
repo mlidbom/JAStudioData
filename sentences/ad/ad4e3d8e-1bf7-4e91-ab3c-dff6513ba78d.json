@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2f379f28f2177c84fff8e48b07b85b984a1eb04064d4a8b937fbbd98.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2f379f28f2177c84fff8e48b07b85b984a1eb04064d4a8b937fbbd98.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "配偶者"
@@ -149,11 +157,12 @@
     "question": "新しい配偶者を探そうかとずっと考えているんです。",
     "answer": "I’ve been thinking about looking for a new spouse.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ad4e3d8e-1bf7-4e91-ab3c-dff6513ba78d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8abdf87ba334d6b746fe0743b2f6f2997025735fad4d7659e4bdf94c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8abdf87ba334d6b746fe0743b2f6f2997025735fad4d7659e4bdf94c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "子猫"
@@ -93,11 +101,12 @@
     "question": "今日、かわいい子猫を三匹拾いました。",
     "answer": "I found and took home three cute kittens today.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e7599ecc-1beb-4298-8376-21f8a408a108",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

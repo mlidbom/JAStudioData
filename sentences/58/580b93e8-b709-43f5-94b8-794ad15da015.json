@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f7f1ed5c9515a1de53554b8b3529802961a85e7b13aa12a426ec8ce0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f7f1ed5c9515a1de53554b8b3529802961a85e7b13aa12a426ec8ce0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "紋章"
@@ -72,11 +80,12 @@
     "question": "これは、王家の紋章です。",
     "answer": "This is the royal family’s crest.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "580b93e8-b709-43f5-94b8-794ad15da015",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

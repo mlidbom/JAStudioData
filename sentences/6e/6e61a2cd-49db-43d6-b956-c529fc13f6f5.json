@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9ebc34278c7475e85b111e8a7b294b574841f79c078d85311528c83b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9ebc34278c7475e85b111e8a7b294b574841f79c078d85311528c83b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "粗野"
@@ -142,11 +150,12 @@
     "question": "彼女は、決して他人に対して粗野に振る舞うことがなかった。",
     "answer": "She’s never treated another person rudely.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6e61a2cd-49db-43d6-b956-c529fc13f6f5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

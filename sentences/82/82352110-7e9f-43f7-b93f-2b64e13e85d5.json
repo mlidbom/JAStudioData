@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8322e49def39bc67e0862ee55af8abe8ebb2ac61931d103d5e1918ee.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8322e49def39bc67e0862ee55af8abe8ebb2ac61931d103d5e1918ee.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "雇う"
@@ -289,11 +297,12 @@
     "question": "あなたを雇いたいのは山々ですが、就業許可証が発給されるのを待ってはいられないのです。",
     "answer": "I’d like to hire you, but we can’t wait for your work permit to be issued.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "82352110-7e9f-43f7-b93f-2b64e13e85d5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

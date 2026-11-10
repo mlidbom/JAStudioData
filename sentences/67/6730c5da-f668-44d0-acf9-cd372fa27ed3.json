@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f9bfe67ac5f692383d8671f615c353b33c99ffd2a4d273875d87b391.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f9bfe67ac5f692383d8671f615c353b33c99ffd2a4d273875d87b391.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "銃"
@@ -212,11 +220,12 @@
     "question": "外出中に、部屋に置いてあった銃が母親に見つかってしまったんです。",
     "answer": "My mother found my gun in my room while I was out.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6730c5da-f668-44d0-acf9-cd372fa27ed3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

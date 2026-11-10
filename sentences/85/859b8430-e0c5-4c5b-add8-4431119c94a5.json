@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3a27276b007dd09d8dd441dc65d13e0a63f7631d1d76b70cab76a84c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3a27276b007dd09d8dd441dc65d13e0a63f7631d1d76b70cab76a84c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "五十"
@@ -107,11 +115,12 @@
     "question": "五十メートルしかウォーキングしなかった。",
     "answer": "I only walked fifty meters.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "859b8430-e0c5-4c5b-add8-4431119c94a5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

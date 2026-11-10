@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b3f04cba22eed72ebdb2aac374fd1c5204fa1785d5837c9dc2f8e56b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b3f04cba22eed72ebdb2aac374fd1c5204fa1785d5837c9dc2f8e56b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "予測"
@@ -135,11 +143,12 @@
     "question": "科学者たちは、大地震の予測に失敗した。",
     "answer": "Scientists failed to predict the massive earthquake.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "aaf52cf6-fb5f-4993-9ad4-f81cdd67c4f6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-80b57ca28f9a8621f8d79805f720cb5699fd73fe95c25d01b4e2c4ae.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-80b57ca28f9a8621f8d79805f720cb5699fd73fe95c25d01b4e2c4ae.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "親戚"
@@ -107,11 +115,12 @@
     "question": "親戚はみんな日本に住んでいます。",
     "answer": "All of my relatives live in Japan.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3acc5913-2122-4649-af61-5f2acb894401",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

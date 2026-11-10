@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-61cc64bf79aa9cb6a183e07877d60745b44a62d53a13f14bb42122e8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-61cc64bf79aa9cb6a183e07877d60745b44a62d53a13f14bb42122e8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "別に"
@@ -177,11 +185,12 @@
     "question": "ブロッコリーとシチューのタッパーは別にしてもらえますか？",
     "answer": "Could you use separate Tupperware for the broccoli and stew?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ce695376-7ef8-487f-8331-9f2ae31f3002",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

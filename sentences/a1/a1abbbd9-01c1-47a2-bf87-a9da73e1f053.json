@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-632bd22124f87b13f9e8ac3b337a6517523bcaa9386f4170cd3e3544.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-632bd22124f87b13f9e8ac3b337a6517523bcaa9386f4170cd3e3544.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "執る"
@@ -142,11 +150,12 @@
     "question": "あなたにこのプロジェクトの指揮を執ってもらいたいんです。",
     "answer": "We want you to direct this project.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a1abbbd9-01c1-47a2-bf87-a9da73e1f053",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

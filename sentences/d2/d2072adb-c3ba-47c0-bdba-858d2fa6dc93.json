@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-49a2bb37f09d18f58f00a58305f630ff5486e18a3ae0b20191e32e01.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-49a2bb37f09d18f58f00a58305f630ff5486e18a3ae0b20191e32e01.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "西"
@@ -51,11 +59,12 @@
     "question": "西日本の生まれです。",
     "answer": "I was born in western Japan.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d2072adb-c3ba-47c0-bdba-858d2fa6dc93",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

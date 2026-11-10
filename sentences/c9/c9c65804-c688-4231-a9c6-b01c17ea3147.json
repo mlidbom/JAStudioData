@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d309e0a6ce1b1d4325cb0e0eb473f8094830b049755e9d871c14b646.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d309e0a6ce1b1d4325cb0e0eb473f8094830b049755e9d871c14b646.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "抜ける"
@@ -170,11 +178,12 @@
     "question": "この文では必要な助詞が抜けていますよ。",
     "answer": "Necessary particles are missing from this sentence.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c9c65804-c688-4231-a9c6-b01c17ea3147",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

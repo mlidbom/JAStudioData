@@ -36,9 +36,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-3673260fe264443d7acc8810ce2c7efe30bfe286d75565bf923bf742.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-3673260fe264443d7acc8810ce2c7efe30bfe286d75565bf923bf742.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "何時の日か",
@@ -48,8 +54,7 @@
   "sentenceCount": 4,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -73,7 +78,9 @@
   "sourceData": {
     "answer": "one-of-these-days/someday/one-day",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "deec4522-e2cf-42ed-8d83-0b595874c09d",
   "tags": [

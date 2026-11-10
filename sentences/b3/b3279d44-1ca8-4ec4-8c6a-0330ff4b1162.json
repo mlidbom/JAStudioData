@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-151174e57a2da9792920a99521c1ae69261990fea69b2200fa277f15.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-151174e57a2da9792920a99521c1ae69261990fea69b2200fa277f15.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "名曲"
@@ -72,11 +80,12 @@
     "question": "これはジャズの名曲です。",
     "answer": "This is a jazz masterpiece.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b3279d44-1ca8-4ec4-8c6a-0330ff4b1162",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

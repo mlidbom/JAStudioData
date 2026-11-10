@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d0c197264c2c345e09d73bb05bb57d8c03b2431146135a190db8c4b5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d0c197264c2c345e09d73bb05bb57d8c03b2431146135a190db8c4b5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "東京"
@@ -100,11 +108,12 @@
     "question": "私の会社から東京タワーは見えますよ。",
     "answer": "You can see the Tokyo Tower from my office.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fae90146-f536-43db-b657-371fff70b2e4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

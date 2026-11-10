@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-904ea5de04f17d076a9cf3def8c787ce7874be62571252c6a1576abe.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-904ea5de04f17d076a9cf3def8c787ce7874be62571252c6a1576abe.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "瓜"
@@ -72,11 +80,12 @@
     "question": "これは瓜の漬物です。",
     "answer": "This is pickled melon.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d4ff2426-9514-42e0-af7f-105a25a6afff",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

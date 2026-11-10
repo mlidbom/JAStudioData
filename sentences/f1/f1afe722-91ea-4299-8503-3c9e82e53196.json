@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-79739ed4788d271a9524e64b0b68b990a00bba4de41bb3473af65f55.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-79739ed4788d271a9524e64b0b68b990a00bba4de41bb3473af65f55.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "長崎"
@@ -233,11 +241,12 @@
     "question": "川崎には行ったことがないですが、長崎になら行ったことがあります。",
     "answer": "I've never been to Kawasaki, but I've been to Nagasaki.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f1afe722-91ea-4299-8503-3c9e82e53196",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

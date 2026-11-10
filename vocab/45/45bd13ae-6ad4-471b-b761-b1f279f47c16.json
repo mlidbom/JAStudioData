@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-a7bce2c58d4e5d998e84d27fd0f52beed7577fc2323b7cf48bf5cb98.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-a7bce2c58d4e5d998e84d27fd0f52beed7577fc2323b7cf48bf5cb98.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "悪戯する",
@@ -88,8 +94,7 @@
   "sentenceCount": 4,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -113,7 +118,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "45bd13ae-6ad4-471b-b761-b1f279f47c16",
   "tags": [

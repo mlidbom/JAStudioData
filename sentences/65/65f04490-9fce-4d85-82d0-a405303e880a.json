@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a4b71ed308924608009a695179f6669172e60de40b1eb6ff2aebe84a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a4b71ed308924608009a695179f6669172e60de40b1eb6ff2aebe84a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "洗濯粉"
@@ -100,11 +108,12 @@
     "question": "洗濯粉がきれちゃった。",
     "answer": "We ran out of detergent.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "65f04490-9fce-4d85-82d0-a405303e880a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

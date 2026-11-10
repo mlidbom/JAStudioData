@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1b59e5c66d4abfbecd928e369ba2be00c7d732e6807654408d93a1e6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1b59e5c66d4abfbecd928e369ba2be00c7d732e6807654408d93a1e6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "乗り換える"
@@ -177,11 +185,12 @@
     "question": "新宿駅で中央線から山手線に乗り換えて上野駅まで来てください。",
     "answer": "Come to Ueno Station by transfering from the Chuo Line to the Yamanote Line at Shinjuku station.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0f723184-4105-42c9-b895-8e8537451762",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

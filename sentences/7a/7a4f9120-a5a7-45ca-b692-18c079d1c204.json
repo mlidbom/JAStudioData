@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4e54f8932418270e3003118980c3bdd5976517f58cf631b5ca1f66fe.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4e54f8932418270e3003118980c3bdd5976517f58cf631b5ca1f66fe.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "飲酒運転"
@@ -289,11 +297,12 @@
     "question": "自転車でも飲酒運転とみなされるとは知りませんでしたが、なるほどと思いました。",
     "answer": "I didn't know it was considered drunk driving with a bicycle, but that makes sense.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7a4f9120-a5a7-45ca-b692-18c079d1c204",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

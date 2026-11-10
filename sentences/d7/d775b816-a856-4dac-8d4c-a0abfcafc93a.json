@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b42338c1d490839a251d9ee9e2e7f9c4969e229a3a055e846734f98c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b42338c1d490839a251d9ee9e2e7f9c4969e229a3a055e846734f98c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "無料"
@@ -86,11 +94,12 @@
     "question": "このアプリは無料でダウンロードできます。",
     "answer": "This app can be downloaded for free.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d775b816-a856-4dac-8d4c-a0abfcafc93a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

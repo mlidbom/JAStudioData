@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8c1bca35193895e0c6749e9bd145a39ceca7c5cedbaff4bfe3bf6a91.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8c1bca35193895e0c6749e9bd145a39ceca7c5cedbaff4bfe3bf6a91.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "留守"
@@ -142,11 +150,12 @@
     "question": "留守中に、友人が訪ねてきたようです。",
     "answer": "It seems like a friend visited while I was out.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9b098cbd-691e-4689-980a-3af51b55c3cc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

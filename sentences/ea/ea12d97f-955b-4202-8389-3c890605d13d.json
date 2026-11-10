@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e830d4a39635b75b5d660e0c86bb1cdb003248d45cef09de89ef22b2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e830d4a39635b75b5d660e0c86bb1cdb003248d45cef09de89ef22b2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "可燃ゴミ"
@@ -156,11 +164,12 @@
     "question": "あなたが私から貰うクリスマスプレゼントは、可燃ごみだけだよ。",
     "answer": "The only thing you’re getting for Christmas from me is burnable garbage.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ea12d97f-955b-4202-8389-3c890605d13d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

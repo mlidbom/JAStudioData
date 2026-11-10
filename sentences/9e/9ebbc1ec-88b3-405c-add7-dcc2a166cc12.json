@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9dc2e7988b36c53679438cea34f55c45c3c4bdcf93dc526bfb4ee7fb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9dc2e7988b36c53679438cea34f55c45c3c4bdcf93dc526bfb4ee7fb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "兵隊"
@@ -170,11 +178,12 @@
     "question": "兵隊達は、気の向くままに森を歩いていた。",
     "answer": "The soldiers wandered the woods aimlessly.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9ebbc1ec-88b3-405c-add7-dcc2a166cc12",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-104a870089d0f06bcd7dd8a455d42deeb4a057048e5a2cef2a3fac3f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-104a870089d0f06bcd7dd8a455d42deeb4a057048e5a2cef2a3fac3f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "直航"
@@ -93,11 +101,12 @@
     "question": "この船は神戸港に直航します。",
     "answer": "This ship is on a direct voyage to Kobe Port.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "724477ec-9071-4d08-a2be-5ea5f52769c1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

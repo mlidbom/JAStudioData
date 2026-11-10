@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0f3dc812b3b05b2f8d9a6e7054ce4696625de5dfceaf949e4c717009.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0f3dc812b3b05b2f8d9a6e7054ce4696625de5dfceaf949e4c717009.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "兵"
@@ -191,11 +199,12 @@
     "question": "今回の戦争では、人間ではなくロボット兵が戦っているようです。",
     "answer": "In this war, it seems that robot soldiers, not humans, will be fighting.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fa651c65-0f03-41bb-af8a-229d34b52c5d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

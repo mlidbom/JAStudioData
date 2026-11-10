@@ -30,15 +30,20 @@
   "partsOfSpeech": [],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-32167084c91555b52346c9634da3506a5be197489547a575d8a0b000.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-32167084c91555b52346c9634da3506a5be197489547a575d8a0b000.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [],
   "sentenceCount": 0,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {
       "singleToken": "required"
@@ -64,7 +69,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "958d566d-54cb-42e5-b5f4-b7b07ad3e126",
   "tags": [

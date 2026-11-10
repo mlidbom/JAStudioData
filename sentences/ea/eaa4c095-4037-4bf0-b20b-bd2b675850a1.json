@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a00abf09943b87cf2480eeb76af41b775fd2349a98e69d0aa51a56c3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a00abf09943b87cf2480eeb76af41b775fd2349a98e69d0aa51a56c3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "重なる"
@@ -226,11 +234,12 @@
     "question": "原因は一つじゃありません。様々な要因が重なって、こうなってしまったんです。",
     "answer": "There's not just one cause. Various factors converged to make it like this.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "eaa4c095-4037-4bf0-b20b-bd2b675850a1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

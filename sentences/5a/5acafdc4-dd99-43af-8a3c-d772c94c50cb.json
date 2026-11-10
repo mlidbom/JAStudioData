@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2d5d493dc82ff744aef6116d80fc80ea234d7ef21e20c28d258ad4b0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2d5d493dc82ff744aef6116d80fc80ea234d7ef21e20c28d258ad4b0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "暴力"
@@ -170,11 +178,12 @@
     "question": "私たちは、父の家庭内暴力が原因で家を出ました。",
     "answer": "We left home because of my father's domestic violence.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5acafdc4-dd99-43af-8a3c-d772c94c50cb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

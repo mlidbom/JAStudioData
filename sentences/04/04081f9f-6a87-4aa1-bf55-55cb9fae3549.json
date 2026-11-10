@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3ce7e8fb2943bc14594e4c582811896261dcf62dc29e068859ab11f6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3ce7e8fb2943bc14594e4c582811896261dcf62dc29e068859ab11f6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "豚肉"
@@ -65,11 +73,12 @@
     "question": "今日は豚肉が安いです。",
     "answer": "Pork is cheap today.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "04081f9f-6a87-4aa1-bf55-55cb9fae3549",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ecd5b8ee241a8100df0edc5bdc639fa1ec61895f4962065f9386cf74.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ecd5b8ee241a8100df0edc5bdc639fa1ec61895f4962065f9386cf74.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "急行"
@@ -163,11 +171,12 @@
     "question": "今日乗った急行列車の車内放送の人の声、めっちゃイケボだった！",
     "answer": "The voice of the person making announcements on the express train I rode today had an amazing, captivating voice!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c166c415-ec18-4e7f-b80e-271cc260acac",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

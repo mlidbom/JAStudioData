@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a2386e9951e61ed07e723f40b5d196e1abb781e54138c13c816dad1f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a2386e9951e61ed07e723f40b5d196e1abb781e54138c13c816dad1f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "会社員"
@@ -233,11 +241,12 @@
     "question": "わたしたちはみんな、会社員である前に、一人の人間なんですよ。",
     "answer": "We're people before we are employees.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3fd28247-b2d7-459c-8be0-a736c871bb65",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

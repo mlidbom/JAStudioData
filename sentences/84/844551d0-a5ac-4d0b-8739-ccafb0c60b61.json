@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e348cec6e3d665a6c8444a70daddbea91b175df30f8a101979d54be3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e348cec6e3d665a6c8444a70daddbea91b175df30f8a101979d54be3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "没"
@@ -135,11 +143,12 @@
     "question": "こないだの原稿は没になってしまった。",
     "answer": "The manuscript was rejected the other day.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "844551d0-a5ac-4d0b-8739-ccafb0c60b61",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

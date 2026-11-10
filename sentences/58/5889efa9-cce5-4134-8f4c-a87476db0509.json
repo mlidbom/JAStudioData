@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a0d8850484fd51f5e0fe89db308ef5319c31c5927b8ccb8646a4ec7e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a0d8850484fd51f5e0fe89db308ef5319c31c5927b8ccb8646a4ec7e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "首"
@@ -121,11 +129,12 @@
     "question": "母は、いつも首にスカーフをつけています。",
     "answer": "My mother always wears a scarf around her neck.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5889efa9-cce5-4134-8f4c-a87476db0509",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

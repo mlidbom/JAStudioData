@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-16f08f395d4ba3d2a23087df3c27a224aaade53befe7d013e437b7a9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-16f08f395d4ba3d2a23087df3c27a224aaade53befe7d013e437b7a9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "重なる"
@@ -275,11 +283,12 @@
     "question": "ここをクリックすると、文字が上に重なるから読めなくなるんだ。バグかな？",
     "answer": "When I click here, the text overlaps and becomes unreadable. Do you think it's a bug?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "487f7146-87eb-421c-b720-1e87da2bcae1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-17c678e1e4f19223bc7bdb4cc51dd2881195678068ce71424c252d86.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-17c678e1e4f19223bc7bdb4cc51dd2881195678068ce71424c252d86.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "波"
@@ -114,11 +122,12 @@
     "question": "今日の海、波が全然なくて静かだね。",
     "answer": "The ocean today is quiet and has no waves at all.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6d15d767-79e3-4ca0-bab6-8e1102dc03f7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

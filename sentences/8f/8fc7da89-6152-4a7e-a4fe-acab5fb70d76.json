@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ecb0311eb991b3d72f3ca46669f0541702d7c9febc722e559f7bc807.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ecb0311eb991b3d72f3ca46669f0541702d7c9febc722e559f7bc807.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "雇用者"
@@ -282,11 +290,12 @@
     "question": "雇用者に新しい電話番号を何度も教えてるのに、いっつも古い方の番号に掛けてくるんだよな。",
     "answer": "I’ve told my new phone number to my employer over and over again, but he always calls me at the old number.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8fc7da89-6152-4a7e-a4fe-acab5fb70d76",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

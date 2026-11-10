@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0d1cf8ff2fc439707f4f0c1d23757c476d272dddf817bd8a57f17de1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0d1cf8ff2fc439707f4f0c1d23757c476d272dddf817bd8a57f17de1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "近い"
@@ -93,11 +101,12 @@
     "question": "ここから近いコンビニはセブンイレブンです。",
     "answer": "The convenience store near here is 7-Eleven.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f929f757-341d-422e-8517-07c8a39afbc3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-33bf599ce2fcc368a1a1fe72052939df10b4c7cc06c93d52c765ec4f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-33bf599ce2fcc368a1a1fe72052939df10b4c7cc06c93d52c765ec4f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -182,11 +190,12 @@
     "question": "蛍光灯は明治維新の頃にはまだ無かったんだよね。",
     "answer": "Fluorescent lights didn’t exist yet during the Meiji Restoration, right?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4077d2dc-12ed-4308-86a2-f28b8be2bbb4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9bd9022b1ba937b87bdec26a88b8476f9d8c9166efd9ce0065be172c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9bd9022b1ba937b87bdec26a88b8476f9d8c9166efd9ce0065be172c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "辞める"
@@ -86,11 +94,12 @@
     "question": "え、会社辞めるの？",
     "answer": "Oh, you're leaving the company?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "68a090d8-8d93-4162-8bac-5ad069eacdf7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

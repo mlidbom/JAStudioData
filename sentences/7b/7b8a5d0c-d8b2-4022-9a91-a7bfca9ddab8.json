@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9956d5aac62032b1b79ea3b5642e6a32989377eb15d528bf457b47f8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9956d5aac62032b1b79ea3b5642e6a32989377eb15d528bf457b47f8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "期限"
@@ -86,11 +94,12 @@
     "question": "レポートの提出期限、いつだっけ？",
     "answer": "When was the essay due?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7b8a5d0c-d8b2-4022-9a91-a7bfca9ddab8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

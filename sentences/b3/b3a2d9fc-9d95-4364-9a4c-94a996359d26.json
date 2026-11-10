@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ae028cd3108eda5e2c510b61716913145dfd8c032a01c87af38eebca.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ae028cd3108eda5e2c510b61716913145dfd8c032a01c87af38eebca.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "演奏"
@@ -240,11 +248,12 @@
     "question": "バンドが舞台で演奏をしている最中に、電球が切れてしまいました。",
     "answer": "The light bulb burned out while the band was performing on stage.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b3a2d9fc-9d95-4364-9a4c-94a996359d26",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

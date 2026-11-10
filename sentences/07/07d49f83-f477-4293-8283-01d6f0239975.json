@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-98f7f9e49c0de772ab63e58ff2923203607151cfbaac5412c5a5b885.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-98f7f9e49c0de772ab63e58ff2923203607151cfbaac5412c5a5b885.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "複数形"
@@ -65,11 +73,12 @@
     "question": "Sheepの複数形はsheepです。",
     "answer": "The plural of sheep is sheep.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "07d49f83-f477-4293-8283-01d6f0239975",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

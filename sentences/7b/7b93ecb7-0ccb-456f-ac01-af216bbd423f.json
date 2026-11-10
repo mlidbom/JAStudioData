@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2ff1f9c8f51c4d84aeb7fb35d85ee3eee83828f452970d18c9fb4b04.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2ff1f9c8f51c4d84aeb7fb35d85ee3eee83828f452970d18c9fb4b04.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "酔う"
@@ -191,11 +199,12 @@
     "question": "みんな船に酔ってしまい、そこら中に吐き散らかしていました。",
     "answer": "Everybody got seasick and puked all over the ship.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7b93ecb7-0ccb-456f-ac01-af216bbd423f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

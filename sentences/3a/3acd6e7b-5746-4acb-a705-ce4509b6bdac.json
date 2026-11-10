@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-595bd5bdc35e8cf4053278c25ee2886b30f5ee5d8846ed66d7fff75c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-595bd5bdc35e8cf4053278c25ee2886b30f5ee5d8846ed66d7fff75c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "対比"
@@ -149,11 +157,12 @@
     "question": "日本とアメリカの映画のポスターを対比してみました。",
     "answer": "I compared Japanese and American movie posters.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3acd6e7b-5746-4acb-a705-ce4509b6bdac",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

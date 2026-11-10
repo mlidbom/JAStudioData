@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f05db56914e3f8d183d64fe01255ccfd163d3191487f5a91e2a220e2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f05db56914e3f8d183d64fe01255ccfd163d3191487f5a91e2a220e2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "来週"
@@ -170,11 +178,12 @@
     "question": "来週のマラソンのために、毎日走って体力をつけています。",
     "answer": "I'm building up my stamina by running every day in preparation for next week's marathon.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b081f3f6-5f16-49c6-b1a5-c3df1c13120c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

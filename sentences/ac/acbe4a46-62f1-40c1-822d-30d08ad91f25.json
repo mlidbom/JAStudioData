@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3229a742cc79c952c768a2f08b17a09330f5fe4036eabaaf3010bff7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3229a742cc79c952c768a2f08b17a09330f5fe4036eabaaf3010bff7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "変更"
@@ -191,11 +199,12 @@
     "question": "予約していたディナーのコースの変更って、今からできますか？",
     "answer": "Is changing the course for the dinner I had reserved something I can still do now?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "acbe4a46-62f1-40c1-822d-30d08ad91f25",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

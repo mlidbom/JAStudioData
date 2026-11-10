@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d75ad4b5f1ffd3e236983c1ac1e8a654172e190c0e5d3f6e299a3c72.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d75ad4b5f1ffd3e236983c1ac1e8a654172e190c0e5d3f6e299a3c72.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "菅原"
@@ -72,11 +80,12 @@
     "question": "あれ、菅原さん、風邪ですか？",
     "answer": "Oh, Sugawara-san, do you have a cold?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "055f5235-2bda-4d75-ae08-87dca82edac7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

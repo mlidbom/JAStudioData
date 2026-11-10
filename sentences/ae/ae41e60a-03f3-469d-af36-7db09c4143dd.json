@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-eb166b3f07d330a8024e836f62175e52a1a16458e97afd95b66ca2b4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-eb166b3f07d330a8024e836f62175e52a1a16458e97afd95b66ca2b4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "折り目"
@@ -114,11 +122,12 @@
     "question": "彼はゼッタイに折り目をつけずに本を読みます。",
     "answer": "He reads books without ever creasing the pages.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ae41e60a-03f3-469d-af36-7db09c4143dd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

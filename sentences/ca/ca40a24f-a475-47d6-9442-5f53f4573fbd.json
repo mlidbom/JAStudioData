@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bc81a61c03e876ff9d8ecf509a7a54d5731a57e616b5f40884b23abc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bc81a61c03e876ff9d8ecf509a7a54d5731a57e616b5f40884b23abc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お菓子"
@@ -114,11 +122,12 @@
     "question": "甘くないお菓子だったら、ポテトチップスが人気ですよ。",
     "answer": "For a snack that isn't sweet, potato chips are a popular choice.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ca40a24f-a475-47d6-9442-5f53f4573fbd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

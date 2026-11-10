@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1190af23e4085296dde214e7831773b0011a753c27ecdf02eceeeb60.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1190af23e4085296dde214e7831773b0011a753c27ecdf02eceeeb60.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "人参"
@@ -107,11 +115,12 @@
     "question": "何でも食べれるけど、人参だけはムリです。",
     "answer": "I can eat anything, but carrots are the only thing I can't handle.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ef4a6d94-d60b-4186-a1c8-a246af0e395c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

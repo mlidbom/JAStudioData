@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e9ec9220a5233dba555a7d8eb700375fa15b0c48927d5cefc2e1fcab.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e9ec9220a5233dba555a7d8eb700375fa15b0c48927d5cefc2e1fcab.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "次回"
@@ -177,11 +185,12 @@
     "question": "次回なんてないんだよ。人生は一回しかないんだから。",
     "answer": "There's no next time. We only live once.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "756af0d8-d1d1-4659-b051-f7e545168726",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

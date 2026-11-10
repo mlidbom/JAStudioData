@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d9afd8fbb9da54ae3dc86440c25a80dee1b3317eec4949656e7d8be5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d9afd8fbb9da54ae3dc86440c25a80dee1b3317eec4949656e7d8be5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "初めて"
@@ -65,11 +73,12 @@
     "question": "日本は初めてですか？",
     "answer": "Is this your first time in Japan?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c663aebd-3b51-4bb1-9ae5-6bbd3d140e19",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e0ce0616043c7edd2835af27ee46cdb489d80806f6d64b2ab301d128.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e0ce0616043c7edd2835af27ee46cdb489d80806f6d64b2ab301d128.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "〜県"
@@ -79,11 +87,12 @@
     "question": "山口県の名物はフグです。",
     "answer": "Yamaguchi prefecture's specialty is puffer fish.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e08be148-edd9-4903-a2f4-2c04976a3ee1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

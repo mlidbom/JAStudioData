@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8fe206abf0dfbe2f8994e8975b63425eb64245ecb01d7067104263f0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8fe206abf0dfbe2f8994e8975b63425eb64245ecb01d7067104263f0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "雨天"
@@ -107,11 +115,12 @@
     "question": "マリンスポーツは雨天でもできますか？",
     "answer": "Can we still do marine sports under a rainy weather?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7609cb5e-557c-45bd-be29-ac4abfe142c1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

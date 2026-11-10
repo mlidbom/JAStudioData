@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-07a25d7f2fd2b1e1849b02a16bdb107d6bbbc4fb119854fcb6d9abc0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-07a25d7f2fd2b1e1849b02a16bdb107d6bbbc4fb119854fcb6d9abc0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "我々"
@@ -210,11 +218,12 @@
     "question": "仕方ないです。原因を作った我々が悪いと思うようにします。",
     "answer": "It can't be helped. I'll try to think of it as our fault for causing it.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e3ee450d-c36f-46b6-9c5c-10d75077204c",
   "tags": [
-    "_tts_audio",
     "-::sentence::uses::incorrect-matches",
     "source::wani::current"
   ]

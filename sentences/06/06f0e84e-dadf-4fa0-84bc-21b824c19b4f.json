@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7f58c2a22b8faa4b74880f3949415c0202d82df597f1ea7364b4c35f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7f58c2a22b8faa4b74880f3949415c0202d82df597f1ea7364b4c35f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "三日月"
@@ -51,11 +59,12 @@
     "question": "今日は三日月です。",
     "answer": "There's a crescent moon today.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "06f0e84e-dadf-4fa0-84bc-21b824c19b4f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

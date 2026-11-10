@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-714c3f1ef931ac162a44ec4b0d63b17bdde9de6c2b5f45ac01c3c56a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-714c3f1ef931ac162a44ec4b0d63b17bdde9de6c2b5f45ac01c3c56a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "〜券"
@@ -156,11 +164,12 @@
     "question": "映画の券が余ってるんだけど、よかったらいらない？",
     "answer": "I have an extra movie ticket, would you like it?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fb5c2d61-cf5d-492d-89e7-052b29999cbe",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

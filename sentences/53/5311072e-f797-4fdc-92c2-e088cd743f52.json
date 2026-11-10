@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-da8f5d73068182c61dd7895e1a0b785e35cd49b078554a8cea74d147.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-da8f5d73068182c61dd7895e1a0b785e35cd49b078554a8cea74d147.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "気候"
@@ -100,11 +108,12 @@
     "question": "ポートランドと東京の気候はどのぐらい違いますか。",
     "answer": "How different are the climates of Portland and Tokyo?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5311072e-f797-4fdc-92c2-e088cd743f52",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

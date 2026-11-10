@@ -32,9 +32,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "[sound:hypertts-b0b36146b081cfc5241672a9f9f5c089792c04f0167c99e65e8d671b.mp3]",
-  "audioG": "",
-  "audioTTS": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b0b36146b081cfc5241672a9f9f5c089792c04f0167c99e65e8d671b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "付いていく",
@@ -64,8 +70,7 @@
   "sentenceCount": 5,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -89,7 +94,9 @@
   "sourceData": {
     "answer": "to{?}{accompany/follow/keep-up-with}",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "c8d35c4e-72eb-438f-afbd-0b4a07d16864",
   "tags": [

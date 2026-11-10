@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-30194cab214f4083c1e609ddd8b78e9ca7ab743b4e00db482e9d5606.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-30194cab214f4083c1e609ddd8b78e9ca7ab743b4e00db482e9d5606.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "褒める"
@@ -212,11 +220,12 @@
     "question": "どう返答していいか分からないので、人に褒められるのは苦手です。",
     "answer": "I’m bad at being complimented because I don’t know how to respond.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9f5dbe1f-bd55-4439-9117-9cb1a0c56804",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7e3d125e960bd731d734749ed23df276bc2b24bb93a18d7f571eef23.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7e3d125e960bd731d734749ed23df276bc2b24bb93a18d7f571eef23.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "出版する"
@@ -226,11 +234,12 @@
     "question": "彼は有名な小説家だが、時々自費出版することもあるんだよ。",
     "answer": "Although he is a famous fiction writer, he sometimes self-publishes his books.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4fe5bac2-5f25-4055-9d31-580ce96c959d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

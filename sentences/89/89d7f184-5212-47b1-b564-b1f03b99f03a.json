@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cacb17dbd090edd9e2a56ab810883eaaf14faa87da2e1d36e79ea650.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cacb17dbd090edd9e2a56ab810883eaaf14faa87da2e1d36e79ea650.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "春巻き"
@@ -100,11 +108,12 @@
     "question": "私の大好物は生春巻きです。",
     "answer": "My favorite food is fresh spring rolls.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "89d7f184-5212-47b1-b564-b1f03b99f03a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

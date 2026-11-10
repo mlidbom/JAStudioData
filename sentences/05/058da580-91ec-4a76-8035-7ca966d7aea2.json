@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-44af212aa9d4766120f717d32e6a5203edf0a2b1787b8fabc63c4f21.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-44af212aa9d4766120f717d32e6a5203edf0a2b1787b8fabc63c4f21.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "派遣"
@@ -107,11 +115,12 @@
     "question": "アメリカ軍はイラクに軍を派遣した。",
     "answer": "The American military deployed a unit to Iraq.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "058da580-91ec-4a76-8035-7ca966d7aea2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

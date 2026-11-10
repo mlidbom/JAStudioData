@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0ffff9e2b8cc19724921511bcd790cffb22d0ca5badce3b73ffa0cd5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0ffff9e2b8cc19724921511bcd790cffb22d0ca5badce3b73ffa0cd5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "詠嘆"
@@ -142,11 +150,12 @@
     "question": "その山の頂上から見た夕日の美しさに詠嘆した。",
     "answer": "I marveled at the beauty of the sunset I saw from the top of that mountain.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3149fe75-96ee-4712-afba-757df9f357c4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

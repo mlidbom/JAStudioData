@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6c309e06a2c51c5abd7a8fcc3a16945366337c5ab148def2eb6fe93e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6c309e06a2c51c5abd7a8fcc3a16945366337c5ab148def2eb6fe93e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "土曜日"
@@ -79,11 +87,12 @@
     "question": "土曜日は雨みたいですね。",
     "answer": "It looks like it will rain on Saturday.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2d405a6f-24dc-4995-9ae1-dda689e59b8c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

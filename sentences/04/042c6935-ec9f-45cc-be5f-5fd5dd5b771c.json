@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cba1d1caafffd3e881c483786943c93d70601918389fa0be8ee0c45e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cba1d1caafffd3e881c483786943c93d70601918389fa0be8ee0c45e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "肺臓"
@@ -107,11 +115,12 @@
     "question": "私の祖父は肺臓炎で亡くなりました。",
     "answer": "My grandfather died of inflammation of the lungs.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "042c6935-ec9f-45cc-be5f-5fd5dd5b771c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

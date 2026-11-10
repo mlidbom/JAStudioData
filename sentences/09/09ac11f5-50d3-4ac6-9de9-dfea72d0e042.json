@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-34621b34f7391b2471959bc299ee95724fbaa817f6e9a7a83d82cd8c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-34621b34f7391b2471959bc299ee95724fbaa817f6e9a7a83d82cd8c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "組"
@@ -107,11 +115,12 @@
     "question": "この男は、有名なヤクザの組のリーダーですよ。",
     "answer": "This man is the leader of a famous yakuza organization.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "09ac11f5-50d3-4ac6-9de9-dfea72d0e042",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

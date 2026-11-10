@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-05386679098f45f9ac670ad5e3c9189321ce43d6d66be3413afa16ee.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-05386679098f45f9ac670ad5e3c9189321ce43d6d66be3413afa16ee.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "欠陥"
@@ -212,11 +220,12 @@
     "question": "消費者からこの商品の安全性の欠陥が指摘されています。",
     "answer": "The safety defect in this product was identified by consumers.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f721bca8-33ff-4f09-bed9-9502e3c63504",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

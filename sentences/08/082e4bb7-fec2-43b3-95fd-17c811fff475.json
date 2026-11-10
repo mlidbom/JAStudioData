@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fc0c723b8ebf6ad464e276d496499a0ba8abf2c44611db9eca455842.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fc0c723b8ebf6ad464e276d496499a0ba8abf2c44611db9eca455842.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "微生物"
@@ -177,11 +185,12 @@
     "question": "微生物学の専門家は何時に来る予定ですか。",
     "answer": "What time is the microbiology specialist scheduled for?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "082e4bb7-fec2-43b3-95fd-17c811fff475",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

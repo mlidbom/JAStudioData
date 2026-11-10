@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-429a421112bea4106aa9082418e3afdb414747a20dc601137116aa95.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-429a421112bea4106aa9082418e3afdb414747a20dc601137116aa95.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "痛む"
@@ -205,11 +213,12 @@
     "question": "昨日の夜から歯が酷く痛むんですが、診てもらえますか。",
     "answer": "I’ve had a bad toothache since last night, so could you check that for me please?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d758a983-2c29-4bf3-9b22-893315735542",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

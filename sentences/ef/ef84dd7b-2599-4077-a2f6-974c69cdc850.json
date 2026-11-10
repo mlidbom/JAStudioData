@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7b77c6a3e8cce0b291631a9993e7e73f171c7f502e3258a2d604a534.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7b77c6a3e8cce0b291631a9993e7e73f171c7f502e3258a2d604a534.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "弟"
@@ -79,11 +87,12 @@
     "question": "弟は、テレビを見ません。",
     "answer": "My brother doesn't watch TV.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ef84dd7b-2599-4077-a2f6-974c69cdc850",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

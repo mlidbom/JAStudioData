@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5909aeab608352e0e1c1aaaa593f40570415944b39538a87d8de9fd2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5909aeab608352e0e1c1aaaa593f40570415944b39538a87d8de9fd2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "約款"
@@ -79,11 +87,12 @@
     "question": "きちんと約款を読みましたか？",
     "answer": "Did you read the agreement thoroughly?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a383a225-cce5-408b-bfdc-64a79c919281",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

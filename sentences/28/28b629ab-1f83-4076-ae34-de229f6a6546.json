@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1e6fda9501d34824c99e9afe3116b7ac14cc31426bb9e2f179cc0b32.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1e6fda9501d34824c99e9afe3116b7ac14cc31426bb9e2f179cc0b32.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お兄さん"
@@ -114,11 +122,12 @@
     "question": "あの男の人が、山田さんのお兄さんです。",
     "answer": "That man is Yamada's older brother.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "28b629ab-1f83-4076-ae34-de229f6a6546",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

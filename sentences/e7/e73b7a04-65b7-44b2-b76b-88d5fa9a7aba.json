@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2b8676356cdfd2d6f5bc2943ecd1e9800ff9588ce769938908c62002.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2b8676356cdfd2d6f5bc2943ecd1e9800ff9588ce769938908c62002.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "昼ご飯"
@@ -100,11 +108,12 @@
     "question": "昼ご飯にはカレーライスが食べたいです。",
     "answer": "I want to eat curry rice for lunch.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e73b7a04-65b7-44b2-b76b-88d5fa9a7aba",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

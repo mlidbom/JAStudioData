@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b034b5a06e72613d41ebb6174782b0485675f2a03601e05ace288019.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b034b5a06e72613d41ebb6174782b0485675f2a03601e05ace288019.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "銀行"
@@ -121,11 +129,12 @@
     "question": "私の姉は銀行で働いています。",
     "answer": "My older sister works at a bank.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9f526c35-5728-4e63-8d01-083ef9936017",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

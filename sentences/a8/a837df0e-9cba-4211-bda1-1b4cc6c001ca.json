@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-37b9495972d3f6f39f632012462c1f6f9e9ed518710c60b581be51f5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-37b9495972d3f6f39f632012462c1f6f9e9ed518710c60b581be51f5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "光"
@@ -93,11 +101,12 @@
     "question": "夕べの光、見た？きっとUFOだったね。",
     "answer": "Did you see that light last night? It was probably a UFO.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a837df0e-9cba-4211-bda1-1b4cc6c001ca",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

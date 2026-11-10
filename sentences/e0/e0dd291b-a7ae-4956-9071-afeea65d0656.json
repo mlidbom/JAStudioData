@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9280ed9834e8a4246c8c8536657034d7642e21490acd322ddb29b17a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9280ed9834e8a4246c8c8536657034d7642e21490acd322ddb29b17a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "登山"
@@ -51,11 +59,12 @@
     "question": "登山は楽しいです。",
     "answer": "Mountain climbing is fun.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e0dd291b-a7ae-4956-9071-afeea65d0656",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

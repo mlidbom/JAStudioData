@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5a17e261b3269eab2120efc1464c8de4dad23f3e1754980b6c031d7a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5a17e261b3269eab2120efc1464c8de4dad23f3e1754980b6c031d7a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一台"
@@ -114,11 +122,12 @@
     "question": "うちにはテレビが一台しかない。",
     "answer": "We have only one TV at home.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "69b41c4d-97f0-4b7e-b0c5-3fc498ccb6b6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

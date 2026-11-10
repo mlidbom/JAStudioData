@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d1b8a70c6d4fdf692a91c1fd7a11fc9c33bb8a792a411c3464d7db49.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d1b8a70c6d4fdf692a91c1fd7a11fc9c33bb8a792a411c3464d7db49.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "上演"
@@ -114,11 +122,12 @@
     "question": "ライオンキングの上演時間を教えて下さい。",
     "answer": "Can you tell me the time of the Lion King performance? ",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1572dffe-17c4-4c03-905d-299842d2856b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

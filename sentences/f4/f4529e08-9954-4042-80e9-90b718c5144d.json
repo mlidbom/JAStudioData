@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f1a7ed56df8f74dfd493f3240f35301583d7774a5dadb29b7282f7ba.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f1a7ed56df8f74dfd493f3240f35301583d7774a5dadb29b7282f7ba.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "弊社"
@@ -163,11 +171,12 @@
     "question": "本キャンペーンは、弊社の都合により告知なしに終了する場合がございます。",
     "answer": "This campaign may be terminated without notice depending on our company's circumstances.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f4529e08-9954-4042-80e9-90b718c5144d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

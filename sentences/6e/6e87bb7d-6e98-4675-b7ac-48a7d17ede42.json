@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7fe4111611bfc515134fb1878eb9624d2e340f187b9e76abb284e1f4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7fe4111611bfc515134fb1878eb9624d2e340f187b9e76abb284e1f4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "井戸"
@@ -128,11 +136,12 @@
     "question": "井戸に入ってはいけないよ。",
     "answer": "You must not go into the well.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6e87bb7d-6e98-4675-b7ac-48a7d17ede42",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

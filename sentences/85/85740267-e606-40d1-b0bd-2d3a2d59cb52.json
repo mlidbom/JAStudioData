@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2b1df132a31e845aad9d62aa65fd9968fd64e4a59309000e61afb307.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2b1df132a31e845aad9d62aa65fd9968fd64e4a59309000e61afb307.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一番"
@@ -107,11 +115,12 @@
     "question": "これが、今全米で一番人気の曲ですよ。",
     "answer": "This is the most popular song in all of America right now.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "85740267-e606-40d1-b0bd-2d3a2d59cb52",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

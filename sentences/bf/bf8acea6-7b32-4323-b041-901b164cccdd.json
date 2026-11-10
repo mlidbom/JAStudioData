@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-155afdb9df35c08d94ba0211ab3d5def8ba3341f520b322c5adc6f43.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-155afdb9df35c08d94ba0211ab3d5def8ba3341f520b322c5adc6f43.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "否定"
@@ -142,11 +150,12 @@
     "question": "二重否定の文はいつも上手く訳せないんです。",
     "answer": "I can't always translate double negative sentences well.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bf8acea6-7b32-4323-b041-901b164cccdd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

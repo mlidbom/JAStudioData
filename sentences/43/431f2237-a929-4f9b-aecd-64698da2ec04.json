@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-45e000ab98a715470543c31c7311d4fd0a0151a6a28b23f5abe75f60.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-45e000ab98a715470543c31c7311d4fd0a0151a6a28b23f5abe75f60.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "最悪"
@@ -142,11 +150,12 @@
     "question": "「昨夜、自動車を盗まれちゃったんだよ。」「げっ、最悪じゃん。」",
     "answer": "\"My car was stolen last night.\" \"Oh, no! That’s the worst!\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "431f2237-a929-4f9b-aecd-64698da2ec04",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

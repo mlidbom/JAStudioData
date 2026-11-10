@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dbfaa7a1bff1a19bd6092d99ae02fa1ea6991d702a71acfdef801e2c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dbfaa7a1bff1a19bd6092d99ae02fa1ea6991d702a71acfdef801e2c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "抜き出す"
@@ -205,11 +213,12 @@
     "question": "問4： 友子が泣き出した理由は何ですか。文中の言葉を17字で抜き出して答えなさい。",
     "answer": "Q4: What is the reason why Tomoko started crying? Answer the question by selecting seventeen characters from the text.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c9bab90c-5fd2-4a40-a966-a4862ff28721",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

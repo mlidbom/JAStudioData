@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e823de797751d31824852b9c4145d6246375623eb0ca4e5cb0e66734.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e823de797751d31824852b9c4145d6246375623eb0ca4e5cb0e66734.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "閉める"
@@ -72,11 +80,12 @@
     "question": "寒いから、ドア閉めるね！",
     "answer": "It's cold, so I'll close the door, okay?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2f4afecd-e1cc-4806-bc0b-324af439e802",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

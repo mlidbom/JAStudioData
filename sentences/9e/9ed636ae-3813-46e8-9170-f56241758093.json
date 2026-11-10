@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-10d3a33e3db560b2601de6cfd83656d6a4669ea3c3b5279bc9c0dd3e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-10d3a33e3db560b2601de6cfd83656d6a4669ea3c3b5279bc9c0dd3e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "見える"
@@ -72,11 +80,12 @@
     "question": "あそこの村人が見えますか？",
     "answer": "Can you see the villager over there?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9ed636ae-3813-46e8-9170-f56241758093",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

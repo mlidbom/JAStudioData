@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a0276bede532c52c2d84fae145dd9ff946d6b2ec2ef7e5556a2b4338.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a0276bede532c52c2d84fae145dd9ff946d6b2ec2ef7e5556a2b4338.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "洋風"
@@ -212,11 +220,12 @@
     "question": "私の家は、家具を全て洋風に揃えているので、畳はありません。",
     "answer": "My house is entirely furnished in the Western style, so there are no tatami mats.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "90ddc5f3-fafd-457f-8494-9463ea8dccdd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

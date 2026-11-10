@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-95a7468a87a767e4282008ad75b2d1032149d4b4aafcd2f13c9ffcec.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-95a7468a87a767e4282008ad75b2d1032149d4b4aafcd2f13c9ffcec.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "議論"
@@ -268,11 +276,12 @@
     "question": "私はその議論には意味がないと思ってるんですが、あなたはどんなご意見をお持ちですか？",
     "answer": "I see no point in that argument, what is your opinion?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bc9a11ef-4a92-4153-91af-27a1b678409b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

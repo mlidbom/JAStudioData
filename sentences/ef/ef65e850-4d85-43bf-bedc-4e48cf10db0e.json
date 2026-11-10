@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ad20ffd67670d94876805d32fc635159a5de6048a352a7d8cfded516.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ad20ffd67670d94876805d32fc635159a5de6048a352a7d8cfded516.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "本来"
@@ -128,11 +136,12 @@
     "question": "本来はリモートワークですが、今日は本社にいます。",
     "answer": "I usually work remote, but today I am at the head office.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ef65e850-4d85-43bf-bedc-4e48cf10db0e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-51d6f1122d0f07113c543ac3ef8e5f9973874cb1cc6b887726c036c4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-51d6f1122d0f07113c543ac3ef8e5f9973874cb1cc6b887726c036c4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "総理大臣"
@@ -135,11 +143,12 @@
     "question": "ぼくのおじいちゃんは昔、総理大臣だったんだって。",
     "answer": "I heard that my grandpa used to be the prime minister.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a1ab601c-4aac-419b-963d-4dffadfd892c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

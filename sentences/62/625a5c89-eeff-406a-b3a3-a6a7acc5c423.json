@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-80fd0f7c0dbe33c64a02437a3aef7614a83c0617111cd2296ce5ca24.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-80fd0f7c0dbe33c64a02437a3aef7614a83c0617111cd2296ce5ca24.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "選挙"
@@ -303,11 +311,12 @@
     "question": "今回の選挙結果には多くの人が批判的で、もう一度選挙し直すべきだと言っています。",
     "answer": "Many people have been critical of the results of this election, and they say the whole thing should be redone.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "625a5c89-eeff-406a-b3a3-a6a7acc5c423",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

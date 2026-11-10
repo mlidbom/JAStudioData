@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-77abf1a2ebc953348ee8d369cd6da24a86d9d4b3e18e206d1221abc6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-77abf1a2ebc953348ee8d369cd6da24a86d9d4b3e18e206d1221abc6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "平凡"
@@ -156,11 +164,12 @@
     "question": "平凡な毎日に退屈していたんです。",
     "answer": "I’m bored with the ordinary every day.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9fa561a4-00aa-410f-9cf3-9b81084ae420",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

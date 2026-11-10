@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4594c851bf92c29fd56580877b55894441cdc8dcc7c06984f72d7d3b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4594c851bf92c29fd56580877b55894441cdc8dcc7c06984f72d7d3b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "後で"
@@ -100,11 +108,12 @@
     "question": "後でホテルに来て下さい。",
     "answer": "Please come to the hotel later.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f3639522-9311-4878-9934-e0c06d49243e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-225d1b14d6e4316052a76f6a729c095389da653c15ffe4318ea741a6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-225d1b14d6e4316052a76f6a729c095389da653c15ffe4318ea741a6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "同日"
@@ -114,11 +122,12 @@
     "question": "DVDとCDが同日にリリースされた。",
     "answer": "The DVD and CD were released on the same day.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "25850795-1308-46cf-9c97-3e7d31699a20",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

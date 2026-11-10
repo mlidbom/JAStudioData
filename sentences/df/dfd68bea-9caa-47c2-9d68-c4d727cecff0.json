@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f748e3ffc67af8e231a4032cfa8737fe61675f1de184108edef7bb29.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f748e3ffc67af8e231a4032cfa8737fe61675f1de184108edef7bb29.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "城"
@@ -114,11 +122,12 @@
     "question": "この城の中では、飲食は禁止です。",
     "answer": "Eating and drinking are prohibited in this castle.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dfd68bea-9caa-47c2-9d68-c4d727cecff0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

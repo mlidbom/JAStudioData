@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9404a4234c31f9a4bc9db61a9157b56428d4719b0da852b206caf471.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9404a4234c31f9a4bc9db61a9157b56428d4719b0da852b206caf471.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "浅い"
@@ -198,11 +206,12 @@
     "question": "この川は浅いところと深いところがあるから、気をつけてね。",
     "answer": "This river has both shallow and deep areas, so be careful.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3801e303-094e-4217-be7f-0cd2377f32e0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d111f6b008cde54982d395b7c0cebaf4b7fe86379759ef0d61f2d3c7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d111f6b008cde54982d395b7c0cebaf4b7fe86379759ef0d61f2d3c7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "恐竜"
@@ -156,11 +164,12 @@
     "question": "あの哲学者は、ペットに恐竜を四匹飼っています。",
     "answer": "That philosopher has four dinosaurs as pets.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8e931d44-ebd1-42a0-9dc2-ccb134e75fba",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

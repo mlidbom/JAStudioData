@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0f57a74424e8731d99384f69dacad5c68f20f99336f1faa6231302be.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0f57a74424e8731d99384f69dacad5c68f20f99336f1faa6231302be.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "妹"
@@ -121,11 +129,12 @@
     "question": "二人の妹とプールに行きました。",
     "answer": "I went to the pool with my two baby sisters.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fcd7bb2a-4535-46b9-ad53-1fd4695d0758",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

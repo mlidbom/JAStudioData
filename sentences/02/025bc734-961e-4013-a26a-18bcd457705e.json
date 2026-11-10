@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bd17ce4d821b47bac9d4aed3d46db90b1fa57fd372b1a376699cce6b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bd17ce4d821b47bac9d4aed3d46db90b1fa57fd372b1a376699cce6b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "問題"
@@ -261,11 +269,12 @@
     "question": "「週末、私の犬の世話をしてもらえないかな？」「問題ないよ。任せといて。」",
     "answer": "\"Can you look after my dog for the weekend?\" \"No problem. You can count on me.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "025bc734-961e-4013-a26a-18bcd457705e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

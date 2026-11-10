@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ea5511e12c9d6da1c3e9593486d05e308821f0f635c2db406d0fa685.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ea5511e12c9d6da1c3e9593486d05e308821f0f635c2db406d0fa685.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "活用形"
@@ -107,11 +115,12 @@
     "question": "「立つ」の活用形が分かりません。",
     "answer": "I don't know the conjugation forms of \"tatsu\".",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "04ae13dd-12e4-43db-b5a9-ccd09c60fd41",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

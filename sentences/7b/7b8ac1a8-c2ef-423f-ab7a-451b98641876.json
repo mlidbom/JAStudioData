@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0f93c931987ae5b08ff315742d18251b908a6b22cdd3258cb4b32eef.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0f93c931987ae5b08ff315742d18251b908a6b22cdd3258cb4b32eef.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "傷"
@@ -233,11 +241,12 @@
     "question": "京都駅の階段で転んでできた傷は十年経った今もまだ治っていません。",
     "answer": "The scars from a fall on the stairs at Kyoto Station have still not healed after ten years.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7b8ac1a8-c2ef-423f-ab7a-451b98641876",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

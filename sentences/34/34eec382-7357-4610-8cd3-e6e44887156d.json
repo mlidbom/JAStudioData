@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-64c89cbff2d7cbe7af34561e818fc083c6c33205b3649dc8eb2e54d4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-64c89cbff2d7cbe7af34561e818fc083c6c33205b3649dc8eb2e54d4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "太鼓"
@@ -142,11 +150,12 @@
     "question": "お腹がパンパンで太鼓みたいになっています。",
     "answer": "My stomach is so full that it looks like a drum.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "34eec382-7357-4610-8cd3-e6e44887156d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

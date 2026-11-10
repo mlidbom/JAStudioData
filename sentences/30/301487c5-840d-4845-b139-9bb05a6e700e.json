@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-140dfec883b36959c38fd8849fae81cec00efb66633423f2e6eec7d0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-140dfec883b36959c38fd8849fae81cec00efb66633423f2e6eec7d0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "要求"
@@ -79,11 +87,12 @@
     "question": "うちの犬は要求が多い。",
     "answer": "Our dog has many demands.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "301487c5-840d-4845-b139-9bb05a6e700e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

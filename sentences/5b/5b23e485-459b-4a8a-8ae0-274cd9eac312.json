@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7eac089278fdcab64ed18e78e2629ce68586dbbb067126f8113d0073.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7eac089278fdcab64ed18e78e2629ce68586dbbb067126f8113d0073.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "説明"
@@ -163,11 +171,12 @@
     "question": "このボードゲームのルールを説明してもらえますか？",
     "answer": "Could you explain the rules of this board game?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5b23e485-459b-4a8a-8ae0-274cd9eac312",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b8d5ec8c8135f24d6ae6e90e4a52c1efce8b33863930eae122557c4d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b8d5ec8c8135f24d6ae6e90e4a52c1efce8b33863930eae122557c4d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "麺つゆ"
@@ -79,11 +87,12 @@
     "question": "この麺つゆが最高においしいよ。",
     "answer": "This mentsuyu is the best!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ffc1e6a8-c5c7-4784-946d-87c00b22eb1d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

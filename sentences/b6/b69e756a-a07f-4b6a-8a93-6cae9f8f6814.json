@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-32e5261b56ca219b331c2147f01ed5c2b358b24a2fee252fb01af9f8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-32e5261b56ca219b331c2147f01ed5c2b358b24a2fee252fb01af9f8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "詠う"
@@ -149,11 +157,12 @@
     "question": "これは、彼が恋人のために詠った愛の詩です。",
     "answer": "This is a love poem he composed for his girlfriend.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b69e756a-a07f-4b6a-8a93-6cae9f8f6814",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6d03bec187c86daf1a42d1c2613566a4615b01ca15ce213317a6cd8b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6d03bec187c86daf1a42d1c2613566a4615b01ca15ce213317a6cd8b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "回る"
@@ -142,11 +150,12 @@
     "question": "スシには、「回るスシ」と「回らないスシ」二つのタイプがあります。",
     "answer": "There are two types of sushi. \"Sushi that goes around\" and \"sushi that doesn't go around\".",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2860113d-d1e5-4754-a644-fd321a8819a7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c527ec2f9f5c7b6ec542973fa71d90ccdd0064e410349d28cb025e15.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c527ec2f9f5c7b6ec542973fa71d90ccdd0064e410349d28cb025e15.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "必勝"
@@ -170,11 +178,12 @@
     "question": "姉は必勝すると思い、宝くじに二万円を使った。",
     "answer": "Thinking she would definitely win, my sister spent 20,000 yen on the lottery.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "010c8940-7a5e-41b1-bf0f-e2191b596073",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

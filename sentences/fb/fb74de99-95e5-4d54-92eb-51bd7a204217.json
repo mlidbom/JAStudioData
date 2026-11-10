@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cc41366e419067b3aab1f4f02a80775233c3b621f741e4271c68791f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cc41366e419067b3aab1f4f02a80775233c3b621f741e4271c68791f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "作業"
@@ -233,11 +241,12 @@
     "question": "今日は一日中「作業ハンドブックを作る」という作業をしていました。",
     "answer": "Today, I was working on making an operations handbook all day long.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fb74de99-95e5-4d54-92eb-51bd7a204217",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

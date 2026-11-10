@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ef4dfcc3809b05a1a91b2f1056b23c1a3829388fbd9af1210b32c3eb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ef4dfcc3809b05a1a91b2f1056b23c1a3829388fbd9af1210b32c3eb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "五台"
@@ -93,11 +101,12 @@
     "question": "ホテルにパトカーが五台きた。",
     "answer": "Five police cars came to the hotel.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "53c0f75c-1930-48b4-8ce4-48a9377e530a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

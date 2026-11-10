@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e1b955f17799baa446d581567684db342332e417da825b1ee1207187.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e1b955f17799baa446d581567684db342332e417da825b1ee1207187.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "報道"
@@ -86,11 +94,12 @@
     "question": "ウソを報道するな！",
     "answer": "Don't report lies!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3b2ba625-c0cb-404d-931f-19441e8295fc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

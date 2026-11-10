@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bbf828dc9211afe4924165c8c0d2647ca3e8654fa3c731a36838a346.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bbf828dc9211afe4924165c8c0d2647ca3e8654fa3c731a36838a346.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "伝説"
@@ -205,11 +213,12 @@
     "question": "伝説によると、この海にはワニカニが住んでいるそうです。",
     "answer": "According to a legend, there is WaniKani in this ocean.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9d358d9f-72d1-4b49-88d0-597d79ed11cf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

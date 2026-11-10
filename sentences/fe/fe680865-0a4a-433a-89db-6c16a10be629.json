@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9a4bdc6bcbb73a722075825d2b5b6c99a664602550fe39ecd28a6e37.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9a4bdc6bcbb73a722075825d2b5b6c99a664602550fe39ecd28a6e37.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "予約"
@@ -191,11 +199,12 @@
     "question": "夏休みに日本へ行くなら早めに予約した方がいいですよ。",
     "answer": "If you're planning to go to Japan during the summer break, it's better to book early.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fe680865-0a4a-433a-89db-6c16a10be629",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

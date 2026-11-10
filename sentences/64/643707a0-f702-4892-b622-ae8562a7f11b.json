@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-70bf12e7f0e4f19ce30a0e481a70f5b8af35509d8317c2423708dfa9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-70bf12e7f0e4f19ce30a0e481a70f5b8af35509d8317c2423708dfa9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "典型的"
@@ -163,11 +171,12 @@
     "question": "それは日本語学習者が犯す典型的な間違いだね。",
     "answer": "That's a typical mistake that Japanese learners make.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "643707a0-f702-4892-b622-ae8562a7f11b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

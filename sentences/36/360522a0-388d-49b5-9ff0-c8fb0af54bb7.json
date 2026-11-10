@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3d59afcd68f2d2ab5fb3502a412ff26019cd9389b6c928a6a0ecc530.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3d59afcd68f2d2ab5fb3502a412ff26019cd9389b6c928a6a0ecc530.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "退院する"
@@ -149,11 +157,12 @@
     "question": "お父さんが退院したらみんなでお祝いをしよう。",
     "answer": "When Dad gets discharged from the hospital, let's celebrate.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "360522a0-388d-49b5-9ff0-c8fb0af54bb7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

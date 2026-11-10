@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-961694a7c5dfe7ee260da35947f9edcc4a2bc7379bc530cae232dafb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-961694a7c5dfe7ee260da35947f9edcc4a2bc7379bc530cae232dafb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "口調"
@@ -79,11 +87,12 @@
     "question": "先生は、いつも同じ口調で話します。",
     "answer": "The teacher always talks in the same tone.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "87ca7dc0-5a1f-4faa-8d2f-9c1753698a3d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

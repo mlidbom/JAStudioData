@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cb67d4e9b00286bc586fbd51e9d320248c15834d886c6c0bf40db427.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cb67d4e9b00286bc586fbd51e9d320248c15834d886c6c0bf40db427.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "住宅"
@@ -156,11 +164,12 @@
     "question": "この地域の住宅は、あの大地震のときも大丈夫だったんです。",
     "answer": "Houses in this area were unharmed even during that great earthquake.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "639cab57-fd47-4176-ad7e-0c64fe98fa67",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

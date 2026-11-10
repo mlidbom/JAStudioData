@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8d14f3e1867acbd035ce22df68f2618b3436b83ac5c743a20d77376f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8d14f3e1867acbd035ce22df68f2618b3436b83ac5c743a20d77376f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "台所"
@@ -128,11 +136,12 @@
     "question": "うちでは、父が台所に立つ事が多いです。",
     "answer": "In my family, my father is the one who cooks most of the time.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a85bb840-e9a6-4d68-a7c4-fc0bb5772b90",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

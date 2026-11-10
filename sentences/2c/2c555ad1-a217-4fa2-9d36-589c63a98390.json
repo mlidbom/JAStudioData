@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3c13a3f42d07d4939ec27480d249b18077a5767bfd975b06f5de2688.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3c13a3f42d07d4939ec27480d249b18077a5767bfd975b06f5de2688.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "乗る"
@@ -93,11 +101,12 @@
     "question": "あのサーフボードに乗ってる犬、かわいいね！",
     "answer": "The dog on that surfboard is cute!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2c555ad1-a217-4fa2-9d36-589c63a98390",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

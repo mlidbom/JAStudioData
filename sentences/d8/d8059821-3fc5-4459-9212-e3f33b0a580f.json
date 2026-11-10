@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1be019675528a3913a5c27c29dd980567633c3a9052ff6c09e7c8d44.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1be019675528a3913a5c27c29dd980567633c3a9052ff6c09e7c8d44.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "必要"
@@ -170,11 +178,12 @@
     "question": "スーパーに行くけど、何か必要なものはありますか？",
     "answer": "I'm going to a supermarket. Do you need anything?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d8059821-3fc5-4459-9212-e3f33b0a580f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

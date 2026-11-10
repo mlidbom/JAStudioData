@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1f8b41412cf32f65b3274deff9c43fae9fb39fcbc92c2d93163a1bc7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1f8b41412cf32f65b3274deff9c43fae9fb39fcbc92c2d93163a1bc7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "根"
@@ -93,11 +101,12 @@
     "question": "この花の根は食べられますよ。",
     "answer": "You can eat the roots of this flower.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2cc45b39-8399-444e-bae6-687075a18679",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

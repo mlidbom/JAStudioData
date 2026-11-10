@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0b5118295e1b740232d478b6f0671b1c63ba910a34d3517b8f417c20.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0b5118295e1b740232d478b6f0671b1c63ba910a34d3517b8f417c20.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "番号"
@@ -114,11 +122,12 @@
     "question": "田中さんの電話番号はスマホに入ってます。",
     "answer": "Tanaka-san's phone number is in my smartphone.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "216ef60a-3d73-49c1-9f4e-ca69f7ba8d33",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

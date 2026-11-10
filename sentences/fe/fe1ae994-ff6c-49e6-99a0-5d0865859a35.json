@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-01c49e732385657f99a6ba2aa375d7d05f9640e5bc67b900f003d223.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-01c49e732385657f99a6ba2aa375d7d05f9640e5bc67b900f003d223.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "貴族"
@@ -289,11 +297,12 @@
     "question": "ああ、もし私が貴族の家柄に生まれていたら、彼女と話をすることも可能だったかもしれないのに。",
     "answer": "If I had been born to a noble family, I would have been able to talk to her.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fe1ae994-ff6c-49e6-99a0-5d0865859a35",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

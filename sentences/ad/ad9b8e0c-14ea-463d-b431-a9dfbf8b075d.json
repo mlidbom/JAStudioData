@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-030986c0b029d1840610e1cd9257d82880d275f0d1a9f0f81e716bae.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-030986c0b029d1840610e1cd9257d82880d275f0d1a9f0f81e716bae.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "東"
@@ -86,11 +94,12 @@
     "question": "ノースカロライナはアメリカの東にあります。",
     "answer": "North Carolina is located in east of the United States.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ad9b8e0c-14ea-463d-b431-a9dfbf8b075d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

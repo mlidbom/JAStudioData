@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4f20133188ef4f1c8fe29ec9622fb585bda992b07ef4896f4d7bd5b6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4f20133188ef4f1c8fe29ec9622fb585bda992b07ef4896f4d7bd5b6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "観覧"
@@ -107,11 +115,12 @@
     "question": "トーフグテレビの撮影現場を観覧しました。",
     "answer": "I watched the TofuguTV shooting.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b2a3a668-712e-417e-8d42-fd9776a8f46b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-af707b39c317da3b60a03de558a30664f587dea29b41f97fc1084e30.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-af707b39c317da3b60a03de558a30664f587dea29b41f97fc1084e30.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "算数"
@@ -128,11 +136,12 @@
     "question": "明日の算数のクラスに必要な道具は全部持ったの？",
     "answer": "Do you have all the tools you need for tomorrow's arithmetic class?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9e7e578f-0ddf-4410-aa17-3a84ac24b644",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

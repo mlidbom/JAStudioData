@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0f26fbd4209ec2910a77edd671c7baaea64089a0a14eca3046dfdcf9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0f26fbd4209ec2910a77edd671c7baaea64089a0a14eca3046dfdcf9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "小声"
@@ -79,11 +87,12 @@
     "question": "「ありがとう」と小声で言いました。",
     "answer": "\"Thank you,\" I whispered.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ff0a3ef6-d2a3-499c-bacf-8ec9c8e247e7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e018f879db9d35c56044c65faaadddc14a0f3ec1ee67f933e7bdc9b1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e018f879db9d35c56044c65faaadddc14a0f3ec1ee67f933e7bdc9b1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "助手"
@@ -296,11 +304,12 @@
     "question": "仮に私が首になった助手の助手だとしたら、それってつまり私も首になっちゃったってこと？",
     "answer": "If I'm the assistant to an assistant who was just fired, does that mean that I’m fired too?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4f4735bf-d49d-4159-b9a8-0a94d948d7e6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

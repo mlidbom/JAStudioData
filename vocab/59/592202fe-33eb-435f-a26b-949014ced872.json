@@ -26,9 +26,15 @@
   "partsOfSpeech": [],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-2e2e5d060a0b503016d85d7fc9d5975e94c2baec39d9ae942f6f4f30.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-2e2e5d060a0b503016d85d7fc9d5975e94c2baec39d9ae942f6f4f30.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "でさぁ",
@@ -42,8 +48,7 @@
   "sentenceCount": 13,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -67,7 +72,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "592202fe-33eb-435f-a26b-949014ced872",
   "tags": [

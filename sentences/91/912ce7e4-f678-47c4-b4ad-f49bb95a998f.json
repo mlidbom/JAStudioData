@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e4d462b5d8c9092abde6476c7f57a338105d8bb37f4fa0b2e4d0aaf7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e4d462b5d8c9092abde6476c7f57a338105d8bb37f4fa0b2e4d0aaf7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "肥料"
@@ -142,11 +150,12 @@
     "question": "牛のフンはいい肥料になるんだよ。",
     "answer": "Cow poop will become good fertilizer.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "912ce7e4-f678-47c4-b4ad-f49bb95a998f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

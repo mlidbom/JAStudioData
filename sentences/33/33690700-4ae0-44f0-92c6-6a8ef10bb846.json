@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a694ba6e90ad31942387838d7a8b49b6ffb77a85563e4c24da6fd5aa.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a694ba6e90ad31942387838d7a8b49b6ffb77a85563e4c24da6fd5aa.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "席"
@@ -261,11 +269,12 @@
     "question": "おそれ入りますが、お席をご利用されるさいは、メニューから何か一つご注文をお願いします。",
     "answer": "I'm afraid that we request that seated customers please order something from the menu.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "33690700-4ae0-44f0-92c6-6a8ef10bb846",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

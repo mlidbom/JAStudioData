@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1dc8b7dde4fdfa8ac05e901c32634b1f8fc869862ca437a3ada7d303.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1dc8b7dde4fdfa8ac05e901c32634b1f8fc869862ca437a3ada7d303.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "人工"
@@ -72,11 +80,12 @@
     "question": "この川は、人工の川です。",
     "answer": "This river is man-made.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0491bd60-5852-4bf3-9321-e5d2a30fc360",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c884c921fd7ca5554db357f829a67642f99024730ee9561b99456c6a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c884c921fd7ca5554db357f829a67642f99024730ee9561b99456c6a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "開発"
@@ -79,11 +87,12 @@
     "question": "この町は今、開発中です。",
     "answer": "This town is currently under development.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b67d9337-eab4-4c1e-83e2-4e351a01efbb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

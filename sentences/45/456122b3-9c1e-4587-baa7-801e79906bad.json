@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-88801e6fb051009b10d13feaae1808e6ef3c485407e71a0bffd2d810.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-88801e6fb051009b10d13feaae1808e6ef3c485407e71a0bffd2d810.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "気持ちいい"
@@ -44,11 +52,12 @@
     "question": "このブランケット、気持ちいい。",
     "answer": "This blanket feels really good.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "456122b3-9c1e-4587-baa7-801e79906bad",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

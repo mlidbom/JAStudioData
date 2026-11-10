@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0fac164528a6c6a018f9b2d9be1187a3c80a9c28ec514e3a5a0f226a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0fac164528a6c6a018f9b2d9be1187a3c80a9c28ec514e3a5a0f226a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "親類"
@@ -163,11 +171,12 @@
     "question": "オーストラリアにいる親類から電話がかかってきました。",
     "answer": "I received a phone call from a relative in Australia.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "54e15837-583e-47db-9e88-d728af9516ff",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

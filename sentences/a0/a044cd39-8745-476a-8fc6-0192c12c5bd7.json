@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-101f159ce1365cfc8384e12fcddd0978574e47185b9ef43b418e6d8c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-101f159ce1365cfc8384e12fcddd0978574e47185b9ef43b418e6d8c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鰐"
@@ -107,11 +115,12 @@
     "question": "鰐の剥製が部屋に飾ってあります。",
     "answer": "I have a stuffed alligator displayed in my room.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a044cd39-8745-476a-8fc6-0192c12c5bd7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-377ac19a6ae453a942b3d3202c8cc61d56d3eeb8d5804251e83bb6ea.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-377ac19a6ae453a942b3d3202c8cc61d56d3eeb8d5804251e83bb6ea.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "例文"
@@ -184,11 +192,12 @@
     "question": "ワニカニの例文の中で一番好きな文章を教えてください。",
     "answer": "Please let us know which WaniKani example sentence is your favorite.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "655304d9-608d-49c9-87f7-ce1bbf20453b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

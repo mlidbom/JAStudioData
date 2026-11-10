@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-74a330a7f502a818a25649e44074b0cb87b5829be963184aea40bf2a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-74a330a7f502a818a25649e44074b0cb87b5829be963184aea40bf2a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "今まで"
@@ -51,11 +59,12 @@
     "question": "今まで、ありがとう。",
     "answer": "Thanks for everything so far.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8d0da50d-370c-47eb-8c37-dd524db1335d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d5eeb1425147561eef006a54f0e23fd2713643f29c34de7b903a1f70.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d5eeb1425147561eef006a54f0e23fd2713643f29c34de7b903a1f70.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "特別"
@@ -114,11 +122,12 @@
     "question": "この車の特別仕様の在庫はありますか？",
     "answer": "Is there a special edition of this car?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5031fac0-d919-4f0a-b7c7-276ec67484f4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

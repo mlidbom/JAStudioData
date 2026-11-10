@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0d1455dfe9369d1fafe2783476384d0b64b0679200cbdfd0ba9cb127.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0d1455dfe9369d1fafe2783476384d0b64b0679200cbdfd0ba9cb127.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "生きる"
@@ -128,11 +136,12 @@
     "question": "このジェネレーションを生きる人々にメッセージはありますか？",
     "answer": "Do you have a message for people living in this generation?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3d840891-e8e2-4d7e-8313-6c50919805cd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

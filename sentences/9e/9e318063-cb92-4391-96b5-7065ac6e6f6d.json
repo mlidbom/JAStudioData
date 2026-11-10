@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-361360b474e7829c7c252edc678997f3cfcf6e42e6cb290eac93b377.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-361360b474e7829c7c252edc678997f3cfcf6e42e6cb290eac93b377.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "女の子"
@@ -86,11 +94,12 @@
     "question": "この女の子は五才の天才プログラマーだ。",
     "answer": "This girl is a five-year-old genius programmer.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9e318063-cb92-4391-96b5-7065ac6e6f6d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

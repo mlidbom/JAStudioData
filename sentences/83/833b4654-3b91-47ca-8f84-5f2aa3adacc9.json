@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9c5efd2ce8ca1418fd6907ea696b35471cb4a134807537ebe2c83360.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9c5efd2ce8ca1418fd6907ea696b35471cb4a134807537ebe2c83360.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "強調"
@@ -184,11 +192,12 @@
     "question": "自分の考えを強調するために、何度も同じことを言いました。",
     "answer": "I said the same thing many times to emphasize my thoughts.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "833b4654-3b91-47ca-8f84-5f2aa3adacc9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

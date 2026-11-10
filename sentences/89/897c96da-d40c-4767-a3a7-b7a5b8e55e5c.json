@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-de925dc872b0a0b08b239f154e2eeffdf20afe6ebad171d462a22ff0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-de925dc872b0a0b08b239f154e2eeffdf20afe6ebad171d462a22ff0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "雪"
@@ -107,11 +115,12 @@
     "question": "毎年十二月に雪山にスキーしに行きます。",
     "answer": "Every year in December, I go to snowy mountains to ski.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "897c96da-d40c-4767-a3a7-b7a5b8e55e5c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-138a1c323d395fdb31b1858457ea9e4e1052e79310f3ed33e892b11a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-138a1c323d395fdb31b1858457ea9e4e1052e79310f3ed33e892b11a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "麺棒"
@@ -93,11 +101,12 @@
     "question": "麺棒ならあそこの引き出しに入ってるよ。",
     "answer": "If you're looking for a rolling pin, it's in that drawer.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ef59ac96-e11c-4960-8bf3-578481534709",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

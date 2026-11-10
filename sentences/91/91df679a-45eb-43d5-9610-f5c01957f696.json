@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3e07f4bd8e7cc1d23135703edaba6e303a120c8af5cffa3b24e18b33.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3e07f4bd8e7cc1d23135703edaba6e303a120c8af5cffa3b24e18b33.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "動く"
@@ -212,11 +220,12 @@
     "question": "トーフグのサーバーは二十四時間動いているので、いつでもアクセスできますよ。",
     "answer": "Tofugu's servers operate twenty-four hours a day, so it can always be accessed.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "91df679a-45eb-43d5-9610-f5c01957f696",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

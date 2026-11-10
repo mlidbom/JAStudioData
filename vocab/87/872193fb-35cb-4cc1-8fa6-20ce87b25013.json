@@ -29,9 +29,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": " [sound:ATTS でござる (azure microsoft server speech text to speech voice (ja-jp daichineural)).mp3]",
-  "audioG": "",
-  "audioTTS": "",
+  "audio": [
+    {
+      "fileName": "ATTS でござる (azure microsoft server speech text to speech voice (ja-jp daichineural)).mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "でご座る",
@@ -45,8 +51,7 @@
   "sentenceCount": 26,
   "technicalNotes": "",
   "references": "Cure Dolly: <a href=\"https://www.youtube.com/watch?v=hS02cADsjfI&amp;list=PLg9uYxuZf8x_A-vcqqyOFZu06WlhnypWj&amp;index=86\">Understanding copulas: である, であります、でござる、でございます</a>",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -87,11 +92,12 @@
   "sourceData": {
     "answer": "be/is",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "872193fb-35cb-4cc1-8fa6-20ce87b25013",
   "tags": [
-    "_tts_audio",
     "source::yomitan"
   ]
 }

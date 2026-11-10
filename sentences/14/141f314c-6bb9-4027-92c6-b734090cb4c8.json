@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-36559e237e687dc9e2a8921bb604bc4eedc0436ebbf41c0c4d8b3f81.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-36559e237e687dc9e2a8921bb604bc4eedc0436ebbf41c0c4d8b3f81.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "海"
@@ -233,11 +241,12 @@
     "question": "ワニカニは海の生物なのでしょうか？川の生物なのでしょうか？",
     "answer": "Is WaniKani a sea creature? Is it a river creature?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "141f314c-6bb9-4027-92c6-b734090cb4c8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

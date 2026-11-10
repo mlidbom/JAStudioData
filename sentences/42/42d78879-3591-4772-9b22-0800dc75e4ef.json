@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d8ee6b63482c360b8892d2d8447e10b217880d9afc344bd54e58b554.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d8ee6b63482c360b8892d2d8447e10b217880d9afc344bd54e58b554.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大会"
@@ -79,11 +87,12 @@
     "question": "六日は、サッカーの大会です。",
     "answer": "The soccer tournament is on the 6th.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "42d78879-3591-4772-9b22-0800dc75e4ef",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

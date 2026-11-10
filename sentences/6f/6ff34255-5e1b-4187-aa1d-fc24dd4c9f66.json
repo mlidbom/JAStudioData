@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cd30645797a3072ff59e3a66dcebaa3e55d81d318e10363a1e389a7a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cd30645797a3072ff59e3a66dcebaa3e55d81d318e10363a1e389a7a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "柵"
@@ -86,11 +94,12 @@
     "question": "今日の午後は柵をペンキでぬります。",
     "answer": "I'll paint the fence this afternoon.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6ff34255-5e1b-4187-aa1d-fc24dd4c9f66",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

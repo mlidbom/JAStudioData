@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-23affcedff08d0c42fcabf9f0843552b311cf0270f65b40285b0c697.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-23affcedff08d0c42fcabf9f0843552b311cf0270f65b40285b0c697.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "三十代"
@@ -93,11 +101,12 @@
     "question": "あの男は三十代です。",
     "answer": "The man over there is in his thirties.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1497774a-1ac7-45ae-b8a9-5cb5efe54653",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

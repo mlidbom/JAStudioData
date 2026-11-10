@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-caa22adae60232f07146c8003bc0eeafbc63b46876a3e5bc11533d09.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-caa22adae60232f07146c8003bc0eeafbc63b46876a3e5bc11533d09.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鉛筆"
@@ -121,11 +129,12 @@
     "question": "そのパグは、このHBの鉛筆で描いたんだよ。",
     "answer": "I drew the pug with this HB pencil.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1ae7ea6c-b266-440a-a1c7-387dee08588c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-798961b43210bd0f00fb0d3b8bbc47a904a4a6a13be7d7c773dc41c0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-798961b43210bd0f00fb0d3b8bbc47a904a4a6a13be7d7c773dc41c0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一回"
@@ -107,11 +115,12 @@
     "question": "もう一回、言ってください。",
     "answer": "Please say it once more.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "925dfaa5-e332-4d11-9e13-44dd86972e48",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

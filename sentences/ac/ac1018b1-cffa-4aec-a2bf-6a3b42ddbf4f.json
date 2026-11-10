@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-38a37558555631c7c3b88915475792a44da7b6dfe55fad913d1de7a2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-38a37558555631c7c3b88915475792a44da7b6dfe55fad913d1de7a2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "太鼓"
@@ -135,11 +143,12 @@
     "question": "うちの子供は太鼓で遊ぶのが好きです。",
     "answer": "My children like to play with drums.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ac1018b1-cffa-4aec-a2bf-6a3b42ddbf4f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

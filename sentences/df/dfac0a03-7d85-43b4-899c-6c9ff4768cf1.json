@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3f6898b4343afae62191cfb382f3efc69723eae930419c42796ccb6f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3f6898b4343afae62191cfb382f3efc69723eae930419c42796ccb6f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "船"
@@ -93,11 +101,12 @@
     "question": "こちらは、四国に直行する船です。",
     "answer": "This is a boat going straight to Shikoku.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dfac0a03-7d85-43b4-899c-6c9ff4768cf1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

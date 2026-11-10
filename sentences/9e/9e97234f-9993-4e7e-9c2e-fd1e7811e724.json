@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a1370ea39aca43d4e3df30a6bab5f92792987d144fc8183681f15399.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a1370ea39aca43d4e3df30a6bab5f92792987d144fc8183681f15399.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "起床"
@@ -170,11 +178,12 @@
     "question": "彼は起床時間になっても、まだいびきをかいています。",
     "answer": "He is still snoring even though it’s time to get out of bed.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9e97234f-9993-4e7e-9c2e-fd1e7811e724",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

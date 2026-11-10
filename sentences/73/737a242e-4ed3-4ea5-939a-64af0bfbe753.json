@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-85c0501a2ca082b30fa3105d5b1b2aaafad93e533a7148b38b0f1b7d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-85c0501a2ca082b30fa3105d5b1b2aaafad93e533a7148b38b0f1b7d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "慢性"
@@ -128,11 +136,12 @@
     "question": "私は慢性胃腸炎を患っているんです。",
     "answer": "I suffer from chronic gastroenteritis.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "737a242e-4ed3-4ea5-939a-64af0bfbe753",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

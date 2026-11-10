@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c2092ea5d99de5fb8f22a4c2b63dcd942179608245ecc3c201b3dc85.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c2092ea5d99de5fb8f22a4c2b63dcd942179608245ecc3c201b3dc85.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "曇り"
@@ -86,11 +94,12 @@
     "question": "窓の曇りが中々とれない。",
     "answer": "I'm having trouble defogging the windows.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f08a93a1-ebfb-4aa1-91fd-328bbf492436",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

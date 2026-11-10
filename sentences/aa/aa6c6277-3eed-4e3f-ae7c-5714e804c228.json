@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-aa1980f124f0c864c8fea5b9fb65765f27e3d96bb05e8f89f61f92f8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-aa1980f124f0c864c8fea5b9fb65765f27e3d96bb05e8f89f61f92f8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "運転する"
@@ -128,11 +136,12 @@
     "question": "船を運転するライセンスは持ってますか？",
     "answer": "Do you have a license to steer a ship?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "aa6c6277-3eed-4e3f-ae7c-5714e804c228",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

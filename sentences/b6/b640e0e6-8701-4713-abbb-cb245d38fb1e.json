@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5ab4f21340922d80b6c8870ebbf19c5e8d8e31f4560cada77a1cb225.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5ab4f21340922d80b6c8870ebbf19c5e8d8e31f4560cada77a1cb225.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "間違い"
@@ -128,11 +136,12 @@
     "question": "ファイナルファンタジーについて君に聞いたのが間違いだったよ。",
     "answer": "It was a mistake to ask you about Final Fantasy.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b640e0e6-8701-4713-abbb-cb245d38fb1e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

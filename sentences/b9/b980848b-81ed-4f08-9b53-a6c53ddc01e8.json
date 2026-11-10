@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-acdc68ede064fe7f082080dfbd13fb7e6c48328d49a87cbe1d39ff52.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-acdc68ede064fe7f082080dfbd13fb7e6c48328d49a87cbe1d39ff52.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "関係"
@@ -86,11 +94,12 @@
     "question": "二人はどういう関係なの？",
     "answer": "What kind of relationship do you two have?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b980848b-81ed-4f08-9b53-a6c53ddc01e8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e16ba795e751cdc56bba3f0284ca98a8a0e786fce5ba1954b06e3e90.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e16ba795e751cdc56bba3f0284ca98a8a0e786fce5ba1954b06e3e90.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "傷者"
@@ -191,11 +199,12 @@
     "question": "その事故による死者は三名、傷者は二百人以上にのぼるという。",
     "answer": "It’s said that there were three killed and more than 200 wounded in that accident.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "67ae91a3-e769-4e1d-9b0e-ee14216f1ff6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

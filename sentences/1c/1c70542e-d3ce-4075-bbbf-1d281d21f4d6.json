@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ab32e3d1e37048939db2f32e73600cf27ad68e2c8e8532e7339b549d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ab32e3d1e37048939db2f32e73600cf27ad68e2c8e8532e7339b549d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "揚がる"
@@ -135,11 +143,12 @@
     "question": "天ぷらが揚がるまで静かに待っていた。",
     "answer": "We waited quietly until the tempura was deep fried. ",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1c70542e-d3ce-4075-bbbf-1d281d21f4d6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e0bbfb38306607016ece828c32131bf705c014ca2c2ec75e5cfe6228.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e0bbfb38306607016ece828c32131bf705c014ca2c2ec75e5cfe6228.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "取り替える"
@@ -119,11 +127,12 @@
     "question": "このゴミ箱のゴミぶくろ、新しいのに取り替えるね！",
     "answer": "I will replace this trash can bag with a new one!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a6fa6008-8e49-4338-a229-bf226537f39d",
   "tags": [
-    "_tts_audio",
     "-::sentence::uses::incorrect-matches",
     "source::wani::current"
   ]

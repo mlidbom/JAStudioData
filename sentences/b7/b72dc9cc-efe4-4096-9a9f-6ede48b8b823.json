@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5704730d872b1b3bd1e3cd4b63aea702aa7a0aecab0c834d810df630.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5704730d872b1b3bd1e3cd4b63aea702aa7a0aecab0c834d810df630.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "走り回る"
@@ -128,11 +136,12 @@
     "question": "うちの犬は、雪を見ると走り回る。",
     "answer": "My dog runs around when she sees the snow.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b72dc9cc-efe4-4096-9a9f-6ede48b8b823",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

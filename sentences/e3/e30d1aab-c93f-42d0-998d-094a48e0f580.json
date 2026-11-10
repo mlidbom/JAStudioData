@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fd332c5528e0de2825b042377eb097fc603e6d891229be07028609be.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fd332c5528e0de2825b042377eb097fc603e6d891229be07028609be.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "消化"
@@ -149,11 +157,12 @@
     "question": "昼に食べたラーメンをまだ消化しきっていない。",
     "answer": "I haven’t finished digesting the ramen I ate for lunch.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e30d1aab-c93f-42d0-998d-094a48e0f580",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

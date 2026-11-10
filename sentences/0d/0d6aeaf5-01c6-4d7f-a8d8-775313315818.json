@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bca11c8a26c0864d23e669812b51d23c737f729d18068ac97352baa8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bca11c8a26c0864d23e669812b51d23c737f729d18068ac97352baa8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "堤防"
@@ -205,11 +213,12 @@
     "question": "水が堤防を越えそうになっているから、近づかない方がいいですよ。",
     "answer": "The water is almost running over the embankment, so you should be careful.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0d6aeaf5-01c6-4d7f-a8d8-775313315818",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

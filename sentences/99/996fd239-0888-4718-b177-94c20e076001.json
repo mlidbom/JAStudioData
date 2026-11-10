@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a465a562cf25acf87d6982143b0e3ded63bed775c0e84c5700b68654.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a465a562cf25acf87d6982143b0e3ded63bed775c0e84c5700b68654.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "歌う"
@@ -142,11 +150,12 @@
     "question": "人前で歌うのは好きじゃないんです。",
     "answer": "I don't like singing in front of people.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "996fd239-0888-4718-b177-94c20e076001",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

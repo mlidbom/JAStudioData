@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a33ed39471751c8d2b5749212f87101b7b1b27b19349a8c861ae8fef.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a33ed39471751c8d2b5749212f87101b7b1b27b19349a8c861ae8fef.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "算数"
@@ -72,11 +80,12 @@
     "question": "算数の先生は、田中先生です。",
     "answer": "The teacher of arithmetic is Tanaka-sensei.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "20c02fdb-8903-4d6a-97ec-dc26e75067fd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

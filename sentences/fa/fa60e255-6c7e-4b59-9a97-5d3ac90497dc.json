@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9c343407d8f0fc08beab6abbf98b113018fb6aad00a3e0d69ac3a7db.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9c343407d8f0fc08beab6abbf98b113018fb6aad00a3e0d69ac3a7db.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "三角形"
@@ -79,11 +87,12 @@
     "question": "これが、三角形のおにぎりの作り方です。",
     "answer": "This is how to make a triangular rice ball.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fa60e255-6c7e-4b59-9a97-5d3ac90497dc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

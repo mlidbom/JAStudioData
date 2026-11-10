@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8d1ed0761d6ed9181168f56d75e4d4b1d76fb054ffa33892ec2339ee.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8d1ed0761d6ed9181168f56d75e4d4b1d76fb054ffa33892ec2339ee.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "混じる"
@@ -114,11 +122,12 @@
     "question": "ラジオの電波が弱く、ノイズが混じって聞こえにくかった。",
     "answer": "The radio signal was weak, and noise was mixed in, so it was difficult to hear.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "41002cd2-52a6-4917-85ad-bad6f3bc7537",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

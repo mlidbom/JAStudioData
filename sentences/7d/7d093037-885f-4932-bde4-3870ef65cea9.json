@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e1fde4031a922727d34429ca0f95dd24f15056a4029b4b631dd10abc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e1fde4031a922727d34429ca0f95dd24f15056a4029b4b631dd10abc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "小学校"
@@ -212,11 +220,12 @@
     "question": "小学校の時から、君のこと、ずっと気になっていたんだ。",
     "answer": "I've been interested in you since we were in elementary school.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7d093037-885f-4932-bde4-3870ef65cea9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

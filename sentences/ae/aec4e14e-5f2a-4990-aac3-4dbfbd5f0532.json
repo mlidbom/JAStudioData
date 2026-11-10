@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3fc66abb5750c77e0ff67195afac6d8b16bfddefa2afc52778c1a2e7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3fc66abb5750c77e0ff67195afac6d8b16bfddefa2afc52778c1a2e7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "挟む"
@@ -93,11 +101,12 @@
     "question": "パンにハムと卵を挟みました。",
     "answer": "I put the egg and ham between the bread.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "aec4e14e-5f2a-4990-aac3-4dbfbd5f0532",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

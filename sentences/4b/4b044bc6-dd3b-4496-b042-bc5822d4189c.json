@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e4b880d3395f1541574dbd7aae401204b7bffca3722cace4fd1b96be.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e4b880d3395f1541574dbd7aae401204b7bffca3722cace4fd1b96be.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "僧院"
@@ -114,11 +122,12 @@
     "question": "一人で山上のタクツァン僧院まで登りました。",
     "answer": "I climbed up to the Taktsang Monastery on the mountain by myself.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4b044bc6-dd3b-4496-b042-bc5822d4189c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

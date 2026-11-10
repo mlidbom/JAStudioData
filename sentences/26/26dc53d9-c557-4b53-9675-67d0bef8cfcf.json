@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cac0de4127fe89ae8f281cd8f2ae0a3ed560a8c82911bfc3e667b964.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cac0de4127fe89ae8f281cd8f2ae0a3ed560a8c82911bfc3e667b964.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "背が高い"
@@ -149,11 +157,12 @@
     "question": "こんなに背が高いホビットは見たことがないよ。",
     "answer": "I’ve never seen such a tall hobbit before.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "26dc53d9-c557-4b53-9675-67d0bef8cfcf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

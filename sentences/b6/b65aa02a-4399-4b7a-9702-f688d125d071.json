@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-387d4e2f039f2711a64f87fa71e3e6cc15fa870056f78a95dcc7ecd7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-387d4e2f039f2711a64f87fa71e3e6cc15fa870056f78a95dcc7ecd7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "濃度"
@@ -93,11 +101,12 @@
     "question": "これは濃度20%の食塩水です。",
     "answer": "This is a saline solution with a concentration of 20%.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b65aa02a-4399-4b7a-9702-f688d125d071",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

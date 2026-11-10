@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2f49f3190270e8c6b0e116c2fa0b5f727088ef4a9f4f59f52d3bafd4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2f49f3190270e8c6b0e116c2fa0b5f727088ef4a9f4f59f52d3bafd4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "紋"
@@ -135,11 +143,12 @@
     "question": "新郎が紋付袴を着ている写真はありますか。",
     "answer": "Is there a picture of the groom wearing the crested hakama?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a5fa5acd-bfb2-4280-a681-8577abe118af",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

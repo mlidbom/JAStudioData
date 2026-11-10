@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f9c79670b0c5a1e2979a0870ef84b78a51d417d433173889681e99cd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f9c79670b0c5a1e2979a0870ef84b78a51d417d433173889681e99cd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "円弧"
@@ -163,11 +171,12 @@
     "question": "父親は息子に円弧を描くように命令しました。",
     "answer": "The father ordered his son to paint an arc.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e4b3e757-743a-457f-bcfe-0201aeb5c2b9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

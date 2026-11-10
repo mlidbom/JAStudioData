@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d0085847a237e58c9d57384d2fb17f7f91311738c9b5345002e384da.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d0085847a237e58c9d57384d2fb17f7f91311738c9b5345002e384da.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "無理"
@@ -184,11 +192,12 @@
     "question": "無理しすぎないで、自分の体も大事にしてね。",
     "answer": "Don't overdo it. Take care of yourself, too.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c42d6629-4ed9-492c-8404-cb4610a0455c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

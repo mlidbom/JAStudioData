@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f6f86b37ff698738e3c0e9f3c382fad311f565396554686ebe342814.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f6f86b37ff698738e3c0e9f3c382fad311f565396554686ebe342814.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "献立"
@@ -86,11 +94,12 @@
     "question": "そろそろ今晩の献立を考えないと。",
     "answer": "I need to start thinking about the menu for tonight.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4ef76793-9fdd-4687-adcb-42a172f3c0b5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

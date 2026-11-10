@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e3482dd05b1020918f15e40749a3893642edd602812bd2ea7039f458.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e3482dd05b1020918f15e40749a3893642edd602812bd2ea7039f458.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "危篤"
@@ -121,11 +129,12 @@
     "question": "父が危篤だという電話がありました。",
     "answer": "There was a call saying dad was in critical condition.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0ddef4da-7132-4253-b457-e3676f6fb551",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

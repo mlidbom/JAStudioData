@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-39c7fea0365e2fad39473a4c48752044fed99b431cdee1fd5f26ef68.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-39c7fea0365e2fad39473a4c48752044fed99b431cdee1fd5f26ef68.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "締める"
@@ -79,11 +87,12 @@
     "question": "ちょっと待って。シートベルト、まだ締めてない！",
     "answer": "Wait a minute. I haven't fastened my seatbelt yet!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9b393400-8a88-4d4f-86e7-a319410a9492",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

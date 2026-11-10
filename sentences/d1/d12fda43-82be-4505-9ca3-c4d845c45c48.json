@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cb08f9e41f1a3733a939d45b15385e581f01e2b678f7b71638a49b57.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cb08f9e41f1a3733a939d45b15385e581f01e2b678f7b71638a49b57.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "建てる"
@@ -114,11 +122,12 @@
     "question": "大きな橋を建てるにはエンジニアが必要です。",
     "answer": "Building a big bridge requires engineers.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d12fda43-82be-4505-9ca3-c4d845c45c48",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

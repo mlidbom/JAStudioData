@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-480c899cc87599bde9b093397576a1d6bab65141f13ad6d7a1859f60.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-480c899cc87599bde9b093397576a1d6bab65141f13ad6d7a1859f60.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "貴様"
@@ -177,11 +185,12 @@
     "question": "貴様がうるさかったせいで、昨日全然寝れなかったじゃねぇか。",
     "answer": "I couldn’t sleep well because YOU were very noisy.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d66fab1f-1591-4d03-a203-f21bc3063ba2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

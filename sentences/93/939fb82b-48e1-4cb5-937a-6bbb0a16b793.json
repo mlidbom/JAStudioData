@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a930ed90b4dc3d3e8334cbb7d62ce78899b7691c5a9b6cffd6503676.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a930ed90b4dc3d3e8334cbb7d62ce78899b7691c5a9b6cffd6503676.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "症状"
@@ -135,11 +143,12 @@
     "question": "私の症状について、一度同僚に相談しました。",
     "answer": "I consulted with my colleague once about my symptoms.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "939fb82b-48e1-4cb5-937a-6bbb0a16b793",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

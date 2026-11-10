@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a1eddfe2e5aa8e8d6968be560cd00e229f515461a49aa3e45cb89442.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a1eddfe2e5aa8e8d6968be560cd00e229f515461a49aa3e45cb89442.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "畑",
@@ -150,11 +158,12 @@
     "question": "私は、苺畑づたいにヨロヨロと歩いている老人を見かけました。",
     "answer": "I saw an old man stumble along the strawberry field.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b5a56128-edc5-428d-b57d-40ae012c7bfc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

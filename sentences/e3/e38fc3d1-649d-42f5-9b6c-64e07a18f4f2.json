@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fdb81442e0b918f3e432d5fa76534eb2428b0ac49dac06a00d0707ce.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fdb81442e0b918f3e432d5fa76534eb2428b0ac49dac06a00d0707ce.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "名字"
@@ -121,11 +129,12 @@
     "question": "名字は、ここに入力して下さい。",
     "answer": "Please enter your last name here.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e38fc3d1-649d-42f5-9b6c-64e07a18f4f2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

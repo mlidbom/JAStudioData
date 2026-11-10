@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-31ee5b842e750b1a7c5a776a726600ca772f8d52b48c1a4a53c563e2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-31ee5b842e750b1a7c5a776a726600ca772f8d52b48c1a4a53c563e2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "反応"
@@ -191,11 +199,12 @@
     "question": "医者から、日本語の勉強に拒絶反応を起こしていると診断されました。",
     "answer": "The doctor diagnosed me with an acute rejection of Japanese language study.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "904f4529-e3ee-4d5f-95e6-0d1e43b2f879",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dbb4669834e320680dc8ab806821fa7840e0d63dcf4f81274347605a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dbb4669834e320680dc8ab806821fa7840e0d63dcf4f81274347605a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "開ける"
@@ -163,11 +171,12 @@
     "question": "ドアを開けると、外から風が入ってきた。",
     "answer": "When I opened the door, the wind came in from outside.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d86065c8-3645-4cad-a07f-ea60d19acfc9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d4c47f049ebd3c156e9b46b7950f6eb3ab8734261286494eb2e38d1e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d4c47f049ebd3c156e9b46b7950f6eb3ab8734261286494eb2e38d1e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "甲"
@@ -93,11 +101,12 @@
     "question": "左足の甲にタトゥーを入れました。",
     "answer": "I got a tattoo on my left instep.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bd45c9b2-19d5-426e-9fa3-98ec74bc1a80",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

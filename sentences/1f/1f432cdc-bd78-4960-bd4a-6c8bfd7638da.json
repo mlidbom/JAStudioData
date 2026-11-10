@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-25b42f211479b6802980bb9a9f217e4c5d49d495e832d1a9be3c81c1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-25b42f211479b6802980bb9a9f217e4c5d49d495e832d1a9be3c81c1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "膝小僧"
@@ -72,11 +80,12 @@
     "question": "自転車で転んで、膝小僧が痛い。",
     "answer": "I fell off my bike and my kneecap hurts.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1f432cdc-bd78-4960-bd4a-6c8bfd7638da",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5156f5c5fd756f3abe0c69e328598903f39c0b3fe5b08e38a204bf78.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5156f5c5fd756f3abe0c69e328598903f39c0b3fe5b08e38a204bf78.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "車"
@@ -121,11 +129,12 @@
     "question": "だれか車出してくれないかな？",
     "answer": "I wonder if somebody could give us a ride.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e7df36b0-13a9-446a-85aa-f18611a40929",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2312a669cff5d7cd6d9a1d39e24a23848c18f6a12f3106d4dcb96200.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2312a669cff5d7cd6d9a1d39e24a23848c18f6a12f3106d4dcb96200.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "録音"
@@ -86,11 +94,12 @@
     "question": "コウイチのスピーチ、録音した？",
     "answer": "Did you record Koichi's speech?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "af16a5af-3352-4fe5-a73f-2702b869abb7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

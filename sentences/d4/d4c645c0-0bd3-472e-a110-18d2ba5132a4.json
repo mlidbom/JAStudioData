@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6be1b35ef8db6fc006d6e61461f1a882d4673fce87d2d75f1164fcb3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6be1b35ef8db6fc006d6e61461f1a882d4673fce87d2d75f1164fcb3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "維持"
@@ -142,11 +150,12 @@
     "question": "車は維持費が高いし、今はまだそんな余裕はないな。",
     "answer": "The cost of car maintenance is really high and I can’t afford that yet.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d4c645c0-0bd3-472e-a110-18d2ba5132a4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

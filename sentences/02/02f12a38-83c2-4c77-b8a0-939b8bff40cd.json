@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b607d0deb83f143880bc0182bf3d22e005ef7ad2378e2985f1afda6e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b607d0deb83f143880bc0182bf3d22e005ef7ad2378e2985f1afda6e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "突く"
@@ -114,11 +122,12 @@
     "question": "フェンシングのフルーレで突かれたこと、ありますか？",
     "answer": "Have you ever gotten stabbed with a fencing fleurette?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "02f12a38-83c2-4c77-b8a0-939b8bff40cd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

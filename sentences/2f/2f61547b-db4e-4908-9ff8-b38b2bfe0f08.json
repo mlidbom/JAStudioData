@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-77b06cd63231475ddc13753afdbf18c7af6792afa336a7248888f385.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-77b06cd63231475ddc13753afdbf18c7af6792afa336a7248888f385.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "郵便局"
@@ -107,11 +115,12 @@
     "question": "郵便局のサービスに対して苦情を言いました。",
     "answer": "I made a complaint about the post office’s service.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2f61547b-db4e-4908-9ff8-b38b2bfe0f08",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b2d0ef33c7f3ea8d1ab756c4f44d8963381095ec6107c351dd71cb49.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b2d0ef33c7f3ea8d1ab756c4f44d8963381095ec6107c351dd71cb49.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "今更"
@@ -142,11 +150,12 @@
     "question": "今更そんなことを言われても困るよ。",
     "answer": "It's a bit late for you to tell me that now.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f9148d2b-d5e6-45c6-80db-d85e5728beff",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

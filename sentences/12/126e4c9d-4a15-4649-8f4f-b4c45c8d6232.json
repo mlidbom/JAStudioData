@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-10d879a1cb385e73ee6c5e6a9d96a0e441579a43edccfa179c54ddfa.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-10d879a1cb385e73ee6c5e6a9d96a0e441579a43edccfa179c54ddfa.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "対向する"
@@ -184,11 +192,12 @@
     "question": "対向するバイクの存在を完璧に見落としていました。",
     "answer": "I completely failed to see the oncoming motorcycle.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "126e4c9d-4a15-4649-8f4f-b4c45c8d6232",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

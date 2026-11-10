@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7cd8b41ee733cfab10c918f595048dd2b2b302cd74a4a912a2025db3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7cd8b41ee733cfab10c918f595048dd2b2b302cd74a4a912a2025db3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "身振り"
@@ -170,11 +178,12 @@
     "question": "あの子って、いつも身振り手振りがいつも大げさなんですよね。",
     "answer": "That girl is always exaggerating her gestures and body language.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7cf76e81-3835-43af-a3d9-0a6a44c78116",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

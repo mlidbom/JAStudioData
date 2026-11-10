@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f7918cb171d0eb7e56619c18ec33d3cdc8f131b7c3f7abc29c091c77.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f7918cb171d0eb7e56619c18ec33d3cdc8f131b7c3f7abc29c091c77.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "試験"
@@ -121,11 +129,12 @@
     "question": "「ところで、試験はどうだった？」「パパ、しずかにして。」",
     "answer": "\"By the way, how was the exam?\" \"Dad, be quiet.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e14001ed-2523-4edb-80c6-4484f078ac5b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

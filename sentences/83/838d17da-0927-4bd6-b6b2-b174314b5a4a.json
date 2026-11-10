@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d2f941e7fc6025dd4cbab28f2db165516fee67fb26c9a68ce0a807c8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d2f941e7fc6025dd4cbab28f2db165516fee67fb26c9a68ce0a807c8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [
@@ -152,11 +160,12 @@
     "question": "目次を見るだけでも、本の中について少し分かりますよ。",
     "answer": "Even just looking at the table of contents tells you a little about the book.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "838d17da-0927-4bd6-b6b2-b174314b5a4a",
   "tags": [
-    "_tts_audio",
     "-::sentence::uses::incorrect-matches",
     "source::wani::current"
   ]

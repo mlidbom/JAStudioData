@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4ed9cc1264c2276a9793b85fc90ff65fa90b4053f2ffc7f91b5331da.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4ed9cc1264c2276a9793b85fc90ff65fa90b4053f2ffc7f91b5331da.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "最高"
@@ -240,11 +248,12 @@
     "question": "この名曲は何十年も人気があり、J-POPヒストリー上最高の音楽として知られています。",
     "answer": "This masterpiece has been popular for decades and is known as the best music in J-pop history.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f7e0e633-8b99-407e-8849-8a1ba7993bb9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

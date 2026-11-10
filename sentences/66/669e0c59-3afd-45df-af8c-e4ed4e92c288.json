@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7576f24ef5ab65df494d06b8f60ce7bd7d3900c1a8cd195ff11bdedd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7576f24ef5ab65df494d06b8f60ce7bd7d3900c1a8cd195ff11bdedd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "二"
@@ -65,11 +73,12 @@
     "question": "エントリーナンバーは二です。",
     "answer": "The entry number is two.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "669e0c59-3afd-45df-af8c-e4ed4e92c288",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

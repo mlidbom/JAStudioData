@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e2dda6d964a3ded1239cc38906f328412cff2cf0b9601faae3ae1f4d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e2dda6d964a3ded1239cc38906f328412cff2cf0b9601faae3ae1f4d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "落とす"
@@ -205,11 +213,12 @@
     "question": "そんな信用を落とすようなことは今すぐ止めた方がいいよ。",
     "answer": "You should immediately stop doing things that will make people lose faith in you.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "686de97b-2e12-477c-95d5-395e0ce36d20",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

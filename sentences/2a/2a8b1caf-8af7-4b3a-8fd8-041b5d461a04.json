@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9fad6c807f8cfe836f87ab0545b8b8ab154e20b3cc1083600765f279.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9fad6c807f8cfe836f87ab0545b8b8ab154e20b3cc1083600765f279.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "早く"
@@ -86,11 +94,12 @@
     "question": "平日は早く会社に行きます。",
     "answer": "I go to work early on weekdays.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2a8b1caf-8af7-4b3a-8fd8-041b5d461a04",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

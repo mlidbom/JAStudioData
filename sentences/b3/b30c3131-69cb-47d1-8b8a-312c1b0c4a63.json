@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4a28b91affe75e103935362c6d52a6374541397c50a7ce001f5ed08d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4a28b91affe75e103935362c6d52a6374541397c50a7ce001f5ed08d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "入団"
@@ -177,11 +185,12 @@
     "question": "このチームには、入団テストを受けて合格した人だけが入団できます。",
     "answer": "Only those who have taken and passed a tryout can join this team.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b30c3131-69cb-47d1-8b8a-312c1b0c4a63",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

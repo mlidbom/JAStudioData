@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-046b81838bba5fcdd1fba8795d481ae1966fdfa4865127fcd3abd9d4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-046b81838bba5fcdd1fba8795d481ae1966fdfa4865127fcd3abd9d4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "掃く"
@@ -233,11 +241,12 @@
     "question": "会議が始まる前に、会議室をちょっと掃いておいてもらっていいかな。",
     "answer": "Could you sweep the meeting room before the meeting starts?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "432774b5-0047-45b2-b332-f6dcedc69bbe",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

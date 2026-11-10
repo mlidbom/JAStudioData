@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5a4b7a9871f372bac2f177a0988bd8acedab28734550e36889cc1082.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5a4b7a9871f372bac2f177a0988bd8acedab28734550e36889cc1082.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "各自"
@@ -254,11 +262,12 @@
     "question": "トーフグのオフィスに入ると、各自が楽な姿勢で横になっていました。",
     "answer": "When I entered the Tofugu office, each worker was lying in a comfortable position.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "800e61f7-5f57-46c7-8d36-24daae41ff78",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

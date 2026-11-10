@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b4ef21e7f4dba526d31458f01282020c4cc465661a7e6fbdc7fd95fa.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b4ef21e7f4dba526d31458f01282020c4cc465661a7e6fbdc7fd95fa.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "別"
@@ -107,11 +115,12 @@
     "question": "それとこれとは話が別だろう。",
     "answer": "This and that are two different stories.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6412309b-07ac-41a8-8cdb-c231193a9cfa",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

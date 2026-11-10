@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2adc2899e57e4dd1b03ad53c6629acdfedf3da4078e71142b4d9a595.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2adc2899e57e4dd1b03ad53c6629acdfedf3da4078e71142b4d9a595.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "手伝う"
@@ -247,11 +255,12 @@
     "question": "手伝ってあげたいのはやまやまなんだけど、私にはどうにもできないんです。",
     "answer": "I really want to help, but there's nothing I can do.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "edee0bf5-c4ef-4daf-8e72-465145db5986",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

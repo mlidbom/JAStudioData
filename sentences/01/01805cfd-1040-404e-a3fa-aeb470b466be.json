@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7b1ac695094d9c06263a8419a8b41dd2075e62c7079da41c6ed9bffa.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7b1ac695094d9c06263a8419a8b41dd2075e62c7079da41c6ed9bffa.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "入館料"
@@ -86,11 +94,12 @@
     "question": "ここの入館料は高すぎます。",
     "answer": "The entrance fee here is too expensive.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "01805cfd-1040-404e-a3fa-aeb470b466be",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

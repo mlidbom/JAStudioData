@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-646a3b3b046430c3456555d788b7b93b33294d2cd78872bd24992ac2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-646a3b3b046430c3456555d788b7b93b33294d2cd78872bd24992ac2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "釣る"
@@ -114,11 +122,12 @@
     "question": "後で何匹釣れたかお知らせしますね。",
     "answer": "I’ll let you know how many fish we caught later.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fe2f664a-1578-4552-9f2b-ffffdf373906",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0edebd5d97f76267bdae9895a8711b03824bd6bae3fee4d07a57c4ec.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0edebd5d97f76267bdae9895a8711b03824bd6bae3fee4d07a57c4ec.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "態と"
@@ -226,11 +234,12 @@
     "question": "今の価格って、態とつり上げられたものなんじゃないかと思ってるんです。",
     "answer": "I suspect that the current prices are deliberately inflated.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "da81442d-9304-4b0b-a4f4-f2d2be9edca7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "<div>With this virus, for healthy people, there is almost no need to worry</div>",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-185cb8894463adcd61f6cec0de4cca1ed5857937e5150bd7862ff1f9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-185cb8894463adcd61f6cec0de4cca1ed5857937e5150bd7862ff1f9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "健康"
@@ -135,11 +143,12 @@
     "question": "このウィルスは、健康な人にはほとんど心配いりません。",
     "answer": "This virus rarely affects healthy people.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c3058871-d3ce-42aa-864a-34f471996f8c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

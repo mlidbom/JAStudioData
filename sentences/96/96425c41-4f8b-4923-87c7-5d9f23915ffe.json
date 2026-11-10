@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ab4f890960658c3f84cd8a0aea886309a285281f81dd0dd469a641b1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ab4f890960658c3f84cd8a0aea886309a285281f81dd0dd469a641b1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "錦鯉"
@@ -93,11 +101,12 @@
     "question": "庭の池に錦鯉を放ちました。",
     "answer": "I released the colored carp into the garden pond.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "96425c41-4f8b-4923-87c7-5d9f23915ffe",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

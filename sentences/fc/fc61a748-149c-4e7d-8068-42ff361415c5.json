@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b4a043f847fdbe6af59968151a09428aad91127895e45416e679282e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b4a043f847fdbe6af59968151a09428aad91127895e45416e679282e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "枚数"
@@ -121,11 +129,12 @@
     "question": "折り紙の枚数を数えてもらえますか？",
     "answer": "Could you count the number of the origami paper?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fc61a748-149c-4e7d-8068-42ff361415c5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

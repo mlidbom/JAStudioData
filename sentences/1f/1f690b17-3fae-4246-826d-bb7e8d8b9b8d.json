@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-265328652d93e216b971c878404b3469462079d2c0ef5fea4d02c5f1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-265328652d93e216b971c878404b3469462079d2c0ef5fea4d02c5f1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "経つ"
@@ -163,11 +171,12 @@
     "question": "あなたがワニカニを始めてから、もう何年経ちましたか？",
     "answer": "How many years has it been since you started using WaniKani?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1f690b17-3fae-4246-826d-bb7e8d8b9b8d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

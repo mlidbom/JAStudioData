@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-21ff6b3e53c30f74b9fe85097a50ce24ac04b1b83caa3a3762537e63.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-21ff6b3e53c30f74b9fe85097a50ce24ac04b1b83caa3a3762537e63.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "着く"
@@ -128,11 +136,12 @@
     "question": "電車が時間通りに着かなかったんです。",
     "answer": "The train didn’t arrive on time.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e5f17024-9035-462f-b145-fbb0878f147d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

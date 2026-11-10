@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-890b7fc346d7adbc4db5ab8bac30ad42104c5d54c7182a1d669f3b52.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-890b7fc346d7adbc4db5ab8bac30ad42104c5d54c7182a1d669f3b52.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "年上"
@@ -114,11 +122,12 @@
     "question": "私の兄は、あなたより三才年上ですよ。",
     "answer": "My brother is three years older than you.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "089dbb02-6cd1-42ce-8079-53faa052a7a9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

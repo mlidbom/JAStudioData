@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7ffdc1480da6f663b74cebb63682e10723c9ed60f9fb534c22a84a44.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7ffdc1480da6f663b74cebb63682e10723c9ed60f9fb534c22a84a44.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "期限"
@@ -282,11 +290,12 @@
     "question": "ビザの期限が切れるので、来月日本を出なくてはいけません。",
     "answer": "I have to leave Japan next month because my visa will expire.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "80f455bb-58ac-4ca5-a342-66580d8c830d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

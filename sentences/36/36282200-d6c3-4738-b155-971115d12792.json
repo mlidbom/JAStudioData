@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1d11a0bdbeb60d14a34aed8ff8339827910e61df413eb55beeafad78.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1d11a0bdbeb60d14a34aed8ff8339827910e61df413eb55beeafad78.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "繋がる"
@@ -135,11 +143,12 @@
     "question": "コウイチと私は血が繋がってません。",
     "answer": "Koichi and I are not related by blood.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "36282200-d6c3-4738-b155-971115d12792",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

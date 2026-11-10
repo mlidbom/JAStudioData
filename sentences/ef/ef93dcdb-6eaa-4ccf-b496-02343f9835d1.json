@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-11764b33e46aefb6f7061c500a84c99e552963f4c9d1798b5b9fd521.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-11764b33e46aefb6f7061c500a84c99e552963f4c9d1798b5b9fd521.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "失望"
@@ -184,11 +192,12 @@
     "question": "この映画を見た後は、何とも言えない失望感を感じました。",
     "answer": "After watching this movie, I felt a sense of indescribable dismay.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ef93dcdb-6eaa-4ccf-b496-02343f9835d1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

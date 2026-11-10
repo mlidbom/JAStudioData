@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bf7083b8ef2b04e72ab032ed5d1909d4753d48f3708e97710eb83d31.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bf7083b8ef2b04e72ab032ed5d1909d4753d48f3708e97710eb83d31.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "東北"
@@ -142,11 +150,12 @@
     "question": "東北で、ボランティアをしていました。",
     "answer": "I was volunteering in Tohoku.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9f5b4326-3ab9-4142-87f5-6a387d6fef75",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

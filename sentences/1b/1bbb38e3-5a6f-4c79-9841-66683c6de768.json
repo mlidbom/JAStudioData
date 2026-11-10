@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-576bb7ac1707c29fe27c4cee7a4335f7d2c964148b1be4b4e47b7bac.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-576bb7ac1707c29fe27c4cee7a4335f7d2c964148b1be4b4e47b7bac.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "行う",
@@ -101,11 +109,12 @@
     "question": "まず、被告人が冒頭陳述を行います。",
     "answer": "First, the defendant will perform their opening statement.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1bbb38e3-5a6f-4c79-9841-66683c6de768",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

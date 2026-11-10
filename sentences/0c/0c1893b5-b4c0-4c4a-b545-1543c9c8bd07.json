@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-af244a31056867d1920affca7ea9965c4092a4d1adeec4d123f25196.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-af244a31056867d1920affca7ea9965c4092a4d1adeec4d123f25196.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "小声"
@@ -86,11 +94,12 @@
     "question": "男の子は小声で自分の作文をよんだ。",
     "answer": "The boy read his composition with a low voice.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0c1893b5-b4c0-4c4a-b545-1543c9c8bd07",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

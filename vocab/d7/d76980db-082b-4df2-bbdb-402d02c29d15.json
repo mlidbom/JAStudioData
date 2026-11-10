@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-b009d65922be1c16e3e97f46462a5f5076cdb7bcc3e8c4f203f5504e.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-b009d65922be1c16e3e97f46462a5f5076cdb7bcc3e8c4f203f5504e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "取手",
@@ -40,8 +46,7 @@
   "sentenceCount": 0,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -65,7 +70,9 @@
   "sourceData": {
     "answer": "recipient/receiver/acceptor/taker | skilled-practitioner-(of-judo,-sumo,-etc.) | person-who-picks-up-the-cards-(in-karuta-games)",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "d76980db-082b-4df2-bbdb-402d02c29d15",
   "tags": [

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-30df392379fc2cd871dd2d1f4ec3d0b70fa72b323bb124320f92cee8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-30df392379fc2cd871dd2d1f4ec3d0b70fa72b323bb124320f92cee8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "放射"
@@ -163,11 +171,12 @@
     "question": "放射冷却のせいで今朝起きた時はものすごい冷え込みだったよ。",
     "answer": "It was very cold when I got up this morning because of radiational cooling.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "89125b95-5cec-4a5f-8494-9107b79e6589",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

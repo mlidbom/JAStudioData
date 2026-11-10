@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3506c82ccc19d0ab9825ce7f964b8db8a89de48f612c6817cd6b3a43.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3506c82ccc19d0ab9825ce7f964b8db8a89de48f612c6817cd6b3a43.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "自転車"
@@ -149,11 +157,12 @@
     "question": "自転車を買ってあげるよ。お返しは要らないからね！",
     "answer": "I'll buy you a new bicycle, no strings attached. ",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "515a384c-17c9-48f7-bc6e-668ea2dd5302",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

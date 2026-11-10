@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7783c0b12b2d4e2f15c8b3111dbbcfc4b9e5f316dd97dd473a641ce9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7783c0b12b2d4e2f15c8b3111dbbcfc4b9e5f316dd97dd473a641ce9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "皇后"
@@ -205,11 +213,12 @@
     "question": "彼は誤って皇后であった母親を殺害してしまいました。",
     "answer": "He accidentally killed his mother, the Japanese Empress.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "025cfcea-df0c-4195-8fe2-a63b3812e434",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e63c3427f458aa08ee76c988ff8ee318c888699cbd231a208a32d452.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e63c3427f458aa08ee76c988ff8ee318c888699cbd231a208a32d452.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "問題"
@@ -114,11 +122,12 @@
     "question": "この数学の問題、全然分からないんだけど。",
     "answer": "I don't understand this math problem at all.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "11a0ae26-49b6-4b40-8d9c-d49177535049",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

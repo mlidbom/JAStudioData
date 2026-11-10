@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3ccb92f8f45834aefa2f3b02ea968d3c3e68d6e394cb0ed024e747ef.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3ccb92f8f45834aefa2f3b02ea968d3c3e68d6e394cb0ed024e747ef.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "振り仮名"
@@ -149,11 +157,12 @@
     "question": "漢字に振り仮名を振る仕事を見つけました。",
     "answer": "I found a job where I write furigana above kanji.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b265d2e5-80da-4f5e-af92-d917e54b9825",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

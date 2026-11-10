@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f815bd3ebffe61897aa6ac0ef8c420a2b166c96c61d0e395ac6885f1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f815bd3ebffe61897aa6ac0ef8c420a2b166c96c61d0e395ac6885f1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "暖房"
@@ -128,11 +136,12 @@
     "question": "何で暖房消したの？パイプが全部凍っちゃったじゃない。",
     "answer": "Why did you turn off the heat? All the pipes are completely frozen!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "972ff8f0-0765-4c83-9828-55f1902c8a83",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d26a31d49626762b0aa2aed0e585a617f04aa4966859060fc3043e94.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d26a31d49626762b0aa2aed0e585a617f04aa4966859060fc3043e94.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "泳ぐ"
@@ -212,11 +220,12 @@
     "question": "台風が近づいてるので、海で泳ぐのは安全ではありません。",
     "answer": "Swimming in the sea is not safe because the typhoon is approaching.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0884a92a-cf1a-4765-93cb-7420ad4543c3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

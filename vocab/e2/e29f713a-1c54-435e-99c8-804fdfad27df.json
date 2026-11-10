@@ -20,9 +20,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-68d8388f9ef50ff72b0151be4ca492bd04e0b592bf8b25b12df5c0a8.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-68d8388f9ef50ff72b0151be4ca492bd04e0b592bf8b25b12df5c0a8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "ワオー",
@@ -32,8 +38,7 @@
   "sentenceCount": 2,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -57,7 +62,9 @@
   "sourceData": {
     "answer": "wow",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "e29f713a-1c54-435e-99c8-804fdfad27df",
   "tags": [

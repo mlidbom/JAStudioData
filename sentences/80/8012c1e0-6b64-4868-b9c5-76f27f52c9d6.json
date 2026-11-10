@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0c39d06e1b35638987f9bd41a2fdcdd0711e54d483344d864f9af035.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0c39d06e1b35638987f9bd41a2fdcdd0711e54d483344d864f9af035.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "経路"
@@ -163,11 +171,12 @@
     "question": "こういう小さい事件って、どういう経路でニュースになるんだろうね。",
     "answer": "I wonder how these small incidents make their way into the news.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8012c1e0-6b64-4868-b9c5-76f27f52c9d6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

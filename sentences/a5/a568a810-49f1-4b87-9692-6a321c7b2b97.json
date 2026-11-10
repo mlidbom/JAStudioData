@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e79ac666d5a79c9fec350c3d0652b37732ee97e1565d448859e05af2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e79ac666d5a79c9fec350c3d0652b37732ee97e1565d448859e05af2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "出来上がる"
@@ -86,11 +94,12 @@
     "question": "お茶は大体五分で出来上がります。",
     "answer": "Tea will be ready in about five minutes.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a568a810-49f1-4b87-9692-6a321c7b2b97",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

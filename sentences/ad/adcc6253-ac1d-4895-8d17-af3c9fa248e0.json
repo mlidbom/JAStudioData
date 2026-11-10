@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ae4b52d8de1ae57c4df979bb58ae60453467214267cdcfc118baedcc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ae4b52d8de1ae57c4df979bb58ae60453467214267cdcfc118baedcc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "弁当"
@@ -156,11 +164,12 @@
     "question": "お弁当のおかずを少し残しておいて、子猫にあげました。",
     "answer": "I left some sides in my box lunch and gave them to a kitten.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "adcc6253-ac1d-4895-8d17-af3c9fa248e0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

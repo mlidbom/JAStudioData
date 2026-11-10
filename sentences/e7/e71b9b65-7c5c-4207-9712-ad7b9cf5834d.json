@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-834914930bb3f02251f8bd03c4432c3cbaabfb1216b80248cd8f91de.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-834914930bb3f02251f8bd03c4432c3cbaabfb1216b80248cd8f91de.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "全壊"
@@ -205,11 +213,12 @@
     "question": "マイホームを持っていたんですが、台風で全壊しちゃったんですよ。",
     "answer": "I had my own house, but it was completely destroyed by the typhoon.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e71b9b65-7c5c-4207-9712-ad7b9cf5834d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

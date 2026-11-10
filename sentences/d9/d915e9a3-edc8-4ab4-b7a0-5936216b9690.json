@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e38b49ee67d67cfa0a3d4d5717427e861356b8e470789fb313bbed2b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e38b49ee67d67cfa0a3d4d5717427e861356b8e470789fb313bbed2b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "退く"
@@ -247,11 +255,12 @@
     "question": "お前なら、どうすればこの状況で敵兵を退かせることができると思う？",
     "answer": "How do you think you would have gotten the enemy soldiers to retreat in this situation?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d915e9a3-edc8-4ab4-b7a0-5936216b9690",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

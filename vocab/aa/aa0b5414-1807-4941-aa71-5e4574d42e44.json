@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-6e2ca02570f13114fcaca55fde7e568c4f3b50de36226d5e3d49abc2.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-6e2ca02570f13114fcaca55fde7e568c4f3b50de36226d5e3d49abc2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "御祭",
@@ -48,8 +54,7 @@
   "sentenceCount": 16,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -73,7 +78,9 @@
   "sourceData": {
     "answer": "festival/feast/carnival",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "aa0b5414-1807-4941-aa71-5e4574d42e44",
   "tags": [

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a813b7d00e0cb4a2bc87a9a69dbb970889d98798a358439d5cab758c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a813b7d00e0cb4a2bc87a9a69dbb970889d98798a358439d5cab758c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "言葉遣い"
@@ -198,11 +206,12 @@
     "question": "誰かの言葉遣いを真似することは、外国語の良い勉強法です。",
     "answer": "Imitating someone’s speech can be a good way to practice a foreign language.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0b8d1552-b160-4523-8079-519375dce0ef",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

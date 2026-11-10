@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ffae437e6af01aae77bfcbbc297c232ced826eee8b7c354cb441e799.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ffae437e6af01aae77bfcbbc297c232ced826eee8b7c354cb441e799.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "済む"
@@ -86,11 +94,12 @@
     "question": "今やっと仕事が済んだところだよ。",
     "answer": "Work just came to an end.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5f9b92cd-3099-4b41-8b72-de40a90d70f3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

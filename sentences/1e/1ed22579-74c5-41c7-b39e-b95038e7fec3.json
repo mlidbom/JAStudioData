@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f60aa2ba0c5f14b2003844e7b1037dd93675d8081f52ce111082edf2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f60aa2ba0c5f14b2003844e7b1037dd93675d8081f52ce111082edf2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "俺たち"
@@ -72,11 +80,12 @@
     "question": "俺たち、一年生です。",
     "answer": "We're freshmen.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1ed22579-74c5-41c7-b39e-b95038e7fec3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a5c443975307c28151f2f2382e414064d0227b8dc73afdd1795bbee1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a5c443975307c28151f2f2382e414064d0227b8dc73afdd1795bbee1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "彼"
@@ -72,11 +80,12 @@
     "question": "彼は毎日コーヒーを飲みます。",
     "answer": "He drinks coffee every day.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ec7abba4-5c79-4ec1-918c-6e8ae7589a99",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

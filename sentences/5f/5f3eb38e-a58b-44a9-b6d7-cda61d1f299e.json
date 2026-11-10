@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3a5326b55f71c96ba7cf32f2109ff481322698b7018af3b65c67724d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3a5326b55f71c96ba7cf32f2109ff481322698b7018af3b65c67724d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "振動"
@@ -205,11 +213,12 @@
     "question": "車の中で、エンジンの振動を感じるのが好きなんです。",
     "answer": "I like feeling the vibration of an engine in a car.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5f3eb38e-a58b-44a9-b6d7-cda61d1f299e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

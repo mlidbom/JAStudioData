@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e900b3b1a4ae0a113d761d501da6ce2b0a8a882f271cb85a102cb45f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e900b3b1a4ae0a113d761d501da6ce2b0a8a882f271cb85a102cb45f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "沈没"
@@ -205,11 +213,12 @@
     "question": "タイタニック号の沈没を予言していた人がいるんです。",
     "answer": "There’s a person who predicted the sinking of the Titanic.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "359c98aa-e309-4a7b-8fc3-427ebe834c9f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

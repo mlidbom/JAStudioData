@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cd85b7f7fc02b8d76d3e27bd5810dca1d6ea89838f9b59f0ea3a5756.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cd85b7f7fc02b8d76d3e27bd5810dca1d6ea89838f9b59f0ea3a5756.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "先程"
@@ -128,11 +136,12 @@
     "question": "先程あなたからの手紙を読ませて頂きました。",
     "answer": "I read the letter from you some time ago.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0c5a7372-2ee2-475f-a261-a8e21b699bec",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

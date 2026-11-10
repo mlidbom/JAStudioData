@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e99a19c4beb4182aae4b197b27eef1f1891915cb002eec2629bccb4a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e99a19c4beb4182aae4b197b27eef1f1891915cb002eec2629bccb4a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "替える"
@@ -177,11 +185,12 @@
     "question": "見てろよ。オレは一秒でシャツを替えられるんだ！",
     "answer": "Just watch. I can change my shirt in one second!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "436fd384-7762-438c-ab44-77c7191081f9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-40359e12a2ba89ec9f85c150fb03609f449de8aa5f32fa30f248e7be.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-40359e12a2ba89ec9f85c150fb03609f449de8aa5f32fa30f248e7be.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "短銃"
@@ -219,11 +227,12 @@
     "question": "しばらく時間はかかったが、ようやく犯行の凶器となった短銃を見つけることができました。",
     "answer": "After a long time we eventually succeeded in finding the pistol that was used for the crime.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "91223e9b-4c1a-4349-b7be-c83e5ea84b6a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

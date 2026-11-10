@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9004f387824177a67c96ae41ec48a6740616ee23d33c2144605be63a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9004f387824177a67c96ae41ec48a6740616ee23d33c2144605be63a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "有罪"
@@ -226,11 +234,12 @@
     "question": "彼女はアリバイもあるのに、なぜか有罪とされてしまいました。",
     "answer": "She had an alibi, but somehow she was found guilty.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "161f56f5-ae0e-41b1-9949-9ef80002cd8c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

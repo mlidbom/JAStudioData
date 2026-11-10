@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-71a637726083a8685175aeb0155bf40f9d55c7e07b4c2327910752c8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-71a637726083a8685175aeb0155bf40f9d55c7e07b4c2327910752c8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "助かる"
@@ -65,11 +73,12 @@
     "question": "きっと助かるよ。平気。",
     "answer": "I'm sure they'll be fine. It's okay.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f70ad222-ffa5-4dd3-8b90-e9c84885ac6e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f1f3c1bf6fb4cd31db1166919b97f4689c25013f76af6e3829cc0ad5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f1f3c1bf6fb4cd31db1166919b97f4689c25013f76af6e3829cc0ad5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "生徒"
@@ -205,11 +213,12 @@
     "question": "このクラスの先生は、生徒一人一人のことを対等に見てくれます。",
     "answer": "The teachers in this class look at each student equally.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e2d62828-372d-422a-9ddd-c8a23fda95f7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

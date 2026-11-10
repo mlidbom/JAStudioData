@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a7f4e0fe258c977c3eb54e41335c2708227ef2ae279caba3df586e2b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a7f4e0fe258c977c3eb54e41335c2708227ef2ae279caba3df586e2b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "松葉"
@@ -86,11 +94,12 @@
     "question": "見て、お客さんから松葉ガニもらった。",
     "answer": "Look, I received a Matsuba crab from my client.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "597fba78-2f9a-4acf-b6fc-235c0c9bd9fc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

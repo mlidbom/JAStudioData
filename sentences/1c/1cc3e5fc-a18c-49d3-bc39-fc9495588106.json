@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c8ec58dc278e32846a7be08bece8a6d54fb65711e8d09f933961a08a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c8ec58dc278e32846a7be08bece8a6d54fb65711e8d09f933961a08a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "正解"
@@ -170,11 +178,12 @@
     "question": "コウイチにはヒミツにしておいて、正解だったね。",
     "answer": "We were right about keeping it a secret from Koichi.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1cc3e5fc-a18c-49d3-bc39-fc9495588106",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

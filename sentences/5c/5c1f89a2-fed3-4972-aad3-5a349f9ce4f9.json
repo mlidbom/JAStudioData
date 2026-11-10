@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3b9aee0ac848824596e90ccfe95bffffaf53036a3286c0a9323a01fc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3b9aee0ac848824596e90ccfe95bffffaf53036a3286c0a9323a01fc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "撤回"
@@ -121,11 +129,12 @@
     "question": "スト撤回の知らせがラインで回ってきた。",
     "answer": "I got a LINE message about the repeal of the strike.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5c1f89a2-fed3-4972-aad3-5a349f9ce4f9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

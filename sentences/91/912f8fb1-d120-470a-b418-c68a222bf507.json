@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-72b0aab2106bd83ff4e5f901219a5c62bd80fdf1f529164247f9cb7f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-72b0aab2106bd83ff4e5f901219a5c62bd80fdf1f529164247f9cb7f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "触れる"
@@ -142,11 +150,12 @@
     "question": "その話にはもう触れないでください。",
     "answer": "Please don't mention that topic again.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "912f8fb1-d120-470a-b418-c68a222bf507",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0a37cc1dba80650242637f6903cc04abd7191347fa4e43731e479b94.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0a37cc1dba80650242637f6903cc04abd7191347fa4e43731e479b94.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "終わる"
@@ -86,11 +94,12 @@
     "question": "今日のクラスは全て終わりました。",
     "answer": "Today's class is all done.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8929f16f-37e1-47ae-9dd2-a8d814a835b9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -19,15 +19,23 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": " [sound:ATTS 不正解 (azure microsoft server speech text to speech voice (ja-jp daichineural)).mp3]",
-  "audioG": "[sound:A_DailyLivesofHighSchoolBoys_S01E07_1_0.23.23.750-0.23.24.760.mp3]",
-  "audioTTS": "",
+  "audio": [
+    {
+      "fileName": "ATTS 不正解 (azure microsoft server speech text to speech voice (ja-jp daichineural)).mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    },
+    {
+      "fileName": "A_DailyLivesofHighSchoolBoys_S01E07_1_0.23.23.750-0.23.24.760.mp3"
+    }
+  ],
   "forms": [],
   "sentenceCount": 1,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -51,11 +59,12 @@
   "sourceData": {
     "answer": "incorrect/wrong/incorrect-interpretation-(answer,-solution)",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "f5ba235d-8a8b-4eef-aaff-77130c8c0ad4",
   "tags": [
-    "_tts_audio",
     "source::yomitan"
   ]
 }

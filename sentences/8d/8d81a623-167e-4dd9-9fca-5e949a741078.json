@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a53e71af5d655f1fe2deb501b7b96ed997aa4c5911888b757ea45bca.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a53e71af5d655f1fe2deb501b7b96ed997aa4c5911888b757ea45bca.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "幹"
@@ -177,11 +185,12 @@
     "question": "その木の幹をなでた時、木のさびしさにふれた気がしたんです。",
     "answer": "When I rubbed the tree trunk, I felt as if I’d touched the loneliness of the tree.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8d81a623-167e-4dd9-9fca-5e949a741078",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

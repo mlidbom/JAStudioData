@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e1e03b14a62f4606bb622b57df006dc6b806884ba3aab75a3fae262d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e1e03b14a62f4606bb622b57df006dc6b806884ba3aab75a3fae262d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "例外"
@@ -219,11 +227,12 @@
     "question": "社長の気分が良ければ、例外的にOKをもらえることもあるそうです。",
     "answer": "I've heard that if the president is in a good mood, sometimes he'll make exceptions and say it's okay.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "07954b96-f7d7-4790-9f3e-16039238a108",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fb2bc226450daf727f287fd65ace4d5904e0d230b2b0eafba4259ff0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fb2bc226450daf727f287fd65ace4d5904e0d230b2b0eafba4259ff0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "映像"
@@ -114,11 +122,12 @@
     "question": "この映像は小さい子には見せられないね。",
     "answer": "Well, we can't show the little ones this video.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1b9ab037-cdf7-496e-baa4-bffcb0289eac",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

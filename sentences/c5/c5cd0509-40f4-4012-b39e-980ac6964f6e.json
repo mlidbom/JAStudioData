@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-819fa96eacd9df85d861b1a717c0c67368b51d33d908e57422cc14bf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-819fa96eacd9df85d861b1a717c0c67368b51d33d908e57422cc14bf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "皮"
@@ -72,11 +80,12 @@
     "question": "このカーペットは、牛の皮です。",
     "answer": "This carpet is made of cow hide.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c5cd0509-40f4-4012-b39e-980ac6964f6e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

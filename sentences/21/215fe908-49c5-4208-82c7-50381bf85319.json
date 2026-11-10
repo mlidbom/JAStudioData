@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-db0b581939a339945214bf83055b786cf4e6190be1ccf825aa181ac5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-db0b581939a339945214bf83055b786cf4e6190be1ccf825aa181ac5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "誤算"
@@ -149,11 +157,12 @@
     "question": "彼女は英語がペラペラだと思ったが、とんだ誤算だった。",
     "answer": "I was wrong in thinking that she would speak decent English.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "215fe908-49c5-4208-82c7-50381bf85319",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

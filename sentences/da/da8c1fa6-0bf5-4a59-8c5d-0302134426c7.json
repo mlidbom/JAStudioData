@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9f60b2bcb83f315e0ca546efd5f0040722c0f2931262a0d67546f608.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9f60b2bcb83f315e0ca546efd5f0040722c0f2931262a0d67546f608.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "徹底"
@@ -219,11 +227,12 @@
     "question": "彼女は徹底した化粧を施さないと、外出することができません。",
     "answer": "She can’t go out until she thoroughly applies her make-up.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "da8c1fa6-0bf5-4a59-8c5d-0302134426c7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

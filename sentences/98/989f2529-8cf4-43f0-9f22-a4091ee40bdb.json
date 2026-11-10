@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1a652064a611dee5a7734f67bfc41f3d4af53c4190fa9adf8ade000f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1a652064a611dee5a7734f67bfc41f3d4af53c4190fa9adf8ade000f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "名人"
@@ -275,11 +283,12 @@
     "question": "あの女の人はチェスの名人であるだけでなく、ブラックジャックの名人でもある。",
     "answer": "That woman is not only a chess master, but a master of Blackjack.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "989f2529-8cf4-43f0-9f22-a4091ee40bdb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

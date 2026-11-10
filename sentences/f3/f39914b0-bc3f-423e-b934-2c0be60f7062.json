@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bc81635293e7f0e99d53f4d642fde5fce3f27759e2d21b0bc984ad5a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bc81635293e7f0e99d53f4d642fde5fce3f27759e2d21b0bc984ad5a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "休日"
@@ -128,11 +136,12 @@
     "question": "休日にメールしてこないで下さい。",
     "answer": "Please do not email me on my days off.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f39914b0-bc3f-423e-b934-2c0be60f7062",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

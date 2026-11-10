@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c97a3c9fab1bd5bad2b206adae67f8a78086bcc350aa80dfd4a792f3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c97a3c9fab1bd5bad2b206adae67f8a78086bcc350aa80dfd4a792f3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "膨れる"
@@ -128,11 +136,12 @@
     "question": "食べ過ぎてお腹がパンパンに膨れています。",
     "answer": "I overate and my stomach is swollen like a balloon.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "26e474ca-03a2-426a-8dab-cb40b1408560",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

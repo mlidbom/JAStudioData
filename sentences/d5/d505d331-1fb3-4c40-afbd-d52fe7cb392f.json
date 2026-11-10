@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-64a128afad0a9954bda1f174157a1eab8e8633087d2e43a9076e10f2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-64a128afad0a9954bda1f174157a1eab8e8633087d2e43a9076e10f2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "申し申し"
@@ -72,11 +80,12 @@
     "question": "申し申し、レストラン「山びこ」です。",
     "answer": "Hello, this is \"Mountain Echo\" restaurant.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d505d331-1fb3-4c40-afbd-d52fe7cb392f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8a4ce029f1ae209cc65494597d878b713acfee439359f35d4e488c9e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8a4ce029f1ae209cc65494597d878b713acfee439359f35d4e488c9e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "左手"
@@ -65,11 +73,12 @@
     "question": "左手でスプーンをもった。",
     "answer": "I held a spoon with my left hand.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "29802ea0-5a14-4515-85b8-db5990b9ee0c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b928714ceac20a8e472eed38e9aa01a6c43e05fe06c354486ebef6cf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b928714ceac20a8e472eed38e9aa01a6c43e05fe06c354486ebef6cf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "事変"
@@ -198,11 +206,12 @@
     "question": "この事変は、中国では九一八事変として知られています。",
     "answer": "This incident is known as the Mukden Incident in China.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cb64053a-d9ae-4d63-ab44-fef03c1a41d4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-aa02e85f7103633ca78e6d86ae4401909a1952e85c5825c84a404db7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-aa02e85f7103633ca78e6d86ae4401909a1952e85c5825c84a404db7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "穂"
@@ -205,11 +213,12 @@
     "question": "私達はお腹がペコペコだったので、麦の穂を集めてそのまま生で食べたんです。",
     "answer": "We were so hungry that we gathered ears of wheat and ate them raw.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "092ccefc-c66d-462f-8137-7db52348282a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

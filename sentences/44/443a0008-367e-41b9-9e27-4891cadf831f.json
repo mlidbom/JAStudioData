@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cb0e6b3633cac199d50c317f8e98ff58f5bd437cc0f0095887ceaa56.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cb0e6b3633cac199d50c317f8e98ff58f5bd437cc0f0095887ceaa56.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "卸"
@@ -135,11 +143,12 @@
     "question": "うちは雑貨の卸をしています。",
     "answer": "We sell wholesale goods.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "443a0008-367e-41b9-9e27-4891cadf831f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

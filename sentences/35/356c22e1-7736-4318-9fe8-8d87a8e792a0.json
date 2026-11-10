@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d95dadef29ffc9da4da115ac8c33a029832a8d3243824011a51b5df9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d95dadef29ffc9da4da115ac8c33a029832a8d3243824011a51b5df9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "草稿"
@@ -121,11 +129,12 @@
     "question": "スピーチの草稿を作成しています。",
     "answer": "I’m writing up a draft of the speech.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "356c22e1-7736-4318-9fe8-8d87a8e792a0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-20784d29f32c85a83dee7039ea5d96906d6f99e3b1c03b4fa9df5ad5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-20784d29f32c85a83dee7039ea5d96906d6f99e3b1c03b4fa9df5ad5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "盲人"
@@ -142,11 +150,12 @@
     "question": "その家には、生まれつき盲人の男が住んでいます。",
     "answer": "A man lives in that house who was born blind.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "eb172653-a203-4073-a320-84be9d194094",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -30,9 +30,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-abf41d197ad5c5cb4f4d0ca8ff4e8807bd48db918ce2e0f48376b564.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-abf41d197ad5c5cb4f4d0ca8ff4e8807bd48db918ce2e0f48376b564.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "此の手",
@@ -42,8 +48,7 @@
   "sentenceCount": 5,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -67,7 +72,9 @@
   "sourceData": {
     "answer": "this-way-(of-doing)/this-method | this-sort-(of-thing)/this-type",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "1e9bf73b-6fdb-443f-9440-d7edafc61f51",
   "tags": [

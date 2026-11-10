@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cdf4802db4f2335b7c596a054c9411ddb71cb0e79d765bd8445bc30b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cdf4802db4f2335b7c596a054c9411ddb71cb0e79d765bd8445bc30b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "石碑"
@@ -163,11 +171,12 @@
     "question": "無人島のはずのこの島に石碑が建っているのはなぜですか。",
     "answer": "Why is there a stone monument on this supposedly uninhabited island?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c446aac5-76b8-4f0a-b5cd-5086fc74fefd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

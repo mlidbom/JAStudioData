@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b2f19baee7ceda9aaf84d5b7ce6b7473549d3fa91ca8c09d206dac1e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b2f19baee7ceda9aaf84d5b7ce6b7473549d3fa91ca8c09d206dac1e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "会議"
@@ -114,11 +122,12 @@
     "question": "会議は日本時間の午後三時からですよ。",
     "answer": "The meeting starts at 3:00 p.m. Japan time.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4d16b5c9-345d-4a31-b77a-710219293730",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

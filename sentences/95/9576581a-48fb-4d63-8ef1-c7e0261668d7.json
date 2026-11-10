@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-db756c35fe17874b82846c3ba1d8e329f62c4e52e971e755c29e0ecd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-db756c35fe17874b82846c3ba1d8e329f62c4e52e971e755c29e0ecd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "御札"
@@ -100,11 +108,12 @@
     "question": "これは、地元の神社でもらった御札です。",
     "answer": "This is an amulet that I got from the shrine in my hometown.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9576581a-48fb-4d63-8ef1-c7e0261668d7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

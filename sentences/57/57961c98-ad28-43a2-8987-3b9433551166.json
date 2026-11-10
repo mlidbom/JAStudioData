@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a8f68a05ae7b6c91fba809d2b830ec8e45a8300f0ea38c84c8328249.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a8f68a05ae7b6c91fba809d2b830ec8e45a8300f0ea38c84c8328249.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "履き物"
@@ -177,11 +185,12 @@
     "question": "アマゾンから、注文より二足余計に履き物が送られてきました。",
     "answer": "Amazon sent me two more pairs of shoes than I ordered.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "57961c98-ad28-43a2-8987-3b9433551166",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

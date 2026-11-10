@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-116a2124035098c0d3380a0b1fcccac64117bad240c23818c6228bec.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-116a2124035098c0d3380a0b1fcccac64117bad240c23818c6228bec.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鉄柵"
@@ -107,11 +115,12 @@
     "question": "見て！鉄柵に何か引っかかっているよ。",
     "answer": "Look! Something's caught on the iron fence.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f001a670-c9b7-44ed-bafa-9fc1849c9ef3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-06b2b05cd18b11ec97d974c62fa127b530e9e22719eeab54118c5cd3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-06b2b05cd18b11ec97d974c62fa127b530e9e22719eeab54118c5cd3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "煮える"
@@ -51,11 +59,12 @@
     "question": "豆、ちゃんと煮えてる？",
     "answer": "Are the beans cooked well?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a47a08f2-7010-4c38-8dcb-dcdffd1f6a21",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

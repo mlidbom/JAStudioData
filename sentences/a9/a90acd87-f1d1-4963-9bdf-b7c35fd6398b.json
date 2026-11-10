@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a3fade95dcfd1d99b382577055a99b4220ae568f0e37de771fae7aea.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a3fade95dcfd1d99b382577055a99b4220ae568f0e37de771fae7aea.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "異なる"
@@ -135,11 +143,12 @@
     "question": "それぞれの薬には、異なる副作用があります。",
     "answer": "Each medicine has varying side effects.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a90acd87-f1d1-4963-9bdf-b7c35fd6398b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

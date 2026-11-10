@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dfd81116564213364f889bb1d7cd7ded25a41a2cbae9be3f095d28b9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dfd81116564213364f889bb1d7cd7ded25a41a2cbae9be3f095d28b9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お知らせ"
@@ -72,11 +80,12 @@
     "question": "ここでスポンサーからのお知らせです。",
     "answer": "And now a word from our sponsor.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1f31aa7b-ed50-4bdb-981c-4d523f64eb78",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

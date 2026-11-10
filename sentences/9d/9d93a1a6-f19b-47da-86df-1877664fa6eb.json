@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-250a2bea31cce3179ed80b783e3aca6d42e03ddfdaba28acd429966a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-250a2bea31cce3179ed80b783e3aca6d42e03ddfdaba28acd429966a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "殺菌"
@@ -121,11 +129,12 @@
     "question": "トイレを殺菌する一番いい方法は何ですか？",
     "answer": "What’s the best way to sterilize a bathroom?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9d93a1a6-f19b-47da-86df-1877664fa6eb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

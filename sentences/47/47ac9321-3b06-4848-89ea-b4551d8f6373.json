@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-09c05e5ead202412c61d998eeb7fbdf4e808a9d38b6f40ae247b5d99.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-09c05e5ead202412c61d998eeb7fbdf4e808a9d38b6f40ae247b5d99.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "落書き"
@@ -72,11 +80,12 @@
     "question": "いやいや、ただの落書きですよ。",
     "answer": "No, no, no, it's just a doodle.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "47ac9321-3b06-4848-89ea-b4551d8f6373",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

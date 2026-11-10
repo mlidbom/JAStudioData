@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-83a76cb977ce5300ac92bb73f130bf20af390f52c3c21e99b09f116c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-83a76cb977ce5300ac92bb73f130bf20af390f52c3c21e99b09f116c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "最低"
@@ -135,11 +143,12 @@
     "question": "明日の最低気温は０度を下回るでしょう。",
     "answer": "The lowest temperature tomorrow will be below zero degrees.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f37106fe-1386-4206-85f7-2735a4ec61fd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

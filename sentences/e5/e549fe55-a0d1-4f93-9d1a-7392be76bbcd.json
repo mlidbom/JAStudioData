@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-336b6259dc4a48448cca5bccf80ed4e5007d471cc18f84b623a05354.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-336b6259dc4a48448cca5bccf80ed4e5007d471cc18f84b623a05354.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "納得"
@@ -72,11 +80,12 @@
     "question": "それは納得できない！",
     "answer": "That I can't understand!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e549fe55-a0d1-4f93-9d1a-7392be76bbcd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

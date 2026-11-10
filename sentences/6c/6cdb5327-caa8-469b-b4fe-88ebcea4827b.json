@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2beb8dc8f6f9c82b8e27559e839b473656472cafde9cb99fba1efa15.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2beb8dc8f6f9c82b8e27559e839b473656472cafde9cb99fba1efa15.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "土"
@@ -79,11 +87,12 @@
     "question": "そのトマト、土がついてるよ。",
     "answer": "That tomato has some dirt on it.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6cdb5327-caa8-469b-b4fe-88ebcea4827b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

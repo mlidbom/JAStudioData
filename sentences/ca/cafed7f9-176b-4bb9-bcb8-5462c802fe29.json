@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-96c980876cbbe975c45e1d68e25909870749fe459d8f94dbb0b46a8c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-96c980876cbbe975c45e1d68e25909870749fe459d8f94dbb0b46a8c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大きい順"
@@ -135,11 +143,12 @@
     "question": "これらの会社を売上高の大きい順にならべなさい。",
     "answer": "List these companies in order of descending revenue.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cafed7f9-176b-4bb9-bcb8-5462c802fe29",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

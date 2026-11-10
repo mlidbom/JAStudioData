@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-159a957f7b38fdf4923fdbe0cf5455e81c39b24573830ad5b57b7aa2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-159a957f7b38fdf4923fdbe0cf5455e81c39b24573830ad5b57b7aa2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "病気"
@@ -65,11 +73,12 @@
     "question": "ドライアイは目の病気です。",
     "answer": "Dry eye is an eye disease.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "391f3c26-7624-4e0a-b65e-7bba0d53195f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

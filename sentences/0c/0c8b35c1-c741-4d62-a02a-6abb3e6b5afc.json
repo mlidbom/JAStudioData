@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7f03554cc00fcd2f2eb0b2beb69fc76123215c0df333859a8e25ad8d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7f03554cc00fcd2f2eb0b2beb69fc76123215c0df333859a8e25ad8d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "麦"
@@ -44,11 +52,12 @@
     "question": "麦アレルギーです。",
     "answer": "I'm allergic to wheat.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0c8b35c1-c741-4d62-a02a-6abb3e6b5afc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cd040c7e9c3e9b6b5e5cdb5ecc6d21e52925311944864cb3544552ff.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cd040c7e9c3e9b6b5e5cdb5ecc6d21e52925311944864cb3544552ff.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "衣装"
@@ -79,11 +87,12 @@
     "question": "あの歌手の衣装はいつも派手です。",
     "answer": "That singer's outfits are always flashy.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f8de7444-ab40-4118-81f6-db80837e4f3c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

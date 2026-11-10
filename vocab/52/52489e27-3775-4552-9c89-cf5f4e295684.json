@@ -30,9 +30,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-22cd58f0d9888493471d8cb9ecdf200d8a0ad479177a3accfa63264d.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-22cd58f0d9888493471d8cb9ecdf200d8a0ad479177a3accfa63264d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "話聞く",
@@ -50,8 +56,7 @@
   "sentenceCount": 38,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -75,7 +80,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "52489e27-3775-4552-9c89-cf5f4e295684",
   "tags": [

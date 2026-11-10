@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ed58c357ccb69fbc698403fb34f8d5084e282d7d60f076a73effd683.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ed58c357ccb69fbc698403fb34f8d5084e282d7d60f076a73effd683.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "脱走する"
@@ -107,11 +115,12 @@
     "question": "どうやって脱走に成功したの？",
     "answer": "How did you manage to break out?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "93bd0ddb-20a1-4d49-a6f8-375fec72162b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

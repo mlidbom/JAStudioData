@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ffc838451087ccd089e94200675501979e562caa5d3c249f5b89e648.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ffc838451087ccd089e94200675501979e562caa5d3c249f5b89e648.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "床"
@@ -100,11 +108,12 @@
     "question": "今日は床にモップをかけます。",
     "answer": "I will mop the floor today.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "acd543a0-9c18-42cb-b699-28fed76fb890",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

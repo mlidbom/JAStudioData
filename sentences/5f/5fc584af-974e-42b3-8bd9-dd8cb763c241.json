@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f386a335526c2189dbf12c62c951c70513b45ce9c5d05a5310a23ec5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f386a335526c2189dbf12c62c951c70513b45ce9c5d05a5310a23ec5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "担当"
@@ -282,11 +290,12 @@
     "question": "もしこの染みが抜けなかったら、私はこのプロジェクトの担当から外されてしまうかもしれない。",
     "answer": "If that stain won’t come off, I may no longer be in charge of this project.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5fc584af-974e-42b3-8bd9-dd8cb763c241",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

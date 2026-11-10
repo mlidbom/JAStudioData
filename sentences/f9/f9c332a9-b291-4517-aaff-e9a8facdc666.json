@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8834e39d910eb5fc1266a98d96936c52ef19dfd4e5cbdae153c49a9b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8834e39d910eb5fc1266a98d96936c52ef19dfd4e5cbdae153c49a9b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "交わる"
@@ -121,11 +129,12 @@
     "question": "トーフグは、アメリカと日本の文化が交わった会社です。",
     "answer": "Tofugu is a company where American and Japanese culture mingle.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f9c332a9-b291-4517-aaff-e9a8facdc666",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cb641d328c96999688e3d801a315d40189ad1a1d4b6999cb7cb0e172.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cb641d328c96999688e3d801a315d40189ad1a1d4b6999cb7cb0e172.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "荷物"
@@ -128,11 +136,12 @@
     "question": "荷物、そっちに送ったよ！三日ぐらいで着くみたい。",
     "answer": "I've sent the package over there! It should arrive in about three days.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "08414fbc-a562-4fb4-931d-6aad75a0bc6c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

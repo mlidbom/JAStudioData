@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9f9b2d314f0c8b17a85479974c722b66fb2d93a05fe848b248f56d25.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9f9b2d314f0c8b17a85479974c722b66fb2d93a05fe848b248f56d25.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "代用"
@@ -86,11 +94,12 @@
     "question": "このニンニクは、玉ねぎの代用ですか？",
     "answer": "Is this garlic a substitute for onions?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "39227e52-87f6-45ff-bab7-ca0199d49db1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

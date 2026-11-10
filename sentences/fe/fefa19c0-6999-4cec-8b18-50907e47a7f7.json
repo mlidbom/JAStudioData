@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c57be8a3cff7acadb5cd67370000caecd0b8d801d09aa7b10f72e050.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c57be8a3cff7acadb5cd67370000caecd0b8d801d09aa7b10f72e050.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "楽しみ"
@@ -79,11 +87,12 @@
     "question": "今夜のテレビ番組が楽しみです。",
     "answer": "I'm looking forward to the TV program tonight.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fefa19c0-6999-4cec-8b18-50907e47a7f7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

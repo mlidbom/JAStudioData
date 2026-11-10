@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3421b4bdcb65863ed61fe684e271ee3cfde460f575eb57d4b1c5cca1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3421b4bdcb65863ed61fe684e271ee3cfde460f575eb57d4b1c5cca1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "寮"
@@ -254,11 +262,12 @@
     "question": "もしこの寮にご両親を宿泊させたいのであれば、この宿泊カードに記入をお願いします。",
     "answer": "If you want your parents to stay in this dormitory, could you fill out this registration form?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b7a1f29f-07af-4557-ac26-f480208f6833",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

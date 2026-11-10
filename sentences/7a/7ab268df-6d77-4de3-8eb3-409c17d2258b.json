@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-64aa46545841aea5fdcf3b2c7604a814b4aea0bca416bc4eb6e3f30e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-64aa46545841aea5fdcf3b2c7604a814b4aea0bca416bc4eb6e3f30e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "メモ帳"
@@ -240,11 +248,12 @@
     "question": "話の途中で申し訳ありませんが、あなたのメモ帳のことでどうしても質問したいんです。",
     "answer": "Forgive me for interrupting, but I must ask you a question about your memo pad.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7ab268df-6d77-4de3-8eb3-409c17d2258b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

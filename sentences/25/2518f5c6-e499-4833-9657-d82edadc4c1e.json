@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-175d048dd915254c4d1612393e3318f0bd2b99c95ae88fb7e2429573.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-175d048dd915254c4d1612393e3318f0bd2b99c95ae88fb7e2429573.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -168,11 +176,12 @@
     "question": "和風の客室がいいんですが、空室はありますか？",
     "answer": "I’d like a Japanese-style room. Is there a vacancy?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2518f5c6-e499-4833-9657-d82edadc4c1e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

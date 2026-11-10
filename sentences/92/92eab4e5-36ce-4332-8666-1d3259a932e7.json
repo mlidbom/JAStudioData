@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-124f70452fb6d2976c1ac2899c67d0dca7801ab2c327945e5bde61cd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-124f70452fb6d2976c1ac2899c67d0dca7801ab2c327945e5bde61cd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "裏切り"
@@ -170,11 +178,12 @@
     "question": "奴らは裏切り者を殺すのにこの施設を利用している。",
     "answer": "They use this facility to kill traitors. ",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "92eab4e5-36ce-4332-8666-1d3259a932e7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

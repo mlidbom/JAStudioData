@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0326a290ca0f94f07041bac88f0be53213f27fd7923df4210e42a445.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0326a290ca0f94f07041bac88f0be53213f27fd7923df4210e42a445.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "外れる"
@@ -191,11 +199,12 @@
     "question": "ケガをして、スタメンから外れることになっちゃったんだ。",
     "answer": "I got injured, so I'm going to be taken off the starting players.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a11f21ff-4177-405d-92aa-603ebda1deef",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

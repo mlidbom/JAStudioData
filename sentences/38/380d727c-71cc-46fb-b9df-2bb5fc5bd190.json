@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7fdf04a31f22cf85007a9024ad3dd8675d6250f345a1bc0a39a41810.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7fdf04a31f22cf85007a9024ad3dd8675d6250f345a1bc0a39a41810.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [
@@ -124,11 +132,12 @@
     "question": "あまりお役に立てず、すみませんでした。",
     "answer": "I'm sorry that I couldn't be much help.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "380d727c-71cc-46fb-b9df-2bb5fc5bd190",
   "tags": [
-    "_tts_audio",
     "-::sentence::uses::incorrect-matches",
     "source::wani::current"
   ]

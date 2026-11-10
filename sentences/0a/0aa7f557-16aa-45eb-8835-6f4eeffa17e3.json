@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c89f22deb7d3028346e9788777b51500b451b76be6c9a7d38ee266bc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c89f22deb7d3028346e9788777b51500b451b76be6c9a7d38ee266bc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "案内"
@@ -170,11 +178,12 @@
     "question": "先生の案内で学校を見て回った後、入学案内を渡されました。",
     "answer": "After the teacher guided us around the school, we were given an admission guide.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0aa7f557-16aa-45eb-8835-6f4eeffa17e3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-671a32c9093a6d09b49424b2edcb65b3091aafcb04d5af42b254a33e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-671a32c9093a6d09b49424b2edcb65b3091aafcb04d5af42b254a33e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "注文する"
@@ -198,11 +206,12 @@
     "question": "外食でも、お持ち帰りで注文しても、僕はどちらでも構わないよ。",
     "answer": "We could eat out or order takeout. I don’t mind one way or the other.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "17b27ddd-ece0-411a-bc41-2027d28d195e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

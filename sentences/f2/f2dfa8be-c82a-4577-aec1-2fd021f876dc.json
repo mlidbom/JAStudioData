@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7fc066df320f53bb62b4fedf8072fe031ddac96b095efc54d6e35579.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7fc066df320f53bb62b4fedf8072fe031ddac96b095efc54d6e35579.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "自然"
@@ -177,11 +185,12 @@
     "question": "ユーザーから、ワニカニを自然に返すように言われました。",
     "answer": "We were told by the user to release WaniKani into the wild.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f2dfa8be-c82a-4577-aec1-2fd021f876dc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

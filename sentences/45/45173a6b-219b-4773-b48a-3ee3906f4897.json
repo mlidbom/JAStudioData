@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f4122648bb720e76b2dbcd1c24b5ac309d64f703cb1e3b58ea343790.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f4122648bb720e76b2dbcd1c24b5ac309d64f703cb1e3b58ea343790.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "出血"
@@ -86,11 +94,12 @@
     "question": "まだ両手に出血があります。",
     "answer": "There is still bleeding on both hands.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "45173a6b-219b-4773-b48a-3ee3906f4897",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

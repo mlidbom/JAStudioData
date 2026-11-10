@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d30fb215aa8082b4e4e3ad94fdd037c711e726468f63ba847ea04733.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d30fb215aa8082b4e4e3ad94fdd037c711e726468f63ba847ea04733.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お客さん"
@@ -86,11 +94,12 @@
     "question": "お客さんにお茶を出しました。",
     "answer": "I served tea to the customer.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e67f6a2f-7830-46be-92d1-7ad543894844",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

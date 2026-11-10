@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4c395ed8de8664091adc4c0504caa172ded386c3acbfc0d41f88c2c1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4c395ed8de8664091adc4c0504caa172ded386c3acbfc0d41f88c2c1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "公設"
@@ -149,11 +157,12 @@
     "question": "確かあの公園に公設の便所があったはずだよ。",
     "answer": "If I remember correctly, I think there is a public restroom in that park.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c104492e-309f-40fd-9209-8b415ca68466",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

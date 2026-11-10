@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-eddcbf4fa296215e417039a8a2b6843ec37bda99e4e2832dfad0c61b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-eddcbf4fa296215e417039a8a2b6843ec37bda99e4e2832dfad0c61b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "姉妹"
@@ -114,11 +122,12 @@
     "question": "私は、三人姉妹の一人です。",
     "answer": "I'm one of three sisters.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4b86d6bf-2b03-4ea5-b953-aaaeaf1bb532",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

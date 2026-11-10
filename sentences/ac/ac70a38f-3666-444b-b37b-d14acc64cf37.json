@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-acb3ce347ad399afb00e1af1a673c652d739061b16fe316cbfa17c2c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-acb3ce347ad399afb00e1af1a673c652d739061b16fe316cbfa17c2c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "引き分け"
@@ -79,11 +87,12 @@
     "question": "今日のゲームは引き分けだった。",
     "answer": "Today's game was a tie.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ac70a38f-3666-444b-b37b-d14acc64cf37",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

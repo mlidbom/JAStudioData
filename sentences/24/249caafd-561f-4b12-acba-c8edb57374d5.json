@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b36fa4203c512d52f5f4d72903aef7397ffd6e95f940d0790e50026f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b36fa4203c512d52f5f4d72903aef7397ffd6e95f940d0790e50026f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "不祥事"
@@ -191,11 +199,12 @@
     "question": "警察は自分たちの不祥事を隠そうとしているんだ。",
     "answer": "The police are trying to hide their own scandal.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "249caafd-561f-4b12-acba-c8edb57374d5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

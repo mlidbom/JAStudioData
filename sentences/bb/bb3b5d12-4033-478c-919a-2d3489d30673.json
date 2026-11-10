@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-42f3a7c95df8886ddd2c9fa47842f2a7d501cf776ae2eead7f073f11.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-42f3a7c95df8886ddd2c9fa47842f2a7d501cf776ae2eead7f073f11.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "存じる"
@@ -177,11 +185,12 @@
     "question": "年末でお忙しいとは存じますが、この記事を読んでいただければ幸いに存じます。",
     "answer": "I know that the end of the year is really busy, but I would appreciate it if you could read this article.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bb3b5d12-4033-478c-919a-2d3489d30673",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9d2a99722aa1c011aaa2d4dcc1129fe7c5c8a1417e55e6bf3562a15d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9d2a99722aa1c011aaa2d4dcc1129fe7c5c8a1417e55e6bf3562a15d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "他"
@@ -114,11 +122,12 @@
     "question": "他のスタッフは今いません。",
     "answer": "No other staff are here right now.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f7767c50-2908-4183-b9ac-9575700015bd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

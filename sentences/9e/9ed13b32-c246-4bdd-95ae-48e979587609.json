@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-718452b206ec9163d6e88e7b8bb015b8757f0b3df6510c43e67d8dee.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-718452b206ec9163d6e88e7b8bb015b8757f0b3df6510c43e67d8dee.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "議会"
@@ -163,11 +171,12 @@
     "question": "私たちの出した意見書が、議会で可決されました。",
     "answer": "The opinion letter we submitted was passed by the Assembly.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9ed13b32-c246-4bdd-95ae-48e979587609",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

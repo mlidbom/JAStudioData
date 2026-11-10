@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3a66a5e9b4814801c138be1f32632ad52953b6b49e4f3281d54290a0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3a66a5e9b4814801c138be1f32632ad52953b6b49e4f3281d54290a0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "資料"
@@ -177,11 +185,12 @@
     "question": "その警察官は、資料の情報だけで事件を解決してしまった。",
     "answer": "The police officer had solved the case using only the information in the documents.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "828707c1-8316-47c8-ba90-55526bb23ef7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

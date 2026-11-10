@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fcc68d035bcf8848a8fa7bda21d43ee595dcdf18bf6e60eacc7609d2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fcc68d035bcf8848a8fa7bda21d43ee595dcdf18bf6e60eacc7609d2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "負け犬"
@@ -142,11 +150,12 @@
     "question": "私はあなたのことを負け犬だとは思わないよ。",
     "answer": "I don't think you're a loser.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e7fc344d-f77f-411a-b03f-657216f2486d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

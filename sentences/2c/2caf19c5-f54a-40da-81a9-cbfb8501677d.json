@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6b689889214f9c3782dfc344a23249f686525c9a09150b9b82cb152c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6b689889214f9c3782dfc344a23249f686525c9a09150b9b82cb152c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "誤り"
@@ -58,11 +66,12 @@
     "question": "ようやく誤りに気がついた。",
     "answer": "I finally noticed my mistakes.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2caf19c5-f54a-40da-81a9-cbfb8501677d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

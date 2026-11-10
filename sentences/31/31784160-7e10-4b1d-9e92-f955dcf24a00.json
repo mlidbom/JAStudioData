@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2aca73c0e7916443e734ba609de79f82a2fc552cce56a7dd1d6e47ff.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2aca73c0e7916443e734ba609de79f82a2fc552cce56a7dd1d6e47ff.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "今更"
@@ -163,11 +171,12 @@
     "question": "こんな基本中の基本のこと、先生には今更聞けないよ。",
     "answer": "I can't ask my teacher about such basic things now.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "31784160-7e10-4b1d-9e92-f955dcf24a00",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

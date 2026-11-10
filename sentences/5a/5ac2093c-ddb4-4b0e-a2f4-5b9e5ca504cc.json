@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fe629ca0cd59f4b54fdcb240aae62a8fa59153567b3f91f102bc06ba.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fe629ca0cd59f4b54fdcb240aae62a8fa59153567b3f91f102bc06ba.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -112,11 +120,12 @@
     "question": "日本へのチケットは、十万円でした。",
     "answer": "The ticket to Japan was 100,000 yen.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5ac2093c-ddb4-4b0e-a2f4-5b9e5ca504cc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

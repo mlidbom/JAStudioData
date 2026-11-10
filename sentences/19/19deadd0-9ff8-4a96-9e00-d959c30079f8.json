@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6b0130010299cb7e90846c9054f42f56a2bbbc587c09541ae55f11ad.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6b0130010299cb7e90846c9054f42f56a2bbbc587c09541ae55f11ad.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "造る"
@@ -352,11 +360,12 @@
     "question": "船を造るにはまず設計が必要です。同じ船でも、客船を造るのかタンカーを造るのかで、設計が全く違ってくるんですよ。",
     "answer": "The first step in manufacturing a ship is design. The design of the same ship is completely different depending on whether it is a passenger ship or a tanker.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "19deadd0-9ff8-4a96-9e00-d959c30079f8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

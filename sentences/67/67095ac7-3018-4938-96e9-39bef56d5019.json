@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-48cc22e6a1dcde29d58bcdc6a1186999bab0c55e53ceb7828e37f789.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-48cc22e6a1dcde29d58bcdc6a1186999bab0c55e53ceb7828e37f789.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "世界恐慌"
@@ -128,11 +136,12 @@
     "question": "世界恐慌は失業率と共に自殺率までも上げた。",
     "answer": "The Great Depression raised unemployment and even suicide rates.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "67095ac7-3018-4938-96e9-39bef56d5019",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

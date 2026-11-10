@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-93f59bedeb8988b32a6fdecd12810d8d8d22b7ec4afc555278cc45f4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-93f59bedeb8988b32a6fdecd12810d8d8d22b7ec4afc555278cc45f4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "数字"
@@ -100,11 +108,12 @@
     "question": "その数字を見て、答えを思い出しました。",
     "answer": "Looking at the numbers, I just remembered the answer.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "daed9181-3989-4044-a6d3-6130cd56de20",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

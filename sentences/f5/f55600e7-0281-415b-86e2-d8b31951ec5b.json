@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f5478ddf8e0a1966d78f397e7362bdff63a773bddb9ef6195af6e832.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f5478ddf8e0a1966d78f397e7362bdff63a773bddb9ef6195af6e832.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "管弦楽"
@@ -142,11 +150,12 @@
     "question": "子供に管弦楽を習わせたいと思っています。",
     "answer": "I want to let the children learn orchestral music.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f55600e7-0281-415b-86e2-d8b31951ec5b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

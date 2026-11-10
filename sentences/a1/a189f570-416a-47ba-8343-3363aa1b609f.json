@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ee4a60f6065dab06ca42bea4f92b17c061b1488c59329fb2b73b32bb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ee4a60f6065dab06ca42bea4f92b17c061b1488c59329fb2b73b32bb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "机"
@@ -240,11 +248,12 @@
     "question": "「君の机の上に、コウイチの写真を置いておいたよ。」「ありがとう。恩に着るよ。」",
     "answer": "\"I put the picture of Koichi on your desk.\" \"Thanks. I owe you one.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a189f570-416a-47ba-8343-3363aa1b609f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

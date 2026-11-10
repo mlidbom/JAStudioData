@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-308afc5839d882a3bd38fca902f03618d579c1740ecf00b89cbfa5c6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-308afc5839d882a3bd38fca902f03618d579c1740ecf00b89cbfa5c6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "行動"
@@ -156,11 +164,12 @@
     "question": "あの人は発言と行動が一致していない。",
     "answer": "That person's words and actions don't match up.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "34ab59d5-3236-4e5a-aacf-82bb73111448",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

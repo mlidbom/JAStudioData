@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-51fd74eff21ee6376d27759e57d6b569bc65d4c1ce3d22c7f43904ab.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-51fd74eff21ee6376d27759e57d6b569bc65d4c1ce3d22c7f43904ab.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "延びる"
@@ -128,11 +136,12 @@
     "question": "工事のせいでいつものランニングのコースが延びた。",
     "answer": "Because of construction work, my usual running route has been extended.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "190fa7d9-9a07-4486-bed8-6e5ab2e6d276",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

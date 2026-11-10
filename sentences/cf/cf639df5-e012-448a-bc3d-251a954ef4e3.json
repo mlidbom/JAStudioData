@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-892eb4080326a230fc2abfd2acd6446e39ead41a71345bc972dcb8d8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-892eb4080326a230fc2abfd2acd6446e39ead41a71345bc972dcb8d8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "開放する"
@@ -142,11 +150,12 @@
     "question": "夜はオフィスをバーとして開放しています。",
     "answer": "We open our office up into a bar at night.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cf639df5-e012-448a-bc3d-251a954ef4e3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

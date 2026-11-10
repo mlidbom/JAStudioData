@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d5bbd0508b5cd18f458f02390b6a6a144cbca7f9d40719ce8e85f7e7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d5bbd0508b5cd18f458f02390b6a6a144cbca7f9d40719ce8e85f7e7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "塀"
@@ -170,11 +178,12 @@
     "question": "ブロック塀の取付け費用がいくらかかるのかが知りたいんですが。",
     "answer": "I want to know how much concrete-block wall installation will cost.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "afc7a79d-4533-4579-9c10-20bc452563e2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

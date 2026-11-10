@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7817d4aa9d90c741928f13e5226d469a67a9b1f54c9245cf86919666.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7817d4aa9d90c741928f13e5226d469a67a9b1f54c9245cf86919666.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "喧嘩"
@@ -79,11 +87,12 @@
     "question": "喧嘩しないでよ。",
     "answer": "Stop fighting!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1b2e3232-6aec-428d-b747-0e796d39228e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

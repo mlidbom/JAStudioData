@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9cb6a3d6d545c255aa0ff0af98819b2224a2bf751b440349b66bcf06.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9cb6a3d6d545c255aa0ff0af98819b2224a2bf751b440349b66bcf06.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "図説"
@@ -156,11 +164,12 @@
     "question": "アヤが、トーフグ社内の人間関係の図説を作ってくれました。",
     "answer": "Aya made an explanatory diagram of the in-house Tofugu relationships.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ab826bb1-e59a-4182-9dda-2a096ebba78f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

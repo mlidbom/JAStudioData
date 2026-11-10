@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6ba395c9c5376ef763a6b59f3c6968d0143cfe796a74914bdd830685.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6ba395c9c5376ef763a6b59f3c6968d0143cfe796a74914bdd830685.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "断つ"
@@ -380,11 +388,12 @@
     "question": "お酒とタバコを断つべきだってのは、自分でも分かってます。医者にも断つように言われたんですが、すぐには無理ですよ。",
     "answer": "I know that I should cut out alcohol and cigarettes. My doctor also told me to cut them out, but there’s no way I could do so right away.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1c18f4db-9d6b-41ff-8a6b-348da52d81c4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

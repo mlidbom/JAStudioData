@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5e5ed31818f089d71d676aadc99174fc1c63e922e33be614d9313d83.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5e5ed31818f089d71d676aadc99174fc1c63e922e33be614d9313d83.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "山びこ"
@@ -93,11 +101,12 @@
     "question": "夕べは山びこがうるさくて、ねれなかったよ。",
     "answer": "The mountain echo was so loud last night I couldn't sleep.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7267763a-1923-4d4d-a565-e6b313c19ec0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

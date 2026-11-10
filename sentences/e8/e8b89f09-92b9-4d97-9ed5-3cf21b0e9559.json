@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d0e600f1dcbc0b207ea335780e306444d23a39faa9867cd5380b2838.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d0e600f1dcbc0b207ea335780e306444d23a39faa9867cd5380b2838.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "取り出す"
@@ -121,11 +129,12 @@
     "question": "オーブンからフグを取り出しておいてくれない？",
     "answer": "Can you take the pufferfish out of the oven for me?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e8b89f09-92b9-4d97-9ed5-3cf21b0e9559",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

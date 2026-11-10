@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-04c8548d36db42d8d71e6fe23d3ef7aab5d57f3e7db64f1adbdf53d9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-04c8548d36db42d8d71e6fe23d3ef7aab5d57f3e7db64f1adbdf53d9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "運搬"
@@ -233,11 +241,12 @@
     "question": "このレストランには、食事やその他の細々したものを運搬するためのミニエレベータがあります。",
     "answer": "There is a mini elevator used to transport food and other small things in this restaurant.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "acc5eb0e-5bf8-489e-8fa3-76a088406a43",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c6c9d0701bd1a6ed0fa68fd28ff767f75746ce6a8b416a160e2c64f5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c6c9d0701bd1a6ed0fa68fd28ff767f75746ce6a8b416a160e2c64f5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "左右"
@@ -107,11 +115,12 @@
     "question": "左右をみてからUターンしてね。",
     "answer": "Make a U-turn after looking left and right.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3289d495-a210-4af3-a770-3a3317c2238f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

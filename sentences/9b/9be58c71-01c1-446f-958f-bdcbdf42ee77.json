@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2ed0f773177b8d3120c8cb9d811bb61bbd1a308e42d646261606eaf1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2ed0f773177b8d3120c8cb9d811bb61bbd1a308e42d646261606eaf1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "出版"
@@ -156,11 +164,12 @@
     "question": "その本を出版するのに二年もかかりました。",
     "answer": "It took me two years to publish the book.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9be58c71-01c1-446f-958f-bdcbdf42ee77",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

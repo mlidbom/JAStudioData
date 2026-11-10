@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-de90d4049fea9ad82fcf5dfc803542b0d03de959df09a2cf5f54bd55.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-de90d4049fea9ad82fcf5dfc803542b0d03de959df09a2cf5f54bd55.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "尽くす"
@@ -170,11 +178,12 @@
     "question": "「これ、明日までにできるかな？」「わかりました。最善を尽くします。」",
     "answer": "\"Can you do this by tomorrow?\" \"I see, I’ll give it my best.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f4a991ff-6bfc-4bab-917e-05e706e001d8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

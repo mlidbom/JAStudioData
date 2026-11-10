@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dd0ef21ac2e3107a9d66c315cd6c4f38cc9e0f0a4cd409fd55cf5f71.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dd0ef21ac2e3107a9d66c315cd6c4f38cc9e0f0a4cd409fd55cf5f71.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "汽車"
@@ -100,11 +108,12 @@
     "question": "すみません。汽車は何分おきに来ますか？",
     "answer": "Excuse me, how often do the steam trains come?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "02d31c18-0646-4439-b8ce-a84c12df2028",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

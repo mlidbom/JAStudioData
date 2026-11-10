@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4ddc8573e49cd46d2142b0744cf15bce14e086b3961caae0c8742ec6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4ddc8573e49cd46d2142b0744cf15bce14e086b3961caae0c8742ec6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "位置"
@@ -191,11 +199,12 @@
     "question": "トーフグのオフィスは、かつて、ポートランドのど真ん中に位置していた。",
     "answer": "The Tofugu office was once located in the middle of Portland.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6282f07f-4f50-4008-9d24-a6784dbfc650",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

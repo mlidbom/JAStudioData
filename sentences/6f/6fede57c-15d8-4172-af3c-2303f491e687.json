@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-665c6fa205993c2402b9d8ff1c1e7e72ba9f01207120705cfcab9e40.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-665c6fa205993c2402b9d8ff1c1e7e72ba9f01207120705cfcab9e40.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "総合"
@@ -135,11 +143,12 @@
     "question": "ワニカニは、総合すると良くできたサイトです。",
     "answer": "Overall, WaniKani is a well-built website.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6fede57c-15d8-4172-af3c-2303f491e687",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-522f4bddb564265f22dcf1e666aa80f6689c5eb4c16f94bd711c2ffc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-522f4bddb564265f22dcf1e666aa80f6689c5eb4c16f94bd711c2ffc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "独創"
@@ -93,11 +101,12 @@
     "question": "ワニカニはコウイチ社長の独創です。",
     "answer": "WaniKani is President Koichi's original creation.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fba8a94b-eae7-4db7-9b88-bc9a16f15dbd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

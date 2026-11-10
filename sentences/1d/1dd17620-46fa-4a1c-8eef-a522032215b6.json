@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5a8ab2aa20da1185a1637a7559596a38da3400e22ad0163e84988fd1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5a8ab2aa20da1185a1637a7559596a38da3400e22ad0163e84988fd1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "彼女"
@@ -107,11 +115,12 @@
     "question": "彼女とディズニーランドに行ってきた。",
     "answer": "I went to Disneyland with my girlfriend.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1dd17620-46fa-4a1c-8eef-a522032215b6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f0dd1ec45b10107aee3b63a397cd31432ef0906e86da7b26709b1b76.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f0dd1ec45b10107aee3b63a397cd31432ef0906e86da7b26709b1b76.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "充電"
@@ -142,11 +150,12 @@
     "question": "もしよければ俺の車で携帯の充電ができるよ。",
     "answer": "You can charge your phone in my car, if you’d like.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "25e67fa4-5a48-4e87-b9a0-55a84e06e7dc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

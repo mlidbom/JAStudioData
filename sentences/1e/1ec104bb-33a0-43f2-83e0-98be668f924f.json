@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-666bff35aa20b0a0e28f8afa2fde64cc4196ed99c5199badcaa69e5a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-666bff35aa20b0a0e28f8afa2fde64cc4196ed99c5199badcaa69e5a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "警察官"
@@ -107,11 +115,12 @@
     "question": "あの警察官、混乱にまぎれてバックレやがったぞ！",
     "answer": "That policeman escaped in the confusion!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1ec104bb-33a0-43f2-83e0-98be668f924f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

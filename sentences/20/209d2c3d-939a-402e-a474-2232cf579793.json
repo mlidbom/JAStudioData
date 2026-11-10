@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8f9bfe5fefb530b1f8b7cf44965b55458bccb9bada0700c7a20dcb08.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8f9bfe5fefb530b1f8b7cf44965b55458bccb9bada0700c7a20dcb08.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "外"
@@ -65,11 +73,12 @@
     "question": "外と中、どっちがすき？",
     "answer": "Which do you prefer, outside or inside?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "209d2c3d-939a-402e-a474-2232cf579793",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

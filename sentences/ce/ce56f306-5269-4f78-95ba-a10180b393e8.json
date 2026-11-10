@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c007c72c5a6475d27629d5a3a96b8994300460b759829bf9041faeff.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c007c72c5a6475d27629d5a3a96b8994300460b759829bf9041faeff.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "無闇に"
@@ -226,11 +234,12 @@
     "question": "無闇に女の子に声をかけるのはよした方がいいよ。",
     "answer": "You shouldn’t hit on girls indiscriminately.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ce56f306-5269-4f78-95ba-a10180b393e8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

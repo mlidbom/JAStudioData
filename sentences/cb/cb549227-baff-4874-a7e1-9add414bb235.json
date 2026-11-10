@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9f43f754f71de6f65494b407e988d4cc559123b0e4acf8e739f36036.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9f43f754f71de6f65494b407e988d4cc559123b0e4acf8e739f36036.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "奥"
@@ -142,11 +150,12 @@
     "question": "このホテルは、フロントデスクが奥にあるんですね！",
     "answer": "I see in this hotel the front desk is located in the back!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cb549227-baff-4874-a7e1-9add414bb235",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

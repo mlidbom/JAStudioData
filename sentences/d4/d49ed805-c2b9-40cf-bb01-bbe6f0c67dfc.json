@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-edb767f654d0a38cf312eeb63fe06dab3eed39582779a92154db90bd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-edb767f654d0a38cf312eeb63fe06dab3eed39582779a92154db90bd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "医師"
@@ -254,11 +262,12 @@
     "question": "ほんの短い時間だけでしたが、この医師は二度テレビに出たことがあるんです。",
     "answer": "This doctor appeared on TV twice, though just for short amounts of time.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d49ed805-c2b9-40cf-bb01-bbe6f0c67dfc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

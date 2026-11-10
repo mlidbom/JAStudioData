@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7baac01956baf9134664095435681931b15b68e8a831c259ccd26d2f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7baac01956baf9134664095435681931b15b68e8a831c259ccd26d2f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "忘れ物"
@@ -65,11 +73,12 @@
     "question": "私は忘れ物が多い。",
     "answer": "I forget things a lot.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ac325289-2ca4-49b7-9b9a-b02515f80493",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

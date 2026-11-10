@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-65263c0a64576eb6f0664d89be1d4bad1d389e6517b04d40c8626ec0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-65263c0a64576eb6f0664d89be1d4bad1d389e6517b04d40c8626ec0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "惨事"
@@ -100,11 +108,12 @@
     "question": "惨事を招くことは避けたい。",
     "answer": "I want to avoid causing a disaster.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ce7b5851-4323-4abe-894b-550f96c7af1e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

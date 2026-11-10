@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-993ce684c3d89a9549d06c8cdf8f90dd59b8b81f0a6ed8a21f94a43a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-993ce684c3d89a9549d06c8cdf8f90dd59b8b81f0a6ed8a21f94a43a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "赤痢"
@@ -156,11 +164,12 @@
     "question": "男女計5人から細菌性の赤痢が検出されました。",
     "answer": "The dysentery bacteria was detected in five men and women total. ",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "980e4027-3c8d-41c5-b109-b4a19150906b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

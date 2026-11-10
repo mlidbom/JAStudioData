@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5130836429f9bec38092acf62df89ee7b103f0e99de14ce3903bf2a5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5130836429f9bec38092acf62df89ee7b103f0e99de14ce3903bf2a5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "細かい"
@@ -149,11 +157,12 @@
     "question": "私は細かいことはあまり気にしない性格です。",
     "answer": "I am not a detail-oriented person.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "280a684a-ee1d-4db8-98e5-3e1c01239da7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -32,9 +32,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-4f8b4bb20119bd572a39a57542e6f897a135616b7b3caaf0be7ec493.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-4f8b4bb20119bd572a39a57542e6f897a135616b7b3caaf0be7ec493.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "聞いてあきれる",
@@ -44,8 +50,7 @@
   "sentenceCount": 2,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -69,7 +74,9 @@
   "sourceData": {
     "answer": "to{?}{be-astonished-to-hear/be-incredulous-about/express-disbelief} | who-do-you-think-you're-kidding-by-saying-(that)/what-a-laugh!",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "7e588973-9e40-4e0a-8fff-5b7645ef456a",
   "tags": [

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f5341e4ff1b97bbdf67d0382b865d450493f0c326a5271e4548fbfad.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f5341e4ff1b97bbdf67d0382b865d450493f0c326a5271e4548fbfad.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "休止"
@@ -163,11 +171,12 @@
     "question": "わたしのファーストキスは休止中のエレベーターの中だったんです。",
     "answer": "My first kiss happened in an elevator that was stuck.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1e8fa23d-508e-4cf1-9bb2-649904a1e43b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

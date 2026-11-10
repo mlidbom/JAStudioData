@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b92d7183bddbfd4232de31662601f3b5e32e736040d1be426e9f5579.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b92d7183bddbfd4232de31662601f3b5e32e736040d1be426e9f5579.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "撮影"
@@ -198,11 +206,12 @@
     "question": "お待たせして申し訳ございません。それでは、撮影を始めましょうか。",
     "answer": "I’m sorry to have kept you waiting. Let’s start shooting now.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "64096867-8759-49de-954a-6c2faaf4fcf0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

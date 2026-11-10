@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-41b02c217fec3041f3e23fd00a877b2f5d9bcc876f1a74930ee34f91.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-41b02c217fec3041f3e23fd00a877b2f5d9bcc876f1a74930ee34f91.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "営業中"
@@ -184,11 +192,12 @@
     "question": "営業中に電話しないでって言ったじゃない。",
     "answer": "I asked you not to call me when the shop is open.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "87ab3151-0e38-4ea2-a901-7da54e5a667b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

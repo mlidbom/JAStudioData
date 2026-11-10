@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8d652f2d71cd2ba7d4e869f2ca7463b09a4d5d80460680809f072ec7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8d652f2d71cd2ba7d4e869f2ca7463b09a4d5d80460680809f072ec7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "席"
@@ -121,11 +129,12 @@
     "question": "私の右側の席にみんなの荷物をおきましょう。",
     "answer": "Let's put everybody's bags on the seat to the right of me.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3004bb70-fb68-489d-8081-a7e2bd42ca0a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

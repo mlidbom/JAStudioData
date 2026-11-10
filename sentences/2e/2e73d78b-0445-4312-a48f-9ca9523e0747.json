@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1fa18e9b42561010ad5cf8e9e5078b78564ef060115531a20c9c56fd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1fa18e9b42561010ad5cf8e9e5078b78564ef060115531a20c9c56fd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "根本"
@@ -156,11 +164,12 @@
     "question": "この問題の根本の原因はどこにあると思いますか？",
     "answer": "What do you think the fundamental cause of this problem is?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2e73d78b-0445-4312-a48f-9ca9523e0747",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

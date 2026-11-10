@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2fefd2256c0a8daeb42edfb4a80d8bf8f3a507e64f72d192a7c88354.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2fefd2256c0a8daeb42edfb4a80d8bf8f3a507e64f72d192a7c88354.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "皆さん"
@@ -86,11 +94,12 @@
     "question": "皆さん、こんにちは。お元気ですか？",
     "answer": "Hello everyone. How are you?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "892ee476-d4c9-4e66-938f-5ba5554dca6e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

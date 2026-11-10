@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cc4ddca02fb50bd21f3b6bea42a2c80ae28a6f4a199fd28d821c4a2e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cc4ddca02fb50bd21f3b6bea42a2c80ae28a6f4a199fd28d821c4a2e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "伝える"
@@ -191,11 +199,12 @@
     "question": "先生には、トイレに行きたいってちゃんと伝えてたんだよ。",
     "answer": "I told my teacher that I wanted to go to the bathroom.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "529c433d-9e78-45e1-9345-c905c2861549",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

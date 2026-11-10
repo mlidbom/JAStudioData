@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-35d2712f9338b9edee454bfd1f480d5c852a9b47dab65087639e670e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-35d2712f9338b9edee454bfd1f480d5c852a9b47dab65087639e670e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "寝坊する"
@@ -205,11 +213,12 @@
     "question": "「しまった！寝坊した！」と思ったんですが、有り難いことに日曜日でした。",
     "answer": "I thought, \"Oh no! I overslept,\" but thankfully, it was Sunday.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "56e8423b-1475-41b9-b2be-2729ddfe4a93",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

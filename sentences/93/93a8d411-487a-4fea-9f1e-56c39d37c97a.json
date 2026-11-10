@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5bb1cd625fdc1fae1bd4ae4d1859515c2012530315e81de4a10783ed.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5bb1cd625fdc1fae1bd4ae4d1859515c2012530315e81de4a10783ed.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "某氏"
@@ -149,11 +157,12 @@
     "question": "「こういちはいつか世界を征服する」と某氏が語っていた。",
     "answer": "A certain person told me that Koichi is going to conquer the world one day.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "93a8d411-487a-4fea-9f1e-56c39d37c97a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

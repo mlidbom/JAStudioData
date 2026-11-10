@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-73a06e0b9f651bb6b83830f15486d2633007ca1140f81151cd50b4cf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-73a06e0b9f651bb6b83830f15486d2633007ca1140f81151cd50b4cf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "実際"
@@ -135,11 +143,12 @@
     "question": "あの男の実際の任務については、だれも知らないんだ。",
     "answer": "Nobody knows that man's real mission.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5a439930-4af1-4c23-a2b6-df302ca9ced4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

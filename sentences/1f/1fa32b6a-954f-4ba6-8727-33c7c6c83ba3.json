@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-afe5f6e60cb379e9ec2fadc2b5f86447ea3c1a3bdff9359614796945.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-afe5f6e60cb379e9ec2fadc2b5f86447ea3c1a3bdff9359614796945.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "給料"
@@ -121,11 +129,12 @@
     "question": "給料は毎月五日に銀行に振りこまれます。",
     "answer": "Your pay will be deposited in the bank on the fifth day of every month.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1fa32b6a-954f-4ba6-8727-33c7c6c83ba3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

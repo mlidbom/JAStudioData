@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bddc0e3d64a55595c3145b1856b9bcf5f1b505c61ae0308102119b76.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bddc0e3d64a55595c3145b1856b9bcf5f1b505c61ae0308102119b76.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "周期"
@@ -93,11 +101,12 @@
     "question": "東北の天気は短い周期で変わる。",
     "answer": "Tohoku’s weather changes in short cycles.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "10a1eec8-0ee4-4e3c-a222-988a58ce0811",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

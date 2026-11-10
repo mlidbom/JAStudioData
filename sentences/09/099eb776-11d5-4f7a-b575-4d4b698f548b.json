@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-471e1f71cd36ee00fbd1e44d947e155f29d0362a9f5fcc441991178a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-471e1f71cd36ee00fbd1e44d947e155f29d0362a9f5fcc441991178a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "分ける"
@@ -121,11 +129,12 @@
     "question": "ピザを半分に分けるなら、大きい方を下さい。",
     "answer": "If you split the pizza, could you give me the bigger half?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "099eb776-11d5-4f7a-b575-4d4b698f548b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

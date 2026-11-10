@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f82d8f9cfda2197fca1290d48c01c415b03f112d26f27092c9fbf90e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f82d8f9cfda2197fca1290d48c01c415b03f112d26f27092c9fbf90e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "下る"
@@ -133,11 +141,12 @@
     "question": "スケボーに乗った男が山を下っていった。",
     "answer": "A man riding a skateboard zoomed down the mountain.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bc07dd6e-0870-41f3-9144-5855acc5b111",
   "tags": [
-    "_tts_audio",
     "-::sentence::uses::incorrect-matches",
     "source::wani::current"
   ]

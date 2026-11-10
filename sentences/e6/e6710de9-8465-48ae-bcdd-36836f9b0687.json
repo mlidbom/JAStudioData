@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3fd002a47f65da094ebcdff4356ecba51be6266f173714bef13d66ae.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3fd002a47f65da094ebcdff4356ecba51be6266f173714bef13d66ae.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "天候"
@@ -121,11 +129,12 @@
     "question": "当日の予定は、天候に左右されます。",
     "answer": "The schedule for the day depends on the weather.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e6710de9-8465-48ae-bcdd-36836f9b0687",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4bd0a10b6bf6a41ebfba4d72c07e93568393490039c62aa96ecbd171.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4bd0a10b6bf6a41ebfba4d72c07e93568393490039c62aa96ecbd171.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "要る"
@@ -86,11 +94,12 @@
     "question": "ふくろは要りますか？",
     "answer": "Do you need any bags?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d4b9f394-0adf-481c-86b1-ed82bb79b489",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a91eb9b20d17ea2c603a0552fb81c576f45f08cd6487c85a5d03599d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a91eb9b20d17ea2c603a0552fb81c576f45f08cd6487c85a5d03599d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "文"
@@ -93,11 +101,12 @@
     "question": "文をかくのが上手ですね。",
     "answer": "You're great at writing.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d922a09e-6344-45dc-8115-745c8d82d549",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

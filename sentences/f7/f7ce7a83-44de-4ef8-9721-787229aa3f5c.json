@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-348f30fd51eabdce92869ce87cfbcb78fb205eca1987de56cd0c2c8c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-348f30fd51eabdce92869ce87cfbcb78fb205eca1987de56cd0c2c8c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "軽い"
@@ -79,11 +87,12 @@
     "question": "このクッション、すごく軽いですね。",
     "answer": "This cushion is very light.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f7ce7a83-44de-4ef8-9721-787229aa3f5c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

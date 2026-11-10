@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f32dee0c71c5172f15f63662dfab2974b5a35b3c1f35076ba91d32cd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f32dee0c71c5172f15f63662dfab2974b5a35b3c1f35076ba91d32cd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "二枚舌"
@@ -149,11 +157,12 @@
     "question": "あいつは二枚舌だから気をつけた方がいいよ。",
     "answer": "He has a forked tongue, so you should be careful.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b548b7c0-4c7a-4e24-b4e4-d8148885cf96",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

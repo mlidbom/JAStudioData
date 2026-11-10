@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6a05bc1a7829fea6bea2fd545b016199bfd2b7e57fc511ace6b175a4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6a05bc1a7829fea6bea2fd545b016199bfd2b7e57fc511ace6b175a4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "交差点"
@@ -128,11 +136,12 @@
     "question": "交差点で赤信号を無視した車がいた。",
     "answer": "There was a car that went through the red light at an intersection.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8164d973-f7a6-453f-947a-ef76ed108f84",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

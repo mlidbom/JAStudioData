@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2c8188ebd3b8c9551fdcddda3e2267a88872c56909e7a8cfb9b4c616.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2c8188ebd3b8c9551fdcddda3e2267a88872c56909e7a8cfb9b4c616.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "盾"
@@ -212,11 +220,12 @@
     "question": "盾を買いたいんだけど、どこに行けば買えるのか知りませんか？",
     "answer": "I want to buy a shield, do you know where I can go to buy one?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e92c1d84-c309-4f36-a2f7-4c7e05338387",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

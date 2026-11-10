@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-16eb5c6072f65f673f1547333d27ce42ad1b30ff79af83d44b038c3d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-16eb5c6072f65f673f1547333d27ce42ad1b30ff79af83d44b038c3d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "集団"
@@ -247,11 +255,12 @@
     "question": "その国に行くなら、テロリスト集団に気をつけなくちゃいけませんよ。",
     "answer": "If you go to that country, you have to be careful about terrorist groups.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c5076b70-25f3-4c5a-a63b-b1e539b7ef21",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

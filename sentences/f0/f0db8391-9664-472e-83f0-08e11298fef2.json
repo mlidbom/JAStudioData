@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-43bab58f92358be73f8451ba551242364ecbe4cd355ff8e73cc99bdd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-43bab58f92358be73f8451ba551242364ecbe4cd355ff8e73cc99bdd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "渡す"
@@ -170,11 +178,12 @@
     "question": "渡された番号に電話を掛けてみたが、つながらなかった。",
     "answer": "I dialed the number that she had given me, but I couldn't reach her.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f0db8391-9664-472e-83f0-08e11298fef2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

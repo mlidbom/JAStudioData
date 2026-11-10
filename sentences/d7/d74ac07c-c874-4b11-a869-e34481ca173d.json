@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b44ab6c3cb591020f00efb4a0540d0ec5110d77eeb96093625e311d5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b44ab6c3cb591020f00efb4a0540d0ec5110d77eeb96093625e311d5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "皮"
@@ -100,11 +108,12 @@
     "question": "ギョーザの皮と牛肉がある。",
     "answer": "There are gyoza wrappers and beef.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d74ac07c-c874-4b11-a869-e34481ca173d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

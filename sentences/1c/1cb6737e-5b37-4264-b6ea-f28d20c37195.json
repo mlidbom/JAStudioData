@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3819de575eb017528023fb3c9b51c469d687bab18a5094d84cafd60f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3819de575eb017528023fb3c9b51c469d687bab18a5094d84cafd60f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "二時半"
@@ -114,11 +122,12 @@
     "question": "次の東京行きのバスは、二時半です。",
     "answer": "The next bus to Tokyo is at 2:30.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1cb6737e-5b37-4264-b6ea-f28d20c37195",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

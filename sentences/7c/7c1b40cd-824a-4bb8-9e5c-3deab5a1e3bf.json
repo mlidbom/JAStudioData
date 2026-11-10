@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6d22e402785f2626a57e03f408868f77ea562624e64f608c0f3ed5f2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6d22e402785f2626a57e03f408868f77ea562624e64f608c0f3ed5f2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "格好"
@@ -65,11 +73,12 @@
     "question": "いや、その格好はダサいよ。",
     "answer": "Oh, sorry. That outfit is actually pretty tacky.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7c1b40cd-824a-4bb8-9e5c-3deab5a1e3bf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

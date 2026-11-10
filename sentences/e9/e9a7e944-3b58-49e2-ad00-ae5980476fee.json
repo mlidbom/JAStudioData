@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d9b7bfc135756a594c12150da2ea952ce32b56c15f1c1c81fb98f589.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d9b7bfc135756a594c12150da2ea952ce32b56c15f1c1c81fb98f589.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "速い"
@@ -93,11 +101,12 @@
     "question": "この車のスピード、さすがに速すぎない？",
     "answer": "Isn't this car going too fast?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e9a7e944-3b58-49e2-ad00-ae5980476fee",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

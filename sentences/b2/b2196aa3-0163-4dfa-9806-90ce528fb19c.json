@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-368f194cc7d4a673a390a89026f6a0a9f27c89fee72473f064c7e3a4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-368f194cc7d4a673a390a89026f6a0a9f27c89fee72473f064c7e3a4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "満点"
@@ -156,11 +164,12 @@
     "question": "満点をとったら、先生に花丸をもらえるの。",
     "answer": "When I get a perfect score, my teacher draws a flower on the paper.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b2196aa3-0163-4dfa-9806-90ce528fb19c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

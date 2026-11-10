@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3c2d1f2383c212e6c8d203eb9499be073eb6aae177a7fd4f7f087d58.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3c2d1f2383c212e6c8d203eb9499be073eb6aae177a7fd4f7f087d58.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "薄弱"
@@ -289,11 +297,12 @@
     "question": "お兄さんに言われたわ。あなたは意志薄弱だから私と別れることができないけど、本当は別れたいんだって。",
     "answer": "Your brother told me that you are too weak-willed to break up with me, but that you really want to.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1e42be70-9da8-4208-928a-64ddd3e2948f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

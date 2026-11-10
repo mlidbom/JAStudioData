@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2e5053a2ac4345229a1f34cb6816cd0f6a3fbec85f4ba2a8388c9006.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2e5053a2ac4345229a1f34cb6816cd0f6a3fbec85f4ba2a8388c9006.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "ゴミ箱"
@@ -114,11 +122,12 @@
     "question": "ペットボトルのリサイクルボックスはゴミ箱の横にあります。",
     "answer": "The recycling bin for plastic bottles is next to the trash can.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d2f5a6ed-c5c4-426f-982b-82a62760dd4f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

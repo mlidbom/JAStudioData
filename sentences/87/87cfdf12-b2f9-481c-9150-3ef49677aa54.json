@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a9ffbe5d545d01f22eb3a6365866d9a234fb3d0ac5e2a238566ad5a5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a9ffbe5d545d01f22eb3a6365866d9a234fb3d0ac5e2a238566ad5a5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "迷惑メール"
@@ -163,11 +171,12 @@
     "question": "迷惑メールが多すぎて、精神にい常をきたしそうだよ。",
     "answer": "I get so much spam it's driving me insane.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "87cfdf12-b2f9-481c-9150-3ef49677aa54",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

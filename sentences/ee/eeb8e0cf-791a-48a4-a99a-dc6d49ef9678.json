@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6950ba0fda8cf784d0c62767e96931b0a47dcf1420f16db2c628368c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6950ba0fda8cf784d0c62767e96931b0a47dcf1420f16db2c628368c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "左手"
@@ -135,11 +143,12 @@
     "question": "左手の方が右手よりも力が少しあるみたい。",
     "answer": "My left hand is a little bit stronger than my right hand.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "eeb8e0cf-791a-48a4-a99a-dc6d49ef9678",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

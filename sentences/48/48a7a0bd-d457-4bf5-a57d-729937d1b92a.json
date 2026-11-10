@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d966611b2b4bbfcbf0e45a43440042a164e8fd06217b4671dd37e040.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d966611b2b4bbfcbf0e45a43440042a164e8fd06217b4671dd37e040.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "輸送"
@@ -93,11 +101,12 @@
     "question": "輸送コストを教えて下さい。",
     "answer": "Please tell me the transportation cost.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "48a7a0bd-d457-4bf5-a57d-729937d1b92a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

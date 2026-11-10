@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1d4c74db259f307a9dcecd626ecb32712052dfc2c2183ebdf8696c92.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1d4c74db259f307a9dcecd626ecb32712052dfc2c2183ebdf8696c92.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "日本"
@@ -72,11 +80,12 @@
     "question": "十月に日本にいきます。",
     "answer": "I'm going to Japan in October.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "45b70f41-034c-47d7-8afa-a16f6bda46a0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

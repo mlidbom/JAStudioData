@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e0a66a6c76c7f5193c624096c280911e71c1c36cb520e5e193645633.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e0a66a6c76c7f5193c624096c280911e71c1c36cb520e5e193645633.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "目医者"
@@ -163,11 +171,12 @@
     "question": "町民の中には、目医者に通っている人も多いです。",
     "answer": "Many people in this town go see the eye doctor.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "60198461-b489-41eb-8709-f762ae735138",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

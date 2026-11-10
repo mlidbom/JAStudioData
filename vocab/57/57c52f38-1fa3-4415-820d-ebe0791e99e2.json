@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "[sound:hypertts-c2bc7b4c617a48fbaba8619c5b608ac5399a8f879a5fa0c50d35d474.mp3]",
-  "audioG": "",
-  "audioTTS": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c2bc7b4c617a48fbaba8619c5b608ac5399a8f879a5fa0c50d35d474.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "共力する",
@@ -40,8 +46,12 @@
   "sentenceCount": 14,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "<img alt=\"Meet the Couple Who Have Been Tandem Bicycling for Over 60 Years -  Guideposts\" src=\"tandembike-cropped-scaled.jpg.optimal.jpg\">",
+  "images": [
+    {
+      "fileName": "tandembike-cropped-scaled.jpg.optimal.jpg",
+      "altText": "Meet the Couple Who Have Been Tandem Bicycling for Over 60 Years -  Guideposts"
+    }
+  ],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -65,7 +75,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "57c52f38-1fa3-4415-820d-ebe0791e99e2",
   "tags": [

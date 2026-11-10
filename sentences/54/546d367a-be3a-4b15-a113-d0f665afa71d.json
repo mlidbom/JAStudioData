@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7b0c25bc248b82df8f336a3045c862b1b298ed9ac7561d0c4beac476.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7b0c25bc248b82df8f336a3045c862b1b298ed9ac7561d0c4beac476.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "先輩"
@@ -275,11 +283,12 @@
     "question": "先輩に何を言われても、気にせず無視すればいいんだからね。",
     "answer": "Don't get bothered by it and just ignore whatever that older graduate says about you, okay?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "546d367a-be3a-4b15-a113-d0f665afa71d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f343eaa462d31bbeab2a4225a229426d67bd26cd00b23d3551e01665.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f343eaa462d31bbeab2a4225a229426d67bd26cd00b23d3551e01665.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "石ころ"
@@ -86,11 +94,12 @@
     "question": "このビーチ、石ころがたくさんあるね。",
     "answer": "There are a lot of pebbles on this beach.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "284b2cbe-ebdb-4d7e-b78c-ab7f5c74cb8d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

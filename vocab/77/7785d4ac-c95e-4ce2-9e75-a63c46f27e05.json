@@ -24,9 +24,15 @@
   "partsOfSpeech": [],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-b8dbcb03b43c97a1f5994ee8ab3c6ed747f1c3a8e16858b6ac30807b.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-b8dbcb03b43c97a1f5994ee8ab3c6ed747f1c3a8e16858b6ac30807b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "引っ込んでいろ",
@@ -36,8 +42,7 @@
   "sentenceCount": 2,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -61,7 +66,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "7785d4ac-c95e-4ce2-9e75-a63c46f27e05",
   "tags": [

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9f124725d1f25ece68d85a6a77e990e96ab8cc11fff3b00de19bcddd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9f124725d1f25ece68d85a6a77e990e96ab8cc11fff3b00de19bcddd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "聖書"
@@ -93,11 +101,12 @@
     "question": "聖書を半分ぐらい読み終わりました。",
     "answer": "I’m halfway through the Bible.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "24f87bf3-a512-4250-b3d2-fb87692dbfc3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

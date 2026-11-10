@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5b01aa14a0e4731afa1ac5d8195e7d6ade2fd1e0e37b8e90956c4c90.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5b01aa14a0e4731afa1ac5d8195e7d6ade2fd1e0e37b8e90956c4c90.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "移す"
@@ -100,11 +108,12 @@
     "question": "私は苺をミキサーに移しました。",
     "answer": "I transferred the strawberries to the blender.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5b0e64a7-5596-4dc0-bd69-ba2ea32b5e13",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

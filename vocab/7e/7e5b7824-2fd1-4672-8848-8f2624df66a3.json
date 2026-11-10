@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-4b087647f383b277e0614472a4f65b141b1ef0246fb21b01cee960b3.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-4b087647f383b277e0614472a4f65b141b1ef0246fb21b01cee960b3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "の所為で",
@@ -40,8 +46,7 @@
   "sentenceCount": 55,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {
       "yieldLastTokenToOverlappingCompound": "required"
@@ -67,7 +72,9 @@
   "sourceData": {
     "answer": "because-of/owing-to/due-to",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "7e5b7824-2fd1-4672-8848-8f2624df66a3",
   "tags": [

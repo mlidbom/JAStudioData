@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-01af036da99ddaaad9a9ff3eaa4931f9f805af0efca4f24e7da60219.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-01af036da99ddaaad9a9ff3eaa4931f9f805af0efca4f24e7da60219.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "申請"
@@ -100,11 +108,12 @@
     "question": "申請手続きに時間がかかってるんです。",
     "answer": "The application process is taking quite a while to complete.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cfd877ab-1964-403c-926f-2b71761fc81f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

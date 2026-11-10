@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4a61f3ef98417983ea712078df64305b078a2621478af29d00fbaee8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4a61f3ef98417983ea712078df64305b078a2621478af29d00fbaee8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "辞書"
@@ -135,11 +143,12 @@
     "question": "これは、世界で一番売れている辞書です。",
     "answer": "This is the best selling dictionary in the world.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6c5eefa7-4693-4001-96f9-93e155e4142e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

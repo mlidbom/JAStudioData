@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6b57c8d12e10760cae1df59d71d242d50b946f75632c842bd0e2ce41.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6b57c8d12e10760cae1df59d71d242d50b946f75632c842bd0e2ce41.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "戸棚"
@@ -79,11 +87,12 @@
     "question": "新しい戸棚をつけたんです。",
     "answer": "I installed a new cabinet.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b5d2024a-a5b8-42d0-b9c1-337597f43ac0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cb49edd2b32db906a35ffc9e3d595fbe87d6979a26b6bf3a6586ab29.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cb49edd2b32db906a35ffc9e3d595fbe87d6979a26b6bf3a6586ab29.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "否決"
@@ -135,11 +143,12 @@
     "question": "今朝新聞で上院は議案を否決したって読んだよ。",
     "answer": "I read that the senate rejected the bill in the newspaper this morning.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "04e6e124-939a-47a1-a4f9-de45ab3c3303",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2ea8af146503203f6d7708334052b2331e7ddda3e58addd769f446f5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2ea8af146503203f6d7708334052b2331e7ddda3e58addd769f446f5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "血"
@@ -121,11 +129,12 @@
     "question": "シャツに血がついていますよ。",
     "answer": "There is blood on your shirt.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2b9ee567-51f2-4b48-94b9-89178f6a55a5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

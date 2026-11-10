@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e38aa426019f840d6d0d4aa7250ecdf0fba864f450ccb14b53375cae.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e38aa426019f840d6d0d4aa7250ecdf0fba864f450ccb14b53375cae.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "閉鎖"
@@ -100,11 +108,12 @@
     "question": "このプールは今月で閉鎖されます。",
     "answer": "The pool is closed this month.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5b2a3718-cc34-46f4-b21f-f46581e93496",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

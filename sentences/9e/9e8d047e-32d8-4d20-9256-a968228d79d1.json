@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ed6e6b10a683ccaec52edd3d09a0ab878a2a29fa92f391cfccbdab80.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ed6e6b10a683ccaec52edd3d09a0ab878a2a29fa92f391cfccbdab80.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "煮える"
@@ -114,11 +122,12 @@
     "question": "さて、そろそろジャガ芋が煮えるころだ。",
     "answer": "Well, it's about time that the potatoes should be cooked through.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9e8d047e-32d8-4d20-9256-a968228d79d1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

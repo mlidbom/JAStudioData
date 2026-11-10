@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b40f0333a5fbb4f6e27a051c300590d2bbfe6ebce9da649d3322ac86.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b40f0333a5fbb4f6e27a051c300590d2bbfe6ebce9da649d3322ac86.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "王女"
@@ -65,11 +73,12 @@
     "question": "王女はいつでも正しい。",
     "answer": "The princess is always right.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b0717526-fb42-4647-8806-ce262c0caccf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

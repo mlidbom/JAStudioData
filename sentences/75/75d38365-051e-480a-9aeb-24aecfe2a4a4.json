@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7efa2cf17c8061268bc5a1a77a4e7f18efd2650a008740e55f010bf0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7efa2cf17c8061268bc5a1a77a4e7f18efd2650a008740e55f010bf0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "軌道"
@@ -156,11 +164,12 @@
     "question": "ロケットが軌道に入ったというニュースを聞いて、誰もが喜びました。",
     "answer": "Everyone was delighted to hear the news that the rocket entered orbit.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "75d38365-051e-480a-9aeb-24aecfe2a4a4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

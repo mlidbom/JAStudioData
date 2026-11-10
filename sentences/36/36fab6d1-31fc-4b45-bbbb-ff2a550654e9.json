@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-618ab60038824312f02d0cf9e7f35192904b3d73a8ab903493a8cb85.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-618ab60038824312f02d0cf9e7f35192904b3d73a8ab903493a8cb85.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "胃腸"
@@ -149,11 +157,12 @@
     "question": "胃腸がそんなに丈夫な方ではありません。",
     "answer": "My stomach isn’t very strong.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "36fab6d1-31fc-4b45-bbbb-ff2a550654e9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

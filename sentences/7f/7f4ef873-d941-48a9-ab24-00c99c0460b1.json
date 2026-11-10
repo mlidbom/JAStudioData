@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-788d2d3645cc3b3c75a8a705ca7ca1964a9aeb7c01daeb7ab1460c21.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-788d2d3645cc3b3c75a8a705ca7ca1964a9aeb7c01daeb7ab1460c21.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "上級"
@@ -93,11 +101,12 @@
     "question": "コウイチは私の学校の上級生です。",
     "answer": "Koichi is a senior student at my school.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7f4ef873-d941-48a9-ab24-00c99c0460b1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

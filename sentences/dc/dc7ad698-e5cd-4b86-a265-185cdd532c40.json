@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e6d18302c09bde4285e258fcdf36f137ee75e757f3d202c28488537b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e6d18302c09bde4285e258fcdf36f137ee75e757f3d202c28488537b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "苦しい"
@@ -58,11 +66,12 @@
     "question": "食べすぎて苦しい。",
     "answer": "I ate too much and it’s painful.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dc7ad698-e5cd-4b86-a265-185cdd532c40",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-38fad51cd246d431f5d8c574236ba15f7c982b9afdef43b355e2509e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-38fad51cd246d431f5d8c574236ba15f7c982b9afdef43b355e2509e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "例文"
@@ -72,11 +80,12 @@
     "question": "あれ、例文が新しくなってる。",
     "answer": "Oh, the example sentence has been updated.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f8c8784b-43d1-45ca-ac97-4048f78a8c3e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

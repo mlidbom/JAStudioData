@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-292b3ea9f98eee0624942fa704e10bdcd14b175dae829015e932e8d6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-292b3ea9f98eee0624942fa704e10bdcd14b175dae829015e932e8d6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "食欲"
@@ -191,11 +199,12 @@
     "question": "ダイエットをしたいんですが、食欲があり過ぎるんですよね。",
     "answer": "I want to go on a diet, but I have too much of an appetite.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "71c7c251-8d76-4799-9b45-5776fb977bf2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

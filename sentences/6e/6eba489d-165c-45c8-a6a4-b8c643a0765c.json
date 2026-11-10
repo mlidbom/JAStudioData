@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-db7a53b6655a6b4ee0ecf1d225c4ea43ce79916449f1556a80e0974a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-db7a53b6655a6b4ee0ecf1d225c4ea43ce79916449f1556a80e0974a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "早口"
@@ -156,11 +164,12 @@
     "question": "早口でオーダーしたので、生ビールが一つの代わりに五つ来た。",
     "answer": "I spoke fast when I made an order, so I got five beers instead of one.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6eba489d-165c-45c8-a6a4-b8c643a0765c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-eb1f9864e6ddb740c888bf4a6a7a4fa834572e714f703ca77a827ca2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-eb1f9864e6ddb740c888bf4a6a7a4fa834572e714f703ca77a827ca2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "美しい"
@@ -86,11 +94,12 @@
     "question": "この青い花、とても美しいですね。",
     "answer": "This blue flower is very beautiful.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2c50cdc0-f7ba-4f6c-9e35-a1c4ee791496",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

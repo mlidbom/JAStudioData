@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6e74804b99a888839df15f4cec48c1a1ea08e90b28661844a13584dc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6e74804b99a888839df15f4cec48c1a1ea08e90b28661844a13584dc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "南瓜"
@@ -79,11 +87,12 @@
     "question": "南瓜の煮物を炊きました。",
     "answer": "I cooked a boiled squash dish.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "67ea4b6b-1699-468e-afad-54a06d79b058",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

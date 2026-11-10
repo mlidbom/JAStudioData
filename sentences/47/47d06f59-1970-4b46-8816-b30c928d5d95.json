@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e0f9be8028d8f9726db4fcaec48204d686a64e96a979b7356a4a9971.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e0f9be8028d8f9726db4fcaec48204d686a64e96a979b7356a4a9971.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "学問"
@@ -184,11 +192,12 @@
     "question": "この神社は、学問の神様のいる神社として知られています。",
     "answer": "This shrine is known as a shrine where the god of learning resides.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "47d06f59-1970-4b46-8816-b30c928d5d95",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

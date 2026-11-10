@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7f688e5f21689e69dea9f61f2d0abcea6a1a0bc14f5d576a23ebe71c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7f688e5f21689e69dea9f61f2d0abcea6a1a0bc14f5d576a23ebe71c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "動く"
@@ -79,11 +87,12 @@
     "question": "あそこで何か動いたよ。",
     "answer": "Something moved over there.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "129d0d08-5db2-42a3-b0cb-be4b33ebec7e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c3ec0e1386d72b0454969c682ed10292c37c789a290d6aaefbbb3262.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c3ec0e1386d72b0454969c682ed10292c37c789a290d6aaefbbb3262.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "虚しい"
@@ -65,11 +73,12 @@
     "question": "今日は何だか虚しい気分です。",
     "answer": "I feel empty today, for some reason.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "27f12fab-7115-4a4a-b220-1400cf4c21bc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

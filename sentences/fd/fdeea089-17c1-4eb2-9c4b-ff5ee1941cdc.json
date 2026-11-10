@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-44464b76c7aae59bc2b31346c1af06e8be7dafaa44d8a9ce24985cab.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-44464b76c7aae59bc2b31346c1af06e8be7dafaa44d8a9ce24985cab.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "年次"
@@ -261,11 +269,12 @@
     "question": "その情報は株主に郵送された年次報告書に記載されていました。",
     "answer": "That information was in the annual report mailed to stockholders.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fdeea089-17c1-4eb2-9c4b-ff5ee1941cdc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

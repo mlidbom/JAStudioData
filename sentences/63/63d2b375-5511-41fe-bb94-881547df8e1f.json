@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b03f5b43241e08c4a6422f19abecc910a6cbdcc369e07f037672e1ec.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b03f5b43241e08c4a6422f19abecc910a6cbdcc369e07f037672e1ec.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "足す"
@@ -191,11 +199,12 @@
     "question": "このスープ、もう少し水を足した方がいいんじゃないかな。",
     "answer": "Maybe it would be better to <voc>add</voc> more water to this soup.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "63d2b375-5511-41fe-bb94-881547df8e1f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

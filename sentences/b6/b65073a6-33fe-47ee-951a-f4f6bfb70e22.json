@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f4d8ccf971a1ea5e02dd7ae3e98fe83834c0f4dcd3b94d46c2333b5a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f4d8ccf971a1ea5e02dd7ae3e98fe83834c0f4dcd3b94d46c2333b5a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "子守歌"
@@ -86,11 +94,12 @@
     "question": "これは日本の子守歌です。",
     "answer": "This is a Japanese lullaby.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b65073a6-33fe-47ee-951a-f4f6bfb70e22",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

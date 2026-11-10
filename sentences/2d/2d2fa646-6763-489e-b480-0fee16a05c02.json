@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0fa9318aa7df3f28ecacc6556745b674d028d29ce8fa1f028d370c32.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0fa9318aa7df3f28ecacc6556745b674d028d29ce8fa1f028d370c32.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "誕生日"
@@ -100,11 +108,12 @@
     "question": "誕生日ぐらい、肩の力をぬいたら？",
     "answer": "Why don’t you at least let yourself relax on your birthday?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2d2fa646-6763-489e-b480-0fee16a05c02",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

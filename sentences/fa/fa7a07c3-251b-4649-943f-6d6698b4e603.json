@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8a1af875274ec8b3b3420d5837773687a46233b168d24554ba0f0542.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8a1af875274ec8b3b3420d5837773687a46233b168d24554ba0f0542.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "有る"
@@ -121,11 +129,12 @@
     "question": "今は車が一台しか有りません。",
     "answer": "Right now we only have one car.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fa7a07c3-251b-4649-943f-6d6698b4e603",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

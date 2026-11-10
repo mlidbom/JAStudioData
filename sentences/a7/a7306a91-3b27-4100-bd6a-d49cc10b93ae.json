@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-eea84c31fc78ce936d1141a191287b66a53a1e85e6315476f3bf1285.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-eea84c31fc78ce936d1141a191287b66a53a1e85e6315476f3bf1285.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "満足"
@@ -140,11 +148,12 @@
     "question": "満足な結果が得られて、社長は本当にうれしそうでした。",
     "answer": "It seems that the very satisfactory result made our president very happy.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a7306a91-3b27-4100-bd6a-d49cc10b93ae",
   "tags": [
-    "_tts_audio",
     "-::sentence::uses::incorrect-matches",
     "source::wani::current"
   ]

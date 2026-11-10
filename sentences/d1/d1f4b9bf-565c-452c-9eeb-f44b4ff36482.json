@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-da61ed6c3f477b4250e54d2fbdef4125941ceb694d048df21e2baae3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-da61ed6c3f477b4250e54d2fbdef4125941ceb694d048df21e2baae3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "家具"
@@ -303,11 +311,12 @@
     "question": "これは、あなたが家具を買うためのお金です。ホストクラブに行くためのお金ではありません。",
     "answer": "This is money for you to buy furniture. It's not money for going to a host club.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d1f4b9bf-565c-452c-9eeb-f44b4ff36482",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

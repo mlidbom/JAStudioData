@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dad5dc5146fc3bccaa0fa6a3e0ff992c27a5969064089d719dc0676e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dad5dc5146fc3bccaa0fa6a3e0ff992c27a5969064089d719dc0676e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "横"
@@ -135,11 +143,12 @@
     "question": "毛虫が木の横を走っていました。",
     "answer": "The caterpillar was running next to the tree.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7a94d6f9-0b02-47f6-ad68-3c1c883b7c40",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

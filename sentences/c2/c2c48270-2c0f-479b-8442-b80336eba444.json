@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6d3a2bf66f0637f74ff4d2e6f7b7995912ea1ff3f24e4d747834ff54.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6d3a2bf66f0637f74ff4d2e6f7b7995912ea1ff3f24e4d747834ff54.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "武士"
@@ -135,11 +143,12 @@
     "question": "武士は食わねど高楊枝って言うじゃない？",
     "answer": "It’s said that \"A samurai will use a toothpick even though he has not eaten,\" right?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c2c48270-2c0f-479b-8442-b80336eba444",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1767b47763d4c51b2c965189a4f09825e6137a4ce109b0100f4aa796.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1767b47763d4c51b2c965189a4f09825e6137a4ce109b0100f4aa796.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "熱い"
@@ -79,11 +87,12 @@
     "question": "でも、これはちょっと熱すぎます。",
     "answer": "But this is a little too hot.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a16d8243-0720-47da-ac02-8f6bc6aa5453",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9c3b942df1540156048e30c3fd3e5b5131273e53e8ade6f89da9804d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9c3b942df1540156048e30c3fd3e5b5131273e53e8ade6f89da9804d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "四つ"
@@ -72,11 +80,12 @@
     "question": "ミルクシェイク、四つ下さい。",
     "answer": "Four milkshakes, please.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "87eb20bd-f703-40c3-9437-70ebd44a6358",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

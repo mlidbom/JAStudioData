@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2a368665ae258b7091f7d312bd7cec4d80e1d91a1c447d23e43822af.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2a368665ae258b7091f7d312bd7cec4d80e1d91a1c447d23e43822af.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "梅酒"
@@ -135,11 +143,12 @@
     "question": "彼はいつもビールの後に、梅酒ロックを注文します。",
     "answer": "He always orders plum wine on the rocks after beer.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1cb4feb3-c28c-4fb7-a3b1-f2381f22d299",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

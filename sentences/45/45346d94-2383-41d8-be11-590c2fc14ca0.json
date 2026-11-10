@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ea337c3a645a312d6d6cc9eaba613d272a44e18dd28431f4bdadeba0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ea337c3a645a312d6d6cc9eaba613d272a44e18dd28431f4bdadeba0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "決定する"
@@ -177,11 +185,12 @@
     "question": "コウイチの赤ちゃんの名前が決定したら、すぐにお知らせしますね。",
     "answer": "Once they've decided on a name for Koichi's baby I'll let you know right away.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "45346d94-2383-41d8-be11-590c2fc14ca0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

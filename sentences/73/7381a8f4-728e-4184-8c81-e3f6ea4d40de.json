@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c64a0639cd30071dd0b0d3ae6abee0f9f226351feab593c24570bced.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c64a0639cd30071dd0b0d3ae6abee0f9f226351feab593c24570bced.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "混ざる"
@@ -163,11 +171,12 @@
     "question": "水と油って、混ざるんだっけ？混ざらないんだっけ？",
     "answer": "Water and oil, do they mix? Or don't they?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7381a8f4-728e-4184-8c81-e3f6ea4d40de",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

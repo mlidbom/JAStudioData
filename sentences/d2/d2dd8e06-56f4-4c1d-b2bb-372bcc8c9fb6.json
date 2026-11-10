@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2411070f969a0b04f3ebe430ce7463917a1744e1406788afd5d0011a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2411070f969a0b04f3ebe430ce7463917a1744e1406788afd5d0011a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "引く"
@@ -65,11 +73,12 @@
     "question": "このレバーを力いっぱい引いて。",
     "answer": "Pull this lever with all your strength.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d2dd8e06-56f4-4c1d-b2bb-372bcc8c9fb6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

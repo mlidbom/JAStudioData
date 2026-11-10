@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5b3425e8555c2666f7c10f52ee638ca3c6b9a0e808ab7a88407550b6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5b3425e8555c2666f7c10f52ee638ca3c6b9a0e808ab7a88407550b6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "左"
@@ -72,11 +80,12 @@
     "question": "入り口は左のドアですよ。",
     "answer": "The entrance is the door on your left.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cb0cd0e9-69ac-4a6e-9960-04996725b7fb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

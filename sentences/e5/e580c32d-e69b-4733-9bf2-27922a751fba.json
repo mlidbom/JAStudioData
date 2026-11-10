@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b2ca14a02a72bcee5d235148055fa60761cc27a17b528d0e878e72cf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b2ca14a02a72bcee5d235148055fa60761cc27a17b528d0e878e72cf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "十台"
@@ -121,11 +129,12 @@
     "question": "このビルにはセキュリティカメラが十台ある。",
     "answer": "There are ten security cameras in this building.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e580c32d-e69b-4733-9bf2-27922a751fba",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

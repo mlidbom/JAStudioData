@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ca50d8cf48e043b3888801ab1c0ecac2c93d916bd50d58dfb9353604.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ca50d8cf48e043b3888801ab1c0ecac2c93d916bd50d58dfb9353604.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一つ"
@@ -121,11 +129,12 @@
     "question": "二つの川が、一つの大きな川になる。",
     "answer": "The two rivers become one big river.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8335c10e-7735-4f15-9d96-6243b2100239",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

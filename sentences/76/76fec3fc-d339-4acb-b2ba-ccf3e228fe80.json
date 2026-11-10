@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4f33bc72d5f898c36bebfde2f0877d39656c184dbd9530a69fccbbbe.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4f33bc72d5f898c36bebfde2f0877d39656c184dbd9530a69fccbbbe.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "確かに"
@@ -177,11 +185,12 @@
     "question": "コウイチが百メートルほど飛ぶのを、この目で確かに見ました。",
     "answer": "I'm certain I saw Koichi fly about one hundred meters with my own eyes.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "76fec3fc-d339-4acb-b2ba-ccf3e228fe80",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

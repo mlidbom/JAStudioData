@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-73eb849356557e290b23b083ed673b7eb1098001c1bb9e3a4e84b8f8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-73eb849356557e290b23b083ed673b7eb1098001c1bb9e3a4e84b8f8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "飼い主"
@@ -296,11 +304,12 @@
     "question": "もし犬の飼い主が水疱瘡になったら、その犬も水疱瘡になる可能性はあるんでしょうか。",
     "answer": "If a dog’s owner had chickenpox, could the dog get it too?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4a060c59-7ebc-47b0-aa1c-2fc502df2096",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

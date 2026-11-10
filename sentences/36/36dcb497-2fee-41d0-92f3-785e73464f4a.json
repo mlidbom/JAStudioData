@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d1e1346b123de438755c2479a803668fec0bb6423b57a39052cebed6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d1e1346b123de438755c2479a803668fec0bb6423b57a39052cebed6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大きい順"
@@ -212,11 +220,12 @@
     "question": "この順番、小さい順と大きい順、どっちにする方がいいと思う？",
     "answer": "Which order do you think is better, ascending or descending?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "36dcb497-2fee-41d0-92f3-785e73464f4a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d1e089ffd4c3643b6f8e95917736472a9af1019f2132d6edb91d1a6a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d1e089ffd4c3643b6f8e95917736472a9af1019f2132d6edb91d1a6a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "瓶"
@@ -79,11 +87,12 @@
     "question": "瓶ビールを一本ください。",
     "answer": "One bottled beer, please.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7a29a9cf-cb7d-4382-ba32-a155e30e88a5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

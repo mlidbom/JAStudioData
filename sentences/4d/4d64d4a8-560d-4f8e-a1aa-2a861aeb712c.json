@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8a773c143441214ce8f35957ad416ea420cea0144ff67d2a8d8092df.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8a773c143441214ce8f35957ad416ea420cea0144ff67d2a8d8092df.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "勤め"
@@ -72,11 +80,12 @@
     "question": "お勤め先はどちらですか？",
     "answer": "Who do you work for?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4d64d4a8-560d-4f8e-a1aa-2a861aeb712c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fdafa1120bcceb347597b56fbc65fe056b8d6d0904ea7c45b700493a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fdafa1120bcceb347597b56fbc65fe056b8d6d0904ea7c45b700493a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "体力"
@@ -100,11 +108,12 @@
     "question": "去年の体力と今の体力は、大体同じです。",
     "answer": "My physical strength last year and my current strength are about the same.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f5a1e9d2-a6ad-4fa6-927f-581ddc757cc5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

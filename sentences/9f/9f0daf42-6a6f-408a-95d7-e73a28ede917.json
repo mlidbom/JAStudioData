@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1cc6089b4a877da610e099ceaccedc055dc95fcd4553ff73b46b0b09.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1cc6089b4a877da610e099ceaccedc055dc95fcd4553ff73b46b0b09.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "座る"
@@ -149,11 +157,12 @@
     "question": "大事な書類の上に座らないでもらえますか。",
     "answer": "Could you not sit on the important documents?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9f0daf42-6a6f-408a-95d7-e73a28ede917",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

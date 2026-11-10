@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dcad15eb515f568d22b0c98b66db382cd61a0ed7dc1c4bcc09aa8303.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dcad15eb515f568d22b0c98b66db382cd61a0ed7dc1c4bcc09aa8303.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "来月"
@@ -149,11 +157,12 @@
     "question": "来月、パーティーをするので、かなえさんも来て下さい。",
     "answer": "We're having a party next month. Please come, Kanae.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "40fedbd0-1084-4f5f-bb26-68b7b07fe4ad",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

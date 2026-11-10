@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-80fb8c79f71d87c7dd39bd3fbdc8663f33881bcd649a835d1ecb3629.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-80fb8c79f71d87c7dd39bd3fbdc8663f33881bcd649a835d1ecb3629.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "挙げる"
@@ -135,11 +143,12 @@
     "question": "例を挙げるとキリがないですよ。",
     "answer": "If I were to give examples, it would be endless.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fcf90715-431b-4794-8527-f27159abbd5f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

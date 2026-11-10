@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c1a6adf308faec6c2bcf6deb169c53c74b918082c1790bc1b33b0f7c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c1a6adf308faec6c2bcf6deb169c53c74b918082c1790bc1b33b0f7c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "両方"
@@ -100,11 +108,12 @@
     "question": "父も母も、両方ともフランス人です。",
     "answer": "Both my father and mother are French.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f3f58bb7-c45a-4c89-bae1-74a91da4c183",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

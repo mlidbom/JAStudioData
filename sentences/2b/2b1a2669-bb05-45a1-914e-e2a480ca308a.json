@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-21de35be426c89e205d1f34b11b0b345f93615beaa16c9fa7654a1b3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-21de35be426c89e205d1f34b11b0b345f93615beaa16c9fa7654a1b3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鳴く"
@@ -107,11 +115,12 @@
     "question": "子犬がワンワン鳴いています。",
     "answer": "The puppy is barking.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2b1a2669-bb05-45a1-914e-e2a480ca308a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

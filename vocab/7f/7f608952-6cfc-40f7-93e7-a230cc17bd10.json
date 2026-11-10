@@ -38,9 +38,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-0fdbdb771ea9e981f19c935c9a9b3a53feb96c64e86248d76ca01c84.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-0fdbdb771ea9e981f19c935c9a9b3a53feb96c64e86248d76ca01c84.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "何という",
@@ -58,8 +64,7 @@
   "sentenceCount": 21,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -83,7 +88,9 @@
   "sourceData": {
     "answer": "how-(beautiful,-etc.)/what-a-... | nothing-worth-mentioning/nothing-special | of-what-name",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "7f608952-6cfc-40f7-93e7-a230cc17bd10",
   "tags": [

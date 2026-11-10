@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a49aefbc101ee1de651d3acd7b47acf8812c442ab9697525cd233280.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a49aefbc101ee1de651d3acd7b47acf8812c442ab9697525cd233280.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [
@@ -110,11 +118,12 @@
     "question": "暴露本の出版については現在再考中です。",
     "answer": "I’m having second thoughts about publishing a tell-all book.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b58d3084-7515-42d2-9e2c-c1d5783fc78b",
   "tags": [
-    "_tts_audio",
     "-::sentence::uses::incorrect-matches",
     "source::wani::current"
   ]

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-feeea1ec3ca382e0f1d420df87636adf84a6ec659e062e1cd28ed4df.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-feeea1ec3ca382e0f1d420df87636adf84a6ec659e062e1cd28ed4df.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "着く"
@@ -65,11 +73,12 @@
     "question": "今、成田空港に着きました。",
     "answer": "I've just arrived at Narita Airport.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a59d74f6-dccc-49c0-b11b-83a584047068",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-420cc8f2b24dfb99ff5c57e95675e090527fcbcbf9f288815764afd4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-420cc8f2b24dfb99ff5c57e95675e090527fcbcbf9f288815764afd4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "漏れる"
@@ -135,11 +143,12 @@
     "question": "ねえ、なんかガスが漏れてる臭いがしない？",
     "answer": "Hey, doesn’t it smell like leaking gas?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3e6aaece-4411-4bd0-b770-a595253c03d9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

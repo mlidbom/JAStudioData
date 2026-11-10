@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-35dcddfbc3ffab6c010ef8d2c1ed1ffcb2269ddbac21f0d4f2efa50c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-35dcddfbc3ffab6c010ef8d2c1ed1ffcb2269ddbac21f0d4f2efa50c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鳴き声"
@@ -72,11 +80,12 @@
     "question": "朝、鳥の鳴き声で起きた。",
     "answer": "I woke up to the sound of birds chirping in the morning.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0829ed7c-8a5e-4909-b6d8-12e568a71066",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

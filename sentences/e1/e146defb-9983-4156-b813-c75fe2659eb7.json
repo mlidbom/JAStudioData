@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c0b9aaa46b090db7accb2b875f3fedbd5d0da63af37e9a2fba080319.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c0b9aaa46b090db7accb2b875f3fedbd5d0da63af37e9a2fba080319.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "散らかす"
@@ -380,11 +388,12 @@
     "question": "私の部屋には脱ぎっぱなしの服が床に散らかっています。掃除しても、次の日にはまたすぐ散らかしちゃうんだよね。",
     "answer": "There are dirty clothes scattered all over the floor in my room. Even if I cleaned them up, it would just get messy again the next day.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e146defb-9983-4156-b813-c75fe2659eb7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

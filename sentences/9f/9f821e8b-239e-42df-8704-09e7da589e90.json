@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-754947b25fe38f7d858b07408c650d881155da8dcb8a08edfa6fb94f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-754947b25fe38f7d858b07408c650d881155da8dcb8a08edfa6fb94f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "交通"
@@ -163,11 +171,12 @@
     "question": "交通安全のためにシートベルトをしてください。",
     "answer": "Please wear your seatbelt for traffic safety.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9f821e8b-239e-42df-8704-09e7da589e90",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

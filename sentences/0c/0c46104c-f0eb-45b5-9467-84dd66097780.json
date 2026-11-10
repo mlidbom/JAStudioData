@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f0317c251b1b07c1e62b679474e3b6281f05ad1c0d2fa59c1a517e6c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f0317c251b1b07c1e62b679474e3b6281f05ad1c0d2fa59c1a517e6c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "障子"
@@ -170,11 +178,12 @@
     "question": "あなたが着くころには、障子のはり替えをしてると思います。",
     "answer": "When you arrive, I will probably be replacing the shoji screens.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0c46104c-f0eb-45b5-9467-84dd66097780",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

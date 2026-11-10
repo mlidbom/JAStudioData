@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-74941d4bb8fda5de9c223505a83fa6c444a8566fbd3f9a8ffe9da63b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-74941d4bb8fda5de9c223505a83fa6c444a8566fbd3f9a8ffe9da63b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "二人"
@@ -93,11 +101,12 @@
     "question": "このアパートは二人には大きい。",
     "answer": "This apartment is too big for two people.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bcc9d389-bf22-47bd-97fa-7e830fcceaa2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

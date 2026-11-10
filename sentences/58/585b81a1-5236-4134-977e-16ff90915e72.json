@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bae5ec081f56169517548aa1f57d88bba1fb27618bc24ea776028da4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bae5ec081f56169517548aa1f57d88bba1fb27618bc24ea776028da4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "食事"
@@ -121,11 +129,12 @@
     "question": "今食事中なので、後でまた電話しますね。",
     "answer": "I'm having a meal now, so I'll call again later.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "585b81a1-5236-4134-977e-16ff90915e72",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-68e678bda0a02437f696a5d945d52dd234a6766524a5b38df288787f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-68e678bda0a02437f696a5d945d52dd234a6766524a5b38df288787f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "劇場"
@@ -86,11 +94,12 @@
     "question": "劇場のロビーで待ち合わせしましょう。",
     "answer": "Let's meet up in the theater's lobby.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c18a79e4-599d-45e9-954e-c2e0af14aa8e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

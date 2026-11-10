@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0c0557d8456898d8f0cdf58868c8b6862ed6b1ccf0078b09b654079f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0c0557d8456898d8f0cdf58868c8b6862ed6b1ccf0078b09b654079f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "電話帳"
@@ -191,11 +199,12 @@
     "question": "この電話帳を整理してしまう方がいいと思います。",
     "answer": "We should finish arranging these telephone books.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4332c769-5362-41fa-be69-aebcd25d39b6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4bcceb20297e4d5d8ca6c1fbd502577b46a1de3270c7b4e63c74b159.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4bcceb20297e4d5d8ca6c1fbd502577b46a1de3270c7b4e63c74b159.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "青い"
@@ -135,11 +143,12 @@
     "question": "青い空と白いビーチのある町はどこですか？",
     "answer": "Where is the town with blue skies and white beaches?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "318d5323-c316-4d8a-9be2-0eb8e14569bb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

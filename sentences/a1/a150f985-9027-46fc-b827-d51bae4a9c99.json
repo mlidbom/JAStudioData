@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-38ba824dd16139a2f0655c255a4f931dd4168e3a6bdb4750d5507ad7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-38ba824dd16139a2f0655c255a4f931dd4168e3a6bdb4750d5507ad7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "週末"
@@ -128,11 +136,12 @@
     "question": "週末はゆっくり休んで、体力をセーブしたいと思います。",
     "answer": "I want to take a rest on weekends and save my physical energy.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a150f985-9027-46fc-b827-d51bae4a9c99",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

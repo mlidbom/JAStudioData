@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-99b887bade6828e8eff39a4f8dfdfb2c71161a51189c118e5524b88c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-99b887bade6828e8eff39a4f8dfdfb2c71161a51189c118e5524b88c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "危ない"
@@ -135,11 +143,12 @@
     "question": "夜道を一人で歩くのは危ないです。",
     "answer": "Walking alone on the streets at night is dangerous.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "523585e8-73df-4d75-9158-0104f7483c5e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ee88057d6244a8f80197282de89dee6d38f4e976eb3d89eacd84eaa7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ee88057d6244a8f80197282de89dee6d38f4e976eb3d89eacd84eaa7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "節句"
@@ -100,11 +108,12 @@
     "question": "日本の五節句を全部言えますか。",
     "answer": "Can you name all five Japanese seasonal festivals?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "919dafa5-6754-4c06-accf-a2bd980872c6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

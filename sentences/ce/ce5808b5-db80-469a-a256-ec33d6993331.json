@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-88a4009a914d57bf52437aca5e486a34d82541ef1acf3fc865964fad.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-88a4009a914d57bf52437aca5e486a34d82541ef1acf3fc865964fad.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "胃痛"
@@ -100,11 +108,12 @@
     "question": "胃痛によく効く薬をください。",
     "answer": "Please give me the medicine that works well for stomachaches.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ce5808b5-db80-469a-a256-ec33d6993331",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

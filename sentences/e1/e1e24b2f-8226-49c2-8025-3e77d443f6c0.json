@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8eee549cf3507f197a2acb8dd76123a0915fea2a19fd50337357a361.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8eee549cf3507f197a2acb8dd76123a0915fea2a19fd50337357a361.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "運動会"
@@ -142,11 +150,12 @@
     "question": "運動会の日、雨じゃないといいんですが。",
     "answer": "I hope it doesn't rain on the day of the athletic meet.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e1e24b2f-8226-49c2-8025-3e77d443f6c0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

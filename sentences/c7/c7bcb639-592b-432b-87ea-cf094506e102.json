@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4334a28c440654e9d7fb6839270cbcc52a67dab001b4ef0591015db7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4334a28c440654e9d7fb6839270cbcc52a67dab001b4ef0591015db7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "空間"
@@ -177,11 +185,12 @@
     "question": "アレルギーなので犬と同じ空間にいることが出来ません。",
     "answer": "I can't be in the same space as a dog because I'm allergic.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c7bcb639-592b-432b-87ea-cf094506e102",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

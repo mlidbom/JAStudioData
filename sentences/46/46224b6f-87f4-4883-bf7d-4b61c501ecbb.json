@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e7d7e8ef28008c53d6219b0ca8ee6a07335ff9fcd5195185cadaf547.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e7d7e8ef28008c53d6219b0ca8ee6a07335ff9fcd5195185cadaf547.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -189,11 +197,12 @@
     "question": "歯周病は感染症の一種だとは知りませんでした。",
     "answer": "I didn’t know that periodontitis is a type of infectious disease.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "46224b6f-87f4-4883-bf7d-4b61c501ecbb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

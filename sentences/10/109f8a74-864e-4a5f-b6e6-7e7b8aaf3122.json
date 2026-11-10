@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8afbe83681ae99df30e97359c56ac72102c4207162f61bd3ff14ddc3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8afbe83681ae99df30e97359c56ac72102c4207162f61bd3ff14ddc3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "間もなく"
@@ -233,11 +241,12 @@
     "question": "教室のドアの音がしたので、間もなく先生が入ってくるかと思った。",
     "answer": "I heard the classroom door, so I thought the teacher would come in soon.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "109f8a74-864e-4a5f-b6e6-7e7b8aaf3122",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

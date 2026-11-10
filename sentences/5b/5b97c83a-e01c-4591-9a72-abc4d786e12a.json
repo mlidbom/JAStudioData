@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4bf961d5528cebe0c0b3b2eb746b790956f69c3834af19924d602d07.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4bf961d5528cebe0c0b3b2eb746b790956f69c3834af19924d602d07.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "生活"
@@ -114,11 +122,12 @@
     "question": "毎日の生活で不安なことはありますか？",
     "answer": "Are there any concerns about your daily life?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5b97c83a-e01c-4591-9a72-abc4d786e12a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-06ab0481da60a33a39e2d0e77997dbd4b18dcc820faf1dff636085dd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-06ab0481da60a33a39e2d0e77997dbd4b18dcc820faf1dff636085dd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "夢"
@@ -184,11 +192,12 @@
     "question": "昨日、コウイチに指圧をしてもらっている夢を見たんだ。",
     "answer": "Yesterday, I had a dream that Koichi was giving me a shiatsu massage.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2fc9714b-3808-48e1-82f3-784e11332c8b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

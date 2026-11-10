@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-26b8498e8c429e12c8e304cbf977bf2bc55dbd4622336f4e13f4e4af.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-26b8498e8c429e12c8e304cbf977bf2bc55dbd4622336f4e13f4e4af.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "追いかける"
@@ -114,11 +122,12 @@
     "question": "あそこで、ウサギを追いかけるライオンを見ました。",
     "answer": "I saw a lion chasing a rabbit over there.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6b861e9f-2aa6-44d8-ba8f-3fa39acddfa5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

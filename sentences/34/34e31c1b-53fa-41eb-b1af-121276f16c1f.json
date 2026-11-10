@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5ea4bb9774f23dd15a1f09b1e76fd472e702781f261cbaf809af9cd1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5ea4bb9774f23dd15a1f09b1e76fd472e702781f261cbaf809af9cd1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "拾う"
@@ -135,11 +143,12 @@
     "question": "海岸でゴミを拾うボランティアを一年間やりました。",
     "answer": "I volunteered for a year to pick up trash on the beach.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "34e31c1b-53fa-41eb-b1af-121276f16c1f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

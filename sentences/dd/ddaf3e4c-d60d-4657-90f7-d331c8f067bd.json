@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-518b8daf8a8abb2af20b2f1a4d85291cc98e311e31907cf6eb379e11.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-518b8daf8a8abb2af20b2f1a4d85291cc98e311e31907cf6eb379e11.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "広告"
@@ -184,11 +192,12 @@
     "question": "図書館から借りた本に、スーパーの広告が一枚はさまっていました。",
     "answer": "In a book I borrowed from the library, there was a grocery store advertisement stuck between the pages.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ddaf3e4c-d60d-4657-90f7-d331c8f067bd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

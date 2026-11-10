@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7c72d4a56f53c13fcb0906860f9905a03df6cf680a289a68063b991e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7c72d4a56f53c13fcb0906860f9905a03df6cf680a289a68063b991e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "人口"
@@ -93,11 +101,12 @@
     "question": "こちらの人口はどのくらいですか？",
     "answer": "How large is the population around here?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "37d1ef25-a6a5-462f-8b5f-8b6b407046bc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

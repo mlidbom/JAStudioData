@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a953d552b6400f0c08de48ddf464ea929cc874b781075ef50f8cbc39.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a953d552b6400f0c08de48ddf464ea929cc874b781075ef50f8cbc39.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "耳打ち"
@@ -93,11 +101,12 @@
     "question": "山下先生は田中先生に耳打ちした。",
     "answer": "Yamashita-sensei whispered in Tanaka-sensei's ear.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ede70665-228f-4eb8-8650-964b367a4c28",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-18dc683bac67fc507c28e860910e4fcb3cec2af53aba144d746e941f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-18dc683bac67fc507c28e860910e4fcb3cec2af53aba144d746e941f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "搭乗"
@@ -149,11 +157,12 @@
     "question": "乗客を全員搭乗させると、係員はドアを閉めた。",
     "answer": "Once all the passengers had boarded, the attendant closed the door.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e2ea689a-051e-4b65-ac2a-f21cefebd5ef",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

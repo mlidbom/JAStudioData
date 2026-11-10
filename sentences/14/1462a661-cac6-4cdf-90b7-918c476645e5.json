@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-117fed3518aca45111e862e24895cff51799e7a9a8d8b8d92d96e3e8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-117fed3518aca45111e862e24895cff51799e7a9a8d8b8d92d96e3e8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "前景"
@@ -275,11 +283,12 @@
     "question": "このカメラでは、どうすれば前景の被写体にピントを合わせることができるんですか？",
     "answer": "How can I focus on something in the foreground with this camera?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1462a661-cac6-4cdf-90b7-918c476645e5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

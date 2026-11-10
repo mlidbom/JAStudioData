@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-2aaadf0e541f2856aa9d9aff97c23e78cce88c450ae8aebcdd2b8543.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-2aaadf0e541f2856aa9d9aff97c23e78cce88c450ae8aebcdd2b8543.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "１度だけ",
@@ -44,8 +50,7 @@
   "sentenceCount": 13,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -69,7 +74,9 @@
   "sourceData": {
     "answer": "only-once",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "338ed7f2-fd05-446f-b5e1-a247f71789ea",
   "tags": [

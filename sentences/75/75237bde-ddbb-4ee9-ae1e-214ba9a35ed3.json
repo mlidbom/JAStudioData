@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0dffbbb7bc7c2baf8fbfa36a5299101e854cd0a6097b94bd4398df59.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0dffbbb7bc7c2baf8fbfa36a5299101e854cd0a6097b94bd4398df59.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "他の人"
@@ -135,11 +143,12 @@
     "question": "え、いらないの？じゃあ、他の人にあげるね。",
     "answer": "Oh, you don't want it? Then I'll give it to someone else.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "75237bde-ddbb-4ee9-ae1e-214ba9a35ed3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

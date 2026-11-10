@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-276b292f6096692c60c2e65cba4fafb2e71513d5789e9c455f9c4f7b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-276b292f6096692c60c2e65cba4fafb2e71513d5789e9c455f9c4f7b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大麻"
@@ -163,11 +171,12 @@
     "question": "この葉っぱは大麻の葉っぱに似ているけど大麻じゃないよ。",
     "answer": "This leaf looks like a marijuana leaf, but it's not marijuana.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "64d6900d-05f8-4b4d-8a6b-98877415fa1a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

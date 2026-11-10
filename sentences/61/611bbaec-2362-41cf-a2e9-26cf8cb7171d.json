@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8aa95f5c7942af4820584653c71a19fce5972ddfcfc7916e6c175901.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8aa95f5c7942af4820584653c71a19fce5972ddfcfc7916e6c175901.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "空席"
@@ -198,11 +206,12 @@
     "question": "まだ空席はたくさんありますか？できれば前の方の席がいいのですが。",
     "answer": "Are there still many open seats left? If possible, I’d prefer to sit in the front.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "611bbaec-2362-41cf-a2e9-26cf8cb7171d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

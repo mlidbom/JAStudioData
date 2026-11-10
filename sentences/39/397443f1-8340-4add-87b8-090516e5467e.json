@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-040452a333f95421a0423b1e67307051afb0a65a7db436af1cafc7e1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-040452a333f95421a0423b1e67307051afb0a65a7db436af1cafc7e1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "残業"
@@ -289,11 +297,12 @@
     "question": "残業中に森さんからラインが来て、残業後に二人でバルに行くことになったんだ。",
     "answer": "During overtime, I received a LINE message from Mr. Mori, and we ended up going to a bar together after work.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "397443f1-8340-4add-87b8-090516e5467e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

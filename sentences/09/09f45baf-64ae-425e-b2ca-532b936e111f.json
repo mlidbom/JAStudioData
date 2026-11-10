@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ecb552dbd8677d1c87b69aa6bbd708378b5d33ea819345284c30368d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ecb552dbd8677d1c87b69aa6bbd708378b5d33ea819345284c30368d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "通勤"
@@ -226,11 +234,12 @@
     "question": "通勤は時間を浪費するので、私は職場の近くに住む方がいいですね。",
     "answer": "Commuting can eat up a lot of time, so I prefer to live near my office.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "09f45baf-64ae-425e-b2ca-532b936e111f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

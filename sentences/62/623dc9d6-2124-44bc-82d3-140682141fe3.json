@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7a4a38dc8a1e780661ed67f0742bf3c44870fc6fb91ca70e45def568.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7a4a38dc8a1e780661ed67f0742bf3c44870fc6fb91ca70e45def568.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "助ける"
@@ -205,11 +213,12 @@
     "question": "あなたが、あの雨の日に助けてくれたおかげで、今の私がいます。",
     "answer": "Thanks to you saving me on that rainy day, I am who I am today.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "623dc9d6-2124-44bc-82d3-140682141fe3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

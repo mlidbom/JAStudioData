@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0d2be726e0b848af5ea9fe9abf0accb429f340b57270b171687cebac.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0d2be726e0b848af5ea9fe9abf0accb429f340b57270b171687cebac.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "朝ご飯"
@@ -135,11 +143,12 @@
     "question": "朝ご飯にはハムとチーズのサンドイッチを作りました。",
     "answer": "I made ham and cheese sandwiches for breakfast.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e4920bb8-f9b9-40b3-a864-8f6bf01e6be4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

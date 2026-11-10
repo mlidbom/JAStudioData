@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7048cbabc6571afd1926f4bcfb6e0457dc17ba61b9369a2412f68c3b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7048cbabc6571afd1926f4bcfb6e0457dc17ba61b9369a2412f68c3b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "手頃"
@@ -65,11 +73,12 @@
     "question": "手頃な値段ですね。",
     "answer": "This is a reasonable price, isn’t it?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cb7611d6-ed75-4946-b11d-5dee82ef2442",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

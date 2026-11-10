@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dc6bcda35a41119d03f8c64014a4a85fecb1ccc8f0baa4f47c97deae.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dc6bcda35a41119d03f8c64014a4a85fecb1ccc8f0baa4f47c97deae.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "車両"
@@ -72,11 +80,12 @@
     "question": "前の車両は一号車です。",
     "answer": "The vehicle ahead is the car No. 1.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a44550df-9757-4ec5-a0ad-01dc52fd97cf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

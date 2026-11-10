@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1db9dd26831dd7c25b368c24d06655825acb99e4652ad955e5751f87.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1db9dd26831dd7c25b368c24d06655825acb99e4652ad955e5751f87.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "労働"
@@ -107,11 +115,12 @@
     "question": "この仕事、労働時間がすごく長いんです。",
     "answer": "The labor hours are very long at this job.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7a6f75e4-ff80-4d6b-8a04-b9cdbebc963b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

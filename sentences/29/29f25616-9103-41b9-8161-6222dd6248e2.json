@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-67727d8a0ab4c66bb9083b56f1186909bdfe3203c7e507d6b9431495.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-67727d8a0ab4c66bb9083b56f1186909bdfe3203c7e507d6b9431495.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "薬物"
@@ -72,11 +80,12 @@
     "question": "今すぐ薬物をやめろ！",
     "answer": "Stop doing drugs right now!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "29f25616-9103-41b9-8161-6222dd6248e2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

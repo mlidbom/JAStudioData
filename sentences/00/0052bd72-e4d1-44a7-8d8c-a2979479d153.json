@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-265efb082b57bf0def26a6090f3ac8848176e244e9d020eff07db1ac.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-265efb082b57bf0def26a6090f3ac8848176e244e9d020eff07db1ac.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [
@@ -187,11 +195,12 @@
     "question": "アイツの話によると、彼女、本の挿絵を描いてるんだってさ。",
     "answer": "According to him, she draws illustrations for books.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0052bd72-e4d1-44a7-8d8c-a2979479d153",
   "tags": [
-    "_tts_audio",
     "-::sentence::uses::incorrect-matches",
     "source::wani::current"
   ]

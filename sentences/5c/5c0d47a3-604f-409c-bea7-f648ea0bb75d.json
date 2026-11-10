@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-81705cd9e73eda89d0579a93fa6082fcd915a3bc278b3beae81b1139.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-81705cd9e73eda89d0579a93fa6082fcd915a3bc278b3beae81b1139.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "隠す"
@@ -128,11 +136,12 @@
     "question": "秘密の花園への入口は隠されている。",
     "answer": "The entrance to the Secret Garden is hidden.  ",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5c0d47a3-604f-409c-bea7-f648ea0bb75d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

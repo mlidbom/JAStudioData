@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-92b16770fffef4e571cfec878032a870fc9a3a9edf919250ab1ba8c0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-92b16770fffef4e571cfec878032a870fc9a3a9edf919250ab1ba8c0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "入隊"
@@ -149,11 +157,12 @@
     "question": "日本人男性がアメリカ軍に入隊することはできますか。",
     "answer": "Can a Japanese man enlist in the U.S. army?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1d9e5e37-abe7-4161-a395-93a5825dca16",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

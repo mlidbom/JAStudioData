@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-602a747d1d555d6f1de1fcb962348bfb69c172c58578413ad8ab720c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-602a747d1d555d6f1de1fcb962348bfb69c172c58578413ad8ab720c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "凍結"
@@ -226,11 +234,12 @@
     "question": "まだ完全には凍結していないかもしれないから、気を付けてね。",
     "answer": "It might not be completely frozen yet, so be careful.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5d727e43-3306-4d73-8754-61075dcfec5c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2ee647f2aad537842ff5a3cd8cc65a96c15bf0b89b42e8cd2430d436.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2ee647f2aad537842ff5a3cd8cc65a96c15bf0b89b42e8cd2430d436.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "宜しい"
@@ -142,11 +150,12 @@
     "question": "ここに鞄を置かせてもらっても宜しいですか？",
     "answer": "Is it okay for me to put my bag here?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7f813b57-d976-4adc-9605-ab9018469c3d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

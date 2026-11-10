@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e9c74e78bc87dcb2e29f0490db2fdf31e15c8138a42b1981dfd01c04.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e9c74e78bc87dcb2e29f0490db2fdf31e15c8138a42b1981dfd01c04.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "慌てる"
@@ -65,11 +73,12 @@
     "question": "慌てず、慎重にね。",
     "answer": "Don't hurry, do it carefully.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b1caacce-ee66-4186-8d6b-dee31da3450f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

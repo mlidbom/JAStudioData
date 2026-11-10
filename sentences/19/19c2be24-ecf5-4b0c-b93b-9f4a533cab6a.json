@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cd6c24ebd71a2f0419455d4ed08509818a39aab8e119364743bb6535.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cd6c24ebd71a2f0419455d4ed08509818a39aab8e119364743bb6535.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "興味がない"
@@ -205,11 +213,12 @@
     "question": "俺は顧客と個人的に仲良くなることには興味がないんだ。",
     "answer": "I’m not interested in building personal relationships with customers. ",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "19c2be24-ecf5-4b0c-b93b-9f4a533cab6a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-44075214f665a228eebc7ee78f018437759bdeae77540d5f27e21755.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-44075214f665a228eebc7ee78f018437759bdeae77540d5f27e21755.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "薬"
@@ -93,11 +101,12 @@
     "question": "これは何の薬ですか？",
     "answer": "What is this medicine for?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9e443e80-7a11-483d-a61b-69db3721d6e1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

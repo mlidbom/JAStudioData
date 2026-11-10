@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-888288850dfb9aea7a4d2cb08b3e95bd5efe916e5eba477ac973a5d4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-888288850dfb9aea7a4d2cb08b3e95bd5efe916e5eba477ac973a5d4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "葬式"
@@ -296,11 +304,12 @@
     "question": "もし誰かから電話があったら、葬式に出ていて三時に戻ると伝えてください。",
     "answer": "If anyone calls, say I’m at a funeral and will be back at three o’clock.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2d11382c-ce95-4b4d-9c2c-7cce33b992e9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

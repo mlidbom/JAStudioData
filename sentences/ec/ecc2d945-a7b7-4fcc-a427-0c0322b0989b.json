@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-44b9557d5304742f64c81baa43d94e3eb97b04e47ec055b6debed470.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-44b9557d5304742f64c81baa43d94e3eb97b04e47ec055b6debed470.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "聞く"
@@ -107,11 +115,12 @@
     "question": "こんな事聞いて、すみません。今お金持ってますか？",
     "answer": "I'm sorry to ask you this. Do you have some money on you?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ecc2d945-a7b7-4fcc-a427-0c0322b0989b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

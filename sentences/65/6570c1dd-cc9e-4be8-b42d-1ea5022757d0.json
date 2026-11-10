@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3409a16c8b6726cfa171dd4f3257a08b1d0879172ceb008c927376d4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3409a16c8b6726cfa171dd4f3257a08b1d0879172ceb008c927376d4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "温泉"
@@ -163,11 +171,12 @@
     "question": "私の父も母も温泉が好きじゃありません。",
     "answer": "Neither my dad nor mom likes hot springs.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6570c1dd-cc9e-4be8-b42d-1ea5022757d0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

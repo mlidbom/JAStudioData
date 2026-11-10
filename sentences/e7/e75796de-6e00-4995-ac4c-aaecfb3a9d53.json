@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2df86bde846860637eeecf157d1e8c08923075fe172d3917cd3e7fd4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2df86bde846860637eeecf157d1e8c08923075fe172d3917cd3e7fd4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "拒否"
@@ -191,11 +199,12 @@
     "question": "彼は戦場に行く事を拒否したため、臆病者と呼ばれた。",
     "answer": "He was called coward since he’d refused to go to the battlefield.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e75796de-6e00-4995-ac4c-aaecfb3a9d53",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

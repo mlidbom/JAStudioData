@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-039c540290b925ef6e3da7de4a1b757dc6fd4c76a8c77be8dc38176c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-039c540290b925ef6e3da7de4a1b757dc6fd4c76a8c77be8dc38176c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "歯医者"
@@ -149,11 +157,12 @@
     "question": "半年に一度は歯医者に行った方がいい。",
     "answer": "It's better to go see a dentist at least once every six months.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1546428f-590b-4340-97f2-203fe73f0c27",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

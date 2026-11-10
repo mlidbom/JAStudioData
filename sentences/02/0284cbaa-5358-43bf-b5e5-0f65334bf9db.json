@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b1f05ecafc9d8a33f576220b6b33191b6a9e2e3bac4ec4183bd90631.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b1f05ecafc9d8a33f576220b6b33191b6a9e2e3bac4ec4183bd90631.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "後で"
@@ -58,11 +66,12 @@
     "question": "テレビは後で見ます。",
     "answer": "I will watch TV later.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0284cbaa-5358-43bf-b5e5-0f65334bf9db",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

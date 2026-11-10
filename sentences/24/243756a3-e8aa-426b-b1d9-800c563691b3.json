@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1b128e0f199b539ea2055b30f5e74d971f134877d94f2f418e8eaf43.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1b128e0f199b539ea2055b30f5e74d971f134877d94f2f418e8eaf43.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "表現"
@@ -296,11 +304,12 @@
     "question": "以前は理解できなかった芸術表現が理解できるようになった時、言葉では表現できないほどうれしかった。",
     "answer": "When I was able understand artistic expressions that I hadn’t understood before, words can’t express how happy I was.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "243756a3-e8aa-426b-b1d9-800c563691b3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

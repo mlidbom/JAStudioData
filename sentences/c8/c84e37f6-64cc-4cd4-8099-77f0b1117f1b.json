@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4de3db90ac9fa73756cfb56d5c3e7ad78e552ead44ceef258a20dc4f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4de3db90ac9fa73756cfb56d5c3e7ad78e552ead44ceef258a20dc4f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "支局"
@@ -100,11 +108,12 @@
     "question": "テレビ東京には、東北支局はありますか？",
     "answer": "Does TV Tokyo have a Tohoku bureau?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c84e37f6-64cc-4cd4-8099-77f0b1117f1b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

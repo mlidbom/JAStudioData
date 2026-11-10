@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fa92b4a55a46d1dd6d08ef1236a3a003b01a7b333ca565dfd0a85043.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fa92b4a55a46d1dd6d08ef1236a3a003b01a7b333ca565dfd0a85043.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "時間"
@@ -100,11 +108,12 @@
     "question": "JLPTまで、あと一日。時間が足りません。",
     "answer": "One more day until the JLPT. I don't have enough time.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a256548e-033b-45ab-b5da-4c90ae632674",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

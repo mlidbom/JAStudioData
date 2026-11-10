@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b4bd697cb8a0b931ecf0a7a1fb876d5b849f6a64568b5b0e0e69d529.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b4bd697cb8a0b931ecf0a7a1fb876d5b849f6a64568b5b0e0e69d529.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "東京弁"
@@ -107,11 +115,12 @@
     "question": "東京弁は共通語とほとんど同じですよ。",
     "answer": "Tokyo dialect is almost the same as standard Japanese.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "19d9e14c-7d1c-4984-8ba7-6afb30f2ab00",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7b87d561611bbee2a534772c1e58becc6e45923454dc6a7fb06eae4b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7b87d561611bbee2a534772c1e58becc6e45923454dc6a7fb06eae4b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "減給"
@@ -135,11 +143,12 @@
     "question": "これって、実質的には減給じゃないですか？",
     "answer": "Isn't this essentially a pay cut?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d9acae7e-1dc9-4075-8bf2-b3c5b6040643",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

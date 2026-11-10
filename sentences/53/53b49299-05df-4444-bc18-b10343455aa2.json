@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9b2ff8537406622a7569f7da06f3bfa0e47d25797bdf7492e72167fe.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9b2ff8537406622a7569f7da06f3bfa0e47d25797bdf7492e72167fe.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "心持ち"
@@ -107,11 +115,12 @@
     "question": "あの子は、心持ちのよい素直な子です。",
     "answer": "He is a pleasant, honest kid.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "53b49299-05df-4444-bc18-b10343455aa2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

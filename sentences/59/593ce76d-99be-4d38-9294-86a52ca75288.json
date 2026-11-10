@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5cbb30048534fb4f82e8fa32e1d50fcfb41db6812fcb81b7d221bd61.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5cbb30048534fb4f82e8fa32e1d50fcfb41db6812fcb81b7d221bd61.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Google ja-JP-Neural2-D",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "〜ヶ月"
@@ -79,11 +87,12 @@
     "question": "赤ちゃん、今何ヶ月ですか？",
     "answer": "How many months old is the baby?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "593ce76d-99be-4d38-9294-86a52ca75288",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8b122c39e83ff770c0593e8e7b2003790bc5b6257cfe32164dd397f3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8b122c39e83ff770c0593e8e7b2003790bc5b6257cfe32164dd397f3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "輸送"
@@ -114,11 +122,12 @@
     "question": "ダリンはトラックで新鮮なフグを大量に輸送した。",
     "answer": "Darin transported a large number of fresh blowfishes by truck.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0aaeaa8a-020b-49cc-9408-fdec9e1e5804",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

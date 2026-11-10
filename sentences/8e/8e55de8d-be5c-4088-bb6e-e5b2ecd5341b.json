@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-36776fb1c0e9ed06958e2a5d72401a08b0d90bfc9d47d04d215861e0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-36776fb1c0e9ed06958e2a5d72401a08b0d90bfc9d47d04d215861e0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "案内"
@@ -296,11 +304,12 @@
     "question": "「二人なんですが、席は空いていますか？」「お席にご案内するまで少しお待ちください。」",
     "answer": "\"Do you have a table for two?\" \"Please wait just a moment, and I'll guide you to your seats.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8e55de8d-be5c-4088-bb6e-e5b2ecd5341b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

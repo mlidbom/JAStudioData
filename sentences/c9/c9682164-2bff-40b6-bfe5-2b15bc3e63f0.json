@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9d97c05a9f5ba5ea04e4992c71ea98bd0bece5ba583689157b40b8ce.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9d97c05a9f5ba5ea04e4992c71ea98bd0bece5ba583689157b40b8ce.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "小さい順"
@@ -100,11 +108,12 @@
     "question": "PERが小さい順に会社をならべました。",
     "answer": "Companies are listed in descending order of PER.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c9682164-2bff-40b6-bfe5-2b15bc3e63f0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

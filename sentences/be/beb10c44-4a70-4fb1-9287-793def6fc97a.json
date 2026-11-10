@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6c6eba05c699353d8b295b8dce98a7cbbf96917580944a8a26d8acb1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6c6eba05c699353d8b295b8dce98a7cbbf96917580944a8a26d8acb1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "脈拍"
@@ -72,11 +80,12 @@
     "question": "すでに脈拍が止まっている。",
     "answer": "The pulse has already stopped.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "beb10c44-4a70-4fb1-9287-793def6fc97a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

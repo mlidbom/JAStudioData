@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e128e509abccadc8735c414f44e0b5ec9ae25a0bffde981a71f72326.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e128e509abccadc8735c414f44e0b5ec9ae25a0bffde981a71f72326.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "垣"
@@ -107,11 +115,12 @@
     "question": "少女は心に垣をめぐらせていた。",
     "answer": "The girl built a wall around her heart.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "70ac14e2-919b-447f-a25c-fb0bc6032815",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

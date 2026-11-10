@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ad66adf2c5b8e97b1cb0cc7fddb032ec46890c3599464af8dee8f626.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ad66adf2c5b8e97b1cb0cc7fddb032ec46890c3599464af8dee8f626.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "文化祭"
@@ -142,11 +150,12 @@
     "question": "うちの文化祭に誰か有名人が来るらしいよ！",
     "answer": "It seems like a famous person is going to come to our school's culture festival!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ae45c500-83e3-4813-8b9e-67e559cd48b2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

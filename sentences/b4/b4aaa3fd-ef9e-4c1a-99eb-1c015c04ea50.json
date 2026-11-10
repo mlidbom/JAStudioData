@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9f6cb7185c883d3de56d8b8782a90a912a0c4f74514cf276315d12c2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9f6cb7185c883d3de56d8b8782a90a912a0c4f74514cf276315d12c2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "殺す"
@@ -114,11 +122,12 @@
     "question": "あのハエ、どうやって殺すつもりなの？",
     "answer": "How are you planning to kill that fly?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b4aaa3fd-ef9e-4c1a-99eb-1c015c04ea50",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

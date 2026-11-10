@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3101ce83cd3fbc7c9eb7d680ffa2f2180ed86d2518ec25b2a15a6f77.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3101ce83cd3fbc7c9eb7d680ffa2f2180ed86d2518ec25b2a15a6f77.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "汚濁"
@@ -156,11 +164,12 @@
     "question": "湖の水質汚濁を防止するために規制が設けられた。",
     "answer": "A regulation was established to prevent the pollution of the lake.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a0cfefdc-ffb5-468a-a3cf-7cec17539bed",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

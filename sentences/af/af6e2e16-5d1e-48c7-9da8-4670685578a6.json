@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-78eaa9af9bf7501745e48d1e9667d48bc922bf7afe76695bdd857936.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-78eaa9af9bf7501745e48d1e9667d48bc922bf7afe76695bdd857936.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "土俵"
@@ -121,11 +129,12 @@
     "question": "誰かが土俵にパンの欠片を投げ込みました。",
     "answer": "Someone threw a piece of bread into the sumo arena.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "af6e2e16-5d1e-48c7-9da8-4670685578a6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

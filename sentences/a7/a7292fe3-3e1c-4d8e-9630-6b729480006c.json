@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-24e5ae62337747ac1512154573f4bf92167ad53f63fb692db895d257.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-24e5ae62337747ac1512154573f4bf92167ad53f63fb692db895d257.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "説明"
@@ -170,11 +178,12 @@
     "question": "電車のスピードを急に落とした理由を説明してください。",
     "answer": "Please explain why you suddenly slowed down the train.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a7292fe3-3e1c-4d8e-9630-6b729480006c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

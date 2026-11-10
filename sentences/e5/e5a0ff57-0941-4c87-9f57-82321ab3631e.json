@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bba430eed9b3c67ff072bd5379baf2a1087b07514a9dbe817bd9cf7a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bba430eed9b3c67ff072bd5379baf2a1087b07514a9dbe817bd9cf7a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "比較する"
@@ -226,11 +234,12 @@
     "question": "同じ年の女の子と比較すると、私の娘は体力があまりありません。",
     "answer": "My daughter lacks physical strength compared to the other girls at her age.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e5a0ff57-0941-4c87-9f57-82321ab3631e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

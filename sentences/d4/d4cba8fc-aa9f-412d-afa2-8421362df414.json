@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e7a65cbb1d4defbc97ee1c1d2733b26169f2f60c2107f76f6a627b83.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e7a65cbb1d4defbc97ee1c1d2733b26169f2f60c2107f76f6a627b83.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "不良"
@@ -72,11 +80,12 @@
     "question": "不良パーツが見つかりました。",
     "answer": "Malfunctioning parts were found.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d4cba8fc-aa9f-412d-afa2-8421362df414",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c91f217c47a1d10a8598e532a0bb77d3c46a6d883c2eec59c7c4791c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c91f217c47a1d10a8598e532a0bb77d3c46a6d883c2eec59c7c4791c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "最後"
@@ -184,11 +192,12 @@
     "question": "出発する前に、最後にもう一回、町民の人々にお礼を言います。",
     "answer": "I'm going to say thank you to the townspeople one last time before leaving.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5116ff5f-3b03-475a-a38d-ce3bc552beb8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

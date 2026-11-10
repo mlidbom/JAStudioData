@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2a3d97a17390a891654a1c397db878f4d6858e2789019be5eee3d0f8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2a3d97a17390a891654a1c397db878f4d6858e2789019be5eee3d0f8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "男性"
@@ -219,11 +227,12 @@
     "question": "このオフィスには男性の会社員が約百名、女性の会社員が約七十名います。",
     "answer": "In this office, there are about a hundred male office workers and about seventy female office workers.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dd8bcfa7-cb7c-4850-aed0-4d5d67d86511",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

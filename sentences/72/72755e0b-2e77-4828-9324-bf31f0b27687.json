@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e5f65bf6e20bc93d88e376353f7e484c412ed41db006cb8818f38e22.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e5f65bf6e20bc93d88e376353f7e484c412ed41db006cb8818f38e22.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "怠慢"
@@ -163,11 +171,12 @@
     "question": "それは警察の怠慢なんじゃないんですか。",
     "answer": "Isn’t that police negligence?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "72755e0b-2e77-4828-9324-bf31f0b27687",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

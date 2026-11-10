@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-10f437e2b3f7bc8c5e23a0936577f3cd81a7041af2de1d28a6cfbd22.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-10f437e2b3f7bc8c5e23a0936577f3cd81a7041af2de1d28a6cfbd22.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "光る"
@@ -107,11 +115,12 @@
     "question": "日が当たると、ダイアモンドは光る。",
     "answer": "The diamond shines when the sun hits it.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fe0c79c8-2398-4b20-8d36-bd01e65d4841",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

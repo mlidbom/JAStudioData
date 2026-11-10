@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0dba0a92a13d60b4627976a3b13c648fde5e62bc5306544eb7daf727.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0dba0a92a13d60b4627976a3b13c648fde5e62bc5306544eb7daf727.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "写真"
@@ -170,11 +178,12 @@
     "question": "コウイチの高校時代の写真が流出してしまいました。",
     "answer": "Koichi's picture from high school was leaked.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e6bb703e-cfa8-4f49-ab09-8d4d37c061a1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

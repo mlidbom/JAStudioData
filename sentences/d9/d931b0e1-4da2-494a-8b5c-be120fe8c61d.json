@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a5b9868a936fbb6d526b19fc20737f543d4cf51d61a618fdb0b729e3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a5b9868a936fbb6d526b19fc20737f543d4cf51d61a618fdb0b729e3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "郵便局"
@@ -156,11 +164,12 @@
     "question": "私のおじは、あの郵便局の郵便局長なんです。",
     "answer": "My uncle is the postmaster of that post office.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d931b0e1-4da2-494a-8b5c-be120fe8c61d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

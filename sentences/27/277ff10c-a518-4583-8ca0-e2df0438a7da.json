@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bad8fc7c97e219d586c363917f71d0a743f7cafd66b8ab3978040d55.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bad8fc7c97e219d586c363917f71d0a743f7cafd66b8ab3978040d55.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "年賀状"
@@ -184,11 +192,12 @@
     "question": "トーフグから、コウイチの写真付きの年賀状が送られてきました。",
     "answer": "I got a New Year's greeting card with Koichi's picture from Tofugu.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "277ff10c-a518-4583-8ca0-e2df0438a7da",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

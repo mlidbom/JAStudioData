@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7c7e575ec7d662a6f1b6eefde11952ba7fac5082f6ac7830c72405a0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7c7e575ec7d662a6f1b6eefde11952ba7fac5082f6ac7830c72405a0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "自動"
@@ -114,11 +122,12 @@
     "question": "自動ドアだって知らなかったんだよ。",
     "answer": "I didn't even realize it was an automatic door.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6c1c7f8c-2ed2-4ece-9d0d-ebd3ddc2d30b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

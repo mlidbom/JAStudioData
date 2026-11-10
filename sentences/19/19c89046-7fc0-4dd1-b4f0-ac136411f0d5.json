@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-20b32ae73fd789bf46ede4b54047ef13db1d1731bfd28fe11ba254f7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-20b32ae73fd789bf46ede4b54047ef13db1d1731bfd28fe11ba254f7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "証明書"
@@ -219,11 +227,12 @@
     "question": "電車の中に証明書が入ったカバンを忘れてきてしまった。",
     "answer": "I forgot my bag with the certificate on the train.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "19c89046-7fc0-4dd1-b4f0-ac136411f0d5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

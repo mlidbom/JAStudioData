@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b065d54ff139dfe4d55829d55056400f3beafe93d6e25e4c83b7c992.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b065d54ff139dfe4d55829d55056400f3beafe93d6e25e4c83b7c992.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "海亀"
@@ -121,11 +129,12 @@
     "question": "その種の海亀は、絶滅の危機にあります。",
     "answer": "That kind of sea turtle is in danger of extinction.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a6ac1188-5443-40c4-9b24-6f2224819a26",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

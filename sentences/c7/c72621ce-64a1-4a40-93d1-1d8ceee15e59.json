@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ff44a595dc77a7c09174567badd14185b1b440b95884bbb07d007f1e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ff44a595dc77a7c09174567badd14185b1b440b95884bbb07d007f1e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "毎日"
@@ -79,11 +87,12 @@
     "question": "毎日車で会社に行きます。",
     "answer": "I go to work by car every day.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c72621ce-64a1-4a40-93d1-1d8ceee15e59",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

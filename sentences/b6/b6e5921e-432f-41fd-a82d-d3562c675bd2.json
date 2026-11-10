@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-17dd093c877c426c5350131dee4579adb75388afb54f1b8a42dee6f7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-17dd093c877c426c5350131dee4579adb75388afb54f1b8a42dee6f7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "面白い"
@@ -142,11 +150,12 @@
     "question": "それは今まで聞いた中で、一番面白い話でした。",
     "answer": "That was the funniest thing I’ve ever heard.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b6e5921e-432f-41fd-a82d-d3562c675bd2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

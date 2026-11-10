@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5646b1af41280f08504953d342290295a1ae3f09c31f9ac9ebf07a45.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5646b1af41280f08504953d342290295a1ae3f09c31f9ac9ebf07a45.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "開発"
@@ -170,11 +178,12 @@
     "question": "この会社は新しいプロダクトの開発に全力で集中しています。",
     "answer": "This company is fully focused on the development of new products.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "94949b23-43fd-40fd-bfce-75250ba76463",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1e3199fe3fcd2072a7c06afb1421aa192bf5dbe4f0cf0742aaaa367c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1e3199fe3fcd2072a7c06afb1421aa192bf5dbe4f0cf0742aaaa367c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "今すぐ"
@@ -121,11 +129,12 @@
     "question": "今すぐプライベートジェットで、むかえに行くよ。",
     "answer": "I'm going to come pick you up on a private jet right now.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cf17d013-ab2c-4c16-8150-f75a723fdf8c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

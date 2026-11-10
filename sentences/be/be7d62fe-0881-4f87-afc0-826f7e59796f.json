@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8025235e627c3b74132c28bfc484acbc2ae3f68f67b23816f0953f68.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8025235e627c3b74132c28bfc484acbc2ae3f68f67b23816f0953f68.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "混ぜる"
@@ -65,11 +73,12 @@
     "question": "混ぜるな危険！",
     "answer": "Don't mix it. It's dangerous!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "be7d62fe-0881-4f87-afc0-826f7e59796f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

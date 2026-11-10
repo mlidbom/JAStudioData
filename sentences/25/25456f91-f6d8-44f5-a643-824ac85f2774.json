@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5cd8ad1f9ce95c3b0ed7c3e1b0fd802986ebb72da624683a4f37e166.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5cd8ad1f9ce95c3b0ed7c3e1b0fd802986ebb72da624683a4f37e166.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "割り算"
@@ -135,11 +143,12 @@
     "question": "なぜか割り算は足し算より得意なんです。",
     "answer": "For some reason, I am better at division than addition.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "25456f91-f6d8-44f5-a643-824ac85f2774",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c2add0fa7dc7bbb7c726a06538496f2770dadbcd3330b154735a8d26.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c2add0fa7dc7bbb7c726a06538496f2770dadbcd3330b154735a8d26.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "研修"
@@ -114,11 +122,12 @@
     "question": "その研修は午後3時に始まる予定です。",
     "answer": "The training session is set to begin at 3 p.m.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "43f8d771-6512-4eb0-afec-2626a2a73d10",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

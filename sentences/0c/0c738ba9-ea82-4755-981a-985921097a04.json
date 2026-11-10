@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dbd9aaee3bc34794a91e2f14ecb056f6b46b5c0f725200980bdad72d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dbd9aaee3bc34794a91e2f14ecb056f6b46b5c0f725200980bdad72d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "花"
@@ -100,11 +108,12 @@
     "question": "母に花をプレゼントしたいんです。",
     "answer": "I want to give some flowers to my mother.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0c738ba9-ea82-4755-981a-985921097a04",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

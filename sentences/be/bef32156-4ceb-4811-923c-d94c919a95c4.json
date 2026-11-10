@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a29b04e987417f8a2d2182e3fb968ff45c646e887c4cddec2e7e3ac2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a29b04e987417f8a2d2182e3fb968ff45c646e887c4cddec2e7e3ac2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "消費"
@@ -142,11 +150,12 @@
     "question": "消費税の増税が消費を落ちこませたのは明らかだ。",
     "answer": "It is clear that the consumption tax hike has depressed consumption.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bef32156-4ceb-4811-923c-d94c919a95c4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

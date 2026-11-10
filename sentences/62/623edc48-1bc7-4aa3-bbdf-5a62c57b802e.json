@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-741dc622cec88ff7b4ef1e0e4069615749a381feb7d888218185ce59.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-741dc622cec88ff7b4ef1e0e4069615749a381feb7d888218185ce59.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "小文字"
@@ -128,11 +136,12 @@
     "question": "Eメールアドレスは、全て小文字で入力して下さい。",
     "answer": "Please enter your email address in all lowercase letters.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "623edc48-1bc7-4aa3-bbdf-5a62c57b802e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

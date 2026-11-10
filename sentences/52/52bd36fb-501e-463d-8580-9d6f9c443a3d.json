@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e9ac95377aebb072c5e74c65f649e21f2eb55a9bdd53c907ff7105ed.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e9ac95377aebb072c5e74c65f649e21f2eb55a9bdd53c907ff7105ed.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "椅子"
@@ -107,11 +115,12 @@
     "question": "この椅子の色違いは置いてますか？",
     "answer": "Do you have this chair in any other colors?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "52bd36fb-501e-463d-8580-9d6f9c443a3d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

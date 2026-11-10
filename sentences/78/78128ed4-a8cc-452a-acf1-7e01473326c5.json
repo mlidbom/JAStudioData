@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1562dd3fbf61dd36a1faa04be738b49640b4ac074a8a614fd94cf90f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1562dd3fbf61dd36a1faa04be738b49640b4ac074a8a614fd94cf90f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "例外"
@@ -121,11 +129,12 @@
     "question": "そのケースは例外中の例外だと思いますよ。",
     "answer": "I think that case is an exception to the exceptions.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "78128ed4-a8cc-452a-acf1-7e01473326c5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

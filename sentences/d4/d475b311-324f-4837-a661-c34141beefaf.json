@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-736f0bfea07edad0d7aa07f245853331a52ef99cd532c47c5e5f3ec3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-736f0bfea07edad0d7aa07f245853331a52ef99cd532c47c5e5f3ec3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "時間"
@@ -142,11 +150,12 @@
     "question": "今回の休みは、ゲームをする時間がたくさんあります。",
     "answer": "In this holiday, I have plenty of time to play games.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d475b311-324f-4837-a661-c34141beefaf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

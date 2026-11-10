@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1835431df94c322a39cfd4a89e6e761080baf0c8e4ce7e61467ed29e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1835431df94c322a39cfd4a89e6e761080baf0c8e4ce7e61467ed29e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "未だ"
@@ -121,11 +129,12 @@
     "question": "主人がどこにいるのか、未だ不明です。",
     "answer": "It is still unknown where my husband is.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "035e9477-80d9-4119-aeab-7ec9ad19d961",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

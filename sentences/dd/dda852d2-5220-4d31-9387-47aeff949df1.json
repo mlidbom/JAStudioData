@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dacd63c6d19686de7a36c4735c006380c0ede4295ef4e3a4f3b9ef7d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dacd63c6d19686de7a36c4735c006380c0ede4295ef4e3a4f3b9ef7d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "禅寺"
@@ -114,11 +122,12 @@
     "question": "あの禅寺の名前は何だっけ？",
     "answer": "What's the name of that Zen temple, again?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dda852d2-5220-4d31-9387-47aeff949df1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-51010487b8e59fe23d9d742fbd0ad594c77cb0afb030b3dc6de7634c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-51010487b8e59fe23d9d742fbd0ad594c77cb0afb030b3dc6de7634c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "自分"
@@ -79,11 +87,12 @@
     "question": "この木、自分で切ったの？",
     "answer": "Did you cut this tree yourself?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a2ae0396-368b-4f43-8737-3a422ff2a0c7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

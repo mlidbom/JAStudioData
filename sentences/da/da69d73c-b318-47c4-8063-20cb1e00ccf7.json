@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5aef2a6e6f69a346565ba3600f174c68140236981de439bf4653bcdf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5aef2a6e6f69a346565ba3600f174c68140236981de439bf4653bcdf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "兵隊"
@@ -86,11 +94,12 @@
     "question": "これは兵隊アリですね。",
     "answer": "This is a soldier ant.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "da69d73c-b318-47c4-8063-20cb1e00ccf7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

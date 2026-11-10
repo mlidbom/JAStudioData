@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-31893d4bce64ef92c85c8e0bf030c7adf9b3691e357bce8eb5f62ccc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-31893d4bce64ef92c85c8e0bf030c7adf9b3691e357bce8eb5f62ccc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鎖国"
@@ -191,11 +199,12 @@
     "question": "日本が鎖国していたのはいつですか。",
     "answer": "When was Japan in national isolation?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "216ae485-52d9-40c2-9a3b-3b20d7234022",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

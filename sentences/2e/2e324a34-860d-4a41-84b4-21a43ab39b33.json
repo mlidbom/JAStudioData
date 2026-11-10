@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e10dba22d7cc9df94010141cf57b19b4976d6bcb6233d26c6bd0525e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e10dba22d7cc9df94010141cf57b19b4976d6bcb6233d26c6bd0525e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "青空"
@@ -79,11 +87,12 @@
     "question": "今日は青空が広がっている。",
     "answer": "The blue sky is spreading out today.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2e324a34-860d-4a41-84b4-21a43ab39b33",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

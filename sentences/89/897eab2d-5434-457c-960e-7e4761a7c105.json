@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4afb5efc97db85b4617a7a947f4247e2977b806c02659d2aebf3d334.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4afb5efc97db85b4617a7a947f4247e2977b806c02659d2aebf3d334.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "障害"
@@ -170,11 +178,12 @@
     "question": "私の弟には軽度の知的障害があるんです。",
     "answer": "My younger brother has a mild intellectual disability.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "897eab2d-5434-457c-960e-7e4761a7c105",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

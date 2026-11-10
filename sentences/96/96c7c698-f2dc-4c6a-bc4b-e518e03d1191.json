@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-17bd2615bca776b428d9a7af34de2473619fed3e43a6150a5837eee7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-17bd2615bca776b428d9a7af34de2473619fed3e43a6150a5837eee7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "種類"
@@ -86,11 +94,12 @@
     "question": "全部で何種類あるの？",
     "answer": "How many kinds are there in all?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "96c7c698-f2dc-4c6a-bc4b-e518e03d1191",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-505cc757b665c05ea5f2123dbc83f400bbceb92c6e104e9755a8699c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-505cc757b665c05ea5f2123dbc83f400bbceb92c6e104e9755a8699c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "醸成"
@@ -135,11 +143,12 @@
     "question": "ここで酒を醸成しているんですね。",
     "answer": "They brew sake here.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d488a630-6f7e-4185-b846-82e892b1178c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

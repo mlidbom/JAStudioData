@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2b829a92f2b5e3aecdd925caeb7a7f310c6add872f0d9d255090c99e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2b829a92f2b5e3aecdd925caeb7a7f310c6add872f0d9d255090c99e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "悪化"
@@ -100,11 +108,12 @@
     "question": "昨日の夜、インフルエンザが一気に悪化した。",
     "answer": "Last night, my flu suddenly got worse.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5d678c2c-9d60-48e9-b097-6ac7f1291730",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

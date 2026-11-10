@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3f82d94d619264d045ae0d08d880d7afd7a81518e55de356265baa32.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3f82d94d619264d045ae0d08d880d7afd7a81518e55de356265baa32.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "洋室"
@@ -107,11 +115,12 @@
     "question": "洋室にはベッドとデスクがあります。",
     "answer": "There are beds and desks in the western style room.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e87cac3f-e6cf-41c9-a8eb-d4f0c1f9453f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

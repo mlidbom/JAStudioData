@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6cd1d551d1cae1dfd2d2136afe4beadb69a3ccfb991de090d4e4e809.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6cd1d551d1cae1dfd2d2136afe4beadb69a3ccfb991de090d4e4e809.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "連続"
@@ -114,11 +122,12 @@
     "question": "彼は連続で賞を受賞しました。",
     "answer": "He won awards in succession.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bed8eb4e-ed14-4bd0-ba50-cc4f40c81b40",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

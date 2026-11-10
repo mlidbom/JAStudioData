@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fe389646a7ceeafa955f24045f70e346a6e4ca81ce20f1c73829aef9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fe389646a7ceeafa955f24045f70e346a6e4ca81ce20f1c73829aef9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "バス停"
@@ -170,11 +178,12 @@
     "question": "バス停で、間違えて直通のバスに乗ってしまいました。",
     "answer": "At the bus stop, I accidentally got on the express bus.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d3d4d0f5-9ea6-4501-9308-b505b17c13bc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

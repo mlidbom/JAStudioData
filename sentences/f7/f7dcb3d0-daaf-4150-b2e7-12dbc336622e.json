@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e5883c9dcfb2712b68ec879b5d8c2a9d1e615a436567b27a1fab4e42.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e5883c9dcfb2712b68ec879b5d8c2a9d1e615a436567b27a1fab4e42.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "汽笛"
@@ -135,11 +143,12 @@
     "question": "マドの外から、汽車の汽笛が聞こえてきました。",
     "answer": "We heard a steam train whistle coming from outside the window.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f7dcb3d0-daaf-4150-b2e7-12dbc336622e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

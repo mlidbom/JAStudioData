@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6d32a663b1ed04b934caf47bac95ab9aa3456332b9f46190fbd34b1e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6d32a663b1ed04b934caf47bac95ab9aa3456332b9f46190fbd34b1e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "了解"
@@ -79,11 +87,12 @@
     "question": "了解しました。",
     "answer": "Roger that!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ca1c0133-3ae9-4dc0-9b2e-1169f7bb4c42",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

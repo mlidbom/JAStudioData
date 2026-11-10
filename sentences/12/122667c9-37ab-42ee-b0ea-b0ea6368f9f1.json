@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5b512cd11fb375d98d4c382829b618bc017848d7f99c4fdbd653189a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5b512cd11fb375d98d4c382829b618bc017848d7f99c4fdbd653189a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "結構"
@@ -247,11 +255,12 @@
     "question": "「ベーコンを無料にすれば、犯罪は減ると思いますか？」「結構効果はあると思います。」",
     "answer": "\"Do you think there would be less crime if bacon was free?\" \"I'd say it would make a quite difference.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "122667c9-37ab-42ee-b0ea-b0ea6368f9f1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

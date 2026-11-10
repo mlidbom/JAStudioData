@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a0198774a6594ddd22b5971d2b5258bca05c0b32a96225ad75929987.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a0198774a6594ddd22b5971d2b5258bca05c0b32a96225ad75929987.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "残品"
@@ -149,11 +157,12 @@
     "question": "今夜店を出発する前に残品を数えておきましょう。",
     "answer": "Before we leave the store tonight, let’s go ahead and count the remaining stock.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cb7bde4d-9ac1-468b-9ef6-1966ec4d8688",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

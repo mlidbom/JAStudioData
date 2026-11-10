@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bac192024ad92b62ab3dde6c77f05bf75a78abd84def27da4938a945.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bac192024ad92b62ab3dde6c77f05bf75a78abd84def27da4938a945.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "研究室",
@@ -129,11 +137,12 @@
     "question": "明日、研究室で新しい化学実験を行う予定です。",
     "answer": "We plan to conduct a new chemical experiment in the laboratory tomorrow.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "170d5cfc-db17-480e-a2b8-42f5af173b74",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

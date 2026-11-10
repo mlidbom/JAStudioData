@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-346f9ec8597ce908d14a4e8b3b174d459cc4c98d72e7be5482c97e2b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-346f9ec8597ce908d14a4e8b3b174d459cc4c98d72e7be5482c97e2b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "竹"
@@ -93,11 +101,12 @@
     "question": "すみません。竹用のチェーンソーを下さい。",
     "answer": "Excuse me. I'd like a chainsaw for bamboo.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e82c65df-7263-4b47-a43b-ae2648eae192",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

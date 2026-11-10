@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-86f9bcd9114e328b9c95178ffa1d16f4871e2495bf3af1bdc0abf91b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-86f9bcd9114e328b9c95178ffa1d16f4871e2495bf3af1bdc0abf91b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "雌"
@@ -72,11 +80,12 @@
     "question": "この犬は雌ですか？",
     "answer": "Is this dog female?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1d02c5ec-5cbe-46e5-b045-b4850c0bb406",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

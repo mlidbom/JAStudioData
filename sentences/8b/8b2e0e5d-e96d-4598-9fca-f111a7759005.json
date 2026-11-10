@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6e0886f710acfa11261f1ec309aef567b3b3afccd8808dc9dd93ffc2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6e0886f710acfa11261f1ec309aef567b3b3afccd8808dc9dd93ffc2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "悪夢"
@@ -79,11 +87,12 @@
     "question": "昨日、悪夢にうなされてたよ。",
     "answer": "Yesterday, you were groaning from a nightmare.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8b2e0e5d-e96d-4598-9fca-f111a7759005",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b13db1340733b7b61f8d7e237ec38fbb01c01862c481fd4f370108b8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b13db1340733b7b61f8d7e237ec38fbb01c01862c481fd4f370108b8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "区分"
@@ -163,11 +171,12 @@
     "question": "この町では、校区が三区分に分けられています。",
     "answer": "In this town, the school district is divided into three divisions.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0f70853b-5d58-4765-954a-a55c083a1936",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

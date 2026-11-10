@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d427e988a5790c2bbb5828ffe7fb78f03a9b4e45dd5d65839be13656.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d427e988a5790c2bbb5828ffe7fb78f03a9b4e45dd5d65839be13656.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "森"
@@ -128,11 +136,12 @@
     "question": "森の中を歩くのは、とても楽しいです。",
     "answer": "Walking in the woods is very fun.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e5ffb2ed-3a10-42f2-87d6-c5d4d59b40ac",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

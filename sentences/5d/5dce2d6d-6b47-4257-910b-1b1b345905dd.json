@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8e83d8f8b8dac1b4d4ceacab0a7e5f5c07b47f3304bbca25b515335b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8e83d8f8b8dac1b4d4ceacab0a7e5f5c07b47f3304bbca25b515335b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "聖地"
@@ -107,11 +115,12 @@
     "question": "この道は聖地に続いています。",
     "answer": "This road leads to the holy land.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5dce2d6d-6b47-4257-910b-1b1b345905dd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

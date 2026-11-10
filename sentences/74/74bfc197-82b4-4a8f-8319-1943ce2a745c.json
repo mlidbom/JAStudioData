@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4c2630fa12c83a0751f741a37de6af70df43118e4e8c6de52d238af3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4c2630fa12c83a0751f741a37de6af70df43118e4e8c6de52d238af3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "中学生"
@@ -79,11 +87,12 @@
     "question": "私の子は、今中学生です。",
     "answer": "My child is a junior high school student now.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "74bfc197-82b4-4a8f-8319-1943ce2a745c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

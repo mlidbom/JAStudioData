@@ -19,9 +19,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-57ef94189fd602e832260ec861947da37c013f7dbf31020fb3854f37.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-57ef94189fd602e832260ec861947da37c013f7dbf31020fb3854f37.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "ビーフ・シチュー",
@@ -31,8 +37,7 @@
   "sentenceCount": 1,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -56,7 +61,9 @@
   "sourceData": {
     "answer": "beef-stew",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "ded7b6b8-6c33-4012-8602-dc67cf27d6ae",
   "tags": [

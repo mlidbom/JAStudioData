@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0ef175ed7db5738d43b276196f0afe11b661500ccc4c3468c5778bcc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0ef175ed7db5738d43b276196f0afe11b661500ccc4c3468c5778bcc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "進む"
@@ -121,11 +129,12 @@
     "question": "アクセルをふんでるのに、なぜか車が進みません。",
     "answer": "The car does not go forward for some reason, even though I'm stepping on the gas pedal.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "756bbd40-9a0d-4027-8e92-03c6416ad8dd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

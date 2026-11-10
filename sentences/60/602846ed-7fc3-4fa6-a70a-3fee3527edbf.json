@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8aefdaa3bc6ee5215b4d3130098997bc6c6c062c751f5a4a734e2e9a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8aefdaa3bc6ee5215b4d3130098997bc6c6c062c751f5a4a734e2e9a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "思う"
@@ -86,11 +94,12 @@
     "question": "日本の人口について、どう思いますか？",
     "answer": "What do you think about the population of Japan?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "602846ed-7fc3-4fa6-a70a-3fee3527edbf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

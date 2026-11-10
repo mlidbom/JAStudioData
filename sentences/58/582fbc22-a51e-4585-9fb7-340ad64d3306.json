@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-62c5a959f6541d2b324107f427b44a22766dd4933f52a730ead6071c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-62c5a959f6541d2b324107f427b44a22766dd4933f52a730ead6071c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "映像"
@@ -135,11 +143,12 @@
     "question": "その映画、ストーリーはイマイチだけど、映像がめっちゃ美しいんですよ。",
     "answer": "The story of that movie is mediocre, but the visuals are incredibly beautiful.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "582fbc22-a51e-4585-9fb7-340ad64d3306",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

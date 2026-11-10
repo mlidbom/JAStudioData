@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-97b0ca90f39fd3352fbcf587a3cba424ee8bb67e174a0e098fec5826.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-97b0ca90f39fd3352fbcf587a3cba424ee8bb67e174a0e098fec5826.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "国賓"
@@ -107,11 +115,12 @@
     "question": "アメリカ大統領が国賓として来日しました。",
     "answer": "The American President visited Japan as a state guest.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fe8596d3-e440-454f-ad30-4890f416eec0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

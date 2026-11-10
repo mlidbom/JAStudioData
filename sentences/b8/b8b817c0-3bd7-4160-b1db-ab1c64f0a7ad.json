@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-00afdde18988c0b8fc3f4b889de80c7db84b085b2c0a65fef8dea2b4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-00afdde18988c0b8fc3f4b889de80c7db84b085b2c0a65fef8dea2b4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "小麦粉"
@@ -100,11 +108,12 @@
     "question": "これは小麦粉を練って作ったお菓子です。",
     "answer": "This is a sweet that is made by kneading flour.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b8b817c0-3bd7-4160-b1db-ab1c64f0a7ad",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

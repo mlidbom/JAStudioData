@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-18e1b1713153459fd38d23e9608060c64491b09a69b2b3a4efb8c9e3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-18e1b1713153459fd38d23e9608060c64491b09a69b2b3a4efb8c9e3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "染み"
@@ -107,11 +115,12 @@
     "question": "この染みなんとか取れないかなあ。",
     "answer": "Couldn’t you find some way to remove this stain?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e2d4e103-5a59-4b8f-8315-2a8bc36f4670",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-166fce4dbf18f42811a0d7b062c0b654d76e898346eda35c973e0566.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-166fce4dbf18f42811a0d7b062c0b654d76e898346eda35c973e0566.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一ヶ月"
@@ -142,11 +150,12 @@
     "question": "一ヶ月間、家から出ずにゲームをした。",
     "answer": "I played games at home without going outside for a month.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dafcea43-d618-4e26-8cd2-3ae37b883ad4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

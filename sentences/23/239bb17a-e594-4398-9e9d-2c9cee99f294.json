@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dd293f1f0ab61bc339673c75b18b3b0fb7976051ccaf26e689248d05.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dd293f1f0ab61bc339673c75b18b3b0fb7976051ccaf26e689248d05.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "血液型"
@@ -114,11 +122,12 @@
     "question": "私は血液型がB型の人が苦手です。",
     "answer": "I don’t like people whose blood type is B.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "239bb17a-e594-4398-9e9d-2c9cee99f294",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

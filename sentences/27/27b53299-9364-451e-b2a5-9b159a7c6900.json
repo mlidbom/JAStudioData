@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-76b4cee2f221edb9984f5c76af22f8dc2898f51566fb9c4ea6987d39.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-76b4cee2f221edb9984f5c76af22f8dc2898f51566fb9c4ea6987d39.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -112,11 +120,12 @@
     "question": "このパンは、二斤で五百円です。",
     "answer": "This bread is 500 yen for two loaves.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "27b53299-9364-451e-b2a5-9b159a7c6900",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

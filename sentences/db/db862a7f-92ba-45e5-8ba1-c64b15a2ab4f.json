@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f01c04362d2a256d1e15ed43e604c908ca8cd25b91803716405450ec.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f01c04362d2a256d1e15ed43e604c908ca8cd25b91803716405450ec.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "死体"
@@ -121,11 +129,12 @@
     "question": "牛の死体が、土の中にあります。",
     "answer": "A cow corpse is in the ground.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "db862a7f-92ba-45e5-8ba1-c64b15a2ab4f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

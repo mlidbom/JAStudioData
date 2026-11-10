@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-40ddd53994250945f11200e8710d34ca277ac06123c53997cc5c913e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-40ddd53994250945f11200e8710d34ca277ac06123c53997cc5c913e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "今"
@@ -93,11 +101,12 @@
     "question": "今、母にメールしてるところです。",
     "answer": "I'm texting my mother right now.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b33c9d65-107e-44d7-b728-b35cf357cd79",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

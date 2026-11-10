@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ef1aed0fb51673ad4b812e669fe47f7cf98e88ed2faecb848a47209e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ef1aed0fb51673ad4b812e669fe47f7cf98e88ed2faecb848a47209e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "終わる"
@@ -205,11 +213,12 @@
     "question": "スタジオの前の道路の工事が中々終わらないので、ポッドキャストのレコーディングに集中できません。",
     "answer": "The construction of the road in front of the studio is taking time to be completed, so I can't concentrate on recording podcasts.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d6a36f7f-bb70-43ff-8d9f-6ed5dfc25502",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

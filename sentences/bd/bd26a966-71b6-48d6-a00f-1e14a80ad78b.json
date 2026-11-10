@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-34b400f126c05950967c0a78bb2ad2e8bc105c9d313c20d4d905bdd2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-34b400f126c05950967c0a78bb2ad2e8bc105c9d313c20d4d905bdd2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "議長"
@@ -128,11 +136,12 @@
     "question": "その議長は、いつも皆の意見を公平に聞いてくれます。",
     "answer": "That chairman always listens to everyone's opinions fairly.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bd26a966-71b6-48d6-a00f-1e14a80ad78b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

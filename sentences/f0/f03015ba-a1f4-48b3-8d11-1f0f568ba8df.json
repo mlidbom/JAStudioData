@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-25eb4cf61212a01f4a593fa350da6d3894d845cf905eeb4e316a5102.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-25eb4cf61212a01f4a593fa350da6d3894d845cf905eeb4e316a5102.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "間抜け"
@@ -149,11 +157,12 @@
     "question": "間抜けな返事をしてしまい、はずかしく思っています。",
     "answer": "I feel ashamed of the stupid reply I sent.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f03015ba-a1f4-48b3-8d11-1f0f568ba8df",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

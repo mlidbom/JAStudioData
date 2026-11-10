@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4fba186eb2d90b1eec5471e05014f85bfeaeb8a60ae55221b123af91.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4fba186eb2d90b1eec5471e05014f85bfeaeb8a60ae55221b123af91.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "灯り"
@@ -170,11 +178,12 @@
     "question": "その部屋には、小さなロウソクの灯りだけが灯っていました。",
     "answer": "There was only a little candle light in the room.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e6bd48bd-dbab-4744-af1d-b60e30a5eb8a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

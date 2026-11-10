@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a8204ff0831c8bebc5e30ac32152d8cb2457837202adb11a0a61d1a6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a8204ff0831c8bebc5e30ac32152d8cb2457837202adb11a0a61d1a6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -105,11 +113,12 @@
     "question": "合計で三千円になります。",
     "answer": "That will be a total of three thousand yen.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dd8984fd-3fda-418b-b616-f21118a7835f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

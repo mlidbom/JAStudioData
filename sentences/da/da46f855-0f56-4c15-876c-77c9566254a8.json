@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5b1335321a10feb68abc0fa7cadcc2f57377851b2054ac51e2f3ac74.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5b1335321a10feb68abc0fa7cadcc2f57377851b2054ac51e2f3ac74.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "禁止"
@@ -177,11 +185,12 @@
     "question": "この学校では、学生のアルバイトは禁止されています。",
     "answer": "Students are not allowed to work part-time at this school.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "da46f855-0f56-4c15-876c-77c9566254a8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

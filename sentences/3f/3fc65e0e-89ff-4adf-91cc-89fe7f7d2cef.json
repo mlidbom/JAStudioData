@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e2c0d4d98b1d30d9a92270cb4033cf7844cddb307d972766208e9193.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e2c0d4d98b1d30d9a92270cb4033cf7844cddb307d972766208e9193.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お祝い"
@@ -163,11 +171,12 @@
     "question": "引っ越しのお祝いを渡さなくちゃいけないわね。",
     "answer": "We have to bring a moving gift.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3fc65e0e-89ff-4adf-91cc-89fe7f7d2cef",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

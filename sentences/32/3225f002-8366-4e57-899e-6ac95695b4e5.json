@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a100af19c411a0d6e35d40bb723787b0202758ea5c807fde4557cf68.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a100af19c411a0d6e35d40bb723787b0202758ea5c807fde4557cf68.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "時"
@@ -149,11 +157,12 @@
     "question": "「時を止めて下さい」と天を向いて言いました。",
     "answer": "\"Please stop the time,\" he said towards heaven.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3225f002-8366-4e57-899e-6ac95695b4e5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

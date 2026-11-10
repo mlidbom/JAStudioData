@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-eed2b098e6ed73dd75ef18eea96e02139fee853fe536a841c0908b6d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-eed2b098e6ed73dd75ef18eea96e02139fee853fe536a841c0908b6d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "流す"
@@ -93,11 +101,12 @@
     "question": "トイレは使ったら水を流しましょう。",
     "answer": "Flush the toilet after using it.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fddee8c6-7ebb-492e-911c-a0d8427002d5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

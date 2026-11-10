@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c1d7783f5c4f133d8f45f25061b8930ac0d3957785424ddb53beda68.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c1d7783f5c4f133d8f45f25061b8930ac0d3957785424ddb53beda68.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "水着"
@@ -93,11 +101,12 @@
     "question": "水着、ちゃんと持ってきた？",
     "answer": "Did you remember to bring your swimsuit?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "502cf5f5-1b5f-4146-aa32-9069d9a7ba33",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

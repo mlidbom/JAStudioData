@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1d16b2cb3c3f7f0b6adf641b8a542ca7d8c352ec90ce258cbd12874f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1d16b2cb3c3f7f0b6adf641b8a542ca7d8c352ec90ce258cbd12874f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "昆布"
@@ -86,11 +94,12 @@
     "question": "コンビニで昆布おにぎりを買いました。",
     "answer": "I bought kelp rice balls at a convenience store.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "06a2b893-7d62-419b-8046-459000e99f84",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

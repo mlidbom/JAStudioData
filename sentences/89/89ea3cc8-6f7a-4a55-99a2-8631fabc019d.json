@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-69ea4e69bcf1e0e7228d77898cbd8fd2893d9ca2089bf9b26c895140.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-69ea4e69bcf1e0e7228d77898cbd8fd2893d9ca2089bf9b26c895140.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お握り"
@@ -170,11 +178,12 @@
     "question": "私は息子がコンビニのお握りを食べることを禁止しました。",
     "answer": "I forbade my son from eating convenience store rice balls.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "89ea3cc8-6f7a-4a55-99a2-8631fabc019d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

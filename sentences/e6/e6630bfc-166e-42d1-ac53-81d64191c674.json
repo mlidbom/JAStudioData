@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0d6f49062114dea14edd58d569499508089020b25e24493befb95bde.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0d6f49062114dea14edd58d569499508089020b25e24493befb95bde.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "学年"
@@ -72,11 +80,12 @@
     "question": "兄は一つ上の学年です。",
     "answer": "My brother is a school year ahead of me.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e6630bfc-166e-42d1-ac53-81d64191c674",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

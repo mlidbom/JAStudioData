@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9a9b867521f8c0ec5e25f8f5a9df1607b296305010de89282ec8fa6b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9a9b867521f8c0ec5e25f8f5a9df1607b296305010de89282ec8fa6b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "幾つ"
@@ -198,11 +206,12 @@
     "question": "その小づつみの中にリンゴが幾つ入っているか数えてもらえる？",
     "answer": "Can you count how many apples there are in that parcel?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "48604a70-4e08-4429-9be4-d58939f1a611",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-21b98aee2cc57a2080a2b7370a1131993c06823c1f7dbc75b8e4902c.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-21b98aee2cc57a2080a2b7370a1131993c06823c1f7dbc75b8e4902c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "取って置く",
@@ -40,8 +46,7 @@
   "sentenceCount": 3,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -65,7 +70,9 @@
   "sourceData": {
     "answer": "to{} set-aside/keep-in-reserve/hold-on-to",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "05d78194-2787-48eb-a12f-45cd866f1d2a",
   "tags": [

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-788e911e6dbbf32f697f9e4e46408ac6ef4a98153e2844cf0ba44088.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-788e911e6dbbf32f697f9e4e46408ac6ef4a98153e2844cf0ba44088.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "掌"
@@ -107,11 +115,12 @@
     "question": "掌サイズの小さな電子辞書を買いました。",
     "answer": "I bought a small, palm-sized electronic dictionary.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c73d1bfb-1fa1-41ab-b2f5-fadc944a426e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

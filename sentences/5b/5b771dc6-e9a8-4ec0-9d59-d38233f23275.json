@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6dee18908c4919993edbcc5c2426ed3a2784e6267b57032c2858bf3c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6dee18908c4919993edbcc5c2426ed3a2784e6267b57032c2858bf3c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "赤ん坊"
@@ -114,11 +122,12 @@
     "question": "「赤ん坊、寝てる？起きてる？」「風邪を引いて寝てるよ。」",
     "answer": "\"Is the baby sleeping or awake?\" \"He’s sleeping off a cold.”",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5b771dc6-e9a8-4ec0-9d59-d38233f23275",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

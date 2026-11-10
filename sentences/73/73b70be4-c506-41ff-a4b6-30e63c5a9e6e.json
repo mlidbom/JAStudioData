@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a8d05064575de0464db235b0dbfbb3e47bb4a2ada356b457f831a273.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a8d05064575de0464db235b0dbfbb3e47bb4a2ada356b457f831a273.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "泉"
@@ -72,11 +80,12 @@
     "question": "これは泉の水です。",
     "answer": "This is spring water.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "73b70be4-c506-41ff-a4b6-30e63c5a9e6e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

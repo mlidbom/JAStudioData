@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3405a08f098c98f1061843c5ee76f5b54300d95084317bd7088ed242.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3405a08f098c98f1061843c5ee76f5b54300d95084317bd7088ed242.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "名"
@@ -100,11 +108,12 @@
     "question": "この花の名は、なんですか？",
     "answer": "What is the name of this flower?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6de75991-4793-4ca9-b0c9-8539bc662597",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

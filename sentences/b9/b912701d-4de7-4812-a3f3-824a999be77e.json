@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9554a4ebbacbf6e68ddb1d746da70ef0f30ea39547bb71bde0ce237c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9554a4ebbacbf6e68ddb1d746da70ef0f30ea39547bb71bde0ce237c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "選択肢"
@@ -142,11 +150,12 @@
     "question": "結局、どの選択肢を選んでも結果は同じだったんだ。",
     "answer": "In the end, no matter which option we chose, the outcome was the same.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b912701d-4de7-4812-a3f3-824a999be77e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

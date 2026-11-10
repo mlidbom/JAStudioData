@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b53990166a52c7b80491b76b75889f530b0db01eb681b6ea0834bb41.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b53990166a52c7b80491b76b75889f530b0db01eb681b6ea0834bb41.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "停止"
@@ -205,11 +213,12 @@
     "question": "食事中は動画を停止するようにしています。",
     "answer": "I try to pause videos during meal time.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "20fe7b46-8208-46a6-b93b-33ef722e946c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

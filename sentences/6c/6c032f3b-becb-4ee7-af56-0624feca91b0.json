@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-74ee47c8dd3685f498f67fd94709454af3c19d638edd2eb88f4c8a4a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-74ee47c8dd3685f498f67fd94709454af3c19d638edd2eb88f4c8a4a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "高級"
@@ -247,11 +255,12 @@
     "question": "あの高級レストランはVIP専用で、入店には招待状か紹介状が必要なんだって。",
     "answer": "That luxury restaurant is exclusive for VIPs, and to enter, you'll need an invitation or a referral.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6c032f3b-becb-4ee7-af56-0624feca91b0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

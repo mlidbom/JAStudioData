@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b69b90c6d7dd4e03de92641c64bc010de60cbe02cb63f82374b19864.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b69b90c6d7dd4e03de92641c64bc010de60cbe02cb63f82374b19864.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -112,11 +120,12 @@
     "question": "このパンは一斤当たり二百円です。",
     "answer": "This bread is 200 yen per loaf.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ae2bf7fb-4ee8-4dc2-838f-62cb2bdd385f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

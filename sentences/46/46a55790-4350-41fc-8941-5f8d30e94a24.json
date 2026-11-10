@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a44ac7e78d170256fb46e567f058a470e5404def8787c38f37bd7cb5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a44ac7e78d170256fb46e567f058a470e5404def8787c38f37bd7cb5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "言い方"
@@ -114,11 +122,12 @@
     "question": "先生が「すみません」の言い方を正してくれました。",
     "answer": "The teacher corrected my way of saying \"Excuse me.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "46a55790-4350-41fc-8941-5f8d30e94a24",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

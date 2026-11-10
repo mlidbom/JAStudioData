@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e7c363f4497684979a8a2e4d4cbcc25ef6f308c0392afdfc4f922909.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e7c363f4497684979a8a2e4d4cbcc25ef6f308c0392afdfc4f922909.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "嫌味"
@@ -170,11 +178,12 @@
     "question": "こんなクイズも解けないのか、と嫌味を言われた。",
     "answer": "“You can’t even answer a simple question like that? ” he said hurtfully.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ecd83f8d-32d6-4353-93ae-f7429050c5ad",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

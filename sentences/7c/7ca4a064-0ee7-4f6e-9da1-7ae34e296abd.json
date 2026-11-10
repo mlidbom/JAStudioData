@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fda651e9db57f39b79729cb315719783082928de9d1efb6132cb42c9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fda651e9db57f39b79729cb315719783082928de9d1efb6132cb42c9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "仕方がない"
@@ -170,11 +178,12 @@
     "question": "フライトがなくて日本に来られないのは仕方がない。",
     "answer": "There's nothing you can do about coming to Japan when there's no flight available.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7ca4a064-0ee7-4f6e-9da1-7ae34e296abd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-16a0de0114db0f76a5324b70296e371e7c1beffed6dc77f4b4ad5d38.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-16a0de0114db0f76a5324b70296e371e7c1beffed6dc77f4b4ad5d38.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "発売中"
@@ -86,11 +94,12 @@
     "question": "少年ジャンプ６月号、ただ今絶賛発売中。",
     "answer": "The June issue of Shonen Jump is now on sale, to critical acclaim.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "30d91805-5242-4917-925d-80feda65e302",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

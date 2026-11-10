@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2a855d2154d73f9788d669faad41ab0f7f4e71a7a3ad8a41711d85ba.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2a855d2154d73f9788d669faad41ab0f7f4e71a7a3ad8a41711d85ba.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "宿題"
@@ -37,11 +45,12 @@
     "question": "宿題、もうした？",
     "answer": "Have you done your homework yet?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "07608ef1-0013-44eb-a8e9-73b41360ea32",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

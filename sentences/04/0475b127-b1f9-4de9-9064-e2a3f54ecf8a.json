@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-51831513b16cad533cba710c9a6401300c5c5f6f7ef82f2a9cc62ed3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-51831513b16cad533cba710c9a6401300c5c5f6f7ef82f2a9cc62ed3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "十分"
@@ -128,11 +136,12 @@
     "question": "ここには十分なスペースがありません。",
     "answer": "There is not enough space here.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0475b127-b1f9-4de9-9064-e2a3f54ecf8a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

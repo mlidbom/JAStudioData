@@ -29,9 +29,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-5c37e81570a188fe81b648ae6b65c1f8cf7329badf1bde2e426406d9.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-5c37e81570a188fe81b648ae6b65c1f8cf7329badf1bde2e426406d9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "て居られる",
@@ -49,8 +55,7 @@
   "sentenceCount": 10,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {
       "teFormStemStart": "forbidden"
@@ -92,7 +97,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "7ac1ce48-3801-4664-854f-32d99d78162b",
   "tags": [

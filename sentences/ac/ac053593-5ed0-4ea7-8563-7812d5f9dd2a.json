@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f6291cb7e019b653fe910d68f051e350f4a2f2639a4f826d5436c69f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f6291cb7e019b653fe910d68f051e350f4a2f2639a4f826d5436c69f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "盤"
@@ -156,11 +164,12 @@
     "question": "私はビートルズのビニール盤を収集しています。",
     "answer": "I’m collecting the Beatles’ vinyl records.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ac053593-5ed0-4ea7-8563-7812d5f9dd2a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

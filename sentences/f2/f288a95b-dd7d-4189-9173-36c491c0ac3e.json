@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-333e3514e795e48d9783c108f725a509b0757c44aa899ab0e8616aec.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-333e3514e795e48d9783c108f725a509b0757c44aa899ab0e8616aec.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "取れる"
@@ -114,11 +122,12 @@
     "question": "このシミは取れないかもしれないね。",
     "answer": "It might be difficult for this stain to be removed.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f288a95b-dd7d-4189-9173-36c491c0ac3e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

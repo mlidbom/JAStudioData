@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-24c395776393db865fba3224b4a6c5eb74e5f78a55598d4d80821dd8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-24c395776393db865fba3224b4a6c5eb74e5f78a55598d4d80821dd8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "十万"
@@ -100,11 +108,12 @@
     "question": "このアパートは月に十万円くらいです。",
     "answer": "This apartment costs about 100,000 yen a month.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "83c9d03a-f058-4bea-a257-a304f2375190",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

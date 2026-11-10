@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-942872e6e03d537ba3521d75d5e4346cf3cd52538ff177ce6ca75cd0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-942872e6e03d537ba3521d75d5e4346cf3cd52538ff177ce6ca75cd0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "遅い"
@@ -198,11 +206,12 @@
     "question": "私のパソコンはハードディスクの容量が無くなってきているので、動作がすごく遅いです。",
     "answer": "My computer is very slow because it’s running out of hard drive space.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a7886929-bae1-493c-8dc3-31e21a171380",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

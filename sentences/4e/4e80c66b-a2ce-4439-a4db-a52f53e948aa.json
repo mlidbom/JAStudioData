@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f913b898023d57434c6fa2b3b4e185debca27f46dcc61c846381e72b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f913b898023d57434c6fa2b3b4e185debca27f46dcc61c846381e72b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "売り切れ"
@@ -72,11 +80,12 @@
     "question": "今日のラーメンは全部売り切れです。",
     "answer": "Ramen is all sold out for today.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4e80c66b-a2ce-4439-a4db-a52f53e948aa",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

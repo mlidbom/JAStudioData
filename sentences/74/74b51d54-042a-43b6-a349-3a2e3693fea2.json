@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c8a9189c6089eaf2b9e61978b7083d1d28cf353fc6baa8a104ae82c8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c8a9189c6089eaf2b9e61978b7083d1d28cf353fc6baa8a104ae82c8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "時計"
@@ -86,11 +94,12 @@
     "question": "時計台の下で、三時に待ち合わせね！",
     "answer": "We're gonna meet at the clock tower at 3 p.m., okay?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "74b51d54-042a-43b6-a349-3a2e3693fea2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

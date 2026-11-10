@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-74a6e4fa943d4dc2f11283163ea2bd056d25063cd8af60bf4a0570d9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-74a6e4fa943d4dc2f11283163ea2bd056d25063cd8af60bf4a0570d9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一杯"
@@ -100,11 +108,12 @@
     "question": "「ちょっと一杯飲みに行かない？」「いいね。」",
     "answer": "\"Let’s go for a drink.\" \"Sounds like a plan.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cb6133c1-98fa-4c1f-9d7b-557c694546f4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

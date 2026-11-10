@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-89d14c9cf0d6d7e175f51cdab30a51901d13d97cb6367664c33e5005.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-89d14c9cf0d6d7e175f51cdab30a51901d13d97cb6367664c33e5005.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "八日"
@@ -121,11 +129,12 @@
     "question": "とんこつラーメンをつくるのに八日もかかったよ。",
     "answer": "It took eight days to make tonkotsu ramen.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f7f768cc-10c9-4579-bf3f-19cf02014be6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

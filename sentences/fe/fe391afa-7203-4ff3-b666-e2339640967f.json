@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a9a4efa56f8af1d365ebb88ffc801062e75695bd88d15decc3e9461e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a9a4efa56f8af1d365ebb88ffc801062e75695bd88d15decc3e9461e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -154,11 +162,12 @@
     "question": "千円札のおつりが不足しています。",
     "answer": "I don’t have change for a thousand yen bill.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fe391afa-7203-4ff3-b666-e2339640967f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

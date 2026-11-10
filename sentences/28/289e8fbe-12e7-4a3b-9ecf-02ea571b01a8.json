@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ad76d58e2ca94a4c79989e9b339795cc788e7ef406bea7cf9256d236.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ad76d58e2ca94a4c79989e9b339795cc788e7ef406bea7cf9256d236.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "塊"
@@ -275,11 +283,12 @@
     "question": "コレクションしていた消しゴム100個が熱で溶けて一つの大きな塊になってしまった。",
     "answer": "The one hundred erasers that I had collected were melted by the heat and turned into one big lump.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "289e8fbe-12e7-4a3b-9ecf-02ea571b01a8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

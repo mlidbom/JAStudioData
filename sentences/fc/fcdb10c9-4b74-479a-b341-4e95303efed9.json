@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a99636c11a3ea2d21457ab3bad7bfa6bb7c81841f2b1f65b34150358.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a99636c11a3ea2d21457ab3bad7bfa6bb7c81841f2b1f65b34150358.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "線路"
@@ -163,11 +171,12 @@
     "question": "家の前に線路があるので、電車の音が大きいです。",
     "answer": "There is a train track in front of the house, so the noise from the train is loud.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fcdb10c9-4b74-479a-b341-4e95303efed9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

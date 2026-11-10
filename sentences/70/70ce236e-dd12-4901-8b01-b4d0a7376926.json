@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-98bf9172fa93c36569dc548c52aef3b10770f046d8f90523ac1a0d6f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-98bf9172fa93c36569dc548c52aef3b10770f046d8f90523ac1a0d6f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "複数"
@@ -135,11 +143,12 @@
     "question": "私には複数のニックネームとアカウントがあります。",
     "answer": "I have multiple nicknames and accounts.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "70ce236e-dd12-4901-8b01-b4d0a7376926",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

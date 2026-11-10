@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3e67cc9802a0eb38f2ac2d8033d50f21043218838c3259a8f48ea956.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3e67cc9802a0eb38f2ac2d8033d50f21043218838c3259a8f48ea956.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "小さい"
@@ -79,11 +87,12 @@
     "question": "小さいトマトはおいしいですよね。",
     "answer": "Small tomatoes are delicious.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "85728d2e-0396-4cf1-b4d7-f87a3ca0529e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

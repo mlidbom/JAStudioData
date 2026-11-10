@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c456f90b98bc5c7e5d8ce5f648a3f26acde177f6fa75db447d77e4ad.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c456f90b98bc5c7e5d8ce5f648a3f26acde177f6fa75db447d77e4ad.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "入れる"
@@ -79,11 +87,12 @@
     "question": "毎日ボトルに水を入れる。",
     "answer": "I put water in a bottle every day.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dd6854d7-8814-4fba-b0bc-51f273b190dd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

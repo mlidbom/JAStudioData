@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e891ce7122b6ced21b232f56450c3c8573d3e5fd6633677771eb56df.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e891ce7122b6ced21b232f56450c3c8573d3e5fd6633677771eb56df.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "切腹"
@@ -142,11 +150,12 @@
     "question": "昨日、サムライになって切腹する夢を見た。",
     "answer": "Yesterday, I dreamed that I became a samurai and committed ritual suicide.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cd4e12e1-78d8-4bdd-a161-e8d1018ffba2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

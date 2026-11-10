@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d03aaadbc88c223a1c7776f93e8129746ae8f7e2dd9b66baa5c822d2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d03aaadbc88c223a1c7776f93e8129746ae8f7e2dd9b66baa5c822d2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "更新"
@@ -205,11 +213,12 @@
     "question": "もうすぐライセンスの更新手続きをしなきゃいけないんだよね！",
     "answer": "I need to renew my license soon!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4a798b8b-7eff-47ae-b4c7-91c33679f2bf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

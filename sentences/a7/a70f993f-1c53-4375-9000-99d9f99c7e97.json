@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-030ec61f811149b4c05e0ac09c50ebce1e232a1e82e358e5455a06a8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-030ec61f811149b4c05e0ac09c50ebce1e232a1e82e358e5455a06a8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "通販"
@@ -65,11 +73,12 @@
     "question": "通販のカタログが届いた。",
     "answer": "The mail order catalog arrived.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a70f993f-1c53-4375-9000-99d9f99c7e97",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-78f56803c34354ebc0568ff40e4f916287542768e71737c44d7500c3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-78f56803c34354ebc0568ff40e4f916287542768e71737c44d7500c3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一台"
@@ -93,11 +101,12 @@
     "question": "タクシーを一台よんで下さい。",
     "answer": "Could you call me a taxi?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e36e337c-c840-4eb4-8532-75b4309686e5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

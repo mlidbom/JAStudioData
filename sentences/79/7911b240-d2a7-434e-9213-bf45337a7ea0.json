@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-29d1ead31ea53084e2478df4ab6309d2d022a7fa58adc76c7323551f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-29d1ead31ea53084e2478df4ab6309d2d022a7fa58adc76c7323551f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "唱える"
@@ -184,11 +192,12 @@
     "question": "背の高い魔法使いが呪文を唱えると、辺りは一瞬真っ暗になった。",
     "answer": "When the tall wizard uttered the magic word, there was a moment of total darkness.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7911b240-d2a7-434e-9213-bf45337a7ea0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

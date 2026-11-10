@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0c7eda46062a69b5946b208aa8555da4fba7b70b631ab0fc07a07f4a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0c7eda46062a69b5946b208aa8555da4fba7b70b631ab0fc07a07f4a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "近郊"
@@ -114,11 +122,12 @@
     "question": "私は東京近郊に住んでいます。",
     "answer": "I live in the suburbs of Tokyo.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d60af859-d2d8-437e-ae70-f49a6a779f00",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

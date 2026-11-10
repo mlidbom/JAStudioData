@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fe2d267e9c759f01a4634f3ee3578704d03211700561bc237c7900a3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fe2d267e9c759f01a4634f3ee3578704d03211700561bc237c7900a3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "住む"
@@ -86,11 +94,12 @@
     "question": "来年から、東京に住むつもりです。",
     "answer": "I'm planning to live in Tokyo next year.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ffb15419-d98c-4868-b9db-4387f25bb617",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

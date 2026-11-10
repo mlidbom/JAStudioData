@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-aa3c6eaba7310c8933a2ac0ed4829679cab42049f90fda5361ce6cfd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-aa3c6eaba7310c8933a2ac0ed4829679cab42049f90fda5361ce6cfd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "経済学"
@@ -219,11 +227,12 @@
     "question": "この経済学についての記事を、今月末までにあげないといけないんです。",
     "answer": "I have to finish this article about economics by the end of this month.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5e786909-6166-43e3-8988-b379f26f4de7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

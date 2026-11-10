@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1da54d07fb554315e758330fc99d2dc8698e86faf98c326323494436.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1da54d07fb554315e758330fc99d2dc8698e86faf98c326323494436.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "人殺し"
@@ -58,11 +66,12 @@
     "question": "その男は人殺しです。",
     "answer": "That man is a murderer.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "017faf58-1909-4f5c-87f3-c7523b7230cf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

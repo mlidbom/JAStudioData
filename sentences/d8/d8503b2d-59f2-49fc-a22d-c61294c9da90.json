@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dde4ad5d0c772a0ee84f3748f89b4fdec0114b1a1df8ad99aa7ee1d8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dde4ad5d0c772a0ee84f3748f89b4fdec0114b1a1df8ad99aa7ee1d8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "眠い"
@@ -135,11 +143,12 @@
     "question": "昨日はよく眠れなかったので、今すごく眠いです。",
     "answer": "I couldn't sleep well last night, so I am very sleepy now.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d8503b2d-59f2-49fc-a22d-c61294c9da90",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

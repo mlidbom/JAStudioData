@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-54ab6057b34763dc534878f3e56eacff2059156ee8ac527acd66fc18.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-54ab6057b34763dc534878f3e56eacff2059156ee8ac527acd66fc18.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "銀行"
@@ -177,11 +185,12 @@
     "question": "銀行にお金を下ろしに行かないといけないんです。",
     "answer": "I have to go to the bank to withdraw some cash.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ce862851-faf6-40a0-bfd9-5409f5eff958",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

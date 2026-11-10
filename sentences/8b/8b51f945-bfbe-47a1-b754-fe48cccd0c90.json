@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d98f5302e724f10c649a95f7bb80b40cd69971d8fc7c4739cf4719fe.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d98f5302e724f10c649a95f7bb80b40cd69971d8fc7c4739cf4719fe.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "営む"
@@ -93,11 +101,12 @@
     "question": "コウイチは、事業を営む天才だ。",
     "answer": "Koichi is a genius at managing a business.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8b51f945-bfbe-47a1-b754-fe48cccd0c90",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

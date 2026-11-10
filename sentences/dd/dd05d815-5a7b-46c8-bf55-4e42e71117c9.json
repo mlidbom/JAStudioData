@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ff8c0b34a14b34d0c3c280d91b25709b05b096d7a8f40f0a3b512a12.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ff8c0b34a14b34d0c3c280d91b25709b05b096d7a8f40f0a3b512a12.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "進める"
@@ -93,11 +101,12 @@
     "question": "どうぞ、インタビューを進めて下さい。",
     "answer": "Please continue your interview.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dd05d815-5a7b-46c8-bf55-4e42e71117c9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dc1d0e22259e393c137d516c798427170ffe5f5b819f21e8d6c66a9a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dc1d0e22259e393c137d516c798427170ffe5f5b819f21e8d6c66a9a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "避難"
@@ -184,11 +192,12 @@
     "question": "その避難梯子はひどく傷んでいるので、交換する必要があります。",
     "answer": "The fire escape is badly damaged, so we need to replace it.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6f1c7e21-75b4-47b1-8bb7-95077f560593",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

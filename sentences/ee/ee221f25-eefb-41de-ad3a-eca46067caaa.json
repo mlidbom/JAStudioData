@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-89a80007c6d2f80d6a879391cdb2e0622b962e6e7d2dcb448e0aad5e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-89a80007c6d2f80d6a879391cdb2e0622b962e6e7d2dcb448e0aad5e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鼻"
@@ -100,11 +108,12 @@
     "question": "あそこにいる鼻の赤いトナカイはルドルフです。",
     "answer": "The reindeer with the red nose over there is Rudolph.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ee221f25-eefb-41de-ad3a-eca46067caaa",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

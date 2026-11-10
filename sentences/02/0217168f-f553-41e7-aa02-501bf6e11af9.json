@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-579bf58d2e25451b7d444a590fa2933476ff640df9ae4f3d7926d25c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-579bf58d2e25451b7d444a590fa2933476ff640df9ae4f3d7926d25c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "丁度"
@@ -100,11 +108,12 @@
     "question": "この服の大きさが丁度いいです。",
     "answer": "The size of these clothes is just right.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0217168f-f553-41e7-aa02-501bf6e11af9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

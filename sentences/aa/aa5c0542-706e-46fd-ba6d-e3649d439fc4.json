@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3fc44d03f0435becec8b1891155f0de0bbbc189184d7b79a807314ba.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3fc44d03f0435becec8b1891155f0de0bbbc189184d7b79a807314ba.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "食べ物"
@@ -163,11 +171,12 @@
     "question": "食べ物を粗末にするとバチが当たりますよ。",
     "answer": "When you waste food, heaven will punish you.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "aa5c0542-706e-46fd-ba6d-e3649d439fc4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

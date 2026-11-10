@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cef67af01bf5cd3f166fb3f05c7112cf4cd7133e52554f5ae316d784.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cef67af01bf5cd3f166fb3f05c7112cf4cd7133e52554f5ae316d784.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "塗装"
@@ -177,11 +185,12 @@
     "question": "遅くなって、本当にすみません。トイレの壁の塗装が思ったよりも長引いてしまって。",
     "answer": "I am so sorry for being late. Painting my bathroom walls took me longer than I thought.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "552d91b1-4cec-4245-ba00-29069139b83d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fa13ff64a6e378f73694ad87f3c79e996d023e18e25eeab59a551f8b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fa13ff64a6e378f73694ad87f3c79e996d023e18e25eeab59a551f8b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "菜食"
@@ -191,11 +199,12 @@
     "question": "夕食はできるだけ菜食するようにしています。",
     "answer": "I try to be on a vegetable diet for dinner as much as possible.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0a145105-7d04-4f7f-bd86-605b53c2c986",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

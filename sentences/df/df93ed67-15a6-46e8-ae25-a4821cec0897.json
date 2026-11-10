@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b8dab4c2f957cac74af5561e38049cc808535517d2e3fbd3bbbbfb32.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b8dab4c2f957cac74af5561e38049cc808535517d2e3fbd3bbbbfb32.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "劇"
@@ -212,11 +220,12 @@
     "question": "この劇で馬の役をしているのがオレの兄なんだ。",
     "answer": "The person who plays the role of the horse in this play is my older brother.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "df93ed67-15a6-46e8-ae25-a4821cec0897",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

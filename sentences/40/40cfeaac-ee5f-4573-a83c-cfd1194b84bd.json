@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-caadfdd5cb971b6a8a75b0ddac425cb2f6557815b890d3050800d10a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-caadfdd5cb971b6a8a75b0ddac425cb2f6557815b890d3050800d10a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "増す"
@@ -100,11 +108,12 @@
     "question": "雨がふって川の水かさが増しました。",
     "answer": "The rain caused the river's water level to increase.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "40cfeaac-ee5f-4573-a83c-cfd1194b84bd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

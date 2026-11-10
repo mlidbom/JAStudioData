@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fb8ef3e0a59f32757c57f32241b13f1fe53b9ad8ca2207aafb516fab.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fb8ef3e0a59f32757c57f32241b13f1fe53b9ad8ca2207aafb516fab.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "花壇"
@@ -114,11 +122,12 @@
     "question": "その花壇を見ると、いつも母を思い出します。",
     "answer": "I always think of my mother when I see a flower bed.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "669ba3e1-a5e8-4198-a86b-5e825d4737a7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

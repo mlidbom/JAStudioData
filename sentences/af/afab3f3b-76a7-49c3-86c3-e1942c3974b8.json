@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6d58f2b4a4bf06bc9018f3a69201697dfd2a379be9fe598f9be076a1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6d58f2b4a4bf06bc9018f3a69201697dfd2a379be9fe598f9be076a1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "凍る"
@@ -114,11 +122,12 @@
     "question": "シカ肉なら、冷凍庫で凍らせてあるよ。",
     "answer": "If it’s venison, I have it frozen in the freezer.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "afab3f3b-76a7-49c3-86c3-e1942c3974b8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

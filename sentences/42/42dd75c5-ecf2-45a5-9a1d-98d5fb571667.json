@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c8590f005d5d58386b6c21e899d5cf686f40f47fe0b3b80a2e30e8df.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c8590f005d5d58386b6c21e899d5cf686f40f47fe0b3b80a2e30e8df.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "福寿"
@@ -107,11 +115,12 @@
     "question": "福寿と書かれた年賀状を受け取りました。",
     "answer": "I received a New Year’s greeting card with happiness and longevity written in it.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "42dd75c5-ecf2-45a5-9a1d-98d5fb571667",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

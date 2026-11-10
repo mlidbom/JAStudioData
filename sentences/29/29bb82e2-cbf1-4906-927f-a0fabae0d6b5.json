@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6dc391c2334008d3ea16f8570de298ca424b2db3d1bf968e2662c880.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6dc391c2334008d3ea16f8570de298ca424b2db3d1bf968e2662c880.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お姉さん"
@@ -79,11 +87,12 @@
     "question": "あの人が、レイチェルのお姉さん？",
     "answer": "Is that person Rachel's older sister?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "29bb82e2-cbf1-4906-927f-a0fabae0d6b5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

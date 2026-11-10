@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-325574c2e040d9a2f44dad34741693b14909a570ce8abd16691ce3a6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-325574c2e040d9a2f44dad34741693b14909a570ce8abd16691ce3a6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "行う"
@@ -93,11 +101,12 @@
     "question": "データの入力を行ったばかりです。",
     "answer": "I've just done some data entry.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "defea973-2ba2-452b-b557-a33d2104ec01",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

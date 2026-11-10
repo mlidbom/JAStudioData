@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6ed760a71c85c285abf2dbb9041f5c3944a58914b383708eda0a3889.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6ed760a71c85c285abf2dbb9041f5c3944a58914b383708eda0a3889.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "景色"
@@ -198,11 +206,12 @@
     "question": "ちょっといつもと違った景色を見るために、今日は回り道をしてみない？",
     "answer": "Do you want to make a detour to see some different scenery than usual today?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fe9fb680-c5e7-4674-a9f4-ff6c261e4f84",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

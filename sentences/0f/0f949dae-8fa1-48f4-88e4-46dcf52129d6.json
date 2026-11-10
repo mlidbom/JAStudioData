@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-19ab1edfbdc1e312473e47efcf9b71f83f61338ed147ce8942a29787.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-19ab1edfbdc1e312473e47efcf9b71f83f61338ed147ce8942a29787.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "火曜日"
@@ -128,11 +136,12 @@
     "question": "火曜日の夜に、料理教室に通っています。",
     "answer": "I attend cooking classes on Tuesday nights.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0f949dae-8fa1-48f4-88e4-46dcf52129d6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-651700f9c5e8cbd9eb89a52147a851ac9717c3bf3398b172406fa3b4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-651700f9c5e8cbd9eb89a52147a851ac9717c3bf3398b172406fa3b4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "汗臭い"
@@ -135,11 +143,12 @@
     "question": "私は彼の汗臭い枕が好きだった。",
     "answer": "I liked his sweaty-smelling pillow.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8e5f8872-2f15-4151-a702-098ad05cb315",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

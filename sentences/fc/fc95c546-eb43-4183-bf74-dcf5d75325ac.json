@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d0778525481ff13d046d708bd143ba77a4280a91db48ffc59bd00a0c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d0778525481ff13d046d708bd143ba77a4280a91db48ffc59bd00a0c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "文字"
@@ -93,11 +101,12 @@
     "question": "カタカナの「ク」の文字と「ワ」の文字は、そっくりだ。",
     "answer": "The katakana characters for \"ku\" and \"wa\" look very similar.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fc95c546-eb43-4183-bf74-dcf5d75325ac",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

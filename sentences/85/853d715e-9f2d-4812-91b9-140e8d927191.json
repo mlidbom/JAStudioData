@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4d4421fc68dd643a2fc2731b59fdd9a226202ee4082487e2ce0e1cab.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4d4421fc68dd643a2fc2731b59fdd9a226202ee4082487e2ce0e1cab.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "仲間"
@@ -177,11 +185,12 @@
     "question": "学校での厳しい一日を終えて、仲間たちとリラックスをした。",
     "answer": "Me and my group of friends relaxed after a hard day at school.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "853d715e-9f2d-4812-91b9-140e8d927191",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

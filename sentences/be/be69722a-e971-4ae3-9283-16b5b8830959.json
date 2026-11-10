@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f6cf25d5f8c81cd4bdb3717791e1a2761ad26d6cd9e9730f7dbe754c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f6cf25d5f8c81cd4bdb3717791e1a2761ad26d6cd9e9730f7dbe754c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "泌尿器"
@@ -142,11 +150,12 @@
     "question": "泌尿器の病気で入院することになりました。",
     "answer": "I was hospitalized from a urinary organ disease.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "be69722a-e971-4ae3-9283-16b5b8830959",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

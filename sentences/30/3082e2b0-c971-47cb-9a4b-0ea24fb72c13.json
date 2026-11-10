@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0d238a1728816d389b9315fe14981494391bb5082bb75f0fabea7f13.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0d238a1728816d389b9315fe14981494391bb5082bb75f0fabea7f13.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "事情"
@@ -191,11 +199,12 @@
     "question": "事情は分かりました。こちらで何とかならないか上に話してみます。",
     "answer": "I understand the situation. I will talk to my superiors to see if we can do something about it.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3082e2b0-c971-47cb-9a4b-0ea24fb72c13",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8f563eec12f1b6693ed6d594fd2ae9e6d15c40a69860f44137c5d7cf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8f563eec12f1b6693ed6d594fd2ae9e6d15c40a69860f44137c5d7cf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "姿勢"
@@ -156,11 +164,12 @@
     "question": "クロッキーのクラスでは、モデルさんに色んな姿勢を取ってもらいました。",
     "answer": "We had a model strike various poses during the sketching class.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fd0ed6b7-78cc-47f0-9530-f16a7a3a305f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

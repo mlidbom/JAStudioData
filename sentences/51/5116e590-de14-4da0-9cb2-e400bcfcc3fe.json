@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-682c7cab0b68a2ca02c12d2df2ea4b5b41bb494316ff81da379f1c40.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-682c7cab0b68a2ca02c12d2df2ea4b5b41bb494316ff81da379f1c40.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "土星"
@@ -51,11 +59,12 @@
     "question": "土星は大きいです。",
     "answer": "Saturn is big.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5116e590-de14-4da0-9cb2-e400bcfcc3fe",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

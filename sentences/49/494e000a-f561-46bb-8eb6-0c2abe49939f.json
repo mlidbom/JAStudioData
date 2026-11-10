@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cbda58dd485fc11b1cabbb4e0f7e37bdafdbf3e4267af09ed7a81082.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cbda58dd485fc11b1cabbb4e0f7e37bdafdbf3e4267af09ed7a81082.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "冬休み"
@@ -121,11 +129,12 @@
     "question": "冬休みには、大したプランはありません。",
     "answer": "There are no big plans during winter vacation.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "494e000a-f561-46bb-8eb6-0c2abe49939f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

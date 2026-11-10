@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-11919107e7d46edc28c6cbf342e8ee256831f595b73e07eb9c7a2d79.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-11919107e7d46edc28c6cbf342e8ee256831f595b73e07eb9c7a2d79.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "三つ"
@@ -86,11 +94,12 @@
     "question": "ここにボールを三つ入るよ。",
     "answer": "You can fit three balls in here.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9639e51d-fdea-4231-bd20-8e8aa55b6f3b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

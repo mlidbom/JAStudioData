@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5f8db159022eaf3fa5b99947f89c6027ee5ccc66b7cc46e3147d74f4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5f8db159022eaf3fa5b99947f89c6027ee5ccc66b7cc46e3147d74f4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "行"
@@ -156,11 +164,12 @@
     "question": "Excelやスプレッドシートでは、横方向のラインのことを「行」といいます。",
     "answer": "In Excel and other spreadsheets, horizontal lines are called \"rows.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e9dc9e1b-a6fa-493d-b06b-45aa2d7c5b40",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

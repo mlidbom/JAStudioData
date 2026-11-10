@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-90ed74ac3a9b222d7cded83cb189b28088da02b0ca2c01403edacd10.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-90ed74ac3a9b222d7cded83cb189b28088da02b0ca2c01403edacd10.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "注射"
@@ -219,11 +227,12 @@
     "question": "腰が痛かったんですが、お医者さんが痛み止めの注射を打ってくれました。",
     "answer": "My lower back was sore so the doctor gave me a shot of painkillers.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5c3d6624-9250-48e4-8b4b-2d29c5867be4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a61af4a13511ee1d64ad8b3f7b88559aca5222ffa4ebd842c88c2c71.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a61af4a13511ee1d64ad8b3f7b88559aca5222ffa4ebd842c88c2c71.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "候補者"
@@ -170,11 +178,12 @@
     "question": "候補者の中には、有名なモデルもいました。",
     "answer": "There was a famous model among the applicants.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c2afe84b-8b31-4b08-97f5-169c1b741880",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

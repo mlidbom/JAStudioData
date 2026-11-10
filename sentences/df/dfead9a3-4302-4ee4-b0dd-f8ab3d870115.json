@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f776154fcf198952927f5ecb75dece0ea58da5e288efa899b8b2fc05.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f776154fcf198952927f5ecb75dece0ea58da5e288efa899b8b2fc05.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "自販機"
@@ -135,11 +143,12 @@
     "question": "台所を改造して、自販機を設置しました。",
     "answer": "We had our kitchen renovated and installed a vending machine there.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dfead9a3-4302-4ee4-b0dd-f8ab3d870115",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

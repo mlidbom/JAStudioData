@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-75850f582e5c1b21efec9f67ccc40e491522a6aed9824f7514e7df2b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-75850f582e5c1b21efec9f67ccc40e491522a6aed9824f7514e7df2b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "玄関"
@@ -86,11 +94,12 @@
     "question": "玄関で靴を脱いでください。",
     "answer": "Please take off your shoes in the entranceway.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c371802a-4103-4b6f-84ee-7ac3cdbc0b9f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

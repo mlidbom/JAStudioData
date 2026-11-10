@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-de16abfef6944ab27667a4fe7f7e5caa1df804c77ff9c1afb9d6f36d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-de16abfef6944ab27667a4fe7f7e5caa1df804c77ff9c1afb9d6f36d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "存在"
@@ -205,11 +213,12 @@
     "question": "彼は宇宙生活が長かったので、時々、重力の存在を忘れることがあります。",
     "answer": "He has lived so long in space, that he sometimes forgets that gravity exists.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f237918c-f466-47cb-99ff-89243ab27403",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

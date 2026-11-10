@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f560ff17efe3305412f41635261eeec06d11befc51ae1a2bded40791.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f560ff17efe3305412f41635261eeec06d11befc51ae1a2bded40791.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "処置"
@@ -184,11 +192,12 @@
     "question": "誰か彼に応急処置ができる人はいませんか。",
     "answer": "Is there anyone who could give him first aid?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5ca00960-ec42-4996-afc8-8fbabd411cdc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

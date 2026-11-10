@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-06bd3c0ec5d8b045a752d349fb7862b9d0c7809fb770f381ffbaf4a1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-06bd3c0ec5d8b045a752d349fb7862b9d0c7809fb770f381ffbaf4a1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "衆議院"
@@ -170,11 +178,12 @@
     "question": "昨日、増税の予算案が衆議院を通過してしまいました。",
     "answer": "Yesterday, the draft budget for the tax increase passed in the Lower House.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f92f754c-1cb7-43c8-bb03-44574a2f39b3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

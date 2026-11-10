@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d2953894dc85fda8567a54d656be36e64a0befd755c101522caf9d63.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d2953894dc85fda8567a54d656be36e64a0befd755c101522caf9d63.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "口にする"
@@ -135,11 +143,12 @@
     "question": "女王は、よく「そうね」と口にする。",
     "answer": "The queen often says, \"you're right.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d72c1632-0e6d-416e-90bd-0b7e180479d7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

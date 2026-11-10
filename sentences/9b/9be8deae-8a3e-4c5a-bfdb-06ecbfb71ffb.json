@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f6e33010ae5b312f8b4da82c84c8ebd847f63e843575311e45006c1c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f6e33010ae5b312f8b4da82c84c8ebd847f63e843575311e45006c1c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "起床"
@@ -86,11 +94,12 @@
     "question": "明日は４時起床の予定です。",
     "answer": "I plan to get up at 4 a.m. tomorrow.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9be8deae-8a3e-4c5a-bfdb-06ecbfb71ffb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

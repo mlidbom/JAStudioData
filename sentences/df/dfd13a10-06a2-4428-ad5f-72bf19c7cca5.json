@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9810389c437df93bcca5f8ef3c4adbbc2a38b43db883e6a1bf17dcfe.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9810389c437df93bcca5f8ef3c4adbbc2a38b43db883e6a1bf17dcfe.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "遂行"
@@ -170,11 +178,12 @@
     "question": "恥ずかしいことに、その任務の遂行に失敗してしまいました。",
     "answer": "I am embarrassed that I failed the execution of the mission.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dfd13a10-06a2-4428-ad5f-72bf19c7cca5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

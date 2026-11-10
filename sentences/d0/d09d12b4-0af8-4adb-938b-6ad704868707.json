@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fe6f5934934a9ec172fc4aeba0cd89489176486629cfeb40d7dbff7d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fe6f5934934a9ec172fc4aeba0cd89489176486629cfeb40d7dbff7d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "運動"
@@ -93,11 +101,12 @@
     "question": "運動した後のビールは最高です。",
     "answer": "Beer after exercising is the best.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d09d12b4-0af8-4adb-938b-6ad704868707",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

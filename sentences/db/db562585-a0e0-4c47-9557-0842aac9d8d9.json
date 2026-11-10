@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-55b7072d69db797c7a45a33c9412c7f781bdd56890715fb9bb08efc7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-55b7072d69db797c7a45a33c9412c7f781bdd56890715fb9bb08efc7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "町外れ"
@@ -72,11 +80,12 @@
     "question": "こんな町外れまで、どうやって来たの？",
     "answer": "How did you get this far out of town?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "db562585-a0e0-4c47-9557-0842aac9d8d9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

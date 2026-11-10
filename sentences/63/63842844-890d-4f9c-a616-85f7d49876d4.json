@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-569d1e0e9bdae918e9f5fe3cb53fb5c1da6fd9ef13cf21172ed32b0d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-569d1e0e9bdae918e9f5fe3cb53fb5c1da6fd9ef13cf21172ed32b0d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "着物"
@@ -72,11 +80,12 @@
     "question": "ステキなお着物ですね。",
     "answer": "Your kimono is lovely.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "63842844-890d-4f9c-a616-85f7d49876d4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

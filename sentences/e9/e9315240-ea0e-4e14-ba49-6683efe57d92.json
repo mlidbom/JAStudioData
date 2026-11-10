@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-172e2c288ccd4485104dbcc11acb568557a3a486a5f930c4a748e3c1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-172e2c288ccd4485104dbcc11acb568557a3a486a5f930c4a748e3c1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "勘案"
@@ -170,11 +178,12 @@
     "question": "この投資に関して、どのようなリスクを勘案していますか。",
     "answer": "What kinds of risks have you taken into consideration concerning this investment?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e9315240-ea0e-4e14-ba49-6683efe57d92",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

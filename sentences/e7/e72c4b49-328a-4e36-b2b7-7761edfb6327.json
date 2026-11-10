@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1c4cefbcc2fd91a2721b42e5af8dd991c20cc04e86615c5261a21b35.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1c4cefbcc2fd91a2721b42e5af8dd991c20cc04e86615c5261a21b35.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "南東"
@@ -121,11 +129,12 @@
     "question": "会社のビルは南東を向いています。",
     "answer": "The office building is facing southeast.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e72c4b49-328a-4e36-b2b7-7761edfb6327",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

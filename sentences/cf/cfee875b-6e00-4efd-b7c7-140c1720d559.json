@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3dae8d182a13201a948511893c2094fb8a8385f542a7259173d8c277.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3dae8d182a13201a948511893c2094fb8a8385f542a7259173d8c277.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "気象庁"
@@ -163,11 +171,12 @@
     "question": "気象庁の発表では、今朝東京で地震があったようですよ。",
     "answer": "According to the announcement from the meteorological agency, it seems that an earthquake happened in Tokyo this morning.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cfee875b-6e00-4efd-b7c7-140c1720d559",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

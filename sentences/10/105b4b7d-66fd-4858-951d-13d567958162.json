@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-be83a36e40c0e642c43d17be815e8f3be57593fd57b07f4c56a3eb2a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-be83a36e40c0e642c43d17be815e8f3be57593fd57b07f4c56a3eb2a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "文句"
@@ -79,11 +87,12 @@
     "question": "それは口説き文句でしょ？",
     "answer": "That's a pickup line, isn't it?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "105b4b7d-66fd-4858-951d-13d567958162",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

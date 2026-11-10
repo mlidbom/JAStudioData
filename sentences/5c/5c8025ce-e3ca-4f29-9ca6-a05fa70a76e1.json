@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1c877a604c2f6b39410eaf42edba5eabe9a5c5775981e015d29f64a8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1c877a604c2f6b39410eaf42edba5eabe9a5c5775981e015d29f64a8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "指定する"
@@ -156,11 +164,12 @@
     "question": "自分でフライトを指定してもいいですか？",
     "answer": "May I assign my own flight?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5c8025ce-e3ca-4f29-9ca6-a05fa70a76e1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

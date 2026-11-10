@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b51736f61f71e774c860cc4bd54faa9c9a63f6ea2844842d128ca8ec.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b51736f61f71e774c860cc4bd54faa9c9a63f6ea2844842d128ca8ec.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "医者"
@@ -191,11 +199,12 @@
     "question": "私は血を見るのがきらいですが、医者にはなれますか？",
     "answer": "I don't like seeing blood, but can I still be a doctor?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "15f7e95e-c1ae-495c-ad96-98bca98e30ed",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

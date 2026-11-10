@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3fc7d82f5e469f383922da4eb76414c8791b8308a89d3e1993ad7f0c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3fc7d82f5e469f383922da4eb76414c8791b8308a89d3e1993ad7f0c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "凄い"
@@ -58,11 +66,12 @@
     "question": "雨、凄いですね。",
     "answer": "The rain is awful, isn't it?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "10387647-0b85-401a-8773-a4c7d79ce543",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

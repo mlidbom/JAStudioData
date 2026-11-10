@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d3c5bedc98e6328dae4b7eb0977fe0f65f5152b761a4926988ea12c3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d3c5bedc98e6328dae4b7eb0977fe0f65f5152b761a4926988ea12c3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "関西弁"
@@ -156,11 +164,12 @@
     "question": "それは関西弁のイントネーションではどんな感じになりますか？",
     "answer": "What does that sound like in the intonation of Kansai dialect?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ef377886-2a81-4f3d-a81c-1b968809d5d5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

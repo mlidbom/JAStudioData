@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0d0941732bca75acd2bc38f0285c1b95526286117c0e1b10de4d68d6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0d0941732bca75acd2bc38f0285c1b95526286117c0e1b10de4d68d6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "絹"
@@ -93,11 +101,12 @@
     "question": "え、シルクって絹のことなの？",
     "answer": "Wait, is silk the same as <em>kinu</em>?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "df4124c0-06f1-4667-b0e4-337527ea41ee",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

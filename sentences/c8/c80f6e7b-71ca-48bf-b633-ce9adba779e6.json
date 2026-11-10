@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-694b213e8306a44e04ee1d8a53c7ebffc282a2b1e3c8569397a6da9c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-694b213e8306a44e04ee1d8a53c7ebffc282a2b1e3c8569397a6da9c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鉛管"
@@ -184,11 +192,12 @@
     "question": "鉛管の中に鉛製のカギが置かれていた。",
     "answer": "A key made of lead was placed inside a lead pipe.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c80f6e7b-71ca-48bf-b633-ce9adba779e6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

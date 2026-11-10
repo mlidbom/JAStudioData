@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b4795026eddde012e81101f1bc1adddfc7170a6d23a950053641a11f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b4795026eddde012e81101f1bc1adddfc7170a6d23a950053641a11f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "仮名"
@@ -114,11 +122,12 @@
     "question": "この本には、ふり仮名がついてますか？",
     "answer": "Does this book have kana?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "23a9b5ce-1fc9-4aab-b4fb-6f803345b2bb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

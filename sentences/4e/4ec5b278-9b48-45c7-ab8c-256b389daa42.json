@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-44ea2342692f045fccb0ffb239ff0b7b9ebed2bd3dd2b5b0a9db818b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-44ea2342692f045fccb0ffb239ff0b7b9ebed2bd3dd2b5b0a9db818b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "虫"
@@ -107,11 +115,12 @@
     "question": "あの虫、口から白い糸をはいているよ！",
     "answer": "That insect is spinning white thread from its mouth.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4ec5b278-9b48-45c7-ab8c-256b389daa42",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-31d333f1419e17a53156d3083d7a39fc3170c491aecc3cf3b1c54f32.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-31d333f1419e17a53156d3083d7a39fc3170c491aecc3cf3b1c54f32.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "削る"
@@ -114,11 +122,12 @@
     "question": "木の枝を削ってはしを作りました。",
     "answer": "I whittled down a tree branch to make chopsticks.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cc38eb6c-8c52-4018-9902-41a38585e4c4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

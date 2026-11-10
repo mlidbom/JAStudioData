@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-79dc6224b4aa0558ddc56e6bb99b6366e28c08ea05b6ce2c3b546ec6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-79dc6224b4aa0558ddc56e6bb99b6366e28c08ea05b6ce2c3b546ec6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "持つ"
@@ -121,11 +129,12 @@
     "question": "あの男、左手に何を持ってるんですか？",
     "answer": "What is that man holding in his left hand?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5ed99f5d-5634-4dbf-8973-a40ee2462c17",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

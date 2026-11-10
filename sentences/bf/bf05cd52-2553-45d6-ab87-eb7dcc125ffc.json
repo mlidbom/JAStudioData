@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-55ec837118cc5ef25f0365e70f6982bb4057d795984ca90fbe457acf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-55ec837118cc5ef25f0365e70f6982bb4057d795984ca90fbe457acf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "面接"
@@ -86,11 +94,12 @@
     "question": "二次試験は面接形式のスピーキングテストです。",
     "answer": "The secondary exam is a speaking test in the form of an interview.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bf05cd52-2553-45d6-ab87-eb7dcc125ffc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

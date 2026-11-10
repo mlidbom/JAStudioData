@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fe5b74be7c28bd9dc267aabc23a1b110ae8c7ee1807469c75d4837ff.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fe5b74be7c28bd9dc267aabc23a1b110ae8c7ee1807469c75d4837ff.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "明後日"
@@ -128,11 +136,12 @@
     "question": "明後日から一ヶ月日本に行くんです。",
     "answer": "I'm going to Japan for one month starting the day after tomorrow.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0c2460df-4109-47b3-b7cf-a3454c1bb99d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

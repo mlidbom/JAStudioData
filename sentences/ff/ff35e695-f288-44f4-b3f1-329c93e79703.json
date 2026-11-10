@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2eeb3f198b05b9b2faacbbf89c686e1df783ce5d86544d152505ec10.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2eeb3f198b05b9b2faacbbf89c686e1df783ce5d86544d152505ec10.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "久しい"
@@ -86,11 +94,12 @@
     "question": "かれが生のきんぎょをたべてしんでから久しい。",
     "answer": "He ate a raw goldfish and has been dead for a long time now.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ff35e695-f288-44f4-b3f1-329c93e79703",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

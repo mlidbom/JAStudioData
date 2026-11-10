@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-90b53fc5953ebada7f251162ff8df0b129ca1a3c6fe87224b17d5a69.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-90b53fc5953ebada7f251162ff8df0b129ca1a3c6fe87224b17d5a69.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "汽笛"
@@ -191,11 +199,12 @@
     "question": "いいか？汽笛が鳴ったら、船の上で三回ジャンプするんだぞ？",
     "answer": "You ready? When the whistle blows, you're gonna jump three times while on the ship, okay?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ccd8815d-a2c7-456c-8845-d377d343e623",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

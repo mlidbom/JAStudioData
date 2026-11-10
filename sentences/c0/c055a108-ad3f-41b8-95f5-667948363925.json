@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4948c33261aa88a5d5690ef870eff6e5fd20bcd76d9b734acb91ed8e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4948c33261aa88a5d5690ef870eff6e5fd20bcd76d9b734acb91ed8e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "否"
@@ -191,11 +199,12 @@
     "question": "そのビデオを見るか否か、まだ決めきれていない。",
     "answer": "I haven’t decided if I’ll watch the video or not yet.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c055a108-ad3f-41b8-95f5-667948363925",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -32,9 +32,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-b5672691fbd2c808a698f798c0dc634c17bcf34dcd5b7fff4cd56ef2.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-b5672691fbd2c808a698f798c0dc634c17bcf34dcd5b7fff4cd56ef2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "なにすんの",
@@ -60,8 +66,7 @@
   "sentenceCount": 2,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -85,7 +90,9 @@
   "sourceData": {
     "answer": "what | what's-with/why | <tag>int:</tag>{not-at-all|its-fine|what?|hey!} | <tag>col:</tag>dick",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "0bdf8508-2afe-4c7e-95d4-14a33c5a1047",
   "tags": [

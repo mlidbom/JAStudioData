@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2c82c996a0514ae1a4af749d717d26d86756b25649d94b8ae6f030a2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2c82c996a0514ae1a4af749d717d26d86756b25649d94b8ae6f030a2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "盛る"
@@ -275,11 +283,12 @@
     "question": "日本人の中には、不幸や悪霊を追い払うために玄関先に塩を盛る人がいます。",
     "answer": "Some Japanese people heap up salt on their doorsteps to drive away misfortune and evil spirits.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2fac93e3-2b23-4548-94cd-fd34ecbba063",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

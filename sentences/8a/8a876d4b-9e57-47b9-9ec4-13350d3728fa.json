@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-24b9101d7c2328fc8a2fdbc6c3b6bd7ac04d7b41f11abd1766247ac6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-24b9101d7c2328fc8a2fdbc6c3b6bd7ac04d7b41f11abd1766247ac6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "薬方"
@@ -303,11 +311,12 @@
     "question": "古い薬方の中には、危険であるということで現代医療からは除かれているものもある。",
     "answer": "Some of the old prescriptions were considered to be dangerous and have been removed from use in modern medicine.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8a876d4b-9e57-47b9-9ec4-13350d3728fa",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

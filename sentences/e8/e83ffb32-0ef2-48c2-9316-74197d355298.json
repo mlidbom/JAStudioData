@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8a83b8358b469de49e83bfd3230064f9b41e07454078347254b84c01.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8a83b8358b469de49e83bfd3230064f9b41e07454078347254b84c01.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "電気柵"
@@ -135,11 +143,12 @@
     "question": "イノシシや猿への対策として、電気柵を導入した。",
     "answer": "We've installed electric fences as a countermeasure against wild boars and monkeys.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e83ffb32-0ef2-48c2-9316-74197d355298",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

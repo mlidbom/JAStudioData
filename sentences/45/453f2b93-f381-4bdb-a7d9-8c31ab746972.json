@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-edbf46dbcedccdd68e2250ea912ce90f7d7568f57d28dd839473df8f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-edbf46dbcedccdd68e2250ea912ce90f7d7568f57d28dd839473df8f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "楓糖"
@@ -170,11 +178,12 @@
     "question": "料理には砂糖の代わりに楓糖を使うことが多いです。",
     "answer": "I often use maple sugar instead of sugar in my cooking.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "453f2b93-f381-4bdb-a7d9-8c31ab746972",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

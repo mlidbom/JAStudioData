@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fedb30aeead32e9e552f4ee3e017f0f4fb7749f4fc87205458d5a44d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fedb30aeead32e9e552f4ee3e017f0f4fb7749f4fc87205458d5a44d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "靴下"
@@ -233,11 +241,12 @@
     "question": "ピンクの靴下を取ろうと一番上の棚に手を伸ばしたが、背丈が足りずに届かなかった。",
     "answer": "I tried to reach the top shelf to get a pair of pink socks, but I wasn’t tall enough.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1cc30135-4110-4f41-886f-b067f95e9502",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

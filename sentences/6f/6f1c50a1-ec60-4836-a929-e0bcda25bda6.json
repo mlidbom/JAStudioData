@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-97b434b938e663fd2d888953a8ad81f03a32d3c63e88ac2bc01f1afb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-97b434b938e663fd2d888953a8ad81f03a32d3c63e88ac2bc01f1afb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "従える"
@@ -184,11 +192,12 @@
     "question": "ほう、誰も従えず、一人でここまで来たのかい？",
     "answer": "Oh, did you come all the way here alone without anyone accompanying you?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6f1c50a1-ec60-4836-a929-e0bcda25bda6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

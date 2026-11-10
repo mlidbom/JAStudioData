@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4864bae5b0955446770a7549d20b3b281e8d04c87dba9220a4c28657.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4864bae5b0955446770a7549d20b3b281e8d04c87dba9220a4c28657.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "咳"
@@ -93,11 +101,12 @@
     "question": "咳にはハチミツがいいですよ。",
     "answer": "Honey is good for coughs.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6dac6887-c0ef-426c-8d6f-9c55a46d6083",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0d120a30347afec5d95b3600531985c8cffc1e564d6e11895f5603a3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0d120a30347afec5d95b3600531985c8cffc1e564d6e11895f5603a3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "形"
@@ -156,11 +164,12 @@
     "question": "この花、魚みたいな形をしていますね。",
     "answer": "This flower is shaped like a fish.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0a58274c-5204-44ef-94d8-42abb5d26335",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

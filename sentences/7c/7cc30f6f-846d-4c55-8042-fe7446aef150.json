@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d39b64bfec2f0ad7b459a453e01e15a3ac90e640ae3624314966254b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d39b64bfec2f0ad7b459a453e01e15a3ac90e640ae3624314966254b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "証拠"
@@ -191,11 +199,12 @@
     "question": "私が不法侵入をしたという証拠はあるんですか。",
     "answer": "Do you have any physical evidence that I trespassed?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7cc30f6f-846d-4c55-8042-fe7446aef150",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

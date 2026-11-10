@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8e74726ad1bf85e4a831018a9809bcc5c0c1b9ca7ecec63c759d63cc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8e74726ad1bf85e4a831018a9809bcc5c0c1b9ca7ecec63c759d63cc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "起きる"
@@ -107,11 +115,12 @@
     "question": "もう起きたの？まだ午前四時だよ。",
     "answer": "Did you wake up already? It's still 4:00 a.m.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a1b7299e-3527-4ced-bcb3-3f164fb5a939",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

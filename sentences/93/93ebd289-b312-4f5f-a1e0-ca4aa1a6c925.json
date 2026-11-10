@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-21dcec1393b496ee12f8799b5e740916c9cd82d7004640b182e09f2f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-21dcec1393b496ee12f8799b5e740916c9cd82d7004640b182e09f2f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [
@@ -124,11 +132,12 @@
     "question": "なんと私の姉もその本の著者でした。",
     "answer": "Surprisingly, my sister was the author of that book too.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "93ebd289-b312-4f5f-a1e0-ca4aa1a6c925",
   "tags": [
-    "_tts_audio",
     "-::sentence::uses::incorrect-matches",
     "source::wani::current"
   ]

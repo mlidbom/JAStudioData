@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-99d5db0665736ff465d0d6cffba21e9b6749adc31967dfd880ab7ec0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-99d5db0665736ff465d0d6cffba21e9b6749adc31967dfd880ab7ec0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "宝くじ"
@@ -86,11 +94,12 @@
     "question": "宝くじはインターネットで手に入ります。",
     "answer": "The lottery is available on the Internet.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "203214c3-dc52-4b6e-8443-606481afc3e5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

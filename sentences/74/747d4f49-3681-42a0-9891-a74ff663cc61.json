@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4d0824e2d3cf50b2185c972389908eb72592c91b07bc27c38ba95e56.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4d0824e2d3cf50b2185c972389908eb72592c91b07bc27c38ba95e56.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "肖像"
@@ -128,11 +136,12 @@
     "question": "あの画家に私の肖像を描かせてみよう。",
     "answer": "I’ll let the artist paint my portrait.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "747d4f49-3681-42a0-9891-a74ff663cc61",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

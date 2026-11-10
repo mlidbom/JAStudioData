@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7987f5796ec712d3d693d90c6bb4a3ed0fe470c64bb5fa1343708419.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7987f5796ec712d3d693d90c6bb4a3ed0fe470c64bb5fa1343708419.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "事故"
@@ -198,11 +206,12 @@
     "question": "王子を船で川の向こう岸へ渡していた時に、事故が起きたんです。",
     "answer": "When I was ferrying the prince across the river by boat to the opposite bank, an accident occurred.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "02cb90a3-3e66-41ca-9b8e-a58f49e2ec83",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

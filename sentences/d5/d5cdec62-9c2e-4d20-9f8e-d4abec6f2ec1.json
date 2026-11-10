@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3cf738422ccb7d804150fc73d018ad9164ec87d0eaebbcf5f8c35ef1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3cf738422ccb7d804150fc73d018ad9164ec87d0eaebbcf5f8c35ef1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "被害者"
@@ -93,11 +101,12 @@
     "question": "これが被害者のベッドの写真です。",
     "answer": "Here is a picture of the victim's bed.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d5cdec62-9c2e-4d20-9f8e-d4abec6f2ec1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-72e12ce320aa9d3a51911da0a8837dd00266082d784361f68b8b5e42.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-72e12ce320aa9d3a51911da0a8837dd00266082d784361f68b8b5e42.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "首相"
@@ -58,11 +66,12 @@
     "question": "あれ、森元首相じゃない？",
     "answer": "Hey, isn't that former Prime Minister Mori?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e5601ea1-96e9-4d3c-b412-628aa9ff4332",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

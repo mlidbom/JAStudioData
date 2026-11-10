@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a6bd779d2db996dc159aa47f6e7e85f67845d1ca03bea45d8e8606ac.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a6bd779d2db996dc159aa47f6e7e85f67845d1ca03bea45d8e8606ac.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "入る"
@@ -86,11 +94,12 @@
     "question": "スキーのクラブに入ったんです。",
     "answer": "I joined the ski club.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4f91c678-aaf7-4d71-a03a-cc94521b91bd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-42c355beff7f63ed000ab5c7ecca40a812ef41ca3521a9ee9b301993.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-42c355beff7f63ed000ab5c7ecca40a812ef41ca3521a9ee9b301993.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "先月"
@@ -65,11 +73,12 @@
     "question": "先月は六月でした。",
     "answer": "Last month was June.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ceab738f-515c-4aa8-8b3c-62f697305d5d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

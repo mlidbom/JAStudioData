@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-afac483282a40f42ffe41c29e1e4cf75f58f4c4566c9990127858358.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-afac483282a40f42ffe41c29e1e4cf75f58f4c4566c9990127858358.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "段階"
@@ -198,11 +206,12 @@
     "question": "住宅価格は、急落する直前の段階まで来ていると思うんです。",
     "answer": "I think housing prices have reached the phase just before a sharp decline.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "566e6942-db03-449e-a2dd-5f0e72f33434",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

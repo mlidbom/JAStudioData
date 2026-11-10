@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2a34e1159d776511d63c0c85305ebba20b230b025992f3cf3430b51a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2a34e1159d776511d63c0c85305ebba20b230b025992f3cf3430b51a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "行う",
@@ -108,11 +116,12 @@
     "question": "昨夜我が家で生贄の儀式が行われた。",
     "answer": "The sacrificial ritual was held in my house last night.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "441bb7d4-c4ba-4839-ba29-5178f57d972e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

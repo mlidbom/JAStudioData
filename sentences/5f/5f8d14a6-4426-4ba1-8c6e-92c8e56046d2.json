@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0c32d65d28c1391e63ad6c087977bc2b53909b5dfbdcddeae501ad80.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0c32d65d28c1391e63ad6c087977bc2b53909b5dfbdcddeae501ad80.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "強い"
@@ -156,11 +164,12 @@
     "question": "同点だったということは、両方強いチームだったということだ。",
     "answer": "The fact that it was a tie means that both teams were strong.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5f8d14a6-4426-4ba1-8c6e-92c8e56046d2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

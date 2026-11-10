@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b51f1b17c332d52e9da2b1cbf94ed473aadf1b8286792e5782766a47.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b51f1b17c332d52e9da2b1cbf94ed473aadf1b8286792e5782766a47.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "限る"
@@ -149,11 +157,12 @@
     "question": "こういう時に限って、忘れ物をしてしまう。",
     "answer": "It’s only at times like these that I forget something.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f9e55945-6995-406b-9926-233147c2de0b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

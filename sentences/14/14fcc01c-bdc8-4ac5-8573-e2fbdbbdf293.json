@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e90140d77815966d6c1ccc03416adddc73c8c2ab6b5eaa583cfd6e97.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e90140d77815966d6c1ccc03416adddc73c8c2ab6b5eaa583cfd6e97.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "年中"
@@ -86,11 +94,12 @@
     "question": "お父さんは年中外にいる。",
     "answer": "Dad is outside all year round.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "14fcc01c-bdc8-4ac5-8573-e2fbdbbdf293",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

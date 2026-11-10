@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a28c9146bcd4ddfa2206dac9713378d6180ce59893e70462e814c37b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a28c9146bcd4ddfa2206dac9713378d6180ce59893e70462e814c37b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "挿話"
@@ -100,11 +108,12 @@
     "question": "挿話を十カテゴリーに分類する予定です。",
     "answer": "We are going to sort these episodes into ten categories.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ee99b30e-be5d-4485-8ae0-3cede9172573",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

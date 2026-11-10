@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-394a6633b803f2824d8f49ff16627dc97f3f8d7e45efaee92bd6cd18.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-394a6633b803f2824d8f49ff16627dc97f3f8d7e45efaee92bd6cd18.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "玉"
@@ -65,11 +73,12 @@
     "question": "なんだ、この玉？",
     "answer": "What is this ball?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "733fb866-1cbb-4087-bcc3-6ae15533051b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

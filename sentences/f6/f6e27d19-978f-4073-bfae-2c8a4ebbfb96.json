@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e75cecfa921c6cd8f7aaa8599731e6423260218063337535a522e490.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e75cecfa921c6cd8f7aaa8599731e6423260218063337535a522e490.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "書き込む"
@@ -247,11 +255,12 @@
     "question": "急いで申込書に書き込んだ方がいいよ。あと十分で事務所は閉まっちゃうんだから。",
     "answer": "You better hurry up and fill out an application. The office will close in ten minutes.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f6e27d19-978f-4073-bfae-2c8a4ebbfb96",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

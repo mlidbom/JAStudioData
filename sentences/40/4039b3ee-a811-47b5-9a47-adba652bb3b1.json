@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8be2bd56a1c35a7734c9ddf36f0a93f11dbfefdf41cc93654c3b1dfb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8be2bd56a1c35a7734c9ddf36f0a93f11dbfefdf41cc93654c3b1dfb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "酒飲み"
@@ -149,11 +157,12 @@
     "question": "コウイチはお酒は好きだけど、酒飲みってほどじゃあないですよ。",
     "answer": "Koichi likes drinking, but he isn't like an alcoholic.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4039b3ee-a811-47b5-9a47-adba652bb3b1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

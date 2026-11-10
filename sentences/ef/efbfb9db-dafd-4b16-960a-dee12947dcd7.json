@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-113c3680cc6b15a7c06dc6b8f0e628fa0414dbc93b3e8abc19bccef7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-113c3680cc6b15a7c06dc6b8f0e628fa0414dbc93b3e8abc19bccef7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "反対"
@@ -135,11 +143,12 @@
     "question": "父は、私がウォルマートでプロポーズすることを反対した。",
     "answer": "My father was opposed to me proposing in a Walmart.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "efbfb9db-dafd-4b16-960a-dee12947dcd7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

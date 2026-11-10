@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c30fecd97c183ff99174e9f7be1af7262c3e2759f962859c4f5aa3a0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c30fecd97c183ff99174e9f7be1af7262c3e2759f962859c4f5aa3a0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "習慣"
@@ -149,11 +157,12 @@
     "question": "ツメをかむのは、私の悪い習慣の一つです。",
     "answer": "Nail biting is one of my bad habits.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8569c5c9-862e-44cb-84bf-ef67d4729bd9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

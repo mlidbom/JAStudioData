@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a9fcfd6ca5b56c33bc98564c9d600d187a8289f25f3b7a389eb72097.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a9fcfd6ca5b56c33bc98564c9d600d187a8289f25f3b7a389eb72097.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "玉ねぎ"
@@ -170,11 +178,12 @@
     "question": "玉ねぎをきっていたら、なみだが出てきた。",
     "answer": "When I cut the onions, I teared up.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a31ecb6e-184c-47a5-8be3-f367a8de279a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

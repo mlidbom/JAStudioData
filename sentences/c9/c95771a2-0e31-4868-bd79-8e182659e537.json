@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0547e95f5dd069fc9281bae43f9e14a68d454f170c58cf1114009a0e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0547e95f5dd069fc9281bae43f9e14a68d454f170c58cf1114009a0e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "催促する"
@@ -373,11 +381,12 @@
     "question": "催促するようで申し訳ありませんが、東京タワーの写真を何枚か撮って月曜日までに送ってもらえませんでしょうか。",
     "answer": "I’m sorry to be so demanding, but can you take some pictures of Tokyo Tower and send them to me by Monday, please? Thanks.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c95771a2-0e31-4868-bd79-8e182659e537",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

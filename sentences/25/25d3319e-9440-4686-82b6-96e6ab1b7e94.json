@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-33946c985c6b10bbbfa34dbcb6c4a12eb5fc136fdf44447e05546b24.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-33946c985c6b10bbbfa34dbcb6c4a12eb5fc136fdf44447e05546b24.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "見当たる"
@@ -128,11 +136,12 @@
     "question": "地図をよく見ても、中々ホテルが見当たらない。",
     "answer": "Even if I look closely at the map, I can't find the hotel.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "25d3319e-9440-4686-82b6-96e6ab1b7e94",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

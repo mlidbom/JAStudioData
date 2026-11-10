@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-552ad88daeaa7250c04c7a9aa6a0b9214f5bd86e7904c60935939b5f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-552ad88daeaa7250c04c7a9aa6a0b9214f5bd86e7904c60935939b5f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "比べる"
@@ -135,11 +143,12 @@
     "question": "他のテキストと比べてみてから決めたら？",
     "answer": "Why don't you compare it with other textbooks before you decide?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7873e8a6-5726-46f8-8f08-e152fdc408b7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

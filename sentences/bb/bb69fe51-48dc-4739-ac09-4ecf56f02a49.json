@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0f719868ac7e6abaa7a650b040cd9e02ed9b9c67ff8917540f206adc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0f719868ac7e6abaa7a650b040cd9e02ed9b9c67ff8917540f206adc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "回復"
@@ -170,11 +178,12 @@
     "question": "インターネットへの接続はまだ回復していません。",
     "answer": "Our Internet connection hasn’t recovered yet.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bb69fe51-48dc-4739-ac09-4ecf56f02a49",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

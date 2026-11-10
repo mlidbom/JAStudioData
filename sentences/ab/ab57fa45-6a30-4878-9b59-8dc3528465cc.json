@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-26f9264910214183d8ba56057bb917328078b90a62ffe1b7377a503e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-26f9264910214183d8ba56057bb917328078b90a62ffe1b7377a503e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "水中"
@@ -65,11 +73,12 @@
     "question": "このカメラは、水中カメラです。",
     "answer": "This camera is an underwater camera.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ab57fa45-6a30-4878-9b59-8dc3528465cc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b4114bc90af789fccf61df1dfa8ad644c025a7388b1aee4b55d8d4f4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b4114bc90af789fccf61df1dfa8ad644c025a7388b1aee4b55d8d4f4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "報じる"
@@ -114,11 +122,12 @@
     "question": "そのニュースを報じたのはAP通信のみでした。",
     "answer": "Only the Associated Press reported the news.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "818a41cb-16f8-45d2-993e-4b74aecccce1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

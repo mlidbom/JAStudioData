@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e95a0caed77167c34e9e4bb6b4f0008af686e5a140159f1f60d5fef4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e95a0caed77167c34e9e4bb6b4f0008af686e5a140159f1f60d5fef4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "申す"
@@ -100,11 +108,12 @@
     "question": "トーフグのコウイチと申します。",
     "answer": "I am Koichi of Tofugu.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8d10f656-746b-4560-abab-f1ee7bcda207",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

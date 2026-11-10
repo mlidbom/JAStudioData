@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a9a6917d24fff2eb02f25c59038e916fc393a48eadc1d11f6cac02ee.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a9a6917d24fff2eb02f25c59038e916fc393a48eadc1d11f6cac02ee.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "脳"
@@ -142,11 +150,12 @@
     "question": "ヒルには脳が32個もあるって知ってた？",
     "answer": "Did you know that a leech has thirty-two brains?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8ade060c-a9b4-4956-b242-174082570eb9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

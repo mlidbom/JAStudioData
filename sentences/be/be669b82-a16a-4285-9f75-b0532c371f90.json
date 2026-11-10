@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-243b19a2849aaaa38b361bbf13a27b8240680f4ce8d76b5a5c4840e7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-243b19a2849aaaa38b361bbf13a27b8240680f4ce8d76b5a5c4840e7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "種類"
@@ -128,11 +136,12 @@
     "question": "種類が多すぎて中々決められません。",
     "answer": "There are so many kinds that it is hard to decide.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "be669b82-a16a-4285-9f75-b0532c371f90",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

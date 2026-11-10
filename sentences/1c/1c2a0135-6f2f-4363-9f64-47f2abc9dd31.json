@@ -3,8 +3,16 @@
   "corpusAnswer": "<div>I want to bury my face in that cat’s fluff!</div>",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a81b9861b2b3c734b78e49e78afc21c9257c593515e48fa504a2490e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a81b9861b2b3c734b78e49e78afc21c9257c593515e48fa504a2490e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "埋める"
@@ -86,11 +94,12 @@
     "question": "あの猫のモフモフに顔を埋めたい！",
     "answer": "I want to bury my face in that cat's fluffy fur!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1c2a0135-6f2f-4363-9f64-47f2abc9dd31",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

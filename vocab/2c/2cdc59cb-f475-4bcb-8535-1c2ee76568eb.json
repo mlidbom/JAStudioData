@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-946c03119cc0c4f8f40d853614c6fde22834cd310d07573f5751be31.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-946c03119cc0c4f8f40d853614c6fde22834cd310d07573f5751be31.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "キミの",
@@ -48,8 +54,7 @@
   "sentenceCount": 113,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {
       "yieldLastTokenToOverlappingCompound": "required"
@@ -75,7 +80,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "2cdc59cb-f475-4bcb-8535-1c2ee76568eb",
   "tags": [

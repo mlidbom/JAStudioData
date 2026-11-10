@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5d444f30a023a31bc014bdc35e8649c9a0800366e0a1e51e8f09cbcc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5d444f30a023a31bc014bdc35e8649c9a0800366e0a1e51e8f09cbcc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "月"
@@ -86,11 +94,12 @@
     "question": "この山の上からみる月は、きれいです。",
     "answer": "The moon you see from the top of this mountain is beautiful.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "382097e8-6de2-4670-b11e-4e132c02e462",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

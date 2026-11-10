@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-16a57ba9137985a9a0cf6781a42565c55d9cd4619cddc1565a96ac66.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-16a57ba9137985a9a0cf6781a42565c55d9cd4619cddc1565a96ac66.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "費やす"
@@ -149,11 +157,12 @@
     "question": "男は、生活費のほとんどをパチンコに費やしてしまった。",
     "answer": "The man spent most of his living expenses on pachinko.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "874d3cd2-fe15-40e7-830e-a16d452a209f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

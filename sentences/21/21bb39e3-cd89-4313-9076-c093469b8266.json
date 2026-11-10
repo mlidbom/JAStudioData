@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-73bad84c7f4a3daa51f4ec3ea394df2a3160daa28a919ef026676147.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-73bad84c7f4a3daa51f4ec3ea394df2a3160daa28a919ef026676147.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "本"
@@ -135,11 +143,12 @@
     "question": "うちのオーブンには本がたくさん入ってるんです。",
     "answer": "My oven has a lot of books in it.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "21bb39e3-cd89-4313-9076-c093469b8266",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

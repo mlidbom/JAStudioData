@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-231376193bbcbdce9a2bd0dcaae92877e97d0d3966b98d11812df5d8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-231376193bbcbdce9a2bd0dcaae92877e97d0d3966b98d11812df5d8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "悪い"
@@ -121,11 +129,12 @@
     "question": "あそこのレストラン、味は良いけどサービスが悪いよな。",
     "answer": "The restaurant over there has good food, but the service is bad.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "01dbcddf-4756-48e0-bf4a-b1153450dec3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4eab6b4516d142d3571b49050482d177bc23e7cdf258f65a649471e8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4eab6b4516d142d3571b49050482d177bc23e7cdf258f65a649471e8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "所"
@@ -156,11 +164,12 @@
     "question": "分からない所があれば、手を上げてください。",
     "answer": "If there’s a spot you don’t understand, please raise your hand.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d8397136-86b7-4b6d-842e-f2611f187698",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

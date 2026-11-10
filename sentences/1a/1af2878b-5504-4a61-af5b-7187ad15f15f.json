@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b02bc10aec41facf84e343f60a1d58c3672e0a4ef9e7d53e87802ac9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b02bc10aec41facf84e343f60a1d58c3672e0a4ef9e7d53e87802ac9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "年中"
@@ -51,11 +59,12 @@
     "question": "年中うるさくて、すみません。",
     "answer": "I'm sorry for being noisy all year.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1af2878b-5504-4a61-af5b-7187ad15f15f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

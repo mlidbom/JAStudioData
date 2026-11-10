@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-45d1c88d9aba03c9361cd2d40bb7aacf30cd1f0ba69073c1450f0ac1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-45d1c88d9aba03c9361cd2d40bb7aacf30cd1f0ba69073c1450f0ac1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "農業"
@@ -163,11 +171,12 @@
     "question": "私たちの町では、米の農業をしてる人々が多いです。",
     "answer": "In our town, there are many people who are farming rice.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d52dc672-a63f-4c13-8171-4680f71ba2ef",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

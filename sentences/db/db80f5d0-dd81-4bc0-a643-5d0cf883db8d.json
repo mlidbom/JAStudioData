@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0b18ca2ab374a7e2aefbcb487df5e9e14eeec6e995762d2e1560d920.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0b18ca2ab374a7e2aefbcb487df5e9e14eeec6e995762d2e1560d920.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "禅寺"
@@ -135,11 +143,12 @@
     "question": "このお寺は、十四世紀に建てられた禅寺です。",
     "answer": "This temple is a Zen temple built in the 14th century.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "db80f5d0-dd81-4bc0-a643-5d0cf883db8d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

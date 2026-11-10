@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a61c05e3848e603f9b9b548bde1bb8554266f5cb7a1c77f7313fd116.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a61c05e3848e603f9b9b548bde1bb8554266f5cb7a1c77f7313fd116.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "同時"
@@ -86,11 +94,12 @@
     "question": "二つのライトが同時に明るくなった。",
     "answer": "The two lights became bright at the same time.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7f883a43-2b7d-48b7-8b92-b05098aa48b0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-40f2c61a860155f915ce456bdbd1c1013c85662bcb1a99693a0c56d7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-40f2c61a860155f915ce456bdbd1c1013c85662bcb1a99693a0c56d7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "出社"
@@ -121,11 +129,12 @@
     "question": "出社する前にカフェに行きました。",
     "answer": "I went to a cafe before going to work.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "89f2015f-c46d-4cc6-8b68-3dda0e144f0c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

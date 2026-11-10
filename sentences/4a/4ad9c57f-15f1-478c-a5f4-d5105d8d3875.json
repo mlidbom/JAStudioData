@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fa07ebb7b669634851820d01be9654d99f1ee2e2be5f2dc812ee2323.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fa07ebb7b669634851820d01be9654d99f1ee2e2be5f2dc812ee2323.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "壊れ物"
@@ -198,11 +206,12 @@
     "question": "小包に、「壊れ物、取扱注意」って書いておいた方がいいかな。",
     "answer": "Should I write down \"Fragile - Handle with Care\" on the package?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4ad9c57f-15f1-478c-a5f4-d5105d8d3875",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

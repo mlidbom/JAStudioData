@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-33422eeb31504269456b796da5898888093e27b99d31b2a64dbc06e3.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-33422eeb31504269456b796da5898888093e27b99d31b2a64dbc06e3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "御願いする",
@@ -48,8 +54,7 @@
   "sentenceCount": 62,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -73,7 +78,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "2d13fb90-d92a-47b8-9a7d-12585a945360",
   "tags": [

@@ -30,9 +30,18 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-3fb8af1f183231dce31599efcce34a2a7165b34ed7ea091244bf8e6f.mp3][sound:hypertts-c686a58ffc71c7c9d9eaf0e5bfd706d8c500ce535712461cfde486f5.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-3fb8af1f183231dce31599efcce34a2a7165b34ed7ea091244bf8e6f.mp3"
+    },
+    {
+      "fileName": "hypertts-c686a58ffc71c7c9d9eaf0e5bfd706d8c500ce535712461cfde486f5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "先先",
@@ -42,8 +51,7 @@
   "sentenceCount": 3,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -67,7 +75,9 @@
   "sourceData": {
     "answer": "distant-future/inevitable-future | places-one-goes-to",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "7cce2b58-95e8-4f71-b2f5-ba6973fa0687",
   "tags": [

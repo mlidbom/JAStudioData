@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-df7c4fe47516b8a09ec69bae614bb4336a02ab0b98589bf5bb62d13e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-df7c4fe47516b8a09ec69bae614bb4336a02ab0b98589bf5bb62d13e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "幾つ"
@@ -142,11 +150,12 @@
     "question": "録音に適したマイクを幾つ知っていますか。",
     "answer": "How many mics do you know of that are adequate for recording?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cc2e080e-bc78-4f48-b2ee-c35af58b2d05",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

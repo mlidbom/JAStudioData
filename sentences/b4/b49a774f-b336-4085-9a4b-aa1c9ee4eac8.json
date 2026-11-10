@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ba939c959b679ada7b7d5ed1703f5c394bddc28d1852203c2190b3cb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ba939c959b679ada7b7d5ed1703f5c394bddc28d1852203c2190b3cb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "捕まる"
@@ -177,11 +185,12 @@
     "question": "何度電話をしても出なかったけど、やっとアシュリーが捕まった。",
     "answer": "Ashley didn't answer my calls even though I called so many times, but I finally caught her.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b49a774f-b336-4085-9a4b-aa1c9ee4eac8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

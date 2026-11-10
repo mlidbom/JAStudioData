@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ecc5189bcec4051c7e80526391c2220d766be352826d3fd77a7d29e9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ecc5189bcec4051c7e80526391c2220d766be352826d3fd77a7d29e9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "別々"
@@ -142,11 +150,12 @@
     "question": "友人とのスケジュールが合わないのでハワイまで別々に行きます。",
     "answer": "My schedule doesn't really fit my friend's, so we are going to Hawaii separately.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0b18bd11-00fb-436a-880b-ecac2bbae4dc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-44b83a21d50b48b3e1d84cc8ff101278620424c32a51b6f92a30cbf6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-44b83a21d50b48b3e1d84cc8ff101278620424c32a51b6f92a30cbf6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "液体"
@@ -135,11 +143,12 @@
     "question": "機内に持ち込み可能な液体の量はどれぐらいですか。",
     "answer": "What is a practical amount of water to bring on a plane?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d1d88d1c-20f4-4d87-ab67-35e49b68eb20",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

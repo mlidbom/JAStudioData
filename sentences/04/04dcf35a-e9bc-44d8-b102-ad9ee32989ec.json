@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-01f2c8bef8ed66154526fea47301517f42740c3a0b8447ca3c885432.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-01f2c8bef8ed66154526fea47301517f42740c3a0b8447ca3c885432.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "衣装"
@@ -135,11 +143,12 @@
     "question": "すみません！次の衣装に着替えるのに、少し手こずってしまって。",
     "answer": "I'm sorry! I had a little trouble changing into the next costume.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "04dcf35a-e9bc-44d8-b102-ad9ee32989ec",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

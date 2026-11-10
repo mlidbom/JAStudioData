@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4865f0808ca47f0c6d9791803dcc426d22106a6072c44eff06f1118c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4865f0808ca47f0c6d9791803dcc426d22106a6072c44eff06f1118c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -77,11 +85,12 @@
     "question": "この戸は立てつけがわるい。",
     "answer": "This door opens and closes hard.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a3e9200e-3012-4501-b8ce-a503dc6abfd8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

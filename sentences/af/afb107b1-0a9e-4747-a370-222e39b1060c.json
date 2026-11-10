@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2c073e41777af6f5ef60082a653da872159899924d92d1bfa0c7dfbf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2c073e41777af6f5ef60082a653da872159899924d92d1bfa0c7dfbf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "示す"
@@ -128,11 +136,12 @@
     "question": "このマークは何を示しているんですか？",
     "answer": "What does this mark indicate?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "afb107b1-0a9e-4747-a370-222e39b1060c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

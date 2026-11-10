@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ccfe0ffbeb99685f7217f9c7da49cc261cd8dcfaab763afd76c93de4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ccfe0ffbeb99685f7217f9c7da49cc261cd8dcfaab763afd76c93de4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "枢軸"
@@ -233,11 +241,12 @@
     "question": "あの国は悪の枢軸と見なされているが、果たしてそれは本当に正しいのだろうか。",
     "answer": "That country is considered the axis of evil, but is it really true?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b2d3114f-113e-4574-bab4-5e6be103f22d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

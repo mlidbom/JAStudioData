@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ff2b8dff7bb193fdc34fe7debd2fe135edb3b730177658a79d972d3b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ff2b8dff7bb193fdc34fe7debd2fe135edb3b730177658a79d972d3b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "誠"
@@ -170,11 +178,12 @@
     "question": "この映画には武士の誠の姿が描かれています。",
     "answer": "The film depicts the truth about samurai.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ff3b6a9a-d9a6-418d-965a-44133ad8bea6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

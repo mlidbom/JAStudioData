@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c25d6515b2df2e67505fd68fecb6ab64a15e5548b76fa9615090b25b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c25d6515b2df2e67505fd68fecb6ab64a15e5548b76fa9615090b25b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "英国"
@@ -58,11 +66,12 @@
     "question": "彼は英国出身です。",
     "answer": "He is from England.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4dc9b398-98ef-48a3-aedd-322d1a23733d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

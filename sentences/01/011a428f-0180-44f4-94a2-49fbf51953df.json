@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7521a4eae1ca2924586c7799f10b556a4e16817121df331925c00d07.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7521a4eae1ca2924586c7799f10b556a4e16817121df331925c00d07.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "凍死"
@@ -205,11 +213,12 @@
     "question": "こんなに寒い日に外に放置していると、凍死しちゃうんじゃない？",
     "answer": "If you leave it outside on this cold day, it might freeze to death, don't you think?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "011a428f-0180-44f4-94a2-49fbf51953df",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-931e26f1397e4edd94154f8fd59d76b95dfb75a1b120d17e1cb91a6d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-931e26f1397e4edd94154f8fd59d76b95dfb75a1b120d17e1cb91a6d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "樹皮"
@@ -79,11 +87,12 @@
     "question": "その樹皮は食べられますか？",
     "answer": "Is the bark edible? ",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9059e9f4-7ee9-4500-9416-800539a39ff2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a48f632767c944e2f746e3b72c629ed712f34bec01233a626b1316be.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a48f632767c944e2f746e3b72c629ed712f34bec01233a626b1316be.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "港"
@@ -142,11 +150,12 @@
     "question": "台風が来たら、港には近づかないで下さい。",
     "answer": "Don't approach the port when a typhoon comes.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c3ad1ca5-a776-4a0f-b586-2583157ee08c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

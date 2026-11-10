@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d55746eee85f7b757136d5d441714a7c26adf63ab54bc00a6a7cd47a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d55746eee85f7b757136d5d441714a7c26adf63ab54bc00a6a7cd47a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "列"
@@ -177,11 +185,12 @@
     "question": "そのレジの前には長い列ができていました。",
     "answer": "A long line had formed in front of the cash register.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "45ac3e1a-6c63-4e58-8145-efbb8ab3918b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

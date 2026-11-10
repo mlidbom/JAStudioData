@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-5dbbf03621329254cc78ea970cc81a371c03a340b81b48f59bd63b1a.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-5dbbf03621329254cc78ea970cc81a371c03a340b81b48f59bd63b1a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "物とする",
@@ -40,8 +46,7 @@
   "sentenceCount": 1,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {
       "yieldLastTokenToOverlappingCompound": "forbidden"
@@ -67,7 +72,9 @@
   "sourceData": {
     "answer": "shall-... | to{?}{assume/suppose}",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "76dc4405-93c5-4718-87f4-617058ac0799",
   "tags": [

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e71eaad289fc23c4e2ea9ccade80cfd8118ca4f0cf57d3cba0c4388c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e71eaad289fc23c4e2ea9ccade80cfd8118ca4f0cf57d3cba0c4388c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "心持ち"
@@ -156,11 +164,12 @@
     "question": "このカレー、一人分にしては心持ち多くない？",
     "answer": "Isn't this curry kind of too much for one person?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2935d1a9-6fab-4f92-ac2c-b2c1b64002bc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

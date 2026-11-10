@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-27c76d7a2cc11535c99f3fda957252c701de5d9cd54ad2a01d0510f2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-27c76d7a2cc11535c99f3fda957252c701de5d9cd54ad2a01d0510f2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "絶望"
@@ -107,11 +115,12 @@
     "question": "私は絶望的に歌が下手です。",
     "answer": "I am a hopelessly bad singer.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "da5c0f60-b6eb-4d65-8ebd-8b16681f4045",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-89c308058a739e1be299a353442e5e146ef0b7c19872103e39a48eb2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-89c308058a739e1be299a353442e5e146ef0b7c19872103e39a48eb2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "駅弁"
@@ -135,11 +143,12 @@
     "question": "今、東京駅の駅弁屋で駅弁を見ています。",
     "answer": "I'm looking at ekiben at the Tokyo Station ekiben shop right now.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "686017fe-e41d-4cd2-bd2e-480fd0d45fdd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6d4ee484e36eb15dc5d531275973907c84dff2db5972c8146d4f0dcf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6d4ee484e36eb15dc5d531275973907c84dff2db5972c8146d4f0dcf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "海外"
@@ -93,11 +101,12 @@
     "question": "このスペース、海外のホテルみたいですね。",
     "answer": "This space looks like a hotel overseas.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2e8ff335-c9c0-4201-91f1-05921591eec7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

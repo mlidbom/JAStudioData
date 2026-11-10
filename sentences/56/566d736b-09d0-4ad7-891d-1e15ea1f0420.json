@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1eeed3a31f835b49ec49ca7c56936f8ec0c703aeda4fe1ea780c81a3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1eeed3a31f835b49ec49ca7c56936f8ec0c703aeda4fe1ea780c81a3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "添える"
@@ -112,11 +120,12 @@
     "question": "そのシェフは、ステーキにバニラアイスクリームを添えた。",
     "answer": "The chef garnished the steak with some vanilla ice cream.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "566d736b-09d0-4ad7-891d-1e15ea1f0420",
   "tags": [
-    "_tts_audio",
     "-::sentence::uses::incorrect-matches",
     "source::wani::current"
   ]

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a9c228cf2d62480a72c1ba2978464a4eedf80ffd799ddba6336fe9c8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a9c228cf2d62480a72c1ba2978464a4eedf80ffd799ddba6336fe9c8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "無知"
@@ -247,11 +255,12 @@
     "question": "もちろん、無知による発言だってことは分かっています。でも、言って良いことと悪いことってありますよね？",
     "answer": "Of course, I know this is an ignorant statement. But there are things that are good to say and things that are bad to say, right?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c8f1e81f-ca3b-41c4-9177-a1f364c3a326",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

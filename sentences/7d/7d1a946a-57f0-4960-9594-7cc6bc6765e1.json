@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7ea49260c1c8ede1903f605300db62f55f662df6538c9f6f684bd2b7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7ea49260c1c8ede1903f605300db62f55f662df6538c9f6f684bd2b7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "催告"
@@ -247,11 +255,12 @@
     "question": "サラ金から、借金の返済を求める催告状が何度も何度も届いています。",
     "answer": "A consumer credit company has been sending me notification letters over and over, demanding that I pay back my debt.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7d1a946a-57f0-4960-9594-7cc6bc6765e1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

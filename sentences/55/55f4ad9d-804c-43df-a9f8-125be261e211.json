@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-00e41c9c966c362fe60c4c8bcaa4599e5ca3c432a90cfbaf49efefb7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-00e41c9c966c362fe60c4c8bcaa4599e5ca3c432a90cfbaf49efefb7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "回る"
@@ -100,11 +108,12 @@
     "question": "テーブルの上で、コインが回る。",
     "answer": "The coin spins on the table.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "55f4ad9d-804c-43df-a9f8-125be261e211",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

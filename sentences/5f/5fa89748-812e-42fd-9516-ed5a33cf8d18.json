@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-853ab7f939bf95e4edf72b5eaf9c12acc6ab99af9c691fc935c43773.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-853ab7f939bf95e4edf72b5eaf9c12acc6ab99af9c691fc935c43773.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "着々"
@@ -226,11 +234,12 @@
     "question": "そのプロジェクトは着々と進行しており、予定通りに三月末に完了する見込みです。",
     "answer": "The project is steadily progressing and is expected to be completed at the end of March.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5fa89748-812e-42fd-9516-ed5a33cf8d18",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

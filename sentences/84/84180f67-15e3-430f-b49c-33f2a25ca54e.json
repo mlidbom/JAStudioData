@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-514ebf0851f8bf1544cf9df8a9dc6361369dfe319cb7dbe8ab0de7c1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-514ebf0851f8bf1544cf9df8a9dc6361369dfe319cb7dbe8ab0de7c1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "起こす"
@@ -149,11 +157,12 @@
     "question": "ビエットが100%正しいよ。今すぐコウイチ起こすべきだよ。",
     "answer": "You are absolutely correct, Viet! We should definitely wake Koichi up right now!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "84180f67-15e3-430f-b49c-33f2a25ca54e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

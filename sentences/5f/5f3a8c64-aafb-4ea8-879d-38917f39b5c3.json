@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9fe81f4d251d87c562d5dc668c3be8504f1f8f0e3213ae3d2b69bb01.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9fe81f4d251d87c562d5dc668c3be8504f1f8f0e3213ae3d2b69bb01.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "年譜"
@@ -114,11 +122,12 @@
     "question": "この作家の年譜を作ってくれないか。",
     "answer": "Will you make a chronological record for this author?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5f3a8c64-aafb-4ea8-879d-38917f39b5c3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

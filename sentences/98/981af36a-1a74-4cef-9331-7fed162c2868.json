@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8880d66463b1f8452e4ce6c447742741799f0f10637123d604b5730a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8880d66463b1f8452e4ce6c447742741799f0f10637123d604b5730a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "摂取"
@@ -142,11 +150,12 @@
     "question": "一日の摂取カロリーを計算してみました。",
     "answer": "I calculated my calorie intake for one day.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "981af36a-1a74-4cef-9331-7fed162c2868",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

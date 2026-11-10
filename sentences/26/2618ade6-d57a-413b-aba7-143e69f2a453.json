@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fe94b107128b202ed5cdbe29c4bcefd301aaa226bb13026ad2e28880.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fe94b107128b202ed5cdbe29c4bcefd301aaa226bb13026ad2e28880.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "迷路"
@@ -233,11 +241,12 @@
     "question": "誰一人としてその迷路の出口を見つけることができませんでした。",
     "answer": "Nobody found their way out of the maze.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2618ade6-d57a-413b-aba7-143e69f2a453",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

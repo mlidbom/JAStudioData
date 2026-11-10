@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1f806bf840ab9931c0cee9212ce068a14ab2c81a627b02afa45aaca0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1f806bf840ab9931c0cee9212ce068a14ab2c81a627b02afa45aaca0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [
@@ -159,11 +167,12 @@
     "question": "その本の編集者として任命されてから、過労気味です。",
     "answer": "Since being designated as editor of the book, I’ve been feeling overworked.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c6687462-34bb-4298-8efd-a83612cd0ef8",
   "tags": [
-    "_tts_audio",
     "-::sentence::uses::incorrect-matches",
     "source::wani::current"
   ]

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-70f7cf7b15119f8309e811947a6503cc5ecf86819791e75eaa735243.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-70f7cf7b15119f8309e811947a6503cc5ecf86819791e75eaa735243.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "精度"
@@ -170,11 +178,12 @@
     "question": "あの国のミサイルの精度はまだ低いと言われている。",
     "answer": "It's said that the precision of that country’s missiles are still low.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d65db004-af37-49c4-aeb8-92e9247803f0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

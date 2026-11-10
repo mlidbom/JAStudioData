@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ec1e2a18b36c6bb82ffe32bdf2457aadc8238f83d1c92d2ddac63a70.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ec1e2a18b36c6bb82ffe32bdf2457aadc8238f83d1c92d2ddac63a70.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "庁舎"
@@ -107,11 +115,12 @@
     "question": "庁舎に雷が落ちたみたいだよ。",
     "answer": "I heard that the government office building was struck by lightning.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "be4f4489-9a4d-4c7c-b269-445985747c0f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

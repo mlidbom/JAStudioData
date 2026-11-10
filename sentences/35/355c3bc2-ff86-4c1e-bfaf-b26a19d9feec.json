@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3fcd91016aad3f0de80b21fe6b974835abe66b34c8634f49d97dd0e1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3fcd91016aad3f0de80b21fe6b974835abe66b34c8634f49d97dd0e1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "製造"
@@ -128,11 +136,12 @@
     "question": "自動車の製造プロセスを解説するビデオを作りました。",
     "answer": "I made a video explaining the automobile manufacturing process.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "355c3bc2-ff86-4c1e-bfaf-b26a19d9feec",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fa60a042d759cff1c20a6b047c3c28dea9d13a12c7b84a32eb1b804b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fa60a042d759cff1c20a6b047c3c28dea9d13a12c7b84a32eb1b804b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "隠匿"
@@ -163,11 +171,12 @@
     "question": "彼女は犯人を隠匿していたんだよ。",
     "answer": "She hid the criminal.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f64c8e90-6b04-48ed-b521-5368a59d07a2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

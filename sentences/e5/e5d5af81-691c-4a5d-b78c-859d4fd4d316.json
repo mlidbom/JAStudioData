@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-98a9f7b7f72d9a1590c5d48bfc8b1f73e592fccbccb75f8070d2a139.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-98a9f7b7f72d9a1590c5d48bfc8b1f73e592fccbccb75f8070d2a139.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "待合"
@@ -58,11 +66,12 @@
     "question": "待合で待ってるね！",
     "answer": "I'll be waiting for you in the waiting area.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e5d5af81-691c-4a5d-b78c-859d4fd4d316",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

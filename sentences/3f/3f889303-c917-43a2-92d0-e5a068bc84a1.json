@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6db5db17fe30a262ecaa165b133a3a7fd622524fc754ea71010ecaf4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6db5db17fe30a262ecaa165b133a3a7fd622524fc754ea71010ecaf4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大失敗"
@@ -107,11 +115,12 @@
     "question": "それはとんだ大失敗でしたね。",
     "answer": "That was a terrible mistake.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3f889303-c917-43a2-92d0-e5a068bc84a1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

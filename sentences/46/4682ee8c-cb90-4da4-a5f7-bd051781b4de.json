@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6728e9c736bfe2a658488026f95d3bb0d13d5d99bc46f5a63f6d4e2b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6728e9c736bfe2a658488026f95d3bb0d13d5d99bc46f5a63f6d4e2b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "着物"
@@ -79,11 +87,12 @@
     "question": "私は着物が好きです。",
     "answer": "I like kimono.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4682ee8c-cb90-4da4-a5f7-bd051781b4de",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d74b9b7c90ab46de3153e5fac9213b7e4d9cd5ae586f63acad494cca.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d74b9b7c90ab46de3153e5fac9213b7e4d9cd5ae586f63acad494cca.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "初級"
@@ -177,11 +185,12 @@
     "question": "このコースは、初級、中級、上級の三つのレベルに分かれています。",
     "answer": "This course is divided into three levels: beginner, intermediate and advanced.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b6727e96-0e8a-44d4-a100-d72f11b17f64",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

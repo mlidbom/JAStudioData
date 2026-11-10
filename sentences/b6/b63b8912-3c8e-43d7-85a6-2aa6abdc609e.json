@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b1e330e69f82fb974244f7b9e9313d56e3b2edcea7b7ce1efa9300c7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b1e330e69f82fb974244f7b9e9313d56e3b2edcea7b7ce1efa9300c7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "傘立て"
@@ -128,11 +136,12 @@
     "question": "傘立てに濡れた傘を立てないで下さい。",
     "answer": "Please do not put a wet umbrella in the umbrella stand.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b63b8912-3c8e-43d7-85a6-2aa6abdc609e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

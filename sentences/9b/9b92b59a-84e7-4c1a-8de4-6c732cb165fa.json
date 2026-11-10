@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4060788d2e55d413654d58d488be93806359e60ad87d39d4a54e3db4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4060788d2e55d413654d58d488be93806359e60ad87d39d4a54e3db4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "値"
@@ -93,11 +101,12 @@
     "question": "xとyの値を求めなさい。",
     "answer": "Find the value of x and y.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9b92b59a-84e7-4c1a-8de4-6c732cb165fa",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

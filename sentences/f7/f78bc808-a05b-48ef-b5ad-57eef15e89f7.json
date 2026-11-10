@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e63e1c868a2d8447e3d9e96cc851d13e6dcb81d0bccfb0b5a4d211e4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e63e1c868a2d8447e3d9e96cc851d13e6dcb81d0bccfb0b5a4d211e4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "何時"
@@ -107,11 +115,12 @@
     "question": "毎日、何時に学校に行きますか？",
     "answer": "What time do you go to school every day?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f78bc808-a05b-48ef-b5ad-57eef15e89f7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

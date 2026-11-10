@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c37465ccb702f3dd3e602673a6a9b52306b1f797090463e614b31dfc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c37465ccb702f3dd3e602673a6a9b52306b1f797090463e614b31dfc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "雨戸"
@@ -170,11 +178,12 @@
     "question": "最近は日本でも雨戸をつけている家が少なくなりました。",
     "answer": "Recently, there are fewer houses with shutters in Japan.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0ff69919-ae0c-4509-910d-2e7e90ca596f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

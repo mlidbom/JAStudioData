@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2144d1f3d68774b2b40d7935e0ee5a53de76063def0868fefda8f80b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2144d1f3d68774b2b40d7935e0ee5a53de76063def0868fefda8f80b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "募る"
@@ -72,11 +80,12 @@
     "question": "今、ボランティアを募ってるらしいよ。",
     "answer": "They seem to be recruiting volunteers right now.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "63d882db-ddac-49e2-93c9-c9351374c219",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

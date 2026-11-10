@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-95f0c86230b100a6969092a75ba44a0fbc6d3f37ac317cf598f6ce7c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-95f0c86230b100a6969092a75ba44a0fbc6d3f37ac317cf598f6ce7c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "下りる"
@@ -107,11 +115,12 @@
     "question": "ハシゴを下りるのがこわいんです。",
     "answer": "I'm afraid of climbing down the ladder.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "88ec294d-64a0-4c8b-80ad-f87314126322",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

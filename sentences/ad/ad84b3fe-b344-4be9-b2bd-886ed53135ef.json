@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-05e4156659c69ee1da06869eb77a95e2ae883d39092a0920118dd2fb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-05e4156659c69ee1da06869eb77a95e2ae883d39092a0920118dd2fb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "平ら"
@@ -121,11 +129,12 @@
     "question": "これは土を平らにするマシンです。",
     "answer": "This is a machine that flattens the ground.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ad84b3fe-b344-4be9-b2bd-886ed53135ef",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

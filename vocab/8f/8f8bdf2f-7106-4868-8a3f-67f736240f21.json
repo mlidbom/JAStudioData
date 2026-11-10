@@ -29,9 +29,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-07bc44c935df134eea63e809a3d781e540568ff116defe5c68542ef8.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-07bc44c935df134eea63e809a3d781e540568ff116defe5c68542ef8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "御案内",
@@ -41,8 +47,7 @@
   "sentenceCount": 8,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -66,7 +71,9 @@
   "sourceData": {
     "answer": "guidance/leading-(the-way)/showing-around | information/notice/notification | announcement-(of-one's-arrival) | invitation | acquaintance/knowledge",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "8f8bdf2f-7106-4868-8a3f-67f736240f21",
   "tags": [

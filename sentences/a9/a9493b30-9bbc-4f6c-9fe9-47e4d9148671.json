@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5ff305749bed8f34787ff0e1cef37681b0f610a3eea9413a284f8dde.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5ff305749bed8f34787ff0e1cef37681b0f610a3eea9413a284f8dde.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "優れる"
@@ -191,11 +199,12 @@
     "question": "日本には世界に通用する優れた技術者がたくさんいます。",
     "answer": "There are many excellent engineers in Japan who are recognized worldwide.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a9493b30-9bbc-4f6c-9fe9-47e4d9148671",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

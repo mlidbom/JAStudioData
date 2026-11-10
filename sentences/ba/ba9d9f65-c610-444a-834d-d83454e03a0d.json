@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0486f68cf1cbce36b3247b74552590a93351b6e5bc5d76b493ec1621.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0486f68cf1cbce36b3247b74552590a93351b6e5bc5d76b493ec1621.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "返事"
@@ -93,11 +101,12 @@
     "question": "今日は、メールの返事が来なかった。",
     "answer": "Today, I didn't get a reply to my email.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ba9d9f65-c610-444a-834d-d83454e03a0d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

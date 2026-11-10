@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-aea581ef28706fabe0784b36e7c59c9f43ed5eae7a42eacd47b16ede.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-aea581ef28706fabe0784b36e7c59c9f43ed5eae7a42eacd47b16ede.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "白い"
@@ -86,11 +94,12 @@
     "question": "その白い犬はうちのペットです。",
     "answer": "That white dog is our pet.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9a023bf5-8729-4d4f-ae2d-c11187235e36",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

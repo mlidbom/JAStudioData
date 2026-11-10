@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-195f3e462b8a39dd521e2c0de32b35535acacc134ccdd723544759e5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-195f3e462b8a39dd521e2c0de32b35535acacc134ccdd723544759e5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "助言"
@@ -79,11 +87,12 @@
     "question": "これは、お父さんからの助言です。",
     "answer": "This is advice from my dad.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "104d1ad8-106b-4739-955f-e7ab8298a747",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

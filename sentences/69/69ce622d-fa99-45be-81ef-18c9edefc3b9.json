@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9ef3debda3735a09a838d054566a0514d16a2c5ca9ae24d38e497338.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9ef3debda3735a09a838d054566a0514d16a2c5ca9ae24d38e497338.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "通う"
@@ -177,11 +185,12 @@
     "question": "私の妹は、四月からトーフグ学園に通うことになります。",
     "answer": "My younger sister will attend Tofugu Academy starting in April.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "69ce622d-fa99-45be-81ef-18c9edefc3b9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

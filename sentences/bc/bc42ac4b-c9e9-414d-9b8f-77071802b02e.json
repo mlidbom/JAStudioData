@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cda76c2771ed641d1351adb08583f6f93df4d3e89147c998671c6b19.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cda76c2771ed641d1351adb08583f6f93df4d3e89147c998671c6b19.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "石碑"
@@ -142,11 +150,12 @@
     "question": "これが石碑に彫られていた文字です。",
     "answer": "These are the words carved on the stone monument.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bc42ac4b-c9e9-414d-9b8f-77071802b02e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

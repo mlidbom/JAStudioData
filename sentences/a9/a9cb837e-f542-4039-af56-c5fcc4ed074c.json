@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-903e8fdabe2ae198b0e9875163e87caafdb57341f0325f5c58d5a68e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-903e8fdabe2ae198b0e9875163e87caafdb57341f0325f5c58d5a68e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "誘う"
@@ -79,11 +87,12 @@
     "question": "陽気に誘われ、ウォーキングに出かけた。",
     "answer": "I was enticed by the pleasant weather and went for a walk.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a9cb837e-f542-4039-af56-c5fcc4ed074c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

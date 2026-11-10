@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a6cc4c26a632bb228533c034376002de1428fd89d09437c8eae78e4e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a6cc4c26a632bb228533c034376002de1428fd89d09437c8eae78e4e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "喉頭"
@@ -93,11 +101,12 @@
     "question": "あの方は耳鼻喉頭科の先生です。",
     "answer": "That man is an otolaryngologist.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9121c6ff-3a81-4e81-94da-6f3927451d5c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-57c02127c3693bec98d857d3f066caf341c9ac35b03747a950954263.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-57c02127c3693bec98d857d3f066caf341c9ac35b03747a950954263.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "川柳"
@@ -163,11 +171,12 @@
     "question": "ここにあなたの川柳を書いてもらえませんか？",
     "answer": "Could you write your senryu here?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7a25b145-42c5-4760-9c2b-877615baa6cd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

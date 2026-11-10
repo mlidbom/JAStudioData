@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ffc600ea9e569d5259028f8ffd3710c5569fb69fedaa89417b1c65b9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ffc600ea9e569d5259028f8ffd3710c5569fb69fedaa89417b1c65b9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "婦人"
@@ -149,11 +157,12 @@
     "question": "明日は町内の婦人会のランチがあるんです。",
     "answer": "I have a lunch tomorrow for the town's women's group.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c03e0b3a-32be-4dd7-bae3-50411eb50a3a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e7e6647465115d1ccbed83495eab42b51ba9f76538e1f406b52c3bd8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e7e6647465115d1ccbed83495eab42b51ba9f76538e1f406b52c3bd8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "用事"
@@ -107,11 +115,12 @@
     "question": "その日、大切な用事があります。",
     "answer": "On that day, I have important errands.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2fd2869b-bee0-4e42-92dc-5586d180b197",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

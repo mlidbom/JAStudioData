@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f62d7f56efa2cc12d91efd59589ba85c7878e6dc0b253d15569e6216.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f62d7f56efa2cc12d91efd59589ba85c7878e6dc0b253d15569e6216.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "自動車"
@@ -86,11 +94,12 @@
     "question": "私の父は自動車のディーラーです。",
     "answer": "My father is a car dealer.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bc90cc1c-642a-471f-941b-746db549eeee",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3622656460ddd4dd68f8801ca5bfc7cd29d730a537d36e6ab224d21f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3622656460ddd4dd68f8801ca5bfc7cd29d730a537d36e6ab224d21f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "暗殺"
@@ -163,11 +171,12 @@
     "question": "そのヤクザの組長は暗殺されてしまいました。",
     "answer": "That yakuza boss ended up getting assassinated.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "46e2c3d0-64c3-442c-9309-da6c2c854e38",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

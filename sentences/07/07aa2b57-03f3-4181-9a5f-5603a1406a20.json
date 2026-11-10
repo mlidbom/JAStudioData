@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-88986a7fc342de9fcc4de979b848d07e600de516d013f0cac96f9e77.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-88986a7fc342de9fcc4de979b848d07e600de516d013f0cac96f9e77.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "缶ビール"
@@ -107,11 +115,12 @@
     "question": "缶ビールはあまり好きじゃないんです。",
     "answer": "I don't really like canned beer.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "07aa2b57-03f3-4181-9a5f-5603a1406a20",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

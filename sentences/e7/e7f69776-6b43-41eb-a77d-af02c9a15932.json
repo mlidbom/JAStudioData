@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-164401025e6b7c158df9074bf84281ce04f4a3c8a12e8ca790b1bb1b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-164401025e6b7c158df9074bf84281ce04f4a3c8a12e8ca790b1bb1b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "牛肉"
@@ -93,11 +101,12 @@
     "question": "夕べのディナーは牛肉のカレーだった。",
     "answer": "Dinner last night was beef curry.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e7f69776-6b43-41eb-a77d-af02c9a15932",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

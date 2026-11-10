@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dda5437f8c3a179d76622f853fde9bfca1442e75554d732d721fbbed.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dda5437f8c3a179d76622f853fde9bfca1442e75554d732d721fbbed.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "管理人"
@@ -86,11 +94,12 @@
     "question": "このウェブサイトの管理人は私です。",
     "answer": "I am the administrator of this website.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9e5d02e9-1135-4c14-af91-c39f0a742813",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

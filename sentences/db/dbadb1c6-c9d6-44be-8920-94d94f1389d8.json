@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2f031fae1d5920e03ae8feaf97d80af5d986d506e4c0426a853966b4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2f031fae1d5920e03ae8feaf97d80af5d986d506e4c0426a853966b4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "未だ"
@@ -128,11 +136,12 @@
     "question": "未だ海外に行ったことが有りません。",
     "answer": "I have never been abroad.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dbadb1c6-c9d6-44be-8920-94d94f1389d8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

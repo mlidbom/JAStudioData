@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e0d32da45ed34c72fe250ce1c36d00a13745ed37636c5f8e320aecf1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e0d32da45ed34c72fe250ce1c36d00a13745ed37636c5f8e320aecf1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "海藻"
@@ -79,11 +87,12 @@
     "question": "この海藻は食べられますか。",
     "answer": "Can you eat this seaweed?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "72c8b298-db3f-4902-9855-b7aa3d378bcd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

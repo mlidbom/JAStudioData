@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b73f71285f8fcd822775770a49a1418c3f7b8bbd2f39eb60b56835d9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b73f71285f8fcd822775770a49a1418c3f7b8bbd2f39eb60b56835d9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "以上"
@@ -86,11 +94,12 @@
     "question": "うどん、カレー、トマト。以上が今夜のメニューです。",
     "answer": "Udon, curry, and tomatoes. That's the menu tonight.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3926db9a-59c2-4194-a0c5-3f893b88119e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

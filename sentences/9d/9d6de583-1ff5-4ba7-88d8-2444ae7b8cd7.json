@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-654801fa87d86c315bf7b53656a80cc26505890bff0ee94e62dcfb2b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-654801fa87d86c315bf7b53656a80cc26505890bff0ee94e62dcfb2b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "墓地"
@@ -121,11 +129,12 @@
     "question": "うちの庭は墓地に隣接している。",
     "answer": "Our garden is adjacent to a graveyard.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9d6de583-1ff5-4ba7-88d8-2444ae7b8cd7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

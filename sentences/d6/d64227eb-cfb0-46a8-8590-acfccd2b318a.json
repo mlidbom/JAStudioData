@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2b1b3b13e264f08b9bbfd6017d8cbeace117ce56f2980eb4cfd55172.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2b1b3b13e264f08b9bbfd6017d8cbeace117ce56f2980eb4cfd55172.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "構える"
@@ -184,11 +192,12 @@
     "question": "こんな風に、カメラを両手で持って、ななめに構えてみてください。",
     "answer": "Try holding the camera with both hands and positioning it diagonally like this.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d64227eb-cfb0-46a8-8590-acfccd2b318a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

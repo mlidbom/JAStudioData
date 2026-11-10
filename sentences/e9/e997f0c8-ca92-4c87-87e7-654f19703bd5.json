@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a7aae78e5a87c29c90623bf498ed2f3e87aadcb572cb49afc73ab33c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a7aae78e5a87c29c90623bf498ed2f3e87aadcb572cb49afc73ab33c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "靴屋"
@@ -149,11 +157,12 @@
     "question": "うちは、いつも同じ靴屋で靴を買うんだよ。",
     "answer": "We always buy shoes from the same shoe shop.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e997f0c8-ca92-4c87-87e7-654f19703bd5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

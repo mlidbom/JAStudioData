@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-90e1a79f570c8c12e718828a9197261a6c7505a909c5ef85c6ccbf44.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-90e1a79f570c8c12e718828a9197261a6c7505a909c5ef85c6ccbf44.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "言葉つき"
@@ -149,11 +157,12 @@
     "question": "声は子どもの声だったが、言葉つきはまるで大人だった。",
     "answer": "The voice was that of a child, but the words were those of an adult.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fe81b71a-e42e-4197-b81a-61aa184c5800",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

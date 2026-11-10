@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-76dbe26bb1269ad930b1566273d2c20aec6adf6e3626016dfe56f8eb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-76dbe26bb1269ad930b1566273d2c20aec6adf6e3626016dfe56f8eb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "長さ"
@@ -142,11 +150,12 @@
     "question": "一回のミーティングの長さは大体どのくらいですか？",
     "answer": "About how long is one meeting?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "22947ea6-0f68-40ff-8c9c-5715f4f046a7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

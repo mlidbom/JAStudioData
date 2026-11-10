@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-52c270379beead2189202bf30f0ba8c635a508aafed534b8d9a941f9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-52c270379beead2189202bf30f0ba8c635a508aafed534b8d9a941f9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "連れる"
@@ -184,11 +192,12 @@
     "question": "うちの子が、子犬を一匹、連れて帰ってきました。",
     "answer": "My child brought home one puppy.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2afdecd1-0782-4aab-93e1-b5f8ec0fc046",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

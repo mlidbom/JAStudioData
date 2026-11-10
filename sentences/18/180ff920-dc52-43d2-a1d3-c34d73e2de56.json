@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b96db55c6cc5d077bc2449c4a6814963017ee82aabe8ec81f24c709d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b96db55c6cc5d077bc2449c4a6814963017ee82aabe8ec81f24c709d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "遊び"
@@ -135,11 +143,12 @@
     "question": "最近学校で流行っている遊びを教えて下さい。",
     "answer": "Please tell me about the popular games in schools nowadays.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "180ff920-dc52-43d2-a1d3-c34d73e2de56",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

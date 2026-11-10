@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-153c88e1332d7b05067150e4c8e1f84e623986eedfdf634fe5cb5f0f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-153c88e1332d7b05067150e4c8e1f84e623986eedfdf634fe5cb5f0f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "人類学"
@@ -149,11 +157,12 @@
     "question": "私の父は、大学で人類学を教えています。",
     "answer": "My father teaches anthropology at the university.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "191519db-a34f-465d-89ff-b167cd007ea3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

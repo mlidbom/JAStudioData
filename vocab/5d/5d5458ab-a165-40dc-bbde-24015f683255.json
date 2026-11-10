@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-2a63acb0cec9fdf2c1b70cdff9d5834605e8fb0b7d338c4c5b136c1c.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-2a63acb0cec9fdf2c1b70cdff9d5834605e8fb0b7d338c4c5b136c1c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "てたまるかい",
@@ -48,8 +54,7 @@
   "sentenceCount": 6,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -73,7 +78,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "5d5458ab-a165-40dc-bbde-24015f683255",
   "tags": [

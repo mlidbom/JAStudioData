@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ed7200284da14eafeac0d5ffdb15d441bf1a6b8ffb407e74d73608de.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ed7200284da14eafeac0d5ffdb15d441bf1a6b8ffb407e74d73608de.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "首班"
@@ -247,11 +255,12 @@
     "question": "どいつが新入生の首班を占めることになると思う？",
     "answer": "Who do you think will be the leader of the first-year students?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8b6e7722-2656-4e03-aa22-413832f380a3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

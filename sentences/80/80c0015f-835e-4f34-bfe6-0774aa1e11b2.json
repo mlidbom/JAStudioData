@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5701eb8f748fba36a83310c1cc175b6b774f1fcaa532757b88a3e5a5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5701eb8f748fba36a83310c1cc175b6b774f1fcaa532757b88a3e5a5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "頑丈"
@@ -114,11 +122,12 @@
     "question": "この車はとても頑丈にできています。",
     "answer": "This car is solidly built.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "80c0015f-835e-4f34-bfe6-0774aa1e11b2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

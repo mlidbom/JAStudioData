@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a68ce6fdc2f2ca3c03ea4b1064e4b386adf16770994c2449813e5af4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a68ce6fdc2f2ca3c03ea4b1064e4b386adf16770994c2449813e5af4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "狭い"
@@ -107,11 +115,12 @@
     "question": "私のアパート、めっちゃ狭いけど引かないでね。",
     "answer": "My apartment is super small, but please don't be put off by that.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9b8e0020-8a05-48c4-949f-8e2fb5c8a0ea",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

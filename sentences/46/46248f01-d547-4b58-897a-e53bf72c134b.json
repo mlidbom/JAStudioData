@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2b978fd544863f70d936e1d9e77fb7432d85ffcb4144c1d6ef353fde.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2b978fd544863f70d936e1d9e77fb7432d85ffcb4144c1d6ef353fde.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "法規"
@@ -149,11 +157,12 @@
     "question": "残念ですが、法規上はこれで問題ありません。",
     "answer": "Unfortunately, there are no legal issues with this according to the laws and regulations.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "46248f01-d547-4b58-897a-e53bf72c134b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

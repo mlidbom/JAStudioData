@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-77dae9dc8f0129c6f29dc367535d7a2ab26af5a174be519e9e38c013.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-77dae9dc8f0129c6f29dc367535d7a2ab26af5a174be519e9e38c013.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "広告"
@@ -86,11 +94,12 @@
     "question": "今朝の朝日新聞の新聞広告、見た？",
     "answer": "Did you see the newspaper ad in the Asahi Shimbun this morning?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f06083fb-fca1-41a8-aee7-c3f994626541",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

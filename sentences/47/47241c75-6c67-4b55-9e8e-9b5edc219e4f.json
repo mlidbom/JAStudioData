@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c7b3cf5b5783d21f3292a573c52615f71e267e19c6ec36d018e39487.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c7b3cf5b5783d21f3292a573c52615f71e267e19c6ec36d018e39487.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "阻害"
@@ -114,11 +122,12 @@
     "question": "カフェインを含む飲み物は、睡眠を阻害します。",
     "answer": "Drinks containing caffeine inhibit sleep.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "47241c75-6c67-4b55-9e8e-9b5edc219e4f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

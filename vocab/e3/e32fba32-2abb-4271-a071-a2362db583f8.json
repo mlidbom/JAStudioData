@@ -28,15 +28,20 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": " [sound:ATTS という訳 (azure microsoft server speech text to speech voice (ja-jp daichineural)).mp3]",
-  "audioG": "",
-  "audioTTS": "",
+  "audio": [
+    {
+      "fileName": "ATTS という訳 (azure microsoft server speech text to speech voice (ja-jp daichineural)).mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [],
   "sentenceCount": 4,
   "technicalNotes": "",
   "references": "<a href=\"https://www.immersionkit.com/dictionary?exact=true&amp;sort=shortness&amp;keyword=%E3%81%A8%E3%81%84%E3%81%86%E8%A8%B3\">Immersion Kit Dictionary search for という訳</a>",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -60,11 +65,12 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "e32fba32-2abb-4271-a071-a2362db583f8",
   "tags": [
-    "_tts_audio",
     "source::yomitan"
   ]
 }

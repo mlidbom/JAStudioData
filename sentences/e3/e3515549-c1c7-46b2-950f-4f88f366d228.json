@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-44f828427ecfd3df687a991560aaaa6609d290924e9ad6a88a805705.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-44f828427ecfd3df687a991560aaaa6609d290924e9ad6a88a805705.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "会員"
@@ -93,11 +101,12 @@
     "question": "会員カードはお持ちですか。",
     "answer": "Do you have a membership card?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e3515549-c1c7-46b2-950f-4f88f366d228",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-33dd6c7d946ab433cec438d23bc44ff032c9f51f1585248a8b9d0de4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-33dd6c7d946ab433cec438d23bc44ff032c9f51f1585248a8b9d0de4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "続く"
@@ -114,11 +122,12 @@
     "question": "五日も雨が続いています。",
     "answer": "It's been raining for five consecutive days.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f557698d-47cd-48df-a45f-fda4c11e91cf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4f2145b2b3cc11743ca77dbfc1fdd461cbc1023bdbb6ce4e3446dce0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4f2145b2b3cc11743ca77dbfc1fdd461cbc1023bdbb6ce4e3446dce0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "泥棒"
@@ -149,11 +157,12 @@
     "question": "泥棒になるためのトレーニングは、ブートキャンプ並にハードです。",
     "answer": "The training to become a burglar is as hard as boot camp.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "925c9186-5f9f-4d8e-827e-e5daad778fe8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

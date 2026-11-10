@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-b9b5bc37ad7ed083d93dfbfcb272eeebe0794f129253fedb8c3e58cb.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-b9b5bc37ad7ed083d93dfbfcb272eeebe0794f129253fedb8c3e58cb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "貴方様",
@@ -44,8 +50,7 @@
   "sentenceCount": 4,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -69,7 +74,9 @@
   "sourceData": {
     "answer": "you",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "f1cf95e5-689c-4f40-8936-185ad7bc74b8",
   "tags": [

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f2425668b1b57122aad376bd5bb06ddd2963a7be93e281dd3b4b2c78.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f2425668b1b57122aad376bd5bb06ddd2963a7be93e281dd3b4b2c78.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "満員"
@@ -79,11 +87,12 @@
     "question": "コンサート会場はやっぱり満員だった。",
     "answer": "The concert hall was a full house as expected.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "af0aeb8b-3eaf-45cb-b256-f665582061a8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

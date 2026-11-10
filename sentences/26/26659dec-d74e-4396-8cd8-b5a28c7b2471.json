@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e498ae3aedd024f430bc9bceb4d8094b0ae5ec7d5fe7a60591d72d5f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e498ae3aedd024f430bc9bceb4d8094b0ae5ec7d5fe7a60591d72d5f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "薬方"
@@ -121,11 +129,12 @@
     "question": "これは中国の古い医書に記された薬方です。",
     "answer": "These prescriptions are documented in ancient Chinese medical texts.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "26659dec-d74e-4396-8cd8-b5a28c7b2471",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-261a5c72bab60a077ef61df01ef7c573051f5fddc80d62d4de22fa16.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-261a5c72bab60a077ef61df01ef7c573051f5fddc80d62d4de22fa16.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "隠れる"
@@ -177,11 +185,12 @@
     "question": "アイツのシャツの下には、KFCのチキンのタトゥーが隠れている。",
     "answer": "Under his shirt, there is a hidden tattoo of KFC chicken.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a7219a77-f4c7-456d-a811-94f38fb7df6c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

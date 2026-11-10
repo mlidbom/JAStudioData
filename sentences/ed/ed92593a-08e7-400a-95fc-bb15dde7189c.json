@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9a53d5c755b157024f8b503200b5d256473a5d0f725948928569ddb1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9a53d5c755b157024f8b503200b5d256473a5d0f725948928569ddb1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "調べる"
@@ -177,11 +185,12 @@
     "question": "自分で調べる気がないなら、早くアレクサに聞いてください。",
     "answer": "If you are not willing to look it up yourself, ask Alexa now.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ed92593a-08e7-400a-95fc-bb15dde7189c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

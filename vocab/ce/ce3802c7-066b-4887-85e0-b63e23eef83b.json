@@ -20,15 +20,20 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "[sound:蛇_b.mp3][sound:hypertts-6fc5b40ab99a603ecd75d66308c59887efb3f2fad120070fa3d7722c.mp3]",
-  "audioG": "[sound:蛇_g.mp3][sound:hypertts-6fc5b40ab99a603ecd75d66308c59887efb3f2fad120070fa3d7722c.mp3]",
-  "audioTTS": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6fc5b40ab99a603ecd75d66308c59887efb3f2fad120070fa3d7722c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Google ja-JP-Neural2-D",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [],
   "sentenceCount": 6,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -52,7 +57,18 @@
   "sourceData": {
     "answer": "snake | serpent/large-snake",
     "mnemonic": "The kanji and the word are exactly the same. That means they share meanings as well.",
-    "readingMnemonic": "The reading is the same as the one you learned with the kanji."
+    "readingMnemonic": "The reading is the same as the one you learned with the kanji.",
+    "audio": [
+      {
+        "fileName": "蛇_b.mp3",
+        "voiceGender": "male"
+      },
+      {
+        "fileName": "蛇_g.mp3",
+        "voiceGender": "female"
+      }
+    ],
+    "images": []
   },
   "id": "ce3802c7-066b-4887-85e0-b63e23eef83b",
   "tags": [

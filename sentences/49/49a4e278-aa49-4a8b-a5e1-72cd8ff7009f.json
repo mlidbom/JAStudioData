@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-54b5277beb85c8b2fff58ce923fd246bb7b4b9e8ba614e710329c3ac.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-54b5277beb85c8b2fff58ce923fd246bb7b4b9e8ba614e710329c3ac.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "小文字"
@@ -121,11 +129,12 @@
     "question": "これは小文字のLですか？それとも大文字のIですか？",
     "answer": "Is this a lowercase L? Or is it a capital letter I?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "49a4e278-aa49-4a8b-a5e1-72cd8ff7009f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

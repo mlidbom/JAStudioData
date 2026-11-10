@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-98d854d2bbd1b85d34b52be30208ce1edc1688424b170ecc4d7d37d9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-98d854d2bbd1b85d34b52be30208ce1edc1688424b170ecc4d7d37d9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "寝坊する"
@@ -177,11 +185,12 @@
     "question": "寝坊して、試合前に肩をちゃんと作れなかったんだ。",
     "answer": "I overslept and didn't have enough time to get my shoulders properly warmed up before the game.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9e0ef457-505b-4431-b9fd-d78f9152f982",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-aec9d2a8cce30c93e6e67a7da9593f8a00d91f32e63f8cfc2374dd00.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-aec9d2a8cce30c93e6e67a7da9593f8a00d91f32e63f8cfc2374dd00.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "立つ"
@@ -142,11 +150,12 @@
     "question": "ソファから立つのが下手なんです。",
     "answer": "I'm not very good at getting up off the sofa.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6b4be074-38bf-4327-a80c-d0beca0b24f4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

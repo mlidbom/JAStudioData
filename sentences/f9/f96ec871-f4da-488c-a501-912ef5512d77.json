@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-053ea2d7454a08e643afe69d4faf40b78833b0ccd941d35e35d0a367.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-053ea2d7454a08e643afe69d4faf40b78833b0ccd941d35e35d0a367.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "統括"
@@ -163,11 +171,12 @@
     "question": "父は会社では100人の部下を統括する責任者です。",
     "answer": "My father is responsible for unifying 100 subordinates at his company.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f96ec871-f4da-488c-a501-912ef5512d77",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

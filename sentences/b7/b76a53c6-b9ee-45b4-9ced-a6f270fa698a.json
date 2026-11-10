@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f824cf4a574e1a9acf3666ff8d766147749f3216948d194301d2f2f0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f824cf4a574e1a9acf3666ff8d766147749f3216948d194301d2f2f0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "負ける"
@@ -254,11 +262,12 @@
     "question": "「今夜は、どこのレストランにする？」「あなたが決めてよ。私はじゃんけんに負けたんだから。」",
     "answer": "\"Where do you want to eat tonight?\" \"It’s your call. I lost in rock-paper-scissors.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b76a53c6-b9ee-45b4-9ced-a6f270fa698a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

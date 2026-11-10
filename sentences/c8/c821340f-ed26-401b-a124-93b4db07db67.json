@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e65d044f9b92ff2ec03190a0d2e19ac861eec5db0ddca92f5f67a117.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e65d044f9b92ff2ec03190a0d2e19ac861eec5db0ddca92f5f67a117.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "他動詞"
@@ -198,11 +206,12 @@
     "question": "ここに書いてある他動詞を全部自動詞に書きかえてください。",
     "answer": "Please change all of these transitive verbs into intransitive verbs.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c821340f-ed26-401b-a124-93b4db07db67",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

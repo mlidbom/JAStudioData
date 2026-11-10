@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-44d55eb51fecd7bd32a6dbaf017de3fdd0db3f35e4649f32dfaacc43.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-44d55eb51fecd7bd32a6dbaf017de3fdd0db3f35e4649f32dfaacc43.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "二日"
@@ -100,11 +108,12 @@
     "question": "パリに二日しかいなかった。",
     "answer": "I was in Paris only for a couple days.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "81f9f13b-ef3f-4403-81f0-31f2460bc086",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-52b41b26a254b3322cf0ab5fe697fa80af6508949fa57c5c85020b00.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-52b41b26a254b3322cf0ab5fe697fa80af6508949fa57c5c85020b00.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "炊飯器"
@@ -226,11 +234,12 @@
     "question": "私達はみんな、剛志が炊飯器を買うのを楽しみにしています。",
     "answer": "We are all looking forward to Takeshi buying a rice cooker.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6cf83bd2-7a90-4292-adca-296bef23f9bc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

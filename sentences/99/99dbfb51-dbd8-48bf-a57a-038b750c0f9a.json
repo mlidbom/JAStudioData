@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bab302d1d05e422531e25277694d1bb641ddffd1d28275b0b12eaed5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bab302d1d05e422531e25277694d1bb641ddffd1d28275b0b12eaed5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "麦"
@@ -93,11 +101,12 @@
     "question": "大麦と小麦のちがいは何ですか。",
     "answer": "What's the difference between barley and wheat?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "99dbfb51-dbd8-48bf-a57a-038b750c0f9a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

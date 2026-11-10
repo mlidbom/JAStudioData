@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c7b93012ce34d307a2b2c9a0572f1f9d2ca2acf9f703c135dcd84249.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c7b93012ce34d307a2b2c9a0572f1f9d2ca2acf9f703c135dcd84249.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "通販"
@@ -198,11 +206,12 @@
     "question": "今まで通販で買い物したことないけど、ちょっとやってみるよ。",
     "answer": "I’ve never bought anything through mail order before, but I’ll give it a shot. ",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8b278ab5-4472-4b5d-8664-56c73aa9c6b7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

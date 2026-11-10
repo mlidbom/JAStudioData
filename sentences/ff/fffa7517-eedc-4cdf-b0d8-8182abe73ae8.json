@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7140e13a34ee4ea6bca26862bafb733446537629443d408cb730b601.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7140e13a34ee4ea6bca26862bafb733446537629443d408cb730b601.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "発見"
@@ -121,11 +129,12 @@
     "question": "木の上に毛虫を発見しました。",
     "answer": "I found a caterpillar on a tree.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fffa7517-eedc-4cdf-b0d8-8182abe73ae8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

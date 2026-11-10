@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-20f0ff40a13cf988e5e4e6accc1e42baf22e77583e3182059eef7d92.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-20f0ff40a13cf988e5e4e6accc1e42baf22e77583e3182059eef7d92.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "私営"
@@ -156,11 +164,12 @@
     "question": "危ないから、この国の私営タクシーには乗らない方がいいよ。",
     "answer": "It's not safe, so you shouldn't take this country's private taxis.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "33d6d33c-cd0c-40af-8a1b-b4908d79b6d2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

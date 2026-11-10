@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-29d421e6d1f449205125a5907877f24294d169dfc5fc641496dd2029.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-29d421e6d1f449205125a5907877f24294d169dfc5fc641496dd2029.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "店"
@@ -100,11 +108,12 @@
     "question": "一人で店に入りました。",
     "answer": "I entered the store alone.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "26b569d1-c126-40f7-b5fe-5807377ad873",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

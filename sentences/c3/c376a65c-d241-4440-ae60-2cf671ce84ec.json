@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cb07d0b9ed91b97a29a7d22fd82a6041144fed648fd82dd2691bd7c7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cb07d0b9ed91b97a29a7d22fd82a6041144fed648fd82dd2691bd7c7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "歩道"
@@ -79,11 +87,12 @@
     "question": "この歩道は広くて歩きやすいです。",
     "answer": "This sidewalk is wide and easy to walk on.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c376a65c-d241-4440-ae60-2cf671ce84ec",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

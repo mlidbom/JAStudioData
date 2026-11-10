@@ -19,15 +19,20 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": " [sound:ATTS 来た来た (azure microsoft server speech text to speech voice (ja-jp daichineural)).mp3]",
-  "audioG": "",
-  "audioTTS": "",
+  "audio": [
+    {
+      "fileName": "ATTS 来た来た (azure microsoft server speech text to speech voice (ja-jp daichineural)).mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [],
   "sentenceCount": 5,
   "technicalNotes": "",
   "references": "<a href=\"https://www.immersionkit.com/dictionary?exact=true&amp;sort=shortness&amp;keyword=%E6%9D%A5%E3%81%9F%E6%9D%A5%E3%81%9F\">Immersion Kit Dictionary search for 来た来た</a>",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -51,11 +56,12 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "ac8b041e-a98d-45c6-a84a-a0fca949a9f7",
   "tags": [
-    "_tts_audio",
     "source::yomitan"
   ]
 }

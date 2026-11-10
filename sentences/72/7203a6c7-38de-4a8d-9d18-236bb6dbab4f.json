@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-83834c8ae3ffe02c4272ba1cec38a5835d7257813be5217eadfcf9a6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-83834c8ae3ffe02c4272ba1cec38a5835d7257813be5217eadfcf9a6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "渡る"
@@ -163,11 +171,12 @@
     "question": "橋を渡り終わったところで、右に曲がって下さい。",
     "answer": "After crossing the bridge, please turn right.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7203a6c7-38de-4a8d-9d18-236bb6dbab4f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

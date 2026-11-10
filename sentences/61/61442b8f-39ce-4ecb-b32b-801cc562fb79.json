@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-324c106e586f9f2fd3b781014cdb7d61429c81a231c57d3782cb485f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-324c106e586f9f2fd3b781014cdb7d61429c81a231c57d3782cb485f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -119,11 +127,12 @@
     "question": "明日のゲームのための作戦を立てました。",
     "answer": "I planned some tactics for the game tomorrow.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "61442b8f-39ce-4ecb-b32b-801cc562fb79",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

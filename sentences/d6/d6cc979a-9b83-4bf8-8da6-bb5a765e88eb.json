@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fea86a763a4c06f6ee4758a1f8b6306924b676842f946ef7890ab06c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fea86a763a4c06f6ee4758a1f8b6306924b676842f946ef7890ab06c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "人類学"
@@ -212,11 +220,12 @@
     "question": "この本を書いたのは日本で人類学を学んだモンゴル人の方だそうです。",
     "answer": "According to the source, the book was written by a Mongolian who had studied anthropology in Japan.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d6cc979a-9b83-4bf8-8da6-bb5a765e88eb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

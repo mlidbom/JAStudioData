@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-48b52781c1addf7907b1bef76ad77a66c0a8f367e929518d290f4c59.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-48b52781c1addf7907b1bef76ad77a66c0a8f367e929518d290f4c59.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "広い"
@@ -86,11 +94,12 @@
     "question": "友人のアパートは中々広いです。",
     "answer": "My friend's apartment is quite spacious.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8ded58e4-8bbe-4bc3-9507-98b0a4f4b437",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

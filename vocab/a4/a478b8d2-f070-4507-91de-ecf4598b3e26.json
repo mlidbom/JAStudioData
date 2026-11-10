@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-d76ab85a34e6735151fb20dfd9b4e58b99e97ddd64cf28491c92b224.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-d76ab85a34e6735151fb20dfd9b4e58b99e97ddd64cf28491c92b224.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "べなくなる",
@@ -84,8 +90,7 @@
   "sentenceCount": 25,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {
       "godanPotential": "required",
@@ -115,7 +120,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "a478b8d2-f070-4507-91de-ecf4598b3e26",
   "tags": [

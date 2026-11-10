@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-aecbf07240611c0d7291c49262f1f7f7eefa12fc4caf7ccad5d7b242.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-aecbf07240611c0d7291c49262f1f7f7eefa12fc4caf7ccad5d7b242.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "倒れる"
@@ -240,11 +248,12 @@
     "question": "起きたら家の前に、木が倒れていたんです。おそらく風で倒れたんでしょうね。",
     "answer": "When I woke up, a tree had fallen in front of my house. It was probably toppled by the wind.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d3832c0d-ee1a-4c55-beeb-5a8a2361ad94",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

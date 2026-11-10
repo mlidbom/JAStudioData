@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1b334850e24beb9423e5dc9b6f8067bcd88b7a1a2107bc3bdcf9afd9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1b334850e24beb9423e5dc9b6f8067bcd88b7a1a2107bc3bdcf9afd9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鬱陶しい"
@@ -65,11 +73,12 @@
     "question": "鬱陶しい雨が続いてるね。",
     "answer": "The gloomy rain has been persisting, hasn't it?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2ec7bf0b-d1f3-4707-a746-fb8c942e16d3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

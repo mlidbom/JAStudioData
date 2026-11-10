@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-da9d15a251177b28bc93c37b93e2b791c74f604819ab299120f0090e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-da9d15a251177b28bc93c37b93e2b791c74f604819ab299120f0090e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "〜県"
@@ -72,11 +80,12 @@
     "question": "何県の出身ですか。",
     "answer": "What prefecture are you from?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2d8872af-8a5a-48ad-bc00-9321df2a3b66",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

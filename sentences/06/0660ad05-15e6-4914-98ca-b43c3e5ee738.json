@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7b0eca999c28653e90a5938b43aa57907404a78e467af4d7d5dabc31.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7b0eca999c28653e90a5938b43aa57907404a78e467af4d7d5dabc31.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "神風"
@@ -212,11 +220,12 @@
     "question": "神風のおかげで、日本が大勝利をするミラクルが起きたんだ。",
     "answer": "Thanks to the divine wind, Japan experienced a miraculous victory.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0660ad05-15e6-4914-98ca-b43c3e5ee738",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

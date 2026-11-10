@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8ba6b3e613c172c8c33b62bc6618dffceb2bc14580c4187d03aa0eab.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8ba6b3e613c172c8c33b62bc6618dffceb2bc14580c4187d03aa0eab.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "支払い"
@@ -100,11 +108,12 @@
     "question": "お支払い方法はどうなさいますか？",
     "answer": "How would you like to pay?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b7609eca-7a7a-4c21-912d-5ddca8f8d5b1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

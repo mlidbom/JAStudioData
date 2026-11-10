@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fdd480cb5d787a86715a0c73e24f3a3588917fe9ab50be4c1d57b479.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fdd480cb5d787a86715a0c73e24f3a3588917fe9ab50be4c1d57b479.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "悪口"
@@ -72,11 +80,12 @@
     "question": "それって、悪口じゃなくない？",
     "answer": "It's not considered speaking ill of someone, is it?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a47aa115-56da-4ca5-8928-719c7f3347bd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

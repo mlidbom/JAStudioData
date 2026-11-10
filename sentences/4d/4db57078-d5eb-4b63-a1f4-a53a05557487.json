@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7c95201d27d466e2534d89ff223292ea1a009b4631843c0033f44c89.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7c95201d27d466e2534d89ff223292ea1a009b4631843c0033f44c89.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "岩"
@@ -107,11 +115,12 @@
     "question": "あの岩の上でサンドイッチを食べました。",
     "answer": "I ate a sandwich on that boulder.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4db57078-d5eb-4b63-a1f4-a53a05557487",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

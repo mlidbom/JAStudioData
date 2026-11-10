@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-61e4e6eeaa4e24408e38bd612964ec2713d28ee57cff5250ae858a40.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-61e4e6eeaa4e24408e38bd612964ec2713d28ee57cff5250ae858a40.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "部分"
@@ -128,11 +136,12 @@
     "question": "台風の影響で、水道の一部分が止まっています。",
     "answer": "A part of the water supply has stopped due to the typhoon.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "be1f9572-8767-40c7-b485-af6d6f80691a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

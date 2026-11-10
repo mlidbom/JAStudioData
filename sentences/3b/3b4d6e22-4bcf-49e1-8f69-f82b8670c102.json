@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c20e5059d9202410d460ccf88c3bcf1c38f86d1db492825c8bb2813a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c20e5059d9202410d460ccf88c3bcf1c38f86d1db492825c8bb2813a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "今夜"
@@ -58,11 +66,12 @@
     "question": "ウェディングパーティーは今夜です。",
     "answer": "The wedding party is tonight.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3b4d6e22-4bcf-49e1-8f69-f82b8670c102",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

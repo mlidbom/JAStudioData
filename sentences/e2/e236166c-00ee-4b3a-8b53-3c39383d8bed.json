@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-025c2b9eb345900a1ef82e10922427338ecd11f9a7b6f03b487775c2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-025c2b9eb345900a1ef82e10922427338ecd11f9a7b6f03b487775c2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一生"
@@ -142,11 +150,12 @@
     "question": "あなたは一生、大学一年生でいるつもりですか？",
     "answer": "Are you going to be a freshman in college your whole life?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e236166c-00ee-4b3a-8b53-3c39383d8bed",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-aed153cfabc22dc0057f9451e0d1d8974bd6bfa6bf4e2355f4078270.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-aed153cfabc22dc0057f9451e0d1d8974bd6bfa6bf4e2355f4078270.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "病気"
@@ -163,11 +171,12 @@
     "question": "病気の時は、早くベッドに行って、よく休むことが重要です。",
     "answer": "When you are sick, it is important to go to bed early and have a good rest.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9381c90f-e643-42a4-b3ba-54afc89a4a7a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

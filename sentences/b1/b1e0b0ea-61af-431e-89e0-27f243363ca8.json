@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-604e89fef7e0e024fcb47a799b4d4137c5099880700d1955529f6195.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-604e89fef7e0e024fcb47a799b4d4137c5099880700d1955529f6195.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "存在する"
@@ -163,11 +171,12 @@
     "question": "私は死後の世界は存在すると思います。",
     "answer": "I think that life after death exists.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b1e0b0ea-61af-431e-89e0-27f243363ca8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

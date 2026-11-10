@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-72db810d3e0f9e5bcc040f998298faedf962d68c5bfc27cb3201cce5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-72db810d3e0f9e5bcc040f998298faedf962d68c5bfc27cb3201cce5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "議長"
@@ -86,11 +94,12 @@
     "question": "議長、今日の議題は何ですか？",
     "answer": "Mr. Chairman, what is today's agenda?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "922ad40e-b76c-4f9f-b2b2-3a01b377c776",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e861738a8745279feb3698f4145b1b039bd0811dfe8ce56cc22c3937.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e861738a8745279feb3698f4145b1b039bd0811dfe8ce56cc22c3937.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "数"
@@ -93,11 +101,12 @@
     "question": "このスープに入ってるトマトの数は？",
     "answer": "What is the number of tomatoes in this soup?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8d9dac41-4fc4-4410-a5f5-46fd53d86038",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

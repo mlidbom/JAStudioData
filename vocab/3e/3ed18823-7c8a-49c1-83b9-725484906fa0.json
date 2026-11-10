@@ -21,9 +21,22 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-5da9613d4f233dfc2b34e280cc28b83f893ec58e9fda38db57270ac5.mp3][sound:hypertts-486a9da67f516eaed47c8cf22ab2ce6a322a85a18c05e682f3f533ea.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-5da9613d4f233dfc2b34e280cc28b83f893ec58e9fda38db57270ac5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Google ja-JP-Neural2-B",
+      "voiceGender": "female"
+    },
+    {
+      "fileName": "hypertts-486a9da67f516eaed47c8cf22ab2ce6a322a85a18c05e682f3f533ea.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "乾し",
@@ -41,8 +54,7 @@
   "sentenceCount": 3,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -66,7 +78,9 @@
   "sourceData": {
     "answer": "drying/dried",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "3ed18823-7c8a-49c1-83b9-725484906fa0",
   "tags": [

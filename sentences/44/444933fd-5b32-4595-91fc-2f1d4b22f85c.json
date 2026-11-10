@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-54b5d9065e6783eede552b8d159c0c4726c8fb19fe4ff80cdb769ae3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-54b5d9065e6783eede552b8d159c0c4726c8fb19fe4ff80cdb769ae3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "詠嘆"
@@ -128,11 +136,12 @@
     "question": "和歌でよく使われる「けり」という言葉は、詠嘆の助動詞です。",
     "answer": "The word \"keri,\" often used in waka poetry, is an auxiliary verb of exclamation.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "444933fd-5b32-4595-91fc-2f1d4b22f85c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-2466001f88cae30f34a8b613b8c42144aa17328d9cbf1e49bcb5173f.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-2466001f88cae30f34a8b613b8c42144aa17328d9cbf1e49bcb5173f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "と言うことだ",
@@ -40,8 +46,7 @@
   "sentenceCount": 0,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {
       "surface": "required"
@@ -71,7 +76,9 @@
   "sourceData": {
     "answer": "I've-heard-that-.../rumour-has-it-that-... | it-appears-as-if-...",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "35b5507b-04c4-474e-af34-4432ad78814d",
   "tags": [

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0f600b162be05280a3538442b54657aa9c61be9f4862c80c6a91c901.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0f600b162be05280a3538442b54657aa9c61be9f4862c80c6a91c901.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "授業"
@@ -107,11 +115,12 @@
     "question": "今日は初めて日本語で授業を受けました。",
     "answer": "Today, I had my first class in Japanese.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6e48d0ea-f1cb-435e-9d9f-87137f6489b8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

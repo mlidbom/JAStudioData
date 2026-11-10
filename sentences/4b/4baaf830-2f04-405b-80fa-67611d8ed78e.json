@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-00ca19bb17e7324da8b038a5f4433cce5b6aeef42dbf7be939996488.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-00ca19bb17e7324da8b038a5f4433cce5b6aeef42dbf7be939996488.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "開放する"
@@ -142,11 +150,12 @@
     "question": "月に一回、美術館が市民に無料開放されます。",
     "answer": "Once a month, the museum is open to citizens for free.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4baaf830-2f04-405b-80fa-67611d8ed78e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

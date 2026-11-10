@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a10211c3aa0104e49fff12c3891af10b36baba97b41359fb72e5b393.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a10211c3aa0104e49fff12c3891af10b36baba97b41359fb72e5b393.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "正す"
@@ -100,11 +108,12 @@
     "question": "タスクはシステムエラーを正すことです。",
     "answer": "My task is to correct system errors.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7580221e-8c52-49a6-bef5-6d61a01526ef",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

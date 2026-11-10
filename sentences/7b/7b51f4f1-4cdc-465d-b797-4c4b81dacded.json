@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-17ecd8b2b952d235e1c5a66f0985ba745341692d242456a9893fad9c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-17ecd8b2b952d235e1c5a66f0985ba745341692d242456a9893fad9c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "水彩画"
@@ -107,11 +115,12 @@
     "question": "彼女は素晴らしい水彩画家だそうですよ。",
     "answer": "She is supposed to be an amazing watercolor painter.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7b51f4f1-4cdc-465d-b797-4c4b81dacded",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

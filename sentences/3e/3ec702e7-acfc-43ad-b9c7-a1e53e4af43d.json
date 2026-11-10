@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-873451f47aebcb8f1a56bf355f47177f5771a69b53917fbe9401b6e3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-873451f47aebcb8f1a56bf355f47177f5771a69b53917fbe9401b6e3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "郵便局"
@@ -142,11 +150,12 @@
     "question": "郵便局で切手を十枚買ってきてくれない？",
     "answer": "Could you get ten stamps at the post office for me?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3ec702e7-acfc-43ad-b9c7-a1e53e4af43d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

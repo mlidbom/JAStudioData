@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bea15cdfe75e18a841b904ff99f6f03347afead3f64cd85051c7dec1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bea15cdfe75e18a841b904ff99f6f03347afead3f64cd85051c7dec1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "古い"
@@ -58,11 +66,12 @@
     "question": "このドレスは古いです。",
     "answer": "This dress is old.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "328b0f4d-6cc3-41c3-b4b4-74fa607eadab",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

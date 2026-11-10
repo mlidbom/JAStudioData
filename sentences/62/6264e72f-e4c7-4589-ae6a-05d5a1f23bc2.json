@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-44b11e4692951e0d557bdb0f41ef4def6f06ad1705d29c8a09f98d71.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-44b11e4692951e0d557bdb0f41ef4def6f06ad1705d29c8a09f98d71.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "親"
@@ -128,11 +136,12 @@
     "question": "親にサインをもらわないといけない。",
     "answer": "I have to get a signature from my parents.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6264e72f-e4c7-4589-ae6a-05d5a1f23bc2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

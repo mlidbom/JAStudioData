@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-63ca5b5c4b76b6a1fb01c77f091810da1b59326b521381d466a8e080.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-63ca5b5c4b76b6a1fb01c77f091810da1b59326b521381d466a8e080.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "改める"
@@ -107,11 +115,12 @@
     "question": "その考え方は改めた方がいいよ。",
     "answer": "You should correct that way of thinking.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9acfcaf9-debe-474d-8a00-e67a9d7798c6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

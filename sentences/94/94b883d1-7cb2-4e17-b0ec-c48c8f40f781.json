@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1d7d858b5dd76d7cc517bd4c56b298e3da0106356cfa523ff661d56c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1d7d858b5dd76d7cc517bd4c56b298e3da0106356cfa523ff661d56c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "選ぶ"
@@ -86,11 +94,12 @@
     "question": "色々ありすぎて選べないよ！",
     "answer": "There are too many choices, and I can't decide!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "94b883d1-7cb2-4e17-b0ec-c48c8f40f781",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

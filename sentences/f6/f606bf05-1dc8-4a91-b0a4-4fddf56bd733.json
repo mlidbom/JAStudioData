@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a33b528b2ac289a5657a950e71aeed8d8e56a614d0ea3bd9eccee574.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a33b528b2ac289a5657a950e71aeed8d8e56a614d0ea3bd9eccee574.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "述べる"
@@ -121,11 +129,12 @@
     "question": "ビエトは自著の中で、ヤクザの歴史について述べた。",
     "answer": "Viet explained the history of Yakuza in his own literary work.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f606bf05-1dc8-4a91-b0a4-4fddf56bd733",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-90cec7cea49e7e9ff7ec59e94583dd4cb23cc38b554ab37d41147da1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-90cec7cea49e7e9ff7ec59e94583dd4cb23cc38b554ab37d41147da1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "洗濯する"
@@ -289,11 +297,12 @@
     "question": "「俺のワイシャツ、今洗濯してる？」「ああ、それなら口紅が付いていたので洗濯屋さんに出しておいたわよ。」",
     "answer": "\"Is my white shirt in the wash?\" \"Oh, that one had lipstick on it, so I took it to the cleaners.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "429c7588-6d8d-4111-b909-1f8acc49366d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

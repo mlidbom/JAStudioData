@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-25d19de9c9ac2212417d4cca18541a4f63ace63d502ce8ae88a8c8cd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-25d19de9c9ac2212417d4cca18541a4f63ace63d502ce8ae88a8c8cd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "切り取る"
@@ -121,11 +129,12 @@
     "question": "こうやってハートの形を切り取るんです。",
     "answer": "This is how we cut out the heart shape.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bcc69078-17a5-4c80-ade0-e98bbc1e0d8f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

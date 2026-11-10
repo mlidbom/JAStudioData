@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-aec966c8543bedbd7ff7e30e3b37d86cfa4ee6bf63c1baf466c71123.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-aec966c8543bedbd7ff7e30e3b37d86cfa4ee6bf63c1baf466c71123.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "胸焼け"
@@ -240,11 +248,12 @@
     "question": "コーヒーの飲みすぎは胸焼けを引き起こすことがあるので注意してください。",
     "answer": "Be careful not to drink too much coffee as it can cause heartburn.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2c38c53b-e46f-447f-bb7e-524c3778594a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f1b18d010177fdc96a1b677b18b2d321c3a83994274fd29249bb9994.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f1b18d010177fdc96a1b677b18b2d321c3a83994274fd29249bb9994.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "悪夢"
@@ -107,11 +115,12 @@
     "question": "夜中に悪夢で目が覚めました。",
     "answer": "I woke up in the middle of the night with a nightmare.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "878c4620-3906-4865-b6cd-25af0e842bf1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

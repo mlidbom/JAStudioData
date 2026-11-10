@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5ee5c74193af6432910e010bd7c210dad5bd7955aff218d63e6fba2e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5ee5c74193af6432910e010bd7c210dad5bd7955aff218d63e6fba2e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "約束"
@@ -149,11 +157,12 @@
     "question": "すいません、その日は他に約束があるんです。",
     "answer": "I'm sorry, I have another commitment on that day.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2ac99970-d267-4b9c-9330-476c53060044",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-110aa2a66f7e9bb8b23d236763002974d85006d36e3f45a6528e891a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-110aa2a66f7e9bb8b23d236763002974d85006d36e3f45a6528e891a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "土地"
@@ -142,11 +150,12 @@
     "question": "ここは、あなたの土地ではありません。",
     "answer": "This isn’t your land.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3e5a0757-3cf5-4cda-b973-902d279e6242",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

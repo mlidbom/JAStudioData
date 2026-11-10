@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d537966b0dfc3709cd80facd756ceb929bbd2b1f1f50babe46a35e00.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d537966b0dfc3709cd80facd756ceb929bbd2b1f1f50babe46a35e00.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "忌まわしい"
@@ -121,11 +129,12 @@
     "question": "この忌まわしい記憶をどうか消し去ってください。",
     "answer": "Please erase this disgusting memory somehow.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b2183366-c58c-43c3-83de-b4000161c722",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

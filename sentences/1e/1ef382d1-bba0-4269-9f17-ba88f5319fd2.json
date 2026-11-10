@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0744b90d2530104afc22e5903d5c39c573ae04292cbcde276629cb4a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0744b90d2530104afc22e5903d5c39c573ae04292cbcde276629cb4a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "伐採"
@@ -121,11 +129,12 @@
     "question": "森林を伐採する際は、事前に届け出が必要です。",
     "answer": "Notification is necessary before felling a forest.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1ef382d1-bba0-4269-9f17-ba88f5319fd2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

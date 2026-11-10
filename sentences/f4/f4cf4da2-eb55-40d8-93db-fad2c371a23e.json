@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c5255ea7d0e24127d7efc17bcbc6d4cf8bad95e4477f4cf10711ec6e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c5255ea7d0e24127d7efc17bcbc6d4cf8bad95e4477f4cf10711ec6e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "疲れる"
@@ -135,11 +143,12 @@
     "question": "うちの犬はおじいちゃんなので、すぐ疲れるんです。",
     "answer": "My dog is an old man and gets tired easily.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f4cf4da2-eb55-40d8-93db-fad2c371a23e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

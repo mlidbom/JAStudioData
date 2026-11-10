@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-403ead6089eee265c32b36a634e85e761d9eadc02a470c27c91dea8c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-403ead6089eee265c32b36a634e85e761d9eadc02a470c27c91dea8c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "統合"
@@ -128,11 +136,12 @@
     "question": "この教科書は、色々な学習教材を統合したものです。",
     "answer": "This textbook is an integration of various learning materials.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d0d4376b-44a4-4146-ab51-8db474c769b4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

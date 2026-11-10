@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cbb6c8f3d13634d954edc4e529cc702cb1dfc360df880013f7fa32b8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cbb6c8f3d13634d954edc4e529cc702cb1dfc360df880013f7fa32b8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "桑畑"
@@ -121,11 +129,12 @@
     "question": "私の地元には、桑畑があちこちにあります。",
     "answer": "Mulberry fields are everywhere in my hometown.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "205abcea-4a9d-41bb-b264-00b84e3a53da",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

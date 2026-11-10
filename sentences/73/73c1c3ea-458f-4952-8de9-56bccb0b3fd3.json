@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f15c8ee7dac21a53b1fc27695365f77ef0acd552ccf61462c93ce3aa.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f15c8ee7dac21a53b1fc27695365f77ef0acd552ccf61462c93ce3aa.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "正しい"
@@ -128,11 +136,12 @@
     "question": "入り口の正しい入り方をおしえてあげましょうか？",
     "answer": "Would you like me to show you how to enter an entrance properly?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "73c1c3ea-458f-4952-8de9-56bccb0b3fd3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

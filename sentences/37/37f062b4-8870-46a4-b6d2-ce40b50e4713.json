@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9ff68855c01a1cecd6f2b1d4e5681bea0171d283349fab11e68bcfc3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9ff68855c01a1cecd6f2b1d4e5681bea0171d283349fab11e68bcfc3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "最後"
@@ -156,11 +164,12 @@
     "question": "お前に金をやるのは、これが最後だ。分かったか？",
     "answer": "This is the last time I give you money. Got it?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "37f062b4-8870-46a4-b6d2-ce40b50e4713",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

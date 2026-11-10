@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-759b9ac2ba03e17e0c861acfcd56c1bd6fd11fc21f679b622cf449a2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-759b9ac2ba03e17e0c861acfcd56c1bd6fd11fc21f679b622cf449a2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "面接"
@@ -163,11 +171,12 @@
     "question": "面接する場所はポートランドのオフィスになりますが、よろしいですか？",
     "answer": "The location of the interview will be at our office in Portland. Is that okay?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "99215509-8395-4424-b88f-956ece23d9ec",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

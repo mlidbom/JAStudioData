@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4b47002794263407de531bce43fcb0814b2d0b6002827a30a2e02fde.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4b47002794263407de531bce43fcb0814b2d0b6002827a30a2e02fde.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大文字"
@@ -79,11 +87,12 @@
     "question": "タイトルは、全て大文字でおねがいします。",
     "answer": "All uppercase letters for the title, please.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1a64a452-5be4-4e8d-9bc2-bbca2a4461e8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

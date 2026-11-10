@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ca0a540c25147eff439508e464bcb01f9f7a162b00d4e70a72491f5c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ca0a540c25147eff439508e464bcb01f9f7a162b00d4e70a72491f5c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "訪問"
@@ -121,11 +129,12 @@
     "question": "もうちょっと安い訪問サービスはないんですか？",
     "answer": "Don't you have a home-visit care service that is a bit cheaper?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ce98af41-e83f-4563-a73c-ce11cc087552",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

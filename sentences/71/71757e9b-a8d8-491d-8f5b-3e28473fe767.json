@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-077a836e0b1c1f4de3c1277816e73b1797130710dfb1fb03a14218ea.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-077a836e0b1c1f4de3c1277816e73b1797130710dfb1fb03a14218ea.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "本屋"
@@ -233,11 +241,12 @@
     "question": "私は新しい本を買うために、前の日から本屋の前でキャンプをしました。",
     "answer": "I camped out in front of the bookstore a day early in order to buy a new book.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "71757e9b-a8d8-491d-8f5b-3e28473fe767",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-abc0760b246286659ab4523e169345d32361e1b3b39b92bff93cd3dd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-abc0760b246286659ab4523e169345d32361e1b3b39b92bff93cd3dd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "丁度"
@@ -212,11 +220,12 @@
     "question": "あら！今丁度あなたに電話をしようと思っていたところよ！",
     "answer": "Oh! I was planning to call you just now!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "954d50a4-d01c-4560-afec-3ed8e3c767b8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

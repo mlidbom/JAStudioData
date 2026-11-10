@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-eb6757f2bca5a04589b1bbc46172d8c333adf6f895539b814cc1e5e3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-eb6757f2bca5a04589b1bbc46172d8c333adf6f895539b814cc1e5e3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "携帯電話"
@@ -184,11 +192,12 @@
     "question": "「あなたの携帯電話をお借りしてもいいですか？」「ええ、どうぞ。」",
     "answer": "\"May I use your cell phone?\" \"Sure, go ahead.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b631d93e-eabb-4022-9336-64bc67a87267",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-72ebe3a2048834fca0d9823ec064ffd53dbc0670957380c2c48c382a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-72ebe3a2048834fca0d9823ec064ffd53dbc0670957380c2c48c382a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "詐欺"
@@ -205,11 +213,12 @@
     "question": "うちのお婆ちゃん、オレオレ詐欺にあって、百万円を騙し取られたんだ。",
     "answer": "My grandmother was cheated out of one million yen in an imposter scam.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "73d58edd-6b7e-45a6-86b0-cb1fe8b41937",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

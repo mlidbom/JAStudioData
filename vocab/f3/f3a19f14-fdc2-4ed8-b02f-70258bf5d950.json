@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-39d3045b0317632ac2a7791c9fb26dba9fd3b5a9e564223bb51f9187.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-39d3045b0317632ac2a7791c9fb26dba9fd3b5a9e564223bb51f9187.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "けがする",
@@ -56,8 +62,7 @@
   "sentenceCount": 32,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -81,7 +86,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "f3a19f14-fdc2-4ed8-b02f-70258bf5d950",
   "tags": [

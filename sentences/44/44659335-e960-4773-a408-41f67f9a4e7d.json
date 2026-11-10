@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dd376e57e9c1672bd47cfcf75d83425ff33cf08eb20fb6b675adbfbb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dd376e57e9c1672bd47cfcf75d83425ff33cf08eb20fb6b675adbfbb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "注文する"
@@ -142,11 +150,12 @@
     "question": "銀色のラメの入ったラッピングペーパーを注文しました。",
     "answer": "I ordered wrapping paper covered in silver glitter.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "44659335-e960-4773-a408-41f67f9a4e7d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

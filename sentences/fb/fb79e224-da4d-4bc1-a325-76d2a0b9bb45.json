@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1b604cfe1b09d5c15ce5971b288ed3ce6a0739fbbe1bf5fafa64abcd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1b604cfe1b09d5c15ce5971b288ed3ce6a0739fbbe1bf5fafa64abcd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "懇意"
@@ -233,11 +241,12 @@
     "question": "その弁護士さんとはもう何十年も懇意にしていましてね。",
     "answer": "I’ve been close to that lawyer for decades.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fb79e224-da4d-4bc1-a325-76d2a0b9bb45",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e500fe50ef29faa7601ebfadb10db3ddb6f94e22ab64df818b41aa0d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e500fe50ef29faa7601ebfadb10db3ddb6f94e22ab64df818b41aa0d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "暗記する"
@@ -212,11 +220,12 @@
     "question": "明日までに、台本のセリフを暗記しなければいけないんです。",
     "answer": "I have to memorize my lines from the script by tomorrow.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1dcc2fef-4c83-406a-af88-22a7e20324b5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

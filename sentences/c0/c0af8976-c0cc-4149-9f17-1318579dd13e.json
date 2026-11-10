@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-686d1a6884a2c5b69dc625abb7c75724843d1fc040a3ac19bac66e10.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-686d1a6884a2c5b69dc625abb7c75724843d1fc040a3ac19bac66e10.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "寝不足"
@@ -359,11 +367,12 @@
     "question": "「今日も残業するつもりなの？」「えっと…ですね、今日は寝不足なのでどちらかというと早く上がりたいと思っています。」",
     "answer": "\"So are you going to work overtime again today?\" \"Well actually, I was kind of hoping to get off work early today because I’ve been missing out on a lot of sleep.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c0af8976-c0cc-4149-9f17-1318579dd13e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

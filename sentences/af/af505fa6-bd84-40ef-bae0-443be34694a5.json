@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-65e97521f56ee7b1b67a6e6e7c2ded273e0d41a1107383d4223c7808.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-65e97521f56ee7b1b67a6e6e7c2ded273e0d41a1107383d4223c7808.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "学生"
@@ -156,11 +164,12 @@
     "question": "不正な学生ビザを用いて日本に来る人々もいます。",
     "answer": "Some people come to Japan on fraudulent student visas.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "af505fa6-bd84-40ef-bae0-443be34694a5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

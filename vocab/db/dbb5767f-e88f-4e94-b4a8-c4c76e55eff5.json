@@ -17,9 +17,15 @@
   "partsOfSpeech": [],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-75a7ce41cec83a8bf2e9dfbee4e8af16708c4df37f33403dda71ac17.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-75a7ce41cec83a8bf2e9dfbee4e8af16708c4df37f33403dda71ac17.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "までです",
@@ -29,8 +35,7 @@
   "sentenceCount": 20,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -56,7 +61,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "dbb5767f-e88f-4e94-b4a8-c4c76e55eff5",
   "tags": [

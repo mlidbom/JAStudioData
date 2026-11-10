@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-82149f24edbae8872dbf75fab848c284c0ddd646a5544c9695815803.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-82149f24edbae8872dbf75fab848c284c0ddd646a5544c9695815803.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "飲む"
@@ -79,11 +87,12 @@
     "question": "母は毎日お茶を飲む。",
     "answer": "My mother drinks tea every day.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5f16cdde-64e5-4cc2-9a29-8865ba074f21",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

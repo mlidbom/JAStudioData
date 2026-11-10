@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e0b56dc53b587e58704aa1f14095edb20ecea4208c8354af0680346a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e0b56dc53b587e58704aa1f14095edb20ecea4208c8354af0680346a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "怒り"
@@ -100,11 +108,12 @@
     "question": "私の怒りは三分以上続かない。",
     "answer": "My anger will not go on for more than three minutes. ",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9863ee30-0ecf-4d74-ad96-3a89ae2d49eb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

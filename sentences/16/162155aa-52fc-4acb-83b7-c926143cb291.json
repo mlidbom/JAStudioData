@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d1b0b73335aab98635f74e9f6cb1788a96e54eb5a540ed75994d61bb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d1b0b73335aab98635f74e9f6cb1788a96e54eb5a540ed75994d61bb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "明るい"
@@ -93,11 +101,12 @@
     "question": "カーテンから入る日の光が明るい。",
     "answer": "The light of the sun coming from the curtain is bright.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "162155aa-52fc-4acb-83b7-c926143cb291",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

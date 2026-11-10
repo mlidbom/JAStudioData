@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6acb63acd708239089c0ca022c73b4aa47332787f61bee6b0c1e4803.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6acb63acd708239089c0ca022c73b4aa47332787f61bee6b0c1e4803.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "論文"
@@ -156,11 +164,12 @@
     "question": "大学の卒業論文のテーマは何だったんですか？",
     "answer": "What was the theme of your college graduation thesis?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "516dbff3-c248-4af7-b7c4-524a2b391aea",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

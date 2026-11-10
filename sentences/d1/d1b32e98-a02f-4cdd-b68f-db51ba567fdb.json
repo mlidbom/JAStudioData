@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a3f5b1d4de2c57d22eee51fc637db0f3792d1843cf74c1c8775d3282.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a3f5b1d4de2c57d22eee51fc637db0f3792d1843cf74c1c8775d3282.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お酒"
@@ -107,11 +115,12 @@
     "question": "このドリンクはお酒が入ってますか？",
     "answer": "Does this drink contain alcohol?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d1b32e98-a02f-4cdd-b68f-db51ba567fdb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

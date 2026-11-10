@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-9cc0e1dae39812e45eb9282fdf8bcb667344f264c18134fed10f9c58.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-9cc0e1dae39812e45eb9282fdf8bcb667344f264c18134fed10f9c58.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "失くした",
@@ -44,8 +50,7 @@
   "sentenceCount": 15,
   "technicalNotes": "Janome frequently fails to recognize this word in the past tense.",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {
       "surface": "required"
@@ -71,7 +76,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "fbd7f8be-b811-4311-bdbb-8be947b54279",
   "tags": [

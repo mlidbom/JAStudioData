@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-16f1012ec616a96a874b8a59219d553980ea874dfd03f8b09ef8a8f4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-16f1012ec616a96a874b8a59219d553980ea874dfd03f8b09ef8a8f4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "暴走族"
@@ -107,11 +115,12 @@
     "question": "暴走族は、アライグマをひいたことを認めた。",
     "answer": "The motorcycle gang confessed that they had run over the raccoon.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "64982ebd-2efd-47a8-80d9-f779eca4e5c4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

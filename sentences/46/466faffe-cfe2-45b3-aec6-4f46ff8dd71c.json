@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-55ff99012641aa02a4825aea4893a8c92a85a8dbbfac88072576f5d6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-55ff99012641aa02a4825aea4893a8c92a85a8dbbfac88072576f5d6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "全国"
@@ -93,11 +101,12 @@
     "question": "日本全国の山に行きたいです。",
     "answer": "I want to go to mountains all over Japan.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "466faffe-cfe2-45b3-aec6-4f46ff8dd71c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

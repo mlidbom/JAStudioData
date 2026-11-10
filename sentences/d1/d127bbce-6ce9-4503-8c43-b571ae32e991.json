@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-42a1373dceef20035dfa5efd2646e9bf9ab8d036b3f7780e2d993284.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-42a1373dceef20035dfa5efd2646e9bf9ab8d036b3f7780e2d993284.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "適当"
@@ -100,11 +108,12 @@
     "question": "適当な答えを選んでください。",
     "answer": "Please choose the appropriate answer.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d127bbce-6ce9-4503-8c43-b571ae32e991",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

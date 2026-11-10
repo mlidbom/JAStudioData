@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4ceb7dc7d9fe7b7be8f7e0617426492ed63a6783cbf4a3daecd1ffb0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4ceb7dc7d9fe7b7be8f7e0617426492ed63a6783cbf4a3daecd1ffb0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "曲線"
@@ -135,11 +143,12 @@
     "question": "この道は曲線が多くて車で走るのがむずかしいです。",
     "answer": "This road has a lot of curves and it is difficult to drive by car.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4ef0716a-b5a6-4876-bfc1-c790410046a2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

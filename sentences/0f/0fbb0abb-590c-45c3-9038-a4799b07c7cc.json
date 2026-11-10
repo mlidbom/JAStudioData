@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-39a299710f14cbce79c952914b0e9e181903d530f3faa48c06d1c58a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-39a299710f14cbce79c952914b0e9e181903d530f3faa48c06d1c58a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "画面"
@@ -177,11 +185,12 @@
     "question": "最近、よく犬の画像が自動で画面に出てくるんです。",
     "answer": "Lately, images of dogs often pop up on my screen automatically.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0fbb0abb-590c-45c3-9038-a4799b07c7cc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

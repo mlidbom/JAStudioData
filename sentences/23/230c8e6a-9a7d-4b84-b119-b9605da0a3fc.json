@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a6f1a71aca5f1dca6858dfca31df068503777db0a73f775fc664d5af.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a6f1a71aca5f1dca6858dfca31df068503777db0a73f775fc664d5af.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "裏通り"
@@ -184,11 +192,12 @@
     "question": "レーシングカーは、裏通りを縫うようにして走っていった。",
     "answer": "The race car sped, weaving through the side streets.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "230c8e6a-9a7d-4b84-b119-b9605da0a3fc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

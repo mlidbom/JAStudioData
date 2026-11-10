@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-88c21390961acb4af3e9b2de9af99a4dcced737a308d24784a0c6e9b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-88c21390961acb4af3e9b2de9af99a4dcced737a308d24784a0c6e9b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "濡らす"
@@ -149,11 +157,12 @@
     "question": "大事なUSBなので、コーヒーや水で濡らさないで下さいね。",
     "answer": "This USB is important, so please be careful not to get it wet with coffee or water.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bc158e82-ded5-4ddf-b11c-9714cd127b93",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

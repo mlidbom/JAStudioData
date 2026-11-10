@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-be29bf56c7d64ef58f63ff74703f2bd1614c5ab74af1d506f308617e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-be29bf56c7d64ef58f63ff74703f2bd1614c5ab74af1d506f308617e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "飛ぶ"
@@ -184,11 +192,12 @@
     "question": "公園につくと、たくさんのシャボン玉が飛んでいました。",
     "answer": "When I arrived at the park, I saw many bubbles flying around.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ac3ee781-8ad5-4502-aa41-bab95de6dd88",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

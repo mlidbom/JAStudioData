@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e2ae93d452a8d0475bdb01fac8992c75b17859d0bdb1d6a336404dc6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e2ae93d452a8d0475bdb01fac8992c75b17859d0bdb1d6a336404dc6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "火山"
@@ -58,11 +66,12 @@
     "question": "ふじ山は、火山です。",
     "answer": "Mt. Fuji is a volcano.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "186e2267-392d-4419-9fb5-f60a9f965d52",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

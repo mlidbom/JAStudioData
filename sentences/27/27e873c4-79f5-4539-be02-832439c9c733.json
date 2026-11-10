@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d1a5075a6ea797dcda0dede1d193cd911aa5e705ee588a3ae524713d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d1a5075a6ea797dcda0dede1d193cd911aa5e705ee588a3ae524713d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "信徒"
@@ -156,11 +164,12 @@
     "question": "ワニカニの信徒数は、今、何人くらいだと思いますか？",
     "answer": "About how many WaniKani believers do you think there now?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "27e873c4-79f5-4539-be02-832439c9c733",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

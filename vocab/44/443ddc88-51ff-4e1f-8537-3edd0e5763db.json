@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-2503d627b0bdbfb2c49d8bfb347845a3889d8dc7bc5c9f8a4fda5a5c.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-2503d627b0bdbfb2c49d8bfb347845a3889d8dc7bc5c9f8a4fda5a5c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "何だこれは",
@@ -44,8 +50,7 @@
   "sentenceCount": 6,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -69,7 +74,9 @@
   "sourceData": {
     "answer": "what-on-Earth-is-this?",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "443ddc88-51ff-4e1f-8537-3edd0e5763db",
   "tags": [

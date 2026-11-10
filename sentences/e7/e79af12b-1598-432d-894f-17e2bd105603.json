@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8369fced58f07103efcbfbb5bf56cb4ebf0665acce9f7749823693c8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8369fced58f07103efcbfbb5bf56cb4ebf0665acce9f7749823693c8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一斗缶"
@@ -142,11 +150,12 @@
     "question": "この一斗缶をあそこのコーナーに積んでください。",
     "answer": "Please stack these eighteen-liter containers in the corner over there.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e79af12b-1598-432d-894f-17e2bd105603",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

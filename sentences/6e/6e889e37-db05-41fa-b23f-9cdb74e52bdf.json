@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-aa870c1462c96aa237a2b836c19193230584021c50190f22b5b69793.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-aa870c1462c96aa237a2b836c19193230584021c50190f22b5b69793.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "電池"
@@ -72,11 +80,12 @@
     "question": "この電池は大きすぎます。",
     "answer": "This battery is too big.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6e889e37-db05-41fa-b23f-9cdb74e52bdf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e408eb2599a600a564f6f5efb16074aec3c7633248bca15be2fb5f59.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e408eb2599a600a564f6f5efb16074aec3c7633248bca15be2fb5f59.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "除く"
@@ -163,11 +171,12 @@
     "question": "赤い紙を除く全ての紙を、その折り目まで折ってください。",
     "answer": "Fold all the papers, excluding the red one, to meet the crease.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f80528fe-04d8-4f23-809a-6a7e9cef9eef",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

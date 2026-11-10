@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c695ac21bbc306c6c8ec9d5e482b34f78029bf873cbe7dfbd19bd4b3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c695ac21bbc306c6c8ec9d5e482b34f78029bf873cbe7dfbd19bd4b3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "出口"
@@ -51,11 +59,12 @@
     "question": "出口はあちらです。",
     "answer": "The exit is over there.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b0f7abf8-66b6-485c-a863-0d2a04198368",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

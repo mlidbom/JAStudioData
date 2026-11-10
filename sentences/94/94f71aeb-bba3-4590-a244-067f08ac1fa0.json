@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2f9c48a16ae82890134a41ba5acf5a616077f62320ad03b948c8154c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2f9c48a16ae82890134a41ba5acf5a616077f62320ad03b948c8154c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "実感"
@@ -184,11 +192,12 @@
     "question": "母が死んだという知らせを聞いても、すぐには実感できなかった。",
     "answer": "Even when I heard the news that my mother died, it didn't feel real at first.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "94f71aeb-bba3-4590-a244-067f08ac1fa0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6e804c9459e518062e618ad21268e497fa74e06ba3c40f5d4c54f3e0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6e804c9459e518062e618ad21268e497fa74e06ba3c40f5d4c54f3e0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "外交"
@@ -142,11 +150,12 @@
     "question": "アメリカとの外交をリードする人はだれですか？",
     "answer": "Who leads diplomacy with the United States?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "36a4ae13-7471-46d2-9833-3e3e839d6a37",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

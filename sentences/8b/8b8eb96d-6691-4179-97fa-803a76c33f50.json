@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-87482882a04e2cf16de8e086af85358dea012a869384611d94f2e0eb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-87482882a04e2cf16de8e086af85358dea012a869384611d94f2e0eb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "直接"
@@ -205,11 +213,12 @@
     "question": "君と彼が僕のベーコンを食べたって話は、彼から直接聞いたんだよ。",
     "answer": "I heard that you two ate my bacon directly from him.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8b8eb96d-6691-4179-97fa-803a76c33f50",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d90ce6b24f109ceac13a2759ec6357d70df759195126a99b4ba1a0eb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d90ce6b24f109ceac13a2759ec6357d70df759195126a99b4ba1a0eb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "初めて"
@@ -170,11 +178,12 @@
     "question": "初めて会った時から、ずっと気になっていました。",
     "answer": "I've been interested in you since the first time we met.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2acbce63-c8a6-4093-9b5b-f067084f8605",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

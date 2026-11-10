@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7c8c453defa32acd1b644c65cd556b479cebf51606993b6750cf130b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7c8c453defa32acd1b644c65cd556b479cebf51606993b6750cf130b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "番組"
@@ -79,11 +87,12 @@
     "question": "夜は、いつも同じ番組を見ます。",
     "answer": "I always watch the same program at night.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b3790d78-bc45-48e1-98c8-68f1e590095c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

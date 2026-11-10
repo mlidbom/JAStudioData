@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b932d1745ca19cc7323141c1498a9fb22145d6dd7ce41ba5bb4c49e3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b932d1745ca19cc7323141c1498a9fb22145d6dd7ce41ba5bb4c49e3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "本"
@@ -58,11 +66,12 @@
     "question": "この本、下さい。",
     "answer": "This book, please.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9ae28ff8-608f-41c2-ac15-3e17d8ecb2b7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

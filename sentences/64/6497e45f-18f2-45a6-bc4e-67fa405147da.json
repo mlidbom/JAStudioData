@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b9065856a8b179030a6737d7056fd40b53597dd46b24dc9bf5e7a4da.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b9065856a8b179030a6737d7056fd40b53597dd46b24dc9bf5e7a4da.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "昔話"
@@ -163,11 +171,12 @@
     "question": "まるで昔話の中に出てくるプリンセスみたいね。",
     "answer": "You're like a princess that appears in an old tale.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6497e45f-18f2-45a6-bc4e-67fa405147da",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

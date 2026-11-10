@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2fa692f84f23b652aa2e273f07a004c152175ad496a14f1c251b6dc0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2fa692f84f23b652aa2e273f07a004c152175ad496a14f1c251b6dc0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "飴細工"
@@ -100,11 +108,12 @@
     "question": "私の父は飴細工の名人です。",
     "answer": "My father is a master of sugar sculptures.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6c680c54-e7b2-44d0-8454-19896381f867",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

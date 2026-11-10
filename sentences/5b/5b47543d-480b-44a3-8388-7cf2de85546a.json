@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-05c00687f4165ff2a58f7f36a1b925ffef133f315f8de396b55c8fb8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-05c00687f4165ff2a58f7f36a1b925ffef133f315f8de396b55c8fb8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "吐き気"
@@ -184,11 +192,12 @@
     "question": "ビールで最初はいい気分になったんだけど、その後吐き気がひどくてさ。",
     "answer": "The beer made me feel great at first, but later I got awful nausea.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5b47543d-480b-44a3-8388-7cf2de85546a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

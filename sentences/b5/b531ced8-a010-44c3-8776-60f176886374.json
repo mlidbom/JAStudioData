@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-870fadcac7d2023c1d7389ddad43dde532e033e0ff46851aa63b049a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-870fadcac7d2023c1d7389ddad43dde532e033e0ff46851aa63b049a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "書く"
@@ -149,11 +157,12 @@
     "question": "せっかく書いたメモがどこかに行ってしまった。",
     "answer": "The notes I had written down went somewhere.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b531ced8-a010-44c3-8776-60f176886374",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

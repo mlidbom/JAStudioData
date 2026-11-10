@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bd00eda4ae5721ebc41f4cb5f2f56bb61b330ac062f5e0ec41431e57.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bd00eda4ae5721ebc41f4cb5f2f56bb61b330ac062f5e0ec41431e57.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "美術"
@@ -100,11 +108,12 @@
     "question": "よかったら、美術部に入らない？",
     "answer": "Would you like to join the art club?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "45fb0bf4-dcc6-441e-bceb-88e51229ea9c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

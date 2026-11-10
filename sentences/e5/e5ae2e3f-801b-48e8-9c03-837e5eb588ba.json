@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-107e716ddef1dab869c043aa8d93ea8e73f13dc5a63bd86befbe86e5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-107e716ddef1dab869c043aa8d93ea8e73f13dc5a63bd86befbe86e5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "芸術家"
@@ -156,11 +164,12 @@
     "question": "彼は有名な芸術家ではありません。",
     "answer": "He isn't a famous artist.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e5ae2e3f-801b-48e8-9c03-837e5eb588ba",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

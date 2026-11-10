@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a48ee47b480e86c4513719b7a8d6a2e16bcdcc240e89207d41dd3e80.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a48ee47b480e86c4513719b7a8d6a2e16bcdcc240e89207d41dd3e80.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "退く"
@@ -128,11 +136,12 @@
     "question": "オオカミを前にして、ミカは二、三歩退いた。",
     "answer": "Facing the wolf, Mika retreated two or three steps back.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8a0b8388-f0e8-4332-b2dd-65adda7c9f43",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

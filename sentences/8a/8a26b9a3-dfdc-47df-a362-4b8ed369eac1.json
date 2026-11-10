@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c92a7c4759a2e12fc6519ec525f326ea5781805eca71ce74b7e60d36.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c92a7c4759a2e12fc6519ec525f326ea5781805eca71ce74b7e60d36.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "旅券"
@@ -345,11 +353,12 @@
     "question": "万が一のために、旅先ではあらかじめ旅券のコピーをとり、旅券とは別の場所に保管するようにしてください。",
     "answer": "In case of an emergency, please make a photocopy of your passport before your trip and store it in a separate location from your passport.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8a26b9a3-dfdc-47df-a362-4b8ed369eac1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-49a0986cfd713dd32083c06b82d4fa273e177ab19d74be90f92a9e88.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-49a0986cfd713dd32083c06b82d4fa273e177ab19d74be90f92a9e88.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "上る"
@@ -100,11 +108,12 @@
     "question": "サケが川を上っているのをみた。",
     "answer": "I saw a salmon swimming upstream.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d15d9978-a0cb-448d-b736-3717c1160071",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

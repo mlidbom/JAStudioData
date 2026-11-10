@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-81d28b8b4162d4764776ad5ccc14ee413ea6d9714c5704683e4f21f6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-81d28b8b4162d4764776ad5ccc14ee413ea6d9714c5704683e4f21f6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "払い"
@@ -142,11 +150,12 @@
     "question": "漢字は止め、跳ね、払いに注意して書きましょう。",
     "answer": "Kanji characters should be written with attention to the stop, brush-up, and brushing-off strokes.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ed554ca4-61b4-4413-a5ee-ba9c215f1605",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

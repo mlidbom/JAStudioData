@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-be88e6d5b4aad46cffc0691ccb99eda4cebf526994e74cf10d7f42aa.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-be88e6d5b4aad46cffc0691ccb99eda4cebf526994e74cf10d7f42aa.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "心配"
@@ -233,11 +241,12 @@
     "question": "この船の進行方向が西なのか東なのか分からなくて心配になった。",
     "answer": "I was worried because I could not tell whether the ship was heading east or west.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "687ac64c-bfa7-405f-b675-a4da726dcd1e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

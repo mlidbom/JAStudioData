@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-deb1aade4fd4b94b5852e325a6cc69cc3288c6f37d464899e82c44e0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-deb1aade4fd4b94b5852e325a6cc69cc3288c6f37d464899e82c44e0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "整理する"
@@ -191,11 +199,12 @@
     "question": "ちょっと一回、話を整理させてもらっていいかな？",
     "answer": "Can I take a moment to organize your story?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f101e373-d5c9-471e-88e8-9fbac73abf5d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

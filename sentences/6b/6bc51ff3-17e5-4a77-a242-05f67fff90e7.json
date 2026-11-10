@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5123cc38ca0f568aaa51e2b40024bc7b38c340017b4c678e4f4213eb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5123cc38ca0f568aaa51e2b40024bc7b38c340017b4c678e4f4213eb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "日本的"
@@ -219,11 +227,12 @@
     "question": "このウドン屋、ニューヨークにあるのに、日本的なシステムのお店なんだね。",
     "answer": "This udon restaurant, even though it's in New York, operates with a Japanese-style system, right?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6bc51ff3-17e5-4a77-a242-05f67fff90e7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

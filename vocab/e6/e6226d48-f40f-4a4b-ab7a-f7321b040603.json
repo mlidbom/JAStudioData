@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-a97271a37abc34cb6db1f35a419e31a6e4406ec711ef22e2f2f11bee.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-a97271a37abc34cb6db1f35a419e31a6e4406ec711ef22e2f2f11bee.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "傘持",
@@ -40,8 +46,7 @@
   "sentenceCount": 3,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -65,7 +70,9 @@
   "sourceData": {
     "answer": "umbrella-carrier/servant-who-carried-a-long-handled-umbrella-for-a-noble",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "e6226d48-f40f-4a4b-ab7a-f7321b040603",
   "tags": [

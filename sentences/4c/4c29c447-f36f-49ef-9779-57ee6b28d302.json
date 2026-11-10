@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-72216ce36dbe8ca6a46352b2cb49a2259d789d30915c3456cbfb30b5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-72216ce36dbe8ca6a46352b2cb49a2259d789d30915c3456cbfb30b5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "父"
@@ -65,11 +73,12 @@
     "question": "父はドラマーでした。",
     "answer": "My father was a drummer.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4c29c447-f36f-49ef-9779-57ee6b28d302",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7dcecfa4385fc1f741327913fb36cb6b12ada15357889b4be9583aa0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7dcecfa4385fc1f741327913fb36cb6b12ada15357889b4be9583aa0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "医大"
@@ -177,11 +185,12 @@
     "question": "医大の学生がみんな医者になるわけではないですよ。",
     "answer": "Not all students at med school become doctors.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9715a1c9-a12c-4a8a-99d1-d2c593411571",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

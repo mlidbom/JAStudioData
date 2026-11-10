@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f59aded332b8361f6578cd8f47fea94acec06ee4942f4ff6040e4ae1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f59aded332b8361f6578cd8f47fea94acec06ee4942f4ff6040e4ae1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "健康"
@@ -275,11 +283,12 @@
     "question": "会社側が負担する健康保険は、諸手当の中に含まれているのでしょうか。",
     "answer": "Is company-paid health insurance included in the fringe benefits?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "704cf78b-29e3-4eb0-822b-b3f97d8198b2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

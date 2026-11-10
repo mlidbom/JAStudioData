@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e33a0bf4b41c040bd4c406d819e2b807a988aec9c099830329adde12.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e33a0bf4b41c040bd4c406d819e2b807a988aec9c099830329adde12.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "割引"
@@ -275,11 +283,12 @@
     "question": "あの大きな型の冷蔵庫を買いたいんですが、一割でもいいんで割引してもらえませんか。",
     "answer": "I want to buy that large-sized refrigerator. Would you please add a discount? 10% would be enough for me.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bafb08b9-13bc-40cc-b35f-e9a6d24b12e6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

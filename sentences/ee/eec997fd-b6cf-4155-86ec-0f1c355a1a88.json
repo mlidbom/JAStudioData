@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-07162d6193e209d6d1c0a4f53671969414e7648245cb8a2cb12a3699.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-07162d6193e209d6d1c0a4f53671969414e7648245cb8a2cb12a3699.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "第一段"
@@ -121,11 +129,12 @@
     "question": "では、第一段は森さんが読んでください。",
     "answer": "Now, please read the first section, Mr. Mori.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "eec997fd-b6cf-4155-86ec-0f1c355a1a88",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

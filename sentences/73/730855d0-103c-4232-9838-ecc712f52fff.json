@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bc97ff93795c1673ed031d6d644be2cfb2f2ffa1c60524ac19fbf9ef.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bc97ff93795c1673ed031d6d644be2cfb2f2ffa1c60524ac19fbf9ef.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "生地"
@@ -114,11 +122,12 @@
     "question": "このシャツはコットン生地で出来ています。",
     "answer": "This shirt is made of cotton fabric.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "730855d0-103c-4232-9838-ecc712f52fff",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

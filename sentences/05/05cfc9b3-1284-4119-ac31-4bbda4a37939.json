@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b26d6bef9a340f46f240e43dfe38c3297aca7258dd94b3206bcf7087.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b26d6bef9a340f46f240e43dfe38c3297aca7258dd94b3206bcf7087.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "定義"
@@ -156,11 +164,12 @@
     "question": "コウイチは何日もかけて「アメリカ人」を定義した。",
     "answer": "It took Koichi days to define \"Americans.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "05cfc9b3-1284-4119-ac31-4bbda4a37939",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

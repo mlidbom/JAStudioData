@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-27da2625df23e4168d20c807c2f74af30ad9c66cccd9eecf4583606a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-27da2625df23e4168d20c807c2f74af30ad9c66cccd9eecf4583606a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "図説"
@@ -79,11 +87,12 @@
     "question": "この参考書は図説付きです。",
     "answer": "This reference book comes with illustrations.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "400c6139-461b-4312-bb06-4e837ebbbca9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a9e3511c83f637fcf147757fe62c59f9beec5d33407a04fc4adc9194.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a9e3511c83f637fcf147757fe62c59f9beec5d33407a04fc4adc9194.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "色盲"
@@ -93,11 +101,12 @@
     "question": "色盲って治るんですか。",
     "answer": "Can color-blindness be cured?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3869aa35-95d2-4429-a40b-204c45432467",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

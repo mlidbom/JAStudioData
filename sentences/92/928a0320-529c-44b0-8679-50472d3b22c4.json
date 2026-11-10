@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f9537946fb98ec08c27f3e7aa091e58176b4558e57970a5d05e76576.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f9537946fb98ec08c27f3e7aa091e58176b4558e57970a5d05e76576.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "迷惑メール"
@@ -163,11 +171,12 @@
     "question": "迷惑メールが次から次へと送られてくる。",
     "answer": "I get one spam mail after another.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "928a0320-529c-44b0-8679-50472d3b22c4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

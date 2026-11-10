@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b04f325ab0100965a247254cb7cfd5a4ab1cf6f550062e325116b9cd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b04f325ab0100965a247254cb7cfd5a4ab1cf6f550062e325116b9cd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "観る"
@@ -198,11 +206,12 @@
     "question": "その試合を観た時は、確か二十才を過ぎていたと思います。",
     "answer": "I think I was over 20 years old when I watched that match.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7ba38a23-bf1d-4d08-9888-096c6c1c91ca",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

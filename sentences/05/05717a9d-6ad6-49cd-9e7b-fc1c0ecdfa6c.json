@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a962a00badecc2054d62256f4d2422eca1f8adf6c7624e863757242a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a962a00badecc2054d62256f4d2422eca1f8adf6c7624e863757242a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "好む"
@@ -163,11 +171,12 @@
     "question": "うちのネコは一人でいることを好みます。",
     "answer": "My cat prefers to be alone.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "05717a9d-6ad6-49cd-9e7b-fc1c0ecdfa6c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

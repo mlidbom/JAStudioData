@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1c5930e820b758fdb5a9e0a5540eb197f73e9cf9ffdb48f11bf758cd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1c5930e820b758fdb5a9e0a5540eb197f73e9cf9ffdb48f11bf758cd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "官営"
@@ -121,11 +129,12 @@
     "question": "私は官営の工場で働いています。",
     "answer": "I work in a government-owned factory.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0434eb71-f5da-485a-9e0a-d467fccf6685",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f6cf7fb626d6165b56e9e42871377a6a1f36d41fdc91b94dcf0ebfa0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f6cf7fb626d6165b56e9e42871377a6a1f36d41fdc91b94dcf0ebfa0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "淡水"
@@ -205,11 +213,12 @@
     "question": "金魚は淡水魚だから、水槽に塩を入れてはいけませんよ。",
     "answer": "Goldfish are freshwater fish so you shouldn’t put salt in the tank.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7419c905-a4a2-448c-8761-37c435548ab0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d15b49abeae486429c7f1fe4ad0b136f3fdb410a669664a4ac18d13c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d15b49abeae486429c7f1fe4ad0b136f3fdb410a669664a4ac18d13c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "狼男"
@@ -79,11 +87,12 @@
     "question": "また狼男が出たらしい。",
     "answer": "I heard that another werewolf had appeared.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "76e4474c-cb2b-441e-acc6-6ff3c1802150",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

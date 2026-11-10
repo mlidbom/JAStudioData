@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-01e07c11c1e7a9150a4c8e9f452808cdd516d60412a5fb96f4b78a96.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-01e07c11c1e7a9150a4c8e9f452808cdd516d60412a5fb96f4b78a96.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お前"
@@ -107,11 +115,12 @@
     "question": "お前は一体ここで何してるんだ？",
     "answer": "What the hell are you doing here?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "14dfa4b6-d4ca-411f-b526-cf3978d13f99",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

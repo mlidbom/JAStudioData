@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-eab91559a65b97213c25e2c54d502ad6d27b8a564edf406ec31466a8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-eab91559a65b97213c25e2c54d502ad6d27b8a564edf406ec31466a8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "見方"
@@ -72,11 +80,12 @@
     "question": "このチャートの見方、分かる？",
     "answer": "Do you know how to look at this chart?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "760f2bac-f897-4e4b-9f23-ed23578505e7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-86d28ea779b63a19b94f2d261b3d180604321e1ba0dc6e2026c7bbe1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-86d28ea779b63a19b94f2d261b3d180604321e1ba0dc6e2026c7bbe1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "減法"
@@ -191,11 +199,12 @@
     "question": "私は数学者で、大学で数学の減法を研究しています。",
     "answer": "I am a mathematician and am studying mathematical subtraction in college.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cdc91c34-6ad5-45b8-a132-d3c12f99732d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

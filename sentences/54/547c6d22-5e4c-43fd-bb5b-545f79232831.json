@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1a166ea0ee5bc643fb803816bbc0e1904f29800671b59199e8159bf4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1a166ea0ee5bc643fb803816bbc0e1904f29800671b59199e8159bf4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "三冊"
@@ -121,11 +129,12 @@
     "question": "この図書館では、本は三冊まで借りれます。",
     "answer": "In this library, you can borrow up to three books.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "547c6d22-5e4c-43fd-bb5b-545f79232831",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

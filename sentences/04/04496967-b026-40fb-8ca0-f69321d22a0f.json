@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5ff160b21e4b921f7c7d4b1460e225e9f6adf155b362343ef479149a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5ff160b21e4b921f7c7d4b1460e225e9f6adf155b362343ef479149a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "年下"
@@ -86,11 +94,12 @@
     "question": "このクラスは年下の子が多いです。",
     "answer": "This class has many younger children.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "04496967-b026-40fb-8ca0-f69321d22a0f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

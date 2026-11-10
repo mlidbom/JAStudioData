@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e512ad3c8090057fd2c736b9b03dcdec8e805c921112ab077dc39f2d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e512ad3c8090057fd2c736b9b03dcdec8e805c921112ab077dc39f2d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鈍い"
@@ -205,11 +213,12 @@
     "question": "現在妊娠中で、お腹に時々鈍い痛みを感じるんですが、これは普通ですか。",
     "answer": "I’m pregnant and sometimes I feel a dull pain in my stomach. Is this normal?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e575b2e7-bd29-4c00-9015-bbba6d6154f2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8ef6561aac0ba65b0ed614accd51ebdac3f9e7ad6d2be45789a490bd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8ef6561aac0ba65b0ed614accd51ebdac3f9e7ad6d2be45789a490bd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "眠る"
@@ -100,11 +108,12 @@
     "question": "「ぐっすり眠れた？」「ああ。爆睡したよ。」",
     "answer": "\"Did you sleep well?\" \"Yeah, I crashed.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ce48c1c4-bb49-48b1-82e1-14aa237d672c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

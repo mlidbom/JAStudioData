@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ecc9f9c65776f595dbbc6f5d05ffdf67c02fb393ab9bc98a53cd14b5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ecc9f9c65776f595dbbc6f5d05ffdf67c02fb393ab9bc98a53cd14b5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "影"
@@ -86,11 +94,12 @@
     "question": "「もしやお化け？」「いや、ただの影でしょ。」",
     "answer": "\"Is it a ghost by any chance?\" \"No, it's just a shadow.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c3e73b18-6a52-4e5f-932d-658d094f1706",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

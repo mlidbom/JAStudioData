@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f515d873627540e576e32bc84fc87d69cd112f1c9406caa0ad3c494f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f515d873627540e576e32bc84fc87d69cd112f1c9406caa0ad3c494f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "米兵"
@@ -184,11 +192,12 @@
     "question": "その米兵は新しい家を建てるために土地を探しています。",
     "answer": "The American soldier is looking for land to build a new house.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "de2d1dc3-6952-4960-8a81-bf70a3d4c924",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

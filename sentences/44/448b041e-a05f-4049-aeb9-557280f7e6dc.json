@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-66e2b971dfdf96d7517c27f56d89a110d9341c7f10ed76407e2c8e8a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-66e2b971dfdf96d7517c27f56d89a110d9341c7f10ed76407e2c8e8a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "首位"
@@ -121,11 +129,12 @@
     "question": "あの女の人は世界ランキング首位のテニスプレーヤーです。",
     "answer": "That woman is the world's top ranked tennis player.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "448b041e-a05f-4049-aeb9-557280f7e6dc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

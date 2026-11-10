@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7b4c992ecba32f403082906e31f0e1dc7f84b84c60089503af3081a0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7b4c992ecba32f403082906e31f0e1dc7f84b84c60089503af3081a0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "能力"
@@ -163,11 +171,12 @@
     "question": "この仕事ではどんな能力が求められていると思いますか？",
     "answer": "What skills do you think are required for this job?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8d37e929-60d5-4ba1-bc14-2ea1afeece47",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

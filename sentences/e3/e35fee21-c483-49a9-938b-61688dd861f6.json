@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b705e4b002af301db793d0b3e5ce05b719ccb8b0b1d41f4c5a9fcd11.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b705e4b002af301db793d0b3e5ce05b719ccb8b0b1d41f4c5a9fcd11.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "気を付けて"
@@ -149,11 +157,12 @@
     "question": "辺りは明るくないので、足元に気をつけて下さい。",
     "answer": "It's not so bright around here, so watch your feet.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e35fee21-c483-49a9-938b-61688dd861f6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

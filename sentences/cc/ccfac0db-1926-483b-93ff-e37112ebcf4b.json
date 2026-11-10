@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-83bc3c812176b9a6442a80c8692e5810dd74ae7ad7a6a47659ccd67f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-83bc3c812176b9a6442a80c8692e5810dd74ae7ad7a6a47659ccd67f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "許諾"
@@ -128,11 +136,12 @@
     "question": "予め管理人の許諾を得てください。",
     "answer": "Please obtain permission from the manager beforehand.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ccfac0db-1926-483b-93ff-e37112ebcf4b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

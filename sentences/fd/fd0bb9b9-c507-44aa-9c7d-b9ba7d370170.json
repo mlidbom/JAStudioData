@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-904d5aaa2bd97a3cf420a38866264469e00f361080d895f3c018e983.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-904d5aaa2bd97a3cf420a38866264469e00f361080d895f3c018e983.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "分類"
@@ -191,11 +199,12 @@
     "question": "この図書館では、本はジャンル別に分類されています。",
     "answer": "In this library, books are classified by genre.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fd0bb9b9-c507-44aa-9c7d-b9ba7d370170",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

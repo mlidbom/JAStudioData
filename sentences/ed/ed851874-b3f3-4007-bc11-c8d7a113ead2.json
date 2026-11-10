@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d9046625166f06b387e89e8a71649ad99e34d711a54c04954cf8e3a9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d9046625166f06b387e89e8a71649ad99e34d711a54c04954cf8e3a9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "点く"
@@ -170,11 +178,12 @@
     "question": "やっとキャンドルに火が点いて、テーブルの上は明るくなりました。",
     "answer": "Finally the candles were lit, and the tabletop got brighter.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ed851874-b3f3-4007-bc11-c8d7a113ead2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

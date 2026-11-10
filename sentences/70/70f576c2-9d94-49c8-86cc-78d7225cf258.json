@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-28532dbcd056ef6d18de7e06158ff0b7c64575a4d51738ee20e82ff0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-28532dbcd056ef6d18de7e06158ff0b7c64575a4d51738ee20e82ff0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "話題"
@@ -135,11 +143,12 @@
     "question": "それ、SNSでめっちゃ話題になってたよね。",
     "answer": "That was trending a lot on social media, wasn't it?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "70f576c2-9d94-49c8-86cc-78d7225cf258",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

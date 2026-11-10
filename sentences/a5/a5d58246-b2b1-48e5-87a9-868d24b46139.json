@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cc7da53d23754b6670a0b14ad77fe158053eb0eb24d9905fcabaa3a2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cc7da53d23754b6670a0b14ad77fe158053eb0eb24d9905fcabaa3a2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "対立"
@@ -100,11 +108,12 @@
     "question": "対立の理由を教えて下さい。",
     "answer": "Please tell me the reason for the conflict.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a5d58246-b2b1-48e5-87a9-868d24b46139",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

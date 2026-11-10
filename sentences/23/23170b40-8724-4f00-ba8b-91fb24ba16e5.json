@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-105a5e221d46e3255bc2a8c30e4c8996c7452eded5627cf3e06fa3c6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-105a5e221d46e3255bc2a8c30e4c8996c7452eded5627cf3e06fa3c6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "刷る"
@@ -121,11 +129,12 @@
     "question": "今年は年賀状何枚刷ればいいかなあ？",
     "answer": "How many New Year’s cards should we print this year?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "23170b40-8724-4f00-ba8b-91fb24ba16e5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

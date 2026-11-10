@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c5305248c4c11b9a3f5b8bec58afc1589308c914cad62fe2e1b117e8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c5305248c4c11b9a3f5b8bec58afc1589308c914cad62fe2e1b117e8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "参加"
@@ -170,11 +178,12 @@
     "question": "日曜日、京都のお寺の座禅の会に参加してきました。",
     "answer": "On Sunday, I attended a zazen session at a temple in Kyoto.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f8b3d345-0950-414c-a0d8-500e35518c72",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-67011caaa393cbc8d1d2b64c08a1e71c23e3389b799403e63bb65b2e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-67011caaa393cbc8d1d2b64c08a1e71c23e3389b799403e63bb65b2e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "弔辞"
@@ -107,11 +115,12 @@
     "question": "誰が弔辞を読むのですか。",
     "answer": "Who will read the funeral address?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c716ca2b-dc77-4f03-a63d-3eeb95ea319c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

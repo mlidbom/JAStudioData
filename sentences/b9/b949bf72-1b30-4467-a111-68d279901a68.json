@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8bbc9dcb2cf8e55c8720ea2af7589e53816095ccd0024699ae2c5b45.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8bbc9dcb2cf8e55c8720ea2af7589e53816095ccd0024699ae2c5b45.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "２０１１年"
@@ -149,11 +157,12 @@
     "question": "２０１１年に、日本にいきました。",
     "answer": "I went to Japan in 2011.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b949bf72-1b30-4467-a111-68d279901a68",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ab452f5c032825d9247fbc1ef08730296ea04d5f57cc76da0ed1e3d8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ab452f5c032825d9247fbc1ef08730296ea04d5f57cc76da0ed1e3d8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "燃え付く"
@@ -184,11 +192,12 @@
     "question": "そこから他のものに火が燃え付くのに時間はかからなかった。",
     "answer": "It didn't take long for the fire to spread to other things from there.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e67630b9-10c2-45bb-9203-2de94b12b9c1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-898971d1a4a7dd607d1cef7abf847a7f504805334274f9c72caac55a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-898971d1a4a7dd607d1cef7abf847a7f504805334274f9c72caac55a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "睡眠"
@@ -191,11 +199,12 @@
     "question": "睡眠の質を高めるには、どうすればいいんですか？",
     "answer": "What should I do to improve the quality of my sleep?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "514ed46e-9fc4-49b1-a54d-46b9780659a6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

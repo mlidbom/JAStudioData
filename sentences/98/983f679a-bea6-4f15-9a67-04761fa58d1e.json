@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3a174b507f8e283dc8ce22d3f903ac1f982120f81dcb3c76a2d4f756.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3a174b507f8e283dc8ce22d3f903ac1f982120f81dcb3c76a2d4f756.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "抵抗する"
@@ -142,11 +150,12 @@
     "question": "どうしてあのケーキを食べるのを抵抗したんだ？",
     "answer": "Why did you resist eating the cake?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "983f679a-bea6-4f15-9a67-04761fa58d1e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

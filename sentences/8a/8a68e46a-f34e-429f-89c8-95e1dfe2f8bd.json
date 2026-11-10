@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0628fea13d86679d6c40e9e74d1078305dc949c574d1a003bd3626ac.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0628fea13d86679d6c40e9e74d1078305dc949c574d1a003bd3626ac.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "詠む"
@@ -135,11 +143,12 @@
     "question": "俳句を詠む人のことを俳人と呼びます。",
     "answer": "People who compose haiku are called haijin.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8a68e46a-f34e-429f-89c8-95e1dfe2f8bd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

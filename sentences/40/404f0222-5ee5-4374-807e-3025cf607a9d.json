@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f70014fd33b80b8edd5b610833d9d63a3a4672068cb34535721d64ef.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f70014fd33b80b8edd5b610833d9d63a3a4672068cb34535721d64ef.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "絶える"
@@ -233,11 +241,12 @@
     "question": "電気や水が絶えることなく供給されているのはとてもありがたいことです。",
     "answer": "We are very grateful for the uninterrupted supply of electricity and water.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "404f0222-5ee5-4374-807e-3025cf607a9d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

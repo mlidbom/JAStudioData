@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5fd4909b7c115fd58a3954e0b2bcfe304c3dfd641efc46e85dbf6e7e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5fd4909b7c115fd58a3954e0b2bcfe304c3dfd641efc46e85dbf6e7e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "二斤"
@@ -170,11 +178,12 @@
     "question": "サンドイッチ用のパンは二斤作ったけど、それでも足りませんでした。",
     "answer": "I made two loaves for sandwiches, but it was still not enough.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f9499f21-1725-4308-9d6d-50b6a95d6756",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

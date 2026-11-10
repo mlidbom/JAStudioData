@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0f9e66afdf482fb66ef038413aed80a3f60a0687ad93a15c3d1cec79.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0f9e66afdf482fb66ef038413aed80a3f60a0687ad93a15c3d1cec79.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "難しい"
@@ -93,11 +101,12 @@
     "question": "このゲーム、難しすぎて全然クリアできない。",
     "answer": "This game is too difficult to clear.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "375011d7-46fc-4f4d-a231-c679c94ab354",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

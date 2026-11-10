@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1ad39c04031d365797b8f1744a209767107172c40e8bd2601e7ce4e9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1ad39c04031d365797b8f1744a209767107172c40e8bd2601e7ce4e9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "凄く",
@@ -192,11 +200,12 @@
     "question": "今日は、先生の気分が凄く悪くなったため授業が中止になった。",
     "answer": "The teacher's health condition got awfully bad today, so class was canceled.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "79c2c178-242b-40cc-ac01-95e0a54ee96f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

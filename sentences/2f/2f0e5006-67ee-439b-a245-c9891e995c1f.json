@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3ed0f607cdc91c8d817b64803ae70619e0a6e0fed925bd781e1fc681.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3ed0f607cdc91c8d817b64803ae70619e0a6e0fed925bd781e1fc681.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "自由"
@@ -142,11 +150,12 @@
     "question": "私には今日休む自由がある。",
     "answer": "I have the freedom to take a day off today.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2f0e5006-67ee-439b-a245-c9891e995c1f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

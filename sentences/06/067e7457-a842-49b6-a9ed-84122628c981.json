@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b490d25a8c6b1b64080a0dbceb853ffc02ed43bed9e1310f67371b2c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b490d25a8c6b1b64080a0dbceb853ffc02ed43bed9e1310f67371b2c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "記事"
@@ -93,11 +101,12 @@
     "question": "今月号の記事はデタラメばっかりだよ。",
     "answer": "The articles from this month's issue are full of nonsense.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "067e7457-a842-49b6-a9ed-84122628c981",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

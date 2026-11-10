@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e8112ec5531a99e6b946edf0a4dd455f1877ba0fa5ba122fc84da627.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e8112ec5531a99e6b946edf0a4dd455f1877ba0fa5ba122fc84da627.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "透き通る"
@@ -156,11 +164,12 @@
     "question": "玉ねぎが透き通ってきたら肉を入れてください。",
     "answer": "Once the onions become transparent, add the meat.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "52abb6e5-bd35-4a0c-b8d6-7224c15aa605",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c0b8abae3ce653843fcb44ce44d3fd163530f4c6d1e64a198ba0b4cb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c0b8abae3ce653843fcb44ce44d3fd163530f4c6d1e64a198ba0b4cb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "姓名"
@@ -128,11 +136,12 @@
     "question": "私の姓名を使用しないでください。",
     "answer": "Please don’t use my full name.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "321fa726-e44e-4332-87b5-8f3e79157373",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

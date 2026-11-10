@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2a33d7cd0ecac37b1264636db6643438e5ddbd902ea2a021267fea46.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2a33d7cd0ecac37b1264636db6643438e5ddbd902ea2a021267fea46.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "手伝う"
@@ -58,11 +66,12 @@
     "question": "あ、手伝うよ。",
     "answer": "Oh, I'll help.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ce48319c-2df6-4985-a4d0-c77a38166e8c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

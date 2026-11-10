@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e61248f0fac3ef39062a57e1e25d172e9894142a1f2792bb0e3b40de.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e61248f0fac3ef39062a57e1e25d172e9894142a1f2792bb0e3b40de.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "出席"
@@ -142,11 +150,12 @@
     "question": "すみませんが、出席は不定期になると思います。",
     "answer": "I'm afraid that my attendance will probably be irregular.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0b2e91bf-2ce6-44df-99dd-fae1da415ff5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

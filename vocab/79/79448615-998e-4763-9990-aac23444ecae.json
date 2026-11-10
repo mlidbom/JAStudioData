@@ -28,9 +28,16 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "[sound:御免なさい_b.mp3]",
-  "audioG": "[sound:御免なさい_g.mp3]",
-  "audioTTS": "",
+  "audio": [
+    {
+      "fileName": "御免なさい_b.mp3",
+      "voiceGender": "male"
+    },
+    {
+      "fileName": "御免なさい_g.mp3",
+      "voiceGender": "female"
+    }
+  ],
   "forms": [
     {
       "text": "ご免なさい",
@@ -44,8 +51,7 @@
   "sentenceCount": 78,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -69,7 +75,9 @@
   "sourceData": {
     "answer": "I'm-sorry/my-apologies/excuse-me/pardon-me",
     "mnemonic": "Remember <ja>御免</ja>? This is a polite way to say it. It means <vocabulary>sorry</vocabulary> and <vocabulary>I beg your pardon</vocabulary>.",
-    "readingMnemonic": "The reading comes from <ja>御免</ja>. The addition is all kana."
+    "readingMnemonic": "The reading comes from <ja>御免</ja>. The addition is all kana.",
+    "audio": [],
+    "images": []
   },
   "id": "79448615-998e-4763-9990-aac23444ecae",
   "tags": [

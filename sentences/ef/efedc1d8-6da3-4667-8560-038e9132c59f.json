@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ce00a84c7e07ae35bf97b41f0b46c48386aba79f8589c088396527a6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ce00a84c7e07ae35bf97b41f0b46c48386aba79f8589c088396527a6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "息子"
@@ -163,11 +171,12 @@
     "question": "この辺のアパートに私のひとり息子が住んでいます。",
     "answer": "My only son lives in an apartment around here.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "efedc1d8-6da3-4667-8560-038e9132c59f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

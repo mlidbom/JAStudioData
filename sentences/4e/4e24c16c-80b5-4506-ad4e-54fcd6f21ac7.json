@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-53da5e17ef28b9a188f1bf499824a50e07e9e987c1660f44bf4eb2e7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-53da5e17ef28b9a188f1bf499824a50e07e9e987c1660f44bf4eb2e7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "岩"
@@ -100,11 +108,12 @@
     "question": "そこには大きな岩がたくさんあります。",
     "answer": "There are many large rocks there.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4e24c16c-80b5-4506-ad4e-54fcd6f21ac7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

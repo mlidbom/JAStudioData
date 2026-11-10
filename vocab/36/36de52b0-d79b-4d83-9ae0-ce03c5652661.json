@@ -33,9 +33,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-0cc384c90ce12c8dbbc4c4a2115da798d8bfa2c7cde30fa8e71d83a5.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-0cc384c90ce12c8dbbc4c4a2115da798d8bfa2c7cde30fa8e71d83a5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "どうしようもありません",
@@ -49,8 +55,7 @@
   "sentenceCount": 6,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -74,7 +79,9 @@
   "sourceData": {
     "answer": "it-cannot-be-helped/there's-nothing-for-it/it's-no-use-fighting-back/it's-hopeless/there-is-no-way-out-of-it",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "36de52b0-d79b-4d83-9ae0-ce03c5652661",
   "tags": [

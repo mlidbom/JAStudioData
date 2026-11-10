@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2632d774b27f39edcf94178b1a035f25c166835f79f4056f10beebdc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2632d774b27f39edcf94178b1a035f25c166835f79f4056f10beebdc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "心得る"
@@ -107,11 +115,12 @@
     "question": "その件についてはよく心得ております。",
     "answer": "I’m well aware of the matter.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2eb47a11-ffed-4855-b48d-8eeb36155d55",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

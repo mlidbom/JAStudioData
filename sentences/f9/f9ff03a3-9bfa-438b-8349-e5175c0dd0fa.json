@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-87a1eba0e23006e58627304061cfa632633a12c86830e8b2f61885e1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-87a1eba0e23006e58627304061cfa632633a12c86830e8b2f61885e1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "誰か"
@@ -100,11 +108,12 @@
     "question": "誰かに聞いてみよう！",
     "answer": "Let's ask someone!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f9ff03a3-9bfa-438b-8349-e5175c0dd0fa",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

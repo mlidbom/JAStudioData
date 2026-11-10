@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b7c0861cfbe331e9a8833606a4de318677cfc4b5a8e2fee01afe16f1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b7c0861cfbe331e9a8833606a4de318677cfc4b5a8e2fee01afe16f1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "規律"
@@ -191,11 +199,12 @@
     "question": "規律に従って酒は一滴たりとも飲んでいないと断言します。",
     "answer": "I swear I followed the rules and didn’t drink, not even a drop.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a3f1f956-f7fd-4450-b74c-e811cd0d0c7f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

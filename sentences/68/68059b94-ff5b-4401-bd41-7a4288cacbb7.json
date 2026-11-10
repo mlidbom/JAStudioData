@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b678ef3d6b245b43d1c246e6a85adfad2837efdf97b3d59f8910d8c4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b678ef3d6b245b43d1c246e6a85adfad2837efdf97b3d59f8910d8c4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "読む"
@@ -198,11 +206,12 @@
     "question": "私には速く読む力が足りないと思うんです。",
     "answer": "I don't think I have the ability to read fast.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "68059b94-ff5b-4401-bd41-7a4288cacbb7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

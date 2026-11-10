@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b8d65ec27d7b068545cccbafbe54e44854458e24d46651b5b1b88ed2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b8d65ec27d7b068545cccbafbe54e44854458e24d46651b5b1b88ed2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "屋敷"
@@ -191,11 +199,12 @@
     "question": "男の妻は毎日お屋敷で何もせずただブラブラしている。",
     "answer": "His wife does nothing but aimlessly wander around the estate everyday.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3daf3b29-fa6d-44ea-bc20-b102ef037dce",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

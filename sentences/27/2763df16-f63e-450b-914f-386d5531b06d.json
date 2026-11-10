@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5c24a0486ecf98c4c82ecb6858929372dcc03871c0840233b896ea65.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5c24a0486ecf98c4c82ecb6858929372dcc03871c0840233b896ea65.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "見分ける"
@@ -93,11 +101,12 @@
     "question": "兄弟を目の色で見分ける。",
     "answer": "I tell the brothers apart by their eye colors.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2763df16-f63e-450b-914f-386d5531b06d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

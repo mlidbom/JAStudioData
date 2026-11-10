@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bc5cd3d9cc237ef55a51edfe6160f26550357e5dce90c9be9aafafd3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bc5cd3d9cc237ef55a51edfe6160f26550357e5dce90c9be9aafafd3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "肯定"
@@ -128,11 +136,12 @@
     "question": "まずは自分を肯定してみてください。",
     "answer": "First of all, try to affirm yourself.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3904516c-50bf-4348-97f3-d028b84e430e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

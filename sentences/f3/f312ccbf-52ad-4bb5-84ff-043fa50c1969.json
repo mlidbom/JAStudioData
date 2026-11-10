@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0636555d7a82ea3c1a5324107a6a8f4a91389436bd35ff409be8da91.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0636555d7a82ea3c1a5324107a6a8f4a91389436bd35ff409be8da91.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "格好"
@@ -58,11 +66,12 @@
     "question": "格好いい車ですね。",
     "answer": "Your car has a nice shape!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f312ccbf-52ad-4bb5-84ff-043fa50c1969",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

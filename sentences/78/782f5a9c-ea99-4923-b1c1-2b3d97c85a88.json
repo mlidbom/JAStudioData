@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6b280469a9c285b31dd56491be854bcee3c5865c7b39d5b5a9f56609.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6b280469a9c285b31dd56491be854bcee3c5865c7b39d5b5a9f56609.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大人"
@@ -65,11 +73,12 @@
     "question": "大人のチケット下さい。",
     "answer": "A ticket for an adult, please.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "782f5a9c-ea99-4923-b1c1-2b3d97c85a88",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e4d595aadcb596361c8145b4ba8181403a28125c7ed3d51b4060fd53.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e4d595aadcb596361c8145b4ba8181403a28125c7ed3d51b4060fd53.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "当てる"
@@ -100,11 +108,12 @@
     "question": "大谷氏は、バットにボールを当てる天才です。",
     "answer": "Mr. Ohtani is a genius at hitting the ball with the bat.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "386d0aa5-6521-42f9-bb90-314db4560a2a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

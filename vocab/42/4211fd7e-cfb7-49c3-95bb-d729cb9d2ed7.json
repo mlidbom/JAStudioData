@@ -17,9 +17,15 @@
   "partsOfSpeech": [],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-d03bb26f14deacf1e1db5157e525605682ffeb878902e74449bf8157.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-d03bb26f14deacf1e1db5157e525605682ffeb878902e74449bf8157.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "ブサ",
@@ -29,8 +35,7 @@
   "sentenceCount": 2,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -59,7 +64,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "4211fd7e-cfb7-49c3-95bb-d729cb9d2ed7",
   "tags": [

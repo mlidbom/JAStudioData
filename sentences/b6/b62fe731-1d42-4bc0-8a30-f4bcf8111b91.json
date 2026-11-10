@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ea822e6997629eb88acc2ca1cb9005c5ea3a74a62ffd6067dd7552c2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ea822e6997629eb88acc2ca1cb9005c5ea3a74a62ffd6067dd7552c2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "分ける"
@@ -107,11 +115,12 @@
     "question": "大学用のノートとプライベートのノートを分けよう。",
     "answer": "Let's separate university notebooks from your private notebooks.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b62fe731-1d42-4bc0-8a30-f4bcf8111b91",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

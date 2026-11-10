@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e50f287e4b00af54c3344eaca29b97d5c496951ce41cd0858f084f14.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e50f287e4b00af54c3344eaca29b97d5c496951ce41cd0858f084f14.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "引退"
@@ -100,11 +108,12 @@
     "question": "ボクサーは引退後太ることが多いらしい。",
     "answer": "I heard that boxers tend to gain weight after retiring.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5b978a24-8e68-4cdd-a66d-62111b964491",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fb2e8831176d1633dae9ceeb1b04ce396dfbe582a7f2f23e78252116.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fb2e8831176d1633dae9ceeb1b04ce396dfbe582a7f2f23e78252116.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "育つ"
@@ -93,11 +101,12 @@
     "question": "わたしは東京で生まれ育ちました。",
     "answer": "I was born and raised in Tokyo.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c7b9dcf7-8316-4ce2-bca7-e1442e1148d5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

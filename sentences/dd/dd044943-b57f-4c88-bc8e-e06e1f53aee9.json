@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-26bc23ddbcbda3ab33601bc413f7dd9fdb9fd602e830da498d1ce12b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-26bc23ddbcbda3ab33601bc413f7dd9fdb9fd602e830da498d1ce12b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "回転"
@@ -170,11 +178,12 @@
     "question": "これは、ペットのハムスターが回し車を回転させている音です。",
     "answer": "This is the sound of a pet hamster spinning their wheel.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dd044943-b57f-4c88-bc8e-e06e1f53aee9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

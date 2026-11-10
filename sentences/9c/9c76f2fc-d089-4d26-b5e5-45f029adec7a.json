@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ca356dd222f74d856bae72d786cc1eceefdf9490dbee19d334d9e6ca.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ca356dd222f74d856bae72d786cc1eceefdf9490dbee19d334d9e6ca.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "俺"
@@ -100,11 +108,12 @@
     "question": "俺は生ビールにするよ。",
     "answer": "I'll have a draft beer.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9c76f2fc-d089-4d26-b5e5-45f029adec7a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

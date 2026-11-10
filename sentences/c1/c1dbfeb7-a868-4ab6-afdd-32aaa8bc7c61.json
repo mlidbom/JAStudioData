@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5e886b3933858caf39a533b28fa2e68e25db40d949d861f0e520ddbe.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5e886b3933858caf39a533b28fa2e68e25db40d949d861f0e520ddbe.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "養子"
@@ -79,11 +87,12 @@
     "question": "駅長の子は、どうやら養子らしいです。",
     "answer": "I heard that the station master's kid is actually an adopted child.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c1dbfeb7-a868-4ab6-afdd-32aaa8bc7c61",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

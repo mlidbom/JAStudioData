@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3aef8d151e582ff7e638aeaf7bcada2ba6b3ae5ea2a2f47f0ace88f9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3aef8d151e582ff7e638aeaf7bcada2ba6b3ae5ea2a2f47f0ace88f9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "払う"
@@ -86,11 +94,12 @@
     "question": "あ、いいよ。オレが払うよ。",
     "answer": "Oh, it's okay. I'll pay for it.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1441a470-6d33-4def-b5fa-7f994e6ef7a6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

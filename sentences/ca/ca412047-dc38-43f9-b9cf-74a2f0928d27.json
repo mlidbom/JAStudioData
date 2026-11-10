@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-58e3d012079d6cfd6229e93f9b1c1adc0100654f8185f94371352610.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-58e3d012079d6cfd6229e93f9b1c1adc0100654f8185f94371352610.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "旅券"
@@ -205,11 +213,12 @@
     "question": "旅券には有効期間が十年のものと５年のものの二種類があります。",
     "answer": "There are two types of passports: those valid for ten years and those valid for five years.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ca412047-dc38-43f9-b9cf-74a2f0928d27",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a2dc24a41152f2400876d93799a88db2287445bdee9285965beca7b1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a2dc24a41152f2400876d93799a88db2287445bdee9285965beca7b1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "工場"
@@ -128,11 +136,12 @@
     "question": "工場のスタッフは毎日午前六時に出社します。",
     "answer": "Factory staff come to work every day at 6 a.m.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1a98c497-2f32-4b46-ac7a-461889ead531",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

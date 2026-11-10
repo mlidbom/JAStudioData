@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dc535411448a99a7ab168b1cce0bd7e53b3cf00c7d53e4a40c40f96b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dc535411448a99a7ab168b1cce0bd7e53b3cf00c7d53e4a40c40f96b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "飲み放題"
@@ -128,11 +136,12 @@
     "question": "飲み放題付きのコースを予約しました。",
     "answer": "We booked a course that includes all-you-can-drink.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "18ad3460-bb81-46e5-abbe-a27b6dfd866f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f59b1f0033daaa85284f73e3d4e0d6e143913b20abd3adc4ead6082d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f59b1f0033daaa85284f73e3d4e0d6e143913b20abd3adc4ead6082d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "全身"
@@ -149,11 +157,12 @@
     "question": "一日に一回、全身にスプレーして下さい。",
     "answer": "Please spray over your whole body once a day.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c760a7a1-8598-4d5d-bede-e3e8925fc313",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

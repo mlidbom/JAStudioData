@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-53bd81b8089e99086a15d4d7912d268a3d2f59a990b1bf228aef9636.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-53bd81b8089e99086a15d4d7912d268a3d2f59a990b1bf228aef9636.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "間に合う"
@@ -149,11 +157,12 @@
     "question": "今すぐタクシーに乗れば、まだ間に合うかもしれません。",
     "answer": "If we get in a taxi right now, we might still make it on time.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dbd0e55c-8b10-4ff0-a677-cb5f6529c95a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

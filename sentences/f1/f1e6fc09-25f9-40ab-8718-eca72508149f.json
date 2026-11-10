@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2b3984ad9b733291ed0cc7ca0b3e8788dcce1da30ab2ac304162f3f7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2b3984ad9b733291ed0cc7ca0b3e8788dcce1da30ab2ac304162f3f7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "料金"
@@ -135,11 +143,12 @@
     "question": "まずは料金プランを見せてもらえますか？",
     "answer": "Can you show me your fee plan first?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f1e6fc09-25f9-40ab-8718-eca72508149f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

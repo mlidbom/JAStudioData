@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-516fd7909e39a17f87515b642ed372c617b6edc22416f5dbc24e0ae9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-516fd7909e39a17f87515b642ed372c617b6edc22416f5dbc24e0ae9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "日本酒"
@@ -233,11 +241,12 @@
     "question": "日本にいる間に、たくさんのんでね。アメリカで日本酒を買うと高いですから。",
     "answer": "You should drink a lot of sake while you're in Japan. It is expensive to buy sake in the United States.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0f88f546-fe4a-4c76-bb6c-87df9483d155",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

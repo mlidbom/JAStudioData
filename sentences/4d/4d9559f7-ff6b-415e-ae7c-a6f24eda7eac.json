@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7adf79ffaf356b024f329e252473e109ef81502bc51d4ff9b86dd560.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7adf79ffaf356b024f329e252473e109ef81502bc51d4ff9b86dd560.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "連邦"
@@ -198,11 +206,12 @@
     "question": "ちょっと待って。もしかして、連邦税と州税どっちも払わなきゃいけないの？",
     "answer": "Wait a second. By any chance, do I have to pay both federal and state taxes?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4d9559f7-ff6b-415e-ae7c-a6f24eda7eac",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

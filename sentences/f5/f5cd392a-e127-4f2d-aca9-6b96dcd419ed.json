@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-89d445876712debc9f1447e7953ef0e28f790eb803ad009d4bbae609.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-89d445876712debc9f1447e7953ef0e28f790eb803ad009d4bbae609.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "風"
@@ -121,11 +129,12 @@
     "question": "南向きの風がふいています。",
     "answer": "Wind is blowing towards south.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f5cd392a-e127-4f2d-aca9-6b96dcd419ed",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

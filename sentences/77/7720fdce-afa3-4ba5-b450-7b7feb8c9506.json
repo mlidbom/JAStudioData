@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-84c1cd904bd09bd65c86a98dbc143ed62957c67cc0b0d207635d67b7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-84c1cd904bd09bd65c86a98dbc143ed62957c67cc0b0d207635d67b7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "間抜け"
@@ -142,11 +150,12 @@
     "question": "オレ、間抜けだから、気づかなかったよ。言ってくれてありがとう。",
     "answer": "I'm too dumb to have noticed. Thanks for telling me.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7720fdce-afa3-4ba5-b450-7b7feb8c9506",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

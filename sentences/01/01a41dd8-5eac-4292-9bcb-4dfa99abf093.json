@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-107abf120201e49e06a97cd5b5ec8a81477598fd6ecdf8978fa2a333.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-107abf120201e49e06a97cd5b5ec8a81477598fd6ecdf8978fa2a333.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "梅干し"
@@ -107,11 +115,12 @@
     "question": "梅干しは何に混ぜて食べても美味しい。",
     "answer": "Umeboshi makes whatever you mix it with taste good.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "01a41dd8-5eac-4292-9bcb-4dfa99abf093",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-147daf78da7a71967446ec9de55d2ec42f4dfb7f58723eef2d606090.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-147daf78da7a71967446ec9de55d2ec42f4dfb7f58723eef2d606090.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "湿地"
@@ -135,11 +143,12 @@
     "question": "確か、北海道には湿地が多いんだよね？",
     "answer": "If I am not mistaken, there are a lot of wetlands in Hokkaido, right?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a384cc82-b6a3-4c7f-97cb-f3d0ac209c1e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

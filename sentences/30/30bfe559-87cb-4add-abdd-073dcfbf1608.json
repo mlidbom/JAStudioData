@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2646572aed1c254b97e90979b1393b783f2c881d346da8b8a6f376ef.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2646572aed1c254b97e90979b1393b783f2c881d346da8b8a6f376ef.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "名詞"
@@ -149,11 +157,12 @@
     "question": "これは可算名詞ですか、不可算名詞ですか？",
     "answer": "Is this a countable or uncountable noun?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "30bfe559-87cb-4add-abdd-073dcfbf1608",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cd512ed93c73a30697f0bba514e5c087b87f5ec8d6cd0161b95e77b9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cd512ed93c73a30697f0bba514e5c087b87f5ec8d6cd0161b95e77b9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "他所",
@@ -157,11 +165,12 @@
     "question": "ここじゃなくて、どこか他所の店に行こうよ。",
     "answer": "Not here, let’s go to another store somewhere else.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c4334dc5-f769-4117-bf48-89ff5d984203",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

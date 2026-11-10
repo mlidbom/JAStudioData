@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a74a8b1d36650dd345679f890c89a5a552b4bf64c5ad53a79a3fc41f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a74a8b1d36650dd345679f890c89a5a552b4bf64c5ad53a79a3fc41f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "取材"
@@ -128,11 +136,12 @@
     "question": "取材にご協力いただけませんか。",
     "answer": "I'm wondering if you would allow us to get an interview?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "171fcaba-a799-4fd5-a459-5932d6baa9cd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

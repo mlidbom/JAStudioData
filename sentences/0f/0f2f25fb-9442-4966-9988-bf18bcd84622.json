@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ed8ff7f7a1b6b2e40e9958fed56251a178436921ba82fbec56fd5f66.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ed8ff7f7a1b6b2e40e9958fed56251a178436921ba82fbec56fd5f66.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "意地悪"
@@ -86,11 +94,12 @@
     "question": "そんな意地悪なこと言わないでよ。",
     "answer": "Don't say such mean things.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0f2f25fb-9442-4966-9988-bf18bcd84622",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

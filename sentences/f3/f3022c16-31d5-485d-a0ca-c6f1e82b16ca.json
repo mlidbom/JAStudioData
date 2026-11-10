@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a370e34943418dadb966c56a1fc39099f66a02cfce2e7b968b2dd219.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a370e34943418dadb966c56a1fc39099f66a02cfce2e7b968b2dd219.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "賓客"
@@ -107,11 +115,12 @@
     "question": "海外の賓客を一流の和食でもてなしました。",
     "answer": "We welcomed the foreign guest of honor with first class Japanese cuisine.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f3022c16-31d5-485d-a0ca-c6f1e82b16ca",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

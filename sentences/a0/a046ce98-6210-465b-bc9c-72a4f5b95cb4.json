@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0386f5166541be33bb818d74443c20c35a349da9d0f24035d98d388b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0386f5166541be33bb818d74443c20c35a349da9d0f24035d98d388b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "瓶詰"
@@ -107,11 +115,12 @@
     "question": "メープルシロップを瓶詰しています。",
     "answer": "I’m bottling maple syrup.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a046ce98-6210-465b-bc9c-72a4f5b95cb4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

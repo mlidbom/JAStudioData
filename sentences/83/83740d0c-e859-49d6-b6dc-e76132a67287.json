@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-62ced9f5035c4080a9501f1972f9d505cf983eb2eb4294a19e4e3d21.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-62ced9f5035c4080a9501f1972f9d505cf983eb2eb4294a19e4e3d21.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "足りない"
@@ -65,11 +73,12 @@
     "question": "玉ねぎが一つ足りない。",
     "answer": "We are one onion short.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "83740d0c-e859-49d6-b6dc-e76132a67287",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

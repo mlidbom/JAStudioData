@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-47e34665c637055ffd427294b421d1605acb5a969a2ab3ba311cbf2f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-47e34665c637055ffd427294b421d1605acb5a969a2ab3ba311cbf2f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "審査"
@@ -254,11 +262,12 @@
     "question": "高橋は来週はコンテストの審査をすることになっているからオフィスには来ませんよ。",
     "answer": "Takahashi isn't coming to the office next week because he's supposed to be examining applicants for the contest.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6d43fbae-49aa-4496-b76a-5987b2f49d73",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

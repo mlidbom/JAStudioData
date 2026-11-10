@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2d885f105f6b7fe07782a7e93f5d3ed6d7c3dd369223494122196f95.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2d885f105f6b7fe07782a7e93f5d3ed6d7c3dd369223494122196f95.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "今日"
@@ -93,11 +101,12 @@
     "question": "今日のテストは、いいスコアだったよ。",
     "answer": "I got a good score on today's test.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1ca26cd3-33bd-4b0c-a8ed-c6598175db43",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

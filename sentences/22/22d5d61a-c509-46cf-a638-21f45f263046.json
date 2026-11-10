@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c698985f06da95d581c37628ea788dc85e824cc3aa20cd60992a42d4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c698985f06da95d581c37628ea788dc85e824cc3aa20cd60992a42d4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "入館料"
@@ -79,11 +87,12 @@
     "question": "入館料はいくらですか？",
     "answer": "How much is the admission fee?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "22d5d61a-c509-46cf-a638-21f45f263046",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

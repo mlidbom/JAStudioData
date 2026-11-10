@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f7f5464b76cffbb75a2475a3ff6071c962cdfa5502cf77c5ca30afd9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f7f5464b76cffbb75a2475a3ff6071c962cdfa5502cf77c5ca30afd9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "焦り"
@@ -317,11 +325,12 @@
     "question": "会議に行かなくちゃいけなかったのに、脚がやばいくらいつって全然動けなかったので、焦りを感じましたよ。",
     "answer": "I had a terrible cramp in my leg and I couldn’t move it at all even though I had to go to a meeting, so I felt really impatient.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dc5edd51-b092-4e5f-ad28-e513185320a2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

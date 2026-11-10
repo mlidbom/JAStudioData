@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-034cc1e82b46f08df4f562601cd148c6045cefe7fedba1c7540259cb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-034cc1e82b46f08df4f562601cd148c6045cefe7fedba1c7540259cb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "会議"
@@ -198,11 +206,12 @@
     "question": "え、日本では会議中に電話に出たらダメなんですか！？",
     "answer": "What? In Japan, you are not allowed to answer the phone during a meeting!?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fc47cb5f-db2a-45dd-bd70-e7de14ba6bcd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

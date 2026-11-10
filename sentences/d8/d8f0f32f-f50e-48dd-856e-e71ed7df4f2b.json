@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-08e788dcfadcf07c35286cd38bf2f1ac0952605e1ea6b53682f88572.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-08e788dcfadcf07c35286cd38bf2f1ac0952605e1ea6b53682f88572.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "騎手"
@@ -170,11 +178,12 @@
     "question": "その騎手は、自分の初めてのG1レースの日に朝寝坊をしました。",
     "answer": "The jockey overslept on the day of his first G1 race.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d8f0f32f-f50e-48dd-856e-e71ed7df4f2b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

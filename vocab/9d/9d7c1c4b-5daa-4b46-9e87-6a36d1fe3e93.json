@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-87657d8f71f4e4b172f6ac50e3c617739cf791f7878278aa2f5f1cac.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-87657d8f71f4e4b172f6ac50e3c617739cf791f7878278aa2f5f1cac.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "れてしまう",
@@ -40,8 +46,7 @@
   "sentenceCount": 56,
   "technicalNotes": "We forbid ichidan rather than require godan since this works with suru etc as well as godan",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {
       "godanPotential": "forbidden",
@@ -88,7 +93,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "9d7c1c4b-5daa-4b46-9e87-6a36d1fe3e93",
   "tags": [

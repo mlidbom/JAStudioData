@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6f6dbcd0e1aaa6de39ee1aa90a7ef95132fb75865a281f2af47e1186.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6f6dbcd0e1aaa6de39ee1aa90a7ef95132fb75865a281f2af47e1186.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "音読み"
@@ -107,11 +115,12 @@
     "question": "日本語の音読みと訓読みの違いは何ですか？",
     "answer": "What’s the difference between the Chinese reading and the Japanese reading in the Japanese language?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "20f433ed-f8c5-46f1-955a-04dd237193fd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1d719615892d95bcb2739e66613981e8453b9319b6f00bf93c20d71f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1d719615892d95bcb2739e66613981e8453b9319b6f00bf93c20d71f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "切れる"
@@ -107,11 +115,12 @@
     "question": "この糸は、すぐに切れる。",
     "answer": "These threads break off easily.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7b24997f-2b43-405d-9b37-f8c30c7c49c8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

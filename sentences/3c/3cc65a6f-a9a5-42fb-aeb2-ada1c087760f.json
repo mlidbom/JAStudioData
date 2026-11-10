@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3c9c5c5d42882079a335593e46a9017e10e9a35389a37cde763e5b0c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3c9c5c5d42882079a335593e46a9017e10e9a35389a37cde763e5b0c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "猟犬"
@@ -212,11 +220,12 @@
     "question": "一般的に猟犬はよく吠えると言われています。",
     "answer": "It’s said that hunting dogs typically bark a lot.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3cc65a6f-a9a5-42fb-aeb2-ada1c087760f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

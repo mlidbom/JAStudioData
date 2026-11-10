@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-36fe290f01ce21c17e42d3cae59cad8b570032dd31e515794df169da.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-36fe290f01ce21c17e42d3cae59cad8b570032dd31e515794df169da.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "用"
@@ -86,11 +94,12 @@
     "question": "これは冬用のジャケットです。",
     "answer": "This is a winter jacket.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "abc01ad4-255b-474e-afa5-c924d11ed5be",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

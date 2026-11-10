@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2df91b03efad7b6e0618199e4bea0c36a687f825a9b82832312500a6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2df91b03efad7b6e0618199e4bea0c36a687f825a9b82832312500a6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "君主国"
@@ -114,11 +122,12 @@
     "question": "この町はかつて君主国だったそうです。",
     "answer": "This town was once a monarchy.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2ef6cd21-c69b-41bf-8f97-8dbad58429cb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

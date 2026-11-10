@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4b5cb7bc0f6e0296685f5d01759d4a2a0b10ad456b1a188b37312ca0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4b5cb7bc0f6e0296685f5d01759d4a2a0b10ad456b1a188b37312ca0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "伏せる"
@@ -191,11 +199,12 @@
     "question": "どうして弟が犯罪者であることを伏せていたんだ。",
     "answer": "Why would I cover up my younger brother being a criminal?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e80774e1-51b7-4677-a900-8babc23a0dd3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

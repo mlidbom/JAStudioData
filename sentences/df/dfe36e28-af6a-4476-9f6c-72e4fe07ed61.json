@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dde78f4673e2b1198c9e1c8f612317e91741bdb765c1bfb5c80ab3a5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dde78f4673e2b1198c9e1c8f612317e91741bdb765c1bfb5c80ab3a5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "示す"
@@ -219,11 +227,12 @@
     "question": "ここに名前とメールアドレスを入力すると、自分の就職市場における価値が示されるらしいよ。",
     "answer": "Apparently, if you enter your name and email address here, it will show you your value in the job market.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dfe36e28-af6a-4476-9f6c-72e4fe07ed61",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

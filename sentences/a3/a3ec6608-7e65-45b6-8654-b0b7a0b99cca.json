@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-25e68a89ff833de13b5c9232d26c39bdcd5ef8def9d0def723dfb137.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-25e68a89ff833de13b5c9232d26c39bdcd5ef8def9d0def723dfb137.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "似合う"
@@ -170,11 +178,12 @@
     "question": "そのワンピには絶対デニムのジャケットが似合うと思うよ。",
     "answer": "I think a denim jacket would totally match your dress. ",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a3ec6608-7e65-45b6-8654-b0b7a0b99cca",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

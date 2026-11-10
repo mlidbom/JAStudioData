@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-12cb4f11a7fa90789c3c614d7745f8d984025865c57fc1e318cee3c7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-12cb4f11a7fa90789c3c614d7745f8d984025865c57fc1e318cee3c7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "ハチの巣"
@@ -191,11 +199,12 @@
     "question": "友達がおいしいハチの巣を持ってきていて、私は羨ましかった。",
     "answer": "My friend had brought delicious honeycomb, and I was envious.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "77e2eb06-9391-4a04-b43c-e28ecd8fc86c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

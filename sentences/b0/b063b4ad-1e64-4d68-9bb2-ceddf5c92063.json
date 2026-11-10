@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-92aa5a416e33e4a5c6407b9ea73e3ad5e627c96142be3da604f79267.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-92aa5a416e33e4a5c6407b9ea73e3ad5e627c96142be3da604f79267.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "破船"
@@ -226,11 +234,12 @@
     "question": "江戸時代の有名な刀を載せた船は、嵐によって破船してしまいました。",
     "answer": "The ship carrying the famous sword of the Edo period was shipwrecked in a storm.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b063b4ad-1e64-4d68-9bb2-ceddf5c92063",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

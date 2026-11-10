@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fde3bcb72fd35ce9535d2aa57e3b60989ee3176c97a94926587a52ac.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fde3bcb72fd35ce9535d2aa57e3b60989ee3176c97a94926587a52ac.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "肩こり"
@@ -107,11 +115,12 @@
     "question": "肩こりをほぐす良いマッサージがあります。",
     "answer": "There is a good massage technique to loosen stiff shoulders.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f401952f-b393-4962-a4c4-04953d0cdb55",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

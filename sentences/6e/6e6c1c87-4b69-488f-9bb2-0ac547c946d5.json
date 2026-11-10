@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c9a2d13d08b83d19834944358d17142d97e3eec14ef04a594f194326.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c9a2d13d08b83d19834944358d17142d97e3eec14ef04a594f194326.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "拉麺"
@@ -79,11 +87,12 @@
     "question": "鮭拉麺なんて初めて食べるよ。",
     "answer": "This is my first time eating salmon ramen.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6e6c1c87-4b69-488f-9bb2-0ac547c946d5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-555068886f7a4efa07a65a93d9108916575f1db5c35224ad5902a98e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-555068886f7a4efa07a65a93d9108916575f1db5c35224ad5902a98e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "蘇生"
@@ -191,11 +199,12 @@
     "question": "この本では、死者を蘇生する魔術について詳しく書かれています。",
     "answer": "This book provides detailed information about the magic used to resurrect the dead.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0f68d3eb-9148-4f17-b721-f6d5db973a18",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

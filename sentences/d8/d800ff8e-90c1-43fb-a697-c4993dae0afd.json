@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2aa2ac19208d50cae9f3db4c3e776c6b0e146cbc19b2364edeb0e945.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2aa2ac19208d50cae9f3db4c3e776c6b0e146cbc19b2364edeb0e945.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "番号"
@@ -93,11 +101,12 @@
     "question": "チケット番号を教えて下さい。",
     "answer": "Please tell me the ticket number.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d800ff8e-90c1-43fb-a697-c4993dae0afd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

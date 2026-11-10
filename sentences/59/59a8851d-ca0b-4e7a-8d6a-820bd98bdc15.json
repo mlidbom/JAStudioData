@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7e4fdbdfe08895706e635dc97876532e635812684c3cfd422f68443c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7e4fdbdfe08895706e635dc97876532e635812684c3cfd422f68443c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "安全"
@@ -86,11 +94,12 @@
     "question": "このツリーハウスは、安全ですか？",
     "answer": "Is this tree house safe?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "59a8851d-ca0b-4e7a-8d6a-820bd98bdc15",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

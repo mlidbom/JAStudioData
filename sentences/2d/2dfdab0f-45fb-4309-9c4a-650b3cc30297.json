@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d40268a01e03a2cb8d9772a6d4ddf785e4cfc1ae09a95d6be3879c06.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d40268a01e03a2cb8d9772a6d4ddf785e4cfc1ae09a95d6be3879c06.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "体重"
@@ -121,11 +129,12 @@
     "question": "すみません。この体重、コンタクトレンズの分も入ってますよね？",
     "answer": "Excuse me. This weight takes my contact lenses into account too, right?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2dfdab0f-45fb-4309-9c4a-650b3cc30297",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

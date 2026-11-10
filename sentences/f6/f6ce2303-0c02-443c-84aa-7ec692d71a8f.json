@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e440009f42f3a76f828ea5e67ff9c12a97df018d43cb62fce2a115f9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e440009f42f3a76f828ea5e67ff9c12a97df018d43cb62fce2a115f9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "事情"
@@ -149,11 +157,12 @@
     "question": "大人には大人の事情があるんですよ。",
     "answer": "Adults have adult circumstances.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f6ce2303-0c02-443c-84aa-7ec692d71a8f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

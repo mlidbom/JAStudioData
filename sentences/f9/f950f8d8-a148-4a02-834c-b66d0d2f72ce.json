@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0b93c36dcb2d5d64b29cf22c7232150687fc93b7b4356e9101b343f4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0b93c36dcb2d5d64b29cf22c7232150687fc93b7b4356e9101b343f4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "返信"
@@ -156,11 +164,12 @@
     "question": "いつまでたっても返信が来ないんだよね。",
     "answer": "It's taking forever to get a reply.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f950f8d8-a148-4a02-834c-b66d0d2f72ce",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

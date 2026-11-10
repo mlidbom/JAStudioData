@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-60e7258bb890b36de906536f369d3f5db7afe5587352fef96b5c9976.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-60e7258bb890b36de906536f369d3f5db7afe5587352fef96b5c9976.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "召喚"
@@ -86,11 +94,12 @@
     "question": "魔法使いを召喚しました。",
     "answer": "I summoned a magician.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7f1ece99-7cae-4382-a8a8-eafefd7663f8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

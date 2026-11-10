@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a8217b32fc591add163c9bd0848c49a82ae8d24feadf2456bb6620b0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a8217b32fc591add163c9bd0848c49a82ae8d24feadf2456bb6620b0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鳴る"
@@ -65,11 +73,12 @@
     "question": "電話が鳴っている。",
     "answer": "The phone is ringing.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "93ca6921-443c-48fe-ae73-b2ae75200315",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

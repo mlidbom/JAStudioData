@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c0630edb28c7235ac62766ee2043d3094d2cb45aed5472c1f0b8bf31.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c0630edb28c7235ac62766ee2043d3094d2cb45aed5472c1f0b8bf31.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "文"
@@ -128,11 +136,12 @@
     "question": "さいきんはAIのほうが人々よりも上手な文をかく。",
     "answer": "AI writes better sentences than people these days.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b04f19e7-9c44-42e3-9d69-70adcb74fea9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

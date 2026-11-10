@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bb05358440c9546a06620a4c6cdc3295f567ac3f3eecdb1fe436878a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bb05358440c9546a06620a4c6cdc3295f567ac3f3eecdb1fe436878a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "漢字"
@@ -107,11 +115,12 @@
     "question": "これは、小学校で学んだ漢字じゃないよ。",
     "answer": "This is not the kanji I learned in elementary school.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "63c185ff-341b-4a5a-a939-db5a81623f25",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c77f604f32e0da63239690d5342ba1f917d6d41dad9611d4baf07c6b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c77f604f32e0da63239690d5342ba1f917d6d41dad9611d4baf07c6b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "横浜"
@@ -184,11 +192,12 @@
     "question": "私は三ヶ月ほど横浜に住んでいたことがあります。",
     "answer": "I have lived in Yokohama for about three months.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "53f45d4c-6020-4560-8802-248940a26474",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

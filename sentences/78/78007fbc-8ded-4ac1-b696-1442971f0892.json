@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-71570e5b3d198089be48d67681ab3c12cc8da3e335b6385cc5cda9cc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-71570e5b3d198089be48d67681ab3c12cc8da3e335b6385cc5cda9cc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "売れる"
@@ -149,11 +157,12 @@
     "question": "このトラックは毎月二千万台売れるんです。",
     "answer": "Twenty million of these trucks sell every month.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "78007fbc-8ded-4ac1-b696-1442971f0892",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5c4b7e3ba0e4dbfa9b077f7d73889c608af0b63eb314367e4764613f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5c4b7e3ba0e4dbfa9b077f7d73889c608af0b63eb314367e4764613f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "実際"
@@ -198,11 +206,12 @@
     "question": "今現在、実際にトーフグは何名の顧客を抱えているのですか？",
     "answer": "How many clients does Tofugu actually have at the moment?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4e26775f-311f-4c9a-85b8-c5985b3419b6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

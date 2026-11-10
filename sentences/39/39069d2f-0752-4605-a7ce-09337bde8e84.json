@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8ae3d66e28db3612e6c1141ccbdd539164d604f2a1ef0ffad024f446.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8ae3d66e28db3612e6c1141ccbdd539164d604f2a1ef0ffad024f446.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "背"
@@ -170,11 +178,12 @@
     "question": "紫色のドレスを着ている背の高い女性は、あなたのご友人ですか？",
     "answer": "Is your friend the tall woman in the purple dress?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "39069d2f-0752-4605-a7ce-09337bde8e84",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fe0f2b59fc298fd22ea021c2d1d599b0a3583d809936b753b6829933.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fe0f2b59fc298fd22ea021c2d1d599b0a3583d809936b753b6829933.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "存じる"
@@ -177,11 +185,12 @@
     "question": "あのお店ってなくなったんですか！？全く存じませんでした。",
     "answer": "That store is gone? I had no idea.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b98f3b1f-076d-4bfd-a59d-666114a65944",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

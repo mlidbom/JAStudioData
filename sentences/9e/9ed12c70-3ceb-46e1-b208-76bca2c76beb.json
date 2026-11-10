@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4cb84a19ba4dee02d0a8241ec654afb2d43795d8f58cd1df03f255e9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4cb84a19ba4dee02d0a8241ec654afb2d43795d8f58cd1df03f255e9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -168,11 +176,12 @@
     "question": "石川県には三回行ったことがありますよ。",
     "answer": "I have been to Ishikawa prefecture three times.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9ed12c70-3ceb-46e1-b208-76bca2c76beb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

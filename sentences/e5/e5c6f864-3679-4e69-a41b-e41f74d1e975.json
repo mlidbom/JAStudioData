@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-05d2f9df4e7f2d145f0352f43a737fb85ae44279a2ea86e21457b4d3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-05d2f9df4e7f2d145f0352f43a737fb85ae44279a2ea86e21457b4d3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "助言"
@@ -198,11 +206,12 @@
     "question": "母は私に自立するための助言をしてくれました。",
     "answer": "My mother advised me about being independent.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e5c6f864-3679-4e69-a41b-e41f74d1e975",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

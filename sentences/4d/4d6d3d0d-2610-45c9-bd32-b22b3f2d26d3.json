@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2e73a52f9a0035a1149a6ab1bd633ba5efada473b0e9656e8c784345.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2e73a52f9a0035a1149a6ab1bd633ba5efada473b0e9656e8c784345.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "研究室"
@@ -100,11 +108,12 @@
     "question": "このハムスターは研究室で生まれました。",
     "answer": "This hamster was born in the lab.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4d6d3d0d-2610-45c9-bd32-b22b3f2d26d3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7b12ddc615cfbfa5037f35ab02fa35904ecc1c20da15da1efe081450.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7b12ddc615cfbfa5037f35ab02fa35904ecc1c20da15da1efe081450.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "中"
@@ -121,11 +129,12 @@
     "question": "このグループの中に、レイチェルはいますか？",
     "answer": "Is Rachel in this group?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6d195b53-eca5-4f25-b711-d77d2d6abffa",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

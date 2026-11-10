@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d3e5ffb5ccb55a3cb84fc21fbd67c3cd88e4371432a93bf435863cc1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d3e5ffb5ccb55a3cb84fc21fbd67c3cd88e4371432a93bf435863cc1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "当てる"
@@ -226,11 +234,12 @@
     "question": "私には電話番号で、その人の未来のことを当てる力があります。",
     "answer": "I have the power to guess a person's future by their phone number.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c9d449ca-4155-4d91-98b6-5ce34d5f62a9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

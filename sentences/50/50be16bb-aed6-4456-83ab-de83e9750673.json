@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3f3b4decc88b05e73f1d854bab2bbd26e908f968ea0e5a74a8a85abb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3f3b4decc88b05e73f1d854bab2bbd26e908f968ea0e5a74a8a85abb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "不正"
@@ -100,11 +108,12 @@
     "question": "不正にログインがありました。",
     "answer": "There was an unauthorized login.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "50be16bb-aed6-4456-83ab-de83e9750673",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

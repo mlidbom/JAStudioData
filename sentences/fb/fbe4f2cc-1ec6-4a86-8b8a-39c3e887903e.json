@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e0aa2282f2d210f9f3afff07f39d6098fa21a501f998b0043471e75f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e0aa2282f2d210f9f3afff07f39d6098fa21a501f998b0043471e75f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "俺ら"
@@ -114,11 +122,12 @@
     "question": "俺ら、今、ちょうど学校出たとこだよ。",
     "answer": "We just got out of school.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fbe4f2cc-1ec6-4a86-8b8a-39c3e887903e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

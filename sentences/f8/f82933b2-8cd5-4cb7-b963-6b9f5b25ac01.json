@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fe84a8938895247de10b18419b0eeaa7c730c8be1784161234c4ee40.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fe84a8938895247de10b18419b0eeaa7c730c8be1784161234c4ee40.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "気分"
@@ -142,11 +150,12 @@
     "question": "ウィスキーを口にして気分がよくなった。",
     "answer": "I started feeling better as I had some whiskey.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f82933b2-8cd5-4cb7-b963-6b9f5b25ac01",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

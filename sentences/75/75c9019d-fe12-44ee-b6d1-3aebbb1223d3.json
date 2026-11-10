@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f29e4ab4e7357f7e08bd57a268a507944f4140a63205f460e592d463.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f29e4ab4e7357f7e08bd57a268a507944f4140a63205f460e592d463.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "二番"
@@ -142,11 +150,12 @@
     "question": "今日は一年の中で二番に長い日です。",
     "answer": "Today is the second-longest day of the year.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "75c9019d-fe12-44ee-b6d1-3aebbb1223d3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

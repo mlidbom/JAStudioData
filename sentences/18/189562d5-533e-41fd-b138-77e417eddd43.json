@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a11984ee4fc3d6de9240c621e046b7a77e01e71d822c86e8ae2855da.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a11984ee4fc3d6de9240c621e046b7a77e01e71d822c86e8ae2855da.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "商品"
@@ -226,11 +234,12 @@
     "question": "あの会社の商品にはいつも保証がついてるから、私はそこで買うことが多いかな。",
     "answer": "Their merchandise is always guaranteed, so I tend to buy things from them.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "189562d5-533e-41fd-b138-77e417eddd43",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

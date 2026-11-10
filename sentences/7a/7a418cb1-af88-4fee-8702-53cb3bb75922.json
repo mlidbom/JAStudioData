@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e0abe47348b9f457b4a0ecd762d4f87dfb50d780b496554182fbb36e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e0abe47348b9f457b4a0ecd762d4f87dfb50d780b496554182fbb36e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "量"
@@ -149,11 +157,12 @@
     "question": "仕事の量を考えると、この給料じゃ割りに合わない。",
     "answer": "Given the amount of work, we’re being badly paid.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7a418cb1-af88-4fee-8702-53cb3bb75922",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

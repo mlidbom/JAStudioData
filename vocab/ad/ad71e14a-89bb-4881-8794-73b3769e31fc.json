@@ -27,9 +27,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-6da8cc20208f4e0b9b73500d10289da5f79e6003f908e7c3b3b00ccd.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-6da8cc20208f4e0b9b73500d10289da5f79e6003f908e7c3b3b00ccd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Google ja-JP-Neural2-B",
+      "voiceGender": "female"
+    }
+  ],
   "forms": [
     {
       "text": "御母",
@@ -43,8 +49,7 @@
   "sentenceCount": 1,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -68,7 +73,9 @@
   "sourceData": {
     "answer": "<read>おふくろ</read>:<tag><ja>お袋</ja></tag>:: one's-mother\n<read>おかあ</read>|<read>みおも</read>:: mother",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "ad71e14a-89bb-4881-8794-73b3769e31fc",
   "tags": [

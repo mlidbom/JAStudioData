@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cbece1db3d7b5507dd0877a68f6b90f025820dbe1e0b55018b69aae0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cbece1db3d7b5507dd0877a68f6b90f025820dbe1e0b55018b69aae0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "電気柵"
@@ -149,11 +157,12 @@
     "question": "お父さんが電気柵を設置してくれたんです。",
     "answer": "My dad installed the electric fence.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "382dd5ca-1368-4db1-839c-3b1cb8281ed1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

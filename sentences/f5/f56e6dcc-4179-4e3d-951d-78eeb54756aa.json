@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f930aec68dc24ee99e6984f336939ef0b4f67dee92eb1bafd837b0e2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f930aec68dc24ee99e6984f336939ef0b4f67dee92eb1bafd837b0e2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "文句"
@@ -184,11 +192,12 @@
     "question": "そのレストランの料理には文句のつけようがありませんでした。",
     "answer": "I could not complain about the food at that restaurant.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f56e6dcc-4179-4e3d-951d-78eeb54756aa",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

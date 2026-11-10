@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f012c9e4eeb273bbecb2908c872c1c9c5043e4a2ca5403ddf0a5c8e9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f012c9e4eeb273bbecb2908c872c1c9c5043e4a2ca5403ddf0a5c8e9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -63,11 +71,12 @@
     "question": "三百円です。",
     "answer": "It's 300 yen.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bbffb669-0f03-4e8c-b353-7f49b1786987",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

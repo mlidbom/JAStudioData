@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e55f9f998ea5d006efa2d488b4b941ace5ec42f4c3220920127548f8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e55f9f998ea5d006efa2d488b4b941ace5ec42f4c3220920127548f8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "忙しい"
@@ -170,11 +178,12 @@
     "question": "今日は忙しくて、ランチを食べる時間もありませんでした。",
     "answer": "Today was so busy that I didn't even have time for lunch.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ddfa5384-7907-4cfd-8ef0-0b7552e0a94d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

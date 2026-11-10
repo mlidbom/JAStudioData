@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ff3d2e916cada6e468fbeb7e211e6589a9731aebd9abeebf02f37043.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ff3d2e916cada6e468fbeb7e211e6589a9731aebd9abeebf02f37043.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "入門"
@@ -86,11 +94,12 @@
     "question": "この本はプログラミングの入門書です。",
     "answer": "This book is an introductory text on programming.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b6ce9f5b-712a-4662-8baa-ac6ea689c8aa",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

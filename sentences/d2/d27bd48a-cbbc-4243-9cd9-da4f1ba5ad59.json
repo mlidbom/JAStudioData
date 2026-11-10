@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b43cebe64828084f877be6da8e229c3f50f7b4062d3975905c832bd3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b43cebe64828084f877be6da8e229c3f50f7b4062d3975905c832bd3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "棚"
@@ -114,11 +122,12 @@
     "question": "コップは食器棚に置いてください。",
     "answer": "Please put the cup in the cupboard.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d27bd48a-cbbc-4243-9cd9-da4f1ba5ad59",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d93a25861ee45e6383cbba47879eb6ed17d1f6f90bb53435502dddd7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d93a25861ee45e6383cbba47879eb6ed17d1f6f90bb53435502dddd7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "体積"
@@ -296,11 +304,12 @@
     "question": "父さんにガレージの体積を測るように言われたんだけど、理由は知らないよ。何か変だよね。",
     "answer": "My dad told me to measure the volume of our garage, but I don’t know why. It seems kind of weird to me.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "649fa22a-457d-4ff9-8e0e-19dc130ae099",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

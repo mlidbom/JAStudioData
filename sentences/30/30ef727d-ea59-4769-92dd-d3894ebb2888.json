@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b59e1159ae8db4f09b08bca72bbdfc24fe560eb18783483d6df5e56e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b59e1159ae8db4f09b08bca72bbdfc24fe560eb18783483d6df5e56e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "評判"
@@ -149,11 +157,12 @@
     "question": "あの野球評論家は、あまり評判が良くないんだよ。",
     "answer": "That baseball commentator doesn't have a very good reputation.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "30ef727d-ea59-4769-92dd-d3894ebb2888",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

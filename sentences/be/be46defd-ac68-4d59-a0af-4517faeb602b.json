@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3a3a305da34aa564ca1c77ec5f3b4c0cd90797abe87d84dbe4e4f93d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3a3a305da34aa564ca1c77ec5f3b4c0cd90797abe87d84dbe4e4f93d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "費用"
@@ -135,11 +143,12 @@
     "question": "式の費用は、夫の親が出してくれました。",
     "answer": "The wedding expenses were paid by my husband's parents.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "be46defd-ac68-4d59-a0af-4517faeb602b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

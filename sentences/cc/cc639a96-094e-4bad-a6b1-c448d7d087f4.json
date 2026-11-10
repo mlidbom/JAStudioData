@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-85dbf84a2fa1229213f66f3e0e5552ee63e38547e4759d0939c4d635.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-85dbf84a2fa1229213f66f3e0e5552ee63e38547e4759d0939c4d635.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "教授"
@@ -121,11 +129,12 @@
     "question": "教授会は毎月第三金曜日に開かれます。",
     "answer": "The faculty meetings are held on the third Friday of every month.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cc639a96-094e-4bad-a6b1-c448d7d087f4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

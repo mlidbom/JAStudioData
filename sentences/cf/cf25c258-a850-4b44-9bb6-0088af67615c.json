@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-023d3fd0730d79d45a6b5d58b3e2a3a3cff341803fb1c369349fcc22.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-023d3fd0730d79d45a6b5d58b3e2a3a3cff341803fb1c369349fcc22.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "台詞"
@@ -72,11 +80,12 @@
     "question": "なんかウソっぽい台詞だね。",
     "answer": "The lines sound kind of phony, don't they?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cf25c258-a850-4b44-9bb6-0088af67615c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

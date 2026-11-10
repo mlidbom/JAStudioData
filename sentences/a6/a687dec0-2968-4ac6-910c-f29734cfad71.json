@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8488a90796954e0174a18226212e5b1ace029fe8cb24a38f64a33be4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8488a90796954e0174a18226212e5b1ace029fe8cb24a38f64a33be4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "人込み"
@@ -156,11 +164,12 @@
     "question": "怖くて人込みの中に行けません。",
     "answer": "I can't go into the middle of a crowd of people because I'm scared.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a687dec0-2968-4ac6-910c-f29734cfad71",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

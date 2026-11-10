@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b48b30a80b8756cf456c917859ec19a0960c69b9e06dd8e2f77adb3d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b48b30a80b8756cf456c917859ec19a0960c69b9e06dd8e2f77adb3d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "気温"
@@ -100,11 +108,12 @@
     "question": "今日の最高気温は四十度です。",
     "answer": "Today's highest temperature will be 40 degrees.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "186a1098-e64c-4c3f-9f24-a9dc8f5c6cce",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c9c4f8e35e2bd751ad41fc147dab32b12aa9885ad30750c605aeae50.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c9c4f8e35e2bd751ad41fc147dab32b12aa9885ad30750c605aeae50.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "教授"
@@ -149,11 +157,12 @@
     "question": "あの教授の息子、ずい分コウイチに肩入れしてるよね。",
     "answer": "That professor's son backs up Koichi quite a lot, yeah?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "608c9b85-758e-4c99-827b-1b40ebf6c5b1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

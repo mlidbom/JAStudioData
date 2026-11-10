@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-612bf372c6f09ece83461fb86f96e6e2dc75bbc462002db543bf1676.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-612bf372c6f09ece83461fb86f96e6e2dc75bbc462002db543bf1676.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "夏休み"
@@ -65,11 +73,12 @@
     "question": "七月と八月は夏休みです。",
     "answer": "July and August are summer vacation.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0b4a4d33-489c-47d9-82c6-1dade003e112",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

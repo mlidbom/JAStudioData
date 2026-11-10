@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ff73e1096e3762f0667138b097f2ecfd48c7bf20f43e4fb95fc03fd3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ff73e1096e3762f0667138b097f2ecfd48c7bf20f43e4fb95fc03fd3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "安全"
@@ -128,11 +136,12 @@
     "question": "大人でも、ハイキングは安全に行うことが大切です。",
     "answer": "It's important to hike safely even for adults.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b03c7fc3-7a80-4002-b8ef-dd0e2955652a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

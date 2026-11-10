@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ccb01552e6d07afceb0d92ea9d8b52794551db8e440ac5110495148b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ccb01552e6d07afceb0d92ea9d8b52794551db8e440ac5110495148b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "文法"
@@ -191,11 +199,12 @@
     "question": "今日の午後は明日の文法のテストに向けて勉強をする予定です。",
     "answer": "This afternoon, I'm planning to study for tomorrow's grammar test.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "65d11dd0-f35c-47c4-91a8-50f83a6882cf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

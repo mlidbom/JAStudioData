@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-98f626cb5061e896041edd3ed7f6a63f026e0637db38d6d1943cd33e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-98f626cb5061e896041edd3ed7f6a63f026e0637db38d6d1943cd33e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "敷金"
@@ -107,11 +115,12 @@
     "question": "敷金を全額返金してもらいました。",
     "answer": "I got a full refund on my security deposit.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f46d1636-7074-47ee-a7fb-01a169e7766e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

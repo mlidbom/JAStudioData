@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e93bc2d1e81e1cb2b7fb659d986f56df5a4d7ef55f6288575b3f1aaa.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e93bc2d1e81e1cb2b7fb659d986f56df5a4d7ef55f6288575b3f1aaa.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "似合う"
@@ -226,11 +234,12 @@
     "question": "残念ながら、自分の好きな色が必ずしも自分に似合うとは限らないのよね。",
     "answer": "Unfortunately, it's not always the case that one's favorite color will suit one.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0d8a531a-90e8-47f3-9472-a57cd7058e52",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

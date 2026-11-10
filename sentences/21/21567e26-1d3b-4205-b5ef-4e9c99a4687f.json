@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f39fd0ffe097410e7413ac162ae63a03f56a6e6b415c7fe85a8d9121.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f39fd0ffe097410e7413ac162ae63a03f56a6e6b415c7fe85a8d9121.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "察する"
@@ -205,11 +213,12 @@
     "question": "言わなくても、それだけが理由じゃないことくらい察してもらいたかった。",
     "answer": "Even without telling them, I wanted them at least to guess that it wasn’t the only reason.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "21567e26-1d3b-4205-b5ef-4e9c99a4687f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

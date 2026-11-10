@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2fc2acf2ac0511b8d0dcbbfb7be77cea6a52fe7fa96215e86c9306ce.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2fc2acf2ac0511b8d0dcbbfb7be77cea6a52fe7fa96215e86c9306ce.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "単語"
@@ -128,11 +136,12 @@
     "question": "日本語の単語学習には、ワニカニがいいですよ。",
     "answer": "WaniKani is good for learning Japanese vocabulary.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ed8f3885-844b-4e9f-b135-a3d82f51253d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5fa85a54bfd69fbead5889c6dcedfc1e02a60e9efb667ae12af74c21.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5fa85a54bfd69fbead5889c6dcedfc1e02a60e9efb667ae12af74c21.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "防止"
@@ -226,11 +234,12 @@
     "question": "この大学芋、サツマイモと水とハチミツとミリンだけで作ったんだよ。老化防止にいいんだって。",
     "answer": "This sweet potato dish called <i>daigakuimo</i> was made with just sweet potatoes, water, honey, and mirin. It's said to be good for preventing aging.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6e6cb2dc-35eb-41ba-8da3-84ae7473c21a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

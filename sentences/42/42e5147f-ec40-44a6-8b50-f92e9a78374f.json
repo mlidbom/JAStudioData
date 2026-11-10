@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a4936fcefc433e7c27afa20835b66ff3eff76c6d53a64856eaa51be2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a4936fcefc433e7c27afa20835b66ff3eff76c6d53a64856eaa51be2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "県営"
@@ -177,11 +185,12 @@
     "question": "フグは県営図書館でサーモンといちゃついていて、図書館司書さんに怒られた。",
     "answer": "Fugu was scolded for making out with Salmon in the prefectural library by a librarian.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "42e5147f-ec40-44a6-8b50-f92e9a78374f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-153f67f571be6c1b322012fcaa9844ccabee66e5a2cb3ff1c05c90ea.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-153f67f571be6c1b322012fcaa9844ccabee66e5a2cb3ff1c05c90ea.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "八冊"
@@ -121,11 +129,12 @@
     "question": "学生は八人だから、教科書は八冊必要です。",
     "answer": "Because there are eight students, we will need eight textbooks.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a82d2bfd-8a42-44b6-988a-96901dec334b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

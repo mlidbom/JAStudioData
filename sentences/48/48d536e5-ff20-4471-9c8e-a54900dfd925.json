@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fc2d1274b3b4e98c2e30664826c7d31d651539d15e18139430fa5acb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fc2d1274b3b4e98c2e30664826c7d31d651539d15e18139430fa5acb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "氷"
@@ -93,11 +101,12 @@
     "question": "「氷の女王」という本は、ありますか？",
     "answer": "Is there a book called \"The Ice Queen?\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "48d536e5-ff20-4471-9c8e-a54900dfd925",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

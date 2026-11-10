@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-96f450d2df256f1ed36f782949d74882da770256d8dd852d79b79a5e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-96f450d2df256f1ed36f782949d74882da770256d8dd852d79b79a5e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "弾む"
@@ -93,11 +101,12 @@
     "question": "ボールが地面を弾んで湖に落ちた。",
     "answer": "The ball bounced off the ground and fell into the lake.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2fd341b2-5339-4c6a-a143-29056f978162",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

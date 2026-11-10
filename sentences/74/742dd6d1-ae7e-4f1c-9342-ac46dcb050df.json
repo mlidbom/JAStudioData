@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d6ba1f56833ce00fb266d29ef800d9f9298b28f5bda632ac446d4c5e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d6ba1f56833ce00fb266d29ef800d9f9298b28f5bda632ac446d4c5e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "俳優"
@@ -107,11 +115,12 @@
     "question": "あの俳優は、態度に問題がある。",
     "answer": "That actor has a real attitude problem.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "742dd6d1-ae7e-4f1c-9342-ac46dcb050df",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

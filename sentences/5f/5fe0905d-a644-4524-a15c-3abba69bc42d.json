@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-154d992a3ca6858aac5b6669cc4417db39ab2934cf1ff5b22190b20c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-154d992a3ca6858aac5b6669cc4417db39ab2934cf1ff5b22190b20c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "就業"
@@ -226,11 +234,12 @@
     "question": "ハローワークに行っても、就業形態がパートのみの仕事しかすすめてもらえないんだよ。",
     "answer": "When I go to Hello Work (employment service center), they only recommend part-time jobs to me.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5fe0905d-a644-4524-a15c-3abba69bc42d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

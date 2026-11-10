@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cbc097f78748502c827c01acf4d4b62a30236d89bacfd5bcba1bd878.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cbc097f78748502c827c01acf4d4b62a30236d89bacfd5bcba1bd878.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "仁義"
@@ -79,11 +87,12 @@
     "question": "盗人には仁義はない。",
     "answer": "There is no honor among thieves.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ba014862-1616-4d19-a929-8aa81b4be701",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

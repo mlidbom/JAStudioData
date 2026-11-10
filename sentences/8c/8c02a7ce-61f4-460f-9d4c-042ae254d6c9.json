@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e6f2f169dcc4321a367bd7505bdf7db6a25686cceca64e4ff20510bd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e6f2f169dcc4321a367bd7505bdf7db6a25686cceca64e4ff20510bd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "太平洋"
@@ -114,11 +122,12 @@
     "question": "ここから太平洋まで車で行けますか？",
     "answer": "Can I get to the Pacific Ocean from here?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8c02a7ce-61f4-460f-9d4c-042ae254d6c9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

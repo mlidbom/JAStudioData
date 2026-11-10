@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ed958aad7bfc16a4be400453e45abc3e627d8fd63e04d317a7c0526c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ed958aad7bfc16a4be400453e45abc3e627d8fd63e04d317a7c0526c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "泣く"
@@ -177,11 +185,12 @@
     "question": "クビになっちゃって泣いてます。早く次の会社、見つけなきゃ。",
     "answer": "I got fired and I'm crying. I need to find another company quickly.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d04942ac-55c7-4a53-b82a-41f49b7d3237",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

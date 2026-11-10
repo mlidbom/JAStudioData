@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b193cb765ce6b596fabfd79d96d9fd3faaf97eacb9f4bac804198fbb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b193cb765ce6b596fabfd79d96d9fd3faaf97eacb9f4bac804198fbb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "〜人"
@@ -135,11 +143,12 @@
     "question": "王子のウェディングパーティーには千人のゲストがきます。",
     "answer": "A thousand guests are coming to the prince's wedding reception.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2e74a049-317b-4328-a0da-1fea8f6d4c17",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2a1ab04aa9d95ca880e4df3acfdd9bc2082d05838ab73cc7716bae81.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2a1ab04aa9d95ca880e4df3acfdd9bc2082d05838ab73cc7716bae81.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "虐待"
@@ -163,11 +171,12 @@
     "question": "虐待を受けた子供は、自己評価が非常に低くなることが多い。",
     "answer": "Many children who were abused have extremely lowered self esteem.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "245bbb00-4aea-4b63-ac40-3ff5fdace2e6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

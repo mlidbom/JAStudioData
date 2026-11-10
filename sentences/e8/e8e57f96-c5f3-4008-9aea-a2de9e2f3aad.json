@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c973ad1ea49dceaeb645cad46d160f3d632e3512a8a4d560a04222a9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c973ad1ea49dceaeb645cad46d160f3d632e3512a8a4d560a04222a9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "朗らか"
@@ -219,11 +227,12 @@
     "question": "朗らかな声をした知らない人から国際電話がかかってきました。",
     "answer": "I got an international call from someone I didn’t know with a melodious voice. ",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e8e57f96-c5f3-4008-9aea-a2de9e2f3aad",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

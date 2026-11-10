@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6e31f79aea5de3446572d8e19f3a2e8e7914ba39dc4a82e6cb728030.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6e31f79aea5de3446572d8e19f3a2e8e7914ba39dc4a82e6cb728030.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "船員"
@@ -100,11 +108,12 @@
     "question": "私は昔この船の船員でした。",
     "answer": "I used to be a sailor on this ship.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fb037033-8fd5-4c42-9650-4ada87ac4262",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

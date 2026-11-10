@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-39b1ef8545c539a4510a4b491b69ba7d1e9f18050a3b6c17ed875ac9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-39b1ef8545c539a4510a4b491b69ba7d1e9f18050a3b6c17ed875ac9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "善悪"
@@ -107,11 +115,12 @@
     "question": "このロボットは、ヒーロー番組から善悪を学びました。",
     "answer": "This robot learned about good and evil from hero shows.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "098ea296-87d8-4eef-956c-62f5d064bd9a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

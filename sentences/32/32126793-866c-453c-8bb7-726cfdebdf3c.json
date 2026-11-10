@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c0ec12e96a46f821d7ef34ca0ec001ba44a5b4f6d7bb4e62c9875879.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c0ec12e96a46f821d7ef34ca0ec001ba44a5b4f6d7bb4e62c9875879.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "濃度"
@@ -128,11 +136,12 @@
     "question": "あなたの血中アルコール濃度については追って連絡致します。",
     "answer": "I’ll get back to you on your blood-alcohol concentration.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "32126793-866c-453c-8bb7-726cfdebdf3c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

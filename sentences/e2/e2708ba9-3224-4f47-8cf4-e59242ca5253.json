@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-24da171ce1ae501fc4fc6c5754c66bc61a9c259e00c17330c1cbb31e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-24da171ce1ae501fc4fc6c5754c66bc61a9c259e00c17330c1cbb31e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "心配事"
@@ -121,11 +129,12 @@
     "question": "今日の試験の心配事は、昨日の勉強不足です。",
     "answer": "My worries about today's exams are that I didn't study enough yesterday.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e2708ba9-3224-4f47-8cf4-e59242ca5253",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

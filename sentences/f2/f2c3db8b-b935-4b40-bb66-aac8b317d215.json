@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c9ec1fefb1942fc53057b65a223acb37305f05ed38602057eedbfac4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c9ec1fefb1942fc53057b65a223acb37305f05ed38602057eedbfac4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "角"
@@ -156,11 +164,12 @@
     "question": "角が五つあるシェイプのことを、「ペンタゴン」と言うらしい。",
     "answer": "Apparently, a shape with five angles is called a \"pentagon.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f2c3db8b-b935-4b40-bb66-aac8b317d215",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

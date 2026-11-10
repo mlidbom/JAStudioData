@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-45605e419170f03c27f1fa51d94211a8761c1c79de29eb6c316f98d4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-45605e419170f03c27f1fa51d94211a8761c1c79de29eb6c316f98d4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "毎回"
@@ -149,11 +157,12 @@
     "question": "あのミーティングに行くのは毎回この三人です。",
     "answer": "The ones who go to that meeting every time are those three.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3ed6f923-4d97-4b24-95fd-0a5f8b180f73",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dbcbdfd73130c8abb465a4503de0867937c11b059e36682c7e6be809.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dbcbdfd73130c8abb465a4503de0867937c11b059e36682c7e6be809.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "七つ"
@@ -107,11 +115,12 @@
     "question": "テイクアウトで、うどんを七つオーダーしました。",
     "answer": "I ordered seven udon to-go.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a696e1fd-b38e-4b80-8ac0-e28e36f1ae87",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

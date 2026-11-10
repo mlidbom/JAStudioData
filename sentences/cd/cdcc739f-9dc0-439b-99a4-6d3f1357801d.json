@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7e1fb31cc539c63c5a884851cafb8c431e13a533f1694287bd1567c5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7e1fb31cc539c63c5a884851cafb8c431e13a533f1694287bd1567c5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "個室"
@@ -226,11 +234,12 @@
     "question": "トイレの個室って、小さなカメラが付けられてることがあるので、気をつけてね！",
     "answer": "Toilets in individual stalls sometimes have small cameras installed, so be careful!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cdcc739f-9dc0-439b-99a4-6d3f1357801d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

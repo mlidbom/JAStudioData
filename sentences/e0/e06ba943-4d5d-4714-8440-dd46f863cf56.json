@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-21c95e95e701bc8794dd548ee0230c4f2bf52bc953584b82af4b4d80.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-21c95e95e701bc8794dd548ee0230c4f2bf52bc953584b82af4b4d80.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "愉快"
@@ -205,11 +213,12 @@
     "question": "昔、「僕は殺しが愉快でたまらない」と言った少年殺人犯がいました。",
     "answer": "A long time ago, a young murderer said, \"I can’t help but find murder pleasant.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e06ba943-4d5d-4714-8440-dd46f863cf56",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

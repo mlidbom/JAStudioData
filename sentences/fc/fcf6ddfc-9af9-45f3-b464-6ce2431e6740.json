@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a15d4d1f403289a4ea7a60c74631e754dcdfb0e63f7cac541498442d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a15d4d1f403289a4ea7a60c74631e754dcdfb0e63f7cac541498442d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "飲酒"
@@ -100,11 +108,12 @@
     "question": "あいつ、未成年に飲酒させたらしいよ。",
     "answer": "I heard that guy got a minor to drink.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fcf6ddfc-9af9-45f3-b464-6ce2431e6740",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

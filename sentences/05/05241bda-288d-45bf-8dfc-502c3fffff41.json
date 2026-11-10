@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-036c9cca1411197294ffef84790f5e156d4e06e9bc54eef1b0206b52.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-036c9cca1411197294ffef84790f5e156d4e06e9bc54eef1b0206b52.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "疲れ"
@@ -100,11 +108,12 @@
     "question": "ネコは疲れをいやしてくれるよ。",
     "answer": "Cats will soothe you when you're tired.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "05241bda-288d-45bf-8dfc-502c3fffff41",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

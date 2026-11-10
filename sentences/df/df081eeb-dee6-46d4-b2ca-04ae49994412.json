@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ce8d7bd9684ddbc3fb952ed76074e710209838b1207efb7c9e3677c1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ce8d7bd9684ddbc3fb952ed76074e710209838b1207efb7c9e3677c1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "星"
@@ -121,11 +129,12 @@
     "question": "北海道には美しい星空が広がっています。",
     "answer": "A beautiful starry sky stretches over Hokkaido.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "df081eeb-dee6-46d4-b2ca-04ae49994412",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

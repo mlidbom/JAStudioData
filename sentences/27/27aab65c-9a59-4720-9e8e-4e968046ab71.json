@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-daf6c4dbd811b571b465ab75a36f13e98e10dab90cd84c30e30646bf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-daf6c4dbd811b571b465ab75a36f13e98e10dab90cd84c30e30646bf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "食べる"
@@ -121,11 +129,12 @@
     "question": "うちの犬はキャットフードを食べることが多いです。",
     "answer": "Our dog often eats cat food.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "27aab65c-9a59-4720-9e8e-4e968046ab71",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

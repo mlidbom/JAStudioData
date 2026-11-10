@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-35e43958ae618813614695ede384aca201dc9bfeb4a4b15f5fda866d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-35e43958ae618813614695ede384aca201dc9bfeb4a4b15f5fda866d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "肩こり"
@@ -135,11 +143,12 @@
     "question": "これは肩こりが楽になるストレッチです。",
     "answer": "This is a stretching exercise that helps relieve stiff shoulders.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b7ba4377-6246-4d49-bd70-60a67deefc8c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

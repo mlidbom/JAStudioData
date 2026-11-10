@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-119e96133a444e9aeabefb9f33311daeb77fe9bd04c0408a63945e44.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-119e96133a444e9aeabefb9f33311daeb77fe9bd04c0408a63945e44.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "利息"
@@ -317,11 +325,12 @@
     "question": "あいにく今、その質問に答えられる者がいないのですが、もしインターネットにアクセス可能なら利息のレートはそちらでもご確認頂けますよ。",
     "answer": "I’m afraid there is no one here who can answer your question right now, but you can also check your interest rate online, if you can connect to the Internet.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "94a7b39f-8da6-44ab-b4e8-4ddca2d9a4db",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

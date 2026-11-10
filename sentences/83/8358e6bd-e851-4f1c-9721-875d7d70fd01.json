@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-725e519b682cf6b91ed199158a8fd42fdb35b0e4a2a744407cc7fedd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-725e519b682cf6b91ed199158a8fd42fdb35b0e4a2a744407cc7fedd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大間違い"
@@ -135,11 +143,12 @@
     "question": "彼女をデートに誘ったが、それは大間違いだった。",
     "answer": "I asked her to go out with me, but it was a big mistake.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8358e6bd-e851-4f1c-9721-875d7d70fd01",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

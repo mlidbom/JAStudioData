@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d6f0b01eedbcb562ab093381467c527d55f3b7fb6550cc1f389f1dce.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d6f0b01eedbcb562ab093381467c527d55f3b7fb6550cc1f389f1dce.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "具合"
@@ -100,11 +108,12 @@
     "question": "ちょっと昨日から具合が良くなくて。",
     "answer": "I was a little under the weather yesterday.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "808487d7-a3f2-4bc0-a4fa-6c98427f74a7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

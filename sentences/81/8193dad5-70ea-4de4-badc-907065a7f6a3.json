@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2b8fbf1061c4d0a56022e360fdcb1052752b0447594958c73a82258b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2b8fbf1061c4d0a56022e360fdcb1052752b0447594958c73a82258b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "衆議院"
@@ -128,11 +136,12 @@
     "question": "日本の衆議院における女性議員の割合はどれぐらいですか？",
     "answer": "What is the percentage of female members in the House of Representatives in Japan?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8193dad5-70ea-4de4-badc-907065a7f6a3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

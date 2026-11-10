@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dde25ccc8e8a788129a3658767ec1a3af4bbdd25b987326e4976490a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dde25ccc8e8a788129a3658767ec1a3af4bbdd25b987326e4976490a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "早口"
@@ -58,11 +66,12 @@
     "question": "兄は、とても早口です。",
     "answer": "My brother is very fast talker.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c96c0eb3-aed0-4dd4-8860-70d422592923",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-58dcc30b906d49c7477d89b244c24d345af2e0ca78240586cdaa84bd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-58dcc30b906d49c7477d89b244c24d345af2e0ca78240586cdaa84bd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "混む"
@@ -296,11 +304,12 @@
     "question": "電車は毎日混みますが、あなたのせいではありません。自分を責める必要はありませんよ。",
     "answer": "The train is crowded every morning, but it’s not your fault. There’s no need to blame yourself.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "804c0217-7a8e-4fc3-ad7d-6d39ce1a6cb3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

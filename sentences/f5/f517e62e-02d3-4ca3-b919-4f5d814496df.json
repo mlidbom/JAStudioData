@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0bb6fbb1bee9d87a9aad987c814e5f44c58a8f23085a47f733009ccd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0bb6fbb1bee9d87a9aad987c814e5f44c58a8f23085a47f733009ccd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "球"
@@ -163,11 +171,12 @@
     "question": "ねぇ、新しい野球の球を買ったんだけど、一緒にキャッチボールしない？",
     "answer": "Hey, I got a new baseball. Do you want to play catch with me?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f517e62e-02d3-4ca3-b919-4f5d814496df",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

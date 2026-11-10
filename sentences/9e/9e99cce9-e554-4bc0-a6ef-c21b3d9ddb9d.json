@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6523a7d27e796f5f8fffbb5c7fffd57f4ed35c54c529c7251ea97ea3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6523a7d27e796f5f8fffbb5c7fffd57f4ed35c54c529c7251ea97ea3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "小規模"
@@ -233,11 +241,12 @@
     "question": "これは小規模な言語モデル(SLM)なので消費電力が小さく、演算能力の小さなCPUやGPUでも実行できるんです。",
     "answer": "This is a small-scale language model (SLM), so it consumes minimal power and can be run on low-capacity CPUs or GPUs.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9e99cce9-e554-4bc0-a6ef-c21b3d9ddb9d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

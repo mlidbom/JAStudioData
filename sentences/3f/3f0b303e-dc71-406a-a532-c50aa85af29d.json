@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-571e2528d5f686ae1b4dba62872e87d768ae8a23cb2f3e7baddb0fd0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-571e2528d5f686ae1b4dba62872e87d768ae8a23cb2f3e7baddb0fd0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "従える"
@@ -121,11 +129,12 @@
     "question": "その歌手は三人のボディガードを従えてやってきた。",
     "answer": "The singer came here accompanied by her three bodyguards.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3f0b303e-dc71-406a-a532-c50aa85af29d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

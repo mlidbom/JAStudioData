@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bdac5c98d1431962a86bcdf71a5edca085474613a644a6fb32eb76da.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bdac5c98d1431962a86bcdf71a5edca085474613a644a6fb32eb76da.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "迷路"
@@ -156,11 +164,12 @@
     "question": "どこかに、迷路の地図が隠されています。",
     "answer": "The map for the maze is hidden somewhere.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ab74b093-5801-4136-bb3c-ce27dd17a14b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

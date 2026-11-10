@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d94fae236dc45e5a21a77b724d8e0fa281968d44d5d7738b0c486955.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d94fae236dc45e5a21a77b724d8e0fa281968d44d5d7738b0c486955.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "毛"
@@ -79,11 +87,12 @@
     "question": "この牛、毛がたくさんですね。",
     "answer": "This cow has a lot of hair.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "37c04f9f-822a-4914-911a-913025febe29",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-096fbe1acea9fd21bc9fdc34b3be2da5b545601975e99a4b055c80a4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-096fbe1acea9fd21bc9fdc34b3be2da5b545601975e99a4b055c80a4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "違反",
@@ -108,11 +116,12 @@
     "question": "違反者には懲罰が与えられる。",
     "answer": "Violators will receive punishment.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "eaec469d-f998-4912-9efa-bcc6ce40f9c6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

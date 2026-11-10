@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-943ebb73c8a15b40bfeffb56d4ccbbd90306d5e53afd5c0fd04bb868.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-943ebb73c8a15b40bfeffb56d4ccbbd90306d5e53afd5c0fd04bb868.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "種類"
@@ -142,11 +150,12 @@
     "question": "うちの犬は二種類の薬を飲んでいます。",
     "answer": "My dog is on two different medications.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b89b90eb-361f-4f3d-bb98-7d9562ee2dc1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

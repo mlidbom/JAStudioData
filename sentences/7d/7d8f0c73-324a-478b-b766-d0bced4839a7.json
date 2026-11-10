@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0a1981072743b886a11d196debfd62f7dcfe67cc44eebfa43f0f683b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0a1981072743b886a11d196debfd62f7dcfe67cc44eebfa43f0f683b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "共同"
@@ -93,11 +101,12 @@
     "question": "ここは学生が共同で使うコーワーキングスペースです。",
     "answer": "This is a co-working space for students to share.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7d8f0c73-324a-478b-b766-d0bced4839a7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

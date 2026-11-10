@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6c8051e44de3ed662a4170755e8d84c7cb0717daca08464e73fd7384.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6c8051e44de3ed662a4170755e8d84c7cb0717daca08464e73fd7384.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大規模"
@@ -142,11 +150,12 @@
     "question": "今はオンラインで大規模言語モデルについて学んでいます。",
     "answer": "I am currently learning about large language models (LLM) online.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "97539d93-75b1-43f2-83e9-0304c1ed4e0f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

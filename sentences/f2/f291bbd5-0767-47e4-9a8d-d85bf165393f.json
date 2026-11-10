@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0667bca57b48e5433aa2c9527eda824a5041fd8903c435a1a41f5777.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0667bca57b48e5433aa2c9527eda824a5041fd8903c435a1a41f5777.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "串焼き"
@@ -128,11 +136,12 @@
     "question": "うちのインコは「串焼きにしないで！」が口癖です。",
     "answer": "Our parakeet's catchphrase is, \"Don't turn me into grilled skewers!\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f291bbd5-0767-47e4-9a8d-d85bf165393f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

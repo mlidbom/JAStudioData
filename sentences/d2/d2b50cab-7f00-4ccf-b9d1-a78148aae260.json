@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a640e255afd7e8ba7b319295bbca6e60317860851d697052f5d20a82.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a640e255afd7e8ba7b319295bbca6e60317860851d697052f5d20a82.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "首になる"
@@ -107,11 +115,12 @@
     "question": "先月、会社を首になりました。",
     "answer": "I was fired from the company last month.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d2b50cab-7f00-4ccf-b9d1-a78148aae260",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

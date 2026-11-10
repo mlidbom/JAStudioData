@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5caadf9208d9b4a3107d17a0d4a3fb4a3b98a7fe738c1d30b6c5e8af.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5caadf9208d9b4a3107d17a0d4a3fb4a3b98a7fe738c1d30b6c5e8af.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "魚"
@@ -93,11 +101,12 @@
     "question": "魚を切るのが下手です。",
     "answer": "I'm not good at cutting fish.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "893e1ca0-7dcb-4e48-8a1a-7401000b9a63",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

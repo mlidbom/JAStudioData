@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-76fc3b0763ca68dc24e48b0cc5b6f19e9c612cd6c67c4ee1684758b1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-76fc3b0763ca68dc24e48b0cc5b6f19e9c612cd6c67c4ee1684758b1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "国際"
@@ -163,11 +171,12 @@
     "question": "コウイチは国際会議でトーフグの開発成果について発表する予定です。",
     "answer": "Koichi is going to announce the development of Tofugu at an international conference.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "828d2f20-181c-43d9-9013-99b130c5d192",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

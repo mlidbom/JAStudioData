@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-53511f0f9f0f6c59f99e62aba131208d197801c3620ab4619b152feb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-53511f0f9f0f6c59f99e62aba131208d197801c3620ab4619b152feb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "取り出す"
@@ -79,11 +87,12 @@
     "question": "女はポケットからペンを取り出した。",
     "answer": "The woman took a pen out of her pocket.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "598ed833-83b6-4e54-8855-e0e1ed9466f7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

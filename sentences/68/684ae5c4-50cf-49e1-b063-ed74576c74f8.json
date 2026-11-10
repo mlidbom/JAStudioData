@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ec08d36a12991fea90a70f9a1771c974cc15ed5518f65d7f54674bee.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ec08d36a12991fea90a70f9a1771c974cc15ed5518f65d7f54674bee.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "研修"
@@ -135,11 +143,12 @@
     "question": "えっ、森さんが新人社員を研修するんですか？",
     "answer": "Oh, will Mori-san be training the new employees?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "684ae5c4-50cf-49e1-b063-ed74576c74f8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

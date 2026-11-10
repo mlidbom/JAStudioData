@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-faa12b3e799d224c1611546a7469c1eeb02c3d9622b17991a9db5542.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-faa12b3e799d224c1611546a7469c1eeb02c3d9622b17991a9db5542.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "底"
@@ -86,11 +94,12 @@
     "question": "クツの底にガムがついてるよ。",
     "answer": "There’s gum stuck to the bottom of your shoe.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a9ab5c12-803d-4ebd-9d53-4f6875478bcc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

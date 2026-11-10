@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-27c160e343c4ee4669ff01bfd29467cb51cdb8567b4d283dbcf911c9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-27c160e343c4ee4669ff01bfd29467cb51cdb8567b4d283dbcf911c9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "天才"
@@ -58,11 +66,12 @@
     "question": "あの女の子は天才だ。",
     "answer": "That girl is a genius.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ffd0af9c-5301-404c-b1c0-5af884eaa511",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

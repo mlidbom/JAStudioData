@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-64cacd749c0f4958217d9f547eab4603c29473dd99ae950667c9d4de.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-64cacd749c0f4958217d9f547eab4603c29473dd99ae950667c9d4de.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "機械"
@@ -135,11 +143,12 @@
     "question": "コウイチは会社用にバッティングセンターの機械を買いました。",
     "answer": "Koichi bought a batting cage machine for the office",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1ef38ed0-5776-4b7e-8c6a-206411d4d3f3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

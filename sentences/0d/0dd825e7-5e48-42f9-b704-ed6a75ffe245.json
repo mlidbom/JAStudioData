@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ac2947fa7abc5600419205bbe92c2b78b7efdd2e1c0b41e2e61a9072.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ac2947fa7abc5600419205bbe92c2b78b7efdd2e1c0b41e2e61a9072.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "動き"
@@ -149,11 +157,12 @@
     "question": "今週のマーケットは、あまり動きがありませんでした。",
     "answer": "This week, the market didn't show much movement.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0dd825e7-5e48-42f9-b704-ed6a75ffe245",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

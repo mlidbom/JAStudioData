@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-58c2cefb2712bd2a2160c8f79b6f480b8cb87249b07d1ea5cf13a175.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-58c2cefb2712bd2a2160c8f79b6f480b8cb87249b07d1ea5cf13a175.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "寝坊する"
@@ -128,11 +136,12 @@
     "question": "寝坊しすぎて、ついに社長から肩をたたかれた。",
     "answer": "I overslept too often, so the president finally advised me to resign.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "95247c4e-9d1e-4799-97e7-c82bd2f7196f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

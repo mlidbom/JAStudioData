@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4a7290b2afe3ab777b3ce5ca4125343b23dd518ca2500facd941f98e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4a7290b2afe3ab777b3ce5ca4125343b23dd518ca2500facd941f98e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "悲劇"
@@ -86,11 +94,12 @@
     "question": "それが悲劇の始まりだった。",
     "answer": "It was the beginning of my tragedy.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e9e1111b-ba8f-4d96-8d29-d143408366fc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

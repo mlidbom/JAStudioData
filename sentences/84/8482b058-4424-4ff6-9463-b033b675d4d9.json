@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-24911dda78fc23e09ff4d43c906e0b56bb6a9e9326432882f6478d02.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-24911dda78fc23e09ff4d43c906e0b56bb6a9e9326432882f6478d02.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "怪我"
@@ -163,11 +171,12 @@
     "question": "昨日、娘が学校で怪我をしてしまいました。",
     "answer": "Yesterday, my daughter was injured at school.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8482b058-4424-4ff6-9463-b033b675d4d9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

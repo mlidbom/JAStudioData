@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-541f14dd470b89f5c8e153c40a98e888a9d48661497e041c33b72726.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-541f14dd470b89f5c8e153c40a98e888a9d48661497e041c33b72726.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "屋根"
@@ -212,11 +220,12 @@
     "question": "屋根の上から雪が落ちるかもしれないので気を付けて下さいね。",
     "answer": "Please be careful as the snow may fall from the roof.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3d502cfb-1555-48b7-bed1-77e7605acbc9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

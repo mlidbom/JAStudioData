@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-107df8e2f3c9ef1dff9c82dfa17d9a6a1696491a42951b5cf217c840.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-107df8e2f3c9ef1dff9c82dfa17d9a6a1696491a42951b5cf217c840.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "弟"
@@ -79,11 +87,12 @@
     "question": "弟と兄は声がそっくりです。",
     "answer": "My younger brother and my older brother sound exactly the same.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d2d6553e-9784-4a2c-a57a-d4b688e2cd30",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

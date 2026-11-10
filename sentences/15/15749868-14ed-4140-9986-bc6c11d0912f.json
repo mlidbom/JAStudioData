@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-646cf32cde779bb5dc2bd9897ddf6c76bbb29abc526ddbfac34f1756.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-646cf32cde779bb5dc2bd9897ddf6c76bbb29abc526ddbfac34f1756.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "走行"
@@ -72,11 +80,12 @@
     "question": "今日の走行ルートは北回りです。",
     "answer": "Today's driving route is northbound.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "15749868-14ed-4140-9986-bc6c11d0912f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

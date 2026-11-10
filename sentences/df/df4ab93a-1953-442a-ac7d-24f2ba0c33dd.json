@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-174a14d947a9b653c3d218f80bd32c4c886a51b69a03e75496d03545.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-174a14d947a9b653c3d218f80bd32c4c886a51b69a03e75496d03545.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "不便"
@@ -170,11 +178,12 @@
     "question": "この辺りでは、車を持っていないとかなり不便ですよ。",
     "answer": "Not having a car around here is really inconvenient.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "df4ab93a-1953-442a-ac7d-24f2ba0c33dd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

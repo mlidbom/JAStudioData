@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a2917df7b0b50b186abecae084a1ee3a0b8053854e0cad646a383ffb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a2917df7b0b50b186abecae084a1ee3a0b8053854e0cad646a383ffb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "時"
@@ -135,11 +143,12 @@
     "question": "あの時、父は五十才だったと思います。",
     "answer": "At that time, I think my father was 50 years old.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8da40c50-d7a1-4719-8639-9e0a21270698",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

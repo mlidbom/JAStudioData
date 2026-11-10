@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-516d87292fa7ebb0188eb19a138bd282ed875a8f8a6da85541790787.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-516d87292fa7ebb0188eb19a138bd282ed875a8f8a6da85541790787.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "木製"
@@ -121,11 +129,12 @@
     "question": "このテーブルは木製に見えますが、実はプラスチック製です。",
     "answer": "This table looks like it’s made of wood, but in reality it's made of plastic.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "df4e5983-d357-45f8-937c-5ed55ef8afe0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

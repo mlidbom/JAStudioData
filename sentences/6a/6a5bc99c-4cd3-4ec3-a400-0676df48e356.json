@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2c7e40b3e266c9d67591bf7e9fdfd37174dc8cb378f788ff8936ec7b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2c7e40b3e266c9d67591bf7e9fdfd37174dc8cb378f788ff8936ec7b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "声"
@@ -58,11 +66,12 @@
     "question": "あっ、お父さんの声だ。",
     "answer": "Oh, that Dad's voice.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6a5bc99c-4cd3-4ec3-a400-0676df48e356",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

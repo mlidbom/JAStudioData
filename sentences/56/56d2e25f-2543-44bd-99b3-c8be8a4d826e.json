@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b5fa97fd5aa9c82676eab11ecbf896afc1865e1619020f41b73aff6c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b5fa97fd5aa9c82676eab11ecbf896afc1865e1619020f41b73aff6c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "意見"
@@ -93,11 +101,12 @@
     "question": "このプランについて、意見はありますか？",
     "answer": "Do you have any opinions about this plan?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "56d2e25f-2543-44bd-99b3-c8be8a4d826e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

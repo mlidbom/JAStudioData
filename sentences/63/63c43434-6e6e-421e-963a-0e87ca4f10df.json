@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-11714ed7d826d6af71cff1b5e3c5c3dfc0f78f804b026f6a6d152c86.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-11714ed7d826d6af71cff1b5e3c5c3dfc0f78f804b026f6a6d152c86.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "話"
@@ -184,11 +192,12 @@
     "question": "少しだけでいいので、話を聞いてもらえないですか？",
     "answer": "Could you listen to me for just a little bit?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "63c43434-6e6e-421e-963a-0e87ca4f10df",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

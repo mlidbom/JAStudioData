@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2891ab53c88fc9d29585f0f13b516e7ca0db4979e8d65b6822f153a4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2891ab53c88fc9d29585f0f13b516e7ca0db4979e8d65b6822f153a4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "行き"
@@ -65,11 +73,12 @@
     "question": "このバスはシアトル行きです。",
     "answer": "This bus is bound for Seattle.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a8c16893-b1d8-4906-834b-dda26d005c8a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

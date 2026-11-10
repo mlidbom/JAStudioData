@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1befa7ab7e6c458f5d4868263837b811155115b1e47c7e368b1bdaeb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1befa7ab7e6c458f5d4868263837b811155115b1e47c7e368b1bdaeb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "空欄"
@@ -93,11 +101,12 @@
     "question": "空欄に答えを書き込んでください。",
     "answer": "Please fill out your response in the blank space.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "951698cf-8a46-4bb2-9d49-687d2a5b6543",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-82196bea30de0e960bcb5a9e454737d1e8ef6c84d6a8938f72392a86.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-82196bea30de0e960bcb5a9e454737d1e8ef6c84d6a8938f72392a86.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "毛"
@@ -114,11 +122,12 @@
     "question": "生まれたときから毛がありました。",
     "answer": "I had hair since I was born.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e43cd044-123a-4ed9-abf6-16fa7febf56c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

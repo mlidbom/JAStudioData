@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-87884cbb9a5ad61aceec48f7e6c2608102280f81a38343c37f7d5ace.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-87884cbb9a5ad61aceec48f7e6c2608102280f81a38343c37f7d5ace.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "思い出す"
@@ -100,11 +108,12 @@
     "question": "やっと心理学の先生の名前を思い出した。",
     "answer": "I finally remembered the name of the psychology teacher.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ede71b17-42fa-4044-8949-b66f2b73983a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

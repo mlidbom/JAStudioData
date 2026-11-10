@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fbd1e94784b427e2344585432d57d8e68ae96102d3a3a7baa261ec96.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fbd1e94784b427e2344585432d57d8e68ae96102d3a3a7baa261ec96.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "狂気"
@@ -121,11 +129,12 @@
     "question": "その申し出を断るなんて狂気の沙汰だよ。",
     "answer": "You must be insane to decline that offer.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "190543d2-1690-4881-9b7b-25944d8350ec",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

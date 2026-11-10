@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3776f6dd5fed40b5cd5ceb77052f89f1e7afca92e5830929ef40fb4c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3776f6dd5fed40b5cd5ceb77052f89f1e7afca92e5830929ef40fb4c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "暗記"
@@ -93,11 +101,12 @@
     "question": "暗記は苦手なんです。",
     "answer": "I'm not good at memorization.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4cc499f6-52d7-4cf2-9dd3-86e5058f52fe",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

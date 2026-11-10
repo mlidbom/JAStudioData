@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-68727005aee1f41d5d5e4903087c5053b56ae042df78d92ae2c5d064.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-68727005aee1f41d5d5e4903087c5053b56ae042df78d92ae2c5d064.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "怒気"
@@ -177,11 +185,12 @@
     "question": "相手は、こちらの怒気を感じたのか、急に静かになった。",
     "answer": "The other person suddenly grew quiet, perhaps sensing my anger.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "36953ae3-872b-4118-85d2-6a6801f77b2e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

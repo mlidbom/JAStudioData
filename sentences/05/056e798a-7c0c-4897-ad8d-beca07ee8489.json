@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-121b6202b652c0df7f16ea9e8274d7efd1e250f4f91ee1543a2e3c59.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-121b6202b652c0df7f16ea9e8274d7efd1e250f4f91ee1543a2e3c59.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "牧場"
@@ -212,11 +220,12 @@
     "question": "この牧場には、絞り立ての牛乳を使った自慢のアイスクリーム屋さんがあるんだ。",
     "answer": "This farm boasts a good ice cream shop that uses fresh milk.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "056e798a-7c0c-4897-ad8d-beca07ee8489",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

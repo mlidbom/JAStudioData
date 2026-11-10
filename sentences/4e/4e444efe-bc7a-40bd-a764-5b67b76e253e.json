@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d5c2958ae42593f8cf34b5bae8a90ed34ae2a00dd9a6c2bbc91ede34.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d5c2958ae42593f8cf34b5bae8a90ed34ae2a00dd9a6c2bbc91ede34.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "運動"
@@ -163,11 +171,12 @@
     "question": "本当はもっと運動したいけど、時間がないんだよね。",
     "answer": "I actually want to exercise more, but I don't have time.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4e444efe-bc7a-40bd-a764-5b67b76e253e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

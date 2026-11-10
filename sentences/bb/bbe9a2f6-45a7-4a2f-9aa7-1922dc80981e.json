@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3195b325471623d50f7e8caa98b5e1304dac65c5039c024eb48f1d5b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3195b325471623d50f7e8caa98b5e1304dac65c5039c024eb48f1d5b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "山登り"
@@ -107,11 +115,12 @@
     "question": "山田さんって、山登りするんですか？",
     "answer": "Do you go mountain climbing, Mr. Yamada?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bbe9a2f6-45a7-4a2f-9aa7-1922dc80981e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

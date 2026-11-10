@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-780a0a6010c618fbca7ad7f991a70415f54f927ee0b0ceda59571219.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-780a0a6010c618fbca7ad7f991a70415f54f927ee0b0ceda59571219.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "選ぶ"
@@ -93,11 +101,12 @@
     "question": "好きなものを選んでいいよ！",
     "answer": "You can choose whatever you like!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0e23b20c-3fec-415b-a0a6-4264065f0a0a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

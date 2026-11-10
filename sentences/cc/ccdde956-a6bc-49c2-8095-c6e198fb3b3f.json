@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0398ae593ecb59c9fc908e9c7d750a1b2352ff171c548a3cd19db09d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0398ae593ecb59c9fc908e9c7d750a1b2352ff171c548a3cd19db09d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "茶屋"
@@ -170,11 +178,12 @@
     "question": "茶屋の前には竹林があって、赤い和風のパラソルもあります。",
     "answer": "There is a bamboo grove in front of the teahouse, and there is also a red Japanese umbrella.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ccdde956-a6bc-49c2-8095-c6e198fb3b3f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

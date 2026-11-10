@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-00f1fa1f72a1a0df095a7289163894705887b58dae643d0b4b06c8df.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-00f1fa1f72a1a0df095a7289163894705887b58dae643d0b4b06c8df.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "戸"
@@ -65,11 +73,12 @@
     "question": "戸をノックした。",
     "answer": "I knocked on the door.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9d4946db-9c64-4884-9266-668cabc94c55",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

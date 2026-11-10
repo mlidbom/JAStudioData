@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f14ada811a152dc4bbd7b69538d74f3282a455e28574e7984047d025.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f14ada811a152dc4bbd7b69538d74f3282a455e28574e7984047d025.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "電力"
@@ -135,11 +143,12 @@
     "question": "電力が切れて、電気が止まってしまった。",
     "answer": "The power went out and the electricity stopped.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "71337e00-ccbc-4707-80b7-4f681c1b8f47",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

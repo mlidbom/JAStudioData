@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e150baa96fc37b8bccf2340ffda9f68cae3b5917cf1fb486a951a434.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e150baa96fc37b8bccf2340ffda9f68cae3b5917cf1fb486a951a434.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "嫌疑"
@@ -142,11 +150,12 @@
     "question": "どうやら「嫌疑不十分」とされたみたいだね。",
     "answer": "It seems like they were deemed \"not sufficiently suspicious\", huh?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ccb3ed56-a174-4db9-9747-103a3e561f69",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

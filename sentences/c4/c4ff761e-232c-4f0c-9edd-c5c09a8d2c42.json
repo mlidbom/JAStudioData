@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f86aa8eaee7d36ed33d77a20fb5e7bdb31a52aade72cd9e4d72aec4c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f86aa8eaee7d36ed33d77a20fb5e7bdb31a52aade72cd9e4d72aec4c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "順番"
@@ -72,11 +80,12 @@
     "question": "ジャンケンで順番を決めましょう。",
     "answer": "Let's decide the order by rock-paper-scissors.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c4ff761e-232c-4f0c-9edd-c5c09a8d2c42",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

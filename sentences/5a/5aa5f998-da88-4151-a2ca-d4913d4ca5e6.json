@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2582a107a089bdb3fc6db2d58ad1d4a1a1fc93abc420dfeac2be454e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2582a107a089bdb3fc6db2d58ad1d4a1a1fc93abc420dfeac2be454e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "歩く"
@@ -135,11 +143,12 @@
     "question": "あなたと手をつないで歩くなんて、何年ぶりかしら。",
     "answer": "It's the first time we've walked holding hands in a long time.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5aa5f998-da88-4151-a2ca-d4913d4ca5e6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

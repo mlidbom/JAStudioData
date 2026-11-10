@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4144a7db2520cd3f5eb8b9931a844cb56aa0a5c6ab1022284be24c5b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4144a7db2520cd3f5eb8b9931a844cb56aa0a5c6ab1022284be24c5b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鼻血"
@@ -163,11 +171,12 @@
     "question": "急に鼻血が出てきて、びっくりしました。",
     "answer": "I was surprised when I suddenly had a nosebleed.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ace665f1-742c-4aac-81b0-03aa0b1ba610",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

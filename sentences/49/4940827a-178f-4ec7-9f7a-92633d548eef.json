@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cc2ea544e626aa36bc81e2519f783a161af90c2c309ddeea5e9bdb1f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cc2ea544e626aa36bc81e2519f783a161af90c2c309ddeea5e9bdb1f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "死体"
@@ -100,11 +108,12 @@
     "question": "あの車のトランクに死体が入ってます。",
     "answer": "There is a corpse in the trunk of that car over there.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4940827a-178f-4ec7-9f7a-92633d548eef",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

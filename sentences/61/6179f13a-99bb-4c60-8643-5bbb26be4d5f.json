@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5c8ac93dc2be9c0a5bb0d2f5e545457134ff9362dc8ccdb63f7b0bd0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5c8ac93dc2be9c0a5bb0d2f5e545457134ff9362dc8ccdb63f7b0bd0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "精神"
@@ -170,11 +178,12 @@
     "question": "私の父は、精神を病んで精神病院に通っています。",
     "answer": "My father is mentally ill and goes to a mental hospital.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6179f13a-99bb-4c60-8643-5bbb26be4d5f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

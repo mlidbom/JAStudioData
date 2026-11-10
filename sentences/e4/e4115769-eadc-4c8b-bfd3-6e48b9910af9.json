@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3f605eac01717be65b281cfad16289bb398a7ded6e54443dc4e9c054.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3f605eac01717be65b281cfad16289bb398a7ded6e54443dc4e9c054.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "シアトル市"
@@ -107,11 +115,12 @@
     "question": "わたしのお母さんは、シアトル市でそだちました。",
     "answer": "My mother grew up in Seattle.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e4115769-eadc-4c8b-bfd3-6e48b9910af9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

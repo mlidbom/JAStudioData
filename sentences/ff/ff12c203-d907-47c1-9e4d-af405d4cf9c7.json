@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1b20fbae7430f64122299eeecc7a702644ec2f3a3e56fa7d9d0ea4ab.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1b20fbae7430f64122299eeecc7a702644ec2f3a3e56fa7d9d0ea4ab.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "関連"
@@ -121,11 +129,12 @@
     "question": "IT関連の仕事をしています。",
     "answer": "I do IT related work.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ff12c203-d907-47c1-9e4d-af405d4cf9c7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

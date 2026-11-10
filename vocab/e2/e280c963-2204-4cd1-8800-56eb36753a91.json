@@ -29,9 +29,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-b732c2782a5956246906df9d094a289c86c76e956d9703548a838b5e.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-b732c2782a5956246906df9d094a289c86c76e956d9703548a838b5e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "ぐらいなら",
@@ -41,8 +47,7 @@
   "sentenceCount": 5,
   "technicalNotes": "This is in the dictionary, but we will always be showing the one prefixed with う due to the matching rule",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {
       "dictionaryFormHead": "required"
@@ -68,7 +73,9 @@
   "sourceData": {
     "answer": "rather-than-(do-...)",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "e280c963-2204-4cd1-8800-56eb36753a91",
   "tags": [

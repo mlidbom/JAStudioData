@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-022d1a9c6f12354c4708a02f0685d39bdabd584c13c3ae1f1eadc5dd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-022d1a9c6f12354c4708a02f0685d39bdabd584c13c3ae1f1eadc5dd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "今"
@@ -65,11 +73,12 @@
     "question": "今の女王は、とてもやさしい。",
     "answer": "The queen now is very kind.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "22a7e8fc-ee92-4496-a6af-8dbbff9397db",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

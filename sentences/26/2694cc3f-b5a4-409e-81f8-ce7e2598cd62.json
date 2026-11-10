@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c71b984d18ac292b75d2f751ed153545327a90ef18a1955c5fb25fa4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c71b984d18ac292b75d2f751ed153545327a90ef18a1955c5fb25fa4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鳥"
@@ -156,11 +164,12 @@
     "question": "空にいる鳥が点のように見えます。",
     "answer": "The birds in the sky look like dots.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2694cc3f-b5a4-409e-81f8-ce7e2598cd62",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

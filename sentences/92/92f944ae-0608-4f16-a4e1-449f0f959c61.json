@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-117d9b288b8744ef56f6eca52804d9e44661a2711546e732b74dc332.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-117d9b288b8744ef56f6eca52804d9e44661a2711546e732b74dc332.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "田んぼ"
@@ -100,11 +108,12 @@
     "question": "田んぼにハイヒールで入らないで下さい。",
     "answer": "Please do not enter the paddy in high heels.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "92f944ae-0608-4f16-a4e1-449f0f959c61",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f3da65831f540a956f18bac20778e1980a08e2ba5187c42fa1027b16.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f3da65831f540a956f18bac20778e1980a08e2ba5187c42fa1027b16.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "副題"
@@ -156,11 +164,12 @@
     "question": "思い切って二つの副題を統合しちゃうのもアリかも.",
     "answer": "A bold move might be to combine the two subtitles into one.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e2138145-f0d2-4ac6-8cdf-178390ecec9f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f8ec3e72d93cc79ed345afd6db974a14e7530c6fbde1ec5c790985a5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f8ec3e72d93cc79ed345afd6db974a14e7530c6fbde1ec5c790985a5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "かき氷"
@@ -51,11 +59,12 @@
     "question": "大きいかき氷がたべたい。",
     "answer": "I want to eat a big bowl of shaved ice.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "354ef326-7d92-4aa0-9855-63f98d280255",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

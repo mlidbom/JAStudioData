@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5baf11b85f03ad9080a1c23978b09c70292b357e620f7aa87ea567cb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5baf11b85f03ad9080a1c23978b09c70292b357e620f7aa87ea567cb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "幾つ"
@@ -65,11 +73,12 @@
     "question": "おじょうちゃんは幾つかな？",
     "answer": "How old are you, little girl?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "14150fd2-3a69-4980-9bbb-b44c9212a120",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

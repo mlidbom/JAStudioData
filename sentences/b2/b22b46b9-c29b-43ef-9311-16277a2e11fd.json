@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8e1c5fee7ce615aa4b1bdc82e43c85066abfea3a3ce08a731e4bfb5e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8e1c5fee7ce615aa4b1bdc82e43c85066abfea3a3ce08a731e4bfb5e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "林"
@@ -149,11 +157,12 @@
     "question": "虫がたくさんいたので、林からは早々に出ましたよ。",
     "answer": "I left the forest early as there were a lot of bugs.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b22b46b9-c29b-43ef-9311-16277a2e11fd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

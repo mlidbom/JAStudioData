@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-80077c1d9ff70859b98a911f9d4419b7b5562db67dfd351242427c93.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-80077c1d9ff70859b98a911f9d4419b7b5562db67dfd351242427c93.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "増加"
@@ -163,11 +171,12 @@
     "question": "ビエトがこの町を去ってから、 犯罪は着実に増加している。",
     "answer": "Crimes have been increasing steadily since Viet left town.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "30d13f63-5971-4766-a6ea-0c29c81b2fd1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

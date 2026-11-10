@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bcb5ec1e0a3a54f982c31a3848e37dd871b1d7675ca427299499ecf9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bcb5ec1e0a3a54f982c31a3848e37dd871b1d7675ca427299499ecf9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "給料"
@@ -86,11 +94,12 @@
     "question": "お前、全然仕事できてねーじゃん。この給料どろぼう！",
     "answer": "You're not doing your job at all. You salary thief!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0a64b4d9-b305-4177-8de8-1afbc7dee360",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

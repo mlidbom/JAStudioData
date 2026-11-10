@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a2cea447507ba5d87fed38275b891c93837c81d494df02687fece3a1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a2cea447507ba5d87fed38275b891c93837c81d494df02687fece3a1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "塩"
@@ -128,11 +136,12 @@
     "question": "もう少し塩が多い方が良いかもしれませんね。",
     "answer": "It might be better with a little more salt.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7ccac82a-0eca-41b7-8633-c6c3fd53cc21",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

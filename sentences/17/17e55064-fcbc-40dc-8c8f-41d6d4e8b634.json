@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-94a1264e215de2ee52d2d3d1df062024c0fb028fa18fcc584e145637.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-94a1264e215de2ee52d2d3d1df062024c0fb028fa18fcc584e145637.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "読み違い"
@@ -240,11 +248,12 @@
     "question": "どうやら私は彼の意図について、完全に読み違いをしていたようです。",
     "answer": "It seems that I completely misinterpreted his intentions.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "17e55064-fcbc-40dc-8c8f-41d6d4e8b634",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f7deb883ab0e4eb256e2c1180bfc3778065047bfb55bbc789bc6c53b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f7deb883ab0e4eb256e2c1180bfc3778065047bfb55bbc789bc6c53b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "薬学"
@@ -72,11 +80,12 @@
     "question": "彼は、東京大学の薬学部の学生です。",
     "answer": "He is a student of the pharmacy department at the University of Tokyo.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f591f450-bd27-4306-b39a-fa2df73868a2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

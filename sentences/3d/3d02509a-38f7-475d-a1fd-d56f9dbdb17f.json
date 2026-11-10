@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9988600e339c2fc6d44df4f03813aca8a329c28253962f1a4b5f9beb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9988600e339c2fc6d44df4f03813aca8a329c28253962f1a4b5f9beb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "確認する"
@@ -219,11 +227,12 @@
     "question": "我が社がついに赤字を脱したことを確認した時、私は胸を撫で下ろしました。",
     "answer": "I was so relieved when I confirmed that our company finally got out of the red.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3d02509a-38f7-475d-a1fd-d56f9dbdb17f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3c6d61f3b614d2fa82cfd550ae1d4433c192bd75f3274de81600b964.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3c6d61f3b614d2fa82cfd550ae1d4433c192bd75f3274de81600b964.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "熱"
@@ -93,11 +101,12 @@
     "question": "え、やば。熱、40度もあるじゃん。",
     "answer": "Oh no, I have a forty degree fever?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "65f2827f-6ce5-4845-b619-3bcbbef6b49c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

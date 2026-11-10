@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3fb413809cbd2bf2a52e4333c0f61e8b7ae9e5bcce95578c5cd9b52e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3fb413809cbd2bf2a52e4333c0f61e8b7ae9e5bcce95578c5cd9b52e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "核分裂"
@@ -170,11 +178,12 @@
     "question": "核分裂の過程について、分かりやすいスライドショーを作ってもらえますか。",
     "answer": "Can you make an easy-to-understand slide show on the process of nuclear fission?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "85e4cfcc-f6dc-4463-9bed-47f8e42df43c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

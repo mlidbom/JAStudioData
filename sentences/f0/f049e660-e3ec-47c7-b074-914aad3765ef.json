@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ae9d139cb9c64fca0fc0850fc957736c9da4aef7f31be0168bfd1efe.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ae9d139cb9c64fca0fc0850fc957736c9da4aef7f31be0168bfd1efe.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "勉強"
@@ -107,11 +115,12 @@
     "question": "私は毎日日本語の勉強をします。",
     "answer": "I study Japanese every day.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f049e660-e3ec-47c7-b074-914aad3765ef",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d3efed86557f998e2bb24b12edd2137c9e28f8747f83b991f92a2920.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d3efed86557f998e2bb24b12edd2137c9e28f8747f83b991f92a2920.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "処遇"
@@ -226,11 +234,12 @@
     "question": "不正を行った社員の処遇を考えなくてはいけません。",
     "answer": "You must think about the treatment of company employees who commit fraud.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bc58ebb4-4216-4921-8269-7f6562d5be38",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

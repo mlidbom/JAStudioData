@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-649ad859a6d9c24f5717c8614490e26654937e8c29d8820046d6e062.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-649ad859a6d9c24f5717c8614490e26654937e8c29d8820046d6e062.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "欄干"
@@ -114,11 +122,12 @@
     "question": "その欄干は古いからもたれないほうがいい。",
     "answer": "This guardrail is old so you shouldn’t lean on it.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c60c9a26-0be3-426c-aeb6-ccacb864f64a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

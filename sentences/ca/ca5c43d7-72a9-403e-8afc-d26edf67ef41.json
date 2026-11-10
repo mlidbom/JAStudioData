@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4d29fa2443b5f8188f8ccd43c3ef876afc90d07bd0f34d27fcb9b277.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4d29fa2443b5f8188f8ccd43c3ef876afc90d07bd0f34d27fcb9b277.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "書評"
@@ -156,11 +164,12 @@
     "question": "その書評は、妥当なものとして広く認められています。",
     "answer": "That book review is widely accepted for its validity.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ca5c43d7-72a9-403e-8afc-d26edf67ef41",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

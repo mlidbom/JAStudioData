@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0bff393a22791870556d8ee25a5bd9e6f9efd74d08ad6f14c563b56b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0bff393a22791870556d8ee25a5bd9e6f9efd74d08ad6f14c563b56b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "終了"
@@ -149,11 +157,12 @@
     "question": "気に入ったドラマが一シーズンで終了してしまった。",
     "answer": "My favorite drama ended in one season.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ec7a1ac5-f2d5-4326-9308-47d3033d0c93",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

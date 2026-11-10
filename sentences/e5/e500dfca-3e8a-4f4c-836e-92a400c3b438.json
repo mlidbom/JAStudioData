@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-60df1ecdcf3fc1e2a00f68a76e74cc038b470d5f827d9cd6abd47f00.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-60df1ecdcf3fc1e2a00f68a76e74cc038b470d5f827d9cd6abd47f00.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "入所"
@@ -149,11 +157,12 @@
     "question": "私のおばあちゃんは、三月にグループホームに入所しました。",
     "answer": "My grandma joined the group home in March.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e500dfca-3e8a-4f4c-836e-92a400c3b438",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

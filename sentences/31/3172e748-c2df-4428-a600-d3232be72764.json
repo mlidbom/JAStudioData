@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-07ad7c1f0055cbcf829212ece5b940067ffa184e0ea78bb56067e76e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-07ad7c1f0055cbcf829212ece5b940067ffa184e0ea78bb56067e76e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "学期"
@@ -58,11 +66,12 @@
     "question": "来週から新しい学期だ。",
     "answer": "It's a new semester from next week on.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3172e748-c2df-4428-a600-d3232be72764",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

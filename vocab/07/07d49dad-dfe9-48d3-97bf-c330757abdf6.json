@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-fe109ff9feefb8edb584c0461b0155d294a83a9b05046fd64ee95336.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-fe109ff9feefb8edb584c0461b0155d294a83a9b05046fd64ee95336.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "なんて事",
@@ -48,8 +54,7 @@
   "sentenceCount": 5,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -73,7 +78,9 @@
   "sourceData": {
     "answer": "My-goodness!/Good-lord!/Holy-cow!",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "07d49dad-dfe9-48d3-97bf-c330757abdf6",
   "tags": [

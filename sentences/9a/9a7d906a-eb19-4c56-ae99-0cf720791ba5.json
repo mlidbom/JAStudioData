@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-47f39212d52f485a13c07a59bd1e41e768c54e46c3456fd5315ba727.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-47f39212d52f485a13c07a59bd1e41e768c54e46c3456fd5315ba727.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "平等"
@@ -177,11 +185,12 @@
     "question": "すべての人間が平等に創られているわけではない。",
     "answer": "Not all men are created equal.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9a7d906a-eb19-4c56-ae99-0cf720791ba5",
   "tags": [
-    "_tts_audio",
     "source::misc"
   ]
 }

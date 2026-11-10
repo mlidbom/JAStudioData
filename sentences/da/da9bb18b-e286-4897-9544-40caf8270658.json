@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1c3aed6b419f423b798ad723f5373ae05f748dd98dfcfef3d0b380a7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1c3aed6b419f423b798ad723f5373ae05f748dd98dfcfef3d0b380a7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "水星"
@@ -65,11 +73,12 @@
     "question": "月は、水星より小さい。",
     "answer": "The moon is smaller than Mercury.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "da9bb18b-e286-4897-9544-40caf8270658",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

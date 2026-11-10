@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-689a42eb1332d30e117fc548f37abfc7f5fa12c2509cf2aa446780ea.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-689a42eb1332d30e117fc548f37abfc7f5fa12c2509cf2aa446780ea.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "高さ"
@@ -107,11 +115,12 @@
     "question": "あのアパートの高さは三十メートルです。",
     "answer": "The height of that apartment is thirty meters.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d67dc774-ebde-435f-80d9-5fd8a7e60eab",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

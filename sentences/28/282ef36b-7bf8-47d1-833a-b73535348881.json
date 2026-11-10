@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-262148c267e31476a3d5bfb800feb606ec8f98a5a8897c3454f710d4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-262148c267e31476a3d5bfb800feb606ec8f98a5a8897c3454f710d4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "二階"
@@ -170,11 +178,12 @@
     "question": "二階に住む人が大声で何かを言ってるのが聞こえます。",
     "answer": "You can hear people on the second floor saying something loud.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "282ef36b-7bf8-47d1-833a-b73535348881",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

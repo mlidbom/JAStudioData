@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-129b4230716f4192d3285555076b2ba79c9ab47d1d77575a6008c67e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-129b4230716f4192d3285555076b2ba79c9ab47d1d77575a6008c67e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "世界恐慌"
@@ -142,11 +150,12 @@
     "question": "私の祖父は世界恐慌が起きた年に生まれました。",
     "answer": "My grandfather was born the year the Great Depression occurred.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ce977c37-fb57-4ffa-984d-3e16a365e24a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

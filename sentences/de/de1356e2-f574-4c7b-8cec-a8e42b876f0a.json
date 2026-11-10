@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8cca771ac514212915818859a8e400b2734de5e211b5834065884b2c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8cca771ac514212915818859a8e400b2734de5e211b5834065884b2c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "起床"
@@ -93,11 +101,12 @@
     "question": "起床！おい、いつまで寝てるんだ！",
     "answer": "Get up! Hey, how long are you going to sleep?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "de1356e2-f574-4c7b-8cec-a8e42b876f0a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

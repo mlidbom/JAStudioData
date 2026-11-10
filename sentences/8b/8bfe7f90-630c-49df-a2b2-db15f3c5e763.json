@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a7dcaa0c9441f4c7d9cc22101888e5126d08a3659b31c1088c8345ac.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a7dcaa0c9441f4c7d9cc22101888e5126d08a3659b31c1088c8345ac.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "手作り"
@@ -79,11 +87,12 @@
     "question": "このテーブルは、林さんの手作りです。",
     "answer": "This table was handmade by Hayashi.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8bfe7f90-630c-49df-a2b2-db15f3c5e763",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

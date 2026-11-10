@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8b5ead6772c867512d573e76e44c2ea53a434cf0ed7e78be3e377b01.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8b5ead6772c867512d573e76e44c2ea53a434cf0ed7e78be3e377b01.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "万"
@@ -121,11 +129,12 @@
     "question": "わたしのブログは月にニ万ビューほどあります。",
     "answer": "My blog gets about twenty thousand views per month.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8eeb7fb7-c7fc-477f-965c-b2f6ef7a4e68",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

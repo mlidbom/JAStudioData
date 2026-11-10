@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3ec2ac34a85ebae708f83d89d264117c4512a89e2e00882b84960495.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3ec2ac34a85ebae708f83d89d264117c4512a89e2e00882b84960495.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "必要"
@@ -135,11 +143,12 @@
     "question": "バスをおりてから、少し歩く必要があります。",
     "answer": "I have to walk a little while after getting off the bus.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "62d9ebe2-3678-477f-8eff-f6068b986c59",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d9e6ba202734c0db560bd1542e474f6596b201277f7cc18c8ff2b8c7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d9e6ba202734c0db560bd1542e474f6596b201277f7cc18c8ff2b8c7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "紫蘇"
@@ -121,11 +129,12 @@
     "question": "今年は紫蘇の種を植えてみました。",
     "answer": "I tried planting shiso seeds this year.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "90dc4522-2055-4973-b1da-ef6a3e942c93",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

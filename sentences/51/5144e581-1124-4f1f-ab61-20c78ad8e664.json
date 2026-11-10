@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7f534a6c8466b167564828172f6bbd284e9effd08b31c3c21f4d1e25.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7f534a6c8466b167564828172f6bbd284e9effd08b31c3c21f4d1e25.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "沸かす"
@@ -107,11 +115,12 @@
     "question": "お風呂を沸かしておきましたよ。",
     "answer": "I ran the bath for you.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5144e581-1124-4f1f-ab61-20c78ad8e664",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

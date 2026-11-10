@@ -19,15 +19,20 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-36fc564f1da68e29f0ae1dca37b7e5a2e979648f294bb45acb631cd0.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-36fc564f1da68e29f0ae1dca37b7e5a2e979648f294bb45acb631cd0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [],
   "sentenceCount": 1,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -51,7 +56,9 @@
   "sourceData": {
     "answer": "medical-facility",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "e1d2851c-b73a-4106-8f5e-7a1f5c289386",
   "tags": [

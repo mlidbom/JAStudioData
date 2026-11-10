@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-15fcea7c28ce4ce44b38303a5ec09d4f0f432eec1665c53bc47ec6ec.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-15fcea7c28ce4ce44b38303a5ec09d4f0f432eec1665c53bc47ec6ec.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "女"
@@ -121,11 +129,12 @@
     "question": "バーに三人の女がいる。",
     "answer": "There are three women at the bar.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1462c121-c65b-4160-93de-9575dfd5382e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

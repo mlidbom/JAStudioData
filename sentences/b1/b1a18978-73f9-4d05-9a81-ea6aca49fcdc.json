@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b24c1b438cb4ab18b425f0dfb263f31864e4ab3077f9819e9e67616c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b24c1b438cb4ab18b425f0dfb263f31864e4ab3077f9819e9e67616c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大切"
@@ -121,11 +129,12 @@
     "question": "これは大切なネックレスなんです。",
     "answer": "This is a valuable necklace.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b1a18978-73f9-4d05-9a81-ea6aca49fcdc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

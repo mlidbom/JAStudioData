@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-abdb0a252f607890b2b5aeaeb532400739f87cc2c4b88cb8c3454f17.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-abdb0a252f607890b2b5aeaeb532400739f87cc2c4b88cb8c3454f17.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "例文"
@@ -58,11 +66,12 @@
     "question": "この例文、ちょっとおかしくない？",
     "answer": "Isn't this example sentence a bit odd?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "50bacf87-5fd6-47c7-b2ea-1ba28a3cf0b6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

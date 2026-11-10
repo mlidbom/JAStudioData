@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5e0b3753e3049e3cc088315163cf0ed146848e00a98335090762e38d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5e0b3753e3049e3cc088315163cf0ed146848e00a98335090762e38d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "ご飯"
@@ -86,11 +94,12 @@
     "question": "お昼はいつも外でご飯を食べます",
     "answer": "I always eat out for lunch.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fcb0a6d0-7f05-4617-8ad1-5bdae3f1d549",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

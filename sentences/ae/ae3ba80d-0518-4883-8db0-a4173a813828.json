@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bea2eb78eb00fb02c4c623716ec4ec6e6ed19f8b9f9102670d64f0ae.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bea2eb78eb00fb02c4c623716ec4ec6e6ed19f8b9f9102670d64f0ae.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "軍人"
@@ -184,11 +192,12 @@
     "question": "見て、あそこに軍人さんがたくさんいる。どうしたんだろう？",
     "answer": "Look, there are a lot of servicemen over there. I wonder what's going on?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ae3ba80d-0518-4883-8db0-a4173a813828",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

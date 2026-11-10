@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a8e17baf4c217e0e516797e4a2e23faca4f7099e2a1b9d799d4158e3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a8e17baf4c217e0e516797e4a2e23faca4f7099e2a1b9d799d4158e3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "小豆"
@@ -149,11 +157,12 @@
     "question": "餡こは小豆から作られているが、けっこう糖分が高い。",
     "answer": "Azuki bean paste is made of azuki beans, but it’s pretty high in sugar.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7b64feda-b372-48d7-b39c-aac7ebeb0b7c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

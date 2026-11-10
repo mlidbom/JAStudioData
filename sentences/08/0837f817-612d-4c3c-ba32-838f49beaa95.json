@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-31e7c7cf6eec433cd153b74c5454cfe83c08bd769e4debf3b725bd5a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-31e7c7cf6eec433cd153b74c5454cfe83c08bd769e4debf3b725bd5a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "主"
@@ -72,11 +80,12 @@
     "question": "落とし主は見つかりましたか？",
     "answer": "Did you find the owner who’d lost it?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0837f817-612d-4c3c-ba32-838f49beaa95",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

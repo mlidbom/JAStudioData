@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-afd57e117c9767c328a8ab2f98d3b8c996b2ce4bc14cdc488bedcda4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-afd57e117c9767c328a8ab2f98d3b8c996b2ce4bc14cdc488bedcda4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "激しい"
@@ -163,11 +171,12 @@
     "question": "外からは激しい雨風の音が聞こえてきていた。",
     "answer": "The sound of fierce rain and wind was heard from outside.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "39021c8f-fc92-4f7b-a704-b95fe3defa2e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

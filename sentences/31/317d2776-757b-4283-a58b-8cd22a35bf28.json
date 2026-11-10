@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0977cb4b418480c890dfbb111a2d65bfce8c13e3a0dcf9e83d77c984.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0977cb4b418480c890dfbb111a2d65bfce8c13e3a0dcf9e83d77c984.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "自宅"
@@ -135,11 +143,12 @@
     "question": "今週、彼女に自宅に招待されたんだ。",
     "answer": "This week, my girlfriend invited me to her home.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "317d2776-757b-4283-a58b-8cd22a35bf28",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9495e28a28ecd71f9f33b9041c1ed7cf5374c8d3366884649b58a260.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9495e28a28ecd71f9f33b9041c1ed7cf5374c8d3366884649b58a260.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "効力"
@@ -457,11 +465,12 @@
     "question": "この薬を飲むと、あなたは空を飛べるようになります。でも、飛んでいる時に薬の効力が切れると大変なので、気をつけてくださいね。",
     "answer": "If you take this medicine, you will be able to fly in the sky. However, please be careful because if the effect of the medicine wears off while you are flying, it could be very dangerous.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f36b1e56-bd15-453a-98ff-0c2b92b8b104",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

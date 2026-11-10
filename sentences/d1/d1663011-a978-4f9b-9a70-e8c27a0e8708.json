@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3d891088eac2bd707d775fc8796d64f993baa60c16d053ac3a2d4899.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3d891088eac2bd707d775fc8796d64f993baa60c16d053ac3a2d4899.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "文章"
@@ -79,11 +87,12 @@
     "question": "コウイチは文章が本当に上手だ。",
     "answer": "Koichi is such a good writer.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d1663011-a978-4f9b-9a70-e8c27a0e8708",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

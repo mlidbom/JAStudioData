@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-94c4981894bf384af1a0f4e61291108b02249e96dc9e3bb1c9171676.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-94c4981894bf384af1a0f4e61291108b02249e96dc9e3bb1c9171676.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "見せる"
@@ -142,11 +150,12 @@
     "question": "今日のランチのお礼にポケモンカードのコレクション見せてあげようか？",
     "answer": "Would you like me to show you my Pokémon card collection as a thank you for lunch today?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ae623abc-6c0d-4f5e-b237-e225dd1b0353",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

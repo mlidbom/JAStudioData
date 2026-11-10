@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9bcbd7f6715810caeb2eaf397d4567cef63e70c90d4908fc48716f72.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9bcbd7f6715810caeb2eaf397d4567cef63e70c90d4908fc48716f72.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "苛む"
@@ -317,11 +325,12 @@
     "question": "被害者はまた何か悪いことが起こるのではないかという不安に苛まれていました。",
     "answer": "The victims were tormented by the anxiety that something else bad would happen.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ab4db065-90b2-45c8-ad7a-bb3ecef37b7a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

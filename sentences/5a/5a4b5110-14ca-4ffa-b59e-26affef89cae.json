@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5189389ec3e68d09abf183cfba58719a65516a7e5e55c89c54eeaaa1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5189389ec3e68d09abf183cfba58719a65516a7e5e55c89c54eeaaa1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "復習"
@@ -156,11 +164,12 @@
     "question": "大事なところだから、しっかり復習しておいてね！",
     "answer": "This part is important, so make sure to thoroughly review it later!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5a4b5110-14ca-4ffa-b59e-26affef89cae",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

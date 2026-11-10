@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a8c7b2d016106764ac49d8c206f3dbb9734c268bab2a52682d7a80ea.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a8c7b2d016106764ac49d8c206f3dbb9734c268bab2a52682d7a80ea.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "悪因悪果"
@@ -205,11 +213,12 @@
     "question": "悪いことをしたら、悪因悪果で後々ひどい目にあうよ。",
     "answer": "If you do something bad, you'll get in trouble later because evil breeds evil.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8ea9759e-b641-42b0-8eeb-8743647a7a41",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

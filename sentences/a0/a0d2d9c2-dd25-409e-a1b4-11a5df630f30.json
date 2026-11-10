@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-de2ea8438000fd22755082212a65f4f6e6b7058aa329eb6083878d4d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-de2ea8438000fd22755082212a65f4f6e6b7058aa329eb6083878d4d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "教室"
@@ -86,11 +94,12 @@
     "question": "ここは、一年生の教室ですよ。",
     "answer": "This is a classroom for first-graders.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a0d2d9c2-dd25-409e-a1b4-11a5df630f30",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

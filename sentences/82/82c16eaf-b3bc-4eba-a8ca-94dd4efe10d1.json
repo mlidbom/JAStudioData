@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d4cd95acff642f4ba83196e98e1002b7f3121c96ea0d165409c2cc61.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d4cd95acff642f4ba83196e98e1002b7f3121c96ea0d165409c2cc61.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大声"
@@ -93,11 +101,12 @@
     "question": "つい大声が出てしまった。",
     "answer": "I raised my voice despite myself.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "82c16eaf-b3bc-4eba-a8ca-94dd4efe10d1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

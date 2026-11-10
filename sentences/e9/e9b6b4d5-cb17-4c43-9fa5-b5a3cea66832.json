@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d5d716ea014393c8bca1e025ac84dccbdff67be579052dc58c2a2dea.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d5d716ea014393c8bca1e025ac84dccbdff67be579052dc58c2a2dea.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "金"
@@ -100,11 +108,12 @@
     "question": "金のネックレスをプレゼントしました。",
     "answer": "I gave her a gold necklace.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e9b6b4d5-cb17-4c43-9fa5-b5a3cea66832",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

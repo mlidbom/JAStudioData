@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dbfc5f3dcd4a84018afbbad53d74d5d29938f1fbaad9dfc0e9d84cb8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dbfc5f3dcd4a84018afbbad53d74d5d29938f1fbaad9dfc0e9d84cb8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "調べる"
@@ -184,11 +192,12 @@
     "question": "毎朝、妹がいるドイツの天気を調べるのが私のルーティンです。",
     "answer": "It is my routine to check the weather in Germany, where my younger sister is, every morning.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e7528442-609b-4bf7-9dc3-d5ceeccd7bff",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

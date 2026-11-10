@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-27e4d235577e27f39263b2106d167d72ada7c0dd0d4d4732feea230b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-27e4d235577e27f39263b2106d167d72ada7c0dd0d4d4732feea230b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "匂い"
@@ -121,11 +129,12 @@
     "question": "その温泉は、バナナの匂いがする。",
     "answer": "That hot spring smells like banana.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "591546e7-7017-4089-a088-d8119fa9e6ef",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

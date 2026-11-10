@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4fbeaf6bd271d32c5b5d7cd508a0baee30b37677ee404d3b17c471cf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4fbeaf6bd271d32c5b5d7cd508a0baee30b37677ee404d3b17c471cf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "駿馬"
@@ -114,11 +122,12 @@
     "question": "その大名には、数々の駿馬が献じられた。",
     "answer": "The daimyo was presented with a number of fine horses.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "845003cf-d505-4697-9271-a6e43894df60",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

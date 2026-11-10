@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d9c61fec4557a4b7b746113c329c254d4623acd3ff71ddaedfb155c6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d9c61fec4557a4b7b746113c329c254d4623acd3ff71ddaedfb155c6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "見る"
@@ -121,11 +129,12 @@
     "question": "外を見ると、白い犬がいた。",
     "answer": "I looked outside and saw a white dog.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e87dbe6d-f75d-40da-8406-c220b10a3501",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

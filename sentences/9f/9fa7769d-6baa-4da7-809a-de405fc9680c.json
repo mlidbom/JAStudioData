@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-486873fee01f77f263eccabd11d2e56256b3f536d7eeff4313093769.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-486873fee01f77f263eccabd11d2e56256b3f536d7eeff4313093769.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "満月"
@@ -177,11 +185,12 @@
     "question": "明日の夜は満月なんだって。曇らないといいね。",
     "answer": "Tomorrow night will be a full moon. I hope it’s not cloudy.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9fa7769d-6baa-4da7-809a-de405fc9680c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

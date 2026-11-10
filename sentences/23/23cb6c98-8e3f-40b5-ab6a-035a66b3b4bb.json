@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8ea27873b65cd138213a19a59e5d4b3229baf75ab085cac585e2f627.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8ea27873b65cd138213a19a59e5d4b3229baf75ab085cac585e2f627.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "減らす"
@@ -282,11 +290,12 @@
     "question": "クリームの量を減らすようお願いしたんですが、聞き入れてもらえませんでした。",
     "answer": "I asked them to reduce the amount of cream, but they didn't accept my request.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "23cb6c98-8e3f-40b5-ab6a-035a66b3b4bb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

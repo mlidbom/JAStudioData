@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9ae261c60b5343a9266e12d19408fe2cbb4704d5f78bccd155d07e94.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9ae261c60b5343a9266e12d19408fe2cbb4704d5f78bccd155d07e94.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "六つ"
@@ -128,11 +136,12 @@
     "question": "ワイングラスは六つオーダーしておいたよ。",
     "answer": "I ordered six wine glasses.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "055bb8ba-55ae-44ad-befb-12c174be936c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

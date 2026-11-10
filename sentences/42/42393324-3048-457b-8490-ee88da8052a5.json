@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8ac2f6bcb939a3ed9d5ebeb47a2bf3dbcab541502ff89575bd5b09b9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8ac2f6bcb939a3ed9d5ebeb47a2bf3dbcab541502ff89575bd5b09b9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "食器"
@@ -149,11 +157,12 @@
     "question": "この食器をテーブルの上にならべてくれませんか。",
     "answer": "Can you arrange these plates and utensils on the table, please?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "42393324-3048-457b-8490-ee88da8052a5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

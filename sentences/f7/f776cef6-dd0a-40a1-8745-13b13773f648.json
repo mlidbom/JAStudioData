@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-63f27f8728f9c0a9f1581b209d107f9f3ac6208a8521411e0c834def.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-63f27f8728f9c0a9f1581b209d107f9f3ac6208a8521411e0c834def.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "副大統領"
@@ -142,11 +150,12 @@
     "question": "あのがっしりした広い肩の男が、この国の副大統領です。",
     "answer": "That guy with broad shoulders is the vice president of this country.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f776cef6-dd0a-40a1-8745-13b13773f648",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

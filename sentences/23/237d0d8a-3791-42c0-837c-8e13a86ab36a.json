@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b05be5b48078c13b2c2def828002cacbfaa58deb4c4dbe85eaf1c9ae.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b05be5b48078c13b2c2def828002cacbfaa58deb4c4dbe85eaf1c9ae.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "車内"
@@ -100,11 +108,12 @@
     "question": "先月、タクシーの車内にスマホをわすれたんです。",
     "answer": "Last month, I left my smartphone in a taxi.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "237d0d8a-3791-42c0-837c-8e13a86ab36a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

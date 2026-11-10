@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-dbef04e06fbc0236e5f31a0566a52b3184dc1e73e52b392658dc9db0.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-dbef04e06fbc0236e5f31a0566a52b3184dc1e73e52b392658dc9db0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "牡蠣フライ",
@@ -44,8 +50,7 @@
   "sentenceCount": 0,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -69,7 +74,9 @@
   "sourceData": {
     "answer": "fried-oysters/deep-fried-oysters",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "ddb19626-94ba-464a-a76e-ce468dcea5ef",
   "tags": [

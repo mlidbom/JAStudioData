@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-97c4b6d6c1828e53912b05abdb62324bd5afca2320aee422d725d0c1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-97c4b6d6c1828e53912b05abdb62324bd5afca2320aee422d725d0c1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鉱石"
@@ -198,11 +206,12 @@
     "question": "どんな鉱石でも、彼が触ると金に変わってしまうのさ。",
     "answer": "Every mineral he touches turns to gold.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0a09799a-b1e1-464e-9695-e73e90805cd5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

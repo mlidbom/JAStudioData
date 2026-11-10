@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3d2f1c5039a934b0576b76a62712d77ef80ef7bc4dd5f39a97cd9b65.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3d2f1c5039a934b0576b76a62712d77ef80ef7bc4dd5f39a97cd9b65.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "月光"
@@ -121,11 +129,12 @@
     "question": "白い月光がカーテンから入ってくる。",
     "answer": "White moonlight enters through the curtains.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "399eadbe-764c-4a84-b450-34bd2d4abca8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

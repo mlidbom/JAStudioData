@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-76db68ac06040f040316f9a8409a39f40eb83b020dfd118e808bdfc4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-76db68ac06040f040316f9a8409a39f40eb83b020dfd118e808bdfc4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "炊ける"
@@ -65,11 +73,12 @@
     "question": "ご飯、炊けた？",
     "answer": "Is the rice done cooking?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8276aae1-ff5f-4f5c-b4a8-5a47a5b90e46",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

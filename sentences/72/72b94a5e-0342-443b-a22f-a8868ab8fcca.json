@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-14070975e58f0fee49d88190ef85e24060f28bbd9d1bcae6bfb8ab1a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-14070975e58f0fee49d88190ef85e24060f28bbd9d1bcae6bfb8ab1a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "返事"
@@ -219,11 +227,12 @@
     "question": "プロポーズの返事が一年以上ないんですが、どうしたらいいですか？",
     "answer": "There has been no response to my proposal for over a year, what should I do?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "72b94a5e-0342-443b-a22f-a8868ab8fcca",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f49fd1eaf1f71934e741c898409243f510ddc5509011d76aea84b7ac.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f49fd1eaf1f71934e741c898409243f510ddc5509011d76aea84b7ac.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "フランス語"
@@ -128,11 +136,12 @@
     "question": "日本には、フランス語の本はあまりありません。",
     "answer": "There are not many French books in Japan.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "620f1564-0c82-4bc4-a4be-6eef76cf9169",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

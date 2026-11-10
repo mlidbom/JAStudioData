@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e83b323455179435a3054685fed480001cfdb61828e55f1ccb853589.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e83b323455179435a3054685fed480001cfdb61828e55f1ccb853589.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "長さ"
@@ -93,11 +101,12 @@
     "question": "この竹の長さは三メートルです。",
     "answer": "The length of this bamboo is three meters.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7c8010cf-446c-407b-a3a6-152f32ad33e6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

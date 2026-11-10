@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8b38cf9807e15b578dcabb4e29bc9566dc67ff8719ea460f74c63fe7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8b38cf9807e15b578dcabb4e29bc9566dc67ff8719ea460f74c63fe7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "病床"
@@ -79,11 +87,12 @@
     "question": "先週、ICUから一般病床に移ったよ。",
     "answer": "I moved from the ICU to a regular bed last week.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "73f29688-d22d-4872-adab-6145568f7322",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

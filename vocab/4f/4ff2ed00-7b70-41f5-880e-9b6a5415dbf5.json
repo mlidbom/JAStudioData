@@ -30,9 +30,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-62f09fe3dbba5c42d6af98678173f4ad9383b0899b2d0089edfd4cc8.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-62f09fe3dbba5c42d6af98678173f4ad9383b0899b2d0089edfd4cc8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "本の少し",
@@ -42,8 +48,7 @@
   "sentenceCount": 6,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -67,7 +72,9 @@
   "sourceData": {
     "answer": "just-a-little",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "4ff2ed00-7b70-41f5-880e-9b6a5415dbf5",
   "tags": [

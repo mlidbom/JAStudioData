@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-134f8e145ea6b069424b2dc85c1dd1fd785c7578acbd6bef3493a9cd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-134f8e145ea6b069424b2dc85c1dd1fd785c7578acbd6bef3493a9cd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "検査する"
@@ -149,11 +157,12 @@
     "question": "昨日、お医者さんに耳を検査してもらいました。",
     "answer": "I had a doctor examine my ears yesterday.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b6f41bc7-f59d-443d-9ca3-5f43ffc167e4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

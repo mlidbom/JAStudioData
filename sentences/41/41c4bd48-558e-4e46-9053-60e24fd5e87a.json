@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-510243c746e7ff8e389ae34ebce63c8c0ce9ad8993c9def3df348b30.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-510243c746e7ff8e389ae34ebce63c8c0ce9ad8993c9def3df348b30.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "折り紙"
@@ -296,11 +304,12 @@
     "question": "今日のコウイチの弁当箱の中には、なぜか食べ物の代わりに折り紙が入っていました。",
     "answer": "Today, in Koichi's bento box, there were some origami instead of food.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "41c4bd48-558e-4e46-9053-60e24fd5e87a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1d2f3350a4849fd7810d2376f610aa5f8f39ad46421535a3e26490ed.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1d2f3350a4849fd7810d2376f610aa5f8f39ad46421535a3e26490ed.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "職業"
@@ -205,11 +213,12 @@
     "question": "ワニカニユーザーは、ビエトの裏の職業が何なのか、みんな知っています。",
     "answer": "All WaniKani users know what Viet's secret job is.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2e0cbfe7-f39b-4123-bf4a-f5b2928ee722",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

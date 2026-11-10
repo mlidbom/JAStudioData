@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b0ad3d26abbc469ab726f9e9667c8d506ddb4cb633fdc4b00af3a0cb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b0ad3d26abbc469ab726f9e9667c8d506ddb4cb633fdc4b00af3a0cb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "星占い"
@@ -163,11 +171,12 @@
     "question": "毎日朝の番組で今日の星占いを見てから学校に行きます。",
     "answer": "Every day, I watch the day’s horoscope on the morning TV show and then head to school.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4f44b6d2-38a4-4fed-8fa8-4d9e161607d6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

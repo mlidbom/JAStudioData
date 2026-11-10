@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8e8ed1a629a39fb59463ca303795e9b33ccd742c74505faa0283b3af.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8e8ed1a629a39fb59463ca303795e9b33ccd742c74505faa0283b3af.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "手帳"
@@ -135,11 +143,12 @@
     "question": "手帳を盗み見すると、彼女は物凄く怒りました。",
     "answer": "She got unbelievably angry at me when I peeped at her notebook.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "292084d6-15ff-4acb-ae7e-86913838c761",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

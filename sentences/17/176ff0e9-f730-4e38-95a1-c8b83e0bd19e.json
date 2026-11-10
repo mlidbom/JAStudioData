@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-33bf0f9a36afb3d93f26c6c881d6ebb581f1ab7e008b0ff30d5df7ff.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-33bf0f9a36afb3d93f26c6c881d6ebb581f1ab7e008b0ff30d5df7ff.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -98,11 +106,12 @@
     "question": "米は一キロ当たり五百円です。",
     "answer": "Rice costs 500 yen per kilogram.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "176ff0e9-f730-4e38-95a1-c8b83e0bd19e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

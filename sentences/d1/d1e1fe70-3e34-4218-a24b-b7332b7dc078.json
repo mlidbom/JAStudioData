@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b046ef3cc455fcdbb9fbdab0342b9daf5c1f28a38b808c3c90073123.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b046ef3cc455fcdbb9fbdab0342b9daf5c1f28a38b808c3c90073123.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "漬物"
@@ -128,11 +136,12 @@
     "question": "キュウリの漬物があれば、ご飯が何杯でも食べれます。",
     "answer": "If I have pickled cucumbers, I can eat any amount of rice.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d1e1fe70-3e34-4218-a24b-b7332b7dc078",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

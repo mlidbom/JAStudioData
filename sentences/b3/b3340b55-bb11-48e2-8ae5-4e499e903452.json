@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1603f572bc3c4085ff15715c63f30d94f822e62d4d72c26e9c408f77.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1603f572bc3c4085ff15715c63f30d94f822e62d4d72c26e9c408f77.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "以外"
@@ -198,11 +206,12 @@
     "question": "今すぐ行く以外に、私に何か出来ることがありますか？",
     "answer": "Is there anything else I can do other than going there right now?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b3340b55-bb11-48e2-8ae5-4e499e903452",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

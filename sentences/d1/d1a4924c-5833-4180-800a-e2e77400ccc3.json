@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-39aeda71048ed6ce1c2142da6d342d11c15f42e6c7564470ad73ece7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-39aeda71048ed6ce1c2142da6d342d11c15f42e6c7564470ad73ece7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "村"
@@ -100,11 +108,12 @@
     "question": "この村の人口は百三十人です。",
     "answer": "The population of this village is 130 people.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d1a4924c-5833-4180-800a-e2e77400ccc3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

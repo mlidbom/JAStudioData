@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5bf5a941cad17cac02cc34c90df77c392139b20b070ebcb291ae66e7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5bf5a941cad17cac02cc34c90df77c392139b20b070ebcb291ae66e7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "私自身"
@@ -142,11 +150,12 @@
     "question": "私自身で魚を切ったことはありません。",
     "answer": "I have never cut fish myself.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0bc669f9-a60f-485b-ac8b-68873fdcbdee",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

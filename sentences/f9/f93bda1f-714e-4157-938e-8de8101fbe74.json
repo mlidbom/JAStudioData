@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-595d4a890928b1306c1cda54c65fbfe995da407744b1ed77be2e8934.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-595d4a890928b1306c1cda54c65fbfe995da407744b1ed77be2e8934.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "歩道"
@@ -135,11 +143,12 @@
     "question": "セグウェイは歩道を走ってもいいんですか？",
     "answer": "Can a Segway run on the sidewalk?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f93bda1f-714e-4157-938e-8de8101fbe74",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

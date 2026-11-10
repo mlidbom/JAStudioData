@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fb9c9d4b3c6538116b88cf713e3e7f47478fc1cdc1727dc396ae708c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fb9c9d4b3c6538116b88cf713e3e7f47478fc1cdc1727dc396ae708c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -112,11 +120,12 @@
     "question": "この近くに警察署はありますか？",
     "answer": "Is there a police station near here?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "285620a5-56d4-4feb-a250-bbf46952fb34",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

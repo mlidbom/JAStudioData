@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-74db46ae3a236f2d6baf037632282541f1cce324f504b8290267f7f6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-74db46ae3a236f2d6baf037632282541f1cce324f504b8290267f7f6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "噴煙"
@@ -128,11 +136,12 @@
     "question": "噴煙を上げる桜島の写真を撮りました。",
     "answer": "I took a picture of the volcanic smoke rising over Sakurajima. ",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fe3a13e0-1216-4f76-bb09-e99a590460de",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

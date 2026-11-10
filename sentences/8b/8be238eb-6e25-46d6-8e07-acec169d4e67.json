@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fd0d8ef92198b07b580b9a14cf0f8259b13721b73b65e574855ce3b2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fd0d8ef92198b07b580b9a14cf0f8259b13721b73b65e574855ce3b2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "媒介"
@@ -163,11 +171,12 @@
     "question": "鳥が伝染病の媒介となると仮定しよう。",
     "answer": "Let’s assume birds have become an intermediary for infectious diseases.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8be238eb-6e25-46d6-8e07-acec169d4e67",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

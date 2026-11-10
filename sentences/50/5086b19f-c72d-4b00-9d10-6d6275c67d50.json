@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dcdc1b3eeedbc664f94430a3eb5306fa1a16e0a33531738e691c3ed8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dcdc1b3eeedbc664f94430a3eb5306fa1a16e0a33531738e691c3ed8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "換気"
@@ -114,11 +122,12 @@
     "question": "ちょっと窓を開けて部屋の換気をしない？",
     "answer": "Why don’t we open the window and air out the room?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5086b19f-c72d-4b00-9d10-6d6275c67d50",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

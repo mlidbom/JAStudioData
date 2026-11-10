@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c2c6aa75415543a1b6ed895cbd52d4df1a9a905335604c01caf4bcef.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c2c6aa75415543a1b6ed895cbd52d4df1a9a905335604c01caf4bcef.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "露"
@@ -149,11 +157,12 @@
     "question": "葉っぱの上に乗っている露を集めているんだ。",
     "answer": "I’m collecting dew that’s on the leaves.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e81bd357-7c48-4ddc-bb75-43dfe92986f8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

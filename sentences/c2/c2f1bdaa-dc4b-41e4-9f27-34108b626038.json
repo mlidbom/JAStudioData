@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2ed8c25eba47322315d6deb1e99f8c63c4f3b85a0e3036c4193aba45.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2ed8c25eba47322315d6deb1e99f8c63c4f3b85a0e3036c4193aba45.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "笑顔"
@@ -114,11 +122,12 @@
     "question": "王子の笑顔に、王様も女王様もメロメロでした。",
     "answer": "The prince's smile made both the king and queen melt.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c2f1bdaa-dc4b-41e4-9f27-34108b626038",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

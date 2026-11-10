@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1067be8809e81b8951ebdb8d252bec0096f9d4bd2bb0dcee49719e03.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1067be8809e81b8951ebdb8d252bec0096f9d4bd2bb0dcee49719e03.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "工学"
@@ -135,11 +143,12 @@
     "question": "工学を学んでから今の会社に入社しました。",
     "answer": "After studying engineering, I joined my current company.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e660201a-2949-409a-b955-ca8acc4ce825",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

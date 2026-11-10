@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9a49a285fb782be5d388defb677352d2ad336e2e03f2b24359d966f3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9a49a285fb782be5d388defb677352d2ad336e2e03f2b24359d966f3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "卒業する"
@@ -170,11 +178,12 @@
     "question": "学校は早く卒業したいけど、大人にはなりたくないな。",
     "answer": "I can't wait to finish school, but I don't want to grow up.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8cc6e6e8-3da9-4e58-a568-53257e7c675b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

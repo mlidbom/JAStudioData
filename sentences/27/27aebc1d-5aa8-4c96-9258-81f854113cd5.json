@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d6caa832c9792d8cdd945af5211eb1b54be61363e8f8e64dcf852e53.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d6caa832c9792d8cdd945af5211eb1b54be61363e8f8e64dcf852e53.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "毎朝"
@@ -93,11 +101,12 @@
     "question": "毎朝、私はコンビニでコーヒーを買います。",
     "answer": "Every morning, I buy coffee at the convenience store.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "27aebc1d-5aa8-4c96-9258-81f854113cd5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

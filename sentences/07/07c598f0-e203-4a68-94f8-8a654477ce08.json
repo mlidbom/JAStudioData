@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a089f1dbd076d40bc82c259054e2a2ae0a86ff2daa8673f6c67ba270.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a089f1dbd076d40bc82c259054e2a2ae0a86ff2daa8673f6c67ba270.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "債券"
@@ -233,11 +241,12 @@
     "question": "債券取引は、一億円単位で売買できない人には不利なレートになってるんですよ。",
     "answer": "Current bond rates are no good for people who can't trade them in one hundred million yen increments.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "07c598f0-e203-4a68-94f8-8a654477ce08",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

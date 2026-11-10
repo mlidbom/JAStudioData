@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4480395b8061b8e5a5935436d970c8397a9b571a0ba9eeb5ea01be44.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4480395b8061b8e5a5935436d970c8397a9b571a0ba9eeb5ea01be44.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "教科書"
@@ -121,11 +129,12 @@
     "question": "明日、計算ドリルと国語の教科書を持って行かなきゃいけないんだって。",
     "answer": "We were told that tomorrow, I have to bring my math drills and Japanese textbooks.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b8164878-e64f-45cf-8a3a-0f8ade50aa14",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

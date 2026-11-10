@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3b982adf095541223fcb016be1ca32fb4e044b1549e1d303e4595fc7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3b982adf095541223fcb016be1ca32fb4e044b1549e1d303e4595fc7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "体重"
@@ -86,11 +94,12 @@
     "question": "アンナさんの体重は、何キロですか？",
     "answer": "What is Anna’s body weight in kilograms?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f74bec42-a513-41f9-a343-615f9fb2d36d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

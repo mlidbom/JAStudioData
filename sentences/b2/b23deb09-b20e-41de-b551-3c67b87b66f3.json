@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1a56037c219981c4fa6b371ae038ba7f58248be6cd51f5708300d681.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1a56037c219981c4fa6b371ae038ba7f58248be6cd51f5708300d681.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "延ばす"
@@ -149,11 +157,12 @@
     "question": "今のところ、路線を延ばす計画はありません。",
     "answer": "Currently, there are no plans to extend this railway route.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b23deb09-b20e-41de-b551-3c67b87b66f3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

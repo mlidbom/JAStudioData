@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-10fdac1fde13d05e0a35c07f14f240377f00517e5dbb9100aaf1365d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-10fdac1fde13d05e0a35c07f14f240377f00517e5dbb9100aaf1365d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "経由"
@@ -170,11 +178,12 @@
     "question": "旅館の予約は、インターネット経由で行うのが一番いいと思う。",
     "answer": "I think it's best to book your inn via the internet.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "da1bb1d2-67dc-4034-bee5-76c0dbdb8e62",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e0866711e8db33e60f6314e6836be668592d90c392427d8bfeb692f2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e0866711e8db33e60f6314e6836be668592d90c392427d8bfeb692f2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "有毒"
@@ -142,11 +150,12 @@
     "question": "これ、タバコより有毒なんだよ。知らないの？",
     "answer": "This is more toxic than tobacco, you know? Don't you know?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4a6f6fb3-ed7d-4bff-ab60-a4ace6904ed2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

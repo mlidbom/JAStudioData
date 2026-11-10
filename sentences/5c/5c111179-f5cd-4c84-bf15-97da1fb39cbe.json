@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6a9f7f46ddd21120a9f9499a4379adb8059935f9c9695d540d968604.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6a9f7f46ddd21120a9f9499a4379adb8059935f9c9695d540d968604.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "砂丘"
@@ -121,11 +129,12 @@
     "question": "その砂丘には駱駝もいるんですよ。",
     "answer": "There are some camels on that sand dune.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5c111179-f5cd-4c84-bf15-97da1fb39cbe",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

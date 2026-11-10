@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9f3f110b9826e0375f05d23e22f9742d7f7d34972064fe7b26ed1052.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9f3f110b9826e0375f05d23e22f9742d7f7d34972064fe7b26ed1052.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "意地悪"
@@ -107,11 +115,12 @@
     "question": "意地悪しちゃダメだよ。",
     "answer": "You shouldn't be mean.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5bbdb081-25b9-48f0-895e-2ee8bbc18327",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

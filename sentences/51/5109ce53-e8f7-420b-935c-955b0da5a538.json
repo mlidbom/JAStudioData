@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5976e7b40bef17b69239f05d5f282c813e4b55f5caff2eb82287142e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5976e7b40bef17b69239f05d5f282c813e4b55f5caff2eb82287142e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "管"
@@ -184,11 +192,12 @@
     "question": "管を取り付ける前に、部品を確認してください。",
     "answer": "Before attaching the tube, please check the components.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5109ce53-e8f7-420b-935c-955b0da5a538",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

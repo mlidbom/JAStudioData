@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9718771ba67e1ea163f366fdf6479fce5a46bb753cb1551acf60d4b1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9718771ba67e1ea163f366fdf6479fce5a46bb753cb1551acf60d4b1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "移動"
@@ -121,11 +129,12 @@
     "question": "ちょっと車を移動してくるよ。",
     "answer": "I'm gonna go move my car.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2d003e93-147c-42f3-983a-1aed12100cd0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

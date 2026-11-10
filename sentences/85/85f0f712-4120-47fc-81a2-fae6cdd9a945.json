@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-33b899c686f689467b7d8675980c454412633c36a79cdedbedbef213.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-33b899c686f689467b7d8675980c454412633c36a79cdedbedbef213.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "通じる"
@@ -135,11 +143,12 @@
     "question": "この言い方でも意味は通じるけど、ちょっと不自然かな。",
     "answer": "This phrasing still conveys the meaning, but it sounds a bit unnatural.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "85f0f712-4120-47fc-81a2-fae6cdd9a945",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

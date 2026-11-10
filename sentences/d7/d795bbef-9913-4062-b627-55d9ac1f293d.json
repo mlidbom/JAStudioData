@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-70a2f245ca5a90fe2c6228b8fbdfbf9bedd12ff307702ebd3cb104af.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-70a2f245ca5a90fe2c6228b8fbdfbf9bedd12ff307702ebd3cb104af.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "切手"
@@ -58,11 +66,12 @@
     "question": "主人は切手コレクターです。",
     "answer": "My husband is a stamp collector.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d795bbef-9913-4062-b627-55d9ac1f293d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-311fec5bf8ca1ac1b4b51e22ff7299991b2f5c2e333b242ab75cff94.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-311fec5bf8ca1ac1b4b51e22ff7299991b2f5c2e333b242ab75cff94.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "芸術"
@@ -142,11 +150,12 @@
     "question": "私の妹は、芸大でタイ芸術を学んでいます。",
     "answer": "My younger sister is learning Thai art at a university of fine arts.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "aab2b404-ddb5-4dea-82e8-2aeaf8cdc81a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

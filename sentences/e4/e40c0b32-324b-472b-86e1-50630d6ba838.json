@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-87ea58ce4379860f70d2059859cb670c44c728b9f1a9c415949b1c0c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-87ea58ce4379860f70d2059859cb670c44c728b9f1a9c415949b1c0c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "海"
@@ -100,11 +108,12 @@
     "question": "その海の色はエメラルドグリーンでした。",
     "answer": "The color of the sea was emerald green.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e40c0b32-324b-472b-86e1-50630d6ba838",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

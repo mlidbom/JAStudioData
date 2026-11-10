@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-780bb46109ae041abc23fedd5a2b1acfa7a1a11b575e0e331ae997d9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-780bb46109ae041abc23fedd5a2b1acfa7a1a11b575e0e331ae997d9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "放れる"
@@ -198,11 +206,12 @@
     "question": "あの犬はどうやってクサリから放れることができたんだろう。",
     "answer": "I wonder how that dog was able to get off its leash.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e330d1e9-1444-4c02-bfac-85944de7b528",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

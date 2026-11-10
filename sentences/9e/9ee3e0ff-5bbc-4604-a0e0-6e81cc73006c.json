@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5e7f91ae2c556091fbfe4bb9bd10016f514fae4264d8ffe31025c062.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5e7f91ae2c556091fbfe4bb9bd10016f514fae4264d8ffe31025c062.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "私立"
@@ -72,11 +80,12 @@
     "question": "私立の大学に入りたいです。",
     "answer": "I want to join a private university.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9ee3e0ff-5bbc-4604-a0e0-6e81cc73006c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

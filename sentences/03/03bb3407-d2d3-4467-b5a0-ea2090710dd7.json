@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4d58c8da3a8bac0b61d247ef019c5dd2263c5fab5fe67e18652437d3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4d58c8da3a8bac0b61d247ef019c5dd2263c5fab5fe67e18652437d3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "光景"
@@ -254,11 +262,12 @@
     "question": "このような絵のように美しい光景は今までみたことがありません。",
     "answer": "I’ve never seen such a beautiful sight before.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "03bb3407-d2d3-4467-b5a0-ea2090710dd7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

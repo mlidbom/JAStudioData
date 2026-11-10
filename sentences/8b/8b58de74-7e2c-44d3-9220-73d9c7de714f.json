@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c9aa7b534b12b253be825a5ee64f83f1154f9fc21750f8d237bd1266.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c9aa7b534b12b253be825a5ee64f83f1154f9fc21750f8d237bd1266.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "甲乙"
@@ -86,11 +94,12 @@
     "question": "どちらも甲乙つけがたい出来栄えだ。",
     "answer": "It’s hard to say which result is better.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8b58de74-7e2c-44d3-9220-73d9c7de714f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

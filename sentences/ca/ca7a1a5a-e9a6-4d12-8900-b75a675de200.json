@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d7f40407b03e2788be7fac81630001bdc4037b4449dd3b9590631af0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d7f40407b03e2788be7fac81630001bdc4037b4449dd3b9590631af0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "日光"
@@ -86,11 +94,12 @@
     "question": "このアパートは日光がよく入る。",
     "answer": "This apartment gets good sunlight.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ca7a1a5a-e9a6-4d12-8900-b75a675de200",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

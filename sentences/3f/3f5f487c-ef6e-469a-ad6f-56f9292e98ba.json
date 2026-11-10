@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6eec27305e07fe4cbc855d6ff12db8617f01f132e9e95e8d92fb8432.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6eec27305e07fe4cbc855d6ff12db8617f01f132e9e95e8d92fb8432.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大学生"
@@ -93,11 +101,12 @@
     "question": "大学生は休学する人が多いです。",
     "answer": "Many college students take a leave of absence from school.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3f5f487c-ef6e-469a-ad6f-56f9292e98ba",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

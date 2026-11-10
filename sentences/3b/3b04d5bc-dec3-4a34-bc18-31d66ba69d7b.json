@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6b5c11d89a943810d0a39c97f0b7bd81552d582291ac79b2c35cbdd0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6b5c11d89a943810d0a39c97f0b7bd81552d582291ac79b2c35cbdd0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "日本"
@@ -65,11 +73,12 @@
     "question": "日本のカレーはおいしいです。",
     "answer": "Japanese curry is delicious.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3b04d5bc-dec3-4a34-bc18-31d66ba69d7b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

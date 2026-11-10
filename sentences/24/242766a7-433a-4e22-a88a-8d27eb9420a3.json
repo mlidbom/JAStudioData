@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-39ac7c69ef880cd03f5253c16abaef5ce89703ac7f29bef1a805971a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-39ac7c69ef880cd03f5253c16abaef5ce89703ac7f29bef1a805971a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "式"
@@ -79,11 +87,12 @@
     "question": "この計算の式、なんかちょっとおかしくない？",
     "answer": "Isn't there something a bit wrong with the formula for this calculation?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "242766a7-433a-4e22-a88a-8d27eb9420a3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

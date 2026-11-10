@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-92520d2d38f2854d4dd00e176d045acaa4a5c6295deca01789f1edf6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-92520d2d38f2854d4dd00e176d045acaa4a5c6295deca01789f1edf6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "陸軍"
@@ -163,11 +171,12 @@
     "question": "私達は陸軍訓練を見に来たただの見学です。",
     "answer": "We’re just here to observe the army training.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "46ef1329-7718-4937-834e-722c396e5c70",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-96f33413fe7b8b0e1c8cfaeb44c4684faf8f4d541a8fd63c75ddd488.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-96f33413fe7b8b0e1c8cfaeb44c4684faf8f4d541a8fd63c75ddd488.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "落ちる"
@@ -156,11 +164,12 @@
     "question": "今、雪が落ちる音がしませんでした？",
     "answer": "Did you hear the snow falling just now?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c652b6d9-29ed-4c88-977f-c23473bcad4d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

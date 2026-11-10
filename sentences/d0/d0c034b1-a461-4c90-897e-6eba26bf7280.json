@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7ea7811f608aba99e1a15f0637fb7199da6c9eeb4615242bc52f9089.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7ea7811f608aba99e1a15f0637fb7199da6c9eeb4615242bc52f9089.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "包丁"
@@ -107,11 +115,12 @@
     "question": "包丁を研いで二、三時間潰しました。",
     "answer": "I killed a couple hours by sharpening my kitchen knife.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d0c034b1-a461-4c90-897e-6eba26bf7280",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

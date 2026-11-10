@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-26f76eb4060120c625d7a68e0a6360ed9c365cd867af902b8bdec30b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-26f76eb4060120c625d7a68e0a6360ed9c365cd867af902b8bdec30b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "応募"
@@ -107,11 +115,12 @@
     "question": "応募用紙は裁判所でもらえますよ。",
     "answer": "You can get the application form at the courthouse.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d06bb3cb-8e43-484d-9626-eac796ee2f4f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

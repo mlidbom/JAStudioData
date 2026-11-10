@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6d85084bd76d635a77aa9e17326b0e2cf38cd0823168b5215e614cd6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6d85084bd76d635a77aa9e17326b0e2cf38cd0823168b5215e614cd6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "登る"
@@ -149,11 +157,12 @@
     "question": "山を登るときは、ジーパンをはかないで下さいね。",
     "answer": "Do not wear jeans when climbing a mountain.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f0e67c7f-8b48-45d9-b7c1-f0cbc3d2009d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

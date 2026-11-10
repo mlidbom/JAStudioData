@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-009fdc9b2f89410a3add6de0844c53b5d48bf83b768927169a2b3432.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-009fdc9b2f89410a3add6de0844c53b5d48bf83b768927169a2b3432.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "十六"
@@ -135,11 +143,12 @@
     "question": "十六メートル上にドローンがいる。",
     "answer": "There's a drone sixteen meters overhead.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0fa87959-3b76-4484-9788-9b64c11f8b6a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

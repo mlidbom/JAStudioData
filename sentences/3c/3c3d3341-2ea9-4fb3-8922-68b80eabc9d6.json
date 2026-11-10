@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3170393319c1fd4ccdcc1c91caecf3fcd2df7e21645454aec6ef06f0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3170393319c1fd4ccdcc1c91caecf3fcd2df7e21645454aec6ef06f0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "製造"
@@ -168,11 +176,12 @@
     "question": "実は、この商品とこの商品の製造方法はほぼ同じなんですよ。",
     "answer": "Actually, the production methods for these two products are almost the same.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3c3d3341-2ea9-4fb3-8922-68b80eabc9d6",
   "tags": [
-    "_tts_audio",
     "-::sentence::uses::incorrect-matches",
     "source::wani::current"
   ]

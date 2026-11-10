@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fe87dafd690bc384f9051e10d4e7e194bc2af43aeeaf9b05799100ef.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fe87dafd690bc384f9051e10d4e7e194bc2af43aeeaf9b05799100ef.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "訓練"
@@ -135,11 +143,12 @@
     "question": "大丈夫、訓練どおりにすれば上手くいくよ。",
     "answer": "Don't worry, it will work if you follow the training.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9ffcba91-6abb-412a-bef8-a57624ceec55",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

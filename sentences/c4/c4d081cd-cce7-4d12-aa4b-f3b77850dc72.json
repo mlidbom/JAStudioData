@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-50b7bf5d4786fbec65593b75d85a2511f86d25c7e2a919fa531d690c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-50b7bf5d4786fbec65593b75d85a2511f86d25c7e2a919fa531d690c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "他人"
@@ -72,11 +80,12 @@
     "question": "他人のあなたに分かりますか？",
     "answer": "As a stranger, can you understand?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c4d081cd-cce7-4d12-aa4b-f3b77850dc72",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

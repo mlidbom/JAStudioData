@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9a2469612c9a3f749a52c035ab1c4e54a5132999bb21a2c22f4c45f7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9a2469612c9a3f749a52c035ab1c4e54a5132999bb21a2c22f4c45f7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "加える"
@@ -170,11 +178,12 @@
     "question": "このアプリを使うと、動画にアニメを加えることができます。",
     "answer": "This application allows you to add animation to your videos.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "756ce2c1-ecad-46c1-bca9-7535a2dc09b6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

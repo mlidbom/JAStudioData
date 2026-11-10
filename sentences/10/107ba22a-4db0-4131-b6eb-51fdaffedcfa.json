@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2ca6ce02234f2f10f423c9b7f1977f1868218e12cd78be6eb214cb8c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2ca6ce02234f2f10f423c9b7f1977f1868218e12cd78be6eb214cb8c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "浦"
@@ -93,11 +101,12 @@
     "question": "駿河湾西沿岸は田子ノ浦と呼ばれます。",
     "answer": "The west coast of Suruga Bay is called Takono Bay.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "107ba22a-4db0-4131-b6eb-51fdaffedcfa",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-532db0f9b839b600cfa052e68843c20e073f7eef0ada2a9001db130a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-532db0f9b839b600cfa052e68843c20e073f7eef0ada2a9001db130a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "署名"
@@ -86,11 +94,12 @@
     "question": "オンライン署名にご協力ください。",
     "answer": "Please sign our online petition.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "564074f3-95e4-4af2-9f88-8d2922f96395",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

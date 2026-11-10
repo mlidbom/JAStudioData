@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-462a7dcd4acdec5137cfa4bac9c958f7f6e91eb72a24028ffed12bc2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-462a7dcd4acdec5137cfa4bac9c958f7f6e91eb72a24028ffed12bc2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "水深"
@@ -121,11 +129,12 @@
     "question": "水深が浅いプールで泳ぐのが好きです。",
     "answer": "I like swimming in a shallow pool.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ecf9b46f-23da-4c60-b840-1b3f29d1c986",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

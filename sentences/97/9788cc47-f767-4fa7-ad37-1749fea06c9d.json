@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-96078c1d0a04b8cf29ae5005a7da584d69dd52c4ace1c5fc77a37c50.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-96078c1d0a04b8cf29ae5005a7da584d69dd52c4ace1c5fc77a37c50.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "風船"
@@ -79,11 +87,12 @@
     "question": "空に、たくさんの風船が見えます。",
     "answer": "You can see many balloons in the sky.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9788cc47-f767-4fa7-ad37-1749fea06c9d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4efc476f229a7892f09e81d167718d051bad5aab452a9b4cfb7fd1d8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4efc476f229a7892f09e81d167718d051bad5aab452a9b4cfb7fd1d8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "壁"
@@ -107,11 +115,12 @@
     "question": "スムージーを飲みながら壁をペンキで塗ってるところです。",
     "answer": "I’m drinking a smoothie and painting my walls.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2f272966-e770-4afa-90cc-1cab0e6c6864",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

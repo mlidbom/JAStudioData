@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-79f71f7fd47edb0566ef7adc479acd974d7927d4b7bde6a25d7a09f7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-79f71f7fd47edb0566ef7adc479acd974d7927d4b7bde6a25d7a09f7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "量る"
@@ -128,11 +136,12 @@
     "question": "体重計で自分の体重を量るのが恐い。",
     "answer": "I’m scared of weighing myself on the scale.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2bc80919-c102-43e0-a42e-b4cdedbe3ed2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f7c0b4499db590f3bbf7be6065287230cd11f201c6da0ec76770ee99.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f7c0b4499db590f3bbf7be6065287230cd11f201c6da0ec76770ee99.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "農民"
@@ -93,11 +101,12 @@
     "question": "この町の農民は毎日、米を食べます。",
     "answer": "The farmers in this town eat rice every day.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f7b44dcf-5193-4e0b-b345-eab4bfb81842",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

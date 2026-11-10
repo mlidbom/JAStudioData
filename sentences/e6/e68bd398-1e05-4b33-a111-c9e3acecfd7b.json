@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c75e9bd05a3de5d0a740936f3efb3549b1d9a36a530e06a778c677b3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c75e9bd05a3de5d0a740936f3efb3549b1d9a36a530e06a778c677b3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "煎る"
@@ -135,11 +143,12 @@
     "question": "ココナッツを煎ると食感がよくなります。",
     "answer": "If you roast coconut, the texture improves.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e68bd398-1e05-4b33-a111-c9e3acecfd7b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

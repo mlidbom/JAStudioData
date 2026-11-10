@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8c5a5db7279be1dbe6b110c3138bf4487c86ed3aa1dd239078ef889a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8c5a5db7279be1dbe6b110c3138bf4487c86ed3aa1dd239078ef889a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "郵便",
@@ -94,11 +102,12 @@
     "question": "郵便番号は何番ですか？",
     "answer": "What is your postal code number?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "89ecaf12-e645-4802-a185-e6fc4c7e747a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

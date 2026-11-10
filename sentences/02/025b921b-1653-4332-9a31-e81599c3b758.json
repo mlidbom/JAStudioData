@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1158548b816ce22334375a87e7cde96daaae9ca21f40e5ceb4c3a7a0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1158548b816ce22334375a87e7cde96daaae9ca21f40e5ceb4c3a7a0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "注意"
@@ -387,11 +395,12 @@
     "question": "私は彼が間違った道を進んでるんじゃないかと心配しているのよ。注意したんだけど、聞く耳持たずって感じで。",
     "answer": "I’m worried that he’s going down the wrong path. I cautioned him, but he doesn’t listen to me.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "025b921b-1653-4332-9a31-e81599c3b758",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

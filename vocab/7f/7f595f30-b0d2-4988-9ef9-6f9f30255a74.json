@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-72feb93c1db74bdf8e0be82051e03f1d9c5813f5e52dd9f54a544aab.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-72feb93c1db74bdf8e0be82051e03f1d9c5813f5e52dd9f54a544aab.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
   "forms": [
     {
       "text": "て欲しい",
@@ -56,8 +62,7 @@
   "sentenceCount": 3,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [
@@ -104,7 +109,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "7f595f30-b0d2-4988-9ef9-6f9f30255a74",
   "tags": [

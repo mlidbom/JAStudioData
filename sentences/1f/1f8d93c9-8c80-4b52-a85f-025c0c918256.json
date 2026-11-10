@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-41529e223173e4ae6f05826d9b838d2bf4338bf0323d4d0a9659e4e3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-41529e223173e4ae6f05826d9b838d2bf4338bf0323d4d0a9659e4e3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "転送"
@@ -121,11 +129,12 @@
     "question": "そのメール、私にも転送してくれない？",
     "answer": "Could you forward that email to me?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1f8d93c9-8c80-4b52-a85f-025c0c918256",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

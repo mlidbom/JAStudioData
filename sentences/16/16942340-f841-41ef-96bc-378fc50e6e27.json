@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8fc0e8ea72b51c2c5bf6b56fddf1d7b8a9fa03f07feb9438223c6c3c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8fc0e8ea72b51c2c5bf6b56fddf1d7b8a9fa03f07feb9438223c6c3c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "頭"
@@ -205,11 +213,12 @@
     "question": "このアパートは高さがあまりないので、頭の上に気をつけてください。",
     "answer": "This apartment isn't that tall, so watch your head, please.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "16942340-f841-41ef-96bc-378fc50e6e27",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

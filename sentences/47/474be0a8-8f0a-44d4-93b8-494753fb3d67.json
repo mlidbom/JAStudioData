@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ecc1eea11e031ea99791c77e5715e0e1b49e92e4144ebca16e4a5c7b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ecc1eea11e031ea99791c77e5715e0e1b49e92e4144ebca16e4a5c7b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "後ろ"
@@ -156,11 +164,12 @@
     "question": "人々の後ろに一人女の人が立っています。",
     "answer": "A woman is standing behind people.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "474be0a8-8f0a-44d4-93b8-494753fb3d67",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

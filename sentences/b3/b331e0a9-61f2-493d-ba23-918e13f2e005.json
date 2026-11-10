@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6b12b58caf30eba805b1afddb90fff2db752dd776195fed2e9af4305.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6b12b58caf30eba805b1afddb90fff2db752dd776195fed2e9af4305.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "逆"
@@ -177,11 +185,12 @@
     "question": "ネジをゆるめたかったのに、逆に回して締めつけてしまっていた。",
     "answer": "I wanted to loosen the screw, but I ended up turning it in the opposite way and tightened it instead.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b331e0a9-61f2-493d-ba23-918e13f2e005",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

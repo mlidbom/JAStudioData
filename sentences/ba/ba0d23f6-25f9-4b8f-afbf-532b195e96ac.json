@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a495df9d4915298939de4cc2371e3bccc0dee6659dee46ac1f22d903.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a495df9d4915298939de4cc2371e3bccc0dee6659dee46ac1f22d903.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "曜日"
@@ -79,11 +87,12 @@
     "question": "今日って何曜日だっけ？",
     "answer": "What day of the week is today?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ba0d23f6-25f9-4b8f-afbf-532b195e96ac",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e15cafed1cccf73886efb31aefeffecc1387f820d5d3f4490b57c274.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e15cafed1cccf73886efb31aefeffecc1387f820d5d3f4490b57c274.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "訴訟"
@@ -170,11 +178,12 @@
     "question": "あの訴訟のせいで、かくしていた美味しいベーコンを全て失った。",
     "answer": "I lost all of my delicious bacon to that litigation.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f23651a0-3fe7-4ff3-9109-7c82ca8f3fab",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

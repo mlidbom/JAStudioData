@@ -29,9 +29,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-1964fc1fb043148a630aa9d07164b4def17c505650afe2e348b54324.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-1964fc1fb043148a630aa9d07164b4def17c505650afe2e348b54324.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "そう言うの",
@@ -57,8 +63,7 @@
   "sentenceCount": 20,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -82,7 +87,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "a3ea9ff8-57d7-45f2-9390-6ea87cc67aa5",
   "tags": [

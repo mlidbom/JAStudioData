@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8ff2089624a30e08d9d48c0ded01dbbea9765b8db2a68363c84dce85.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8ff2089624a30e08d9d48c0ded01dbbea9765b8db2a68363c84dce85.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一旦"
@@ -219,11 +227,12 @@
     "question": "この話は一旦なかったことにしてもらえませんか。",
     "answer": "Will you forget that conversation for a moment?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c2fd95b2-4ac5-4874-bbc3-e8d95e509495",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

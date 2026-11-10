@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d15b1174f0d7cd042bb4ba9caac579598d0e0980bf7369f9dfbfcb95.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d15b1174f0d7cd042bb4ba9caac579598d0e0980bf7369f9dfbfcb95.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "卵"
@@ -303,11 +311,12 @@
     "question": "「卵がかえる前にひなを数えるな」という諺は、日本語では「とらぬ狸の皮算用をするな」です。",
     "answer": "The proverb \"Don’t count your chickens before they hatch\" is \"Don’t assume you can grab a tanuki\" in Japanese.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c0eb5547-6806-4ff2-9277-ca171bde6fa2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

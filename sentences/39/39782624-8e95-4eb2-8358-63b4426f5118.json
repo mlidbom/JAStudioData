@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6efb72657379a16922423bc188ddabd32b7c2bb9201b225e2f28a46c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6efb72657379a16922423bc188ddabd32b7c2bb9201b225e2f28a46c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お願いします"
@@ -114,11 +122,12 @@
     "question": "大人のチケットを二枚、お願いします。",
     "answer": "Two adult tickets, please.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "39782624-8e95-4eb2-8358-63b4426f5118",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

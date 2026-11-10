@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e901d95992fcfeccc80bb0c8570335d4792ce08c41506ea0a0f2b6bc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e901d95992fcfeccc80bb0c8570335d4792ce08c41506ea0a0f2b6bc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "愛人"
@@ -184,11 +192,12 @@
     "question": "今日は愛人の家でご飯食べてくるから、晩ご飯はいらないよ。",
     "answer": "I'm going to have dinner at my mistress's house today, so I don't need dinner.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f5b8afba-bf41-48b4-80fc-f066d916e565",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

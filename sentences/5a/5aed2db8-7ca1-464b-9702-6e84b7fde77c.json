@@ -3,8 +3,16 @@
   "corpusAnswer": "Please drive more slowly.",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ebb8618f13fb26d8d5ea565d492c384f5f5b3efce9cfb81672d7cae7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ebb8618f13fb26d8d5ea565d492c384f5f5b3efce9cfb81672d7cae7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -91,11 +99,12 @@
     "question": "走行スピードを下げてください。",
     "answer": "Reduce the driving speed.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5aed2db8-7ca1-464b-9702-6e84b7fde77c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

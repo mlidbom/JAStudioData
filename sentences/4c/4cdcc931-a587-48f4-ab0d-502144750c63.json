@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ffdf92f52fbb0efefe17a911058c482f212cef6b269a0995b2b985d1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ffdf92f52fbb0efefe17a911058c482f212cef6b269a0995b2b985d1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "肌色"
@@ -107,11 +115,12 @@
     "question": "この絵の女性の肌色、すごく綺麗だね。",
     "answer": "The woman's skin tone in this painting is very beautiful.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4cdcc931-a587-48f4-ab0d-502144750c63",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

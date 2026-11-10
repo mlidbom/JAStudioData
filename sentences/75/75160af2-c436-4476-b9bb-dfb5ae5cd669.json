@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d9ed3b6249cb9a803535ff74e6fa88798a0200e01b613e7b700a056f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d9ed3b6249cb9a803535ff74e6fa88798a0200e01b613e7b700a056f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "視覚"
@@ -275,11 +283,12 @@
     "question": "学習者が理解しやすいように、視覚情報と音声情報を組み合わせたレッスンを提供しています。",
     "answer": "We provide lessons that combine visual and auditory information to make it easier for learners to understand.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "75160af2-c436-4476-b9bb-dfb5ae5cd669",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

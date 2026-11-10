@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a13ac17e5a6ebc97e346c88032a65eae8e97161772f464fdec4d5c2f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a13ac17e5a6ebc97e346c88032a65eae8e97161772f464fdec4d5c2f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "代わり"
@@ -128,11 +136,12 @@
     "question": "田中先生はお休みなので、代わりの先生が来ます。",
     "answer": "Mr. Tanaka is off, so a substitute teacher will come.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b9c74f39-8ae8-473a-b090-11b99adf6ada",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

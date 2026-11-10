@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0bc4badcf94ee85b416d27edf7dc449d3e71339e26b812c68d8604eb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0bc4badcf94ee85b416d27edf7dc449d3e71339e26b812c68d8604eb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "店"
@@ -142,11 +150,12 @@
     "question": "この店は大人の男の人に人気があります。",
     "answer": "This store is popular with adult men.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "12699bb7-0092-4344-9493-d3d695c5f3cc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b66a98193cada808823c8b318a42d9f4a441660569f7f7a7e988808b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b66a98193cada808823c8b318a42d9f4a441660569f7f7a7e988808b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "八つ"
@@ -142,11 +150,12 @@
     "question": "このカレーにはじゃがいもが八つ入っています。",
     "answer": "This curry has eight potatoes in it.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e672d9b1-0e66-4679-a8d6-d3d3800f399c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

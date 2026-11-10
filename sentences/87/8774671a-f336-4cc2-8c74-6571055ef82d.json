@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2f785d494a3f4a2d463bbedc8bb19d990fe96d94cc3fe24fe3cb4e50.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2f785d494a3f4a2d463bbedc8bb19d990fe96d94cc3fe24fe3cb4e50.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "給料"
@@ -240,11 +248,12 @@
     "question": "私の給料だけだと、今の生活スタイルのままじゃ赤字なんだよね。",
     "answer": "With only my salary, we’re in the red if we continue with our current lifestyle.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8774671a-f336-4cc2-8c74-6571055ef82d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

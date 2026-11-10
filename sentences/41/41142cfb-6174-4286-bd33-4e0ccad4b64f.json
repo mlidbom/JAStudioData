@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b5f71d0dfdf280f89ba0ce793668759886eafb09846c4b47aa3b1ee1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b5f71d0dfdf280f89ba0ce793668759886eafb09846c4b47aa3b1ee1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "怪しい"
@@ -184,11 +192,12 @@
     "question": "家の前に怪しい人がいたから警察に通報しました。",
     "answer": "I reported to the police because there was a suspicious person in front of my house.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "41142cfb-6174-4286-bd33-4e0ccad4b64f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

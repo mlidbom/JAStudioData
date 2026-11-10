@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-553401559770bc3b04acbf56bbe999cdd61b007f1992ee7aa3a1e7ea.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-553401559770bc3b04acbf56bbe999cdd61b007f1992ee7aa3a1e7ea.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "批判する"
@@ -135,11 +143,12 @@
     "question": "みんなは口をそろえて男のことを批判した。",
     "answer": "Everyone said the same thing and criticized the man.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "23abb336-7566-49d4-ad5c-3445feb53e48",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

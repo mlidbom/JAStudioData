@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a9b957310285147feeea5112337e3b0677c2798c041ecc116cf20a2a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a9b957310285147feeea5112337e3b0677c2798c041ecc116cf20a2a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "凶悪"
@@ -317,11 +325,12 @@
     "question": "誰もが、その凶悪犯が刑務所で大人しく刑期を務めるのは無理だろうと思っていました。",
     "answer": "Everyone believed that the atrocious criminal would not fare well in prison.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ac8cdc2a-a586-43ad-acf0-56d40df7ac77",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

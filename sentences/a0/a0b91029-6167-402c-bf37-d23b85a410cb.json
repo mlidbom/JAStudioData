@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-24b261663c360ae1b5e9f79072462c877f1c527b6f8fb30ab00c70db.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-24b261663c360ae1b5e9f79072462c877f1c527b6f8fb30ab00c70db.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "弱い"
@@ -135,11 +143,12 @@
     "question": "弱い火の光でも、辺りが少し明るくなりました。",
     "answer": "Even with a small light of fire, it has become a little brighter around.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a0b91029-6167-402c-bf37-d23b85a410cb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7c4d825ce98d1da53e511721edf116d1702aaba61b6f6264e59ae5f2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7c4d825ce98d1da53e511721edf116d1702aaba61b6f6264e59ae5f2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "港"
@@ -142,11 +150,12 @@
     "question": "この町には港もあるし、電車も通ってます。",
     "answer": "There is a harbor in this town, and there are train lines running through it.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "37494b9f-90ff-4617-ac6c-617c4db66432",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

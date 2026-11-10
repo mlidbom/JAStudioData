@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-05dacea2f76bb34aa009bf3887f3ed303f0a2d1cea110e34439c2feb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-05dacea2f76bb34aa009bf3887f3ed303f0a2d1cea110e34439c2feb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "訂正"
@@ -226,11 +234,12 @@
     "question": "もし私の日本語に間違いがあれば、その場で訂正してもらってもいいですか？",
     "answer": "If I make a mistake in Japanese would you mind correcting it on the spot for me?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7ed05550-2ead-413e-a8f8-0a96d4319327",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

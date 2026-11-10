@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e0dd3dc28ffe4898ae1d302721b0883ec1d5f534249b238c6480a166.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e0dd3dc28ffe4898ae1d302721b0883ec1d5f534249b238c6480a166.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "焼ける"
@@ -219,11 +227,12 @@
     "question": "まさか火事で家が焼けるとは思っても見ませんでした。",
     "answer": "I never expected my house to burn down in a fire.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "59f1ea64-cac0-4ce2-953d-046b4e949a69",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

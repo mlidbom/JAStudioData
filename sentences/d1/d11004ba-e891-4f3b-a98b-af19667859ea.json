@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6b7167fc10870922ce8c1798eb37f6573ff16d9932e324ccc8600afb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6b7167fc10870922ce8c1798eb37f6573ff16d9932e324ccc8600afb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鍛える"
@@ -233,11 +241,12 @@
     "question": "生まれたての頃からミッチリ鍛えたおかげで、息子は今ピアノの天才児と呼ばれています。",
     "answer": "Thanks to the strict training I’ve given him since birth, my son is now called a child prodigy at piano.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d11004ba-e891-4f3b-a98b-af19667859ea",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

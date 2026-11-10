@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0553e779fc9bb4b40c2c78b3ce384e7d085d1f7b1b312a756ff5a625.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0553e779fc9bb4b40c2c78b3ce384e7d085d1f7b1b312a756ff5a625.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "シアトル市"
@@ -128,11 +136,12 @@
     "question": "シアトル市にはマリナーズというベースボールチームがある。",
     "answer": "Seattle has a baseball team called the Mariners.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7fe40274-792a-4981-90ab-3076ce1142d3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

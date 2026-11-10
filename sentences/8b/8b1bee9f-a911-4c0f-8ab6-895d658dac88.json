@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-26bfffcab97190c512b87d1b86790bdb2360f3159630917a99e997f2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-26bfffcab97190c512b87d1b86790bdb2360f3159630917a99e997f2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "貯蓄"
@@ -254,11 +262,12 @@
     "question": "うちの祖母は葬式代分しか貯蓄していないと言っていました。",
     "answer": "My grandma said her savings is to be used only on her funeral costs.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8b1bee9f-a911-4c0f-8ab6-895d658dac88",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

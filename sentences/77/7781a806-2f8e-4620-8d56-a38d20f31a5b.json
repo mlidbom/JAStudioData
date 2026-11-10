@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5b19a2b9585c1bdf1e89f8146ae70d1b0149e6643c2413c057a1746d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5b19a2b9585c1bdf1e89f8146ae70d1b0149e6643c2413c057a1746d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "点数"
@@ -121,11 +129,12 @@
     "question": "弟はテストの点数を教えてくれなかった。",
     "answer": "My younger brother didn't tell me his test score.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7781a806-2f8e-4620-8d56-a38d20f31a5b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

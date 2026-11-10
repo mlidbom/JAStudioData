@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-eb4fffa7e10264de868b00820174a5d2ede8df3504379131ded018a4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-eb4fffa7e10264de868b00820174a5d2ede8df3504379131ded018a4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "運がいい"
@@ -149,11 +157,12 @@
     "question": "スロットで十万円勝つなんて、お前は運がいいよ。",
     "answer": "You're lucky to win 100,000 yen in from slots.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0d38f5b5-96ed-4905-980c-b209195ed6f3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

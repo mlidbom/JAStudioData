@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f86a4862a0328821123a82b05d9fc78c481515e7421be144c9567a74.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f86a4862a0328821123a82b05d9fc78c481515e7421be144c9567a74.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "予防"
@@ -100,11 +108,12 @@
     "question": "はしかの予防は、ワクチンしかありません。",
     "answer": "The only prevention for measles is vaccination.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dcc38480-c6e9-4848-9b31-2131cf162247",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-40f141e27465180990dea1b4fb146336ae737c6b4a24b2c16dcff58a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-40f141e27465180990dea1b4fb146336ae737c6b4a24b2c16dcff58a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "和訳"
@@ -191,11 +199,12 @@
     "question": "いくつか小さな間違いはあるものの、うまく和訳できていると思いますよ。",
     "answer": "Aside from some minor mistakes, I think your Japanese translation was pretty good.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e3e43f51-d66d-480b-8a16-3783b0f7fa83",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

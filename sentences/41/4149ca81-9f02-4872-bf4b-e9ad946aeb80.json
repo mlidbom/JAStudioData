@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-32c1d1cd6ead4e8da7c912a70cc8981c9ded99378ee3d8a5025d25a7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-32c1d1cd6ead4e8da7c912a70cc8981c9ded99378ee3d8a5025d25a7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "店員"
@@ -100,11 +108,12 @@
     "question": "店員さんにメニューについて聞いてみよう。",
     "answer": "Let's ask the staff about the menu.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4149ca81-9f02-4872-bf4b-e9ad946aeb80",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

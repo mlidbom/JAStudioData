@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1e54e14bb6eef910915a7d4890e87397c272bb8dbc27fd790eb69cc2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1e54e14bb6eef910915a7d4890e87397c272bb8dbc27fd790eb69cc2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "胸"
@@ -107,11 +115,12 @@
     "question": "私は右胸にホクロがあります。",
     "answer": "I have a mole on my right chest.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "90a7220e-e252-4292-a016-ae9c714603d3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

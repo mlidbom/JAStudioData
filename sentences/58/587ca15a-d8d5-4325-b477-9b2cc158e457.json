@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c355b4c37928723199a0d3d8bc658fb1a638bd9551b5aacdb2dcc3b7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c355b4c37928723199a0d3d8bc658fb1a638bd9551b5aacdb2dcc3b7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "草地"
@@ -114,11 +122,12 @@
     "question": "草地の上に大きな木があった。",
     "answer": "There was a large tree on the grassland.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "587ca15a-d8d5-4325-b477-9b2cc158e457",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

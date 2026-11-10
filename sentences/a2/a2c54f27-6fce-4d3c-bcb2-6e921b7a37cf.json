@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5c1617068a913ecb7421929c63cc4846bcd589962dcf7fd1afa8aef1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5c1617068a913ecb7421929c63cc4846bcd589962dcf7fd1afa8aef1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "合唱団"
@@ -163,11 +171,12 @@
     "question": "合唱団員は、みんなで手を繋いで歌っています。",
     "answer": "The members of the choir are all singing hand in hand.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a2c54f27-6fce-4d3c-bcb2-6e921b7a37cf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

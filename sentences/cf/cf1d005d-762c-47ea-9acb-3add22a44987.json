@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-18e9dbc2983f8c8981a0811590dd8238997324ed727d5ba1b613fc04.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-18e9dbc2983f8c8981a0811590dd8238997324ed727d5ba1b613fc04.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "妹"
@@ -72,11 +80,12 @@
     "question": "それは妹のドレスです。",
     "answer": "It's my sister's dress.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cf1d005d-762c-47ea-9acb-3add22a44987",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -29,9 +29,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": " [sound:ATTS 思いっきり (azure microsoft server speech text to speech voice (ja-jp daichineural)).mp3]",
-  "audioG": "",
-  "audioTTS": "",
+  "audio": [
+    {
+      "fileName": "ATTS 思いっきり (azure microsoft server speech text to speech voice (ja-jp daichineural)).mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "思いっ切り",
@@ -41,8 +47,7 @@
   "sentenceCount": 10,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -66,11 +71,12 @@
   "sourceData": {
     "answer": "to-one's-heart's-content/as-much-as-one-wants/as-hard-as-one-can/with-all-one's-strength/to-the-best-of-one's-ability/to-the-utmost/with-determination/hard/heavily | resolution/decisiveness/determination/resignation",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "81fe6432-4e83-4c87-8f4c-ed94fc8711d9",
   "tags": [
-    "_tts_audio",
     "source::yomitan"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7e9ce3caa1c14dfeef48363efeaf48c71d82c8d5f7e7d7372c16ac25.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7e9ce3caa1c14dfeef48363efeaf48c71d82c8d5f7e7d7372c16ac25.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "休む"
@@ -100,11 +108,12 @@
     "question": "ベッドで四日半で休みました。",
     "answer": "I rested in bed for four and a half days.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "36fe7451-4136-4afc-802f-b9779deb510c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

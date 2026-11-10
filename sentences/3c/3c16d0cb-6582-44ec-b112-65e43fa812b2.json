@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7340afb2a0f15ca4a4052cc68fdf02dc032a1eec858d6c69f4bd2fd8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7340afb2a0f15ca4a4052cc68fdf02dc032a1eec858d6c69f4bd2fd8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "積もる"
@@ -555,11 +563,12 @@
     "question": "体重を減らすために、日常の食事の量を極端に減らす必要はないよ。それよりも、バランスの良い、健康な食事を取ることの方が重要だ。ちりも積もれば山となるって言うじゃないか。",
     "answer": "You don’t have to drastically decrease the amount of food you normally eat to lose weight. It is more important to have a balanced, healthy diet. It’s said every little bit counts.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3c16d0cb-6582-44ec-b112-65e43fa812b2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

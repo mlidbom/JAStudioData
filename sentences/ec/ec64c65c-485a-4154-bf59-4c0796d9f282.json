@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7027831554d4cd82051a32e20af17a37742714d5e7aed13bb9e0e99a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7027831554d4cd82051a32e20af17a37742714d5e7aed13bb9e0e99a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "布団"
@@ -149,11 +157,12 @@
     "question": "干した布団のにおいは死んだダニのにおいなんだよ。",
     "answer": "The smell of dried bedding is the smell of dead dust mites.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ec64c65c-485a-4154-bf59-4c0796d9f282",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

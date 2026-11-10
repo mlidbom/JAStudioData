@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fa1fdf4d1559487845a62c80f8833f6ab55cb1d0b211cef22fe286c6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fa1fdf4d1559487845a62c80f8833f6ab55cb1d0b211cef22fe286c6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "運転する"
@@ -156,11 +164,12 @@
     "question": "父は毎日、会社と家の間を車かバイクで運転する。",
     "answer": "My father drives his car or motorcycle every day between his company and home.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cb64074d-c3a2-40c9-8e4f-2b86f6626943",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

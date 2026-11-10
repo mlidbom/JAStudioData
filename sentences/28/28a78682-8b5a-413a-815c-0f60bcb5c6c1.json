@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-be8a5b83fadb531502becd4cbfccf3e2094a1dff74a9aa54e8363237.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-be8a5b83fadb531502becd4cbfccf3e2094a1dff74a9aa54e8363237.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "地価"
@@ -268,11 +276,12 @@
     "question": "地価税と固定資産税は、別に払わなくてはいけないんですか？",
     "answer": "Do we have to pay land value tax and property tax separately?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "28a78682-8b5a-413a-815c-0f60bcb5c6c1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

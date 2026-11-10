@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-11000ed9e4c97c5f6e550f065bc6161ad079cbca88f4b552538a8cc9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-11000ed9e4c97c5f6e550f065bc6161ad079cbca88f4b552538a8cc9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "話し方"
@@ -86,11 +94,12 @@
     "question": "まるで日本人みたいな話し方ですね。",
     "answer": "You talk like a Japanese person.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f63a69f0-b320-4cd0-9a36-427eee5bdf28",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

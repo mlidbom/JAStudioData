@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6adb563c29d8bafd523b28dcb4fc94a22d7f1b65b980972d1f2a4f1e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6adb563c29d8bafd523b28dcb4fc94a22d7f1b65b980972d1f2a4f1e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "全景"
@@ -156,11 +164,12 @@
     "question": "うーん、この情報だけだと、建物の全景がうまくイメージできないな。",
     "answer": "Well, I can't get a good picture of the whole building from this information.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d69c3db7-0f14-4924-8277-c7351740caaa",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

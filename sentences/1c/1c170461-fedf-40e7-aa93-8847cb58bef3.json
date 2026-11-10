@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6bf2cf92abdf485d458915e596e6926ea82aa79d432db36eb7272bd0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6bf2cf92abdf485d458915e596e6926ea82aa79d432db36eb7272bd0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "取る"
@@ -100,11 +108,12 @@
     "question": "そこからマグカップを取ってくれない？",
     "answer": "Can you get a mug from there for me?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1c170461-fedf-40e7-aa93-8847cb58bef3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

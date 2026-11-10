@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-48d5138ce8c9c725d9871fa76bb9fd281f8a99afa86be89c90f411e0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-48d5138ce8c9c725d9871fa76bb9fd281f8a99afa86be89c90f411e0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "合う"
@@ -100,11 +108,12 @@
     "question": "この電話番号で合ってますか？",
     "answer": "Is this the right phone number?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a8e1ef69-b6fe-4f3a-8a73-7488db4f4b47",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

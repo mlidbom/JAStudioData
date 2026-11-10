@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d01528e74d30cd23494af7b17e63e2ebfdc971148a973cf71160f660.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d01528e74d30cd23494af7b17e63e2ebfdc971148a973cf71160f660.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "陳列室"
@@ -184,11 +192,12 @@
     "question": "その陳列室には、いったい何が並べられているのですか。",
     "answer": "What the heck is on display in the showroom?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0c6316be-42a6-4052-8bd8-cf36f738fe0b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

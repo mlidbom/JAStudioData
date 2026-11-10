@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2fdb04afd029274384a09890a7f3f429e73adeb11ff20ae5a5822572.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2fdb04afd029274384a09890a7f3f429e73adeb11ff20ae5a5822572.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "酢"
@@ -142,11 +150,12 @@
     "question": "お酢は常温で保管しています。",
     "answer": "I keep vinegar at room temperature.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "684d5025-0450-4031-8f01-1c5ad53a660a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

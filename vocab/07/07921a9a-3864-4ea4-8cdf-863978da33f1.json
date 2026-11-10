@@ -26,9 +26,15 @@
   "partsOfSpeech": [],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-2c2fee0fff3d97ff6ac98ecf510ef3190ca2e691f2e9b39cfee0d1ec.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-2c2fee0fff3d97ff6ac98ecf510ef3190ca2e691f2e9b39cfee0d1ec.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "っていうのに",
@@ -50,8 +56,7 @@
   "sentenceCount": 3,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -75,7 +80,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "07921a9a-3864-4ea4-8cdf-863978da33f1",
   "tags": [

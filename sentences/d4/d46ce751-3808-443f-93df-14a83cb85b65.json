@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a14640882e012d1eacc8f67474361978620ec5155ba63f4ce044f33a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a14640882e012d1eacc8f67474361978620ec5155ba63f4ce044f33a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "疲れる"
@@ -135,11 +143,12 @@
     "question": "もう考えるのに疲れちゃったんだよ。",
     "answer": "I'm tired of thinking.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d46ce751-3808-443f-93df-14a83cb85b65",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

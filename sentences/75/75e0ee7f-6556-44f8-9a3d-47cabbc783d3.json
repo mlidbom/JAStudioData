@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1d9d19a62d0107456e0e4dba9d4672eb74ddacf3516899cfe03bf0ce.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1d9d19a62d0107456e0e4dba9d4672eb74ddacf3516899cfe03bf0ce.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "雨戸"
@@ -58,11 +66,12 @@
     "question": "毎朝、雨戸を開けます。",
     "answer": "I open the shutters every morning.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "75e0ee7f-6556-44f8-9a3d-47cabbc783d3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5c0243b57445b8afaba7691e1dc8239f0120057333438bf5a17d3a11.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5c0243b57445b8afaba7691e1dc8239f0120057333438bf5a17d3a11.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "球",
@@ -150,11 +158,12 @@
     "question": "球の体積を求める公式って何だっけ？",
     "answer": "What was the formula for the volume of a sphere?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0fa02a9c-690e-459e-a74f-32bd6089c46c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

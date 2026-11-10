@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4d1ea232663d83519a287b4f4d9984764bb4b951694f0d24f22187a3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4d1ea232663d83519a287b4f4d9984764bb4b951694f0d24f22187a3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "枝豆"
@@ -324,11 +332,12 @@
     "question": "「お早うございます。何にいたしましょうか？」「いつものやつ頼むよ。」「かしこまりました。ビールと枝豆でございますね。」「そうだよ。」",
     "answer": "\"Good morning. What can I get you?\" \"I’ll have the usual.\" \"Alright. Beer and Edamame, right?\" \"That’s it.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b316e519-86bb-4016-b570-b42145e40b88",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

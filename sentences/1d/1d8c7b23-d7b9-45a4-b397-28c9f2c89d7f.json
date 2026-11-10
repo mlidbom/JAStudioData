@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7ea6f1a682978da6f6678bcfc79249b183628dc9496876c7fbd8c446.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7ea6f1a682978da6f6678bcfc79249b183628dc9496876c7fbd8c446.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "白い"
@@ -156,11 +164,12 @@
     "question": "白いウサギは赤い目をしていました。",
     "answer": "The white rabbit had red eyes.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1d8c7b23-d7b9-45a4-b397-28c9f2c89d7f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b64b5a2ff9dc859554ef8509c882e3c957b1c54469b32d31de0faa21.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b64b5a2ff9dc859554ef8509c882e3c957b1c54469b32d31de0faa21.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "差別する"
@@ -163,11 +171,12 @@
     "question": "誰かに差別されたことはありますか。",
     "answer": "Have you ever been discriminated against by someone?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a59b0df9-941c-4134-9b72-bdad09571b7d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

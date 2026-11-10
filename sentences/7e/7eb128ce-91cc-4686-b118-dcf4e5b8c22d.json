@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a86daa8be5db67e66c96fabdba371edd8e3ad7a96aec915af2b138b5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a86daa8be5db67e66c96fabdba371edd8e3ad7a96aec915af2b138b5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "場面"
@@ -128,11 +136,12 @@
     "question": "最後の場面で泣いてしまいました。",
     "answer": "I cried during the last scene.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7eb128ce-91cc-4686-b118-dcf4e5b8c22d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

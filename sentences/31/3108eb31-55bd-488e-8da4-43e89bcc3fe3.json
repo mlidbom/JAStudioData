@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9b58567335b6698740f25c41770d043bfc6cc489897fe2c7a9cedc4f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9b58567335b6698740f25c41770d043bfc6cc489897fe2c7a9cedc4f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "教科書"
@@ -163,11 +171,12 @@
     "question": "教科書はウェブから不正ダウンロードしないで、ちゃんと買ってくださいね。",
     "answer": "Please don't illegally download textbooks from the web; instead, buy them properly.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3108eb31-55bd-488e-8da4-43e89bcc3fe3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c89b11c54873fd00302fd7a5b3ada6d3487925cc77f8fecfeb31a28f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c89b11c54873fd00302fd7a5b3ada6d3487925cc77f8fecfeb31a28f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "何"
@@ -93,11 +101,12 @@
     "question": "これは何の花ですか？",
     "answer": "What flower is this?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ec3f8f41-8817-4720-b189-9bd98cca6bc0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

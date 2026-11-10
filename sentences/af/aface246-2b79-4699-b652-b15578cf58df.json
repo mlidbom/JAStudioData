@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-62814ad981167560d7ab71e2c8a4cb65544571e97593f34cd18b8410.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-62814ad981167560d7ab71e2c8a4cb65544571e97593f34cd18b8410.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "居眠り"
@@ -163,11 +171,12 @@
     "question": "運転中に居眠りしてたみたいなんだ。",
     "answer": "It seems like they dozed off while driving.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "aface246-2b79-4699-b652-b15578cf58df",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

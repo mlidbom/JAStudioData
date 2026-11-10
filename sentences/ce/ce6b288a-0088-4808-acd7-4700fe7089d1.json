@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-60d03545bab8ca05a49f4c5c32ed6d4b496dcf769cfb33354444e4d0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-60d03545bab8ca05a49f4c5c32ed6d4b496dcf769cfb33354444e4d0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "右手"
@@ -156,11 +164,12 @@
     "question": "右手の大きさと左手の大きさをくらべて下さい。",
     "answer": "Please compare the size of your right hand and your left hand.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ce6b288a-0088-4808-acd7-4700fe7089d1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

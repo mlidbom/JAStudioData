@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e29f435973f0bce4d94e134608fe75267543d0323e8aedb0c19c9b42.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e29f435973f0bce4d94e134608fe75267543d0323e8aedb0c19c9b42.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "賭ける"
@@ -156,11 +164,12 @@
     "question": "彼女は競馬で、中々の大金を賭けるんだよ。",
     "answer": "She gambles considerable amounts of money at the horse races.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "465c16ea-d893-417b-b9a0-9e1875a268d2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

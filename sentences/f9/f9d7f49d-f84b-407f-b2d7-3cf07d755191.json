@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9fb9f39ed9773a065e2506f0bf44e6c1336bbe2487d58cdc2b473f98.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9fb9f39ed9773a065e2506f0bf44e6c1336bbe2487d58cdc2b473f98.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "関西"
@@ -72,11 +80,12 @@
     "question": "あのコンビは関西の芸人です。",
     "answer": "That comedy duo is from the Kansai region.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f9d7f49d-f84b-407f-b2d7-3cf07d755191",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

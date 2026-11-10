@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-61dc803be1ee4f6ab237f6f65f0873c4c08b128c54f3bac10c2a03be.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-61dc803be1ee4f6ab237f6f65f0873c4c08b128c54f3bac10c2a03be.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "祭日"
@@ -191,11 +199,12 @@
     "question": "祭日だってことを忘れていて、会社に来てしまった。",
     "answer": "I forgot it was a holiday and I came to the office.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "167ccf61-a2d5-4409-aad6-d2b9024b1b17",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

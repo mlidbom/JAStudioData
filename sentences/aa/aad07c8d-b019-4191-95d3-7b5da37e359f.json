@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-02abd60a8a80b975031fdd549ac89d3dbc2a9cfb06af5056c731431e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-02abd60a8a80b975031fdd549ac89d3dbc2a9cfb06af5056c731431e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "画像"
@@ -142,11 +150,12 @@
     "question": "勝手にわたしの画像を使わないでくださいよ！",
     "answer": "Don't use my picture without my permission!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "aad07c8d-b019-4191-95d3-7b5da37e359f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-62cd89f9e3b4531834c50ed38621cb92091d1773d09fc6cb723e63c6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-62cd89f9e3b4531834c50ed38621cb92091d1773d09fc6cb723e63c6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "維持する"
@@ -212,11 +220,12 @@
     "question": "健康を維持するために、何か運動をする方がいいよ。",
     "answer": "You should do some exercises to maintain your health.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "510dedd0-a8f5-4f6c-adf0-049c7ffc66d5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

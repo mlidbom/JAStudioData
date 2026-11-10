@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-340196b9060fc758cc1132b28f28dbc2966183565a4c78dc3e6ee2e9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-340196b9060fc758cc1132b28f28dbc2966183565a4c78dc3e6ee2e9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "慶祝"
@@ -72,11 +80,12 @@
     "question": "慶祝の意を表して、乾杯！",
     "answer": "To show our congratulations, a toast!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a8b9070d-e770-41fb-9dd5-511dd57d2dea",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

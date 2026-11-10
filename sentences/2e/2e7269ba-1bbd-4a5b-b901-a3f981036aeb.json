@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9db35fc4ba9e49f3cff1f949202823d8844a0b58c029ce90a02eaa8e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9db35fc4ba9e49f3cff1f949202823d8844a0b58c029ce90a02eaa8e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "集中する"
@@ -170,11 +178,12 @@
     "question": "人の前だと集中して本が読めないんです。",
     "answer": "I can't concentrate on reading books when I'm around people.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2e7269ba-1bbd-4a5b-b901-a3f981036aeb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

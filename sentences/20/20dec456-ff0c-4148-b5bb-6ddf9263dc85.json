@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3a3f94a6e0fd83d05153bc3d981d5d6c6daa65987afd9f5423345f6b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3a3f94a6e0fd83d05153bc3d981d5d6c6daa65987afd9f5423345f6b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "技能"
@@ -156,11 +164,12 @@
     "question": "私は日本で技能実習生として働いています。",
     "answer": "I am working as a technical intern in Japan.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "20dec456-ff0c-4148-b5bb-6ddf9263dc85",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

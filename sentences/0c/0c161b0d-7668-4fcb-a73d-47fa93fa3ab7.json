@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-306e38ae904a88f473d301542b6eb620a227c7f261422598c1b0e2fa.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-306e38ae904a88f473d301542b6eb620a227c7f261422598c1b0e2fa.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "紹介状"
@@ -205,11 +213,12 @@
     "question": "この病院で予約をするには、お医者さんからの紹介状が要ります。",
     "answer": "You need a referral letter from a doctor to make an appointment at this hospital.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0c161b0d-7668-4fcb-a73d-47fa93fa3ab7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

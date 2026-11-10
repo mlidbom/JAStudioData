@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-444aecc1563e16e7c9d6439c6d24cd129de645ae2cb319d79b72a867.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-444aecc1563e16e7c9d6439c6d24cd129de645ae2cb319d79b72a867.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "泣く"
@@ -93,11 +101,12 @@
     "question": "そんなことで泣くなよ。",
     "answer": "Don't cry over something like that.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "99a23b66-4001-4b34-892a-785677dccc4e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

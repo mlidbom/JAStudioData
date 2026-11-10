@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8fd1dae3bdeb9e03d923fd0c1e2fc06bd6d84fdac68fc3e7d492a06a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8fd1dae3bdeb9e03d923fd0c1e2fc06bd6d84fdac68fc3e7d492a06a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "革"
@@ -128,11 +136,12 @@
     "question": "これは本物の革じゃありません。",
     "answer": "This is not real leather.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "be439bf0-1c49-4ba1-9ee1-e28b9a68cf94",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

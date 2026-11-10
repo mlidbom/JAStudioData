@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-db73c064a1c3d3944431350411b03248c2a1f08d022d4d85e5c481ac.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-db73c064a1c3d3944431350411b03248c2a1f08d022d4d85e5c481ac.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "薦める"
@@ -275,11 +283,12 @@
     "question": "この番組を彼に薦められたんだけど、アニメを観るのはあまり好きじゃないんだよね。",
     "answer": "He recommended this show to me, but I don’t really like watching anime.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0c920e7b-a10f-4885-8ba0-a1f28ee393b0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

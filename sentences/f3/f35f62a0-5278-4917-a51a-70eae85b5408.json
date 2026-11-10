@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-19f14c27d6c01535c421dd399b017db5789ef3e1ecc0725fab4e41a1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-19f14c27d6c01535c421dd399b017db5789ef3e1ecc0725fab4e41a1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "教訓"
@@ -86,11 +94,12 @@
     "question": "いい教訓になりました。",
     "answer": "It was a good lesson.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f35f62a0-5278-4917-a51a-70eae85b5408",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

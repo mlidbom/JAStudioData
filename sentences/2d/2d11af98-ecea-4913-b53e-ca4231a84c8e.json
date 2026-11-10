@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-24dbdfc6004edf70cd2ee7332ad2d318a2b4fe9cac7107c3a8501c82.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-24dbdfc6004edf70cd2ee7332ad2d318a2b4fe9cac7107c3a8501c82.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "油絵"
@@ -100,11 +108,12 @@
     "question": "祖母は油絵を集めていた。",
     "answer": "My grandmother used to collect oil paintings.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2d11af98-ecea-4913-b53e-ca4231a84c8e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

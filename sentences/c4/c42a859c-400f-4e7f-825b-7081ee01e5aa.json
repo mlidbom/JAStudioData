@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6abbfff785671eba2bb6323649ba1f852f518ceeaf59b443c21b7daf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6abbfff785671eba2bb6323649ba1f852f518ceeaf59b443c21b7daf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "割れる"
@@ -170,11 +178,12 @@
     "question": "ガラス製のフグの置物が、テーブルから落ちて割れてしまった。",
     "answer": "The glass fugu ornament fell off the table and broke.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c42a859c-400f-4e7f-825b-7081ee01e5aa",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

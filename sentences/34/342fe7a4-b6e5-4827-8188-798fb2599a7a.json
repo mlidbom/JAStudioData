@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c7abcd297b92e1d9e3f67540946a3f6528f76c6e08fdb3f2af414a18.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c7abcd297b92e1d9e3f67540946a3f6528f76c6e08fdb3f2af414a18.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "悪気"
@@ -100,11 +108,12 @@
     "question": "ごめんなさい、悪気はなかったんです。",
     "answer": "I'm sorry, I didn't mean any harm.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "342fe7a4-b6e5-4827-8188-798fb2599a7a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

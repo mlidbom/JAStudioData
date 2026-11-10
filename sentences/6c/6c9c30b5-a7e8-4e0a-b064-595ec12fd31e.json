@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-42c9bf5e37d3f994a16609f2092386de74f079b0c2834b444441a806.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-42c9bf5e37d3f994a16609f2092386de74f079b0c2834b444441a806.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "早退"
@@ -184,11 +192,12 @@
     "question": "激しい胃痛があったので、会社を早退して医者に行きました。",
     "answer": "Because I had a severe stomachache, I left work early and went to see a doctor.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6c9c30b5-a7e8-4e0a-b064-595ec12fd31e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

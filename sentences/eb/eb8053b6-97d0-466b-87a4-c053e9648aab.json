@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1c49bae727296f9d4483eaac3c16fcf4543a0ab05c32461f1184533d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1c49bae727296f9d4483eaac3c16fcf4543a0ab05c32461f1184533d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "幼児"
@@ -149,11 +157,12 @@
     "question": "そのゲームは、幼児にはまだ早いんじゃないかな？",
     "answer": "I think that game is still too advanced for preschoolers.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "eb8053b6-97d0-466b-87a4-c053e9648aab",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

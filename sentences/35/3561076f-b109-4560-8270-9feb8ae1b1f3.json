@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8ab851bb7cf775ad6dfac5931fc48490eb14530384702e4ec73ba455.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8ab851bb7cf775ad6dfac5931fc48490eb14530384702e4ec73ba455.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "指示"
@@ -170,11 +178,12 @@
     "question": "医者の指示をあおいだ方がいいんじゃないかな？",
     "answer": "Wouldn't it be better to ask a doctor for advice?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3561076f-b109-4560-8270-9feb8ae1b1f3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

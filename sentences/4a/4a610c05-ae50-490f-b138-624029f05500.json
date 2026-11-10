@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9fdc8ea3e00d6af106abbb3d5ca01cda757f00d7e98d5dadc40fa7e7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9fdc8ea3e00d6af106abbb3d5ca01cda757f00d7e98d5dadc40fa7e7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "領収書"
@@ -170,11 +178,12 @@
     "question": "もう一度領収書を発行してもらえませんか？",
     "answer": "Can you issue the receipt again?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4a610c05-ae50-490f-b138-624029f05500",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

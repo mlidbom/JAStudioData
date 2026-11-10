@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9687b907f5a4ae98fec97bca41a1050263cb61cb54a48312c9dccabf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9687b907f5a4ae98fec97bca41a1050263cb61cb54a48312c9dccabf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "防火"
@@ -156,11 +164,12 @@
     "question": "トーフグはどのくらいの頻度で防火訓練を実施しますか？",
     "answer": "How often does Tofugu have fire drills?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9e3562b4-4bfd-4291-a170-1881a681fbf5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

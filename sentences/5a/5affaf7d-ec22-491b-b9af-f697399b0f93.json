@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cfdf84768d6db2f66d7852339390f2b38165b15e270e502aef8a404a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cfdf84768d6db2f66d7852339390f2b38165b15e270e502aef8a404a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "気持ち"
@@ -93,11 +101,12 @@
     "question": "朝起きた時から気持ちわるいんです。",
     "answer": "I've been feeling sick since I woke up in the morning.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5affaf7d-ec22-491b-b9af-f697399b0f93",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

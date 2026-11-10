@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c830ab57e5aa35a675fe9f60670972b7061cb9b94b94b90006dccb7a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c830ab57e5aa35a675fe9f60670972b7061cb9b94b94b90006dccb7a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "出かける"
@@ -86,11 +94,12 @@
     "question": "休みの日は山へ出かける。",
     "answer": "I go to the mountains on my days off.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fa141398-c48b-4fcf-bb83-ec7119d6af70",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

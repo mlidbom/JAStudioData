@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-aace89b0760ad4260911a3f095b4715889e75cb2df836c7b0b2b74ca.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-aace89b0760ad4260911a3f095b4715889e75cb2df836c7b0b2b74ca.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "車掌"
@@ -156,11 +164,12 @@
     "question": "車掌は、乗客たちを待たせていることについて、お詫びをした。",
     "answer": "The train conductor apologized to the passengers for keeping them waiting.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "673809b3-b25a-40c3-baf4-a6794625ebff",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

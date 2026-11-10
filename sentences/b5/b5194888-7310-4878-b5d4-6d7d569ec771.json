@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-33fcb08a785e3e3a0fee83cbe4e58f617d4e8772745ec2de49328757.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-33fcb08a785e3e3a0fee83cbe4e58f617d4e8772745ec2de49328757.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "中学生"
@@ -107,11 +115,12 @@
     "question": "大山先生は、中学生の時の先生です。",
     "answer": "Oyama-sensei is my teacher from when I was a junior high school student.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b5194888-7310-4878-b5d4-6d7d569ec771",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

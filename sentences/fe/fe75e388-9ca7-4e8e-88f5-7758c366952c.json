@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-42e5ceda1c4683335acb76b4bb0d5ed768a6dd0dbf6b20b353466bab.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-42e5ceda1c4683335acb76b4bb0d5ed768a6dd0dbf6b20b353466bab.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "腹"
@@ -135,11 +143,12 @@
     "question": "島崎さんは腹をかかえて笑っていました。",
     "answer": "Ms. Shimazaki was holding her belly with laughter.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fe75e388-9ca7-4e8e-88f5-7758c366952c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

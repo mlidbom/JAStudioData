@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6b235ae20af2e9d2875be6caf807263148877bc3dcfd91676dedb2c5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6b235ae20af2e9d2875be6caf807263148877bc3dcfd91676dedb2c5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "何回"
@@ -149,11 +157,12 @@
     "question": "このビデオ、おもしろすぎて何回も見てしまうわ。",
     "answer": "This video is so funny that I have to watch it a bunch of times.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e57ad500-8102-4ed3-9837-fc4b0ca40089",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

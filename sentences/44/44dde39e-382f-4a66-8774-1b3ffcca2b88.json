@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-eca76b56fb302b8818bb35b1f715dd64964accabd8d1bd8681b80fb0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-eca76b56fb302b8818bb35b1f715dd64964accabd8d1bd8681b80fb0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "濃度"
@@ -226,11 +234,12 @@
     "question": "市販のタイカレーペーストは、高濃度の塩分を含んでいるのであまり好きじゃありません。",
     "answer": "Store-bought Thai curry paste contains high concentrations of salt, so I don't like it.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "44dde39e-382f-4a66-8774-1b3ffcca2b88",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

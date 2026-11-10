@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c9a8445c599a4fd32e020e9a1a6db0baf826cd8b44d2430963243940.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c9a8445c599a4fd32e020e9a1a6db0baf826cd8b44d2430963243940.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "分"
@@ -114,11 +122,12 @@
     "question": "それはお父さんの分のアイスクリームだよ。",
     "answer": "That's dad's portion of ice cream.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "21ccc075-1374-4974-be25-46d6c2f3a2d3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-936a1b5b460d5530a882273cdc2e31b721853531e3256202e1c4a90b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-936a1b5b460d5530a882273cdc2e31b721853531e3256202e1c4a90b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "濡らす"
@@ -184,11 +192,12 @@
     "question": "髪をよく濡らしてから、シャンプーをするといいですよ。",
     "answer": "It's good to wet your hair before shampooing.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "03b7434f-0510-4f34-9174-f18f40c948c2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

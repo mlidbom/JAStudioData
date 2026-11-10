@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-32df1c31410ba0b2baf48253d395373a1ecbe468f76edf452cc1c7d5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-32df1c31410ba0b2baf48253d395373a1ecbe468f76edf452cc1c7d5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "農業"
@@ -121,11 +129,12 @@
     "question": "農業はハードワークですが、国民の生活にとって大切です。",
     "answer": "Agriculture is hard work, but it is important for people's lives.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ce05f1e6-405c-4cf3-bff0-916cf29a2f93",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fc0554b5ebad0f4e8de2685b00ab7d51c685643963118b30c1507439.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fc0554b5ebad0f4e8de2685b00ab7d51c685643963118b30c1507439.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "刺身"
@@ -205,11 +213,12 @@
     "question": "会合の後、素晴らしい刺身弁当があるレストランで昼食を予定しています。",
     "answer": "After the meeting, we’re scheduling lunch at a restaurant that has a great sashimi bento box.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ded8e831-6d87-4f7f-a518-f531388e16b5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

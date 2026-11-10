@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2ea8215dfc1066e36157754e2e7c9752771304ec31f23dbe87b13c0f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2ea8215dfc1066e36157754e2e7c9752771304ec31f23dbe87b13c0f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "留守"
@@ -198,11 +206,12 @@
     "question": "母は買い物に出かけているので、私と妹が留守番をしています。",
     "answer": "My mom is out shopping, so my sister and I are house sitting.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ba1b7f7d-fbcb-4e28-9596-2d29e4bdfbad",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

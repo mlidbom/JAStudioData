@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2dda60f987b015b39a990744f3edc5b38027bb5b152b16fd62a53053.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2dda60f987b015b39a990744f3edc5b38027bb5b152b16fd62a53053.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "向ける"
@@ -177,11 +185,12 @@
     "question": "スマホじゃなくて子どもに、目を向けてあげて下さい。",
     "answer": "Please look at your child, not your smartphone.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f7ad549e-f00f-41e6-a15b-4be31344b602",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

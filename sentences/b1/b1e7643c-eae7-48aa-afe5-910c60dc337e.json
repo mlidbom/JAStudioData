@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-11c5852b0bd7cd21fd6f92fb0fb07c6d50ea2a34cd82224c6951c837.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-11c5852b0bd7cd21fd6f92fb0fb07c6d50ea2a34cd82224c6951c837.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "味"
@@ -149,11 +157,12 @@
     "question": "ここのラーメンの味、昔からずーっと一緒なんだよ。",
     "answer": "The taste of ramen here has been the same for a long time.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b1e7643c-eae7-48aa-afe5-910c60dc337e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

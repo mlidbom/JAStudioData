@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a4cbb12c0d0a4e0c629de5fb8b387f3a90107eb479b9e2479b32c04a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a4cbb12c0d0a4e0c629de5fb8b387f3a90107eb479b9e2479b32c04a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "元々"
@@ -100,11 +108,12 @@
     "question": "このホテルは元々アパートだったんです。",
     "answer": "This hotel was originally an apartment.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b3a85480-4fe2-4592-af1a-039e0082d746",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

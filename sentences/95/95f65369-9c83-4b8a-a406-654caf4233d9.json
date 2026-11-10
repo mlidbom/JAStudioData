@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6908582c001437a8375ef986e63adf24abb3df7c4af5beff320c4ac6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6908582c001437a8375ef986e63adf24abb3df7c4af5beff320c4ac6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "獣類"
@@ -268,11 +276,12 @@
     "question": "狼に育てられた少女は、獣類のように四つ足で歩行をしていました。",
     "answer": "The girl raised by wolves walked on all fours like an animal.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "95f65369-9c83-4b8a-a406-654caf4233d9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

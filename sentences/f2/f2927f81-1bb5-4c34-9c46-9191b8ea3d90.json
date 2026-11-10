@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f0b5aafbe87278b231ce108ceaea493da3faa9547258c75e98699150.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f0b5aafbe87278b231ce108ceaea493da3faa9547258c75e98699150.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "噴火"
@@ -163,11 +171,12 @@
     "question": "富士山が噴火したらどうなると思いますか。",
     "answer": "What do you think would happen if Mt. Fuji erupted?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f2927f81-1bb5-4c34-9c46-9191b8ea3d90",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c7248eb1ff0f797797625e7f7d1c71bbaf0c9ad6ea3fa12d755355cf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c7248eb1ff0f797797625e7f7d1c71bbaf0c9ad6ea3fa12d755355cf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "校閲"
@@ -149,11 +157,12 @@
     "question": "原稿を校閲してもらえませんか。",
     "answer": "Could you revise my manuscript for me?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "938f4ad6-f052-47de-a26f-85cd4810f432",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

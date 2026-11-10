@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8ba4614add156deeef8121818a5e9461f9bad793c8f91851fb164f4b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8ba4614add156deeef8121818a5e9461f9bad793c8f91851fb164f4b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "跳ぶ"
@@ -163,11 +171,12 @@
     "question": "彼女は完璧なトリプルアクセルを跳んだのに、スコアはあまり伸びなかった。",
     "answer": "She performed a perfect triple axel, but her score wasn’t very good.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f806420d-4052-4c99-b7ce-b14652343060",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

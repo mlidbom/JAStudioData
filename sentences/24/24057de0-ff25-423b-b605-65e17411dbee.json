@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2c29ca47576677dcad2243105cd7f4d4399b04c555345d9975ddc361.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2c29ca47576677dcad2243105cd7f4d4399b04c555345d9975ddc361.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "雨天"
@@ -86,11 +94,12 @@
     "question": "雨天の場合、花火大会は中止です。",
     "answer": "The fireworks will be canceled in case of rainy weather.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "24057de0-ff25-423b-b605-65e17411dbee",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

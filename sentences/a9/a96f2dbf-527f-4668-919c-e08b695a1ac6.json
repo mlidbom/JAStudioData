@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-88c20247afd12642eca67cbc599bb867629bf8a763e40d70e50f1f34.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-88c20247afd12642eca67cbc599bb867629bf8a763e40d70e50f1f34.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "空席"
@@ -107,11 +115,12 @@
     "question": "このフライトに空席はありません。",
     "answer": "No seats are available on this flight.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a96f2dbf-527f-4668-919c-e08b695a1ac6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

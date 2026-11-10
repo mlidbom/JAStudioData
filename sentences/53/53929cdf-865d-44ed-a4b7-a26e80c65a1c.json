@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-eb99dd2007834fd175534a2d23e457636b0ac8253ed300c0c6b17fc5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-eb99dd2007834fd175534a2d23e457636b0ac8253ed300c0c6b17fc5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "熱い"
@@ -86,11 +94,12 @@
     "question": "私は熱いお茶が好きです。",
     "answer": "I like hot tea.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "53929cdf-865d-44ed-a4b7-a26e80c65a1c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

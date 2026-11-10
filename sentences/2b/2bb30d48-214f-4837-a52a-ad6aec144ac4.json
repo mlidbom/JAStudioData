@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6fd05775a3127686a7e59206c45577c94db144c96c0c806fbfd28158.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6fd05775a3127686a7e59206c45577c94db144c96c0c806fbfd28158.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "冷凍庫"
@@ -121,11 +129,12 @@
     "question": "うちの冷凍庫はいつもいっぱいなんです。",
     "answer": "Our freezer is always full.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2bb30d48-214f-4837-a52a-ad6aec144ac4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

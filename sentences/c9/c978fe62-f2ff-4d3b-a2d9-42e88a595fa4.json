@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-704d321540f44c2a9682e11b1e2ebc7fb949ab4e1118f1f3583e7411.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-704d321540f44c2a9682e11b1e2ebc7fb949ab4e1118f1f3583e7411.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "紅葉"
@@ -121,11 +129,12 @@
     "question": "京都に紅葉を見に行きませんか？",
     "answer": "Why don't we go to Kyoto to see the autumn leaves?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c978fe62-f2ff-4d3b-a2d9-42e88a595fa4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

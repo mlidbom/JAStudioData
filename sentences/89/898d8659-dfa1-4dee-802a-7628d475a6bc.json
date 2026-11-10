@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-28a1b0527f421f4e60ae117950aaf40c8d852508f77a683da9b6cbef.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-28a1b0527f421f4e60ae117950aaf40c8d852508f77a683da9b6cbef.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "在留する"
@@ -233,11 +241,12 @@
     "question": "私がこの国に在留することができる期間は限られているんです。",
     "answer": "I have a limited amount of time to stay in this country.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "898d8659-dfa1-4dee-802a-7628d475a6bc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

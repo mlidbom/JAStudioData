@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f3b8da7641540f3da8fcfaf466b2c799c32a0009ffa8e98d1076a8f8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f3b8da7641540f3da8fcfaf466b2c799c32a0009ffa8e98d1076a8f8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "羊"
@@ -100,11 +108,12 @@
     "question": "今夜は羊のカレーにしましょう。",
     "answer": "Let's make mutton curry tonight.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "67a2898f-b661-460a-8e9b-e8261447c492",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

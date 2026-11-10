@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-66f636869c215da7c531a5c285a1d994b362206cfeae6d2cf67998e0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-66f636869c215da7c531a5c285a1d994b362206cfeae6d2cf67998e0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -133,11 +141,12 @@
     "question": "詳細を調べている時間がありません。",
     "answer": "I don’t have enough time to look up the details.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d8c06139-f817-4df2-8d2f-dc1960564bbc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

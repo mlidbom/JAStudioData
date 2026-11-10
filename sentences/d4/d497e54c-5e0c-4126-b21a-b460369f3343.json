@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-59f7762635f7c0c711426ce278c82bf8f8b42235326a5ee11e7641b1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-59f7762635f7c0c711426ce278c82bf8f8b42235326a5ee11e7641b1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "予約"
@@ -107,11 +115,12 @@
     "question": "こちらのアイテムは、先行予約を受付中です！",
     "answer": "This item is currently available for pre-order!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d497e54c-5e0c-4126-b21a-b460369f3343",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

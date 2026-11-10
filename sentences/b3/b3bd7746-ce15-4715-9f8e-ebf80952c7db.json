@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b84a5d54cd516d44b5a659206c1059f32ea97c24d26fec7ce1787f41.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b84a5d54cd516d44b5a659206c1059f32ea97c24d26fec7ce1787f41.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "疾風"
@@ -163,11 +171,12 @@
     "question": "真っ黒な犬が、疾風のように河原を駆け抜けていった。",
     "answer": "The black dog ran through the river bed like a gust of wind.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b3bd7746-ce15-4715-9f8e-ebf80952c7db",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

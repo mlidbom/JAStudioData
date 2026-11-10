@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-32b9862cdb18e301b5c9485926c1c5f083fe52b4b989a61a5af900ff.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-32b9862cdb18e301b5c9485926c1c5f083fe52b4b989a61a5af900ff.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "花柳"
@@ -93,11 +101,12 @@
     "question": "彼は花柳小説の有名な著者ですよ。",
     "answer": "He’s a famous author of red-light district novels.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3b19ee65-2748-445b-81ab-b969bce16aef",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

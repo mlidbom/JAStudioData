@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c0c32d1f07a0bd1292f91f6f0a1366becc08cab36df05af233184365.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c0c32d1f07a0bd1292f91f6f0a1366becc08cab36df05af233184365.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "南極圏"
@@ -163,11 +171,12 @@
     "question": "南極圏にはペンギン以外にも動物はいるんですか？",
     "answer": "Are there any animals other than penguins in the Antarctic Circle?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0b0d1475-4680-45b3-a0a4-a23fc65a10ee",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

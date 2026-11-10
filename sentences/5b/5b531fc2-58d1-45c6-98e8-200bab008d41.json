@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-95f388c080a24d8cbda0e8fcba78dd06bcc4e96cc35a85d958d814b3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-95f388c080a24d8cbda0e8fcba78dd06bcc4e96cc35a85d958d814b3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "休止"
@@ -65,11 +73,12 @@
     "question": "しばらく、このクラスは休止です。",
     "answer": "These classes have been temporarily discontinued.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5b531fc2-58d1-45c6-98e8-200bab008d41",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

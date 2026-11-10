@@ -32,9 +32,15 @@
   "partsOfSpeech": [],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-c3970cfad59380efbbb64f0e2dabf2d536c5fe34bc10662f14697c98.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-c3970cfad59380efbbb64f0e2dabf2d536c5fe34bc10662f14697c98.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "お前というヤツは",
@@ -44,8 +50,7 @@
   "sentenceCount": 4,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -74,7 +79,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "ed2fc45b-c767-4c24-8dce-c1039b4d69d7",
   "tags": [

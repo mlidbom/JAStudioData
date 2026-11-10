@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-323047a59cf70a02d41149d5d8190da4b130cb30800c46c3cd0b5f32.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-323047a59cf70a02d41149d5d8190da4b130cb30800c46c3cd0b5f32.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "仕方"
@@ -114,11 +122,12 @@
     "question": "これがフランスのあいさつの仕方なんです。",
     "answer": "This is how people greet each other in France.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "50f800e8-d271-46b0-8251-7bb5d8495f07",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

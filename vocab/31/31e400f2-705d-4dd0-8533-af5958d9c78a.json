@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-27b6bafb37801072df796ff6060ca1b2324f2da00546a51b9ef20530.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-27b6bafb37801072df796ff6060ca1b2324f2da00546a51b9ef20530.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "成った",
@@ -40,8 +46,7 @@
   "sentenceCount": 451,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {
       "yieldLastTokenToOverlappingCompound": "required"
@@ -76,7 +81,9 @@
   "sourceData": {
     "answer": "",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "31e400f2-705d-4dd0-8533-af5958d9c78a",
   "tags": [

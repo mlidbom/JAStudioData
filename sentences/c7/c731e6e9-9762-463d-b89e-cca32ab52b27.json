@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7e06850407f99a968f8f498ebb4a510e51e0a811f4abbcce09e968aa.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7e06850407f99a968f8f498ebb4a510e51e0a811f4abbcce09e968aa.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "成功"
@@ -100,11 +108,12 @@
     "question": "今回こそは成功したいんです。",
     "answer": "I want to succeed this time.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c731e6e9-9762-463d-b89e-cca32ab52b27",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

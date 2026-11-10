@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-cab79a8c84da105913aa5f6b1ceeb85da450c9688a29abaaf52ac95f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-cab79a8c84da105913aa5f6b1ceeb85da450c9688a29abaaf52ac95f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "出る"
@@ -100,11 +108,12 @@
     "question": "あちらの出口から出てください。",
     "answer": "Please leave using that exit.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "737de40e-7e1f-4a81-ab65-92fb88ee7dc8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

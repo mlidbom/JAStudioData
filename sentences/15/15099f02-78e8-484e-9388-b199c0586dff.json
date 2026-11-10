@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-af0172bc8d30e90a22c621376189532d3f2fc0c1ed759e1d3d807c0b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-af0172bc8d30e90a22c621376189532d3f2fc0c1ed759e1d3d807c0b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "針医"
@@ -121,11 +129,12 @@
     "question": "お気に入りの針医の電話番号を送るね！",
     "answer": "I'll send you the phone number of my favorite acupuncturist!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "15099f02-78e8-484e-9388-b199c0586dff",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

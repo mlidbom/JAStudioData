@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-96fd7aec59775a78844f651973796c137bdad9320a9783367def0132.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-96fd7aec59775a78844f651973796c137bdad9320a9783367def0132.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "潜む"
@@ -170,11 +178,12 @@
     "question": "ワニカニはあなたの部屋の片隅に潜んでいるかもしれませんよ。",
     "answer": "The crabigator might be lurking in the corners of your room.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "81c72b47-2524-4b75-84b8-ef36e51143f4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

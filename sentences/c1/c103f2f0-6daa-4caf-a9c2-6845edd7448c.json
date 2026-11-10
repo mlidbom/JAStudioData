@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-30ce167f5026aa49640a398c02afe43ecb5de29cf396bfe393f3670f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-30ce167f5026aa49640a398c02afe43ecb5de29cf396bfe393f3670f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "農場"
@@ -107,11 +115,12 @@
     "question": "北海道の農場で生のトウモロコシを食べました。",
     "answer": "We ate raw corn at a farm in Hokkaido.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c103f2f0-6daa-4caf-a9c2-6845edd7448c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

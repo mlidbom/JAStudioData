@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-adf5f41b86a2d5f55dd447f476176b1c5de6bdc599c7ca17faf05fbf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-adf5f41b86a2d5f55dd447f476176b1c5de6bdc599c7ca17faf05fbf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "父"
@@ -86,11 +94,12 @@
     "question": "わたしの父は、ドイツ人です。",
     "answer": "My father is German.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c3b69bc8-acf1-4298-bd86-a65cc9ae371d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0a2c1dbe6dba3690e820c8283208f71299779c3d5170e9497a6d20c8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0a2c1dbe6dba3690e820c8283208f71299779c3d5170e9497a6d20c8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "顧みる"
@@ -177,11 +185,12 @@
     "question": "あなた、我が子のことをもう少し顧みてあげてくれませんか。",
     "answer": "Honey, can’t you be a little more attentive to your own child?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d4bd4021-5228-49d3-b8a9-2038c9f42d54",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

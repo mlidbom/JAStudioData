@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6e3f6f416fd7ff5617d608ac6437b72e4f470b77264ae793c8426294.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6e3f6f416fd7ff5617d608ac6437b72e4f470b77264ae793c8426294.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "告訴"
@@ -170,11 +178,12 @@
     "question": "毎月きちんとお金を払って頂けるなら、告訴はしません。",
     "answer": "I won’t take legal action as long as you pay me every month.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "55ef1d01-8ef0-49e5-aae7-041b31b9d07f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

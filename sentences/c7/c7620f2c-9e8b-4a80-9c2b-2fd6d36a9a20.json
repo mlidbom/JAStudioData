@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bbe124a0cc2aa0046926cd757d4fc31aedd1d9d02e2c61aba6337045.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bbe124a0cc2aa0046926cd757d4fc31aedd1d9d02e2c61aba6337045.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "楽"
@@ -79,11 +87,12 @@
     "question": "このソファは本当に楽ですね。",
     "answer": "This sofa is really comfortable.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c7620f2c-9e8b-4a80-9c2b-2fd6d36a9a20",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

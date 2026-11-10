@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1fe946cb6ff85517bd6e80c066410998c4f4be9fa98c63486df6c1c8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1fe946cb6ff85517bd6e80c066410998c4f4be9fa98c63486df6c1c8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "教師"
@@ -156,11 +164,12 @@
     "question": "私は法律学の教師をしています。",
     "answer": "I work as a teacher of jurisprudence.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e55f501b-9cbf-4add-9de1-29a8b75adbd1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

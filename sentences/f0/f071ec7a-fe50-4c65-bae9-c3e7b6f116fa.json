@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7a65dc9726ece7fb0f6b23676b1fadea336efd1c3d1908745f09e343.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7a65dc9726ece7fb0f6b23676b1fadea336efd1c3d1908745f09e343.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "兵器"
@@ -114,11 +122,12 @@
     "question": "私たちは兵器使用の是非について語り合いました。",
     "answer": "We discussed whether using arms was right or wrong.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f071ec7a-fe50-4c65-bae9-c3e7b6f116fa",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

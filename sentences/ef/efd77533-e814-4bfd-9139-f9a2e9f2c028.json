@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f543454b47b262f521b66bd0aa60a9f3b6e04d9970f162bf084cc311.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f543454b47b262f521b66bd0aa60a9f3b6e04d9970f162bf084cc311.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "次々"
@@ -100,11 +108,12 @@
     "question": "パンダが次々に竹を食べました。",
     "answer": "The panda ate one bamboo plant after another.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "efd77533-e814-4bfd-9139-f9a2e9f2c028",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-27213bf253e29d6e4f134e5c6235f29e13d80932e490e873317e9e31.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-27213bf253e29d6e4f134e5c6235f29e13d80932e490e873317e9e31.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "卒業式"
@@ -86,11 +94,12 @@
     "question": "明日は私の卒業式です。",
     "answer": "Tomorrow is my graduation ceremony.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e78e7d6c-3daf-451a-80ed-2735dcd2c010",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

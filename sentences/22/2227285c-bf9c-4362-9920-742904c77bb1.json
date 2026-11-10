@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2f478bd9194ee80cee8c1b5b8b83a932bcac9d771ae91237e585399f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2f478bd9194ee80cee8c1b5b8b83a932bcac9d771ae91237e585399f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "八冊"
@@ -289,11 +297,12 @@
     "question": "お金がなくてイスが買えないので、本を八冊つみ上げてイスの代わりにしています。",
     "answer": "I have no money and I can't buy a chair, so I use eight books as a chair instead.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2227285c-bf9c-4362-9920-742904c77bb1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

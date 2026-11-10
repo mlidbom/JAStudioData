@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-acd053ee4b0fb6bf9eb313a1cef00976441a40107277588c8a6f334f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-acd053ee4b0fb6bf9eb313a1cef00976441a40107277588c8a6f334f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "彼ら"
@@ -79,11 +87,12 @@
     "question": "彼らは仲の良い友達です。",
     "answer": "They are good friends.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "de81b877-6af5-47f6-8d5b-2c371ba57eab",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

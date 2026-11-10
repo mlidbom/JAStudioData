@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-335b8d552c9516847dbfb585786dae0fc5f7019fe2b64dc1cbe51ab2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-335b8d552c9516847dbfb585786dae0fc5f7019fe2b64dc1cbe51ab2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "方"
@@ -86,11 +94,12 @@
     "question": "どっちの方がいい？",
     "answer": "Which is better?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "13086e15-1145-48f7-965a-3b1b5f8c8189",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

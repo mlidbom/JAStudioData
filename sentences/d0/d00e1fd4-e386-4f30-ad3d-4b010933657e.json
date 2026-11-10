@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2b5e99b3be2bf9647b7790cb3baeed9d485ab9aaf35832c5e47bae7e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2b5e99b3be2bf9647b7790cb3baeed9d485ab9aaf35832c5e47bae7e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "指摘する"
@@ -240,11 +248,12 @@
     "question": "何名かの歩行者が、運転者が赤信号を無視したことを指摘しました。",
     "answer": "Some pedestrians pointed out that the driver ignored the stoplight.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d00e1fd4-e386-4f30-ad3d-4b010933657e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-20a682adf97f9778ea62b93d35d6de404fccbaa383e1419b0fe2bea1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-20a682adf97f9778ea62b93d35d6de404fccbaa383e1419b0fe2bea1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "長靴"
@@ -177,11 +185,12 @@
     "question": "コウイチはいつも雨の日はピカチュウの長靴をはいてくるよね。",
     "answer": "Koichi, you always wear Pikachu rain boots on rainy days, don't you?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fe140144-02d8-45f0-92af-5a02af6ad9b7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

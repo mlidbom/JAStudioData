@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-08cdec5f93821b1cda97dd4cc51b5bb83cc97e2dfa0afc6d63057f42.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-08cdec5f93821b1cda97dd4cc51b5bb83cc97e2dfa0afc6d63057f42.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "社内"
@@ -79,11 +87,12 @@
     "question": "社内にデザイナーがいます。",
     "answer": "The company has in-house designers.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "904c87f9-4667-416b-b446-08f55fd84ab7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

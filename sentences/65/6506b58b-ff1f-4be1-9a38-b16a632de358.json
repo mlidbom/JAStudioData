@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a47b2e2a599e547d62ee389699df42f87a0d8e3bfa42dc7706860af5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a47b2e2a599e547d62ee389699df42f87a0d8e3bfa42dc7706860af5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "おうが",
@@ -157,11 +165,12 @@
     "question": "社長がOKと言おうが言うまいが、お構いなく話は進んだ。",
     "answer": "The discussion proceeded without any regard to whether the president gave his approval or not.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6506b58b-ff1f-4be1-9a38-b16a632de358",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

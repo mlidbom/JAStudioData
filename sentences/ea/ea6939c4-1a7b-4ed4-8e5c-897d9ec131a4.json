@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f83a6bc713dfb3cd15cb2b56e857db7613fd7d80929a8100e62090ea.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f83a6bc713dfb3cd15cb2b56e857db7613fd7d80929a8100e62090ea.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "幻覚"
@@ -184,11 +192,12 @@
     "question": "彼女は時々、ポッドキャストをレコーディングしている時に幻覚が見えるそうです。",
     "answer": "I heard that she sometimes has hallucinations when he is recording her podcasts.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ea6939c4-1a7b-4ed4-8e5c-897d9ec131a4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

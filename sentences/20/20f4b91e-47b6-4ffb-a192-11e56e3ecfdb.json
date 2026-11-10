@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f6a1fbc19135816f2b2e7ff0a9f9729612742ed4b150245bbff9768b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f6a1fbc19135816f2b2e7ff0a9f9729612742ed4b150245bbff9768b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "自動販売機"
@@ -275,11 +283,12 @@
     "question": "10月23日の自動販売機に関する会議は、コウイチの誕生日会のため、10月24日に変更されました。",
     "answer": "The October twenty-third meeting about the vending machines has been rescheduled for October twenty-fourth due to Koichi’s birthday party.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "20f4b91e-47b6-4ffb-a192-11e56e3ecfdb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

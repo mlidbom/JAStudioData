@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5b01fdcfdb9213485c82ac3ff04129f2cbc118d242e92687d7e41843.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5b01fdcfdb9213485c82ac3ff04129f2cbc118d242e92687d7e41843.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "小学校"
@@ -72,11 +80,12 @@
     "question": "私は小学校の先生です。",
     "answer": "I am an elementary school teacher.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e585a5d5-c0ac-4326-b778-4df7a85a4e89",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

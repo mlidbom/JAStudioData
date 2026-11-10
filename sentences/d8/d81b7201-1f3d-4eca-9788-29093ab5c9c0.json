@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f7579ee30df33e1ff0eb6e6acda6cbdbeff3c309bd0469dfddc0c99c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f7579ee30df33e1ff0eb6e6acda6cbdbeff3c309bd0469dfddc0c99c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "混じる"
@@ -233,11 +241,12 @@
     "question": "悪魔からのメッセージには、我々を混乱させるために嘘と真実が入り混じっている。",
     "answer": "The messages from the devil are a mixture of lies and truths meant to confuse us.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d81b7201-1f3d-4eca-9788-29093ab5c9c0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-57356c2fc0e8d93fb0be29f6070c430ca68875f756f168813b32ceae.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-57356c2fc0e8d93fb0be29f6070c430ca68875f756f168813b32ceae.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "判断"
@@ -114,11 +122,12 @@
     "question": "私の判断は間違っていた。",
     "answer": "My judgment was wrong.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5c52294a-b21c-470f-91a8-f9438dc595c7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

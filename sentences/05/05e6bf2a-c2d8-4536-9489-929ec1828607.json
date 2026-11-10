@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-137038d16dc059ddc46e6d67ee433aeec9631f70cb1d2f08832496b7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-137038d16dc059ddc46e6d67ee433aeec9631f70cb1d2f08832496b7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "異性"
@@ -149,11 +157,12 @@
     "question": "今日は異性といつもより長く話しをしました。",
     "answer": "Today, I talked to a person of the opposite sex for longer than usual.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "05e6bf2a-c2d8-4536-9489-929ec1828607",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

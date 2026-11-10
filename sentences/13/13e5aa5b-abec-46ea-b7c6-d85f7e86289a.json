@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5261779ff88a1c9b396f323fd24f33a536f8dde5a25b9c8d815d0108.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5261779ff88a1c9b396f323fd24f33a536f8dde5a25b9c8d815d0108.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "居間"
@@ -107,11 +115,12 @@
     "question": "居間に靴下が脱ぎっぱなしになってるよ。",
     "answer": "You took off your socks in the living room and left them there.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "13e5aa5b-abec-46ea-b7c6-d85f7e86289a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

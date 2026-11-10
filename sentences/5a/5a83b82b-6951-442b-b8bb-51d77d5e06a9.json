@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8396259ff5ea03a2591c31e3b0dc9a5df22956029ba16a431d8c7759.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8396259ff5ea03a2591c31e3b0dc9a5df22956029ba16a431d8c7759.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "許諾"
@@ -121,11 +129,12 @@
     "question": "このビデオを公開することは、本人の許諾済みです。",
     "answer": "I got the permission from the person in the video before releasing it.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5a83b82b-6951-442b-b8bb-51d77d5e06a9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

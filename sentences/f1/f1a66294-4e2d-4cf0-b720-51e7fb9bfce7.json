@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f77a3deed4e4fb8f9b8cb41f3be26642989e9f8fd03ec323a7095f63.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f77a3deed4e4fb8f9b8cb41f3be26642989e9f8fd03ec323a7095f63.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大きさ"
@@ -86,11 +94,12 @@
     "question": "このサンダルの大きさは、28センチです。",
     "answer": "These sandals are size 28 cm.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f1a66294-4e2d-4cf0-b720-51e7fb9bfce7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

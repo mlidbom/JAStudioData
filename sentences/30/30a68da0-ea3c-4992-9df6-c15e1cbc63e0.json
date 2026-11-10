@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b163f9250f72376b1993966997f04e3eeac439a6b53406d20f8bc088.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b163f9250f72376b1993966997f04e3eeac439a6b53406d20f8bc088.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "公共"
@@ -135,11 +143,12 @@
     "question": "公共のベビーシッターのサービスがあるんですか？",
     "answer": "Is there a public babysitter service?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "30a68da0-ea3c-4992-9df6-c15e1cbc63e0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

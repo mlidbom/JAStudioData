@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b78e20b3034643308d9feb91801c8319b2f3dbdac208e46e05046d3e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b78e20b3034643308d9feb91801c8319b2f3dbdac208e46e05046d3e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "就職"
@@ -142,11 +150,12 @@
     "question": "卒業後、ちゃんと就職できるか不安なんです。",
     "answer": "I am worried about whether I will be able to find a job after graduation.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "80f2df3b-ad16-4914-84f3-3c20fb6d98ff",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

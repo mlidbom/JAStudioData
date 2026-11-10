@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-51c5087c46a97dd45db0a3e2268f118c6dd1bb843b615873507d6648.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-51c5087c46a97dd45db0a3e2268f118c6dd1bb843b615873507d6648.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "物"
@@ -107,11 +115,12 @@
     "question": "この家には物がありすぎます。",
     "answer": "There are too many things in this house.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c1e7417f-6a0d-473b-be57-b57978bd1654",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

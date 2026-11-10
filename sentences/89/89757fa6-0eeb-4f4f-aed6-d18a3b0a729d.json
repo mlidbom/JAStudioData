@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c7c4906f085e26ab5b1a35cc6408b4edf3223fd76f3d4326a9925c9d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c7c4906f085e26ab5b1a35cc6408b4edf3223fd76f3d4326a9925c9d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "部屋"
@@ -128,11 +136,12 @@
     "question": "今日の午後は部屋のクリーニングをする予定です。",
     "answer": "I plan to clean the room this afternoon.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "89757fa6-0eeb-4f4f-aed6-d18a3b0a729d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

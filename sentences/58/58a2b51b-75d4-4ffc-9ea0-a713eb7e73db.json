@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4935c03c8bcd3227a1ef088228aee244bbeebfcd319db8f2adafda3d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4935c03c8bcd3227a1ef088228aee244bbeebfcd319db8f2adafda3d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "千円札"
@@ -135,11 +143,12 @@
     "question": "このUFOキャッチャーは千円札が使えません。",
     "answer": "This crane game doesn't accept thousand yen bills.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "58a2b51b-75d4-4ffc-9ea0-a713eb7e73db",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

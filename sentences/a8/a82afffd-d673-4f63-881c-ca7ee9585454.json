@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-07339cbc8acd27c8a3322b36780f93d1aca44b484c12ba14bd917070.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-07339cbc8acd27c8a3322b36780f93d1aca44b484c12ba14bd917070.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "交番"
@@ -247,11 +255,12 @@
     "question": "いつも家までの道が分からなくなってしまうおばあちゃんは、交番のヘビーユーザーです。",
     "answer": "Grandma, who always loses her way home, is a heavy user of the police box.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a82afffd-d673-4f63-881c-ca7ee9585454",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

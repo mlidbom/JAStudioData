@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c6fdfce0aad92c8d763886d4a4135d46713cb3ee6048f26859d07621.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c6fdfce0aad92c8d763886d4a4135d46713cb3ee6048f26859d07621.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一人暮らし"
@@ -331,11 +339,12 @@
     "question": "一人暮らしをしているので、冬時間が始まった時に、時計を一時間遅らせることを忘れてしまいました。",
     "answer": "I’m living alone and I forgot to set my clock back an hour when the winter time started.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9afa8209-4940-4d36-b229-79d1f1d49fbe",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

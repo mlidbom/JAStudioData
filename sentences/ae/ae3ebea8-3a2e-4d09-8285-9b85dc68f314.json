@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f703e1a56473576ae8feb7d2525358b3f21e1c33de78416cf3d0d8b0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f703e1a56473576ae8feb7d2525358b3f21e1c33de78416cf3d0d8b0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "億"
@@ -121,11 +129,12 @@
     "question": "私たちは、今年は五億円を売り上げました。",
     "answer": "We made five hundred million yen in sales this year.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ae3ebea8-3a2e-4d09-8285-9b85dc68f314",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

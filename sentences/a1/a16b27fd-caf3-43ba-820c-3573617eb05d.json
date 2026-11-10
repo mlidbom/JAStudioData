@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-281f1350e97aa14f1b2cbe3ebc40eafaccd868c76e2a292c21669a62.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-281f1350e97aa14f1b2cbe3ebc40eafaccd868c76e2a292c21669a62.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "平気"
@@ -65,11 +73,12 @@
     "question": "大きい犬、平気ですか？",
     "answer": "Are you okay with large dogs?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a16b27fd-caf3-43ba-820c-3573617eb05d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

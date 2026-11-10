@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d231d799cab8f73e44c977b37e3912125458f5835bae56bc60373c39.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d231d799cab8f73e44c977b37e3912125458f5835bae56bc60373c39.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お酒"
@@ -107,11 +115,12 @@
     "question": "お酒に弱いので、お茶をいただきます。",
     "answer": "I don't have much alcohol tolerance, so I will have tea.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7cc1bd0b-034e-4dd3-812a-0ec975a6568c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

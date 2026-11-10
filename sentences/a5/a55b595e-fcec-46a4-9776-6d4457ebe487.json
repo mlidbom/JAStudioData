@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b5f4c00bb282955e2137f919511b53f59e0ef5ccd3e2668ce5bdb15e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b5f4c00bb282955e2137f919511b53f59e0ef5ccd3e2668ce5bdb15e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "事情"
@@ -142,11 +150,12 @@
     "question": "警察はすべての事情を考慮しなければならない。",
     "answer": "The police must take all circumstances into account.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a55b595e-fcec-46a4-9776-6d4457ebe487",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

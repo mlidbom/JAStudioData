@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ba5e7b8e42438d5b5936fcd5093913138848f0294225b2db7dd6d13e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ba5e7b8e42438d5b5936fcd5093913138848f0294225b2db7dd6d13e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "船酔い"
@@ -128,11 +136,12 @@
     "question": "この薬で船酔いを克服しました。",
     "answer": "I got over my seasickness with this medicine.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ba538bed-5a27-48ab-936a-f69d13133c79",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

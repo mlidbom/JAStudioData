@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7aadbb27af52643149a61ff99c936608ea401338bbceb9bc470062c4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7aadbb27af52643149a61ff99c936608ea401338bbceb9bc470062c4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "乗客"
@@ -156,11 +164,12 @@
     "question": "そのバスにはたくさんの乗客が乗っていました。",
     "answer": "There were many passengers on that bus.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "791753a3-e752-4fec-9f03-3ad0786ec2ca",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

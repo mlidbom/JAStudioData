@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c4568a2e6f7e7921f2eb2bb6728eda822e5a06d2cc4ffe1fdacbee9e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c4568a2e6f7e7921f2eb2bb6728eda822e5a06d2cc4ffe1fdacbee9e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "定量"
@@ -149,11 +157,12 @@
     "question": "まずは定量的なデータを集めて、それを分析しましょう。",
     "answer": "Let's first gather quantitative data and analyze it.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2cb908fe-9ca0-46fe-85c9-3552d1ee9818",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

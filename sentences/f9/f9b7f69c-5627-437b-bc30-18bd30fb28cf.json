@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-87197382b99bcb01224d4cafb017a24060596468eba4e692ceb031fb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-87197382b99bcb01224d4cafb017a24060596468eba4e692ceb031fb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "切る"
@@ -107,11 +115,12 @@
     "question": "あの大きい木、チェーンソーで切ったんですか？",
     "answer": "Did you cut that big tree with a chainsaw?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f9b7f69c-5627-437b-bc30-18bd30fb28cf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8e834e7d853796eb4e80b2eb144d90c417bb18d8435cb89775c22d5c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8e834e7d853796eb4e80b2eb144d90c417bb18d8435cb89775c22d5c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "〜様"
@@ -231,11 +239,12 @@
     "question": "トーフグのコウイチ様御一行九名様ですね。お席のご用意ができましたのでどうぞ。",
     "answer": "Mr. Koichi from Tofugu, party of nine. Your table is ready.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cbf107e2-7549-4120-80eb-dd7a7cbd7836",
   "tags": [
-    "_tts_audio",
     "-::sentence::uses::incorrect-matches",
     "source::wani::current"
   ]

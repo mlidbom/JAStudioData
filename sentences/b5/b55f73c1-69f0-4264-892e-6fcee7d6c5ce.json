@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-58ddb04d130506b8de6485a55aad23a3bccf9f082c87e7ae65dcff49.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-58ddb04d130506b8de6485a55aad23a3bccf9f082c87e7ae65dcff49.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "存在"
@@ -156,11 +164,12 @@
     "question": "SNSをしないので、そのミームの存在を知りませんでした。",
     "answer": "I don't use social media, so I didn't know that meme existed.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b55f73c1-69f0-4264-892e-6fcee7d6c5ce",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

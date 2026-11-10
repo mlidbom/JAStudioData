@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-703fe33909c8c87906d1b6c3100b20b1041c287f298d21b2566c5b0c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-703fe33909c8c87906d1b6c3100b20b1041c287f298d21b2566c5b0c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "車内"
@@ -121,11 +129,12 @@
     "question": "バスの車内にはドライバーがいなかった。",
     "answer": "There was no driver inside the bus.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2d7e7952-715f-4d67-babf-723f5156fa5c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

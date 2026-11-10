@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f5467c2cab301181a8bfc43e62c169d5ad84513c98d8ec1830c9bfc5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f5467c2cab301181a8bfc43e62c169d5ad84513c98d8ec1830c9bfc5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "辞める"
@@ -135,11 +143,12 @@
     "question": "日曜の夜は「仕事辞めたい」しか考えられない。",
     "answer": "On Sunday nights, all I can think about is \"I want to quit my job.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f03909cc-df61-4117-a09e-8e2684ad56a4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

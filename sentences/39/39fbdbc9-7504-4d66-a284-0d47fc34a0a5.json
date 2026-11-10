@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0dddd0f556e92d0fafcc87e4301a46c4c98c214353e51779afd40bd0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0dddd0f556e92d0fafcc87e4301a46c4c98c214353e51779afd40bd0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "作戦"
@@ -114,11 +122,12 @@
     "question": "プロポーズは作戦通りにはいかなかった。",
     "answer": "The proposal did not go according to the strategy.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "39fbdbc9-7504-4d66-a284-0d47fc34a0a5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a06866c9eb075008f3817ab394d76d0cb30441545f0b191b3bbe51fd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a06866c9eb075008f3817ab394d76d0cb30441545f0b191b3bbe51fd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "受験"
@@ -163,11 +171,12 @@
     "question": "大学受験のために、毎日勉強しています。",
     "answer": "I study every day for university entrance exams.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cd821c8b-0653-47d5-b154-6d1d3e24fe81",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

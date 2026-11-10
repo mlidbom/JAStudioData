@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7c088759fd00aaaca97fb59d674a84b0786fe7bee9cce8896aef4cef.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7c088759fd00aaaca97fb59d674a84b0786fe7bee9cce8896aef4cef.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "胴"
@@ -163,11 +171,12 @@
     "question": "剣道の試合で、コウイチは竹刀で相手の胴を完璧に討ち取りました。",
     "answer": "In a kendo match, Koichi hit the lower part of the opponent’s torso perfectly with his bamboo sword.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9dd4d416-300f-44b5-a61d-7287a4c4d17b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

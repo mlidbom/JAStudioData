@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-70a225042bd32b6f3dd40c098d5357d0ffa5f731a8cfe1d293461eb2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-70a225042bd32b6f3dd40c098d5357d0ffa5f731a8cfe1d293461eb2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "警察"
@@ -163,11 +171,12 @@
     "question": "警察に電話した方がいいんじゃない？",
     "answer": "Maybe we should call the police?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "47124c9a-8d3c-43f5-907c-bdc9da63890a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

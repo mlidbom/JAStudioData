@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-17204bc254c54379d5bbc588132ba20c1c30fc6e8403ddd9cf81939a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-17204bc254c54379d5bbc588132ba20c1c30fc6e8403ddd9cf81939a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "楽器"
@@ -100,11 +108,12 @@
     "question": "これって何て言う楽器？初めて見た。",
     "answer": "What's the name of this instrument? I've never seen it before.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e63a53e8-c7e0-44b7-bf7e-f9ef1d602aba",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

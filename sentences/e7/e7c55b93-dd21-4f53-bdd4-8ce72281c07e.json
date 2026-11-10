@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-83301d981c659a8ebe45be0c89208417946f59d2b5ae8a9b8df9809d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-83301d981c659a8ebe45be0c89208417946f59d2b5ae8a9b8df9809d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "橋"
@@ -177,11 +185,12 @@
     "question": "その橋の名前は日本橋といいます。日本橋は、その名の通りまさに日本の中心でした。",
     "answer": "The name of that bridge is Nihonbashi. It was truly the central hub of Japan, as its name suggests.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e7c55b93-dd21-4f53-bdd4-8ce72281c07e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

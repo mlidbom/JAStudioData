@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a73fee52eb30714fe976ca6ad08b5e1b4a216754ac935e8e2b1c198c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a73fee52eb30714fe976ca6ad08b5e1b4a216754ac935e8e2b1c198c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "姫様"
@@ -107,11 +115,12 @@
     "question": "お迎えにあがりましたよ、僕の小さなお姫様。",
     "answer": "I’m here to pick you up, my little princess.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "48e8d8fc-58df-49a7-8622-aa856021e083",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

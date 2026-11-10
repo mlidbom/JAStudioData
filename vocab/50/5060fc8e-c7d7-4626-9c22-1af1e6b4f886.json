@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-409cb6ceee581789b9963ccc881467fcd750e61681b237d9176f07f1.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-409cb6ceee581789b9963ccc881467fcd750e61681b237d9176f07f1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "うそ臭い",
@@ -52,8 +58,7 @@
   "sentenceCount": 1,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -77,7 +82,9 @@
   "sourceData": {
     "answer": "contrived/false-sounding",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "5060fc8e-c7d7-4626-9c22-1af1e6b4f886",
   "tags": [

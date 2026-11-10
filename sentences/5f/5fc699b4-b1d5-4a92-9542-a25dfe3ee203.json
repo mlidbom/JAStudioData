@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5bb84007757b459e84b678622830be516fa3a8667f00a0c2171dbb40.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5bb84007757b459e84b678622830be516fa3a8667f00a0c2171dbb40.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "朝ごはん"
@@ -135,11 +143,12 @@
     "question": "私はいつも朝ごはんを食べずに出社します。",
     "answer": "I always go to work without eating breakfast.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5fc699b4-b1d5-4a92-9542-a25dfe3ee203",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7cf56c86404c507ad6d4b679326d316c8c265c5b8e258e8b425189e9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7cf56c86404c507ad6d4b679326d316c8c265c5b8e258e8b425189e9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "落ちる"
@@ -163,11 +171,12 @@
     "question": "弟は虫を取ろうとして、木から落ちてしまいました。",
     "answer": "My brother fell off the tree trying to catch insects.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1db73587-1207-41e0-a900-31b601285592",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e61e2bd9cc2d553402bbda546a38e62e7ee8d29027b8cb87aef8c526.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e61e2bd9cc2d553402bbda546a38e62e7ee8d29027b8cb87aef8c526.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "川"
@@ -51,11 +59,12 @@
     "question": "この川はアマゾン川です。",
     "answer": "This river is the Amazon River.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4cd4513b-0bf0-4885-aed1-99d6915233de",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

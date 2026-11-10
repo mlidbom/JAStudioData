@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-18c8be8d8c58813f9e4163334e11a5056183e1310b3a883ce33fd3e4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-18c8be8d8c58813f9e4163334e11a5056183e1310b3a883ce33fd3e4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "〜室"
@@ -156,11 +164,12 @@
     "question": "女の死体があったのは、このホテルの一室だった。",
     "answer": "The woman's corpse was in one room of this hotel.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "aab31075-d4b5-4c58-b657-9913e26952ca",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

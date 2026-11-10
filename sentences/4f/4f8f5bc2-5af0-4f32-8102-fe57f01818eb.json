@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e45343082778a15fb94fa94b530605fa2ac389ff20d3fbe00b3144bc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e45343082778a15fb94fa94b530605fa2ac389ff20d3fbe00b3144bc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "合わせる"
@@ -114,11 +122,12 @@
     "question": "このセーターに合わせる上着がない。",
     "answer": "I don't have a jacket that goes with this sweater.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4f8f5bc2-5af0-4f32-8102-fe57f01818eb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-40a9fe0920be10450b70378aea6a3c97c92f280a5fc4718417fa3168.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-40a9fe0920be10450b70378aea6a3c97c92f280a5fc4718417fa3168.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "多い"
@@ -107,11 +115,12 @@
     "question": "「自分は正しい」と言う人は多い。",
     "answer": "There are many people who say they're right.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0b6c693f-823d-45b3-ab77-f4e92c39a130",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8e8fcab2069143d10c8188ca95d11440cdb9b3d044495daf0332f773.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8e8fcab2069143d10c8188ca95d11440cdb9b3d044495daf0332f773.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "条約"
@@ -149,11 +157,12 @@
     "question": "この条約は、委員会の判断に基いて取り決められたものです。",
     "answer": "This treaty was made based on the committee's conclusion.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "36985ef8-dbb7-4555-a946-e2160c35b93e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

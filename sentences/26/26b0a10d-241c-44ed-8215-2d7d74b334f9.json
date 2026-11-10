@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ca34ccf5891e0d20102ed17766de9ce3c1b34ea14688b0cc948f0d04.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ca34ccf5891e0d20102ed17766de9ce3c1b34ea14688b0cc948f0d04.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "親しい"
@@ -156,11 +164,12 @@
     "question": "いくら親しいからって、トイレに入ってきちゃダメだよ。",
     "answer": "No matter how close you are, you shouldn't come into the bathroom.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "26b0a10d-241c-44ed-8215-2d7d74b334f9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f451cf4e9aae6fa94af44327ab6b70f8904fa41bbad4903e87d8eb05.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f451cf4e9aae6fa94af44327ab6b70f8904fa41bbad4903e87d8eb05.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "吹き込む"
@@ -177,11 +185,12 @@
     "question": "家はおんぼろで、嵐が来る度に雨風が吹き込むのが現実です。",
     "answer": "The reality is that the house is so old that the rain and wind blows in whenever a storm comes.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "94a1ecd2-3354-4172-a74f-1bc08756793c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

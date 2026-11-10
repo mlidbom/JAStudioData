@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1bb08d436aee2e9a5670d11f7a2fd7dc5a81c9de753978c55f7f470b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1bb08d436aee2e9a5670d11f7a2fd7dc5a81c9de753978c55f7f470b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "海魚"
@@ -121,11 +129,12 @@
     "question": "サケは海魚ですか？それとも川魚ですか？",
     "answer": "Is salmon a saltwater fish? Or is it a freshwater fish?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5c563910-a958-4eb2-b8fe-74214cacf639",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

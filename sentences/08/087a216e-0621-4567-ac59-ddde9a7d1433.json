@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8015a3062a0b9a90515294445a7d6b67b94bec171418a63b95aa11d0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8015a3062a0b9a90515294445a7d6b67b94bec171418a63b95aa11d0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鮭"
@@ -135,11 +143,12 @@
     "question": "なぜ上司がこの鮭を私にくれたのか分からない。",
     "answer": "I don't understand why my boss gave me this salmon.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "087a216e-0621-4567-ac59-ddde9a7d1433",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

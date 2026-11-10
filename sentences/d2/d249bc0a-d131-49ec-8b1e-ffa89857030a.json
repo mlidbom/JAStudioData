@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2aad5a34d860756b107b7fcdac0d95fc24de1d70582a3ed2603130d6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2aad5a34d860756b107b7fcdac0d95fc24de1d70582a3ed2603130d6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "農耕"
@@ -142,11 +150,12 @@
     "question": "僕のおじいさんは農耕をしています。",
     "answer": "My grandfather farms.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d249bc0a-d131-49ec-8b1e-ffa89857030a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0e7cda8e42b4b84839e65a3eeb8555e3effa5a06a7544ecfdde1f62f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0e7cda8e42b4b84839e65a3eeb8555e3effa5a06a7544ecfdde1f62f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "直す"
@@ -37,11 +45,12 @@
     "question": "考え直します。",
     "answer": "I will reconsider.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c52a8a97-5b75-48dd-8ab1-c38a964f8497",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ca8000a4c3c2d83395380c00e3aa96f165f9bbd512e0fc6573dbd298.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ca8000a4c3c2d83395380c00e3aa96f165f9bbd512e0fc6573dbd298.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "出発"
@@ -65,11 +73,12 @@
     "question": "出発まで五分です。",
     "answer": "There are five minutes until departure.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "41870001-3cf1-45a5-811f-8371a534aba7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7bdd3e26aa5b8ef5bb0f634e9e00151234614706f805722ed936c779.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7bdd3e26aa5b8ef5bb0f634e9e00151234614706f805722ed936c779.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "感動する"
@@ -303,11 +311,12 @@
     "question": "ワニカニのシステムに感動したって言ってくれるユーザーさんの声を聞いて、私たちも感動しました。",
     "answer": "We were also moved when we heard users say they were impressed by the WaniKani system.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ecfdbe1c-5fa5-4b36-a63a-382acd3cc782",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

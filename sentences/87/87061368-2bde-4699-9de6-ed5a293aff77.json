@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2d7f6805c77fbfaf669a0ff89e98002261df4c875337153f31f3ee48.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2d7f6805c77fbfaf669a0ff89e98002261df4c875337153f31f3ee48.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "容疑者"
@@ -184,11 +192,12 @@
     "question": "サトシはみたらし団子毒殺事件の容疑者として指名手配されたらしいよ。",
     "answer": "Apparently Satoshi is wanted as a suspect in the Sweet Dumpling Poisoning Case.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "87061368-2bde-4699-9de6-ed5a293aff77",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

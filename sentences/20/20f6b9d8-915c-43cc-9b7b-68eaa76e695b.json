@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-efa5ffd0f1fddc4ee33065feb7876e436240b29ec269457b66898e3d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-efa5ffd0f1fddc4ee33065feb7876e436240b29ec269457b66898e3d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "抜ける"
@@ -219,11 +227,12 @@
     "question": "森を抜けると、そこには真っ青な海が広がっていました。",
     "answer": "As we passed through the forest, we found ourselves on a bright blue ocean.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "20f6b9d8-915c-43cc-9b7b-68eaa76e695b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

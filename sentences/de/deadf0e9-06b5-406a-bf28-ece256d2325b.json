@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c45b308238b41b33f2de87189d3b5dfe6cae97ea7e9489792be43374.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c45b308238b41b33f2de87189d3b5dfe6cae97ea7e9489792be43374.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "先生"
@@ -86,11 +94,12 @@
     "question": "あの女の人は、田中先生です。",
     "answer": "That woman is Tanaka-sensei.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "deadf0e9-06b5-406a-bf28-ece256d2325b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

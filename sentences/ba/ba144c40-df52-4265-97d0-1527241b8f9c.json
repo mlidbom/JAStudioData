@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-04ce532a752ab5ead51be8774194f63f39dc2e8aa0d2a9286e68c625.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-04ce532a752ab5ead51be8774194f63f39dc2e8aa0d2a9286e68c625.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "自薦"
@@ -128,11 +136,12 @@
     "question": "今回のモデルへの応募について、自薦・他薦は問いません。",
     "answer": "We accept both self recommendations and direct applications for this modeling position.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ba144c40-df52-4265-97d0-1527241b8f9c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

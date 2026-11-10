@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8d64676c39d87d6b27982687c6292229872b00d5a6ac4877f1d96d85.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8d64676c39d87d6b27982687c6292229872b00d5a6ac4877f1d96d85.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "戦う"
@@ -156,11 +164,12 @@
     "question": "第二次世界大戦で日本とアメリカは戦いました。",
     "answer": "Japan and America fought in WWII.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "385ed102-c85b-49d4-a0d9-9813296d0f4c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

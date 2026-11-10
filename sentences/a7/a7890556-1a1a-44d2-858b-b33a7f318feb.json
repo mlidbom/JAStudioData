@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d17a01f95746d384d8a74b51f45c9a66411f7dd8df2424c9ca52356f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d17a01f95746d384d8a74b51f45c9a66411f7dd8df2424c9ca52356f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "不味い"
@@ -135,11 +143,12 @@
     "question": "こんなに不味いアボカドスープを飲んだことはありません。",
     "answer": "I have never had such a bad tasting avocado soup.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a7890556-1a1a-44d2-858b-b33a7f318feb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

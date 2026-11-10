@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2fc5c60f06efc5ec301355d7407eaf2bb31d6e81b249c25fd9afe275.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2fc5c60f06efc5ec301355d7407eaf2bb31d6e81b249c25fd9afe275.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "温かい"
@@ -65,11 +73,12 @@
     "question": "温かいお茶が飲みたいなぁ。",
     "answer": "I want to drink warm tea.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "89598c3b-c3f0-46e0-91bd-5f3daf49d004",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

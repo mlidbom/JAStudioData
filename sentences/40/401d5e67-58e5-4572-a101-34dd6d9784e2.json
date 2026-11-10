@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-10b6548c9be102a6130044178a5bea8a6554c2b7154b7772f3d670cb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-10b6548c9be102a6130044178a5bea8a6554c2b7154b7772f3d670cb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大切"
@@ -114,11 +122,12 @@
     "question": "このビー玉、大切にしてね。",
     "answer": "Please take good care of this marble.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "401d5e67-58e5-4572-a101-34dd6d9784e2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

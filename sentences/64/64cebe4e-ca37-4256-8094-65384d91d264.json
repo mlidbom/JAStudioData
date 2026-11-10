@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b942b2378bc66f39ee497877baad6b69f31c6d4fcc01d2b17bea1612.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b942b2378bc66f39ee497877baad6b69f31c6d4fcc01d2b17bea1612.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "噛む"
@@ -121,11 +129,12 @@
     "question": "私は机を噛むのが好きです。",
     "answer": "I like biting my desk.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "64cebe4e-ca37-4256-8094-65384d91d264",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

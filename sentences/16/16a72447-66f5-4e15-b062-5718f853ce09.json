@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6422fd14d0c7b76970f6899b6f841a7c7a41bf6181e57559698e489d.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6422fd14d0c7b76970f6899b6f841a7c7a41bf6181e57559698e489d.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -140,11 +148,12 @@
     "question": "田中氏は、いつまでも来ませんでした。",
     "answer": "Mr. Tanaka never came.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "16a72447-66f5-4e15-b062-5718f853ce09",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

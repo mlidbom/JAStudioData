@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fbe840019f5dcedf5f8ec501067df5af89d5799aab64e74e412089cd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fbe840019f5dcedf5f8ec501067df5af89d5799aab64e74e412089cd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "脳みそ"
@@ -156,11 +164,12 @@
     "question": "今日はつかれすぎて脳みそが全然働いていません。",
     "answer": "I'm so tired today, my brains just aren't working.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b4accf95-3e44-4e11-aece-45cc0a8c8f06",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

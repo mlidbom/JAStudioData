@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8c2ed1d430c6d1a4a1296e656b0227c9634913f9d0963033756be3cf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8c2ed1d430c6d1a4a1296e656b0227c9634913f9d0963033756be3cf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "招待する"
@@ -233,11 +241,12 @@
     "question": "トーフグのクリスマス会に招待されたが、インフルエンにかかって行けなかった。",
     "answer": "I was invited to the Tofugu Christmas party, but I caught the flu and couldn't go.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "523a59ad-efef-43e1-9d88-4eb132619f78",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

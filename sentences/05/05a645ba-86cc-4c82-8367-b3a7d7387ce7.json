@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2d8597874dace147ea98663db0b1b33c468e54b653d990667951df17.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2d8597874dace147ea98663db0b1b33c468e54b653d990667951df17.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "温める"
@@ -72,11 +80,12 @@
     "question": "おにぎり、温める？",
     "answer": "Do you want to warm up the onigiri?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "05a645ba-86cc-4c82-8367-b3a7d7387ce7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

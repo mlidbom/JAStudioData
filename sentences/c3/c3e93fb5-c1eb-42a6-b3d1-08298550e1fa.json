@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4e2a6068149a5c4761150982f74da0eaa68e604252de8cb226a129a7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4e2a6068149a5c4761150982f74da0eaa68e604252de8cb226a129a7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "入院"
@@ -205,11 +213,12 @@
     "question": "入院中は、テレビを見たり、友人に電話をしたりしてました。",
     "answer": "During the hospitalization, I watched TV and called my friends.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c3e93fb5-c1eb-42a6-b3d1-08298550e1fa",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

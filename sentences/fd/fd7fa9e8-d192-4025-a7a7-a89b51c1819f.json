@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b8485cce3d9bb6c9474d9d921737edf25f7ea4724e6e44045002d274.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b8485cce3d9bb6c9474d9d921737edf25f7ea4724e6e44045002d274.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "呼ばれる"
@@ -156,11 +164,12 @@
     "question": "名前を呼ばれたが、聞こえないふりをして通り過ぎた。",
     "answer": "My name was called, but I just passed by as if I hadn't heard anything.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fd7fa9e8-d192-4025-a7a7-a89b51c1819f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

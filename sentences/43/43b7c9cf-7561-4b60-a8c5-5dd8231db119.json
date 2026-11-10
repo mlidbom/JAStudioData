@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3edda02823328b9088fb806c04308b81c2a1d8adc6095b272213e2bf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3edda02823328b9088fb806c04308b81c2a1d8adc6095b272213e2bf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "〜様"
@@ -226,11 +234,12 @@
     "question": "日本で手紙を送る時には相手の名前に様をつけないと失礼になります。",
     "answer": "It would be rude if you don't attach the formal name ender, sama, to the recipient's name when you send letters in Japan.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "43b7c9cf-7561-4b60-a8c5-5dd8231db119",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

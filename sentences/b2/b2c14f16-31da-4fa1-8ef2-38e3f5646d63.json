@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-be691c4586d991f13a861934996a7ee4a60f314d8c2159cc163497c5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-be691c4586d991f13a861934996a7ee4a60f314d8c2159cc163497c5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "呆け"
@@ -79,11 +87,12 @@
     "question": "この呆け！ちゃんと前見て歩け。",
     "answer": "You, idiot! Look straight ahead and walk.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b2c14f16-31da-4fa1-8ef2-38e3f5646d63",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

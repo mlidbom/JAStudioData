@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a295bf7b9d5ff43503c1113e8e632a5c1fe73eb8b98a8f2253c41616.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a295bf7b9d5ff43503c1113e8e632a5c1fe73eb8b98a8f2253c41616.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "律動"
@@ -177,11 +185,12 @@
     "question": "今朝、たくさんのウサギが庭で律動的に飛び跳ねているのを見ました。",
     "answer": "This morning, I saw a lot of rabbits jumping rhythmically in my garden.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "11a4213e-587d-4b67-a8af-cd6adcab7d68",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

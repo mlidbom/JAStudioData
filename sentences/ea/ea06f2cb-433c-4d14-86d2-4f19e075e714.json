@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b7c6463e5b6f75b801ecbb360ad0cf04daf521731b0c1ce21677aafc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b7c6463e5b6f75b801ecbb360ad0cf04daf521731b0c1ce21677aafc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "不詳"
@@ -163,11 +171,12 @@
     "question": "イトコは、ほぼ会わないからステータスが不詳なんだよね。",
     "answer": "My cousin's status is unknown because we almost never see each other.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ea06f2cb-433c-4d14-86d2-4f19e075e714",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

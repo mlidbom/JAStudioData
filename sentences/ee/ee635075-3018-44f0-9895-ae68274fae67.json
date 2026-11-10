@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-db9b47f920f53b20cc953753c928d5e020b3c469189f7c7bf8d68951.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-db9b47f920f53b20cc953753c928d5e020b3c469189f7c7bf8d68951.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "鬱気"
@@ -233,11 +241,12 @@
     "question": "今日は鬱気が邪魔をして、日本語を勉強する気になれません。",
     "answer": "My depression's bothering me today and I can't get myself to study Japanese.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ee635075-3018-44f0-9895-ae68274fae67",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

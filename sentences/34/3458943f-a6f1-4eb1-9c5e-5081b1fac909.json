@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-92f46ac24001161adffe00cd2c630c1e9c6fd25a7658dde4f9dee04a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-92f46ac24001161adffe00cd2c630c1e9c6fd25a7658dde4f9dee04a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "研究"
@@ -86,11 +94,12 @@
     "question": "これは、心理学の研究です。",
     "answer": "This is psychology research.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3458943f-a6f1-4eb1-9c5e-5081b1fac909",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

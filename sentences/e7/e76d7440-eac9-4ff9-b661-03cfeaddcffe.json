@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-22714c4c9114f0b9ab34b140cd14f31551adc3954dcd3c3019da04aa.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-22714c4c9114f0b9ab34b140cd14f31551adc3954dcd3c3019da04aa.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "四十二"
@@ -107,11 +115,12 @@
     "question": "あのビルは、およそ四十二メートルです。",
     "answer": "That building is about 42 meters tall.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e76d7440-eac9-4ff9-b661-03cfeaddcffe",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

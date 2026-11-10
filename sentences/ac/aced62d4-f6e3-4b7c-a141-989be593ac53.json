@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e658c5f0423a2dc9ee866188a1a9f4fed482ae398f73756c08cc1e5a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e658c5f0423a2dc9ee866188a1a9f4fed482ae398f73756c08cc1e5a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "初めに"
@@ -121,11 +129,12 @@
     "question": "初めに口を開いたのはカオルだった。",
     "answer": "It was Kaoru who first opened her mouth.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "aced62d4-f6e3-4b7c-a141-989be593ac53",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

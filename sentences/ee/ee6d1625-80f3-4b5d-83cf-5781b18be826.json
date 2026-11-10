@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-60d9ca831e8f4dae90afc065331ecdf99d830e092e32c9e49c5bf69c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-60d9ca831e8f4dae90afc065331ecdf99d830e092e32c9e49c5bf69c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "追い付く"
@@ -100,11 +108,12 @@
     "question": "まだちょっと気持ちが追い付いてないんです。",
     "answer": "I'm still trying to catch up emotionally a bit.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ee6d1625-80f3-4b5d-83cf-5781b18be826",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

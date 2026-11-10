@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2931ccb8a89c37ab100700dc8cd8ac2d488b5fcf20a95b131c149fb8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2931ccb8a89c37ab100700dc8cd8ac2d488b5fcf20a95b131c149fb8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "効く"
@@ -107,11 +115,12 @@
     "question": "いや、ブレーキが効かなかったんだよ！",
     "answer": "No, the brakes didn't work!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c1d92bd0-ebf2-4eff-b926-1a051443a3fd",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

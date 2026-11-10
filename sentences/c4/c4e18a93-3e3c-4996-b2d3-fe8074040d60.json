@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-612ecb7811cb26f727e0e410c6dd2a0de1e98af13d12aabee3e5cc92.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-612ecb7811cb26f727e0e410c6dd2a0de1e98af13d12aabee3e5cc92.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -112,11 +120,12 @@
     "question": "あなたは女神のように美しいですね。",
     "answer": "You are as beautiful as a goddess.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c4e18a93-3e3c-4996-b2d3-fe8074040d60",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-031614dc598a863e91d970d7756fc0e73dce4ab338cfb3b2fbda26cd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-031614dc598a863e91d970d7756fc0e73dce4ab338cfb3b2fbda26cd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お知らせ"
@@ -114,11 +122,12 @@
     "question": "お知らせの紙がポストに入ってました。",
     "answer": "There was a flier in the mailbox.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ecdf4400-81de-4325-b29e-ab64e9f15db5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

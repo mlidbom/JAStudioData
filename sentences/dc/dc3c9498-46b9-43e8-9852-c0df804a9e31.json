@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a33fd67bf9d3a075a0933d3d91b93b8e439666de7967e870741a5a91.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a33fd67bf9d3a075a0933d3d91b93b8e439666de7967e870741a5a91.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "迎賓館"
@@ -121,11 +129,12 @@
     "question": "私は、迎賓館に招待されました。",
     "answer": "I was invited to the reception hall.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dc3c9498-46b9-43e8-9852-c0df804a9e31",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

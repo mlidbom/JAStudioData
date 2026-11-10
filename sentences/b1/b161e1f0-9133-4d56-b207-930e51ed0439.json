@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-afe7796a8020dba2e16c08559055b9adca203d30662cc7df294ce712.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-afe7796a8020dba2e16c08559055b9adca203d30662cc7df294ce712.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "豚"
@@ -93,11 +101,12 @@
     "question": "あそこに豚がいるよ。",
     "answer": "There's a pig over there.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b161e1f0-9133-4d56-b207-930e51ed0439",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

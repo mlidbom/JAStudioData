@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9c8bed4483a5a70972dd52d82268f7c1a36fc3a815cd14b39bf16971.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9c8bed4483a5a70972dd52d82268f7c1a36fc3a815cd14b39bf16971.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "先回り"
@@ -100,11 +108,12 @@
     "question": "パトカーは先回りして白い車に向かった。",
     "answer": "The police went ahead and headed to the white car.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "79a5a196-1495-4f0e-837c-38aedcc6050d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

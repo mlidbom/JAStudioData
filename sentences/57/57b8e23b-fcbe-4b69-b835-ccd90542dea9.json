@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-45d85d4176b4a513914dcfb62159554aa254c569d9043b7bdd5a4d6f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-45d85d4176b4a513914dcfb62159554aa254c569d9043b7bdd5a4d6f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "静か"
@@ -142,11 +150,12 @@
     "question": "コウイチとビエトを乗せて、そのタクシーは静かに動き出した。",
     "answer": "With Koichi and Viet on board, the cab quietly started to move.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "57b8e23b-fcbe-4b69-b835-ccd90542dea9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

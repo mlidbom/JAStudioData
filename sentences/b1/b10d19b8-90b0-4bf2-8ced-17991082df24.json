@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-74b89ebf8493335c1f936ca6a980a904fb046a965431d23e55293ac2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-74b89ebf8493335c1f936ca6a980a904fb046a965431d23e55293ac2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "夕焼け"
@@ -72,11 +80,12 @@
     "question": "これは夕焼けの写真です。",
     "answer": "This is a photo of a sunset.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b10d19b8-90b0-4bf2-8ced-17991082df24",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

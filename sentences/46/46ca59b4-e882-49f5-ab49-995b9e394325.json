@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7518a388e0a350f4fb667ddb0cfc7f09e280d390152986e0002b69aa.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7518a388e0a350f4fb667ddb0cfc7f09e280d390152986e0002b69aa.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "和食"
@@ -100,11 +108,12 @@
     "question": "和食レストランで、和牛のステーキを食べました。",
     "answer": "I ate wagyu steak at a Japanese restaurant.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "46ca59b4-e882-49f5-ab49-995b9e394325",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3bcc56b1b82c779f0f9a449ef377b3b462cf6f67f18d9029d88edf5a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3bcc56b1b82c779f0f9a449ef377b3b462cf6f67f18d9029d88edf5a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "行"
@@ -93,11 +101,12 @@
     "question": "こんなに長い文、一行には入らないよ。",
     "answer": "A sentence this long won’t fit in a single line.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e43821db-6c05-465d-91cf-d935f4c1058e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

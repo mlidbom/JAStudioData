@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9d7f04bfe68c397c10b7bac534234c9db673f274ea8408b4952c6e46.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9d7f04bfe68c397c10b7bac534234c9db673f274ea8408b4952c6e46.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "座席"
@@ -107,11 +115,12 @@
     "question": "電車の座席にトコジラミを見つけてしまった。",
     "answer": "I found bed bugs on the train seat.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ae5d5584-95be-49ac-b56f-a4009d3978f8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

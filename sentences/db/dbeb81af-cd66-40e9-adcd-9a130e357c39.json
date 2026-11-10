@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d398393b3707dcde0c07879cba7c363d44098f27e1a42c4906a5662f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d398393b3707dcde0c07879cba7c363d44098f27e1a42c4906a5662f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "小声"
@@ -107,11 +115,12 @@
     "question": "先生たちは小声ではなしていた。",
     "answer": "The teachers were talking very quietly.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dbeb81af-cd66-40e9-adcd-9a130e357c39",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

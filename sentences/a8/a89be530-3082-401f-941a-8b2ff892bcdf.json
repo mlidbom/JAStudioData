@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3fb2f6a6d490307fabbbdb114156da26a85012b25be16b35a09db4e9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3fb2f6a6d490307fabbbdb114156da26a85012b25be16b35a09db4e9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "実在"
@@ -114,11 +122,12 @@
     "question": "そのインスタグラマー、実在してないんだよ。",
     "answer": "That Instagrammer doesn't actually exist.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a89be530-3082-401f-941a-8b2ff892bcdf",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

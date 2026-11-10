@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-618fd741b70e9eea4307ffb4a906cc808d6432d7e1c7fee4b3a3e484.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-618fd741b70e9eea4307ffb4a906cc808d6432d7e1c7fee4b3a3e484.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "一ヶ所"
@@ -275,11 +283,12 @@
     "question": "一ヶ所、大文字にしなくちゃいけないのに、小文字になってるところがあったよ。",
     "answer": "There's one place where it should be capitalized, but it's in lowercase.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "47a2531d-8bc3-4b2d-849b-f46ef1a5533a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

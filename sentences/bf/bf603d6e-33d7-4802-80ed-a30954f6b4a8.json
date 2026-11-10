@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ffa684a4c46438bf1130c97bc7b07c287d0e7125b69009b9c3dc3d6c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ffa684a4c46438bf1130c97bc7b07c287d0e7125b69009b9c3dc3d6c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "消化する"
@@ -212,11 +220,12 @@
     "question": "これは消化するのに時間がかかると思うよ。",
     "answer": "I think this will take some time to digest.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bf603d6e-33d7-4802-80ed-a30954f6b4a8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

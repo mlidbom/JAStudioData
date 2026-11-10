@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-36fbe5f2d93b3386277ba8caac2345b01acd37c8ff5670b5140fc9d1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-36fbe5f2d93b3386277ba8caac2345b01acd37c8ff5670b5140fc9d1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "社会福祉"
@@ -240,11 +248,12 @@
     "question": "明日なら、家族の墓参りをした後に、その社会福祉施設に寄れなくもないよ。",
     "answer": "I could stop by the social welfare facility after visiting my family’s graves tomorrow.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bf69f27d-12f4-4fab-905c-3f86ac0ca681",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

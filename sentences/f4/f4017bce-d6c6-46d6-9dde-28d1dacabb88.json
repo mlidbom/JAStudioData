@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1c9f8d2015d21bb7cabe918f4120273c1005c88b1ee3433d7aa803fc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1c9f8d2015d21bb7cabe918f4120273c1005c88b1ee3433d7aa803fc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "茶屋"
@@ -107,11 +115,12 @@
     "question": "この町には古い茶屋があります。",
     "answer": "This town has an old tea house.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f4017bce-d6c6-46d6-9dde-28d1dacabb88",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-30208af2944c34deb0199fb25620fe45501db7c9a5cd06b8ce34d1ea.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-30208af2944c34deb0199fb25620fe45501db7c9a5cd06b8ce34d1ea.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "立てる"
@@ -121,11 +129,12 @@
     "question": "ブックスタンドは本を立てるためのものです。",
     "answer": "A book stand is something to stand books on.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "556ed29f-b577-4c42-926b-6cebaeb2b924",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

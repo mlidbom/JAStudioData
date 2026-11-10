@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-be9a68cc477c16480cda9428cb0adfa8f702d341a2230a6bac93308e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-be9a68cc477c16480cda9428cb0adfa8f702d341a2230a6bac93308e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "悩む"
@@ -205,11 +213,12 @@
     "question": "「どうしたの？何を悩んでいるの？」「昨日、彼女に振られたんだ。」",
     "answer": "\"Hey! What’s troubling you?\" \"My girlfriend dumped me last night.\"",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "97185491-baa6-4840-9a43-219fb1ce80ce",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

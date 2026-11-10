@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0d290bd16949e95fdeb261a5127c3ffe181d7e26e8a35e5afb951d19.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0d290bd16949e95fdeb261a5127c3ffe181d7e26e8a35e5afb951d19.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "方向"
@@ -86,11 +94,12 @@
     "question": "あの山の方向に月が見えます。",
     "answer": "You will be able to see the moon in the direction of that mountain over there.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0fb6a305-5cdc-4eaf-95e0-ef9fb3bb9404",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

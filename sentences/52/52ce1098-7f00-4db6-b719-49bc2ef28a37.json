@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e4ea6b67e1fe425eaad5fc23b774207ca22bbf460491159b9e9b0a5e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e4ea6b67e1fe425eaad5fc23b774207ca22bbf460491159b9e9b0a5e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "帝国"
@@ -177,11 +185,12 @@
     "question": "トーフグ帝国では、殺人事件の時効は廃止されました。",
     "answer": "The statute of limitations for murder was abolished in the Tofugu Empire.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "52ce1098-7f00-4db6-b719-49bc2ef28a37",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

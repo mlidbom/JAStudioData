@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8c1378a57b7148be03a08dbcd64b03acbfda31fdfcb1a869ec0ff0ab.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8c1378a57b7148be03a08dbcd64b03acbfda31fdfcb1a869ec0ff0ab.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "踊り場"
@@ -86,11 +94,12 @@
     "question": "クリスなら、さっき階段の踊り場ですれ違ったよ。",
     "answer": "If you’re looking for Chris, we just passed each other on the stair landing.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "9c8bccbb-3b28-4004-a97a-eba21abff56c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

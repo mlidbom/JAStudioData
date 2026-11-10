@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4796e3276ea2601863cc1c6f623048b37381181df5b4e4970cc61c05.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4796e3276ea2601863cc1c6f623048b37381181df5b4e4970cc61c05.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -84,11 +92,12 @@
     "question": "百万円の当たりが出た。",
     "answer": "I won a million yen.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "eaf120c7-6bd3-4d4d-b719-b892ce1adae8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

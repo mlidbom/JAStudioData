@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9d9e73f961725d899191ca61d371dc78da38ce163c00b67fca30e746.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9d9e73f961725d899191ca61d371dc78da38ce163c00b67fca30e746.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "病院"
@@ -79,11 +87,12 @@
     "question": "あの白いビルは、市立病院です。",
     "answer": "That white building is a municipal hospital.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "92401e7c-af1b-4b97-b6e0-336c504f1f45",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

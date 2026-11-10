@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-14b456d5df91f3f5b2fc0efce2ee40d807e167ee39d8c80ba1787dfd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-14b456d5df91f3f5b2fc0efce2ee40d807e167ee39d8c80ba1787dfd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "巣"
@@ -198,11 +206,12 @@
     "question": "巣の中では、ツバメの雛が五羽、ぴいぴい鳴いていました。",
     "answer": "There were five baby swallows chirping in the nest.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6c6df773-1a96-45f8-a066-178fb7f97605",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fc362642c934344c46d5621a900fd609a646c59cd1f736039cbcb8e3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fc362642c934344c46d5621a900fd609a646c59cd1f736039cbcb8e3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "覚える"
@@ -128,11 +136,12 @@
     "question": "私はワニカニを使って漢字を覚えました。",
     "answer": "I learned kanji characters using WaniKani.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8164e5a4-5eeb-49a7-8e5b-b342684193b2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

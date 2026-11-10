@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3b4871a81224314010231e3cc92c90f764f01a6991e41d13b729e55c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3b4871a81224314010231e3cc92c90f764f01a6991e41d13b729e55c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "免除"
@@ -212,11 +220,12 @@
     "question": "私の祖父は心臓病を患っていたため、兵役を免除されました。",
     "answer": "My grandfather was exempt from military service because he had a heart disease.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "23975aff-10ce-476d-b723-a7f51eec18ed",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

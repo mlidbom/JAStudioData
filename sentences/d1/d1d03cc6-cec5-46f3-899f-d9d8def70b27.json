@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-93c631ca211c3af54476e243c23d04fc32b50e0b99628386df5a42e7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-93c631ca211c3af54476e243c23d04fc32b50e0b99628386df5a42e7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お構いなく"
@@ -58,11 +66,12 @@
     "question": "すぐ帰りますので、お構いなく。",
     "answer": "I’ll be home soon so don’t worry.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d1d03cc6-cec5-46f3-899f-d9d8def70b27",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

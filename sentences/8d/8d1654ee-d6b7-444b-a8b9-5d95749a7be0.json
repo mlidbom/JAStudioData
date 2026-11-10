@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c7b4a52f276ebaa8fc1bb8f87fa968738b0a0ab84ecaaa62fed103b2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c7b4a52f276ebaa8fc1bb8f87fa968738b0a0ab84ecaaa62fed103b2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お手洗い"
@@ -212,11 +220,12 @@
     "question": "お手洗いで用を足しているうちに、座ったまま寝てしまいました。",
     "answer": "I dozed off while sitting in the bathroom doing my business.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8d1654ee-d6b7-444b-a8b9-5d95749a7be0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

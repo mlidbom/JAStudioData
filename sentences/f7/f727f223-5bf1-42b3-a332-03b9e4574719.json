@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-92b683803f00f040fd0eb1f4b68a7ede87d0e10548af6176d2613707.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-92b683803f00f040fd0eb1f4b68a7ede87d0e10548af6176d2613707.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "回答"
@@ -156,11 +164,12 @@
     "question": "社長はインタビューを受ける事について、まだ回答を出していない。",
     "answer": "The president has not yet responded about accepting an interview or not.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f727f223-5bf1-42b3-a332-03b9e4574719",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

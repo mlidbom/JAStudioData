@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-742969a383f81bf3b8bcfa40357c2e2e2cf206c1612fc49e47bf4bcb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-742969a383f81bf3b8bcfa40357c2e2e2cf206c1612fc49e47bf4bcb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "依頼"
@@ -198,11 +206,12 @@
     "question": "依頼は断られちゃうかもしれないけど、聞くだけ聞いてみたら。",
     "answer": "Your request may be turned down, but it never hurts to ask.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0813b7fb-8094-4222-94b2-d30b95ab78f8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

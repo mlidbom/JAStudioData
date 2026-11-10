@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d844333fa926169acd026484eec992571ea907cbbda0eb8f206b2a16.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d844333fa926169acd026484eec992571ea907cbbda0eb8f206b2a16.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "記載"
@@ -142,11 +150,12 @@
     "question": "ここには何も記載しないでください。",
     "answer": "Please do not record anything here.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8cb7c59e-86e3-41c8-8951-a90fc65bc0e3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

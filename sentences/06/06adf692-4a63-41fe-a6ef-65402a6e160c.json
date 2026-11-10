@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-04e0921832ca6f85a75a388233baae863815ef679d2fabf9eb3688ee.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-04e0921832ca6f85a75a388233baae863815ef679d2fabf9eb3688ee.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "お誕生日おめでとう"
@@ -317,11 +325,12 @@
     "question": "弟はだれからもお誕生日おめでとうって言ってもらえなかったと言って、すねていましたよ。",
     "answer": "My little brother was sulking because nobody said happy birthday to him.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "06adf692-4a63-41fe-a6ef-65402a6e160c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

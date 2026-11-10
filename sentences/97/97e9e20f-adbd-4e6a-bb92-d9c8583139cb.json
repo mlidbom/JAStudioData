@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e7a51d262bda9ec02d8c394bda9dc6a05ecdb3551d6ba9334bae24cf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e7a51d262bda9ec02d8c394bda9dc6a05ecdb3551d6ba9334bae24cf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "肥満"
@@ -128,11 +136,12 @@
     "question": "まずは自分の肥満度をチェックしてみましょう！",
     "answer": "First, check your own level of obesity!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "97e9e20f-adbd-4e6a-bb92-d9c8583139cb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

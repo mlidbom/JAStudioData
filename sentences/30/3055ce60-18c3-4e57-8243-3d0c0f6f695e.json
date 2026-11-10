@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-52a03f816500e167abc1ae9a8ce42f1054fde099b810879149a3a0b6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-52a03f816500e167abc1ae9a8ce42f1054fde099b810879149a3a0b6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "手放す"
@@ -79,11 +87,12 @@
     "question": "その指輪を手放すな。",
     "answer": "You must not part with the ring.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3055ce60-18c3-4e57-8243-3d0c0f6f695e",
   "tags": [
-    "_tts_audio",
     "source::misc"
   ]
 }

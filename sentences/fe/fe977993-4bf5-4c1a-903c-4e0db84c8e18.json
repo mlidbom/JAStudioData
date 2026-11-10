@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-db1b216e23bf11eb3fff25d71f8b12da0babf003664fa2c8513aa91c.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-db1b216e23bf11eb3fff25d71f8b12da0babf003664fa2c8513aa91c.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "生じる"
@@ -184,11 +192,12 @@
     "question": "コミュニケーションが上手くできていないと、トラブルが生じるかもしれません。",
     "answer": "If communication isn't done well, some issues might arise.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fe977993-4bf5-4c1a-903c-4e0db84c8e18",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

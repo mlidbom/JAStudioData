@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-73337b1212a937fde780158c8798d7a68070031b93f57d43993894e5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-73337b1212a937fde780158c8798d7a68070031b93f57d43993894e5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "退院する"
@@ -177,11 +185,12 @@
     "question": "いつ退院することができるのかはまだ分かりません。",
     "answer": "We do not know yet when he will be able to leave the hospital.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c8206655-4fe4-4833-bc38-630497c7c9ad",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

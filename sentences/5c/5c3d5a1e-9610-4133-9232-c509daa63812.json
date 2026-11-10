@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-327ec3cb5fb5e513077712578fc5f07a97efc04f243d346ff5132e91.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-327ec3cb5fb5e513077712578fc5f07a97efc04f243d346ff5132e91.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "眼鏡"
@@ -107,11 +115,12 @@
     "question": "眼鏡を拭いた方がいいですよ。",
     "answer": "You should wipe your glasses.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5c3d5a1e-9610-4133-9232-c509daa63812",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

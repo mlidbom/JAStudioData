@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-99f5c638bcca8ab8faea831acf078358f46bebd65a8c030f8a9d28e6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-99f5c638bcca8ab8faea831acf078358f46bebd65a8c030f8a9d28e6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "共有する"
@@ -149,11 +157,12 @@
     "question": "社内では、Dropboxを使って共有しています。",
     "answer": "We share it internally using Dropbox.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "785beea0-53db-47e9-b28e-92c706ba12d1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

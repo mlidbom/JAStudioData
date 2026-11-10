@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2ce75b45d0e876f16c0e741f9346a415ab7f91255b87ad06273bb6ec.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2ce75b45d0e876f16c0e741f9346a415ab7f91255b87ad06273bb6ec.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "〜軒"
@@ -128,11 +136,12 @@
     "question": "この人は、マンションを五軒持っています。",
     "answer": "This guy has five apartments.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "44c6966a-4257-4c11-97d6-30c185ccf0f8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

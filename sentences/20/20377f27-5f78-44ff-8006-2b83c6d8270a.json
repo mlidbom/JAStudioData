@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e28b6ab96a960af58f8aa5b0f60ca0d952d030d96bb7a32a52c8bd87.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e28b6ab96a960af58f8aa5b0f60ca0d952d030d96bb7a32a52c8bd87.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "睡眠"
@@ -114,11 +122,12 @@
     "question": "昨日の睡眠時間はたったの三時間でした。",
     "answer": "I slept for only three hours yesterday.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "20377f27-5f78-44ff-8006-2b83c6d8270a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f861629ac2eb139f17edc8f19b8b39a7e47119cac4e29573418227fe.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f861629ac2eb139f17edc8f19b8b39a7e47119cac4e29573418227fe.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "料金"
@@ -79,11 +87,12 @@
     "question": "初回は料金はかかりません。",
     "answer": "No fee is charged for the first time.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a62a4eef-0c6b-44bb-ad2f-b7b4a71e1638",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

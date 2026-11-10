@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6ea1b80abc9b05446b9b7c4f46c0faa1bbf1a85812af3229dfa7def7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6ea1b80abc9b05446b9b7c4f46c0faa1bbf1a85812af3229dfa7def7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "親友"
@@ -86,11 +94,12 @@
     "question": "親友の考えに反対した。",
     "answer": "I opposed my best friend's thoughts.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "178fb814-25da-444c-9f79-c91fcc46a1cc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

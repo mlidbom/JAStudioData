@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2ceaafdf5e7894d30f766941c9f578d725ecdc259744dd0e2f6308c3.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2ceaafdf5e7894d30f766941c9f578d725ecdc259744dd0e2f6308c3.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "忙しい"
@@ -65,11 +73,12 @@
     "question": "最近、とても忙しいんです。",
     "answer": "I've been very busy lately.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6089a1e3-bb52-46ba-b9cf-219df7d0b6f5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

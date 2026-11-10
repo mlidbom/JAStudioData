@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7c953ef0d882439d2d075ef584521e22cf3374fe8f5740f712ff7c5f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7c953ef0d882439d2d075ef584521e22cf3374fe8f5740f712ff7c5f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "以上"
@@ -65,11 +73,12 @@
     "question": "今日のクラスは、以上です。",
     "answer": "That's it for today's class.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bc9859a3-541a-467b-8c64-65a3211837ff",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

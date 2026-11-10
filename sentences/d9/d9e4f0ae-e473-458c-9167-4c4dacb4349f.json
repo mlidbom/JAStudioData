@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f0ff48e54f6866661806442f6f423e4cd1a620696fe136f6b790b8cc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f0ff48e54f6866661806442f6f423e4cd1a620696fe136f6b790b8cc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "抜く"
@@ -233,11 +241,12 @@
     "question": "今日は親知らずを一気に四本抜きました。ワインのコルクを抜くみたいに、ポンッと抜けたよ！",
     "answer": "Today I had four wisdom teeth extracted at once.  They popped out like pulling a cork out of a bottle of wine!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d9e4f0ae-e473-458c-9167-4c4dacb4349f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

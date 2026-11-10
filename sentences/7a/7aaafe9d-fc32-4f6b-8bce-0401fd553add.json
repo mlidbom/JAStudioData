@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-79462c112c0537228ae48360d6f99e5b7b77ed3f88e1222e0689c473.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-79462c112c0537228ae48360d6f99e5b7b77ed3f88e1222e0689c473.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "告白"
@@ -156,11 +164,12 @@
     "question": "彼女はついに自分のしたことを告白しました。",
     "answer": "She finally confessed what she had done.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7aaafe9d-fc32-4f6b-8bce-0401fd553add",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

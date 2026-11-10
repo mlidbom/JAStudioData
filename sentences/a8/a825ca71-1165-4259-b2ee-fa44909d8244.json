@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a0d350cf6bcd5475fcb1509c012bdd96796e6a523c42e087e2b6d193.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a0d350cf6bcd5475fcb1509c012bdd96796e6a523c42e087e2b6d193.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "切迫"
@@ -128,11 +136,12 @@
     "question": "ヤツの状況はかなり切迫しているはずです。",
     "answer": "His situation must be pretty dire.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a825ca71-1165-4259-b2ee-fa44909d8244",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

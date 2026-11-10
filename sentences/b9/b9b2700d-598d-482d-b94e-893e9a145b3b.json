@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c4503bbf4ed7542e1e6abe4f5e8ce6879556c97a7a67b409ea91f724.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c4503bbf4ed7542e1e6abe4f5e8ce6879556c97a7a67b409ea91f724.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "皿"
@@ -121,11 +129,12 @@
     "question": "皿はキッチンキャビネットの中にあります。",
     "answer": "Plates are in the kitchen cabinet.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b9b2700d-598d-482d-b94e-893e9a145b3b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

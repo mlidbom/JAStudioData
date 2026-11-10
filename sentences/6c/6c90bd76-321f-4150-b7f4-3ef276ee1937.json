@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-44b103e5cf284792921c2bc0c8f4ba5b3207182d1cb25a9e6934427b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-44b103e5cf284792921c2bc0c8f4ba5b3207182d1cb25a9e6934427b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "建築"
@@ -135,11 +143,12 @@
     "question": "私は大学で建築学を学んでいます。",
     "answer": "I am studying architecture at university.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6c90bd76-321f-4150-b7f4-3ef276ee1937",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

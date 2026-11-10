@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a968041ccaa09b8d7947caa6d53a07f0d74e07e32bace6cecb0d68f4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a968041ccaa09b8d7947caa6d53a07f0d74e07e32bace6cecb0d68f4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "丸ごと"
@@ -107,11 +115,12 @@
     "question": "半分じゃなくて丸ごと一つ下さい。",
     "answer": "Please give me the whole thing, not just half.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3db102bd-8dc0-4858-bcb3-2c9e31d49b54",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

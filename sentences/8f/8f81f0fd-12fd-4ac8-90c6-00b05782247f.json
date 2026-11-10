@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4b7655040a7c713b062398f4468419f630e4015907568c9ad134fad0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4b7655040a7c713b062398f4468419f630e4015907568c9ad134fad0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "終電"
@@ -93,11 +101,12 @@
     "question": "もうすぐJRの終電だから、行くね。",
     "answer": "I'll get going as the last train of the JR Line is coming soon.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "8f81f0fd-12fd-4ac8-90c6-00b05782247f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

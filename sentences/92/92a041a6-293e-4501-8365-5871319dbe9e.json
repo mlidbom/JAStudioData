@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f1ab935fbcef3e9947f4418fb57dad099ae47c84369ad0637aae9770.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f1ab935fbcef3e9947f4418fb57dad099ae47c84369ad0637aae9770.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "乗客"
@@ -163,11 +171,12 @@
     "question": "ホームには女性の乗客が一人で待っていた。",
     "answer": "A female passenger was waiting alone on the platform.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "92a041a6-293e-4501-8365-5871319dbe9e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

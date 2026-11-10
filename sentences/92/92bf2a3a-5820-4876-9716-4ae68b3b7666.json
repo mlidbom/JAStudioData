@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-732fcdec6119cbcfdafe843f9500d72713b039dd99f0a0e829f27b05.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-732fcdec6119cbcfdafe843f9500d72713b039dd99f0a0e829f27b05.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "不合格"
@@ -226,11 +234,12 @@
     "question": "もしよければ、不合格になった理由を教えてもらえませんか？",
     "answer": "If you don't mind, could you tell me the reason I wasn't accepted?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "92bf2a3a-5820-4876-9716-4ae68b3b7666",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

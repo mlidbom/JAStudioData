@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2c67504f77197d9c4743c3af15373ed2c947a0570ca47354002c6e96.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2c67504f77197d9c4743c3af15373ed2c947a0570ca47354002c6e96.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "疾病"
@@ -149,11 +157,12 @@
     "question": "がん、急性心筋梗塞、脳卒中のことを三大疾病といいます。",
     "answer": "The three major diseases are cancer, heart attack, and stroke.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a9e65d4b-fddb-4a3c-b823-da6d22310c67",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

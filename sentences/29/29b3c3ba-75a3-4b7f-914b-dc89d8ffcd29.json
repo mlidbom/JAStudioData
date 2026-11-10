@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-013e867886e2f87e6fd85577537c2c406174936b05b9a9eb76c0b154.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-013e867886e2f87e6fd85577537c2c406174936b05b9a9eb76c0b154.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "河童"
@@ -289,11 +297,12 @@
     "question": "まるで河童が存在していることを信じているかのようにリアクションしてもらえますか？",
     "answer": "Can you react as if you believe Kappa really exist?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "29b3c3ba-75a3-4b7f-914b-dc89d8ffcd29",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

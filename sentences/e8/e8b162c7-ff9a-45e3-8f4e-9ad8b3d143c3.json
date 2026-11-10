@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1d53f25c5cfb505d2b56c98729d13dff285abf951994120a576b1f4b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1d53f25c5cfb505d2b56c98729d13dff285abf951994120a576b1f4b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "国宝"
@@ -121,11 +129,12 @@
     "question": "このホテルを、いつか国宝にしてほしいです。",
     "answer": "I want this hotel to be a national treasure someday.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e8b162c7-ff9a-45e3-8f4e-9ad8b3d143c3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

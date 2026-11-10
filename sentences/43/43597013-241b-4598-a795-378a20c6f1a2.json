@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6e8a22c6f26ec43c4bf719db26f6196c3dcbe5bcd0fb04e14fc3b9c8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6e8a22c6f26ec43c4bf719db26f6196c3dcbe5bcd0fb04e14fc3b9c8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "主人"
@@ -149,11 +157,12 @@
     "question": "ご主人さま、十メートルのブランケットはさすがに大きすぎますよ。",
     "answer": "Master, the ten-meter blanket is too big.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "43597013-241b-4598-a795-378a20c6f1a2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

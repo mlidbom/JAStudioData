@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-91bd25ba50c4fb31fa097a25c447e85f0728c290dab840bc72f67b96.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-91bd25ba50c4fb31fa097a25c447e85f0728c290dab840bc72f67b96.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "バス停"
@@ -149,11 +157,12 @@
     "question": "２９番のバスなら、このバス停に来るはずですよ。",
     "answer": "If it's bus number 29, it should come to this bus stop.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "12ab700b-89f6-4990-b7ac-d1e69ed4e694",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

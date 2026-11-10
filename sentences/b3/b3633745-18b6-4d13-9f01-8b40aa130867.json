@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c3133e936161ad3bbff2b5bed45ab3f4e73f4d2fd20033b0913ab272.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c3133e936161ad3bbff2b5bed45ab3f4e73f4d2fd20033b0913ab272.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "組"
@@ -100,11 +108,12 @@
     "question": "あなた、三年二組のコウイチくん？",
     "answer": "Are you Koichi from grade three class two?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b3633745-18b6-4d13-9f01-8b40aa130867",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

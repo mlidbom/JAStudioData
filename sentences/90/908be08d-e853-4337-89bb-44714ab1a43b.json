@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-511ce9733662ebbf89f2fba71f81a53ffc7ca8e9cfff4c3f3dbe3aaf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-511ce9733662ebbf89f2fba71f81a53ffc7ca8e9cfff4c3f3dbe3aaf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "何故なら"
@@ -107,11 +115,12 @@
     "question": "何故なら、彼は魔法使いだったのです。",
     "answer": "Because, he was a wizard!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "908be08d-e853-4337-89bb-44714ab1a43b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

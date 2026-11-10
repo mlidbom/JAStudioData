@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e0ac566c66c81c0c1f776dc7afc7bce410b052995fd9ef8680491eca.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e0ac566c66c81c0c1f776dc7afc7bce410b052995fd9ef8680491eca.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "辞書"
@@ -79,11 +87,12 @@
     "question": "この辞書アプリ、おすすめだよ。",
     "answer": "This dictionary app is recommended.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "755618cb-164e-4c2e-9d2a-c2023517bdaa",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

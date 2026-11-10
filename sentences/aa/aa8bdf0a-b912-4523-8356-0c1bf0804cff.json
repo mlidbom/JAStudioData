@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-bb25dc513bd496a3123e2248fbae3c4e285d25e1d7cc571de18466b0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-bb25dc513bd496a3123e2248fbae3c4e285d25e1d7cc571de18466b0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "２０１１年"
@@ -177,11 +185,12 @@
     "question": "２０１１年は、花見も花火も月見も中止でしたよ。",
     "answer": "In 2011, cherry blossom viewing, fireworks, and moon-viewing were all canceled.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "aa8bdf0a-b912-4523-8356-0c1bf0804cff",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

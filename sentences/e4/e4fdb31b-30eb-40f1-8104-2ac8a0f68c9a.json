@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4b00316abe868b7704407b2d09402ca58bcfb2a3e20a67626b70492e.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4b00316abe868b7704407b2d09402ca58bcfb2a3e20a67626b70492e.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "禅寺"
@@ -114,11 +122,12 @@
     "question": "京都の南禅寺に行ってきました。",
     "answer": "I visited Nanzenji temple in Kyoto.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e4fdb31b-30eb-40f1-8104-2ac8a0f68c9a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

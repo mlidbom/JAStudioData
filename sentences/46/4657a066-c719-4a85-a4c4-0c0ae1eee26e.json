@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b69afdb093dc5843811c5c23a22e0ef45698b2714092d1a089b5c3a5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b69afdb093dc5843811c5c23a22e0ef45698b2714092d1a089b5c3a5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "考える"
@@ -65,11 +73,12 @@
     "question": "もっと自分について考えましょう。",
     "answer": "Let's think about ourselves more.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4657a066-c719-4a85-a4c4-0c0ae1eee26e",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

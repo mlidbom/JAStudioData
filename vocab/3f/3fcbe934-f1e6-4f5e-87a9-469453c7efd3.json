@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-4e3f98e1b80019fb38109f40401bfcb712f2d547678004d68e07e5ce.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-4e3f98e1b80019fb38109f40401bfcb712f2d547678004d68e07e5ce.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "物に成る",
@@ -44,8 +50,7 @@
   "sentenceCount": 10,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -69,7 +74,9 @@
   "sourceData": {
     "answer": "to{?}{prove-successful/take-hold/amount-to-something}",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "3fcbe934-f1e6-4f5e-87a9-469453c7efd3",
   "tags": [

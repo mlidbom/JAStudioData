@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ce7eae171e3c832d418265d9123ae9456f661d744e40e8ab8de116a1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ce7eae171e3c832d418265d9123ae9456f661d744e40e8ab8de116a1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "正座"
@@ -93,11 +101,12 @@
     "question": "何でそんなに長い間正座できるの？",
     "answer": "How can you sit seiza for that long?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1bb5fe3a-6650-43c6-95ce-38d99ea45773",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

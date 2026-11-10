@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8c603e26d5cfd24c39ecf7ce4b8ddc3967056e477c785ebb8ced29ba.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8c603e26d5cfd24c39ecf7ce4b8ddc3967056e477c785ebb8ced29ba.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "推奨"
@@ -443,11 +451,12 @@
     "question": "このカボチャのパイは、焼き上がりでも美味しく召し上がって頂けるのですが、私たちは御賞味の前に少し冷蔵庫に入れて頂くことを推奨しています。",
     "answer": "This pumpkin pie is delicious right after it’s been baked, but we recommend refrigerating for a short time before eating it.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "fd65db23-8179-4514-9498-68ab0d72b21c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

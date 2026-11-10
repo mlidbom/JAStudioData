@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f614104d1a4bdd09452664c04f99ebadbed6fd1f42aa2eaf0271365f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f614104d1a4bdd09452664c04f99ebadbed6fd1f42aa2eaf0271365f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "小皿"
@@ -135,11 +143,12 @@
     "question": "バーのテーブルの上には小皿がたくさんあった。",
     "answer": "There were many small plates on the bar table.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a53ae951-a262-4bc7-9aaf-566aee85f285",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-f717f94465cb8f969e2ae076c8ffd671714df01a9dcb9fa75f91a31b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-f717f94465cb8f969e2ae076c8ffd671714df01a9dcb9fa75f91a31b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "押さえる"
@@ -128,11 +136,12 @@
     "question": "この単語は大事なので、しっかり押さえておきましょう！",
     "answer": "These words are important, so make sure to master them!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c59bc826-2647-4106-92b7-cbf4f0447ff3",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

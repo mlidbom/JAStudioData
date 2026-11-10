@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8a6ae4ff60ff2fe5a6aca4283af02d728c934c01c376c120fff32e04.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8a6ae4ff60ff2fe5a6aca4283af02d728c934c01c376c120fff32e04.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "平静"
@@ -247,11 +255,12 @@
     "question": "私、好きな人の前では、平静でいられなくなるんです。",
     "answer": "I find it hard to stay calm in front of someone I like.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "58c74bd0-0faf-4577-a3d2-259d34fdc8cc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

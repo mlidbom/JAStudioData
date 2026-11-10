@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4d6e1857cfe6d49cf47b28d693c0a99ead93b79b3e6d436129cde827.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4d6e1857cfe6d49cf47b28d693c0a99ead93b79b3e6d436129cde827.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "重ねる"
@@ -114,11 +122,12 @@
     "question": "そんなにお皿を重ねると危ないですよ。",
     "answer": "It is dangerous to stack so many plates.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4f6ec4f0-feb8-4cc0-a62a-cc65774e335d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a9b22c77e188e904509fbafc1523a552df1581b8f25f834928b39f3b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a9b22c77e188e904509fbafc1523a552df1581b8f25f834928b39f3b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "傷つく"
@@ -142,11 +150,12 @@
     "question": "おばちゃんって呼ばれる年齢かなあ。傷つくなあ。",
     "answer": "Aren’t I too young to be called a middle-aged woman? I’m hurt.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "98d578c9-3445-4743-b08e-d622e5eeb832",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

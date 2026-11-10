@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e87b97aab8116cbe9b5be3e072a294e5e318de89aa1aa8305e5d3008.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e87b97aab8116cbe9b5be3e072a294e5e318de89aa1aa8305e5d3008.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "戦う"
@@ -107,11 +115,12 @@
     "question": "一人で戦うつもりなの？",
     "answer": "Are you planning to fight alone?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "de5d2f12-2398-4674-8bfc-b66fc1e3ad74",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

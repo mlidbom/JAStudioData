@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-20d9031713de6635cefecfaeddd8f8e56b9a0678a74516bf29843aaf.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-20d9031713de6635cefecfaeddd8f8e56b9a0678a74516bf29843aaf.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "歯"
@@ -128,11 +136,12 @@
     "question": "赤ちゃんに歯が生えてきました。",
     "answer": "The baby's teeth are growing",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "99130d11-863b-48a1-85ad-f0c4e75083a2",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

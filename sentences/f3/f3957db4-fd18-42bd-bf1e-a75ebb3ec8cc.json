@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1d8e7c25f79214e3426f432c85713b91e2fd020905a399d381bd1613.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1d8e7c25f79214e3426f432c85713b91e2fd020905a399d381bd1613.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "交通"
@@ -142,11 +150,12 @@
     "question": "車の交通に十分と気をつけて下さい。",
     "answer": "Please be careful with car traffic.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f3957db4-fd18-42bd-bf1e-a75ebb3ec8cc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

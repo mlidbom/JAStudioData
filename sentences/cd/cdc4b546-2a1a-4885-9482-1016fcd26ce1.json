@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1003eb26375b6b06cf4b44c01a731d070e7db1952993e086cc61d4b7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1003eb26375b6b06cf4b44c01a731d070e7db1952993e086cc61d4b7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "陳列"
@@ -128,11 +136,12 @@
     "question": "あなたは、パン屋のむき出しの陳列についてどう思いますか。",
     "answer": "What did you think of the bakery’s exposed exhibition?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "cdc4b546-2a1a-4885-9482-1016fcd26ce1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

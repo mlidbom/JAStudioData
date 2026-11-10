@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ae4a7842cddd81af4da1cefc67571d2b34d154222c9bca3eedc9ae46.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ae4a7842cddd81af4da1cefc67571d2b34d154222c9bca3eedc9ae46.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "地中海"
@@ -107,11 +115,12 @@
     "question": "地中海の魚のカルパッチョが、このレストランのオススメです。",
     "answer": "Carpaccio with fish from the Mediterranean is this restaurant's recommendation.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "40fd6d35-53ff-492d-a386-8c891c63abc1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

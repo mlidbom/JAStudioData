@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-027c00ef435b7d9ac7c9b0833631c058d30e5e8fe5d6c2dc6b23d474.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-027c00ef435b7d9ac7c9b0833631c058d30e5e8fe5d6c2dc6b23d474.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "響く"
@@ -100,11 +108,12 @@
     "question": "父の低い声が部屋中に響いた。",
     "answer": "My father's low voice echoed throughout the room.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "20455767-3075-4a95-a8af-1b46f856dc5d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

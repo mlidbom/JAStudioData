@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-28cb88656e62fc7c9d3174cde17ccaea9150603b04e1e3cafccdefd2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-28cb88656e62fc7c9d3174cde17ccaea9150603b04e1e3cafccdefd2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "面倒"
@@ -121,11 +129,12 @@
     "question": "こりゃまた面倒な仕事を引き受けたもんだね。",
     "answer": "You've taken on such a difficult job!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1cbdbf67-9a0c-499b-8d9d-f0728aefffef",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

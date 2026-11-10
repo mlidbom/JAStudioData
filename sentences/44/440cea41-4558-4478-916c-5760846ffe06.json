@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d5902bb1d3d2db520619cdc20a4a122cbcee9ad658960b060ff519b8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d5902bb1d3d2db520619cdc20a4a122cbcee9ad658960b060ff519b8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "不可分"
@@ -156,11 +164,12 @@
     "question": "ご存知のように、ワニカニではワニとカニは不可分です。",
     "answer": "As you know, in WaniKani, the alligator and crab are inseparable.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "440cea41-4558-4478-916c-5760846ffe06",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

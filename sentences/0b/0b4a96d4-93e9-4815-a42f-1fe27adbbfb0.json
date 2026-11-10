@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-26c43aab0492202d1db08ffa3b0d74a108e635787a1254a7a36308ea.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-26c43aab0492202d1db08ffa3b0d74a108e635787a1254a7a36308ea.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "蒸し暑い"
@@ -114,11 +122,12 @@
     "question": "今年の夏は絶対去年よりも蒸し暑いよね。",
     "answer": "This summer is definitely more humid than it was last year.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "0b4a96d4-93e9-4815-a42f-1fe27adbbfb0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

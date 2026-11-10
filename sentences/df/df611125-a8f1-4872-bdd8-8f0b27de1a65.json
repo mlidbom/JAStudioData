@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0e2b1f8212903a2525479f8733f68426e06dc9eaeb43bcbb13eaa8cd.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0e2b1f8212903a2525479f8733f68426e06dc9eaeb43bcbb13eaa8cd.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "通信網"
@@ -142,11 +150,12 @@
     "question": "時計が時刻を告げた瞬間、全ての通信網が途絶えました。",
     "answer": "The moment the clock announced the time, all the communications networks stopped.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "df611125-a8f1-4872-bdd8-8f0b27de1a65",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

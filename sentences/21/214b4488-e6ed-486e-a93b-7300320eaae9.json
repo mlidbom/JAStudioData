@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-72393e3c32e207f0942cb347d2cc5177764b3f7c86225e58f1a3ff96.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-72393e3c32e207f0942cb347d2cc5177764b3f7c86225e58f1a3ff96.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "海岸"
@@ -114,11 +122,12 @@
     "question": "海岸からはヨットやサーファーが見えました。",
     "answer": "I saw yachts and surfers from the coast.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "214b4488-e6ed-486e-a93b-7300320eaae9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

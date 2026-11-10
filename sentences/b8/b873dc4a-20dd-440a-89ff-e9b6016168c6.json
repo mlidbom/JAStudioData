@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a13b4daf2b07ca9be337d1049dc3a48111278bbf42e9c24c27a340cb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a13b4daf2b07ca9be337d1049dc3a48111278bbf42e9c24c27a340cb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "主"
@@ -65,11 +73,12 @@
     "question": "そのサイフの持ち主は私です。",
     "answer": "I am the owner of that wallet.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "b873dc4a-20dd-440a-89ff-e9b6016168c6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

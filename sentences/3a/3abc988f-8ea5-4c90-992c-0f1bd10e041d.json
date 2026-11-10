@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-24b97b6e4db7f41405db1c96aa492493343512d3f51e4d19e9d23745.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-24b97b6e4db7f41405db1c96aa492493343512d3f51e4d19e9d23745.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "震度"
@@ -135,11 +143,12 @@
     "question": "あの地震では、最大震度が７強もあったらしいよ。",
     "answer": "I heard that the maximum intensity of that earthquake was over seven.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3abc988f-8ea5-4c90-992c-0f1bd10e041d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

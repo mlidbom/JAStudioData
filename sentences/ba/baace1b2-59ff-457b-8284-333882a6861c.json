@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0e5b382d045b4249de7f942f0427294fba148974bc1752bb2454f136.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0e5b382d045b4249de7f942f0427294fba148974bc1752bb2454f136.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "短刀"
@@ -100,11 +108,12 @@
     "question": "兄は短刀を持っています。",
     "answer": "My brother has a short sword.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "baace1b2-59ff-457b-8284-333882a6861c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

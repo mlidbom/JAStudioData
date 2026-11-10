@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7aa074c1d9982efe4ea8c935f9fadfe5d2178a72165db60c1f336014.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7aa074c1d9982efe4ea8c935f9fadfe5d2178a72165db60c1f336014.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "所載"
@@ -163,11 +171,12 @@
     "question": "『古事記』所載の日本最古の和歌について何か知っていますか？",
     "answer": "Do you know anything about the Japanese first waka published in the Kojiki?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6816fd88-83bd-4c4a-aed7-24be62d68176",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

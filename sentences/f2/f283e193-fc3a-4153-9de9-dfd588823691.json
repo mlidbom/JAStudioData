@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-2753f273cef6f257a5302665ff27f41b443d8fcad8494a88c78c86d8.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-2753f273cef6f257a5302665ff27f41b443d8fcad8494a88c78c86d8.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "予告"
@@ -177,11 +185,12 @@
     "question": "トーフグのオフィスに殺人予告が送られてきたんです。",
     "answer": "A death threat was sent to Tofugu's office.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f283e193-fc3a-4153-9de9-dfd588823691",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

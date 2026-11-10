@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c2458e4467c3f3a2d8825d1f1218ea02d47b2a14774520411be5915b.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c2458e4467c3f3a2d8825d1f1218ea02d47b2a14774520411be5915b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "分"
@@ -107,11 +115,12 @@
     "question": "このウィスキーのアルコール分は四十パーセントです。",
     "answer": "The alcohol content of this whisky is forty percent.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3d7d7f09-4376-4e25-a45a-11b1dfb5adc5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

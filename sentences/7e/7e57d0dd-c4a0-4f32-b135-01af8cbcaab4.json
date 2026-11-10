@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b0324f89f45e48b5826063a8eaa886f06790df5490bb7f8fd8f93578.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b0324f89f45e48b5826063a8eaa886f06790df5490bb7f8fd8f93578.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "経験"
@@ -205,11 +213,12 @@
     "question": "若いうちに色々な経験をしておいた方がいいよ。",
     "answer": "You should have a lot of experience while you're young.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "7e57d0dd-c4a0-4f32-b135-01af8cbcaab4",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

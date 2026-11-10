@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ca7a2283b3b92e3209dbc24fc3923a35af8246cb72c27ed22d61a1aa.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ca7a2283b3b92e3209dbc24fc3923a35af8246cb72c27ed22d61a1aa.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "喜劇"
@@ -135,11 +143,12 @@
     "question": "大阪でヨシモトの新喜劇を見てきました。",
     "answer": "I went to see the Yoshimoto New Comedy in Osaka.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "331e931c-8515-438e-bf5e-d5aa0fafccfc",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

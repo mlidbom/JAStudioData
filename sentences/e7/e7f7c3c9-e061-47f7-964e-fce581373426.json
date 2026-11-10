@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-60cf00444a421328b347fbfce6a67e08f61643b7aa94d84e51ddf993.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-60cf00444a421328b347fbfce6a67e08f61643b7aa94d84e51ddf993.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "有罪"
@@ -121,11 +129,12 @@
     "question": "彼は不法滞在で有罪となりました。",
     "answer": "He was found guilty of illegal immigration.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e7f7c3c9-e061-47f7-964e-fce581373426",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

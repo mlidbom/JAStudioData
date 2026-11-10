@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1f29ef461c344997c17d94d1f5f694cffe88cd82c824a08b81b78e0f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1f29ef461c344997c17d94d1f5f694cffe88cd82c824a08b81b78e0f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "銀座"
@@ -170,11 +178,12 @@
     "question": "私の友達は、東京の銀座でホステスをしています。",
     "answer": "My friend works as a hostess in Ginza, Tokyo.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "c70e6a22-bbdb-4d6e-8c8c-1e25a936b92f",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

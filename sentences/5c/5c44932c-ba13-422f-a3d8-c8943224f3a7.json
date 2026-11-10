@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-8399e3616a3fa597cd6eed2d154b2a52cd8f035f694ba027a0976ea9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-8399e3616a3fa597cd6eed2d154b2a52cd8f035f694ba027a0976ea9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "不足"
@@ -191,11 +199,12 @@
     "question": "不正アクセスがあったのは、わたしの力不足のせいです。すみませんでした。",
     "answer": "There has been unauthorized access due to my insufficient skills. I'm sorry.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5c44932c-ba13-422f-a3d8-c8943224f3a7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

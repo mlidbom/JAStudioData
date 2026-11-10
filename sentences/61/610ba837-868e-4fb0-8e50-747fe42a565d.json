@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-5dc078dbb9ebda06a0afe42db7215720b4b16f49795d5507fb4a1470.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-5dc078dbb9ebda06a0afe42db7215720b4b16f49795d5507fb4a1470.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "昆虫"
@@ -93,11 +101,12 @@
     "question": "私の一番好きな昆虫はアリジゴクです。",
     "answer": "My favorite insect is the antlion larva.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "610ba837-868e-4fb0-8e50-747fe42a565d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

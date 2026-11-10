@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-107ad231a17177e9bb6ea2d003d76d9afbb6030e3c620afd844e0098.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-107ad231a17177e9bb6ea2d003d76d9afbb6030e3c620afd844e0098.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "減法"
@@ -247,11 +255,12 @@
     "question": "物理の問題で、ベクトル減法はあまり見ませんが、たまに出てくることがあります。",
     "answer": "In physics problems, we don’t come across vector subtraction very often, but it does pop up sometimes.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ead91cdb-d4e8-4fe4-b411-725d7ea218c9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

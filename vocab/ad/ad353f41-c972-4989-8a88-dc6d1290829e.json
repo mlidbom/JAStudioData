@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": true,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-3f08ea5f4c7544ff135472242dbeb1b5f976cd3cfffd64c3de37f17b.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-3f08ea5f4c7544ff135472242dbeb1b5f976cd3cfffd64c3de37f17b.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "お祖父ちゃん",
@@ -44,8 +50,7 @@
   "sentenceCount": 25,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -69,7 +74,9 @@
   "sourceData": {
     "answer": "grandpa/granddad",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "ad353f41-c972-4989-8a88-dc6d1290829e",
   "tags": [

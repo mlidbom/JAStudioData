@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-174b06c5d4945835ad43b216011f1b8dd5493fc1d554fd83650a9c9f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-174b06c5d4945835ad43b216011f1b8dd5493fc1d554fd83650a9c9f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "社内"
@@ -149,11 +157,12 @@
     "question": "会社のパーティについてのメッセージが社内メールで回ってきた。",
     "answer": "A message about the company party came as an internal email.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "1abdc127-f540-4c11-9545-2fb418d64745",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

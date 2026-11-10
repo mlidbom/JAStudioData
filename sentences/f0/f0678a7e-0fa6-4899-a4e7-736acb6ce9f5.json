@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-401bf874fcbe39d87fb77db372025fcf9e9ea95688ab7b27b8c7f0a1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-401bf874fcbe39d87fb77db372025fcf9e9ea95688ab7b27b8c7f0a1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "本館"
@@ -86,11 +94,12 @@
     "question": "トイレは本館の１Fにあります。",
     "answer": "Restrooms are located on the first floor of the main building.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f0678a7e-0fa6-4899-a4e7-736acb6ce9f5",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d38bab7057932b3376af3be349b05adffca2ea67aa4e323bfaf04b9f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d38bab7057932b3376af3be349b05adffca2ea67aa4e323bfaf04b9f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "強制"
@@ -212,11 +220,12 @@
     "question": "もちろん全社員が社員旅行に参加することが望ましいけど、強制ではないですよ。",
     "answer": "Of course all workers' participation in the company retreat is expected, but not mandatory.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "4e6bb1c8-7165-464d-becd-d48143091ee1",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

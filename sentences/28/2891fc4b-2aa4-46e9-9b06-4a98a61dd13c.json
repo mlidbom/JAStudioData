@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-95d3a9207592ae00458ad95c101c7ca694df7e1b79b05416eabdd642.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-95d3a9207592ae00458ad95c101c7ca694df7e1b79b05416eabdd642.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "更衣室"
@@ -135,11 +143,12 @@
     "question": "このジムには更衣室はありません。",
     "answer": "There are no changing rooms in this gym.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2891fc4b-2aa4-46e9-9b06-4a98a61dd13c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

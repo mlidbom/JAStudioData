@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b77b62fa4f98385a049fca2ef7917afc0acad92b245b2c6517b122e6.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b77b62fa4f98385a049fca2ef7917afc0acad92b245b2c6517b122e6.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "受領書"
@@ -247,11 +255,12 @@
     "question": "押す場所を間違えて何度も判をついたから、受領書が判子だらけになっちゃった。",
     "answer": "I stamped the wrong place so many times the receipt was covered with stamps.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d3fff51f-3c39-4e17-a70b-99a68cc698f7",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

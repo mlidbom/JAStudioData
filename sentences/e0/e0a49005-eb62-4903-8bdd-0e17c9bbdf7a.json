@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9e9389d363ffaaf861e072861e9c60b2459fe96164e24c5702ab3f28.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9e9389d363ffaaf861e072861e9c60b2459fe96164e24c5702ab3f28.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [],
     "incorrectMatches": [],
@@ -112,11 +120,12 @@
     "question": "日本語には数詞がたくさんありすぎて、ちょっとパニクってます。",
     "answer": "I'm panicking a bit because there are so many number words in Japanese.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e0a49005-eb62-4903-8bdd-0e17c9bbdf7a",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

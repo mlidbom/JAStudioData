@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ec599d86d02c8386a63adc95b5c562bd3d1a5c95885dc859d0ae89f2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ec599d86d02c8386a63adc95b5c562bd3d1a5c95885dc859d0ae89f2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "下手"
@@ -121,11 +129,12 @@
     "question": "ギターは下手ですが、ピアノは中々上手ですよ。",
     "answer": "I'm not the best at playing the guitar, but I'm pretty good at the piano.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "976e33fe-f09f-403b-9c84-122994ed8a5d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

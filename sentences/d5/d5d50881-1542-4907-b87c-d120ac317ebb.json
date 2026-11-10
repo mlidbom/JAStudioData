@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-7ba01b4e62c8319973b553edc3ed4a6fa0f60700f8db12fa74967865.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-7ba01b4e62c8319973b553edc3ed4a6fa0f60700f8db12fa74967865.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "人造"
@@ -142,11 +150,12 @@
     "question": "その外交官は人造人間十八号に刺された。",
     "answer": "The diplomat was stabbed by Android No.18.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d5d50881-1542-4907-b87c-d120ac317ebb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

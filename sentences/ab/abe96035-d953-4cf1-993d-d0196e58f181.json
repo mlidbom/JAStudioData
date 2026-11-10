@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-fe3e63042f632c28ca4940b994a9fd994fd9e250593067a1f502b93a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-fe3e63042f632c28ca4940b994a9fd994fd9e250593067a1f502b93a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "問い合わせる"
@@ -212,11 +220,12 @@
     "question": "事前に問い合わせたかったんだけど、電話がつながらなかったんだよね。",
     "answer": "I wanted to inquire in advance, but I couldn't get through on the phone.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "abe96035-d953-4cf1-993d-d0196e58f181",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

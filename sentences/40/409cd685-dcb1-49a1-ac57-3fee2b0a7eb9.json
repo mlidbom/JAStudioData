@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0b2ff4d30eddbe5cbf7adfa0ba8c53f0e5a87e787cfa04a37086d807.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0b2ff4d30eddbe5cbf7adfa0ba8c53f0e5a87e787cfa04a37086d807.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "友達"
@@ -184,11 +192,12 @@
     "question": "友達の友達から聞いたことなんだけど、ビエトってヤクザらしいよ！",
     "answer": "I heard from a friend of a friend that Viet is a yakuza!",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "409cd685-dcb1-49a1-ac57-3fee2b0a7eb9",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

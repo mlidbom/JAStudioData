@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9fc80b1212e2288f79f070e3d08025fe1bfba9c4cb412994297fb8d5.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9fc80b1212e2288f79f070e3d08025fe1bfba9c4cb412994297fb8d5.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "着ける"
@@ -79,11 +87,12 @@
     "question": "こういうイヤリング、着ける？",
     "answer": "Do you want to wear earrings like these?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ceb60ff4-4a48-4098-8ef3-25408802f321",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

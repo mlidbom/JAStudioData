@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b4f8b139bf3d54f808b8c20160b0fcb4dd8a6986b3328be6b9e731e1.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b4f8b139bf3d54f808b8c20160b0fcb4dd8a6986b3328be6b9e731e1.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "大空"
@@ -100,11 +108,12 @@
     "question": "ドローンが大空に広がっている。",
     "answer": "Drones are spreading throughout the sky.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "46336cd6-4d8a-44f3-826b-1a176539e3f8",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

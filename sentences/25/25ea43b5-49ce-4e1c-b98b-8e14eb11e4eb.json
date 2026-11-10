@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a6806a9eac5d8c66bdf1b76f82d764b12a1b288fcbb8e3ae7fb55d1f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a6806a9eac5d8c66bdf1b76f82d764b12a1b288fcbb8e3ae7fb55d1f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "再建"
@@ -233,11 +241,12 @@
     "question": "このビルの再建には、まずは資金を作らなくてはいけません。",
     "answer": "To rebuild this building, we will need to secure funding first.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "25ea43b5-49ce-4e1c-b98b-8e14eb11e4eb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

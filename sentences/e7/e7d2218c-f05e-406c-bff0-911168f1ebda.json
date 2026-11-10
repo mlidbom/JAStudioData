@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d4e03c6a0164f171f67b85b0de5751c0ab9290ac4a5ae1d6b8dfaf70.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d4e03c6a0164f171f67b85b0de5751c0ab9290ac4a5ae1d6b8dfaf70.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "仕事"
@@ -184,11 +192,12 @@
     "question": "今日は六時まで仕事が終わらないから、それまで近くのカフェにいてね。",
     "answer": "I won't be able to sign off work until six o'clock today, so stay in a nearby cafe until then.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e7d2218c-f05e-406c-bff0-911168f1ebda",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

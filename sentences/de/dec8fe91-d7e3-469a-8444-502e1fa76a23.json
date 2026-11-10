@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-d1b4b8aecc518b6c89437bb445b88ce2b885070b4e91e62c803072e7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-d1b4b8aecc518b6c89437bb445b88ce2b885070b4e91e62c803072e7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "従う"
@@ -282,11 +290,12 @@
     "question": "従業員だからって、社長の決定に絶対に従わなければならないってことはないんだよ。",
     "answer": "Just because you're an employee doesn't mean you have to blindly follow the CEO's decisions.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "dec8fe91-d7e3-469a-8444-502e1fa76a23",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-4399a51c3b67d0a6ad5a545a1a61392aba53d8031c3890eebe047862.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-4399a51c3b67d0a6ad5a545a1a61392aba53d8031c3890eebe047862.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "打つ"
@@ -107,11 +115,12 @@
     "question": "ホームランを打つ名人になりたい。",
     "answer": "I want to be an expert at hitting home runs.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "ea78ad2b-0e64-4531-946f-1afe36f353a0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

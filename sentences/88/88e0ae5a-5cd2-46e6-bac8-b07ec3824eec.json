@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c63b4d45992a6ffb735b42f7103e7e8becb97bc653105bc60e8f78f0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c63b4d45992a6ffb735b42f7103e7e8becb97bc653105bc60e8f78f0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "現す"
@@ -93,11 +101,12 @@
     "question": "勇者は正体を現したモンスターをやっつけた。",
     "answer": "The brave man defeated the monster that showed its true form.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "88e0ae5a-5cd2-46e6-bac8-b07ec3824eec",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

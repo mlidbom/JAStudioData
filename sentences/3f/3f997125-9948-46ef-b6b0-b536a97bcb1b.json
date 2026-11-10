@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6230855f7f430f07bd52ef2bd11c85a3d45ac19a527ddbbe576afdf0.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6230855f7f430f07bd52ef2bd11c85a3d45ac19a527ddbbe576afdf0.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "隔週"
@@ -240,11 +248,12 @@
     "question": "このアニメは隔週で放送されていて、私はそのオープニング曲とエンディング曲が好きです。",
     "answer": "This anime airs every other week and I like its opening and ending songs.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "3f997125-9948-46ef-b6b0-b536a97bcb1b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

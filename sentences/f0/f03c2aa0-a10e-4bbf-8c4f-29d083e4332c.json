@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-6b8f236ca9238ef1062f7a307cbc7f0068eaca5e01b44d373236bb13.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-6b8f236ca9238ef1062f7a307cbc7f0068eaca5e01b44d373236bb13.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "左利き"
@@ -107,11 +115,12 @@
     "question": "左利きの人向けのハサミはありますか？",
     "answer": "Do you have scissors for left-handed people?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "f03c2aa0-a10e-4bbf-8c4f-29d083e4332c",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -28,9 +28,15 @@
   ],
   "register": [],
   "usuallyWrittenInKana": null,
-  "audioB": "",
-  "audioG": "",
-  "audioTTS": "[sound:hypertts-1be88d33a239d2a59db6cff1878de28cbd0ad6eb5e30c4869aa4a654.mp3]",
+  "audio": [
+    {
+      "fileName": "hypertts-1be88d33a239d2a59db6cff1878de28cbd0ad6eb5e30c4869aa4a654.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
   "forms": [
     {
       "text": "夜ふけ",
@@ -44,8 +50,7 @@
   "sentenceCount": 1,
   "technicalNotes": "",
   "references": "",
-  "image": "",
-  "userImage": "",
+  "images": [],
   "matching": {
     "requiredOrForbidden": {},
     "flags": [],
@@ -69,7 +74,9 @@
   "sourceData": {
     "answer": "late-at-night/small-hours-of-the-morning",
     "mnemonic": "",
-    "readingMnemonic": ""
+    "readingMnemonic": "",
+    "audio": [],
+    "images": []
   },
   "id": "46ae2acb-6e93-4b69-8dc0-c2393fb60543",
   "tags": [

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a49eb55d38ea47632c3d7de4773a7a899d32a03c2747253d6ed7e5e4.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a49eb55d38ea47632c3d7de4773a7a899d32a03c2747253d6ed7e5e4.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "俗語"
@@ -86,11 +94,12 @@
     "question": "この俗語はアメリカ独特の表現です。",
     "answer": "This colloquialism is an expression unique to America.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bc55fcb9-668c-499e-959d-3b3555f4fe55",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

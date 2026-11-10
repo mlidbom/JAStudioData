@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-c06080ffa62369d9cd99c0c572d73f1d8f8f6bb9e627ded8a46c4e71.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-c06080ffa62369d9cd99c0c572d73f1d8f8f6bb9e627ded8a46c4e71.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "製品"
@@ -233,11 +241,12 @@
     "question": "あの会社はこの製品について本当のことを言っていない気がするんです。",
     "answer": "I have a feeling that the company is not telling the truth about these manufactured goods.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e6aed2a4-2344-4a52-93b1-6bc3a3fd7604",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

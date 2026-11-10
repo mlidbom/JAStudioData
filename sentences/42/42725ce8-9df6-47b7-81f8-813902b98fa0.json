@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-1c8ff239798168fc18685cec94aa7be0e1f24c335576dc8554b8decc.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-1c8ff239798168fc18685cec94aa7be0e1f24c335576dc8554b8decc.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "羽"
@@ -114,11 +122,12 @@
     "question": "この虫には赤い羽がある。",
     "answer": "This insect has red wings.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "42725ce8-9df6-47b7-81f8-813902b98fa0",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

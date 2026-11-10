@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-0a6dd39eaaf044a13809f4a319668434134cd2dbb6905e9b533e7846.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-0a6dd39eaaf044a13809f4a319668434134cd2dbb6905e9b533e7846.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "詐欺師"
@@ -247,11 +255,12 @@
     "question": "派手にお金を使っているなぁと思っていたら、詐欺師だったんですね！",
     "answer": "I thought you are a big spender, and you turned out to be a con artist.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a7fa3856-cfdf-416e-b24e-e22d2b44366b",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

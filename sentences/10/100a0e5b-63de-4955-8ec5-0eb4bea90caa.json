@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-3836657ebcff00de6a692383c8e294ec162e4f619148fa7fdb3db069.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-3836657ebcff00de6a692383c8e294ec162e4f619148fa7fdb3db069.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "牛"
@@ -72,11 +80,12 @@
     "question": "うちのペットは牛です。",
     "answer": "My pet is a cow.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "100a0e5b-63de-4955-8ec5-0eb4bea90caa",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

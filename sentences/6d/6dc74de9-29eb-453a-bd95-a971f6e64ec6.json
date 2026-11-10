@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-9dec768f98e97a2ae772290f69ba807d2f04744eda704b2c705c5b99.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-9dec768f98e97a2ae772290f69ba807d2f04744eda704b2c705c5b99.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "胃痛"
@@ -114,11 +122,12 @@
     "question": "禁煙してから、激しい胃痛も治まっている。",
     "answer": "Since I quit smoking my intense stomach aches have also stopped.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "6dc74de9-29eb-453a-bd95-a971f6e64ec6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

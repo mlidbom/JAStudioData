@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-561ef59a6b84ffa848b79287e8ef35e43c72fdd0ee10059cdced62f2.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-561ef59a6b84ffa848b79287e8ef35e43c72fdd0ee10059cdced62f2.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-DaichiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "設定する"
@@ -163,11 +171,12 @@
     "question": "あなたの新しいビジネス用のメールアカウントを、グーグルに設定しました。",
     "answer": "I set up a new business mail account in Google for you.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d5572f22-933e-4db3-abbf-257d8da0790d",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

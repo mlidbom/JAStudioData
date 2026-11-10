@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-a74baf7ed59710b6730fa9573fce69193ba393f67ec8b2d45c1e37bb.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-a74baf7ed59710b6730fa9573fce69193ba393f67ec8b2d45c1e37bb.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "撃つ"
@@ -114,11 +122,12 @@
     "question": "いや、あのクマを撃つ必要はないだろ。",
     "answer": "No, there's no need to shoot that bear.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5687de07-1695-4b04-ab7a-21a673aa7eb6",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

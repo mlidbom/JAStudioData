@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e57a51d67dc85ea4a9c44cf2246f4dded8b8964fbc44d2d180daae9a.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e57a51d67dc85ea4a9c44cf2246f4dded8b8964fbc44d2d180daae9a.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "恐慌"
@@ -135,11 +143,12 @@
     "question": "私が留守だった日、村は恐慌に包まれた。",
     "answer": "The village was consumed with panic on the day I wasn't there.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "a561156b-454d-4233-a485-efb8f5804300",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-b9def19c73bfa940098adc50e8c2f8ac10dad95636e5c5342635ca42.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-b9def19c73bfa940098adc50e8c2f8ac10dad95636e5c5342635ca42.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "曜日"
@@ -93,11 +101,12 @@
     "question": "水曜日は、日本語のレッスンがあります。",
     "answer": "I have Japanese lessons on Wednesdays.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "e2c7da4a-8c50-4c31-84e7-4616b2120375",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

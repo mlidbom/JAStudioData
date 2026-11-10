@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-ee199d21ff11aed2b2b8f963406b1ed23b9fa8540ea82e72f1bba52f.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-ee199d21ff11aed2b2b8f963406b1ed23b9fa8540ea82e72f1bba52f.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-ShioriNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "戯れる"
@@ -156,11 +164,12 @@
     "question": "子犬と戯れている少女の写真を撮りました。",
     "answer": "I took a picture of the puppy and the girl playing with it.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "2215e99a-f394-4805-9985-f4974a37a605",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

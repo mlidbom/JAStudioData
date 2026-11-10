@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-266aa7270282416e65f7f6c5f4cdbc3c89374a319f82118c74fabfb7.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-266aa7270282416e65f7f6c5f4cdbc3c89374a319f82118c74fabfb7.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-MayuNeural",
+      "voiceGender": "female"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "噴射"
@@ -121,11 +129,12 @@
     "question": "催涙スプレーの噴射方法を教えてください。",
     "answer": "Please show me how to spray tear gas.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "d97a3fd3-bb5a-4328-9310-6c5aafceb036",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

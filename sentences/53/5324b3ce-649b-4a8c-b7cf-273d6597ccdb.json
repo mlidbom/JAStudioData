@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-e6ac1f4dde807a71458b49be1ccfaca9d77838b8d554d924a123c960.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-e6ac1f4dde807a71458b49be1ccfaca9d77838b8d554d924a123c960.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-NaokiNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "振る"
@@ -100,11 +108,12 @@
     "question": "よく振ってから飲んでください。",
     "answer": "Please shake it well before drinking.",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "5324b3ce-649b-4a8c-b7cf-273d6597ccdb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }

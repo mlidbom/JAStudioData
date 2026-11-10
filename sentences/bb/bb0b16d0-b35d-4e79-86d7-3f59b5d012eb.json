@@ -3,8 +3,16 @@
   "corpusAnswer": "",
   "comments": "",
   "reading": "",
-  "audio": "[sound:hypertts-dd0e377f69f127ff60dac3690db5da90fd6e0b6892bf771cf5782fd9.mp3]",
-  "screenshot": "",
+  "audio": [
+    {
+      "fileName": "hypertts-dd0e377f69f127ff60dac3690db5da90fd6e0b6892bf771cf5782fd9.mp3",
+      "isOurs": true,
+      "isTextToSpeech": true,
+      "textToSpeechVoice": "Azure ja-JP-KeitaNeural",
+      "voiceGender": "male"
+    }
+  ],
+  "screenshots": [],
   "configuration": {
     "highlightedWords": [
       "左腕"
@@ -100,11 +108,12 @@
     "question": "あれ、あのピッチャー、左腕投手だったっけ？",
     "answer": "Huh, was that pitcher a left-hander?",
     "comments": "",
-    "externalId": ""
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
   },
   "id": "bb0b16d0-b35d-4e79-86d7-3f59b5d012eb",
   "tags": [
-    "_tts_audio",
     "source::wani::current"
   ]
 }
