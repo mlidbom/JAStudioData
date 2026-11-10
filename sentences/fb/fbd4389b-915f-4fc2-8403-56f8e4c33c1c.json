@@ -7,7 +7,12 @@
   "screenshot": "<img src=\"A_Girls'_Last_Tour_S01_03_0.06.42.673.jpg\">",
   "configuration": {
     "highlightedWords": [],
-    "incorrectMatches": [],
+    "incorrectMatches": [
+      {
+        "word": "じゃないか",
+        "index": 6
+      }
+    ],
     "hiddenMatches": []
   },
   "parsingResult": {
@@ -67,28 +72,35 @@
         "variant": "S",
         "startIndex": 10,
         "isDisplayed": true,
+        "parsedForm": "かな",
+        "vocabId": "d7fbb2d2-b1fe-4483-89d7-8f4f2bca852d"
+      },
+      {
+        "variant": "S",
+        "startIndex": 10,
+        "isDisplayed": false,
         "parsedForm": "か",
         "vocabId": "fa01f6d1-0021-4f11-a8aa-eb4b0b6bc533"
       },
       {
-        "variant": "B",
+        "variant": "S",
         "startIndex": 11,
-        "isDisplayed": true,
-        "parsedForm": "なる",
-        "vocabId": "9b45c525-8634-48f9-9a05-7b7c37a828c4"
+        "isDisplayed": false,
+        "parsedForm": "な",
+        "vocabId": "89b0d902-b2dd-4f1f-a0dc-4f6565616c64"
       },
       {
         "variant": "S",
-        "startIndex": 13,
+        "startIndex": 12,
         "isDisplayed": true,
-        "parsedForm": "て",
-        "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+        "parsedForm": "って",
+        "vocabId": "e7744e50-5174-4bca-afc7-6ad527634ad9"
       }
     ]
   },
   "sourceName": "",
   "sourceData": {
-    "question": "上層の入り口じゃないかなって",
+    "question": "上層の入り口じゃないかな<wbr>って",
     "answer": "Thought it might be a way to get to a higher level.",
     "comments": "",
     "externalId": "A_Girls'_Last_Tour_S01_E03_0457"
