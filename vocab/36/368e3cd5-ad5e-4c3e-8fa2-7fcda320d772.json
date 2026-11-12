@@ -35,29 +35,7 @@
     "condition": {
       "allOf": [
         {
-          "anyOf": [
-            {
-              "precedingToken": {
-                "fact": "pastTenseStem"
-              }
-            },
-            {
-              "allOf": [
-                {
-                  "not": {
-                    "precedingText": {
-                      "fact": "empty"
-                    }
-                  }
-                },
-                {
-                  "firstToken": {
-                    "fact": "pastTenseMarker"
-                  }
-                }
-              ]
-            }
-          ]
+          "sharedCondition": "FollowsAPastTenseStem"
         }
       ]
     },

@@ -54,30 +54,12 @@
       "allOf": [
         {
           "not": {
-            "firstToken": {
-              "anyOf": [
-                {
-                  "fact": "godanPotentialStem"
-                },
-                {
-                  "fact": "godanPotentialInflection"
-                }
-              ]
-            }
+            "sharedCondition": "StartsInAGodanPotentialForm"
           }
         },
         {
           "not": {
-            "firstToken": {
-              "anyOf": [
-                {
-                  "fact": "godanImperativeStem"
-                },
-                {
-                  "fact": "godanImperativeInflection"
-                }
-              ]
-            }
+            "sharedCondition": "StartsInAGodanImperative"
           }
         }
       ]

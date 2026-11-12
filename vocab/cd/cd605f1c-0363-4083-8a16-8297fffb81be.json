@@ -149,16 +149,7 @@
     "condition": {
       "allOf": [
         {
-          "firstToken": {
-            "anyOf": [
-              {
-                "fact": "godanPotentialStem"
-              },
-              {
-                "fact": "godanPotentialInflection"
-              }
-            ]
-          }
+          "sharedCondition": "StartsInAGodanPotentialForm"
         }
       ]
     },
