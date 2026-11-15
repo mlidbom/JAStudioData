@@ -117,6 +117,193 @@
       }
     ]
   },
+  "parsingCase": {
+    "name": "misc stuff",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.MiscStuff, against vocab copied by hand, expected the breakdown to display: どやす | あれる | ても知らん:ても知らない | ぞ.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "どやす",
+          "vocabId": "9b52a926-5642-49e8-b025-4b4976e95bf6"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": false,
+          "parsedForm": "あれても",
+          "vocabId": "246ec33e-d622-46fa-8455-5a14bae92b8e"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": false,
+          "parsedForm": "あれて",
+          "vocabId": "182b5f91-17e6-41ce-b062-bad3478d55a9"
+        },
+        {
+          "variant": "B",
+          "startIndex": 2,
+          "isDisplayed": true,
+          "parsedForm": "あれる",
+          "vocabId": "de54cf82-4edc-4afa-9996-189f8a4811f0"
+        },
+        {
+          "variant": "S",
+          "startIndex": 4,
+          "isDisplayed": true,
+          "parsedForm": "ても知らん",
+          "vocabId": "965b9490-7f01-4e93-a69c-57bfa6c21dbb"
+        },
+        {
+          "variant": "S",
+          "startIndex": 4,
+          "isDisplayed": false,
+          "parsedForm": "ても",
+          "vocabId": "0fd262c2-58c4-481f-9d0a-1a396c7ec21e"
+        },
+        {
+          "variant": "S",
+          "startIndex": 4,
+          "isDisplayed": false,
+          "parsedForm": "て",
+          "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+        },
+        {
+          "variant": "S",
+          "startIndex": 5,
+          "isDisplayed": false,
+          "parsedForm": "も",
+          "vocabId": "156f9454-37f8-4b10-a6e7-3abe39897c8b"
+        },
+        {
+          "variant": "S",
+          "startIndex": 6,
+          "isDisplayed": false,
+          "parsedForm": "知らん",
+          "vocabId": "fc8e304a-6a77-4286-b8b5-e2de0db56c1a"
+        },
+        {
+          "variant": "B",
+          "startIndex": 6,
+          "isDisplayed": false,
+          "parsedForm": "知る",
+          "vocabId": "fb0e3a15-2614-4c07-b054-37288fe37f9e"
+        },
+        {
+          "variant": "S",
+          "startIndex": 8,
+          "isDisplayed": false,
+          "parsedForm": "ん",
+          "vocabId": "cc6433c2-80a1-498d-8f0d-9da2a46c2885"
+        },
+        {
+          "variant": "S",
+          "startIndex": 9,
+          "isDisplayed": true,
+          "parsedForm": "ぞ",
+          "vocabId": "9d5f55c2-44a8-48f4-b781-2e59bd6a6881"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "どやす",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "9b52a926-5642-49e8-b025-4b4976e95bf6"
+            },
+            {
+              "form": "あれる",
+              "startIndex": 2,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "de54cf82-4edc-4afa-9996-189f8a4811f0"
+            },
+            {
+              "form": "ても知らん",
+              "startIndex": 4,
+              "variant": "S",
+              "shownAs": "ても知らない",
+              "isEmergencyDisplayed": false,
+              "vocabId": "965b9490-7f01-4e93-a69c-57bfa6c21dbb"
+            },
+            {
+              "form": "ぞ",
+              "startIndex": 9,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "9d5f55c2-44a8-48f4-b781-2e59bd6a6881"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "どやす",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "9b52a926-5642-49e8-b025-4b4976e95bf6"
+            },
+            {
+              "form": "あれる",
+              "startIndex": 2,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "de54cf82-4edc-4afa-9996-189f8a4811f0"
+            },
+            {
+              "form": "て",
+              "startIndex": 4,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+            },
+            {
+              "form": "も",
+              "startIndex": 5,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "156f9454-37f8-4b10-a6e7-3abe39897c8b"
+            },
+            {
+              "form": "知る",
+              "startIndex": 6,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "fb0e3a15-2614-4c07-b054-37288fe37f9e"
+            },
+            {
+              "form": "ん",
+              "startIndex": 8,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "cc6433c2-80a1-498d-8f0d-9da2a46c2885"
+            },
+            {
+              "form": "ぞ",
+              "startIndex": 9,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "9d5f55c2-44a8-48f4-b781-2e59bd6a6881"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "id": "44339964-b305-434e-90f4-b6788fc7e6d2",
   "tags": [
     "source::anime::natsume::s2::05"

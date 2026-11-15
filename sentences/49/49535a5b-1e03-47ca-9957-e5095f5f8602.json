@@ -119,6 +119,227 @@
       }
     ]
   },
+  "parsingCase": {
+    "name": "misc stuff",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.MiscStuff, against vocab copied by hand, expected the breakdown to display: 幼い | すぎる | て | よく | 覚える | ている | ない | けど.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "幼い",
+          "vocabId": "05600be9-b0cb-43eb-abdb-80f3707ded49"
+        },
+        {
+          "variant": "B",
+          "startIndex": 1,
+          "isDisplayed": true,
+          "parsedForm": "すぎる",
+          "vocabId": "25bda401-0dc0-4d15-801a-0a2240d7e67f"
+        },
+        {
+          "variant": "S",
+          "startIndex": 3,
+          "isDisplayed": true,
+          "parsedForm": "て",
+          "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+        },
+        {
+          "variant": "S",
+          "startIndex": 5,
+          "isDisplayed": true,
+          "parsedForm": "よく",
+          "vocabId": "ddfee03d-a535-452e-98d6-e9d7fa8e2954"
+        },
+        {
+          "variant": "B",
+          "startIndex": 7,
+          "isDisplayed": true,
+          "parsedForm": "覚える",
+          "vocabId": "fbefc73c-975f-450f-adf4-131235e8b806"
+        },
+        {
+          "variant": "S",
+          "startIndex": 9,
+          "isDisplayed": true,
+          "parsedForm": "ていない",
+          "vocabId": "e15f35c4-0fb1-40f6-91ec-8bb97fef3f12"
+        },
+        {
+          "variant": "B",
+          "startIndex": 9,
+          "isDisplayed": false,
+          "parsedForm": "ている",
+          "vocabId": "601ea2f0-ede3-4250-841e-60968bb13785"
+        },
+        {
+          "variant": "S",
+          "startIndex": 9,
+          "isDisplayed": false,
+          "parsedForm": "て",
+          "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+        },
+        {
+          "variant": "S",
+          "startIndex": 10,
+          "isDisplayed": false,
+          "parsedForm": "いない",
+          "vocabId": "dc9dc716-6d7f-481d-b5fc-f0ce4571644c"
+        },
+        {
+          "variant": "B",
+          "startIndex": 10,
+          "isDisplayed": false,
+          "parsedForm": "いる",
+          "vocabId": "8211800d-5642-41a5-b7e6-184e6d052d66"
+        },
+        {
+          "variant": "S",
+          "startIndex": 11,
+          "isDisplayed": false,
+          "parsedForm": "ない",
+          "vocabId": "1d4932a0-8cac-4af7-8a41-3b8a0d69fe9f"
+        },
+        {
+          "variant": "S",
+          "startIndex": 13,
+          "isDisplayed": true,
+          "parsedForm": "けど",
+          "vocabId": "fd306f09-1bc3-4f74-ab92-95e10af2db51"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "幼い",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "05600be9-b0cb-43eb-abdb-80f3707ded49"
+            },
+            {
+              "form": "すぎる",
+              "startIndex": 1,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "25bda401-0dc0-4d15-801a-0a2240d7e67f"
+            },
+            {
+              "form": "て",
+              "startIndex": 3,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+            },
+            {
+              "form": "よく",
+              "startIndex": 5,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "ddfee03d-a535-452e-98d6-e9d7fa8e2954"
+            },
+            {
+              "form": "覚える",
+              "startIndex": 7,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "fbefc73c-975f-450f-adf4-131235e8b806"
+            },
+            {
+              "form": "ていない",
+              "startIndex": 9,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "e15f35c4-0fb1-40f6-91ec-8bb97fef3f12"
+            },
+            {
+              "form": "けど",
+              "startIndex": 13,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "fd306f09-1bc3-4f74-ab92-95e10af2db51"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "幼い",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "05600be9-b0cb-43eb-abdb-80f3707ded49"
+            },
+            {
+              "form": "すぎる",
+              "startIndex": 1,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "25bda401-0dc0-4d15-801a-0a2240d7e67f"
+            },
+            {
+              "form": "て",
+              "startIndex": 3,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+            },
+            {
+              "form": "よく",
+              "startIndex": 5,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "ddfee03d-a535-452e-98d6-e9d7fa8e2954"
+            },
+            {
+              "form": "覚える",
+              "startIndex": 7,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "fbefc73c-975f-450f-adf4-131235e8b806"
+            },
+            {
+              "form": "て",
+              "startIndex": 9,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+            },
+            {
+              "form": "いる",
+              "startIndex": 10,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "8211800d-5642-41a5-b7e6-184e6d052d66"
+            },
+            {
+              "form": "ない",
+              "startIndex": 11,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "1d4932a0-8cac-4af7-8a41-3b8a0d69fe9f"
+            },
+            {
+              "form": "けど",
+              "startIndex": 13,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "fd306f09-1bc3-4f74-ab92-95e10af2db51"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "id": "49535a5b-1e03-47ca-9957-e5095f5f8602",
   "tags": [
     "source::anime::natsume::s4::12"

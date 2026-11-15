@@ -1,0 +1,249 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "子供だって知ってる",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "子供",
+        "vocabId": "68b40e62-a412-490e-a14a-b361e454260e"
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "だって",
+        "vocabId": "5cc160fc-9a00-42d0-9931-786832956d0e"
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": true,
+        "parsedForm": "知ってる",
+        "vocabId": "93cc7ef1-75fe-41e1-a1f1-df8aaf67cc07"
+      },
+      {
+        "variant": "B",
+        "startIndex": 5,
+        "isDisplayed": false,
+        "parsedForm": "知る",
+        "vocabId": "fb0e3a15-2614-4c07-b054-37288fe37f9e"
+      },
+      {
+        "variant": "S",
+        "startIndex": 7,
+        "isDisplayed": false,
+        "parsedForm": "てる",
+        "vocabId": "4c8d7119-0464-426c-88b7-ee97c1554eb5"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "子供だって知ってる",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "だって before a verb not of saying, thinking or hearing displays as だって",
+    "why": "Converted from When_analyzing_a_sentence_containing_datte.where_datte_is_directly_followed_by_a_verb_that_is_not_a_verb_of_saying_thinking_or_hearing, against vocab copied by hand, which expected the breakdown to display: 子供 | だって | 知る | てる.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "子供",
+          "vocabId": "68b40e62-a412-490e-a14a-b361e454260e"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": true,
+          "parsedForm": "だって",
+          "vocabId": "5cc160fc-9a00-42d0-9931-786832956d0e"
+        },
+        {
+          "variant": "S",
+          "startIndex": 5,
+          "isDisplayed": true,
+          "parsedForm": "知ってる",
+          "vocabId": "93cc7ef1-75fe-41e1-a1f1-df8aaf67cc07"
+        },
+        {
+          "variant": "B",
+          "startIndex": 5,
+          "isDisplayed": false,
+          "parsedForm": "知る",
+          "vocabId": "fb0e3a15-2614-4c07-b054-37288fe37f9e"
+        },
+        {
+          "variant": "S",
+          "startIndex": 7,
+          "isDisplayed": false,
+          "parsedForm": "てる",
+          "vocabId": "4c8d7119-0464-426c-88b7-ee97c1554eb5"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false,
+            "hideCompositionallyTransparentCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "子供",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "68b40e62-a412-490e-a14a-b361e454260e"
+            },
+            {
+              "form": "だって",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "5cc160fc-9a00-42d0-9931-786832956d0e"
+            },
+            {
+              "form": "知ってる",
+              "startIndex": 5,
+              "variant": "S",
+              "shownAs": "知っている",
+              "isEmergencyDisplayed": false,
+              "vocabId": "93cc7ef1-75fe-41e1-a1f1-df8aaf67cc07"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": false,
+            "hideCompositionallyTransparentCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "子供",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "68b40e62-a412-490e-a14a-b361e454260e"
+            },
+            {
+              "form": "だって",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "5cc160fc-9a00-42d0-9931-786832956d0e"
+            },
+            {
+              "form": "知る",
+              "startIndex": 5,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "fb0e3a15-2614-4c07-b054-37288fe37f9e"
+            },
+            {
+              "form": "てる",
+              "startIndex": 7,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "4c8d7119-0464-426c-88b7-ee97c1554eb5"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true,
+            "hideCompositionallyTransparentCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "子供",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "68b40e62-a412-490e-a14a-b361e454260e"
+            },
+            {
+              "form": "だって",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "5cc160fc-9a00-42d0-9931-786832956d0e"
+            },
+            {
+              "form": "知る",
+              "startIndex": 5,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "fb0e3a15-2614-4c07-b054-37288fe37f9e"
+            },
+            {
+              "form": "てる",
+              "startIndex": 7,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "4c8d7119-0464-426c-88b7-ee97c1554eb5"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true,
+            "hideCompositionallyTransparentCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "子供",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "68b40e62-a412-490e-a14a-b361e454260e"
+            },
+            {
+              "form": "だって",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "5cc160fc-9a00-42d0-9931-786832956d0e"
+            },
+            {
+              "form": "知る",
+              "startIndex": 5,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "fb0e3a15-2614-4c07-b054-37288fe37f9e"
+            },
+            {
+              "form": "てる",
+              "startIndex": 7,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "4c8d7119-0464-426c-88b7-ee97c1554eb5"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "1b090d2c-83f3-4562-8dd4-a20b28a21248",
+  "tags": []
+}

@@ -54,6 +54,64 @@
       }
     ]
   },
+  "parsingCase": {
+    "name": "godan potential and imperative",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.GodanPotentialAndImperative, against vocab copied by hand, expected the breakdown to display: 返す | え | 盗人.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "返す",
+          "vocabId": "6aa51efa-95a2-4d34-8c16-7debb4ceeec5"
+        },
+        {
+          "variant": "B",
+          "startIndex": 1,
+          "isDisplayed": true,
+          "parsedForm": "え",
+          "vocabId": "602a5d49-874c-4f77-a5de-9ddbd99ee156"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": true,
+          "parsedForm": "盗人",
+          "vocabId": "1c9a6df5-abc9-4433-a1f4-bca7ca5157ca"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {},
+          "displayedWords": [
+            {
+              "form": "返す",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "6aa51efa-95a2-4d34-8c16-7debb4ceeec5"
+            },
+            {
+              "form": "え",
+              "startIndex": 1,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "602a5d49-874c-4f77-a5de-9ddbd99ee156"
+            },
+            {
+              "form": "盗人",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "1c9a6df5-abc9-4433-a1f4-bca7ca5157ca"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "id": "96b890df-a05e-4475-958f-b0adf1aba170",
   "tags": [
     "source::anime::natsume::s4::03"

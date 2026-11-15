@@ -1,0 +1,286 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "長居してしまいまして",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "B",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "長居する",
+        "vocabId": "30ce847e-a3ae-42e9-965e-7b5d95d3d872"
+      },
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": false,
+        "parsedForm": "長居",
+        "vocabId": "894a0e3e-8472-4ded-ba8a-e6dd4e6f4ca9"
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "して",
+        "vocabId": "50c8f12a-9c6a-456b-b8c0-306887458d32"
+      },
+      {
+        "variant": "B",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "する",
+        "vocabId": "2ae61cd0-5be8-4599-b48d-a78f97423ddb"
+      },
+      {
+        "variant": "B",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "てしまいます",
+        "vocabId": "ec92beab-d0e6-4a35-8fee-ecb08143cab7"
+      },
+      {
+        "variant": "B",
+        "startIndex": 3,
+        "isDisplayed": false,
+        "parsedForm": "てしまう",
+        "vocabId": "c4365a2e-df48-46b5-a1ec-72607e5b0d1b"
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": false,
+        "parsedForm": "て",
+        "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+      },
+      {
+        "variant": "B",
+        "startIndex": 4,
+        "isDisplayed": false,
+        "parsedForm": "しまいます",
+        "vocabId": "787a4f19-a5e9-4c0c-9905-f03bcb34f440"
+      },
+      {
+        "variant": "B",
+        "startIndex": 4,
+        "isDisplayed": false,
+        "parsedForm": "しまう",
+        "vocabId": "49a757e5-352c-4526-a118-c665361fea66"
+      },
+      {
+        "variant": "S",
+        "startIndex": 7,
+        "isDisplayed": false,
+        "parsedForm": "まして",
+        "vocabId": "4cc6ab1e-18e2-45ac-abe8-955dfdefee9c"
+      },
+      {
+        "variant": "B",
+        "startIndex": 7,
+        "isDisplayed": false,
+        "parsedForm": "ます",
+        "vocabId": "d3765dc0-d7b5-439a-81ab-84ba2f89b7b7"
+      },
+      {
+        "variant": "S",
+        "startIndex": 9,
+        "isDisplayed": true,
+        "parsedForm": "て",
+        "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "長居してしまいまして",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "require forbid te prefix or stem",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.RequireForbidTePrefixOrStem, against vocab copied by hand, expected the breakdown to display: 長居 | する | てしまいます | て.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "長居する",
+          "vocabId": "30ce847e-a3ae-42e9-965e-7b5d95d3d872"
+        },
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": false,
+          "parsedForm": "長居",
+          "vocabId": "894a0e3e-8472-4ded-ba8a-e6dd4e6f4ca9"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": false,
+          "parsedForm": "して",
+          "vocabId": "50c8f12a-9c6a-456b-b8c0-306887458d32"
+        },
+        {
+          "variant": "B",
+          "startIndex": 2,
+          "isDisplayed": false,
+          "parsedForm": "する",
+          "vocabId": "2ae61cd0-5be8-4599-b48d-a78f97423ddb"
+        },
+        {
+          "variant": "B",
+          "startIndex": 3,
+          "isDisplayed": true,
+          "parsedForm": "てしまいます",
+          "vocabId": "ec92beab-d0e6-4a35-8fee-ecb08143cab7"
+        },
+        {
+          "variant": "B",
+          "startIndex": 3,
+          "isDisplayed": false,
+          "parsedForm": "てしまう",
+          "vocabId": "c4365a2e-df48-46b5-a1ec-72607e5b0d1b"
+        },
+        {
+          "variant": "S",
+          "startIndex": 3,
+          "isDisplayed": false,
+          "parsedForm": "て",
+          "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+        },
+        {
+          "variant": "B",
+          "startIndex": 4,
+          "isDisplayed": false,
+          "parsedForm": "しまいます",
+          "vocabId": "787a4f19-a5e9-4c0c-9905-f03bcb34f440"
+        },
+        {
+          "variant": "B",
+          "startIndex": 4,
+          "isDisplayed": false,
+          "parsedForm": "しまう",
+          "vocabId": "49a757e5-352c-4526-a118-c665361fea66"
+        },
+        {
+          "variant": "S",
+          "startIndex": 7,
+          "isDisplayed": false,
+          "parsedForm": "まして",
+          "vocabId": "4cc6ab1e-18e2-45ac-abe8-955dfdefee9c"
+        },
+        {
+          "variant": "B",
+          "startIndex": 7,
+          "isDisplayed": false,
+          "parsedForm": "ます",
+          "vocabId": "d3765dc0-d7b5-439a-81ab-84ba2f89b7b7"
+        },
+        {
+          "variant": "S",
+          "startIndex": 9,
+          "isDisplayed": true,
+          "parsedForm": "て",
+          "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "長居する",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "30ce847e-a3ae-42e9-965e-7b5d95d3d872"
+            },
+            {
+              "form": "てしまいます",
+              "startIndex": 3,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "ec92beab-d0e6-4a35-8fee-ecb08143cab7"
+            },
+            {
+              "form": "て",
+              "startIndex": 9,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "長居",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "894a0e3e-8472-4ded-ba8a-e6dd4e6f4ca9"
+            },
+            {
+              "form": "する",
+              "startIndex": 2,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "2ae61cd0-5be8-4599-b48d-a78f97423ddb"
+            },
+            {
+              "form": "て",
+              "startIndex": 3,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+            },
+            {
+              "form": "しまう",
+              "startIndex": 4,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "49a757e5-352c-4526-a118-c665361fea66"
+            },
+            {
+              "form": "ます",
+              "startIndex": 7,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "d3765dc0-d7b5-439a-81ab-84ba2f89b7b7"
+            },
+            {
+              "form": "て",
+              "startIndex": 9,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "8e1de9d2-ef2e-40cd-8ac0-937908927f79",
+  "tags": []
+}

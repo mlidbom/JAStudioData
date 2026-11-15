@@ -1,0 +1,216 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "ないと思う",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": false,
+        "parsedForm": "ないと",
+        "vocabId": "c2ba6369-13db-47e6-8b64-5928c0034323"
+      },
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "ない",
+        "vocabId": "5d1d65aa-6ed8-4bf4-893f-d9eb6b2321d3"
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "と思う",
+        "vocabId": "a033d6b2-90c1-4eff-84d3-04864b980fb8"
+      },
+      {
+        "variant": "B",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "と思う",
+        "vocabId": "a033d6b2-90c1-4eff-84d3-04864b980fb8"
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "と",
+        "vocabId": "56979285-581f-4cba-b839-889bc5ce98aa"
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": false,
+        "parsedForm": "思う",
+        "vocabId": "c00ee19c-29d7-446a-80c8-729a9847d23a"
+      },
+      {
+        "variant": "B",
+        "startIndex": 3,
+        "isDisplayed": false,
+        "parsedForm": "思う",
+        "vocabId": "c00ee19c-29d7-446a-80c8-729a9847d23a"
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "う",
+        "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "ないと思う",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "misc stuff",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.MiscStuff, against vocab copied by hand, expected the breakdown to display: ない | と思う | う.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": false,
+          "parsedForm": "ないと",
+          "vocabId": "c2ba6369-13db-47e6-8b64-5928c0034323"
+        },
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "ない",
+          "vocabId": "5d1d65aa-6ed8-4bf4-893f-d9eb6b2321d3"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": true,
+          "parsedForm": "と思う",
+          "vocabId": "a033d6b2-90c1-4eff-84d3-04864b980fb8"
+        },
+        {
+          "variant": "B",
+          "startIndex": 2,
+          "isDisplayed": false,
+          "parsedForm": "と思う",
+          "vocabId": "a033d6b2-90c1-4eff-84d3-04864b980fb8"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": false,
+          "parsedForm": "と",
+          "vocabId": "56979285-581f-4cba-b839-889bc5ce98aa"
+        },
+        {
+          "variant": "S",
+          "startIndex": 3,
+          "isDisplayed": false,
+          "parsedForm": "思う",
+          "vocabId": "c00ee19c-29d7-446a-80c8-729a9847d23a"
+        },
+        {
+          "variant": "B",
+          "startIndex": 3,
+          "isDisplayed": false,
+          "parsedForm": "思う",
+          "vocabId": "c00ee19c-29d7-446a-80c8-729a9847d23a"
+        },
+        {
+          "variant": "S",
+          "startIndex": 4,
+          "isDisplayed": true,
+          "parsedForm": "う",
+          "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "ない",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "5d1d65aa-6ed8-4bf4-893f-d9eb6b2321d3"
+            },
+            {
+              "form": "と思う",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "a033d6b2-90c1-4eff-84d3-04864b980fb8"
+            },
+            {
+              "form": "う",
+              "startIndex": 4,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "ない",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "5d1d65aa-6ed8-4bf4-893f-d9eb6b2321d3"
+            },
+            {
+              "form": "と",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "56979285-581f-4cba-b839-889bc5ce98aa"
+            },
+            {
+              "form": "思う",
+              "startIndex": 3,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "c00ee19c-29d7-446a-80c8-729a9847d23a"
+            },
+            {
+              "form": "う",
+              "startIndex": 4,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "e4a96a5b-bbcf-4b24-812d-c4a13a1f20ea",
+  "tags": []
+}

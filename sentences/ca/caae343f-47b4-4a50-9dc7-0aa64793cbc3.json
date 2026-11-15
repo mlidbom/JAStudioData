@@ -1,0 +1,146 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "やり過ぎた",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "B",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "やり過ぎる",
+        "vocabId": "fe8de85a-f01e-4eab-823e-9b3a0fa4ecac"
+      },
+      {
+        "variant": "B",
+        "startIndex": 0,
+        "isDisplayed": false,
+        "parsedForm": "やる",
+        "vocabId": "c55ce9c1-95a9-45de-b8e4-c89204c918f8"
+      },
+      {
+        "variant": "B",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "過ぎる",
+        "vocabId": "6b7a1a1c-58ea-4196-8cd5-cc70ac6ba4da"
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "た",
+        "vocabId": "8ee8e382-e65c-4af4-81b6-ccd55babc91f"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "やり過ぎた",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "misc stuff",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.MiscStuff, against vocab copied by hand, expected the breakdown to display: やり過ぎる | た.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "やり過ぎる",
+          "vocabId": "fe8de85a-f01e-4eab-823e-9b3a0fa4ecac"
+        },
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": false,
+          "parsedForm": "やる",
+          "vocabId": "c55ce9c1-95a9-45de-b8e4-c89204c918f8"
+        },
+        {
+          "variant": "B",
+          "startIndex": 2,
+          "isDisplayed": false,
+          "parsedForm": "過ぎる",
+          "vocabId": "6b7a1a1c-58ea-4196-8cd5-cc70ac6ba4da"
+        },
+        {
+          "variant": "S",
+          "startIndex": 4,
+          "isDisplayed": true,
+          "parsedForm": "た",
+          "vocabId": "8ee8e382-e65c-4af4-81b6-ccd55babc91f"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "やり過ぎる",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "fe8de85a-f01e-4eab-823e-9b3a0fa4ecac"
+            },
+            {
+              "form": "た",
+              "startIndex": 4,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "8ee8e382-e65c-4af4-81b6-ccd55babc91f"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "やる",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "c55ce9c1-95a9-45de-b8e4-c89204c918f8"
+            },
+            {
+              "form": "過ぎる",
+              "startIndex": 2,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "6b7a1a1c-58ea-4196-8cd5-cc70ac6ba4da"
+            },
+            {
+              "form": "た",
+              "startIndex": 4,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "8ee8e382-e65c-4af4-81b6-ccd55babc91f"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "caae343f-47b4-4a50-9dc7-0aa64793cbc3",
+  "tags": []
+}

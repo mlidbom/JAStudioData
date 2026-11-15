@@ -89,6 +89,164 @@
       }
     ]
   },
+  "parsingCase": {
+    "name": "godan potential and imperative",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.GodanPotentialAndImperative, against vocab copied by hand, expected the breakdown to display: 綺麗 | 母様 | に | 見せる | う.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "綺麗",
+          "vocabId": "6a6d4d26-e5dc-4387-8a54-da39ec8c575b"
+        },
+        {
+          "variant": "S",
+          "startIndex": 3,
+          "isDisplayed": true,
+          "parsedForm": "母様",
+          "vocabId": "38daab8f-0707-4ef0-860a-7b1b0ae816a3"
+        },
+        {
+          "variant": "S",
+          "startIndex": 3,
+          "isDisplayed": false,
+          "parsedForm": "母",
+          "vocabId": "eda0ad0b-a495-412e-9040-b92f9c176086"
+        },
+        {
+          "variant": "S",
+          "startIndex": 4,
+          "isDisplayed": false,
+          "parsedForm": "様に",
+          "vocabId": "0bbdd2f2-1c97-4138-85ce-80b365582a29"
+        },
+        {
+          "variant": "S",
+          "startIndex": 4,
+          "isDisplayed": false,
+          "parsedForm": "様",
+          "vocabId": "0adae2c5-6cd4-4587-ac7b-517b864b5ce5"
+        },
+        {
+          "variant": "S",
+          "startIndex": 5,
+          "isDisplayed": true,
+          "parsedForm": "に",
+          "vocabId": "7391aab7-d24e-4260-8395-e7b757406ef6"
+        },
+        {
+          "variant": "B",
+          "startIndex": 6,
+          "isDisplayed": true,
+          "parsedForm": "見せる",
+          "vocabId": "9232a26f-ea27-4f6a-87fb-ae0980b66e27"
+        },
+        {
+          "variant": "S",
+          "startIndex": 8,
+          "isDisplayed": true,
+          "parsedForm": "おう",
+          "vocabId": "42cbfd74-ecd1-40b4-a265-0495417db3f0"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "綺麗",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "6a6d4d26-e5dc-4387-8a54-da39ec8c575b"
+            },
+            {
+              "form": "母様",
+              "startIndex": 3,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "38daab8f-0707-4ef0-860a-7b1b0ae816a3"
+            },
+            {
+              "form": "に",
+              "startIndex": 5,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "7391aab7-d24e-4260-8395-e7b757406ef6"
+            },
+            {
+              "form": "見せる",
+              "startIndex": 6,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "9232a26f-ea27-4f6a-87fb-ae0980b66e27"
+            },
+            {
+              "form": "おう",
+              "startIndex": 8,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "42cbfd74-ecd1-40b4-a265-0495417db3f0"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "綺麗",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "6a6d4d26-e5dc-4387-8a54-da39ec8c575b"
+            },
+            {
+              "form": "母",
+              "startIndex": 3,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "eda0ad0b-a495-412e-9040-b92f9c176086"
+            },
+            {
+              "form": "様",
+              "startIndex": 4,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "0adae2c5-6cd4-4587-ac7b-517b864b5ce5"
+            },
+            {
+              "form": "に",
+              "startIndex": 5,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "7391aab7-d24e-4260-8395-e7b757406ef6"
+            },
+            {
+              "form": "見せる",
+              "startIndex": 6,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "9232a26f-ea27-4f6a-87fb-ae0980b66e27"
+            },
+            {
+              "form": "おう",
+              "startIndex": 8,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "42cbfd74-ecd1-40b4-a265-0495417db3f0"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "id": "aec78681-3a0e-4c88-98ee-912cba04f21b",
   "tags": [
     "source::anime::natsume::s1::07"

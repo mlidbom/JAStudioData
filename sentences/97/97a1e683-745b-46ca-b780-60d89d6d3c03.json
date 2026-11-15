@@ -1,0 +1,146 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "磨げます",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "B",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "磨ぐ",
+        "vocabId": "42ccda04-b6a2-4ec0-8592-14ba4b5e42f2"
+      },
+      {
+        "variant": "S",
+        "startIndex": 1,
+        "isDisplayed": true,
+        "parsedForm": "えます",
+        "vocabId": "94faadf2-2525-4549-b628-3279f5ff2b8b"
+      },
+      {
+        "variant": "B",
+        "startIndex": 1,
+        "isDisplayed": false,
+        "parsedForm": "える",
+        "vocabId": "915ce682-39f5-4e53-92fe-c786863a0e86"
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "ます",
+        "vocabId": "d3765dc0-d7b5-439a-81ab-84ba2f89b7b7"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "磨げます",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "a godan potential form unknown to the tokenizer displays as a known one does",
+    "why": "Converted from When_analyzing_a_godan_potential_form_unknown_to_the_tokenizer, against vocab copied by hand, which expected 磨げます to display the words 泳げます does, with 磨 for 泳: 磨げる, the potential form of 磨ぐ, is missing from the tokenizer's dictionary, 泳げる isn't. Its pair is the case of 泳げます.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "磨ぐ",
+          "vocabId": "42ccda04-b6a2-4ec0-8592-14ba4b5e42f2"
+        },
+        {
+          "variant": "S",
+          "startIndex": 1,
+          "isDisplayed": true,
+          "parsedForm": "えます",
+          "vocabId": "94faadf2-2525-4549-b628-3279f5ff2b8b"
+        },
+        {
+          "variant": "B",
+          "startIndex": 1,
+          "isDisplayed": false,
+          "parsedForm": "える",
+          "vocabId": "915ce682-39f5-4e53-92fe-c786863a0e86"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": false,
+          "parsedForm": "ます",
+          "vocabId": "d3765dc0-d7b5-439a-81ab-84ba2f89b7b7"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "磨ぐ",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "42ccda04-b6a2-4ec0-8592-14ba4b5e42f2"
+            },
+            {
+              "form": "えます",
+              "startIndex": 1,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "94faadf2-2525-4549-b628-3279f5ff2b8b"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "磨ぐ",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "42ccda04-b6a2-4ec0-8592-14ba4b5e42f2"
+            },
+            {
+              "form": "える",
+              "startIndex": 1,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "915ce682-39f5-4e53-92fe-c786863a0e86"
+            },
+            {
+              "form": "ます",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "d3765dc0-d7b5-439a-81ab-84ba2f89b7b7"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "97a1e683-745b-46ca-b780-60d89d6d3c03",
+  "tags": []
+}

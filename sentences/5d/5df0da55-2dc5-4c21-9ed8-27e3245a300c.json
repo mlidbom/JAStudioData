@@ -1,0 +1,195 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "磨げなかった",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "B",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "磨ぐ",
+        "vocabId": "42ccda04-b6a2-4ec0-8592-14ba4b5e42f2"
+      },
+      {
+        "variant": "S",
+        "startIndex": 1,
+        "isDisplayed": true,
+        "parsedForm": "えなかった",
+        "vocabId": "be857380-04a1-49de-8ec5-e5999e471394"
+      },
+      {
+        "variant": "B",
+        "startIndex": 1,
+        "isDisplayed": false,
+        "parsedForm": "えない",
+        "vocabId": "efce9e5a-170d-4164-9308-3b7eeec0d090"
+      },
+      {
+        "variant": "B",
+        "startIndex": 1,
+        "isDisplayed": false,
+        "parsedForm": "える",
+        "vocabId": "915ce682-39f5-4e53-92fe-c786863a0e86"
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "なかった",
+        "vocabId": "2bce3998-071a-42f4-b58a-3f3408814ce8"
+      },
+      {
+        "variant": "B",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "ない",
+        "vocabId": "1d4932a0-8cac-4af7-8a41-3b8a0d69fe9f"
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": false,
+        "parsedForm": "た",
+        "vocabId": "8ee8e382-e65c-4af4-81b6-ccd55babc91f"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "磨げなかった",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "a godan potential form unknown to the tokenizer displays as a known one does",
+    "why": "Converted from When_analyzing_a_godan_potential_form_unknown_to_the_tokenizer, against vocab copied by hand, which expected 磨げなかった to display the words 泳げなかった does, with 磨 for 泳: 磨げる, the potential form of 磨ぐ, is missing from the tokenizer's dictionary, 泳げる isn't. Its pair is the case of 泳げなかった.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "磨ぐ",
+          "vocabId": "42ccda04-b6a2-4ec0-8592-14ba4b5e42f2"
+        },
+        {
+          "variant": "S",
+          "startIndex": 1,
+          "isDisplayed": true,
+          "parsedForm": "えなかった",
+          "vocabId": "be857380-04a1-49de-8ec5-e5999e471394"
+        },
+        {
+          "variant": "B",
+          "startIndex": 1,
+          "isDisplayed": false,
+          "parsedForm": "えない",
+          "vocabId": "efce9e5a-170d-4164-9308-3b7eeec0d090"
+        },
+        {
+          "variant": "B",
+          "startIndex": 1,
+          "isDisplayed": false,
+          "parsedForm": "える",
+          "vocabId": "915ce682-39f5-4e53-92fe-c786863a0e86"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": false,
+          "parsedForm": "なかった",
+          "vocabId": "2bce3998-071a-42f4-b58a-3f3408814ce8"
+        },
+        {
+          "variant": "B",
+          "startIndex": 2,
+          "isDisplayed": false,
+          "parsedForm": "ない",
+          "vocabId": "1d4932a0-8cac-4af7-8a41-3b8a0d69fe9f"
+        },
+        {
+          "variant": "S",
+          "startIndex": 5,
+          "isDisplayed": false,
+          "parsedForm": "た",
+          "vocabId": "8ee8e382-e65c-4af4-81b6-ccd55babc91f"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "磨ぐ",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "42ccda04-b6a2-4ec0-8592-14ba4b5e42f2"
+            },
+            {
+              "form": "えなかった",
+              "startIndex": 1,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "be857380-04a1-49de-8ec5-e5999e471394"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "磨ぐ",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "42ccda04-b6a2-4ec0-8592-14ba4b5e42f2"
+            },
+            {
+              "form": "える",
+              "startIndex": 1,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "915ce682-39f5-4e53-92fe-c786863a0e86"
+            },
+            {
+              "form": "ない",
+              "startIndex": 2,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "1d4932a0-8cac-4af7-8a41-3b8a0d69fe9f"
+            },
+            {
+              "form": "た",
+              "startIndex": 5,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "8ee8e382-e65c-4af4-81b6-ccd55babc91f"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "5df0da55-2dc5-4c21-9ed8-27e3245a300c",
+  "tags": []
+}

@@ -91,6 +91,157 @@
       }
     ]
   },
+  "parsingCase": {
+    "name": "misc stuff",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.MiscStuff, against vocab copied by hand, expected the breakdown to display: 慣れる | ている | んで | ね.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "慣れる",
+          "vocabId": "c2ed7f0b-0292-445d-94e6-44497bb9d987"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": true,
+          "parsedForm": "ている",
+          "vocabId": "601ea2f0-ede3-4250-841e-60968bb13785"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": false,
+          "parsedForm": "て",
+          "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+        },
+        {
+          "variant": "S",
+          "startIndex": 3,
+          "isDisplayed": false,
+          "parsedForm": "いる",
+          "vocabId": "8211800d-5642-41a5-b7e6-184e6d052d66"
+        },
+        {
+          "variant": "S",
+          "startIndex": 5,
+          "isDisplayed": true,
+          "parsedForm": "んで",
+          "vocabId": "1f5c4663-752f-4115-8543-16b025f0a383"
+        },
+        {
+          "variant": "S",
+          "startIndex": 5,
+          "isDisplayed": false,
+          "parsedForm": "ん",
+          "vocabId": "cc6433c2-80a1-498d-8f0d-9da2a46c2885"
+        },
+        {
+          "variant": "S",
+          "startIndex": 6,
+          "isDisplayed": false,
+          "parsedForm": "で",
+          "vocabId": "67a62904-bc8a-4b97-8ea5-69364da19acd"
+        },
+        {
+          "variant": "S",
+          "startIndex": 7,
+          "isDisplayed": true,
+          "parsedForm": "ね",
+          "vocabId": "b85b71b0-b473-4af5-bfa2-f0d824577845"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "慣れる",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "c2ed7f0b-0292-445d-94e6-44497bb9d987"
+            },
+            {
+              "form": "ている",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "601ea2f0-ede3-4250-841e-60968bb13785"
+            },
+            {
+              "form": "んで",
+              "startIndex": 5,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "1f5c4663-752f-4115-8543-16b025f0a383"
+            },
+            {
+              "form": "ね",
+              "startIndex": 7,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "b85b71b0-b473-4af5-bfa2-f0d824577845"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "慣れる",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "c2ed7f0b-0292-445d-94e6-44497bb9d987"
+            },
+            {
+              "form": "て",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+            },
+            {
+              "form": "いる",
+              "startIndex": 3,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "8211800d-5642-41a5-b7e6-184e6d052d66"
+            },
+            {
+              "form": "ん",
+              "startIndex": 5,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "cc6433c2-80a1-498d-8f0d-9da2a46c2885"
+            },
+            {
+              "form": "で",
+              "startIndex": 6,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "67a62904-bc8a-4b97-8ea5-69364da19acd"
+            },
+            {
+              "form": "ね",
+              "startIndex": 7,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "b85b71b0-b473-4af5-bfa2-f0d824577845"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "id": "63d37696-4c2b-4202-8627-5370c4a4f121",
   "tags": [
     "source::anime::natsume::s1::01"

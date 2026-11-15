@@ -1,0 +1,102 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "くる",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "くる",
+        "vocabId": "d4e15e58-9e91-4b57-8b27-36a2254af928"
+      },
+      {
+        "variant": "B",
+        "startIndex": 0,
+        "isDisplayed": false,
+        "parsedForm": "くる",
+        "vocabId": "d4e15e58-9e91-4b57-8b27-36a2254af928"
+      },
+      {
+        "variant": "B",
+        "startIndex": 1,
+        "isDisplayed": true,
+        "parsedForm": "う",
+        "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "くる",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "dictionary form splitting",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.DictionaryFormSplitting, against vocab copied by hand, expected the breakdown to display: くる | う.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "くる",
+          "vocabId": "d4e15e58-9e91-4b57-8b27-36a2254af928"
+        },
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": false,
+          "parsedForm": "くる",
+          "vocabId": "d4e15e58-9e91-4b57-8b27-36a2254af928"
+        },
+        {
+          "variant": "B",
+          "startIndex": 1,
+          "isDisplayed": true,
+          "parsedForm": "う",
+          "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {},
+          "displayedWords": [
+            {
+              "form": "くる",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "d4e15e58-9e91-4b57-8b27-36a2254af928"
+            },
+            {
+              "form": "う",
+              "startIndex": 1,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "d98ae4b9-a632-47b1-875a-91bb94335f41",
+  "tags": []
+}

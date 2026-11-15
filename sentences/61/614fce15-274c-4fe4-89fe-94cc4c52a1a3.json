@@ -1,0 +1,102 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "なる",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "なる",
+        "vocabId": "9b45c525-8634-48f9-9a05-7b7c37a828c4"
+      },
+      {
+        "variant": "B",
+        "startIndex": 0,
+        "isDisplayed": false,
+        "parsedForm": "なる",
+        "vocabId": "9b45c525-8634-48f9-9a05-7b7c37a828c4"
+      },
+      {
+        "variant": "B",
+        "startIndex": 1,
+        "isDisplayed": true,
+        "parsedForm": "う",
+        "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "なる",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "dictionary form splitting",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.DictionaryFormSplitting, against vocab copied by hand, expected the breakdown to display: なる | う.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "なる",
+          "vocabId": "9b45c525-8634-48f9-9a05-7b7c37a828c4"
+        },
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": false,
+          "parsedForm": "なる",
+          "vocabId": "9b45c525-8634-48f9-9a05-7b7c37a828c4"
+        },
+        {
+          "variant": "B",
+          "startIndex": 1,
+          "isDisplayed": true,
+          "parsedForm": "う",
+          "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {},
+          "displayedWords": [
+            {
+              "form": "なる",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "9b45c525-8634-48f9-9a05-7b7c37a828c4"
+            },
+            {
+              "form": "う",
+              "startIndex": 1,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "614fce15-274c-4fe4-89fe-94cc4c52a1a3",
+  "tags": []
+}

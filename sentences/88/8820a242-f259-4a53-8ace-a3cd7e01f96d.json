@@ -1,0 +1,181 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "お腹空かしてない",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "B",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "お腹空かす",
+        "vocabId": "a5fd85a2-6eaa-4c56-893d-d8d32f132988"
+      },
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": false,
+        "parsedForm": "お腹",
+        "vocabId": "ea038c95-621d-4764-804c-c2a491ab56a7"
+      },
+      {
+        "variant": "B",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "空かす",
+        "vocabId": "bd0aaef2-fcd7-4b3d-a4f7-63116a7782e6"
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": true,
+        "parsedForm": "てない",
+        "vocabId": "9f0a7bcc-a931-4799-8770-3d53cf0ec11b"
+      },
+      {
+        "variant": "B",
+        "startIndex": 5,
+        "isDisplayed": false,
+        "parsedForm": "てる",
+        "vocabId": "4c8d7119-0464-426c-88b7-ee97c1554eb5"
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "ない",
+        "vocabId": "1d4932a0-8cac-4af7-8a41-3b8a0d69fe9f"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "お腹空かしてない",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "require forbid te prefix or stem",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.RequireForbidTePrefixOrStem, against vocab copied by hand, expected the breakdown to display: お腹 | 空かす | てない.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "お腹空かす",
+          "vocabId": "a5fd85a2-6eaa-4c56-893d-d8d32f132988"
+        },
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": false,
+          "parsedForm": "お腹",
+          "vocabId": "ea038c95-621d-4764-804c-c2a491ab56a7"
+        },
+        {
+          "variant": "B",
+          "startIndex": 2,
+          "isDisplayed": false,
+          "parsedForm": "空かす",
+          "vocabId": "bd0aaef2-fcd7-4b3d-a4f7-63116a7782e6"
+        },
+        {
+          "variant": "S",
+          "startIndex": 5,
+          "isDisplayed": true,
+          "parsedForm": "てない",
+          "vocabId": "9f0a7bcc-a931-4799-8770-3d53cf0ec11b"
+        },
+        {
+          "variant": "B",
+          "startIndex": 5,
+          "isDisplayed": false,
+          "parsedForm": "てる",
+          "vocabId": "4c8d7119-0464-426c-88b7-ee97c1554eb5"
+        },
+        {
+          "variant": "S",
+          "startIndex": 6,
+          "isDisplayed": false,
+          "parsedForm": "ない",
+          "vocabId": "1d4932a0-8cac-4af7-8a41-3b8a0d69fe9f"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "お腹空かす",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "a5fd85a2-6eaa-4c56-893d-d8d32f132988"
+            },
+            {
+              "form": "てない",
+              "startIndex": 5,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "9f0a7bcc-a931-4799-8770-3d53cf0ec11b"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "お腹",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "ea038c95-621d-4764-804c-c2a491ab56a7"
+            },
+            {
+              "form": "空かす",
+              "startIndex": 2,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "bd0aaef2-fcd7-4b3d-a4f7-63116a7782e6"
+            },
+            {
+              "form": "てる",
+              "startIndex": 5,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "4c8d7119-0464-426c-88b7-ee97c1554eb5"
+            },
+            {
+              "form": "ない",
+              "startIndex": 6,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "1d4932a0-8cac-4af7-8a41-3b8a0d69fe9f"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "8820a242-f259-4a53-8ace-a3cd7e01f96d",
+  "tags": []
+}

@@ -82,6 +82,143 @@
       }
     ]
   },
+  "parsingCase": {
+    "name": "misc stuff",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.MiscStuff, against vocab copied by hand, expected the breakdown to display: また | 寒い | くなる | う | な:dict.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "また",
+          "vocabId": "5c9495ac-3f87-4bb1-878d-67536a95a83d"
+        },
+        {
+          "variant": "B",
+          "startIndex": 2,
+          "isDisplayed": true,
+          "parsedForm": "寒い",
+          "vocabId": "9dd3fab9-e649-4377-ad02-882e90f3cd22"
+        },
+        {
+          "variant": "S",
+          "startIndex": 4,
+          "isDisplayed": true,
+          "parsedForm": "なる",
+          "vocabId": "9b45c525-8634-48f9-9a05-7b7c37a828c4"
+        },
+        {
+          "variant": "B",
+          "startIndex": 4,
+          "isDisplayed": false,
+          "parsedForm": "なる",
+          "vocabId": "9b45c525-8634-48f9-9a05-7b7c37a828c4"
+        },
+        {
+          "variant": "S",
+          "startIndex": 5,
+          "isDisplayed": true,
+          "parsedForm": "うな",
+          "vocabId": "8b1cf138-5f36-43f1-9404-2e5a358f7bd8"
+        },
+        {
+          "variant": "B",
+          "startIndex": 5,
+          "isDisplayed": false,
+          "parsedForm": "う",
+          "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+        },
+        {
+          "variant": "S",
+          "startIndex": 6,
+          "isDisplayed": false,
+          "parsedForm": "な",
+          "vocabId": "a47ececb-300f-4763-a687-6a99463a8d8d"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "また",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "5c9495ac-3f87-4bb1-878d-67536a95a83d"
+            },
+            {
+              "form": "寒い",
+              "startIndex": 2,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "9dd3fab9-e649-4377-ad02-882e90f3cd22"
+            },
+            {
+              "form": "なる",
+              "startIndex": 4,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "9b45c525-8634-48f9-9a05-7b7c37a828c4"
+            },
+            {
+              "form": "うな",
+              "startIndex": 5,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "8b1cf138-5f36-43f1-9404-2e5a358f7bd8"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "また",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "5c9495ac-3f87-4bb1-878d-67536a95a83d"
+            },
+            {
+              "form": "寒い",
+              "startIndex": 2,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "9dd3fab9-e649-4377-ad02-882e90f3cd22"
+            },
+            {
+              "form": "なる",
+              "startIndex": 4,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "9b45c525-8634-48f9-9a05-7b7c37a828c4"
+            },
+            {
+              "form": "う",
+              "startIndex": 5,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+            },
+            {
+              "form": "な",
+              "startIndex": 6,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "a47ececb-300f-4763-a687-6a99463a8d8d"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "id": "0bab1ac8-3114-4648-9f72-36a894c4cacc",
   "tags": [
     "source::anime::girls-last-tour::08"

@@ -54,6 +54,66 @@
       }
     ]
   },
+  "parsingCase": {
+    "name": "misc stuff",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.MiscStuff, against vocab copied by hand, expected the breakdown to display: あ | な:s.start | なに.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "あ",
+          "vocabId": "63171e6f-01fd-4676-b79b-0d6559859857"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": true,
+          "parsedForm": "な",
+          "vocabId": "89b0d902-b2dd-4f1f-a0dc-4f6565616c64"
+        },
+        {
+          "variant": "S",
+          "startIndex": 4,
+          "isDisplayed": true,
+          "parsedForm": "なに",
+          "vocabId": "de0c7b4c-ead6-4a6d-b0ce-76ab9cf3fc2d"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {},
+          "displayedWords": [
+            {
+              "form": "あ",
+              "startIndex": 0,
+              "variant": "S",
+              "shownAs": "あっ",
+              "isEmergencyDisplayed": false,
+              "vocabId": "63171e6f-01fd-4676-b79b-0d6559859857"
+            },
+            {
+              "form": "な",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "89b0d902-b2dd-4f1f-a0dc-4f6565616c64"
+            },
+            {
+              "form": "なに",
+              "startIndex": 4,
+              "variant": "S",
+              "shownAs": "何",
+              "isEmergencyDisplayed": false,
+              "vocabId": "de0c7b4c-ead6-4a6d-b0ce-76ab9cf3fc2d"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "id": "001c5be0-b87f-4813-b3c0-de885e2bd943",
   "tags": [
     "source::anime::natsume::s4::09"

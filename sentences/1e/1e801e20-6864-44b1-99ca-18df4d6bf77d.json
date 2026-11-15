@@ -96,6 +96,185 @@
       }
     ]
   },
+  "parsingCase": {
+    "name": "godan potential and imperative",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.GodanPotentialAndImperative, against vocab copied by hand, expected the breakdown to display: さっさと | 傷 | を | 清める | てこ | い; and from TextAnalysisWithSelectDataTests.IdentifyWords, against vocab copied by hand, expected the forms of the parsing result: さっさと | 傷 | を | 清める | てこ | て | こい | くる | い.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "さっさと",
+          "vocabId": "ea39584f-05cd-4f2b-94a5-2622a7114d49"
+        },
+        {
+          "variant": "S",
+          "startIndex": 4,
+          "isDisplayed": true,
+          "parsedForm": "傷",
+          "vocabId": "6efd8db9-a8dc-4afa-b825-4216b264368f"
+        },
+        {
+          "variant": "S",
+          "startIndex": 5,
+          "isDisplayed": true,
+          "parsedForm": "を",
+          "vocabId": "0b5bd909-4c0e-4f1c-bde3-c91719eb579a"
+        },
+        {
+          "variant": "B",
+          "startIndex": 6,
+          "isDisplayed": true,
+          "parsedForm": "清める",
+          "vocabId": "cc66a4da-93e9-47e9-8876-2d508116c1ea"
+        },
+        {
+          "variant": "B",
+          "startIndex": 8,
+          "isDisplayed": true,
+          "parsedForm": "てくる",
+          "vocabId": "5b3c1912-cb85-4252-b3bb-062b0be745bc"
+        },
+        {
+          "variant": "S",
+          "startIndex": 8,
+          "isDisplayed": false,
+          "parsedForm": "て",
+          "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+        },
+        {
+          "variant": "S",
+          "startIndex": 9,
+          "isDisplayed": false,
+          "parsedForm": "こい",
+          "vocabId": "8d4d9588-e20c-426b-acde-a96f8c03093a"
+        },
+        {
+          "variant": "B",
+          "startIndex": 9,
+          "isDisplayed": false,
+          "parsedForm": "くる",
+          "vocabId": "d4e15e58-9e91-4b57-8b27-36a2254af928"
+        },
+        {
+          "variant": "S",
+          "startIndex": 10,
+          "isDisplayed": true,
+          "parsedForm": "い",
+          "vocabId": "504d1590-9cb5-4f67-bdaf-1f174a93c67b"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "さっさと",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "ea39584f-05cd-4f2b-94a5-2622a7114d49"
+            },
+            {
+              "form": "傷",
+              "startIndex": 4,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "6efd8db9-a8dc-4afa-b825-4216b264368f"
+            },
+            {
+              "form": "を",
+              "startIndex": 5,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "0b5bd909-4c0e-4f1c-bde3-c91719eb579a"
+            },
+            {
+              "form": "清める",
+              "startIndex": 6,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "cc66a4da-93e9-47e9-8876-2d508116c1ea"
+            },
+            {
+              "form": "てくる",
+              "startIndex": 8,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "5b3c1912-cb85-4252-b3bb-062b0be745bc"
+            },
+            {
+              "form": "い",
+              "startIndex": 10,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "504d1590-9cb5-4f67-bdaf-1f174a93c67b"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "さっさと",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "ea39584f-05cd-4f2b-94a5-2622a7114d49"
+            },
+            {
+              "form": "傷",
+              "startIndex": 4,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "6efd8db9-a8dc-4afa-b825-4216b264368f"
+            },
+            {
+              "form": "を",
+              "startIndex": 5,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "0b5bd909-4c0e-4f1c-bde3-c91719eb579a"
+            },
+            {
+              "form": "清める",
+              "startIndex": 6,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "cc66a4da-93e9-47e9-8876-2d508116c1ea"
+            },
+            {
+              "form": "て",
+              "startIndex": 8,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+            },
+            {
+              "form": "くる",
+              "startIndex": 9,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "d4e15e58-9e91-4b57-8b27-36a2254af928"
+            },
+            {
+              "form": "い",
+              "startIndex": 10,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "504d1590-9cb5-4f67-bdaf-1f174a93c67b"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "id": "1e801e20-6864-44b1-99ca-18df4d6bf77d",
   "tags": [
     "source::anime::natsume::s5::05"

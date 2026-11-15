@@ -1,0 +1,131 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "カバンに入れっぱなし",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "カバン",
+        "vocabId": "2fd4a80b-1765-4a63-b247-b778578d92f4"
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "に",
+        "vocabId": "7391aab7-d24e-4260-8395-e7b757406ef6"
+      },
+      {
+        "variant": "B",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "入れる",
+        "vocabId": "b1146b6a-aba5-4edb-80e0-2b6922129310"
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": true,
+        "parsedForm": "っぱなし",
+        "vocabId": "39e43c48-ded9-4b95-94bd-4b8c425e5a3f"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "カバンに入れっぱなし",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "godan potential and imperative",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.GodanPotentialAndImperative, against vocab copied by hand, expected the breakdown to display: カバン | に | 入れる | っぱなし:っ放し.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "カバン",
+          "vocabId": "2fd4a80b-1765-4a63-b247-b778578d92f4"
+        },
+        {
+          "variant": "S",
+          "startIndex": 3,
+          "isDisplayed": true,
+          "parsedForm": "に",
+          "vocabId": "7391aab7-d24e-4260-8395-e7b757406ef6"
+        },
+        {
+          "variant": "B",
+          "startIndex": 4,
+          "isDisplayed": true,
+          "parsedForm": "入れる",
+          "vocabId": "b1146b6a-aba5-4edb-80e0-2b6922129310"
+        },
+        {
+          "variant": "S",
+          "startIndex": 6,
+          "isDisplayed": true,
+          "parsedForm": "っぱなし",
+          "vocabId": "39e43c48-ded9-4b95-94bd-4b8c425e5a3f"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {},
+          "displayedWords": [
+            {
+              "form": "カバン",
+              "startIndex": 0,
+              "variant": "S",
+              "shownAs": "鞄",
+              "isEmergencyDisplayed": false,
+              "vocabId": "2fd4a80b-1765-4a63-b247-b778578d92f4"
+            },
+            {
+              "form": "に",
+              "startIndex": 3,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "7391aab7-d24e-4260-8395-e7b757406ef6"
+            },
+            {
+              "form": "入れる",
+              "startIndex": 4,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "b1146b6a-aba5-4edb-80e0-2b6922129310"
+            },
+            {
+              "form": "っぱなし",
+              "startIndex": 6,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "39e43c48-ded9-4b95-94bd-4b8c425e5a3f"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "c6430625-dc95-4a3c-ad3e-d3eac2006b80",
+  "tags": []
+}

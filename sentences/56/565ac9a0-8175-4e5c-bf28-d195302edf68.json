@@ -1,0 +1,146 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "頑張れた",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "B",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "頑張る",
+        "vocabId": "5212db74-683a-4741-9142-0a31a89aa8c9"
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "えた",
+        "vocabId": "c9623937-08d2-4d66-ac36-75c158d83958"
+      },
+      {
+        "variant": "B",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "える",
+        "vocabId": "915ce682-39f5-4e53-92fe-c786863a0e86"
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": false,
+        "parsedForm": "た",
+        "vocabId": "8ee8e382-e65c-4af4-81b6-ccd55babc91f"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "頑張れた",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "misc stuff",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.MiscStuff, against vocab copied by hand, expected the breakdown to display: 頑張る | える | た.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "頑張る",
+          "vocabId": "5212db74-683a-4741-9142-0a31a89aa8c9"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": true,
+          "parsedForm": "えた",
+          "vocabId": "c9623937-08d2-4d66-ac36-75c158d83958"
+        },
+        {
+          "variant": "B",
+          "startIndex": 2,
+          "isDisplayed": false,
+          "parsedForm": "える",
+          "vocabId": "915ce682-39f5-4e53-92fe-c786863a0e86"
+        },
+        {
+          "variant": "S",
+          "startIndex": 3,
+          "isDisplayed": false,
+          "parsedForm": "た",
+          "vocabId": "8ee8e382-e65c-4af4-81b6-ccd55babc91f"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "頑張る",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "5212db74-683a-4741-9142-0a31a89aa8c9"
+            },
+            {
+              "form": "えた",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "c9623937-08d2-4d66-ac36-75c158d83958"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "頑張る",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "5212db74-683a-4741-9142-0a31a89aa8c9"
+            },
+            {
+              "form": "える",
+              "startIndex": 2,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "915ce682-39f5-4e53-92fe-c786863a0e86"
+            },
+            {
+              "form": "た",
+              "startIndex": 3,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "8ee8e382-e65c-4af4-81b6-ccd55babc91f"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "565ac9a0-8175-4e5c-bf28-d195302edf68",
+  "tags": []
+}

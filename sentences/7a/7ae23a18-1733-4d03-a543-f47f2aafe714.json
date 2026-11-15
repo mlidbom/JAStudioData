@@ -1,0 +1,297 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "会えたりしない",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "B",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "会う",
+        "vocabId": "16d6feed-5096-47bc-8dfc-101101b0b603"
+      },
+      {
+        "variant": "B",
+        "startIndex": 1,
+        "isDisplayed": true,
+        "parsedForm": "える",
+        "vocabId": "915ce682-39f5-4e53-92fe-c786863a0e86"
+      },
+      {
+        "variant": "B",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "たりする",
+        "vocabId": "f7c0cad2-e393-4e59-866a-850604a08b1a"
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "たり",
+        "vocabId": "0f453213-80b5-450a-80e1-1cb9909b8408"
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": false,
+        "parsedForm": "しない",
+        "vocabId": "15a01624-db54-4e52-b57a-75c09339a957"
+      },
+      {
+        "variant": "B",
+        "startIndex": 4,
+        "isDisplayed": false,
+        "parsedForm": "する",
+        "vocabId": "2ae61cd0-5be8-4599-b48d-a78f97423ddb"
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": true,
+        "parsedForm": "ない",
+        "vocabId": "1d4932a0-8cac-4af7-8a41-3b8a0d69fe9f"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "会えたりしない",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "godan potential and imperative",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.GodanPotentialAndImperative, against vocab copied by hand, expected the breakdown to display: 会う | える | たり | する | ない.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "会う",
+          "vocabId": "16d6feed-5096-47bc-8dfc-101101b0b603"
+        },
+        {
+          "variant": "B",
+          "startIndex": 1,
+          "isDisplayed": true,
+          "parsedForm": "える",
+          "vocabId": "915ce682-39f5-4e53-92fe-c786863a0e86"
+        },
+        {
+          "variant": "B",
+          "startIndex": 2,
+          "isDisplayed": true,
+          "parsedForm": "たりする",
+          "vocabId": "f7c0cad2-e393-4e59-866a-850604a08b1a"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": false,
+          "parsedForm": "たり",
+          "vocabId": "0f453213-80b5-450a-80e1-1cb9909b8408"
+        },
+        {
+          "variant": "S",
+          "startIndex": 4,
+          "isDisplayed": false,
+          "parsedForm": "しない",
+          "vocabId": "15a01624-db54-4e52-b57a-75c09339a957"
+        },
+        {
+          "variant": "B",
+          "startIndex": 4,
+          "isDisplayed": false,
+          "parsedForm": "する",
+          "vocabId": "2ae61cd0-5be8-4599-b48d-a78f97423ddb"
+        },
+        {
+          "variant": "S",
+          "startIndex": 5,
+          "isDisplayed": true,
+          "parsedForm": "ない",
+          "vocabId": "1d4932a0-8cac-4af7-8a41-3b8a0d69fe9f"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false,
+            "automaticallyYieldLastTokenInSuruVerbCompoundsToOverlappingCompound": false
+          },
+          "displayedWords": [
+            {
+              "form": "会う",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "16d6feed-5096-47bc-8dfc-101101b0b603"
+            },
+            {
+              "form": "える",
+              "startIndex": 1,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "915ce682-39f5-4e53-92fe-c786863a0e86"
+            },
+            {
+              "form": "たりする",
+              "startIndex": 2,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "f7c0cad2-e393-4e59-866a-850604a08b1a"
+            },
+            {
+              "form": "ない",
+              "startIndex": 5,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "1d4932a0-8cac-4af7-8a41-3b8a0d69fe9f"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": false,
+            "automaticallyYieldLastTokenInSuruVerbCompoundsToOverlappingCompound": true
+          },
+          "displayedWords": [
+            {
+              "form": "会う",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "16d6feed-5096-47bc-8dfc-101101b0b603"
+            },
+            {
+              "form": "える",
+              "startIndex": 1,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "915ce682-39f5-4e53-92fe-c786863a0e86"
+            },
+            {
+              "form": "たり",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "0f453213-80b5-450a-80e1-1cb9909b8408"
+            },
+            {
+              "form": "しない",
+              "startIndex": 4,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "15a01624-db54-4e52-b57a-75c09339a957"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true,
+            "automaticallyYieldLastTokenInSuruVerbCompoundsToOverlappingCompound": false
+          },
+          "displayedWords": [
+            {
+              "form": "会う",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "16d6feed-5096-47bc-8dfc-101101b0b603"
+            },
+            {
+              "form": "える",
+              "startIndex": 1,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "915ce682-39f5-4e53-92fe-c786863a0e86"
+            },
+            {
+              "form": "たり",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "0f453213-80b5-450a-80e1-1cb9909b8408"
+            },
+            {
+              "form": "する",
+              "startIndex": 4,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "2ae61cd0-5be8-4599-b48d-a78f97423ddb"
+            },
+            {
+              "form": "ない",
+              "startIndex": 5,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "1d4932a0-8cac-4af7-8a41-3b8a0d69fe9f"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true,
+            "automaticallyYieldLastTokenInSuruVerbCompoundsToOverlappingCompound": true
+          },
+          "displayedWords": [
+            {
+              "form": "会う",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "16d6feed-5096-47bc-8dfc-101101b0b603"
+            },
+            {
+              "form": "える",
+              "startIndex": 1,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "915ce682-39f5-4e53-92fe-c786863a0e86"
+            },
+            {
+              "form": "たり",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "0f453213-80b5-450a-80e1-1cb9909b8408"
+            },
+            {
+              "form": "する",
+              "startIndex": 4,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "2ae61cd0-5be8-4599-b48d-a78f97423ddb"
+            },
+            {
+              "form": "ない",
+              "startIndex": 5,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "1d4932a0-8cac-4af7-8a41-3b8a0d69fe9f"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "7ae23a18-1733-4d03-a543-f47f2aafe714",
+  "tags": []
+}

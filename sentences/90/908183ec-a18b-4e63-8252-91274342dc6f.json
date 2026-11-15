@@ -91,6 +91,129 @@
       }
     ]
   },
+  "parsingCase": {
+    "name": "dictionary form splitting",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.DictionaryFormSplitting, against vocab copied by hand, expected the breakdown to display: 大声出す | う | な:dict.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "大声出す",
+          "vocabId": "d6c3a5c1-d296-48e9-86cf-8f98be6741ba"
+        },
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": false,
+          "parsedForm": "大声出す",
+          "vocabId": "d6c3a5c1-d296-48e9-86cf-8f98be6741ba"
+        },
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": false,
+          "parsedForm": "大声",
+          "vocabId": "e8f537dd-3426-4577-8708-4ab0c90fdf95"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": false,
+          "parsedForm": "出す",
+          "vocabId": "a25b6c34-5492-4f69-8e91-7844309edb7e"
+        },
+        {
+          "variant": "B",
+          "startIndex": 2,
+          "isDisplayed": false,
+          "parsedForm": "出す",
+          "vocabId": "a25b6c34-5492-4f69-8e91-7844309edb7e"
+        },
+        {
+          "variant": "S",
+          "startIndex": 3,
+          "isDisplayed": true,
+          "parsedForm": "うな",
+          "vocabId": "8b1cf138-5f36-43f1-9404-2e5a358f7bd8"
+        },
+        {
+          "variant": "B",
+          "startIndex": 3,
+          "isDisplayed": false,
+          "parsedForm": "う",
+          "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+        },
+        {
+          "variant": "S",
+          "startIndex": 4,
+          "isDisplayed": false,
+          "parsedForm": "な",
+          "vocabId": "a47ececb-300f-4763-a687-6a99463a8d8d"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "大声出す",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "d6c3a5c1-d296-48e9-86cf-8f98be6741ba"
+            },
+            {
+              "form": "うな",
+              "startIndex": 3,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "8b1cf138-5f36-43f1-9404-2e5a358f7bd8"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "大声",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "e8f537dd-3426-4577-8708-4ab0c90fdf95"
+            },
+            {
+              "form": "出す",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "a25b6c34-5492-4f69-8e91-7844309edb7e"
+            },
+            {
+              "form": "う",
+              "startIndex": 3,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+            },
+            {
+              "form": "な",
+              "startIndex": 4,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "a47ececb-300f-4763-a687-6a99463a8d8d"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "id": "908183ec-a18b-4e63-8252-91274342dc6f",
   "tags": [
     "source::immersion_kit"

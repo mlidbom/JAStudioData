@@ -1,0 +1,370 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "舞っているんだって思い込むように",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "B",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "舞う",
+        "vocabId": "e89699c1-7f88-4b43-8489-2495b6113c6b"
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "ている",
+        "vocabId": "601ea2f0-ede3-4250-841e-60968bb13785"
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "て",
+        "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": false,
+        "parsedForm": "いる",
+        "vocabId": "8211800d-5642-41a5-b7e6-184e6d052d66"
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": true,
+        "parsedForm": "んだ",
+        "vocabId": "83865919-ae21-4d86-b814-f700651c09ac"
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": false,
+        "parsedForm": "ん",
+        "vocabId": "cc6433c2-80a1-498d-8f0d-9da2a46c2885"
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "だ",
+        "vocabId": "32d275aa-5811-482d-b2f3-7e6d2080ac53"
+      },
+      {
+        "variant": "S",
+        "startIndex": 7,
+        "isDisplayed": true,
+        "parsedForm": "って",
+        "vocabId": "e7744e50-5174-4bca-afc7-6ad527634ad9"
+      },
+      {
+        "variant": "S",
+        "startIndex": 9,
+        "isDisplayed": true,
+        "parsedForm": "思い込む",
+        "vocabId": "ada66296-7a15-4d95-a211-61ae0ca12357"
+      },
+      {
+        "variant": "B",
+        "startIndex": 9,
+        "isDisplayed": false,
+        "parsedForm": "思い込む",
+        "vocabId": "ada66296-7a15-4d95-a211-61ae0ca12357"
+      },
+      {
+        "variant": "B",
+        "startIndex": 12,
+        "isDisplayed": true,
+        "parsedForm": "う",
+        "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+      },
+      {
+        "variant": "S",
+        "startIndex": 13,
+        "isDisplayed": true,
+        "parsedForm": "ように",
+        "vocabId": "e746331c-54c0-4b5f-814d-3767a4e1b9c7"
+      },
+      {
+        "variant": "S",
+        "startIndex": 13,
+        "isDisplayed": false,
+        "parsedForm": "よう",
+        "vocabId": "a2317963-e961-4c96-bcc4-8ad9ffbb738e"
+      },
+      {
+        "variant": "S",
+        "startIndex": 15,
+        "isDisplayed": false,
+        "parsedForm": "に",
+        "vocabId": "7391aab7-d24e-4260-8395-e7b757406ef6"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "舞っているんだって思い込むように",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "だって before a verb of saying, thinking or hearing displays as だ and a word starting with the quoting って",
+    "why": "Converted from When_analyzing_a_sentence_containing_datte.where_datte_is_directly_followed_by_a_verb_of_saying_thinking_or_hearing, against vocab copied by hand, which expected the breakdown to display: 舞う | ている | んだ:のだ | って | 思い込む | う | ように.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "舞う",
+          "vocabId": "e89699c1-7f88-4b43-8489-2495b6113c6b"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": true,
+          "parsedForm": "ている",
+          "vocabId": "601ea2f0-ede3-4250-841e-60968bb13785"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": false,
+          "parsedForm": "て",
+          "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+        },
+        {
+          "variant": "S",
+          "startIndex": 3,
+          "isDisplayed": false,
+          "parsedForm": "いる",
+          "vocabId": "8211800d-5642-41a5-b7e6-184e6d052d66"
+        },
+        {
+          "variant": "S",
+          "startIndex": 5,
+          "isDisplayed": true,
+          "parsedForm": "んだ",
+          "vocabId": "83865919-ae21-4d86-b814-f700651c09ac"
+        },
+        {
+          "variant": "S",
+          "startIndex": 5,
+          "isDisplayed": false,
+          "parsedForm": "ん",
+          "vocabId": "cc6433c2-80a1-498d-8f0d-9da2a46c2885"
+        },
+        {
+          "variant": "S",
+          "startIndex": 6,
+          "isDisplayed": false,
+          "parsedForm": "だ",
+          "vocabId": "32d275aa-5811-482d-b2f3-7e6d2080ac53"
+        },
+        {
+          "variant": "S",
+          "startIndex": 7,
+          "isDisplayed": true,
+          "parsedForm": "って",
+          "vocabId": "e7744e50-5174-4bca-afc7-6ad527634ad9"
+        },
+        {
+          "variant": "S",
+          "startIndex": 9,
+          "isDisplayed": true,
+          "parsedForm": "思い込む",
+          "vocabId": "ada66296-7a15-4d95-a211-61ae0ca12357"
+        },
+        {
+          "variant": "B",
+          "startIndex": 9,
+          "isDisplayed": false,
+          "parsedForm": "思い込む",
+          "vocabId": "ada66296-7a15-4d95-a211-61ae0ca12357"
+        },
+        {
+          "variant": "B",
+          "startIndex": 12,
+          "isDisplayed": true,
+          "parsedForm": "う",
+          "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+        },
+        {
+          "variant": "S",
+          "startIndex": 13,
+          "isDisplayed": true,
+          "parsedForm": "ように",
+          "vocabId": "e746331c-54c0-4b5f-814d-3767a4e1b9c7"
+        },
+        {
+          "variant": "S",
+          "startIndex": 13,
+          "isDisplayed": false,
+          "parsedForm": "よう",
+          "vocabId": "a2317963-e961-4c96-bcc4-8ad9ffbb738e"
+        },
+        {
+          "variant": "S",
+          "startIndex": 15,
+          "isDisplayed": false,
+          "parsedForm": "に",
+          "vocabId": "7391aab7-d24e-4260-8395-e7b757406ef6"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "舞う",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "e89699c1-7f88-4b43-8489-2495b6113c6b"
+            },
+            {
+              "form": "ている",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "601ea2f0-ede3-4250-841e-60968bb13785"
+            },
+            {
+              "form": "んだ",
+              "startIndex": 5,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "83865919-ae21-4d86-b814-f700651c09ac"
+            },
+            {
+              "form": "って",
+              "startIndex": 7,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "e7744e50-5174-4bca-afc7-6ad527634ad9"
+            },
+            {
+              "form": "思い込む",
+              "startIndex": 9,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "ada66296-7a15-4d95-a211-61ae0ca12357"
+            },
+            {
+              "form": "う",
+              "startIndex": 12,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+            },
+            {
+              "form": "ように",
+              "startIndex": 13,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "e746331c-54c0-4b5f-814d-3767a4e1b9c7"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "舞う",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "e89699c1-7f88-4b43-8489-2495b6113c6b"
+            },
+            {
+              "form": "て",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+            },
+            {
+              "form": "いる",
+              "startIndex": 3,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "8211800d-5642-41a5-b7e6-184e6d052d66"
+            },
+            {
+              "form": "ん",
+              "startIndex": 5,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "cc6433c2-80a1-498d-8f0d-9da2a46c2885"
+            },
+            {
+              "form": "だ",
+              "startIndex": 6,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "32d275aa-5811-482d-b2f3-7e6d2080ac53"
+            },
+            {
+              "form": "って",
+              "startIndex": 7,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "e7744e50-5174-4bca-afc7-6ad527634ad9"
+            },
+            {
+              "form": "思い込む",
+              "startIndex": 9,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "ada66296-7a15-4d95-a211-61ae0ca12357"
+            },
+            {
+              "form": "う",
+              "startIndex": 12,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+            },
+            {
+              "form": "よう",
+              "startIndex": 13,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "a2317963-e961-4c96-bcc4-8ad9ffbb738e"
+            },
+            {
+              "form": "に",
+              "startIndex": 15,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "7391aab7-d24e-4260-8395-e7b757406ef6"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "cbae0d53-848a-4c92-a73d-750d32545693",
+  "tags": []
+}

@@ -1,0 +1,230 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "見えなくなったって そんな",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "B",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "見えない",
+        "vocabId": "74503724-c033-4378-b939-30894c81688a"
+      },
+      {
+        "variant": "B",
+        "startIndex": 0,
+        "isDisplayed": false,
+        "parsedForm": "見える",
+        "vocabId": "ce9c2ee9-3dc1-4e35-b8f8-5ea87558edfb"
+      },
+      {
+        "variant": "B",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "なくなる",
+        "vocabId": "50a74d8f-cfa8-4311-a586-238e3c6a717d"
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "なく",
+        "vocabId": "7e6a66f8-fa48-4ec2-b7ed-89f9ee3eaa20"
+      },
+      {
+        "variant": "B",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "ない",
+        "vocabId": "1d4932a0-8cac-4af7-8a41-3b8a0d69fe9f"
+      },
+      {
+        "variant": "B",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "なる",
+        "vocabId": "9b45c525-8634-48f9-9a05-7b7c37a828c4"
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": true,
+        "parsedForm": "たって",
+        "vocabId": "8648ac0e-7968-4ef9-9283-9dd15a5b5f98"
+      },
+      {
+        "variant": "S",
+        "startIndex": 10,
+        "isDisplayed": true,
+        "parsedForm": "そんな",
+        "vocabId": "77f856e1-d5af-4607-9f2d-88dde70cdb30"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "見えなくなったって そんな",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "misc stuff",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.MiscStuff, against vocab copied by hand, expected the breakdown to display: 見える | なくなる | たって:emergency | そんな.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "見えない",
+          "vocabId": "74503724-c033-4378-b939-30894c81688a"
+        },
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": false,
+          "parsedForm": "見える",
+          "vocabId": "ce9c2ee9-3dc1-4e35-b8f8-5ea87558edfb"
+        },
+        {
+          "variant": "B",
+          "startIndex": 2,
+          "isDisplayed": false,
+          "parsedForm": "なくなる",
+          "vocabId": "50a74d8f-cfa8-4311-a586-238e3c6a717d"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": false,
+          "parsedForm": "なく",
+          "vocabId": "7e6a66f8-fa48-4ec2-b7ed-89f9ee3eaa20"
+        },
+        {
+          "variant": "B",
+          "startIndex": 2,
+          "isDisplayed": false,
+          "parsedForm": "ない",
+          "vocabId": "1d4932a0-8cac-4af7-8a41-3b8a0d69fe9f"
+        },
+        {
+          "variant": "B",
+          "startIndex": 4,
+          "isDisplayed": true,
+          "parsedForm": "なる",
+          "vocabId": "9b45c525-8634-48f9-9a05-7b7c37a828c4"
+        },
+        {
+          "variant": "S",
+          "startIndex": 6,
+          "isDisplayed": true,
+          "parsedForm": "たって",
+          "vocabId": "8648ac0e-7968-4ef9-9283-9dd15a5b5f98"
+        },
+        {
+          "variant": "S",
+          "startIndex": 10,
+          "isDisplayed": true,
+          "parsedForm": "そんな",
+          "vocabId": "77f856e1-d5af-4607-9f2d-88dde70cdb30"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "見えない",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "74503724-c033-4378-b939-30894c81688a"
+            },
+            {
+              "form": "なる",
+              "startIndex": 4,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "9b45c525-8634-48f9-9a05-7b7c37a828c4"
+            },
+            {
+              "form": "たって",
+              "startIndex": 6,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "8648ac0e-7968-4ef9-9283-9dd15a5b5f98"
+            },
+            {
+              "form": "そんな",
+              "startIndex": 10,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "77f856e1-d5af-4607-9f2d-88dde70cdb30"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "見える",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "ce9c2ee9-3dc1-4e35-b8f8-5ea87558edfb"
+            },
+            {
+              "form": "なく",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "7e6a66f8-fa48-4ec2-b7ed-89f9ee3eaa20"
+            },
+            {
+              "form": "なる",
+              "startIndex": 4,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "9b45c525-8634-48f9-9a05-7b7c37a828c4"
+            },
+            {
+              "form": "たって",
+              "startIndex": 6,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "8648ac0e-7968-4ef9-9283-9dd15a5b5f98"
+            },
+            {
+              "form": "そんな",
+              "startIndex": 10,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "77f856e1-d5af-4607-9f2d-88dde70cdb30"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "168359af-6afc-46ce-8055-3f9f36e26ba5",
+  "tags": []
+}

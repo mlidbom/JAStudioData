@@ -1,0 +1,102 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "走る",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "走る",
+        "vocabId": "e1483d2e-5b58-4a2b-b3ce-6db68b34f259"
+      },
+      {
+        "variant": "B",
+        "startIndex": 0,
+        "isDisplayed": false,
+        "parsedForm": "走る",
+        "vocabId": "e1483d2e-5b58-4a2b-b3ce-6db68b34f259"
+      },
+      {
+        "variant": "B",
+        "startIndex": 1,
+        "isDisplayed": true,
+        "parsedForm": "う",
+        "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "走る",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "identify words",
+    "why": "Converted from TextAnalysisWithSelectDataTests.IdentifyWords, against vocab copied by hand, expected the forms of the parsing result: 走る | う.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "走る",
+          "vocabId": "e1483d2e-5b58-4a2b-b3ce-6db68b34f259"
+        },
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": false,
+          "parsedForm": "走る",
+          "vocabId": "e1483d2e-5b58-4a2b-b3ce-6db68b34f259"
+        },
+        {
+          "variant": "B",
+          "startIndex": 1,
+          "isDisplayed": true,
+          "parsedForm": "う",
+          "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {},
+          "displayedWords": [
+            {
+              "form": "走る",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "e1483d2e-5b58-4a2b-b3ce-6db68b34f259"
+            },
+            {
+              "form": "う",
+              "startIndex": 1,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "125bc1b5-ba12-491b-9864-fb1e7cb1cbd7",
+  "tags": []
+}

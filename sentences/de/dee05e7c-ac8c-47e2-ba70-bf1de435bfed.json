@@ -1,0 +1,167 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "しても",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "しても",
+        "vocabId": "bd36c37a-92bf-45ce-99df-2d1cfcdb59ff"
+      },
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": false,
+        "parsedForm": "して",
+        "vocabId": "50c8f12a-9c6a-456b-b8c0-306887458d32"
+      },
+      {
+        "variant": "B",
+        "startIndex": 0,
+        "isDisplayed": false,
+        "parsedForm": "する",
+        "vocabId": "2ae61cd0-5be8-4599-b48d-a78f97423ddb"
+      },
+      {
+        "variant": "S",
+        "startIndex": 1,
+        "isDisplayed": false,
+        "parsedForm": "ても",
+        "vocabId": "0fd262c2-58c4-481f-9d0a-1a396c7ec21e"
+      },
+      {
+        "variant": "S",
+        "startIndex": 1,
+        "isDisplayed": false,
+        "parsedForm": "て",
+        "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "も",
+        "vocabId": "156f9454-37f8-4b10-a6e7-3abe39897c8b"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "しても",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "misc stuff",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.MiscStuff, against vocab copied by hand, expected the breakdown to display: する | ても.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "しても",
+          "vocabId": "bd36c37a-92bf-45ce-99df-2d1cfcdb59ff"
+        },
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": false,
+          "parsedForm": "して",
+          "vocabId": "50c8f12a-9c6a-456b-b8c0-306887458d32"
+        },
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": false,
+          "parsedForm": "する",
+          "vocabId": "2ae61cd0-5be8-4599-b48d-a78f97423ddb"
+        },
+        {
+          "variant": "S",
+          "startIndex": 1,
+          "isDisplayed": false,
+          "parsedForm": "ても",
+          "vocabId": "0fd262c2-58c4-481f-9d0a-1a396c7ec21e"
+        },
+        {
+          "variant": "S",
+          "startIndex": 1,
+          "isDisplayed": false,
+          "parsedForm": "て",
+          "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": false,
+          "parsedForm": "も",
+          "vocabId": "156f9454-37f8-4b10-a6e7-3abe39897c8b"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "しても",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "bd36c37a-92bf-45ce-99df-2d1cfcdb59ff"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "する",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "2ae61cd0-5be8-4599-b48d-a78f97423ddb"
+            },
+            {
+              "form": "て",
+              "startIndex": 1,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+            },
+            {
+              "form": "も",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "156f9454-37f8-4b10-a6e7-3abe39897c8b"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "dee05e7c-ac8c-47e2-ba70-bf1de435bfed",
+  "tags": []
+}

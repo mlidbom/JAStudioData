@@ -1,0 +1,356 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "逆に大丈夫に思えてくる",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "逆に",
+        "vocabId": "142baa5b-870b-4f0c-82e5-8200e2f41b38"
+      },
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": false,
+        "parsedForm": "逆",
+        "vocabId": "5c4e35d4-953f-4e9f-833e-078aa8358d80"
+      },
+      {
+        "variant": "S",
+        "startIndex": 1,
+        "isDisplayed": false,
+        "parsedForm": "に",
+        "vocabId": "7391aab7-d24e-4260-8395-e7b757406ef6"
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "大丈夫",
+        "vocabId": "cec94042-78f6-471f-87b9-7482513918aa"
+      },
+      {
+        "variant": "B",
+        "startIndex": 5,
+        "isDisplayed": true,
+        "parsedForm": "に思える",
+        "vocabId": "5681bc90-2b52-445f-a23e-d204a1cca1d3"
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": false,
+        "parsedForm": "に",
+        "vocabId": "7391aab7-d24e-4260-8395-e7b757406ef6"
+      },
+      {
+        "variant": "B",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "思える",
+        "vocabId": "ee0bdc2c-7610-4152-b196-b647074b98e0"
+      },
+      {
+        "variant": "B",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "思う",
+        "vocabId": "c00ee19c-29d7-446a-80c8-729a9847d23a"
+      },
+      {
+        "variant": "B",
+        "startIndex": 7,
+        "isDisplayed": false,
+        "parsedForm": "える",
+        "vocabId": "915ce682-39f5-4e53-92fe-c786863a0e86"
+      },
+      {
+        "variant": "S",
+        "startIndex": 8,
+        "isDisplayed": true,
+        "parsedForm": "てくる",
+        "vocabId": "5b3c1912-cb85-4252-b3bb-062b0be745bc"
+      },
+      {
+        "variant": "B",
+        "startIndex": 8,
+        "isDisplayed": false,
+        "parsedForm": "てくる",
+        "vocabId": "5b3c1912-cb85-4252-b3bb-062b0be745bc"
+      },
+      {
+        "variant": "S",
+        "startIndex": 8,
+        "isDisplayed": false,
+        "parsedForm": "て",
+        "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+      },
+      {
+        "variant": "S",
+        "startIndex": 9,
+        "isDisplayed": false,
+        "parsedForm": "くる",
+        "vocabId": "d4e15e58-9e91-4b57-8b27-36a2254af928"
+      },
+      {
+        "variant": "B",
+        "startIndex": 9,
+        "isDisplayed": false,
+        "parsedForm": "くる",
+        "vocabId": "d4e15e58-9e91-4b57-8b27-36a2254af928"
+      },
+      {
+        "variant": "S",
+        "startIndex": 10,
+        "isDisplayed": true,
+        "parsedForm": "う",
+        "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "逆に大丈夫に思えてくる",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "godan potential and imperative",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.GodanPotentialAndImperative, against vocab copied by hand, expected the breakdown to display: 逆に | 大丈夫 | に | 思える | て | くる | る:う.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "逆に",
+          "vocabId": "142baa5b-870b-4f0c-82e5-8200e2f41b38"
+        },
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": false,
+          "parsedForm": "逆",
+          "vocabId": "5c4e35d4-953f-4e9f-833e-078aa8358d80"
+        },
+        {
+          "variant": "S",
+          "startIndex": 1,
+          "isDisplayed": false,
+          "parsedForm": "に",
+          "vocabId": "7391aab7-d24e-4260-8395-e7b757406ef6"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": true,
+          "parsedForm": "大丈夫",
+          "vocabId": "cec94042-78f6-471f-87b9-7482513918aa"
+        },
+        {
+          "variant": "B",
+          "startIndex": 5,
+          "isDisplayed": true,
+          "parsedForm": "に思える",
+          "vocabId": "5681bc90-2b52-445f-a23e-d204a1cca1d3"
+        },
+        {
+          "variant": "S",
+          "startIndex": 5,
+          "isDisplayed": false,
+          "parsedForm": "に",
+          "vocabId": "7391aab7-d24e-4260-8395-e7b757406ef6"
+        },
+        {
+          "variant": "B",
+          "startIndex": 6,
+          "isDisplayed": false,
+          "parsedForm": "思える",
+          "vocabId": "ee0bdc2c-7610-4152-b196-b647074b98e0"
+        },
+        {
+          "variant": "B",
+          "startIndex": 6,
+          "isDisplayed": false,
+          "parsedForm": "思う",
+          "vocabId": "c00ee19c-29d7-446a-80c8-729a9847d23a"
+        },
+        {
+          "variant": "B",
+          "startIndex": 7,
+          "isDisplayed": false,
+          "parsedForm": "える",
+          "vocabId": "915ce682-39f5-4e53-92fe-c786863a0e86"
+        },
+        {
+          "variant": "S",
+          "startIndex": 8,
+          "isDisplayed": true,
+          "parsedForm": "てくる",
+          "vocabId": "5b3c1912-cb85-4252-b3bb-062b0be745bc"
+        },
+        {
+          "variant": "B",
+          "startIndex": 8,
+          "isDisplayed": false,
+          "parsedForm": "てくる",
+          "vocabId": "5b3c1912-cb85-4252-b3bb-062b0be745bc"
+        },
+        {
+          "variant": "S",
+          "startIndex": 8,
+          "isDisplayed": false,
+          "parsedForm": "て",
+          "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+        },
+        {
+          "variant": "S",
+          "startIndex": 9,
+          "isDisplayed": false,
+          "parsedForm": "くる",
+          "vocabId": "d4e15e58-9e91-4b57-8b27-36a2254af928"
+        },
+        {
+          "variant": "B",
+          "startIndex": 9,
+          "isDisplayed": false,
+          "parsedForm": "くる",
+          "vocabId": "d4e15e58-9e91-4b57-8b27-36a2254af928"
+        },
+        {
+          "variant": "S",
+          "startIndex": 10,
+          "isDisplayed": true,
+          "parsedForm": "う",
+          "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "逆に",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "142baa5b-870b-4f0c-82e5-8200e2f41b38"
+            },
+            {
+              "form": "大丈夫",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "cec94042-78f6-471f-87b9-7482513918aa"
+            },
+            {
+              "form": "に思える",
+              "startIndex": 5,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "5681bc90-2b52-445f-a23e-d204a1cca1d3"
+            },
+            {
+              "form": "てくる",
+              "startIndex": 8,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "5b3c1912-cb85-4252-b3bb-062b0be745bc"
+            },
+            {
+              "form": "う",
+              "startIndex": 10,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "逆",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "5c4e35d4-953f-4e9f-833e-078aa8358d80"
+            },
+            {
+              "form": "に",
+              "startIndex": 1,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "7391aab7-d24e-4260-8395-e7b757406ef6"
+            },
+            {
+              "form": "大丈夫",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "cec94042-78f6-471f-87b9-7482513918aa"
+            },
+            {
+              "form": "に",
+              "startIndex": 5,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "7391aab7-d24e-4260-8395-e7b757406ef6"
+            },
+            {
+              "form": "思える",
+              "startIndex": 6,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "ee0bdc2c-7610-4152-b196-b647074b98e0"
+            },
+            {
+              "form": "て",
+              "startIndex": 8,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+            },
+            {
+              "form": "くる",
+              "startIndex": 9,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "d4e15e58-9e91-4b57-8b27-36a2254af928"
+            },
+            {
+              "form": "う",
+              "startIndex": 10,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "2eb0fd7b-c56e-425b-ade6-b6af056e3503",
+  "tags": []
+}

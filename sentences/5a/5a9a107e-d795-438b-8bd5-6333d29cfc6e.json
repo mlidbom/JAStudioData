@@ -1,0 +1,202 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "頭突き以外でな",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "頭突き",
+        "vocabId": "18aa8af3-aacb-4cd7-8141-a4a54e612db1"
+      },
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": false,
+        "parsedForm": "頭",
+        "vocabId": "3aec26df-9ad4-4842-8956-d7858959f0e7"
+      },
+      {
+        "variant": "S",
+        "startIndex": 1,
+        "isDisplayed": false,
+        "parsedForm": "突き",
+        "vocabId": "4deb99f4-800a-42f4-8eae-86b611bae9cb"
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "以外",
+        "vocabId": "1c78b06e-d88a-4b3a-81bc-caf137163c34"
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": true,
+        "parsedForm": "で",
+        "vocabId": "67a62904-bc8a-4b97-8ea5-69364da19acd"
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": true,
+        "parsedForm": "な",
+        "vocabId": "89b0d902-b2dd-4f1f-a0dc-4f6565616c64"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "頭突き以外でな",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "require forbid dictionary form head and start",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.RequireForbidDictionaryFormHeadAndStart, against vocab copied by hand, expected the breakdown to display: 頭突き | 以外 | で | な:s.end.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "頭突き",
+          "vocabId": "18aa8af3-aacb-4cd7-8141-a4a54e612db1"
+        },
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": false,
+          "parsedForm": "頭",
+          "vocabId": "3aec26df-9ad4-4842-8956-d7858959f0e7"
+        },
+        {
+          "variant": "S",
+          "startIndex": 1,
+          "isDisplayed": false,
+          "parsedForm": "突き",
+          "vocabId": "4deb99f4-800a-42f4-8eae-86b611bae9cb"
+        },
+        {
+          "variant": "S",
+          "startIndex": 3,
+          "isDisplayed": true,
+          "parsedForm": "以外",
+          "vocabId": "1c78b06e-d88a-4b3a-81bc-caf137163c34"
+        },
+        {
+          "variant": "S",
+          "startIndex": 5,
+          "isDisplayed": true,
+          "parsedForm": "で",
+          "vocabId": "67a62904-bc8a-4b97-8ea5-69364da19acd"
+        },
+        {
+          "variant": "S",
+          "startIndex": 6,
+          "isDisplayed": true,
+          "parsedForm": "な",
+          "vocabId": "89b0d902-b2dd-4f1f-a0dc-4f6565616c64"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "頭突き",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "18aa8af3-aacb-4cd7-8141-a4a54e612db1"
+            },
+            {
+              "form": "以外",
+              "startIndex": 3,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "1c78b06e-d88a-4b3a-81bc-caf137163c34"
+            },
+            {
+              "form": "で",
+              "startIndex": 5,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "67a62904-bc8a-4b97-8ea5-69364da19acd"
+            },
+            {
+              "form": "な",
+              "startIndex": 6,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "89b0d902-b2dd-4f1f-a0dc-4f6565616c64"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "頭",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "3aec26df-9ad4-4842-8956-d7858959f0e7"
+            },
+            {
+              "form": "突き",
+              "startIndex": 1,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "4deb99f4-800a-42f4-8eae-86b611bae9cb"
+            },
+            {
+              "form": "以外",
+              "startIndex": 3,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "1c78b06e-d88a-4b3a-81bc-caf137163c34"
+            },
+            {
+              "form": "で",
+              "startIndex": 5,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "67a62904-bc8a-4b97-8ea5-69364da19acd"
+            },
+            {
+              "form": "な",
+              "startIndex": 6,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "89b0d902-b2dd-4f1f-a0dc-4f6565616c64"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "5a9a107e-d795-438b-8bd5-6333d29cfc6e",
+  "tags": []
+}

@@ -1,0 +1,88 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "捕まえよ",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "B",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "捕まえる",
+        "vocabId": "5157eb3e-99e5-4a97-b81b-4ed123749241"
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "よ",
+        "vocabId": "8d071a9e-11b0-4f59-82d7-c95c096b924b"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "捕まえよ",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "ichidan imperative",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.IchidanImperative, against vocab copied by hand, expected the breakdown to display: 捕まえる | よ.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "捕まえる",
+          "vocabId": "5157eb3e-99e5-4a97-b81b-4ed123749241"
+        },
+        {
+          "variant": "S",
+          "startIndex": 3,
+          "isDisplayed": true,
+          "parsedForm": "よ",
+          "vocabId": "8d071a9e-11b0-4f59-82d7-c95c096b924b"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {},
+          "displayedWords": [
+            {
+              "form": "捕まえる",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "5157eb3e-99e5-4a97-b81b-4ed123749241"
+            },
+            {
+              "form": "よ",
+              "startIndex": 3,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "8d071a9e-11b0-4f59-82d7-c95c096b924b"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "58f09d80-064b-4583-8263-d84b0732cfc6",
+  "tags": []
+}

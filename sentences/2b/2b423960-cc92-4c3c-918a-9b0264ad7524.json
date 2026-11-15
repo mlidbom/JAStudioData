@@ -1,0 +1,160 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "食べる以上",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "食べる",
+        "vocabId": "5118b117-8c7a-4921-a78b-2b4717227e32"
+      },
+      {
+        "variant": "B",
+        "startIndex": 0,
+        "isDisplayed": false,
+        "parsedForm": "食べる",
+        "vocabId": "5118b117-8c7a-4921-a78b-2b4717227e32"
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "う以上",
+        "vocabId": "d1ee9958-29fd-496e-9047-ac60d8396340"
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "う",
+        "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": false,
+        "parsedForm": "以上",
+        "vocabId": "046f27a6-1aaa-4372-b424-3540b7d2b975"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "食べる以上",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "a vocab entered with the dictionary form ending placeholder displays after any dictionary form ending",
+    "why": "Converted from When_analyzing_a_sentence_where_a_dictionary_form_verb_is_followed_by_a_vocab_entered_with_the_dictionary_form_ending_placeholder, against vocab copied by hand, which expected the breakdown to display the vocab う以上, which requires the dictionary form start and has no forms but its question.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "食べる",
+          "vocabId": "5118b117-8c7a-4921-a78b-2b4717227e32"
+        },
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": false,
+          "parsedForm": "食べる",
+          "vocabId": "5118b117-8c7a-4921-a78b-2b4717227e32"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": true,
+          "parsedForm": "う以上",
+          "vocabId": "d1ee9958-29fd-496e-9047-ac60d8396340"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": false,
+          "parsedForm": "う",
+          "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+        },
+        {
+          "variant": "S",
+          "startIndex": 3,
+          "isDisplayed": false,
+          "parsedForm": "以上",
+          "vocabId": "046f27a6-1aaa-4372-b424-3540b7d2b975"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "食べる",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "5118b117-8c7a-4921-a78b-2b4717227e32"
+            },
+            {
+              "form": "う以上",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "d1ee9958-29fd-496e-9047-ac60d8396340"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "食べる",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "5118b117-8c7a-4921-a78b-2b4717227e32"
+            },
+            {
+              "form": "う",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+            },
+            {
+              "form": "以上",
+              "startIndex": 3,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "046f27a6-1aaa-4372-b424-3540b7d2b975"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "2b423960-cc92-4c3c-918a-9b0264ad7524",
+  "tags": []
+}

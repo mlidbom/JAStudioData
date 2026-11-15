@@ -68,6 +68,102 @@
       }
     ]
   },
+  "parsingCase": {
+    "name": "require forbid dictionary form head and start",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.RequireForbidDictionaryFormHeadAndStart, against vocab copied by hand, expected the breakdown to display: デカい | な:masu.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "デカい",
+          "vocabId": "0de5ca3b-aadf-4d6c-b65b-de72e6747450"
+        },
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": false,
+          "parsedForm": "デカ",
+          "vocabId": "01364598-06e6-497f-86e7-22fb364ad5ec"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": false,
+          "parsedForm": "いな",
+          "vocabId": "04048360-e23d-4b4d-b830-522c8d52d03d"
+        },
+        {
+          "variant": "B",
+          "startIndex": 2,
+          "isDisplayed": false,
+          "parsedForm": "いる",
+          "vocabId": "8211800d-5642-41a5-b7e6-184e6d052d66"
+        },
+        {
+          "variant": "S",
+          "startIndex": 3,
+          "isDisplayed": true,
+          "parsedForm": "な",
+          "vocabId": "c873703d-9d57-4fe6-a318-86e5338a63db"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "デカい",
+              "startIndex": 0,
+              "variant": "S",
+              "shownAs": "でかい",
+              "isEmergencyDisplayed": false,
+              "vocabId": "0de5ca3b-aadf-4d6c-b65b-de72e6747450"
+            },
+            {
+              "form": "な",
+              "startIndex": 3,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "c873703d-9d57-4fe6-a318-86e5338a63db"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "デカ",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "01364598-06e6-497f-86e7-22fb364ad5ec"
+            },
+            {
+              "form": "いる",
+              "startIndex": 2,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "8211800d-5642-41a5-b7e6-184e6d052d66"
+            },
+            {
+              "form": "な",
+              "startIndex": 3,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "c873703d-9d57-4fe6-a318-86e5338a63db"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "id": "0a4e9ddf-58e2-47c9-8021-10075eabd7e4",
   "tags": [
     "source::anime::violet::01"

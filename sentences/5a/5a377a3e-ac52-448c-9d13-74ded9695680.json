@@ -103,6 +103,206 @@
       }
     ]
   },
+  "parsingCase": {
+    "name": "require forbid te prefix or stem",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.RequireForbidTePrefixOrStem, against vocab copied by hand, expected the breakdown to display: さっき | 殴る | た | から | 拗ねる | てん | のか.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "さっき",
+          "vocabId": "e5118697-5bb0-4825-8034-75b8c2f41f5b"
+        },
+        {
+          "variant": "B",
+          "startIndex": 3,
+          "isDisplayed": true,
+          "parsedForm": "殴る",
+          "vocabId": "5ffcdf93-350b-496d-8341-3bb3bbc2e678"
+        },
+        {
+          "variant": "S",
+          "startIndex": 5,
+          "isDisplayed": true,
+          "parsedForm": "た",
+          "vocabId": "8ee8e382-e65c-4af4-81b6-ccd55babc91f"
+        },
+        {
+          "variant": "S",
+          "startIndex": 6,
+          "isDisplayed": true,
+          "parsedForm": "から",
+          "vocabId": "77e1176a-5b4a-446a-b814-35a53ab5fb71"
+        },
+        {
+          "variant": "B",
+          "startIndex": 8,
+          "isDisplayed": true,
+          "parsedForm": "拗ねる",
+          "vocabId": "721c20bf-0645-45db-928c-fccae47283b4"
+        },
+        {
+          "variant": "S",
+          "startIndex": 10,
+          "isDisplayed": true,
+          "parsedForm": "てん",
+          "vocabId": "c062cce3-d0ca-4270-8571-05ae25579060"
+        },
+        {
+          "variant": "B",
+          "startIndex": 10,
+          "isDisplayed": true,
+          "parsedForm": "てる",
+          "vocabId": "4c8d7119-0464-426c-88b7-ee97c1554eb5"
+        },
+        {
+          "variant": "S",
+          "startIndex": 12,
+          "isDisplayed": true,
+          "parsedForm": "のか",
+          "vocabId": "136243f5-581e-44e5-8643-c12039fd3e49"
+        },
+        {
+          "variant": "S",
+          "startIndex": 12,
+          "isDisplayed": false,
+          "parsedForm": "の",
+          "vocabId": "33bf9bc1-0744-4973-8d45-5776bc54eac1"
+        },
+        {
+          "variant": "S",
+          "startIndex": 13,
+          "isDisplayed": false,
+          "parsedForm": "か",
+          "vocabId": "fa01f6d1-0021-4f11-a8aa-eb4b0b6bc533"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "さっき",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "e5118697-5bb0-4825-8034-75b8c2f41f5b"
+            },
+            {
+              "form": "殴る",
+              "startIndex": 3,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "5ffcdf93-350b-496d-8341-3bb3bbc2e678"
+            },
+            {
+              "form": "た",
+              "startIndex": 5,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "8ee8e382-e65c-4af4-81b6-ccd55babc91f"
+            },
+            {
+              "form": "から",
+              "startIndex": 6,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "77e1176a-5b4a-446a-b814-35a53ab5fb71"
+            },
+            {
+              "form": "拗ねる",
+              "startIndex": 8,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "721c20bf-0645-45db-928c-fccae47283b4"
+            },
+            {
+              "form": "てん",
+              "startIndex": 10,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "c062cce3-d0ca-4270-8571-05ae25579060"
+            },
+            {
+              "form": "のか",
+              "startIndex": 12,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "136243f5-581e-44e5-8643-c12039fd3e49"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "さっき",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "e5118697-5bb0-4825-8034-75b8c2f41f5b"
+            },
+            {
+              "form": "殴る",
+              "startIndex": 3,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "5ffcdf93-350b-496d-8341-3bb3bbc2e678"
+            },
+            {
+              "form": "た",
+              "startIndex": 5,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "8ee8e382-e65c-4af4-81b6-ccd55babc91f"
+            },
+            {
+              "form": "から",
+              "startIndex": 6,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "77e1176a-5b4a-446a-b814-35a53ab5fb71"
+            },
+            {
+              "form": "拗ねる",
+              "startIndex": 8,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "721c20bf-0645-45db-928c-fccae47283b4"
+            },
+            {
+              "form": "てん",
+              "startIndex": 10,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "c062cce3-d0ca-4270-8571-05ae25579060"
+            },
+            {
+              "form": "の",
+              "startIndex": 12,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "33bf9bc1-0744-4973-8d45-5776bc54eac1"
+            },
+            {
+              "form": "か",
+              "startIndex": 13,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "fa01f6d1-0021-4f11-a8aa-eb4b0b6bc533"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "id": "5a377a3e-ac52-448c-9d13-74ded9695680",
   "tags": [
     "source::anime::natsume::s2::01"

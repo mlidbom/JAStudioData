@@ -1,0 +1,356 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "本当に友達だって言えるのか",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "本当に",
+        "vocabId": "652c4833-6a5c-4e87-a370-9aebb5982a11"
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "友達",
+        "vocabId": "0e27fc9a-cf14-4782-be62-d7172e38816e"
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": true,
+        "parsedForm": "だ",
+        "vocabId": "32d275aa-5811-482d-b2f3-7e6d2080ac53"
+      },
+      {
+        "variant": "B",
+        "startIndex": 6,
+        "isDisplayed": true,
+        "parsedForm": "って言う",
+        "vocabId": "8ae95bee-41e9-43a0-9679-9937ba399e15"
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "って",
+        "vocabId": "e7744e50-5174-4bca-afc7-6ad527634ad9"
+      },
+      {
+        "variant": "S",
+        "startIndex": 8,
+        "isDisplayed": false,
+        "parsedForm": "言える",
+        "vocabId": "5a9b1749-a89f-4db2-bf52-b3a32751e906"
+      },
+      {
+        "variant": "B",
+        "startIndex": 8,
+        "isDisplayed": false,
+        "parsedForm": "言える",
+        "vocabId": "5a9b1749-a89f-4db2-bf52-b3a32751e906"
+      },
+      {
+        "variant": "B",
+        "startIndex": 8,
+        "isDisplayed": false,
+        "parsedForm": "言う",
+        "vocabId": "b7cefd46-499a-4c9c-9f06-3eed04e1d410"
+      },
+      {
+        "variant": "S",
+        "startIndex": 9,
+        "isDisplayed": true,
+        "parsedForm": "える",
+        "vocabId": "915ce682-39f5-4e53-92fe-c786863a0e86"
+      },
+      {
+        "variant": "B",
+        "startIndex": 9,
+        "isDisplayed": false,
+        "parsedForm": "える",
+        "vocabId": "915ce682-39f5-4e53-92fe-c786863a0e86"
+      },
+      {
+        "variant": "S",
+        "startIndex": 10,
+        "isDisplayed": true,
+        "parsedForm": "う",
+        "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+      },
+      {
+        "variant": "S",
+        "startIndex": 11,
+        "isDisplayed": true,
+        "parsedForm": "のか",
+        "vocabId": "136243f5-581e-44e5-8643-c12039fd3e49"
+      },
+      {
+        "variant": "S",
+        "startIndex": 11,
+        "isDisplayed": false,
+        "parsedForm": "の",
+        "vocabId": "33bf9bc1-0744-4973-8d45-5776bc54eac1"
+      },
+      {
+        "variant": "S",
+        "startIndex": 12,
+        "isDisplayed": false,
+        "parsedForm": "か",
+        "vocabId": "fa01f6d1-0021-4f11-a8aa-eb4b0b6bc533"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "本当に友達だって言えるのか",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "だって before a verb of saying, thinking or hearing displays as だ and a word starting with the quoting って",
+    "why": "Converted from When_analyzing_a_sentence_containing_datte.where_datte_is_directly_followed_by_a_verb_of_saying_thinking_or_hearing, against vocab copied by hand, which expected the breakdown to display: 本当に | 友達 | だ | って言う | える | うの | か.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "本当に",
+          "vocabId": "652c4833-6a5c-4e87-a370-9aebb5982a11"
+        },
+        {
+          "variant": "S",
+          "startIndex": 3,
+          "isDisplayed": true,
+          "parsedForm": "友達",
+          "vocabId": "0e27fc9a-cf14-4782-be62-d7172e38816e"
+        },
+        {
+          "variant": "S",
+          "startIndex": 5,
+          "isDisplayed": true,
+          "parsedForm": "だ",
+          "vocabId": "32d275aa-5811-482d-b2f3-7e6d2080ac53"
+        },
+        {
+          "variant": "B",
+          "startIndex": 6,
+          "isDisplayed": true,
+          "parsedForm": "って言う",
+          "vocabId": "8ae95bee-41e9-43a0-9679-9937ba399e15"
+        },
+        {
+          "variant": "S",
+          "startIndex": 6,
+          "isDisplayed": false,
+          "parsedForm": "って",
+          "vocabId": "e7744e50-5174-4bca-afc7-6ad527634ad9"
+        },
+        {
+          "variant": "S",
+          "startIndex": 8,
+          "isDisplayed": false,
+          "parsedForm": "言える",
+          "vocabId": "5a9b1749-a89f-4db2-bf52-b3a32751e906"
+        },
+        {
+          "variant": "B",
+          "startIndex": 8,
+          "isDisplayed": false,
+          "parsedForm": "言える",
+          "vocabId": "5a9b1749-a89f-4db2-bf52-b3a32751e906"
+        },
+        {
+          "variant": "B",
+          "startIndex": 8,
+          "isDisplayed": false,
+          "parsedForm": "言う",
+          "vocabId": "b7cefd46-499a-4c9c-9f06-3eed04e1d410"
+        },
+        {
+          "variant": "S",
+          "startIndex": 9,
+          "isDisplayed": true,
+          "parsedForm": "える",
+          "vocabId": "915ce682-39f5-4e53-92fe-c786863a0e86"
+        },
+        {
+          "variant": "B",
+          "startIndex": 9,
+          "isDisplayed": false,
+          "parsedForm": "える",
+          "vocabId": "915ce682-39f5-4e53-92fe-c786863a0e86"
+        },
+        {
+          "variant": "S",
+          "startIndex": 10,
+          "isDisplayed": true,
+          "parsedForm": "う",
+          "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+        },
+        {
+          "variant": "S",
+          "startIndex": 11,
+          "isDisplayed": true,
+          "parsedForm": "のか",
+          "vocabId": "136243f5-581e-44e5-8643-c12039fd3e49"
+        },
+        {
+          "variant": "S",
+          "startIndex": 11,
+          "isDisplayed": false,
+          "parsedForm": "の",
+          "vocabId": "33bf9bc1-0744-4973-8d45-5776bc54eac1"
+        },
+        {
+          "variant": "S",
+          "startIndex": 12,
+          "isDisplayed": false,
+          "parsedForm": "か",
+          "vocabId": "fa01f6d1-0021-4f11-a8aa-eb4b0b6bc533"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "本当に",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "652c4833-6a5c-4e87-a370-9aebb5982a11"
+            },
+            {
+              "form": "友達",
+              "startIndex": 3,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "0e27fc9a-cf14-4782-be62-d7172e38816e"
+            },
+            {
+              "form": "だ",
+              "startIndex": 5,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "32d275aa-5811-482d-b2f3-7e6d2080ac53"
+            },
+            {
+              "form": "って言う",
+              "startIndex": 6,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "8ae95bee-41e9-43a0-9679-9937ba399e15"
+            },
+            {
+              "form": "える",
+              "startIndex": 9,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "915ce682-39f5-4e53-92fe-c786863a0e86"
+            },
+            {
+              "form": "う",
+              "startIndex": 10,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+            },
+            {
+              "form": "のか",
+              "startIndex": 11,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "136243f5-581e-44e5-8643-c12039fd3e49"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "本当に",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "652c4833-6a5c-4e87-a370-9aebb5982a11"
+            },
+            {
+              "form": "友達",
+              "startIndex": 3,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "0e27fc9a-cf14-4782-be62-d7172e38816e"
+            },
+            {
+              "form": "だ",
+              "startIndex": 5,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "32d275aa-5811-482d-b2f3-7e6d2080ac53"
+            },
+            {
+              "form": "って",
+              "startIndex": 6,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "e7744e50-5174-4bca-afc7-6ad527634ad9"
+            },
+            {
+              "form": "言える",
+              "startIndex": 8,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "5a9b1749-a89f-4db2-bf52-b3a32751e906"
+            },
+            {
+              "form": "う",
+              "startIndex": 10,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+            },
+            {
+              "form": "の",
+              "startIndex": 11,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "33bf9bc1-0744-4973-8d45-5776bc54eac1"
+            },
+            {
+              "form": "か",
+              "startIndex": 12,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "fa01f6d1-0021-4f11-a8aa-eb4b0b6bc533"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "8ab50100-40e9-48f7-9cf9-e0a08e49127c",
+  "tags": []
+}

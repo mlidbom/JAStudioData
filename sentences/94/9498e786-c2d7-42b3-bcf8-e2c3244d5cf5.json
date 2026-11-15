@@ -1,0 +1,146 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "泳げます",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "B",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "泳ぐ",
+        "vocabId": "df868684-e142-41a8-9adc-4382e8789549"
+      },
+      {
+        "variant": "S",
+        "startIndex": 1,
+        "isDisplayed": true,
+        "parsedForm": "えます",
+        "vocabId": "94faadf2-2525-4549-b628-3279f5ff2b8b"
+      },
+      {
+        "variant": "B",
+        "startIndex": 1,
+        "isDisplayed": false,
+        "parsedForm": "える",
+        "vocabId": "915ce682-39f5-4e53-92fe-c786863a0e86"
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "ます",
+        "vocabId": "d3765dc0-d7b5-439a-81ab-84ba2f89b7b7"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "泳げます",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "a godan potential form known to the tokenizer, to compare an unknown one with",
+    "why": "Converted from When_analyzing_a_godan_potential_form_unknown_to_the_tokenizer: the known potential form its pair, the case of 磨げます, is expected to display as, with 磨 for 泳.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "泳ぐ",
+          "vocabId": "df868684-e142-41a8-9adc-4382e8789549"
+        },
+        {
+          "variant": "S",
+          "startIndex": 1,
+          "isDisplayed": true,
+          "parsedForm": "えます",
+          "vocabId": "94faadf2-2525-4549-b628-3279f5ff2b8b"
+        },
+        {
+          "variant": "B",
+          "startIndex": 1,
+          "isDisplayed": false,
+          "parsedForm": "える",
+          "vocabId": "915ce682-39f5-4e53-92fe-c786863a0e86"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": false,
+          "parsedForm": "ます",
+          "vocabId": "d3765dc0-d7b5-439a-81ab-84ba2f89b7b7"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "泳ぐ",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "df868684-e142-41a8-9adc-4382e8789549"
+            },
+            {
+              "form": "えます",
+              "startIndex": 1,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "94faadf2-2525-4549-b628-3279f5ff2b8b"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "泳ぐ",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "df868684-e142-41a8-9adc-4382e8789549"
+            },
+            {
+              "form": "える",
+              "startIndex": 1,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "915ce682-39f5-4e53-92fe-c786863a0e86"
+            },
+            {
+              "form": "ます",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "d3765dc0-d7b5-439a-81ab-84ba2f89b7b7"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "9498e786-c2d7-42b3-bcf8-e2c3244d5cf5",
+  "tags": []
+}

@@ -165,6 +165,319 @@
       }
     ]
   },
+  "parsingCase": {
+    "name": "identify words",
+    "why": "Converted from TextAnalysisWithSelectDataTests.IdentifyWords, against vocab copied by hand, expected the forms of the parsing result: それなのに | 周り | は | 化け物 | が | 出る | こと | で | 有名 | だ | と | 聞く | 聞き | る.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "それなのに",
+          "vocabId": "cbe5ae61-aa62-409b-ae9c-ec96f5f83abf"
+        },
+        {
+          "variant": "S",
+          "startIndex": 6,
+          "isDisplayed": true,
+          "parsedForm": "周り",
+          "vocabId": "25bcea4a-4994-4da9-947a-bcd6d3b314b3"
+        },
+        {
+          "variant": "S",
+          "startIndex": 8,
+          "isDisplayed": true,
+          "parsedForm": "は",
+          "vocabId": "825f4f56-9e9b-4eb9-92e2-099dc6d0c677"
+        },
+        {
+          "variant": "S",
+          "startIndex": 9,
+          "isDisplayed": true,
+          "parsedForm": "化け物",
+          "vocabId": "7e071f09-93a1-4169-aabb-5be351d92d2d"
+        },
+        {
+          "variant": "S",
+          "startIndex": 12,
+          "isDisplayed": true,
+          "parsedForm": "が",
+          "vocabId": "2abe98f2-ebd9-4aae-9562-451647960317"
+        },
+        {
+          "variant": "S",
+          "startIndex": 13,
+          "isDisplayed": true,
+          "parsedForm": "出る",
+          "vocabId": "df3309e9-9da5-4674-83af-f3c162e6e202"
+        },
+        {
+          "variant": "B",
+          "startIndex": 13,
+          "isDisplayed": false,
+          "parsedForm": "出る",
+          "vocabId": "df3309e9-9da5-4674-83af-f3c162e6e202"
+        },
+        {
+          "variant": "S",
+          "startIndex": 14,
+          "isDisplayed": true,
+          "parsedForm": "うことで",
+          "vocabId": "9773d025-cfda-44da-828e-45aa184b801a"
+        },
+        {
+          "variant": "S",
+          "startIndex": 14,
+          "isDisplayed": false,
+          "parsedForm": "う",
+          "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+        },
+        {
+          "variant": "S",
+          "startIndex": 15,
+          "isDisplayed": false,
+          "parsedForm": "こと",
+          "vocabId": "84239620-4846-43bd-92c3-a14e405883ab"
+        },
+        {
+          "variant": "S",
+          "startIndex": 17,
+          "isDisplayed": false,
+          "parsedForm": "で",
+          "vocabId": "67a62904-bc8a-4b97-8ea5-69364da19acd"
+        },
+        {
+          "variant": "S",
+          "startIndex": 18,
+          "isDisplayed": true,
+          "parsedForm": "有名",
+          "vocabId": "3bfb070d-6840-40e7-96a1-46e60a2ce6fd"
+        },
+        {
+          "variant": "S",
+          "startIndex": 20,
+          "isDisplayed": false,
+          "parsedForm": "だと",
+          "vocabId": "f4c28fe9-3946-492c-ab3c-29673cad4b23"
+        },
+        {
+          "variant": "S",
+          "startIndex": 20,
+          "isDisplayed": true,
+          "parsedForm": "だ",
+          "vocabId": "32d275aa-5811-482d-b2f3-7e6d2080ac53"
+        },
+        {
+          "variant": "B",
+          "startIndex": 21,
+          "isDisplayed": true,
+          "parsedForm": "と聞く",
+          "vocabId": "e8ea4e7b-e83c-41fe-a228-ce6648ca7067"
+        },
+        {
+          "variant": "S",
+          "startIndex": 21,
+          "isDisplayed": false,
+          "parsedForm": "と",
+          "vocabId": "56979285-581f-4cba-b839-889bc5ce98aa"
+        },
+        {
+          "variant": "S",
+          "startIndex": 22,
+          "isDisplayed": false,
+          "parsedForm": "聞き",
+          "vocabId": "98bd142a-6e03-42dd-aaba-6547db904b99"
+        },
+        {
+          "variant": "B",
+          "startIndex": 22,
+          "isDisplayed": false,
+          "parsedForm": "聞く",
+          "vocabId": "ee02c08a-d068-40ff-b882-ffc586af7186"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "それなのに",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "cbe5ae61-aa62-409b-ae9c-ec96f5f83abf"
+            },
+            {
+              "form": "周り",
+              "startIndex": 6,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "25bcea4a-4994-4da9-947a-bcd6d3b314b3"
+            },
+            {
+              "form": "は",
+              "startIndex": 8,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "825f4f56-9e9b-4eb9-92e2-099dc6d0c677"
+            },
+            {
+              "form": "化け物",
+              "startIndex": 9,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "7e071f09-93a1-4169-aabb-5be351d92d2d"
+            },
+            {
+              "form": "が",
+              "startIndex": 12,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "2abe98f2-ebd9-4aae-9562-451647960317"
+            },
+            {
+              "form": "出る",
+              "startIndex": 13,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "df3309e9-9da5-4674-83af-f3c162e6e202"
+            },
+            {
+              "form": "うことで",
+              "startIndex": 14,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "9773d025-cfda-44da-828e-45aa184b801a"
+            },
+            {
+              "form": "有名",
+              "startIndex": 18,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "3bfb070d-6840-40e7-96a1-46e60a2ce6fd"
+            },
+            {
+              "form": "だ",
+              "startIndex": 20,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "32d275aa-5811-482d-b2f3-7e6d2080ac53"
+            },
+            {
+              "form": "と聞く",
+              "startIndex": 21,
+              "variant": "B",
+              "shownAs": "って聞く",
+              "isEmergencyDisplayed": false,
+              "vocabId": "e8ea4e7b-e83c-41fe-a228-ce6648ca7067"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "それなのに",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "cbe5ae61-aa62-409b-ae9c-ec96f5f83abf"
+            },
+            {
+              "form": "周り",
+              "startIndex": 6,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "25bcea4a-4994-4da9-947a-bcd6d3b314b3"
+            },
+            {
+              "form": "は",
+              "startIndex": 8,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "825f4f56-9e9b-4eb9-92e2-099dc6d0c677"
+            },
+            {
+              "form": "化け物",
+              "startIndex": 9,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "7e071f09-93a1-4169-aabb-5be351d92d2d"
+            },
+            {
+              "form": "が",
+              "startIndex": 12,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "2abe98f2-ebd9-4aae-9562-451647960317"
+            },
+            {
+              "form": "出る",
+              "startIndex": 13,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "df3309e9-9da5-4674-83af-f3c162e6e202"
+            },
+            {
+              "form": "う",
+              "startIndex": 14,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+            },
+            {
+              "form": "こと",
+              "startIndex": 15,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "84239620-4846-43bd-92c3-a14e405883ab"
+            },
+            {
+              "form": "で",
+              "startIndex": 17,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "67a62904-bc8a-4b97-8ea5-69364da19acd"
+            },
+            {
+              "form": "有名",
+              "startIndex": 18,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "3bfb070d-6840-40e7-96a1-46e60a2ce6fd"
+            },
+            {
+              "form": "だ",
+              "startIndex": 20,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "32d275aa-5811-482d-b2f3-7e6d2080ac53"
+            },
+            {
+              "form": "と",
+              "startIndex": 21,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "56979285-581f-4cba-b839-889bc5ce98aa"
+            },
+            {
+              "form": "聞き",
+              "startIndex": 22,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "98bd142a-6e03-42dd-aaba-6547db904b99"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "id": "2c308825-ba51-4e62-8394-e2625c02afc8",
   "tags": [
     "source::anime::natsume::s1::03"

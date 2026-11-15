@@ -1,0 +1,88 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "食べな",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "B",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "食べる",
+        "vocabId": "5118b117-8c7a-4921-a78b-2b4717227e32"
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "な",
+        "vocabId": "c873703d-9d57-4fe6-a318-86e5338a63db"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "食べな",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "require forbid dictionary form head and start",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.RequireForbidDictionaryFormHeadAndStart, against vocab copied by hand, expected the breakdown to display: 食べる | な:masu.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "食べる",
+          "vocabId": "5118b117-8c7a-4921-a78b-2b4717227e32"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": true,
+          "parsedForm": "な",
+          "vocabId": "c873703d-9d57-4fe6-a318-86e5338a63db"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {},
+          "displayedWords": [
+            {
+              "form": "食べる",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "5118b117-8c7a-4921-a78b-2b4717227e32"
+            },
+            {
+              "form": "な",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "c873703d-9d57-4fe6-a318-86e5338a63db"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "a76a8e00-d58b-4c36-ac94-15a69141b840",
+  "tags": []
+}

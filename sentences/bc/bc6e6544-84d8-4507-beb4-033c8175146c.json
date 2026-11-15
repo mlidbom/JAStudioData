@@ -117,6 +117,206 @@
       }
     ]
   },
+  "parsingCase": {
+    "name": "だって before a verb not of saying, thinking or hearing displays as だって",
+    "why": "Converted from When_analyzing_a_sentence_containing_datte.where_datte_is_directly_followed_by_a_verb_that_is_not_a_verb_of_saying_thinking_or_hearing, against vocab copied by hand, which expected the breakdown to display: 男友達 | だって | いる | る:う | でしょう | に.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "男友達",
+          "vocabId": "509174e7-4b48-4042-bca7-1d7653298ad4"
+        },
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": false,
+          "parsedForm": "男",
+          "vocabId": "80868bf9-0a8a-4d12-9451-db3a06b0122f"
+        },
+        {
+          "variant": "S",
+          "startIndex": 1,
+          "isDisplayed": false,
+          "parsedForm": "友達",
+          "vocabId": "0e27fc9a-cf14-4782-be62-d7172e38816e"
+        },
+        {
+          "variant": "S",
+          "startIndex": 3,
+          "isDisplayed": true,
+          "parsedForm": "だって",
+          "vocabId": "5cc160fc-9a00-42d0-9931-786832956d0e"
+        },
+        {
+          "variant": "S",
+          "startIndex": 6,
+          "isDisplayed": true,
+          "parsedForm": "いる",
+          "vocabId": "8211800d-5642-41a5-b7e6-184e6d052d66"
+        },
+        {
+          "variant": "B",
+          "startIndex": 6,
+          "isDisplayed": false,
+          "parsedForm": "いる",
+          "vocabId": "8211800d-5642-41a5-b7e6-184e6d052d66"
+        },
+        {
+          "variant": "S",
+          "startIndex": 7,
+          "isDisplayed": true,
+          "parsedForm": "う",
+          "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+        },
+        {
+          "variant": "S",
+          "startIndex": 8,
+          "isDisplayed": true,
+          "parsedForm": "でしょう",
+          "vocabId": "df3af823-04c1-40cc-a317-69f0223d264e"
+        },
+        {
+          "variant": "S",
+          "startIndex": 8,
+          "isDisplayed": false,
+          "parsedForm": "でしょ",
+          "vocabId": "df3af823-04c1-40cc-a317-69f0223d264e"
+        },
+        {
+          "variant": "B",
+          "startIndex": 8,
+          "isDisplayed": false,
+          "parsedForm": "です",
+          "vocabId": "01fd4128-aa4d-4a4d-a529-1e7a3b5d4a0a"
+        },
+        {
+          "variant": "S",
+          "startIndex": 11,
+          "isDisplayed": false,
+          "parsedForm": "うに",
+          "vocabId": "0ce0095b-538a-485c-becc-168ddc5b1177"
+        },
+        {
+          "variant": "S",
+          "startIndex": 12,
+          "isDisplayed": true,
+          "parsedForm": "に",
+          "vocabId": "7391aab7-d24e-4260-8395-e7b757406ef6"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "男友達",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "509174e7-4b48-4042-bca7-1d7653298ad4"
+            },
+            {
+              "form": "だって",
+              "startIndex": 3,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "5cc160fc-9a00-42d0-9931-786832956d0e"
+            },
+            {
+              "form": "いる",
+              "startIndex": 6,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "8211800d-5642-41a5-b7e6-184e6d052d66"
+            },
+            {
+              "form": "う",
+              "startIndex": 7,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+            },
+            {
+              "form": "でしょう",
+              "startIndex": 8,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "df3af823-04c1-40cc-a317-69f0223d264e"
+            },
+            {
+              "form": "に",
+              "startIndex": 12,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "7391aab7-d24e-4260-8395-e7b757406ef6"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "男",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "80868bf9-0a8a-4d12-9451-db3a06b0122f"
+            },
+            {
+              "form": "友達",
+              "startIndex": 1,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "0e27fc9a-cf14-4782-be62-d7172e38816e"
+            },
+            {
+              "form": "だって",
+              "startIndex": 3,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "5cc160fc-9a00-42d0-9931-786832956d0e"
+            },
+            {
+              "form": "いる",
+              "startIndex": 6,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "8211800d-5642-41a5-b7e6-184e6d052d66"
+            },
+            {
+              "form": "う",
+              "startIndex": 7,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+            },
+            {
+              "form": "でしょう",
+              "startIndex": 8,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "df3af823-04c1-40cc-a317-69f0223d264e"
+            },
+            {
+              "form": "に",
+              "startIndex": 12,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "7391aab7-d24e-4260-8395-e7b757406ef6"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "id": "bc6e6544-84d8-4507-beb4-033c8175146c",
   "tags": [
     "source::anime::natsume::s2::03"

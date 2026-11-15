@@ -98,6 +98,165 @@
     "audio": [],
     "screenshots": []
   },
+  "parsingCase": {
+    "name": "an ichidan verb unknown to the tokenizer after を displays as the ichidan verb, not the godan verb it looks like the potential form of",
+    "why": "Converted from When_analyzing_a_genuine_ichidan_verb_unknown_to_the_tokenizer_after_wo, against vocab copied by hand, which expected the breakdown to display 点ける. 点ける is missing from the tokenizer's dictionary, and 点け is also the e-stem of the intransitive godan verb 点く, but an intransitive verb doesn't take を.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "電気",
+          "vocabId": "cf367178-b0a0-4d49-b33e-9fdb1b809c93"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": true,
+          "parsedForm": "を",
+          "vocabId": "0b5bd909-4c0e-4f1c-bde3-c91719eb579a"
+        },
+        {
+          "variant": "B",
+          "startIndex": 3,
+          "isDisplayed": true,
+          "parsedForm": "点ける",
+          "vocabId": "895d73e0-83f8-4e33-bb71-a1ce3e43a7e4"
+        },
+        {
+          "variant": "S",
+          "startIndex": 5,
+          "isDisplayed": true,
+          "parsedForm": "て下さい",
+          "vocabId": "3480ddaf-87c5-40fa-93c9-3a4cd2a17b29"
+        },
+        {
+          "variant": "B",
+          "startIndex": 5,
+          "isDisplayed": false,
+          "parsedForm": "て下さる",
+          "vocabId": "aac971b4-1813-485f-b570-ddfddb6d5c1d"
+        },
+        {
+          "variant": "S",
+          "startIndex": 5,
+          "isDisplayed": false,
+          "parsedForm": "て",
+          "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+        },
+        {
+          "variant": "S",
+          "startIndex": 6,
+          "isDisplayed": false,
+          "parsedForm": "下さい",
+          "vocabId": "2e7469fb-5fd6-4ec4-a4c1-eeace9e02c81"
+        },
+        {
+          "variant": "B",
+          "startIndex": 6,
+          "isDisplayed": false,
+          "parsedForm": "下さる",
+          "vocabId": "ba1ea3ad-3901-4877-9059-9744180d47fb"
+        },
+        {
+          "variant": "S",
+          "startIndex": 8,
+          "isDisplayed": false,
+          "parsedForm": "い",
+          "vocabId": "504d1590-9cb5-4f67-bdaf-1f174a93c67b"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "電気",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "cf367178-b0a0-4d49-b33e-9fdb1b809c93"
+            },
+            {
+              "form": "を",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "0b5bd909-4c0e-4f1c-bde3-c91719eb579a"
+            },
+            {
+              "form": "点ける",
+              "startIndex": 3,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "895d73e0-83f8-4e33-bb71-a1ce3e43a7e4"
+            },
+            {
+              "form": "て下さい",
+              "startIndex": 5,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "3480ddaf-87c5-40fa-93c9-3a4cd2a17b29"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "電気",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "cf367178-b0a0-4d49-b33e-9fdb1b809c93"
+            },
+            {
+              "form": "を",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "0b5bd909-4c0e-4f1c-bde3-c91719eb579a"
+            },
+            {
+              "form": "点ける",
+              "startIndex": 3,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "895d73e0-83f8-4e33-bb71-a1ce3e43a7e4"
+            },
+            {
+              "form": "て",
+              "startIndex": 5,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+            },
+            {
+              "form": "下さる",
+              "startIndex": 6,
+              "variant": "B",
+              "shownAs": "くださる",
+              "isEmergencyDisplayed": false,
+              "vocabId": "ba1ea3ad-3901-4877-9059-9744180d47fb"
+            },
+            {
+              "form": "い",
+              "startIndex": 8,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "504d1590-9cb5-4f67-bdaf-1f174a93c67b"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "id": "12060b95-c8f2-47b1-9492-57b70f28e8d5",
   "tags": [
     "source::wani::current"

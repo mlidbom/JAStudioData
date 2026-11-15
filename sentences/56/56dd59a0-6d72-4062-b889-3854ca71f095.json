@@ -1,0 +1,123 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "にある",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "に",
+        "vocabId": "7391aab7-d24e-4260-8395-e7b757406ef6"
+      },
+      {
+        "variant": "S",
+        "startIndex": 1,
+        "isDisplayed": true,
+        "parsedForm": "ある",
+        "vocabId": "a7419593-1381-45c8-88fe-0eb846286151"
+      },
+      {
+        "variant": "B",
+        "startIndex": 1,
+        "isDisplayed": false,
+        "parsedForm": "ある",
+        "vocabId": "a7419593-1381-45c8-88fe-0eb846286151"
+      },
+      {
+        "variant": "B",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "う",
+        "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "にある",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "dictionary form splitting",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.DictionaryFormSplitting, against vocab copied by hand, expected the breakdown to display: に | ある | う.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "に",
+          "vocabId": "7391aab7-d24e-4260-8395-e7b757406ef6"
+        },
+        {
+          "variant": "S",
+          "startIndex": 1,
+          "isDisplayed": true,
+          "parsedForm": "ある",
+          "vocabId": "a7419593-1381-45c8-88fe-0eb846286151"
+        },
+        {
+          "variant": "B",
+          "startIndex": 1,
+          "isDisplayed": false,
+          "parsedForm": "ある",
+          "vocabId": "a7419593-1381-45c8-88fe-0eb846286151"
+        },
+        {
+          "variant": "B",
+          "startIndex": 2,
+          "isDisplayed": true,
+          "parsedForm": "う",
+          "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {},
+          "displayedWords": [
+            {
+              "form": "に",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "7391aab7-d24e-4260-8395-e7b757406ef6"
+            },
+            {
+              "form": "ある",
+              "startIndex": 1,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "a7419593-1381-45c8-88fe-0eb846286151"
+            },
+            {
+              "form": "う",
+              "startIndex": 2,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "56dd59a0-6d72-4062-b889-3854ca71f095",
+  "tags": []
+}

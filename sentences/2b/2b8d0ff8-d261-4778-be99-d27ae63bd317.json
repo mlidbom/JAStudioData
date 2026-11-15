@@ -86,6 +86,159 @@
       }
     ]
   },
+  "parsingCase": {
+    "name": "misc stuff",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.MiscStuff, against vocab copied by hand, expected the breakdown to display: 月光 | が | 差し込む | んでる | んだ:のだ.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "月光",
+          "vocabId": "8d2c94db-10fc-4c2f-aded-70133e1e1769"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": true,
+          "parsedForm": "が",
+          "vocabId": "2abe98f2-ebd9-4aae-9562-451647960317"
+        },
+        {
+          "variant": "B",
+          "startIndex": 3,
+          "isDisplayed": true,
+          "parsedForm": "差し込む",
+          "vocabId": "b4dcd627-c064-4142-a465-2908cec59c4b"
+        },
+        {
+          "variant": "S",
+          "startIndex": 7,
+          "isDisplayed": true,
+          "parsedForm": "でる",
+          "vocabId": "4c8d7119-0464-426c-88b7-ee97c1554eb5"
+        },
+        {
+          "variant": "S",
+          "startIndex": 9,
+          "isDisplayed": true,
+          "parsedForm": "んだ",
+          "vocabId": "83865919-ae21-4d86-b814-f700651c09ac"
+        },
+        {
+          "variant": "S",
+          "startIndex": 9,
+          "isDisplayed": false,
+          "parsedForm": "ん",
+          "vocabId": "cc6433c2-80a1-498d-8f0d-9da2a46c2885"
+        },
+        {
+          "variant": "S",
+          "startIndex": 10,
+          "isDisplayed": false,
+          "parsedForm": "だ",
+          "vocabId": "32d275aa-5811-482d-b2f3-7e6d2080ac53"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "月光",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "8d2c94db-10fc-4c2f-aded-70133e1e1769"
+            },
+            {
+              "form": "が",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "2abe98f2-ebd9-4aae-9562-451647960317"
+            },
+            {
+              "form": "差し込む",
+              "startIndex": 3,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "b4dcd627-c064-4142-a465-2908cec59c4b"
+            },
+            {
+              "form": "でる",
+              "startIndex": 7,
+              "variant": "S",
+              "shownAs": "てる",
+              "isEmergencyDisplayed": false,
+              "vocabId": "4c8d7119-0464-426c-88b7-ee97c1554eb5"
+            },
+            {
+              "form": "んだ",
+              "startIndex": 9,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "83865919-ae21-4d86-b814-f700651c09ac"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "月光",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "8d2c94db-10fc-4c2f-aded-70133e1e1769"
+            },
+            {
+              "form": "が",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "2abe98f2-ebd9-4aae-9562-451647960317"
+            },
+            {
+              "form": "差し込む",
+              "startIndex": 3,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "b4dcd627-c064-4142-a465-2908cec59c4b"
+            },
+            {
+              "form": "でる",
+              "startIndex": 7,
+              "variant": "S",
+              "shownAs": "てる",
+              "isEmergencyDisplayed": false,
+              "vocabId": "4c8d7119-0464-426c-88b7-ee97c1554eb5"
+            },
+            {
+              "form": "ん",
+              "startIndex": 9,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "cc6433c2-80a1-498d-8f0d-9da2a46c2885"
+            },
+            {
+              "form": "だ",
+              "startIndex": 10,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "32d275aa-5811-482d-b2f3-7e6d2080ac53"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "id": "2b8d0ff8-d261-4778-be99-d27ae63bd317",
   "tags": [
     "source::anime::girls-last-tour::08"

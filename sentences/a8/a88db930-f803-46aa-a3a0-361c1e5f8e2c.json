@@ -89,6 +89,157 @@
       }
     ]
   },
+  "parsingCase": {
+    "name": "misc stuff",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.MiscStuff, against vocab copied by hand, expected the breakdown to display: 空を飛ぶ | える | る:う | 機械.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "空を飛ぶ",
+          "vocabId": "e529a512-ed92-4c85-abbf-ecf20fb4e640"
+        },
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": false,
+          "parsedForm": "空",
+          "vocabId": "62156d21-c2d9-4f21-9e81-53a7a9c92b7d"
+        },
+        {
+          "variant": "S",
+          "startIndex": 1,
+          "isDisplayed": false,
+          "parsedForm": "を",
+          "vocabId": "0b5bd909-4c0e-4f1c-bde3-c91719eb579a"
+        },
+        {
+          "variant": "B",
+          "startIndex": 2,
+          "isDisplayed": false,
+          "parsedForm": "飛ぶ",
+          "vocabId": "f4f65055-a81d-4442-9007-fa454db900cc"
+        },
+        {
+          "variant": "S",
+          "startIndex": 3,
+          "isDisplayed": true,
+          "parsedForm": "える",
+          "vocabId": "915ce682-39f5-4e53-92fe-c786863a0e86"
+        },
+        {
+          "variant": "B",
+          "startIndex": 3,
+          "isDisplayed": false,
+          "parsedForm": "える",
+          "vocabId": "915ce682-39f5-4e53-92fe-c786863a0e86"
+        },
+        {
+          "variant": "S",
+          "startIndex": 4,
+          "isDisplayed": true,
+          "parsedForm": "う",
+          "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+        },
+        {
+          "variant": "S",
+          "startIndex": 5,
+          "isDisplayed": true,
+          "parsedForm": "機械",
+          "vocabId": "cdcdd019-3b74-48d2-90a7-ad4ad64d12c7"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "空を飛ぶ",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "e529a512-ed92-4c85-abbf-ecf20fb4e640"
+            },
+            {
+              "form": "える",
+              "startIndex": 3,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "915ce682-39f5-4e53-92fe-c786863a0e86"
+            },
+            {
+              "form": "う",
+              "startIndex": 4,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+            },
+            {
+              "form": "機械",
+              "startIndex": 5,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "cdcdd019-3b74-48d2-90a7-ad4ad64d12c7"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "空",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "62156d21-c2d9-4f21-9e81-53a7a9c92b7d"
+            },
+            {
+              "form": "を",
+              "startIndex": 1,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "0b5bd909-4c0e-4f1c-bde3-c91719eb579a"
+            },
+            {
+              "form": "飛ぶ",
+              "startIndex": 2,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "f4f65055-a81d-4442-9007-fa454db900cc"
+            },
+            {
+              "form": "える",
+              "startIndex": 3,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "915ce682-39f5-4e53-92fe-c786863a0e86"
+            },
+            {
+              "form": "う",
+              "startIndex": 4,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+            },
+            {
+              "form": "機械",
+              "startIndex": 5,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "cdcdd019-3b74-48d2-90a7-ad4ad64d12c7"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "id": "a88db930-f803-46aa-a3a0-361c1e5f8e2c",
   "tags": [
     "source::jlab::inter"

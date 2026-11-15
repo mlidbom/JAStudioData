@@ -1,0 +1,412 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "だったら普通に金貸せって言えよ",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "だったら",
+        "vocabId": "496d5af2-5468-403a-855f-363bb79b8d81"
+      },
+      {
+        "variant": "B",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "だった",
+        "vocabId": "d2fe8f85-7de7-457c-b8a6-5804e39b2ffc"
+      },
+      {
+        "variant": "B",
+        "startIndex": 0,
+        "isDisplayed": false,
+        "parsedForm": "だ",
+        "vocabId": "32d275aa-5811-482d-b2f3-7e6d2080ac53"
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "たら",
+        "vocabId": "b92e04ed-7372-45f6-aad5-6975c6447a86"
+      },
+      {
+        "variant": "B",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "た",
+        "vocabId": "8ee8e382-e65c-4af4-81b6-ccd55babc91f"
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "普通に",
+        "vocabId": "fecc5093-3a08-4e3a-8fa2-b53de31bd034"
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": false,
+        "parsedForm": "普通",
+        "vocabId": "eefb9d8a-b80b-4f7b-a9d8-25a7bf3f7f1d"
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "に",
+        "vocabId": "7391aab7-d24e-4260-8395-e7b757406ef6"
+      },
+      {
+        "variant": "S",
+        "startIndex": 7,
+        "isDisplayed": true,
+        "parsedForm": "金",
+        "vocabId": "026e2ab5-ce7b-45bd-b4ee-baaf23f76fbb"
+      },
+      {
+        "variant": "B",
+        "startIndex": 8,
+        "isDisplayed": true,
+        "parsedForm": "貸す",
+        "vocabId": "e5c4b48d-f2ac-4f65-a349-c7f5d513f901"
+      },
+      {
+        "variant": "B",
+        "startIndex": 9,
+        "isDisplayed": true,
+        "parsedForm": "え",
+        "vocabId": "602a5d49-874c-4f77-a5de-9ddbd99ee156"
+      },
+      {
+        "variant": "B",
+        "startIndex": 10,
+        "isDisplayed": true,
+        "parsedForm": "って言う",
+        "vocabId": "8ae95bee-41e9-43a0-9679-9937ba399e15"
+      },
+      {
+        "variant": "S",
+        "startIndex": 10,
+        "isDisplayed": false,
+        "parsedForm": "って",
+        "vocabId": "e7744e50-5174-4bca-afc7-6ad527634ad9"
+      },
+      {
+        "variant": "B",
+        "startIndex": 12,
+        "isDisplayed": false,
+        "parsedForm": "言う",
+        "vocabId": "b7cefd46-499a-4c9c-9f06-3eed04e1d410"
+      },
+      {
+        "variant": "S",
+        "startIndex": 13,
+        "isDisplayed": true,
+        "parsedForm": "え",
+        "vocabId": "602a5d49-874c-4f77-a5de-9ddbd99ee156"
+      },
+      {
+        "variant": "S",
+        "startIndex": 14,
+        "isDisplayed": true,
+        "parsedForm": "よ",
+        "vocabId": "8d071a9e-11b0-4f59-82d7-c95c096b924b"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "だったら普通に金<wbr>貸せって言えよ",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "wbr word separation",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.WbrWordSeparation, against vocab copied by hand, expected the breakdown to display: だったら | 普通に | 金 | 貸す | え | って言う | え | よ.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "だったら",
+          "vocabId": "496d5af2-5468-403a-855f-363bb79b8d81"
+        },
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "だった",
+          "vocabId": "d2fe8f85-7de7-457c-b8a6-5804e39b2ffc"
+        },
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": false,
+          "parsedForm": "だ",
+          "vocabId": "32d275aa-5811-482d-b2f3-7e6d2080ac53"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": false,
+          "parsedForm": "たら",
+          "vocabId": "b92e04ed-7372-45f6-aad5-6975c6447a86"
+        },
+        {
+          "variant": "B",
+          "startIndex": 2,
+          "isDisplayed": false,
+          "parsedForm": "た",
+          "vocabId": "8ee8e382-e65c-4af4-81b6-ccd55babc91f"
+        },
+        {
+          "variant": "S",
+          "startIndex": 4,
+          "isDisplayed": true,
+          "parsedForm": "普通に",
+          "vocabId": "fecc5093-3a08-4e3a-8fa2-b53de31bd034"
+        },
+        {
+          "variant": "S",
+          "startIndex": 4,
+          "isDisplayed": false,
+          "parsedForm": "普通",
+          "vocabId": "eefb9d8a-b80b-4f7b-a9d8-25a7bf3f7f1d"
+        },
+        {
+          "variant": "S",
+          "startIndex": 6,
+          "isDisplayed": false,
+          "parsedForm": "に",
+          "vocabId": "7391aab7-d24e-4260-8395-e7b757406ef6"
+        },
+        {
+          "variant": "S",
+          "startIndex": 7,
+          "isDisplayed": true,
+          "parsedForm": "金",
+          "vocabId": "026e2ab5-ce7b-45bd-b4ee-baaf23f76fbb"
+        },
+        {
+          "variant": "B",
+          "startIndex": 8,
+          "isDisplayed": true,
+          "parsedForm": "貸す",
+          "vocabId": "e5c4b48d-f2ac-4f65-a349-c7f5d513f901"
+        },
+        {
+          "variant": "B",
+          "startIndex": 9,
+          "isDisplayed": true,
+          "parsedForm": "え",
+          "vocabId": "602a5d49-874c-4f77-a5de-9ddbd99ee156"
+        },
+        {
+          "variant": "B",
+          "startIndex": 10,
+          "isDisplayed": true,
+          "parsedForm": "って言う",
+          "vocabId": "8ae95bee-41e9-43a0-9679-9937ba399e15"
+        },
+        {
+          "variant": "S",
+          "startIndex": 10,
+          "isDisplayed": false,
+          "parsedForm": "って",
+          "vocabId": "e7744e50-5174-4bca-afc7-6ad527634ad9"
+        },
+        {
+          "variant": "B",
+          "startIndex": 12,
+          "isDisplayed": false,
+          "parsedForm": "言う",
+          "vocabId": "b7cefd46-499a-4c9c-9f06-3eed04e1d410"
+        },
+        {
+          "variant": "S",
+          "startIndex": 13,
+          "isDisplayed": true,
+          "parsedForm": "え",
+          "vocabId": "602a5d49-874c-4f77-a5de-9ddbd99ee156"
+        },
+        {
+          "variant": "S",
+          "startIndex": 14,
+          "isDisplayed": true,
+          "parsedForm": "よ",
+          "vocabId": "8d071a9e-11b0-4f59-82d7-c95c096b924b"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "だったら",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "496d5af2-5468-403a-855f-363bb79b8d81"
+            },
+            {
+              "form": "普通に",
+              "startIndex": 4,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "fecc5093-3a08-4e3a-8fa2-b53de31bd034"
+            },
+            {
+              "form": "金",
+              "startIndex": 7,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "026e2ab5-ce7b-45bd-b4ee-baaf23f76fbb"
+            },
+            {
+              "form": "貸す",
+              "startIndex": 8,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "e5c4b48d-f2ac-4f65-a349-c7f5d513f901"
+            },
+            {
+              "form": "え",
+              "startIndex": 9,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "602a5d49-874c-4f77-a5de-9ddbd99ee156"
+            },
+            {
+              "form": "って言う",
+              "startIndex": 10,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "8ae95bee-41e9-43a0-9679-9937ba399e15"
+            },
+            {
+              "form": "え",
+              "startIndex": 13,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "602a5d49-874c-4f77-a5de-9ddbd99ee156"
+            },
+            {
+              "form": "よ",
+              "startIndex": 14,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "8d071a9e-11b0-4f59-82d7-c95c096b924b"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "だ",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "32d275aa-5811-482d-b2f3-7e6d2080ac53"
+            },
+            {
+              "form": "たら",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "b92e04ed-7372-45f6-aad5-6975c6447a86"
+            },
+            {
+              "form": "普通",
+              "startIndex": 4,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "eefb9d8a-b80b-4f7b-a9d8-25a7bf3f7f1d"
+            },
+            {
+              "form": "に",
+              "startIndex": 6,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "7391aab7-d24e-4260-8395-e7b757406ef6"
+            },
+            {
+              "form": "金",
+              "startIndex": 7,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "026e2ab5-ce7b-45bd-b4ee-baaf23f76fbb"
+            },
+            {
+              "form": "貸す",
+              "startIndex": 8,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "e5c4b48d-f2ac-4f65-a349-c7f5d513f901"
+            },
+            {
+              "form": "え",
+              "startIndex": 9,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "602a5d49-874c-4f77-a5de-9ddbd99ee156"
+            },
+            {
+              "form": "って",
+              "startIndex": 10,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "e7744e50-5174-4bca-afc7-6ad527634ad9"
+            },
+            {
+              "form": "言う",
+              "startIndex": 12,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "b7cefd46-499a-4c9c-9f06-3eed04e1d410"
+            },
+            {
+              "form": "え",
+              "startIndex": 13,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "602a5d49-874c-4f77-a5de-9ddbd99ee156"
+            },
+            {
+              "form": "よ",
+              "startIndex": 14,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "8d071a9e-11b0-4f59-82d7-c95c096b924b"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "dbdd1d44-6565-498a-ad63-1eca1d638e72",
+  "tags": []
+}

@@ -1,0 +1,195 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "買い替えています",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "B",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "買い替える",
+        "vocabId": "9fdb8682-52eb-4bc6-a705-f557dcab16dc"
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "ています",
+        "vocabId": "cdeffc4d-c37f-46b9-bc76-98853c1b7fed"
+      },
+      {
+        "variant": "B",
+        "startIndex": 4,
+        "isDisplayed": false,
+        "parsedForm": "ている",
+        "vocabId": "601ea2f0-ede3-4250-841e-60968bb13785"
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": false,
+        "parsedForm": "て",
+        "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": false,
+        "parsedForm": "います",
+        "vocabId": "1e46b86d-3c4d-42d6-8fcc-393a71c4edba"
+      },
+      {
+        "variant": "B",
+        "startIndex": 5,
+        "isDisplayed": false,
+        "parsedForm": "いる",
+        "vocabId": "8211800d-5642-41a5-b7e6-184e6d052d66"
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "ます",
+        "vocabId": "d3765dc0-d7b5-439a-81ab-84ba2f89b7b7"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "買い替えています",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "hide transparent compounds",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.HideTransparentCompounds, against vocab copied by hand, expected the breakdown to display: 買い替える | ている | ます.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "買い替える",
+          "vocabId": "9fdb8682-52eb-4bc6-a705-f557dcab16dc"
+        },
+        {
+          "variant": "S",
+          "startIndex": 4,
+          "isDisplayed": true,
+          "parsedForm": "ています",
+          "vocabId": "cdeffc4d-c37f-46b9-bc76-98853c1b7fed"
+        },
+        {
+          "variant": "B",
+          "startIndex": 4,
+          "isDisplayed": false,
+          "parsedForm": "ている",
+          "vocabId": "601ea2f0-ede3-4250-841e-60968bb13785"
+        },
+        {
+          "variant": "S",
+          "startIndex": 4,
+          "isDisplayed": false,
+          "parsedForm": "て",
+          "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+        },
+        {
+          "variant": "S",
+          "startIndex": 5,
+          "isDisplayed": false,
+          "parsedForm": "います",
+          "vocabId": "1e46b86d-3c4d-42d6-8fcc-393a71c4edba"
+        },
+        {
+          "variant": "B",
+          "startIndex": 5,
+          "isDisplayed": false,
+          "parsedForm": "いる",
+          "vocabId": "8211800d-5642-41a5-b7e6-184e6d052d66"
+        },
+        {
+          "variant": "S",
+          "startIndex": 6,
+          "isDisplayed": false,
+          "parsedForm": "ます",
+          "vocabId": "d3765dc0-d7b5-439a-81ab-84ba2f89b7b7"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "買い替える",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "9fdb8682-52eb-4bc6-a705-f557dcab16dc"
+            },
+            {
+              "form": "ています",
+              "startIndex": 4,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "cdeffc4d-c37f-46b9-bc76-98853c1b7fed"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "買い替える",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "9fdb8682-52eb-4bc6-a705-f557dcab16dc"
+            },
+            {
+              "form": "て",
+              "startIndex": 4,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+            },
+            {
+              "form": "いる",
+              "startIndex": 5,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "8211800d-5642-41a5-b7e6-184e6d052d66"
+            },
+            {
+              "form": "ます",
+              "startIndex": 6,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "d3765dc0-d7b5-439a-81ab-84ba2f89b7b7"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "c944f661-564a-461d-964e-8e2dde25580a",
+  "tags": []
+}

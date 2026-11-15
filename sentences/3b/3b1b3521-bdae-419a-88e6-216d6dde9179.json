@@ -1,0 +1,272 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "聞こうと思ってた",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "B",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "聞く",
+        "vocabId": "ee02c08a-d068-40ff-b882-ffc586af7186"
+      },
+      {
+        "variant": "B",
+        "startIndex": 1,
+        "isDisplayed": true,
+        "parsedForm": "おうと思う",
+        "vocabId": "7584aec6-a266-4af7-aa48-b8035c47f426"
+      },
+      {
+        "variant": "S",
+        "startIndex": 1,
+        "isDisplayed": false,
+        "parsedForm": "おうと",
+        "vocabId": "e3ccb231-ba95-4a18-b693-85b2fe7593bc"
+      },
+      {
+        "variant": "S",
+        "startIndex": 1,
+        "isDisplayed": false,
+        "parsedForm": "おう",
+        "vocabId": "42cbfd74-ecd1-40b4-a265-0495417db3f0"
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": false,
+        "parsedForm": "と思って",
+        "vocabId": "7d8faf77-9d3b-4292-ae56-ffe280f320b4"
+      },
+      {
+        "variant": "B",
+        "startIndex": 3,
+        "isDisplayed": false,
+        "parsedForm": "と思う",
+        "vocabId": "a033d6b2-90c1-4eff-84d3-04864b980fb8"
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": false,
+        "parsedForm": "と",
+        "vocabId": "56979285-581f-4cba-b839-889bc5ce98aa"
+      },
+      {
+        "variant": "B",
+        "startIndex": 4,
+        "isDisplayed": false,
+        "parsedForm": "思う",
+        "vocabId": "c00ee19c-29d7-446a-80c8-729a9847d23a"
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": true,
+        "parsedForm": "てた",
+        "vocabId": "4a72e0c9-ff33-4ec6-931f-980fdc414788"
+      },
+      {
+        "variant": "B",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "てる",
+        "vocabId": "4c8d7119-0464-426c-88b7-ee97c1554eb5"
+      },
+      {
+        "variant": "S",
+        "startIndex": 7,
+        "isDisplayed": false,
+        "parsedForm": "た",
+        "vocabId": "8ee8e382-e65c-4af4-81b6-ccd55babc91f"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "聞こうと思ってた",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "misc stuff",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.MiscStuff, against vocab copied by hand, expected the breakdown to display: 聞く | う | と思う | てた.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "聞く",
+          "vocabId": "ee02c08a-d068-40ff-b882-ffc586af7186"
+        },
+        {
+          "variant": "B",
+          "startIndex": 1,
+          "isDisplayed": true,
+          "parsedForm": "おうと思う",
+          "vocabId": "7584aec6-a266-4af7-aa48-b8035c47f426"
+        },
+        {
+          "variant": "S",
+          "startIndex": 1,
+          "isDisplayed": false,
+          "parsedForm": "おうと",
+          "vocabId": "e3ccb231-ba95-4a18-b693-85b2fe7593bc"
+        },
+        {
+          "variant": "S",
+          "startIndex": 1,
+          "isDisplayed": false,
+          "parsedForm": "おう",
+          "vocabId": "42cbfd74-ecd1-40b4-a265-0495417db3f0"
+        },
+        {
+          "variant": "S",
+          "startIndex": 3,
+          "isDisplayed": false,
+          "parsedForm": "と思って",
+          "vocabId": "7d8faf77-9d3b-4292-ae56-ffe280f320b4"
+        },
+        {
+          "variant": "B",
+          "startIndex": 3,
+          "isDisplayed": false,
+          "parsedForm": "と思う",
+          "vocabId": "a033d6b2-90c1-4eff-84d3-04864b980fb8"
+        },
+        {
+          "variant": "S",
+          "startIndex": 3,
+          "isDisplayed": false,
+          "parsedForm": "と",
+          "vocabId": "56979285-581f-4cba-b839-889bc5ce98aa"
+        },
+        {
+          "variant": "B",
+          "startIndex": 4,
+          "isDisplayed": false,
+          "parsedForm": "思う",
+          "vocabId": "c00ee19c-29d7-446a-80c8-729a9847d23a"
+        },
+        {
+          "variant": "S",
+          "startIndex": 6,
+          "isDisplayed": true,
+          "parsedForm": "てた",
+          "vocabId": "4a72e0c9-ff33-4ec6-931f-980fdc414788"
+        },
+        {
+          "variant": "B",
+          "startIndex": 6,
+          "isDisplayed": false,
+          "parsedForm": "てる",
+          "vocabId": "4c8d7119-0464-426c-88b7-ee97c1554eb5"
+        },
+        {
+          "variant": "S",
+          "startIndex": 7,
+          "isDisplayed": false,
+          "parsedForm": "た",
+          "vocabId": "8ee8e382-e65c-4af4-81b6-ccd55babc91f"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "聞く",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "ee02c08a-d068-40ff-b882-ffc586af7186"
+            },
+            {
+              "form": "おうと思う",
+              "startIndex": 1,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "7584aec6-a266-4af7-aa48-b8035c47f426"
+            },
+            {
+              "form": "てた",
+              "startIndex": 6,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "4a72e0c9-ff33-4ec6-931f-980fdc414788"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "聞く",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "ee02c08a-d068-40ff-b882-ffc586af7186"
+            },
+            {
+              "form": "おう",
+              "startIndex": 1,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "42cbfd74-ecd1-40b4-a265-0495417db3f0"
+            },
+            {
+              "form": "と",
+              "startIndex": 3,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "56979285-581f-4cba-b839-889bc5ce98aa"
+            },
+            {
+              "form": "思う",
+              "startIndex": 4,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "c00ee19c-29d7-446a-80c8-729a9847d23a"
+            },
+            {
+              "form": "てる",
+              "startIndex": 6,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "4c8d7119-0464-426c-88b7-ee97c1554eb5"
+            },
+            {
+              "form": "た",
+              "startIndex": 7,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "8ee8e382-e65c-4af4-81b6-ccd55babc91f"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "3b1b3521-bdae-419a-88e6-216d6dde9179",
+  "tags": []
+}

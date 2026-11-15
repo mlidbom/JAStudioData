@@ -1,0 +1,67 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "私　. , : ; / | 。 、 ? ! ( )",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "私",
+        "vocabId": "b0feb775-fb1d-4097-b7bc-dbf87fae98a1"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "私　. , : ; / | 。 、 ? ! ( )",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "noise characters are ignored",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.NoiseCharactersAreIgnored, against vocab copied by hand, expected the breakdown to display: 私.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "私",
+          "vocabId": "b0feb775-fb1d-4097-b7bc-dbf87fae98a1"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {},
+          "displayedWords": [
+            {
+              "form": "私",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "b0feb775-fb1d-4097-b7bc-dbf87fae98a1"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "a2b43cf1-cc1c-4911-bea5-1f8f2765a644",
+  "tags": []
+}

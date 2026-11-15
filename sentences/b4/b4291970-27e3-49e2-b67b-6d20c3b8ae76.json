@@ -70,6 +70,115 @@
       }
     ]
   },
+  "parsingCase": {
+    "name": "misc stuff",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.MiscStuff, against vocab copied by hand, expected the breakdown to display: 破る | あれる | た | か.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "破る",
+          "vocabId": "c6034e67-6029-4c7e-8000-09d81bc7647e"
+        },
+        {
+          "variant": "S",
+          "startIndex": 1,
+          "isDisplayed": true,
+          "parsedForm": "あれた",
+          "vocabId": "98a34393-6425-4516-bb76-6a8b228988ca"
+        },
+        {
+          "variant": "B",
+          "startIndex": 1,
+          "isDisplayed": false,
+          "parsedForm": "あれる",
+          "vocabId": "de54cf82-4edc-4afa-9996-189f8a4811f0"
+        },
+        {
+          "variant": "S",
+          "startIndex": 3,
+          "isDisplayed": false,
+          "parsedForm": "た",
+          "vocabId": "8ee8e382-e65c-4af4-81b6-ccd55babc91f"
+        },
+        {
+          "variant": "S",
+          "startIndex": 4,
+          "isDisplayed": true,
+          "parsedForm": "か",
+          "vocabId": "fa01f6d1-0021-4f11-a8aa-eb4b0b6bc533"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "破る",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "c6034e67-6029-4c7e-8000-09d81bc7647e"
+            },
+            {
+              "form": "あれた",
+              "startIndex": 1,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "98a34393-6425-4516-bb76-6a8b228988ca"
+            },
+            {
+              "form": "か",
+              "startIndex": 4,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "fa01f6d1-0021-4f11-a8aa-eb4b0b6bc533"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "破る",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "c6034e67-6029-4c7e-8000-09d81bc7647e"
+            },
+            {
+              "form": "あれる",
+              "startIndex": 1,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "de54cf82-4edc-4afa-9996-189f8a4811f0"
+            },
+            {
+              "form": "た",
+              "startIndex": 3,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "8ee8e382-e65c-4af4-81b6-ccd55babc91f"
+            },
+            {
+              "form": "か",
+              "startIndex": 4,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "fa01f6d1-0021-4f11-a8aa-eb4b0b6bc533"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "id": "b4291970-27e3-49e2-b67b-6d20c3b8ae76",
   "tags": [
     "source::anime::natsume::s2::13"

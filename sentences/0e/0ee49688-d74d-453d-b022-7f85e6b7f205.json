@@ -1,0 +1,300 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [
+      {
+        "word": "風の強い",
+        "index": -1
+      }
+    ],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "風の強さに驚きました",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "風",
+        "vocabId": "5ebf5020-567f-468c-bfd1-498fabe95963"
+      },
+      {
+        "variant": "S",
+        "startIndex": 1,
+        "isDisplayed": true,
+        "parsedForm": "の",
+        "vocabId": "33bf9bc1-0744-4973-8d45-5776bc54eac1"
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "強さ",
+        "vocabId": "02ebf027-42fd-41d3-a876-d3aada511af4"
+      },
+      {
+        "variant": "B",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "強い",
+        "vocabId": "d2eff495-9cbe-41f4-9fb6-a0e56d4e0d4b"
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": false,
+        "parsedForm": "さ",
+        "vocabId": "10abfe8f-b536-47d9-b129-bfa04813dfae"
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "に",
+        "vocabId": "7391aab7-d24e-4260-8395-e7b757406ef6"
+      },
+      {
+        "variant": "B",
+        "startIndex": 5,
+        "isDisplayed": true,
+        "parsedForm": "驚く",
+        "vocabId": "1440f1ff-94e5-49fd-a09c-72b656395552"
+      },
+      {
+        "variant": "S",
+        "startIndex": 7,
+        "isDisplayed": true,
+        "parsedForm": "ました",
+        "vocabId": "2fc554c4-3ab8-4755-91a9-5ec2a38a5dde"
+      },
+      {
+        "variant": "B",
+        "startIndex": 7,
+        "isDisplayed": false,
+        "parsedForm": "ます",
+        "vocabId": "d3765dc0-d7b5-439a-81ab-84ba2f89b7b7"
+      },
+      {
+        "variant": "S",
+        "startIndex": 9,
+        "isDisplayed": false,
+        "parsedForm": "た",
+        "vocabId": "8ee8e382-e65c-4af4-81b6-ccd55babc91f"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "風の強さに驚きました",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "incorrect exclusions - incorrect matches",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.IncorrectExclusions, against vocab copied by hand, with 風の強い marked as incorrect matches, expected the breakdown to display: 風 | の | 強さ | に | 驚き | ます | た.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "風",
+          "vocabId": "5ebf5020-567f-468c-bfd1-498fabe95963"
+        },
+        {
+          "variant": "S",
+          "startIndex": 1,
+          "isDisplayed": true,
+          "parsedForm": "の",
+          "vocabId": "33bf9bc1-0744-4973-8d45-5776bc54eac1"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": true,
+          "parsedForm": "強さ",
+          "vocabId": "02ebf027-42fd-41d3-a876-d3aada511af4"
+        },
+        {
+          "variant": "B",
+          "startIndex": 2,
+          "isDisplayed": false,
+          "parsedForm": "強い",
+          "vocabId": "d2eff495-9cbe-41f4-9fb6-a0e56d4e0d4b"
+        },
+        {
+          "variant": "S",
+          "startIndex": 3,
+          "isDisplayed": false,
+          "parsedForm": "さ",
+          "vocabId": "10abfe8f-b536-47d9-b129-bfa04813dfae"
+        },
+        {
+          "variant": "S",
+          "startIndex": 4,
+          "isDisplayed": true,
+          "parsedForm": "に",
+          "vocabId": "7391aab7-d24e-4260-8395-e7b757406ef6"
+        },
+        {
+          "variant": "B",
+          "startIndex": 5,
+          "isDisplayed": true,
+          "parsedForm": "驚く",
+          "vocabId": "1440f1ff-94e5-49fd-a09c-72b656395552"
+        },
+        {
+          "variant": "S",
+          "startIndex": 7,
+          "isDisplayed": true,
+          "parsedForm": "ました",
+          "vocabId": "2fc554c4-3ab8-4755-91a9-5ec2a38a5dde"
+        },
+        {
+          "variant": "B",
+          "startIndex": 7,
+          "isDisplayed": false,
+          "parsedForm": "ます",
+          "vocabId": "d3765dc0-d7b5-439a-81ab-84ba2f89b7b7"
+        },
+        {
+          "variant": "S",
+          "startIndex": 9,
+          "isDisplayed": false,
+          "parsedForm": "た",
+          "vocabId": "8ee8e382-e65c-4af4-81b6-ccd55babc91f"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "風",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "5ebf5020-567f-468c-bfd1-498fabe95963"
+            },
+            {
+              "form": "の",
+              "startIndex": 1,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "33bf9bc1-0744-4973-8d45-5776bc54eac1"
+            },
+            {
+              "form": "強さ",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "02ebf027-42fd-41d3-a876-d3aada511af4"
+            },
+            {
+              "form": "に",
+              "startIndex": 4,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "7391aab7-d24e-4260-8395-e7b757406ef6"
+            },
+            {
+              "form": "驚く",
+              "startIndex": 5,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "1440f1ff-94e5-49fd-a09c-72b656395552"
+            },
+            {
+              "form": "ました",
+              "startIndex": 7,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "2fc554c4-3ab8-4755-91a9-5ec2a38a5dde"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "風",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "5ebf5020-567f-468c-bfd1-498fabe95963"
+            },
+            {
+              "form": "の",
+              "startIndex": 1,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "33bf9bc1-0744-4973-8d45-5776bc54eac1"
+            },
+            {
+              "form": "強い",
+              "startIndex": 2,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "d2eff495-9cbe-41f4-9fb6-a0e56d4e0d4b"
+            },
+            {
+              "form": "さ",
+              "startIndex": 3,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "10abfe8f-b536-47d9-b129-bfa04813dfae"
+            },
+            {
+              "form": "に",
+              "startIndex": 4,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "7391aab7-d24e-4260-8395-e7b757406ef6"
+            },
+            {
+              "form": "驚く",
+              "startIndex": 5,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "1440f1ff-94e5-49fd-a09c-72b656395552"
+            },
+            {
+              "form": "ます",
+              "startIndex": 7,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "d3765dc0-d7b5-439a-81ab-84ba2f89b7b7"
+            },
+            {
+              "form": "た",
+              "startIndex": 9,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "8ee8e382-e65c-4af4-81b6-ccd55babc91f"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "0ee49688-d74d-453d-b022-7f85e6b7f205",
+  "tags": [
+    "-::sentence::uses::incorrect-matches"
+  ]
+}

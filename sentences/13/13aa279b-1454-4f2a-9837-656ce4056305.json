@@ -1,0 +1,67 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": ". , : ; / | 。 、ー ? !",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 15,
+        "isDisplayed": true,
+        "parsedForm": "ー",
+        "vocabId": "18c350c5-f140-4726-b84b-ec82bcb01382"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": ". , : ; / | 。 、ー ? !",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "ignores noise characters",
+    "why": "Converted from TextAnalysisWithSelectDataTests.IgnoresNoiseCharacters, against vocab copied by hand, expected the forms of the parsing result: ー.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 15,
+          "isDisplayed": true,
+          "parsedForm": "ー",
+          "vocabId": "18c350c5-f140-4726-b84b-ec82bcb01382"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {},
+          "displayedWords": [
+            {
+              "form": "ー",
+              "startIndex": 15,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "18c350c5-f140-4726-b84b-ec82bcb01382"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "13aa279b-1454-4f2a-9837-656ce4056305",
+  "tags": []
+}

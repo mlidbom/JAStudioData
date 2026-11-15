@@ -1,0 +1,88 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "死んどる",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "B",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "死ぬ",
+        "vocabId": "10594388-4413-4301-b971-af1744248e0e"
+      },
+      {
+        "variant": "S",
+        "startIndex": 1,
+        "isDisplayed": true,
+        "parsedForm": "んどる",
+        "vocabId": "8e8fdb1c-2542-457f-9ca3-73922f7a1d26"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "死んどる",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "misc stuff",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.MiscStuff, against vocab copied by hand, expected the breakdown to display: 死ぬ | んどる; and from TextAnalysisWithSelectDataTests.IdentifyWords, against vocab copied by hand, expected the forms of the parsing result: 死ぬ | んどる.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "死ぬ",
+          "vocabId": "10594388-4413-4301-b971-af1744248e0e"
+        },
+        {
+          "variant": "S",
+          "startIndex": 1,
+          "isDisplayed": true,
+          "parsedForm": "んどる",
+          "vocabId": "8e8fdb1c-2542-457f-9ca3-73922f7a1d26"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {},
+          "displayedWords": [
+            {
+              "form": "死ぬ",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "10594388-4413-4301-b971-af1744248e0e"
+            },
+            {
+              "form": "んどる",
+              "startIndex": 1,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "8e8fdb1c-2542-457f-9ca3-73922f7a1d26"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "3e87b53a-7a46-4d33-b9ef-402f1693f4e3",
+  "tags": []
+}

@@ -70,6 +70,78 @@
       }
     ]
   },
+  "parsingCase": {
+    "name": "godan potential and imperative",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.GodanPotentialAndImperative, against vocab copied by hand, expected the breakdown to display: 返す | え | ったら.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "返す",
+          "vocabId": "6aa51efa-95a2-4d34-8c16-7debb4ceeec5"
+        },
+        {
+          "variant": "B",
+          "startIndex": 1,
+          "isDisplayed": true,
+          "parsedForm": "え",
+          "vocabId": "602a5d49-874c-4f77-a5de-9ddbd99ee156"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": true,
+          "parsedForm": "ったら",
+          "vocabId": "4f5c7aea-3f37-42f2-be40-8ba8627a33a7"
+        },
+        {
+          "variant": "S",
+          "startIndex": 3,
+          "isDisplayed": false,
+          "parsedForm": "たら",
+          "vocabId": "b92e04ed-7372-45f6-aad5-6975c6447a86"
+        },
+        {
+          "variant": "B",
+          "startIndex": 3,
+          "isDisplayed": false,
+          "parsedForm": "た",
+          "vocabId": "8ee8e382-e65c-4af4-81b6-ccd55babc91f"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {},
+          "displayedWords": [
+            {
+              "form": "返す",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "6aa51efa-95a2-4d34-8c16-7debb4ceeec5"
+            },
+            {
+              "form": "え",
+              "startIndex": 1,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "602a5d49-874c-4f77-a5de-9ddbd99ee156"
+            },
+            {
+              "form": "ったら",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "4f5c7aea-3f37-42f2-be40-8ba8627a33a7"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "id": "e76942dd-dbbb-4172-a523-0b86799f0808",
   "tags": [
     "source::anime::natsume::s3::08"

@@ -1,0 +1,116 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "教えにしたがって",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "教え",
+        "vocabId": "ae6fa8c4-deb7-4e5c-86df-0e4bb0ae351b"
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "にしたがって",
+        "vocabId": "7455f008-730e-4360-a0e4-d938991f578e"
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "に",
+        "vocabId": "7391aab7-d24e-4260-8395-e7b757406ef6"
+      },
+      {
+        "variant": "S",
+        "startIndex": 7,
+        "isDisplayed": false,
+        "parsedForm": "て",
+        "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "教えにしたがって",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "hide all compounds",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.HideAllCompounds, against vocab copied by hand, with hiding all compounds on, expected the breakdown to display: 教え | に | したがって.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "教え",
+          "vocabId": "ae6fa8c4-deb7-4e5c-86df-0e4bb0ae351b"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": true,
+          "parsedForm": "にしたがって",
+          "vocabId": "7455f008-730e-4360-a0e4-d938991f578e"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": false,
+          "parsedForm": "に",
+          "vocabId": "7391aab7-d24e-4260-8395-e7b757406ef6"
+        },
+        {
+          "variant": "S",
+          "startIndex": 7,
+          "isDisplayed": false,
+          "parsedForm": "て",
+          "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {},
+          "displayedWords": [
+            {
+              "form": "教え",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "ae6fa8c4-deb7-4e5c-86df-0e4bb0ae351b"
+            },
+            {
+              "form": "にしたがって",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "7455f008-730e-4360-a0e4-d938991f578e"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "8ca9dcdf-41a4-492d-8556-55ac6e7cd88c",
+  "tags": []
+}

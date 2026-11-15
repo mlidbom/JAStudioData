@@ -75,6 +75,136 @@
       }
     ]
   },
+  "parsingCase": {
+    "name": "godan potential and imperative",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.GodanPotentialAndImperative, against vocab copied by hand, expected the breakdown to display: 放す | え | よ | 俺 | は.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "放す",
+          "vocabId": "0c667726-f755-4529-9b4d-7c55e773b7fe"
+        },
+        {
+          "variant": "B",
+          "startIndex": 1,
+          "isDisplayed": true,
+          "parsedForm": "え",
+          "vocabId": "602a5d49-874c-4f77-a5de-9ddbd99ee156"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": true,
+          "parsedForm": "よ",
+          "vocabId": "8d071a9e-11b0-4f59-82d7-c95c096b924b"
+        },
+        {
+          "variant": "S",
+          "startIndex": 4,
+          "isDisplayed": true,
+          "parsedForm": "俺は",
+          "vocabId": "4b7c927a-b5e6-4fe9-a11e-5377544d6e59"
+        },
+        {
+          "variant": "S",
+          "startIndex": 4,
+          "isDisplayed": false,
+          "parsedForm": "俺",
+          "vocabId": "de4dede8-f208-498f-9dca-d9d5c2bff7e5"
+        },
+        {
+          "variant": "S",
+          "startIndex": 5,
+          "isDisplayed": false,
+          "parsedForm": "は",
+          "vocabId": "825f4f56-9e9b-4eb9-92e2-099dc6d0c677"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "放す",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "0c667726-f755-4529-9b4d-7c55e773b7fe"
+            },
+            {
+              "form": "え",
+              "startIndex": 1,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "602a5d49-874c-4f77-a5de-9ddbd99ee156"
+            },
+            {
+              "form": "よ",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "8d071a9e-11b0-4f59-82d7-c95c096b924b"
+            },
+            {
+              "form": "俺は",
+              "startIndex": 4,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "4b7c927a-b5e6-4fe9-a11e-5377544d6e59"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "放す",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "0c667726-f755-4529-9b4d-7c55e773b7fe"
+            },
+            {
+              "form": "え",
+              "startIndex": 1,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "602a5d49-874c-4f77-a5de-9ddbd99ee156"
+            },
+            {
+              "form": "よ",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "8d071a9e-11b0-4f59-82d7-c95c096b924b"
+            },
+            {
+              "form": "俺",
+              "startIndex": 4,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "de4dede8-f208-498f-9dca-d9d5c2bff7e5"
+            },
+            {
+              "form": "は",
+              "startIndex": 5,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "825f4f56-9e9b-4eb9-92e2-099dc6d0c677"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "id": "8463fb81-74aa-4be8-a476-e9ebd94818de",
   "tags": [
     "source::anime::natsume::s6::08"

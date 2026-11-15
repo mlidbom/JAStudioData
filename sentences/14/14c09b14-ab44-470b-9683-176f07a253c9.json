@@ -1,0 +1,88 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "離れよ",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "B",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "離れる",
+        "vocabId": "4fcb1777-1e38-421b-b039-2b350e44509b"
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "よ",
+        "vocabId": "8d071a9e-11b0-4f59-82d7-c95c096b924b"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "離れよ",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "ichidan imperative",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.IchidanImperative, against vocab copied by hand, expected the breakdown to display: 離れる | よ.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "離れる",
+          "vocabId": "4fcb1777-1e38-421b-b039-2b350e44509b"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": true,
+          "parsedForm": "よ",
+          "vocabId": "8d071a9e-11b0-4f59-82d7-c95c096b924b"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {},
+          "displayedWords": [
+            {
+              "form": "離れる",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "4fcb1777-1e38-421b-b039-2b350e44509b"
+            },
+            {
+              "form": "よ",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "8d071a9e-11b0-4f59-82d7-c95c096b924b"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "14c09b14-ab44-470b-9683-176f07a253c9",
+  "tags": []
+}

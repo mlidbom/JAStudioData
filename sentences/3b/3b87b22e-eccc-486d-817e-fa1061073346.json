@@ -1,0 +1,258 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "俺に謝られても",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "俺",
+        "vocabId": "de4dede8-f208-498f-9dca-d9d5c2bff7e5"
+      },
+      {
+        "variant": "B",
+        "startIndex": 1,
+        "isDisplayed": true,
+        "parsedForm": "に謝る",
+        "vocabId": "63c09e16-eaad-476f-8eb4-674f6ed94dee"
+      },
+      {
+        "variant": "S",
+        "startIndex": 1,
+        "isDisplayed": false,
+        "parsedForm": "に",
+        "vocabId": "7391aab7-d24e-4260-8395-e7b757406ef6"
+      },
+      {
+        "variant": "B",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "謝る",
+        "vocabId": "a2a28a55-baf3-4780-ad77-ff71ed1e1c81"
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "あれても",
+        "vocabId": "246ec33e-d622-46fa-8455-5a14bae92b8e"
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": false,
+        "parsedForm": "あれて",
+        "vocabId": "182b5f91-17e6-41ce-b062-bad3478d55a9"
+      },
+      {
+        "variant": "B",
+        "startIndex": 3,
+        "isDisplayed": false,
+        "parsedForm": "あれる",
+        "vocabId": "de54cf82-4edc-4afa-9996-189f8a4811f0"
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": false,
+        "parsedForm": "ても",
+        "vocabId": "0fd262c2-58c4-481f-9d0a-1a396c7ec21e"
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": false,
+        "parsedForm": "て",
+        "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "も",
+        "vocabId": "156f9454-37f8-4b10-a6e7-3abe39897c8b"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "俺に謝られても",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "misc stuff",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.MiscStuff, against vocab copied by hand, expected the breakdown to display: 俺 | に | 謝る | あれても.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "俺",
+          "vocabId": "de4dede8-f208-498f-9dca-d9d5c2bff7e5"
+        },
+        {
+          "variant": "B",
+          "startIndex": 1,
+          "isDisplayed": true,
+          "parsedForm": "に謝る",
+          "vocabId": "63c09e16-eaad-476f-8eb4-674f6ed94dee"
+        },
+        {
+          "variant": "S",
+          "startIndex": 1,
+          "isDisplayed": false,
+          "parsedForm": "に",
+          "vocabId": "7391aab7-d24e-4260-8395-e7b757406ef6"
+        },
+        {
+          "variant": "B",
+          "startIndex": 2,
+          "isDisplayed": false,
+          "parsedForm": "謝る",
+          "vocabId": "a2a28a55-baf3-4780-ad77-ff71ed1e1c81"
+        },
+        {
+          "variant": "S",
+          "startIndex": 3,
+          "isDisplayed": true,
+          "parsedForm": "あれても",
+          "vocabId": "246ec33e-d622-46fa-8455-5a14bae92b8e"
+        },
+        {
+          "variant": "S",
+          "startIndex": 3,
+          "isDisplayed": false,
+          "parsedForm": "あれて",
+          "vocabId": "182b5f91-17e6-41ce-b062-bad3478d55a9"
+        },
+        {
+          "variant": "B",
+          "startIndex": 3,
+          "isDisplayed": false,
+          "parsedForm": "あれる",
+          "vocabId": "de54cf82-4edc-4afa-9996-189f8a4811f0"
+        },
+        {
+          "variant": "S",
+          "startIndex": 5,
+          "isDisplayed": false,
+          "parsedForm": "ても",
+          "vocabId": "0fd262c2-58c4-481f-9d0a-1a396c7ec21e"
+        },
+        {
+          "variant": "S",
+          "startIndex": 5,
+          "isDisplayed": false,
+          "parsedForm": "て",
+          "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+        },
+        {
+          "variant": "S",
+          "startIndex": 6,
+          "isDisplayed": false,
+          "parsedForm": "も",
+          "vocabId": "156f9454-37f8-4b10-a6e7-3abe39897c8b"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "俺",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "de4dede8-f208-498f-9dca-d9d5c2bff7e5"
+            },
+            {
+              "form": "に謝る",
+              "startIndex": 1,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "63c09e16-eaad-476f-8eb4-674f6ed94dee"
+            },
+            {
+              "form": "あれても",
+              "startIndex": 3,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "246ec33e-d622-46fa-8455-5a14bae92b8e"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "俺",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "de4dede8-f208-498f-9dca-d9d5c2bff7e5"
+            },
+            {
+              "form": "に",
+              "startIndex": 1,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "7391aab7-d24e-4260-8395-e7b757406ef6"
+            },
+            {
+              "form": "謝る",
+              "startIndex": 2,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "a2a28a55-baf3-4780-ad77-ff71ed1e1c81"
+            },
+            {
+              "form": "あれる",
+              "startIndex": 3,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "de54cf82-4edc-4afa-9996-189f8a4811f0"
+            },
+            {
+              "form": "て",
+              "startIndex": 5,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+            },
+            {
+              "form": "も",
+              "startIndex": 6,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "156f9454-37f8-4b10-a6e7-3abe39897c8b"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "3b87b22e-eccc-486d-817e-fa1061073346",
+  "tags": []
+}

@@ -70,6 +70,115 @@
       }
     ]
   },
+  "parsingCase": {
+    "name": "identify words",
+    "why": "Converted from TextAnalysisWithSelectDataTests.IdentifyWords, against vocab copied by hand, expected the forms of the parsing result: これ | を | ください | くださる | い.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "これ",
+          "vocabId": "e9f9b41a-6a88-489e-8528-a119fe90f003"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": true,
+          "parsedForm": "を",
+          "vocabId": "0b5bd909-4c0e-4f1c-bde3-c91719eb579a"
+        },
+        {
+          "variant": "S",
+          "startIndex": 3,
+          "isDisplayed": true,
+          "parsedForm": "ください",
+          "vocabId": "20a90303-9b42-4d4e-81a8-278b61da9d11"
+        },
+        {
+          "variant": "B",
+          "startIndex": 3,
+          "isDisplayed": false,
+          "parsedForm": "くださる",
+          "vocabId": "ba1ea3ad-3901-4877-9059-9744180d47fb"
+        },
+        {
+          "variant": "S",
+          "startIndex": 6,
+          "isDisplayed": false,
+          "parsedForm": "い",
+          "vocabId": "504d1590-9cb5-4f67-bdaf-1f174a93c67b"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "これ",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "e9f9b41a-6a88-489e-8528-a119fe90f003"
+            },
+            {
+              "form": "を",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "0b5bd909-4c0e-4f1c-bde3-c91719eb579a"
+            },
+            {
+              "form": "ください",
+              "startIndex": 3,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "20a90303-9b42-4d4e-81a8-278b61da9d11"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "これ",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "e9f9b41a-6a88-489e-8528-a119fe90f003"
+            },
+            {
+              "form": "を",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "0b5bd909-4c0e-4f1c-bde3-c91719eb579a"
+            },
+            {
+              "form": "くださる",
+              "startIndex": 3,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "ba1ea3ad-3901-4877-9059-9744180d47fb"
+            },
+            {
+              "form": "い",
+              "startIndex": 6,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "504d1590-9cb5-4f67-bdaf-1f174a93c67b"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "id": "34618d7f-6a0b-41d5-9e85-deb4b5f1f372",
   "tags": [
     "source::core2000::step01"

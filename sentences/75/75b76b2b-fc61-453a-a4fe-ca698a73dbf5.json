@@ -61,6 +61,78 @@
       }
     ]
   },
+  "parsingCase": {
+    "name": "misc stuff",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.MiscStuff, against vocab copied by hand, expected the breakdown to display: また | 来る | う | な:s.end.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "また",
+          "vocabId": "5c9495ac-3f87-4bb1-878d-67536a95a83d"
+        },
+        {
+          "variant": "B",
+          "startIndex": 2,
+          "isDisplayed": true,
+          "parsedForm": "来る",
+          "vocabId": "3cb7e3ef-aadf-447d-872b-d0ef86f44c25"
+        },
+        {
+          "variant": "S",
+          "startIndex": 3,
+          "isDisplayed": true,
+          "parsedForm": "おう",
+          "vocabId": "42cbfd74-ecd1-40b4-a265-0495417db3f0"
+        },
+        {
+          "variant": "S",
+          "startIndex": 5,
+          "isDisplayed": true,
+          "parsedForm": "な",
+          "vocabId": "89b0d902-b2dd-4f1f-a0dc-4f6565616c64"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {},
+          "displayedWords": [
+            {
+              "form": "また",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "5c9495ac-3f87-4bb1-878d-67536a95a83d"
+            },
+            {
+              "form": "来る",
+              "startIndex": 2,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "3cb7e3ef-aadf-447d-872b-d0ef86f44c25"
+            },
+            {
+              "form": "おう",
+              "startIndex": 3,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "42cbfd74-ecd1-40b4-a265-0495417db3f0"
+            },
+            {
+              "form": "な",
+              "startIndex": 5,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "89b0d902-b2dd-4f1f-a0dc-4f6565616c64"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "id": "75b76b2b-fc61-453a-a4fe-ca698a73dbf5",
   "tags": [
     "source::jlab::beginner"

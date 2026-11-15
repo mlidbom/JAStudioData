@@ -1,0 +1,486 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "お金を貸していただけないでしょうか",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "お金",
+        "vocabId": "a49d59c1-de62-45f0-be13-68e6f41ba355"
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "を",
+        "vocabId": "0b5bd909-4c0e-4f1c-bde3-c91719eb579a"
+      },
+      {
+        "variant": "B",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "貸す",
+        "vocabId": "e5c4b48d-f2ac-4f65-a349-c7f5d513f901"
+      },
+      {
+        "variant": "B",
+        "startIndex": 5,
+        "isDisplayed": true,
+        "parsedForm": "ていただく",
+        "vocabId": "b5e3ff6c-efbf-475c-94a1-e9823ee11360"
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": false,
+        "parsedForm": "て",
+        "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+      },
+      {
+        "variant": "B",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "いただける",
+        "vocabId": "2858642f-cd0e-4a3d-8f0f-d7a47fec495a"
+      },
+      {
+        "variant": "B",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "いただく",
+        "vocabId": "b5f71a0b-88de-4fce-9547-a9ab3b49689a"
+      },
+      {
+        "variant": "S",
+        "startIndex": 9,
+        "isDisplayed": true,
+        "parsedForm": "えない",
+        "vocabId": "efce9e5a-170d-4164-9308-3b7eeec0d090"
+      },
+      {
+        "variant": "B",
+        "startIndex": 9,
+        "isDisplayed": false,
+        "parsedForm": "える",
+        "vocabId": "915ce682-39f5-4e53-92fe-c786863a0e86"
+      },
+      {
+        "variant": "S",
+        "startIndex": 10,
+        "isDisplayed": false,
+        "parsedForm": "ない",
+        "vocabId": "1d4932a0-8cac-4af7-8a41-3b8a0d69fe9f"
+      },
+      {
+        "variant": "S",
+        "startIndex": 12,
+        "isDisplayed": true,
+        "parsedForm": "でしょうか",
+        "vocabId": "3595fdff-1ada-49fa-9105-6af8fbab5b3a"
+      },
+      {
+        "variant": "S",
+        "startIndex": 12,
+        "isDisplayed": false,
+        "parsedForm": "でしょう",
+        "vocabId": "df3af823-04c1-40cc-a317-69f0223d264e"
+      },
+      {
+        "variant": "S",
+        "startIndex": 12,
+        "isDisplayed": false,
+        "parsedForm": "でしょ",
+        "vocabId": "df3af823-04c1-40cc-a317-69f0223d264e"
+      },
+      {
+        "variant": "B",
+        "startIndex": 12,
+        "isDisplayed": false,
+        "parsedForm": "です",
+        "vocabId": "01fd4128-aa4d-4a4d-a529-1e7a3b5d4a0a"
+      },
+      {
+        "variant": "S",
+        "startIndex": 14,
+        "isDisplayed": false,
+        "parsedForm": "おうか",
+        "vocabId": "af050277-4314-45a7-b355-81c03f1fbf5c"
+      },
+      {
+        "variant": "S",
+        "startIndex": 16,
+        "isDisplayed": false,
+        "parsedForm": "か",
+        "vocabId": "fa01f6d1-0021-4f11-a8aa-eb4b0b6bc533"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "お金を貸していただけないでしょうか",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "require forbid te prefix or stem",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.RequireForbidTePrefixOrStem, against vocab copied by hand, expected the breakdown to display: お金 | を | 貸す | て | いただける:able-to | ない | でしょうか.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "お金",
+          "vocabId": "a49d59c1-de62-45f0-be13-68e6f41ba355"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": true,
+          "parsedForm": "を",
+          "vocabId": "0b5bd909-4c0e-4f1c-bde3-c91719eb579a"
+        },
+        {
+          "variant": "B",
+          "startIndex": 3,
+          "isDisplayed": true,
+          "parsedForm": "貸す",
+          "vocabId": "e5c4b48d-f2ac-4f65-a349-c7f5d513f901"
+        },
+        {
+          "variant": "B",
+          "startIndex": 5,
+          "isDisplayed": true,
+          "parsedForm": "ていただく",
+          "vocabId": "b5e3ff6c-efbf-475c-94a1-e9823ee11360"
+        },
+        {
+          "variant": "S",
+          "startIndex": 5,
+          "isDisplayed": false,
+          "parsedForm": "て",
+          "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+        },
+        {
+          "variant": "B",
+          "startIndex": 6,
+          "isDisplayed": false,
+          "parsedForm": "いただける",
+          "vocabId": "2858642f-cd0e-4a3d-8f0f-d7a47fec495a"
+        },
+        {
+          "variant": "B",
+          "startIndex": 6,
+          "isDisplayed": false,
+          "parsedForm": "いただく",
+          "vocabId": "b5f71a0b-88de-4fce-9547-a9ab3b49689a"
+        },
+        {
+          "variant": "S",
+          "startIndex": 9,
+          "isDisplayed": true,
+          "parsedForm": "えない",
+          "vocabId": "efce9e5a-170d-4164-9308-3b7eeec0d090"
+        },
+        {
+          "variant": "B",
+          "startIndex": 9,
+          "isDisplayed": false,
+          "parsedForm": "える",
+          "vocabId": "915ce682-39f5-4e53-92fe-c786863a0e86"
+        },
+        {
+          "variant": "S",
+          "startIndex": 10,
+          "isDisplayed": false,
+          "parsedForm": "ない",
+          "vocabId": "1d4932a0-8cac-4af7-8a41-3b8a0d69fe9f"
+        },
+        {
+          "variant": "S",
+          "startIndex": 12,
+          "isDisplayed": true,
+          "parsedForm": "でしょうか",
+          "vocabId": "3595fdff-1ada-49fa-9105-6af8fbab5b3a"
+        },
+        {
+          "variant": "S",
+          "startIndex": 12,
+          "isDisplayed": false,
+          "parsedForm": "でしょう",
+          "vocabId": "df3af823-04c1-40cc-a317-69f0223d264e"
+        },
+        {
+          "variant": "S",
+          "startIndex": 12,
+          "isDisplayed": false,
+          "parsedForm": "でしょ",
+          "vocabId": "df3af823-04c1-40cc-a317-69f0223d264e"
+        },
+        {
+          "variant": "B",
+          "startIndex": 12,
+          "isDisplayed": false,
+          "parsedForm": "です",
+          "vocabId": "01fd4128-aa4d-4a4d-a529-1e7a3b5d4a0a"
+        },
+        {
+          "variant": "S",
+          "startIndex": 14,
+          "isDisplayed": false,
+          "parsedForm": "おうか",
+          "vocabId": "af050277-4314-45a7-b355-81c03f1fbf5c"
+        },
+        {
+          "variant": "S",
+          "startIndex": 16,
+          "isDisplayed": false,
+          "parsedForm": "か",
+          "vocabId": "fa01f6d1-0021-4f11-a8aa-eb4b0b6bc533"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false,
+            "hideCompositionallyTransparentCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "お金",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "a49d59c1-de62-45f0-be13-68e6f41ba355"
+            },
+            {
+              "form": "を",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "0b5bd909-4c0e-4f1c-bde3-c91719eb579a"
+            },
+            {
+              "form": "貸す",
+              "startIndex": 3,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "e5c4b48d-f2ac-4f65-a349-c7f5d513f901"
+            },
+            {
+              "form": "ていただく",
+              "startIndex": 5,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "b5e3ff6c-efbf-475c-94a1-e9823ee11360"
+            },
+            {
+              "form": "えない",
+              "startIndex": 9,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "efce9e5a-170d-4164-9308-3b7eeec0d090"
+            },
+            {
+              "form": "でしょうか",
+              "startIndex": 12,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "3595fdff-1ada-49fa-9105-6af8fbab5b3a"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": false,
+            "hideCompositionallyTransparentCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "お金",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "a49d59c1-de62-45f0-be13-68e6f41ba355"
+            },
+            {
+              "form": "を",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "0b5bd909-4c0e-4f1c-bde3-c91719eb579a"
+            },
+            {
+              "form": "貸す",
+              "startIndex": 3,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "e5c4b48d-f2ac-4f65-a349-c7f5d513f901"
+            },
+            {
+              "form": "ていただく",
+              "startIndex": 5,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "b5e3ff6c-efbf-475c-94a1-e9823ee11360"
+            },
+            {
+              "form": "えない",
+              "startIndex": 9,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "efce9e5a-170d-4164-9308-3b7eeec0d090"
+            },
+            {
+              "form": "でしょうか",
+              "startIndex": 12,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "3595fdff-1ada-49fa-9105-6af8fbab5b3a"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true,
+            "hideCompositionallyTransparentCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "お金",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "a49d59c1-de62-45f0-be13-68e6f41ba355"
+            },
+            {
+              "form": "を",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "0b5bd909-4c0e-4f1c-bde3-c91719eb579a"
+            },
+            {
+              "form": "貸す",
+              "startIndex": 3,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "e5c4b48d-f2ac-4f65-a349-c7f5d513f901"
+            },
+            {
+              "form": "て",
+              "startIndex": 5,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+            },
+            {
+              "form": "いただける",
+              "startIndex": 6,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "2858642f-cd0e-4a3d-8f0f-d7a47fec495a"
+            },
+            {
+              "form": "ない",
+              "startIndex": 10,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "1d4932a0-8cac-4af7-8a41-3b8a0d69fe9f"
+            },
+            {
+              "form": "でしょうか",
+              "startIndex": 12,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "3595fdff-1ada-49fa-9105-6af8fbab5b3a"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true,
+            "hideCompositionallyTransparentCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "お金",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "a49d59c1-de62-45f0-be13-68e6f41ba355"
+            },
+            {
+              "form": "を",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "0b5bd909-4c0e-4f1c-bde3-c91719eb579a"
+            },
+            {
+              "form": "貸す",
+              "startIndex": 3,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "e5c4b48d-f2ac-4f65-a349-c7f5d513f901"
+            },
+            {
+              "form": "て",
+              "startIndex": 5,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+            },
+            {
+              "form": "いただく",
+              "startIndex": 6,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "b5f71a0b-88de-4fce-9547-a9ab3b49689a"
+            },
+            {
+              "form": "える",
+              "startIndex": 9,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "915ce682-39f5-4e53-92fe-c786863a0e86"
+            },
+            {
+              "form": "ない",
+              "startIndex": 10,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "1d4932a0-8cac-4af7-8a41-3b8a0d69fe9f"
+            },
+            {
+              "form": "でしょうか",
+              "startIndex": 12,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "3595fdff-1ada-49fa-9105-6af8fbab5b3a"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "60689ab6-5d59-4f69-a8ab-27b95d26dc4f",
+  "tags": []
+}

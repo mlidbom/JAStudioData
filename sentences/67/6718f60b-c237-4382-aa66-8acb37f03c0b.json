@@ -1,0 +1,202 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "おっせぇな　あいつら",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "おっせぇ",
+        "vocabId": "29a62cb1-f1db-49f8-b8f1-248a021b361d"
+      },
+      {
+        "variant": "B",
+        "startIndex": 0,
+        "isDisplayed": false,
+        "parsedForm": "おる",
+        "vocabId": "f90b22a5-4cca-4869-b00a-2bdd80d58ce7"
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "せ",
+        "vocabId": "5d3f6d0f-9991-47ec-a38d-08b046b6a221"
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "な",
+        "vocabId": "89b0d902-b2dd-4f1f-a0dc-4f6565616c64"
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": true,
+        "parsedForm": "あいつら",
+        "vocabId": "c7f635cb-83e0-4f82-8cd0-58f29f12974c"
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "あいつ",
+        "vocabId": "d6eff68a-21a4-4da2-9631-bb4d4073cdaa"
+      },
+      {
+        "variant": "S",
+        "startIndex": 9,
+        "isDisplayed": false,
+        "parsedForm": "ら",
+        "vocabId": "81c03bc3-becb-4608-b45a-6524e94e19d5"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "おっせぇ<wbr>な　あいつら",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "wbr word separation",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.WbrWordSeparation, against vocab copied by hand, expected the breakdown to display: おる | せ | ぇ:[MISSING]:emergency | な:s.end | あいつら.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "おっせぇ",
+          "vocabId": "29a62cb1-f1db-49f8-b8f1-248a021b361d"
+        },
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": false,
+          "parsedForm": "おる",
+          "vocabId": "f90b22a5-4cca-4869-b00a-2bdd80d58ce7"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": false,
+          "parsedForm": "せ",
+          "vocabId": "5d3f6d0f-9991-47ec-a38d-08b046b6a221"
+        },
+        {
+          "variant": "S",
+          "startIndex": 4,
+          "isDisplayed": true,
+          "parsedForm": "な",
+          "vocabId": "89b0d902-b2dd-4f1f-a0dc-4f6565616c64"
+        },
+        {
+          "variant": "S",
+          "startIndex": 6,
+          "isDisplayed": true,
+          "parsedForm": "あいつら",
+          "vocabId": "c7f635cb-83e0-4f82-8cd0-58f29f12974c"
+        },
+        {
+          "variant": "S",
+          "startIndex": 6,
+          "isDisplayed": false,
+          "parsedForm": "あいつ",
+          "vocabId": "d6eff68a-21a4-4da2-9631-bb4d4073cdaa"
+        },
+        {
+          "variant": "S",
+          "startIndex": 9,
+          "isDisplayed": false,
+          "parsedForm": "ら",
+          "vocabId": "81c03bc3-becb-4608-b45a-6524e94e19d5"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "おっせぇ",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "29a62cb1-f1db-49f8-b8f1-248a021b361d"
+            },
+            {
+              "form": "な",
+              "startIndex": 4,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "89b0d902-b2dd-4f1f-a0dc-4f6565616c64"
+            },
+            {
+              "form": "あいつら",
+              "startIndex": 6,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "c7f635cb-83e0-4f82-8cd0-58f29f12974c"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "おっせぇ",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "29a62cb1-f1db-49f8-b8f1-248a021b361d"
+            },
+            {
+              "form": "な",
+              "startIndex": 4,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "89b0d902-b2dd-4f1f-a0dc-4f6565616c64"
+            },
+            {
+              "form": "あいつ",
+              "startIndex": 6,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "d6eff68a-21a4-4da2-9631-bb4d4073cdaa"
+            },
+            {
+              "form": "ら",
+              "startIndex": 9,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "81c03bc3-becb-4608-b45a-6524e94e19d5"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "6718f60b-c237-4382-aa66-8acb37f03c0b",
+  "tags": []
+}

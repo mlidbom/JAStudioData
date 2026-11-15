@@ -1,0 +1,174 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "まだ割れんのか",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "まだ",
+        "vocabId": "a263e90d-ecd3-475d-b081-c4478a3009ec"
+      },
+      {
+        "variant": "B",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "割れる",
+        "vocabId": "7b48e09c-8670-47ce-a697-3df0480a0cd5"
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": true,
+        "parsedForm": "のか",
+        "vocabId": "136243f5-581e-44e5-8643-c12039fd3e49"
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": false,
+        "parsedForm": "の",
+        "vocabId": "33bf9bc1-0744-4973-8d45-5776bc54eac1"
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": false,
+        "parsedForm": "か",
+        "vocabId": "fa01f6d1-0021-4f11-a8aa-eb4b0b6bc533"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "まだ割れんのか",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "misc stuff",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.MiscStuff, against vocab copied by hand, expected the breakdown to display: まだ | 割れる | のか.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "まだ",
+          "vocabId": "a263e90d-ecd3-475d-b081-c4478a3009ec"
+        },
+        {
+          "variant": "B",
+          "startIndex": 2,
+          "isDisplayed": true,
+          "parsedForm": "割れる",
+          "vocabId": "7b48e09c-8670-47ce-a697-3df0480a0cd5"
+        },
+        {
+          "variant": "S",
+          "startIndex": 5,
+          "isDisplayed": true,
+          "parsedForm": "のか",
+          "vocabId": "136243f5-581e-44e5-8643-c12039fd3e49"
+        },
+        {
+          "variant": "S",
+          "startIndex": 5,
+          "isDisplayed": false,
+          "parsedForm": "の",
+          "vocabId": "33bf9bc1-0744-4973-8d45-5776bc54eac1"
+        },
+        {
+          "variant": "S",
+          "startIndex": 6,
+          "isDisplayed": false,
+          "parsedForm": "か",
+          "vocabId": "fa01f6d1-0021-4f11-a8aa-eb4b0b6bc533"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "まだ",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "a263e90d-ecd3-475d-b081-c4478a3009ec"
+            },
+            {
+              "form": "割れる",
+              "startIndex": 2,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "7b48e09c-8670-47ce-a697-3df0480a0cd5"
+            },
+            {
+              "form": "のか",
+              "startIndex": 5,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "136243f5-581e-44e5-8643-c12039fd3e49"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "まだ",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "a263e90d-ecd3-475d-b081-c4478a3009ec"
+            },
+            {
+              "form": "割れる",
+              "startIndex": 2,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "7b48e09c-8670-47ce-a697-3df0480a0cd5"
+            },
+            {
+              "form": "の",
+              "startIndex": 5,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "33bf9bc1-0744-4973-8d45-5776bc54eac1"
+            },
+            {
+              "form": "か",
+              "startIndex": 6,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "fa01f6d1-0021-4f11-a8aa-eb4b0b6bc533"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "f203a4b3-9cf7-4c7f-b511-daca7a8b008c",
+  "tags": []
+}

@@ -1,0 +1,88 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "言っとる",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "B",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "言う",
+        "vocabId": "b7cefd46-499a-4c9c-9f06-3eed04e1d410"
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "とる",
+        "vocabId": "7bfb304d-1362-4fc1-8c94-3619f7187f10"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "言っとる",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "require forbid te prefix or stem",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.RequireForbidTePrefixOrStem, against vocab copied by hand, expected the breakdown to display: 言う | とる:progressive.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "言う",
+          "vocabId": "b7cefd46-499a-4c9c-9f06-3eed04e1d410"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": true,
+          "parsedForm": "とる",
+          "vocabId": "7bfb304d-1362-4fc1-8c94-3619f7187f10"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {},
+          "displayedWords": [
+            {
+              "form": "言う",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "b7cefd46-499a-4c9c-9f06-3eed04e1d410"
+            },
+            {
+              "form": "とる",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "7bfb304d-1362-4fc1-8c94-3619f7187f10"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "cec04d66-22c8-486a-9d84-5a6ea7b28f0b",
+  "tags": []
+}

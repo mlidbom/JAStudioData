@@ -1,0 +1,175 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "分かってたら",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "B",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "分かってる",
+        "vocabId": "9caea479-9894-44a3-b5b9-d0cea35c77a1"
+      },
+      {
+        "variant": "B",
+        "startIndex": 0,
+        "isDisplayed": false,
+        "parsedForm": "分かる",
+        "vocabId": "e471ef62-507f-4c57-97c8-90247173ace0"
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": false,
+        "parsedForm": "てたら",
+        "vocabId": "f83804d8-ad09-4300-97c9-244a49b90b33"
+      },
+      {
+        "variant": "B",
+        "startIndex": 3,
+        "isDisplayed": false,
+        "parsedForm": "てる",
+        "vocabId": "4c8d7119-0464-426c-88b7-ee97c1554eb5"
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "たら",
+        "vocabId": "b92e04ed-7372-45f6-aad5-6975c6447a86"
+      },
+      {
+        "variant": "B",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "た",
+        "vocabId": "8ee8e382-e65c-4af4-81b6-ccd55babc91f"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "分かってたら",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "misc stuff",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.MiscStuff, against vocab copied by hand, expected the breakdown to display: 分かる | てたら.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "分かってる",
+          "vocabId": "9caea479-9894-44a3-b5b9-d0cea35c77a1"
+        },
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": false,
+          "parsedForm": "分かる",
+          "vocabId": "e471ef62-507f-4c57-97c8-90247173ace0"
+        },
+        {
+          "variant": "S",
+          "startIndex": 3,
+          "isDisplayed": false,
+          "parsedForm": "てたら",
+          "vocabId": "f83804d8-ad09-4300-97c9-244a49b90b33"
+        },
+        {
+          "variant": "B",
+          "startIndex": 3,
+          "isDisplayed": false,
+          "parsedForm": "てる",
+          "vocabId": "4c8d7119-0464-426c-88b7-ee97c1554eb5"
+        },
+        {
+          "variant": "S",
+          "startIndex": 4,
+          "isDisplayed": true,
+          "parsedForm": "たら",
+          "vocabId": "b92e04ed-7372-45f6-aad5-6975c6447a86"
+        },
+        {
+          "variant": "B",
+          "startIndex": 4,
+          "isDisplayed": true,
+          "parsedForm": "た",
+          "vocabId": "8ee8e382-e65c-4af4-81b6-ccd55babc91f"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "分かってる",
+              "startIndex": 0,
+              "variant": "B",
+              "shownAs": "分かっている",
+              "isEmergencyDisplayed": false,
+              "vocabId": "9caea479-9894-44a3-b5b9-d0cea35c77a1"
+            },
+            {
+              "form": "たら",
+              "startIndex": 4,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "b92e04ed-7372-45f6-aad5-6975c6447a86"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "分かる",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "e471ef62-507f-4c57-97c8-90247173ace0"
+            },
+            {
+              "form": "てる",
+              "startIndex": 3,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "4c8d7119-0464-426c-88b7-ee97c1554eb5"
+            },
+            {
+              "form": "たら",
+              "startIndex": 4,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "b92e04ed-7372-45f6-aad5-6975c6447a86"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "84b52207-9842-4225-8581-b5da8d4451b7",
+  "tags": []
+}

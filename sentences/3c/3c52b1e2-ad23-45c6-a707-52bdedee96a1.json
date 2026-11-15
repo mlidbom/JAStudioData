@@ -1,0 +1,151 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "があるの",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "がある",
+        "vocabId": "6d2ff318-7d70-4d0e-9f14-338b0fa53105"
+      },
+      {
+        "variant": "B",
+        "startIndex": 0,
+        "isDisplayed": false,
+        "parsedForm": "がある",
+        "vocabId": "6d2ff318-7d70-4d0e-9f14-338b0fa53105"
+      },
+      {
+        "variant": "S",
+        "startIndex": 1,
+        "isDisplayed": false,
+        "parsedForm": "ある",
+        "vocabId": "a7419593-1381-45c8-88fe-0eb846286151"
+      },
+      {
+        "variant": "B",
+        "startIndex": 1,
+        "isDisplayed": false,
+        "parsedForm": "ある",
+        "vocabId": "a7419593-1381-45c8-88fe-0eb846286151"
+      },
+      {
+        "variant": "B",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "う",
+        "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "の",
+        "vocabId": "33bf9bc1-0744-4973-8d45-5776bc54eac1"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "があるの",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "dictionary form splitting",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.DictionaryFormSplitting, against vocab copied by hand, expected the breakdown to display: がある | うの.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "がある",
+          "vocabId": "6d2ff318-7d70-4d0e-9f14-338b0fa53105"
+        },
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": false,
+          "parsedForm": "がある",
+          "vocabId": "6d2ff318-7d70-4d0e-9f14-338b0fa53105"
+        },
+        {
+          "variant": "S",
+          "startIndex": 1,
+          "isDisplayed": false,
+          "parsedForm": "ある",
+          "vocabId": "a7419593-1381-45c8-88fe-0eb846286151"
+        },
+        {
+          "variant": "B",
+          "startIndex": 1,
+          "isDisplayed": false,
+          "parsedForm": "ある",
+          "vocabId": "a7419593-1381-45c8-88fe-0eb846286151"
+        },
+        {
+          "variant": "B",
+          "startIndex": 2,
+          "isDisplayed": true,
+          "parsedForm": "う",
+          "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+        },
+        {
+          "variant": "S",
+          "startIndex": 3,
+          "isDisplayed": true,
+          "parsedForm": "の",
+          "vocabId": "33bf9bc1-0744-4973-8d45-5776bc54eac1"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {},
+          "displayedWords": [
+            {
+              "form": "がある",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "6d2ff318-7d70-4d0e-9f14-338b0fa53105"
+            },
+            {
+              "form": "う",
+              "startIndex": 2,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+            },
+            {
+              "form": "の",
+              "startIndex": 3,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "33bf9bc1-0744-4973-8d45-5776bc54eac1"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "3c52b1e2-ad23-45c6-a707-52bdedee96a1",
+  "tags": []
+}

@@ -103,6 +103,199 @@
       }
     ]
   },
+  "parsingCase": {
+    "name": "identify words",
+    "why": "Converted from TextAnalysisWithSelectDataTests.IdentifyWords, against vocab copied by hand, expected the forms of the parsing result: そう | よ | あんた | の | 言うとおり | 言う | う | とおり | よ.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "そう",
+          "vocabId": "f0e7c698-344e-4ae0-926e-377fad737b69"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": true,
+          "parsedForm": "よ",
+          "vocabId": "8d071a9e-11b0-4f59-82d7-c95c096b924b"
+        },
+        {
+          "variant": "S",
+          "startIndex": 4,
+          "isDisplayed": true,
+          "parsedForm": "あんた",
+          "vocabId": "3325ce5d-575e-4a3e-9997-f47e0d75960e"
+        },
+        {
+          "variant": "S",
+          "startIndex": 7,
+          "isDisplayed": true,
+          "parsedForm": "の",
+          "vocabId": "33bf9bc1-0744-4973-8d45-5776bc54eac1"
+        },
+        {
+          "variant": "S",
+          "startIndex": 8,
+          "isDisplayed": true,
+          "parsedForm": "言うとおり",
+          "vocabId": "7519057c-28a7-4716-bf73-4a35b3550fa0"
+        },
+        {
+          "variant": "S",
+          "startIndex": 8,
+          "isDisplayed": false,
+          "parsedForm": "言う",
+          "vocabId": "b7cefd46-499a-4c9c-9f06-3eed04e1d410"
+        },
+        {
+          "variant": "B",
+          "startIndex": 8,
+          "isDisplayed": false,
+          "parsedForm": "言う",
+          "vocabId": "b7cefd46-499a-4c9c-9f06-3eed04e1d410"
+        },
+        {
+          "variant": "S",
+          "startIndex": 9,
+          "isDisplayed": false,
+          "parsedForm": "う",
+          "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+        },
+        {
+          "variant": "S",
+          "startIndex": 10,
+          "isDisplayed": false,
+          "parsedForm": "とおり",
+          "vocabId": "141bc6ca-af56-4b13-912d-d6ef7b1ed90b"
+        },
+        {
+          "variant": "S",
+          "startIndex": 13,
+          "isDisplayed": true,
+          "parsedForm": "よ",
+          "vocabId": "8d071a9e-11b0-4f59-82d7-c95c096b924b"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "そう",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "f0e7c698-344e-4ae0-926e-377fad737b69"
+            },
+            {
+              "form": "よ",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "8d071a9e-11b0-4f59-82d7-c95c096b924b"
+            },
+            {
+              "form": "あんた",
+              "startIndex": 4,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "3325ce5d-575e-4a3e-9997-f47e0d75960e"
+            },
+            {
+              "form": "の",
+              "startIndex": 7,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "33bf9bc1-0744-4973-8d45-5776bc54eac1"
+            },
+            {
+              "form": "言うとおり",
+              "startIndex": 8,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "7519057c-28a7-4716-bf73-4a35b3550fa0"
+            },
+            {
+              "form": "よ",
+              "startIndex": 13,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "8d071a9e-11b0-4f59-82d7-c95c096b924b"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "そう",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "f0e7c698-344e-4ae0-926e-377fad737b69"
+            },
+            {
+              "form": "よ",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "8d071a9e-11b0-4f59-82d7-c95c096b924b"
+            },
+            {
+              "form": "あんた",
+              "startIndex": 4,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "3325ce5d-575e-4a3e-9997-f47e0d75960e"
+            },
+            {
+              "form": "の",
+              "startIndex": 7,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "33bf9bc1-0744-4973-8d45-5776bc54eac1"
+            },
+            {
+              "form": "言う",
+              "startIndex": 8,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "b7cefd46-499a-4c9c-9f06-3eed04e1d410"
+            },
+            {
+              "form": "う",
+              "startIndex": 9,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+            },
+            {
+              "form": "とおり",
+              "startIndex": 10,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "141bc6ca-af56-4b13-912d-d6ef7b1ed90b"
+            },
+            {
+              "form": "よ",
+              "startIndex": 13,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "8d071a9e-11b0-4f59-82d7-c95c096b924b"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "id": "29f57b26-b33a-47e3-a417-0c6138898157",
   "tags": [
     "source::anime::violet::04"

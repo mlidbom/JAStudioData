@@ -1,0 +1,88 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "はしゃいでる",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "B",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "はしゃぐ",
+        "vocabId": "809acaca-0917-4c44-8622-ccd47cc6f0fa"
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "いでる",
+        "vocabId": "81fa2832-6803-44e6-aed5-eef013848cf3"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "はしゃいでる",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "dictionary form splitting",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.DictionaryFormSplitting, against vocab copied by hand, expected the breakdown to display: はしゃぐ | でる.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "はしゃぐ",
+          "vocabId": "809acaca-0917-4c44-8622-ccd47cc6f0fa"
+        },
+        {
+          "variant": "S",
+          "startIndex": 3,
+          "isDisplayed": true,
+          "parsedForm": "いでる",
+          "vocabId": "81fa2832-6803-44e6-aed5-eef013848cf3"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {},
+          "displayedWords": [
+            {
+              "form": "はしゃぐ",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "809acaca-0917-4c44-8622-ccd47cc6f0fa"
+            },
+            {
+              "form": "いでる",
+              "startIndex": 3,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "81fa2832-6803-44e6-aed5-eef013848cf3"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "fbe963a2-95a1-44f7-b784-0a758b387051",
+  "tags": []
+}

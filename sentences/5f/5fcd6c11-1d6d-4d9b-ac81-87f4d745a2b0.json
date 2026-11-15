@@ -1,0 +1,118 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "考えすぎ",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "考えすぎ",
+        "vocabId": "c86c1cbe-946a-4f65-a4de-9f013a7040a2"
+      },
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": false,
+        "parsedForm": "考え",
+        "vocabId": "20c3e5fb-f923-4aad-9b52-bdcb7c314d68"
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "すぎ",
+        "vocabId": "64e14f15-60c7-4836-b50c-a5c719348a38"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "考えすぎ",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "forbid adverb stem",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.ForbidAdverbStem, against vocab copied by hand, expected the breakdown to display: 考えすぎ.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "考えすぎ",
+          "vocabId": "c86c1cbe-946a-4f65-a4de-9f013a7040a2"
+        },
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": false,
+          "parsedForm": "考え",
+          "vocabId": "20c3e5fb-f923-4aad-9b52-bdcb7c314d68"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": false,
+          "parsedForm": "すぎ",
+          "vocabId": "64e14f15-60c7-4836-b50c-a5c719348a38"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "考えすぎ",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "c86c1cbe-946a-4f65-a4de-9f013a7040a2"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "考え",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "20c3e5fb-f923-4aad-9b52-bdcb7c314d68"
+            },
+            {
+              "form": "すぎ",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "64e14f15-60c7-4836-b50c-a5c719348a38"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "5fcd6c11-1d6d-4d9b-ac81-87f4d745a2b0",
+  "tags": []
+}

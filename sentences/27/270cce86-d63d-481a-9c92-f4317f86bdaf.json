@@ -61,6 +61,71 @@
       }
     ]
   },
+  "parsingCase": {
+    "name": "misc stuff",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.MiscStuff, against vocab copied by hand, expected the breakdown to display: 飛ばす | あれる | る:う.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "飛ばす",
+          "vocabId": "69255270-30f6-46e7-8882-d5a4d7bb8355"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": true,
+          "parsedForm": "あれる",
+          "vocabId": "de54cf82-4edc-4afa-9996-189f8a4811f0"
+        },
+        {
+          "variant": "B",
+          "startIndex": 2,
+          "isDisplayed": false,
+          "parsedForm": "あれる",
+          "vocabId": "de54cf82-4edc-4afa-9996-189f8a4811f0"
+        },
+        {
+          "variant": "S",
+          "startIndex": 4,
+          "isDisplayed": true,
+          "parsedForm": "う",
+          "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {},
+          "displayedWords": [
+            {
+              "form": "飛ばす",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "69255270-30f6-46e7-8882-d5a4d7bb8355"
+            },
+            {
+              "form": "あれる",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "de54cf82-4edc-4afa-9996-189f8a4811f0"
+            },
+            {
+              "form": "う",
+              "startIndex": 4,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "id": "270cce86-d63d-481a-9c92-f4317f86bdaf",
   "tags": [
     "source::anime::one-week::08"

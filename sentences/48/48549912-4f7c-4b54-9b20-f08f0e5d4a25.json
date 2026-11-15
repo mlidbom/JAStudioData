@@ -1,0 +1,218 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "ガチだったんでしょ",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "ガチ",
+        "vocabId": "5042c2a3-32fb-4742-9cc9-3881658988f5"
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "だった",
+        "vocabId": "d2fe8f85-7de7-457c-b8a6-5804e39b2ffc"
+      },
+      {
+        "variant": "B",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "だ",
+        "vocabId": "32d275aa-5811-482d-b2f3-7e6d2080ac53"
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": false,
+        "parsedForm": "た",
+        "vocabId": "8ee8e382-e65c-4af4-81b6-ccd55babc91f"
+      },
+      {
+        "variant": "S",
+        "startIndex": 5,
+        "isDisplayed": true,
+        "parsedForm": "ん",
+        "vocabId": "cc6433c2-80a1-498d-8f0d-9da2a46c2885"
+      },
+      {
+        "variant": "S",
+        "startIndex": 6,
+        "isDisplayed": true,
+        "parsedForm": "でしょ",
+        "vocabId": "df3af823-04c1-40cc-a317-69f0223d264e"
+      },
+      {
+        "variant": "B",
+        "startIndex": 6,
+        "isDisplayed": true,
+        "parsedForm": "です",
+        "vocabId": "01fd4128-aa4d-4a4d-a529-1e7a3b5d4a0a"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "ガチだったんでしょ",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "misc stuff",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.MiscStuff, against vocab copied by hand, expected the breakdown to display: ガチ | だった | ん | でしょ.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "ガチ",
+          "vocabId": "5042c2a3-32fb-4742-9cc9-3881658988f5"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": true,
+          "parsedForm": "だった",
+          "vocabId": "d2fe8f85-7de7-457c-b8a6-5804e39b2ffc"
+        },
+        {
+          "variant": "B",
+          "startIndex": 2,
+          "isDisplayed": false,
+          "parsedForm": "だ",
+          "vocabId": "32d275aa-5811-482d-b2f3-7e6d2080ac53"
+        },
+        {
+          "variant": "S",
+          "startIndex": 4,
+          "isDisplayed": false,
+          "parsedForm": "た",
+          "vocabId": "8ee8e382-e65c-4af4-81b6-ccd55babc91f"
+        },
+        {
+          "variant": "S",
+          "startIndex": 5,
+          "isDisplayed": true,
+          "parsedForm": "ん",
+          "vocabId": "cc6433c2-80a1-498d-8f0d-9da2a46c2885"
+        },
+        {
+          "variant": "S",
+          "startIndex": 6,
+          "isDisplayed": true,
+          "parsedForm": "でしょ",
+          "vocabId": "df3af823-04c1-40cc-a317-69f0223d264e"
+        },
+        {
+          "variant": "B",
+          "startIndex": 6,
+          "isDisplayed": true,
+          "parsedForm": "です",
+          "vocabId": "01fd4128-aa4d-4a4d-a529-1e7a3b5d4a0a"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "ガチ",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "5042c2a3-32fb-4742-9cc9-3881658988f5"
+            },
+            {
+              "form": "だった",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "d2fe8f85-7de7-457c-b8a6-5804e39b2ffc"
+            },
+            {
+              "form": "ん",
+              "startIndex": 5,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "cc6433c2-80a1-498d-8f0d-9da2a46c2885"
+            },
+            {
+              "form": "でしょ",
+              "startIndex": 6,
+              "variant": "S",
+              "shownAs": "でしょう",
+              "isEmergencyDisplayed": false,
+              "vocabId": "df3af823-04c1-40cc-a317-69f0223d264e"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "ガチ",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "5042c2a3-32fb-4742-9cc9-3881658988f5"
+            },
+            {
+              "form": "だ",
+              "startIndex": 2,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "32d275aa-5811-482d-b2f3-7e6d2080ac53"
+            },
+            {
+              "form": "た",
+              "startIndex": 4,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "8ee8e382-e65c-4af4-81b6-ccd55babc91f"
+            },
+            {
+              "form": "ん",
+              "startIndex": 5,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "cc6433c2-80a1-498d-8f0d-9da2a46c2885"
+            },
+            {
+              "form": "でしょ",
+              "startIndex": 6,
+              "variant": "S",
+              "shownAs": "でしょう",
+              "isEmergencyDisplayed": false,
+              "vocabId": "df3af823-04c1-40cc-a317-69f0223d264e"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "48549912-4f7c-4b54-9b20-f08f0e5d4a25",
+  "tags": []
+}

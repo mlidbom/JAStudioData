@@ -1,0 +1,130 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "天気がよくて",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "天気",
+        "vocabId": "9aebb021-d01f-47cd-83f5-75e0e275fd2d"
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "が",
+        "vocabId": "2abe98f2-ebd9-4aae-9562-451647960317"
+      },
+      {
+        "variant": "B",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "よい",
+        "vocabId": "ac40246b-9ddc-475b-880d-f3b97bd10964"
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "くて",
+        "vocabId": "27a385c5-ed87-4a81-baa0-96a23e739951"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "天気がよくて",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "require forbid te prefix or stem",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.RequireForbidTePrefixOrStem, against vocab copied by hand, expected the breakdown to display: 天気 | が | よい | て.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "天気",
+          "vocabId": "9aebb021-d01f-47cd-83f5-75e0e275fd2d"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": true,
+          "parsedForm": "が",
+          "vocabId": "2abe98f2-ebd9-4aae-9562-451647960317"
+        },
+        {
+          "variant": "B",
+          "startIndex": 3,
+          "isDisplayed": true,
+          "parsedForm": "よい",
+          "vocabId": "ac40246b-9ddc-475b-880d-f3b97bd10964"
+        },
+        {
+          "variant": "S",
+          "startIndex": 4,
+          "isDisplayed": true,
+          "parsedForm": "くて",
+          "vocabId": "27a385c5-ed87-4a81-baa0-96a23e739951"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {},
+          "displayedWords": [
+            {
+              "form": "天気",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "9aebb021-d01f-47cd-83f5-75e0e275fd2d"
+            },
+            {
+              "form": "が",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "2abe98f2-ebd9-4aae-9562-451647960317"
+            },
+            {
+              "form": "よい",
+              "startIndex": 3,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "ac40246b-9ddc-475b-880d-f3b97bd10964"
+            },
+            {
+              "form": "くて",
+              "startIndex": 4,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "27a385c5-ed87-4a81-baa0-96a23e739951"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "0ff6d7b8-aab6-4fcf-9ec8-3988ef1f700f",
+  "tags": []
+}

@@ -1,0 +1,118 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "ハート形",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "ハート形",
+        "vocabId": "e5b30b60-ce7c-415e-9474-e620f6a59f61"
+      },
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": false,
+        "parsedForm": "ハート",
+        "vocabId": "94b37785-1dd5-4dd8-91b9-c40719c534d1"
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": false,
+        "parsedForm": "形",
+        "vocabId": "c44c26ca-4554-43d2-9ec1-bceb541349dc"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "ハート形",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "identify words",
+    "why": "Converted from TextAnalysisWithSelectDataTests.IdentifyWords, against vocab copied by hand, expected the forms of the parsing result: ハート形 | ハート | 形.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "ハート形",
+          "vocabId": "e5b30b60-ce7c-415e-9474-e620f6a59f61"
+        },
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": false,
+          "parsedForm": "ハート",
+          "vocabId": "94b37785-1dd5-4dd8-91b9-c40719c534d1"
+        },
+        {
+          "variant": "S",
+          "startIndex": 3,
+          "isDisplayed": false,
+          "parsedForm": "形",
+          "vocabId": "c44c26ca-4554-43d2-9ec1-bceb541349dc"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "ハート形",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "e5b30b60-ce7c-415e-9474-e620f6a59f61"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "ハート",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "94b37785-1dd5-4dd8-91b9-c40719c534d1"
+            },
+            {
+              "form": "形",
+              "startIndex": 3,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "c44c26ca-4554-43d2-9ec1-bceb541349dc"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "c4d69f95-1bc1-4f03-9efe-866ea66af771",
+  "tags": []
+}

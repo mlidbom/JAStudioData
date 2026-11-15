@@ -1,0 +1,67 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "ない",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "ない",
+        "vocabId": "5d1d65aa-6ed8-4bf4-893f-d9eb6b2321d3"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "ない",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "misc stuff",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.MiscStuff, against vocab copied by hand, expected the breakdown to display: ない.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "ない",
+          "vocabId": "5d1d65aa-6ed8-4bf4-893f-d9eb6b2321d3"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {},
+          "displayedWords": [
+            {
+              "form": "ない",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "5d1d65aa-6ed8-4bf4-893f-d9eb6b2321d3"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "6dbd91e0-3414-4069-aeeb-6f544699d7cb",
+  "tags": []
+}

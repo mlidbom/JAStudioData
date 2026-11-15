@@ -1,0 +1,300 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "薄情だっていうのは分かってます",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "薄情",
+        "vocabId": "a958a75e-4e99-4c6d-87d7-a910d039ab1a"
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "だ",
+        "vocabId": "32d275aa-5811-482d-b2f3-7e6d2080ac53"
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "っていうのは",
+        "vocabId": "851d2d02-ee4a-4430-8dc2-77fbc1cf92db"
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": false,
+        "parsedForm": "っていう",
+        "vocabId": "41f04a91-ad57-4613-91c9-8f5a64452486"
+      },
+      {
+        "variant": "S",
+        "startIndex": 7,
+        "isDisplayed": false,
+        "parsedForm": "のは",
+        "vocabId": "3a3536a7-aeed-4c6b-85e2-819ddcf03699"
+      },
+      {
+        "variant": "S",
+        "startIndex": 7,
+        "isDisplayed": false,
+        "parsedForm": "の",
+        "vocabId": "33bf9bc1-0744-4973-8d45-5776bc54eac1"
+      },
+      {
+        "variant": "S",
+        "startIndex": 8,
+        "isDisplayed": false,
+        "parsedForm": "は",
+        "vocabId": "825f4f56-9e9b-4eb9-92e2-099dc6d0c677"
+      },
+      {
+        "variant": "B",
+        "startIndex": 9,
+        "isDisplayed": true,
+        "parsedForm": "分かる",
+        "vocabId": "e471ef62-507f-4c57-97c8-90247173ace0"
+      },
+      {
+        "variant": "S",
+        "startIndex": 12,
+        "isDisplayed": true,
+        "parsedForm": "てます",
+        "vocabId": "41edcf92-8165-4027-b2d8-be1d2c4dbd78"
+      },
+      {
+        "variant": "S",
+        "startIndex": 12,
+        "isDisplayed": false,
+        "parsedForm": "て",
+        "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+      },
+      {
+        "variant": "S",
+        "startIndex": 13,
+        "isDisplayed": false,
+        "parsedForm": "ます",
+        "vocabId": "d3765dc0-d7b5-439a-81ab-84ba2f89b7b7"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "薄情だっていうのは分かってます",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "だって before a verb of saying, thinking or hearing displays as だ and a word starting with the quoting って",
+    "why": "Converted from When_analyzing_a_sentence_containing_datte.where_datte_is_directly_followed_by_a_verb_of_saying_thinking_or_hearing, against vocab copied by hand, which expected the breakdown to display: 薄情 | だ | っていう | の | は | 分かる | て | ます.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "薄情",
+          "vocabId": "a958a75e-4e99-4c6d-87d7-a910d039ab1a"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": true,
+          "parsedForm": "だ",
+          "vocabId": "32d275aa-5811-482d-b2f3-7e6d2080ac53"
+        },
+        {
+          "variant": "S",
+          "startIndex": 3,
+          "isDisplayed": true,
+          "parsedForm": "っていうのは",
+          "vocabId": "851d2d02-ee4a-4430-8dc2-77fbc1cf92db"
+        },
+        {
+          "variant": "S",
+          "startIndex": 3,
+          "isDisplayed": false,
+          "parsedForm": "っていう",
+          "vocabId": "41f04a91-ad57-4613-91c9-8f5a64452486"
+        },
+        {
+          "variant": "S",
+          "startIndex": 7,
+          "isDisplayed": false,
+          "parsedForm": "のは",
+          "vocabId": "3a3536a7-aeed-4c6b-85e2-819ddcf03699"
+        },
+        {
+          "variant": "S",
+          "startIndex": 7,
+          "isDisplayed": false,
+          "parsedForm": "の",
+          "vocabId": "33bf9bc1-0744-4973-8d45-5776bc54eac1"
+        },
+        {
+          "variant": "S",
+          "startIndex": 8,
+          "isDisplayed": false,
+          "parsedForm": "は",
+          "vocabId": "825f4f56-9e9b-4eb9-92e2-099dc6d0c677"
+        },
+        {
+          "variant": "B",
+          "startIndex": 9,
+          "isDisplayed": true,
+          "parsedForm": "分かる",
+          "vocabId": "e471ef62-507f-4c57-97c8-90247173ace0"
+        },
+        {
+          "variant": "S",
+          "startIndex": 12,
+          "isDisplayed": true,
+          "parsedForm": "てます",
+          "vocabId": "41edcf92-8165-4027-b2d8-be1d2c4dbd78"
+        },
+        {
+          "variant": "S",
+          "startIndex": 12,
+          "isDisplayed": false,
+          "parsedForm": "て",
+          "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+        },
+        {
+          "variant": "S",
+          "startIndex": 13,
+          "isDisplayed": false,
+          "parsedForm": "ます",
+          "vocabId": "d3765dc0-d7b5-439a-81ab-84ba2f89b7b7"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "薄情",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "a958a75e-4e99-4c6d-87d7-a910d039ab1a"
+            },
+            {
+              "form": "だ",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "32d275aa-5811-482d-b2f3-7e6d2080ac53"
+            },
+            {
+              "form": "っていうのは",
+              "startIndex": 3,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "851d2d02-ee4a-4430-8dc2-77fbc1cf92db"
+            },
+            {
+              "form": "分かる",
+              "startIndex": 9,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "e471ef62-507f-4c57-97c8-90247173ace0"
+            },
+            {
+              "form": "てます",
+              "startIndex": 12,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "41edcf92-8165-4027-b2d8-be1d2c4dbd78"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "薄情",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "a958a75e-4e99-4c6d-87d7-a910d039ab1a"
+            },
+            {
+              "form": "だ",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "32d275aa-5811-482d-b2f3-7e6d2080ac53"
+            },
+            {
+              "form": "っていう",
+              "startIndex": 3,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "41f04a91-ad57-4613-91c9-8f5a64452486"
+            },
+            {
+              "form": "の",
+              "startIndex": 7,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "33bf9bc1-0744-4973-8d45-5776bc54eac1"
+            },
+            {
+              "form": "は",
+              "startIndex": 8,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "825f4f56-9e9b-4eb9-92e2-099dc6d0c677"
+            },
+            {
+              "form": "分かる",
+              "startIndex": 9,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "e471ef62-507f-4c57-97c8-90247173ace0"
+            },
+            {
+              "form": "て",
+              "startIndex": 12,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "0ecc9765-a0fe-4d19-9237-ef65054420fb"
+            },
+            {
+              "form": "ます",
+              "startIndex": 13,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "d3765dc0-d7b5-439a-81ab-84ba2f89b7b7"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "d7a234ef-1b45-497c-b6d5-b65be337434f",
+  "tags": []
+}

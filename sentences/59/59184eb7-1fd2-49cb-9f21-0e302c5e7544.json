@@ -1,0 +1,227 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "落書きしたろ",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "B",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "落書きする",
+        "vocabId": "b3d0201b-7597-4e91-b0cd-08c05b10dfe5"
+      },
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": false,
+        "parsedForm": "落書き",
+        "vocabId": "b8707342-7341-4e5b-af3a-6f2fd3eecb3d"
+      },
+      {
+        "variant": "B",
+        "startIndex": 3,
+        "isDisplayed": false,
+        "parsedForm": "した",
+        "vocabId": "06654a9a-6a26-498f-968a-a4d7d254cfea"
+      },
+      {
+        "variant": "B",
+        "startIndex": 3,
+        "isDisplayed": false,
+        "parsedForm": "する",
+        "vocabId": "2ae61cd0-5be8-4599-b48d-a78f97423ddb"
+      },
+      {
+        "variant": "S",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "たろ",
+        "vocabId": "3a0248f4-fc12-49f0-84c9-ac60a212c223"
+      },
+      {
+        "variant": "B",
+        "startIndex": 4,
+        "isDisplayed": true,
+        "parsedForm": "た",
+        "vocabId": "8ee8e382-e65c-4af4-81b6-ccd55babc91f"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "落書きしたろ",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "identify words",
+    "why": "Converted from TextAnalysisWithSelectDataTests.IdentifyWords, against vocab copied by hand, expected the forms of the parsing result: 落書き | する | た.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "落書きする",
+          "vocabId": "b3d0201b-7597-4e91-b0cd-08c05b10dfe5"
+        },
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": false,
+          "parsedForm": "落書き",
+          "vocabId": "b8707342-7341-4e5b-af3a-6f2fd3eecb3d"
+        },
+        {
+          "variant": "B",
+          "startIndex": 3,
+          "isDisplayed": false,
+          "parsedForm": "した",
+          "vocabId": "06654a9a-6a26-498f-968a-a4d7d254cfea"
+        },
+        {
+          "variant": "B",
+          "startIndex": 3,
+          "isDisplayed": false,
+          "parsedForm": "する",
+          "vocabId": "2ae61cd0-5be8-4599-b48d-a78f97423ddb"
+        },
+        {
+          "variant": "S",
+          "startIndex": 4,
+          "isDisplayed": true,
+          "parsedForm": "たろ",
+          "vocabId": "3a0248f4-fc12-49f0-84c9-ac60a212c223"
+        },
+        {
+          "variant": "B",
+          "startIndex": 4,
+          "isDisplayed": true,
+          "parsedForm": "た",
+          "vocabId": "8ee8e382-e65c-4af4-81b6-ccd55babc91f"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false,
+            "automaticallyYieldLastTokenInSuruVerbCompoundsToOverlappingCompound": false
+          },
+          "displayedWords": [
+            {
+              "form": "落書きする",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "b3d0201b-7597-4e91-b0cd-08c05b10dfe5"
+            },
+            {
+              "form": "たろ",
+              "startIndex": 4,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "3a0248f4-fc12-49f0-84c9-ac60a212c223"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": false,
+            "automaticallyYieldLastTokenInSuruVerbCompoundsToOverlappingCompound": true
+          },
+          "displayedWords": [
+            {
+              "form": "落書き",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "b8707342-7341-4e5b-af3a-6f2fd3eecb3d"
+            },
+            {
+              "form": "した",
+              "startIndex": 3,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "06654a9a-6a26-498f-968a-a4d7d254cfea"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true,
+            "automaticallyYieldLastTokenInSuruVerbCompoundsToOverlappingCompound": false
+          },
+          "displayedWords": [
+            {
+              "form": "落書き",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "b8707342-7341-4e5b-af3a-6f2fd3eecb3d"
+            },
+            {
+              "form": "する",
+              "startIndex": 3,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "2ae61cd0-5be8-4599-b48d-a78f97423ddb"
+            },
+            {
+              "form": "たろ",
+              "startIndex": 4,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "3a0248f4-fc12-49f0-84c9-ac60a212c223"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true,
+            "automaticallyYieldLastTokenInSuruVerbCompoundsToOverlappingCompound": true
+          },
+          "displayedWords": [
+            {
+              "form": "落書き",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "b8707342-7341-4e5b-af3a-6f2fd3eecb3d"
+            },
+            {
+              "form": "する",
+              "startIndex": 3,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "2ae61cd0-5be8-4599-b48d-a78f97423ddb"
+            },
+            {
+              "form": "たろ",
+              "startIndex": 4,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "3a0248f4-fc12-49f0-84c9-ac60a212c223"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "59184eb7-1fd2-49cb-9f21-0e302c5e7544",
+  "tags": []
+}

@@ -1,0 +1,119 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "すげえ",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "すげえ",
+        "vocabId": "c464b617-b963-4df6-a1f1-49489b3401c1"
+      },
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": false,
+        "parsedForm": "すげ",
+        "vocabId": "812eedb9-4442-49ea-aa03-02cae9d3a131"
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "え",
+        "vocabId": "7a58356a-0ec3-4fd5-9c4d-e44e69f0167e"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "すげえ",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "identify words",
+    "why": "Converted from TextAnalysisWithSelectDataTests.IdentifyWords, against vocab copied by hand, expected the forms of the parsing result: すげえ | すげ.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "すげえ",
+          "vocabId": "c464b617-b963-4df6-a1f1-49489b3401c1"
+        },
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": false,
+          "parsedForm": "すげ",
+          "vocabId": "812eedb9-4442-49ea-aa03-02cae9d3a131"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": false,
+          "parsedForm": "え",
+          "vocabId": "7a58356a-0ec3-4fd5-9c4d-e44e69f0167e"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "すげえ",
+              "startIndex": 0,
+              "variant": "S",
+              "shownAs": "すげー",
+              "isEmergencyDisplayed": false,
+              "vocabId": "c464b617-b963-4df6-a1f1-49489b3401c1"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "すげ",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "812eedb9-4442-49ea-aa03-02cae9d3a131"
+            },
+            {
+              "form": "え",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "7a58356a-0ec3-4fd5-9c4d-e44e69f0167e"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "502fc2a6-1d19-4d38-949c-4ce1394624c3",
+  "tags": []
+}

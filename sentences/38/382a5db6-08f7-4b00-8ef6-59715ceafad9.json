@@ -1,0 +1,88 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "食べよ",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "B",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "食べる",
+        "vocabId": "5118b117-8c7a-4921-a78b-2b4717227e32"
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "よ",
+        "vocabId": "e268ce3b-95c7-4860-ae31-9693be3dc7ab"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "食べよ",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "ichidan imperative",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.IchidanImperative, against vocab copied by hand, expected the breakdown to display: 食べる | よ.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "食べる",
+          "vocabId": "5118b117-8c7a-4921-a78b-2b4717227e32"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": true,
+          "parsedForm": "よ",
+          "vocabId": "e268ce3b-95c7-4860-ae31-9693be3dc7ab"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {},
+          "displayedWords": [
+            {
+              "form": "食べる",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "5118b117-8c7a-4921-a78b-2b4717227e32"
+            },
+            {
+              "form": "よ",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "e268ce3b-95c7-4860-ae31-9693be3dc7ab"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "382a5db6-08f7-4b00-8ef6-59715ceafad9",
+  "tags": []
+}

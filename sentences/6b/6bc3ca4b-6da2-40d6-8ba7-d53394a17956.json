@@ -1,0 +1,164 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "外出中",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "外出中",
+        "vocabId": "8b11d9a4-3fcb-4c27-bf44-940a0c34a3c5"
+      },
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": false,
+        "parsedForm": "外出",
+        "vocabId": "96839c04-be2b-4781-9303-8067fadb146c"
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "中",
+        "vocabId": "ee161b46-dab9-4220-96d2-6350c661aed7"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "外出中",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "hide transparent compounds",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.HideTransparentCompounds, against vocab copied by hand, expected the breakdown to display: 外出 | 中.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "外出中",
+          "vocabId": "8b11d9a4-3fcb-4c27-bf44-940a0c34a3c5"
+        },
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": false,
+          "parsedForm": "外出",
+          "vocabId": "96839c04-be2b-4781-9303-8067fadb146c"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": false,
+          "parsedForm": "中",
+          "vocabId": "ee161b46-dab9-4220-96d2-6350c661aed7"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false,
+            "hideCompositionallyTransparentCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "外出中",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "8b11d9a4-3fcb-4c27-bf44-940a0c34a3c5"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": false,
+            "hideCompositionallyTransparentCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "外出",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "96839c04-be2b-4781-9303-8067fadb146c"
+            },
+            {
+              "form": "中",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "ee161b46-dab9-4220-96d2-6350c661aed7"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true,
+            "hideCompositionallyTransparentCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "外出",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "96839c04-be2b-4781-9303-8067fadb146c"
+            },
+            {
+              "form": "中",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "ee161b46-dab9-4220-96d2-6350c661aed7"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true,
+            "hideCompositionallyTransparentCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "外出",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "96839c04-be2b-4781-9303-8067fadb146c"
+            },
+            {
+              "form": "中",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "ee161b46-dab9-4220-96d2-6350c661aed7"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "6bc3ca4b-6da2-40d6-8ba7-d53394a17956",
+  "tags": []
+}

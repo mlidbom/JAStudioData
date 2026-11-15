@@ -1,0 +1,188 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "うるせえ",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "うるせえ",
+        "vocabId": "a3481554-0703-4b2d-a24c-49f462bd8746"
+      },
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": false,
+        "parsedForm": "うる",
+        "vocabId": "6b751596-6377-486f-82d5-57e6a984629f"
+      },
+      {
+        "variant": "B",
+        "startIndex": 0,
+        "isDisplayed": false,
+        "parsedForm": "うる",
+        "vocabId": "6b751596-6377-486f-82d5-57e6a984629f"
+      },
+      {
+        "variant": "B",
+        "startIndex": 1,
+        "isDisplayed": false,
+        "parsedForm": "う",
+        "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "せえ",
+        "vocabId": "5cafa6a1-6b7a-4bae-9c62-b054e067eaed"
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "せ",
+        "vocabId": "5d3f6d0f-9991-47ec-a38d-08b046b6a221"
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": false,
+        "parsedForm": "え",
+        "vocabId": "7a58356a-0ec3-4fd5-9c4d-e44e69f0167e"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "うるせえ",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "requires a stem",
+    "why": "Converted from TextAnalysisWithSelectDataTests.RequiresAStem, against vocab copied by hand, expected the forms of the parsing result, in that order: うるせえ | う | せえ | せる.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "うるせえ",
+          "vocabId": "a3481554-0703-4b2d-a24c-49f462bd8746"
+        },
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": false,
+          "parsedForm": "うる",
+          "vocabId": "6b751596-6377-486f-82d5-57e6a984629f"
+        },
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": false,
+          "parsedForm": "うる",
+          "vocabId": "6b751596-6377-486f-82d5-57e6a984629f"
+        },
+        {
+          "variant": "B",
+          "startIndex": 1,
+          "isDisplayed": false,
+          "parsedForm": "う",
+          "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": false,
+          "parsedForm": "せえ",
+          "vocabId": "5cafa6a1-6b7a-4bae-9c62-b054e067eaed"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": false,
+          "parsedForm": "せ",
+          "vocabId": "5d3f6d0f-9991-47ec-a38d-08b046b6a221"
+        },
+        {
+          "variant": "S",
+          "startIndex": 3,
+          "isDisplayed": false,
+          "parsedForm": "え",
+          "vocabId": "7a58356a-0ec3-4fd5-9c4d-e44e69f0167e"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "うるせえ",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "a3481554-0703-4b2d-a24c-49f462bd8746"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "うる",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "6b751596-6377-486f-82d5-57e6a984629f"
+            },
+            {
+              "form": "う",
+              "startIndex": 1,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+            },
+            {
+              "form": "せ",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "5d3f6d0f-9991-47ec-a38d-08b046b6a221"
+            },
+            {
+              "form": "え",
+              "startIndex": 3,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "7a58356a-0ec3-4fd5-9c4d-e44e69f0167e"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "8a52145a-83cd-40a5-a011-1874fa503f3c",
+  "tags": []
+}

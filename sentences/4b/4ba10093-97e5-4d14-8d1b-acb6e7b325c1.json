@@ -126,6 +126,172 @@
       }
     ]
   },
+  "parsingCase": {
+    "name": "dictionary form splitting",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.DictionaryFormSplitting, against vocab copied by hand, expected the breakdown to display: なぜかというと.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "なぜかというと",
+          "vocabId": "09ef99b5-9072-4895-b867-23c36a6f7642"
+        },
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": false,
+          "parsedForm": "なぜか",
+          "vocabId": "ac0b9ddc-b0ac-44a1-ae81-693eb675f20b"
+        },
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": false,
+          "parsedForm": "なぜ",
+          "vocabId": "61c5b032-0483-4ecc-a7a0-69203ae09d04"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": false,
+          "parsedForm": "か",
+          "vocabId": "fa01f6d1-0021-4f11-a8aa-eb4b0b6bc533"
+        },
+        {
+          "variant": "S",
+          "startIndex": 3,
+          "isDisplayed": false,
+          "parsedForm": "というと",
+          "vocabId": "9c7c76f8-38b1-4a41-a2ac-0d3b2cb91e0d"
+        },
+        {
+          "variant": "S",
+          "startIndex": 3,
+          "isDisplayed": false,
+          "parsedForm": "という",
+          "vocabId": "b7d43154-7f1a-4996-be3d-41a7157a734a"
+        },
+        {
+          "variant": "B",
+          "startIndex": 3,
+          "isDisplayed": false,
+          "parsedForm": "という",
+          "vocabId": "b7d43154-7f1a-4996-be3d-41a7157a734a"
+        },
+        {
+          "variant": "S",
+          "startIndex": 3,
+          "isDisplayed": false,
+          "parsedForm": "と",
+          "vocabId": "56979285-581f-4cba-b839-889bc5ce98aa"
+        },
+        {
+          "variant": "S",
+          "startIndex": 4,
+          "isDisplayed": false,
+          "parsedForm": "いう",
+          "vocabId": "b7cefd46-499a-4c9c-9f06-3eed04e1d410"
+        },
+        {
+          "variant": "B",
+          "startIndex": 4,
+          "isDisplayed": false,
+          "parsedForm": "いう",
+          "vocabId": "b7cefd46-499a-4c9c-9f06-3eed04e1d410"
+        },
+        {
+          "variant": "S",
+          "startIndex": 5,
+          "isDisplayed": false,
+          "parsedForm": "うと",
+          "vocabId": "4efad35c-59e7-4cfc-b493-1c9d1bd9279c"
+        },
+        {
+          "variant": "S",
+          "startIndex": 5,
+          "isDisplayed": false,
+          "parsedForm": "う",
+          "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+        },
+        {
+          "variant": "S",
+          "startIndex": 6,
+          "isDisplayed": false,
+          "parsedForm": "と",
+          "vocabId": "56979285-581f-4cba-b839-889bc5ce98aa"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "なぜかというと",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "09ef99b5-9072-4895-b867-23c36a6f7642"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "なぜ",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "61c5b032-0483-4ecc-a7a0-69203ae09d04"
+            },
+            {
+              "form": "か",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "fa01f6d1-0021-4f11-a8aa-eb4b0b6bc533"
+            },
+            {
+              "form": "と",
+              "startIndex": 3,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "56979285-581f-4cba-b839-889bc5ce98aa"
+            },
+            {
+              "form": "いう",
+              "startIndex": 4,
+              "variant": "S",
+              "shownAs": "言う",
+              "isEmergencyDisplayed": false,
+              "vocabId": "b7cefd46-499a-4c9c-9f06-3eed04e1d410"
+            },
+            {
+              "form": "う",
+              "startIndex": 5,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "dcca0586-d8a4-4281-9f5f-a50f58a75fb2"
+            },
+            {
+              "form": "と",
+              "startIndex": 6,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "56979285-581f-4cba-b839-889bc5ce98aa"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "id": "4ba10093-97e5-4d14-8d1b-acb6e7b325c1",
   "tags": [
     "source::jlab::inter"

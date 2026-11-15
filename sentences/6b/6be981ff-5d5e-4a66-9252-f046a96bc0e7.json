@@ -1,0 +1,130 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "ここは清められ",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "S",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "ここ",
+        "vocabId": "809572a3-a267-4c38-93ea-fa7cab5b3e9b"
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "は",
+        "vocabId": "825f4f56-9e9b-4eb9-92e2-099dc6d0c677"
+      },
+      {
+        "variant": "B",
+        "startIndex": 3,
+        "isDisplayed": true,
+        "parsedForm": "清める",
+        "vocabId": "cc66a4da-93e9-47e9-8876-2d508116c1ea"
+      },
+      {
+        "variant": "B",
+        "startIndex": 5,
+        "isDisplayed": true,
+        "parsedForm": "られる",
+        "vocabId": "71ebf1ac-c158-4c74-9405-500b747c5d62"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "ここは清められ",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "godan potential and imperative",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.GodanPotentialAndImperative, against vocab copied by hand, expected the breakdown to display: ここ | は | 清める | られる.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "ここ",
+          "vocabId": "809572a3-a267-4c38-93ea-fa7cab5b3e9b"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": true,
+          "parsedForm": "は",
+          "vocabId": "825f4f56-9e9b-4eb9-92e2-099dc6d0c677"
+        },
+        {
+          "variant": "B",
+          "startIndex": 3,
+          "isDisplayed": true,
+          "parsedForm": "清める",
+          "vocabId": "cc66a4da-93e9-47e9-8876-2d508116c1ea"
+        },
+        {
+          "variant": "B",
+          "startIndex": 5,
+          "isDisplayed": true,
+          "parsedForm": "られる",
+          "vocabId": "71ebf1ac-c158-4c74-9405-500b747c5d62"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {},
+          "displayedWords": [
+            {
+              "form": "ここ",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "809572a3-a267-4c38-93ea-fa7cab5b3e9b"
+            },
+            {
+              "form": "は",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "825f4f56-9e9b-4eb9-92e2-099dc6d0c677"
+            },
+            {
+              "form": "清める",
+              "startIndex": 3,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "cc66a4da-93e9-47e9-8876-2d508116c1ea"
+            },
+            {
+              "form": "られる",
+              "startIndex": 5,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "71ebf1ac-c158-4c74-9405-500b747c5d62"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "6be981ff-5d5e-4a66-9252-f046a96bc0e7",
+  "tags": []
+}

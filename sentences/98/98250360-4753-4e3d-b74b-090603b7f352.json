@@ -68,6 +68,92 @@
       }
     ]
   },
+  "parsingCase": {
+    "name": "misc stuff",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.MiscStuff, against vocab copied by hand, expected the breakdown to display: 私 | が | 頼む | んだ:past | の; and from TextAnalysisWithSelectDataTests.ExcludedSurfaces, against vocab copied by hand, expected the forms of the parsing result, in that order: 私 | が | 頼む | んだ | の.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "私",
+          "vocabId": "b0feb775-fb1d-4097-b7bc-dbf87fae98a1"
+        },
+        {
+          "variant": "S",
+          "startIndex": 1,
+          "isDisplayed": true,
+          "parsedForm": "が",
+          "vocabId": "2abe98f2-ebd9-4aae-9562-451647960317"
+        },
+        {
+          "variant": "B",
+          "startIndex": 2,
+          "isDisplayed": true,
+          "parsedForm": "頼む",
+          "vocabId": "33cf7d57-ac3b-4b05-80ad-d808a0bf0fd1"
+        },
+        {
+          "variant": "S",
+          "startIndex": 3,
+          "isDisplayed": true,
+          "parsedForm": "んだ",
+          "vocabId": "b4ea9553-0c0b-491e-ae0b-95c025484070"
+        },
+        {
+          "variant": "S",
+          "startIndex": 5,
+          "isDisplayed": true,
+          "parsedForm": "の",
+          "vocabId": "33bf9bc1-0744-4973-8d45-5776bc54eac1"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {},
+          "displayedWords": [
+            {
+              "form": "私",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "b0feb775-fb1d-4097-b7bc-dbf87fae98a1"
+            },
+            {
+              "form": "が",
+              "startIndex": 1,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "2abe98f2-ebd9-4aae-9562-451647960317"
+            },
+            {
+              "form": "頼む",
+              "startIndex": 2,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "33cf7d57-ac3b-4b05-80ad-d808a0bf0fd1"
+            },
+            {
+              "form": "んだ",
+              "startIndex": 3,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "b4ea9553-0c0b-491e-ae0b-95c025484070"
+            },
+            {
+              "form": "の",
+              "startIndex": 5,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "33bf9bc1-0744-4973-8d45-5776bc54eac1"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "id": "98250360-4753-4e3d-b74b-090603b7f352",
   "tags": [
     "source::anime::violet::04"

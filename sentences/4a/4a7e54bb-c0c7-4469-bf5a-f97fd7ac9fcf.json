@@ -1,0 +1,88 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "沈んで",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "B",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "沈む",
+        "vocabId": "3be74102-6f92-4116-b724-c844c5da801a"
+      },
+      {
+        "variant": "S",
+        "startIndex": 1,
+        "isDisplayed": true,
+        "parsedForm": "んで",
+        "vocabId": "4a33fc3b-50b9-47c7-8d6a-7d6296652719"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "沈んで",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "misc stuff",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.MiscStuff, against vocab copied by hand, expected the breakdown to display: 沈む | んで.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "沈む",
+          "vocabId": "3be74102-6f92-4116-b724-c844c5da801a"
+        },
+        {
+          "variant": "S",
+          "startIndex": 1,
+          "isDisplayed": true,
+          "parsedForm": "んで",
+          "vocabId": "4a33fc3b-50b9-47c7-8d6a-7d6296652719"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {},
+          "displayedWords": [
+            {
+              "form": "沈む",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "3be74102-6f92-4116-b724-c844c5da801a"
+            },
+            {
+              "form": "んで",
+              "startIndex": 1,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "4a33fc3b-50b9-47c7-8d6a-7d6296652719"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "4a7e54bb-c0c7-4469-bf5a-f97fd7ac9fcf",
+  "tags": []
+}

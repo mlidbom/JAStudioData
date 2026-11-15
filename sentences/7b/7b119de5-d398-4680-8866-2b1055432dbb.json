@@ -1,0 +1,174 @@
+{
+  "corpusQuestion": "",
+  "corpusAnswer": "",
+  "comments": "",
+  "reading": "",
+  "audio": [],
+  "screenshots": [],
+  "configuration": {
+    "highlightedWords": [],
+    "incorrectMatches": [],
+    "hiddenMatches": []
+  },
+  "parsingResult": {
+    "sentence": "返せ俺の",
+    "parserVersion": "text_analysis_0.1",
+    "parsedWords": [
+      {
+        "variant": "B",
+        "startIndex": 0,
+        "isDisplayed": true,
+        "parsedForm": "返す",
+        "vocabId": "6aa51efa-95a2-4d34-8c16-7debb4ceeec5"
+      },
+      {
+        "variant": "B",
+        "startIndex": 1,
+        "isDisplayed": true,
+        "parsedForm": "え",
+        "vocabId": "602a5d49-874c-4f77-a5de-9ddbd99ee156"
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": true,
+        "parsedForm": "俺の",
+        "vocabId": "ddd52137-e0df-4ef5-94fa-7cf7733e1617"
+      },
+      {
+        "variant": "S",
+        "startIndex": 2,
+        "isDisplayed": false,
+        "parsedForm": "俺",
+        "vocabId": "de4dede8-f208-498f-9dca-d9d5c2bff7e5"
+      },
+      {
+        "variant": "S",
+        "startIndex": 3,
+        "isDisplayed": false,
+        "parsedForm": "の",
+        "vocabId": "33bf9bc1-0744-4973-8d45-5776bc54eac1"
+      }
+    ]
+  },
+  "sourceName": "",
+  "sourceData": {
+    "question": "返せ俺の",
+    "answer": "",
+    "comments": "",
+    "externalId": "",
+    "audio": [],
+    "screenshots": []
+  },
+  "parsingCase": {
+    "name": "godan potential and imperative",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.GodanPotentialAndImperative, against vocab copied by hand, expected the breakdown to display: 返す | え | 俺 | の.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "返す",
+          "vocabId": "6aa51efa-95a2-4d34-8c16-7debb4ceeec5"
+        },
+        {
+          "variant": "B",
+          "startIndex": 1,
+          "isDisplayed": true,
+          "parsedForm": "え",
+          "vocabId": "602a5d49-874c-4f77-a5de-9ddbd99ee156"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": true,
+          "parsedForm": "俺の",
+          "vocabId": "ddd52137-e0df-4ef5-94fa-7cf7733e1617"
+        },
+        {
+          "variant": "S",
+          "startIndex": 2,
+          "isDisplayed": false,
+          "parsedForm": "俺",
+          "vocabId": "de4dede8-f208-498f-9dca-d9d5c2bff7e5"
+        },
+        {
+          "variant": "S",
+          "startIndex": 3,
+          "isDisplayed": false,
+          "parsedForm": "の",
+          "vocabId": "33bf9bc1-0744-4973-8d45-5776bc54eac1"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "返す",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "6aa51efa-95a2-4d34-8c16-7debb4ceeec5"
+            },
+            {
+              "form": "え",
+              "startIndex": 1,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "602a5d49-874c-4f77-a5de-9ddbd99ee156"
+            },
+            {
+              "form": "俺の",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "ddd52137-e0df-4ef5-94fa-7cf7733e1617"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "返す",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "6aa51efa-95a2-4d34-8c16-7debb4ceeec5"
+            },
+            {
+              "form": "え",
+              "startIndex": 1,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "602a5d49-874c-4f77-a5de-9ddbd99ee156"
+            },
+            {
+              "form": "俺",
+              "startIndex": 2,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "de4dede8-f208-498f-9dca-d9d5c2bff7e5"
+            },
+            {
+              "form": "の",
+              "startIndex": 3,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "33bf9bc1-0744-4973-8d45-5776bc54eac1"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "7b119de5-d398-4680-8866-2b1055432dbb",
+  "tags": []
+}

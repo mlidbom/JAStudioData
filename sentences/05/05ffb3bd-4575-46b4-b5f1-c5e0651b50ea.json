@@ -63,6 +63,94 @@
       }
     ]
   },
+  "parsingCase": {
+    "name": "misc stuff",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.MiscStuff, against vocab copied by hand, expected the breakdown to display: 悪い | た | って.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "悪かった",
+          "vocabId": "325b5658-8f47-46c4-a2d9-e409b90ed2fa"
+        },
+        {
+          "variant": "B",
+          "startIndex": 0,
+          "isDisplayed": false,
+          "parsedForm": "悪い",
+          "vocabId": "9ef4d0b9-09d2-4ddf-b97e-ca79d9b64260"
+        },
+        {
+          "variant": "S",
+          "startIndex": 3,
+          "isDisplayed": false,
+          "parsedForm": "た",
+          "vocabId": "8ee8e382-e65c-4af4-81b6-ccd55babc91f"
+        },
+        {
+          "variant": "S",
+          "startIndex": 4,
+          "isDisplayed": true,
+          "parsedForm": "って",
+          "vocabId": "e7744e50-5174-4bca-afc7-6ad527634ad9"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "悪かった",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "325b5658-8f47-46c4-a2d9-e409b90ed2fa"
+            },
+            {
+              "form": "って",
+              "startIndex": 4,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "e7744e50-5174-4bca-afc7-6ad527634ad9"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "悪い",
+              "startIndex": 0,
+              "variant": "B",
+              "isEmergencyDisplayed": false,
+              "vocabId": "9ef4d0b9-09d2-4ddf-b97e-ca79d9b64260"
+            },
+            {
+              "form": "た",
+              "startIndex": 3,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "8ee8e382-e65c-4af4-81b6-ccd55babc91f"
+            },
+            {
+              "form": "って",
+              "startIndex": 4,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "e7744e50-5174-4bca-afc7-6ad527634ad9"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "id": "05ffb3bd-4575-46b4-b5f1-c5e0651b50ea",
   "tags": [
     "source::anime::girls-last-tour::02"

@@ -75,6 +75,115 @@
       }
     ]
   },
+  "parsingCase": {
+    "name": "misc stuff",
+    "why": "Converted from SentenceAnalysisViewModelWithSelectDataTests.MiscStuff, against vocab copied by hand, expected the breakdown to display: 大家族 | だもの.",
+    "verdictOnTheDisplayedVocab": "verified",
+    "expected": {
+      "parsedWords": [
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": true,
+          "parsedForm": "大家族",
+          "vocabId": "64086408-7dfa-42aa-b0d4-e511f02b95b1"
+        },
+        {
+          "variant": "S",
+          "startIndex": 0,
+          "isDisplayed": false,
+          "parsedForm": "大",
+          "vocabId": "873b9ede-3e44-497e-a415-43bbfc873451"
+        },
+        {
+          "variant": "S",
+          "startIndex": 1,
+          "isDisplayed": false,
+          "parsedForm": "家族",
+          "vocabId": "fd4d14b6-14fc-444d-82ee-0b6518e84898"
+        },
+        {
+          "variant": "S",
+          "startIndex": 3,
+          "isDisplayed": true,
+          "parsedForm": "だもの",
+          "vocabId": "f46c1720-eb97-4172-bffc-21c5cd34c320"
+        },
+        {
+          "variant": "S",
+          "startIndex": 3,
+          "isDisplayed": false,
+          "parsedForm": "だ",
+          "vocabId": "32d275aa-5811-482d-b2f3-7e6d2080ac53"
+        },
+        {
+          "variant": "S",
+          "startIndex": 4,
+          "isDisplayed": false,
+          "parsedForm": "もの",
+          "vocabId": "9b13f5d7-5d34-4c43-985a-7b64b48c767b"
+        }
+      ],
+      "breakdowns": [
+        {
+          "options": {
+            "hideAllCompounds": false
+          },
+          "displayedWords": [
+            {
+              "form": "大家族",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "64086408-7dfa-42aa-b0d4-e511f02b95b1"
+            },
+            {
+              "form": "だもの",
+              "startIndex": 3,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "f46c1720-eb97-4172-bffc-21c5cd34c320"
+            }
+          ]
+        },
+        {
+          "options": {
+            "hideAllCompounds": true
+          },
+          "displayedWords": [
+            {
+              "form": "大",
+              "startIndex": 0,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "873b9ede-3e44-497e-a415-43bbfc873451"
+            },
+            {
+              "form": "家族",
+              "startIndex": 1,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "fd4d14b6-14fc-444d-82ee-0b6518e84898"
+            },
+            {
+              "form": "だ",
+              "startIndex": 3,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "32d275aa-5811-482d-b2f3-7e6d2080ac53"
+            },
+            {
+              "form": "もの",
+              "startIndex": 4,
+              "variant": "S",
+              "isEmergencyDisplayed": false,
+              "vocabId": "9b13f5d7-5d34-4c43-985a-7b64b48c767b"
+            }
+          ]
+        }
+      ]
+    }
+  },
   "id": "c24b11b7-49d7-4261-ba82-0fa93b5f067b",
   "tags": [
     "source::anime::natsume::s5::10"
